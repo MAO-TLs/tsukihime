@@ -8,7 +8,7 @@ bg "bg/bg_29c",rcartain,400
 wavestop
 `Every nerve in Nrvnqsr’s body is fixed on Arcueid.@ Even I, an outsider, can tell that he sees nothing but what lies ahead.@ His back is naked to me, utterly unsuspecting that in a few more seconds I’ll be upon him, carving him apart.@
 br
-`I can do this.@
+`[line=3]I can do this.@
 br
 `Instinct tells me so.@ If I keep going, I can kill him.@ No question.
 \
@@ -26,14 +26,14 @@ bg #000000,notrans,0
 bg #9c0120,notrans,0
 wait 100
 bg #000000,notrans,0
-`A stab of pain.@
+`[line=4]A stab of pain.@
 br
 `Agony streaks through my skull.@ The fingers gripping the knife begin to tremble.@ Something crushes down on my head, grinding it in a vise—and then I see it.@ A single black point on Nrvnqsr’s back.@
 bg "bg/cmo_17",crossfade,400
 \
 `“……!”@
 br
-`That’s it.@ That has to be his weak point, the place where death comes easiest.@ It feels wrong that it’s a point rather than a line, but never mind that.@ I drive my knife straight through it!
+`[line=4]That’s it.@ That has to be his weak point, the place where death comes easiest.@ It feels wrong that it’s a point rather than a line, but never mind that.@ I drive my knife straight through it!
 \
 `I plant my foot and lunge.@ The knife in my right hand flashes toward Nrvnqsr’s point.@
 br
@@ -103,7 +103,7 @@ br
 \
 `“……”@ Arcueid cannot move.@ The three panthers crack the brickwork underfoot merely by running across it.@ They are many times faster than she is as she tries to escape.@
 br
-`The three savage beasts tear into Arcueid.@
+`[line=3]The three savage beasts tear into Arcueid.@
 !w2000
 br
 `And just like that, it is over.
@@ -129,7 +129,7 @@ br
 \
 `“Wha—”@ Nrvnqsr retreats.@ Arcueid sweeps her claws.@
 br
-`There is a single slicing sound.@ Nrvnqsr’s body splits in two from the base of his neck.
+`[line=4]There is a single slicing sound.@ Nrvnqsr’s body splits in two from the base of his neck.
 \
 bg "bg/ima_13b",crossfade,400
 bg "event/ark_e03",crossfade,400
@@ -160,7 +160,7 @@ ld c,"tachi/nero_t02d",crossfade,400
 cl c,crossfade,800
 `There is not a trace of distress in Nrvnqsr’s voice.@
 br
-`Something is wrong.@ A terrible certainty of disaster settles over me.@
+`[line=4]Something is wrong.@ A terrible certainty of disaster settles over me.@
 br
 `“Haaah…@ haah…”@ Slowly mastering her breath, Arcueid continues toward Nrvnqsr.
 \
@@ -239,7 +239,7 @@ br
 br
 br
 br
-`If this goes on—if I do nothing—will that black liquid swallow Arcueid whole?
+`[line=4]If this goes on—if I do nothing—will that black liquid swallow Arcueid whole?
 \
 `“You…@ bastard…!”@ I focus my sight upon the liquid coating me.@ The black Lines of Death are there.@ “Ghk!”@ Fighting down the pain that lances through my skull, I slash with the knife.@
 wave se_12
@@ -248,7 +248,7 @@ wave se_12
 waveloop se_02
 `“All right…!”@ Still gasping, I force myself to my feet.@
 br
-`I have to save her.@ I have to save Arcueid from that monster.@
+`[line=3]I have to save her.@ I have to save Arcueid from that monster.@
 br
 `But how?@ I can’t even get near Nrvnqsr.@ Even Arcueid—with all that terrifying strength—failed to corner him.
 \
@@ -270,7 +270,7 @@ br
 \
 `“It can’t be…”@ The sound comes from far away, but it is steadily drawing nearer—the light footfalls of someone almost skipping.@
 br
-`Arcueid told me this park would be deserted at night.@ If someone still happened to wander through, then that person would simply have been unlucky.@
+`[line=3]Arcueid told me this park would be deserted at night.@ If someone still happened to wander through, then that person would simply have been unlucky.@
 br
 `A tiny figure appears in the distance.@ A girl about my age, someone whose face I have never seen.
 \
@@ -309,7 +309,7 @@ br
 br
 br
 br
-`Too merciless.@ Violence so absolute, so one-sided it is obscene.
+`[line=3]Too merciless.@ Violence so absolute, so one-sided it is obscene.
 \
 wave se_01
 bg #ffffff,notrans,0
@@ -325,7 +325,7 @@ br
 \
 br
 br
-`Grind.@ Crack.@ Crunch.
+`[line=5]Grind.@ Crack.@ Crunch.
 \
 br
 br
@@ -337,7 +337,7 @@ br
 br
 br
 br
-`Creak.@ Squish.@ Gulp.
+`[line=5]Creak.@ Squish.@ Gulp.
 \
 br
 br
@@ -355,7 +355,7 @@ wave se_01
 ld c,"tachi/nero_t02b",crossfade,400
 `Nrvnqsr’s mouth twists into a grin.@
 br
-`And then—
+`[line=4]And then—
 br
 `Something deep inside my head clicks into place.
 \
@@ -363,7 +363,7 @@ br
 \
 monocro #ff0000
 bg "bg/bg_29c",lshutter,400
-`Vermilion floods my eyes.@
+`[line=3]Vermilion floods my eyes.@
 br
 `“Devour him.”@ A black panther bursts from Nrvnqsr’s body.@ How many times faster, how many times more savage than the black dog?@ “……”@ I don’t care.@ It is alive.@ And anything alive is no match for me.
 \
@@ -374,7 +374,8 @@ bg "bg/bg_29c",crossfade,400
 ld c,"tachi/nero_t02b",crossfade,400
 `“I see.@ So you were the one who attacked me from behind.”@ Only now, it seems, has Nrvnqsr become aware of the human being named Shiki Tohno.@
 br
-`His empty eyes turn upon me.@ Arcueid was right.@ Once the doubt is gone, nothing changes merely because a thing like him glares at me.
+`His empty eyes turn upon me.@
+`[line=3]Arcueid was right.@ Once the doubt is gone, nothing changes merely because a thing like him glares at me.
 \
 `“Let Arcueid go, monster.”@ “……”@ “I said let her go.@ I’m your opponent now.@ Fighting with half a body would hardly be fair, would it?”@ “……”@ Silence.@ The vampire in the black coat looks from Arcueid to me without a word.
 \
@@ -414,5 +415,5 @@ wave se_01
 br
 `“N-no…”@ I don’t want that.@ More than the pain, I know it will be terrifying.
 \
-`Everything is black.@ I can’t see.@ I can’t do anything.@ Which means I have to think.
+`[line=3]Everything is black.@ I can’t see.@ I can’t do anything.@ Which means I have to think.
 \

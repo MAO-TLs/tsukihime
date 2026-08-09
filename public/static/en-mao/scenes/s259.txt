@@ -14,7 +14,7 @@ bg #000000,lcartain,800
 bg "bg/bg_26a",lcartain,800
 `Our silent walk continues to the hard, unbroken rhythm of her footsteps.@
 br
-`Then Arcueid stops dead and turns around.@
+`[line=3]Then Arcueid stops dead and turns around.@
 ld c,"tachi/ark_t07",crossfade,400
 `“Stop following me.@ Can’t you understand that having an ordinary human like you behind me is a nuisance?”@ “I told you—I’ll go home once you tell me what you’re doing.”@
 ld c,"tachi/ark_t06",crossfade,400
@@ -76,17 +76,17 @@ bg #000000,lshutter,400
 monocro #ff00ff
 bg "bg/bg_25b",lshutter,1500
 br
-`Thump.@
+`[line=3]Thump.@
 br
 `My heartbeat sounds unnaturally close.@ The night is still young, and I stand in the heart of a bustling entertainment district—yet every human presence but my own has disappeared.
 \
 br
-`THUMP.@
+`[line=3]THUMP.@
 br
 `My glasses.@ I have to put them back on.@ Otherwise I will see something hideous—a darkness so vast that everything my eyes have shown me before was only its threshold.
 \
 br
-`Thu…@mp.@
+`[line=3]Thu…@mp.@
 br
 `But my body will not move.@ My naked eyes, staring upon a world stitched together from scraps, remain fixed as if enchanted on the alley Arcueid entered—gazing through the wall itself.
 \
@@ -110,7 +110,7 @@ br
 br
 br
 br
-`Krrr—
+`[line=6]Krrr—
 \
 `Beneath a moon at absolute zero, something on the other side of the wall makes a sound that does not belong in this world.
 \
@@ -121,7 +121,7 @@ br
 br
 br
 br
-`Ghk.
+`[line=6]Ghk.
 \
 br
 br
@@ -134,7 +134,7 @@ br
 br
 br
 br
-`Shhk…@ squelch.
+`[line=6]Shhk…@ squelch.
 \
 br
 br
@@ -204,7 +204,7 @@ ld c,"tachi/ark_t06",crossfade,400
 ld c,"tachi/ark_t02",crossfade,400
 `“The Dead you saw works on the same principle.@ When a vampire drinks a human’s blood and then feeds that person some of its own, the victim remains in this world despite being dead.@ We call such a creature one of the Dead, and it serves as a vampire’s most common familiar.@ Perhaps ‘zombie’ would be easier for you.@ Strictly speaking, that refers to the Haitian white serpent that inhabits corpses, but zombies are your culture’s famous walking dead, aren’t they?”@
 br
-`Yes.@ Put that way, the image snaps instantly into focus.
+`[line=3]Yes.@ Put that way, the image snaps instantly into focus.
 \
 `“I understand.@ So that man was killed by a vampire long ago, turned into a zombie, and worked like a slave ever since?”@
 ld c,"tachi/ark_t01a",crossfade,400
@@ -240,7 +240,7 @@ ld c,"tachi/ark_t02",crossfade,400
 `“More like a puppet.@ Ordinarily, a person drained of blood must pass through the process of reviving as a vampiric being under their own power.@ The Dead bypass that process and are controlled entirely as extensions of their parent Dead Apostle.@ Each remains connected to its parent.@ It attacks humans and devours flesh for the energy it needs to survive, but more than half of what it takes flows back to the Dead Apostle.@ Think of worker bees feeding a queen.@ The master can gather strength without doing anything but sleeping in its coffin.”
 \
 ld c,"tachi/ark_t06",crossfade,400
-`“My enemy is difficult to find because it employs so many of the Dead.@ It soils its own hands only once.@ After that, it controls the human it has turned and expands its territory while it sleeps.@ You’ve heard that several bodies from the serial killings have been discovered, but those are merely the victims it failed to turn into the Dead.@ In truth, this town has suffered more than a hundred victims.@ The handful of bodies causing such a commotion are only a fraction of all the people who have vanished quietly, without anyone knowing why.”
+`“My enemy is difficult to find because it employs so many of the Dead.@ It soils its own hands only once.@ After that, it controls the human it has turned and expands its territory while it sleeps.@ You’ve heard that several bodies from the serial killings have been discovered, but those are merely bodies from botched attempts at concealment.@ In truth, this town has suffered more than a hundred victims.@ The handful of bodies causing such a commotion are only a fraction of all the people who have vanished quietly, without anyone knowing why.”
 \
 playstop
 cl a,crossfade,400
@@ -250,7 +250,7 @@ br
 \
 `“That’s…@ sick.”@ I remember the hotel three days ago, where every guest had been slaughtered for no reason at all.@ I was there, but I never saw the massacre itself.@ I could imagine it only through words, never feel upon my skin the vileness of that violence.@ Even now, it is the same.@ Hearing that a vampire drinks human blood and is slowly expanding its territory through the city doesn’t feel real.
 \
-`But suppose someone closest to me were murdered that way, without reason or warning.@ What would become of me?@ Though I don’t want to imagine it, the image flashes through my mind: Akiha drained of blood and discarded like garbage.@
+`[line=3]But suppose someone closest to me were murdered that way, without reason or warning.@ What would become of me?@ Though I don’t want to imagine it, the image flashes through my mind: Akiha drained of blood and discarded like garbage.@
 br
 `“Ghh…”@ What enrages me is that such a nightmare could happen at any moment in this town—and that I had lived in peace without ever noticing.
 \
@@ -280,7 +280,8 @@ ld c,"tachi/ark_t03",crossfade,400
 ld c,"tachi/ark_t01a",crossfade,400
 `“That’s why I said you don’t need to worry.@ I’ll settle it within two or three days.@ I won’t allow any more victims.”@
 br
-`Honestly, I want nothing to do with this.@ But those words—words about protecting this town—shouldn’t they be spoken by someone who lives here, rather than by Arcueid?@ Shouldn’t they be mine?
+`Honestly, I want nothing to do with this.@
+`[line=3]But those words—words about protecting this town—shouldn’t they be spoken by someone who lives here, rather than by Arcueid?@ Shouldn’t they be mine?
 \
 `“Arcueid, let me ask one thing.@ Is this enemy of yours strong?”@ “Far stronger than the Dead you saw.@ I haven’t encountered it yet this time, so I can’t be certain, but after hiding for eight years, it has probably reached the fifth rank.”@ “I don’t know what the fifth rank means.@ Is it stronger than Nrvnqsr?”@ “Of course not.@ Nrvnqsr was exceptional—a vampiric being of the highest purity whom I could not reliably defeat even at full strength.@ My enemy is several grades beneath him.”
 \
@@ -297,7 +298,7 @@ ld c,"tachi/ark_t11",crossfade,400
 \
 `“…”@ It really is strange.@ Why can’t I leave her alone?@ Certainly I bear responsibility for killing her, and guilt because she remains weak on my account.@ But even without any of that, I still wouldn’t be able to abandon Arcueid.
 \
-`I thought this before: perhaps feelings like these simply have no logic.@ Right now, the wish to help Arcueid is stronger than my fear that I may die.
+`[line=3]I thought this before: perhaps feelings like these simply have no logic.@ Right now, the wish to help Arcueid is stronger than my fear that I may die.
 \
 `“About what we were discussing earlier, Arcueid.”@ “What part?”@ “Whether I was taking your side or hers.”@
 ld c,"tachi/ark_t06",crossfade,400
@@ -331,7 +332,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 \
 `“That would be the sensible thing.@ But a vampire can’t survive without draining blood and vital essence from others.@ Even knowing I’m hunting it, our enemy still has to send out the Dead to secure the bare minimum of food.”@
 br
-`—I see.@ So the man back there had been that bare minimum.
+`[line=3]I see.@ So the man back there had been that bare minimum.
 \
 `“Exactly.@ Which means there’s no point searching any longer tonight.”@ “Fine by me, but this is awfully slow going.”@ “Hunting vampires always is.@ We have to find our enemy’s coffin somewhere in this entire city.@ It was never going to end quickly.”@
 cl c,lshutter,800
@@ -348,7 +349,7 @@ ld c,"tachi/ark_t08",crossfade,400
 cl c,lshutter,800
 bg #000000,crossfade,1500
 bg "bg/bg_32d",lcartain,1500
-`—I made it back to the mansion.@ It was half past one in the morning, and every light in the house had gone out.@
+`[line=3]I made it back to the mansion.@ It was half past one in the morning, and every light in the house had gone out.@
 br
 `“…@This could be bad.”@ I tried the front gate.@ Clank.@ A formidable-looking lock had been fastened on the inside.@
 br
@@ -371,7 +372,7 @@ bg #000000,crossfade,1500
 !w2000
 bg "bg/bg_40d",lshutter,800
 br
-`—I couldn’t sleep.@ Whenever I closed my eyes, one thing after another floated into view.@ Arcueid.@ The vampire nesting somewhere in the city.@ And the girl from school, clad in black vestments…
+`[line=3]I couldn’t sleep.@ Whenever I closed my eyes, one thing after another floated into view.@ Arcueid.@ The vampire nesting somewhere in the city.@ And the girl from school, clad in black vestments…
 \
 `“……”@ No.@ I couldn’t sleep.@ At times like this, there was nothing for it but a book.@ I was sure I had left one half-finished the other day—
 \

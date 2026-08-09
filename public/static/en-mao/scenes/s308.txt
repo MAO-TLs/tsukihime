@@ -48,7 +48,7 @@ br
 `“W-wait—Arcueid, hold on…!”@ I shouted at the sudden sense of danger, but Arcueid pretended not to hear and lowered her face.@ I tried to wrench my captive arms free.@ Too late.@ And then—
 bg "bg/ima_10b",tshutter,800
 br
-`Arcueid pressed her lips to mine.
+`[line=3]Arcueid pressed her lips to mine.
 \
 playstop
 waveloop se_02
@@ -58,7 +58,7 @@ br
 `“You…@ unclean creature!”@
 quakex 4,50
 br
-`And then, without warning, the world lurched.
+`[line=4]And then, without warning, the world lurched.
 \
 wavestop
 bg "bg/bg_29b",tshutter,400
@@ -256,7 +256,7 @@ ld l,"tachi/ark_t09",crossfade,400
 \
 playstop
 wave se_01
-`Then—wait a moment.
+`[line=4]Then—wait a moment.
 \
 `“N-no!@ Absolutely not!@ We don’t need your power.@ I’ll find some way to save Tohno myself!@ I’ll spare you tonight, so go home at once!”@
 ld l,"tachi/ark_t03",crossfade,400
@@ -266,7 +266,7 @@ wave se_01
 br
 br
 br
-`Something was happening to my body.
+`[line=6]Something was happening to my body.
 \
 `“D-don’t be absurd.@ I want Roa gone even more than you do.@ I cannot bear to lose anyone else precious to me because of him.”@ “Then it’s simple.@ Shiki promises to choose me, and Roa disappears completely.@ We both get what we want.”
 \
@@ -276,7 +276,7 @@ br
 br
 br
 br
-`The feeling in my body was fading.
+`[line=5]The feeling in my body was fading.
 \
 `“That is a completely separate issue!@ In any case, why should I trust anything you say?@ Telling Tohno to kill himself—there is no way I’ll make him risk his life on such a desperate gamble.”@
 ld r,"tachi/cel_t06b",crossfade,400
@@ -290,7 +290,7 @@ br
 br
 br
 br
-`—
+`[line=14]
 \
 ld l,"tachi/ark_t06",crossfade,400
 `“Your face says you’d rather kill me.@ You might manage it, but Shiki as he is now cannot.@ Roa is already consuming him.@ If he pushes himself any further, his mind will collapse long before he can finish me.”
@@ -306,7 +306,7 @@ br
 br
 br
 br
-`—
+`[line=7]
 \
 `“But that—”@
 ld l,"tachi/ark_t02",crossfade,400
@@ -325,7 +325,7 @@ br
 br
 br
 br
-`—
+`[line=2]
 \
 ld l,"tachi/ark_t12",lshutter,400
 `“Shiki, don’t tell me you’re already at your limit!”@ “T-Tohno?”
@@ -362,7 +362,7 @@ br
 \
 textcolor #0000ff
 br
-`That was right.@ I had been prepared from the beginning.@
+`[line=7]That was right.@ I had been prepared from the beginning.@
 br
 `Thump.@ Roa’s jaws were already closing in.@ Before they reached me, I looked straight into my own body.@ The “point”@ was there, upon the old scar on my chest.@
 br
@@ -377,7 +377,7 @@ br
 br
 br
 br
-`I understood Ciel’s fear.@ But Arcueid had told me the truth.@ She had never lied to me—not once.
+`[line=3]I understood Ciel’s fear.@ But Arcueid had told me the truth.@ She had never lied to me—not once.
 \
 wave se_01
 `I set the knife against my chest.@ If one life contained two wills, then by simple arithmetic one death ought to extinguish only one of them.@ It might be far too simple, but I chose to believe.@ Even if things did not go as Arcueid said, Roa would consume me if this continued.@ In that case—this is where I lay you to rest.@ Your game of reincarnation is over.@ What I was seeing was nothing other than my own death and the death of the soul called Roa.
@@ -395,7 +395,7 @@ br
 br
 br
 br
-`Roa—if the power of one will is what kills another—
+`[line=3]Roa—if the power of one will is what kills another—
 \
 br
 br
@@ -455,7 +455,7 @@ br
 br
 br
 br
-`And what happened after that?
+`[line=3]And what happened after that?
 \
 bg #ffffff,crossfade,800
 `A faint noise woke me.@ Click, creak, creeeak—the sound of a window being opened with all the stealth of a burglar.@ Then came a bold, unapologetic clack-clack-clack of footsteps.@
@@ -484,7 +484,7 @@ ld c,"tachi/ark_t16",crossfade,400
 cl c,crossfade,400
 `I tore my gaze from Arcueid’s face, scarcely an inch from mine, and fled to plant my feet on the far side of the bed.@
 br
-`Then—
+`[line=4]Then—
 wave se_04
 `A discreet knock sounded at the door.
 \
@@ -500,7 +500,7 @@ ld c,"tachi/ark_t07",crossfade,400
 cl c,crossfade,400
 `“What are you sulking about now?@ You can’t barge in here and then expect me to guess why you’re upset.@ If you have something to say, take your own advice and say it clearly.”@ I hissed the words under my breath.@
 br
-`Then—
+`[line=3]Then—
 br
 ld c,"tachi/ark_t14",crossfade,400
 `“…@But you haven’t played with me at all lately.@ So I thought maybe I’d make a little trouble for you.”@ Arcueid mumbled.
@@ -587,7 +587,7 @@ ld c,"tachi/ark_t11",crossfade,400
 \
 `“…”@ I got up and slapped the dirt from my uniform.@
 cl c,crossfade,400
-`Right, then.@ “What the hell do you think you’re—”@
+`[line=6]Right, then.@ “What the hell do you think you’re—”@
 ld c,"tachi/cel_t06a",lshutter,400
 `“What the hell do you think you’re doing?!”@ The sheer volume made the air vibrate.@ Beside me, Ciel was somehow even angrier than the person who had actually been sent flying.
 \
@@ -640,7 +640,7 @@ ld l,"tachi/ark_t05b",crossfade,400
 ld l,"tachi/ark_t09",crossfade,400
 `“And Shiki clearly isn’t immune to me, so perhaps you and I are alike after all.@ Ahaha—one day love alone won’t be nearly enough.”@ “Pff—!”@ I choked.@ A-Arcueid was saying something outrageous with the brightest smile imaginable—
 \
-`“Th-that is absolutely out of the question!@ Tohno and I have already…@ we’ve already made love, so there is no room for you between us…!”@
+`“Th-that is absolutely out of the question!@ Tohno and I have already…@ we’ve already loved each other, so there is no room for you between us…!”@
 ld l,"tachi/ark_t01a",crossfade,400
 `“By ‘made love,’ do you mean you’ve slept together?@ Hmm.@ So that’s the sort of thing Shiki likes.”@ Arcueid turned a sidelong glance on me, her smile heavy with implication.
 \
@@ -676,7 +676,7 @@ bg "bg/ima_05",lshutter,800
 \
 `“T-Tohno!@ Why are you running away with Arcueid?!”@ Ciel charged after us, arms pumping wildly.@ It was only a matter of time before she caught up.@
 br
-`Well, then.@
+`[line=5]Well, then.@
 br
 `Before that happened, I needed a reliable excuse—something versatile enough to calm Ciel down.@ Because from now on, I was surely going to find myself in this exact situation again and again and again and again.
 \

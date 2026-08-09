@@ -17,9 +17,10 @@ bg "bg/bg_40a",crossfade,400
 play "*2"
 `I wake from a long sleep.@ The sunlight coming through the window belongs more to noon than morning.@ I must have slept late because I came home so late last night.@ It seems I have only just awakened, with midday almost here.
 \
-`“……”@ I sit up in bed and stare at my hand.@ I can still feel the moment I stabbed Yumizuka.@ Two nights ago, I met her—and that same night, I had a terrible nightmare.@ “……@I wish yesterday could have been…@ just another dream.”@ But nothing could be that convenient.@ I never learned why Yumizuka had become a vampire, and I could do nothing to save her.
+`“……”@ I sit up in bed and stare at my hand.@
+`[line=4]I can still feel the moment I stabbed Yumizuka.@ Two nights ago, I met her—and that same night, I had a terrible nightmare.@ “……@I wish yesterday could have been…@ just another dream.”@ But nothing could be that convenient.@ I never learned why Yumizuka had become a vampire, and I could do nothing to save her.
 \
-`No.@ Maybe there had been no saving Yumizuka after what she became.@ She had stopped being alive long before.@ I can understand that much: all I did was turn a corpse that could still walk around like anyone else into a corpse that behaved properly.@
+`[line=3]No.@ Maybe there had been no saving Yumizuka after what she became.@ She had stopped being alive long before.@ I can understand that much: all I did was turn a corpse that could still walk around like anyone else into a corpse that behaved properly.@
 br
 `And yet—
 br
@@ -48,7 +49,7 @@ ld c,"tachi/his_t01",crossfade,400
 \
 `“On that subject, should I expect this to happen again?@ I cannot prevent you from leaving, Master Shiki, but if nights like the last one continue, I will be obliged to inform Miss Akiha.”@ “No.@ Nothing like yesterday will happen again.@ It all ended yesterday.@ There won’t be any more phone calls.”
 \
-`Yes.@ It really is over.@ Only after saying it aloud does the ending become real.@ Satsuki Yumizuka is gone.@ The vampire that terrorized the city has disappeared, and with my own hands I have lost forever the classmate who told me she loved me.
+`[line=3]Yes.@ It really is over.@ Only after saying it aloud does the ending become real.@ Satsuki Yumizuka is gone.@ The vampire that terrorized the city has disappeared, and with my own hands I have lost forever the classmate who told me she loved me.
 \
 ld c,"tachi/his_t07",crossfade,400
 `“……”@ Hisui watches me with pain in her eyes.@ God, do I look so awful that even she has to make a face like that?@ “Well, it’s getting late.@ I should drag myself out of bed.@ Hisui, is Akiha home today?@ She’s always busy—does she have lessons even on holidays?”@
@@ -59,7 +60,7 @@ ld c,"tachi/his_t01",crossfade,400
 cl c,lshutter,800
 `As always, Hisui departs without making a sound.@
 br
-`Wait—I nearly forgot something important.@
+`[line=3]Wait—I nearly forgot something important.@
 br
 `“Hisui.”
 \

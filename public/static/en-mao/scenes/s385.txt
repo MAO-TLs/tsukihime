@@ -3,7 +3,7 @@ play "*7"
 wavestop
 bg "bg/bg_54a",notrans,0
 br
-`Death can never be salvation.@
+`[line=3]Death can never be salvation.@
 br
 `That answer had become self-evident to me in the eight years since I nearly died and was brought back.@ However much life hurt, however bitter it became, being alive was happiness enough.
 \
@@ -47,7 +47,7 @@ br
 br
 `Miiiiin.@
 !w1000
-`I heard the cicadas singing.!@w1500
+`I heard the cicadas singing.@!w1500
 \
 bg #000000,crossfade,1500
 playstop
@@ -55,7 +55,7 @@ playstop
 phase "bg/cmo_05b",l,aki,13a,epi
 bg #ffffff,crossfade,800
 play "*2"
-`Warm sunlight.@
+`[line=5]Warm sunlight.@
 br
 `The white light streaming through the window pricked my eyelids, and I slowly opened my eyes.
 \
@@ -103,7 +103,7 @@ playstop
 bg "bg/ima_03",bshutter,800
 play "*9"
 br
-`Afterward, I slowly regained consciousness.@
+`[line=3]Afterward, I slowly regained consciousness.@
 br
 `I lay in the garden on its bed of fallen leaves, then slowly raised myself.@ …@I was alive.@ My hair had returned to normal, and I no longer felt the fever of my blood.@ In fact, I felt well.@ Even the familiar weakness in my body had faded so completely it might never have existed.
 \
@@ -130,7 +130,7 @@ ld c,"tachi/his_t18",lshutter,400
 `“…@You don’t seem to have come for tea.@ Is there something you want to say?”@
 `“…@Yes.@ Forgive my impertinence, but why have you transferred schools again?”
 \
-`So that was it.@ Hisui refused to accept that Brother was dead.@ To her, my return to Asagami Girls’ Academy must have seemed like some ominous confirmation.
+`[line=4]So that was it.@ Hisui refused to accept that Brother was dead.@ To her, my return to Asagami Girls’ Academy must have seemed like some ominous confirmation.
 \
 `“There is no mystery.@ I transferred to that school because Brother was there.@ Now that the reason is gone, returning to my former school is only natural.”@
 ld c,"tachi/his_t17",crossfade,400
@@ -182,14 +182,14 @@ playstop
 bg #ffffff,crossfade,800
 bg "bg/ima_03",crossfade,800
 play "*7"
-`I watched the scenery flow past the window.@
+`[line=4]I watched the scenery flow past the window.@
 br
 `Are you going to forget him, Miss Akiha?@
 br
 `When Hisui had accused me, I said nothing.@ It was a personal choice.@ Whether Hisui accepted Brother’s death or refused to believe it was no concern of mine.@ She was hoping he was alive—a bases-loaded home run on a full count, the most impossible reversal imaginable.@ …@I laughed at myself for finding that hope meaningless.@ Because it was my hope as well.
 \
 br
-`Are you going to forget Master Shiki?@
+`[line=3]Are you going to forget Master Shiki?@
 br
 `Should I have told her such a thing was impossible?@ Brother couldn’t be alive.@ His surrendering his life had been the only way for me to return to myself.@ I understood that better than anyone—yet just like Hisui and Kohaku, I still believed.
 \
@@ -204,7 +204,7 @@ playstop
 bg #000000,crossfade,800
 !w4000
 bg "bg/bg_48b",lcartain,800
-`I returned to the mansion.@
+`[line=4]I returned to the mansion.@
 br
 `There would only be a few more times when I came home like this.@
 `“…@We arrived sooner than I expected.”@
@@ -217,7 +217,7 @@ play "*8"
 br
 `…@There were too many memories here.@ The garden where Brother and I had raced about as children.@ The night we slipped out of the mansion together to see the stars.@ The ring of trees where I spoke with him after he came home.@
 br
-`And the forest where I awoke after my Inversion.
+`[line=3]And the forest where I awoke after my Inversion.
 \
 `“…@What an idiot.@ I begged him over and over to kill me, and in the end…”@
 br
@@ -225,7 +225,7 @@ br
 \
 `“Yes, that’s right.@ He was always like that, even as a child.@ In the end, Brother only ever did what he believed was right.@ …@And somehow that always meant sacrificing himself for someone else.”@
 br
-`Yes.@ Whenever Father scolded Hisui or me, Brother protected us.@ When SHIKI tried to kill me, Brother shielded me with his own body.@
+`[line=4]Yes.@ Whenever Father scolded Hisui or me, Brother protected us.@ When SHIKI tried to kill me, Brother shielded me with his own body.@
 playstop
 br
 `And when I could no longer return to myself, he took it upon himself again, though I had never asked him to.
@@ -241,7 +241,7 @@ br
 br
 `The thought made me afraid.@ However bravely I pretended otherwise, I began to yield to the certainty that everything was already lost.
 \
-`I believe Brother is alive somewhere.@
+`[line=3]I believe Brother is alive somewhere.@
 br
 `The weight of him in my chest had faded almost to nothing, but it remained.@ I wanted to believe that meant he was alive.@ I wanted to believe, but—
 \
@@ -252,7 +252,7 @@ br
 `“…@Honestly.@ If anyone saw me like this, I’d never hear the end of it.”@
 `I sighed and turned back toward the mansion.@
 br
-`Then—
+`[line=4]Then—
 br
 `Something struck the toe of my shoe with a small click.
 \
@@ -273,7 +273,7 @@ br
 br
 br
 br
-`Thump.
+`[line=9]Thump.
 \
 br
 br
@@ -291,14 +291,14 @@ bg "event/aki_f02",crossfade,800
 `“Ah…”@
 `Something hot traced my cheek.@ Even when I realized it was a tear, I made no attempt to wipe it away.@
 br
-`He’s alive.@
+`[line=7]He’s alive.@
 br
 `That single fact left no room for thought.@ I didn’t know where he was.@ It told me nothing of what had become of him.@ But I knew.@ Brother was alive.@ It had lasted only an instant, but I had felt his warmth unmistakably and held him close.
 \
 `“Haa…”@
 `I breathed deeply and swallowed the words rising within me.@ …@I could believe.@ That heartbeat was enough.@ Whatever happened from this day forward, I could believe and wait for Brother to return.@
 br
-`And that made me happier than I could say.@
+`[line=4]And that made me happier than I could say.@
 br
 `“…@Very well.@ I’ll keep this for you until you come back, Brother.”@
 `I put away the knife engraved with the words Seven Nights and turned my back on the forest of memories.
@@ -310,7 +310,7 @@ br
 br
 br
 br
-`Now, then.@ I would return to my days as the same Akiha I had always been.@ And however many years it took, I would believe that he would come home and wait for him for as long as I had to—
+`[line=6]Now, then.@ I would return to my days as the same Akiha I had always been.@ And however many years it took, I would believe that he would come home and wait for him for as long as I had to—
 \
 bg #ffffff,crossfade,1500
 playstop

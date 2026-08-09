@@ -45,7 +45,7 @@ br
 `“…”@ Of all five senses, only my sight still faintly lived.@ The tea ceremony room was dark.@ At some point, night had fallen completely outside.@ “…”@ Unable to turn my head, I darted my eyes frantically about.
 \
 br
-`—…@ —…@ —…@
+`[line=4]…@ —…@ —…@
 br
 `Something was making a sound close by.@ I strained to hear, but caught nothing—not even my own breathing.@ Apparently my ears had ceased to work.@
 br
@@ -66,7 +66,7 @@ br
 ld c,"tachi/roa_t05a",crossfade,400
 `“No.@ That is not so.@ I am indeed a member of the vampiric species known as the reincarnating Serpent of Akasha.@ But to you, surely I am not the Serpent.@ Surely I am SHIKI?@
 ld c,"tachi/roa_t04a",crossfade,400
-`Tch.@ You really are cold.@ I’ve spent eight years thinking of you, and now I look like a fool.@ Don’t you agree, Ciel?”@ The man never looked away from me as he spoke.
+`[line=3]Tch.@ You really are cold.@ I’ve spent eight years thinking of you, and now I look like a fool.@ Don’t you agree, Ciel?”@ The man never looked away from me as he spoke.
 \
 `“—!”@ Ciel was here?@ Where?@ I could neither see her nor sense her.@ And if she was here, why wasn’t she doing something about him?@ Our enemy was sitting right in front of me—right there!
 \
@@ -78,9 +78,9 @@ br
 ld c,"tachi/roa_t04a",crossfade,400
 `“I told you not to let that thing distract you…!@ Listen, Shiki.@ Right now, I am the only thing you can see.@ My voice is the only sound you can hear.@ Mine is the only presence you can feel.@ I alone am where life exists for you…!@ At last—at long last, we’ve reached the moment when I can meet you like this.@ Don’t you dare think about anything but me!”
 \
-`A wet, slicing sound.@ Something made a sickening noise near the hands of the man before me—the vampire called the Serpent.@ Then I faintly heard a breath steeped in pain.@
+`[line=4]A wet, slicing sound.@ Something made a sickening noise near the hands of the man before me—the vampire called the Serpent.@ Then I faintly heard a breath steeped in pain.@
 br
-`“—hno…”@ I could barely hear it, but the voice seemed to say something like that.
+`[line=4]“—hno…”@ I could barely hear it, but the voice seemed to say something like that.
 \
 `“Have you truly forgotten, Shiki?@ Was Father’s suggestion really so perfect?@ Or did dying once damage everything you remembered from before?@ Damn it—either way, this ruins everything!”
 \
@@ -92,7 +92,7 @@ bg #ffffff,notrans,0
 wait 100
 bg "bg/cmo_06",notrans,0
 br
-`I couldn’t remember clearly.@ And yet—I did feel as though there had been someone else when I was a child.
+`[line=3]I couldn’t remember clearly.@ And yet—I did feel as though there had been someone else when I was a child.
 \
 bg #ffffff,notrans,0
 wait 100
@@ -165,7 +165,7 @@ br
 br
 br
 br
-`Blood.@ In that courtyard.@ The child’s corpse drenched in blood—
+`[line=6]Blood.@ In that courtyard.@ The child’s corpse drenched in blood—
 \
 ld c,"tachi/roa_t03a",crossfade,400
 `“Yes.@ You finally remember, Shiki…!@ I was the one who killed you!@ Yet you clung so filthily to life, survived, and even had the gall to become Shiki Tohno in my place…!@ Father—the bastard threw the body he had killed into an underground cell like so much rubbish.@ He couldn’t bear to let the Tohno family lose its eldest son, so for that pathetic reason he passed you, his adopted child, off as SHIKI Tohno!”
@@ -182,7 +182,7 @@ br
 br
 br
 br
-`There had been no one.@
+`[line=6]There had been no one.@
 br
 `After the accident.@ The reason I had been so completely alone was—
 \
@@ -198,7 +198,7 @@ bg #000000,crossfade,400
 \
 `The voice drew closer.@ He was going to kill me.@ Or if I was already being killed, perhaps I had died long ago.@ My hands and feet would not move.@ My eyes, ears, and nose no longer worked.@
 br
-`—There was nothing left of me.
+`[line=3]There was nothing left of me.
 \
 `I did not want to accept what he had told me, but—
 br
@@ -214,7 +214,7 @@ br
 bg "event/cel_e09",crossfade,1500
 play "*7"
 br
-`Perhaps my eyes had adjusted to the darkness.@ Or perhaps the thing he called my will had stirred faintly awake.
+`[line=3]Perhaps my eyes had adjusted to the darkness.@ Or perhaps the thing he called my will had stirred faintly awake.
 \
 `At last I understood the state I had been in throughout that bastard’s endless speech—and what he had been sitting on all this time.
 \
@@ -450,7 +450,7 @@ br
 \
 br
 br
-`Could I truly say—with absolute certainty—that it wasn’t so?
+`[line=8]Could I truly say—with absolute certainty—that it wasn’t so?
 \
 `“Hah—!”@
 cl c,lshutter,400
@@ -514,7 +514,7 @@ monocro off
 \
 `One belonged to Roa, crouching like a beast.@ The other to a vampire princess in white, standing nobly as she crushed her enemy beneath her presence.@
 br
-`—The battle was decided in a single instant.@
+`[line=3]The battle was decided in a single instant.@
 br
 `Roa gave his death-cry and sifted into dust where he stood.
 \
@@ -545,14 +545,14 @@ waveloop se_02
 br
 `“Ghh—!”@
 br
-`Throb.
+`[line=4]Throb.
 \
 br
 br
 br
 `A headache.@
 br
-`Throb.
+`[line=4]Throb.
 \
 br
 br
@@ -561,7 +561,7 @@ br
 br
 `The headache—
 br
-`Throb.
+`[line=4]Throb.
 \
 br
 br
@@ -572,7 +572,7 @@ br
 br
 `Because I was still seeing the “lines”@—
 br
-`Throb.
+`[line=4]Throb.
 \
 br
 br
@@ -765,7 +765,7 @@ bg #000000,crossfade,1500
 bg "bg/bg_40c",crossfade,1500
 `Later that night, I lay in bed beneath the sheet, staring vacantly at the ceiling.@
 br
-`—It was over.@
+`[line=4]It was over.@
 br
 `The wounds and memories remained, but it was over.@ From now on I could return to my quiet life as an ordinary student.@ I had had more than enough of killing and being killed.
 \
@@ -832,7 +832,7 @@ br
 bg #000000,crossfade,400
 `All I could do was shut myself inside my room.@ I had to pass the days without seeing anyone or doing anything.@ Then I would have no one to resent and nothing to rage against.@
 br
-`—But that was a mistake.@ As I lived in silence inside the cage of my room, my mind wore away until at last it passed its breaking point.
+`[line=3]But that was a mistake.@ As I lived in silence inside the cage of my room, my mind wore away until at last it passed its breaking point.
 \
 `That day, the self that had wholly replaced me thought of only one thing: thirst.@ Slowly, dragging my weakened body, I left the room.
 \
@@ -846,7 +846,7 @@ br
 \
 monocro #ff0000
 bg "bg/cmo_09",crossfade,800
-`—What strange chance had brought this about?@
+`[line=3]What strange chance had brought this about?@
 br
 `Ordinarily, the family into which I will be reborn is selected in advance by my previous incarnation.@ This time, however, the Princess destroyed me before I could finish making that choice.
 \

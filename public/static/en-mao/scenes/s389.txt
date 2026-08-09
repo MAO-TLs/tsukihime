@@ -1,7 +1,7 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`I’ll have a look at Akiha’s room.@
+`[line=4]I’ll have a look at Akiha’s room.@
 br
 `I had already heard that Akiha wasn’t home yet.@ Which meant her room ought to be empty.
 \
@@ -16,12 +16,12 @@ bg "bg/bg_36c",lshutter,400
 \
 `“I’d better leave before Akiha catches me.”@ With a sigh, I turned back toward the door.@
 br
-`And then—
+`[line=4]And then—
 br
 ld c,"tachi/aki_t03a",notrans,0
 `“Oh, Brother, you needn’t hurry away.@ Please, make yourself at home.”@
 br
-`Akiha stood before the door with her arms folded.
+`[line=3]Akiha stood before the door with her arms folded.
 \
 `“A-Akiha!@ You’re back already…!?”@ “Yes.@ I returned this very moment.@ More importantly, Brother, you must have something terribly important to discuss with me.@ Otherwise there could be no reason for you to enter my room alone and without permission, could there?”@ “Uh…”@ Her glare drove me back a step.
 \

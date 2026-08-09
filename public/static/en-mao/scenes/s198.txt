@@ -15,39 +15,39 @@ bg #000000,crossfade,400
 bg "bg/bg_11c",crossfade,400
 play "*6"
 br
-`A chill.@
+`[line=4]A chill.@
 br
 `“Ghh…!?”@
 `The old wound in my chest erupts in pain.
 \
 br
-`Thud.@
+`[line=4]Thud.@
 br
 `My heart gives a violent leap.@ Every blood vessel in my body surges awake, throwing my breath out of rhythm.
 \
 br
-`A cold pulse.@
+`[line=4]A cold pulse.@
 br
 `I touch my chest.@ My uniform is already wet with brilliant red.@ The wound has opened, and I am bleeding.
 \
 br
-`Thud.@
+`[line=4]Thud.@
 br
 `“Hah…@ hah…@ ha…”@
 `My breathing breaks apart.@ My back is ice-cold, and my spine hurts as though it might spear straight through my skin.
 \
 br
 wave se_01
-`A cold pulse.@
+`[line=3]A cold pulse.@
 wave se_01
-`Thud.@
+`[line=3]Thud.@
 wave se_01
-`Chi—
+`[line=3]Chi—
 wave se_01
-`Thu—
+`[line=3]Thu—
 br
 wave se_08
-`Click.@
+`[line=6]Click.@
 br
 `Amid my hammering heartbeat comes another sound—something hard striking the floor.
 \
@@ -55,7 +55,7 @@ br
 `Someone is coming.@ A figure is walking toward me from the far end of the corridor.@
 `That click was a footstep.
 \
-`Something is wrong.@
+`[line=4]Something is wrong.@
 br
 `This isn’t my body reacting to mortal danger as it has before.@ Pain lances through my head.@
 `This pain, this dread—they are directed at my own self.
@@ -94,7 +94,7 @@ br
 `Who have I forgotten—
 \
 ld c,"tachi/roa_t07c",crossfade,1500
-`Bloodshot eyes.@ Death everywhere inside his body.@ An inhuman stillness cold enough to freeze the air.@
+`[line=3]Bloodshot eyes.@ Death everywhere inside his body.@ An inhuman stillness cold enough to freeze the air.@
 `There is no question.@ This thing is not human.@
 cl c,crossfade,1500
 br
@@ -120,7 +120,7 @@ br
 br
 `With those words, the man moves his arm.@
 br
-`A cold pulse.@
+`[line=4]A cold pulse.@
 br
 `My spine freezes.@ My brain turns to ice.@ My body remembers this pain.@ The same thing has been done to it before.
 \
@@ -135,7 +135,7 @@ bg "bg/bg_11c",crossfade,400
 br
 `Something like a strip of white cloth flutters down.
 \
-`I must have fallen against him just before the blade entered me.@ As I collapse, my hand catches and unravels one of the bandages wrapped around his body.
+`[line=3]I must have fallen against him just before the blade entered me.@ As I collapse, my hand catches and unravels one of the bandages wrapped around his body.
 \
 `“I see.@ You want to look upon my true face, Shiki.”@
 `With that, the man begins tearing away the bandages himself.@
@@ -146,7 +146,7 @@ wave se_01
 \
 bg #ffffff,crossfade,400
 bg "bg/cmo_06",crossfade,400
-`Of course he looked familiar.@ His face is far too much like the boy who lay bleeding before me on that sweltering summer day.
+`[line=3]Of course he looked familiar.@ His face is far too much like the boy who lay bleeding before me on that sweltering summer day.
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_11c",crossfade,400
@@ -157,7 +157,7 @@ ld c,"tachi/roa_t04c",crossfade,400
 `“The debt I owed you for killing me has now been repaid.”@
 `The man looks down at me as he speaks.@ I stare up into a face I remember.@
 br
-`No.@ Of course I remember it.
+`[line=3]No.@ Of course I remember it.
 \
 bg #ffffff,crossfade,400
 bg "bg/cmo_06",notrans,0
@@ -222,7 +222,7 @@ br
 br
 br
 br
-`Then…@
+`[line=4]Then…@
 br
 `As though he has suddenly realized something, SHIKI begins to laugh.
 \
@@ -248,7 +248,7 @@ ld c,"tachi/roa_t04c",crossfade,400
 bg #000000,lcartain,800
 `Three stories of open air seem to mean little to her.@ She touches down with a light tap and races away from the school without looking back.@
 br
-`All the while, my emptying eyes remain fixed upon the school building at night.
+`[line=3]All the while, my emptying eyes remain fixed upon the school building at night.
 \
 bg "bg/ima_02",crossfade,400
 `In the third-floor corridor where I had stood moments ago, a long-haired vampire watches us escape with a triumphant smile.@

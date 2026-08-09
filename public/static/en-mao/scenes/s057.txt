@@ -121,7 +121,7 @@ ld c,"tachi/his_t01",crossfade,400
 bg #000000,lcartain,800
 play "*1"
 bg "bg/bg_23a",rcartain,800
-`I walk along unfamiliar streets.@ Until now I always commuted from the Arima house, so this is my first journey to school by this route.@ Nothing has changed but the road, yet I feel as fresh and nervous as a transfer student.
+`[line=3]I walk along unfamiliar streets.@ Until now I always commuted from the Arima house, so this is my first journey to school by this route.@ Nothing has changed but the road, yet I feel as fresh and nervous as a transfer student.
 \
 `“…@Not many students from our school around here.”@ Apparently few families in this neighborhood send their children there.@ At seven-thirty in the morning, I’m the only uniformed figure jogging down the road.
 \
@@ -135,7 +135,7 @@ br
 bg "bg/bg_24a",lcartain,800
 `School uniforms begin to appear here and there among the crowd.@ Ten minutes until the gates close.@ I break into a run over the asphalt, determined not to be late.@
 bg "bg/bg_01a",lcartain,800
-`Made it.@ They said thirty minutes from the mansion, but it was closer to twenty.@ I ran part of the way, though.@ If I want a leisurely walk, I’ll have to leave just after seven.
+`[line=3]Made it.@ They said thirty minutes from the mansion, but it was closer to twenty.@ I ran part of the way, though.@ If I want a leisurely walk, I’ll have to leave just after seven.
 \
 bg #000000,lcartain,800
 bg "bg/bg_06a",lcartain,800
@@ -144,12 +144,12 @@ play "*3"
 br
 `I stroll through the chaos and reach my seat by the window.
 \
-`And there— “Heeey.@ Cutting it close, Tohno.”@
+`[line=4]And there— “Heeey.@ Cutting it close, Tohno.”@
 ld l,"tachi/ari_t01",lshutter,400
 `　この微笑ましい朝の教室に相応しくない人物が一人、ニヤニヤ笑いをうかべて待っていた。
 `Worse still— “Oh, good morning, Tohno.”@
 ld r,"tachi/cel_t01a",rshutter,400
-`—he has someone with him whom I never expected to see here.
+`[line=3]he has someone with him whom I never expected to see here.
 \
 `“Ciel—what are you doing in our classroom?”@ Dumbstruck, I point at her as though I’ve seen a ghost.@ “Is it really so strange?@ I only stopped by to see whether you were here.”@ “Of course it’s strange.@ Upperclassmen don’t normally visit younger students’ classrooms.@ There are plenty of reasons, but the biggest is that they’re nowhere near each other.”@ Ciel nods with perfect seriousness, as though this explains everything.
 \
@@ -191,7 +191,7 @@ cl c,crossfade,400
 ld r,"tachi/cel_t07a",crossfade,400
 `“…”@
 br
-`Then I notice that Ciel, whom I thought had simply fallen silent, is staring intently at our idiotic exchange.
+`[line=3]Then I notice that Ciel, whom I thought had simply fallen silent, is staring intently at our idiotic exchange.
 \
 `“Ciel?”@
 ld r,"tachi/cel_t01a",crossfade,400
@@ -216,7 +216,7 @@ ld r,"tachi/cel_t01a",crossfade,400
 cl r,lshutter,400
 `Ciel walks briskly away.@ Arihiko and I watch her go in silence.@
 br
-`Then—
+`[line=4]Then—
 br
 cl l,notrans,0
 ld c,"tachi/ari_t01",crossfade,400

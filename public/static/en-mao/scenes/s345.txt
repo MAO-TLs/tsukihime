@@ -27,7 +27,7 @@ ld c,"tachi/aki_t04a",crossfade,400
 `“Yes.@ Now that I’ve changed schools, my mornings are less hurried.@ I hope we can do this every day from now on.”@
 cl c,crossfade,400
 br
-`Of course.@ She’s right.@ Now that we attend the same school, all I have to do is wake ten minutes earlier and there will be plenty of time to eat breakfast with her.
+`[line=3]Of course.@ She’s right.@ Now that we attend the same school, all I have to do is wake ten minutes earlier and there will be plenty of time to eat breakfast with her.
 \
 bg #000000,tshutter,800
 !w1000
@@ -105,7 +105,7 @@ wave se_03
 !w1000
 bg "bg/bg_06a",tshutter,800
 wave se_03
-`Fourth period ends.@
+`[line=3]Fourth period ends.@
 br
 `Lunchtime begins, and the whole school swells with noise.@ “Right, then.”@ I promised to meet Akiha in the courtyard.@ Knowing her, she probably had Kohaku prepare a lunch for her, but I’ll pick up something from the school store just in case.
 \

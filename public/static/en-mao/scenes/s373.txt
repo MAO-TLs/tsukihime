@@ -14,18 +14,18 @@ ld c,"tachi/hal_t02",lshutter,800
 cl a,crossfade,400
 `“Hah—hah—hah—”@ My heart is agony.@ I may have seen his methods in my dreams, but our bodies are built on entirely different levels.@ It takes everything I have merely to parry his knife with mine; tracing his line is all but impossible.@
 br
-`—Still.@ If I am willing to die with him, ending his life would be easy.
+`[line=3]Still.@ If I am willing to die with him, ending his life would be easy.
 \
 `“Very well.@ Playtime is over.@ I thought I would finish you with the same kind of knife you use, but an unfamiliar weapon is never worth the trouble.”@ The enemy drops his knife to the floor.@ A glint in the darkness: sharp, bestial claws.
 \
 ld c,"tachi/hal_t01",crossfade,400
 `“So it comes to this after all.@ Repeating what happened eight years ago is hardly original, though.”@ Laughing, the enemy drops his stance.@
 br
-`—Thump.@
+`[line=4]Thump.@
 br
 `My body already understands that I cannot keep pace once he becomes serious.@ I probably will not even see him attack.@ By the time I notice anything, there will be a hole through my body.
 \
-`—Thump.@
+`[line=4]Thump.@
 br
 `The presence of death grows stronger.@ The certainty that if this continues, he will kill me.@ Yet I feel no fear.@ As the danger mounts, every joint and sinew in my body begins to creak more violently.
 \
@@ -38,7 +38,7 @@ ld c,"tachi/hal_t03",crossfade,400
 cl a,lcartain,400
 `The enemy’s body vanishes.@ The bowstring inside me draws taut.@
 br
-`—But just before it can be released, a figure steps between SHIKI and me.
+`[line=3]But just before it can be released, a figure steps between SHIKI and me.
 \
 wavestop
 ld c,"tachi/aki_t11c",crossfade,400
@@ -49,12 +49,12 @@ ld c,"tachi/hal_t02",crossfade,400
 `“…@Akiha.@ What do you think you’re doing?”@ Akiha does not answer.@
 wave se_01
 br
-`—Her back.@ At the sight of Akiha’s red hair, the blood inside me begins to stir and whisper.@
+`[line=4]Her back.@ At the sight of Akiha’s red hair, the blood inside me begins to stir and whisper.@
 br
 `“…@Move, Akiha.@ I am your real brother.@ There is no need to concern yourself with that counterfeit.”@ Akiha does not answer.@
 wave se_01
 br
-`—Her back.@ At the sight of Akiha’s red hair, the blood inside me begins to stir and whisper.
+`[line=4]Her back.@ At the sight of Akiha’s red hair, the blood inside me begins to stir and whisper.
 \
 `“…@Akiha, please don’t hurt me like this.@ You are the only person in this world who matters to me.”@
 ld c,"tachi/aki_t11c",crossfade,400
@@ -111,7 +111,7 @@ wait 100
 bg #000000,notrans,0
 wave se_05
 !w2000
-`—SHIKI’s claws never reach me.@
+`[line=3]SHIKI’s claws never reach me.@
 br
 `“Ah—”@ SHIKI’s voice is empty, as though his soul has fallen out.@ “Aki…@ha—”@ His claws have ripped a great wound across Akiha’s back.@
 br
@@ -169,7 +169,7 @@ cl a,crossfade,400
 bg #000000,crossfade,800
 !w2000
 bg "bg/bg_40c",lcartain,800
-`—Back in my room, I force myself to calm down.@
+`[line=2]Back in my room, I force myself to calm down.@
 br
 `I need to think through everything rationally.@ Akiha.@ Myself.@ And the man named SHIKI.
 \
@@ -272,7 +272,7 @@ bg "event/aki_e04",lshutter,800
 \
 `“No, I’m all right.@ The wound on my back has nothing to do with this.@ Attacks like this happen all the time.”@
 br
-`—The wound has nothing to do with it?@
+`[line=3]The wound has nothing to do with it?@
 br
 `“…@What does that mean?@ What do you mean, all the time?@ Are you saying what just happened isn’t unusual?”@ “…”@ Akiha does not answer.@ That silence means yes.@ …@I cannot believe it.@ Does she endure agony like that all the time—pain so vicious it might make her cough blood?
 \
@@ -288,7 +288,7 @@ br
 \
 `“Akiha—”@ “Do you understand?@ A defective living thing that cannot survive without stealing heat from something alive.@ That is what Akiha Tohno is, Brother.”@
 br
-`—My throat closes.@ Even so, I force myself to search for words.@ If I fall silent now, I will only hurt her.
+`[line=3]My throat closes.@ Even so, I force myself to search for words.@ If I fall silent now, I will only hurt her.
 \
 `“…@I see.@ So that’s why you drink Kohaku’s blood.”@ “What—Brother, you knew?@ You knew Kohaku was sharing her blood with me?”@ “Yes.@ I’m sorry I kept quiet.”@ Akiha’s cheeks flare red, and she lowers her head slightly.
 \

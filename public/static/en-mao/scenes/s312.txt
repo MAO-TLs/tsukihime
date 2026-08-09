@@ -127,7 +127,7 @@ ld c,"tachi/stk_t07",crossfade,400
 `She held out her hand.@
 br
 wave se_01
-`Thump.@
+`[line=4]Thump.@
 br
 `My heart struck one deafening beat, and my feet moved on their own—not toward her, but back.
 \
@@ -136,7 +136,7 @@ ld c,"tachi/stk_t08",crossfade,400
 `Yumizuka’s voice was bewildered.@
 br
 wave se_01
-`Thump.@
+`[line=4]Thump.@
 br
 `My heart raced.@ My throat dried with every ragged breath.@ Every nerve in my body began to recognize the thing before me as an enemy.
 \
@@ -222,7 +222,7 @@ cl c,lshutter,800
 `With that, Yumizuka began walking toward me.@
 br
 wave se_01
-`Thump.@
+`[line=3]Thump.@
 `A sense of mortal danger froze my spine.
 \
 `“How am I supposed to save you?”@
@@ -233,14 +233,14 @@ ld c,"tachi/stk_t02",tshutter,400
 `“…!”@
 `Her crimson gaze pinned me, stealing my breath.@
 br
-`Danger.@ I knew it with perfect clarity, yet my legs refused to move.
+`[line=3]Danger.@ I knew it with perfect clarity, yet my legs refused to move.
 \
 `“One of you?@ What are you—”@
 `“Then I won’t be alone anymore.@ I won’t have to be cold or afraid.@ No—if you become mine, Shiki, I’ll be happier than I ever was as a human!”
 \
 bg #9c0120,lshutter,400
 br
-`THUMP.@
+`[line=3]THUMP.@
 br
 `My heart struck harder.@ Without hesitation, Yumizuka shot an arm toward my throat.@ Her speed was like a bullet’s.@ Yet I had the illusion that I could see her perfectly, and I dropped to the ground on instinct.
 \
@@ -287,13 +287,13 @@ bg "bg/bg_29b",rshutter,400
 `“Aaaaaaah!”@
 `Yumizuka’s shrill scream split the night.@
 br
-`Dumbfounded, I stared at my arm.@
+`[line=3]Dumbfounded, I stared at my arm.@
 br
 `In my hand was the blood-soaked knife that had just torn open her leg.@
 `“…@Ah.”@
 `My reason returned.@ My body moved.@
 br
-`By the time I knew what I was doing, I was fleeing from Yumizuka, trembling all over.
+`[line=3]By the time I knew what I was doing, I was fleeing from Yumizuka, trembling all over.
 \
 bg #000000,lshutter,400
 play "*4"
@@ -320,7 +320,7 @@ bg #000000,lcartain,800
 bg "bg/bg_27b",lcartain,800
 `I ran through the night.@ For now, running was all there was.@
 br
-`…@But why?@
+`[line=6]…@But why?@
 br
 `The answer was obvious.@ If I stopped, she would catch me.@ I could feel Satsuki Yumizuka pursuing me.@ A moment ago her presence had been no larger than the point of a needle.@ Now it spread across my entire back, broad and featureless.
 \
@@ -367,7 +367,7 @@ ld c,"tachi/stk_t02",lshutter,800
 `Yumizuka stuck out her tongue in apology, then tossed the head carelessly behind her.
 \
 `“Yumizuka…@ what was that?”@
-`“Hm?@ Oh, that?@ I bumped into him while I was chasing you.@ He kept making noise, so I tore his mouth away from his body.@ I tasted his blood too, but men who’ve ruined their livers with alcohol taste awful.@ When you choose someone, Shiki, make sure they’re young and healthy.”
+`“Hm?@ Oh, that?@ I bumped into him while I was chasing you.@ He kept making noise, so I tore his head from his body.@ I tasted his blood too, but men who’ve ruined their livers with alcohol taste awful.@ When you choose someone, Shiki, make sure they’re young and healthy.”
 \
 cl a,lshutter,1500
 `She smiled and approached, plainly enjoying herself.@ Nothing of the smile I remembered remained.@ Nothing remained of the girl who had waved and called goodbye.
@@ -388,7 +388,7 @@ cl a,lshutter,800
 `“…@That’s a lie.”@
 `The moment I said it, I knew those words were a lie too.@ Why utter a lie so poor it could not deceive even me?@
 br
-`…@No.@ It was too late for her.@
+`[line=4]…@No.@ It was too late for her.@
 br
 `Satsuki Yumizuka could no longer be saved.@ Even the last of my reason surrendered to that hopeless conclusion.
 \
@@ -430,7 +430,7 @@ bg #000000,crossfade,400
 \
 wave se_15
 `“Gah…!”@
-`What—what had happened?@ Yumizuka vanished for an instant.@ Then her face was beside mine, and something struck me in the ribs.
+`[line=3]What—what had happened?@ Yumizuka vanished for an instant.@ Then her face was beside mine, and something struck me in the ribs.
 \
 `“Hah…@ ghh…!”@
 `My back screamed.@ Had that casual blow truly sent me flying all the way into a building wall?@
@@ -463,7 +463,7 @@ bg #000000,lshutter,400
 \
 `“Ah…@ ghh…!”@
 br
-`I couldn’t see.@ My whole body hurt too much to see anything.@
+`[line=3]I couldn’t see.@ My whole body hurt too much to see anything.@
 br
 `“You shouldn’t lie there, Shiki.@ Something terrible might happen…!”@
 `“…!”@
@@ -548,7 +548,7 @@ br
 \
 !w2000
 br
-`Then Yumizuka’s voice stopped.@
+`[line=3]Then Yumizuka’s voice stopped.@
 br
 `With a body that could move only its fingertips, I watched her.@ Yumizuka stood frozen over my motionless form, as though she had awakened from a nightmare and finally regretted what she had done.
 \
@@ -558,7 +558,7 @@ br
 \
 `“…@It’s…@ all right.”@
 br
-`She did not need to blame herself so bitterly.@ Even if body and soul had both become something called a vampire, she was still a pitiful victim.@ My body would never move again anyway.@ Yumizuka, if you were truly that lonely, that cold, that full of pain, there was only one thing left that I could do.
+`[line=3]She did not need to blame herself so bitterly.@ Even if body and soul had both become something called a vampire, she was still a pitiful victim.@ My body would never move again anyway.@ Yumizuka, if you were truly that lonely, that cold, that full of pain, there was only one thing left that I could do.
 \
 `“...@It’s all right, Yumizuka.”@
 `“Shiki...?”@
@@ -571,7 +571,7 @@ br
 `“Why hesitate now?@ You chased me all this way because you wanted this.”@
 `“But...@ I truly do want it, only...”@
 br
-`—If I do that, I think I really will be lost forever—
+`[line=3]If I do that, I think I really will be lost forever—
 br
 `Her lips shaped the voiceless words.
 \

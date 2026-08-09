@@ -10,7 +10,7 @@ bg "bg/bg_34b",lshutter,800
 ld c,"tachi/his_t01",crossfade,400
 `“…”@ Hisui remains silent.@ Kohaku clears the dishes with her usual smile.@
 br
-`Then—
+`[line=4]Then—
 wave se_05
 br
 `Something crashes in the foyer.@ “Akiha!”@ With nothing but a terrible premonition to guide me, I sprint toward the sound.
@@ -42,7 +42,7 @@ ld c,"tachi/his_t01",lshutter,800
 \
 `“Miss Akiha sometimes suffers sudden attacks that leave her unable to breathe.@ Just as you are prone to anemia, she too belongs to the Tohno family.”@ “Ah—”@
 br
-`The Tohnos have certain inherited peculiarities.@
+`[line=3]The Tohnos have certain inherited peculiarities.@
 br
 `Akiha had indeed said that at lunch.
 \
@@ -68,7 +68,7 @@ br
 ld c,"tachi/his_t01",crossfade,400
 `“The annex fell out of use soon after you were sent to live with the Arima family.@ Your father decided to demolish it, but Miss Akiha protested so fiercely that it remains standing even now.@
 ld c,"tachi/his_t09",crossfade,400
-`Therefore, if you truly care for Miss Akiha, please stay away from the annex.”@
+`[line=3]Therefore, if you truly care for Miss Akiha, please stay away from the annex.”@
 cl a,lshutter,400
 `With that, Hisui hurries from the room as though fleeing.
 \

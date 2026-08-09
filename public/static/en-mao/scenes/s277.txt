@@ -12,7 +12,7 @@ ld c,"tachi/ari_t01",lshutter,400
 ld c,"tachi/ari_t03",crossfade,400
 `“Huh?@ Who?”@ “You know—the only older student we both know.@ Ciel.”@ “Who’s Ciel?@ Did our school have a foreign exchange student?”@
 br
-`My mouth fell open in disbelief.@
+`[line=4]My mouth fell open in disbelief.@
 br
 `“Arihiko…@ you…”@ I managed that much in broken fragments, but the rest refused to come.
 \
@@ -27,7 +27,7 @@ cl c,lshutter,800
 \
 `Homeroom began, followed immediately by first-period physics.@
 br
-`I watched it all with the detachment of someone viewing a film on a screen.
+`[line=3]I watched it all with the detachment of someone viewing a film on a screen.
 \
 bg #000000,lshutter,400
 bg "bg/ima_03",lshutter,400
@@ -46,5 +46,5 @@ bg #000000,crossfade,1500
 bg "bg/bg_06a",crossfade,400
 `When I finally looked around, the classroom held far fewer students.@
 br
-`Apparently lunch break had begun some time ago.@ “……”@ I had no desire to do anything.@ My body felt leaden, so perhaps I should simply—
+`[line=3]Apparently lunch break had begun some time ago.@ “……”@ I had no desire to do anything.@ My body felt leaden, so perhaps I should simply—
 \

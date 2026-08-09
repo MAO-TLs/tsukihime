@@ -123,6 +123,19 @@ test('GitHub Pages deep entries match the play and reader routes with the projec
 	}
 })
 
+test('release, script, and audit share one compact mobile header geometry', async () => {
+	const [siteStyles, readerStyles, navigation] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'src/features/mao-site/mao-site.scss'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/mao-reader-template.css'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-site/MaoSiteNav.tsx'), 'utf8'),
+	])
+
+	assert.match(siteStyles, /@media \(max-width: 480px\)[\s\S]*?\.mao-site-wordmark \{ max-width: 72px; line-height: 1\.15; \}[\s\S]*?\.mao-site-nav-links \{ gap: 11px; font-size: 11px; \}/)
+	assert.match(readerStyles, /@media \(max-width: 480px\)[\s\S]*?\.reader-page \.wordmark \{ max-width: 72px; line-height: 1\.15; \}[\s\S]*?\.reader-page \.nav-links \{ gap: 11px; font-size: 11px; \}/)
+	assert.match(readerStyles, /\.reader-page \{[\s\S]*?color-scheme: light;/)
+	assert.match(navigation, /href="https:\/\/github\.com\/MAO-TLs\/tsukihime">GitHub<\/a>/)
+})
+
 test('the play menu exit returns to the Tsukihime release page', async () => {
 	const [source, defaultStrings, maoStrings] = await Promise.all([
 		fs.readFile(path.join(projectRoot, 'src/app/screens/TitleMenuScreen.tsx'), 'utf8'),

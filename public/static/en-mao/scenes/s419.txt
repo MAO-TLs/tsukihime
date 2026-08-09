@@ -28,7 +28,7 @@ cl l,lshutter,400
 \
 `“…@Yes.@ That might be a good idea.@ It’s only been a week, but if I still can’t adjust, I’ll leave for a while and get my health back.”@ Though that wouldn’t be for some time yet, I add.@
 br
-`At that, Akiha abruptly rises from the sofa.
+`[line=3]At that, Akiha abruptly rises from the sofa.
 \
 ld c,"tachi/aki_t09",lshutter,400
 `“Oh, no, Brother.@ You’ve only just come home.@ Please don’t ever leave this mansion again.@
@@ -44,7 +44,7 @@ cl c,lshutter,400
 \
 `“…”@ I remain on the sofa, too stunned to move.@
 br
-`—I’ll have to kill you, Brother.@
+`[line=3]I’ll have to kill you, Brother.@
 br
 `…@Those words refuse to leave my mind.@ It was supposed to be a joke, yet somehow I couldn’t make myself hear it as one.
 \
@@ -53,7 +53,7 @@ playstop
 !w2000
 bg "bg/bg_06a",lcartain,800
 wave se_03
-`—Lunch break arrives.@ As usual, Arihiko is absent from school.@
+`[line=3]Lunch break arrives.@ As usual, Arihiko is absent from school.@
 br
 `“May as well go to the cafeteria.”@ Eating lunch alone is dull.@ At least in a crowded dining hall, there might be some flavor to the solitude.
 \
@@ -61,7 +61,7 @@ bg #000000,lcartain,800
 bg "bg/bg_50",lcartain,800
 `As expected, the cafeteria is roaring with activity.@ I join a line dozens deep, buy the safe Set A, and find a table.@ I eat amid the chatter of the other students.@
 br
-`And then—
+`[line=4]And then—
 br
 `For an instant, something horrible flashes before my eyes.
 \
@@ -75,7 +75,7 @@ wait 100
 bg "bg/bg_50",notrans,0
 `…@Apparently the girl survived, for now.@ The report says she is in the hospital after having the blood drained from her body.@ Whether she is conscious is unknown.@ Whether she will recover is unknown.@ …@Who attacked her and stole her blood is unknown as well.@ But the photograph on the screen is unmistakably the girl from last night.@
 br
-`—Then there is one thing that isn’t unknown.@ The person who attacked her was beyond any doubt—
+`[line=3]Then there is one thing that isn’t unknown.@ The person who attacked her was beyond any doubt—
 \
 bg #9c0120,notrans,0
 wait 100
@@ -109,9 +109,10 @@ br
 \
 !w2000
 bg "bg/bg_31a",lcartain,800
-`—I arrive at the place from my dream.@
+`[line=3]I arrive at the place from my dream.@
 br
-`Several police officers are standing nearby, and tape seals off the alley.@ “—It’s the same.”@ I passed through this place in the dream.@ No—that wasn’t a dream.@ I can’t hide behind that excuse any longer.
+`Several police officers are standing nearby, and tape seals off the alley.@ “—It’s the same.”@ I passed through this place in the dream.@
+`[line=3]No—that wasn’t a dream.@ I can’t hide behind that excuse any longer.
 \
 `“…”@ Staying here will only draw suspicion from the police.@ …@It’s too late to return to school.@ I have no choice but to go back to the mansion.
 \
@@ -156,7 +157,7 @@ br
 \
 `“…@The heads of this family really do die young.@ Father died of illness before he reached fifty, and the head before him died in an accident at thirty.@ …@The one before that committed suicide at eighteen—”@
 br
-`—No.@ Wait.@ This is too strange.
+`[line=4]No.@ Wait.@ This is too strange.
 \
 play "*6"
 wave se_01
@@ -169,14 +170,14 @@ br
 \
 `“This is wrong—something is wrong here.”@ Yet I can’t say what.@ “…@That leaves…@ Father’s journal.”@ I pick up the comparatively new-looking volume.@
 br
-`—Thump.@
+`[line=4]Thump.@
 br
 `My heartbeat reverberates through me.@ Somewhere inside, I know I must not read what is written here.@ But I’ve come too far to turn back.@ I swallow and open my father’s journal.
 \
 bg #000000,lshutter,400
 bg "bg/bg_41",lshutter,400
 br
-`—Something demonic dwells in the Tohno bloodline.@
+`[line=3]Something demonic dwells in the Tohno bloodline.@
 br
 `That is how it begins.
 \
@@ -190,7 +191,7 @@ br
 \
 `“…”@ …@This is insane.@ Why would Father record such fairy-tale nonsense with such deadly seriousness?@
 br
-`—Without my noticing, the journal has shifted into my father’s own voice.@
+`[line=4]Without my noticing, the journal has shifted into my father’s own voice.@
 br
 `The entry is dated roughly nine years ago.@ The handwriting that follows is erratic.
 \
@@ -224,13 +225,13 @@ bg #9c0120,crossfade,400
 bg "bg/bg_41",crossfade,400
 `“…”@
 br
-`—I’m going to be sick.@
+`[line=3]I’m going to be sick.@
 br
 `I can barely stay on my feet.@ Quickly.@ If I don’t return to my room and sleep, I feel as though my mind will come apart.@
 br
 `Even so, I turn the page.
 \
-`—The remainder of the journal is some kind of record.@
+`[line=3]The remainder of the journal is some kind of record.@
 br
 `The entries begin on a summer day eight years ago, then advance little by little through the months and years.@ “…”@ Though I don’t understand what they mean, I begin to read.
 \
@@ -306,13 +307,13 @@ bg #000000,lcartain,800
 playstop
 !w2000
 bg "bg/bg_40b",crossfade,800
-`—The sun goes down.@
+`[line=3]The sun goes down.@
 br
 `Sprawled across the bed, I keep circling the same thought.@ …@Considered calmly, the journal told me only two things.@ I am not a member of the Tohno family.@ The Nanaya bloodline produces killers.
 \
 `I share no blood with Makihisa Tohno.@ If I dream of murder, the cause lies entirely within me.@ Which means what I have to do is finally clear.@
 br
-`—Voices come from the lobby.@
+`[line=4]Voices come from the lobby.@
 br
 `“…@Akiha must be home.”@ I rise from the bed.@ There is one last thing I want—to hear the truth from Akiha herself.
 \
@@ -325,7 +326,7 @@ bg "bg/bg_36c",lshutter,400
 ld c,"tachi/aki_t04b",lshutter,400
 `“How unusual.@ I’m surprised you came to visit me in my room, Brother.”@ Akiha is smiling, just as she was this morning.@ Seeing that smile makes me want to turn around and leave without a word.@ …@When it came down to it, perhaps both the self called Shiki Tohno and the sister called Akiha Tohno had become too precious for me to bear losing.@
 br
-`—Even so, there is something I have to ask.
+`[line=4]Even so, there is something I have to ask.
 \
 `“Akiha—”@ “Yes, Brother?”@ She looks at me as though expecting some pleasant conversation.@
 cl c,lshutter,400
@@ -381,7 +382,7 @@ br
 \
 `“…@I see.@ But then who is killing people in the city?@ Even if what I’m seeing is a dream, there are real victims out there—”@
 br
-`—The killer exists.@ I feel as though I have met him before.@ Did that happen in a dream too?@ No, whether it did or not, if a killer is loose in this city, then he must be—
+`[line=3]The killer exists.@ I feel as though I have met him before.@ Did that happen in a dream too?@ No, whether it did or not, if a killer is loose in this city, then he must be—
 \
 `“…@SHIKI is still alive…?”@ “What?”@ Even Akiha, who had been hiding her laughter until now, turns grave.
 \
@@ -402,7 +403,7 @@ br
 bg "bg/bg_36c",lshutter,800
 `I start to leave Akiha’s room.@
 br
-`Then a voice calls after me.@ “…@What is it?@ I thought we had nothing left to talk about, Akiha.”@
+`[line=4]Then a voice calls after me.@ “…@What is it?@ I thought we had nothing left to talk about, Akiha.”@
 ld c,"tachi/aki_t01b",lshutter,400
 `“…”@ Akiha says nothing.@ She only holds my gaze.
 \
@@ -488,7 +489,7 @@ ld c,"tachi/his_t25",crossfade,400
 ld c,"tachi/his_t26",crossfade,400
 `Hisui looks away.@
 br
-`—Something just slipped out of alignment.@
+`[line=3]Something just slipped out of alignment.@
 br
 `What had been no more than a vague dissonance shifts with an audible click and settles into a new configuration.
 \
@@ -565,7 +566,7 @@ cl c,crossfade,400
 ld c,"tachi/his_t17",lshutter,400
 `“Master Shiki, please let my sister remain as she is.@ …@Otherwise, she will lose the only place she has left.”@ I can only nod.@ Yet I know it can never be the right choice.@ Is Kohaku to spend the rest of her life playing the Hisui of long ago, while Hisui plays the old Kohaku simply to protect that illusion?
 \
-`And Hisui means to remain beside Kohaku all that time, watching a sister who knows nothing but falsehood.@ That has to be unbearably painful.
+`[line=3]And Hisui means to remain beside Kohaku all that time, watching a sister who knows nothing but falsehood.@ That has to be unbearably painful.
 \
 ld c,"tachi/his_t13",crossfade,400
 `“Master Shiki, please promise me you won’t tell her anything.”@ “…@All right.@ But Hisui—is this truly what you want?”@ She gives no answer.@ I swallow everything I have no way to express and rise from the chair.@ All I can do is leave the kitchen, abandoning Hisui there with her head bowed.

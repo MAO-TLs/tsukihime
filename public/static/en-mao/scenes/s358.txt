@@ -2,7 +2,8 @@ play "*3"
 wavestop
 bg "bg/bg_04",notrans,0
 ld c,"tachi/aki_t13a",crossfade,400
-`“……”@ Akiha sat in silence, staring at me.@ Then—
+`“……”@ Akiha sat in silence, staring at me.@
+`[line=3]Then—
 ld c,"tachi/aki_t16a",crossfade,400
 `“……@It’s lunchtime, Brother.”@ She stated the spectacularly obvious.@ “Yes.@ It certainly is.@ And since it’s lunchtime, we should probably eat.”@ I rustled through the plastic bag and took out the bread I had bought.@ “It’s the same as yesterday.@ Is that all right?”@
 ld c,"tachi/aki_t12a",crossfade,400
@@ -31,7 +32,7 @@ br
 ld c,"tachi/aki_t19",crossfade,400
 `“Ah—”@ Perhaps the carton was too small.@ Her fingers settled over mine.
 \
-`Thump.@
+`[line=3]Thump.@
 br
 `That was all.@ Such a tiny thing, and yet my fingertips burned.@ I should have let go at once, but my hand would not move.@ When I looked at Akiha, she was frozen too.
 \
@@ -95,7 +96,7 @@ ld r,"tachi/aki_t01a",crossfade,400
 ld l,"tachi/cel_t04",crossfade,400
 `“Exactly.@ Yet the marks on the body looked unmistakably human.@ That would make the killer a creature shaped like a person but not actually human.@ Calling it a vampire may not be so far from the truth.”@
 br
-`Nausea rose in my throat.@ Ciel, you only smiled because you didn’t know.@ Because that was—
+`[line=4]Nausea rose in my throat.@ Ciel, you only smiled because you didn’t know.@ Because that was—
 \
 ld r,"tachi/aki_t04a",crossfade,400
 `“Heh.”@
@@ -141,7 +142,7 @@ br
 br
 br
 br
-`Its very existence—a crime.
+`[line=6]Its very existence—a crime.
 \
 `…@What was this?@ Akiha was strange for asking, and Ciel was just as strange for answering.@ Worse, their conversation felt directed not at some hypothetical creature, but at me.
 \
@@ -158,7 +159,7 @@ ld l,"tachi/cel_t01a",crossfade,400
 cl a,crossfade,400
 `Ciel ran toward the cafeteria.@ Her classroom must have been closer if she entered the building from that side.
 \
-`Ciel was leaving.@
+`[line=4]Ciel was leaving.@
 br
 `Was it because she knew so much about the killings, or because something in that conversation still troubled me?
 \

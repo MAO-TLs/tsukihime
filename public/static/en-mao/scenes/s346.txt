@@ -1,7 +1,7 @@
 play "*2"
 wavestop
 bg "bg/bg_40a",notrans,0
-`Right.@ That nightmare has left my stomach churning.@ Since I still have time, I’ll rest a little longer.
+`[line=3]Right.@ That nightmare has left my stomach churning.@ Since I still have time, I’ll rest a little longer.
 \
 bg #000000,tshutter,800
 !w500
@@ -33,7 +33,7 @@ wave se_03
 !w1000
 bg "bg/bg_06a",tshutter,800
 play "*3"
-`Fourth period ends.@
+`[line=3]Fourth period ends.@
 br
 `Lunchtime begins, and the whole school swells with noise.@ “Right, then.”@ Akiha will probably come to the courtyard.@ Knowing her, she likely had Kohaku prepare a lunch for her, but I’ll pick up something from the school store just in case.
 \

@@ -30,6 +30,7 @@
 
 .reader-page {
 	min-height: 100vh;
+	color-scheme: light;
 	background: #edf3f8;
 }
 
@@ -690,7 +691,7 @@
 	.reader-page .line-cell { padding: 19px 18px 22px; }
 }
 
-@media (max-width: 380px) {
-	.reader-page .wordmark { font-size: 10px; letter-spacing: .08em; }
-	.reader-page .nav-links { gap: 12px; font-size: 11px; }
+@media (max-width: 480px) {
+	.reader-page .wordmark { max-width: 72px; line-height: 1.15; }
+	.reader-page .nav-links { gap: 11px; font-size: 11px; }
 }

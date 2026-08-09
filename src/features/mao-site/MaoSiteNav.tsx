@@ -1,5 +1,4 @@
 import {Link} from "wouter"
-import {APP_INFO} from "app/utils/constants"
 import {SCREEN} from "app/utils/display"
 import "./mao-publication-template.css"
 import "./mao-site.scss"
@@ -29,7 +28,7 @@ export default function MaoSiteNav({currentPage}: MaoSiteNavProps) {
 				<Link href={SCREEN.AUDIT} aria-current={currentPage === "audit" ? "page" : undefined}>
 					Audit
 				</Link>
-				<a href={APP_INFO.GITHUB_URL}>GitHub</a>
+				<a href="https://github.com/MAO-TLs/tsukihime">GitHub</a>
 			</div>
 		</nav>
 	)

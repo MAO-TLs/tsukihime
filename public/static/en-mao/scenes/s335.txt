@@ -1,7 +1,7 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`Someone was bound to be in the sitting room.@
+`[line=3]Someone was bound to be in the sitting room.@
 br
 `It was bound to be more fun with everyone than sitting alone.
 \
@@ -72,9 +72,9 @@ ld c,"tachi/koha_t03b",crossfade,400
 `Akiha must have forbidden the subject of the annex in the strongest possible terms.
 \
 cl a,crossfade,400
-`But why?@
+`[line=4]But why?@
 `The annex had once housed the servants.@
-`And Akiha hated the thought of anyone entering it.
+`And Akiha hated the thought of me entering it.
 \
 `“Kohaku, when did they stop using the annex?”@
 ld l,"tachi/koha_t11",crossfade,400

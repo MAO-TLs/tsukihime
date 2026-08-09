@@ -887,3 +887,32 @@ test("every runtime selection has one complete English choice table", () => {
 		"English game data contains an orphan choice table",
 	)
 })
+
+test("inline waits remain commands and retain their preceding punctuation click", () => {
+	const sceneFiles = fs.readdirSync(EN_SCENES).filter(name => name.endsWith(".txt"))
+	const corpus = sceneFiles
+		.map(name => fs.readFileSync(path.join(EN_SCENES, name), "utf8"))
+		.join("\n")
+	assert.doesNotMatch(corpus, /!@w\d+/)
+
+	const heartbeat = fs.readFileSync(path.join(EN_SCENES, "s422.txt"), "utf8")
+	assert.match(
+		heartbeat,
+		/`Thump\.@ Thump\.@!w1000[\s\S]*`Thump\.@ Thump\.@!w750[\s\S]*`Thump\.@!w250/,
+	)
+})
+
+test("opening contains exactly the centered continuations reserved at runtime", () => {
+	const opening = fs.readFileSync(path.join(EN_SCENES, "openning.txt"), "utf8")
+	const centeredContinuations = opening
+		.split("\n")
+		.filter(line => line.startsWith("`[center]") && line.includes("@"))
+	assert.equal(centeredContinuations.length, 13)
+	assert.equal(
+		centeredContinuations.reduce(
+			(total, line) => total + [...line.matchAll(/@/g)].length,
+			0,
+		),
+		17,
+	)
+})

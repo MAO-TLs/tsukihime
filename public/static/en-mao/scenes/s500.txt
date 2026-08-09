@@ -3,7 +3,7 @@ playstop
 wavestop
 bg #000000,lcartain,800
 bg "bg/bg_01c",lcartain,800
-`—Troubled by what happened that evening, I come to the school.@
+`[line=3]Troubled by what happened that evening, I come to the school.@
 br
 `Looking back, there was something strange about Arcueid at school.@ There is no logical reason for it, but if her aimless flight led anywhere, I feel it must have been this building.
 \
@@ -27,14 +27,14 @@ play "*6"
 bg "bg/bg_10c",lcartain,800
 waveloop se_02
 br
-`—There is no one on the first floor.
+`[line=4]There is no one on the first floor.
 \
 bg #000000,lcartain,800
 bg "bg/bg_07b",lcartain,800
 br
 br
 br
-`—Pain crackles through the back of my neck, leaving it numb.@ I endure it and climb the stairs.
+`[line=4]Pain crackles through the back of my neck, leaving it numb.@ I endure it and climb the stairs.
 \
 bg #000000,lcartain,800
 bg "bg/bg_11c",lcartain,800
@@ -43,7 +43,7 @@ br
 br
 br
 br
-`—I climb to the second floor.@ No one.
+`[line=4]I climb to the second floor.@ No one.
 \
 wave se_08
 `No one.@
@@ -62,7 +62,7 @@ bg #000000,notrans,0
 bg "bg/ima_12b",lshutter,400
 `Blood flows.@ As though reopening the old scar on my chest, a knife suddenly drives through me from behind.@ “Ah—”@ My body slips downward.@
 br
-`—I don’t understand.
+`[line=4]I don’t understand.
 \
 bg #000000,crossfade,800
 `My consciousness fades.@ In its final instant—

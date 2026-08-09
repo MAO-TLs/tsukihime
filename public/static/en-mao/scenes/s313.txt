@@ -197,7 +197,7 @@ ld c,"tachi/stk_t07",crossfade,400
 ld c,"tachi/stk_t10",crossfade,400
 `“Come here.@ Stand beside me, take my hand, and put me at ease.”@ She held out her hand.@
 br
-`Thump.@
+`[line=4]Thump.@
 br
 `My heart struck one deafening beat, and my feet moved on their own—not toward her, but back.
 \
@@ -218,7 +218,7 @@ br
 br
 `Yumizuka’s bewildered voice.@
 br
-`Thump.@
+`[line=4]Thump.@
 br
 `My heart raced.@ My throat dried with every ragged breath.@ Every nerve in my body began to recognize the thing before me as an enemy.
 \
@@ -249,7 +249,7 @@ br
 br
 br
 br
-`—My mind goes dim.
+`[line=7]My mind goes dim.
 \
 `“What’s wrong…?@ Why won’t you do what I say…?”@
 br
@@ -307,7 +307,7 @@ br
 br
 br
 br
-`—My consciousness turns inside out.
+`[line=8]My consciousness turns inside out.
 \
 playstop
 bg "bg/bg_29c",crossfade,400
@@ -358,28 +358,28 @@ br
 \
 `“Why…?”@ “…@Because this is the first time you’ve really looked at me.@ That makes me happy.@ It means I was your first, Shiki.”@
 br
-`Thump.@
+`[line=7]Thump.@
 br
 `“…@I’m sorry.@ They say nothing cures a fool but death, but it seems even dying couldn’t cure me—”@
 br
-`Thump.@
+`[line=7]Thump.@
 br
 `“…@Yumi…@zuka?”
 \
-`Thump.@
+`[line=7]Thump.@
 br
 `There is no answer.@ With a soft rush, her body crumbles into ash as though it had never existed at all.
 \
 bg "bg/bg_29b",crossfade,400
 playstop
 br
-`—What had just happened?@
+`[line=5]What had just happened?@
 br
 textcolor #ff0000
 `That’s right.@
 textcolor #ffffff
 br
-`—I couldn’t understand it.@
+`[line=5]I couldn’t understand it.@
 br
 textcolor #ff0000
 `That is enough.
@@ -392,11 +392,11 @@ textcolor #ffffff
 br
 `…@That’s the kind of person you are.@ You’re like me now—you have to kill people to stay alive.@
 br
-`—She had said it.@
+`[line=5]She had said it.@
 br
 `…@Killing comes as naturally to you as breathing, Shiki.@
 br
-`—The girl who said murder was fun had declared it to me with pride.
+`[line=5]The girl who said murder was fun had declared it to me with pride.
 \
 `“—No.”@ That wasn’t true.@ I couldn’t accept it.@ If I did, I would never be sane again.@ “—I’m not like you.@ I’m different, Yumizuka.”@ There was no strength in my denial.@
 bg #9c0120,crossfade,400

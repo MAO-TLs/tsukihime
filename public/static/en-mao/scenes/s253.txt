@@ -5,7 +5,7 @@ wavestop
 !w1000
 bg "bg/bg_34b",crossfade,1500
 play "*3"
-`Night, after dinner.@
+`[line=3]Night, after dinner.@
 `For once, the full complement—Akiha, Kohaku, and Hisui—has remained in the sitting room, so I join them for tea.
 \
 ld l,"tachi/koha_t03",lshutter,400
@@ -55,7 +55,7 @@ ld c,"tachi/koha_t02",crossfade,400
 `“They found another victim downtown this morning.@ That makes eleven now.@ Eleven.”@
 `“…@Eleven, huh?@ Impressive.@ Enough for a baseball—”@
 br
-`Wait.@
+`[line=5]Wait.@
 br
 `“Kohaku!”@
 ld c,"tachi/koha_t01a",crossfade,400
@@ -119,7 +119,7 @@ br
 `“Damn it…@ Where are you, Arcueid…?”@
 `I’m furious, absurdly so.@ I thought I would finally see her again, and being denied at the last moment is unbearable.@
 `“…@I thought…@I’d finally see you again…”@
-`What?@
+`[line=3]What?@
 `What was that supposed to mean?@ It makes it sound as if I’m…@as if I’m in love with Arcueid.
 \
 `“That’s…”@
@@ -146,7 +146,7 @@ play "*6"
 br
 br
 wave se_12
-`A long metallic shriek—
+`[line=4]A long metallic shriek—
 br
 br
 `“What—what was that?”@
@@ -198,7 +198,7 @@ br
 bg #9c0120,crossfade,400
 br
 br
-`Thump.@
+`[line=4]Thump.@
 br
 `My heart gives one tremendous beat.@
 `There is no time to think danger, no time to think move.@ I simply think: I’m dead.@
@@ -220,7 +220,7 @@ ld c,"tachi/cel_t06b",crossfade,400
 cl a,crossfade,1500
 playstop
 br
-`She turns her back and runs away.
+`[line=3]She turns her back and runs away.
 \
 `“Why…@why?”@
 `Ciel is already gone.@
@@ -343,7 +343,7 @@ ld c,"tachi/ark_t16",crossfade,400
 cl c,lshutter,800
 `“Of course I know her.@ She’s a third-year at my school, and I’ve known her since my first—”@
 br
-`Since my first year?
+`[line=4]Since my first year?
 \
 bg #000000,crossfade,400
 `“Wait…”@
@@ -353,7 +353,7 @@ bg #000000,crossfade,400
 monocro #ffff00
 bg "event/cel_e01",crossfade,1500
 br
-`Thank you, Tohno.@
+`[line=3]Thank you, Tohno.@
 br
 `She said it with such a warm smile that I somehow felt we had known each other forever.@
 `“No…@way…”
@@ -396,7 +396,7 @@ ld c,"tachi/ark_t03",crossfade,400
 \
 `“…@I understand.@ But something still doesn’t add up.@ Even if Ciel belongs to this Burial Agency, why was she fighting you?@ The Church’s exorcists only hunt evil vampires, don’t they?@ Then you and Ciel have no reason to be trying to kill each other.”@
 br
-`They only hunt evil vampires.@
+`[line=3]They only hunt evil vampires.@
 br
 `Vampires who drink human blood, for example, then throw the bodies into the street.
 \
@@ -424,7 +424,7 @@ br
 br
 br
 br
-`And then—
+`[line=6]And then—
 quakey 1,100
 br
 `She raps me on the head with her knuckles.
@@ -464,7 +464,7 @@ ld c,"tachi/ark_t11",crossfade,400
 ld c,"tachi/ark_t02",crossfade,400
 `“Listen carefully.@ The serial murders you mean were the work of one vampire from the very beginning.@ No new vampiric species arrived, and Nrvnqsr had nothing whatsoever to do with those killings.”@
 br
-`What?@
+`[line=4]What?@
 `Even Nrvnqsr had nothing to do with them?@
 br
 `“What does that mean?”@
@@ -524,7 +524,7 @@ br
 `“That was your doing?”@
 ld c,"tachi/ark_t09",crossfade,400
 `Arcueid’s mouth curls into a wicked grin.@
-`Damn it.@
+`[line=3]Damn it.@
 `If I had kept quiet, the subject might have died there.@ Instead I just confirmed everything myself.
 \
 ld c,"tachi/ark_t08",crossfade,400

@@ -36,7 +36,7 @@ play "*9"
 !w3000
 bg "bg/cmo_05",crossfade,800
 br
-`I have always been a stranger to my family.@
+`[line=4]I have always been a stranger to my family.@
 br
 `I had carried those words since childhood.@ Ever since I was sent from the Tohno family to the Arima family.@
 `No—to be precise, much longer than that.@ I had always been a stranger to my family.
@@ -93,7 +93,7 @@ ld c,"tachi/aki_t12b",crossfade,400
 \
 `“She is resting in the sitting room.@ Ordinarily I would never permit someone like her to enter the mansion, but she did save you.@ I could hardly turn her away.”@
 br
-`Akiha’s expression sharpens by degrees.
+`[line=3]Akiha’s expression sharpens by degrees.
 \
 ld c,"tachi/aki_t01b",crossfade,400
 `“Brother.@ SHIKI was the one who gave you that wound, wasn’t he?”@
@@ -167,7 +167,7 @@ ld c,"tachi/aki_t12b",crossfade,400
 `“Akiha…@ that’s…”@
 `“I know.@ It is difficult to believe without warning, so please listen quietly for now.”@
 br
-`No.@ I know someone very much like that.@
+`[line=3]No.@ I know someone very much like that.@
 `Even now, if I had never met SHIKI and my body could move, I would already be outside searching for her.
 \
 ld c,"tachi/aki_t01b",crossfade,400
@@ -221,7 +221,7 @@ ld c,"tachi/aki_t01b",crossfade,400
 \
 br
 br
-`What…?
+`[line=12]What…?
 \
 `“You, SHIKI, and I were raised as true siblings.@ You and SHIKI were so close that even as a little girl, I was jealous.@
 `But when that happened to SHIKI, everything went wrong.@
@@ -259,7 +259,7 @@ br
 br
 br
 br
-`“Ha…”
+`[line=11]“Ha…”
 \
 ld c,"tachi/aki_t12b",crossfade,400
 `“That is why you were sent to the Arima family.@
@@ -270,7 +270,7 @@ cl c,crossfade,400
 `Her head is bowed, as though she is struggling to hold something back.@ She must feel an enormous guilt toward me.
 \
 br
-`I have no intention of blaming her for any of it.@
+`[line=3]I have no intention of blaming her for any of it.@
 br
 `In fact, knowing that she cares enough to feel guilty brings me some small comfort.@ Even so, there are things I must ask.
 \
@@ -316,7 +316,7 @@ br
 `Akiha says nothing, her head still bowed.
 \
 br
-`I am tired.@
+`[line=4]I am tired.@
 br
 `The truth is, I never wanted to learn about myself.@ Right now none of it matters beside the need to find Arcueid.
 \
@@ -374,7 +374,8 @@ br
 `Fighting down nausea, I force my upper body upright.@ Walking may be the most I can manage, but that is enough.@
 `Surviving after Roa struck the point in my chest is already a miracle.@ Asking for more would be tempting fate.@
 br
-`I examine the wound where the knife entered my chest—and find nothing there that resembles a Point of Death.
+`I examine the wound where the knife entered my chest
+`[line=3]and find nothing there that resembles a Point of Death.
 \
 `“What…?”@
 `A sudden clarity comes over me.@ Anything stabbed through a Point of Death dies, no questions asked.@ Even Nrvnqsr, that immortal monster, was no exception.@
@@ -494,7 +495,7 @@ br
 \
 `“That isn’t why.@ I have another reason for wanting to stop Roa.”@ “You don’t hate him…?”@ “I’d be lying if I said I didn’t, but that doesn’t matter.@ I can’t leave Roa alone.@ If I do, our princess will go and do something reckless all by herself.@ So I have to help her.@ I promised I’d see this through with her.”@
 br
-`That was it.@ I couldn’t lie here resting comfortably while she fought alone.@ All this time, she must have been bearing pain at least as bad as mine and smiling for me anyway.
+`[line=3]That was it.@ I couldn’t lie here resting comfortably while she fought alone.@ All this time, she must have been bearing pain at least as bad as mine and smiling for me anyway.
 \
 `“I don’t understand.@ Why go so far for her?@ Arcueid is a vampire.@ She’s nothing like you.”@ “I don’t care about that.@ I love her.@ That’s reason enough to take her side.”@ I looked her straight in the eye and said it plainly.@
 cl c,crossfade,400
@@ -598,7 +599,7 @@ ld c,"tachi/cel_t01b",crossfade,400
 \
 br
 br
-`Then branches rustled outside the window.
+`[line=3]Then branches rustled outside the window.
 \
 playstop
 `“What—!?”@ “Don’t be alarmed.@ That was only her leaving.@ I’ve felt something oddly out of place for a while now.@ So that was it.”@ She glanced toward the window.
@@ -609,7 +610,7 @@ playstop
 ld c,"tachi/cel_t07b",crossfade,400
 `“Roa hurt you, so she came to make sure you were all right.@ She listened to our conversation—and now she’s gone to find him.”@
 br
-`Meaning she had gone to settle things with Roa.
+`[line=3]Meaning she had gone to settle things with Roa.
 \
 `“She’s gone?@ Why would she…!?”@ “Isn’t it obvious?@ After hearing something like that, I would have done exactly the same.@ I envy her…@ and pity her just as much.”@ “But why—?”@
 ld c,"tachi/cel_t07b",crossfade,400
@@ -662,7 +663,7 @@ bg "bg/bg_01d",crossfade,400
 ld c,"tachi/cel_t07b",crossfade,400
 `“True Ancestors are called the people of the moon for good reason.@ The lunar cycle affects them profoundly.@ The same is true of Roa, a Dead Apostle sired directly by a True Ancestor.@ Tonight, he will be very nearly immortal.@ With the equipment I have, I may not be able to finish him.”@ My teeth ground together.
 \
-`Very nearly immortal.@ It made no difference to me.@ If only I could reach him—even if he pierced my heart the next instant—then I would drive my blade through his “death.”
+`[line=3]Very nearly immortal.@ It made no difference to me.@ If only I could reach him—even if he pierced my heart the next instant—then I would drive my blade through his “death.”
 \
 `“It really is bright tonight.@ We’ll have trouble slipping in under cover of darkness.@ I normally love moonlit nights, but tonight is another matter.”@ She sighed.@
 br
@@ -691,7 +692,7 @@ br
 \
 `“Tonight is especially maddening.@ Everything looks so easy to kill.@ It’s like standing in a wasteland on the moon.”@
 br
-`But at least this way there was no chance I would overlook Roa’s “death.”
+`[line=3]But at least this way there was no chance I would overlook Roa’s “death.”
 \
 bg "bg/bg_01c",crossfade,800
 `I put my glasses back on, closed my hand around the knife, and started toward the school.
@@ -728,7 +729,7 @@ bg "bg/bg_11c",lcartain,800
 bg #000000,lcartain,800
 `I raced down the corridor and reached the corner leading onto the walkway.@
 br
-`That was the final stop.@
+`[line=3]That was the final stop.@
 br
 \
 bg "bg/bg_49",lcartain,800
@@ -766,7 +767,7 @@ ld c,"tachi/roa_t01a",crossfade,400
 ld c,"tachi/roa_t02a",crossfade,400
 `“Magnificent, Shiki.@ The Princess means to die with me so that you can escape.@ Once, she would have terrified me—but as you are now, you’re no more than a vampire.@ None of the strength of a True Ancestor remains.@ What a pity.@ You should have surrendered to your desires.”@ “Silence!”@ Arcueid’s voice rang through the corridor.
 \
-`What was that?@ Unless my eyes were deceiving me, the space around Arcueid had begun to waver.
+`[line=3]What was that?@ Unless my eyes were deceiving me, the space around Arcueid had begun to waver.
 \
 ld c,"tachi/roa_t05a",crossfade,400
 `“Ngh—”@ Roa halted.@ “Marble Phantasm.@ To think you still possessed that much power.@ You are royalty among the True Ancestors indeed.”@ He edged backward in fear.
@@ -799,7 +800,7 @@ br
 `“S-sto…”@ No voice.@ It would not come.
 \
 br
-`Then—boom.@
+`[line=4]Then—boom.@
 br
 `The sound split the air.@ The distortion surrounding Arcueid engulfed the entire walkway.
 \
@@ -852,7 +853,7 @@ cl c,crossfade,400
 \
 `“Arcueid!”@ My body moved.@
 br
-`Which meant the power of Arcueid’s Mystic Eyes was gone.@
+`[line=3]Which meant the power of Arcueid’s Mystic Eyes was gone.@
 br
 `…@It meant Arcueid’s power was no longer working at all.
 \
@@ -860,7 +861,7 @@ br
 \
 !w500
 bg #000000,crossfade,1500
-`The instant I held her, horror ran through me.@ Arcueid’s body was terribly cold.@ The scant warmth remaining in her was no more than a candle flame.@ Roa was still in front of us, but I no longer cared.@ All I wanted was to save her.
+`[line=3]The instant I held her, horror ran through me.@ Arcueid’s body was terribly cold.@ The scant warmth remaining in her was no more than a candle flame.@ Roa was still in front of us, but I no longer cared.@ All I wanted was to save her.
 \
 bg "event/ark_e07",crossfade,800
 play "*7"
@@ -870,7 +871,7 @@ play "*7"
 \
 `How could I possibly stay calm?@ The cold of Arcueid’s body was already beyond hope.@ If I removed my glasses now, I knew I would see something even more hopeless.@
 br
-`No.@ I never wanted to see that.@ Never.
+`[line=3]No.@ I never wanted to see that.@ Never.
 \
 `“Why…@ why?@ Why…?”@ Those were the only words I could find.@ Furious with myself, I pulled her close and held her more tightly than I ever had before.@
 br
@@ -898,7 +899,7 @@ br
 br
 br
 br
-`Lose her.@ Was I going to lose her like this?
+`[line=3]Lose her.@ Was I going to lose her like this?
 \
 `“Ar…@ cueid.”@ “Wh…@ at?”@ “Drink my blood.@ That will restore your strength, won’t it…?”@ I shouted it without thinking.@ “…”@ Arcueid gave no answer.@ She only made the faintest movement, so slight I might have missed it.@
 br
@@ -915,7 +916,7 @@ br
 \
 `“That’s right…@ But there’s something I want even more now.”@ I asked what it was, my voice trembling.@ “I want…@ Shiki to kiss me.”@
 br
-`Was that all?@ Was something so simple truly enough?
+`[line=3]Was that all?@ Was something so simple truly enough?
 \
 `I pressed my lips to hers.@ It was neither sweet nor tender like the time before.@ It was only a kiss without warmth—my lips resting against lips gone cold.@
 br
@@ -923,7 +924,7 @@ br
 \
 `“I’m glad.@ I always dreamed of doing that.”@ “You dreamed about strange things.”@ “Yes…@ and now I’m happy.@ It was such a little thing, but it felt wonderful.@ I’ve lived for such a long time, yet I’ve never known a moment as happy as this one.”@
 br
-`And so—
+`[line=4]And so—
 !w1000
 br
 `“I think I’d be all right with simply fading away now.”
@@ -934,7 +935,7 @@ playstop
 bg "bg/bg_49",crossfade,1500
 `“Ar…@ cueid…?”@ There was no answer.@ Her body was still here, still so soft in my arms.@ My ears still remembered her voice perfectly.@
 br
-`Would none of those things ever happen again?@ Not once, for all eternity?
+`[line=3]Would none of those things ever happen again?@ Not once, for all eternity?
 \
 `“Ah…”@ What had I been doing?@ I had wanted to make her happy.@ I had wanted to show her so many things, take her to so many places.@
 br
@@ -950,7 +951,7 @@ br
 br
 `I heard the man who had watched in silence begin to approach.@ “Are you finished, Shiki?”@ “Yeah.@ It’s over.”@
 br
-`After answering, I turned to face my enemy.
+`[line=4]After answering, I turned to face my enemy.
 \
 bg #000000,crossfade,800
 bg "bg/bg_49",crossfade,800
@@ -960,13 +961,13 @@ play "*9"
 ld c,"tachi/roa_t01a",crossfade,400
 `“I never expected you to survive.”@ Roa addressed me as casually as though nothing had happened.@
 br
-`I removed my glasses and raised the knife.
+`[line=3]I removed my glasses and raised the knife.
 \
 `“Perhaps a man who sees death becomes unusually adept at evading it.@ It has nothing to do with the strength of his life force.@ Still, common people would call that not knowing when to die.”@ “Neither of us knows when to die.@ We’ve both failed at it once already.”@ “True,”@ Roa said with an amused laugh.
 \
 `“Those who return from death gain an understanding of it.@ You and I are rarer still: our experiences produced extraordinary abilities.@ I endured death seventeen times before reaching this point, while one was enough for you.@ Frankly, it must be a difference in talent.@ I confess I’m curious what power I might have acquired had I reincarnated into you.”@
 br
-`That grating voice, so swollen with confidence.@ Merely hearing it made my head ache.
+`[line=3]That grating voice, so swollen with confidence.@ Merely hearing it made my head ache.
 \
 `“I have two questions for you—and one thing to teach you.”@ I forced the words through a mind rapidly filling with pain.@
 ld c,"tachi/roa_t04c",crossfade,400
@@ -976,7 +977,7 @@ ld c,"tachi/roa_t04c",crossfade,400
 ld c,"tachi/roa_t01a",crossfade,400
 `“Admittedly, I had no desire for a Princess reduced to that state.@ As I am now, I could certainly have dissected her alive.@ But there was no value in absorbing a True Ancestor no better than an ordinary vampire.@ I judged her not worth absorbing and disposed of her instead.@ I, too, regret that matters ended this way.”@ The enemy twisted his mouth into a chuckle.
 \
-`My head hurt.@ Quickly.@ I had to kill him—now.@ I could not endure another second in which this thing continued to “exist.”
+`[line=3]My head hurt.@ Quickly.@ I had to kill him—now.@ I could not endure another second in which this thing continued to “exist.”
 \
 `“Now, what do you intend to do?@ Surely you don’t mean to fight me with that body.@ Resistance is meaningless, Shiki.”@
 br
@@ -1003,7 +1004,7 @@ br
 br
 br
 br
-`My teeth ground together.@
+`[line=3]My teeth ground together.@
 bg #9c0120,crossfade,400
 bg "bg/bg_49b",crossfade,400
 \
@@ -1034,7 +1035,7 @@ br
 br
 br
 br
-`The nearest comparison was a world on the moon: a wilderness where everything had died.@ Every visible thing bore a fatal flaw.@ The whole world was made of things that would vanish at a touch.
+`[line=3]The nearest comparison was a world on the moon: a wilderness where everything had died.@ Every visible thing bore a fatal flaw.@ The whole world was made of things that would vanish at a touch.
 \
 `“You…@ what are you—?”@ “To see the ‘death’ of things is to be cast into the knowledge that everything in this world is uncertain and fragile.@ The ground may as well not exist.@ The sky looks ready to fall at any moment.”@ “What are you talking about?@ What does any of that mean?”
 \
@@ -1123,7 +1124,8 @@ bg "bg/ima_02",crossfade,1500
 br
 `“Hah…@ ah…”@ My consciousness dimmed.@ If my body was at its limit, my mind had passed beyond it.@ Arcueid had warned me not to force myself to see the death of minerals.@ Something about the blood vessels in my brain burning out.
 \
-`“…”@ None of that mattered.@ If this was all it took—if the price was merely burning my mind to ruin—I should have finished Roa much sooner.@
+`“…”@
+`[line=3]None of that mattered.@ If this was all it took—if the price was merely burning my mind to ruin—I should have finished Roa much sooner.@
 br
 `Then you would never have ended up like that—
 \
@@ -1139,7 +1141,7 @@ play "*4"
 \
 `“I won’t vanish…@ You and I are con…@ nected.@ If I pass into you, the chain of my existence still won’t break…!”@
 br
-`His fangs pierced my throat.
+`[line=3]His fangs pierced my throat.
 \
 bg "bg/ima_12b",lshutter,400
 wave se_07

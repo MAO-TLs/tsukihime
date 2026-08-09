@@ -16,7 +16,7 @@ ld c,"tachi/his_t01",notrans,0
 \
 `“Did something happen?@ Maybe it’s my imagination, but you look angry.”@
 ld c,"tachi/his_t08",crossfade,400
-`“You have a visitor, Master Shiki.@ She has been waiting in the sitting room for some time, so please go to her at once.”@ “A visitor for me?”@ Hisui nods.
+`“You have a visitor, Master Shiki.@ The guest has been waiting in the sitting room for some time, so please go at once.”@ “A visitor for me?”@ Hisui nods.
 \
 `“Who could that be?@ No one ever comes here to see me—”@
 br
@@ -27,7 +27,7 @@ br
 bg #000000,lcartain,400
 bg "bg/bg_34b",lcartain,400
 play "*3"
-`—Too late.@ Apparently, the situation was already well past the point where it could be explained away.
+`[line=4]Too late.@ Apparently, the situation was already well past the point where it could be explained away.
 \
 bg "event/ark_e08",tshutter,800
 `“Welcome home, Brother.”@ “Oh, there you are.@ Took you long enough.”@ They greet me in utterly opposite tones.@ “…”@ This can’t be happening.@ Of all people, Arcueid and Akiha are sitting face-to-face in our sitting room, locked in a standoff.
@@ -50,7 +50,7 @@ br
 \
 `“Please don’t trouble yourself.@ I only came to ask Shiki out, so we’ll be leaving right away.@ Isn’t that right, Shiki?”@ The room tilts around me.@
 br
-`—This is bad.@ If I let her keep talking, Shiki Tohno’s life as he knows it is over.
+`[line=3]This is bad.@ If I let her keep talking, Shiki Tohno’s life as he knows it is over.
 \
 `“Ha…@ hahahahaha!”@ Laughing with desperate abandon, I rush to Arcueid and seize her arm.@
 bg "bg/bg_34b",lshutter,800

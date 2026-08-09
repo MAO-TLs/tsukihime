@@ -77,7 +77,7 @@ br
 br
 br
 br
-`Hah—hah—hah—
+`[line=2]Hah—hah—hah—
 \
 `My breathing echoes.@ Tonight, I am not going out to kill anyone.@ Instead, I am breaking a doll.
 \
@@ -88,7 +88,7 @@ br
 br
 br
 br
-`Hah—hah—hah—
+`[line=2]Hah—hah—hah—
 \
 br
 br
@@ -101,7 +101,7 @@ eroskip 9
 br
 br
 br
-`Hah—hah—hah—
+`[line=2]Hah—hah—hah—
 br
 br
 br
@@ -124,7 +124,7 @@ br
 br
 br
 br
-`Hah—hah—hah—
+`[line=2]Hah—hah—hah—
 \
 br
 br
@@ -156,7 +156,7 @@ br
 br
 `Even when I force that fevered lump of flesh between its legs, it does not twitch.
 \
-`This thing can’t excite me anymore.@ Beautiful or not, a doll is still nothing but a doll.
+`[line=3]This thing can’t excite me anymore.@ Beautiful or not, a doll is still nothing but a doll.
 \
 br
 br
@@ -164,12 +164,12 @@ br
 br
 br
 br
-`Hah—hah—hah—
+`[line=2]Hah—hah—hah—
 \
 `But the feel of it is exquisite.@ No matter how many times I rape it, I never tire of the body itself.@ Its frame jolts and shakes.@ The doll’s eyes are not looking at me.@ Is the moon all that those empty eyes reflect?@
 br
 br
-`This piece of trash.@ It pisses me off.
+`[line=6]This piece of trash.@ It pisses me off.
 \
 `“It won’t be long now.”@
 br
@@ -210,7 +210,7 @@ wavestop
 phase "bg/cmo_05b",l,his,08a,8
 bg #ffffff,crossfade,1500
 bg "bg/bg_40a",crossfade,400
-`“…”@ When I wake, it is already ten.@ “…@Oh, right.@ There’s no school today.”@ I sit up in bed.@
+`“…”@ When I wake, it is ten o’clock.@ “…@Oh, right.@ I’m staying home from school today.”@ I sit up in bed.@
 wave se_01
 bg #9c0120,notrans,0
 wait 100
@@ -276,18 +276,18 @@ bg "bg/bg_42a",lcartain,800
 bg "bg/bg_54a",lshutter,800
 `“Kohaku…?”@ When I reach the rear garden, I catch sight of Kohaku from behind.@ She has not noticed me.@ For some reason, she walks into the woods.@ “?”@ Curious, I follow her a little way.@
 br
-`And then—
+`[line=4]And then—
 br
 `Beyond the trees where Kohaku disappeared, there seems to be a small clearing.
 \
 `“…@Was there always a clearing over there…?”@ I tilt my head and search my memory, but everything is hazy.@ Amid the woods of the estate, I can make out a space that looks as though it has been cut from the trees.@
 br
-`No—make out is the wrong phrase.@ I would never have seen it merely by walking past.@ If Kohaku had not gone there, I might have lived in this mansion all my life without discovering that tiny clearing enclosed by trees.
+`[line=3]No—make out is the wrong phrase.@ I would never have seen it merely by walking past.@ If Kohaku had not gone there, I might have lived in this mansion all my life without discovering that tiny clearing enclosed by trees.
 \
 `“…@That’s strange.@ I don’t remember a clearing there.”@ At least, I have no memory of playing with Akiha in a clearing in the woods.@
 br
 wave se_01
-`I don’t…@ think I do.@
+`[line=4]I don’t…@ think I do.@
 br
 `“…”@ After a moment’s thought, I decide to enter.
 \
@@ -330,11 +330,11 @@ br
 `Miiin.@ Min-min—
 !w1000
 br
-`Somewhere, cicadas are singing.@
+`[line=4]Somewhere, cicadas are singing.@
 br
 `Though it is already autumn.
 \
-`Summer sunlight, bleached white enough to dissolve the world.@
+`[line=4]Summer sunlight, bleached white enough to dissolve the world.@
 br
 `Far away, thunderheads climb the sky.@ I can see the voice of an empty cicada shell.@ At my feet lies a cast-off husk.@ A husk.@ What someone left behind.@
 br
@@ -355,7 +355,7 @@ br
 br
 `Miiin, min-min.@ Miiin, min-min.@
 br
-`The cicadas shriek like needles trying to pierce my eardrums.
+`[line=3]The cicadas shriek like needles trying to pierce my eardrums.
 \
 bg #ffffff,crossfade,400
 bg "bg/cmo_05",crossfade,400
@@ -364,7 +364,7 @@ bg "bg/bg_53",crossfade,800
 bg #9c0120,crossfade,800
 `My chest is broken.@ The old wound gapes, and a CRIMSON stain pours out.@
 br
-`Of course.@ My wound never healed at all.
+`[line=3]Of course.@ My wound never healed at all.
 \
 bg #000000,crossfade,800
 `My consciousness sinks.@ The wound throbs.@
@@ -405,7 +405,7 @@ ld r,"tachi/his_t05",lshutter,400
 ld l,"tachi/aki_t11b",crossfade,400
 `“Where is Kohaku?@ I ordered her to keep an eye on Brother as well.”@ “My sister is not here.”@ “Not here…?@ What does that mean?”@ Hisui does not answer.@ Akiha grinds her teeth.@
 br
-`Not here?@ What is she talking about?@ Kohaku was in the rear garden just before I collapsed—
+`[line=3]Not here?@ What is she talking about?@ Kohaku was in the rear garden just before I collapsed—
 \
 ld r,"tachi/his_t23",crossfade,400
 `“Miss Akiha.@ Please, let us stop.”@ “Hisui—”@ “This man is different.@ He is not the same person.@ If he stays in this mansion, he will surely be unhappy.@ Please, let us stop this.”@ “I don’t want to hear that now.”@
@@ -420,7 +420,7 @@ br
 br
 br
 wave se_01
-`What did Hisui just say?
+`[line=4]What did Hisui just say?
 \
 `“…@You think living in this mansion has stirred the Tohno blood in him?@ Impossible.@ Not Brother.@ That one thing could never happen to him.”@ “…@Yes.@ This man is like us—because of your father’s whim—”
 \
@@ -474,11 +474,12 @@ br
 `“Now I remember.@ I was suddenly dizzy, and then everything tipped over.@ …@What a mess.@ This hasn’t happened since elementary school.”@ “…@I wished to summon a doctor, but Miss Akiha said that we should watch you a little longer.”@ “…@She was right.@ This is all in my head; a doctor couldn’t do anything.@ How long was I unconscious?”@ “…@I found you shortly after noon, so almost exactly twelve hours.”@ “What—it’s that late already!?”@ Startled, I try to look at the clock.@ My body refuses to move.
 \
 ld c,"tachi/his_t04",crossfade,400
-`“It is midnight.@ I will attend you here tonight, so please call me without hesitation if you need anything.”@ “Ah…@ yes.@ That’s reassuring, but…”@ I haven’t lost half a day like this since the accident.@ Worse, despite sleeping for twelve hours, my body still craves more.
+`“It is midnight.@ I will attend you here tonight, so please call me without hesitation if you need anything.”@ “Ah…@ yes.@ That’s reassuring, but…”@
+`[line=3]I haven’t lost half a day like this since the accident.@ Worse, despite sleeping for twelve hours, my body still craves more.
 \
 `“…@Sorry.@ I’m so sleepy…”@ “Then please rest.@ I will wait outside in the corridor and come at once if you call.”@ “…@What are you saying…?@ I can’t leave the person nursing me out in the hall.@ …@Please, Hisui…@ stay here…”@
 br
-`Damn it.@ I can’t keep my voice going.@
+`[line=3]Damn it.@ I can’t keep my voice going.@
 br
 `The room reels, as though I am falling backward into a tank of water.@ My consciousness cuts out without warning.
 \
@@ -494,7 +495,7 @@ br
 br
 br
 br
-`And then, quite suddenly, I dream.
+`[line=8]And then, quite suddenly, I dream.
 \
 br
 br
@@ -537,7 +538,7 @@ br
 br
 br
 br
-`That was—
+`[line=6]That was—
 \
 br
 br
@@ -553,7 +554,7 @@ br
 br
 br
 br
-`The very first nightmare.
+`[line=6]The very first nightmare.
 \
 br
 br
@@ -569,7 +570,7 @@ br
 br
 br
 br
-`Hot blood splashed across my face.
+`[line=6]Hot blood splashed across my face.
 \
 br
 br
@@ -585,7 +586,7 @@ br
 br
 br
 br
-`The first color I ever hated.
+`[line=6]The first color I ever hated.
 \
 br
 br
@@ -600,7 +601,7 @@ br
 br
 br
 br
-`I looked up at the heavens.
+`[line=6]I looked up at the heavens.
 \
 br
 br
@@ -615,7 +616,7 @@ br
 br
 br
 br
-`—How      beautiful
+`[line=6]How      beautiful
 \
 br
 br
@@ -665,7 +666,7 @@ br
 br
 br
 br
-`And so I awaken from that ancient dream.
+`[line=5]And so I awaken from that ancient dream.
 \
 monocro off
 bg #ffffff,crossfade,800
@@ -734,7 +735,8 @@ cl c,lshutter,800
 `Hisui’s face has remained clouded all this time.@ Even now she half-hides behind Kohaku, stealing anxious glances at me.
 \
 ld c,"tachi/aki_t10",lshutter,400
-`“Brother…!”@ Akiha rushes into the room, her face transformed with alarm.
+`“Brother…!”@
+`[line=3]Akiha rushes into the room, her face transformed with alarm.
 \
 `“Hey.@ Full of energy this morning, aren’t you?”@ I raise one hand in greeting.@
 ld c,"tachi/aki_t15a",crossfade,400
@@ -826,7 +828,7 @@ ld c,"tachi/koha_t03",lshutter,400
 \
 `“…@What?”@ Too bewildered to understand, I let my mouth fall open.@ Kohaku cools a spoonful of porridge, then slips it between my lips.@
 br
-`With her free hand, she takes hold of my chin and works my jaw up and down.
+`[line=3]With her free hand, she takes hold of my chin and works my jaw up and down.
 \
 `“…@Kohaku.@ What kind of joke is this?”@
 ld c,"tachi/koha_t02",crossfade,400
@@ -861,7 +863,7 @@ br
 br
 br
 br
-`No.@ More fundamentally—where did the accident that nearly killed me happen?
+`[line=3]No.@ More fundamentally—where did the accident that nearly killed me happen?
 \
 waveloop se_02
 `The terrible injury from my childhood.@ The accident after which I began seeing the lines of death.@ What happened to me?@ Where did it happen?@ I remember none of it.
@@ -872,7 +874,7 @@ ld c,"tachi/koha_t02",crossfade,400
 bg "bg/cmo_06",notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`But what I dimly remembered yesterday felt like a memory of that accident eight years ago.@
+`[line=3]But what I dimly remembered yesterday felt like a memory of that accident eight years ago.@
 br
 `Back then, there was me, Akiha…@ and I think one other person—
 \
@@ -895,7 +897,7 @@ br
 bg #000000,crossfade,800
 !w3500
 waveloop se_11
-`When awareness returns, I am somewhere unfamiliar.
+`[line=3]When awareness returns, I am somewhere unfamiliar.
 \
 `It appears to be a basement unused for many years.@ Desks and chairs lie scattered around.@ Broken blackboards and folding chairs have been discarded at the far end.@ No sunlight reaches this place.@ In the dark, mold-reeking basement, I sit holding my breath.@
 br
@@ -939,7 +941,8 @@ br
 `With that, It sinks its teeth into the corpse’s belly.@
 br
 bg "bg/ima_13",notrans,0
-`Squelch.@ Wet, pulping crunches.@ The sound of entrails being chewed through.@ —Haa.
+`Squelch.@ Wet, pulping crunches.@ The sound of entrails being chewed through.@
+`[line=7]Haa.
 \
 br
 `hah    hah    hah    hah
@@ -1074,7 +1077,7 @@ playstop
 !w2000
 bg "bg/bg_40a",lcartain,800
 play "*3"
-`What followed was a perfect reenactment of the previous morning.@
+`[line=3]What followed was a perfect reenactment of the previous morning.@
 br
 `Things went a little faster because I was already lying helpless in bed, but otherwise nothing changed.@ Hisui came to wake me, went white, and ran for Kohaku, who examined me.@ Akiha heard the news and rushed in; a doctor was summoned, just as before, and after another examination I was left here to rest.
 \
@@ -1179,7 +1182,7 @@ ld c,"tachi/koha_t02",crossfade,400
 `If there was one, it might be the old wound from eight years ago.@ Eight years had passed since the accident that doctors said I had survived by a miracle.@ Perhaps the bill for that miracle had simply come due at last.@
 br
 wave se_01
-`If so, then Shiki Tohno might already be…@ doomed to spend the rest of his life unable even to stand by himself.
+`[line=3]If so, then Shiki Tohno might already be…@ doomed to spend the rest of his life unable even to stand by himself.
 \
 `“Shiki?@ What’s the matter?@ You look terribly frightened.”@
 `“Oh…@ nothing.@ I imagined something awful, and suddenly it scared me.”@
@@ -1228,7 +1231,7 @@ bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
 br
-`And then—
+`[line=3]And then—
 \
 wave se_01
 bg #9c0120,notrans,0
@@ -1238,7 +1241,7 @@ br
 br
 br
 wave se_01
-`A headache—now—
+`[line=3]A headache—now—
 \
 bg "bg/bg_40e",crossfade,800
 play "*6"
@@ -1495,7 +1498,7 @@ br
 \
 !w3000
 waveloop se_11
-`Oh.@ I had come here again.@
+`[line=3]Oh.@ I had come here again.@
 br
 `The dark basement.@ Blackness stinking of mold.@ A basement beneath the school—probably beneath the gymnasium.@ Celluloid dolls strewn everywhere.@ No: living human beings, devoured and discarded.@
 br
@@ -1507,7 +1510,7 @@ br
 bg "bg/ima_13",notrans,0
 `It buried itself in the doll’s body.@ The soft snap of teeth breaking skin.@ A poor cut of meat—fat from the belly.@ Hot blood clinging to the throat.@
 br
-`A chill seized me.@ I was tracing every one of those sensations with perfect fidelity.
+`[line=3]A chill seized me.@ I was tracing every one of those sensations with perfect fidelity.
 \
 `“Y-you—you—you again, Shikiiii!”@
 `The thing screamed.@
@@ -1526,7 +1529,7 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/ima_13",notrans,0
 br
-`Ghk—?!@
+`[line=6]Ghk—?!@
 br
 `The agony of the knife piercing its hand passed unmistakably into mine.
 \
@@ -1540,7 +1543,7 @@ wait 100
 bg #9c0120,notrans,0
 wait 100
 bg "bg/ima_13b",notrans,0
-`Gah—
+`[line=4]Gah—
 br
 `“And then I’ll take it all back—”@
 `Next it tore open its belly with its own nails and dragged out the entrails.
@@ -1553,7 +1556,7 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/ima_13b",notrans,0
 br
-`It…@ hurts.@
+`[line=3]It…@ hurts.@
 br
 `It hurts.@ Hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, it…@ hurts—!!!!!!!
 \
@@ -1564,7 +1567,7 @@ bg #ffffff,notrans,0
 wait 100
 bg "bg/ima_13b",notrans,0
 br
-`I’m going mad.@
+`[line=3]I’m going mad.@
 br
 `A dream.@ If this is a dream, let me wake up.@ It hurts.@ I want to die.@ The pain should have killed me from shock, yet I could not die.
 \
@@ -1649,7 +1652,7 @@ bg "bg/bg_40b",notrans,0
 ld c,"tachi/his_t25",lshutter,400
 `“Master Shiki!”@
 br
-`At that moment—
+`[line=3]At that moment—
 br
 `Hisui burst into the room without knocking.
 \
@@ -1664,7 +1667,7 @@ bg #000000,lshutter,800
 !w1500
 bg "bg/bg_40c",lcartain,800
 play "*1"
-`The blood seemed to have come from my palm and thigh.@ Seemed was the best I could do.@ There wasn’t a wound anywhere on my body, so blood seeping out at all was impossible.
+`[line=3]The blood seemed to have come from my palm and thigh.@ Seemed was the best I could do.@ There wasn’t a wound anywhere on my body, so blood seeping out at all was impossible.
 \
 ld l,"tachi/koha_t02",crossfade,400
 `“Hisui, I’m going to prepare an IV.@ Stay here and watch Shiki for me.”@
@@ -1684,7 +1687,7 @@ ld r,"tachi/his_t01",crossfade,400
 `“…@Enough.@ I told you nothing happened.@ There weren’t even any wounds.@ I’m the one who wants answers.”
 \
 cl r,crossfade,400
-`The harshness of my reply filled me with self-loathing.@ Hisui didn’t deserve it, but calm was beyond me.@ Was there something wrong with my mind?@ Whenever I slept, I dreamed of a murderer and injured my own body.@ I knew that was what had caused the bleeding.@ I knew—but I could never tell Hisui or Kohaku.
+`[line=3]The harshness of my reply filled me with self-loathing.@ Hisui didn’t deserve it, but calm was beyond me.@ Was there something wrong with my mind?@ Whenever I slept, I dreamed of a murderer and injured my own body.@ I knew that was what had caused the bleeding.@ I knew—but I could never tell Hisui or Kohaku.
 \
 `They wouldn’t believe me.@ Worse, if I confessed such a thing, they would surely think I was insane.@ I would concede that my body was wrong.@ But I couldn’t bear for Hisui, Kohaku, or Akiha to believe there was something wrong with me.@ That was the one thing I would never put into words.
 \
@@ -1741,11 +1744,11 @@ bg #000000,crossfade,800
 !w1000
 bg "bg/bg_40c",crossfade,400
 play "*6"
-`My fevered body could think only one thing, no matter whom I looked at.@
+`[line=3]My fevered body could think only one thing, no matter whom I looked at.@
 br
 `Even as Kohaku set up the IV for my transfusion, I was seized by the urge to bite into her white throat.@ I could preserve my sanity only when I was alone.@ So I drove Hisui and Kohaku out—and even Akiha.@
 br
-`But the result was no different.@ Left alone, I merely continued to fall apart.
+`[line=3]But the result was no different.@ Left alone, I merely continued to fall apart.
 \
 wave se_01
 bg #000000,crossfade,400
@@ -1773,7 +1776,7 @@ playstop
 bg "bg/bg_40d",crossfade,800
 play "*8"
 br
-`The door opened with a click.@
+`[line=3]The door opened with a click.@
 br
 ld c,"tachi/aki_t23b",lshutter,800
 cl c,lshutter,800
@@ -1792,14 +1795,14 @@ cl c,lshutter,800
 br
 `In time with the IV, Akiha’s warmth flowed into me.@
 br
-`Warm.@
+`[line=3]Warm.@
 br
 `It felt as though the shell of my mind, peeling away in tatters, had been given a thin new coat.
 \
 `“Wait for me, Brother.@ I’ll make it easier very soon.”@
 `Her fingers slipped away.@ The footsteps receded.@
 br
-`The door clicked shut.@
+`[line=3]The door clicked shut.@
 bg #000000,crossfade,1500
 br
 br
@@ -1834,7 +1837,7 @@ br
 bg "event/his_h14",notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`I felt as if I were about to lose my mind.
+`[line=3]I felt as if I were about to lose my mind.
 \
 `“…@I can drink water on my own.@ Put the glass down and stand back.”@
 ld c,"tachi/his_t16",crossfade,400
@@ -1960,7 +1963,7 @@ ld c,"tachi/his_t01",crossfade,400
 `Her face as she said it was blank, as if she couldn’t care less what happened to me.@
 br
 wave se_01
-`My heart gave a violent leap.
+`[line=3]My heart gave a violent leap.
 \
 `“—”@
 `A single urge welled up inside me: I wanted her.@ Hisui was so close.@ Her body was right there.@ I had only to reach out and make her mine.
@@ -1979,7 +1982,7 @@ ld c,"tachi/his_t01c",lshutter,400
 `“Master Shiki, please calm yourself.”@
 `Her face remained still.@ Whatever abuse I hurled at her, she bore it in silence.@
 br
-`That only made me angrier.
+`[line=3]That only made me angrier.
 \
 `“Yes, I know!@ Compared with you, I don’t have an ounce of composure!@ I’m suffering right in front of you, and you don’t so much as lift an eyebrow.@ You can stand there and observe me so calmly because you’re cold inside!”@
 `“Master Shiki, please don’t exert yourself.@ Raising your voice that way will worsen your condition.”@
@@ -2045,7 +2048,7 @@ bg #000000,crossfade,800
 playstop
 bg "bg/bg_40b",crossfade,800
 play "*8"
-`Evening came.@
+`[line=3]Evening came.@
 br
 `For now, the headache that came while I was awake had faded a little.@
 `“….”@
@@ -2075,7 +2078,7 @@ ld c,"tachi/his_t01",lshutter,800
 `“…@I’m sorry.@ You have every right to despise me.”@
 `“It’s all right, Master Shiki.@ I can do nothing to help you, so I deserve your reproach.”@
 br
-`Of course she didn’t deserve that.@ I was the only one at fault.@
+`[line=4]Of course she didn’t deserve that.@ I was the only one at fault.@
 br
 `“…@I’m sorry, but my body feels heavy.@ I don’t think I can drink by myself.@ Would you help me?”@
 ld c,"tachi/his_t02",crossfade,400
@@ -2095,7 +2098,7 @@ cl c,crossfade,400
 `“….”@
 `I swallowed several mouthfuls, then shook my head.@ Hisui set down the glass.@ Without withdrawing, she laid her palm against my forehead.@
 br
-`My heart thudded—but differently from before.@
+`[line=4]My heart thudded—but differently from before.@
 `“Hisui…@ are you sure?”@
 `Her palm left my skin.@
 ld c,"tachi/his_t21",crossfade,400
@@ -2109,7 +2112,7 @@ ld c,"tachi/his_t20",crossfade,400
 `“Why…?”@
 `“…@Your hand is cool.@ It feels good.@ When you touch me like that, I feel better.”@
 br
-`It was true.@ The agony of moments ago receded as though it had never existed.
+`[line=3]It was true.@ The agony of moments ago receded as though it had never existed.
 \
 ld c,"tachi/his_t03",crossfade,400
 `Hisui’s cheeks colored faintly.@ “Yes,”@ she whispered, almost inaudibly, and laid her palm over my forehead once more.@
@@ -2299,7 +2302,7 @@ cl c,lshutter,400
 wave se_01
 playstop
 br
-`At that instant—
+`[line=3]At that instant—
 br
 bg "event/his_h14",notrans,0
 wait 100
@@ -2367,7 +2370,7 @@ bg #000000,crossfade,800
 !w3000
 bg "bg/bg_40a",crossfade,800
 play "*9"
-`[line=256]。
+`[line=343]。
 \
 `Time had tilted out of true.@ After lying in bed so long in this body, I could no longer experience its passage normally.@
 br
@@ -2421,7 +2424,7 @@ quakey 2,100
 wave se_05
 `My raised body collapsed onto the bed.@ I had no strength.@ Yet the weakness wasn’t unpleasant.@ Unlike before, this helplessness had shape and substance.@ Heat began to spread outward from my core.@
 br
-`Somehow…@ it felt as though it had been an eternity since I last felt this unmistakably alive.
+`[line=3]Somehow…@ it felt as though it had been an eternity since I last felt this unmistakably alive.
 \
 `“…@I can’t believe it.@ I feel like I could—”@
 `I felt ready to stand and walk that very moment.@
@@ -2480,7 +2483,7 @@ bg "bg/bg_40a",notrans,0
 ld c,"tachi/his_t18",crossfade,400
 `“Whenever you looked at me, your eyes spoke without words.@ Come outside.@ Come and play with us.@ But I never left the house.@ I didn’t know how, and I didn’t even understand what purpose there could be in doing so.”@
 br
-`Hisui’s voice is far away.@ Her story proceeds in that calm, level tone.@ There is no shadow in it, and yet it is unbearably—
+`[line=3]Hisui’s voice is far away.@ Her story proceeds in that calm, level tone.@ There is no shadow in it, and yet it is unbearably—
 \
 `“I never went to that window in search of meaning.@ I simply did not want to be in Makihisa’s room, and that was the only other place I was permitted to stay.@ What lay outside meant nothing to me.@ SHIKI and Akiha playing in the courtyard were no different from the sunlight or the leaves on the trees.”
 \
@@ -2501,7 +2504,7 @@ br
 `“I wish I had never learned what hope was.@ Then I could have lived without learning despair.@ But you would look so pleased with yourself, as if it were the easiest thing in the world, and tell me with your eyes that I ought to come outside.@ …@Every day, I waited desperately for the afternoon when you would appear.@ You were the only person against whom I could hurl my feelings—whatever those feelings happened to be.@ You never knew how I thought of you every day, almost as if I were praying.”
 \
 cl c,crossfade,400
-`I can barely hear Hisui now.@ Still she speaks on in that level voice.@ My mind has grown too clouded to grasp her meaning.@ All I understand is that the words leaving her mouth are a curse beyond compare.@
+`[line=3]I can barely hear Hisui now.@ Still she speaks on in that level voice.@ My mind has grown too clouded to grasp her meaning.@ All I understand is that the words leaving her mouth are a curse beyond compare.@
 wave se_01
 br
 `“H—hot.”@
@@ -2551,7 +2554,7 @@ bg #000000,crossfade,800
 `“Ngh…!@ Hi—Hisui, I still don’t think—”@ Before I can say no, both her hands enfold me from the base, as though cradling something precious.@ “Mm…”@ She draws a tiny breath.@ Then a warmth unlike my own descends upon me like a kiss.
 \
 bg "event/his_h01",crossfade,800
-`My entire body flares with heat.@
+`[line=5]My entire body flares with heat.@
 br
 `My heart leaps at a sensation I have never known.@ Hisui’s soft lips timidly close around the head—not biting, barely even sucking, but holding it with a pressure so frail that “mouthing”@ is the only word for it.
 \
@@ -2561,13 +2564,13 @@ br
 \
 `“Hah…@ mm, mmm…@ mm…”@ Breath from her mouth and nose tickles the head.@ “—!”@ The maddening little touch only sharpens the pleasure.@ Whether it is her saliva or my own secretion, warm slime trickles down the rigid flesh.
 \
-`Thump.@
+`[line=4]Thump.@
 br
 `My pulse rockets.@ Hisui’s fingers close around my penis with single-minded earnestness.@ Holding only the tip in her mouth, her tongue gives it one hesitant lick, then another.
 \
 `“Mmm…@ hah…@ mm…”@ Her wholly inexperienced lips remain weak, but her tongue flickers over the head inside her mouth, caressing it.@ Little by little, that tongue grows bolder.@ “Ngh…@ Hi…@ sui…!”@ My back arches at the sensation.@
 br
-`Thump.@
+`[line=4]Thump.@
 br
 `Until now, the mere knowledge that Hisui was doing this had been enough to inflame me.@ That is over.@ Her fumbling caresses are swiftly learning the trick of it—learning every place that undoes me.
 \
@@ -2575,7 +2578,7 @@ br
 \
 `“Hisui…@ stop, I said—”@ Thump, thump.@ Heat gathers at the base.@ “Mm…@ mmm…@ mm…”@ Her ministrations do not stop.@ Slowly, the lips that held only the tip begin to descend.
 \
-`Thump.@
+`[line=4]Thump.@
 br
 `“Mm…@ mm…@ mmm…”@ Hisui’s hair sways.@ The lips that had merely held me begin to move, ever so slightly, up and down.@
 br
@@ -2591,11 +2594,11 @@ br
 bg "event/his_h01",crossfade,800
 `“Ah…@ mm…@ mmph…”@ Hisui breathes as if in pain.@ She has gone so long without breathing through her mouth that the air from her nostrils keeps tickling my penis.
 \
-`Thu…@mp.@
+`[line=5]Thu…@mp.@
 br
 `My penis grows wetter and wetter.@ Nor is the shaft alone drenched; so are Hisui’s fingers, still clutching desperately at the base.@ Filthy.@ Those delicate fingers of hers, wet with the fluids of both our bodies.
 \
-`Th…@u…@mp.@
+`[line=5]Th…@u…@mp.@
 br
 `The sight seems to whisper that I should lose my mind.
 \
@@ -2604,7 +2607,7 @@ br
 bg "bg/bg_40a",crossfade,800
 `“Hah…@ hah…@ hah…”@ The ragged breathing is mine, not Hisui’s—the breath of a man granted a moment’s release from pleasure.@
 br
-`THUMP.@
+`[line=6]THUMP.@
 br
 `My heart is about to burst.@ My body is going mad.@ I want none of this—none of this pleasure.@ It isn’t enough.@ This is nowhere near enough.
 \
@@ -2613,7 +2616,7 @@ br
 bg "event/his_h01",crossfade,800
 `“Mmm—”@ The kiss-like caresses begin again.@
 br
-`THUMP.@
+`[line=5]THUMP.@
 br
 `THUMP.@ THUMP.@ THUMP.@ THUMP—!
 \
@@ -2633,7 +2636,7 @@ bg "event/his_h01",crossfade,800
 `“—”@ After a moment’s bewilderment, she obeys with hesitant movements.@ “Mm…@ mmm…@ hah…”@ Taking me deep as if swallowing, she begins to stroke me with her mouth.
 \
 bg "event/his_h02",crossfade,800
-`Thump.@
+`[line=4]Thump.@
 br
 `“Mm…@ mmph, mmm…”@ Wetly, Hisui’s lips travel up and down the fevered shaft.@ “Ah…@ mm, mm…”@ Instead of drawing breath, her mouth seems to draw in my very being.@ Unlike the embrace of a woman’s body, it does not envelop me; it sucks me upward.
 \
@@ -2660,11 +2663,11 @@ playstop
 bg "bg/bg_40a",crossfade,800
 `“Hah—aaah—”@ Hisui collapses onto the floor, breathless.@ “Hah…@ hah…@ hah…”@ My own breathing is no calmer.@
 br
-`Thump.@
+`[line=4]Thump.@
 br
 `No.@ It’s no good.@ Something like that could never satisfy me.@ My body moves now—yes, it moves.@ And for that very reason, what she gave me cannot possibly be enough.
 \
-`Thump.@
+`[line=4]Thump.@
 br
 `“Master Shiki…@ how does your body feel?”@ Hisui asks from where she sits on the carpet.@
 br

@@ -50,7 +50,8 @@ ld c,"tachi/cel_t01a",crossfade,400
 `“No, that’s fine, but…@ you have a cruel sense of humor.@ I honestly thought my heart was going to stop.”@
 ld c,"tachi/cel_t03",crossfade,400
 `“I can be rather mean.@ You know how people want to tease someone they like?@ It’s the same thing.”@
-`“…@What?”@ Someone she liked—did that mean—
+`“…@What?”@
+`[line=3]Someone she liked—did that mean—
 \
 ld c,"tachi/cel_t01a",crossfade,400
 `“Still, you should probably return home early.@ Let me see…@ Wait a moment.”@
@@ -69,7 +70,7 @@ ld c,"tachi/cel_t04",crossfade,400
 bg #000000,lcartain,800
 playstop
 br
-`Ciel saw me off with a smile.@
+`[line=3]Ciel saw me off with a smile.@
 br
 `But I might never see that smile again.@ The body of the woman I had killed yesterday might already have been discovered; the police might even be waiting at the mansion.@ Yet I could not run from that.@ For now, all I could do was thank Ciel for her smile and return home.
 \
@@ -167,7 +168,7 @@ br
 \
 `She sat on the guardrail, swinging her legs idly.@ She looked as though she were waiting for someone.@ I had no idea how long she had been there, but there was no anger in her face.@
 br
-`Who could she be waiting for?@
+`[line=3]Who could she be waiting for?@
 br
 `She fidgeted with the restless anticipation of someone waiting to meet her lover.
 \
@@ -178,7 +179,7 @@ br
 br
 br
 br
-`Dread crawled through me.
+`[line=3]Dread crawled through me.
 \
 `“Ah—”@ The woman in white looked my way.@ It was probably nothing but coincidence.@
 br
@@ -243,13 +244,13 @@ br
 br
 `I raised my face and tried to breathe.
 \
-`Agony.@ There was nowhere near enough air.@ My mind could no longer work properly.@ I had no idea what I was doing, or why I was doing it, or why—why—the woman I had killed was alive.
+`[line=4]Agony.@ There was nowhere near enough air.@ My mind could no longer work properly.@ I had no idea what I was doing, or why I was doing it, or why—why—the woman I had killed was alive.
 \
 `I had killed her beyond question, in the most absolute way imaginable.@ So how could she wait outside my school and smile at me with such delight?
 \
 `“…@But I know I killed her.”@
 br
-`Yes.@ I know I killed her—
+`[line=3]Yes.@ I know I killed her—
 !w500
 `I know I killed her—
 !w500
@@ -268,7 +269,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 play "*9"
 `“Hello.@ Thank you ever so much for yesterday.”@ Smiling sweetly, she stepped deeper into the alley, her heel striking a light note against the pavement.@
 br
-`I had to escape.@
+`[line=4]I had to escape.@
 br
 `I tried to retreat and struck my head against concrete.@ “The chase is over, isn’t it?@ This is a dead end.@ Better still, no one else is here to interfere.”@ She must have been delighted, because her smile never wavered.
 \
@@ -309,7 +310,7 @@ br
 \
 `“What the hell is that supposed to mean?”@ It was too stupid even to pass for a joke.@ Worse, all the evidence was there to stop me laughing.@ If this woman truly was not human, then perhaps it made sense that she lived even after I killed her.@
 br
-`Something at the core of my mind settled.@
+`[line=3]Something at the core of my mind settled.@
 br
 `First, I needed to look at her carefully.@ Then I could think through everything else.
 \
@@ -328,7 +329,7 @@ ld c,"tachi/ark_t04",crossfade,400
 `“Hello?@ Are you listening, you homicidal maniac?”@ “Yeah, I’m listening.@ I’m just taking in how spectacularly unlucky I am.@ Sorry, but could you be quiet for a moment?”@
 cl c,crossfade,400
 br
-`Honestly, what rotten luck.@ For no reason at all, I had suddenly wanted to kill a woman I’d never met—and then, carried by that impulse, I had done it.@
+`[line=3]Honestly, what rotten luck.@ For no reason at all, I had suddenly wanted to kill a woman I’d never met—and then, carried by that impulse, I had done it.@
 br
 `I had suffered, despaired, and finally resolved to find some way of atoning.@ And now, just as I made that decision, I learned the person I had killed was never human in the first place.
 \

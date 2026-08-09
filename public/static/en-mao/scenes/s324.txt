@@ -1,7 +1,7 @@
 wavestop
 play "*3"
 bg "bg/bg_34c",lshutter,800
-`The drinking continues before my eyes.@
+`[line=3]The drinking continues before my eyes.@
 br
 `Somewhere along the way, Shiki Tohno’s welcome party has apparently turned into a private family drinking session.
 \
@@ -65,7 +65,7 @@ ld c,"tachi/aki_t08b",crossfade,400
 cl c,lshutter,400
 `Akiha gives a soft laugh, pours herself another drink, and downs it in one swallow.
 \
-`The sight of her profile makes my heart skip.@
+`[line=5]The sight of her profile makes my heart skip.@
 br
 `With the glass raised to her lips, Akiha looks startlingly mature.@ Her eyes close and her chin lifts.@ Her pale throat moves as she swallows, a gesture so sensuous that I forget for a moment how drunk she is.@ “Haa…”@ Akiha releases a deep breath.@ Her glass is empty.@ I hear a sigh-soft murmur: delicious.
 \
@@ -147,7 +147,7 @@ ld c,"tachi/aki_t12b",lshutter,400
 `“What is it?@ Are you feeling sick, Akiha?”@ “No…@nothing like that.@ I only felt frightened all of a sudden.@ Brother, you aren’t going away again, are you?”@ “I’m not.@ I can’t promise what the distant future will bring, but for now I’ve decided to stay here.”@ Yes.@ At the very least, I will remain until I finish school, and I cannot leave until Akiha is able to stand on her own.@
 br
 ld c,"tachi/aki_t11b",crossfade,400
-`But that also means that, one day, I will leave.
+`[line=3]But that also means that, one day, I will leave.
 \
 `“Stop.@ I don’t want to hear that.@ This is your home, Brother.@ Whatever happens, you can simply go on living here.”@
 cl c,crossfade,400
@@ -156,7 +156,7 @@ cl c,crossfade,400
 ld c,"tachi/aki_t26",crossfade,400
 `“Honestly…@Brother, why do you always have to frighten me like this?”@ Whether from drink or emotion, Akiha glares at me through unfocused eyes.@
 br
-`My breath catches.@ Then, for no reason I can name, my heart gives a violent thud.
+`[line=6]My breath catches.@ Then, for no reason I can name, my heart gives a violent thud.
 \
 `“Are you listening?@ As long as you stay with me, I need nothing else.@ And yet you always, always…”@ Her eyes hold mine without wavering.@ Her cheeks are flushed, her gaze wet and luminous.@ Somehow, she looks dangerously alluring.@
 br
@@ -169,7 +169,7 @@ ld c,"tachi/koha_t02b",lshutter,400
 `“Miss Akiha, your glass is empty.@ Allow me to refill it.”@ “Oh…@yes.@ Thank you, Kohaku.”@ Kohaku hands the glass back, and Akiha drains it in another single swallow.@
 cl c,lshutter,400
 br
-`And then—
+`[line=5]And then—
 br
 ld c,"tachi/aki_t01b",lshutter,400
 `Akiha’s face abruptly turns grave.@ “Akiha…?”@ “How strange.@ I think I may be drunk.”
@@ -191,7 +191,7 @@ cl c,lshutter,400
 br
 `Kohaku asks a truly terrifying question.@ I leave it unanswered and look down at Akiha’s sleeping face.
 \
-`Akiha is sleeping peacefully.@
+`[line=3]Akiha is sleeping peacefully.@
 br
 `Our shoulders touch, our bodies pressed close.@ I can feel her breath and warmth directly against me.@ The strange sensation from a moment ago returns.@ Perhaps it was the alcohol, but Akiha had seemed like another person entirely.@ I cannot deny that she left me flustered.@ Yet seeing her sleep so peacefully against me now fills me with relief.
 \
@@ -215,7 +215,7 @@ bg #000000,crossfade,800
 playstop
 !w1000
 bg "bg/bg_42c",lcartain,800
-`I step into the courtyard to sober up.@
+`[line=4]I step into the courtyard to sober up.@
 br
 `The night breeze carries a faint chill—perfect against skin still flushed by alcohol.@
 bg #000000,notrans,0
@@ -247,7 +247,7 @@ play "*8"
 br
 `“Shiki, you’ll catch cold if you fall asleep out here.”@
 br
-`The voice pulls me out of a murky half-sleep.
+`[line=3]The voice pulls me out of a murky half-sleep.
 \
 bg "bg/bg_42c",crossfade,800
 ld c,"tachi/koha_t12",lshutter,400
@@ -307,11 +307,11 @@ bg "bg/bg_42c",crossfade,400
 bg "event/koha_e01b",crossfade,800
 `“You already know, Shiki.@ You would have been happier living with the Arima family.”@
 br
-`That— But why would she—
+`[line=4]That— But why would she—
 br
 `“Why?@ Why did you come back to this mansion after all these years, Shiki?@ Being here can only make you unhappy.”@
 br
-`Why does she look as though she is about to cry?
+`[line=3]Why does she look as though she is about to cry?
 \
 `“…………”@ I have no answer.@ I can only stare at Kohaku as though transfixed, then quietly lower my gaze.
 \
@@ -320,7 +320,8 @@ bg "bg/bg_42c",lshutter,1500
 ld c,"tachi/koha_t03b",lshutter,400
 `“Yes.@ I’m sorry.@ It seems I may be drunk as well.@ I must be out of my mind to ask such things.”@ Kohaku is smiling.@ With that smile before me, her question begins to feel as though it were never real at all.
 \
-`“Kohaku, about what you asked…@ It’s only natural to return to your own home.@ I couldn’t leave Akiha all alone, and I couldn’t keep burdening the Arimas.”@ “Then that is why you came back, Shiki.”@ Kohaku nods, apparently satisfied.@ But it is a lie.@ There was one other reason—an event that mattered even more to me than Akiha.
+`“Kohaku, about what you asked…@ It’s only natural to return to your own home.@ I couldn’t leave Akiha all alone, and I couldn’t keep burdening the Arimas.”@ “Then that is why you came back, Shiki.”@ Kohaku nods, apparently satisfied.@
+`[line=3]But it is a lie.@ There was one other reason—an event that mattered even more to me than Akiha.
 \
 `“Shiki?@ What is it?”@ “No, that wasn’t the whole truth.@ There’s one more important reason.”@ “Oh?@ Is it a secret?”@ “I’m not sure.@ It isn’t exactly secret, but it’s a precious memory I don’t like sharing.@ When I left this place, I borrowed something.@ I came home because I wanted to return it properly.”@
 ld c,"tachi/koha_t14",crossfade,400
@@ -336,7 +337,7 @@ playstop
 bg "bg/bg_40c",lcartain,400
 `I collapse onto the bed.@ Thanks to the alcohol, drowsiness takes me at once.@ “…………”@ Perhaps it is because of what I told Kohaku.@ Without any order or purpose, the promise from eight years ago returns to me.
 \
-`I would never be allowed inside this mansion again.@
+`[line=4]I would never be allowed inside this mansion again.@
 br
 `Even now, I remember how I felt when my father declared that and sent me from the room.@ After the accident, after being alone for so long, after meeting my teacher only to discover that I had been left alone once more—I think I had become numb, unable to keep my promise to her.@ Then a girl spoke to me, just once.@ That alone saved me.@ I do not know what magic those words possessed.
 \
@@ -346,13 +347,13 @@ br
 \
 `“It can’t be helped.@ It was a promise between children.”@ I truly believe that.@ Eight years is a long time.@ For a promise made in childhood, remembering would be stranger than forgetting.@ “Time to sleep.”@ I draw a deep breath and close my eyes.@
 br
-`Then sleep takes me, like sinking to the bottom of deep water.
+`[line=4]Then sleep takes me, like sinking to the bottom of deep water.
 \
 bg #000000,crossfade,800
 !w4000
 wave se_01
 bg "bg/bg_40d",lshutter,400
-`I sit up at the sensation of burning heat.@
+`[line=3]I sit up at the sensation of burning heat.@
 br
 `Scalding.@ My throat is on fire.@ When I touch it, my fingers come away bloody.@ I must have scratched it raw again and again because the burning was unbearable.
 \
@@ -369,7 +370,7 @@ bg "bg/bg_22c",notrans,0
 wait 100
 bg "bg/bg_25b",notrans,0
 br
-`It is long past midnight.
+`[line=3]It is long past midnight.
 \
 `The burning in my body will not subside
 `　　　　　　　　　　　　／delirium.@
@@ -388,7 +389,7 @@ br
 \
 bg #000000,crossfade,400
 bg "bg/bg_30b",crossfade,400
-`I enter the dark.@ My heart’s labor drives me forward without mercy.@ More.@ More.@ Thump　　　　　　　　　thump,!@w1000
+`I enter the dark.@ My heart’s labor drives me forward without mercy.@ More.@ More.@ Thump　　　　　　　　　thump,!w1000
 `　　　　　THUMP　　　　　　　　　THUMP.@ A heartbeat so loud it thins my very existence.@ My heart has doubled into twins, pounding and pounding; my single body burns because it cannot contain them.@
 br
 `Now.@ I must grant her the ending she desires…
@@ -405,7 +406,7 @@ br
 br
 br
 br
-`And then, before me, lies the corpse of someone I have never seen.
+`[line=3]And then, before me, lies the corpse of someone I have never seen.
 \
 `“One…@two…@three.”@ I count aloud, checking with my index finger.@ The finger is bright red.@ No—both hands are red, as though slathered in crimson paint.@ Naturally, there is no paint anywhere nearby.@ There are only three human corpses resembling badly made spaghetti—served, of course, with meat sauce.@ On the ground lies my knife, engraved with the words Nanatsu-Yoru.
 \
@@ -429,7 +430,7 @@ monocro off
 bg "bg/ima_14",lcartain,400
 `A piercing clang of metal.@
 br
-`Impossible.@
+`[line=4]Impossible.@
 br
 `I lunge without warning, and the figure meets me head-on.@ My enemy’s weapon is another knife.@ We each aim a killing stroke at the other’s throat, and the two attacks cancel each other perfectly.
 \
@@ -524,7 +525,7 @@ br
 \
 `“You shouldn’t.”@ The words leave me with perfect ease.@ “Why not?”@ “As living creatures go, you’re stronger than I am.”@
 br
-`But if what we are measuring is the ability to kill—
+`[line=4]But if what we are measuring is the ability to kill—
 br
 `“I’m better than you.”
 \
@@ -549,7 +550,7 @@ bg "bg/bg_47",lshutter,400
 bg "bg/bg_48d",lshutter,400
 bg "bg/bg_33d",lshutter,400
 bg "bg/bg_40d",lshutter,400
-`And now I am back in my room.@
+`[line=4]And now I am back in my room.@
 br
 `Dawn will come soon.@ As I was told, I will forget everything and go to sleep.
 \

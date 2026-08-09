@@ -3,7 +3,7 @@ wavestop
 bg "bg/bg_02a",notrans,0
 play "*4"
 br
-`On instinct, I leap backward.@
+`[line=3]On instinct, I leap backward.@
 br
 bg #000000,lshutter,400
 `It is only a light hop, yet it puts several meters between us.
@@ -18,7 +18,7 @@ monocro #0000ff
 bg "bg/bg_03c",crossfade,400
 monocro off
 bg "bg/bg_03c",crossfade,400
-`Or so I think.@
+`[line=4]Or so I think.@
 br
 `My body stops dead.@ No matter how I strain forward, my feet refuse to lift.
 \
@@ -26,7 +26,7 @@ br
 \
 `“Damn…@ you…!”@ I put all my strength into both legs, but no matter how hard I fight, they will not move a single millimeter.@
 br
-`And then—
+`[line=3]And then—
 br
 ld c,"tachi/cel_t06c",lshutter,800
 `“How shortsighted.@ Even if you meant to flee, surely you could have found a cleverer way.”@ The Burial Agent known as the Bow appears.

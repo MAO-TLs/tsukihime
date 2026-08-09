@@ -1,7 +1,7 @@
 play "*2"
 wavestop
 bg "bg/bg_40a",notrans,0
-`Right.@ That nightmare has left my stomach churning, so breakfast is out of the question just yet.@ I’ll sit here in a daze for another ten minutes, then go to the sitting room.
+`[line=2]Right.@ That nightmare has left my stomach churning, so breakfast is out of the question just yet.@ I’ll sit here in a daze for another ten minutes, then go to the sitting room.
 \
 bg #000000,tshutter,800
 !w2000
@@ -47,11 +47,11 @@ bg #000000,lcartain,400
 !w2000
 play "*3"
 bg "bg/bg_01a",lcartain,400
-`And so we dash out of the mansion, race headlong down the hill, and keep running all the way to school.@ Matching Akiha’s pace makes me slower than usual, but we still arrive in under fifteen minutes.@ “There, we made it.@ We can still catch homeroom, Akiha.”@
+`[line=3]And so we dash out of the mansion, race headlong down the hill, and keep running all the way to school.@ Matching Akiha’s pace makes me slower than usual, but we still arrive in under fifteen minutes.@ “There, we made it.@ We can still catch homeroom, Akiha.”@
 ld c,"tachi/aki_t06",crossfade,400
 `“Yes, with time to spare—after you made me run the entire way!”@
 br
-`Oh.@ Akiha seems to be angry.
+`[line=3]Oh.@ Akiha seems to be angry.
 \
 `“What’s wrong, Akiha?@ Why are you so mad?@ …@Did you decide we should have taken the car after all?”@
 ld c,"tachi/aki_t03a",crossfade,400
@@ -63,7 +63,7 @@ ld c,"tachi/aki_t18a",crossfade,400
 ld c,"tachi/aki_t06",crossfade,400
 `“That was mortifying, yes, but it hardly matters.”@
 br
-`…?@ I don’t get it.@ Why is Akiha so angry?@ It isn’t because she’s tired, and we arrived on time.
+`[line=4]…?@ I don’t get it.@ Why is Akiha so angry?@ It isn’t because she’s tired, and we arrived on time.
 \
 ld c,"tachi/aki_t12a",crossfade,400
 `“Never mind.@ I simply got carried away all by myself.@ Thinking about it sensibly, there was never any chance you would wake up early.@ …@Honestly, what was I expecting?”@
@@ -86,7 +86,8 @@ ld c,"tachi/aki_t09",crossfade,400
 `“Ah—yes.@ I’ll be there.”
 \
 cl a,crossfade,400
-`Akiha gives an unexpectedly sweet little bow, then hurries toward the entrance.@ Then, as if remembering something, she stops and turns back.@
+`Akiha gives an unexpectedly sweet little bow, then hurries toward the entrance.@
+`[line=3]Then, as if remembering something, she stops and turns back.@
 ld c,"tachi/aki_t08a",crossfade,400
 `“Brother, I enjoyed our race this morning.@ I refuse to do it every day, but once in a while…@ it might not be so bad!”@
 cl a,lshutter,400
@@ -114,7 +115,7 @@ wave se_03
 !w1000
 bg "bg/bg_06a",tshutter,800
 wave se_03
-`Fourth period ends.@
+`[line=3]Fourth period ends.@
 br
 `Lunchtime begins, and the whole school swells with noise.@ “Right, then.”@ I promised to meet Akiha in the courtyard.@ Knowing her, she probably had Kohaku prepare a lunch for her, but I’ll pick up something from the school store just in case.
 \

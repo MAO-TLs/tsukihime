@@ -1,7 +1,7 @@
 bg "event/stk_e01a",notrans,0
 playstop
 wavestop
-`—This is the end.@
+`[line=3]This is the end.@
 br
 `Soon Shiki Tohno will disappear, and everything will end.@
 play "*7"
@@ -18,7 +18,7 @@ br
 br
 `Akiha had said those words.@ My little sister, whom I had abandoned for eight years.@ The black-haired girl for whom I had never once done anything worthy of an older brother.@
 br
-`—Akiha Tohno, left alone all those years in that enormous mansion.
+`[line=3]Akiha Tohno, left alone all those years in that enormous mansion.
 \
 `“……”@ A short while ago, I had turned my knife on Yumizuka, telling myself that death could be a salvation.@ And now, still telling myself that death could be a salvation, I was throwing away my own life.@
 br
@@ -54,13 +54,13 @@ br
 br
 br
 br
-`—In that moment, I truly wanted to die of regret.
+`[line=5]In that moment, I truly wanted to die of regret.
 \
-`—I had prepared myself.@
+`[line=3]I had prepared myself.@
 br
 `When I betrayed her, I had been ready to hear any curse she cared to throw at me.@
 br
-`—Then why?@
+`[line=3]Then why?@
 br
 `Why did she speak so gently, so happily?@ Why wouldn’t she even blame me?
 \
@@ -76,7 +76,7 @@ br
 br
 br
 br
-`—At the very end, she gently tapped her forehead against mine.
+`[line=3]At the very end, she gently tapped her forehead against mine.
 \
 bg "event/stk_e01d",crossfade,400
 `“But this must have been the best way.@ So don’t cry, Tohno.@ You did the right thing.”@ The knife suddenly felt weightless.@ Satsuki no longer had a heart.
@@ -124,14 +124,14 @@ cl a,lshutter,800
 bg #000000,crossfade,800
 !w2000
 bg "bg/bg_40d",lcartain,800
-`—Akiha tended every one of my wounds herself.@ She wiped the filth from my body, cooked something for me, and finally brought me to my room.@ Through all of it, I could not utter a single word.
+`[line=3]Akiha tended every one of my wounds herself.@ She wiped the filth from my body, cooked something for me, and finally brought me to my room.@ Through all of it, I could not utter a single word.
 \
 ld c,"tachi/aki_t12b",crossfade,400
 `“…@I’ll leave you now.@ Please get a good night’s sleep, Brother.”@ She had asked nothing.@ Without asking a single question to the very end, Akiha quietly turned to leave.@
 br
 `She was disappearing.@ Just like the girl I had killed.@
 br
-`—The moment I thought that, my hand seized Akiha’s arm.
+`[line=4]The moment I thought that, my hand seized Akiha’s arm.
 \
 play "*9"
 bg "event/aki_e02",crossfade,800

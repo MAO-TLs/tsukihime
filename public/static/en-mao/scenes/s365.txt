@@ -4,24 +4,24 @@ play "*7"
 `…@How many years ago was that?@
 `It happened after I first came here and spent so long shut away in my room.@ Perhaps it was after I befriended the servant girl and finally began playing outside.@
 br
-`I’m sorry, Brother.@
+`[line=3]I’m sorry, Brother.@
 br
 `In the empty garden, Akiha suddenly began to cry.@ No matter how often I asked what she was apologizing for, all she did was repeat that she was sorry.
 \
-`Because we took everything away from you.@
+`[line=3]Because we took everything away from you.@
 br
 `By then, whatever had made Akiha cry was already over and done with as far as I was concerned.@
 `…@It would be a lie to say I felt no resentment.@ But it was not something a little girl of six should feel responsible for, much less apologize so desperately over.@ Akiha had done nothing wrong.
 \
-`I’m sorry.@ I’m so sorry, Brother.@
+`[line=3]I’m sorry.@ I’m so sorry, Brother.@
 br
 `…@How had I never noticed?@ From the first day we met, Akiha had always been apologizing to me.@ In that vast estate, she was the only girl who cried for my sake.@
 br
-`Thank you.@ But it’s all right now.@
+`[line=3]Thank you.@ But it’s all right now.@
 br
 `I smiled and stroked Akiha’s hair.@ She stared up at me, bewildered.@ And for the first time, I felt it with all my heart.
 \
-`You don’t have to cry, Akiha.@ From now on, you and I are brother and sister.@
+`[line=3]You don’t have to cry, Akiha.@ From now on, you and I are brother and sister.@
 br
 `…@I remember the joy in Akiha’s smile.@ That was when I swore we would become a true family.@ I was her big brother, and whatever happened, I would protect her.
 \
@@ -123,7 +123,7 @@ ld c,"tachi/aki_t16a",crossfade,400
 ld c,"tachi/aki_t17a",crossfade,400
 `“Um, Brother?”@
 br
-`We both speak at once.@
+`[line=4]We both speak at once.@
 br
 ld c,"tachi/aki_t19",crossfade,400
 `“Oh—yes.@ What is it, Brother?”@
@@ -175,7 +175,7 @@ ld c,"tachi/aki_t17a",crossfade,400
 `“What—?@ Do I really seem that way?”@
 `“…@Yes.@ Are you still feeling sick?@ If you are, you ought to stay home and rest properly—”
 \
-`Oh.@
+`[line=3]Oh.@
 br
 `Suddenly, I realize it.@ Akiha missed school yesterday.@ Yesterday, Ciel’s arm was bandaged, and she told me her fight with the vampire had ended in a draw.
 \
@@ -272,7 +272,7 @@ ld c,"tachi/ari_t04",crossfade,400
 `“What do you mean, which one?@ Ciel is the only one we both know.”@
 `“Ciel?@ Who’s that?@ Did our school have an exchange student?”@
 br
-`My mouth falls open.@
+`[line=4]My mouth falls open.@
 br
 `“…@Arihiko, you…”@
 `I manage to force out that much in broken fragments.@ Nothing else will come.
@@ -293,11 +293,11 @@ ld c,"tachi/ari_t05",crossfade,400
 cl a,lshutter,400
 `Arihiko returns to his seat.@ Our homeroom teacher enters, homeroom begins, and then rolls directly into first-period physics.@
 br
-`I watch it all in a daze.@
+`[line=4]I watch it all in a daze.@
 br
 `She truly has disappeared.@ Not merely left my life—the very existence of Ciel has vanished without a trace.
 \
-`The magic came undone so easily.@
+`[line=3]The magic came undone so easily.@
 br
 `…@She said that with such a sad look, didn’t she?@
 `Arihiko does not remember.@ No one else will remember either.@
@@ -423,13 +423,13 @@ cl a,crossfade,400
 ld c,"tachi/aki_t01a",crossfade,400
 `Akiha stares at me in shock.@ Then, her face settling into grim resolve, she stands as well.@
 br
-`An empty classroom.@ In the room bathed red by the setting sun, we stand facing one another.
+`[line=3]An empty classroom.@ In the room bathed red by the setting sun, we stand facing one another.
 \
 `“Ciel told me.@ She said everyone in the Tohno family has some sort of special power…@ and that some of them lost control of themselves and killed people.”@ “…”@ “But I can’t believe that.@ I don’t want to.”@ “…”@ “Tell me, Akiha.@ You’re not…@ some kind of vampire, are you?”@
 cl a,crossfade,400
 `Akiha gives no answer.@ Her eyes merely narrow with pain.
 \
-`Why?@ Why can’t she deny it, even if she has to lie?@ “Say something!@ Why are you just standing there, Akiha…?”@ The silence hurts so much that I find myself shouting.@ After one brief stillness, Akiha walks to the window with all her customary grace, as though nothing has happened.@ Her long hair shines translucent in the crimson sunset.@ That red hair streams behind her as she turns to face me.
+`[line=4]Why?@ Why can’t she deny it, even if she has to lie?@ “Say something!@ Why are you just standing there, Akiha…?”@ The silence hurts so much that I find myself shouting.@ After one brief stillness, Akiha walks to the window with all her customary grace, as though nothing has happened.@ Her long hair shines translucent in the crimson sunset.@ That red hair streams behind her as she turns to face me.
 \
 bg "event/aki_e08",lshutter,400
 `“Then let me ask you something.@ What would you do if I were a vampire, Brother?”@ Her gaze thrusts at me with enough force to drive its blade through my throat.
@@ -458,11 +458,11 @@ playstop
 bg #000000,crossfade,400
 waveloop se_02
 bg "bg/cmo_05",crossfade,800
-`Yes.@ I killed him.@
+`[line=4]Yes.@ I killed him.@
 br
 `The accident eight years ago.@ Myself as a child.@ That courtyard.@ A summer day hot as a nightmare.@ Akiha and the boy, drenched in blood.@ Towering clouds, and the endless shriek of cicadas.@
 br
-`Was that where I killed that child?
+`[line=4]Was that where I killed that child?
 \
 bg "bg/bg_06b",crossfade,400
 `The world reels.@ “Ghh—”@ I fight to hold on as consciousness recedes into the distance.@ “No—I didn’t…”@ My breath comes twisted and ragged.@ Me.@ I could never have—
@@ -471,7 +471,7 @@ bg "event/aki_e08",tshutter,800
 `“You see, Brother?@ Everyone has things they must keep secret.”@ “Akiha…@ you…”@ “So please stop troubling yourself with such pointless questions.@ All you need to do is remain at that estate as Shiki Tohno.”@
 bg "bg/bg_06b",tshutter,800
 br
-`Akiha walks away.@ I have no words with which to stop her.
+`[line=3]Akiha walks away.@ I have no words with which to stop her.
 \
 wavestop
 `In the classroom at dusk, I stand alone, helpless and unable to move—
@@ -480,7 +480,7 @@ bg #000000,crossfade,800
 !w3000
 bg "bg/bg_29b",lcartain,800
 play "*1"
-`Night falls.@
+`[line=8]Night falls.@
 br
 `I can’t bring myself to return to the estate.@ I sit on a park bench and think.
 \
@@ -529,7 +529,8 @@ br
 bg #000000,lcartain,800
 bg "bg/bg_32d",lcartain,800
 br
-`“Hah…@ hah…@ hah…!”@ Something is wrong.@ It is barely seven, yet there isn’t a single light on in the estate.
+`“Hah…@ hah…@ hah…!”@
+`[line=3]Something is wrong.@ It is barely seven, yet there isn’t a single light on in the estate.
 \
 `“Hah…@ hah…@ hah…”@ Fighting down the gasps torn from me by the long run, I rush inside.
 \
@@ -551,7 +552,7 @@ bg "bg/bg_33d",crossfade,400
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
 br
-`A dry, grinding sound.@
+`[line=3]A dry, grinding sound.@
 br
 `Hatred wells up from nowhere.@ The dizziness will not stop and the headache only worsens, yet strength floods my body.
 \

@@ -5,24 +5,28 @@ bg "bg/cmo_18",crossfade,400
 play "*6"
 `“Ah—”@ Above me, a ceiling like an immense black umbrella.@ Every inch of it is made of beasts, their eyes gleaming.
 \
-`Sssht.@ My skin splits.@ —Die.@ Rrrip.@ They sink their teeth into my flesh.@ —DiE.@ Crunch.@ They grind away my bones.@ —DIE.@
+`Sssht.@ My skin splits.@
+`[line=4]Die.@ Rrrip.@ They sink their teeth into my flesh.@
+`[line=4]DiE.@ Crunch.@ They grind away my bones.@
+`[line=4]DIE.@
 br
 `The part of me that might have tried to think had already stopped working.@ I could only throw my arms over my face in desperate defense.@ My right hand was locked rigid, still clamped around the knife.
 \
-`—DIE.@ They gorge themselves on me.@ It makes no sense—with this many beasts, there shouldn’t be so much as a bone left after one minute, yet they’re eating me little by little.
+`[line=3]DIE.@ They gorge themselves on me.@ It makes no sense—with this many beasts, there shouldn’t be so much as a bone left after one minute, yet they’re eating me little by little.
 \
-`—DIE.@ I’ve lost too much blood.@ My whole body is slick with it, mixed with their saliva.@ It feels…@ so disgusting.
+`[line=3]DIE.@ I’ve lost too much blood.@ My whole body is slick with it, mixed with their saliva.@ It feels…@ so disgusting.
 \
-`—DIE.@ I can’t see beyond them.@ Nothing but black.@ Black without end.
+`[line=3]DIE.@ I can’t see beyond them.@ Nothing but black.@ Black without end.
 \
-`—DIE.@ Dozens of eyes say it.@ They say it as they peck the flesh from me, morsel by tiny morsel.@ Unable to speak, the beasts whisper through the feverish gleam of their eyes.
+`[line=3]DIE.@ Dozens of eyes say it.@ They say it as they peck the flesh from me, morsel by tiny morsel.@ Unable to speak, the beasts whisper through the feverish gleam of their eyes.
 \
-`—DIE.@ Just die already.@ Every beast in that black dome joins in the chorus.
+`[line=3]DIE.@ Just die already.@ Every beast in that black dome joins in the chorus.
 \
 bg "bg/cmo_19",crossfade,400
-`“—!”@ A scream escaped me.@ But no one came to help.@ —They’re going to kill me.@ I’m going to be chewed alive, just like that person a moment ago.@ “Ah—ah…@ ah…”
+`“—!”@ A scream escaped me.@ But no one came to help.@
+`[line=3]They’re going to kill me.@ I’m going to be chewed alive, just like that person a moment ago.@ “Ah—ah…@ ah…”
 \
-`—No.@ I don’t want this.@ I don’t want to die while I’m still alive.@ I don’t want them eating me while I’m still conscious.@ I don’t want to be killed like this.@ I’m scared.@ I’m so scared.@ Terrified.@ Terrified, terrified, terrified, terrified, terrified, terrified, terrified, terrified—
+`[line=4]No.@ I don’t want this.@ I don’t want to die while I’m still alive.@ I don’t want them eating me while I’m still conscious.@ I don’t want to be killed like this.@ I’m scared.@ I’m so scared.@ Terrified.@ Terrified, terrified, terrified, terrified, terrified, terrified, terrified, terrified—
 \
 `“I’m…@ going to be…@ killed.”@
 br
@@ -59,7 +63,7 @@ wait 100
 bg "bg/cmo_19",notrans,0
 `“Gah—”@ Something like a claw slammed into my chest.@ Into the place where I had once been so badly hurt.@ The place where pain and terror had curdled into pure, unending hatred.@
 br
-`—That summer day, eight years ago.@
+`[line=3]That summer day, eight years ago.@
 br
 `Yes.@ I had hated it with everything I was.@ Hated it so completely there had been no room left for trivial things like fear or pain.
 \
@@ -68,7 +72,7 @@ bg #000000,crossfade,400
 waveloop se_02
 `That’s right.@ All I felt was hatred.@ Which meant there was only one thing to do.@
 br
-`—If you mean to kill me.@
+`[line=3]If you mean to kill me.@
 br
 `My body had long since gone numb.@ All that remained was the sensation in my right hand, still refusing to release the knife.
 \
@@ -96,7 +100,7 @@ br
 br
 br
 br
-`—He will be killed by me.
+`[line=6]He will be killed by me.
 \
 wavestop
 monocro #ff0000
@@ -107,7 +111,7 @@ br
 `Slash, slash, slash, slash, slash—the beasts die one after another.@ My brain is in agony.@ Every nerve, every vein, every cell, every drop of blood in my body has gone wrong.
 \
 br
-`—The black dome was gone.@ Of the mongrels pecking at this body, I had slaughtered seventy or so—for now.@
+`[line=3]The black dome was gone.@ Of the mongrels pecking at this body, I had slaughtered seventy or so—for now.@
 br
 `“Wha—at?”@ I hear Nrvnqsr’s voice.@ Now—if I don’t stand, I won’t be able to kill any more of them.
 \
@@ -157,15 +161,16 @@ br
 `I stare into Nrvnqsr’s body.
 \
 ld c,"tachi/nero_t02f",crossfade,400
-`Countless points—dozens upon dozens.@ If I want to survive, if I want to kill him, I have to kill every last one.
+`Countless points—dozens upon dozens.@
+`[line=3]If I want to survive, if I want to kill him, I have to kill every last one.
 \
 `“…”@ That is surely impossible.@ Even so—I can’t let it end here.@ Arcueid, swallowed by the black slime.@ The hundreds of people he killed.@
 br
-`—And this body, nearly killed along with them.@
+`[line=3]And this body, nearly killed along with them.@
 br
 `“…!”@ My teeth grind together.@ I don’t have breath to spare on curses.@ Moving at all is taking everything I have; I can’t waste time listening to Nrvnqsr’s speeches.
 \
-`—No.@ If I had breath to spare, I would rather use it to—
+`[line=3]No.@ If I had breath to spare, I would rather use it to—
 br
 `“—Very well.@ I acknowledge you as an obstacle.”
 \
@@ -175,7 +180,7 @@ br
 br
 br
 br
-`—stop this monster reeking of beasts from drawing another.
+`[line=3]stop this monster reeking of beasts from drawing another.
 \
 bg #000000,notrans,0
 `With a heavy rush, the black coat flares wide.@ A rank, bestial stench rolls out.@ The danger is beyond anything I have felt until now.@
@@ -190,7 +195,8 @@ br
 br
 `“—Impossible.”@ The obstacle’s voice reaches me.@ My vision no longer works properly.@ All I can see are black points and lines.@ “Damn you—why must I exert my full strength against a mere human?!”
 \
-`A wet, whipping sound.@ Nrvnqsr’s half-formed body becomes fully human again.@ At last, he seems to have reclaimed the half that had been holding Arcueid captive.@
+`A wet, whipping sound.@ Nrvnqsr’s half-formed body becomes fully human again.@
+`[line=3]At last, he seems to have reclaimed the half that had been holding Arcueid captive.@
 bg "bg/bg_29c",crossfade,400
 br
 ld c,"tachi/nero_t03",crossfade,400
@@ -205,7 +211,7 @@ br
 \
 `My fingertips are cold.@ I must have lost too much blood; the chill has soaked through my whole body.@ Yet my body still refuses to scream.@ If it has strength left for that, it orders me to use it to kill him one second sooner.@
 br
-`—My spine hurts.@ My body is cold.@ My fingertips are freezing.@ And still my brain alone burns like fire.
+`[line=3]My spine hurts.@ My body is cold.@ My fingertips are freezing.@ And still my brain alone burns like fire.
 \
 `More beasts, neither quite spider nor crab, crawl from Nrvnqsr’s body.@ I’m almost close enough to reach him.@ These creatures are in my way.
 \
@@ -222,14 +228,15 @@ ld c,"tachi/nero_t04",crossfade,400
 \
 `“—Pathetic.”@ At last, red hatred kindles in eyes that had been as lifeless as a machine’s.@
 br
-`I understand what is happening inside him.@ Probably.@ The killer in Nrvnqsr orders him to retreat.@ The vampire in him refuses to accept defeat at the hands of a mere human.@ It will not comprehend it.@ It will not permit even a retreat.@ And so it makes another backward step impossible.@ That is his spirit: an obstinacy that recognizes its own powerlessness and still refuses to admit it.
+`I understand what is happening inside him.@
+`[line=3]Probably.@ The killer in Nrvnqsr orders him to retreat.@ The vampire in him refuses to accept defeat at the hands of a mere human.@ It will not comprehend it.@ It will not permit even a retreat.@ And so it makes another backward step impossible.@ That is his spirit: an obstinacy that recognizes its own powerlessness and still refuses to admit it.
 \
 `One more step.@ Now a single leap will bring him within reach of my knife.@
 br
 `“—No.@ Never—!@ My name is Nrvnqsr, chaos itself, called immortal even among the deathless, crawling species of vampires!@ That I should display such disgrace is beyond all possibility…!”@
 cl c,crossfade,800
 br
-`—Nrvnqsr’s body takes shape.@ What had been nothing but darkness begins unmistakably to incarnate as one individual being.
+`[line=3]Nrvnqsr’s body takes shape.@ What had been nothing but darkness begins unmistakably to incarnate as one individual being.
 \
 `“This body is immortal.@ I transcended death long ago—!”@ Nrvnqsr springs.@ Not his beasts.@ He has compressed every creature remaining within him to its utmost limit, made himself the supreme beast, and come to stop my heart.
 \
@@ -243,7 +250,7 @@ wave se_12
 bg "bg/bg_29c",crossfade,400
 `A harsh scraping.@ Unable to control his own speed, Nrvnqsr hurtles past before he can stop.@
 br
-`—The distance between us has opened again.
+`[line=3]The distance between us has opened again.
 \
 bg #9c0120,notrans,0
 wait 100
@@ -254,7 +261,7 @@ br
 br
 br
 br
-`—My head is spinning.@ I can’t stop shaking.
+`[line=3]My head is spinning.@ I can’t stop shaking.
 \
 ld c,"tachi/nero_t04b",crossfade,400
 `“—What is this?”@ Nrvnqsr stares in shock at his severed arm.@ “What is this?!@ Why—why will the wound not regenerate?@ Such absurdity cannot exist…!@ That thing is neither mage nor Burial Agent, so why must I perish merely because he cut me?!”@ “—You fool.@ Keep worrying about such petty matters of pride and he’ll kill you, Nrvnqsr Chaos.”@ A familiar voice comes from beside him.
@@ -262,7 +269,7 @@ ld c,"tachi/nero_t04b",crossfade,400
 cl c,crossfade,400
 `“You—!”@ Nrvnqsr turns his bloodshot eyes toward Arcueid, standing serenely at his side.@
 br
-`—Ah, of course.@ Once Nrvnqsr reclaimed his missing half, she must have been freed.
+`[line=3]Ah, of course.@ Once Nrvnqsr reclaimed his missing half, she must have been freed.
 \
 ld c,"tachi/ark_t05d",crossfade,400
 `“Oh, don’t worry about me.@ Shiki will finish you.@ If I interfered, the way he is now, he might kill me too.”@ She laughs softly.@ “This is what you get for trying to make him suffer before you killed him.@ You dispose of an enemy with the first blow, before they ever have a chance to strike back, don’t you?@ That was where you went wrong.”
@@ -277,7 +284,7 @@ ld c,"tachi/ark_t01a",notrans,0
 cl c,crossfade,400
 `Arcueid makes no move toward Nrvnqsr.@ Nrvnqsr no longer sees anything but me.@
 br
-`—He’s coming.@
+`[line=3]He’s coming.@
 br
 `I brace my left hand against my right and grip the knife in both.@
 br
@@ -288,7 +295,7 @@ br
 `In that opening, his disordered thoughts pour into my consciousness like a curse.
 \
 bg #ffffff,crossfade,400
-`—Is this a nightmare?@ Kill Arcueid Brunestud?@ That human killed a monster for whom even the word immortal is woefully inadequate?@
+`[line=3]Is this a nightmare?@ Kill Arcueid Brunestud?@ That human killed a monster for whom even the word immortal is woefully inadequate?@
 br
 `No.@ That above all is impossible.@ Yet if—if, as a hypothesis, it were true…
 \
@@ -299,7 +306,7 @@ br
 br
 br
 br
-`—Then which of us had truly been blinded by arrogance?
+`[line=3]Then which of us had truly been blinded by arrogance?
 \
 bg "bg/bg_29c",notrans,0
 `“Exactly.@ It seems you were the arrogant one after all, Nrvnqsr Chaos.”@
@@ -308,11 +315,11 @@ br
 br
 `At the farthest limit of hatred and confusion, Nrvnqsr Chaos throws back his head and laughs as though nothing in the world had ever delighted him more.
 \
-`—I can’t wait any longer.@ I break into a run toward the motionless target.@
+`[line=3]I can’t wait any longer.@ I break into a run toward the motionless target.@
 br
 `“So—you mean to kill me, human?!”@
 br
-`—The beast roars.@ With one arm extended, he charges straight at my heart, intent on piercing it through.
+`[line=3]The beast roars.@ With one arm extended, he charges straight at my heart, intent on piercing it through.
 \
 bg "event/nero_e04",crossfade,400
 br
@@ -333,13 +340,13 @@ br
 \
 `“…”@ I cut the outstretched arm.@ Hundreds of Points of Death exist throughout his body.@ But deeper than any of them, at the very heart of him, I can see one absolute point.
 \
-`—It doesn’t matter how many hundreds of lives he possesses.@ The only thing I mean to kill is the existence called Nrvnqsr Chaos.@ I am not killing Nrvnqsr.@ I am erasing the chaos this man claims to contain—annihilating an entire world.
+`[line=4]It doesn’t matter how many hundreds of lives he possesses.@ The only thing I mean to kill is the existence called Nrvnqsr Chaos.@ I am not killing Nrvnqsr.@ I am erasing the chaos this man claims to contain—annihilating an entire world.
 \
 `We collide head-on.@
 wave se_12
 `A soft tap.@
 br
-`—The knife passes unerringly through his center.@
+`[line=4]The knife passes unerringly through his center.@
 br
 `One corner of the vampire’s mouth curls upward in a soundless laugh.
 \
