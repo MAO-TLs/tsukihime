@@ -26,25 +26,36 @@ export const audio = originalMediaMode === "direct-audio"
   ? new DirectMediaGameAudioManager(settings, getUrl)
   : new GameAudioManager(settings, getUrl)
 
+const silentPublicScreens = new Set<SCREEN>([
+  SCREEN.HOME,
+  SCREEN.SCRIPT,
+  SCREEN.AUDIT,
+])
+
+export function syncAudioForScreen(screen: SCREEN) {
+  const inGame = screen === SCREEN.WINDOW
+  audio.inGame = inGame
+  if (inGame)
+    return
+  if (silentPublicScreens.has(screen)) {
+    audio.stopTrack()
+    audio.stopWave()
+    return
+  }
+  audio.playTrack(settings.titleMusic)
+}
+
 //__________________________________observers___________________________________
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // update track source
 observe(settings, 'trackSource', audio.clearBuffers.bind(audio, true))
 
-observe(displayMode, 'screen', (screen)=> {
-  const inGame = (screen == SCREEN.WINDOW)
-  audio.inGame = inGame
-  if (!inGame) {
-    audio.playTrack(settings.titleMusic)
-  }
-})
+observe(displayMode, 'screen', syncAudioForScreen)
 
 waitLanguageLoad().then(async ()=> {
   await asyncDelay(100)
-  if (displayMode.screen != SCREEN.WINDOW) {
-    audio.playTrack(settings.titleMusic)
-  }
+  syncAudioForScreen(displayMode.screen)
 });
 
 //___________________________________commands___________________________________

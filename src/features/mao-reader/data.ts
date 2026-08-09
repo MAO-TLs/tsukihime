@@ -64,6 +64,21 @@ const integer = (value: unknown, fallback = 0): number =>
 const textArray = (value: unknown): string[] =>
 	asArray(value).filter((item): item is string => typeof item === "string")
 
+export function dedupeVisibleEvidence(evidence: AuditEvidence[]): AuditEvidence[] {
+	const seen = new Set<string>()
+	return evidence.filter(item => {
+		const passageKey = JSON.stringify([
+			item.japanese,
+			item.japaneseHighlight ?? "",
+			item.mirrorMoonHighlight ?? item.mirrorMoon,
+		])
+		if (seen.has(passageKey))
+			return false
+		seen.add(passageKey)
+		return true
+	})
+}
+
 const nestedCount = (raw: JsonRecord, ...keys: string[]): number | undefined => {
 	const counts = isRecord(raw.counts) ? raw.counts : {}
 	for (const key of keys) {
