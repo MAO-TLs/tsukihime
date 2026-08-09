@@ -3,6 +3,7 @@ import test from "node:test"
 // @ts-expect-error Node's strip-only TypeScript test runner requires the source extension.
 const data = await import("./data.ts")
 const {
+	dedupeVisibleEvidence,
 	normalizeDossiers,
 	normalizeFindingLookup,
 	normalizeManifest,
@@ -17,6 +18,31 @@ const evidence = {
 	japanese_sha256: "source-hash",
 	mirror_moon_sha256: "translation-hash",
 }
+
+test("visually identical repeated evidence renders once without changing the source package", () => {
+	const visibleEvidence = {
+		...evidence,
+		mirrorMoon: evidence.mirror_moon,
+		mirrorMoonHighlight: "But it is so boring, it is not even funny.",
+		routes: [],
+		titles: [],
+	}
+	const repeatedEvidence = {
+		...visibleEvidence,
+		ref: "tsuki:mm-audit:00002",
+		mirrorMoon: `${visibleEvidence.mirrorMoon} A harmless punctuation variant.`,
+	}
+	const distinctEvidence = {
+		...visibleEvidence,
+		ref: "tsuki:mm-audit:00003",
+		mirrorMoon: "Moon Princess",
+		mirrorMoonHighlight: "Moon Princess",
+	}
+	assert.deepEqual(
+		dedupeVisibleEvidence([visibleEvidence, repeatedEvidence, distinctEvidence]).map((item: {ref: string}) => item.ref),
+		[visibleEvidence.ref, distinctEvidence.ref],
+	)
+})
 
 test("manifest accepts nested section scripts and publishes the finding headline", () => {
 	const manifest = normalizeManifest({

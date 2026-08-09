@@ -19,6 +19,7 @@ import { SCREEN } from "app/utils/display";
 import {MaoReaderShell} from "features/mao-reader";
 import type {MaoReaderLocation, ReaderPage} from "features/mao-reader/types";
 import TsukihimeReleasePage from "features/mao-site/TsukihimeReleasePage";
+import {useScreenAutoNavigate} from "app/hooks";
 
 const readerHash = (): string | undefined => {
 	const hash = window.location.hash.slice(1)
@@ -32,6 +33,7 @@ const readerHash = (): string | undefined => {
 }
 
 const MaoReaderRoute = ({page}: {page: ReaderPage}) => {
+	useScreenAutoNavigate(page === "audit" ? SCREEN.AUDIT : SCREEN.SCRIPT)
 	const [location, navigate] = useLocation()
 	const [, setHistoryRevision] = useState(0)
 	useEffect(() => {

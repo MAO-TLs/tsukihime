@@ -62,9 +62,10 @@ test('all manifest-bound public artifacts match their bytes and hashes', async (
 	const artifacts = [
 		manifest.artifacts.dossiers,
 		manifest.artifacts.findings,
+		manifest.artifacts.searchIndex,
 		...manifest.artifacts.scripts,
 	]
-	assert.equal(artifacts.length, 64)
+	assert.equal(artifacts.length, 65)
 
 	for (const artifact of artifacts) {
 		assert.equal(path.isAbsolute(artifact.path), false, artifact.path)
@@ -73,6 +74,22 @@ test('all manifest-bound public artifacts match their bytes and hashes', async (
 		assert.equal(bytes.length, artifact.byteCount, artifact.path)
 		assert.equal(sha256(bytes), artifact.sha256, artifact.path)
 	}
+})
+
+test('the L’Arc-en-Ciel correction is identical in the public script and search index', async () => {
+	const [script, searchIndex] = await Promise.all([
+		loadJson('scripts/script-012.json'),
+		loadJson('search-index.json'),
+	])
+	const expected = '“For the last time, who’s this L’Arc-en-Ciel you keep talking about? What’s wrong with you, Tohno? Did your brain get fried while you were sick?”\nArihiko’s joke barely reaches me.'
+	const scriptLine = script.lines.find(line => line.ref === 'tsuki:mm-audit:02368')
+	const searchLine = searchIndex.entries.find(line => line.ref === 'tsuki:mm-audit:02368')
+
+	assert.equal(scriptLine?.maoEnglish, expected)
+	assert.equal(scriptLine?.mao_english, expected)
+	assert.equal(scriptLine?.mao_english_sha256, sha256(expected))
+	assert.equal(searchLine?.maoEnglish, expected)
+	assert.doesNotMatch(JSON.stringify([scriptLine, searchLine]), /La-Rocque/)
 })
 
 test('the public dossier package contains exactly 23 final dossiers', async () => {
@@ -136,6 +153,15 @@ test('release, script, and audit share one compact mobile header geometry', asyn
 	assert.match(navigation, /href="https:\/\/github\.com\/MAO-TLs\/tsukihime">GitHub<\/a>/)
 })
 
+test('the release hero inherits the canonical WHITE ALBUM 2 title rhythm', async () => {
+	const siteStyles = await fs.readFile(
+		path.join(projectRoot, 'src/features/mao-site/mao-site.scss'),
+		'utf8',
+	)
+
+	assert.match(siteStyles, /\.tsuki-release-hero h1 \{[\s\S]*?font-size: clamp\(76px, 9\.2vw, 138px\);[\s\S]*?letter-spacing: -\.07em;[\s\S]*?line-height: \.76;/)
+})
+
 test('the play menu exit returns to the Tsukihime release page', async () => {
 	const [source, defaultStrings, maoStrings] = await Promise.all([
 		fs.readFile(path.join(projectRoot, 'src/app/screens/TitleMenuScreen.tsx'), 'utf8'),
@@ -147,6 +173,20 @@ test('the play menu exit returns to the Tsukihime release page', async () => {
 	assert.match(source, /\{strings\.title\.exit\}/)
 	assert.equal(defaultStrings.title.exit, 'Exit')
 	assert.equal(maoStrings.title.exit, 'Exit')
+})
+
+test('release, script, and audit routes silence the game audio runtime', async () => {
+	const [routes, releasePage, audioSource] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'src/app/components/AnimatedRoutes.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-site/TsukihimeReleasePage.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/engine/audio.ts'), 'utf8'),
+	])
+
+	assert.match(releasePage, /useScreenAutoNavigate\(SCREEN\.HOME\)/)
+	assert.match(routes, /useScreenAutoNavigate\(page === "audit" \? SCREEN\.AUDIT : SCREEN\.SCRIPT\)/)
+	assert.match(audioSource, /const silentPublicScreens = new Set<SCREEN>\(\[[\s\S]*?SCREEN\.HOME,[\s\S]*?SCREEN\.SCRIPT,[\s\S]*?SCREEN\.AUDIT,/)
+	assert.match(audioSource, /if \(silentPublicScreens\.has\(screen\)\) \{[\s\S]*?audio\.stopTrack\(\)[\s\S]*?audio\.stopWave\(\)/)
+	assert.match(audioSource, /waitLanguageLoad\(\)[\s\S]*?syncAudioForScreen\(displayMode\.screen\)/)
 })
 
 test('reader query and hash navigation remain URL-addressable without dynamic dossier paths', async () => {

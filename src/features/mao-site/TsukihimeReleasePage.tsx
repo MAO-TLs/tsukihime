@@ -2,11 +2,14 @@ import moonClouds from "@assets/images/tsukihime-moon-clouds.webp"
 import {Link} from "wouter"
 import {APP_INFO} from "app/utils/constants"
 import {SCREEN} from "app/utils/display"
+import {useScreenAutoNavigate} from "app/hooks"
 import MaoDocumentMetadata from "./MaoDocumentMetadata"
 import MaoSiteFooter from "./MaoSiteFooter"
 import MaoSiteNav from "./MaoSiteNav"
 
 export default function TsukihimeReleasePage() {
+	useScreenAutoNavigate(SCREEN.HOME)
+
 	return (
 		<div className="tsuki-release-page">
 			<MaoDocumentMetadata

@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react"
-import type {MaoAuditRepository} from "./data"
+import {dedupeVisibleEvidence, type MaoAuditRepository} from "./data"
 import {ReaderError, ReaderLoading} from "./ReaderStates"
 import type {
 	DossierCounterexample,
@@ -110,7 +110,7 @@ function ExampleCard({
 				</div>
 				<code>{example.refs[0] ?? example.findingId}</code>
 			</div>
-			{example.evidence.map(evidence => <div className="audit-example-visible-evidence" key={evidence.ref}>
+			{dedupeVisibleEvidence(example.evidence).map(evidence => <div className="audit-example-visible-evidence" key={evidence.ref}>
 				<p lang="ja"><HighlightedText text={evidence.japanese} highlight={evidence.japaneseHighlight} /></p>
 				<p><HighlightedText text={evidence.mirrorMoon} highlight={evidence.mirrorMoonHighlight} /></p>
 			</div>)}
@@ -140,7 +140,7 @@ function CounterexampleCard({
 				</div>
 				<code>{counterexample.refs[0] ?? counterexample.counterexampleId}</code>
 			</div>
-			{counterexample.evidence.map(evidence => <div className="audit-example-visible-evidence" key={evidence.ref}>
+			{dedupeVisibleEvidence(counterexample.evidence).map(evidence => <div className="audit-example-visible-evidence" key={evidence.ref}>
 				<p lang="ja"><HighlightedText text={evidence.japanese} highlight={evidence.japaneseHighlight} /></p>
 				<p><HighlightedText text={evidence.mirrorMoon} highlight={evidence.mirrorMoonHighlight} /></p>
 			</div>)}
