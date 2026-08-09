@@ -1,0 +1,81 @@
+phase "bg/bg_11c",l,cel,09a,9
+bg #000000,notrans,0
+bg "bg/cmo_14",crossfade,400
+`I had been in darkness.@ For eight years after awakening, I had hidden there, scarcely daring to breathe.
+\
+`Even I no longer knew why.@ Whatever reason there had been was worn away long ago.@ Nothing remained here but darkness.@ Even so, it seemed there was still something I had to accomplish.
+\
+`I didn’t know why I existed, but my objective was clear.@ Everything that had bound me was gone.@ Nothing stood in my way.@
+!w500
+br
+`All that remained—
+!w500
+br
+`was to come and kill you.
+\
+bg #ffffff,crossfade,1500
+bg "bg/bg_40e",crossfade,400
+br
+`Chirp, chirrup, chirrup-chirrup
+br
+`Had the window been left open?@ I could hear small birds singing in the garden.@
+br
+`A cool breeze brushed my cheek.@ Pale sunlight rested on my eyelids.@ Everything around me was hushed and softly colored.@
+br
+`The gentle arrival of morning.
+\
+bg "bg/bg_40a",crossfade,400
+play "*2"
+`Morning.@ Akiha must have tended me until I fell asleep last night, and somehow I had slept through until dawn.@ I was still lying in bed, every joint faintly heavy.@ Even so, I felt better than I had the night before.@ I opened my eyes and began to sit up.
+\
+wave se_01
+bg #9c0120,crossfade,400
+bg "bg/bg_40a",crossfade,400
+`“Ugh…”@ Nausea surged through me at once.@ Was yesterday’s anemia still lingering?@ My stomach churned, and I felt sick.@
+br
+ld c,"tachi/his_t01",lshutter,400
+`“Excuse me.”@ Hisui entered.@ She must have expected me to still be asleep, because the sight of me awake brought a flicker of surprise to her face.
+\
+`“Good morning.@ I see you are already awake, Master Shiki.”@ “…”@ For some reason, that tiny reaction from Hisui irritated me.
+\
+`“Morning.@ You came about breakfast, right?@ I’ll be down soon, so leave.@ I need to get dressed.”@
+ld c,"tachi/his_t04",crossfade,400
+`“…@Yes.@ Forgive me.”@
+cl c,lshutter,800
+`“……”@ Taking my foul mood out on Hisui was insane.
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_40a",crossfade,400
+`“……”@ I felt awful.@ In this condition, going to school would be pointless.@
+br
+`“Maybe I should…@ stay home.”@ But I had to go.@ At school, I might see Ciel.
+\
+`There was almost no hope that she would still be there as the Ciel I knew, but even so—perhaps she would be there.@
+br
+`“Haa…”@ I drew a long breath and steadied myself.@ Somehow suppressing the dizziness, I left my room.
+\
+bg #000000,lcartain,800
+bg "bg/bg_34a",lcartain,800
+ld c,"tachi/aki_t16a",lshutter,800
+`“Ah, Brother.@ G-good morning.”@ The moment I entered the sitting room, Akiha greeted me in an oddly strained voice.
+\
+`“Morning.@ You’re up early again.”@ “This is my usual time…@ Brother?”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“Are you sure you’re all right?@ You still look pale.@ If you feel unwell, perhaps you should stay home today—”@ “I’m fine.@ It will pass.@ There’s no need for you to worry.”@ I answered at once and walked past her.@ I needed breakfast; without food I would have no strength.
+\
+`“See you.@ It’s almost time for you to leave, isn’t it?”@
+ld c,"tachi/aki_t17a",crossfade,400
+`“……@Yes.@ Then I’ll go on ahead.”@ Still hesitant, Akiha quietly rose.@
+cl c,lshutter,800
+`Akiha left the sitting room.@ Watching her from the corner of my eye, I entered the dining room.
+\
+playstop
+bg #000000,lcartain,800
+bg "bg/bg_23a",lcartain,800
+`I left the mansion for school.@ My limbs remained heavy as I descended the hill, feeling as though I were wearing someone else’s body.
+\
+bg "bg/bg_01a",lcartain,800
+`Seven forty in the morning.@ The front gate was crowded with students arriving for school.@
+br
+`“……”@ I doubted Ciel would come, but perhaps waiting in ambush here was better than sitting in the classroom.
+\

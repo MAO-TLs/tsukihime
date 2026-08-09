@@ -1,0 +1,206 @@
+playstop
+bg #000000,lcartain,800
+bg "bg/bg_34b",lcartain,800
+play "*2"
+`When I reached the sitting room, Akiha was relaxing there alone.@ Hisui and Kohaku were nowhere in sight.@ Two teacups sat on the table, one already in Akiha’s hand.
+\
+ld c,"tachi/aki_t09b",lshutter,800
+`“Oh?@ Have you come for tea after dinner?”@ “No, not exactly.@ I only thought I’d like to talk to you.”@ With a glance, I offered to leave if I was intruding.@
+ld c,"tachi/aki_t04b",crossfade,400
+`“Then don’t stand there.@ Sit down.@ Will black tea do?”@ “…@Anything is fine, as long as it tastes good.”@ I would have preferred green tea, but kept that selfish thought to myself.@ Akiha lifted the pot and filled the other cup with clear, ruby-colored tea.
+\
+`“Thanks.”@ I sat on the sofa and raised the cup to my lips.@ …@Akiha sat opposite me, straight-backed and composed, and the sight was strangely intimidating.@ Coming to see her had seemed like a good idea, but now that we were face-to-face, I had no idea what to say.
+\
+ld c,"tachi/aki_t01b",crossfade,400
+`“Brother?@ Why have you gone silent?@ I thought you wanted to talk.”@ Akiha watched me steadily.@ She felt less like my little sister than an unfamiliar young lady, and the air around her discouraged anything casual.
+\
+`“Um…@ I was wondering what you’ve been doing for the past eight years.”@
+ld c,"tachi/aki_t03b",crossfade,400
+`“Surely that requires no explanation.@ Once you were gone, Father’s attention had only one remaining target: me.”@ Akiha shot me a look loaded with reproach.@ …@Apparently asking about those eight years was taboo after all.
+\
+ld c,"tachi/aki_t18b",crossfade,400
+`“And what of your own eight years?@ I sent you several letters, yet not one received an answer.”@ “…@Urgh.”@ My breath caught.@ Several letters from Akiha had indeed reached me, and I had never sent a proper reply.@ I was a poor correspondent, but that was only part of it.@ Deep down, I had wanted to sever every tie with the Tohno mansion, and answering Akiha would have preserved one.
+\
+ld c,"tachi/aki_t04b",crossfade,400
+`“Never mind the letters.@ Even if you had replied, Father would merely have intercepted them.@ Tell me instead what you think of the mansion after eight years away.@ We renovated it recently because of its age, but it has not changed substantially, has it?”
+\
+`“…”@ Akiha might say so, but to me it was an entirely unfamiliar house.@ Eight years ago, I had still been in elementary school.@ My memories of the mansion were hazy, and standing inside it now made me deeply uneasy, as though I had wandered into someone else’s home.
+\
+ld c,"tachi/aki_t01b",crossfade,400
+`“Brother?”@ “Ah—sorry.@ I was thinking.@ You say it hasn’t changed, but I still can’t relax here.@ The sitting room and lobby look familiar, but the corridors and bedrooms barely stir a memory.”@ “…@I see.@ Eight years is a long time.”@
+br
+`That was all there was to it.@ Eight years accounted for nearly half my life.@ It would have been stranger if I remembered everything clearly.
+\
+`“Well, it has been eight years.@ Nothing feels right yet, but I’ll get used to it eventually.@ In the meantime, I’d appreciate a little mercy when my manners slip.”@
+ld c,"tachi/aki_t03b",crossfade,400
+`“Don’t be ridiculous.@ I’ve already turned so blind an eye to your manners that I can barely see.”@ “Pfft—!”
+\
+`Urgh…@ That was close.@ I nearly sprayed tea everywhere.@ At dinner, I had picked up the knives in the wrong order just once, and Akiha’s arrow-sharp glare had broken me into a cold sweat.
+\
+`“…@So that was you turning a blind eye?”@
+ld c,"tachi/aki_t21b",crossfade,400
+`“Yes.@ I am making every concession I can.@ After all, Aunt Arima raised you.@ She is the most permissive woman in any branch of this family, and tonight’s dinner showed me exactly how thoroughly you were spoiled.”@ “It couldn’t be helped.@ Neither of us ever imagined I’d be coming back here.”
+\
+`“…@I see.@ You make it sound as though you never wanted to return.”@ “Don’t be stupid.@ Of course that isn’t true.@ I had doubts, sure, but you were all alone here.@ As your older brother, how could I ignore that?”@
+cl c,crossfade,400
+br
+`Yes.@ That was my foremost reason for returning.@ If Akiha had not been here, nothing could have dragged me back to this mansion after so long—
+\
+`“I know it’s late to say this after eight years of silence, but I always wondered whether you were all right here alone.@ I came back because I was worried about you.”@ Looking slightly away from her, I put the truth into words.
+\
+ld c,"tachi/aki_t16b",crossfade,400
+`“Oh—yes, um…@ thank—”@ “But it seems I worried for nothing.@ In eight years you’ve grown tough as nails.@ I’m relieved, though I suppose I’m also a little disappointed.”@
+br
+`No, “a little”@ did not begin to cover it.@ I remembered only the meek Akiha of childhood.@ The poised, commanding girl before me seemed like another person altogether—enough to leave me flustered just looking at her.
+\
+ld c,"tachi/aki_t01b",crossfade,400
+`“I see.@ Forgive me for being such a deficient sister that I could not meet your expectations.”@ Akiha’s eyes were frightening.@ …@Damn.@ I had put my foot in it again.
+\
+ld c,"tachi/aki_t03b",crossfade,400
+`“And you, Brother?@ How was your life with the Arimas?”@ Akiha continued to question me without softening her expression.@ …@How could a simple conversation with my little sister feel this tense?
+\
+`“Brother.@ Are you listening?”@ “Of course.@ You asked about life with the Arimas.@ It was perfectly ordinary; I never had any particular trouble.@ Honestly, their way of life probably suited me better than this one.”@
+ld c,"tachi/aki_t01b",crossfade,400
+`“That isn’t what I meant.@ How was your health?@ I heard you were constantly collapsing from chronic anemia.”
+\
+`“It’s true that I collapsed all the time during the first year after leaving the hospital, but I’m fine now.@ …@I still get anemic occasionally, but only about once a month.@ I’m not so frail that you need to worry over me.”@ I put on a brave face and thumped my chest over the scar.@ Akiha nodded gravely.
+\
+`“But Brother, you never wore glasses before.@ Did your eyesight deteriorate after you were hospitalized?”@ “…”@ …@Of course.@ Akiha did not know when I began wearing glasses or why.@ But there was no possible way to explain that I saw “lines”@ along which things could easily be broken, or that these glasses kept me from seeing them.
+\
+`“…@It’s just a minor aftereffect of the accident.@ Something went a little wrong with my eyes, but my vision itself is fine.@ It isn’t serious.”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“I see.@ I was surprised when we met earlier.@ I had no idea you wore glasses.”@ “Really?@ You looked remarkably calm for someone so surprised.”@
+ld c,"tachi/aki_t03b",crossfade,400
+`“Naturally.@ I could hardly disgrace myself when meeting you again after eight years.”@ Akiha gave a huff and knit her brows.
+\
+cl c,crossfade,400
+wave se_04
+ld l,"tachi/koha_t03",lshutter,800
+`“Miss Akiha, your bath is ready.@ Would you like to go in now?”@
+ld r,"tachi/aki_t04b",crossfade,400
+`“Is it?@ Thank you, Kohaku.@ I’ll be there presently; go on ahead.”@
+ld l,"tachi/koha_t02",crossfade,400
+`“Oh, are you sure?@ You were enjoying a quiet evening with Master Shiki.@ The bath isn’t going anywhere; he might.@ Why not stay a little longer?”
+\
+`“That won’t be necessary.@ We weren’t discussing anything important.”@
+cl r,lshutter,800
+`Akiha rose in one smooth motion, swept past Kohaku, and marched briskly toward the lobby.@
+cl l,lshutter,800
+`Kohaku followed at a decorous pace.@
+br
+`Left alone, I absently finished the tea in my cup.@ Akiha and Kohaku seemed to be heading for the baths, so perhaps I should return to my room.
+\
+`“Wait.@ Is Akiha planning to bathe with Kohaku…?”@ There was no “planning”@ about it; they were unquestionably going together.@ Would Kohaku wash her back?@ Well, they were both women, so there was nothing wrong with it, but still…
+\
+ld c,"tachi/aki_t18b",crossfade,400
+`“You are free to imagine whatever you please.”@ “—!”@ A-Akiha could not possibly have chosen a better moment to return.@
+ld c,"tachi/aki_t03b",crossfade,400
+`“But do not, under any circumstances, make Hisui participate in anything ridiculous.@ Unlike Kohaku, she does not understand jokes.”@
+br
+`Akiha gave me a look of reproach that seemed to see straight through my indecent thoughts.@ …@Still, that had been astonishing.@ Were there hidden microphones in this mansion?
+\
+`“Wait, why did you come back?@ Weren’t you going to bathe with Kohaku?”@ “I forgot to tell you something about the baths.@ The old main bathhouse is no longer in use.@ It is too much for Kohaku and Hisui to maintain by themselves, so I have closed it for the time being.”@ “…@Main bathhouse?”@ What was that supposed to be?@ “…@Hmm?”@ I cocked my head, unable to remember.@ Akiha frowned in exasperation.
+\
+`“There was an open-air bath in the courtyard.@ Have you forgotten even that, Brother?”@ …@Now that she mentioned it, perhaps there had been.@ “But this is a Western mansion, not a hot-spring inn.@ Why was something so out of place built here?”@
+ld c,"tachi/aki_t01b",crossfade,400
+`“Father had a rather half-hearted fondness for Japanese things.@ The detached residences were built in the Japanese style for the same reason.”
+\
+`“So if you want a bath, use the one assigned to you.@ The second bathroom behind the foyer is yours.”@ With that, Akiha took her leave.@
+cl c,lshutter,400
+br
+`“……@Well, then.”@ With Akiha gone, there was no point lingering in the sitting room.@ I might as well take a bath myself and turn in.
+\
+bg #000000,lcartain,1500
+playstop
+bg "bg/bg_40c",lcartain,800
+`“Oh—”@ When I returned to my room, the bed had already been made.@ Hisui must have done it while I was out.@ “I’m grateful, but this kind of treatment feels wasted on me.”@ I scratched my cheek.@
+br
+`Just then—
+\
+wave se_04
+`“Master Shiki, are you there?”@ Hisui’s voice came through the door with a knock.@ “I’m here.@ Come on in.”@
+ld c,"tachi/his_t16",crossfade,800
+`“Thank you.@ Excuse me, then.”@
+ld c,"tachi/his_t01",crossfade,400
+play "*1"
+`“Good evening.@ And thanks, Hisui—you made the bed for me, didn’t you?”@ She gave a quiet nod.@ “……@Ugh.”@ This sort of thing really didn’t suit me.@ “So, um…@ what is it?@ Is there another message?”@ “Not from me.@ Miss Akiha instructed me to answer any questions you might have.”
+\
+`“……@I see.@ There’s certainly plenty I want to ask, but I’ll pick most of it up as I live here…”@ Right.@ If there was one thing I needed to know before bed, it was— “Then tell me this.@ Is it true the curfew here is seven?”@ “Yes.@ To be precise, the front gate is locked at seven, and every entrance to the house at eight.@ The rules also require you to refrain from moving about the house after ten.”
+\
+`“We’re not even allowed to walk around inside?@ …@I’m not complaining, but isn’t that a little extreme?@ Akiha and I aren’t children anymore.”@ “……@Yes.@ Nevertheless, Master Shiki, it is a rule, and I must ask you to observe it.@ Surely you know how dangerous the nights have become of late?”@
+br
+`……@Oh.@ She meant that vampire panic Arihiko had mentioned.@ With a string of murders taking place in the city, I supposed there was no such thing as being too careful.
+\
+`“Anything else…?@ Oh, this doesn’t have much to do with that, but may I ask?”@ “Certainly.”@ “I’d like to know what you and Kohaku actually do here.”@ “I am assigned personally to you, while my sister Kohaku attends Miss Akiha.@ When neither of you is at home, we are entrusted with the upkeep of the house.@ Is there some problem?”@ “……@So ‘attends’ really does mean what I thought.”
+\
+`My shoulders sagged.@ Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@ I had no desire—at least not yet—to be waited on by a girl about my own age.
+\
+`“……@If you’re assigned to me, does that make you my personal servant?”@ “Yes.@ You may ask anything of me.”@ “……@All right, I understand.@ From the way Akiha talked, she’d never let me dismiss you, so I’ll accept your help—but…”@ “Do you have some special request?”@ “Nothing special.@ Could you stop calling me ‘Master Shiki’?@ Honestly, it gives me chills every time I hear it.”
+\
+`“But you are my master, Master Shiki.”@ “That’s exactly what I don’t like.@ Until yesterday I was living a perfectly ordinary life.@ The last thing I want now is a girl my age treating me like some lord of the manor.”@ “I see,”@ Hisui replied without interest.
+\
+`“Just call me Shiki.@ I’ll call you Hisui, and we can forget all the stiff formalities.@ Let’s make things easy on each other.”@ Hisui’s face remained blank, but her brows drooped slightly, as if I had placed her in a difficult position.@
+ld c,"tachi/his_t23",crossfade,400
+`“But you are my employer.”@ “I’m not the one who hired you.@ Besides, you do all the things I can’t, so if anything, you’re the important one.”@ “I see,”@ Hisui said again in the same listless tone.@ Apparently this was not something I could talk her out of overnight.
+\
+`“Anyway, that’s how I feel, so please don’t be so formal with me.@ I’d appreciate it if you told your sister the same thing.”@
+ld c,"tachi/his_t16",crossfade,400
+`“Yes.@ If that is what Master Shiki wishes.”@ Hisui bowed, her face utterly blank.@
+br
+`She had missed the point completely.@ It was almost impressive.@
+br
+`“I shall take my leave, then.@ Please retire for the night.”@
+cl c,lshutter,800
+`Hisui bowed and reached for the doorknob.
+\
+br
+`—And then I remembered one last question.@
+br
+`“Oh, wait a second.”@ I hurried to the door and put a hand on Hisui’s shoulder as she was leaving.@
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_40c",notrans,0
+`In that instant, Hisui knocked my arm away with astonishing force.
+\
+`The slap cracked through the room, and Hisui sprang back as though fleeing from me.@
+ld c,"tachi/his_t10",lshutter,400
+`“What—”@ It happened so suddenly that no other word would come.@ Hisui’s face was still expressionless, but she was unmistakably glaring at me with the ferocity one reserves for a hated enemy—
+\
+`“Um…@ did I do something wrong?”@
+ld c,"tachi/his_t28",crossfade,400
+`“Ah……”@
+ld c,"tachi/his_t26",crossfade,400
+`“……@I am terribly sorry…”@ Tension threaded Hisui’s voice.@ “……@I am not accustomed to being touched.@ Please forgive me.”@ Her shoulders were trembling faintly.@ Somehow, I felt as though I had done something truly awful.
+\
+`“Oh—yeah.@ I’m sorry.”@ The apology came out before I knew it.@ I couldn’t have explained why.@ She simply looked so pitiful that I found myself bowing to her.@
+ld c,"tachi/his_t04",crossfade,400
+`“……”@ Hisui said nothing.@ Still, I thought her gaze softened a little.
+\
+ld c,"tachi/his_t23",crossfade,400
+`“You have no reason to apologize, Master Shiki.@ The fault was mine.”@ “Well, I suppose so, but…@ I don’t know.@ I just felt like I should.”@ I scratched my head.@
+ld c,"tachi/his_t01",crossfade,400
+`Hisui studied my face, then lowered her eyes for a fleeting moment.@ “Um…@ what did you need, Master Shiki?”@ Oh, right.@ I had stopped her because there was something I wanted to ask.
+\
+`“I was wondering about Akiha.@ Didn’t she attend a boarding school?”@ “Master Shiki, that was only through middle school.@ Beginning this year, Miss Akiha has been granted special permission to commute from home.”@ “……@So she goes to school from this house?”@ “Yes.@ However, it is rare for her to return as early as she did today.@ She has lessons until dinnertime, so she ordinarily arrives just before seven.”
+\
+`“Lessons?@ What kind?”@ “As today is Thursday, she had violin practice.”@ “……@What?”@ “She returns before dinner on weekdays.@ If you wish to speak with her, please ask my sister to arrange it after the meal.”@
+cl c,lshutter,400
+`“Good night, then.”@ Hisui bowed and left the room.
+\
+`“Violin lessons.”@ What was that about?@ It wasn’t as though she were some pampered young lady, so why bother with something so—
+br
+`“……@Oh.@ Right.@ She is a pampered young lady.”@
+br
+`Of course.@ Shiki Tohno’s little sister was Akiha Tohno, a young lady born and bred.
+\
+`In my memories, Akiha was my quiet little sister, one year younger, always trailing behind me with anxious eyes.@ As a child she had been frail and timid, too shy even to say what she wanted, forever frightened that her father, Makihisa Tohno, might scold her.@
+br
+`“……@Of course.@ Eight years is enough to change anyone completely.”@ Just as those years had made me into the Shiki Tohno I was now, they must have made Akiha into the Akiha Tohno she was today.
+\
+`Eight years is a long time.@ Half my life so far.@ I had been absent from this house during the years that mattered most—the years when a child struggled to become an adult.@
+br
+`“……@I’m sorry, Akiha.”@ If only I could have been there beside her through those eight years.@ The thought brought the apology unbidden to my lips.
+\
+bg #000000,crossfade,800
+playstop
+!w1000

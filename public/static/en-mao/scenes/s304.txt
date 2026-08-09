@@ -1,0 +1,22 @@
+play "*2"
+wavestop
+bg "bg/bg_34a",notrans,0
+`“Hey.@ Morning, Akiha.”@
+ld l,"tachi/aki_t01a",crossfade,400
+`“—Good morning, Brother.”@
+ld r,"tachi/koha_t02",crossfade,400
+`“Good morning, Shiki.@ Breakfast is ready in the dining room, so please help yourself.”@ In stark contrast to chilly Akiha, Kohaku greets me with a beaming smile.
+\
+`“Oh, thank you.@ But have you already eaten, Akiha?@ That looks like after-breakfast tea.”@
+ld l,"tachi/aki_t03a",crossfade,400
+`“Of course.@ You may rise whenever you please, Brother, but you could at least leave yourself time for breakfast.@ Eating after seven is proof that you’ve let yourself go.”@ “Seven is a perfectly normal time for breakfast.@ What time did you get up, then?”@
+ld l,"tachi/aki_t18a",crossfade,400
+`“Five o’clock.@ Is there a problem?”
+\
+`“…”@ …@Of course.@ I have no idea what she does at that hour, but five is such an unimpeachably perfect answer that I can’t argue with it.
+\
+ld l,"tachi/aki_t03a",crossfade,400
+`“Your school is only a thirty-minute walk from here, isn’t it?@ Please don’t be late when you live so close.@ It would be embarrassing.”@ “Urgh…”@
+cl a,crossfade,400
+`Every word out of Akiha’s mouth has a barb on it.@ The worst part is that she’s entirely right, leaving me no room to fight back.
+\

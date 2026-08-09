@@ -1,0 +1,235 @@
+import { ScriptPlayer } from "engine/ScriptPlayer";
+import { LabelName } from "app/utils/types";
+import { history, History } from '../../../engine/history';
+import { toast } from "react-toastify";
+import { strings } from "translation/lang";
+import { FaSave } from "react-icons/fa";
+import { MdPlayArrow } from 'react-icons/md';
+import { InGameLayersHandler } from "@tsukiweb/common/utils/InGameLayersHandler";
+import { moveBg } from "features/game/utils/graphics";
+import { inGameControls } from "features/game/utils/keybind";
+import { QUICK_SAVE_ID, savesManager } from "engine/savestates";
+import { settings } from "engine/settings";
+import { EventActions, EventFilter } from "@tsukiweb/common/input/eventActions";
+
+function noFocus() {
+	return document.activeElement == null
+		|| document.activeElement == document.body
+}
+
+function quickLoad(history: History, onLoad: VoidFunction) {
+	const ss = savesManager.get(QUICK_SAVE_ID)
+	if (ss) {
+		history.loadSaveState(ss)
+		toast(strings.game["toast-qload"], {
+			icon: () => FaSave({}),
+			autoClose: 1400,
+			toastId: 'ql-toast'
+		})
+		onLoad()
+	} else {
+		toast(strings.game["toast-load-fail"], {
+			autoClose: 2400,
+			toastId: 'ql-toast',
+			type: "warning"
+		})
+	}
+}
+
+function quickSave(history: History) {
+	const ss = {
+		id: 0,
+		...history.createSaveState()
+	}
+	savesManager.add(ss)
+	toast(strings.game["toast-qsave"], {
+		icon: () => FaSave({}),
+		autoClose: 1400,
+		toastId: "qs-toast",
+	})
+}
+
+export function onAutoPlayStop() {
+	toast(strings.game['toast-autoplay-stop'], {
+		autoClose: 600,
+		toastId: 'ap-stop',
+		hideProgressBar: true,
+		icon: () => MdPlayArrow({}),
+	})
+}
+
+
+export type ShowLayers = {
+	graphics: boolean,
+	history: boolean,
+	flowchart: boolean,
+	save: boolean,
+	load: boolean,
+	config: boolean,
+	title: boolean,
+
+	qSave: boolean,
+	qLoad: boolean,
+	copyScene: boolean,
+}
+
+function condition(condition: ()=>boolean, filters: EventFilter[]) {
+	return filters.map(f => ({[EventActions.IF]: condition, ...f}))
+}
+
+function createKeyMap(layers: InGameLayersHandler, show: ShowLayers) {
+	const noMenu = ()=> layers.currentMenu == null
+	const onText = ()=> layers.topLayer == 'text'
+	return {
+		"next":     condition(noMenu, inGameControls['next']),
+		"back":     inGameControls['back'],
+		"history":  condition(()=> show.history && onText(), inGameControls['history']),
+		"flowchart":condition(()=> show.flowchart && onText(), inGameControls['flowchart']),
+		"graphics": condition(()=> show.graphics && noMenu(), inGameControls['graphics']),
+		"bg_move":  condition(noMenu, inGameControls['bg_move']),
+		"auto_play":condition(onText, inGameControls['auto_play']),
+		"page_nav":	condition(noMenu, inGameControls['page_nav']),
+		"load":     condition(()=> show.load && noMenu(), inGameControls['load']),
+		"save":     condition(()=> show.save && noMenu(), inGameControls['save']),
+		"q_save":   condition(()=> show.qSave && noMenu(), inGameControls['q_save']),
+		"q_load":   condition(()=> show.qLoad && noMenu(), inGameControls['q_load']),
+		"config":   condition(()=> show.config && noMenu(), inGameControls['config']),
+	}
+}
+
+function swipeCallback(layers: InGameLayersHandler,
+					   direction: string) {
+	if (direction == "")
+		return
+	switch (layers.topLayer) {
+		case 'text':
+			switch(direction) {
+				case "up": layers.graphics = true; return true;
+				case "left": layers.menu = true; return true;
+				case "down": layers.history = true; return true;
+			}
+			break
+		case 'graphics':
+			switch(direction) {
+				case "up": moveBg("down"); return true;
+				case "down": moveBg("up"); return true;
+				case "left": layers.menu = true; return true;
+			}
+			break
+		case 'menu':
+			if (direction == "right") {
+				layers.menu = false
+				return true
+			}
+			break
+	}
+}
+
+//#endregion ###################################################################
+//#region                       ACTION FUNCTIONS
+//##############################################################################
+
+export class UserActionsHandler {
+	private _script: ScriptPlayer|null
+	private _layers: InGameLayersHandler
+	private _remountScript: VoidFunction
+
+	constructor(script: ScriptPlayer|null, layers: InGameLayersHandler,
+			remountScript: VoidFunction) {
+		this._script = script
+		this._layers = layers
+		this._remountScript = remountScript
+	}
+	onScriptChange(script: ScriptPlayer|null) {
+		this._script = script
+	}
+
+	next() {
+		if (!this._script)
+			return false
+		switch (this._layers.topLayer) {
+			case 'graphics' :
+				this._layers.text = true
+				return true
+			case 'text' :
+				if (this._script.autoPlay)
+					this._script.autoPlay = false
+				this._script.next()
+				return true
+		}
+	}
+	back() {
+		if (!this._script)
+			return
+		if (this._script.autoPlay && !this._script.paused)
+			this._script.autoPlay = false
+		else {
+			this._layers.back()
+		}
+	}
+	prevPage() {
+		if (!this._script) return
+		//if (this._script.autoPlay) this._script.autoPlay = false
+		history.onPageLoad(history.pagesLength < 2 ? -1 : -2)
+		this._remountScript()
+	}
+	nextPage() {
+		if (!this._script) return
+		if (this._script.autoPlay) this._script.autoPlay = false
+		if (!this._layers.currentMenu) { // move to next page only if no menu is active
+			this._layers.text = true
+			const {currentLabel, currentPage} = this._script
+			this._script.ffw((_l, _i, page, _lines, label: LabelName)=> {
+				return page != currentPage || label != currentLabel
+			}, settings.fastForwardDelay)
+		}
+	}
+	pageNav(direction: "prev"|"next") {
+		switch (direction) {
+			case "prev": this.prevPage(); break
+			case "next": this.nextPage(); break
+		}
+	}
+	quickSave() {
+		if (this._script?.continueScript)
+			quickSave(this._script.history)
+	}
+	quickLoad() {
+		if (this._script?.continueScript)
+			quickLoad(this._script.history, this._remountScript)
+	}
+	handleAction(action: string, e: KeyboardEvent, ...args: any) {
+		if (!this._script)
+			return
+		const layers = this._layers
+		switch(action) {
+			case "auto_play":
+				this._script.autoPlay = !this._script.autoPlay
+				break
+			case "next"     : return noFocus() && this.next()
+			case "back"     : this.back(); break
+			case "page_nav" : this.pageNav(args[0]); break
+			case "q_save"   : this.quickSave(); break
+			case "q_load"   : this.quickLoad(); break
+			case "menu"		: console.log('menu'); layers.menu = !layers.menu; break
+			case "history"  : layers.history  = !layers.history; break
+			case "flowchart": layers.flowchart= !layers.flowchart; break
+			case "graphics" : layers.graphics = !layers.graphics; break
+			case "load"     : layers.load     = !layers.load; break
+			case "save"     : layers.save     = !layers.save; break
+			case "config"   : layers.config   = !layers.config; break
+			case "bg_move"  : moveBg(args[0]); break
+			default :
+				console.error(`Unimplemented action ${action}`)
+				return false
+		}
+		return true
+	}
+}
+
+const actions = {
+	createKeyMap,
+	swipeCallback,
+	UserActionsHandler
+}
+export default actions

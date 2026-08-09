@@ -1,0 +1,40 @@
+monocro off
+wave se_03
+bg "bg/bg_06a",notrans,0
+play "*4"
+ld c,"tachi/osiete",lcartain,800
+!w1000
+cl c,lcartain,800
+ld r,"tachi/nero_t02a",tshutter,800
+`「少年、質問かね」@
+br
+ld l,"tachi/ark_t31a",lshutter,400
+`「あ、きったなーい。@ネロったらこんなトコロまで顔出して目立とうとしてるー」@
+br
+ld r,"tachi/nero_t03",crossfade,400
+`「たわけ。@知得留クンはカレー屋に出かけている。@よって、私が代理だ」@
+br
+`「ふーん。@それじゃヒントの一つでも出してみなさいよ、貴方」@
+br
+cl r,crossfade,400
+ld r,"tachi/nero_t04",crossfade,400
+`「喧嘩両成敗。@無益は殺生はするな」
+\
+ld l,"tachi/ark_t31b",lshutter,400
+ld l,"tachi/ark_t31a",lshutter,400
+`「なっとくいかなーい。@シエルと戦う気がなくっても、無条件でメガネ外しちゃった志貴だっているはずにゃ。@
+`　それはどうだっていうのよう」@
+ld r,"tachi/nero_t02a",crossfade,400
+br
+`「盗むな、犯すな、欺くな。@不心得者は心当たりがあろう。@ならば早々にこの日の朝に時間旅行にでかけるがいい。@
+`　ふん。@そう言えば姫君にも心当たりがあるのではないかね？」
+\
+ld l,"tachi/ark_t30",lshutter,400
+`「にゃ、にゃにが？@　わたし難しいコトわからなーい」@
+br
+ld r,"tachi/nero_t02c",crossfade,400
+`「……まあ、人の事など瑣末だがね。@
+`　では私はここで、君たちの結末を見てみるとしよう[line=5]」
+\
+bg #000000,crossfade,800
+playstop

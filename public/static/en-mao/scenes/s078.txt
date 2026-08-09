@@ -1,0 +1,100 @@
+monocro off
+play "*1"
+wavestop
+bg "bg/bg_31a",notrans,0
+`“Ngh…”@ There was no way I could agree to this.@ That one black dog had nearly killed me.@ If I stayed to watch her, God only knew what would happen next.
+\
+ld c,"tachi/ark_t03",crossfade,400
+`“Come on, answer me.@ I don’t think I’m asking anything too unreasonable.”@ “…”@ She didn’t understand.@ She didn’t understand that she herself was a walking impossibility.@ If I let her draw me in any deeper, she would drag me somewhere I could never come back from.
+\
+`I had no choice.@ I would wait for an opening, then somehow make a run for it.
+\
+playstop
+`“…@All right.@ I’ll at least hear you out.”@ Bracing one hand against the wall, I managed to stand on my own.@ To reach the main road, I had to take that narrow passage.@ Luckily, I was closer to it than she was.@ If I pretended to talk and then bolted, I ought to make it to the main road.
+\
+ld c,"tachi/ark_t01a",crossfade,400
+`“Oh, that’s right.@ We don’t even know each other’s names yet.@ I suppose asking you to help me before we introduce ourselves is doing things in the wrong order.”@ The woman nodded to herself, satisfied.
+\
+`“Exactly.@ So tell me a little more, and then maybe I’ll consider helping you.”@
+ld c,"tachi/ark_t03",crossfade,400
+`“Really?@ Then where should I start?@ Do you want to hear about the vampire causing all the trouble in town, or should I explain what we’re going to do from here?”@
+cl c,crossfade,400
+`The woman hummed thoughtfully, giving the question her full attention.@
+br
+`That was my one and only chance.
+\
+bg #000000,lshutter,400
+`I ran flat out.@ Catching her off guard, I tore down the passage toward the main road without pausing for breath.@
+br
+`“Huh?”@
+br
+`Her voice came from behind me.@ Too late.@ I was going to get away for sure—!
+\
+bg "bg/bg_31a",notrans,0
+wave se_05
+quakey 2,100
+`“Huh?”@ How strange.@ I had taken only a few steps when I somehow pitched straight into the ground.
+\
+play "*3"
+ld c,"tachi/ark_t11",lshutter,800
+`“What are you doing?”@ The woman came over wearing a look that was less concerned than exasperated.@ “…@Nothing.@ I just felt like running for a second.”@ Apparently she hadn’t realized I was trying to escape.@ I struggled upright, doing my best to act as if nothing had happened.
+\
+`Except—
+wave se_05
+quakey 2,100
+`“Ngh…!”@ Pain—!@ The joints in my legs hurt so badly there was no chance of standing—!
+\
+ld c,"tachi/ark_t03",crossfade,400
+`“Oh, I guess I did hit you too hard before.@ Sorry.@ If I’d held back a little more when I shoved you, I don’t think it would have gone to your legs like that.”@ “You don’t think—?@ You…”@ I wanted to ask what gave her the right to shove anyone, but if she hadn’t, that black dog would have torn out my throat and I would already be dead.
+\
+`“…@No, forget it.@ I’m grateful, so it’s fine.”@
+ld c,"tachi/ark_t01a",crossfade,400
+`“That’s a relief.@ But why did you suddenly start running?@ You said you’d talk to me.”@ “Well, that was—”@ There was no possible way I could admit it had only been an excuse.
+\
+ld c,"tachi/ark_t06",crossfade,400
+`“Hmm…”@ The woman fixed me with a hard stare.@ This was bad.@ No matter how scatterbrained she was, anyone could work out what I had been thinking.
+\
+ld c,"tachi/ark_t04",crossfade,400
+`“Listen.@ What you said before meant you were going to help me, didn’t it?”@ “…”@ I couldn’t answer.@ All I had said was that I would listen.@ I had never said I would help.@
+br
+`I didn’t want to lie.@
+br
+`Which meant that if I answered her question at all, my answer would have to be no.
+\
+ld c,"tachi/ark_t06",crossfade,400
+`“One thing first.@ I already have a fair idea what kind of person you are, so you’d better not give me some halfhearted answer.@ If you run away now, I’ll simply have to visit your house next.”@ “What—?”@ Did that mean that even if I escaped, she would come to the mansion after me?!
+\
+`“…”@ She had me.@ This was no longer only my problem.@ Akiha, Hisui—even Kohaku—might be attacked by this incomprehensible woman.@
+br
+`“Damn…”@ What the hell?@ Had there never been a choice in the first place—?
+\
+ld c,"tachi/ark_t03",crossfade,400
+`“Well, either way is fine with me.@ A vampire’s familiar has already spotted you, so you’re almost certain to become a target now.@ If you go your own way instead of staying with me, you might at least make a useful diversion.”@ “Wait…@ You can’t mean…”@
+ld c,"tachi/ark_t01a",crossfade,400
+`“I do.@ That familiar took you and me for allies.”
+\
+`“—”@ So even if I refused to help her, things like that could still attack me.@
+ld c,"tachi/ark_t06",crossfade,400
+`“Well?@ Will you help me and stand guard while I sleep, or would you rather drive off familiars like that all by yourself?”@ If both choices led to the same place, all I could do was nod.@
+br
+`“You…@ con artist.”@ With a sigh, I nodded my agreement.
+\
+ld c,"tachi/ark_t01a",crossfade,400
+`“Good.@ Then we have a deal.”@ As if her murderous air had never existed, she spoke lightly and held out her hand.
+\
+`“Now we can finally introduce ourselves.@ I’m Arcueid—my full name is long, so just Arcueid is fine.@ I’m a vampire classified as a True Ancestor.@ And who are you?”@
+br
+`Presented with the strangest introduction I had ever heard, I released a long, heavy sigh—a sigh of surrender, or perhaps proof that I had finally accepted this preposterous situation.
+\
+`“Shiki Tohno.@ Unfortunately, I’m only a student.@ I’m warning you now: I really won’t be much use.”@ I took the woman’s hand—Arcueid’s hand—and stood.@ She studied me intently, then offered her hand again for a proper shake.@
+ld c,"tachi/ark_t09",crossfade,400
+br
+`“I’ll be counting on you, Shiki.@ You’re going to take proper responsibility for killing me.”@ Smiling brightly, Arcueid extended her left hand.
+\
+`The world must contain every imaginable kind of responsibility, but I was probably the first and last person ever obliged to help someone he had murdered.
+\
+`“Damn it.@ Do whatever you want with me.”@ There was no other choice.@ Reluctantly, I extended my left hand and shook hands with the pale woman who claimed to be a vampire.
+\
+bg #000000,lcartain,1500
+!w1500
+playstop

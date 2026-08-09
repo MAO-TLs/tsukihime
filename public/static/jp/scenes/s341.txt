@@ -1,0 +1,185 @@
+play "*1"
+wavestop
+bg "bg/bg_40d",notrans,0
+`　……いや、秋葉との約束を守ろう。@
+`　秋葉が行くなっていうんだから、些細な好奇心で約束を破るわけにはいかない。@
+br
+`「……ん」@
+`　ゆったりとした眠気が体に浸透していく。@
+`　今夜はこのまま、大人しく眠る事にしよう。
+\
+bg #000000,crossfade,800
+!w1000
+playstop
+monocro #ff0000
+!w2000
+wave se_01
+!w600
+`[line=4]熱い。
+\
+wave se_01
+!w600
+br
+br
+br
+`[line=4]熱い。
+\
+wave se_01
+!w600
+br
+br
+br
+br
+br
+`[line=4]熱い。
+\
+wave se_01
+!w600
+br
+br
+br
+br
+br
+br
+br
+`[line=4]喉が、カラカラに渇いて、熱い。
+\
+!w600
+br
+br
+br
+br
+br
+br
+br
+br
+`[line=6]このままでは眠れない。@
+`　　　　　　起きて、水を飲みに行こう。
+\
+bg "bg/bg_47",notrans,0
+wait 100
+bg #000000,notrans,0
+wait 100
+bg "bg/bg_24c",notrans,0
+wait 100
+bg #000000,notrans,0
+bg "bg/bg_25b",crossfade,800
+play "*4"
+`　夜の街に出たようだ。@
+`　目を血走らせて誰か通りかからないか待っているのか。
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+`[line=6]熱かった。
+\
+`　ふと、窓ガラスに映った顔が見えた。@
+`　目は血走っていて、とても正気には見えなかった。
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+`[line=6]ただ、熱かった。
+\
+`　獲物を見つけたようだ。@
+`　背後から首をしめて、それで終わり。@
+`　見知らぬ女性はそれで死んでしまったみたいだった。
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+`[line=3]俺は、ただ、熱かった。
+\
+bg #000000,notrans,0
+wait 100
+bg "bg/bg_30b",notrans,0
+wait 100
+bg #ffffff,notrans,0
+wait 100
+bg "bg/ima_13b",notrans,0
+wait 100
+bg #000000,notrans,0
+wait 100
+bg "bg/bg_31b",notrans,0
+`　死体を連れこんで、喉元に食らいついたのか。@
+`　じゅるじゅる、という音が聞こえる。@
+`　喉もとから、肉ごとかみ切るように血を飲んで、喉の渇きを癒している。
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+`[line=3]わからない。
+\
+`　はあはあという呼吸音。@
+`　よほど。@
+`　よほどその行為は興奮するのか。@
+`　死体の胸に指をつきいれた。@
+`　肉を潰していく音、骨を崩していく音。@
+`　心臓を素手でえぐりだす、音。
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+`[line=3]見ているだけで、頭が真っ白になる。
+\
+`　その、究極の略奪。@
+`　頂点に位置する背徳性。@
+`　それが、見ているものさえ熱くさせる。@
+`　たとえそれがマイナスの快楽にしたって、熱くなるということには、かわりはないらしい。
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+`[line=3]俺には、わからない。
+\
+bg "bg/ima_18",crossfade,400
+`　熱い血液を口からたらして、恍惚とした目で、夜空を見上げていた。@
+`　長い髪が乱れる。@
+`　頭上には螺旋の空。@
+`　なんてキレイな、銀色の月。
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+`[line=3]だから、わからない。@
+`　　　俺は、ただ、熱かっただけなのに[line=4]
+\
+bg #000000,crossfade,800
+monocro off
+playstop
+!w3000

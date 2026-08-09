@@ -1,0 +1,18 @@
+monocro off
+play "*3"
+wavestop
+bg "bg/bg_05a",notrans,0
+`“You said it wasn’t you…@ You said you had nothing to do with it!”@ “What are you talking about?”@ “Three nights ago!@ When I asked if you were the one who saved me in the park, you said you weren’t…!”@
+ld c,"tachi/cel_t12",crossfade,400
+`“That was a lie.”@ She admitted it so cleanly and without hesitation that I felt like an idiot for being angry all by myself.
+\
+`“Um…@ You lied?”@
+ld c,"tachi/cel_t07a",crossfade,400
+`“You’re the one who broke your promise to me, Tohno.@ You said you wouldn’t go out at night anymore.”@ “Urk…”@ She fixed me with an unwavering stare.@ In the space of a heartbeat, I felt as guilty as if I’d been the villain all along.
+\
+ld c,"tachi/cel_t09",crossfade,400
+`“I made you promise because I was afraid exactly this might happen.@ It hurts to learn that a promise to me means so little to you.”@ “N-no, that’s not it.@ Last night, I thought Arcueid might be behind those attacks—but I knew that couldn’t be true, so I had to ask her what was going on—”@
+br
+cl c,crossfade,400
+`I stumbled through an account of the previous night.@ She listened in silence to the frantic monologue I was trying to pass off as an explanation: how I had met Arcueid by chance, learned that a vampire was loose in the city, and agreed to help her protect it.@ The whole story, such as it was.
+\

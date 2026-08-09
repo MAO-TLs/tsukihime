@@ -1,0 +1,94 @@
+monocro off
+playstop
+wavestop
+bg "bg/bg_33a",notrans,0
+`Even so, I couldn’t ignore Akiha and leave for school.@ I wanted to find out about Ciel as soon as possible, but first I owed Akiha an explanation.
+\
+bg "bg/bg_34a",lcartain,800
+`Akiha was alone in the sitting room.@ From the kitchen came Kohaku’s cheerfully off-key humming.@
+ld c,"tachi/aki_t11a",crossfade,400
+`“…”@ Akiha glanced at me but said nothing, drinking her tea in silence.
+\
+`“Morning, Akiha.”@ Suppressing my urge to race straight to school, I greeted her as naturally as I could.@ One eyebrow twitched.@ She set her cup on the table, then turned her gaze toward me with exquisite slowness.
+\
+ld c,"tachi/aki_t18a",crossfade,400
+`“Good morning.@ You came home rather late last night, I see.”@ “Was it really that late?@ A little after one is a perfectly normal time for a healthy high school boy to be awake.”@ “Quite.@ I don’t go to bed until after midnight either, so of course I’m awake then.@ I do, however, come home much earlier.”
+\
+`“I was home early too, wasn’t I?@ Something just happened to come up in the middle of the night, so I stepped out for a while—”@
+ld c,"tachi/aki_t03a",crossfade,400
+`“Without telling anyone.@ It is difficult to imagine a more suspicious way of behaving.”@ “Urgh…”@ Her gaze was glacial.@ This was the second time she had reprimanded me for the same thing; beneath that calm exterior, she might truly be exasperated with me.
+\
+`“Listen.@ I don’t know what rules you kept at the Arima house, but here the curfew is eight in the evening.@ You will obey it.@ The gates are locked after that, so please do not climb over them and break in as you did last night.”@ “You knew about that?”
+\
+`“Of course I knew.@ The security camera recorded you perfectly.@ We were fortunate that Kohaku hurried to disable the alarm.@ If she hadn’t recognized you, Shiki Tohno would be sitting in a police cell right now.”@ “I see.@ I owe Kohaku my thanks, then.@ And…@ I’m sorry, Akiha.@ I shouldn’t have gone out without telling you.”
+\
+ld c,"tachi/aki_t01a",crossfade,400
+`“As long as you understand.@ Let this be a lesson, and observe the curfew from now on.@ I will overlook everything up to this point.”@ “About that, Akiha…”@ “What is it?”@ “This is hard to say, but I have something to do tonight too.@ I don’t know when I’ll be back, but I swear I’m not doing anything wrong—”
+\
+ld c,"tachi/aki_t11a",crossfade,400
+`“…”@ Akiha’s gaze sharpened.@ “Kohaku!”@ She shot to her feet.@
+cl c,lshutter,800
+`At the sound of her name, Kohaku came in from the kitchen.
+\
+ld r,"tachi/koha_t03",lshutter,800
+`“Yes?@ What is it?”@
+ld l,"tachi/aki_t11a",crossfade,400
+`“We’re leaving for school.@ Get ready.”@ “But Shiki’s breakfast isn’t ready yet.”@
+ld l,"tachi/aki_t06",crossfade,400
+`“Forget breakfast for someone like him.@ Apparently he can do everything perfectly well by himself!”@
+cl l,lshutter,400
+`Akiha marched out toward the foyer.
+\
+`“Oh dear…@ Shiki, you really shouldn’t make Miss Akiha so angry.@ You’re her big brother; give her a little attention, won’t you?”@ With that, Kohaku hurried after her.@
+cl r,lshutter,800
+`Only one teacup remained in the sitting room, still sending up steam.
+\
+`“Haaah…”@ It was my own fault, but I had lost my breakfast.@ On the other hand, that suited me perfectly.@ It was only just past seven.@ If I ran, I could reach school shortly after seven-thirty—
+\
+bg #000000,lcartain,1500
+bg "bg/bg_01a",lcartain,1500
+`I reached the school gates a little after seven-thirty.@
+br
+`“…”@ I stood at the main gate and waited for her.@ The few students arriving this early gave me strange looks, but I couldn’t have cared less.
+\
+!w7000
+`“…”@ She still hadn’t appeared.@ The gate was growing crowded with arriving students.
+\
+!w5000
+`Less than five minutes remained before the gate closed.@ She hadn’t come.
+\
+`“…”@ Maybe she wasn’t coming today.@ After what I had seen last night, perhaps not today, or tomorrow, or the day after—perhaps never again—
+br
+`Thump.@
+br
+`“Ngh…”@ The thought made me dizzy.@ I shook my head hard, driving it away.
+\
+`Then someone tapped me on the shoulder from behind.@
+br
+ld c,"tachi/cel_t07a",lshutter,400
+`“Tohno, what are you doing out here?”@ “C-Ciel…?!”@ “Yes.”@ She gave a small nod.
+\
+`“You’re really here…?!@ But yesterday I saw you doing that—”@ Mmph.@ Before I could finish, her hand covered my mouth.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“This isn’t the place, Tohno.@ Let’s go behind the gym.”@ Wearing her usual smile, she kept one hand over my mouth and seized my arm with the other.@
+cl c,lshutter,400
+`“Mm!@ Mmm!”@ I tried to protest that she should wait, but no words came out.@ She simply dragged me away by force.
+\
+bg #000000,lcartain,800
+bg "bg/bg_05a",lcartain,800
+play "*3"
+wave se_03
+`The warning bell rang out, loud and clear.@
+!w5000
+`Morning homeroom had begun.@ Worse, there wasn’t another soul anywhere nearby.@
+br
+ld c,"tachi/cel_t07a",crossfade,400
+`“There.@ No one can hear us here.”@ At last she released me.@ I sprang back and faced her squarely.
+\
+`“This is about last night, isn’t it?@ If you have something to say, Tohno, go ahead.”@ She spoke with perfect composure, as though nothing particularly important had happened.@ “……!”@ But it had mattered to me.@ Her attitude grated on me.
+\
+`“Then that really was you last night…!”@ “Yes.@ I even said your name, so there’s no point denying it any longer.”@
+cl c,crossfade,400
+`“……!”@ I ground my teeth.@ I hadn’t expected an apology, exactly, but even so—
+\

@@ -1,0 +1,114 @@
+wavestop
+bg "bg/bg_40c",notrans,0
+playstop
+`I didn’t know.@
+br
+`Until evening, I had been desperate to find Yumizuka.@ But the instant the sun went down, the night before returned with terrible clarity.@ The bodies strewn across the alley.@ Yumizuka saying she had killed them.@ Whatever her reasons, she had murdered all those people.@ I knew the right choice was to stay out of it.
+\
+`“……”@ I knew that, yet I still couldn’t put my doubts aside.@ Even I could see how absurd I was being.@ I had no idea what had happened to Yumizuka.@ And I had already been forced to face the fact that she was the vampire behind the murders terrorizing the city.@
+br
+`But still—on that road home at sunset, her final words…@ I couldn’t get them out of my mind—
+\
+bg #000000,crossfade,800
+!w1000
+bg "bg/bg_40d",crossfade,400
+`Before I knew it, the clock was nearing twelve.@ Still unable to decide what to do, I remained awake.@
+br
+wave se_04
+`“Master Shiki, are you still awake…?”@ It was Hisui.@ What could she want at this hour?@
+bg "bg/bg_46c",lshutter,800
+`“I’m awake.@ What is it, Hisui?”@
+ld c,"tachi/his_t01",tshutter,400
+`“Yes…@ I hesitated because of the hour, but I thought I should tell you if you were still awake.”
+\
+`“Tell me what?”@ “There was a telephone call for you a short while ago.@ The caller left a message saying they would be waiting in the park.”@ “A call…@ at this hour?”@ “Yes.@ The caller hung up without giving a name, so I wasn’t certain whether I should trouble you with it—”@ “No, that was…”@ There was no need to think.@ The call had to be from Yumizuka.
+\
+`“Thank you.@ But it’s late, so I’ll leave it until tomorrow.@ She’s a classmate.@ I’ll see her at school then.”@
+ld c,"tachi/his_t17",crossfade,400
+`“That is a lie.@ Please don’t smile at me when your face looks so pained.”@ “Don’t be silly.@ I’m not lying.@ It’s all right—I’m not going out at this hour.@ I’d only make Akiha angry again and cause trouble for you.@ So I won’t.”@ “……”@ Hisui fell silent.@ For a while, no words passed between us.
+\
+ld c,"tachi/his_t04",crossfade,400
+`“Master Shiki…@ please, do not push yourself.”@ “Come on, I’m not pushing myself at all.@ I’m going to sleep now, so you can go back to your room.”@ “……”@ Hisui merely stared at me.@ “Well…@ good night.”@ Unable to bear her gaze, I shut the door in her face.
+\
+bg #000000,lshutter,800
+bg "bg/bg_40d",rshutter,800
+`“I give up.@ There’s no hiding anything from Hisui.”@ I took the knife from my desk drawer.@ I wasn’t planning to use it, but I wouldn’t feel safe going without some kind of weapon.@
+br
+`“The park…@ Why would she call me out there at this hour—?”@
+br
+`The question brought a silly old tale to mind.@ Vampires could only move at night.@ If that was true, then Yumizuka hadn’t summoned me at this hour by choice.@ This was simply the only hour when she could.
+\
+`“No point thinking about it now.”@ First I had to reach the park.@ I left the mansion in silence, careful not to alert Hisui.
+\
+bg #000000,lcartain,800
+!w1000
+play "*1"
+bg "bg/bg_27b",lcartain,800
+`“Hah…@ hah…@ hah…”@ I stopped to cool my body after running the whole way.@ It was almost midnight.
+\
+`The park lay beyond the main thoroughfare.@ The nightly murders had emptied the entire area.@ “……”@ My heart slammed against my ribs.@ Tension dried my throat.@ If the call Hisui had answered came from Yumizuka, then she should be waiting somewhere deeper inside.
+\
+bg "bg/bg_28b",lcartain,800
+`“……”@ No one else was in the park.@ Nothing stirred beneath the moon.@ For no reason I could name, the warmth drained from my body.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_28b",crossfade,400
+br
+`“—!”@ The back of my neck tingled.@ A chill stole through me until my whole body fell deathly cold and even my fingertips began to numb.@
+wave se_01
+`“Hah…@ hah…”@ While my body grew colder, my throat burned.@ It was parched dry.@ I slipped a hand into my pocket.@ More than anything, I wanted a blade in my hand.
+\
+`“What…@ is this?”@ My teeth ground together.@ A faint headache.@ My temperature falling.@ My reason cooling into ice.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_28b",crossfade,400
+`Something was wrong.@ Something foul seemed to be churning through this park, all around me.@ “…@What am I afraid of now?”@ I shook off the headache and pressed deeper inside.
+\
+bg #000000,lcartain,800
+bg "bg/bg_29b",lcartain,800
+`No one was there.@ Only a lonely meeting place drowned in darkness.@ And there—someone was crouching on the ground.@ Ragged breaths.@ A face gone deathly pale.@ Hands clawing desperately at a tortured throat.@
+br
+`There could be no mistake.@ It was Satsuki Yumizuka.
+\
+bg #000000,lshutter,400
+bg "bg/bg_29b",lshutter,400
+play "*9"
+`“Yumi…@zuka?”@ Perhaps she simply looked too wretched to leave alone.@ Without even thinking of the night before, I ran toward her.@
+ld c,"tachi/stk_t04",tshutter,400
+`“Wait—!”@ Her voice alone stopped me in my tracks.
+\
+`“…@Wait, Shiki.@ I’m glad you came, but I can’t have you close to me right now.@ Please, don’t come any nearer.”@ Her breath was tortured and her body shook as if she might collapse at any moment, yet that was what Yumizuka told me.
+\
+`“Don’t be stupid!@ You look half dead—how am I supposed to leave you like this…?”@
+cl c,crossfade,400
+ld c,"tachi/stk_t03",crossfade,800
+`“No, I’m all right…@ You came, Shiki.@ That’s made me feel better already.”@ Yumizuka forced herself upright and smiled.
+\
+`“What happened to you, Yumizuka?@ Why haven’t you gone home?@ What was all that yesterday?@ Why did you do something so—”@ “Hmm?@ So what?”@ “Damn it, I don’t understand!@ I honestly don’t—and it’s driving me crazy, Yumizuka…!”@
+ld c,"tachi/stk_t10",crossfade,400
+`“You don’t?@ Yesterday was exactly what it looked like.@ I told you I killed those people, remember?”@ Her answer was effortless, almost as if she were mocking how desperately I wanted that one fact to be false.
+\
+`“Then…@ you’re the one behind the murders in the city…?”@ “I don’t really want to answer, but…@ yes.@ I suppose I am.”@ “What do you mean, you suppose?@ Why…?”@ “It means what it means.@ I killed those people, and I’m sure I’ll keep doing the same thing.@ There’s no point lying about it, is there?”
+\
+`“Yumi…@zuka, you—”@ “Would you stop calling me that?@ I call you Shiki, so it isn’t fair unless you call me Satsuki.”@ “Wh—”@ I swallowed hard.@ Yumizuka was still exactly the girl she had been before.@ With all the same little gestures, she said something unspeakably frightening.
+\
+`“When I think about it, I was such an idiot.@ I couldn’t even call you Shiki like this.@ For years, all I did was watch you from a distance.”@ “Yumi…@zuka?”@ “I was always watching you.@ Even before you rescued me from that warehouse, I’d been watching you for ages.@ I’m a coward, really.@ I forced myself to smile and say whatever would let me fit in with everyone else, and somehow people started treating me like the school idol.”
+\
+`“That was why I never enjoyed school much.@ But then, just after we started our second year of middle school, you spoke to me, and everything changed.”@ “I did…?”@ “You don’t remember.@ Of course you don’t.@ You’ve always been so natural, so completely yourself.@ Whatever you said that day was probably nothing at all to you.”@ “……”@ What could I possibly say?@ She was right.@ I remembered nothing—neither what we had spoken about nor even the fact that I had ever spoken to her.
+\
+ld c,"tachi/stk_t03",crossfade,400
+`“It’s all right.@ You don’t have to look like that.@ Even then, you spent all your time with Arihiko.@ You never seemed interested in any of your other classmates.”@
+ld c,"tachi/stk_t10",crossfade,400
+`“But I didn’t mind.@ Just knowing I was in the same classroom as you made me so happy.@ My grand ambition was to work up the courage to speak to you properly and finally hear you call me Yumizuka.@ Looking back, I wasted so much time.”@
+br
+`She spoke with fond remembrance, as though recalling something ancient…@ something impossibly far away.
+\
+`“I was always watching you.@ I knew you would never notice me, but I kept watching.”@ “……”@
+br
+`To be honest, it made me happy.@ But—
+br
+`“Tell me, Shiki.@ Do you like me?”@
+cl a,crossfade,400
+`What answer could I possibly give her now—?
+\
+playstop

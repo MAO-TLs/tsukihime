@@ -1,0 +1,94 @@
+monocro off
+play "*3"
+wavestop
+bg #000000,lcartain,1500
+bg "bg/bg_27a",lcartain,800
+play "*3"
+`The weather was fine, so I decided to take her to the park.@ We could relax there for a while, then return downtown and find somewhere more entertaining.
+\
+bg "bg/bg_28a",lcartain,800
+`We entered the park.@ Though it was a weekday morning, a surprising number of people our age were wandering around.
+\
+ld c,"tachi/ark_t01a",lshutter,800
+`“There are so many people during the day.@ I’ve come here with you several times, but it feels like a different place.”@ Arcueid was in a good mood.@ Apparently she had no objection to a simple walk through the park.
+\
+`“Oh, there’s a shop open over there.@ What do they sell, Shiki?”@ Arcueid pointed eagerly toward a vendor.@ Down the path beyond the fountain was a mobile ice-cream stand.
+\
+`“An ice-cream truck that’s open out of season.@ Cold food is bad for you, so control yourself.”@ I preemptively crushed the longing in Arcueid’s eyes.@
+ld c,"tachi/ark_t11",crossfade,400
+`She could look as aggrieved as she pleased.@ Ice cream under an autumn sky couldn’t possibly taste good.
+\
+`—Still, what was this strange discomfort?@ Merely walking felt awkward, as though people were watching us.
+\
+ld c,"tachi/ark_t03",crossfade,400
+`“Shiki, do you know these people?”@ “I only know one person who skips school to fool around on weekdays.@ Why?”@ “Everyone keeps looking at us, so I wondered if they knew you.”@ “…@So that’s what felt strange.”
+\
+`That explained it.@ As we wandered around looking for a patch of grass to sit on, people kept sneaking looks at us.@ Their object was obvious—and it wasn’t me.@ It was Arcueid.
+\
+`I made a deliberate effort not to dwell on it, but Arcueid was spectacularly beautiful.@ Of course she attracted attention merely by walking through the park.@
+br
+`Every idle man in the park was staring at her.@ For no reason I could name, that infuriated me.
+\
+`“Arcueid, let’s go somewhere else.”@ I took her hand and half dragged her deeper into the park.@
+bg "bg/bg_29a",lcartain,800
+`The rest area used as a meeting spot was much quieter than the fountain.@ At least it was better than where we had been.
+\
+`“Let’s stay here awhile.@ I can buy you something to drink if you want.@ Any requests?”@ Releasing her hand, I turned to face her.
+\
+ld c,"tachi/ark_t14",crossfade,400
+`“Um…@ I’d like some water, if that’s all right.”@ “Sure.@ Sit on one of those benches.@ And if some guy tries talking to you, just ignore him.”@ With that, I ran toward the nearest vending machine.
+\
+bg #000000,lshutter,400
+bg "bg/bg_29a",lshutter,400
+`Even after noon, we still hadn’t left the park.@ For some reason Arcueid had fallen into a daze as soon as we arrived.@ She hadn’t touched the mineral water I bought her.@ She simply watched the park without doing anything.
+\
+`Before us, a great flock of pigeons marched along the path, while children brought there by their mothers ran about innocently.
+\
+ld c,"tachi/ark_t14",crossfade,400
+`“Shiki.”@ “Hmm?@ Tired of sitting around?@ We can go back downtown and get lunch.”@ “No, it isn’t that.@ I was wondering what that was, earlier.”@ “?”@ What on earth did she mean?
+\
+`“I don’t understand.@ What happened earlier?”@ “You held my hand.@ You’ve touched me before, but there was always a reason.@ This time there wasn’t, so I wondered what it meant.”@ “It didn’t mean anything.@ There was no reason.”
+\
+`Even as I answered, I puzzled over it myself.@ She was right.@ I had taken her hand and pulled her along as naturally as breathing, with no reason at all.@ Now that she mentioned it, I couldn’t explain why.
+\
+`“It doesn’t matter.@ Holding hands is hardly a big deal at this point.@ Humans do things on impulse all the time.”@
+ld c,"tachi/ark_t03",crossfade,400
+`“I see.@ If you often do things for no reason, you must do a lot of pointless things, Shiki.”@ Arcueid sounded caught between admiration and disbelief.
+\
+ld c,"tachi/ark_t01b",crossfade,400
+`“This is completely unrelated, but were you ever like that, Shiki?”@ It truly had nothing to do with our conversation.@ But she was watching the children, so her meaning was obvious.
+\
+`“I don’t know.@ I ran around a lot when I was little, but mostly inside the estate.@ I rarely played in parks like this.”@
+br
+`My playmates had been Akiha and the others.@ Unlike those children, I had never played with strangers.@
+br
+`Perhaps I had been raised in something like a sterile room.
+\
+`“What about you?@ You don’t have to answer if it’s uncomfortable.”@ If vampires had no childhood, asking her might be cruel.
+\
+ld c,"tachi/ark_t01a",crossfade,400
+`“You’re right.@ I had no childhood.@ I slept through the years when this body was weak and became active only now, at the height of my existence.@ So I wondered why humans spend such useless periods as childhood and old age.”@ The question sounded directed less at me than at Arcueid herself.
+\
+`“…@Arcueid?”@ “It’s nothing.@ I’ve never squandered time so aimlessly before.@ I suppose it made my thoughts malfunction.”@
+cl c,crossfade,400
+`Arcueid rose from the bench, and I followed.@ We had spent nearly two hours basking in the sun, so it was probably time to head downtown.
+\
+`“If you were bored, you should have said so.”@
+ld c,"tachi/ark_t03",crossfade,400
+`“I was bored, but it wasn’t unpleasant.@ I think I wouldn’t mind being bored like this again.@ Didn’t you feel the same?”@ “What…?”
+\
+`She was right.@ It had been boring, but that didn’t make it unpleasant.@ When would I ever again have the chance to sit in the sun with Arcueid?
+\
+`“No, it wasn’t bad.@ Once in a while, this is nice.@ But right now, let’s get food.@ I haven’t eaten since morning, and I’m starving.”@ I started out of the park.
+\
+`“Hmm—”@ For a moment I thought of taking Arcueid’s hand, then stopped.@ Before, because I had no reason, the gesture had come naturally.@ Now that I had found one, taking her hand felt horribly contrived.
+\
+`…@What made it contrived was the calculating mind that noticed such things at all—the thought itself was no longer innocent.@
+br
+`“I think too much.”@
+br
+`Honestly.@ Arcueid was right: I seemed to be full of useless things.
+\
+bg #000000,lcartain,1500
+playstop
+!w1000

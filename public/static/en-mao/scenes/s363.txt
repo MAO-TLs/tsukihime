@@ -1,0 +1,330 @@
+playstop
+waveloop se_02
+bg "event/aki_e05a",notrans,0
+`Hah…@ hah…@ hah.@
+br
+`I can’t breathe properly.@
+`Her eyes show no interest at all in whether I live or die.@
+`Her dagger has stopped dead in front of my heart.@
+`One second from now, I will certainly be killed.
+\
+`“How strange.@ You’ve killed so many people, yet you’re afraid when it’s your turn to die.@ If you don’t want to die, you might save yourself by driving that knife into me.”@
+`“…”@
+`Her breath brushes my eyes.@ The words make the world reel.
+\
+bg "event/aki_e05b",crossfade,400
+`“Goodbye.@ If you won’t do it, Tohno, then I’ll simply strike first.”@
+`With those words, her arm tightens.@
+`“…”@
+`And that will be the end.@ Shiki Tohno will die here.@ If I cannot accept that, I have only to drive my knife into her first—!
+\
+wavestop
+bg #ffffff,notrans,0
+`“Ghh—!”@
+`My fingers tense.@ But that is all.@ No matter how I try, my arm refuses to move.@
+`…@I don’t want to die.@ Being a murderer doesn’t mean I deserve to be killed.@ But unless I kill Ciel, she will kill me.@ I understand that even if I don’t want to, I have to do it now.@
+br
+`Then why—why won’t my arm move even an inch?
+\
+play "*7"
+bg #000000,crossfade,400
+monocro #ffff00
+bg "event/stk_e01c",crossfade,400
+!w2000
+br
+`Without warning—
+\
+br
+br
+br
+br
+br
+br
+`I wanted to talk to you so much more, Tohno.@ So I really don’t want to die now.
+\
+br
+br
+br
+`Those words—
+\
+br
+br
+br
+br
+br
+`But this must have been the best way.@ So don’t cry, Tohno.@ You did the right thing.
+\
+br
+br
+br
+br
+br
+`I remembered them, selfishly, in broken pieces.
+\
+br
+br
+br
+br
+br
+br
+`Mm.@ Goodbye, Tohno.@ Thank you—and I’m sorry.
+\
+bg #000000,crossfade,400
+monocro off
+br
+br
+br
+br
+`Oh.@
+br
+`So that was it.
+\
+bg "event/aki_e05b",crossfade,1500
+`“Why won’t you fight back?”@
+`Her voice reaches me.@ The dagger remains pressed to my chest, slicing through my clothes and slowly biting into flesh.
+\
+`“You’ll die if this continues.@ Why won’t you move that knife?”@
+br
+`How could I—
+br
+`“…@I can’t do it.”@
+br
+`“Why?@ You’ve already killed so many people.”@
+br
+`Never again.@
+br
+`“…@I can’t do it.”
+\
+`“You just killed that corpse lying there.@ Once you’ve done it once, a second or third time makes no difference.@ Unless you do it—I will kill you.”@
+`…@She means it.@ One second from now, she will surely kill the murderer named Shiki Tohno.@ Of course I’m afraid.@
+br
+`Even so—
+\
+br
+br
+br
+br
+br
+br
+br
+`“I can’t kill another human being—”
+\
+`The words leave my mouth, and tears begin to fall.@ I am not grieving for anything or anyone.@ The tears simply will not stop running down my cheeks.
+\
+bg #ffffff,crossfade,800
+!w1000
+playstop
+bg "bg/bg_10f",crossfade,800
+play "*8"
+`I don’t know how much time passes.@ My emptied mind finally returns at the sound of her oddly anticlimactic voice.@
+`“Whew.@ You finally understand, Tohno.”
+\
+`“Ci…@el…?”@
+ld c,"tachi/cel_t14",crossfade,400
+`“There.@ Now you believe it, don’t you?@ You are not a murderer.@ What you just said is the truth of who you are.@ So all of this is only a dream.@ You are still yourself—natural, considerate, and kind enough to cry over something like this.@ You’re the ordinary boy I admired, the sort you could find anywhere.”@
+br
+`As she speaks, she puts away the dagger.@ Her murderous intent has vanished, and she is once again the familiar, gentle Ciel I knew.
+\
+`“Why…?@ Didn’t you come here to kill me?”@
+ld c,"tachi/cel_t07d",crossfade,400
+`“I came to kill that self-destructive part of you.@ You aren’t a murderer, but nothing I said seemed to convince you, so I thought I would corner you and prove it the hard way.”@
+`“What—?@ You mean everything up to now was an act?!”
+\
+ld c,"tachi/cel_t14b",crossfade,400
+`“No, I was perfectly serious.@ I couldn’t rule out the possibility that you truly were a murderer, so I didn’t hold back—and it’s more fun for me when I can go all out.@
+`“You know how people always want to torment the one they like.”@
+`She says this outrageous thing with a smile.
+\
+`“Huh—”@
+br
+`And just like that, all the tension leaves me.@ The way I had been brooding until moments ago suddenly seems ridiculous.@
+`“Hah…@ hah—”@
+`Something about it strikes me as funny, and I begin to laugh.@ Just as she said, the fear that I might be a murderer has disappeared.
+\
+`“…@Yeah.@ I do feel as though I’ve finally woken up.@ But that was cruel.@ No matter how you look at it, you went much too far tonight.”@
+ld c,"tachi/cel_t14",crossfade,400
+`“Yes.@ I was balancing the books after indulging you for so long.”@
+`Smiling, she offers me her hand.@ I take it, and with a small grunt she pulls me to my feet.
+\
+bg #000000,tcartain,800
+!w500
+bg "bg/bg_02a",bcartain,400
+`We leave the school building and step onto the athletic field.@ She treats the wounds she gave me.@ I have no idea how it works: after applying something like an ointment, she merely places her hand over them, and the wounds close.
+\
+ld c,"tachi/cel_t14",crossfade,400
+`“Now then, I promised to tell you what I know.@ What would you like to ask?”@
+`“What do you mean, what?@ Everything about those dreams.@ Why am I dreaming about killing people?@ Who are you, really?@ There’s so much I don’t understand.”@
+ld c,"tachi/cel_t07c",crossfade,400
+`“Ah, I see.@ Then let’s begin with these dreams you’ve been having.”
+\
+`“Put simply, I don’t believe those are actually your dreams.@ You said you dream about murdering people, but aren’t you really only watching someone else commit the murders?”@
+`“…@Of course.@ If I could control what I do in the dream, I wouldn’t go around killing people.”
+\
+`“Exactly.@ When you fall asleep, your consciousness merges with the murderer’s.@ No—perhaps it would be more accurate to say that theirs engulfs yours.@
+`“So although you share the murderer’s viewpoint, doesn’t it also feel as though you’re watching everything from somewhere far away?”@
+`“…”@
+`She is right.@ However many dreams of murder I have seen, in the end I was only witnessing those scenes.
+\
+`“But why would my mind merge with someone like that?@ Is there a reason?”@
+`“…@Yes.@ The reason is clear, but let me explain it a little later.@ First I need to tell you what the thing you call a murderer actually is.”
+\
+ld c,"tachi/cel_t06c",crossfade,400
+`“It certainly is a murderer.@ But by its nature, it is what we would call a vampire.”@
+`“…@I suppose ‘vampire’ does fit it better.”@
+`I remember the things I saw in those dreams.@ It delighted in murder, but it also devoured human blood and flesh.
+\
+`“Yes.@ I came to this city to dispose of that vampire.@
+`“…@I can’t tell you the details, but the world has many ways of defending itself.@ Just as the police exist to arrest criminals who break the law, there are organizations that dispose of heretics who have passed beyond the bounds of humanity.@
+`“…@Think of me as belonging to one such organization.”
+\
+`“…@You came here to dispose of a vampire…?”@
+ld c,"tachi/cel_t07c",crossfade,400
+`“Yes.@ A creature that sustains its own body by taking the blood of others of its species.@ An arrested form of life that remains ageless for as long as it continues to exist that way.@
+`“My duty is to eradicate such heretics.@ That is why I was fighting the vampire every night in the dreams you saw.”@
+`“…”@
+`I have no words.@ She is describing a world I cannot begin to comprehend.
+\
+`“…@Wait.@ You’ve fought this vampire several times, haven’t you?”@
+`“Twice.@ It escaped the first time, and the second ended more or less in a draw.”@
+`“Then you’ve seen its face.@ Shouldn’t you have known from the beginning that I wasn’t the vampire?”@
+`“…@Unfortunately, that isn’t conclusive.@ Some of the vampiric kind can alter their physique at will, so appearance alone cannot identify them.”@
+`“…@I see.@ That does make things difficult.”
+\
+`“But at least one thing is finally clear.@ We took the long way around, but this vampire is the one behind the serial street murders, isn’t it?”@
+ld c,"tachi/cel_t06c",crossfade,400
+`“Yes.@ The bodies reported as victims of the serial killer are merely leftovers.@
+`“The other victims are either stripped of every trace of blood and flesh, or have their blood drained and become vampires themselves.@ In either case, there is no body to find.”@
+`“…@Wait.@ If people who get bitten become vampires too, the numbers would double and double forever.”
+\
+`“No.@ Very few people can be drained, killed, and still ‘remain.@’ Most cannot separate the soul from the body, so the soul dies when the body does.@
+`“Perhaps one person in a hundred can ‘remain’ after death.@
+`“…@Someone like Satsuki Yumizuka, for example.”@
+`“What—?@ You knew about Yumizuka?”@
+ld c,"tachi/cel_t07c",crossfade,400
+`“No.@ By the time I arrived, you were already annihilating her.@
+`“…@I’m sorry.@ I knew you were suffering then, but I still couldn’t help you.”
+\
+`“No—it’s all right.@ I want to believe that what happened with Yumizuka was the best ending she could have had.@
+`“…@But of course.@ She wasn’t born a vampire.@ That vampire attacked her and turned her into what she became—”@
+`“That is probably true.@
+`“Still, I doubt there are many people like her.@ Ordinarily, it takes many years before someone can function as a vampire.@ Since she became active almost immediately, Satsuki Yumizuka must have possessed exceptional spiritual aptitude from birth.”
+\
+`“Huh…?@ What does ‘spiritual aptitude’ mean?”@
+`“It is said to be the range of brain functions fixed while a human being is still forming in the womb.@ People with abilities like yours make use of organs in the brain that never awaken in ordinary people.@
+`“Satsuki Yumizuka was the same.@ She must have been born ‘suited’ to it.@ That is why she escaped the control of the vampire who made her and could act as an independent member of a vampiric species.”@
+br
+`I don’t understand her explanation.@ Only one thing catches at me.
+\
+`“You called me someone with an ability.@ Do you know about my eyes…?”@
+ld c,"tachi/cel_t14",crossfade,400
+`“Your eyes?@ No, I don’t know what sort of eyes you possess, but I do know that you have an unusual ability.@
+`“Your bloodline is special.@ Unlike the magecraft I acquired through training, your ‘ability’ was yours from birth.@
+`“That is what people call psychic powers.@ An ordinary person has only one circuit open in the brain, but you must have another as well—one that people like us cannot even perceive.”
+\
+`“…@A special bloodline?@ You mean the Tohno bloodline itself is special?”@
+`“Yes.@ The Tohno bloodline is very old.@
+`“But according to past records, every Tohno manifested a different innate ability.@ Some possessed nothing more than a simple resonance ability.@ Some lost the ability to retain human form and committed murder.@ Others possessed an ability but passed their entire lives without awakening it.@
+`“…@The blood seems to weaken with every generation, so I doubt anyone exceptionally powerful will appear in the present one.”
+\
+`“…”@
+`I stare at her, stunned.@ If she is telling the truth, does that mean Akiha has something ‘broken’ inside her too, just as I have these eyes…?
+\
+ld c,"tachi/cel_t07c",crossfade,400
+`“Shall we return to the subject?@
+`“You asked why your consciousness becomes mixed with the vampire’s.”@
+`“Ah…@ yes, I did.”@
+`“I believe that also relates to your ability.@ Your brain has more channels than an ordinary person’s.@ When you fall asleep and your sense of self grows faint, that breadth draws you toward the consciousness of a vampire connected to you—one whose brain is easy for yours to reach.”
+\
+`“What…?@ What do you mean, a brain that’s easy to reach?@ You don’t mean our brains are physically similar, do you?”@
+`“That is exactly what I mean.@ Have you heard stories about twins sharing the same experience?”@
+`“Twins sharing an experience…?”@
+`“You know—the stories where one twin is injured and the other, far away, feels the same pain.@ I think your dreams are something similar.”
+\
+`“Identical twins are two human bodies produced from the same genetic information.@ Since their bodies are made to precisely the same specifications, it is not inconceivable that one brain might receive the pain felt by the other.”
+\
+`“The brain governs both transmission and reception.@ Each of us has a brain built from a different blueprint, so we must use language to transmit our sensations to others.@ But if two brains are made to exactly the same specifications, thought may pass between them without words.@
+`“To use my earlier metaphor, their channels match, so they receive the same signal.@
+`“In your case, your brain’s unusual capacity allows it to connect with a body similar to your own.”
+\
+`“…@That’s impossible.@ I don’t have a twin.”@
+`“I know.@ But in your case, you don’t need one.@
+`“If one consciousness can engulf and assimilate another, their brains must already be built to similar specifications.@ Since your brain has additional channels, the other person need not be your identical twin.@
+`“Shared ancestry and a similar body would probably be enough for their consciousness to draw yours in.@ A sibling with the same mother and father would qualify.@ As an exceptional case, even strangers who share part of their bodies through an organ transplant might influence one another.”
+\
+cl a,crossfade,400
+`A blood relative would be enough…?@
+`No.@ That can’t be.@ Akiha is the only blood family I have left.@
+`Only Akiha.@
+`Does that mean there is no one but Akiha?
+\
+`“That’s a lie.@ That isn’t what happened.”@
+`…@She says nothing.@
+`An image fills my mind: Akiha drinking Kohaku’s blood.@
+`“That can’t be true.@ The dreams must really be mine.@ I’m the one killing people and drinking their blood.@
+`“Because otherwise—”@
+`Every piece of it falls horribly into place.
+\
+ld c,"tachi/cel_t07c",crossfade,400
+`“…@At first, I suspected you too.@ But the more time I spent with you, the more certain I became that it wasn’t you.@
+`“Yet that certainty might have been nothing but my own selfish wish.@ So tonight was a gamble for me as well.@
+`“If you had tried to kill me without hesitation, I would have had no choice but to accept that you were the vampire.@ But you proved that you weren’t.”
+\
+`“No.@ What happened just now was—”@
+`“Tohno, every member of the Tohno family carries the blood of something inhuman.@ Some of them were apparently harmless, but the stories say there was only one such person in each generation.@
+`“Looking back through the family’s history, quite a few of your kin drank human blood.@
+`“But you have neither the desire nor the need to drink it.@ Which means—”@
+`“You can’t possibly know that!”@
+`“…@Tohno.@ The Tohno family can produce vampires.@ But if you are not one, then the only remaining—”
+\
+`“—!”@
+`I shake my head desperately in denial.@
+br
+`I refuse to accept what she is saying.@ I cannot accept it.@
+br
+`…@But the memory returns anyway: Akiha Tohno’s profile as she drank Kohaku’s blood in the detached house.
+\
+`“…@Akiha is different.@ I’m the one with the strange power.”@
+`“Perhaps.@ From what I can see, Akiha has not fully awakened.@ On the contamination scale, she is still at a level from which she can ‘return.@’”@
+`“No.@ Akiha is different…!@ I’m the only one who’s abnormal like that.@
+`“She waited years for me to come home.@ She even saw me off properly today…!”
+\
+ld c,"tachi/cel_t06c",crossfade,400
+`“I hunt vampires.@ Whoever they may be, I cannot let one escape.”@
+cl a,crossfade,400
+`“—!”@
+`Unable to answer, I bite my lip.@
+`…@I don’t know.@ If Akiha really is the vampire, what am I supposed to do?@ Pretend I never saw anything—or fight Ciel to protect Akiha?@
+!w3000
+`…@It’s no use.@ No matter how long I think, I will never find an answer.
+\
+ld c,"tachi/cel_t07c",crossfade,400
+`“I understand.@ Akiha is terribly important to you—probably far more important than your own life.”@
+`“…@Of course she is.@ What kind of brother wouldn’t cherish his little sister?”@
+`“We may end up fighting each other.”@
+`“…”@
+`There is nothing I can say.@
+`…@She really is impossible.@ Even the things no one wants spoken, she says plainly.
+\
+bg #000000,lcartain,800
+bg "bg/bg_01c",lcartain,800
+`…@We reach the school gate.@ Perhaps she has already reached her conclusion, because she says nothing more.
+\
+ld c,"tachi/cel_t07c",crossfade,400
+`“I won’t ask what you intend to do now.@ This is where we part.”@
+`Her eyes empty of emotion, she offers me one hand.@
+`“…”@
+`I take it without a word.@
+br
+`For a few brief moments, we share a hollow handshake.@
+cl a,lshutter,800
+`She says only goodbye, then walks away.
+\
+playstop
+bg #000000,lcartain,800
+`…@I return to the estate where Akiha is waiting.@ My conversation with Ciel established that what I saw was a dream.@ But it did nothing to solve the fundamental problem.@
+br
+`The vampire—the true identity of the thing that kills people night after night.@ If it really is Akiha, what can I do?@ What should I do?@
+`“Damn it…!”@
+`I don’t know.@ All I can do is bite my lip in helpless frustration.
+\
+!w4000

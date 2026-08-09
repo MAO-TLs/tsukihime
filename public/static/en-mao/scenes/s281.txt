@@ -1,0 +1,130 @@
+monocro off
+playstop
+wavestop
+bg "bg/bg_50",notrans,0
+`“…@No, it isn’t fine.@ Wait!”@ I hurried after her.@
+bg #000000,lcartain,400
+bg "bg/bg_05a",lcartain,400
+play "*2"
+ld c,"tachi/cel_t12",lshutter,800
+`“Oh?@ Tohno, fifth period is about to begin.@ You should hurry back to class.”@ “Idiot, that goes for you too.@ Why are you heading into the courtyard…?”@ …@Oh, right.@ She was only pretending to be a student.@ She had no need to attend classes.
+\
+ld c,"tachi/cel_t03",crossfade,400
+`“Hee hee, you’re right.@ I’ll be late for fifth period too.@ I thought I might go home for the day, but I’ve changed my mind.@ I’ll attend class properly.”@ She smiled, looking strangely pleased.@ “…@Wait.@ Have you actually been attending all your classes this whole time…?”@
+ld c,"tachi/cel_t10a",crossfade,400
+`“Of course I have!@ Why else would I dress like this?”@ …@Now she was angry for some reason.
+\
+`“…@Ha.@ Hahaha.”@ “Hmph.@ What are you laughing at, Tohno?”@ “Nothing.@ It’s just…@ seeing you laugh and get angry makes me realize you really are still Ciel.”@ And realizing that made me happy.
+\
+ld c,"tachi/cel_t08",crossfade,400
+`“…@Honestly.@ I’m still myself, but I fail to see what’s so funny about that.”@ “Never mind.@ It’s nothing.@ More importantly…@ there’s something I need to say about Arcueid.”@
+ld c,"tachi/cel_t07a",crossfade,400
+\
+`“……”@ In an instant, she was watching me with those expressionless eyes again.@ …@This would be hard to say.@ But I had followed her precisely because I meant to say it plainly.
+\
+`“…@Hear me out before you get angry.@ You warned me over and over to stay away, but I still can’t ignore the vampire.”@
+ld c,"tachi/cel_t06a",crossfade,400
+`…@Ouch.@ Her eyes had been expressionless; now they were silently, furiously angry.
+\
+`“…@I can’t ignore the vampire.@ But after what happened yesterday, Arcueid and I are finished, and I have no way to act even if I want to.@ So…@ if you’re hunting the vampire too, will you let me help?”@
+br
+`…@She said nothing.@ Then she released a long, weary sigh and—
+ld c,"tachi/cel_t04",crossfade,800
+`“No.”@ She refused me with a smile.
+\
+`“What do you mean, no?@ Why!?”@
+ld c,"tachi/cel_t10a",crossfade,400
+`“Because it’s obvious!@ Tohno, do you not understand that she nearly killed you last night!?@ Hunting a vampire is so dangerous that death can come at any moment.@ I can’t drag you into something like that!”@ “I keep telling you, I’m prepared for that!@ I’ve already survived more brushes with death than I can count.@ I can look after myself!”
+\
+ld c,"tachi/cel_t08",crossfade,400
+`“…@Tell me, Tohno, what possible grounds do you have for claiming that?@ I admit your reflexes are excellent.@ You may be sickly, but I know your body itself is exceptionally capable.”@ She shrugged and offered this unexpected assessment.@ “…@R-really?”@ The fight went out of me so completely that I couldn’t help asking.
+\
+`“Yes.@ When you stayed at my room, you got undressed, remember?@ I saw you then.@ Your muscles were lean and firm, without any extra fat.@ Even from a distance, I thought you had a beautiful body.”@ “…@Undressed?@ I never got naked.”@ “Have you forgotten?@ You changed in the kitchen before your bath.”@ Oh.@ Right.@ The changing area had been full of drying laundry, so she’d said it would get in the way…
+\
+`“I had no idea you were the kind of person who spied on someone while he changed.”@
+ld c,"tachi/cel_t11",crossfade,400
+`“What?@ N-no, that was beyond my control, you see.@ I happened to see you through the gap, and I was just a little curious, so I thought perhaps one tiny look wouldn’t hurt…”@ Her face grew redder with every word of her defense.@ …@Apparently the explanation had made her relive the scene.
+\
+ld c,"tachi/cel_t08b",crossfade,400
+`“Oh, never mind!@ The point is that no matter how splendid your body may be, an ordinary person cannot fight a vampire!”@ So that was why she refused to let me fight.@
+cl c,crossfade,400
+\
+`“I see.@ Then this should settle the problem.”@ I took off my glasses.@
+br
+bg "bg/bg_05b",crossfade,800
+br
+`I drew my knife.@
+bg #9c0120,crossfade,400
+bg "bg/bg_05b",crossfade,400
+br
+`Pain stabbed through my temple.@ I endured it and severed one of the ‘lines’ I could see running across a nearby tree.
+\
+bg "bg/bg_05a",crossfade,400
+ld c,"tachi/cel_t09",crossfade,400
+`“Tohno, what did you just…?”@ “…@That’s what I can do.@ Sorry, but my eyes aren’t ordinary.@ Arcueid says they can see the ‘death’ of things.@ Apparently they’re called the Mystic Eyes of Death Perception.”@ She stared at me, wide-eyed, unable to speak.
+\
+ld c,"tachi/cel_t07a",crossfade,400
+`“…@I see.@ Then the knife itself isn’t special.@ You are.”@ “…@I’m not special.@ My eyes were just ruined by the accident.”@ “…@No wonder she took an interest in you.@ Your eyes grant an ability far beyond what any one person should possess.”@ All at once, the strength seemed to drain from her.
+\
+ld c,"tachi/cel_t09",crossfade,400
+`“…@If you possess that much power, leaving you alone may actually be more dangerous.@ Even if I refuse, you’ll hunt the vampire by yourself—and he will no longer be able to ignore you either.”@ “You mean…?”
+\
+ld c,"tachi/cel_t08",crossfade,400
+`“Yes.@ I wanted to keep you out of this, but it’s already too late.@ I can’t dismiss you now by claiming it has nothing to do with you.”@ “Then I can hunt the vampire with you?”@
+ld c,"tachi/cel_t01a",crossfade,400
+`“Yes.@ At this point, I’ve made up my mind.”@ She extended one hand.@ Unlike our handshake in the cafeteria, this one carried the weight of a decision.
+\
+`“……”@ Of course I took it.@ We held hands for only a moment, and then the handshake ended.@
+br
+ld c,"tachi/cel_t03",crossfade,400
+`“Then from now on, we’re a team.@ I’ll rely on you, Tohno, so please rely on me as well.@ Together, we’ll destroy the vampire nesting in this city.”@ She spoke with a gentle smile.@ As I nodded in silence, the warning bell rang to mark the end of lunch.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“Come to the tea-ceremony room after school.@ We can discuss our plans there.”@
+cl c,lshutter,400
+`She ran toward the school building.@ I ran after her, determined not to fall behind.
+\
+bg #000000,lcartain,800
+playstop
+!w1000
+bg "bg/bg_06b",crossfade,1500
+`The final homeroom ended, and my classmates rose amid a swelling clamor of conversation.@ Usually I waited for the crush to clear before leisurely getting up, but today I rose with everyone else.
+\
+bg #000000,lcartain,400
+bg "bg/bg_11b",lcartain,400
+`I hurried out of the classroom, bound for the tea-ceremony room.@ We’d been through plenty, but now everything would work out.@ I was glad I could help her, and relieved that the vampire problem—far too much for me alone—was finally in capable hands.@
+br
+`No, more than any of that…@ the thought of spending time with her made my heart leap.
+\
+br
+`Hah, hah, hah…@
+br
+`Breath coming fast, I sprinted down the corridor toward the tea-ceremony room.
+\
+bg #000000,lcartain,800
+bg "bg/bg_09b",lcartain,800
+`The room was empty.@ She still hadn’t arrived.@
+br
+`…@Hah…@ hah.@
+br
+`…@I must have gotten a little too excited.@ I sat on the tatami and tried to catch my breath.
+\
+br
+`…@Hah…@ hah…@ hah.@
+br
+`My overheated body refused to cool.@ My throat worked convulsively, struggling to pull in air.@ Sweat filmed my entire body, clammy and revolting.
+\
+br
+`…@Hah…@ hah…@ hah…@ hah…@ hah.@
+br
+`Something…@ was wrong.@ I had been resting all this time, yet my breathing was only getting worse.@ Why had a short run exhausted my entire body so completely…?
+\
+monocro #ff0000
+bg "bg/bg_09b",crossfade,400
+play "*4"
+quakey 2,100
+br
+`“Ghk—!?”@
+br
+`Without warning, my chest gave a sickening creak.
+\

@@ -1,0 +1,37 @@
+bg #000000,notrans,0
+playstop
+wavestop
+!w1000
+bg "bg/bg_06a",lcartain,800
+`I reached the classroom without incident, and lessons began as usual.@
+br
+`…@Yumizuka’s desk was gone.@ The school timetable did not change merely because one student had disappeared.@
+br
+`“…”@ Unease crept over me.@ Hisui had helped me forget.@ Perhaps it was because I had lived through something so terrible, but being here now felt wrong, and everything around me seemed distant and unreal.
+\
+bg #000000,crossfade,800
+bg "bg/bg_06b",crossfade,800
+`Before I knew it, the day was over.@ “…”@ I was in no mood to see Arihiko or Ciel.@ These days, the Tohno mansion seemed to put me more at ease than school did.
+\
+bg #000000,lcartain,800
+bg "bg/bg_32b",lcartain,800
+bg "bg/bg_33b",lshutter,800
+play "*1"
+`Hisui was there as soon as I entered the foyer.@
+ld c,"tachi/his_t16",lshutter,800
+`“Welcome home, Master Shiki.”@ “I’m back, Hisui.@ Are Kohaku and Akiha both out?”@
+ld c,"tachi/his_t01",crossfade,800
+`“Miss Akiha has not yet returned.@ My sister is cleaning the rear courtyard.”@ “So, same as always.@ I’m going to my room, so you can get back to work.”@ “Yes.@ Excuse me.”
+\
+cl c,lshutter,800
+`I set one foot on the stairs.@ “Oh, Master Shiki.”@ “Hm?”@
+ld c,"tachi/his_t23",lshutter,400
+`“I shall be putting your father’s room in order.@ Please call me if you require anything.”@
+cl c,lshutter,800
+`Hisui hurried away toward the east wing.
+\
+bg #000000,lshutter,400
+bg "bg/bg_40b",lshutter,400
+playstop
+`I set down my bag and removed my jacket.@ “…@Well.”@ There was still time before dinner.@ What should I do?
+\

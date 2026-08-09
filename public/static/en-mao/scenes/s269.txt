@@ -1,0 +1,17 @@
+monocro off
+play "*9"
+wavestop
+bg "bg/bg_27b",notrans,0
+`“Wait.@ You said I could do as I pleased, didn’t you…?”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Yes.@ Please do whatever you like, Tohno.”@
+`Ciel nodded with a smile.
+\
+`“…@Good.@ At least I wasn’t hearing things.@ Then this is goodbye.@ Don’t follow me any farther.”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Oh?@ I’m not following you, Tohno.”@
+`“Ciel…?”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“I simply have business at the park.@ I don’t know where you’re going, but if it isn’t the park, this is where we part ways.”
+\
+cl c,crossfade,400

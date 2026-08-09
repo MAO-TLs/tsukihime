@@ -1,0 +1,21 @@
+playstop
+wavestop
+bg "event/stk_e01a",notrans,0
+`…@Cold.@ Is this the cold you endured alone, Yumizuka?@ I’m sorry.@ I pitied you, but I never understood your pain at all.@
+br
+`But that is over too.@ Soon Shiki Tohno will disappear, and everything will end.
+\
+playstop
+bg #000000,crossfade,800
+`—My heartbeat recedes into the distance.@
+br
+`Every warm thing within me, everything that lived, begins to stop.@ A familiar sensation.@ A coldness like hatching backward into that white summer day eight years ago.@
+br
+`Thump.@
+br
+`After one final, deafening beat, my heart stops.@ And with it, everything—the thing that once was Shiki Tohno—vanishes.
+\
+!w3000
+cl a,notrans,0
+bg "word/end",crossfade,1500
+wait 3000

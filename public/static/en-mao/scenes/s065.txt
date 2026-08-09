@@ -1,0 +1,313 @@
+playstop
+wavestop
+bg "bg/bg_06a",crossfade,800
+`Fifth period.@ As classical literature slowly lulls me toward sleep, I turn my eyes to the window.@
+br
+`And there—
+br
+`A crow is perched on the classroom balcony.
+\
+`“…”@ Not the blue crow from last night.@ Just an ordinary black one.@ Through the glass, it watches the classroom with eyes of seamless black.@ A crow perching there is unusual, certainly, but there is nothing especially remarkable about it.
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_06a",crossfade,800
+wave se_01
+`“Ah—”@ It strikes without warning.@ My vision slowly bleaches white, and my sense of balance begins to spin out of true.
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_06a",crossfade,800
+`“—”@ The world sways.@ Something congeals at the back of my head, dragging my consciousness down beneath a sudden, crushing weight.
+\
+`“…@Damn.”@ I know this feeling.@ Sudden vertigo is the herald of anemia.@ Blood pooled in the vessels of my brain thickens into a black mass, rocking my skull and steadily drowning everything I see in darkness.@
+br
+`It feels as though the darkness is being forced forward from my brain into my eyes.
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_06a",crossfade,800
+bg #000000,crossfade,1500
+`This is bad…@ I almost never collapse during class anymore—
+br
+`As my sight darkens, I grope for the desk and try to brace myself against it.@
+br
+`That fails almost at once.@ There is no strength in my fingers.@ All that remains is to fall toward the floor—
+\
+!w1000
+bg "bg/bg_06a",notrans,0
+play "*3"
+`“Sir, can I interrupt?”@
+br
+`Then—
+br
+`Something thumps me roughly between the shoulders.
+\
+ld r,"tachi/ari_t04",notrans,0
+`“Tohno looks sick.@ I’d like to take him to the infirmary.”@ “—Arihiko.”@
+br
+`Somehow Arihiko is standing beside me.@
+br
+`“Tohno, are you truly unwell?”@ the teacher calls from the lectern.
+\
+`“No, I can manage—”@
+ld r,"tachi/ari_t01",crossfade,400
+`“Nope, he says he’s completely done for.@ Shouldn’t you send him home?”@
+br
+`…@Arihiko loudly puts an outrageous claim into my mouth.
+\
+`“I see.@ If Inui says so, there can be no doubt.@ Mr.@ Kunifuji has told me about your health, Tohno.@ If you feel unwell, you may rest in the infirmary or go home.”@
+br
+`…@Honestly, I can’t tell whether he’s kind or merely gullible.@ Our classics teacher seems to accept Arihiko’s every word.
+\
+ld r,"tachi/ari_t04",crossfade,400
+`“There, you can go home.@ If you’re going to sit there white as a sheet, at least say something when you feel yourself going under.@ How else is anyone supposed to know?”@ Looking annoyed, Arihiko thumps my back.@ “…@Then I’d like to go home, sir.”@ The teacher nods with grave authority.
+\
+`“…@Sorry, Arihiko.@ I made you worry over nothing.”@
+ld r,"tachi/ari_t01",crossfade,400
+`“Forget it.@ We’ve been stuck with each other since middle school.@ I can spot the look you get before anemia knocks you flat.”@
+cl r,crossfade,400
+`Arihiko returns to his seat.@ I thank him with my eyes, force my leaden body to move, and leave the classroom.
+\
+bg #000000,lcartain,1500
+bg "bg/bg_01a",lcartain,1500
+`I leave the school.@ I ought to lie down in the infirmary, but if I sleep now, it will be the end of the day before I wake.@ Better to push myself a little farther and rest properly at the mansion.
+\
+`“…@Whew.@ Maybe I’m starting to feel better.”@ The outdoor air gradually restores me.@
+br
+`…@It is exhausting, being at the mercy of my own body.
+\
+`Eight years ago, Shiki Tohno recovered from life-threatening injuries.@ Perhaps this was the price: from then on, his body became prone to chronic anemia.@
+br
+`When I first left the hospital, I collapsed from it at least once a day.@ Dizzy spells became an ordinary feature of life.
+\
+`Years have passed since then, and perhaps because my body is fully grown, the sudden vertigo and anemia come less often.@ Yet every so often, something still sets off a spell and I lose consciousness where I stand.@ Today Arihiko caught it in time.@ Ordinarily, I would have gone straight to the floor.
+\
+`“—Haaah.”@ I breathe slowly and deeply, filling my lungs with fresh air.@ Enduring the stagnant weight deep inside my skull, I leave the school behind.
+\
+bg #000000,lcartain,800
+bg "bg/bg_25a",lcartain,800
+`I reach the main avenue.@ Once I cross it and enter the residential district, the road runs straight to the Tohno mansion.@
+bg #ffffff,crossfade,800
+bg "bg/bg_25a",crossfade,800
+br
+`“—Ugh.”@ …@No.@ I’m still not well.@ When I touch my forehead, it feels warmer than usual.
+\
+`“…”@ There is no sense pushing on until I collapse beside the road.@ “Honestly…@ what a nuisance.”@ Disgusted with myself, I sit on the guardrail.@ I’ll rest until the sickness passes.
+\
+bg #000000,lshutter,800
+bg "bg/bg_25a",lshutter,800
+playstop
+`…@With nothing else to do, I stare vacantly at the avenue.@
+br
+`Though a weekday afternoon has barely begun, the avenue is already thronged.@ People stream past on foot.@ I know none of their names or histories, and none of them spares a glance for the stranger at their side.@ So many people occupy the same place, yet each sees the world through a single, solitary pair of eyes.
+\
+`Just as I am the center of my own story, each of them is living a day that revolves around them.@ Most of those days never truly intersect; each ends, as it began, belonging to one person alone.@
+br
+`Seen one way, there is something terribly lonely in that.@
+br
+`“…”@ Perhaps the fever is making me sentimental.
+\
+`“—Time to go.”@ I feel steadier now, and sitting here will only tempt me into more pointless brooding.@ I rise from the guardrail, intending to hurry home and rest.@
+br
+br
+br
+!w1000
+`That is, until I see that woman.
+\
+bg #000000,crossfade,800
+bg "event/ark_e01",crossfade,800
+wave se_01
+`Idly.@ Entirely without thought.@ I merely let my gaze wander across the crowd—and my vision freezes.@
+br
+`—THUMP.@
+br
+`Golden hair and scarlet eyes.@ Clothes of white—white as though the color itself were the emblem of her existence.
+\
+wave se_01
+br
+`—thump.@
+br
+`My pulse leaps.@ Veins and arteries surge awake.@ Nerves burst one after another, everything inside me thrashing so violently that my spinal cord feels ready to tear through the back of my neck.
+\
+wave se_01
+br
+`—THUMP.@
+br
+`The woman walking through the crowd is simply beautiful.@ “…”@ The dizziness that had receded floods back.@ My consciousness pitches, almost falling away.
+\
+wave se_01
+br
+`—thump.@
+br
+`I cannot breathe.@ My fingertips tremble, starved of blood.@ Every inch of me is cold.@ I feel as though I might freeze to death.
+\
+wave se_01
+br
+`—THUMP.@
+br
+`My heart commands me: hurry, hurry.@ “Ah—ah.”@ Unable to endure it, I let a moan escape my throat.
+\
+wave se_01
+`I cannot think.@ My brain will give me only a single word.@
+br
+`—TH—UM—P.@
+br
+`Only one fragment keeps repeating.@ Her.@ That woman.@ At this rate, I—
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_25a",crossfade,400
+`“Haa…@ haa…@ haa…”@
+br
+`I feel sick.@ I cannot breathe.@ Every breath is agony.@ No matter how I try, I cannot remember the proper way to breathe.
+\
+wave se_01
+`“Haa…@ haa…@ haa…”@
+br
+`My throat is burning.@ My eyes feel ready to shatter.@ My palms are drenched.@ My whole body is freezing—and yet I am sweating this much.
+\
+wave se_01
+`“Haaah…@ haaah…@ haaah…”@ …@I have to follow her.@ Follow that woman.@ Catch up and speak to her.@ I force my frozen legs to move—
+br
+`panting like an animal—
+br
+`and pursue the woman in white.
+\
+wave se_01
+bg "bg/bg_27a",crossfade,800
+ld c,"tachi/ark_t22",crossfade,400
+`“Haaah…@ haaah…@ haaah…”@
+br
+`The woman walks slowly.@ She has not noticed me following her.@
+br
+`“Haaaah…”@
+br
+`If I run, I can catch her from here.@ I’ll speak to her.@ Ask her name.
+\
+`“Haaah…@ ha, ha…”@
+br
+`Ask her name?@ Don’t make me laugh.@ I know perfectly well that isn’t what I want.@ …@I think I know, yet I understand nothing.@ I want to do something else to her.@ But no matter how I reach for it, that thing I “want”@ will not take the shape of words.@
+br
+`There is a fog inside my head, dark and swollen like a raincloud.
+\
+bg "bg/bg_23a",crossfade,800
+ld c,"tachi/ark_t22",crossfade,400
+`“…”@
+br
+`My THROAT is BURNING.@ I haven’t been able to BREATHE at all.@ So what?@ Isn’t that natural?@ With a woman like that before me, it would be an insult not to be excited.@ Stop her and ask her name?@ Hah.@ Spare me the childish nonsense.@ I don’t understand, but there is only one thing I’m meant to do.
+\
+`I walk with one hand in my pocket.@ Something iron taps against my fingertips.@
+br
+`“Khh…@ heh.”@ What perfect luck.@ I have exactly the tool I need.
+\
+`…@The woman keeps walking.@ I should leave plenty of distance.@ She must not notice me; the people around us must see nothing suspicious.@ That woman and I are complete strangers.@ I have to follow her as naturally as possible.
+\
+bg #000000,crossfade,400
+bg "bg/bg_12a",crossfade,400
+`…@She enters an apartment building.@ I remain outside and watch.@ She takes the elevator upward.@ It stops on the sixth floor.@
+br
+`I inspect the communal mailboxes on the ground floor.@ There are five for the sixth floor.@ The instant I touch one, a thrill runs through me.@ I smell it.@ No mistake.@ Apartment 603 is hers.
+\
+br
+br
+`I step into the elevator and press the button for the sixth floor.
+\
+bg #000000,crossfade,800
+`I can hardly contain my excitement.@ Inside the elevator’s cramped little box, I clutch the knife in my pocket.@ That woman is only moments away.@ Soon I’ll finally be able to          her.@ Ah, the thought alone is unbearable pleasure—my entire body feels like one vast sexual organ poised on the brink of climax.
+\
+`I leave the elevator.@ The sixth-floor corridor is deserted.@ Better and better.@ Hurry—hurry—I WANT TO DO IT.
+\
+bg "bg/bg_13a",crossfade,800
+br
+br
+`I reach the door of apartment 603.
+\
+`I reach for the doorbell, then stop.@ My glasses will only get in the way.@ With them on, I won’t be able to do what I need to.@
+br
+`—Promise me, Shiki.@ Never look at things on a whim.@ Never—
+br
+`“…”@ Long ago, a woman said those words to me.@ But now I can remember neither her name nor her face.@ Slowly, I take off my glasses.
+\
+bg #000000,crossfade,800
+waveloop se_02
+br
+`The black lines come into view.@ And not only those.@ Have even my eyes gone wrong?@ Alongside those hateful lines, I can see countless “points,”@ black as holes punched through the world.@
+br
+`EVEN I DON’T KNOW.@ What am I about to do?@ Why am I doing any of this?@
+br
+`What does Shiki Tohno want to do to the woman he has just seen?
+\
+br
+`I DON’T KNOW.@ STILL NOT KNOWING, I PRESS THE BELL.
+\
+bg "bg/bg_14d",crossfade,400
+`“Yes—?”@ A voice comes through the door, and it opens a crack.@ In that instant, I slip through the narrow gap and into the room.
+\
+`“Wha—”@ The woman’s voice rises.@ No—it tries to.@ It will never finish rising.@ Before it can, I have already taken her apart.
+\
+bg #000000,notrans,0
+bg "bg/ima_14",crossfade,400
+`The instant I crossed the threshold, in less than a second, I followed every line running across her body with the knife—stabbing,
+!w500
+`slicing,
+!w500
+`driving the blade through,
+!w500
+`racing it onward,
+!w500
+`hacking her into pieces,
+br
+`until I had utterly and completely “killed”@ her.
+\
+`The seventeen black lines on her body: neck; back of the head; right eye to lips; right upper arm; right forearm; right ring finger; left elbow; left thumb and middle finger; left breast; ribs to heart; two running from stomach to abdomen; left groin; left thigh; left shin; every toe of the left foot.@ As I passed her, without taking even a second,
+br
+`truly—in the blink of an eye—every last one.@
+br
+`I “disassembled”@ her into seventeen pieces of meat.
+\
+bg #000000,crossfade,400
+wavestop
+bg "bg/ima_13",crossfade,800
+play "*4"
+`“—Huh?”@ A spectacularly stupid voice reaches my ears.@ I can’t believe the sound came from my own throat.@
+br
+`A wave of dizziness sweeps over me.@
+br
+`The woman’s body lies scattered in pieces before me.@ Red blood spreads across the wooden floor as if someone has overturned a bucket of water.@
+br
+`The smell of blood is suffocating.@ The severed surfaces are perfectly clean; no organs have spilled out.@ Only the red keeps eating its way across the floor.
+\
+`Strangest of all, the room is empty.@ There is nothing here but the woman’s severed limbs and me, standing among them in a daze.
+\
+`“What did I…?”@
+br
+`A sea of red blood spreads across the floor.@ In my hand is the knife that did it.@
+br
+`“She’s…@ dead.”@
+br
+`Of course she is.@ If she could survive this, she wouldn’t be human.
+\
+`“Why…?”@
+br
+`Why?@ I have just done it with my own hands.@ With the hands of Shiki Tohno, I have casually, effortlessly, in a single instant, torn a strange woman to pieces.
+\
+br
+`“I…@ killed her?”@
+br
+`Yes.@ Without question.@ Or am I wrong?@
+br
+`I have no reason to do such a thing.@ So this can’t be right.@ It can’t be.@ But there was never any reason in the first place.@ So this can’t be right.@ It can’t be.
+\
+monocro #ff0000
+bg #000000,crossfade,400
+bg "bg/ima_13",crossfade,800
+br
+`—Red blood keeps spreading across the wooden floor.@
+br
+`Slick and glistening, it creeps toward my feet.
+\
+`“…@ah.”@
+br
+`I jerk my shoe up, but too late.@ The woman’s red blood clings like coal tar, drawing thick threads between my foot and the floor.@ “—”@ Oh…@ red…@ blood.@ That hateful color, still slopping out without end because I cut her to pieces.
+\
+`“It…@ wasn’t me.”@
+br
+`YES.@ IT HAS TO BE WRONG.@ Wrong.@ Wrong.@ It has to be wrong.@ It absolutely has to be.@ This was— This, this, this, this, thisthisthisthis—
+\

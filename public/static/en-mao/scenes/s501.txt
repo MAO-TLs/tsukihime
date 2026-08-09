@@ -1,0 +1,177 @@
+playstop
+waveloop se_02
+bg "event/aki_e05a",notrans,0
+`Hah…@ hah…@ hah.@
+br
+`I can’t breathe properly.@
+`Her eyes show no interest at all in whether I live or die.@
+`Her dagger has stopped dead in front of my heart.@
+`One second from now, I will certainly be killed.
+\
+`Hah…@ hah…@ hah, hah—
+br
+`“How strange.@ You’ve killed so many people, yet you’re afraid when it’s your turn to die?”@
+`Disgust in her voice.@ Contempt in the shape of her eyes.@
+br
+`Her dagger, poised to kill me at any moment.
+\
+bg "bg/ima_13b",notrans,0
+`I’ll be killed.@
+`I’ll be killed.@
+`I’ll be killed.@
+`I’ll be killed.@
+`killed.@
+`KILLED.@
+`Then—
+monocro #ff0000
+bg "bg/ima_13b",notrans,0
+`I’m allowed to kill.@
+`Allowed to kill.@
+`Allowed to kill.@
+`Allowed to kill.@
+`kill.@
+`KILL.@
+`Aren’t I?
+\
+monocro off
+bg "bg/bg_10f",notrans,0
+`“H—h—ah…”@
+br
+`I can’t—
+br
+`“Goodbye.@ Die here, Tohno.”@
+br
+`breathe—
+br
+`“Hah—ah—hah, h—”@
+br
+`right.
+\
+bg #000000,notrans,0
+!w500
+wave se_13
+bg "bg/ima_12b",notrans,0
+`IT—mine—was faster.@ Before her dagger could sink deep into me, my knife had already passed through the ‘line’ I saw across her throat.@
+br
+`“Ah—”@
+br
+`Whose voice was that?@
+`A heavy thump as the neck fell, followed by a loose, sloshing sound.@ A SOUND, and the NECK, the “neck,”@ /the head?@/ rolled and rolled and rolled and rolled.
+\
+monocro #ff0000
+bg "bg/ima_13b",tshutter,400
+play "*4"
+`“Ah…@ what?”@
+br
+`But something is wrong.@ They should have struck at the same time.@ It makes no sense that I—mE alone—am alive while only Ciel’s neck, her NECK, goes rolling away like a ball.
+\
+`“Hah—ah…”@
+br
+`Which means—
+`From the very beginning—
+`She never intended to kill mE at all…@ did she?@
+br
+`“Ah, hah, ah, hah-hah-hah-hah…@ ha…”@
+br
+`My throat won’t work properly.@
+`Her body is so very red.@
+`The corridor turns slick, painted in it.@
+`Red paint, wet and splashing everywhere.
+\
+bg "bg/bg_10f",bshutter,400
+`“Hah—”@
+`Apparently, once a person loses their head, the body acquires a new function.@
+`Splash, splash.@
+`It scatters red liquid like a sprinkler.@
+br
+`“Ha, hah—hah…”@
+br
+`I am red from head to toe.@ The knife, my hair, even my socks are mottled red.@ It’s disgusting.
+\
+`“…@So that’s all.@ It’s nothing much.”@
+br
+`No.@ It truly is nothing at all.@ I thought there would be so much more, but all I feel is a strange lightness, as though I were floating.@
+br
+`“A dream is much more—”@
+br
+`raw.@ More real.
+\
+`I rise and begin walking.@
+`Squelch.@
+`The head of a woman named Ciel lies before me, and its eyes seem to glare at mE.@
+br
+`“You were an idiot.@ I don’t know what made you so confident, but nothing exists that cannot die.”@
+br
+`That was your mistake.@
+`Mistake.@
+`Mistake.@
+`Mistake.@
+`Mistake.@
+`No.
+\
+br
+br
+br
+br
+br
+br
+br
+`If we’re talking about mistakes, wasn’t everything a mistake?
+\
+`The illusion is over.@ Everything I had fought so desperately to deny has now been proved true.@
+`mE, nothing but a murderer.@
+`With mY own hands I broke what must never be broken, and the ground beneath mE dissolved and ran away like mud.@
+br
+`“Damn it—Yumizuka.@ Everything was exactly the way you said.”@
+br
+`Laughter wells up inside me.@ Something in me must have broken.@ The knowledge that mE is nothing more than a murderer is more delightful than words can say.
+\
+bg #000000,lshutter,400
+bg "bg/ima_18",lshutter,400
+`Far beyond the window, the moon burns cold and clear.@
+`My vision is reduced to scarlet, with no sign it will ever return.@
+`The circuitry once made on Earth has been replaced with the wiring of some bizarre alien world.@
+`Every notion accumulated across my dozen-odd years evolves evolves into strings of numbers and utterly unknown equations.@
+`Not even our colors are held in common; you could never distinguish the scarlet YOU see from the scarlet WE see.@
+`Ah.@
+`In other words, ME seems to have broken.@
+br
+br
+br
+textcolor #ff0000
+`Or was everything a delightful lie from the very beginning?@
+`If so, please let it all disappear by tomorrow.
+\
+textcolor #ffffff
+br
+br
+br
+br
+br
+`…@The curtain rises in a dark forest.@
+`I don’t quite understand, but if I am a murderer, I must do what murderers do.@
+`For now, let us go into town and continue the dream.
+\
+bg #000000,crossfade,800
+`I catch someone who does not matter.@ I drag them into an alley and wait patiently for them to awaken.@
+br
+`After a while, the someone faintly opens their eyes.@ Let us spread our arms and welcome them as gently as we can.
+\
+bg "bg/bg_31b",bcartain,800
+br
+br
+br
+br
+br
+br
+br
+`Now then.@
+`Welcome to this splendid realm of slaughter.
+\
+bg "bg/ima_12b",notrans,0
+monocro off
+playstop
+bg #000000,crossfade,1500
+cl a,notrans,0
+bg "word/end",crossfade,1500
+wait 3000

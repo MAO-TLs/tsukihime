@@ -1,0 +1,130 @@
+phase "bg/bg_29b",l,cel,07a,7
+bg #ffffff,crossfade,1500
+br
+`I am dreaming.@ A vague and meaningless dream, like sugar scorched to amber.@
+br
+bg "event/ark_e01",crossfade,400
+bg #ffffff,crossfade,400
+`Do I love her?@
+br
+bg "event/ark_e02",crossfade,400
+bg #ffffff,crossfade,400
+`I don’t know what this feeling is.@ But there is no longer any denying that I can’t stop thinking about her.
+\
+bg "event/cel_e02a",crossfade,400
+bg #ffffff,crossfade,400
+br
+`Do I love her?@
+br
+bg "event/cel_e03a",crossfade,400
+bg #ffffff,crossfade,400
+`…@I don’t know.@ I know only that when I was about to lose myself, she alone saved me.@
+br
+`Without her, I might truly have died there in the rain.
+\
+bg "event/cel_e04",crossfade,400
+bg #ffffff,crossfade,400
+br
+`—I don’t understand.@ So I have to ask.@ Why she does such things.@ Why her eyes hold no feeling at all—
+\
+`“—Master Shiki.”@ Hisui’s voice reached me through the morning light.@ “Master Shiki, it is time.@ Please wake up.”@ Her level, uninflected voice drew me fully into consciousness.
+\
+bg "bg/bg_40e",crossfade,1500
+ld c,"tachi/his_t01",crossfade,800
+`“……”@
+br
+`The instant I opened my eyes, something hateful filled my vision.@ Pain shot through my temple like a bullet wound.@ “Ah—”@ My newly awakened mind lost the ground beneath it.@ Before vertigo could take me, I snatched the glasses from my bedside.
+\
+bg "bg/bg_40a",crossfade,1500
+play "*2"
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki…?@ Are you feeling unwell?”@ “…@No, it’s nothing like that.@ Just a little anemia.”@ I shook my head, banishing what I had seen from memory.@ “Never mind that.@ Good morning, Hisui.@ Thanks for waking me.”@ Sitting up, I gave her the most natural smile I could manage.
+\
+`“There is no need to thank me.@ It is my duty.”@ “Maybe so, but I’m grateful.@ It feels so much warmer than waking to an alarm clock.”@
+br
+`I rose from bed.@ It was not yet seven—about ten minutes earlier than usual.@
+br
+`“…@Breakfast, right?@ I’ll be down in a minute.@ Go on ahead.”
+\
+ld c,"tachi/his_t04",crossfade,400
+`“About that, Master Shiki…@ Miss Akiha is waiting in the sitting room.@ She says she has something she wishes to question you about.”@ Hisui looked distinctly uncomfortable.@ “…@Question me?@ Is she angry?”@ “…@Yes.@ She appears to have discovered that you went out late last night.”@ “…@Oh.”@ The sound escaped before I could stop it.@ Last night I had rushed off to find Arcueid on impulse and come home in the small hours.
+\
+`“…@That’s not good.@ I thought I’d slipped out without anyone seeing me.”@
+ld c,"tachi/his_t01",crossfade,400
+`“Yes.@ I also believed I was the only person who noticed.”@ Hisui quietly agreed.@ “…@Wait.@ You knew I went out?”@
+ld c,"tachi/his_t05",crossfade,400
+`“Oh…”@ Hisui lowered her head apologetically.
+\
+`“So you knew.@ That explains why the front door was open.”@ “……@Yes.”@ Her answer was scarcely more than a murmur.@ “Thanks.@ You saved me last night.@ It was kind of you to think of me.”@ “But that allowed my sister to notice.@ She and I take turns patrolling the mansion in two-hour shifts.@ She discovered that I had left the front door unlocked, and…”
+\
+`…@Of course.@ Kohaku attended Akiha personally, so that was how last night’s escapade had reached her.@ “You don’t need to apologize, Hisui.@ I’m the one who went out in the middle of the night.@ Whatever happens is my own fault.@ Just knowing you left the door open for me makes me happy.”@
+ld c,"tachi/his_t04",crossfade,400
+`“……”@ Hisui stared at me without a word.
+\
+`“…@What is it?”@
+ld c,"tachi/his_t05",crossfade,400
+`“…@Nothing.@ Please come to the sitting room once you have dressed.”@
+cl a,lshutter,400
+`Hisui left for the hallway with something still unspoken in her eyes.@ “…@Wonderful.@ Another lecture from Akiha.”@ I muttered to myself as I put on my uniform.@ But I had no time for that—I had something important to do.
+\
+playstop
+bg #000000,crossfade,400
+bg "event/cel_e04",crossfade,800
+bg "bg/bg_40a",crossfade,400
+`“…@That’s right.@ I need to talk to Ciel—”@
+br
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`“Ngh—”@ Pain stabbed through my head again.@ It had stayed quiet while Hisui was here, only to begin throbbing the moment I was alone.@
+br
+`“Damn…@ This is bad.@ It isn’t going away anytime soon…”@ I collapsed onto the bed and endured it.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`…@The pain would not fade.@ Throb after throb, as though someone were hammering nails into my skull.@
+br
+`…@It even drove whatever I had been thinking about from my mind.@
+br
+`Looking back, Shiki Tohno had spent all eight years since the accident bargaining with this defective body.@ Sudden attacks of vertigo.@ Headaches.@ Anemia.@ I couldn’t count how many things they had forced me to surrender.
+\
+`The doctors called my survival a miracle.@ Did that mean I was supposed to endure a little pain because being alive at all was miraculous?@ The woman who taught me how to live with these broken eyes had told me to treasure that miracle.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`…@Had she meant that human life was not precious, only irreplaceable—and therefore had to be guarded?@
+br
+`Over the last few days, I had witnessed so many people die.@ Lives vanished with absurd, almost laughable ease.@ If a thing disappeared that readily, hadn’t it been worth that little from the start?@ Calling it precious was meaningless.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+br
+`……@What?@
+br
+`Why do I—                              How much longer will you—
+wave se_01
+!w1000
+wave se_01
+`think—                                  keep thinking—
+wave se_01
+!w1000
+wave se_01
+br
+`things like that?
+\
+wave se_01
+bg #000000,crossfade,800
+bg "bg/bg_40a",crossfade,800
+`“…@Hah.”@ The headache finally subsided.@ “…@Maybe I’ve seen too much blood.@ I was thinking something awful.”@ I drew a deep breath, filling my lungs with the fresh morning air and washing the ugly feeling away.@ “I have to get to school.”@ I had to go and see Ciel.@ Enduring the ache that lingered like a knot in the corner of my skull, I left my room.
+\
+bg #000000,lcartain,1500
+bg "bg/bg_33a",lcartain,800
+`I descended the stairs into the lobby.@ The hallway to the sitting room lay beside me; the front door stood straight ahead.@ “……”@ What should I do?@ Akiha was waiting for me, but I wanted to reach school and find Ciel as quickly as possible.
+\

@@ -1,0 +1,59 @@
+#page-crash {
+	overflow: clip;
+	user-select: text;
+	
+	.page-content {
+		height: unset;
+		text-align: center;
+		max-width: 800px;
+		align-items: center;
+	}
+
+	h1 {
+		letter-spacing: -1px;
+		font-size: 2.1em;
+		margin-block-start: 0;
+		margin-block-end: 0;
+		font-weight: 700;
+		text-wrap: balance;
+	}
+
+	.page-content > p {
+		text-wrap: balance;
+	}
+	.ver {
+		font-size: .8em;
+		float: right;
+	}
+	.code {
+		font-family: monospace;
+		background-color: var(--menu-container);
+		text-align: left;
+		width: 100%;
+		margin-block: 2em;
+		border-radius: 2px;
+	}
+
+	details {
+		summary {
+			padding: 1.4em 2em;
+			color: var(--color-link);
+			&:hover {
+				cursor: pointer;
+				background-color: var(--menu-container);
+			}
+		}
+		p {
+			text-align: left;
+			max-height: 300px;
+			overflow-y: auto;
+			margin: 0;
+			padding-inline: 1.4em 2em;
+			padding-bottom: 1em;
+			padding-top: .5em;
+			border-top: 1px solid var(--separator);
+			font-size: 0.8em;
+			line-height: 1.8;
+		}
+	}
+}

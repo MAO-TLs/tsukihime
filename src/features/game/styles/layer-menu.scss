@@ -1,0 +1,116 @@
+%layer-menu {
+	--menu-bg: linear-gradient(-40deg, rgb(36 42 128) 26%, rgb(2 125 184));
+	--menu-bg-strips: linear-gradient(180deg, hsl(200.94deg 96% 40%), hsl(201 96% 30% / 1), hsl(200.94deg 96% 40%));
+	--menu-backdrop: rgb(3 35 81 / 55%);
+	--panel-trans-time: 0.35s;
+
+	z-index: 4;
+	opacity: 0;
+	pointer-events: none;
+	touch-action: manipulation;
+	transition: opacity var(--transition-time) ease-out;
+	transition-delay: calc(var(--panel-trans-time) - var(--transition-time));
+	will-change: opacity;
+	display: flex;
+	justify-content: flex-end;
+	// when hiding, wait before starting the transition
+	overflow: hidden;
+	direction: ltr;
+
+	&.show {
+		pointer-events: auto;
+		opacity: 1;
+		transition-delay: 0s;
+		background: var(--menu-backdrop);
+
+		.menu-container {
+			transform: translateX(0);
+		}
+	}
+
+	$width: clamp(260px, 25vw, 360px);
+	.menu-container {
+		will-change: transform;
+		transform: translateX(calc($width));
+		width: $width;
+		height: 100%;
+		transition: transform var(--panel-trans-time) ease-out;
+		display: flex;
+		align-items: center;
+		position: relative;
+		background: var(--menu-bg);
+
+		menu {
+			height: 100%;
+			flex: 1;
+			display: grid;
+			grid-template-rows: minmax(8px, 1fr) 2fr minmax(68px, 1fr);
+			overflow-y: auto;
+			padding-left: 2.2em;
+
+			&::before, &::after {
+				content: "";
+				position: absolute;
+				pointer-events: none;
+				z-index: -1;
+				width: 3px;
+				top: 0;
+				bottom: 0;
+				background-image: var(--menu-bg-strips);
+			}
+			&::before {
+				left: 4px;
+			}
+			&::after {
+				right: 4px;
+			}
+		}
+
+		.layer-btns {
+			display: flex;
+			flex-direction: column;
+			row-gap: min(2.4vh, 1.6em);
+			button {
+				font-size: clamp(1.2em, 3.2vmin, 1.4em);
+			}
+		}
+	}
+
+	.footer {
+		position: fixed;
+		bottom: 0px;
+		background: var(--transparent-layer);
+
+		.action-btns {
+			display: flex;
+			gap: 5px;
+		}
+		svg {
+			width: 1.4em;
+			height: 1.4em;
+		}
+		button {
+			flex: 1;
+			padding: 6px 4px;
+			letter-spacing: 1px;
+
+			&.on {
+				background: linear-gradient(90deg, #00d2ff 40%, oklch(1.8 0.15 220.72 / 1) 60%, #00d2ff);
+				background-size: 300% 100%;
+				animation: gradientAnimation 4s linear infinite;
+				@keyframes gradientAnimation {
+					0% { background-position: -100% 50%; }
+					100% { background-position: 200% 50%; }
+				}
+			}
+			&.off {
+				color: var(--off-color);
+			}
+
+			&:disabled {
+				opacity: 0.5;
+				pointer-events: none;
+			}
+		}
+	}
+}

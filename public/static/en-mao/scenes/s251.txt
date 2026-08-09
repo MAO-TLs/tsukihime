@@ -1,0 +1,59 @@
+monocro off
+playstop
+wavestop
+bg #000000,crossfade,800
+bg "bg/bg_11b",crossfade,1500
+play "*3"
+`I hurried to the tea-ceremony room and arrived just as Ciel was reaching for the door.
+\
+`“Ciel!”@
+ld c,"tachi/cel_t01a",lshutter,400
+`“Oh, Tohno.@ Are you going home now?”@ “No, I thought I’d stay and talk with you.@ You were about to have tea, right?@ I thought I might let you treat me to a cup.”@
+ld c,"tachi/cel_t04",crossfade,400
+`“Actually, I’m leaving today.@ I have an errand, and the club has nearly exhausted this month’s budget.”@ “Oh.@ Right—the tea ceremony club buys those sweets with club funds.”@ Come to think of it, any club allowed to spend its budget on sweets was a magnificent institution.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“So I’m afraid I can’t entertain you.@ Do you have any plans now?”@ “Me?@ No.@ They just disappeared.”@ “Then keep me company instead.@ Let’s walk to the school gates together.”@ “Gladly.”@
+ld c,"tachi/cel_t04",crossfade,400
+`Ciel nodded with a smile and fell into step beside me.@ We would share the scant five-minute walk to the gates.
+\
+bg #000000,lcartain,800
+bg "bg/bg_01b",lcartain,800
+`With little of consequence said between us, we reached the front gate.@ “See you tomorrow, Ciel.”@ I raised one hand and started down the road opposite hers.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“Wait a moment.@ There was something I wanted to ask you.”@ “What is it?”@ “The person you mentioned yesterday—the one who looked so much like me.@ It’s been on my mind, and I’d like to hear more.”@ Her eyes lit up with curiosity.@ For my part, that incident belonged firmly among the things I preferred not to remember.
+\
+`“Sorry.@ I don’t want to talk about it.@ I must have been seeing things, so can’t we leave it at that?”@ I looked away and offered the vague excuse.@ “All right.”@ Ciel abandoned the question without protest.
+\
+ld c,"tachi/cel_t07a",crossfade,400
+`“But you saw that person late at night, didn’t you?@ Tohno, I don’t think you should wander around so late.@ The killings in this city haven’t stopped.@ What if you went out at night and ran into the murderer?”@ “Ciel…@ are you worried because I’ve been going out at night?”@ “Yes.@ You’re too trusting.@ You seem like the sort who could be lured into danger without a second thought.”@ She really did seem concerned.@ “Mm…”@ That kind of consideration made me very happy.
+\
+`“Thanks, Ciel.@ But I’ll be fine.@ The killer is gone now.”@
+ld c,"tachi/cel_t12",crossfade,400
+`“Gone?@ What do you mean?”@ Damn it.@ Nrvnqsr was a secret known only to Arcueid and me.@ I couldn’t tell Ciel—and even if I did, what good would such a story do?
+\
+`“No, you’re right.@ Going out in the middle of the night really is dangerous.”@
+ld c,"tachi/cel_t07a",crossfade,400
+`“In any case, please stop going out at night.@ Starting tonight.@ You’re supposed to be a responsible student.”@ “All right, all right.@ I don’t know about responsible, but I’ll take your advice and cut out the late-night adventures.”@ “…”@
+br
+`Ciel stared at me.@ She didn’t seem convinced.@ Did she really trust me that little?
+\
+`“Fine.@ Then let’s make it a promise.”@ I held out one hand.@ “I owe you a tremendous debt.@ I’ll do as you ask, Ciel.@ So let’s make it a promise.”@
+ld c,"tachi/cel_t08",crossfade,400
+`“Um…@ you want to shake hands?”@ “Exactly.@ We’re a little old for pinky promises, so we’ll seal it with a handshake.”@ After a moment’s hesitation, Ciel took my offered hand.
+\
+ld c,"tachi/cel_t03",crossfade,400
+`“All right.@ It’s a promise, Tohno.”@ She pumped our joined hands enthusiastically.@
+ld c,"tachi/cel_t02",crossfade,400
+`“Goodbye, then.@ I’ll see you at school tomorrow.”@
+cl c,lshutter,800
+`I watched Ciel recede into the sunset.@ Once she was out of sight, I started home myself.
+\
+bg #000000,lcartain,1500
+playstop
+bg "bg/bg_32b",lcartain,1500
+`I climbed the hill and returned to the estate.@ It was not yet six.@ With an hour until dinner, I might as well kill time in my room—
+\
+bg #000000,crossfade,800
+!w2000

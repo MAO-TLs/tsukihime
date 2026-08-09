@@ -1,0 +1,322 @@
+play "*1"
+wavestop
+bg #000000,lcartain,800
+play "*3"
+bg "bg/bg_11a",lcartain,400
+`Ciel led me to an unused classroom at the far end of the school building.@
+br
+`“Wait…@ This is a Japanese-style room, isn’t it?”@
+ld c,"tachi/cel_t01a",crossfade,400
+`“Yes.@ No one else will be here, and it’s a calming place.”@
+`“Sure, but…@ isn’t it locked?”@
+`“It is.@ Ordinarily only members of the tea ceremony club may enter, so other students can’t use it.”@ As she spoke, Ciel produced a key from her pocket.
+\
+`“Oh, so you’re in the tea ceremony club?”@
+ld c,"tachi/cel_t04",crossfade,400
+`“Yes.@ Although I’m also its only member.”@ She laughed brightly and went inside.
+\
+bg #000000,lshutter,400
+bg "bg/bg_09a",lshutter,400
+`The room felt like a world apart, almost impossible to believe it belonged to the school.@ The spring of the straw matting beneath my feet and the sunlight falling through the window quieted something inside me.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“As I said, I’m the only member of the club.@ The advantage is that I can use this room whenever I please—after school, during breaks, any time at all.”@ Laughing, Ciel set out a floor cushion for me.@ “I’ll make tea.@ Wait there, Tohno.”@
+cl a,lshutter,400
+`Ciel began preparing the tea by the sink.@ With nothing else to do, I obediently knelt on the cushion.
+\
+`“…”@ Perhaps the room had cast a spell on me.@ Yumizuka had been churning through my chest in circles, but now I could think about her calmly.
+\
+ld c,"tachi/cel_t01a",lshutter,400
+`“Thank you for waiting.@ Let’s have lunch.@ I actually wanted to ask you something, so eating here works out perfectly.”@
+`“You wanted to ask me something?”@ Puzzled, I drank the tea she offered.@ Entering a Japanese-style room straightened my back by reflex and brought a hush over my mind.
+\
+`I had never participated myself, but the Arima family headed a school of tea ceremony.@ Perhaps growing up in that household was why I found rooms like this more restful than Western ones.@ Ciel was watching me with a vaguely troubled expression.
+\
+`“What is it, Ciel?@ You look a little troubled.”@
+ld c,"tachi/cel_t08",crossfade,400
+`“What?@ Oh, I was only surprised.@ You seem much more at ease here than I do.”@
+`“Do I?@ My family was strict, so I’m accustomed to this sort of thing.@ Anyway, didn’t you have something to ask me?”@
+ld c,"tachi/cel_t12",crossfade,400
+`“Oh, right.@ It’s about the conversation we had at lunch yesterday.”@
+`“You mean…@ about my family?”@ Ciel nodded.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“If you don’t mind, I’d like to hear more.@ We stopped halfway yesterday, and it’s been bothering me.”@
+`“I don’t mind, exactly, but my family history is boring.@ Listening would only waste your time.”@
+`“That’s all right.@ I’m the one who wants to hear it.”@
+`“You’re an odd one, Ciel.”@ She smiled and admitted that perhaps she was.
+\
+`“You said you’d moved into your own home.@ What did you mean by that?”@ she asked with open curiosity.@ Given how little she knew, our conversation yesterday must indeed have sounded hopelessly fragmentary.
+\
+`“In short, I’m a boy who was disowned by his own family.@ Apparently, when I was nine, I was caught in a traffic accident and badly injured.@ The wounds themselves eventually healed, but afterward I kept collapsing from anemia and throwing up whatever I ate.@ So I was sent to recuperate with relatives of ours, the Arimas.”@
+ld c,"tachi/cel_t08",crossfade,400
+`“Then the Arimas have effectively been your parents since you were nine?”
+\
+`“That’s right.@ For some reason my father hated me, and from the moment he sent me away, I knew I would never return to my own home—the Tohno mansion.@ I intended to live out my life as a child of the Arima family.@ Then my father died recently.@ That left my little sister alone in the mansion.@ I’d already neglected her for so many years, so, late as it was, I decided to go home.”
+\
+`—And there you have it: the family circumstances of one Shiki Tohno.@
+br
+`That was how I brought the story to a close.@ Ciel gave a tiny, silent nod.
+\
+ld c,"tachi/cel_t07a",crossfade,400
+`“May I ask one thing?”@
+`“Hm?@ If I can answer it, go ahead.”@
+`“Did you dislike your former family?”@
+br
+`My former family—she meant the Arimas, my foster parents.@
+br
+`A father and mother who weren’t truly mine.@ An unfamiliar house that should have belonged to strangers.@ But none of that mattered—
+\
+`“No.@ I loved them.@ They never cared in the slightest that we weren’t related.@ They were so warm that I felt ashamed whenever I brooded alone.@ And I didn’t think it was such a bad thing, being someone who could believe in that kind of unconditional love.”
+\
+br
+`—These people love me.@ So I have to hurry—as fast as I possibly can—and become a real part of their family—
+br
+`I had repeated those words to myself ever since I was small.@ …@Ever since a time so long ago it scarcely felt real.@ Again and again, until the years made me dizzy, I had sworn the same vow—
+\
+`“Arihiko was right: I never had a single complaint about life with the Arimas.@ They were good to me, and I think I returned their affection.@ Of course, we all understood that we were playing at being a family.@ But even that little performance was never painful.”@ No—if anything, I had probably been happy.@ In a sense, the Arimas and I had the ideal parent-child relationship.
+\
+`“But it still wasn’t enough.”@ “No.@ I could never cross that final line.@ The thought that I wasn’t truly their family would not leave my head.@ I knew I should ignore it, but I couldn’t.@ Maybe it was some childhood trauma; by then it felt more like a curse—like I was destined to remain a stranger to my family wherever I went.”
+\
+ld c,"tachi/cel_t09",crossfade,400
+`Ciel fell silent.@ She looked away and drew in her shoulders apologetically.@ “See?@ I told you it was a boring story and a waste of time.”@
+ld c,"tachi/cel_t01a",crossfade,400
+`“No, it wasn’t.@ I learned a great deal.”@ With that, Ciel began eating her lunch.
+\
+cl a,crossfade,400
+`Following her example, I took a bite from the bread I had bought.@ Talking to her seemed to have restored some of my appetite, though in the end I still couldn’t finish even half of it.
+\
+playstop
+!w1000
+ld c,"tachi/cel_t07a",crossfade,400
+`“So, Tohno.@ Is something troubling you?”@ “What?@ Where did that come from?@ Nothing’s troubling me.”@ “I see.@ Then you’ve simply lost your appetite because you’re ill.”@ Ciel stared intently at me.@ There was something deep in her gaze.@ With her looking at me like that, it was hard to keep quiet.
+\
+`“Nothing is troubling me, but…@ what do you think about the recent attacks?”@ I couldn’t stop thinking about the classmate who had not returned home last night, and the question slipped out.
+\
+`“You mean that business with the so-called vampire?”@
+`“Yeah.@ There have already been eight victims, right?@ I haven’t watched the news lately, so I don’t know much.@ Do you?”@
+`“Only what everyone knows.@ I wouldn’t call myself well informed.@ Though the word vampire does send a chill through me.”
+\
+`“They say the victims were found drained of blood.@ Strange as it sounds, what could anyone possibly gain from that?”@
+`“I couldn’t begin to understand the mind of someone who would do such a thing.@ But why do you suppose the killer has been nicknamed a vampire?”@
+`“…?”@ It was an odd question.
+\
+`“Why?@ The victims had all the blood drained from their bodies.@ Calling the killer a vampire seems obvious.”@
+play "*4"
+ld c,"tachi/cel_t04",crossfade,400
+`“Do you know the old stories about vampires?”@ Ciel abruptly smiled and asked an even stranger question.
+\
+`“You mean the story that anyone bitten by a vampire becomes one too?”@
+`“Yes.@ In that case, no corpse would remain.@ If a vampire were responsible, there would be no bodies to discover.”@
+`“That makes sense, but vampire is only a nickname.@ You don’t actually believe they exist, do you?”
+\
+ld c,"tachi/cel_t05",crossfade,400
+`“Of course not.@ If a body is left behind, then it wasn’t a vampire, was it?”@ Still smiling, Ciel offered this curiously misplaced conclusion.@
+ld c,"tachi/cel_t01a",crossfade,400
+`“But couldn’t you look at it this way?@ The bodies being found belong to people who died because they failed to become vampires.@ Some people can become one and some cannot.@ Those who can are never discovered as corpses after an attack, because they are still alive somewhere.@ Those who cannot simply die, and so they are found.”
+\
+`“No—that’s…”@ Ciel was still smiling.@ I knew that meant she was only joking, yet for some reason I couldn’t laugh it off.
+\
+play "*3"
+ld c,"tachi/cel_t03",crossfade,400
+`“Just kidding.@ If that were true, it would be a horror story, and I don’t care for frightening tales.@ Please don’t ask me such unpleasant questions.”@
+`“What do you mean?@ You were the one enjoying it.”@
+ld c,"tachi/cel_t04",crossfade,400
+`“That’s true.@ I dislike frightening stories, but I do enjoy frightening you.”@
+`“…”@ Had I somehow done something to earn this woman’s resentment?
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“Still, jokes aside, the city is dangerous at night these days.@ However healthy a young man you may be, don’t go wandering around after dark.”@ Her warning was playful enough that I couldn’t tell how seriously she meant it.
+\
+bg #000000,crossfade,800
+playstop
+!w1000
+bg "bg/bg_06a",tshutter,800
+`Lunch ended, and fifth-period classical literature began.@ Almost none of the lesson reached my ears.
+\
+bg "event/stk_e03",crossfade,400
+br
+br
+br
+br
+br
+br
+br
+`—Well, my house is this way.
+\
+br
+br
+br
+br
+br
+br
+br
+`—Bye.@ I’ll see you at school tomorrow.
+\
+bg "bg/bg_06a",crossfade,400
+`Yumizuka had unquestionably said those things.@ A girl who said that could not possibly have run away immediately afterward.@
+br
+`“……”@
+br
+`All I had was a terrible premonition.@ The attacker prowling the streets at night.@ Ciel’s warning that it was too dangerous to go out after dark.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_06a",notrans,0
+`“—”@ Perhaps it was because the memory of our parting was colored red.@ Without warning, an image of Satsuki Yumizuka drenched in scarlet blood rose behind my eyelids.
+\
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_06a",crossfade,400
+`“Gh—”@
+br
+`It struck without warning.@ My vision slowly whitened, and my sense of balance began to reel.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_06a",crossfade,400
+br
+`“…”@
+br
+`The room pitched.@ Something congealed at the back of my skull, and consciousness grew leaden.
+\
+`“……@This is bad.”@ I knew this feeling.@ Sudden dizziness was the herald of anemia.@ The blood pooled in the vessels of my brain seemed to clot into a black mass, rocking my head and darkening everything I could see—as if darkness were being forced from my brain into my eyes.
+\
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_06a",crossfade,400
+bg #000000,crossfade,800
+`—This is bad…@ I almost never…@ collapse in the middle of class—
+br
+`Red.@ Perhaps the image of Yumizuka, red as blood, had simply been too vivid.@ My vision buckled.@ As darkness closed over it, I groped for my desk and leaned against it.@
+br
+`Even that soon became useless.@ No strength remained in my fingers.@ All that was left was to topple toward the floor—
+\
+`Amid it all, I remembered what she had said.@
+br
+`“Help me if I’m ever in trouble, Tohno.”@
+br
+`—So I can’t do what you asked.@ I’m not as capable as you think I am—
+\
+!w3000
+bg "bg/bg_10c",tshutter,800
+play "*1"
+!w1000
+`“Sorry.@ I made you wait around, Arihiko.”@
+ld c,"tachi/ari_t03",tshutter,800
+`“Yeah, yeah.@ I’m used to you dropping without warning.@ You take advantage of a guy waiting for you, sleep in the nurse’s office until the last possible minute, and expect royal treatment.@ Who the hell do you think you are?”@
+`“Then you should’ve woken me.@ You didn’t have to wait until curfew.”@
+`“Shut up.@ If I’d dragged a sick man awake and you collapsed again, you’d only be more trouble.@ Come on, let’s go.@ It’s already seven, damn it.”@
+cl a,tshutter,800
+`Arihiko started down the corridor.
+\
+`After I collapsed from anemia, I had apparently been put to bed in the nurse’s office.@ At six-thirty, when the school closed, Arihiko’s fist had awakened me.@ Now we were walking through the empty halls.@ “What are you doing?@ Hurry up, Tohno.”@
+`“Sorry, coming.”@ I shook my still-faintly swimming head and followed him.
+\
+bg #000000,lshutter,800
+bg "bg/bg_01c",lshutter,800
+ld c,"tachi/ari_t04",crossfade,400
+`“All right, you can make it home alone from here.@ See you tomorrow.”@
+`“Thanks.@ Sorry I’m always putting you through this, Arihiko.”@
+ld c,"tachi/ari_t02",crossfade,400
+`“Forget it.@ You can success-pay me double later.”@
+cl a,lshutter,800
+`Arihiko’s answer scarcely qualified as language.@ Smiling despite myself, I set off for home.
+\
+bg #000000,lcartain,800
+bg "bg/bg_24c",lcartain,800
+`I reached an intersection.@ Though it was only seven, there was no one around.@ The succession of attacks must have discouraged people from venturing out at night.@ The only person I could see was a woman walking far ahead.
+\
+`“…@Blond hair.”@ The distant woman appeared to be foreign.@ Hair so golden I could distinguish it even from here swayed with every step.@
+playstop
+ld c,"tachi/ark_t22",crossfade,800
+br
+`She was impossible not to notice.@ Even from behind, I could tell she was beautiful.
+\
+br
+br
+br
+br
+br
+br
+br
+wave se_01
+`—Thump.
+\
+bg #9c0120,crossfade,400
+bg "bg/bg_24c",crossfade,400
+`“What—”@
+br
+`My heart suddenly slammed against my ribs.@ My throat dried for no reason.@ Cold flooded my body, and clammy sweat began to seep from my skin.
+\
+wave se_01
+bg "bg/ima_13",crossfade,400
+bg "bg/bg_24c",crossfade,400
+`“Ah—gh.”@ Pain lanced through my head.@ Unlike the anemia at noon, it did not carry consciousness away.@ It sharpened everything.
+\
+wave se_01
+`“H—ah.”@ My breath rasped wildly in my throat.@
+ld c,"tachi/ark_t22",crossfade,800
+`That back.@ Merely looking at the golden-haired woman sent inexplicable pulses of pain through my skull.
+\
+wave se_01
+`“Hah…@ hah, hah…”@ My thoughts dissolved into mist.@ I would follow that woman, and then—
+br
+`“And then…?”@ What in the world did I intend to do?@
+cl a,lshutter,400
+`The woman vanished among the apartment buildings beyond the shopping district.
+\
+wave se_01
+`“…@I have…@ to follow…”@ The conviction came without the slightest reason.@ My feet began carrying me toward the apartments.@
+br
+`But before I could—
+br
+ld c,"tachi/stk_t10",lshutter,400
+cl a,lshutter,400
+`“—!”@ For a single instant, unmistakably, I caught sight of Satsuki Yumizuka at the edge of my vision.
+\
+`“Yumizuka…?”@ The haze vanished from my mind.@ It had only been an instant, but that was unquestionably Yumizuka.@ Was she heading into the city?@ “What is she doing out at this hour…?”@ My anger swept aside every thought of her being missing or having run away.@ A girl walking alone through the city at night was far too careless.
+\
+bg #000000,lcartain,800
+bg "bg/bg_25b",lcartain,800
+`Yumizuka drifted unsteadily through the crowd.@ She was too far away to see clearly; I might have been mistaken.@ Even so, I ran to catch her and call her back.@ “Wait, Yumizuka!”@ I shouted as I chased her.@
+ld c,"tachi/stk_t10",lshutter,800
+`“—”@ Perhaps she heard me, because Yumizuka glanced over her shoulder.
+\
+bg #000000,crossfade,400
+bg "bg/bg_25b",crossfade,400
+`There was nothing remarkable about her face.@ The girl ahead was unquestionably Satsuki Yumizuka, and she wore no frightening expression.@ “—Ah.”@ Yet a chill crawled through me.@
+br
+`—Thump.@
+br
+`My heart quickened.@ The back of my head grew dizzy and heavy, and my throat grew faintly warm.@ As when I saw the blond woman, pain clamped around my skull like a vise.
+\
+`“What is this…?@ Something’s wrong.”@ My whole body burned.@ I reeled as though delirious with a vicious fever.@
+br
+`While I stood there, Yumizuka began walking again.
+\
+bg #000000,lshutter,800
+bg "bg/bg_26a",lshutter,800
+`“W-wait, Yumizuka…!”@ I called as I ran.@ She never looked back, only continued her wavering walk.@ “D-damn it, can’t you hear me…?”@ I drove my feverish body onward, but no matter how hard I ran, I could not catch her.@
+br
+`However fast I ran, I could not overtake a girl who was merely walking.
+\
+`“—”@ Something was wrong.@ I knew that much, but I couldn’t tell what.@ All I could do was keep chasing Satsuki Yumizuka without the faintest idea what I would do if I caught her.@
+br
+bg #000000,notrans,0
+`Then—
+br
+`Yumizuka’s back suddenly vanished.@ Until that moment I had been unable to gain on her, but at least I could see Satsuki Yumizuka ahead.@ Now she was nowhere.
+\
+bg "bg/bg_26a",bshutter,800
+`“Damn it…@ What the hell is happening…?”@ I stopped and tried to catch my breath.@ My chest heaved.@ I hadn’t realized it until then, but I seemed to have been running for an extraordinarily long time.@
+br
+`“…@What time…@ is it?”@ Hands braced on my knees, I looked toward a shop window.@ The clock was approaching midnight.
+\
+`“No way.@ Have I really been running that long?”@ I felt nothing of the sort, but the clock could hardly be wrong.@ Looking around, I saw that most of the shops in the district had already closed.
+\
+`“I should…@ go home.”@ I was still worried about Yumizuka, but searching any longer seemed hopeless.@ What could she have been thinking, refusing even to turn around after I chased her and called to her for nearly four hours?@
+br
+`I drew one long breath and started back toward the mansion.
+\
+bg #000000,crossfade,800

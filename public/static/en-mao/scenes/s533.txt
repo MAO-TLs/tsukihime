@@ -1,0 +1,19 @@
+wave se_03
+bg "bg/bg_06a",notrans,0
+play "*3"
+ld c,"tachi/osiete",lcartain,800
+!w1000
+cl c,lcartain,800
+ld r,"tachi/cel_t20",tshutter,800
+`Bonjour!@ It’s time once again for Teach Me, Ciel!@, the feature for Tohno, who has managed to hit yet another dead end.
+\
+`Lesson two of day three concerns familial love.@ The reason Tohno died this time is simple: when Yumizuka bit him, the feelings that might have given him the strength to throw her off were too weak.
+\
+`Treasure the bonds of family.@ Your classmates matter too.@ Tohno needs to pay more attention to his little sister as her older brother, and he owes some kind of answer to the feelings of the girl who used to be his classmate.@ After all, both girls have been carrying those feelings for a very long time.
+\
+`Here is a little advice.@ If you ended up here, go back a short way and try showing Yumizuka the full sincerity of your feelings.@
+br
+`That’s all, everyone.@ I’ll see you at the next lesson.
+\
+bg #000000,crossfade,800
+playstop

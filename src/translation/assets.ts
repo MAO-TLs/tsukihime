@@ -1,0 +1,167 @@
+import { splitFirst } from "@tsukiweb/common/utils/utils"
+import { RouteDayName, RouteName } from "../app/utils/types"
+import { settings } from "../engine/settings"
+import {TrackSourceId, strings} from "./lang"
+import { ResolutionId, TextImage } from "@tsukiweb/common/translation/lang"
+import { closeBB } from "@tsukiweb/common/utils/Bbcode"
+import { assetPath, imageFormat } from "@tsukiweb/common/utils/images"
+
+export const DEFAULT_ORIGINAL_MEDIA_BASE = "https://tsukidev.holofield.fr"
+export const originalMediaBase = (
+  import.meta.env.VITE_TSUKIWEB_MEDIA_BASE || DEFAULT_ORIGINAL_MEDIA_BASE
+).replace(/\/+$/, "")
+const configuredMediaMode = (
+  import.meta.env.VITE_TSUKIWEB_MEDIA_MODE || "direct-audio"
+)
+if (!["cors-webaudio", "direct-audio"].includes(configuredMediaMode)) {
+  throw Error(
+    `Unsupported remote media mode ${configuredMediaMode}`
+  )
+}
+export const originalMediaMode = configuredMediaMode as (
+  "cors-webaudio" | "direct-audio"
+)
+
+//##############################################################################
+//#                                  PRIVATE                                   #
+//##############################################################################
+
+//______________________________private functions_______________________________
+//------------------------------------------------------------------------------
+
+function textImageToStr(textImg: TextImage): string {
+  const {center, top, bottom, bg="#000000"} = textImg
+  let [text, vAlign] = center ? [center, 'c'] :
+                       top    ? [top   , 't'] :
+                       bottom ? [bottom, 'b'] :
+                       [null, '']
+  if (text) {
+    if (Array.isArray(text))
+      text = text.map(closeBB).join('\n')
+    text = `$${vAlign}\`${text}\``
+  }
+  return `${bg}${text??""}`
+}
+
+function remotePath(path: string, root: "static" | "res"): string {
+  if (/^\w+:\/\//.test(path))
+    return path
+  return `${originalMediaBase}/${root}/${path.replace(/^\.?\//, "")}`
+}
+
+//##############################################################################
+//#                                   PUBLIC                                   #
+//##############################################################################
+
+//_______________________________public functions_______________________________
+//------------------------------------------------------------------------------
+
+export function scenesDir() {
+  return assetPath(`${strings['scripts-dir']}`)
+}
+
+export function spriteSheetImgPath(file: string) {
+  return remotePath(`flowchart-spritesheets/${file}.${imageFormat}`, "res")
+}
+
+export function characterImgPath(char: string | null) {
+  return remotePath(`chars/${char}.webp`, "res")
+}
+
+function audioPath(formats: string|string[], trackName: string) {
+  const format = typeof formats == 'string' ? formats : formats[0]
+  return remotePath(`${format.replace('%', trackName)}.webm`, "static")
+}
+
+export function audioTrackPath(track: string,
+                               source: TrackSourceId = settings.trackSource) {
+  return audioPath(strings.audio["tracks"][source], track)
+}
+
+export function audioSePath(se: string, pd: boolean = false) {
+  const parent_dir = pd ? strings.audio["waves-pd"]
+                        : strings.audio["waves"]
+  return audioPath(parent_dir, se)
+}
+
+/**
+ * Get the image source from the translation file.
+ * @param img id of the image to get its source
+ * @param res desired resolution.
+ * @returns the requested image's url
+ */
+export function imageSrc(img: string, res: ResolutionId = "src") {
+  if (img.startsWith('"') && img.endsWith('"'))
+    img = img.substring(1, img.length-1)
+
+  const [dir, name] = splitFirst(img, '/')
+  const root = strings.images[res]
+  let srcTemplate: string
+
+  if (Object.hasOwn(root, img)) {
+    srcTemplate = root[img as keyof typeof root]
+  } else {
+    if (!name)
+      throw Error(`Unimplemented image format ${img}`)
+    if (Object.hasOwn(root, dir)) {
+      const parent = root[dir as keyof typeof root] as any as Record<string, string>
+      srcTemplate = Object.hasOwn(parent, name) ? parent[name as keyof typeof parent] : parent[""]
+    } else {
+      srcTemplate = root[""]
+    }
+  }
+
+  if (srcTemplate.startsWith('#'))
+    return srcTemplate
+
+  const replaced = srcTemplate
+    .replace('%0', img)
+    .replace('%1', dir)
+    .replace('%2', name || "")
+  return remotePath(`${replaced}.${imageFormat}`, "static")
+}
+
+/**
+ * Get the formatted string that replaces the image.
+ * @param img image id to convert
+ * @returns the formatted string that replaces the image
+ */
+export function wordImage(img: string) : string {
+  if (img.startsWith("word/"))
+    img = img.substring("word/".length)
+  const textImage = strings.images.words[img]
+  if (!textImage) {
+    throw Error(`unknown word-image ${img}`)
+  }
+  return textImage
+}
+
+/**
+ * Get the list of formatted strings and delays for the credits.
+ * @returns the list of formatted strings and delays
+ */
+export function credits() : [string, number][] {
+  return strings.credits.map(
+    ({delay=5600, ...textImage})=> [textImageToStr(textImage), delay]
+  )
+}
+
+/**
+ * Get the phase title and subtitle texts.
+ * @param route current route
+ * @param routeDay section of the route
+ * @param day day number, or special section
+ * @returns an array of two elements where the first element is the text
+ *          for the title, and the second element is the text for the subtitle
+ */
+export function phaseTexts(route: RouteName, routeDay: RouteDayName, day: number|RouteDayName<"others">): [string, string] {
+  const titleString = strings.scenario.routes[route]?.[routeDay] ?? ""
+  let dayString = ""
+
+  if (typeof day === "number" && day >= 1)
+    dayString = strings.scenario.days[day - 1] ?? ""
+  else if (typeof day === "string" && day in strings.scenario.routes['others'])
+    dayString = strings.scenario.routes['others'][day]
+
+  return [titleString, dayString]
+}

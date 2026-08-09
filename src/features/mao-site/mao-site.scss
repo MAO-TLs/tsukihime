@@ -1,0 +1,350 @@
+.mao-site-shell {
+	width: min(var(--mao-template-shell), calc(100% - var(--mao-template-gutter)));
+	margin-inline: auto;
+}
+
+.mao-site-nav {
+	position: relative;
+	z-index: 3;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 92px;
+	border-bottom: 1px solid rgba(255, 255, 255, .18);
+	color: #fff;
+	font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+	a { color: inherit; text-decoration: none; }
+}
+
+.mao-site-wordmark,
+.mao-site-nav-links {
+	display: flex;
+	align-items: center;
+}
+
+.mao-site-wordmark {
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+}
+
+.mao-site-nav-links {
+	gap: 30px;
+	color: rgba(255, 255, 255, .82);
+	font-size: 13px;
+	font-weight: 600;
+
+	a { padding-block: 8px; }
+	a:hover, a[aria-current="page"] { color: #fff; }
+	a[aria-current="page"] {
+		text-decoration: underline;
+		text-decoration-color: #9fc2d9;
+		text-decoration-thickness: 2px;
+		text-underline-offset: 8px;
+	}
+}
+
+.tsuki-release-page {
+	--tsuki-ink: var(--mao-template-ink);
+	--tsuki-ink-soft: var(--mao-template-ink-soft);
+	--tsuki-paper: var(--mao-template-paper);
+	--tsuki-ice-deep: var(--mao-template-ice-deep);
+	--tsuki-ice-ink: var(--mao-template-ice-ink);
+	--tsuki-navy: var(--mao-template-navy);
+	--tsuki-line: var(--mao-template-line);
+	--tsuki-serif: var(--mao-template-serif);
+	--tsuki-sans: var(--mao-template-sans);
+	--tsuki-mono: var(--mao-template-mono);
+	position: fixed;
+	z-index: 1000;
+	inset: 0;
+	overflow-y: auto;
+	background: var(--tsuki-paper);
+	color: var(--tsuki-ink);
+	font-family: var(--tsuki-sans);
+	font-size: 16px;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+
+	*, *::before, *::after { box-sizing: border-box; }
+	a { color: inherit; text-decoration: none; }
+	p, h1, h2, h3 { margin-block: 0; }
+}
+
+.tsuki-release-hero {
+	position: relative;
+	min-height: 760px;
+	overflow: hidden;
+	background: #0b2f66;
+	color: #fff;
+
+	&::before {
+		position: absolute;
+		z-index: 2;
+		inset: 0;
+		pointer-events: none;
+		content: "";
+		opacity: .16;
+		background-image:
+			linear-gradient(rgba(255, 255, 255, .03) 1px, transparent 1px),
+			linear-gradient(90deg, rgba(255, 255, 255, .03) 1px, transparent 1px);
+		background-size: 72px 72px;
+	}
+	&::after {
+		position: absolute;
+		z-index: 1;
+		inset: 0;
+		pointer-events: none;
+		content: "";
+		background: linear-gradient(90deg, rgba(4, 18, 43, .98) 0%, rgba(6, 29, 67, .91) 43%, rgba(5, 31, 75, .3) 74%, rgba(3, 21, 52, .08) 100%);
+	}
+}
+
+.tsuki-release-backdrop {
+	position: absolute;
+	z-index: 0;
+	inset: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	transform: scaleX(-1);
+}
+
+.tsuki-release-hero-grid {
+	position: relative;
+	z-index: 3;
+	display: grid;
+	grid-template-columns: 1.02fr .98fr;
+	align-items: center;
+	min-height: 650px;
+	padding-block: 56px 96px;
+}
+
+.tsuki-release-hero-copy { max-width: 680px; }
+
+.mao-site-eyebrow {
+	margin: 0 0 18px;
+	color: var(--tsuki-ice-ink, #496c86);
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: .18em;
+	text-transform: uppercase;
+}
+
+.tsuki-release-hero .mao-site-eyebrow { color: var(--tsuki-ice-deep); }
+
+.tsuki-release-hero h1 {
+	margin: 0;
+	font-family: var(--tsuki-serif);
+	font-size: clamp(66px, 7.2vw, 110px);
+	font-weight: 400;
+	letter-spacing: -.07em;
+	line-height: .86;
+	white-space: nowrap;
+}
+
+.tsuki-release-dek {
+	max-width: 630px;
+	margin: 42px 0 0 !important;
+	color: rgba(255,255,255,.82);
+	font-family: var(--tsuki-serif);
+	font-size: clamp(19px, 2vw, 24px);
+	line-height: 1.55;
+}
+
+.tsuki-release-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin-top: 38px;
+}
+
+.mao-site-button {
+	display: inline-flex;
+	min-height: 54px;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 0 24px;
+	border: 1px solid transparent;
+	font-size: 13px;
+	font-weight: 800;
+	letter-spacing: .03em;
+	transition: transform 160ms ease, background-color 160ms ease;
+
+	&:hover { transform: translateY(-2px); }
+}
+
+.tsuki-release-page .mao-site-button-primary { background: #fff; color: var(--tsuki-navy); }
+.mao-site-button-secondary { border-color: rgba(255,255,255,.38); background: rgba(255,255,255,.04); color: #fff; }
+
+.tsuki-release-compatibility {
+	margin: 22px 0 0 !important;
+	color: rgba(255,255,255,.52);
+	font-size: 12px;
+}
+
+.tsuki-release-strip { background: var(--tsuki-navy); color: #fff; }
+.tsuki-release-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+.tsuki-release-grid > div {
+	display: flex;
+	min-height: 122px;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px;
+	border-left: 1px solid rgba(255,255,255,.12);
+
+	&:last-child { border-right: 1px solid rgba(255,255,255,.12); }
+	span { margin-bottom: 9px; color: rgba(255,255,255,.5); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+	strong { font-family: var(--tsuki-serif); font-size: 20px; font-weight: 400; line-height: 1.25; }
+}
+
+.mao-site-section { padding-block: 112px; }
+.mao-site-section-heading { max-width: 720px; }
+.mao-site-section-heading h2 {
+	margin: 0;
+	font-family: var(--tsuki-serif);
+	font-size: clamp(42px, 5.2vw, 68px);
+	font-weight: 400;
+	letter-spacing: -.04em;
+	line-height: 1.02;
+}
+.mao-site-section-heading > p:last-child {
+	max-width: 650px;
+	margin: 26px 0 0;
+	color: var(--tsuki-ink-soft);
+	font-family: var(--tsuki-serif);
+	font-size: 20px;
+	line-height: 1.65;
+}
+
+.tsuki-release-card-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1px;
+	margin-top: 64px;
+	border: 1px solid var(--tsuki-line);
+	background: var(--tsuki-line);
+}
+.tsuki-release-card {
+	display: flex;
+	min-height: 180px;
+	gap: 24px;
+	align-items: flex-start;
+	padding: 36px;
+	background: #fff;
+	transition: background-color 160ms ease;
+
+	&:hover { background: #f1f6fa; }
+	> span { color: var(--tsuki-ice-ink); font-family: var(--tsuki-mono); font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+	h3 { margin: 0 0 12px; font-family: var(--tsuki-serif); font-size: 25px; font-weight: 400; }
+	p { margin: 0; color: var(--tsuki-ink-soft); font-size: 13px; }
+}
+
+.mao-site-text-link {
+	display: inline-flex;
+	gap: 18px;
+	align-items: center;
+	margin-top: 36px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid var(--tsuki-ink);
+	font-size: 13px;
+	font-weight: 800;
+}
+
+.tsuki-play-section { border-top: 1px solid var(--tsuki-line); background: #fff; }
+.tsuki-play-section > .mao-site-section { padding-top: 80px; }
+.tsuki-play-heading {
+	display: grid;
+	grid-template-columns: 1.2fr .8fr;
+	gap: 90px;
+	align-items: end;
+
+	> p { max-width: 48ch; margin: 0; color: var(--tsuki-ink-soft); font-family: var(--tsuki-serif); font-size: 17px; line-height: 1.65; }
+}
+
+.tsuki-play-link {
+	display: grid;
+	grid-template-columns: 70px minmax(0, 1fr) auto;
+	gap: 26px;
+	align-items: center;
+	margin-top: 64px;
+	padding: 34px 0;
+	border-top: 1px solid var(--tsuki-line);
+	border-bottom: 1px solid var(--tsuki-line);
+
+	> span { color: var(--tsuki-ice-ink); font-family: var(--tsuki-mono); font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+	h3 { margin: 0 0 9px; font-family: var(--tsuki-serif); font-size: 24px; font-weight: 400; }
+	p { margin: 0; color: var(--tsuki-ink-soft); font-size: 14px; line-height: 1.7; }
+	> strong { display: inline-flex; gap: 18px; align-items: center; padding: 16px 22px; background: var(--tsuki-navy); color: #fff; font-size: 13px; }
+}
+
+.tsuki-play-note {
+	display: grid;
+	grid-template-columns: .7fr 1.3fr;
+	gap: 28px;
+	margin-top: 34px;
+	padding: 26px 30px;
+	border-left: 4px solid var(--tsuki-ice-deep);
+	background: var(--tsuki-paper);
+
+	strong { font-family: var(--tsuki-serif); font-size: 18px; font-weight: 400; }
+	p { margin: 0; color: var(--tsuki-ink-soft); font-size: 14px; line-height: 1.7; }
+}
+
+.tsuki-credits-section { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; }
+.tsuki-credits-section dl { margin: 0; border-top: 1px solid var(--tsuki-line); }
+.tsuki-credits-section dl > div { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--tsuki-line); }
+.tsuki-credits-section dt { color: var(--tsuki-ink-soft); font-size: 12px; font-weight: 700; text-transform: uppercase; }
+.tsuki-credits-section dd { margin: 0; font-family: var(--tsuki-serif); font-size: 18px; }
+.tsuki-credits-section dd a { border-bottom: 1px solid currentColor; }
+
+.mao-site-footer { padding-block: 48px; background: #061a38; color: rgba(255,255,255,.6); font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.mao-site-footer-inner { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: start; font-size: 11px; line-height: 1.65; }
+.mao-site-footer-inner p { margin: 0; }
+
+@media (max-width: 900px) {
+	.tsuki-release-hero { min-height: 0; }
+	.tsuki-release-hero-grid { grid-template-columns: 1fr; padding-block: 78px 100px; }
+	.tsuki-release-hero-copy { position: relative; z-index: 2; }
+	.tsuki-release-backdrop { object-position: 58% center; }
+	.tsuki-release-hero::after { background: linear-gradient(90deg, rgba(4, 18, 43, .97) 0%, rgba(6, 29, 67, .91) 58%, rgba(3, 21, 52, .42) 100%); }
+	.tsuki-release-grid { grid-template-columns: 1fr 1fr; }
+	.tsuki-release-grid > div:nth-child(2) { border-right: 1px solid rgba(255,255,255,.12); }
+	.tsuki-release-grid > div:nth-child(-n + 2) { border-bottom: 1px solid rgba(255,255,255,.12); }
+	.tsuki-release-card-grid { grid-template-columns: 1fr 1fr; }
+	.tsuki-play-heading, .tsuki-credits-section { grid-template-columns: 1fr; gap: 46px; }
+}
+
+@media (max-width: 640px) {
+	.mao-site-shell { width: min(100% - 32px, 1180px); }
+	.mao-site-nav { min-height: 74px; }
+	.mao-site-wordmark { font-size: 11px; letter-spacing: .09em; }
+	.mao-site-nav-links { gap: 16px; font-size: 12px; }
+	.mao-site-nav-links a:last-child { display: none; }
+	.tsuki-release-hero-grid { padding-block: 70px 84px; }
+	.tsuki-release-hero h1 { font-size: clamp(54px, 15vw, 82px); }
+	.tsuki-release-dek { font-size: 18px; }
+	.tsuki-release-actions { flex-direction: column; }
+	.mao-site-button { width: 100%; }
+	.tsuki-release-grid, .tsuki-release-card-grid { grid-template-columns: 1fr; }
+	.tsuki-release-grid > div { min-height: 96px; border-right: 1px solid rgba(255,255,255,.12); border-bottom: 1px solid rgba(255,255,255,.12); }
+	.mao-site-section { padding-block: 76px; }
+	.tsuki-play-section > .mao-site-section { padding-top: 60px; }
+	.mao-site-section-heading h2 { font-size: 40px; }
+	.tsuki-release-card { min-height: 132px; padding: 28px 22px; }
+	.tsuki-play-link { grid-template-columns: 44px 1fr; gap: 12px; }
+	.tsuki-play-link > strong { grid-column: 2; justify-self: start; }
+	.tsuki-play-note { grid-template-columns: 1fr; gap: 10px; }
+	.tsuki-credits-section dl > div, .mao-site-footer-inner { grid-template-columns: 1fr; }
+	.mao-site-footer-inner { gap: 30px; }
+}
+
+@media (max-width: 480px) {
+	.mao-site-wordmark { max-width: 72px; line-height: 1.15; }
+	.mao-site-nav-links { gap: 11px; font-size: 11px; }
+}

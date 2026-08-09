@@ -1,0 +1,37 @@
+playstop
+wavestop
+monocro off
+bg "bg/bg_29b",crossfade,800
+play "*1"
+`“Oh—the streetlights came on.”@ One after another, the lamps that had been dark begin to glow.@ Until now the park had only moonlight; this makes it a little brighter.
+\
+ld c,"tachi/ark_t01a",crossfade,400
+`“That woman must have lowered her barrier.@ It was a suggestion that made people unwilling to enter the park, though apparently it had no effect on you.”@ “Hm?@ You mean that power outage was Ciel’s doing?”@
+ld c,"tachi/ark_t03",crossfade,400
+`“Yes.@ Keeping people away is their specialty.@ It has no effect on you or me.”@
+ld c,"tachi/ark_t06",crossfade,400
+`“By the way, Shiki, I want to ask you something.@ What do you think of Ciel?”@ Arcueid springs the question on me in a voice gone suddenly cold.
+\
+`“…@Ciel?@ Why are you asking me that?”@ “No reason.@ I hate that woman.@ We met earlier to exchange information, but the longer we talked, the angrier I got, and eventually we started trying to kill each other.”@ “T-trying to kill each other—why do you say things like that so casually?@ Ciel isn’t a vampire.@ Why would you talk about killing her?”
+\
+ld c,"tachi/ark_t16",crossfade,400
+`“I should be asking you that.@ She was the one who attacked first, I’ll have you know.”@ “—What?”@
+br
+`…@Ciel attacked first?@
+br
+ld c,"tachi/ark_t04",crossfade,400
+`“That’s right.@ She said, ‘I’ve changed my mind.@ I cannot allow you to exist,’ and attacked me without warning.@ She may look mild-mannered, but everyone in the Burial Agency is belligerent.@ Don’t let her deceive you, Shiki.”@ “Wh—”@
+br
+`Belligerent?@ Ciel could never be—
+\
+ld c,"tachi/ark_t07",crossfade,400
+`“Shiki.@ She has been deceiving you all this time, hasn’t she?@ Then why are you taking her side?@ She lied to an ignorant civilian and pretended to be an ordinary person.@ Doesn’t it make you angry that she used you?”@ Arcueid glares at me.@ “…”@ It is true that learning Ciel belonged to the same hidden world as Arcueid came as a shock.@ But I do not feel deceived at all.@ On the contrary, she has saved me again and again.
+\
+`“I—”@ …@Even knowing what she is, she remains someone I look up to.@ I enjoy sharing lunch with her, getting carried away trading stupid jokes with her and Arihiko, and walking with her to the school gate.@ So—if I could have chosen—I would rather never have learned the truth about her.
+\
+ld c,"tachi/ark_t05b",crossfade,400
+`“Shiki.@ Whose side are you on—hers or mine?”@ Her gaze bores into me.@ Arcueid’s eyes are wavering.@ They no longer look human.@ They are emotionless, like the eyes of a predator hunting prey.@ To Arcueid, Ciel is an enemy she can never forgive.@ That is why her stare is so full of hostility.@ It says that if I side with her enemy, then Shiki Tohno becomes her enemy as well.
+\
+`“…@Arcueid…”@ The words catch in my throat.@ I—
+br
+cl c,crossfade,400

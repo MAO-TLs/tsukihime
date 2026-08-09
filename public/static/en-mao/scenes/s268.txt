@@ -1,0 +1,30 @@
+monocro off
+play "*9"
+wavestop
+bg "bg/bg_27b",notrans,0
+`There was no choice now.@ I would have to tell her plainly and make her go home.
+\
+`“Ciel, you don’t need to worry about me.@ Please go home.@ If this keeps up, something terrible is going to happen.”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Oh?@ What sort of terrible thing?”@
+`…@Ciel wasn’t listening to a word I said.@ It passed through her head without leaving so much as a ripple.
+\
+`“Why won’t you listen to me?@ You just said I could do as I pleased!@ So why are you trying to get in my way?”@
+`“You may do exactly as you please, Tohno.@ I’m merely following your example and doing as I please too.”@
+cl c,lshutter,800
+`She said it with a decisive smile, then pattered off ahead of me.
+\
+`“W-wait, Ciel!”@
+ld c,"tachi/cel_t07b",lshutter,400
+`“Yes?@ What is it, Tohno?”@
+`“Don’t ask me that…!@ Is tormenting me really this much fun?”@
+ld c,"tachi/cel_t01b",crossfade,400
+`Ciel beamed.@ …@Apparently tormenting me really was that much fun.
+\
+`“…@Fine.@ I understand that you’re a mean person.@ Now please have mercy on me and stop following.@ If you come any farther, it won’t only be me in danger.@ You’ll be at risk too.”@
+`“Will I?@ I’m not following you, Tohno.”
+\
+`“What?”@
+`“I simply have business at the park.@ I don’t know where you’re going, but if it isn’t the park, this is where we part ways.”
+\
+cl c,crossfade,400

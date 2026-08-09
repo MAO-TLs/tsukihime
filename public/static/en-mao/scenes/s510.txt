@@ -1,0 +1,337 @@
+phase "bg/ima_02",l,cel,09b,10
+bg #000000,notrans,0
+bg "bg/ima_01",crossfade,800
+play "*9"
+`I dreamed I was looking at the moon.
+\
+`I could not remember where I was or why I had raised my eyes to it.@ Perhaps I had simply looked into the night because I could bear to see nothing else, and the moon had happened to be there.
+\
+`My spine creaked.@ An image of cold coursed through my blood.@ Alone in the darkness, I grew dizzy.@ The moon blazed—bright enough to derange the heart.
+\
+`…@Strangely, the cold that should have choked me carried an even stronger air of nostalgia.
+\
+playstop
+bg #ffffff,crossfade,800
+`“Master Shiki.”@ Hisui's call reaches me, mingled with the morning light.@
+br
+`“Master Shiki, it is time.@ Please wake up.”@ Hisui's level voice draws me cleanly into consciousness.
+\
+bg "bg/bg_40e",crossfade,800
+`“…”@
+br
+`The instant I open my eyes, something loathsome enters my vision.@ Pain punches through my temple like a gunshot.@ “Ah—”@ My newly wakened mind loses its footing.@ Before vertigo can take me, I snatch the glasses from beside my pillow.
+\
+bg "bg/bg_40a",crossfade,800
+play "*2"
+ld c,"tachi/his_t01",crossfade,800
+`“Master Shiki…?@ Are you unwell?”@ “…@No, I'm just still tired.@ It'll pass soon, so don't worry.”@ I shake my head, trying to scatter the memory of what I had just seen.@ In the end, failing to find Arcueid last night has left a dark shadow over me.
+\
+`“Good morning, Hisui.@ Thanks for waking me again.”@ Sitting up in bed, I give her the most natural smile I can manage.@
+ld c,"tachi/his_t04",crossfade,400
+`“There is no need to thank me.@ It is my duty.”@ “Maybe, but I’m grateful.@ Waking to your voice feels a hundred times warmer than hearing an alarm clock.”@
+br
+`I rise from bed.@ It is not yet seven—about ten minutes earlier than usual.
+\
+`“Breakfast, right?@ I’ll be there in a minute, so go on ahead.”@ “Certainly.@ I shall await you in the sitting room.”@
+cl c,lshutter,800
+`Hisui bows deeply and leaves.
+\
+`Well, then.@ My body still feels heavy, but not enough to keep me from school.@ Kohaku’s breakfast should restore some of my strength.
+\
+bg #000000,lcartain,800
+bg "bg/bg_34a",lcartain,800
+`The sitting room presents its usual tableau: Akiha seated on the sofa, Hisui waiting by the wall.@
+br
+ld c,"tachi/aki_t04a",lshutter,800
+`“Good morning, Brother.@ Did you sleep well?”@ “…@Morning, Akiha.@ You’re up early again.”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“No, this is my usual hour…@ Brother?”@ For some reason, Akiha looks at me uneasily.@ “What?@ Is there something on my face?”
+\
+ld c,"tachi/aki_t17a",crossfade,400
+`“No, nothing like that…@ but are you truly all right?@ You still look pale.@ If you feel ill, perhaps you should stay home today—”@ “I’m fine.@ It’ll clear up soon, so stop looking so worried.”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“…@Very well.@ If you insist, there is nothing more for me to say.”@
+cl c,crossfade,800
+`Akiha falls silent, plainly unconvinced.
+\
+`“That was easy.@ You hardly ever give in so quickly.@ It’s so unlike you, I feel cheated.”@
+ld l,"tachi/aki_t21",crossfade,400
+`“Hmph.@ I am perfectly reasonable as a rule.@ When I reprimand you, it is because you have done something wrong.@ Please don’t blame your own shortcomings on me.”@ Akiha gives me a sour sidelong look.@ “There you are.@ Now you sound like yourself.@ Morning wouldn’t feel right without Akiha snapping at me, would it, Hisui?”@
+ld r,"tachi/his_t01",crossfade,400
+`“…”@ Whether taken aback by the sudden question or simply unable to find an answer, Hisui remains silent, neither agreeing nor denying it.
+\
+`“See, Akiha?@ Hisui agrees with me.”@ “Don’t be absurd.@ She is only too appalled to answer.”@ Akiha knits her brow and glares at me.@
+ld l,"tachi/aki_t03a",crossfade,400
+`“And another thing—I have been meaning to say this for some time.@ You depend on Hisui far too much.@ You have no evening lessons, so you could easily go to bed early, yet you always sleep late.@ Aren’t you taking advantage of the fact that Hisui never complains?”
+\
+`“What—now you’re making it sound as if I’m causing Hisui trouble!”@
+ld l,"tachi/aki_t18a",crossfade,400
+`“It does not merely sound that way; you are causing her trouble.@ You agree, don’t you, Hisui?”@ “…”@ Hisui still says nothing.@ She merely stands there in silence.
+\
+ld l,"tachi/aki_t03a",crossfade,400
+`“There.@ Hisui says I’m right.”@ “She didn’t say anything!”@
+ld r,"tachi/his_t04",crossfade,400
+`“…”@ Hisui remains silent, but somehow it is the kind of silence that sides with Akiha rather than me.
+\
+`“Ngh…”@ Without my noticing, this has somehow become two against one.
+\
+`“Shiki, breakfast is ready!”@ Kohaku’s voice rings out with impeccable timing.@ “Right, then.@ I’ll go eat.”@ I hurry across the sitting room toward the dining room.
+\
+ld l,"tachi/aki_t02",crossfade,400
+ld r,"tachi/his_t08",crossfade,400
+`“…”@ Somehow, the combined weight of their silent disapproval lands squarely between my shoulder blades.
+\
+bg #000000,lcartain,800
+!w2000
+bg "bg/bg_34a",lcartain,800
+`After breakfast, I return to the sitting room.@ Akiha is gone; only Hisui remains.
+\
+`“What, has Akiha left for school already?”@
+ld c,"tachi/his_t01",crossfade,400
+`“Yes.@ It is nearly time for you to leave as well.”@ “Oh, it’s already twenty past.@ I’d better get ready.”@ Honestly, I still feel far from normal, but surely that will pass in a little while.
+\
+`“Hisui, could you bring my bag down from my room?@ I’m going to wash my face.”@ “Certainly.”@
+cl c,lshutter,800
+bg #000000,lcartain,800
+bg "bg/bg_48a",lcartain,800
+`Once ready, I leave the mansion.@ Hisui carries my bag and accompanies me all the way to the entrance.
+\
+`“I’m off.@ I don’t know exactly when I’ll be back, but I’ll return before dinner.”@
+ld c,"tachi/his_t05",crossfade,400
+`“Yes.@ We shall be waiting.”@ Hisui bows with quiet grace.@ Yet something in her face looks troubled.
+\
+`“Hisui?@ Are you feeling ill?”@ “No.@ It is not me.@ You look unwell, and I cannot decide whether I should let you leave like this.”@ The admission comes reluctantly.
+\
+`“I’m fine.@ I don’t feel great, but my body is only a little heavy.@ Honestly, you and Akiha have both become such worriers.”@ “…@Perhaps.@ If it is only our imagination, nothing would please me more.”
+\
+`“…@All right.@ I'll come home early and rest today.@ Will that satisfy you?@ I promise not to overdo it, so please don't look at me like that.”@ “…@Yes.@ Forgive me, Master Shiki.”@ Hisui looks more anxious than ever.
+\
+`“I’m going.@ I’ll be perfectly well by the time I return, so try not to worry while you wait.”@
+ld c,"tachi/his_t07",crossfade,400
+`“Ah—Master Shiki—”
+\
+bg "bg/ima_03",lcartain,800
+`I shake off Hisui’s appeal and leave the mansion.@ The image of her watching me go, anxious to the very end, stays with me more vividly than it should.
+\
+playstop
+bg "bg/bg_22a",lcartain,800
+play "*3"
+`I set out for school.@ My limbs remain heavy, and I descend the hill with the sensation of wearing someone else’s body.@ Perhaps the exhaustion of the past few days has lodged deep inside me.@ The sluggishness I expected to pass refuses to clear.
+\
+bg #000000,lcartain,800
+bg "bg/bg_01a",lcartain,800
+`Seven fifty in the morning.@ The front gate is crowded with arriving students.@ “Ah.”@ Among the backs passing through, I recognize someone.
+\
+`“…@Ciel.”@ It should have been an utterly ordinary morning sight.@ If not for what I had seen that night—
+bg #000000,lshutter,400
+monocro #ffff00
+bg "event/cel_e04",crossfade,400
+monocro off
+bg "bg/bg_01a",lshutter,400
+`Without that, it truly would have meant nothing at all.@ “…”@ Not knowing what I intended to do, I follow her.
+\
+bg "bg/bg_03a",lcartain,800
+`“Ciel!”@ I call out and stop her.@
+ld c,"tachi/cel_t01a",lshutter,800
+`“Oh, good morning, Tohno.@ It’s unusual to meet you out in the schoolyard.”@ “…@Yeah.@ I saw you ahead of me and ran over.@ There’s…@ something I wanted to ask.”@ I steal a glance at her face.@ “Yes?@ What is it?”@ She gives me her usual gentle smile.
+\
+`“…@Listen, were you near my house three nights ago?@ Wearing something like a black coat, with your skirt billowing out behind you?”@
+ld c,"tachi/cel_t12",crossfade,400
+`“…?@ What are you talking about?”@ “I mean…!@ And—right, those lace-up boots looked incredible on you.@ You were so striking I couldn’t help staring.”
+\
+ld c,"tachi/cel_t05",crossfade,400
+`Ciel tilts her head as if to say, Excuse me?@ After frowning in total bewilderment at whatever nonsense I am spouting, she gives me a flat denial.
+\
+ld c,"tachi/cel_t08",crossfade,400
+`“I’m not sure I understand.@ You’re saying that three nights ago I was near your house, dressed like that?”@ “Yeah.@ That was you, wasn’t it?”@
+ld c,"tachi/cel_t10a",crossfade,400
+`“Of course it wasn’t!@ Tohno, do I really look as though I have that much time to waste?”@
+br
+`Ciel is genuinely angry.@ There is not the faintest hint that she is feigning ignorance or telling a lie.
+\
+`“Ah—no, not at all.@ It’s just that I saw someone who looked like you in the park, so…”@ Ciel sighs.@
+ld c,"tachi/cel_t01a",crossfade,400
+`“Tohno, that was not me.@ I have no taste for dressing that way.”@ “Right.@ I know.@ I only wanted to ask.”
+\
+`…@Once she says it, it does seem obvious.@ Ciel and the figure from that night do not belong together at all.@ She is an ordinary person.@ If she had been there, she would have seen me fighting to the death with a mysterious bandaged man, knife in hand.@ After witnessing something so ghastly, she could never speak to me now as though nothing had changed.
+\
+`“…@Sorry.@ Forget I asked.@ I must have mistaken a stranger for you.”@
+ld c,"tachi/cel_t09",crossfade,400
+`“All right, but…@ did this strange person really look that much like me?”@ “Now that you ask, I’m not sure.@ It was night, and she was far away…@ Wait.”@ Yes, she had been too distant for me even to see her face clearly.@ Then why had I ever thought she resembled Ciel?
+\
+`“…@What was I thinking?@ Maybe I really was out of my mind.”@ I fold my arms, groan, and hang my head.@
+br
+wave se_03
+`Just then, the ten-minute warning bell rings.@ “Oh, hell—we’re going to be late.@ See you later, Ciel!”
+\
+bg #000000,lcartain,800
+bg "bg/bg_06a",lcartain,800
+`I race into the classroom.@ Five minutes before homeroom, it is still buzzing with noise.@ “Arihiko isn’t here.”@ Knowing him, he will probably wander in around second period.
+\
+bg #000000,crossfade,1500
+playstop
+!w1000
+bg "bg/bg_06a",crossfade,800
+wave se_03
+`Lunch break arrives.@ Apparently Arihiko is absent today.@ The class has two absentees: Arihiko Inui and Satsuki Yumizuka.@ Yumizuka has been away for some time, supposedly because her cold took a turn for the worse.
+\
+`“…@Ciel doesn’t look likely to come either.@ Guess I’ll eat alone.”@ I murmur the words absently, although I have no appetite at all.
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_06a",crossfade,400
+`…@What is this?@ I already felt ill this morning, but coming to school seems to have made it worse.@ Nor is it only the heaviness in my body.@ The old scar on my chest prickles—an itching, nagging sensation that will not leave me alone.
+\
+`“…@Maybe I should’ve stayed home.”@ For an instant I see Hisui’s and Akiha’s anxious faces.@ Perhaps this is the price of ignoring Akiha’s plea that I rest for one night and going out to meet Arcueid.@ Simply sitting here exhausts me, while some nameless wrongness keeps gnawing at my senses.
+\
+bg #000000,crossfade,800
+bg "bg/bg_06a",crossfade,800
+`…@Class has begun.@ Which class?@ I cannot remember what subject we have for fifth period today.@
+bg #ffffff,crossfade,400
+wave se_01
+bg "bg/bg_06a",crossfade,400
+br
+`I look at the blackboard and at the chalk marks the teacher is carving across it, but I still cannot tell what lesson this is.@
+bg #ffffff,crossfade,400
+wave se_01
+bg "bg/bg_06a",crossfade,400
+br
+`I cannot read them.@ The letters seem to run together like paint washed through water, dissolving into a shapeless smear.@
+br
+wave se_01
+`“Ugh…”@ Nausea rises.@ The world tilts sickeningly, as though my consciousness itself has caught a disease.
+\
+bg #000000,crossfade,400
+wave se_01
+bg "bg/bg_06a",crossfade,400
+`Click, click.@
+`     Clatter.@
+`          Creak.@
+`               Rattle.@
+bg #000000,crossfade,400
+wave se_01
+bg "bg/bg_06a",crossfade,400
+\
+`Those sounds are plucked one after another.@ Wrongness.@ Where does the misalignment begin?@
+wave se_01
+`Nothing in my body sits right.@ I cannot be still.@ Everything twists with tiny clicks, as though every joint between every bone has slipped slightly out of place.@
+wave se_01
+`Yes—the strain comes from those misaligned joints.@ Shiki Tohno’s body is venting invisible smoke, ready to collapse into pieces at any moment.
+\
+br
+br
+br
+br
+br
+br
+br
+`Click, click.@ Clatter.@ Grind.@ Chatter.
+\
+bg #9c0120,crossfade,400
+wave se_01
+bg "bg/bg_06a",crossfade,400
+bg #000000,crossfade,800
+`The chair crashes beneath me.@ A girl screams.@ I hear the teacher running over.@ I have already lost consciousness completely, yet from somewhere far away I calmly watch myself fall.
+\
+!w3000
+`…@What followed was predictable.@ After fainting from anemia, I was carried to the infirmary and put to bed until I recovered.@ Past seven that evening, after the school’s closing time, my fever was still nearly thirty-eight degrees.@ The nurse called the Tohno residence for someone to collect me, then went home.@
+br
+`And the result was—
+\
+play "*1"
+bg "bg/bg_10c",crossfade,400
+ld c,"tachi/koha_t01b",crossfade,400
+`“Oh!@ Are you all right, Shiki?@ You still have a fever, so please don’t be shy—hold on to my shoulder.”@
+br
+`Well—there you have it.
+\
+`“…@No, I’m fine.@ I can at least walk, so please don’t trouble yourself.”@ I draw away from Kohaku and muster all the bravado I have.@ Having her come to fetch me is embarrassing enough.@ If I make her support me too, I may die of humiliation.
+\
+`“Now, now, you mustn’t push yourself.@ It isn’t your fault that your health is delicate, so you may lean on someone once in a while.@ I won’t tell Miss Akiha or Hisui.@ Just for now, you can rely on me.”@ Still smiling gently, Kohaku takes my hand.
+\
+`“Ah…@ all right.@ Sorry.”@ Conscious of my face blazing red, I meekly obey her.@ She is right: if I keep being stubborn, I may collapse again.
+\
+`“The car is waiting outside, so hold on until we reach it.”@
+cl c,lshutter,800
+`Holding my hand, Kohaku begins to walk.@
+bg #000000,crossfade,400
+bg "bg/bg_10c",crossfade,400
+`“Ah—”@ This is bad.@ Walking alone is enough to make the world spin.@ Barely conscious, I entrust myself to Kohaku and start toward the entrance.
+\
+bg #000000,lcartain,1500
+!w1000
+playstop
+bg "bg/bg_07b",notrans,0
+bg "bg/bg_11c",crossfade,800
+`Wha—at?@ Why am I climbing from the first floor to the second?
+\
+`“Um…@ Kohaku, this is…@ the wrong way.”@ I call to her.@ No answer comes.@ Worse, I can no longer feel her hand.@ I cannot even see her.
+\
+bg #000000,crossfade,400
+bg "bg/bg_11c",crossfade,400
+play "*6"
+`“Kohaku…?”@ I marshal my wavering senses and look around.@ The corridor is deserted.@ Only the moonlight pouring through the windows remains sharply distinct.
+\
+wave se_01
+`“…”@ It comes without warning.@
+wave se_01
+`“Ah—”@ My heart slams once.@ A chill saws vertically up my spine.
+\
+waveloop se_02
+wave se_08
+`Thump.@ Click.@
+br
+wave se_08
+`Thump.@ Click.@
+br
+wave se_08
+`Thump.@ Click.@
+br
+`Thump.@ Click.@ Thump.@ Click.@ Thump.@ Click.@ Click.@ Click.@ Click.
+\
+`Footsteps approach through the darkness.@
+br
+`It is—
+br
+`—like the terror I felt that night.
+\
+`“Kohaku…!”@ I call her name, not to summon help, but in the desperate hope that Kohaku, who was beside me moments ago, will hear the warning and escape.
+\
+`“Kohaku, Kohaku, Kohaku…!”@ My eyes cannot find her anywhere.@ Click—the footsteps are almost upon me.@
+br
+`If nothing else, I want Kohaku to escape this place alive.
+\
+`“It's no use, Shiki.@ That one served its purpose a moment ago.”@ A voice reaches me.@ In the darkness directly ahead stands—
+ld c,"tachi/roa_t07b",crossfade,800
+`—the bandaged man who tried to kill me that night.
+\
+`“Ah—”@ Why?@ I feel as though I know this man’s face intimately.
+\
+`“You truly are cursed with rotten luck.@ Had I known this would happen, I needn’t have waited outside your mansion.”@
+br
+`The footsteps draw closer.@
+br
+`“Ghh…@ ah.”@ I try to move, but my feet only drag uselessly.@ Perhaps all these days of strain have taken their toll.@ At the very end, my body has finally broken down.
+\
+`“I’ll tell you one last thing.@ This place is my lair now.”@
+bg #9c0120,crossfade,800
+`There is a soft sound.@ A knife is in the man’s hand, its silver blade driven unerringly through my heart.
+\
+wavestop
+bg #000000,crossfade,400
+monocro #0000ff
+bg "bg/ima_18",notrans,0
+playstop
+`I hit the floor with a thud.@ My body dies inward from the fingertips.@ One by one, the grapes of my consciousness are crushed until only the stripped branch remains.
+\
+`Throughout that process, while the threads of reason wink out one after another, my eyes remain fixed on the sky.@ There is nowhere else left to look.@
+br
+`A blue moon hangs in the night.@ How stupid.@ Even as I am dying, I find myself enchanted by that perfectly ordinary thing.
+\
+monocro off
+bg #000000,crossfade,1500
+`When was that memory from?@ In a forest like a black veil, on a distant, accursed night, I had looked up at nothing but the moon—
+!w2000
+\
+cl a,notrans,0
+bg "word/end",crossfade,1500
+wait 3000

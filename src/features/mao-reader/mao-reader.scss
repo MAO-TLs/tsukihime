@@ -1,0 +1,99 @@
+/* Tsukihime-only reader host and data-extension styles.
+ * Shared reader/audit presentation lives in mao-reader-template.css. */
+
+.mao-reader-shell {
+	--mao-ink: var(--mao-template-ink);
+	--mao-muted: var(--mao-template-ink-soft);
+	--mao-navy: var(--mao-template-navy);
+	--mao-navy-soft: var(--mao-template-blue);
+	--mao-paper: var(--mao-template-paper);
+	--mao-white: var(--mao-template-white);
+	--mao-line: var(--mao-template-line);
+	--mao-red: var(--mao-template-error);
+	--mao-red-dark: #6f242b;
+	--mao-red-pale: var(--mao-template-error-soft);
+	position: fixed;
+	z-index: 1000;
+	inset: 0;
+	min-width: 320px;
+	overflow-y: auto;
+	background: var(--mao-paper);
+	color: var(--mao-ink);
+	font-family: var(--mao-template-sans);
+	font-size: 16px;
+	isolation: isolate;
+	overscroll-behavior: contain;
+	text-rendering: optimizeLegibility;
+
+	*, *::before, *::after { box-sizing: border-box; }
+	a { color: inherit; text-decoration: none; }
+	button, input, select { color: inherit; font: inherit; }
+	p, h1, h2, h3, h4 { margin-block: 0; }
+	button, a, summary, select, input { -webkit-tap-highlight-color: transparent; }
+	button:focus-visible, a:focus-visible, summary:focus-visible, select:focus-visible, input:focus-visible {
+		outline: 3px solid rgba(37, 134, 225, .32);
+		outline-offset: 2px;
+	}
+}
+
+.mao-reader-header {
+	position: relative;
+	z-index: 3;
+	box-shadow: 0 2px 16px rgba(7, 22, 35, .16);
+}
+
+.mao-reader-main {
+	display: block;
+	min-height: 24rem;
+	background: linear-gradient(180deg, rgba(223, 233, 239, .5), transparent 22rem), var(--mao-paper);
+}
+
+.mao-reader-content { width: auto; height: auto; overflow: visible; }
+.mao-reader-scroll { width: 100%; height: auto; overflow: visible; scroll-behavior: smooth; scroll-padding-top: 1rem; }
+
+.mao-reader-state {
+	display: grid;
+	width: min(100%, 48rem);
+	min-height: 18rem;
+	place-items: center;
+	align-content: center;
+	gap: 1rem;
+	margin: auto;
+	padding: 3rem 1.5rem;
+	text-align: center;
+}
+.mao-reader-state__rule { width: 3rem; height: 2px; background: var(--mao-navy-soft); }
+.mao-reader-state--error { color: var(--mao-red-dark); }
+.mao-reader-state h2 { font: 500 clamp(1.7rem, 4vw, 2.6rem)/1.15 var(--mao-template-serif); }
+.mao-reader-button { padding: .7rem 1.1rem; border: 1px solid var(--mao-navy-soft); background: var(--mao-white); color: var(--mao-navy); font-weight: 750; cursor: pointer; }
+
+.mao-unavailable { color: var(--mao-template-ice-ink); font-family: var(--mao-template-sans); font-size: 12px; font-style: italic; }
+.mao-empty { padding: 80px 28px; color: var(--mao-muted); text-align: center; }
+
+.mao-audit-highlight,
+.mao-audit-inline-highlight {
+	padding: 0 1px;
+	border-radius: 0;
+	background: rgba(164, 60, 67, .1);
+	box-shadow: inset 0 -1px 0 rgba(164, 60, 67, .72);
+	color: inherit;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+.mao-audit-highlight--japanese { background: rgba(164, 60, 67, .08); }
+
+.mao-related-dossiers {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 1px solid var(--mao-line);
+}
+.mao-related-dossiers h3 { margin-bottom: 10px; font-family: var(--mao-template-serif); font-size: 20px; font-weight: 400; }
+.mao-related-dossiers div { display: flex; flex-wrap: wrap; gap: 7px; }
+.mao-related-dossiers button { padding: 7px 9px; border: 1px solid var(--mao-line); background: var(--mao-white); color: var(--mao-navy); cursor: pointer; font-size: 10px; }
+
+.audit-method-note { display: grid; gap: 12px; }
+.audit-dossier h3 > span { margin-right: 7px; color: var(--mao-template-ice-ink); font-family: var(--mao-template-mono); font-size: 10px; vertical-align: .35em; }
+.audit-permalink { padding: 0; border: 0; background: none; cursor: pointer; }
+.audit-dossier-toggle > span:last-child { display: none; }
+.audit-dossier[open] .audit-dossier-toggle > span:first-child { display: none; }
+.audit-dossier[open] .audit-dossier-toggle > span:last-child { display: inline; }

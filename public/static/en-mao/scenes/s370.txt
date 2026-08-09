@@ -1,0 +1,278 @@
+play "*6"
+wavestop
+monocro off
+bg "bg/bg_46c",lshutter,400
+`I reach Akiha’s room.@
+br
+`The vertigo has become almost unbearable.@ I put a hand into my pocket.@ By some last scrap of luck, the knife is there.@
+`“[line=2]”@
+`I bite down on the dizziness, take the knife in one hand, and open the door.
+\
+bg #000000,lcartain,800
+bg "bg/bg_36d",tshutter,800
+playstop
+waveloop se_11
+`Darkness.@
+br
+`Only the moonlight through the window gives the room any shape.@
+`In that blue darkness, Akiha lies collapsed.@
+`“Akiha!”@
+`I rush to her and lift her into my arms.@
+`“…”@
+`Whether unconscious or worse, she does not move.@ Only the faint rise and fall of her chest tells me she is still breathing.
+\
+`No.@ Something else is terribly wrong.@
+`Akiha’s long black hair has turned red as blood.@
+`“Akiha…@ Is that really you?”@
+`Hair that shines red even in darkness.@
+`Yet there can be no mistake.@ This is Akiha.@
+`“Akiha, come on, wake up!@ What happened—”
+\
+wave se_01
+bg #000000,notrans,0
+wait 100
+bg "bg/bg_36d",notrans,0
+`A rustle.@
+br
+waveloop se_11
+`“—!”@
+`I whirl around.@
+`Beside the window, where the moonlight enters—something alien is standing.
+\
+`…@It resembles a human being wrapped from head to foot in bandages.@
+`“Who are you?”@
+`The silhouette does not answer.@
+`A deathly chill pours down my spine, races through the nerve center of my spinal cord, and delivers its message directly into my brain: death.
+\
+`…@The figure is broken simply by existing.@
+`Its bulging eyes are unmistakably deranged, yet intelligence lives inside them.@ The bandaged man seems to possess madness and reason in equal measure.
+\
+wave se_01
+`My heart bucks violently.@
+waveloop se_11
+`My pulse climbs beyond its limits.@ My reason, by contrast, turns cold as a corpse.@
+`This air.@
+`I know this reek of death, this corruption that poisons the air and drains it of strength.@
+br
+`There is no mistake.@
+`This room has become the world of murder I have seen again and again in dreams.
+\
+`“I asked who you are.”@
+`I tighten my grip on the knife and glare.@
+`The bandaged man seems to grin.@
+wavestop
+play "*4"
+`“How sad, Shiki.@ You don’t even remember the man you killed?”@
+`He takes one audible step toward me.@
+`“—!”@
+`I retreat, gathering Akiha against me with one arm.
+\
+`“Don’t you understand, Shiki?@ I’m the man you murdered.”@
+`“What are you—?”@
+`Merely hearing his voice scrapes against my nerves.@
+`I hate him.@ All the hatred I have felt since entering the estate seems to condense and pour itself into this one man.@
+`Is this what a murderous impulse is—the instinct that says he must be eliminated?
+\
+`My heart hammers.@
+`Somewhere beyond my awareness, my body is screaming.@
+`This man.@ This thing.@ It is something I must kill.@
+br
+!w1500
+`“I see.@ You’re the vampire.”@
+br
+`Still holding Akiha with one arm, I raise the knife in the other.
+\
+`The man stifles his laughter, yet the pleasure in it is unmistakable.@
+`“Don’t bother.@ I am you.@ No one can kill himself.”@
+`“What…@did you say?”@
+`“I’ll be taking Akiha back.@ She was mine to begin with.”@
+`Another step.@ He comes closer.
+\
+`“Stop!”@
+`“I will not.@ I came to reclaim everything you stole from me.@ My name, my place, my power—all of it once belonged to me.”@
+`He slowly spreads his arms and makes the declaration with pride.
+\
+`“…@What are you talking about?@ What—what are you?”@
+`“…@You still don’t know?@ How utterly heartless.@ Eight years ago, you and I were such good friends.”@
+`“What—?”@
+br
+`Eight years ago?@
+`We were…@good friends?
+\
+`“…@Well, I suppose it isn’t your fault that you can’t remember.@ Knowing that old bastard, he must have taken great care with the suggestion that made you forget everything.”@
+bg #ffffff,notrans,0
+wait 100
+bg "bg/cmo_05",notrans,0
+wait 100
+bg "bg/bg_36d",notrans,0
+`“And you must have wanted to forget those repulsive memories yourself, didn’t you, Shiki?”@
+br
+`The man laughs.@
+`My vision sways.@
+`Eight years ago.@ Eight years ago.@ Eight years ago—
+\
+`When an accident sent me to the hospital.@
+`When the three of us played together at the Tohno estate for the last time.@
+`When a boy lay drenched in blood in that courtyard.
+\
+`“But that ends now.@ It has been painful, hasn’t it, Shiki?@ Wait there.@ I’ll put you out of your misery soon.”@
+`The man slowly unwinds the bandages from his face.@
+`The face beneath them is—
+br
+`“You…”@
+ld c,"tachi/hal_t01",crossfade,800
+`“It has been a long time, Shiki Tohno.@ No—that was never your real name, was it?”@
+`The face emerging from the bandages is not that blood-soaked boy.
+\
+`“Tohno—SHIKI.”@
+`Of course.@ How could I have forgotten?@
+`The other child who was always with Akiha—the third of us—had borne that name.
+\
+`“Yes.@ It has been a very long time, Shiki Nanaya.@ At last, it seems you remember that you are the impostor.”@
+`The man—SHIKI—pulls his lips into a smile of unalloyed delight.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_36d",notrans,0
+`“Ah—”@
+`Pain.@ My head is splitting.@
+`The lid opens.@
+`The thing sealed so tightly—by whom?@
+`The thing I must never see—see what?@
+`A box with oblivion recorded inside.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_36d",notrans,0
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg #000000,notrans,0
+playstop
+play "*9"
+bg "bg/cmo_05",crossfade,800
+br
+br
+br
+br
+br
+br
+br
+`I was ordered to forget it all.
+\
+`Makihisa Tohno.@
+`The man who left me all alone took Shiki Nanaya into his family.@
+`Perhaps he found it amusing that his son and I happened to share the same given name.
+\
+`It happened ten years ago now.@
+`I was adopted.@
+`Brought to an estate I had never seen.@
+`Given a family who were always, always strangers.@
+`Made to live in the detached house.@
+`There I met a boy and a girl.@
+`The three of us raced through the vast garden.@
+`A hot summer day.@
+`Akiha attacked by a terrifying shadow.@
+`The moment I could think of nothing but saving her and threw my own body in the way.
+\
+br
+br
+br
+br
+br
+br
+br
+`I was ordered to forget all of it.
+\
+br
+br
+br
+br
+br
+br
+br
+br
+br
+`By Makihisa Tohno.@
+`By my father.@
+`Ordered that from that moment on, I would no longer live as Shiki Nanaya, but as Shiki Tohno.
+\
+bg #000000,crossfade,800
+playstop
+!w2000
+play "*4"
+bg "bg/bg_36d",crossfade,800
+`“—…!”@
+`Vertigo.@ Nausea.@
+`Confused memories ricochet through my skull.@
+br
+`A heavy thud.@
+`My body will no longer obey me.@ I let Akiha tumble from my arms onto the floor, wheezing helplessly as I clutch the knife against myself.
+\
+ld c,"tachi/hal_t03",crossfade,400
+`“In shock?@ Of course you are.@ After all these years believing yourself to be Shiki Tohno, discovering you’re an impostor must be quite a blow!”@
+`SHIKI laughs.@
+ld c,"tachi/hal_t02",crossfade,400
+`“But compared to what I suffered, that is nothing.@
+`You killed me, Shiki—you, whom I thought was my dearest friend.@ You stole even the name Shiki Tohno.@ Then you took Akiha—my Akiha—from me!@ Can you understand that humiliation?”@
+`“Killed…@you?@ I killed you…?”
+\
+ld c,"tachi/hal_t01",crossfade,400
+`“Yes.@ Granted, I killed you first, but in the end, you killed me.@
+`Do you still not remember that day eight years ago?@ My own blood overcame me, and I murdered you.@ Look at the scar on your chest.@ I drove this arm straight through you, didn’t I?”@
+`“The scar…@on my chest…”@
+`I had always been told it came from an accident—some terrible accident I was caught in.
+\
+`“That’s right.@ Though afterward, Father nearly killed me too.@
+`The Tohno blood in me had finally awakened, and for that I was locked in an underground cell and left in darkness for eight years.@
+`That filthy bastard promised to release me if he could turn my Tohno body human again.@ In the meantime, having no Shiki Tohno would be inconvenient, so he fashioned you—the adopted child—into my replacement.”
+\
+`“[line=2]”@
+`Then the adopted child who arrived ten years ago was none other than me.
+\
+ld c,"tachi/hal_t02",crossfade,400
+`“Do you understand, Shiki?@ You killed me.@
+`I remain alive, yet you exist as Shiki Tohno.@ There is nowhere left for me to return to.@
+`You stole the name Shiki Tohno, my place in this family, my beloved sister—even my reason for being.@
+`SHIKI Tohno was murdered by the Shiki Tohno you became.”@
+br
+`One step.@
+`Eyes bright with murderous intent, SHIKI advances.
+\
+ld c,"tachi/hal_t03",crossfade,400
+`“There.@ Our story is finished.@ You were supposed to die eight years ago, Shiki.@ You’ve had more than enough borrowed time.@ Let us restore the proper order of things.”@
+`“The proper…@order…?”@
+`“Yes.@ I will become Shiki Tohno once more, and you will go back to being dead!”
+\
+cl c,lcartain,400
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_36d",notrans,0
+quakey 2,100
+bg #000000,lshutter,400
+bg "bg/bg_46c",lshutter,400
+`A crushing impact.@
+`One blow from SHIKI hurls me through the doorway and into the hall.@
+`“Ah—”@
+`My back slams against the wall.@ I can’t breathe.@ My mind is still locked in chaos, refusing to move.
+\
+`“Ghh—”@
+`His presence closes in.@
+`SHIKI bursts out of Akiha’s room.@
+bg #ffffff,notrans,0
+bg "bg/ima_14",crossfade,400
+wave se_12
+`“Tch—!”@
+`SHIKI snarls.@
+`He carries a knife as well.@ The blade I thrust out by reflex catches his, and the two lock together.
+\
+bg #000000,lshutter,400
+playstop
+`“Hah…@hah…@hah…”@
+`My breath comes ragged.@ The nausea will not stop.@
+`Even so, there is no time left for hesitation.@
+br
+`I—
+\

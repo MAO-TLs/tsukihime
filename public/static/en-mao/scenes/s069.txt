@@ -1,0 +1,135 @@
+phase "bg/bg_20a",r,ark,03a,3
+bg #ffffff,crossfade,400
+!w1000
+bg "bg/bg_40a",crossfade,800
+play "*2"
+`When I came to, it was morning.@ The rain seemed to have stopped; its steady drumming was gone.@ The sky outside remained overcast, and the sunlight through the window was dim.@
+br
+`“Haaah…”@
+br
+`With a long sigh, I sat up in bed.@ I had slept poorly.@ Each time I began to drift off, that scene returned to me, and I woke again at once.
+\
+`“…@A floor soaked red, and arms and legs in pieces…”@ Reason and memory were badly designed for moments like this.@ They insisted on preserving the very things I most wanted to forget.
+\
+`“It was only a dream.@ How long am I going to let it torment me?”@ Yes, only a dream.@ I needed to forget it, and quickly.@
+br
+`Knock, knock.@
+br
+`Someone knocked at the door.@ The clock showed a little after six.@ Who could possibly be here this early?
+\
+ld c,"tachi/his_t01",lshutter,400
+`「[line=3]失礼します」
+ld c,"tachi/his_t04",crossfade,400
+`“Master Shiki…@ you are awake?”@
+`“Yeah.@ I’d been asleep since yesterday evening, so I woke up early.@ What about you, Hisui?@ Is something happening this early?”
+\
+ld c,"tachi/his_t05",crossfade,400
+`“…”@ Hisui fell silent.@ Looking closer, I noticed my school uniform in her hands.@ “Oh, you brought me something to change into.”@ “Yes.@ Forgive me for letting you see me in such an unseemly state.”@ “?”@ Hisui closed her mouth again.@ I had no idea what part of her behavior she considered unseemly.
+\
+`“I don’t really understand, but thanks.@ Leave the clothes there.@ I’ll change and come down to the sitting room.”@ Hisui nodded.@ “Then please excuse me.”@
+cl c,lshutter,800
+\
+`Hisui walked soundlessly away, then abruptly turned back.@
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki…@ if time permits, I could prepare a bath for you.”@
+`“A bath?@ This early?”@
+`“Yes.@ You are extremely dirty.@ I believe you should wash before leaving for school.”@ As expressionless as ever, Hisui delivered this judgment in a perfectly even voice.
+\
+`Now that she mentioned it, I was filthy.@ I had apparently collapsed in a park yesterday, so that was hardly surprising.@
+br
+`“All right.@ Sorry, but would you prepare it?@ At this hour I’ll still have plenty of time to reach school.”@ “Certainly.@ Please come to the bathroom in approximately twenty minutes.”
+\
+cl c,crossfade,800
+`Hisui set down the uniform and left my room.@
+br
+`It was still only six.@ With nothing else to do, I spent twenty minutes staring blankly at the ceiling.
+\
+bg #000000,crossfade,800
+`Once I was in the bath and poured water over my head, I felt a little clearer.@ Letting the cold water soak my hair, I released a long breath.@
+br
+`What a vile dream.@ Something had to be wrong with me if I could dream of murdering a beautiful girl I had never met.@ If one day of life in an unfamiliar mansion was enough to produce that, I dreaded what the future held.
+\
+`“I really need to pull myself together.”@ I poured cold water over my head once more, then began washing.@ “Ow…”@ The slightest touch of the towel sent pain through my throat.@ “What is this?”@ I examined my neck in the mirror.@ My throat was red and badly swollen, as though repeated vomiting had torn it raw.
+\
+bg "bg/bg_40a",lcartain,1500
+`Back in my room, I changed into my uniform.@ It had only just passed seven.@ Almost annoyed at how much better the bath had made me feel, I picked up my bag and left.
+\
+bg #000000,lcartain,800
+bg "bg/bg_33a",lcartain,800
+`As I came downstairs, Kohaku emerged from the sitting room.@
+ld c,"tachi/koha_t02",lshutter,400
+`“Good morning, Shiki.@ You’re up early today.”@ Kohaku bowed with her usual smile.@ “You look wonderfully refreshed too.@ Have you just had a bath?”@ “Yeah, I just got out.@ That’s impressive, Kohaku.@ Can you really tell?”
+\
+ld c,"tachi/koha_t05",crossfade,400
+`“It’s obvious.@ Your hair still isn’t completely dry.@ You look rather adorable just out of the bath, Shiki.”@ Faced with her innocent smile, I glanced away in embarrassment.
+\
+ld c,"tachi/koha_t01a",crossfade,400
+`“Please wait a moment.@ I’ll start preparing breakfast now.”@
+cl c,crossfade,400
+`“What—?”@ Breakfast.@ Meaning, in other words, something I would have to eat.@
+bg #9c0120,crossfade,400
+bg "bg/bg_33a",crossfade,400
+br
+`That harmless word recalled the color of blood.@ At the moment, I had very little appetite.
+\
+ld c,"tachi/koha_t01a",crossfade,400
+`“A Western breakfast again today will be fine, won’t it?”@
+`“Yeah, either kind is fine.@ Right—breakfast.@ The bath felt so good I forgot.”@
+`“Really?@ You didn’t eat last night either, so Hisui and I wondered if your growling stomach had awakened you.”@
+`“Sorry, wrong answer.@ I’ve always eaten very little.@ Even as a child, I often skipped a meal or two.”
+\
+`“I see.@ Now that you mention it, you do have a fine, lean body.@ Are you perhaps a vegetarian?”@ “I’m not sure.@ I suppose I mostly ate vegetables at the Arimas’.”@ That had been the doctor’s prescribed diet after I left the hospital.@ “So you aren’t particular about food.@ That makes cooking for you much easier.@ I’ll have it ready at once, so please wait in the sitting room.”@ Kohaku bustled back toward the sitting room.@
+br
+`But I had almost no appetite.
+\
+`“No, it’s all right, Kohaku.@ I don’t feel like eating today, so I’ll go straight to school.@ Tell Akiha for me.”@ I started toward the entrance—and suddenly a hand clamped around my arm.@
+ld c,"tachi/koha_t04",crossfade,400
+`“Shiki!”@
+`“What?”@ It was unbelievable.@ Kohaku was angry.
+\
+`“How can you say that?@ Haven’t you looked in a mirror this morning?”@
+`“I did, in the bathroom…”@
+`“No, you didn’t!@ If you had looked at your face even once, you could never say such a thing.”@ Kohaku was genuinely furious.@ Come to think of it, my face in the bathroom mirror had looked beyond pale—almost gray.
+\
+`“I’m fine.@ I’ve never had much color, so I only look paler than other people.”@ “No.@ You’ll never grow if you skip breakfast!@ If you have no appetite, I’ll make you something light, so please come to the dining room.”@ Still gripping my arm, Kohaku marched me forcefully toward the sitting room.@
+cl c,rshutter,400
+br
+`There was no helping it.@ I truly had no desire to eat, but I would accept her kindness.
+\
+bg #000000,lcartain,800
+bg "bg/bg_34a",lcartain,800
+ld c,"tachi/aki_t12a",lshutter,400
+`“Good morning, Brother.@ Are you feeling well?”@ Akiha’s greeting was uncharacteristically hesitant.@ Her usual strength was absent, presumably because she really was worried about me.@ “Morning.@ I feel well enough.”@
+cl c,crossfade,400
+`I returned her greeting and started toward the dining room.
+\
+ld c,"tachi/koha_t02",notrans,0
+`“Oh, please wait here, Shiki.@ I’ll call you when it’s ready.”@
+cl c,notrans,0
+`Kohaku disappeared into the dining room alone.@ That left three of us in the sitting room: me, a subdued Akiha, and Hisui standing expressionlessly by the wall.
+\
+`“…”@ This was awkward.@
+ld c,"tachi/aki_t01a",crossfade,400
+`“Brother, about last night—is it true that you collapsed in the park?”@ “Apparently.@ I barely remember it myself, but if Kohaku and Hisui say so, I suppose it is.”
+\
+ld c,"tachi/aki_t03a",crossfade,400
+`“Please don’t speak as though it happened to someone else.@ You’re in poor health, Brother.@ If you sense danger, call the mansion and I’ll send someone to collect you at once.”@ “I’m not a grade-schooler, Akiha.@ That isn’t necessary.@ However ill I feel, I can make it home by myself.”
+\
+`“Then you must still be a child, Brother, because yesterday you could not make it home alone.”@ “Urk.”@
+br
+`Infuriatingly, Akiha was right.@
+br
+`“Yesterday was exceptional.@ That almost never happens.@ I only have chronic anemia; I’m not frail.@ You don’t need to worry over every little thing.@ Yesterday was simply…@ how should I put it…@ fatally bad timing.”
+\
+`“Fatal?@ Don’t be ridiculous, Brother!@ You only just came home.@ What am I supposed to do if you die…?”@ Akiha was truly angry.@
+ld c,"tachi/aki_t21",crossfade,400
+`“You’re far too careless, Brother.@ Please take better care of yourself.”@ “What else can I do?@ I don’t push myself, I don’t belong to a sports club, and I obey everything my doctor says.@ If you want me to be even more careful, I’ll have to check into a sanatorium.”
+\
+ld c,"tachi/aki_t02",crossfade,400
+`“If I could, I would put you in one myself.”@ Akiha looked away in a huff after making that terrifying declaration.@
+cl c,crossfade,400
+br
+`Perhaps satisfied at having spoken her mind, Akiha began sipping her tea with renewed elegance.@ Hisui merely stood against the wall like a statue.
+\
+`“…”@ Conversation was proving difficult, and breakfast would not be ready for a while.@ Perhaps I should—
+\

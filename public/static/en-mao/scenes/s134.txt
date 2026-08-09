@@ -1,0 +1,35 @@
+monocro off
+play "*3"
+wavestop
+bg "bg/bg_11a",notrans,0
+ld c,"tachi/cel_t07a",crossfade,400
+`“—Ah.”@ With her looking straight at me, I couldn’t help remembering last night’s dream.@ “Tohno?@ What’s wrong?@ Your face is red.”@ “N-nothing.@ I just had a bad dream this morning, so I’m not feeling great.”@ At least I had not lied and called the dream itself unpleasant.@ Honest to a fault—that was me.
+\
+`“……@Tohno?”@ Her expression grave, she continued to stare.@ “Um…?”@ I faltered.@ It felt as though she could read my mind, which only brought the dream back more vividly.@
+ld c,"tachi/cel_t12",crossfade,400
+`“You just said you had a bad dream.@ What exactly did you mean?”@ “It doesn’t mean anything, and it’s none of your business!@ Forget my dreams—I asked what you were doing here.”
+\
+ld c,"tachi/cel_t08",crossfade,400
+`“It is my business!@ You didn’t sleep properly last night, did you?”@ “What?”@ She was right, but— “How could you possibly know that?”@
+ld c,"tachi/cel_t12",crossfade,400
+`“Because your face is bright red.@ I don’t know what illness you have, but you clearly aren’t well.”@ “Oh…@ that’s what you meant.”@ For a moment she had given me a terrible shock.@ When she guessed what had happened last night, I had almost believed—impossible though it was—that she knew.
+\
+ld c,"tachi/cel_t07a",crossfade,400
+`“Never mind that.@ Tell me about your dream.@ What happened?”@ So she had not given up.@ “Honestly, it was nothing important.@ You just…@ appeared in it for a little while.@ That’s all.”@
+br
+`I mumbled the answer under my breath.@
+br
+`The instant I did—
+ld c,"tachi/cel_t10d",crossfade,400
+`“I-I was in it?”@ For once, her reaction was impossible to miss.
+\
+`“Um…@ Ciel?”@
+ld c,"tachi/cel_t09b",crossfade,400
+`“……”@ She darted a step away, then stared up at me from beneath her lashes.@ “……”@
+cl c,lshutter,800
+`After looking as though she desperately wanted to say something, she gave me a quick bow and ran away.
+\
+`“……?”@ I tilted my head.@ A moment later, the warning bell for homeroom rang.
+\
+bg #000000,crossfade,800
+!w1000

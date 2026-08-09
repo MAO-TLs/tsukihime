@@ -1,0 +1,57 @@
+phase "bg/bg_22b",r,ark,02a,2
+bg #ffffff,crossfade,400
+!w2000
+`“Good morning.”@
+br
+`……@An unfamiliar voice.@ My dream drained rapidly away as the voice called me back to reality.
+\
+`“It is morning.@ Time to wake up, Master Shiki.”@
+br
+`That unfamiliar voice again.@ ……@Could she please stop with the Master Shiki?@ I told her yesterday that hearing it gave me chills—
+\
+bg "bg/bg_40a",crossfade,800
+ld c,"tachi/his_t01",lshutter,400
+play "*2"
+`My eyes opened.@ Hisui stood well away from the bed, motionless as a statue.@ “Mmm……”@ I peered around through half-awake eyes.@
+ld c,"tachi/his_t16",crossfade,400
+`“Good morning, Master Shiki.”@ The girl in the maid uniform bowed.@ For one moment I doubted my eyes, and then at last remembered the present circumstances of Shiki Tohno.
+\
+`“……@That’s right.@ I came back home.”@ I sat up and surveyed the room.@
+cl c,crossfade,400
+`The weather outside was beautiful.@ The sky was the same boundless blue I had seen in my dream.@ “Good morning, Hisui.@ Thanks for going to the trouble of waking me.”@
+ld c,"tachi/his_t01",lshutter,400
+`“Your thanks are unnecessary.@ Waking Master Shiki is one of my duties.”@ Hisui answered evenly, without the slightest change of expression.
+\
+`“……@Honestly, Hisui, why do you have to be so stiff?”@ It really was a waste.@ If she were even half as cheerful as Kohaku, she would be incredibly cute.@ “Master Shiki, do you require something?”@ Perhaps she had noticed me staring.@ Hisui met my eyes directly.
+\
+`“Oh, no, nothing.@ Seeing your face first thing when I woke up simply made it sink in that I’m back at the Tohno estate—”@ Hisui’s eyes were cold as ice.@ They looked exactly like the eyes from the dream I had been having moments ago— “……@I see.”@ The memory returned in full.@ The girl who gave me the ribbon as I left that day was the one who had always watched us from the window.@ Which meant— “It was you…@ Hisui.”
+\
+`“Yes?@ Did you say something, Master Shiki?”@ “Hisui…@ do you remember the day I left here eight years ago?”@ “Yes, I remember it.@ What of it?”@ “What do you mean, what of it?”@ “My apologies, but eight years have passed since you departed the estate.@ If you ask me about those days, I cannot answer in precise detail.”@ “What—”@ Did that mean she had forgotten the promise we made?
+\
+`“Hisui—don’t you remember the ribbon?”@
+ld c,"tachi/his_t23",crossfade,400
+`“……@A ribbon…?”@ Hisui lowered her head as though the answer were difficult to give.@ “Yes,”@ she said firmly.@ “……@I see.@ Of course.@ It was eight years ago.@ Sorry—it’s nothing.@ Forget I asked.”@
+ld c,"tachi/his_t04",crossfade,400
+`“……”
+\
+`……@The promise had been forgotten.@ Yet I could not bring myself to resent her.@ We had only been children, and it remained true that the promise had given me the strength to face my new life.
+\
+`“Well, time to get up.@ Hisui, do you know what time it is?”@
+ld c,"tachi/his_t01",crossfade,400
+`“Yes.@ It is shortly after seven.”@ “Okay, then I have a little time to spare.”@ I stretched and rose from the bed.
+\
+ld c,"tachi/his_t23",crossfade,400
+`“Forgive me, but there is very little time.@ It takes approximately thirty minutes to walk from the estate to your school, so you must finish breakfast within the next twenty.”@ “What—that’s right, this isn’t the Arima house!”@ I froze in horror.@ From the familiar Arima home I could reach school in twenty minutes, but from here I did not even know the shortcuts.
+\
+ld c,"tachi/his_t16",crossfade,400
+`“Your school uniform is folded over there.@ Please come to the sitting room once you have dressed.”@
+cl c,lshutter,800
+`“Damn it, if she was going to wake me, she could at least have done it earlier…!”@ Muttering this thoroughly selfish complaint, I reached for my folded uniform.@ It had been arranged perfectly, and even the shirt was freshly pressed.@ Sliding my arms into the sleeves felt almost as good as putting on something new.
+\
+bg #000000,lshutter,800
+bg "bg/bg_34a",lcartain,400
+ld l,"tachi/aki_t01a",crossfade,400
+ld r,"tachi/koha_t01a",crossfade,400
+`Akiha and Kohaku were relaxing in the sitting room.@ Akiha’s uniform must belong to Asagami Girls’ Academy, that famous school for well-bred young ladies.@ They had evidently finished breakfast long ago and were now sipping tea with infuriating elegance.
+\
+cl a,crossfade,800

@@ -1,0 +1,55 @@
+monocro off
+play "*2"
+wavestop
+bg "bg/bg_33a",notrans,0
+`“Yeah…@ that’s probably best.”@ There is no point trying to explain inhuman beings like Arcueid and Nrvnqsr.@ If I can’t tell the truth, the least I can do is apologize honestly.@
+br
+`“All right.@ Here goes.”@ I draw one deep breath and open the door to the sitting room.
+\
+bg "bg/bg_34a",lcartain,800
+`Akiha is waiting on the sofa, while Hisui stands against the wall.@
+ld c,"tachi/aki_t01a",notrans,0
+`“Good morning, Brother.”@ Akiha fixes me with a glare that all but declares, I am furious.@ “Um, well…@ good morning, Akiha.”@ “We can dispense with the greetings.@ Sit there, please.@ I have something to discuss with you.”@
+cl c,notrans,0
+`“…”@ Something in Akiha’s voice brooks no refusal.@ Meek as a lamb, I lower myself onto the sofa opposite her.
+\
+ld c,"tachi/aki_t01a",crossfade,400
+`“Brother.@ Shall we begin with an account of where you were the day before yesterday and yesterday?”@ “Urgh—”@ She phrases it as a courteous request, but make no mistake: this is a threat.@ Unfortunately, her big brother cannot possibly tell his little sister any of that.@
+br
+`“About that, Akiha…”@ “Yes?”@ “I’m sorry, but I can’t explain the circumstances.”@
+cl c,notrans,0
+\
+`Crash.@ Akiha’s teacup drops onto the table.@ No—saying she deliberately slammed it down would be closer to the truth.
+\
+ld l,"tachi/his_t01",crossfade,400
+`“Please, Miss Akiha—”@
+ld r,"tachi/aki_t04a",crossfade,400
+`“Oh, I’m sorry, Hisui.@ Would you clean that up at once?”@
+cl a,crossfade,400
+`Without a word, Hisui clears away the spilled tea and the broken—and very expensive-looking—teacup.@
+br
+`I watch awkwardly under Akiha’s glare.@ Once she has finished, Hisui carries everything into the kitchen.
+\
+ld c,"tachi/aki_t03a",crossfade,400
+`“Now then, Brother.”@ “…@What?”@ “May I ask you once more?”@ Akiha has not given up.@ I can feel her determination to drag the story out of me by sheer force.@ Even so, I still can’t tell her.@ Partly for my own sake—but also because Akiha should never be burdened with any of this.
+\
+`“No.@ Ask as many times as you want; I can’t tell you.@ I’m sorry I’ve made you worry for nothing, Akiha.@ But some things simply can’t be said.”@
+ld c,"tachi/aki_t02",crossfade,400
+`“You feel sorry, and yet you still refuse to tell me?”@ “That’s right.@ I’m sorry I didn’t contact you, and I’m sorry I can’t explain.@ But I did nothing wrong during those two days.@ I don’t want to believe that what happened was a mistake.”@
+cl c,crossfade,400
+\
+`Yes.@ Those two days were filled with nothing but killing and nearly being killed, yet I want to believe that what we did was right.@
+br
+`Helping Arcueid was part of it, but more than anything—I do not regret killing that man-eating monster.@
+br
+`At the very least, no one else in this city will be drained of blood and murdered.
+\
+`“I’m sorry, Akiha.@ I know I’ve caused trouble, but please don’t ask me anything more.”@
+ld c,"tachi/aki_t01a",crossfade,400
+`“…”@ Akiha stares into my eyes.@ The suffocating silence continues for some time.
+\
+`“Very well.@ Now that I consider it, you must have circumstances of your own, and it isn’t my place to pry too deeply into them.”@ “I’m sorry.@ It helps to hear you say that.”@
+ld c,"tachi/aki_t03a",crossfade,400
+`“…”
+\
+cl c,crossfade,400

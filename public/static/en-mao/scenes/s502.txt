@@ -1,0 +1,147 @@
+bg "bg/bg_01b",lcartain,800
+`With nothing else to do, I left school early.@ …@Come to think of it, I hadn’t gone home through the front gate since the entrance ceremony.@ “So this is going to be my route home from now on…”
+\
+bg #000000,lcartain,800
+bg "bg/bg_24b",lcartain,800
+`Beyond the front gate, I reached the intersection leading into the residential district.@ One road led downtown; the other toward the neighborhood where the mansion stood—but before I could choose—
+br
+play "*3"
+ld c,"tachi/stk_t01",lshutter,800
+`“Oh, it’s Tohno.”@ I had run straight into Yumizuka.@ “Oh, it’s Yumizuka.”@ She was staring at me with her eyes wide, so I made mine just as round.
+\
+`“Um, Yumizuka?@ Is there something on my face?”@ “I was wondering why you were here.@ Your house is in the opposite direction, isn’t it?”@ “Ah…@ It was until yesterday.@ Starting today, I’ll be living over there—in the house on the hill beyond the residential district.”@
+ld c,"tachi/stk_t07",crossfade,400
+`“Oh, so that’s what you were talking about this morning.”@ Understanding dawned, and Yumizuka clapped her hands together.@ …@Flattery aside, little gestures like that really were charming.
+\
+`“…@That’s right.@ You already know, so there’s no point hiding it from you.@ As of today, I’m leaving the Arimas, who took me in, and moving back to my birth family’s home.”@
+ld c,"tachi/stk_t13",crossfade,400
+`“Your family home…@ You mean the Tohno mansion?”@ “Yes.@ I know I hardly look as though I belong there.”@
+ld c,"tachi/stk_t01",crossfade,400
+`“Of course—you’re really the prince on the hill.@ It used to be a secret only Inui and I knew, but I suppose everyone will find out soon now.”@ With a faint smile, Yumizuka let her gaze drift into the distance—beyond the sky, as though she could see the Tohno mansion high on its faraway hill.
+\
+`“But will you be all right?@ It may be your own home, but you’ve been away for eight years.@ Aren’t you…@ scared, or uneasy?”@ “I am uneasy, to tell the truth.@ I never liked that mansion to begin with, and now it feels like someone else’s house.@ Even so—”@
+br
+`…@I couldn’t leave my little sister Akiha there alone while I went on living comfortably elsewhere.@ However uneasy I might be, I had to return to the mansion.
+\
+`“—It is still my home.@ Going back there feels like the natural thing to do.”@ “…@I see.@ Oh, I’m sorry I stopped you.@ You’re in a hurry, aren’t you?”@ “Not at all.@ I don’t have anywhere else to be.@ I was planning to take my time and treat the walk home like a stroll.”@ “Oh—so you’re not.”@
+cl a,crossfade,400
+`For some reason, Yumizuka lowered her head and fell silent.
+\
+`“…@Yumizuka?@ What’s wrong?@ Are you feeling sick?”@ I asked, but she kept staring at the ground and would not raise her face.@ “……”@ I couldn’t simply leave her there, so I waited and watched her closely.@
+br
+`And then—
+\
+ld c,"tachi/stk_t07",crossfade,400
+`“U-um!”@ “Yes?”@ “Well…@ my house and yours are in the same direction until the road reaches the hill…”@ “Really?@ Then why don’t we walk together that far?”@ “What?”@ Yumizuka’s eyes went round.@ She stood frozen for several moments, then—
+ld c,"tachi/stk_t03",crossfade,400
+`“Y-yes—of course!@ If we’re going the same way, there’s nothing strange about walking together part of it!”@ Her voice had become remarkably buoyant as she hurried to my side.
+\
+`“Perfect timing.@ I don’t know these streets very well, so would you show me the way?”@
+ld c,"tachi/stk_t07",crossfade,400
+`“Of course.@ Let’s go this way—there’s a back way to the hill.”
+\
+cl a,crossfade,400
+bg #000000,lcartain,800
+bg "bg/bg_23b",lcartain,800
+`—And so I walked home, talking with Yumizuka along the way.@
+br
+`There was nothing remarkable about our conversation, but it was easy and pleasant.@ Satsuki Yumizuka had a gentle air about her.@ She seemed like the sort of person whose company put you at ease.
+\
+ld c,"tachi/stk_t03",crossfade,400
+`“Hee hee.”@ In the middle of our conversation, Yumizuka suddenly laughed as though something had just occurred to her.@ “What was that for?@ Did I say something funny?”@ “No.@ I was only thinking that starting tomorrow, you and I will take the same route to school.”@ She looked genuinely delighted.@ Her smile was so artless that merely seeing it made me happy too.
+\
+cl a,crossfade,400
+`…@I had never noticed before, but there was no need to weigh her looks or her mannerisms.@ Satsuki Yumizuka was simply cute.@ For the first time, I began to understand why the boys in our class had always been so taken with her.
+\
+`The conversation lapsed.@ I had become absorbed in Yumizuka’s smile, and she had stopped talking.@ We walked together in silence through the residential streets at dusk.@ Then, without warning—
+\
+playstop
+bg "event/stk_e03",crossfade,800
+br
+`“Do you remember winter break in our second year of middle school?”@
+br
+`Yumizuka murmured the question.@ “—?”@ I tilted my head.@ Winter break in our second year was when I felt so uncomfortable at the Arimas’ that I deliberately signed up for extra lessons and lingered at school.@ I remembered the period well enough, but I had no idea why she was asking about it.
+\
+`“I knew it.@ Knowing you, I was sure you wouldn’t remember.”@ Yumizuka’s shoulders sagged.
+\
+`“Remember how our middle school had two equipment sheds?@ There was the new one for the big sports clubs, and the old one that smaller clubs like badminton used.@ The old shed was the problem.@ The door never fitted properly, and it got stuck all the time.”
+\
+`The old shed…@ That little concrete building behind the gym?
+\
+`“Oh, that shed.@ They stopped using it after a student was locked inside once.”@ “Exactly.@ That student was a second-year in the badminton club.”@ “Oh…”@
+br
+`Yes.@ It had happened just as she said.
+\
+playstop
+play "*7"
+bg #000000,tshutter,800
+monocro #0000ff
+bg "bg/ima_06",bshutter,800
+`It was a bitterly cold day just after the New Year.@ Once the first three days of the holiday were over, I had grown uncomfortable at the Arimas’ and volunteered for extra lessons and odd jobs that would keep me at school.@ But even that only lasted until around five.@ Darkness had fallen, and the remaining teachers were leaving, so they chased me out of the classroom.
+\
+`It was the dead of winter.@ After five in the evening, the grounds were already dark.@ Snow had been forecast that day, if I remember correctly, and the cold was especially fierce.@ I had decided that, for once, I should go straight home when I heard a furious banging from the old shed behind the school and went to investigate.
+\
+`—Is somebody in there?@
+br
+`When I called out, several girls answered from inside.@ They had been putting their club equipment away.@ A cold wind had been blowing through the doorway, so they closed it; then it refused to open again.@ They had already been trapped for two hours.@ Nothing they tried would budge the door, and they begged me to find a teacher and get them out.
+\
+`…@But all the teachers had gone home, and even if I called one back, the girls would remain trapped for another hour.@ The cold that day was vicious.@ It was strange that snow had not begun to fall.@ The girls had already spent two hours shut in there wearing only their gym clothes; making them wait one more seemed cruel.
+\
+`After a moment’s hesitation, I looked around to make sure no one was watching.@ Then I removed my glasses and cut one of the “lines”@ I could see across the door.@ The door opened, and five or so girls burst out, their eyes scarlet from crying—
+\
+bg #000000,crossfade,800
+monocro off
+bg "bg/bg_23b",crossfade,400
+`“…@Now that you mention it, I do remember.@ But how do you know so much about it?@ The badminton captain threatened me afterward: ‘This could cost us our club, so you will keep it secret.@’”@ “Honestly!@ You really had no interest in who was trapped inside, did you?@ Listen, I was in the badminton club then.”@
+br
+`Yumizuka sounded almost sulky.@ Um—then that meant…
+\
+bg "event/stk_e03",crossfade,800
+`“I remember it perfectly.@ Looking back, we were only locked in a shed, but at the time it was dark and freezing, and we were terrified.@ We honestly thought we might freeze to death in there.@ We were starving too—really, we were on the verge of collapsing.”@ “That sounds…@ awful.”@ I still couldn’t quite imagine it, and my answer came out halfhearted.@ Yumizuka paid no attention.@ She went on as though the memory remained brilliantly vivid.
+\
+`“While we were all shivering, you came along.@ In that perfectly natural, unruffled voice of yours, you asked, ‘Is somebody in there?@’ Do you remember how our captain lost her temper and shouted, ‘Can’t you tell?@’”@ “That I remember.@ She hurled a bat at the door with a huge bang.@ It scared the life out of me.”@ “Yes, exactly,”@ Yumizuka said, laughing.
+\
+`“But when you told us all the teachers had left, we despaired.@ We couldn’t stand another minute, and suddenly we thought we might be trapped there until morning.@ Just when we had abandoned all hope, someone tapped on the door, and you said, ‘If you promise to keep it secret, I might be able to open this.@’”@ “Right.@ Then there was another tremendous bang.@ Your captain was furious—‘If it were that easy, we wouldn’t be in this mess!@’”
+\
+`“Ahaha.@ The captain felt responsible for getting us locked in, so she was a little overwrought.@ But then the door opened immediately.@ Everyone decided her bat must have done it and rushed outside cheering.@ I saw you, though.@ You were standing beside the door with that absent look on your face.”
+\
+`Yumizuka regarded me warmly.@ …@But that kind of look only made me uncomfortable.@ What I had done meant nothing to me, so I couldn’t feel that I deserved her gratitude.
+\
+`“I was crying so hard that day.@ My eyelids were swollen, and my whole face was a mess.@ What do you think you said when you saw me?”@ “I have no idea.@ What did I say?”@ …@I truly didn’t remember, so I asked with all the detachment of someone hearing about a stranger.@ Even so, Yumizuka smiled at me as happily as ever.
+\
+`“You put your hand on my head and said, ‘Why don’t you hurry home and have some rice-cake soup?@’ I got so embarrassed, thinking I must have looked absolutely frozen.”@ “……”@ I knitted my brows.@ Though I was apparently the one who had said it, I couldn’t fathom what I had meant.
+\
+`“I think you meant the soup would warm me up.”@ “…@Oh.@ It was just after New Year’s.”@ …@That did sound exactly like the sort of foolish thing I would say.@ Hearing it now almost made me regret that I hadn’t managed something a little better.
+\
+`“That was when I realized something.@ There are plenty of people at school you can rely on, but when it truly matters, the person who will save you is someone like you.”@ “That’s giving me far too much credit.@ It’s like a chick deciding the first person it sees must be its mother.@ I merely happened to be there and happened to be able to help.”@ “That isn’t true…!@ Ever since that day, I’ve believed that no matter what happened, you would save me as though it were the most natural thing in the world.”@ With sudden resolve, she raised her face.
+\
+bg "bg/bg_22b",tshutter,800
+`“Yumizuka, you’re overestimating me.@ I’m really not that dependable.”@
+ld c,"tachi/stk_t07",crossfade,400
+`“That’s all right.@ I believe it, so please let me keep believing it.”@ Faced with that unwavering gaze and declaration, I was too embarrassed to argue.
+\
+`“Well…@ I suppose you can believe whatever you like.”@
+ld c,"tachi/stk_t03",crossfade,400
+`“See?@ So if I ever find myself in trouble again, you’ll save me then too, won’t you?”@ Yumizuka asked with a smile.
+\
+`…@Honestly, that put me in a difficult position.@ I couldn’t do anything and everything the way Yumizuka imagined.@ I couldn’t—but with her smiling at me like that, I didn’t want to betray her trust.
+\
+`“All right.@ If it’s within my power, I’ll help.”@ “Thank you, Tohno.@ I know it’s terribly late to say this, but what you said that day made me happy.”@
+cl a,crossfade,400
+`With that, Yumizuka stopped dead.@ I stopped beside her without thinking.
+\
+!w500
+ld c,"tachi/stk_t13",crossfade,400
+`“I’ve always wished I could talk with you like this.”@
+br
+`There was an intensity in her voice, almost as though she had brooded over the words for a long time.@ Perhaps it was only the red of sunset, but Yumizuka looked somehow lonely.@
+br
+`“…@What are you talking about?@ We can talk whenever you want.”@ “No, we can’t.@ You have Inui.@ And I could never be like you.”@ Her answer was diffident.@ Then Yumizuka stepped away from me.
+\
+ld c,"tachi/stk_t03",lshutter,400
+`“My house is this way, so I’ll leave you here.@ I’ll see you at school tomorrow.”@ “Bye,”@ Yumizuka said, waving with a smile as she set off down another road.
+\
+cl a,lshutter,800
+!w500
+bg #000000,lcartain,800
+playstop

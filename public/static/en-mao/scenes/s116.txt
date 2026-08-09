@@ -1,0 +1,36 @@
+monocro off
+playstop
+wavestop
+bg "bg/bg_32b",lcartain,800
+play "*1"
+`At the top of the hill, I follow the road around the mansion.@ When I finally reach the main gate, I see Hisui standing there alone.@
+br
+`“What is Hisui doing?”@ Puzzled, I approach the gate.@ She notices me and bows.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Welcome home, Master Shiki.”@ “Ah—right.@ I’m home, Hisui.”@ The ceremonious greeting flusters me, but I manage an answer.@ “Were you waiting here for me to come back?”@ “Yes.@ It is a servant’s duty to receive the master of the house.”@ Hisui states it as the most natural thing in the world, without moving an eyebrow.
+\
+`“Listen, Hisui.@ I’m honestly glad you want to welcome me home, but you don’t have to wait outside.@ I’ll come back on my own.@ Just say something whenever you happen to notice I’m here.”@
+ld c,"tachi/his_t05",crossfade,400
+`“…”@ A faint shadow crosses Hisui’s face.@ Perhaps she stood here waiting for me all through Saturday and Sunday as well.
+\
+`“Hisui, listen—”@
+ld c,"tachi/his_t01",crossfade,400
+`“Understood.@ Beginning tomorrow, I will await your return in the foyer.”@ Hisui bows and opens the gate.@ With one hand still resting on it, she turns her back to me.
+\
+`“……@Haaah.”@ She does not seem inclined to talk.@ Once I pass through, Hisui closes the gate, walks to the front door, and silently opens it before leading me into the foyer.
+\
+bg #000000,lcartain,800
+bg "bg/bg_40b",lcartain,800
+`I return to my room.@ Akiha is still at her lessons, Kohaku is preparing dinner, and Hisui has cleaning to do.@
+br
+`“This is bad.@ I have nothing to do.”@ Of course, I am a student; there is studying, reviewing, memorizing, and any number of other obligations.@ I simply cannot bring myself to do any of them.
+\
+`Arcueid’s face briefly enters my mind.@ Perhaps this lethargy is the recoil from two hectic days, for better and worse.@ For a while, doing nothing at all feels more restful than trying to occupy myself.
+\
+bg #000000,crossfade,800
+!w1500
+bg "bg/bg_40c",crossfade,800
+`After eating alone in the cavernous dining room, I have Kohaku tend my wounds and return to my room.@ Akiha never comes home for dinner; apparently her lessons ran long, so she is eating out.@ It is well past ten.@ This is early for bed, but my body is exhausted.@ I should turn in—
+\
+playstop

@@ -1,0 +1,14 @@
+%layer-save-config {
+	z-index: 100;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity var(--transition-time) ease-out;
+	background-image: var(--gradient-layer);
+	backdrop-filter: blur(1px);
+	display: flex;
+	
+	&.show {
+		pointer-events: auto;
+		opacity: 1;
+	}
+}

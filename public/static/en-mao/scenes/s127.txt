@@ -1,0 +1,111 @@
+if (%flgE>=1) skip 3
+phase "bg/bg_06g",l,ark,06a,6
+skip 2
+phase "bg/bg_27b",l,cel,06a,6
+bg #ffffff,crossfade,1500
+bg "bg/bg_40a",lcartain,400
+play "*2"
+`…@ …………@ ……………………@
+br
+`“Morn…@ing.”@ My foggy mind surfaced into wakefulness.@ Sunlight streamed through the window, filling the room with a drowsy warmth.@
+br
+`“……”@
+br
+`I stared at my hands.@ Their palms were faintly damp, and sweat covered my whole body as if I had spent the night in sweltering heat.@ My breath was coming rough and ragged, too.
+\
+`“Ah…”@ I flexed both hands gingerly.@ “…@They work…”@ There were no rope marks on my wrists.@ The bed was clean; the chair Akiha had occupied was gone, and so was Kohaku.
+\
+`“Huh…?”@
+br
+`Akiha and Kohaku…?@
+br
+`“K-Kohaku?”@ I shot upright like a spring-loaded doll and swept my eyes around the room.@ But there was— “No one…@ here…”@ No one at all.@ The bed showed no sign of disturbance, and there was certainly no devilish little Kohaku waiting beside it.
+\
+`“A dream…”@ The moment I understood, a breath of relief escaped me.@ I closed my eyes and forced my breathing back into rhythm.@ This was my room.@ It was not yet seven in the morning.@ I was alone, and of course neither Kohaku nor Akiha was here.@ “Haaaaah…”@ I knew that.@ I knew it had been a dream.@ Once I thought clearly, there was no possibility that Akiha and the others would ever come and do something like that.@ The events of last night fell apart at that one simple fact.
+\
+`“Haaaaah…”@ I emptied my lungs of the breath trapped inside them.@ …@Even so, the scenes from last night remained vivid in my mind.@ I knew they were a dream, but every sensation had been so real that they still felt like something that had truly happened.@ …@Nevertheless, it had unquestionably been a dream.@ That was the only scrap of comfort I had.
+\
+`“But why…?”@ Why would I dream something like that?@ …@Yes, Kohaku was cute.@ She was the one person in this mansion I found easiest to relax around, and simply seeing her cheerful face could lift my own spirits.@ But that didn’t make what happened in the dream right.@ Kohaku was practically family to me.@ I had never thought of her as—a woman.
+\
+`“Ugh…”@ And yet Kohaku’s teasing eyes came straight back to me.@ “Damn it.@ What the hell am I thinking?”@ I shook my head, trying to fling the dream out of it.@ And then—
+ld c,"tachi/his_t01",lshutter,400
+`“Master Shiki.”@ “Waaaaaah!”@ I flailed backward and tumbled out of bed as if trying to escape.@ In fairness, I really had tried.@ All I accomplished was rolling onto the floor, sheet and all.
+\
+`“H-H-Hisui…?!@ H-how long have you been there?!”@ “Since before you awakened, Master Shiki.”@ Hisui answered at once, as expressionless as ever.@ Still wrapped in the sheet on the floor and unable even to stand, I could only look up at her.
+\
+`“…@Before I woke up…”@
+br
+`Then—could it be?@ Had Hisui been watching my sleeping face while I dreamed all of that—?@
+br
+`Heat exploded through my face; even I could tell I had gone scarlet.@ Hisui remained perfectly blank and offered no comment of her own.
+\
+`“Um…@ was I doing anything strange?”@
+ld c,"tachi/his_t01b",crossfade,400
+`“I’m afraid it would be improper for me to describe it.”@ “A-ugh…”@ …@So I really had been quite a sight in my sleep.@
+ld c,"tachi/his_t01",crossfade,400
+`“However, if you insist, Master Shiki, I can give you as precise an account as possible.”@ “…@No.@ That’s fine.@ No account necessary, thank you…”@ Red-faced, I answered in a voice barely above a whisper.
+\
+`“Um…@ Hisui, ma’am?”@ I cleared my throat, desperately trying to reset the conversation.@ …@That “ma’am”@ was the verbal equivalent of an animal baring its belly.@ “Yes, Master Shiki?”@ “I need to dress, so could you wait outside?”@
+br
+`More to the point, I was mortified and wanted her out of the room at any cost.@ Yet today of all days, Hisui refused to indulge me.
+\
+`“I will leave once I’ve seen you safely on your feet.”@ “……!”@ N-no, no, no way!@ Why did she think I was still huddled under this sheet after falling out of bed?@ I was hiding the thing between my legs because it was still standing at full attention!
+\
+`“J-just go, okay?@ I can get up by myself, and I promise I won’t fall asleep again.@ The moment you leave, I’ll dress and come downstairs.”@ “Master Shiki…@ did you hurt yourself when you fell?@ Are you unable to stand?”@
+cl c,crossfade,800
+`Hisui approached, plainly worried.@ “No, I’m fine.@ It’s standing perfectly well—I mean, I can stand perfectly well.@ You don’t have to worry.”@ Dragging the sheet behind me like a slug, I crawled away from her on all fours.@ Once the bed stood between us like a barricade, I finally had enough distance.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Very well…@ I’ll excuse myself.@ I’ll be preparing breakfast in the dining room, so please join us once you’re dressed.”@
+cl c,lshutter,800
+`She must have found the whole thing deeply suspicious, but Hisui bowed and left the room.
+\
+`“Haaaaah…”@ God, that nearly killed me.@ The dream itself had been shocking enough; realizing Hisui had watched my face while I was dreaming it was almost worse.@ …@Though I supposed I had only myself to blame for dreaming that way about Kohaku.@ “…@Serves me right.@ What kind of dream was that to have about her?”@ I sighed, sick with myself.@ If I ever wanted to feel at ease around Kohaku again, I needed to forget last night’s dream as quickly as possible.
+\
+bg #000000,lcartain,800
+bg "bg/bg_34a",lcartain,800
+`Once I had thoroughly composed myself, I went downstairs.@ Sure enough, Akiha was sitting on the sofa, sipping her tea with effortless grace.
+\
+ld c,"tachi/aki_t04a",crossfade,400
+`“Good morning, Brother.@ You’re up early today.”@ Apparently my early rising delighted her; Akiha greeted me with a smile.@
+cl c,crossfade,400
+`“Morning.@ Yeah, a few things happened.”@ The instant I said it, I remembered that cold gaze from last night.@ “Ugh…”@ Bad.@ I could feel my face reddening beyond anything I could control.@ …@Me, exposing myself so disgracefully in front of Akiha.@ Akiha, watching every second of it.
+\
+`“Brother…?”@ A chair shifted with a clatter.@
+ld c,"tachi/aki_t01a",crossfade,400
+`“What’s wrong?@ Your face is red.@ Do you have a fever?”@ “[line=2]!”@ Akiha came right up to me and peered into my face from below.@ If she stared at me that earnestly, I was going to—
+\
+ld c,"tachi/aki_t12a",crossfade,400
+`“Oh dear, you really do seem feverish.@ Kohaku, could you come here?@ I think my brother is unwell.”@ Akiha called toward the dining room.@ “K-Kohaku?@ No, that’s bad.”@ If I had to face Kohaku now, I might actually faint from embarrassment.@ “I’m fine!@ I-it’s only a cold, so don’t make such a fuss!”@
+ld c,"tachi/aki_t21",crossfade,400
+`“If it’s a cold, that’s all the more reason not to ignore it!@ Even a minor illness can be serious for you.@ Your immune system and resistance are both weaker than most people’s.”@
+cl c,crossfade,400
+`With an exasperated look, Akiha smoothly laid a hand against my forehead.
+\
+`The cool touch of her delicate palm.@ Slender white fingers.@ Fine, beautiful, impossibly pale fingers—nothing a man’s hands could ever resemble.
+\
+`“[line=2]!”@ This was bad.@ Bad enough that I slapped Akiha’s hand away and bolted for the foyer.@
+bg "bg/bg_33a",lcartain,800
+br
+`Thudthudthudthudthud.@
+br
+bg "bg/bg_40a",lcartain,800
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki?@ Have you already finished breakfast?”@ “No, that’s not it—uh, where’s my bag?”@ “Here, but are you leaving for school already?”@ I nodded, snatched it out of Hisui’s hands, and made for the door.@ “I’m off.@ You don’t have to see me out!”
+\
+bg "bg/bg_33a",lcartain,800
+ld c,"tachi/aki_t02",crossfade,400
+`“Brother, you’ve been acting strangely all morning.@ What are you doing when you have a fever?”@ “Oh, come on, I told you it’s nothing!@ Since it’s nothing, I’m going to school!@ I’ll find breakfast somewhere, so just leave me alone!”@ “Leave you alone—wait!@ Brother!”@
+br
+`Thudthudthudthudthud.
+\
+bg "bg/bg_32a",lcartain,800
+`“Haaaaah…”@ Even Akiha wouldn’t chase me this far.@ She wasn’t a child; surely she wouldn’t run after someone who had already said he was going to school just to drag him back.
+\
+`“Phew…”@ I let out a long breath and finally settled down.@ “…@Wait.@ Why am I running away?”@ Once I had calmed down, reason returned.@ I hadn’t actually done anything wrong.@ There had been no need to flee the mansion like a criminal.
+\
+`“Unbelievable.@ I look like a complete idiot.”@ Then again, going back to the mansion now and meekly asking for breakfast would look even more ridiculous.@ “…@School it is.”@ With a sigh, I started down the hill toward the residential district.
+\
+playstop
+bg #000000,lcartain,800
+!w1000

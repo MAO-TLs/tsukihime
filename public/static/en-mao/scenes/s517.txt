@@ -1,0 +1,31 @@
+monocro off
+wave se_03
+bg "bg/bg_06a",notrans,0
+play "*3"
+ld c,"tachi/osiete",lcartain,800
+!w1000
+cl c,lcartain,800
+ld r,"tachi/cel_t20",tshutter,800
+`Hello, everyone.@ I’m Ciel, your teacher for this class.@ For lesson six, let’s consider the fundamentals of tracking someone down.@
+br
+`To be perfectly blunt, Tohno has no idea how to look for someone.@ Think about why Arcueid ran off—why she left, where she went, and what she meant to do—and the answer will reveal itself.@
+br
+`In short, she got hungry and went into an alley for a little sip-sip!
+\
+ld l,"tachi/ark_t31a",lshutter,400
+ld l,"tachi/ark_t31b",lshutter,400
+`“Liar!@ Tyrant Ciel!@ Four-eyes!@ Indian!”@
+br
+`…@And that concludes today’s lesson.@ Please continue enjoying the game.
+\
+bg #000000,crossfade,800
+ld c,"tachi/ark_t30",lshutter,400
+`“Meow?@ What’s wrong, Ciel?@ Why are you bringing out shotguns and machine guns and that Total-Annihilation Vulcan?”@
+br
+wave se_07
+`Arc!@ India has nothing to do with this!@ Nothing!@
+br
+`“Four-eyes is mad!@ Vwoosh!@ That was a sound effect.”
+\
+cl c,bscroll,800
+playstop

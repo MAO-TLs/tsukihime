@@ -1,0 +1,17 @@
+monocro off
+play "*3"
+wavestop
+bg "bg/bg_11a",notrans,0
+ld c,"tachi/cel_t03",crossfade,400
+`“Tohno, did you sleep well last night?”@ “Huh?”@ She asked with an uncommonly direct gaze.@
+cl c,crossfade,400
+`There was hardly any need to answer.@ I had been unable to fall asleep, and more importantly—
+\
+`“Urgh…”@ The memory of the previous night returned in vivid detail, and I felt my face turning red.@ She peered up at me, staring and staring.@ “Um…”@
+ld c,"tachi/cel_t08",crossfade,400
+`“You’re a pervert, Tohno.”@ “Excuse me?”@
+cl c,lshutter,800
+`She gave me a look heavy with unspoken complaint, then marched away on quick little steps.
+\
+bg #000000,crossfade,800
+!w1000

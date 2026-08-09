@@ -1,0 +1,106 @@
+play "*1"
+wavestop
+bg "bg/bg_06a",notrans,0
+`“Sorry…@ I really don’t feel well.@ I’m going to the nurse’s office, so go ahead and have lunch with Arihiko, Ciel.”@
+ld c,"tachi/cel_t09",crossfade,400
+`“Well…@ I don’t know what’s going on, but please don’t push yourself, Tohno.”@
+`“Ha ha.@ I’m going to the nurse’s office precisely so I won’t.”@
+cl c,lshutter,800
+`I forced a smile and left the classroom.
+\
+bg #000000,crossfade,800
+playstop
+!w2000
+bg "bg/bg_06b",lshutter,800
+`The final homeroom period ended.@ I was practically the only person left in the classroom; everyone else had gone to their clubs, while those with none to attend had raced from the school as though they had terribly important places to be.@
+br
+`“Well, then.”@
+br
+`I couldn’t stay there forever either.@ I hurriedly stuffed my things into my bag and left.
+\
+bg #000000,lcartain,800
+bg "bg/bg_23b",lcartain,800
+`It was already past four.@ I’d told Hisui I would be home around four, so I hardly had time for a detour.
+\
+bg #000000,lcartain,800
+bg "bg/bg_22b",lcartain,800
+`“…”@ I stopped without warning when I reached the hill.@ At this same time yesterday, this was where Yumizuka and I had parted as though it were the most ordinary thing in the world.
+\
+`“…”@ The truth was, I was worried about Yumizuka.@ But worrying alone couldn’t accomplish anything.@ I’d promised to do whatever I could if she was ever in trouble, yet now I didn’t even know where to begin helping her.
+\
+bg #000000,lcartain,800
+bg "bg/bg_32b",lcartain,800
+play "*1"
+`I climbed the rest of the hill, followed the wall around the estate, and reached the main gate.@ “Honestly…@ this place could hardly look more out of place.”@ Looming at the very end of a residential district, the Western mansion created the illusion that this one patch of ground had somehow ceased to be Japan.@ And as if that weren’t enough—
+ld c,"tachi/his_t16",lshutter,800
+`“Welcome home, Master Shiki.”@
+ld c,"tachi/his_t01",crossfade,400
+`—it even came with a maid waiting at the gate to welcome me.@ Hisui must have been standing there like a statue long before I arrived.
+\
+`“I’m home, Hisui.@ This may sound like a strange question, but…@ have you been waiting there this whole time?”@
+`“No.@ Only for approximately thirty minutes.@ Is something wrong?”@ Hisui answered as though this were perfectly natural.@ That was a little more devotion than I knew what to do with.
+\
+`“No, I really am glad to have someone welcome me home.@ You just don’t have to go this far.@ That uniform attracts attention, and it’s a little embarrassing for me too.”@ Besides, it was autumn.@ Standing outdoors would only grow colder from here.@ “…”@ Hisui said nothing.@ Perhaps there was foreign blood in her; her deep-blue eyes had the lifeless clarity of glass as they regarded me without emotion.@ At last, after a long silence—
+\
+ld c,"tachi/his_t01b",crossfade,400
+`“Understood.@ Beginning tomorrow, I shall welcome you in the lobby.”@ Hisui gave a slight bow and opened the gate.@
+ld c,"tachi/his_t01",crossfade,400
+`Then she stood motionless again, as still as a statue.@ Only after I passed through the gate into the garden did she quietly follow behind me.
+\
+bg "bg/bg_48b",lshutter,800
+`When we reached the entrance, Hisui suddenly swept past me.@ “Whoa!”@ I flinched backward before I could stop myself.@
+ld c,"tachi/his_t08",crossfade,400
+`“Is something wrong, Master Shiki?”@
+`“Ah, no—it’s nothing.”@
+`“…”@
+cl c,lshutter,800
+`Without a word, Hisui opened the front door.@ Apparently, she had only stepped in front of me so she could open it on my behalf.
+\
+`Always following one step behind her master, then gliding soundlessly forward the instant her services were required: she was the very model of a maid.@ Unfortunately, an ordinary person like me jumped at her every move.@ This wasn’t working.@ At this rate, I would never stop feeling like a guest here.
+\
+bg #000000,lshutter,400
+bg "bg/bg_33b",lshutter,800
+`“Listen, Hisui…”@
+ld c,"tachi/his_t01",lshutter,400
+`“Yes, Master Shiki?”@
+`“I said this yesterday too, but I want to do whatever I can for myself.@ Actually, I need you to let me.@ This is a secret, but I’m lazy by nature.@ If anyone starts pampering me, there’s no telling how far I’ll sink.”@ Yes, this was one secret Akiha could never be allowed to learn.
+\
+`“I do not quite understand.@ Are you asking me to treat you more severely, Master Shiki?”@
+`“No, I don’t want that either.@ Ideally, I’d like an easy life.”@
+`“Forgive me.@ It appears I do not understand the point you are trying to make.”@
+`“That solemn face really isn’t helping…”@ This was a problem.@ From our brief conversation last night, I had suspected she might be difficult to communicate with, but I hadn’t realized she was this painfully earnest.
+\
+`“Oh, forget it!@ I’m saying you don’t have to fuss over me.@ I’ll need your help with things like laundry and meals, obviously, but you don’t have to devote the rest of your time to Shiki Tohno.@ It’s just you and Kohaku looking after this enormous house, isn’t it?@ So do the bare minimum for me and make life as easy on yourself as you can!”@
+ld c,"tachi/his_t01",crossfade,400
+`“—”@ Hisui’s expression did not change.@ She neither answered nor nodded.@ I only thought I saw her close her eyes once.
+\
+`“Understood.@ But your concern is more than enough, Master Shiki.”@
+cl c,lshutter,800
+br
+`Oh, come on…@ She hadn’t understood a word.@
+br
+`Hisui quickly stepped aside to clear my path.
+\
+`“…@Haaah.”@ She was impossible.@ I appreciated how devotedly she looked after me, but surely she could be half as cheerful as Kohaku.@ Hisui already had such a delicate charm; if only she would relax, then how—
+\
+ld c,"tachi/his_t01",lshutter,800
+`“Master Shiki, are you not returning to your room?”@
+`“No, I was just thinking.”@ I crossed the lobby toward the stairs.@ Hisui stared longingly at the bag in my hand.@ She probably wanted to say, Allow me to carry that.@ Being formally welcomed home was overwhelming enough; having her carry my bag as well would finish me.@ Ignoring her eloquent silence, I continued to my room.
+\
+bg #000000,lcartain,400
+bg "bg/bg_40b",lcartain,400
+ld c,"tachi/his_t01",lshutter,400
+`“Please leave the uniform you were wearing here after you remove it.@ I must continue cleaning the mansion, so call me if you require anything.”@ “You’re cleaning, then.@ What are Akiha and Kohaku doing?”@ “Miss Akiha is in the salon, attending to the transfer of your father’s responsibilities.@ My sister is cleaning the courtyard.”
+\
+`“Right.@ When you say she’s taking over Father’s work, is she meeting with lawyers or something?”@
+`“Yes.@ She is being advised on the management of the company, so I expect she will remain occupied until dinner.”@
+`“…”@ Well, Father had died without warning.@ He must never have had the chance to teach Akiha anything about the company.@ “Sorry for keeping you.@ I’ll come find you if I need anything, so go back to work.”@
+ld c,"tachi/his_t16",crossfade,400
+`“Very well.@ Please excuse me.”
+\
+cl c,crossfade,400
+bg #000000,lshutter,800
+bg "bg/bg_40b",lshutter,800
+playstop
+`I took off my uniform and changed into ordinary clothes.@ It was only just five.@ Sitting here in a daze until dinner seemed like a waste, so perhaps I should—
+\

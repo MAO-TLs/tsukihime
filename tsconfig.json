@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["dom", "esnext"],
+    "types": ["vite/client", "node"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    
+    /* Bundler */
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      "*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@app/*": ["./src/app/*"],
+      "@features/*": ["./src/features/*"],
+    }
+  },
+  "include": ["src"],
+}

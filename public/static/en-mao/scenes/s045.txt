@@ -1,0 +1,176 @@
+playstop
+bg #000000,lcartain,800
+bg "bg/bg_46c",rcartain,800
+play "*3"
+`……@Now, Kohaku’s room was…@ this one, maybe?@
+br
+`I knocked twice.@ “Kohaku, are you in there?”@ “Coming!@ Just a minute!”@ Her cheerful voice floated through the door.@
+br
+`Just under three minutes later, the door opened and Kohaku poked her head out.
+\
+ld c,"tachi/koha_t03b",lshutter,400
+`“Oh, Master Shiki!@ What brings you here at this hour?”@ “Um, well—I thought maybe I could watch television with you.”@ “What?”@ Kohaku stared at me, blinking in astonishment.
+\
+`“Well, you see, there aren’t any televisions anywhere else in this house.@ I lived in a normal home until yesterday, and watching television after dinner was part of my routine.@ Without it, I can’t quite settle down, so, um…”@ The longer I talked, the more painfully aware I became of how idiotic this was.
+\
+`Trying to invite myself into a woman’s room on the pretext of watching television—what on earth was wrong with me?@
+br
+`Just look at Kohaku.@ She was still staring, appalled by my behavior—or perhaps not.@
+br
+`“Ahaha, of course!@ You were living at the Arima house until yesterday.@ Being dropped into this mansion all at once must have felt terribly oppressive.”@ Kohaku beamed at me.
+\
+`“Um…@ did you happen to tell Miss Akiha or Hisui about this?”@ “About coming to your room?”@ Kohaku nodded.@ “No, I didn’t tell anyone.@ Why?”
+\
+`“Oh, no reason.@ If you had, I’m afraid I would have had to send you away.”@ Still smiling, Kohaku peered up and down the corridor.@ “Fortunately, there’s no one in sight.@ Quickly now—come in before we’re caught.”@ Her hand closed firmly around my arm.@ “W-wait, Kohaku…!”
+\
+bg #000000,lcartain,800
+bg "bg/bg_39",lcartain,800
+`“Sit wherever you like.@ I’ll make us some tea.”@ “……”@ I cleared my throat and sat down.
+\
+`Kohaku’s room was crowded with little objects.@ Perhaps it was rather messy for a girl’s room.@ Almost none of them were what one might call cute; most looked as if they had no practical use whatsoever.@ The place felt less like a girl’s bedroom than the study of an unusually tidy scholar.
+\
+`There were miscellaneous objects everywhere.@ Half buried among them, I found the television.@ Its remote lay on the table.@ Had Kohaku been watching it before I arrived?
+\
+ld c,"tachi/koha_t02b",lshutter,400
+`“Here we are.@ Tea is all right, isn’t it, Master Shiki?”@ “Oh, thanks.@ You really didn’t have to fuss.”@ “Not at all.@ I’m the one who should apologize for having nothing better to offer.”@ Kohaku said it with a radiant smile.
+\
+ld c,"tachi/koha_t03b",crossfade,400
+`“You came for television, didn’t you?@ What do you usually watch at this hour?”@ “Nothing in particular.@ Mostly the news, I suppose.@ I’m a sucker for whatever’s current—I like fashionable nonsense.”@ “Really?@ You seem so composed that I imagined you spent your evenings reading.”@ “Ahaha, I’m not nearly that refined.@ I don’t think I’m particularly composed, either.@ Maybe the glasses just give people that impression.”
+\
+ld c,"tachi/koha_t12",crossfade,400
+`“Oh, that’s right—you wear glasses now.@ Miss Akiha never mentioned it, so I was quite surprised when I came to meet you.”@ ……@Of course.@ I hadn’t seen Akiha in person since I started wearing them.
+\
+`“They’re only plain glass, though.@ Something is wrong with my eyes, but not my eyesight—I can probably see better than most people.@ So it isn’t as if I ruined my vision by studying too hard…@ Oh, wait.@ Did I just shatter your image of me as an intellectual?”
+\
+ld c,"tachi/koha_t15",crossfade,400
+`“Not at all.@ I enjoy television more than books myself.@ I’m glad you turned out to be just as lively as I imagined.”@ “Oh…@ well, thanks.”@ That was embarrassing.@ Kohaku’s open, unguarded smile struck me head-on and left me flustered.
+\
+ld c,"tachi/koha_t03b",crossfade,400
+`“Oh, I’m sorry.@ You came to watch the news, didn’t you?”@ Kohaku switched on the television.@ It was already nine.@ As usual, the news was presenting the day’s events with gestures just a little too dramatic.
+\
+`“Oh dear.@ Another murder by that prowler?”@ Though I was sitting beside her, Kohaku murmured to herself without the least self-consciousness.@
+br
+`The news was running a feature on the serial murders.@ The attacks had begun in the neighboring city, but lately they were concentrated here.
+\
+`The pattern was simple.@ Young women out late at night were abducted at random, murdered, and finally drained of their blood.@ Last night’s victim had apparently been the ninth.
+\
+`“What are the police doing?”@ “Who knows?@ You’d think someone who strikes after midnight would be easy to catch.@ Maybe the killer is incredibly careful and never leaves a trace.”
+\
+`“Perhaps.@ The more murders someone commits, the more evidence they should leave behind.@ If the police still cannot catch the culprit after nine victims, the killer must be exceptionally meticulous.”@ “A meticulous prowler.@ Isn’t that a contradiction?@ These attacks are supposed to be crimes of impulse.”
+\
+ld c,"tachi/koha_t02b",crossfade,400
+`“You’re right.@ If no evidence is ever left behind, perhaps these are not random attacks at all.@ It seems more likely the culprit has followed a careful plan from the very beginning.”@ “I see.@ Then do those nine girls mean something?@ Were they friends, or acquaintances?”
+\
+`“Hmm, probably not.@ If there were a connection, the police would have noticed.@ In the end, it is an utterly incomprehensible case, with neither motive nor link between the victims.”@
+br
+`……@Kohaku discussed the grisly subject with a smile.@ She did not seem particularly interested in the case.
+\
+`“Kohaku, this is happening in our city.@ You’re a young woman too.@ Doesn’t it frighten you at least a little?”@ “I’ll be perfectly safe.@ The prowler only appears after midnight.@ If I don’t go out at night, we’ll never meet.”@ Her reasoning was beautifully simple.@ The murders felt too immediate for such detachment, but perhaps that was what every tragedy on the news became to people watching from home.
+\
+bg #000000,crossfade,800
+bg "bg/bg_46c",crossfade,800
+`“Thanks for having me.@ I’ll come back whenever I feel like watching again, if that’s all right.”@
+ld c,"tachi/koha_t15",notrans,0
+`“Of course.@ I’ll be waiting.”@ Kohaku peered up and down the corridor.
+\
+ld c,"tachi/koha_t12",crossfade,400
+`“I would walk you back, but Hisui will be waiting in your room, so I’ll say good night here.”@ “All right.@ Good night, Kohaku.”@
+cl c,lshutter,800
+`“……”@ I hadn’t known that bedtime in this house was ten o’clock.@ Apparently there was an unspoken rule that no one left their room after that hour.
+\
+`“Even with Father gone, this place hasn’t become any less rigid.”@ Well, that was only to be expected.@ The unfamiliar atmosphere had worn me out anyway, so I might as well return quietly to my room.
+\
+bg #000000,lcartain,800
+playstop
+bg "bg/bg_40c",lcartain,800
+`“Oh—”@ When I returned to my room, the bed had already been made.@ Hisui must have done it while I was out.@ “I’m grateful, but this kind of treatment feels wasted on me.”@ I scratched my cheek.@
+br
+`Just then—
+\
+wave se_04
+`“Master Shiki, are you there?”@ Hisui’s voice came through the door with a knock.@ “I’m here.@ Come on in.”@
+ld c,"tachi/his_t16",crossfade,800
+`“Thank you.@ Excuse me, then.”@
+ld c,"tachi/his_t01",crossfade,400
+play "*1"
+`“Good evening.@ And thanks, Hisui—you made the bed for me, didn’t you?”@ She gave a quiet nod.@ “……@Ugh.”@ This sort of thing really didn’t suit me.@ “So, um…@ what is it?@ Is there another message?”@ “Not from me.@ Miss Akiha instructed me to answer any questions you might have.”
+\
+`“……@I see.@ There’s certainly plenty I want to ask, but I’ll pick most of it up as I live here…”@ Right.@ If there was one thing I needed to know before bed, it was— “Then tell me this.@ Is it true the curfew here is seven?”@ “Yes.@ To be precise, the front gate is locked at seven, and every entrance to the house at eight.@ The rules also require you to refrain from moving about the house after ten.”
+\
+`“We’re not even allowed to walk around inside?@ …@I’m not complaining, but isn’t that a little extreme?@ Akiha and I aren’t children anymore.”@ “……@Yes.@ Nevertheless, Master Shiki, it is a rule, and I must ask you to observe it.@ Surely you know how dangerous the nights have become of late?”@
+br
+`……@Oh.@ She meant that vampire panic Arihiko had mentioned.@ With a string of murders taking place in the city, I supposed there was no such thing as being too careful.
+\
+`“Anything else…?@ Oh, this doesn’t have much to do with that, but may I ask?”@ “Certainly.”@ “I’d like to know what you and Kohaku actually do here.”@ “I am assigned personally to you, while my sister Kohaku attends Miss Akiha.@ When neither of you is at home, we are entrusted with the upkeep of the house.@ Is there some problem?”@ “……@So ‘attends’ really does mean what I thought.”
+\
+`My shoulders sagged.@ Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@ I had no desire—at least not yet—to be waited on by a girl about my own age.
+\
+`“……@If you’re assigned to me, does that make you my personal servant?”@ “Yes.@ You may ask anything of me.”@ “……@All right, I understand.@ From the way Akiha talked, she’d never let me dismiss you, so I’ll accept your help—but…”@ “Do you have some special request?”@ “Nothing special.@ Could you stop calling me ‘Master Shiki’?@ Honestly, it gives me chills every time I hear it.”
+\
+`“But you are my master, Master Shiki.”@ “That’s exactly what I don’t like.@ Until yesterday I was living a perfectly ordinary life.@ The last thing I want now is a girl my age treating me like some lord of the manor.”@ “I see,”@ Hisui replied without interest.
+\
+`“Just call me Shiki.@ I’ll call you Hisui, and we can forget all the stiff formalities.@ Let’s make things easy on each other.”@ Hisui’s face remained blank, but her brows drooped slightly, as if I had placed her in a difficult position.@
+ld c,"tachi/his_t23",crossfade,400
+`“But you are my employer.”@ “I’m not the one who hired you.@ Besides, you do all the things I can’t, so if anything, you’re the important one.”@ “I see,”@ Hisui said again in the same listless tone.@ Apparently this was not something I could talk her out of overnight.
+\
+`“Anyway, that’s how I feel, so please don’t be so formal with me.@ I’d appreciate it if you told your sister the same thing.”@
+ld c,"tachi/his_t16",crossfade,400
+`“Yes.@ If that is what Master Shiki wishes.”@ Hisui bowed, her face utterly blank.@
+br
+`She had missed the point completely.@ It was almost impressive.@
+br
+`“I shall take my leave, then.@ Please retire for the night.”@
+cl c,lshutter,800
+`Hisui bowed and reached for the doorknob.
+\
+br
+`—And then I remembered one last question.@
+br
+`“Oh, wait a second.”@ I hurried to the door and put a hand on Hisui’s shoulder as she was leaving.@
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_40c",notrans,0
+`In that instant, Hisui knocked my arm away with astonishing force.
+\
+`The slap cracked through the room, and Hisui sprang back as though fleeing from me.@
+ld c,"tachi/his_t10",lshutter,400
+`“What—”@ It happened so suddenly that no other word would come.@ Hisui’s face was still expressionless, but she was unmistakably glaring at me with the ferocity one reserves for a hated enemy—
+\
+`“Um…@ did I do something wrong?”@
+ld c,"tachi/his_t28",crossfade,400
+`“Ah……”@
+ld c,"tachi/his_t26",crossfade,400
+`“……@I am terribly sorry…”@ Tension threaded Hisui’s voice.@ “……@I am not accustomed to being touched.@ Please forgive me.”@ Her shoulders were trembling faintly.@ Somehow, I felt as though I had done something truly awful.
+\
+`“Oh—yeah.@ I’m sorry.”@ The apology came out before I knew it.@ I couldn’t have explained why.@ She simply looked so pitiful that I found myself bowing to her.@
+ld c,"tachi/his_t04",crossfade,400
+`“……”@ Hisui said nothing.@ Still, I thought her gaze softened a little.
+\
+ld c,"tachi/his_t23",crossfade,400
+`“You have no reason to apologize, Master Shiki.@ The fault was mine.”@ “Well, I suppose so, but…@ I don’t know.@ I just felt like I should.”@ I scratched my head.@
+ld c,"tachi/his_t01",crossfade,400
+`Hisui studied my face, then lowered her eyes for a fleeting moment.@ “Um…@ what did you need, Master Shiki?”@ Oh, right.@ I had stopped her because there was something I wanted to ask.
+\
+`“I was wondering about Akiha.@ Didn’t she attend a boarding school?”@ “Master Shiki, that was only through middle school.@ Beginning this year, Miss Akiha has been granted special permission to commute from home.”@ “……@So she goes to school from this house?”@ “Yes.@ However, it is rare for her to return as early as she did today.@ She has lessons until dinnertime, so she ordinarily arrives just before seven.”
+\
+`“Lessons?@ What kind?”@ “As today is Thursday, she had violin practice.”@ “……@What?”@ “She returns before dinner on weekdays.@ If you wish to speak with her, please ask my sister to arrange it after the meal.”@
+cl c,lshutter,400
+`“Good night, then.”@ Hisui bowed and left the room.
+\
+`“Violin lessons.”@ What was that about?@ It wasn’t as though she were some pampered young lady, so why bother with something so—
+br
+`“……@Oh.@ Right.@ She is a pampered young lady.”@
+br
+`Of course.@ Shiki Tohno’s little sister was Akiha Tohno, a young lady born and bred.
+\
+`In my memories, Akiha was my quiet little sister, one year younger, always trailing behind me with anxious eyes.@ As a child she had been frail and timid, too shy even to say what she wanted, forever frightened that her father, Makihisa Tohno, might scold her.@
+br
+`“……@Of course.@ Eight years is enough to change anyone completely.”@ Just as those years had made me into the Shiki Tohno I was now, they must have made Akiha into the Akiha Tohno she was today.
+\
+`Eight years is a long time.@ Half my life so far.@ I had been absent from this house during the years that mattered most—the years when a child struggled to become an adult.@
+br
+`“……@I’m sorry, Akiha.”@ If only I could have been there beside her through those eight years.@ The thought brought the apology unbidden to my lips.
+\
+bg #000000,crossfade,800
+playstop
+!w1000

@@ -1,0 +1,140 @@
+play "*2"
+wavestop
+bg "bg/bg_34a",notrans,0
+`No.@ I can’t frighten Akiha and the others for no reason.@ This—the matter of that dream—is something I have to resolve alone.
+\
+`“School has just been keeping me busy lately.@ The school festival is in November, and we have the athletics festival before that.”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“I see.@ If it’s a school problem, then I suppose I really can’t offer much advice.”@
+cl c,crossfade,400
+`Akiha lowers her eyes, looking faintly disappointed.@ Lying to her and hiding behind an excuse honestly makes me feel wretched.
+\
+ld c,"tachi/koha_t02",lshutter,800
+`“Here you are, Shiki!@ Sorry to keep you waiting.”@ Kohaku arrives with a glass on her tray.@ “Thanks.”@ I slip in the straw and drink the lemon soda she prepared.@ Somehow, the conversation dies there.@ Kohaku is the only cheerful person in the morning sitting room, and in the end we finish breakfast much as usual.
+\
+bg #000000,lcartain,800
+bg "bg/bg_48a",lcartain,400
+`Hisui sees me as far as the gate.@ The silence from the sitting room seems to have followed us, leaving the air awkward and uncomfortable.@
+ld c,"tachi/his_t01",lshutter,400
+`“Have a safe day, Master Shiki.”@ “Right.@ I’m off, but…@ Hisui.”@ “Yes?@ What is it?”@ Hisui looks directly into my eyes.@
+br
+`Why is it?@
+br
+`Faced with eyes so utterly trusting, I feel horribly unclean.@ I can’t settle down.
+\
+`“Never mind.@ Just be careful while I’m gone.”@
+cl c,crossfade,400
+`I put the fear in my heart into those words, then turn my back on the mansion as though fleeing.
+\
+bg #000000,lcartain,800
+playstop
+!w2000
+wave se_03
+bg "bg/bg_06a",lcartain,400
+`Lunchtime arrives.@ Arihiko is absent from school, as usual.@
+br
+`“Maybe I’ll go to the cafeteria.”@ Eating alone would only leave me brooding.@ In a dining hall packed with students, I shouldn’t have room to think about anything unnecessary.
+\
+bg "bg/bg_50",lcartain,800
+`As expected, the cafeteria is roaring with life.@ I join a line dozens deep, buy the safe choice—Set A—and find a table.@ The racket of conversation lets me concentrate on eating, at least.@ I work my fork in silence and take in the necessary nutrients.@
+br
+`And then—
+br
+`For an instant, an ugly image flashes before me.
+\
+waveloop se_02
+`“Something on television…?”@ I look toward the enormous television enthroned at the back of the cafeteria.@ The school records the morning news and plays it here at lunchtime.@ Something in the broadcast must have caught my eye.@
+wave se_01
+`“No…”@ The report leaves me stunned.@ The screen shows the same back alley I saw in yesterday’s dream.@ A newscaster is speaking.@ Across the picture, huge letters the color of blood read: VAMPIRE MURDERS—NINTH VICTIM.
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_50",notrans,0
+`Then the victim’s face appears.@ The woman with the long hair is unmistakably the same woman I killed in my dream.@
+bg #9c0120,crossfade,400
+bg "bg/bg_50",crossfade,400
+`“…”@ I feel consciousness slipping away.@ “Why…?”@ It was a dream.@ I know it was a dream.@ Yet the same person has been murdered in the same place, in exactly the same way.
+\
+`“But the vampire…@ is gone.”@ I killed Yumizuka with my own hands.@ There should never have been another vampire murder.@
+br
+`“I—killed her?”@
+br
+`Yes—I killed her.@ Just as I drove the knife into Yumizuka with my own hand.@ Panting for breath, last night, that woman I had never seen—
+\
+bg #000000,notrans,0
+br
+br
+br
+br
+br
+br
+`I told you so, Shiki.@ Holding back never did any good.
+\
+bg "bg/bg_50",notrans,0
+`“Urgh—”@ Fighting the urge to vomit, I stagger to my feet.@
+bg #000000,lshutter,400
+br
+`I can’t go back to class.@ Before I know it, I am running into the city.
+\
+wavestop
+!w2000
+bg "bg/bg_30a",lcartain,400
+`I reach the place from my dream.@
+br
+`Several police officers stand nearby, and tape seals off the alley.@ “It’s the same.”@ I came through this place in the dream.@ No—that wasn’t a dream.@ I can’t hide from it by calling it one anymore.@ “…”@ If I stay, the police will only start watching me.@ It’s too late to return to school, so I may as well go back to the mansion.
+\
+bg #000000,lcartain,800
+!w1000
+bg "bg/bg_33a",lcartain,800
+waveloop se_11
+`Perhaps because it is barely two in the afternoon, Hisui is not waiting in the lobby.@ “…”@ That suits me well enough.@ I don’t want to see anyone right now.@
+br
+bg #000000,tshutter,800
+bg "bg/bg_40a",tshutter,800
+`“Haa…”@ I empty my lungs and collapse onto the bed.
+\
+bg #000000,crossfade,400
+`I truly don’t understand.@ The self who dreams of murder.@ The murders that happen exactly as I dream them.@ The self who goes on living an ordinary life.@ The self who exulted in killing inside the dream.@
+br
+br
+`Which one—which one is the real Shiki Tohno?
+\
+textcolor #ff0000
+br
+br
+`At this point, do you even have to ask?
+\
+textcolor #ffffff
+br
+br
+`That voice again.
+\
+textcolor #ff0000
+br
+br
+br
+br
+`Come on, Shiki—let’s keep going
+\
+textcolor #ffffff
+br
+br
+br
+br
+`My own voice, echoing from inside my skull.
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+`Night comes every day.@ Sooner or later, we’re bound to find the one we want…@ aren’t we?
+\
+textcolor #ffffff
+ld c,"tachi/aki_t09",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+wavestop
+`“Shut up!”@ I wrench myself upright.@ “Hah…@ hah…@ hah…”@ My breathing comes hard and fast.@ Just now, I had wanted Akiha.@ “Damn it…@ What is this?”@ I don’t know what is happening to me.@ The only certainty is my terror that if I see Akiha or Hisui now, I have no idea what I might do.
+\

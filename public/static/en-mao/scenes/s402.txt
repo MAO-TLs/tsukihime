@@ -1,0 +1,2672 @@
+playstop
+wavestop
+bg "bg/bg_34b",crossfade,400
+play "*1"
+`Dinner is over, and we are having tea in the sitting room.@ …@I’m in no state of mind for leisurely tea, but when Akiha and Kohaku invite me, refusing isn’t an option.@ I sip the black tea Kohaku brewed and listen to the two of them talk.
+\
+ld l,"tachi/aki_t04b",lshutter,400
+`“By the way, Brother, about the end of the year…”@ Akiha abruptly turns the conversation toward me.@ “The end of the year?@ Isn’t that a little premature?@ It’s only October.”@
+ld l,"tachi/aki_t03b",crossfade,400
+`“What are you talking about?@ November is almost here.@ Once December arrives, winter vacation will be upon us before we know it.@ We have to make plans now.”@ “…@All right.@ What are you planning to do?@ My New Year is usually spoken for—”
+\
+ld l,"tachi/aki_t18b",crossfade,400
+`“Yes, Aunt Arima told me.@ Apparently, whenever you have a long holiday, you move into a friend’s house and never come home.”@
+br
+`Akiha gives me a long sidelong look, loaded with unspoken accusation.@
+br
+`…@Urk.@ Why does she know things like that?
+\
+`“…@So what?@ I can spend my vacation however I like.@ It doesn’t inconvenience any of you, so leave me alone.”@
+ld r,"tachi/koha_t03b",lshutter,400
+`“Oh?@ Aren’t you going on a trip, Shiki?”@ “…@Listen, I’m an ordinary student.@ I don’t have the money to travel.@ I’d like to take a part-time job, but—”
+\
+ld l,"tachi/aki_t02b",crossfade,400
+`“Brother.@ You do understand what would happen if the eldest son of the Tohno family took a part-time job?”@ “You see, Kohaku?@ With a drill sergeant like this around, I’m not allowed any normal teenage fun.”@
+ld r,"tachi/koha_t02b",crossfade,400
+`“Well, that can’t be helped.@ But Shiki, are you truly not coming on the trip?@ We’ve already made reservations for Miss Akiha, you, Hisui, and me.”@ “What—reservations where…?”@ “At the hotel for our winter trip.@ Since you have a fondness for traditional Japanese surroundings, we chose a domestic destination this year.@ Isn’t that right, Miss Akiha?”
+\
+ld l,"tachi/aki_t21b",crossfade,400
+`“K-Kohaku was the one who suggested it!@ I merely agreed!”@
+cl l,lshutter,400
+`Akiha turns away with an indignant huff.@
+ld r,"tachi/koha_t15",crossfade,400
+`“Yes, we’ll say that’s how it happened.@ In any case, please keep the end of the year free, Shiki.@ Hisui even agreed to leave the mansion, provided you come with us.@
+ld r,"tachi/koha_t03b",crossfade,400
+`Do you understand?@ This will be Hisui’s first trip.@ She always stays behind to mind the house and never wants to go anywhere.”
+\
+cl r,lshutter,400
+`“…”@ This is rather a lot to spring on me.@ When I think about it, I have never once gone anywhere with my family, so I…
+\
+ld c,"tachi/aki_t13b",lshutter,400
+`“W-what is that look, Brother?@ We aren’t forcing you.@ If you have other plans, you are perfectly free to decline.”@ “No, I’ll come.@ Besides, if I turned down one of your invitations, there’s no telling what reprisals would follow.”@
+ld c,"tachi/aki_t21b",crossfade,400
+`“I keep telling you, it wasn’t my idea…!@ It makes no difference to me.@ I would be perfectly content to go…@ alone.”
+\
+`“Sure, we’ll leave it at that.@ Anyway, thanks.@ …@Going somewhere with everyone does sound like fun.”@
+ld c,"tachi/aki_t05b",crossfade,400
+`“…@There’s no reason to thank me.@ Families take trips together.@ It’s perfectly ordinary!”@
+cl c,lshutter,400
+`Akiha whips her face away.@
+br
+`No other subject of consequence arises, and our after-dinner tea winds down in mellow silence.
+\
+bg #000000,lcartain,800
+!w1000
+bg "bg/bg_40d",rcartain,800
+`Bedtime arrives.@ …@Perhaps the conversation downstairs helped; I feel a little lighter now.@
+br
+`“…@A trip at the end of the year.”@ I can’t imagine what traveling with that particular group will be like, but I’m certain it will be enjoyable.
+\
+`“Haa…”@ I take a deep breath and burrow under the covers.@ Just for tonight, at least.@ Praying not to dream that dream again, I close my eyes.
+\
+bg #000000,crossfade,1500
+playstop
+!w2000
+waveloop se_11
+monocro #0000ff
+bg "bg/bg_06c",crossfade,800
+`…@I am somewhere dark.@ Are there clouds overhead?@ There is no moonlight tonight, and I can see nothing around me.
+\
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+`My breathing echoes.@ Tonight, I am not going out to kill anyone.@ Instead, I am breaking a doll.
+\
+br
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+br
+br
+br
+br
+br
+`I seize its arm.@ I don’t care if I wrench it off, so I hold nothing back.@ Dragging the body toward me, I go on raping the doll.
+\
+eroskip 9
+br
+br
+br
+`Hah—hah—hah—
+br
+br
+br
+br
+br
+br
+br
+br
+`I’m tired of this one too.@ It never even screams, no matter what I do, and I feel nothing for it.@ I rape it only to empty my lust into it.
+\
+`…@A wind rises.@ The clouds shift, just a little.
+\
+monocro off
+bg "event/his_h14",crossfade,800
+`A classroom at night.@ Inside it stands a beautiful doll.
+\
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+`The doll says nothing.@ It does not even move of its own accord.
+\
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+`Even when I force that fevered lump of flesh between its legs, it does not twitch.
+\
+`This thing can’t excite me anymore.@ Beautiful or not, a doll is still nothing but a doll.
+\
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+`But the feel of it is exquisite.@ No matter how many times I rape it, I never tire of the body itself.@ Its frame jolts and shakes.@ The doll’s eyes are not looking at me.@ Is the moon all that those empty eyes reflect?@
+br
+br
+`This piece of trash.@ It pisses me off.
+\
+`“It won’t be long now.”@
+br
+`One of the doll’s eyebrows twitches.@
+br
+`“Soon, I’ll kill you.”@
+br
+`Color seeps into the doll’s frozen cheeks.@
+br
+`“Soon, I’ll come back.”
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+br
+`I’ll kill you.@ Then I’ll be the one who comes to the surface.
+\
+textcolor #ffffff
+`“And once I do, I won’t need you anymore.”@
+br
+`Ha.@ That’s funny.@
+br
+`“Hah—hah—hah—”@
+br
+`My breathing comes apart.@
+br
+`“Haaaaa—ha, hahahaha, hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha!”
+\
+`Laughter echoes through the delirium.@ My head bobs frantically up and down like a wooden doll’s, clack-a-clackera.@ Laughing.@ Laughing.@ Still laughing, I go on raping a young woman I cannot tell is Hisui or Kohaku.
+\
+bg #000000,crossfade,800
+wavestop
+!w4000
+phase "bg/cmo_05b",l,his,08a,8
+bg #ffffff,crossfade,1500
+bg "bg/bg_40a",crossfade,400
+`“…”@ When I wake, it is already ten.@ “…@Oh, right.@ There’s no school today.”@ I sit up in bed.@
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "event/his_h14",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`Unable to bear it, I stumble into the corridor in my pajamas.
+\
+bg #000000,lshutter,400
+`I run to the washroom and vomit.@ “Ugh—ngh, ah…!”@ No matter how much I empty from my stomach, the nausea will not ease.@ Last night’s dream.@ In one sense, a dream even worse than the dreams of murder.
+\
+wave se_01
+`“Hah—ah…@ ah—”@ I defiled not only Akiha, but even Hisui and Kohaku.@ To dream something like that.@ To dream I spent the entire night raping someone who could have been Hisui or Kohaku.@ “…@Hah…@ aaah…”@ At last there is nothing left to bring up, and the spasms in my throat subside.
+\
+bg "bg/bg_33a",lshutter,800
+`When I enter the lobby, Hisui is busy with some task.@ Perhaps the furniture is being rearranged; she is carrying in a chair I don’t recognize.@
+wave se_01
+bg #9c0120,crossfade,400
+bg "bg/bg_33a",crossfade,400
+`“…@Ngh.”@ The room spins.@ Right now, I can’t look Hisui in the face.@ But ignoring her and retreating to my room would be even harder to bear.@ If she had woken me as usual, perhaps the sickness in my chest would have eased a little.
+\
+`“…@Hisui.”@ Noticing me, she approaches with small, quiet steps.@
+ld c,"tachi/his_t01",lshutter,800
+play "*1"
+`“Good morning, Master Shiki.”@ “…@Morning.@ Sorry for waking up whenever I felt like it.”@
+ld c,"tachi/his_t16",crossfade,800
+`“No, I apologize for not being at your side when you woke.”@ Hisui bows without a sound.@ …@Her face is blank.@ The memory of last night’s dream stirs, and guilt knots inside me.
+\
+ld c,"tachi/his_t01",crossfade,800
+`“…@No, you have nothing to apologize for.@ I’m the one who failed to wake at the proper time.@ If anything, you ought to scold me.”@ …@If she did, perhaps I could feel a little less wretched.@
+ld c,"tachi/his_t07",crossfade,400
+`“Master Shiki…?”@ But that would serve only my own selfish needs.@ My words have already made Hisui anxious.
+\
+`“It’s nothing.@ Forget I said it.@ …@Anyway, I’d like some breakfast.@ Is anything ready?”@
+ld c,"tachi/his_t23",crossfade,400
+`“…@My sister is away.@ Your breakfast has already been laid in the dining room.”@ “I see.@ Then I’ll go enjoy it.@ Sorry for interrupting your work.”@ Telling her I’ll see her later, I head for the dining room.
+\
+bg #000000,lcartain,800
+playstop
+bg "bg/bg_40a",rcartain,800
+`I return to my room, but there is nothing in particular I need to do.@ I have had more than enough of sleep.@ After pondering the problem for a while, I decide to tour the mansion for the first time in eight years.
+\
+bg "bg/bg_33a",lcartain,800
+play "*1"
+`I go down to the lobby.@ On a whim, I begin strolling through the mansion, looking for the memories I left here as a child.
+\
+bg "bg/bg_46a",lcartain,800
+`The corridor runs on and on.@ As a child, I never doubted it continued forever.@ The mansion seemed as vast as a castle, and every day I explored a little more of it, carving my name into walls, pillars, and floors.@ Akiha and I had become obsessed with a game of claiming territory.@
+br
+`Wherever we carved our names became our territory.@ We roamed the entire mansion together, leaving our names behind.
+\
+bg "bg/bg_46a",tshutter,800
+`“…@There.”@ SHIKI is carved into the stair rail.@ Perhaps this game was the real reason Father eventually forbade us to play inside.@ Now that I’m looking carefully, I find my name and Akiha’s everywhere.
+\
+bg "bg/bg_48a",lcartain,800
+`I go outside.@ …@Come to think of it, Akiha and I usually played in the garden.@ Unlike me, she obeyed Father, so she was allowed only thirty minutes a day.@ Even then, she mostly followed behind us and quietly did whatever she was told.@ But once a game began, she raced about with all her energy and fought us for victory in everything.
+\
+`“…@So the foundations were there all along.”@ Perhaps she had simply hidden her real nature under five or six layers of good behavior whenever Father was watching.
+\
+bg "bg/bg_42a",lcartain,800
+`More names are carved into the mansion wall.@ Shiki, Shiki, Akiha, SHIKI, Akiha, SHIKI, Akiha, Shiki, Shiki, SHIKI, Shiki.@ The proportions are roughly like that; naturally, SHIKI is the name that appears most often.@ Whatever else she may be, Akiha was a girl, and she could not match the territory covered by the boys.
+\
+bg "bg/bg_54a",lshutter,800
+`“Kohaku…?”@ When I reach the rear garden, I catch sight of Kohaku from behind.@ She has not noticed me.@ For some reason, she walks into the woods.@ “?”@ Curious, I follow her a little way.@
+br
+`And then—
+br
+`Beyond the trees where Kohaku disappeared, there seems to be a small clearing.
+\
+`“…@Was there always a clearing over there…?”@ I tilt my head and search my memory, but everything is hazy.@ Amid the woods of the estate, I can make out a space that looks as though it has been cut from the trees.@
+br
+`No—make out is the wrong phrase.@ I would never have seen it merely by walking past.@ If Kohaku had not gone there, I might have lived in this mansion all my life without discovering that tiny clearing enclosed by trees.
+\
+`“…@That’s strange.@ I don’t remember a clearing there.”@ At least, I have no memory of playing with Akiha in a clearing in the woods.@
+br
+wave se_01
+`I don’t…@ think I do.@
+br
+`“…”@ After a moment’s thought, I decide to enter.
+\
+bg #ffffff,crossfade,800
+playstop
+bg "bg/bg_53",crossfade,800
+`…@There is nothing unusual in the clearing.@ Kohaku, who entered ahead of me, is nowhere to be seen.@ “What—it’s only an empty patch of ground.”@ I walk toward the center.@ It really is nothing more than a vacant space: smooth, level earth beneath my feet, and the deep forest closing in on every side.
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_53",notrans,0
+`The singing of cicadas.@ Fierce summer sunlight, hot enough to melt me away—
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_53",notrans,0
+wave se_01
+`“What…?”@ Summer sunlight—?@
+br
+bg #ffffff,crossfade,400
+bg "bg/bg_53",notrans,0
+wave se_01
+`“It—hurts…”@ The scar in my chest aches.@
+br
+br
+wave se_01
+`                              as though     /     a sudden stab.@
+br
+br
+wave se_01
+`                                        a kitchen knife in my chest     /     as though     /     this pain.
+\
+bg #ffffff,crossfade,1500
+br
+br
+br
+br
+`Miiin.@ Min-min.@
+!w1000
+`Miiin.@ Min-min.@
+!w1000
+`Miiin.@ Min-min—
+!w1000
+br
+`Somewhere, cicadas are singing.@
+br
+`Though it is already autumn.
+\
+`Summer sunlight, bleached white enough to dissolve the world.@
+br
+`Far away, thunderheads climb the sky.@ I can see the voice of an empty cicada shell.@ At my feet lies a cast-off husk.@ A husk.@ What someone left behind.@
+br
+`“……………………”@
+br
+`The wound tears open.@ My chest floods scarlet, and even my hands blaze dark with blood—
+\
+bg "bg/cmo_06",crossfade,800
+waveloop se_02
+br
+br
+br
+br
+`…@Someone’s shadow crouching on the ground.@ The footsteps of a little girl drawing near.@ Thunderheads in the distant sky, an empty husk beneath the blue.@ And when I look again, Akiha’s tearful face is before me, drenched in blood.
+\
+br
+br
+br
+`Miiin, min-min.@ Miiin, min-min.@
+br
+`The cicadas shriek like needles trying to pierce my eardrums.
+\
+bg #ffffff,crossfade,400
+bg "bg/cmo_05",crossfade,400
+bg "bg/bg_53",crossfade,800
+`“Ah—ngh.”@ My chest hurts.@ I’m going to be sick.@ The wound closed long ago, so why does it hurt this much?@
+bg #9c0120,crossfade,800
+`My chest is broken.@ The old wound gapes, and a CRIMSON stain pours out.@
+br
+`Of course.@ My wound never healed at all.
+\
+bg #000000,crossfade,800
+`My consciousness sinks.@ The wound throbs.@
+br
+`Just before darkness takes me, a hateful image returns.@
+bg "bg/cmo_06",crossfade,800
+br
+`A sweltering summer day.@ Akiha covered in blood, and me standing over her.@
+br
+`A shadow licking the blood from its hands.@ …@Slowly, the shadow becomes a boy with my own face, smiling in delight.
+\
+bg #ffffff,crossfade,1500
+wavestop
+!w4000
+bg "bg/bg_40c",notrans,0
+wait 100
+bg #000000,notrans,0
+!w500
+bg "bg/bg_40c",notrans,0
+wait 100
+bg #ffffff,notrans,0
+!w500
+bg "bg/bg_40c",crossfade,800
+play "*1"
+`…@I can hear voices.
+\
+`“Miss Akiha, should we not summon a doctor?”@ “Don’t be absurd, Hisui.@ We can’t call one.@ Brother’s wound isn’t an ordinary injury…!”
+\
+`…@akiha and hisui are talking.@ this is SHIKI’s room.@ it seems i am asleep on the bed.
+\
+`I try to sit up and call hello, but my body will not obey.@ The pain in my chest is gone, yet my limbs feel heavy as lead.@ Only my eyes and mouth seem capable of moving properly.
+\
+ld l,"tachi/aki_t07b",lshutter,400
+`“What were you thinking, Hisui?@ You knew Shiki must never be allowed near that place…!”@
+ld r,"tachi/his_t05",lshutter,400
+`“I am…@ terribly sorry.”@ “Sorry does not begin to answer for this.@ You were assigned to Brother precisely to prevent something like this.@ Did you forget?@ What in heaven’s name were you doing…!”@ Akiha’s fury is naked in a way I have never seen before.@ Hisui keeps her head bowed and suffers the rebuke in silence.
+\
+ld l,"tachi/aki_t11b",crossfade,400
+`“Where is Kohaku?@ I ordered her to keep an eye on Brother as well.”@ “My sister is not here.”@ “Not here…?@ What does that mean?”@ Hisui does not answer.@ Akiha grinds her teeth.@
+br
+`Not here?@ What is she talking about?@ Kohaku was in the rear garden just before I collapsed—
+\
+ld r,"tachi/his_t23",crossfade,400
+`“Miss Akiha.@ Please, let us stop.”@ “Hisui—”@ “This man is different.@ He is not the same person.@ If he stays in this mansion, he will surely be unhappy.@ Please, let us stop this.”@ “I don’t want to hear that now.”@
+ld r,"tachi/his_t17",crossfade,400
+`“That is precisely why I must say it.@ You have realized it too, Miss Akiha.@ At this rate, Master Shiki will become a true murderer.”
+\
+br
+br
+br
+br
+br
+br
+br
+wave se_01
+`What did Hisui just say?
+\
+`“…@You think living in this mansion has stirred the Tohno blood in him?@ Impossible.@ Not Brother.@ That one thing could never happen to him.”@ “…@Yes.@ This man is like us—because of your father’s whim—”
+\
+`A sharp slap cracks through the room.
+\
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_40c",notrans,0
+ld l,"tachi/aki_t10b",crossfade,400
+`“Hisui.@ I told you that you were never to speak of that.”@
+ld r,"tachi/his_t26",crossfade,400
+`“…”@ Neither of them says another word.@ The air between them draws so taut it seems ready to choke me.@
+br
+`…@Hisui keeps her head bowed, plainly in pain.@ I don’t understand why Akiha is so angry, but I can’t bear to watch Hisui suffer any longer.
+\
+`“Mmm…”@ I twist in the bed with deliberate theatricality.@
+ld l,"tachi/aki_t23b",crossfade,400
+`“…@Hisui, I leave the rest to you.@ When Brother wakes, please take good care of him.”@
+ld r,"tachi/his_t23",crossfade,400
+`“Will you not stay, Miss Akiha?”@ “No.@ If I remain, I’ll only weaken him further.”@
+cl a,lshutter,400
+`With a bitter, self-mocking smile, Akiha leaves the room.
+\
+`“…”@ Now what?@ I should probably keep pretending to be asleep, but—
+ld c,"tachi/his_t23",crossfade,400
+`“I believe you may open your eyes now, Master Shiki.”@ “…@You noticed?@ That was mean of you, Hisui.”@
+ld c,"tachi/his_t01",crossfade,400
+`“Yes.@ Miss Akiha did not notice.@ …@She has always been poor at seeing through other people’s performances.”@ Hisui says it diffidently.
+\
+`“…@I see.@ So you’re the perceptive one.”@
+ld c,"tachi/his_t01b",crossfade,400
+`“…@I am not certain.@ I cannot understand the heart of the person I most wish to understand.@ Perhaps I am not as perceptive as I believed.”@ “I see.”@ I nod, intuiting somehow that she means Kohaku.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“…@Hisui.@ You said something earlier—where has Kohaku gone?”@
+ld c,"tachi/his_t17",crossfade,400
+`“…@I’m sorry.@ I do not know my sister very well.”@ “…”@ Something about that catches in my mind, though in my present state I cannot say what.@
+br
+`Even as we speak, my body remains leaden.@ Talking alone drains my strength.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki, are you not pushing yourself too hard…?”@ “…@Honestly, I feel awful.@ What happened to me?”@ “…@You collapsed in the rear garden.@ It did not appear to be your usual anemia, so I contacted Miss Akiha and we carried you to your room.”
+\
+br
+br
+br
+br
+br
+`…@Collapsed.@ In the rear garden.@ White sunlight, and the voices of empty cicada shells.
+\
+`“Now I remember.@ I was suddenly dizzy, and then everything tipped over.@ …@What a mess.@ This hasn’t happened since elementary school.”@ “…@I wished to summon a doctor, but Miss Akiha said that we should watch you a little longer.”@ “…@She was right.@ This is all in my head; a doctor couldn’t do anything.@ How long was I unconscious?”@ “…@I found you shortly after noon, so almost exactly twelve hours.”@ “What—it’s that late already!?”@ Startled, I try to look at the clock.@ My body refuses to move.
+\
+ld c,"tachi/his_t04",crossfade,400
+`“It is midnight.@ I will attend you here tonight, so please call me without hesitation if you need anything.”@ “Ah…@ yes.@ That’s reassuring, but…”@ I haven’t lost half a day like this since the accident.@ Worse, despite sleeping for twelve hours, my body still craves more.
+\
+`“…@Sorry.@ I’m so sleepy…”@ “Then please rest.@ I will wait outside in the corridor and come at once if you call.”@ “…@What are you saying…?@ I can’t leave the person nursing me out in the hall.@ …@Please, Hisui…@ stay here…”@
+br
+`Damn it.@ I can’t keep my voice going.@
+br
+`The room reels, as though I am falling backward into a tank of water.@ My consciousness cuts out without warning.
+\
+bg #000000,crossfade,800
+playstop
+!w4000
+bg "bg/ima_02",crossfade,800
+play "*9"
+br
+br
+br
+br
+br
+br
+br
+`And then, quite suddenly, I dream.
+\
+br
+br
+br
+`It was a dark night.@ Some sound woke me in the dead of night.@ The room was empty.@ At some point all the adults had gone out.@ Being alone frightened me, so I went into the garden to find where they had gone.
+\
+br
+br
+br
+`It was a winter night, cold enough to freeze.@ My breath came white.@ The garden was bitterly cold, but the night sky was beautiful.@ That sky must have been what people meant by crystalline winter clarity.@ Frozen stars.@ Bottomless dark.@ Lifeless moonlight illuminating the world.
+\
+br
+br
+br
+`To a child, the mansion grounds were far too vast.@ Beyond the garden lay forest on every side.@ Hidden deep in the mountains, this mansion was not truly a place where human beings ought to live.@
+br
+`The mansion stood in the dark forest like the glow of a luminous fish at the bottom of the sea.
+\
+br
+`The forest’s darkness rose deep and high, remote and black.@ The trees were no longer trees, but a curtain of night reaching for the moon.@ I heard something and became certain the adults were inside.@ I entered the forest.@
+br
+`Absolute darkness waited there, untouched by any source of light.@ Unable to see even my own body, I walked only toward the sound.@ It was cold.@ So cold the backs of my eyes went numb.@ Somewhere in that darkness, I thought I heard my name.
+\
+br
+br
+br
+br
+`The cry of a reed warbler.@ Grass stirring and whispering.@ There, I met a red demon.@ The demon took no interest in me, and I took none in it.@ Crimson.@ Red.@ Vermilion.@ I crossed a field transformed into a scarlet sea.
+\
+br
+br
+br
+br
+br
+`I emerged into a clearing cut from the trees.@ The adults’ bodies lay scattered everywhere.@ The earth, which should have been dark, was steeped in poisonous vermilion, as if the living creature called the world were bleeding.
+\
+br
+br
+br
+br
+br
+br
+`That was—
+\
+br
+br
+br
+br
+br
+br
+`Upon the bleeding earth stood the enemy who had killed the adults.
+\
+br
+br
+br
+br
+br
+br
+`The very first nightmare.
+\
+br
+br
+br
+br
+br
+br
+`The enemy approached to kill me too.@ Mother was cut down shielding my body.
+\
+br
+br
+br
+br
+br
+br
+`Hot blood splashed across my face.
+\
+br
+br
+br
+br
+br
+br
+`In the freezing night, that warmth…
+\
+br
+br
+br
+br
+br
+br
+`The first color I ever hated.
+\
+br
+br
+br
+br
+br
+`The enemy’s claws pierced my chest.@ Perhaps the cold had numbed me too completely.@ It did not hurt very much.
+\
+br
+br
+br
+br
+br
+br
+`I looked up at the heavens.
+\
+br
+br
+br
+br
+br
+`The world melted into ugliness.@ Within it, only the blue darkness remained unchanged.
+\
+br
+br
+br
+br
+br
+br
+`—How      beautiful
+\
+br
+br
+br
+br
+br
+br
+`It was      a fragile moon, like glass.
+\
+bg "bg/ima_01",crossfade,800
+br
+br
+br
+br
+br
+br
+`            Ah—I hadn’t noticed.
+\
+br
+br
+br
+br
+br
+br
+`                tonight, the moon is so
+\
+br
+br
+br
+br
+br
+br
+br
+`            beautiful—
+\
+bg #000000,crossfade,800
+playstop
+!w4000
+phase "bg/cmo_17",l,his,09a,9
+monocro #ff0000
+bg "bg/ima_01",notrans,0
+`…………………………………………@ A door clicks softly shut, and my consciousness drifts free of the memory.@ My heart rises toward the surface.@ Reality waits above.
+\
+br
+br
+br
+br
+br
+br
+`And so I awaken from that ancient dream.
+\
+monocro off
+bg #ffffff,crossfade,800
+bg "bg/bg_40a",crossfade,800
+play "*2"
+`“What…@ why?”@ Touching my cheek, I realize I am crying.@ I don’t know what made me sad, or what caused me pain.@ Only the feeling of having been torn from something terribly precious remains inside my chest.@
+br
+`“Maybe…@ it wasn’t a bad dream.”@
+br
+`It felt different from the dreams of murder I have been having.@ For the first time in days, I slept well last night.@ Surely that was because Hisui stayed nearby and watched over me.
+\
+`“…@Hisui?”@ I sit up and look around.@ She is gone.@ I thought I heard a door close a moment ago; perhaps that was her leaving.
+\
+`In any case, it is morning.@ Today is Friday, so of course there is school.@ “All right.@ Time to get up.”@ Perhaps from yesterday’s ordeal, a faint wave of nausea passes through me when I rise from the bed.@
+br
+`“My clothes…@ Oh.@ She hasn’t laid them out yet.”@
+br
+`Hisui must have gone to fetch my uniform.@ She’ll be back soon, then.
+\
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_40a",crossfade,400
+`“…@What…?”@
+bg #ffffff,crossfade,400
+bg "bg/bg_40a",crossfade,400
+wave se_05
+quakey 3,200
+`Without warning, all strength leaves me and I pitch forward.@ It feels like my usual dizziness, except I cannot stand again.@ There is no strength in my arms or legs.@ I can move my arms a little, but not enough to lift my own body.@ “…@You’ve got to be kidding.”@ I strain with everything I have.@ Nothing happens.@ I cannot manage even a single push-up.
+\
+`“This is bad…@ I guess my body hasn’t recovered yet.”@ Still sprawled on the carpet, I accept the situation.@ Frantic struggling clearly will not get me upright.@ I’m not in pain, so if I lie here awhile, my strength should eventually return.
+\
+wave se_04
+ld c,"tachi/his_t16",lshutter,800
+`“Master Shiki, I have brought your clothes.”@ The door opens with a click, and Hisui enters.@
+ld c,"tachi/his_t25",crossfade,400
+`“Master Shiki!?”@ Her voice is almost a scream.@ Footsteps rush toward me.
+\
+ld c,"tachi/his_t23",crossfade,400
+`“Master Shiki, please, answer me, Master Shiki…!”@ Hisui calls to me desperately.@ “Hey.@ Morning, Hisui.@ I only fell over, so could you please not worry so much?”@ “Only fell over—what are you saying, Master Shiki…!”@ “I’m fine.@ Help me up and I’ll be back to normal.”@ “Yes, at once—”@ She nods immediately and reaches for my shoulder.
+\
+ld c,"tachi/his_t25",crossfade,400
+`“Ah…”@ Her arm stops dead.@ Face taut, sweat beading on her brow, Hisui fights desperately to make herself reach farther.@
+br
+`But nothing more happens.@ She bites her lip and trembles, struggling so desperately to touch me that merely watching becomes painful.
+\
+`“…@I see.@ Don’t force yourself, Hisui.@ Just go and fetch Kohaku.@ That will do.”@
+ld c,"tachi/his_t24",crossfade,400
+`“…”@ Hisui gives one small nod and runs from the room.@ “…@What is it with her?@ Hisui’s squeamishness about physical contact must run pretty deep.”@ Still lying there, I mutter it casually.
+\
+bg #000000,crossfade,800
+playstop
+!w2000
+bg "bg/bg_40a",lcartain,400
+play "*3"
+`Kohaku comes at once and lends me her shoulder.@ …@Though since my body has no strength at all, she ends up doing almost everything herself.@ Perhaps it is because I’m completely limp, but she remarks, “Goodness, Shiki, you’re as light as a girl.”
+\
+`“Strange…@ I don’t feel especially ill, but my body won’t move.”@
+ld c,"tachi/koha_t01a",lshutter,400
+`“Let me see.@ You don’t appear to have a fever, but I can’t say much until we watch you for a while.@ Your color is good, so I expect your strength will return soon.”@
+cl c,lshutter,800
+`Still smiling, Kohaku takes my temperature and looks me over.@ Her smile helps me relax, but…
+\
+ld c,"tachi/his_t07",lshutter,800
+!w1500
+cl c,lshutter,800
+`Hisui’s face has remained clouded all this time.@ Even now she half-hides behind Kohaku, stealing anxious glances at me.
+\
+ld c,"tachi/aki_t10",lshutter,400
+`“Brother…!”@ Akiha rushes into the room, her face transformed with alarm.
+\
+`“Hey.@ Full of energy this morning, aren’t you?”@ I raise one hand in greeting.@
+ld c,"tachi/aki_t15a",crossfade,400
+`“What—”@ Yet the instant she sees me, Akiha recoils as though she has seen a ghost.@ “Come on, don’t be so dramatic.@ There’s nothing seriously wrong with me, so stop looking so terrified.@ You’re going to make me worried too.”@
+ld c,"tachi/aki_t17a",crossfade,400
+`“Perhaps…@ perhaps you’re right, but—”@ Pale-faced, Akiha stares at me.@
+cl c,lshutter,800
+`I know perfectly well this is nothing serious, but Hisui and Akiha seem convinced that Shiki Tohno is gravely ill.
+\
+`“…@Do I really look that awful?”@
+ld r,"tachi/koha_t01a",lshutter,400
+`“Not at all.@ You look just as you always do, Shiki.@
+ld r,"tachi/koha_t02",crossfade,400
+`Still, your body has plainly not recovered, so please rest for the day.@ I’ll telephone the school.”@
+ld l,"tachi/aki_t12a",lshutter,400
+`“…@Yes.@ Contact our family physician as well.@ We should have him perform a thorough examination.”
+\
+`“A thorough examination…?@ I really don’t think that’s necessary.”@
+ld l,"tachi/aki_t11a",crossfade,400
+`“Brother.@ If you object to an examination, I will have you admitted to a hospital instead.@ Is that acceptable?”@ “Ah…@ no.@ The examination sounds better.”@
+ld l,"tachi/aki_t02",crossfade,400
+`“Very well.@ Kohaku, Hisui, I leave Brother in your care.@ Since he is incapable of looking after his own health, you must do it for him.”@
+cl l,lshutter,800
+`After issuing that merciless order, Akiha leaves the room.
+\
+ld r,"tachi/koha_t03",crossfade,400
+`“Then I’ll go make the calls.”@
+cl a,lshutter,800
+`Kohaku leaves as well.@ Only Hisui, still hanging her head, and bedridden me remain.
+\
+`“Hisui?”@
+ld c,"tachi/his_t17",lshutter,400
+`“…@Yes, Master Shiki?”@ “I’m all right, so you may return to your work.@ My body won’t cooperate anyway; I certainly can’t climb out of bed and go wandering.”@ “…”@ Hisui keeps her head lowered and does not move.@ “…@Hisui?@ What’s wrong?@ You’ve been acting strangely.@ If you feel ill, forget about me and go rest.”@ “…”@ She retreats into an even deeper silence.
+\
+`Then, without warning, Hisui raises her voice as though she has finally found her resolve.@
+ld c,"tachi/his_t23",crossfade,400
+`“…@Master Shiki, are you not…@ angry with me?”@ “Huh?@ Angry about what?”@
+ld c,"tachi/his_t26",crossfade,400
+`“About what happened earlier.@ …@I am supposed to care for you, yet I could not even help you…”@ “Hisui—”@ I’m taken aback.@ I had no idea she was tormenting herself over that.
+\
+`“I admit it was a little disappointing.@ I thought you would lift me right up, but Kohaku had to do it in the end.”@
+ld c,"tachi/his_t05",crossfade,400
+`“…”@ “But that doesn’t matter.@ You may not realize it, Hisui, but you help me enormously.@ Compared with that, what happened earlier is nothing—just one of those little mishaps.”
+\
+ld c,"tachi/his_t26",crossfade,400
+`“…@Is that truly so?@ I do not believe I have been of any help to you.”@ “You don’t understand.@ The reason I can remain calm like this is you.@ …@That isn’t flattery.@ If you weren’t here, I would have lost my mind long ago.”@
+ld c,"tachi/his_t07",crossfade,400
+`“…@I have?”@ “You have.@ Lately my emotions have been all over the place, and I have nightmares constantly.@ But every morning you say good morning to me, and I think that’s what lets me stay sane.@ So you’ve already saved me many times.@ Even today, I was so glad when you came.”
+\
+ld c,"tachi/his_t03",crossfade,400
+`“Oh…@ I…@ thank you.”@ “That’s what I mean.@ You don’t have to touch me.@ You make your feelings clear in words, don’t you?@ Words alone can make someone happy in all sorts of ways.@ That’s why I’m saying you help me so much.”@
+ld c,"tachi/his_t23",crossfade,400
+`“Do you…@ truly mean that?”@ “Absolutely.@ Here’s proof: it still doesn’t feel as though morning has begun.@ I greeted you, but you haven’t said it back yet.”@
+ld c,"tachi/his_t04",crossfade,400
+`“…”@ Hisui lifts her eyes to me hesitantly, then seems to draw one small, deep breath.
+\
+ld c,"tachi/his_t02",crossfade,400
+`“…@Yes.@ Good morning, Master Shiki.”@ A faint blush touches her cheeks as she meets my eyes and gives me the words she forgot.@ “Exactly.@ Everyone has things they’re suited to and things they aren’t, so don’t dwell on it.@ Just do what you can, in your own way.”@ “…”@ Hisui does not answer.@ She merely studies me, lost in thought.
+\
+`“Um…@ Hisui, when you stare at me that hard, I get nervous.”@
+ld c,"tachi/his_t20",crossfade,400
+`“Y-yes!@ I beg your pardon.”@
+cl c,lshutter,400
+`With that, Hisui retreats toward the door as if fleeing.
+\
+ld c,"tachi/his_t16b",crossfade,400
+`“Please excuse me.@ My sister appears to have made the arrangements, so the doctor should arrive shortly.”@
+cl c,lshutter,800
+`Barely remembering her usual deep bow, Hisui patters hastily from the room.
+\
+bg #000000,crossfade,400
+!w2000
+bg "bg/bg_40a",tshutter,800
+`I had optimistically assumed that a thorough examination meant no more than taking my blood pressure.@ That was naive.@ Whether because the Tohnos are rich or simply divorced from common sense, the doctor arrives with a heap of elaborate equipment and turns the adjoining room into a temporary clinic.@
+br
+`After subjecting every part of me to a proper examination, the doctor finally leaves shortly after noon.@ Only then does Kohaku help me back to my room.@ Altogether, they kept me captive for nearly four hours.
+\
+`“…@Haa.”@ Lying in bed, I let out a small sigh.@ Despite all those tests, they found nothing wrong.@ …@Then again, my survival after the accident eight years ago was itself a miracle, so the doctor readily accepts another unexplained condition.@ For now, apparently, the best treatment is simply to rest in bed.@ I thought they might put me on an IV, but administering medicine to a body with no detectable abnormality would be dangerous in its own right.
+\
+wave se_04
+`“Master Shiki, I’m coming in!”@
+ld c,"tachi/koha_t03",lshutter,400
+`Kohaku enters carrying a tray and what looks like rice porridge.@ “You haven’t eaten anything since morning.@ It’s late, but I brought you some lunch.”@ “Oh.@ Thanks, Kohaku.”@ “Think nothing of it.@ This is my job.”
+\
+cl c,lshutter,400
+`Kohaku comes to my bedside, humming merrily as she picks up a spoon.@ “Um, Kohaku?”@
+ld c,"tachi/koha_t03",lshutter,400
+`“Now open wide.@ Aah.”@ Beaming, she demands something mortifying of me.
+\
+`“…@What?”@ Too bewildered to understand, I let my mouth fall open.@ Kohaku cools a spoonful of porridge, then slips it between my lips.@
+br
+`With her free hand, she takes hold of my chin and works my jaw up and down.
+\
+`“…@Kohaku.@ What kind of joke is this?”@
+ld c,"tachi/koha_t02",crossfade,400
+`“It isn’t a joke.@ You’re ill, Shiki.@ Naturally I have to help you eat.”@ Smiling sweetly, Kohaku launches her second attack.@ “Mmph—”@ This time, at least, I chew under my own power.
+\
+`“Very good.@ We’ll carry on just like this, Shiki.”@ “W-wait, Kohaku…!@ You keep calling me ill, but this is only anemia.@ I can feed myself without all this…!”@ “Now, now.@ Lie still and behave.@ I’m very experienced at this.”@ Puffing out her chest with pride, Kohaku launches her third attack.
+\
+`“Mmph—”@ The spoon is forced into my mouth, leaving me no choice but to chew.@ “How does it taste?@ The Arimas told me plum porridge was one of your favorites.”@ “…@Yes.@ It’s very good.”@
+ld c,"tachi/koha_t05",crossfade,400
+`“Wonderful.@ Then eat as much as you like.”@ Kohaku is having the time of her life.@ “…@Haa.”@ Clearly, nothing I say will matter.@ Resigned, I submit to her nursing.
+\
+cl c,crossfade,400
+`…@
+`……@
+`………@This is humiliating.@ Humiliating, yes, but that does not make it any less pleasant.@ Kohaku’s porridge is delicious, and the meal is over before I know it.
+\
+ld c,"tachi/koha_t01a",crossfade,400
+`“By the way, Shiki, how are you feeling?”@ “Fine.@ I’m only tired, so it’s no different from my usual anemia.”@ “I see.@ Shiki, you were badly injured here as a child, so you mustn’t overexert yourself.”@
+cl c,crossfade,400
+`Kohaku says it while clearing the dishes.
+\
+playstop
+`“Kohaku—what did you mean by that?”@ “Hm?@ Shiki, you were in an accident eight years ago and badly hurt, weren’t you?@ I heard you were sent to live with the Arimas while you recovered.”@ “Yes, that’s true, but…@ I wasn’t badly injured here at the mansion—”
+\
+wave se_01
+bg "bg/cmo_05",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+br
+br
+br
+br
+br
+br
+`No.@ More fundamentally—where did the accident that nearly killed me happen?
+\
+waveloop se_02
+`The terrible injury from my childhood.@ The accident after which I began seeing the lines of death.@ What happened to me?@ Where did it happen?@ I remember none of it.
+\
+ld c,"tachi/koha_t02",crossfade,400
+`“Shiki?@ Is something wrong?”@ “What…?@ No, it’s nothing.@ There’s no reason you would know the answer, Kohaku.”
+\
+bg "bg/cmo_06",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`But what I dimly remembered yesterday felt like a memory of that accident eight years ago.@
+br
+`Back then, there was me, Akiha…@ and I think one other person—
+\
+wavestop
+ld c,"tachi/koha_t03",crossfade,400
+`“I’ll go put the dishes away.”@
+cl c,lshutter,800
+`Kohaku turns to leave.@ “Wait.@ We used to play together when we were little, didn’t we?@ Wasn’t there someone else with us—one more person?”@ With her back still to me, Kohaku stops dead.
+\
+ld c,"tachi/koha_t01a",lshutter,400
+`“Shiki…@ you and I played together?”@ A soft laugh, almost nostalgic, rings coldly through the room.
+\
+ld c,"tachi/koha_t02",crossfade,400
+`“Perhaps you imagined it.@ Maybe Hisui just happened to join you that time.”@ “Oh, right.@ That could be it.”@ “I’m sure it is.@ I’ll come back later.”@
+cl c,lshutter,400
+`Carrying the dishes, Kohaku leaves the room.@
+br
+`“Well, then.”@ Eating has made me sleepy.@ There’s nothing else to do, so I may as well take a short nap.
+\
+bg #000000,crossfade,800
+!w3500
+waveloop se_11
+`When awareness returns, I am somewhere unfamiliar.
+\
+`It appears to be a basement unused for many years.@ Desks and chairs lie scattered around.@ Broken blackboards and folding chairs have been discarded at the far end.@ No sunlight reaches this place.@ In the dark, mold-reeking basement, I sit holding my breath.@
+br
+`I sit on a desk with my knees drawn up.@ The fresh corpse of a woman lies on the floor.
+\
+textcolor #ff0000
+br
+`Hah      Hah      Hah
+textcolor #ffffff
+br
+`Harsh breathing.@ It wants blood.@ It wants to eat flesh.@
+textcolor #ff0000
+` I want to kill someone.@
+br
+`Hah      Hah      Hah
+\
+br
+`Hah      Hah      Hah
+textcolor #ffffff
+`
+`hah      hah      hah
+br
+`The two rhythms lock together perfectly.@
+br
+`“Who’s there—!”@ I shout and search the room.@ The basement is empty.@
+br
+textcolor #ff0000
+`Hah      Hah      Hah
+\
+`Hah      Hah      Hah
+textcolor #ffffff
+`
+`hah      hah      hah
+br
+`“Damn it—you again!”@
+br
+`It says those words to me.
+\
+`“You can’t have her…!@ I brought this woman here!@ I won’t let you steal her from me!”@
+br
+`With that, It sinks its teeth into the corpse’s belly.@
+br
+bg "bg/ima_13",notrans,0
+`Squelch.@ Wet, pulping crunches.@ The sound of entrails being chewed through.@ —Haa.
+\
+br
+`hah    hah    hah    hah
+`My breath comes faster.@ Why?@ Somehow, as if it were merging with that thing’s, my breathing is losing its rhythm too.@
+br
+bg "bg/ima_13b",notrans,0
+`“I’ll kill you.”@
+br
+`Hah    hah    Hah    hah
+br
+`“Soon…@ soon I’m going to…@ kill…@ you.”@
+br
+`Muttering madly, it ground even the corpse’s bones between its teeth with a splintering crunch.
+\
+bg "bg/bg_40a",notrans,0
+wavestop
+play "*1"
+ld c,"tachi/his_t01",lshutter,400
+`“Master Shiki, did you fall asleep?”@
+`“Huh—?”@
+`Somehow, Hisui was standing right in front of me.
+\
+`“Hisui…@ when did you come in?”@
+ld c,"tachi/his_t07",crossfade,400
+`“When…?@ I finished changing your sheets about five minutes ago, Master Shiki.”@
+`“Oh.@ Sorry—I must have been asleep until just now.@ I didn’t notice you come in.”@
+ld c,"tachi/his_t13",crossfade,400
+`“…@Master Shiki, please don’t tease me.@ You were the one who allowed me in, and you were also the one who instructed me to change the sheets.”@
+`“What—?”@
+`What was she talking about?@ I’d been asleep until a moment ago, trapped in another horrible dream, and Hisui’s voice had woken me…@ hadn’t it?
+\
+`“…@Hisui.@ Did I look awake to you?”@
+ld c,"tachi/his_t01",crossfade,400
+`“…@Yes.@ After I changed the sheets, you closed your eyes, so I was asking whether you meant to sleep now.”@
+`“No.@ I won’t be sleeping again for a while.”@
+`I managed to answer, then looked down at my hand.@ Even lifting it was difficult now.@ I hadn’t improved at all since morning.@ My body was leaden.@ This body I had always believed was mine—Shiki Tohno’s—now felt like the flesh of some stranger I had never met.
+\
+`“…@I’m going to stay awake for a while.@ Do you have other work to do around the house?”@
+ld c,"tachi/his_t02",crossfade,400
+`“No.@ I have been excused from my usual duties so that I may nurse you today.@ If you have no objection, Master Shiki…@ may I remain here and watch over you?”@
+`Her offer was more than welcome.@ If Hisui stayed beside me, perhaps I wouldn’t have another dream like that one.
+\
+`“…@I’m the one who should be asking.@ If it isn’t a bother, would you stay here for a while?”@
+ld c,"tachi/his_t16b",crossfade,800
+`“Yes.@ Then I shall do so, Master Shiki.”@
+ld c,"tachi/his_t01",crossfade,400
+`Hisui bowed deeply, then remained standing there, watching me in silence.@
+`“No, you don’t have to stand on ceremony the whole time.@ Bring in a chair, read a book—do whatever you’d normally do.@ I’ll just be passing the time myself.”
+\
+ld c,"tachi/his_t23",crossfade,400
+`“Oh…@ yes, of course.”@
+cl c,lshutter,400
+`Hisui hurried out of the room.@ No doubt she was going to fetch a chair and a book, exactly as I’d suggested.
+\
+`“She really does take everything seriously.”@
+`A smile escaped me as I said it.@ It seemed almost funny now that, when I first met Hisui again in this house, I had taken her for a cold, expressionless girl.@ I hadn’t been able to see her any other way then, but now—little by little—I was beginning to understand what she was really like.@
+`“I wish she’d hurry back.”@
+`I let myself sink into the bed, meaning it with all my heart.@ If having her beside me was the reward, perhaps being ill wasn’t entirely terrible.
+\
+bg #000000,crossfade,800
+!w2000
+bg "bg/bg_40c",lcartain,800
+`Hisui’s nursing amounted, quite literally, to keeping me company.@ Since she could not bring herself to touch a man, she couldn’t examine me.@ Taking my temperature and wiping away my sweat were Kohaku’s duties; Hisui merely stayed nearby and saw to requests such as “I’m thirsty.”@
+br
+`Not that I minded.@ She couldn’t remain in the room all day, but she stayed as much as she could—and thanks to that, I had no more strange dreams.
+\
+`Then, a little before the household bedtime of ten o’clock…@
+ld c,"tachi/aki_t04b",lshutter,400
+`“Brother, how are you feeling?”@
+`Akiha had come to see me.
+\
+`“My head feels fine.@ My body still won’t do what I tell it, but at this rate I think I’ll be better by tomorrow.@ This happened once when I was little, and it’s exactly the same as it was then.”@
+ld c,"tachi/aki_t09b",crossfade,400
+`“Thank goodness.@ I’m relieved to hear that.”@
+`Akiha let out a long breath, the tension leaving her chest.
+\
+ld c,"tachi/aki_t04b",crossfade,400
+`“Good night, Brother.@ And please don’t overexert yourself just because you feel better.@ If you injure yourself now, we’ll be right back where we started.”@
+`“I know.@ Good night, Akiha.@ And thanks for going out of your way to check on me.”@
+ld c,"tachi/aki_t16b",crossfade,400
+`“Oh…@ well, we are brother and sister.@ This much is only natural…@
+ld c,"tachi/aki_t12b",crossfade,400
+`In any case, please take care of yourself.@ I never want to find you collapsed the way you were this morning again.”@
+cl c,lshutter,800
+`With a soft “Good night”@ and a faint smile, Akiha left.
+\
+bg #000000,crossfade,800
+bg "bg/bg_40d",crossfade,800
+`“….”@
+`It was time for bed.@ My body wouldn’t let me go anywhere regardless.@ I needed a full night’s sleep if I meant to recover by morning.@ So tonight, I decided to think of nothing at all and simply sleep.
+\
+bg #000000,crossfade,800
+playstop
+!w3000
+phase "bg/cmo_18",l,his,10a,10
+bg "bg/bg_40a",crossfade,800
+play "*2"
+`Morning sunlight through the window woke me.@
+`“No dreams.”@
+`Neither good nor bad—only a pure blank of sleep.@ I felt fairly well for it.@ It was Saturday; once school was over, I ought to find some way to thank Hisui and Kohaku for looking after me.@ The thought came easily.
+\
+`It was only just past six.@ After lying down all day yesterday, I wasn’t the least bit sleepy.@
+`“All right.@ Time to get up.”@
+`I tried to rise from the bed.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_40a",crossfade,400
+`“What…?”@
+`My body wouldn’t move.@ I hadn’t recovered at all.@ If anything, I was worse.@ Yesterday I could at least move my arms; now even that simple act was an ordeal.
+\
+`“Ngh…@ come on….”@
+`I tried raising one arm straight into the air.@
+`…@
+`……@
+`………@
+`“Hah…@ ah….”@
+`At last, it rose.@ That tiny motion had taken every ounce of strength in my body and nearly a full minute.
+\
+`“…@What the hell is happening to me?”@
+`I might as well have been a corpse.@ Or a robot with its power cut.@ Whatever the comparison, my body refused to move.@ Yet my mind was perfectly clear, and I felt no pain at all.
+\
+`“Hisui—Kohaku, could one of you—”@
+wave se_01
+bg #9c0120,crossfade,400
+bg "bg/bg_40a",crossfade,400
+`I stopped before I could call for them to come.@ I could speak, but trying to raise my voice made the room spin.@ Shouting took muscle too, and the strain made it feel as though blood were pooling inside my skull.@
+`“Hah….”@
+`I let out a shallow breath.@ There was nothing to do but wait like this until Hisui came to wake me.
+\
+bg #000000,lcartain,800
+playstop
+!w2000
+bg "bg/bg_40a",lcartain,800
+play "*3"
+`What followed was a perfect reenactment of the previous morning.@
+br
+`Things went a little faster because I was already lying helpless in bed, but otherwise nothing changed.@ Hisui came to wake me, went white, and ran for Kohaku, who examined me.@ Akiha heard the news and rushed in; a doctor was summoned, just as before, and after another examination I was left here to rest.
+\
+`After an entire day flat on my back, I couldn’t stand it any longer.@ Now I had my upper body propped against the headboard.
+\
+ld c,"tachi/his_t01",lshutter,400
+`“Did you say something, Master Shiki?”@
+`“Mm…?@ No.@ I was just staring into space.@ I didn’t say anything.”@
+ld c,"tachi/his_t07",crossfade,400
+`“….”@
+`“There, you’re making that face again.@ I told you, nothing hurts.@ There’s no reason for you to look so worried.”
+\
+ld c,"tachi/his_t05",crossfade,400
+`“…@Yes.@ I’m sorry, Master Shiki.”@
+`“I said it’s all right.@ Honestly, you worry too much.@ Maybe it runs in the family—you’re just like Kohaku that way.”@
+ld c,"tachi/his_t23",crossfade,400
+`“I’m…@ like my sister?”@
+`Hisui sounded genuinely surprised.@ As for their looks, of course, the two were almost identical.
+\
+`“I was thinking about when we were children.@ You know how Kohaku always played the big sister, even then?@ Whenever Akiha or I did something reckless and got hurt, Kohaku would start fretting immediately.@ Injuries weren’t even the worst of it.@ If one of us so much as felt under the weather, she’d nag us endlessly to get into bed.”@
+ld c,"tachi/his_t02",crossfade,400
+`“She…@ nagged you?”
+\
+`“Enough to embarrass me.@ When was it…?@ Once I ignored the beginnings of a cold and went out to play anyway.@ The three of us were together, and Kohaku kept insisting she would nurse me, so I had to go to bed right now, this instant.@
+`“In the end she wore me down and marched me back to my room.@ Then she came in looking delighted, carrying a wet towel, and dropped it over my face.@ I thought she was going to smother me.”@
+ld c,"tachi/his_t05",crossfade,400
+`“….”
+\
+`“Looking back, maybe she wasn’t worried at all.@ Maybe she just wanted to play at nursing someone.@ She certainly seemed to be enjoying herself.”@
+`“….”@
+`“Not that I minded, mind you.@ That side of Kohaku made me happy too, and dragging Akiha along on our adventures was always fun.@ Thinking about it now…@ I really did have a happy childhood.”@
+ld c,"tachi/his_t16b",crossfade,800
+`“Yes.@ I’m sure my sister feels the same way.”
+\
+`Hisui nodded quietly.@ Then it occurred to me: what was I doing?@ Listening to stories about a childhood she hadn’t shared could only be boring for her.
+\
+`“Sorry.@ You must be bored, listening to me talk about things you couldn’t know.”@
+ld c,"tachi/his_t02",crossfade,400
+`“Please don’t concern yourself.@ I’m enjoying it.”@
+`“You are…?@ Well, if you’re sure….”@
+`She certainly didn’t look bored.@
+`“Yes.@ If you feel well enough, Master Shiki, please continue.@ The doctor also said you ought to move as much as you can.”
+\
+`Of course.@ And about the only part of my body I could move was my mouth.@
+`“That puts me on the spot.@ I don’t have much to talk about.@ I can remember all sorts of things from when I was little, though.”@
+`“That would be quite all right.@ Please tell me about your childhood, Master Shiki.”@
+`“…@Really?@ Are you sure?@ I’d have thought someone else’s old memories would be dull for you.”
+\
+ld c,"tachi/his_t03",crossfade,400
+`“Yes.@ I enjoy them.”@
+`Hisui smiled, looking truly happy.@
+`“….”@
+`Forgetting how ill I was, I felt my heart give a violent thump.@ Hisui smiled so rarely—and when she did, she was enough to make me blush.@ She was, well…@ how could I put it…
+\
+ld c,"tachi/his_t02",crossfade,400
+`“Master Shiki?@ Is something wrong?”@
+`“Oh—no, nothing.@ Then you can humor me while I reminisce for a while.”@
+`Hisui nodded.@ Searching through my hazy memories, I haltingly went on with one unremarkable story after another.
+\
+bg #000000,crossfade,800
+!w1500
+bg "bg/bg_40a",crossfade,800
+`At lunchtime, Kohaku arrived to relieve Hisui.@ She carried a basin of hot water and several washcloths.@
+`“….”@
+`I had a very, very bad feeling about this.
+\
+ld c,"tachi/koha_t03",lshutter,400
+`“All right, Shiki.@ I’m going to wash you now, so please bear with me.”@
+`“—”@
+br
+`I knew it.@
+br
+`“…@Ugh.”@
+`The idea was unbearable, but I couldn’t bring myself to refuse outright.@ If I couldn’t move properly, someone else would have to wash me.@ I’d been bedridden since yesterday and had sweated through my clothes; to be honest, the sticky feeling was miserable.
+\
+`“…@All right.@ Please.”@
+ld c,"tachi/koha_t05",crossfade,400
+`“No, no.@ I should be asking you.”
+\
+cl c,lshutter,400
+bg #000000,lshutter,800
+bg "bg/bg_40a",lshutter,800
+`It was over.@ Yes, I had nearly died of embarrassment, but at this point there was no opposing Kohaku.@ She already had to lend me her shoulder whenever I went to the bathroom.@ When she was caring for me so devotedly, acting ashamed of her help felt almost insulting.
+\
+ld c,"tachi/koha_t03",lshutter,400
+`“There, all finished.@ You did very well.”@
+`She changed me neatly into fresh nightclothes and drew the sheet over me again.@
+ld c,"tachi/koha_t01a",crossfade,400
+`“You really can’t put any strength into your body, can you?@ When I was washing you, I was surprised that there wasn’t any resistance at all.”@
+`“…@No.@ I wonder what’s happened to this body.”
+\
+cl c,crossfade,400
+`Ordinarily, even a helpless patient tenses when someone lifts an arm or a leg; the muscles push instinctively against the motion.@ That resistance is what makes nursing such physical work.@ I didn’t have even that.@ I felt like a jellyfish—or some other boneless thing.@
+`“A jellyfish…@ Maybe that’s closer than I meant it to be.”@
+`It was supposed to be a joke, but I couldn’t laugh.@ Somehow, I no longer felt alive.
+\
+`I had never known how terrifying it could be to lose all control of your body—to lose the very sensation of having one.@ It made even the self lying here seem uncertain, as insubstantial as a figure in a dream.@
+ld c,"tachi/koha_t02",crossfade,400
+`“Shiki, please don’t look so frightened.@ There must be some cause.@ Once we find it and put it right, I’m sure you’ll recover in no time.”@
+`“…@Maybe.@ But what if there isn’t a cause?”
+\
+`If there was one, it might be the old wound from eight years ago.@ Eight years had passed since the accident that doctors said I had survived by a miracle.@ Perhaps the bill for that miracle had simply come due at last.@
+br
+wave se_01
+`If so, then Shiki Tohno might already be…@ doomed to spend the rest of his life unable even to stand by himself.
+\
+`“Shiki?@ What’s the matter?@ You look terribly frightened.”@
+`“Oh…@ nothing.@ I imagined something awful, and suddenly it scared me.”@
+ld c,"tachi/koha_t04",crossfade,400
+`“Ah, you mustn’t do that!@ Mind over matter, Shiki—if you lose heart, even an illness that ought to heal never will!”@
+`“You’re right.@ There’s no sense imagining the worst.@ Thank you, Kohaku.”
+\
+ld c,"tachi/koha_t01a",crossfade,400
+`“As long as you understand.@ You’re almost too quick to accept things, Shiki.@ You have a habit of resigning yourself gracefully to whatever happens.@ At times like this, you’re allowed to be selfish for your own sake.”@
+`Kohaku was admonishing me in perfect seriousness.@ Suddenly I remembered the story from eight years ago that I had just told Hisui.@
+`“You haven’t changed.@ You still love nursing people, don’t you?”
+\
+ld c,"tachi/koha_t03",crossfade,400
+`“Hm?@ What do you mean?”@
+`“Remember when I had a cold but kept playing anyway?@ You’re acting exactly the way you did then.”@
+ld c,"tachi/koha_t02",crossfade,400
+`“Hmm…@ Now that you mention it, something like that did happen.@ You were the sort of boy who never told anyone when something was wrong, weren’t you?”@
+`“But you always found out.@ I still haven’t forgiven you for what you did after dragging me off to the annex that day.”@
+`In truth I was grateful.@ I only felt an impish urge to tease her, so I accused her instead.
+\
+ld c,"tachi/koha_t03",crossfade,400
+`“—”@
+`Kohaku went perfectly still, straining to remember something.
+\
+`“…@Oh.@ So you don’t remember after all.”@
+ld c,"tachi/koha_t02",crossfade,400
+`“Apparently not.@ I’m sorry; I’ve never had a very good memory.”@
+`“No one remembers every detail from eight years ago.@ You can hardly help that.”@
+`“I suppose not.@ I remember most things, but eight years is a long time.@ Perhaps I’ve forgotten something important.”@
+`I knew exactly what she meant.@ Until I returned to that garden in the woods, I had forgotten the image of the accident eight years ago myself.@
+ld c,"tachi/koha_t03",crossfade,400
+`“I’ll go and fetch your meal.@ Please rest by yourself for a little while.”
+\
+cl c,lshutter,400
+bg #000000,crossfade,800
+playstop
+!w1000
+bg "bg/bg_40a",crossfade,800
+`By afternoon I was alone.@ It seemed unfair to keep both Kohaku and Hisui occupied with me, so I had sent them back to their usual duties.@ I hadn’t suffered any nightmares the night before, and although my body remained useless, my condition seemed stable.@ I decided I would be fine on my own until dinner.
+\
+`“Though when I can’t move at all, I’m not sure ‘fine’ means anything.”@
+`Still propped against the headboard, I gazed idly around the room.@ Ten days had passed since my return to the mansion.@ At first the room had felt alien; now I accepted it as mine.@ Human beings were alarmingly adaptable.
+\
+wave se_01
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+br
+`And then—
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+br
+br
+br
+wave se_01
+`A headache—now—
+\
+bg "bg/bg_40e",crossfade,800
+play "*6"
+`“…@What?”@
+`Lines.@ I could see lines.@
+`“But I’m wearing the glasses—why…?”
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+textcolor #ffffff
+`“Who’s there?!”@
+`I turned my head.@ No one else was in the room.
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+textcolor #ffffff
+`I could hear breathing.@ Wet, slavering breaths like a feral dog’s, repeating at my ear.
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+textcolor #ffffff
+`“Wh—”@
+`I forced my neck around to look behind me.@ No one.@ Not even a presence.@ Then was it a phantom sound?@ No.@ This breathing was closer to a phantom sight—and yet it was real.
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+\
+textcolor #ffffff
+`It made no sound in the room.@ It echoed only inside my head.@ Then, unmistakably, the breathing could only be seeping out from within my own brain.
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+`Hah—hah—hah—
+textcolor #ffffff
+`“Hah—hah—hah—”
+\
+`They mingle.@ Mesh perfectly.@ The stranger’s voice and my own breath sound in harmony.@
+br
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40e",notrans,0
+wait 100
+bg "bg/ima_19",notrans,0
+waveloop se_02
+`what is this
+`what is this
+`I and this thing are beginning to join
+!w750
+`ME and this thing are beginning to fuse
+\
+br
+br
+br
+br
+br
+`A triangular gear / a diamond gear.@
+!w750
+`Noise / reverberation.@
+!w750
+`Panorama / tremono
+!w750
+`By nature, they should possess no point of contact.@
+!w750
+`Even in fantasy, each should reject the faintest sense of recognition.
+\
+br
+br
+br
+br
+br
+`Something is wrong.@
+`Something is wrong.@
+!w750
+`What are you?@
+`What are you?@
+!w750
+`I—
+`ME—
+\
+bg #ffffff,crossfade,800
+`“Ah—”@
+`The floodgates burst.@ Spinning.@ Spinning.@ Spinning, spinning, the world spins.@ Sun and moon.@ Female and lion.@ Angel and filth.@ A colliding slope.@ A broken hourglass.@ Sand running backward.@ A shattered window and a door without a knob.@ Dark.@ Dark.@ Dark.@ Dark.@ Dark.
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40e",notrans,0
+wait 100
+bg "bg/ima_20",notrans,0
+`“St…@ stop—”@
+`Impact.@ Walls dissolve.@ Meanings resolve.@ The self expounds itself.@ The smoothness of variable translucence.@ Time in promiscuous congress.@ Observational life and executive function.@ A hand without a little finger.@ An eye without a head.@ A carpet running away.@ Single.@ Double.@ Triple.@ Then a leap to seven hundred and seventy-seven cages.@ A bursting balloon.@ A promise, from the first, never to fit.@ A rule, from the first, to spill over.@ A contract, from the first, to die.@ Poison and honey.@ Red and placenta.@ Mercury lamps and moth lights.@ Observation of a light source refracted through manifold dimensions; a swimming fish; a screw singing in the sediment of the deep divine.@ Tools, tools, tools.@ Raised without end, never reproduced, unto how many stars—without meaning, without will.@ Easier than coming true.@ Myself, and no one else.@ A leaking deep sea.@ Contradiction born of microscopic bacteria.@ A quark gazing down from above.@ Denial of everything.@ Mother-of-pearl inlay made formless, an embryo developing from a charnel vault—to that impossible law, let the curse itself be a blessing.
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+br
+`Ha.@ Hahahaha…
+\
+textcolor #ffffff
+`“What…@ is…@ this—?”@
+br
+`Stasis alone ignored.@ The earth bleeding.@ Immortality attained at the price of virulent poison.@ Roses.@ Roses.@ Roses.@ Roses.@ Only in splendor does Tai Sui dwell.@ Wind-manifested rakshasa, devouring the sustenance of proffered hunger.@ Proliferating pus, mold, defilement.@ An April later than May; limbs reversed; born from the duality of snake and scorpion, awakening in Libra.@ The skin of rotten fruit.@ A scorched celluloid doll.@ Cannabis meeting the hundred-eyed demon.@ Friction and abrasion.@ Sun and moon.@ FEMALE and lion.@ A colliding shortcut.@ A broken hourglass.@ A misshapen thunderhead.@ The incomparable self.@ Sand running backward.@ Eight years ago.@ Killed.@ Killed.@ Killed.@ Killed.@ Killed.@ Killed.@ Killed.@ Killed.@ Killed.@ Killed.@ You.@ Killed them!
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+br
+`Ha…@ haha…@ ahahahahahahahahahaha!
+\
+textcolor #ffffff
+`“Sh…@ shut…@ up!”@
+quakex 2,100
+wave se_10
+playstop
+bg "bg/bg_40a",notrans,0
+`“Hah—hah—hah—”@
+`It stopped.@ I smashed the back of my head into the wall with all my strength—hard enough to kill myself—and made it stop.
+\
+`“What…@ was…@ that…?”@
+`I didn’t know.@ Nonsensical words had flooded my mind until I could no longer think.@ I had nearly lost even the ability to reason normally like this, becoming nothing but a machine of a brain that repeated words over and over.
+\
+`“…@Ah.”@
+`Only then did I realize tears were streaming from my eyes.@ Mucus and drool hung sloppily from my face as well.@
+br
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`“Guh—!”@
+`My head hurt.@ This wasn’t the familiar headache brought on by anemia.@ My brain was on the verge of bursting.@ My memory had a limit to what it could hold, and something dozens of times greater than that limit had just poured into my skull.
+\
+`“…!”@
+`If it happened once more—if that incomprehensible headache struck me again—I knew my mind would break before my body did.
+\
+waveloop se_02
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40e",notrans,0
+wait 100
+bg "bg/ima_19",notrans,0
+textcolor #ff0000
+br
+br
+br
+br
+br
+br
+br
+`Aha…@ ahaha…@ ha…
+\
+textcolor #ffffff
+`“Wh—”@
+bg "bg/bg_40e",crossfade,400
+br
+`“Stop—”@
+`It was flowing in.@ No—I was picking it up, receiving that thing’s common sense, pitched at a level wholly unlike ours.@
+br
+`Yes.@ We were beginning to join.@ Its fusion with me had started long ago.@ Eight years ago.@ A white summer day.@ An empty cicada shell.@ Ants holding festival.@ Everyone dies suddenly the first time.@ Pain from altered gravity, bleeding, shock.@ The field of vision constricts.@ Black vision.@ Red vision.@ Probability of vital cessation.@ Abortion.@ Incision of the mother during childbirth, and the sampling of an infant in the realm of starvation—
+\
+textcolor #ff0000
+br
+br
+br
+`What a waste of time.
+\
+textcolor #ffffff
+br
+br
+`“St…@ op.”
+\
+textcolor #ff0000
+br
+br
+br
+br
+br
+`As long as you keep your eyes open,
+\
+br
+br
+br
+br
+br
+br
+br
+`I will go on becoming one with you.
+\
+textcolor #ffffff
+wavestop
+`“—!”@
+bg #000000,lshutter,400
+`I squeezed my eyes shut as though begging to be saved.@
+br
+`“…@Hah…@ ah….”@
+`It had stopped.@ The information pouring into me was gone, and so was the voice.@
+`“…@Saved….”@
+`Relief washed over me.@ At the same time, a chill went through my body.
+\
+`“…@If I open my eyes…@ will that come back?”@
+`I didn’t know.@ Perhaps it had only been a momentary fit.@ But terror kept my eyes sealed.@ I couldn’t endure that hideous sensation—as though centipedes were crawling through my brain.
+\
+`“….”@
+`I was growing sleepy.@ But if I slept, I might have another nightmare.@
+`“To hell with it.@ Any dream would be better than that.”@
+`I let my mind go slack.@ With my eyes still closed, I fell asleep.
+\
+!w3000
+waveloop se_11
+`Oh.@ I had come here again.@
+br
+`The dark basement.@ Blackness stinking of mold.@ A basement beneath the school—probably beneath the gymnasium.@ Celluloid dolls strewn everywhere.@ No: living human beings, devoured and discarded.@
+br
+`That thing had brought in another fresh doll, though it was still so early.
+\
+`“Hah—hah—hah—”@
+`The breathing of a beast.@
+`“Hah—hah—hah—!”@
+bg "bg/ima_13",notrans,0
+`It buried itself in the doll’s body.@ The soft snap of teeth breaking skin.@ A poor cut of meat—fat from the belly.@ Hot blood clinging to the throat.@
+br
+`A chill seized me.@ I was tracing every one of those sensations with perfect fidelity.
+\
+`“Y-you—you—you again, Shikiiii!”@
+`The thing screamed.@
+`“Damn you, damn you, damn you, damn you, damn you—!”@
+`It threw a tantrum like a spoiled child, smashing every abandoned desk in the basement and raking great furrows through the concrete floor.@
+br
+`“I’ll kill you, I’ll kill you, I’ll kill you…!”@
+br
+`Then it drove a knife through its own palm.
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_13",notrans,0
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_13",notrans,0
+br
+`Ghk—?!@
+br
+`The agony of the knife piercing its hand passed unmistakably into mine.
+\
+`“Watch.@ I’m going to kill you piece by piece—”@
+`Next, it impaled its own thigh on a splinter from a desk.@
+br
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_13",notrans,0
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_13b",notrans,0
+`Gah—
+br
+`“And then I’ll take it all back—”@
+`Next it tore open its belly with its own nails and dragged out the entrails.
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_13b",notrans,0
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_13b",notrans,0
+br
+`It…@ hurts.@
+br
+`It hurts.@ Hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, hurts, it…@ hurts—!!!!!!!
+\
+`“Those fingers, that skin, those eyes!”@
+`It crushed its own eyeball.@
+br
+bg #ffffff,notrans,0
+wait 100
+bg "bg/ima_13b",notrans,0
+br
+`I’m going mad.@
+br
+`A dream.@ If this is a dream, let me wake up.@ It hurts.@ I want to die.@ The pain should have killed me from shock, yet I could not die.
+\
+`“That voice, that place—everything is mine!@ Everything was mine to begin with!@ Just wait.@ Soon, very soon, I’ll kill you and take your place…!”@
+br
+`With that scream, the thing raised
+br
+!w750
+`the knife
+br
+!w750
+`and drove it deep
+br
+!w750
+`into its own brain.
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_12b",notrans,0
+wait 100
+bg #000000,notrans,0
+wait 100
+bg "bg/ima_13b",notrans,0
+wait 100
+bg "bg/ima_12b",notrans,0
+wait 100
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_40b",notrans,0
+wavestop
+play "*6"
+`“Aaaaaaaaaaaaaah!”@
+`The image of what could only have been the greatest pain imaginable wrenched me awake.@
+`“Ah—hah, hah, hah—!”@
+`A dream.@ That had been a dream.@
+`“Guh…!”@
+`Yet my entire body hurt.@ Palm.@ Thigh.@ Belly.@ Eye.@ Crown of the skull.@ Every one of them hurt.@ I had carried the pain from the dream intact into reality.
+\
+`“It…@ hurts….”@
+`And still my body would not move.@ I could feel a hole through my palm, yet I couldn’t move a muscle.@
+`“Ah…@ ah….”@
+`If only I could thrash about with all my strength, I might at least blunt the pain in my mind.@ Even that much was denied me.
+\
+`“Damn…@ it.”@
+`How could this be happening?@
+br
+`“Why…@ why this…?”@
+`Before, I had thought staying awake would destroy my mind before my body.@
+br
+`“Why is this happening to me…?”@
+`Apparently, if I slept, my body would break before my mind.
+\
+bg #000000,crossfade,400
+`“What is that thing?”@
+`Someone who appeared in my dreams.@ Someone who knew me and shared my senses.@ A murderer who roamed the streets killing
+textcolor #ff0000
+` people night after
+textcolor #ffffff
+` night.@
+`What?@ You still
+textcolor #ff0000
+` refuse to admit
+textcolor #ffffff
+` it?@
+`“…@Admit what?”@
+`I am you.@
+textcolor #ff0000
+`“…@That’s impossible.”@
+textcolor #ffffff
+`You are the same as me.@
+`“…@No.@
+textcolor #ff0000
+` I’m still sane.”@
+`You went mad a long
+textcolor #ffffff
+` time ago.@
+`“…@I said that isn’t true…!”
+\
+playstop
+!w1000
+bg "bg/bg_40b",notrans,0
+ld c,"tachi/his_t25",lshutter,400
+`“Master Shiki!”@
+br
+`At that moment—
+br
+`Hisui burst into the room without knocking.
+\
+`“Hi…@ sui…?”@
+`“Master Shiki, was that your voice just now?!”@
+cl c,lshutter,400
+`Hisui hurried to the bed, urgency in every step.@
+`“Master Shiki—what happened to you?”@
+`Her voice was trembling.@ I looked down.@ The sheets were soaked through with blood.
+\
+bg #000000,lshutter,800
+!w1500
+bg "bg/bg_40c",lcartain,800
+play "*1"
+`The blood seemed to have come from my palm and thigh.@ Seemed was the best I could do.@ There wasn’t a wound anywhere on my body, so blood seeping out at all was impossible.
+\
+ld l,"tachi/koha_t02",crossfade,400
+`“Hisui, I’m going to prepare an IV.@ Stay here and watch Shiki for me.”@
+ld r,"tachi/his_t08",crossfade,400
+`“Wait, Kohaku.@ Master Shiki is—”@
+ld l,"tachi/koha_t03",crossfade,400
+`“Hisui.@ Just this once, couldn’t you listen to your big sister?”@
+ld r,"tachi/his_t07",crossfade,400
+`“Ah—”@
+ld l,"tachi/koha_t02",crossfade,400
+`“Shiki, I’ll be back shortly to give you a transfusion.@ Until then, please lie still.”@
+cl l,lshutter,800
+`Once she had finished tending to me, Kohaku left the room.
+\
+ld r,"tachi/his_t01",crossfade,400
+`“Master Shiki…@ are you certain nothing happened?@ My sister said there was no danger, but that bleeding was so—”@
+`“…@Enough.@ I told you nothing happened.@ There weren’t even any wounds.@ I’m the one who wants answers.”
+\
+cl r,crossfade,400
+`The harshness of my reply filled me with self-loathing.@ Hisui didn’t deserve it, but calm was beyond me.@ Was there something wrong with my mind?@ Whenever I slept, I dreamed of a murderer and injured my own body.@ I knew that was what had caused the bleeding.@ I knew—but I could never tell Hisui or Kohaku.
+\
+`They wouldn’t believe me.@ Worse, if I confessed such a thing, they would surely think I was insane.@ I would concede that my body was wrong.@ But I couldn’t bear for Hisui, Kohaku, or Akiha to believe there was something wrong with me.@ That was the one thing I would never put into words.
+\
+ld c,"tachi/his_t21",crossfade,400
+`“But your condition is plainly abnormal.@ You seem feverish, and your breathing has been ragged for some time.@ I can hardly—”@
+`Hisui swallowed the words that would have finished the sentence: I can’t bear to watch.@
+`“…@Just leave me alone.@ I’m grateful that you’re worried, but right now I want to be by myself.”@
+ld c,"tachi/his_t23",crossfade,400
+`“…@Then is there anything you would like?@ If you’re thirsty, I can bring you something to drink.”@
+playstop
+`“Something…@ I’d like?”@
+`Something I wanted?@ There was nothing.
+\
+`“…@Well, I suppose I am thirsty….”@
+br
+`Yes.@ Thirsty.@ Parched dry.@ So I had to suck.@
+wave se_01
+`A red drink.@ That thick, clinging liquid coating the throat.@ Hot, vivid blood like life itself bursting forth—that was what I wanted now.
+\
+waveloop se_02
+`“Ah—”@
+ld c,"tachi/his_t01",crossfade,400
+`“…@Master Shiki?”@
+`Something I wanted.@ Of course there was something I wanted.@
+br
+`It was—
+bg "event/his_h14",notrans,0
+wait 100
+bg "bg/bg_40c",notrans,0
+`Hisui’s body, as I had seen it in the dream.
+\
+wavestop
+`“—!”@
+`I struck myself hard in the head.@ Rage at myself made the arm that should not have moved obey me.@
+ld c,"tachi/his_t25",crossfade,400
+`“Master Shiki!@ What’s wrong?!”@
+`“Don’t come near me!”@
+ld c,"tachi/his_t24",crossfade,400
+`“Master…@ Shiki.”@
+`“…@Hah…@ hah…@ hah….”@
+`My throat was burning.@ My whole body was burning.@ I was sick.@ Sick.@ Sick.@ What had I just imagined doing?
+\
+`“…@Stay away.@ If you come closer…@ I don’t know what I’ll do.”@
+ld c,"tachi/his_t23",crossfade,400
+`“But, Master Shiki—”@ “I told you not to come closer!@ I’m not insane…!”@ I screamed the words and rejected her.@ But if I did not, I would undoubtedly rape Hisui.@ Just as I had in that dream—possessed now by the pounding pulse of my heart.
+\
+`“Just get out.@ You couldn’t possibly understand what’s happening to my body.”@
+ld c,"tachi/his_t17",crossfade,400
+`“…@Yes.@ As you wish, Master Shiki.”@
+cl c,lshutter,800
+`Hisui left.@ I watched her retreat through a haze.
+\
+bg #000000,crossfade,800
+!w1000
+bg "bg/bg_40c",crossfade,400
+play "*6"
+`My fevered body could think only one thing, no matter whom I looked at.@
+br
+`Even as Kohaku set up the IV for my transfusion, I was seized by the urge to bite into her white throat.@ I could preserve my sanity only when I was alone.@ So I drove Hisui and Kohaku out—and even Akiha.@
+br
+`But the result was no different.@ Left alone, I merely continued to fall apart.
+\
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_40c",crossfade,400
+`“Guh….”@
+`Pain lanced through my head.@ If I stayed awake, that headache began pouring into me again.@ Before it could drive me mad, I closed my eyes and slept.
+\
+bg #000000,lshutter,800
+`Yet when I slept, I dreamed of that thing.@ Every time it mutilated its body, the physical agony came to me.
+\
+bg "bg/bg_40c",lshutter,800
+`“Hah—”@
+`The pain woke me.@ But each time I woke, the headache returned.@ So I closed my eyes—and fell asleep again.@
+br
+`Again and again and again.@ I slipped repeatedly into shallow sleep, only to wake to the pain of something skewering my brain.
+\
+`“Hah—hah—hah—”@
+`My breathing had long since lost all rhythm.@ My limbs could not move, yet the remembered agony of knives tearing them apart made them spasm.@
+br
+`Time had ceased to mean anything.@ A single hour felt infinite.@ In truth, I had no confidence whatsoever that I could remain sane until morning.
+\
+bg #000000,crossfade,800
+playstop
+!w4000
+bg "bg/bg_40d",crossfade,800
+play "*8"
+br
+`The door opened with a click.@
+br
+ld c,"tachi/aki_t23b",lshutter,800
+cl c,lshutter,800
+`Footsteps drew near.@ I was half asleep and couldn’t make out who it was.
+\
+`“Brother…@ you look so wasted away.”@
+`A voice on the edge of tears.@
+`“I’m sorry.@ You’re suffering so much, and there’s nothing I can do.”@
+`Fingers settled gently over mine.@
+`“This is all I can do for you, Brother.”@
+`Akiha’s fingers entwined with my own.
+\
+`Drip.@
+`Drip.@
+`Drip.@
+br
+`In time with the IV, Akiha’s warmth flowed into me.@
+br
+`Warm.@
+br
+`It felt as though the shell of my mind, peeling away in tatters, had been given a thin new coat.
+\
+`“Wait for me, Brother.@ I’ll make it easier very soon.”@
+`Her fingers slipped away.@ The footsteps receded.@
+br
+`The door clicked shut.@
+bg #000000,crossfade,1500
+br
+br
+`Somewhere inside my stupor, I dreamed that uncertain dream.
+\
+playstop
+!w4000
+phase "bg/cmo_19",l,his,11a,11
+bg "bg/bg_40a",crossfade,400
+bg #000000,notrans,0
+bg "bg/bg_40a",crossfade,800
+bg #000000,notrans,0
+bg "bg/bg_40a",crossfade,1500
+play "*1"
+!w1000
+`I greeted what felt like the latest in an endless succession of mornings.@ In reality, only one night had passed.@ But after cycling through sleep and waking so many times, days and hours had become meaningless divisions.
+\
+wave se_04
+`“Excuse me, Master Shiki.”@
+`At the sound of her voice, Hisui entered.@
+ld c,"tachi/his_t01",lshutter,800
+`“Good morning.@ I brought you something to drink.”@
+`“….”@
+`I had no room in me even for thanks.@ I only watched irritably as Hisui approached with a glass.
+\
+ld c,"tachi/his_t23",crossfade,400
+`“Can you drink by yourself, Master Shiki?@ If you still cannot move freely, I can help you.”@
+`She leaned forward, studying my condition.@ Even if she helped me drink, she still wouldn’t touch my body.@ But that hardly mattered.@ What troubled me was having Hisui come close at all.
+\
+`It was the same as yesterday.@ My body refused to obey me, yet every time I saw Hisui or Kohaku…@
+br
+bg "event/his_h14",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`I felt as if I were about to lose my mind.
+\
+`“…@I can drink water on my own.@ Put the glass down and stand back.”@
+ld c,"tachi/his_t16",crossfade,400
+`“Yes, of course.”@
+cl c,lshutter,800
+`Hisui set down the glass and retreated to the wall.@ Somehow I moved one arm and brought the rim to my lips.@ The cold water was as tasteless as air.@ It could not cool my burning throat, nor could it satisfy the heart thirsting for something else.
+\
+ld c,"tachi/his_t01",crossfade,400
+`Hisui stood by the wall, watching me without a word.@
+wave se_01
+!w2000
+`What was wrong with me?@ My body had been useless for only three days, and already I was jealous of Hisui—irritated by the sight of a girl who could move freely and knew none of my suffering.
+\
+`“Hisui.”@
+`“Yes, Master Shiki?”@
+`“If you’ve finished what you came for, leave.@ I can’t settle down with someone hovering around me.”@
+ld c,"tachi/his_t17",crossfade,400
+`“But, Master Shiki, then—”@
+`“I told you I’ll call if anything happens.@ Don’t make me repeat myself.@ Talking takes more out of me than you think.”@
+ld c,"tachi/his_t21b",crossfade,400
+`“…@Very well.@ I will return after a little while.@ Until then, please do not overexert yourself.”
+\
+cl c,lshutter,400
+`The door closed.@ Hisui came to check on me once every hour.@
+`“…@Hah.”@
+`The thought was crushing.@ If I had to drive her away like that ten more times before the day was through, I would suffocate under the weight of my own self-loathing.
+\
+bg #000000,crossfade,800
+playstop
+monocro #ffff00
+bg "bg/bg_40a",crossfade,800
+wave se_01
+play "*9"
+`“Hah…!”@
+`I woke to the pain of a knife stabbing my arm over and over.
+\
+`“Hah…@ hah…@ hah….”@
+`I must have fallen asleep again without noticing.@ That thing was in the basement again today, methodically murdering its own body.@
+`“Damn…@ it.”@
+`I slammed my fist into the wall.@ How much longer would I have to endure this pain?@ Or would it continue forever unless I dealt with that thing myself?
+\
+`“What the hell am I supposed to do?!”@
+`I struck the wall again.@
+br
+`Wait.@ What?@
+br
+`“…@I can move.”@
+`I lifted my upper body from the bed.@ What had taken almost an hour only moments ago now came naturally—no, just as easily as it had before all this began.
+\
+`“Yes…@ I’m better…!”@
+`Overcome with joy, I sprang out of bed.@
+br
+wave se_05
+`Thud.@
+br
+`“Huh?”@
+`Something had fallen.@ I lowered my gaze.@
+br
+`On the carpet lay my own arm, dropped clean out of the elbow.
+\
+playstop
+!w2000
+monocro off
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+play "*1"
+`“—!”@
+`Another dream.@ Summoning every trace of strength in my body, I managed to raise my torso.@ My arm was still attached.@ I could neither feel it nor feel pain.@ Shiki Tohno had not broken yet.
+\
+wave se_04
+`“Master Shiki, may I come in?”@
+`Hisui’s voice.@ It must be time for her next visit.@
+`“…@Yes.@ Come in.”@
+ld c,"tachi/his_t01",lshutter,800
+`“Excuse me.”@
+ld c,"tachi/his_t23",crossfade,400
+`“Master Shiki, please lie down.@ The doctor expressly warned you not to sit up.”@
+`“I can’t spend the whole day flat on my back.@ And if a doctor can’t improve me in the slightest, what good is he?”@
+ld c,"tachi/his_t05",crossfade,400
+`Hisui drew in her shoulders and fell silent, looking almost apologetic.
+\
+`It irritated me.@ How could this woman not understand that her shallow concern only made me feel worse?@
+`“Stop that.@ Having you make that pitying face at every little thing is depressing.”@
+ld c,"tachi/his_t21b",crossfade,400
+`“Yes.@ I’m sorry, Master Shiki.”@
+`“…@If you have something to do, then hurry and do it.@ I can’t do anything myself, so changing the sheets or replacing the IV should be easy enough.”@
+`“…@Yes.@ At once.”@
+cl c,lshutter,800
+`Hisui silently changed the contents of the IV.@ Apparently, replacing the sheets and nightclothes soiled with sweat and blood was Kohaku’s duty.
+\
+ld c,"tachi/his_t17",crossfade,400
+`Her work was finished, but Hisui made no move to leave the bedside.@
+`“Hisui…?”@
+`“Master Shiki…@ may I ask you one question?”@
+`“?”@
+`There was a faint tremor in her voice.@
+`“…@All right.@ What?”@
+`“Does your body…@ hurt?”@
+wave se_01
+`“Wh—”@
+`For one instant, I nearly screamed at her.
+\
+`Did it hurt?@ How could Hisui—how could anyone who wasn’t me—understand this pain?@ Being hacked apart with blades would have been enough to drive anyone mad, and my body would not so much as twitch.@ Yet she looked at me and asked whether it hurt.
+\
+`“Who knows?@ I don’t anymore.@ I’ve been numb to what’s happening to me for a long time.”@
+`“…@I…@ see.”@
+`Her voice trembled harder.@
+`“It feels as if an invisible fire is consuming my body.@ Starting at my fingertips, killing me one piece at a time.”@
+`“….”@
+cl c,lshutter,800
+`Hisui pressed her lips shut, plainly in pain.
+\
+`…@
+`……@
+`………@
+`And then…
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki, I….”@
+`Hisui’s voice no longer trembled.@ It was calm, flat, and toneless—the voice I knew.@
+`“I cannot bear to watch you suffer like this.”@
+`Her face as she said it was blank, as if she couldn’t care less what happened to me.@
+br
+wave se_01
+`My heart gave a violent leap.
+\
+`“—”@
+`A single urge welled up inside me: I wanted her.@ Hisui was so close.@ Her body was right there.@ I had only to reach out and make her mine.
+\
+`“Master Shiki, I—”@
+`“Shut up!@ Don’t look at me with that face!”@
+`The anger came from nowhere.@ Her expressionless composure was suddenly intolerable.@ I seized the blood bag and smashed it against her face.@ Liquid burst with a wet splash.@
+ld c,"tachi/his_t01c",lshutter,400
+`Red from the transfusion bag splashed across Hisui.@ Her expression did not change.
+\
+`“Master Shiki, please do not strain yourself.”@
+`That tone.@ That empty voice.@
+`“…@Shut up.@ It’s my body.@ I can do whatever I want with it!”@
+`Her expression still did not change, and that grated on me even more.@
+`“Of course.@ To you, this is only happening to someone else.@ Why should it hurt you?”@
+`“Master Shiki, please calm yourself.”@
+`Her face remained still.@ Whatever abuse I hurled at her, she bore it in silence.@
+br
+`That only made me angrier.
+\
+`“Yes, I know!@ Compared with you, I don’t have an ounce of composure!@ I’m suffering right in front of you, and you don’t so much as lift an eyebrow.@ You can stand there and observe me so calmly because you’re cold inside!”@
+`“Master Shiki, please don’t exert yourself.@ Raising your voice that way will worsen your condition.”@
+`“You…!@ Enough.@ Get out!@ If you can’t do anything, then you’re only in the way!”@
+`“Very well.@ Excuse me, Master Shiki.”
+\
+cl c,lshutter,800
+`Hisui turned to leave.@ Then I caught a glimpse of her fingers.@ She was clenching her own hand so hard that blood had begun to well from it—as though she were doing everything she could to crush her feelings out of sight.@
+playstop
+`“Ah—”@
+`I understood at once that she had done it for my sake.@ Because I had told her not to pity me.@ Meticulous as ever, she had endured every selfish blow I struck at her without protest.
+\
+`“Damn it…@ what am I doing?”@
+`Taking my misery out on Hisui would never make me better.@ Worse than that, I had…@
+wave se_01
+bg "event/his_h14",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`“Guh….”@
+`I truly was losing my mind.@ It wasn’t enough that I lashed out at Hisui—I became aroused merely by having her near.@ If the sight of her skin and the faint scent of her body were enough to make me want her, then I was no different from that thing.
+\
+waveloop se_02
+textcolor #ff0000
+`That is what I keep telling you.@ We are
+textcolor #ffffff
+` the same.@
+textcolor #ff0000
+`“Again—”@
+`You and I are the same person.@
+`“Shut…@
+textcolor #ffffff
+` up.”@
+`Yes, the
+textcolor #ff0000
+` same.@ Just as I was locked away all this time, you too—
+`“Be quiet!”@
+`You will
+textcolor #ffffff
+` spend your whole
+textcolor #ff0000
+` life trapped in that room.@
+`“Wh—”@
+textcolor #ffffff
+`You will never
+textcolor #ff0000
+` escape that cage.@ Not for the
+textcolor #ffffff
+` rest of your life.@
+textcolor #ff0000
+`“You…@ bastard.”@
+`You will stay locked inside
+textcolor #ffffff
+` forever…!@
+`“I told you to shut up!”
+\
+wave se_10
+quakex 2,50
+`I smashed my head against the wall with a dull thud.@ The voice stopped.@ The price was that my consciousness began to recede.@
+`“….”@
+`Now I would dream of that basement again.
+\
+bg #000000,crossfade,800
+playstop
+bg "bg/bg_40b",crossfade,800
+play "*8"
+`Evening came.@
+br
+`For now, the headache that came while I was awake had faded a little.@
+`“….”@
+`Kohaku had finished changing me for the third time and left.@ Hisui had not appeared since then.
+\
+`“Of course she hasn’t.@ No one would come back after hearing that.”@
+`Hisui would never come again.@ The thought alone nearly made me faint, yet I knew it was better this way.@
+br
+`Even if Hisui did return, I would only hurt her.@ I had no right to be nursed by her.
+\
+wave se_04
+`“…@Excuse me, Master Shiki.”@
+`With those words, Hisui entered the room.@
+ld c,"tachi/his_t01",lshutter,800
+`She closed the door but did not move a single step beyond it.@ In her hands were a silver tray and a glass of water.
+\
+`“I brought you a drink.@ Would you like it?”@
+`“—”@
+`Her face truly was expressionless.@ But her fingertips were trembling.@
+`“…@Hisui.”@
+`Why?@ After everything I had said, why would she still care for someone like me?
+\
+`“…@It’s all right, Hisui.@ You don’t have to force yourself.@ You don’t have to look after someone like me.”@
+`“I’m not forcing myself, Master Shiki.@ You are the one who must stop pushing himself.”@
+`Her voice was empty.@ Her white fingertips still trembled.@ At last I understood: Hisui’s voice was not devoid of emotion.@ It was the voice she used to suppress it.
+\
+`“…@I’m sorry.@ You have every right to despise me.”@
+`“It’s all right, Master Shiki.@ I can do nothing to help you, so I deserve your reproach.”@
+br
+`Of course she didn’t deserve that.@ I was the only one at fault.@
+br
+`“…@I’m sorry, but my body feels heavy.@ I don’t think I can drink by myself.@ Would you help me?”@
+ld c,"tachi/his_t02",crossfade,400
+`“…@Yes.@ I have been waiting for you to ask.”@
+cl c,lshutter,800
+`Hisui crossed the room to the bed.
+\
+`“…@Excuse me.”@
+`Her voice hesitant, Hisui lifted my body upright.@
+`“Huh—Hisui?”@
+ld c,"tachi/his_t13",lshutter,400
+`“Drink slowly, please.”@
+`She supported my back with one hand and brought the glass to my lips.@
+cl c,crossfade,400
+`Until now, Hisui had never touched my body.
+\
+`“….”@
+`I swallowed several mouthfuls, then shook my head.@ Hisui set down the glass.@ Without withdrawing, she laid her palm against my forehead.@
+br
+`My heart thudded—but differently from before.@
+`“Hisui…@ are you sure?”@
+`Her palm left my skin.@
+ld c,"tachi/his_t21",crossfade,400
+`“…@You don’t seem to have a fever.”@
+`Hisui lowered her eyes.@ I would never have believed that so small a touch could ease the pain so much.
+\
+`“Hisui…@ there’s something I’d like to ask.”@
+ld c,"tachi/his_t20",crossfade,400
+`“What is it, Master Shiki?”@
+`“Would you…@ keep your hand there a little longer?”@
+`“Why…?”@
+`“…@Your hand is cool.@ It feels good.@ When you touch me like that, I feel better.”@
+br
+`It was true.@ The agony of moments ago receded as though it had never existed.
+\
+ld c,"tachi/his_t03",crossfade,400
+`Hisui’s cheeks colored faintly.@ “Yes,”@ she whispered, almost inaudibly, and laid her palm over my forehead once more.@
+cl c,lshutter,800
+`“…@Strange.@ It feels…@ familiar.”@
+`Calm settled over me.@ My mind softened.@ Come to think of it, this was how I had felt when I fell asleep with Hisui watching over me before.@
+br
+`“…@Thank you.@ And I’m sorry, Hisui.”@
+br
+`My awareness sank.@ It lasted only a little while, but for the first time in days I slipped into a peaceful sleep untouched by any kind of pain.
+\
+bg #000000,crossfade,1500
+playstop
+!w1000
+bg "bg/bg_40d",crossfade,1500
+play "*1"
+`Deep in the night, I sent Hisui back to her room.@ Her touch had calmed me before, but I had no idea when the “headache”@ might return and strip away my sanity.@
+wave se_01
+bg "event/his_h14",notrans,0
+wait 100
+bg "bg/bg_40d",notrans,0
+br
+`“Ngh….”@ And something was badly wrong with my body.@ It could not move so much as a fingertip for me, yet if it meant having its way with Hisui’s or Kohaku’s body, it might run wild without the slightest regard for my will.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40d",notrans,0
+`“It hurts….”@
+`The headache would not stop.@ My body would not move.@ Perhaps pain was not the only thing that passed into me when that thing mutilated itself.@
+br
+`“Ngh—hah…@ ah…@ hah…!”@
+br
+`I broke into a fit of coughing.@ Ever since that thing began stabbing itself in the throat that afternoon, I had been unable to breathe properly.
+\
+`“Hah…@ hah…@ ha…@ gh….”@
+br
+`Wheeze, wheeze.@
+br
+`The rasp of my voice carried into the night.@ I was no broken robot, yet even the simple act of drawing breath failed unless I devoted my full attention to it.@
+br
+`“…@Is this…@ the end?”@
+br
+`This body should have stopped eight years ago.@ I could hardly claim I had never imagined that someday it might come to this.
+\
+wave se_01
+bg "event/his_h14",notrans,0
+!w500
+bg "bg/bg_40d",notrans,0
+`“Ha…@ haha…@ ha….”@
+`Perhaps this was for the best.@ I had always dreamed of that thing killing people.@ But maybe there had never been any “thing”@ at all.@ Maybe those dreams were simply the reality of what I myself had done.@
+br
+`I remembered Yumizuka’s words.@
+br
+`She had called me a murderer.@ Then, I could do nothing but deny it.@ Now I didn’t even have the strength for that.
+\
+`A mind no longer sane.@ A broken body.@ A self that dreamed of murder.@ Another self’s voice echoing from inside me.@ Shiki Tohno, unable to drive from his mind the fantasy of defiling Hisui.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40d",notrans,0
+wave se_01
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40d",notrans,0
+`“…!”@
+`A headache fierce enough to split my skull.@ The sound of a skin being shed—as though the murderer’s personality inside me were gnawing its way out through my present self.@
+wave se_01
+bg "bg/cmo_06",notrans,0
+wait 100
+bg "bg/bg_40d",notrans,0
+br
+`The memory of an accident I had forgotten.@ The sight of myself drenched in blood.@
+br
+`Then perhaps these dreams of murder were only forgotten images returning—images of crimes I myself had committed in the past.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40d",notrans,0
+wave se_01
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40d",notrans,0
+`“Ngh…!@ A-aaagh…!@
+`My head hurts.@
+`A voice is telling me to kill something.@
+br
+`…@Ah, but it’s all right.@ Even if I’m a murderer, I can’t kill anyone anymore.@ Just as that thing said, I’m trapped in this room.@ I can no longer take a single step outside under my own power—
+\
+bg #000000,crossfade,1500
+playstop
+!w3000
+phase "bg/bg_48a",l,his,12a,12
+bg "bg/ima_10b",notrans,0
+!w1500
+`Wheeze, wheeze, wheeze
+br
+wave se_01
+!w1000
+`Wheeze, wheeze, wheeze
+br
+wave se_01
+!w1000
+`Wheeze.@ Wheeze.@ Wheeze.@ Wheeze.@
+br
+wave se_01
+`“Master Shiki?!@ Please—please hold on, Master Shiki!”
+\
+`wheeze    wheeze    wheeze    wheeze
+br
+!w1000
+wave se_01
+`wheeze    wheeze    wheeze    wheeze
+br
+!w1000
+wave se_01
+`Wheeze, wheeze, wheeze, wheeze…!@
+!w1000
+br
+wave se_01
+`“Forgive me, Master Shiki…!”
+\
+quakex 2,200
+bg "bg/bg_40a",lcartain,800
+play "*2"
+`wheeze    wheeze    wheeze    wheeze
+br
+wave se_01
+`“…@What…?@ His…@ ui…?”@
+ld c,"tachi/his_t04",lshutter,400
+`“Thank goodness…@ You’ve opened your eyes, Master Shiki.”@
+`Hisui’s voice caught as she spoke.@
+br
+`wheeze    wheeze    wheeze    wheeze
+br
+wave se_01
+`“…?”@
+`I had no idea why Hisui looked that way.
+\
+`“…@What’s wrong, Hisui?@ Why are you making that face?@ Did something happen?”@
+ld c,"tachi/his_t23",crossfade,400
+`“…@No.@ Nothing has happened.@ Please don’t try to think about anything now, Master Shiki.@ Just rest.”@
+`“…@I am.@ You hardly need to tell me.”@
+br
+`wheeze    wheeze    wheeze    wheeze
+br
+wave se_01
+`“But Hisui, isn’t it awfully noisy this morning?@ It’s hard to sleep with all that wheezing.”@
+ld c,"tachi/his_t07",crossfade,400
+`“…@Master Shiki, that is—”@
+cl c,crossfade,400
+`Hisui fell silent, unable to bring herself to finish.
+\
+`wheeze    wheeze    wheeze    wheeze
+br
+wave se_01
+`The sound would not stop.@ It was coming from very close.@
+`“—”@
+`I coughed, and for that instant alone the wheezing ceased.@
+`“Ah….”@
+`How stupid.@ No wonder it had sounded so loud.@ The wheezing was my own breath.
+\
+`“That’s strange.@ It’s not as though I have…@ a cold.”@
+ld c,"tachi/his_t21b",crossfade,400
+`“….”@
+`Hisui kept her head bowed, biting hard into her lip.@ She seemed desperate to say something and unable to force the words out.
+\
+`“Hisui, why have you gone so quiet?@ None of this is your fault.@ Try to relax.”@
+ld c,"tachi/his_t04",crossfade,400
+`“Yes.@ Whatever lies within my power, I will do my utmost to serve you.”@
+`“Why do you always make it sound so solemn?@ Just having you here makes me feel better.@ If possible, I’d rather you smiled.”
+\
+ld c,"tachi/his_t17",crossfade,400
+`“…@Would this expression be suitable?”@
+`Hisui set her face in an intense, determined look.@ Honestly, compared with the smile she had shown me before, this looked more as if she were glaring.@ But the earnest effort behind it still made me happy.
+\
+`“Yes, that’s fine.@ Just make yourself comfortable.@ Speaking of comfort, could you get me something to drink?@ My throat is dry, and breathing is getting a little difficult.”@
+ld c,"tachi/his_t02",crossfade,400
+`“Yes.@ I already have a drink prepared.”@
+cl c,lshutter,400
+`Hisui disappeared from my field of vision.@ She must have left the drink by the wall.@ She returned with a silver tray and placed a hand behind my back to raise me.
+\
+wave se_01
+playstop
+br
+`At that instant—
+br
+bg "event/his_h14",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`The emotion raced from the spot where Hisui’s hand touched my back to the core of my brain with hideous speed.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`“Is this position comfortable, Master Shiki?”@
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+wait 100
+bg #9c0120,notrans,0
+`“Drinking it all at once would be harmful, so please take it slowly.”@
+wave se_01
+bg "bg/bg_40a",notrans,0
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+wait 100
+bg #9c0120,notrans,0
+`“Master Shiki?@ You need to open your mouth, or it will spill.”@
+wave se_01
+bg "bg/bg_40a",notrans,0
+wait 100
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+wait 100
+bg #9c0120,notrans,0
+br
+`“Get away from me!”
+\
+bg "bg/bg_40a",notrans,0
+quakex 2,10
+wave se_10
+`“Ah!”@
+`A crash.@ The glass struck the carpet.@ Hisui sat where she had fallen after I shoved her away.@ And I—wheezing like a beast, breath heaving in my throat.
+\
+ld c,"tachi/his_t24",crossfade,400
+`“Master…@ Shiki.”@
+`Rather than anger at being pushed, Hisui looked at me with still greater concern.@
+ld c,"tachi/his_t21b",crossfade,400
+`“I-I am terribly sorry…@ To move your body without permission—how shameless of me—”@
+`“No!@ That isn’t it.@ You have nothing to apologize for!”@
+`The one at fault was…@
+`“You didn’t do anything wrong, Hisui.@ None of this is your fault.”@
+`The fault belonged to me—the one wheezing for breath and lusting after Hisui’s body.
+\
+ld c,"tachi/his_t23",crossfade,400
+`“Master…@ Shiki?”@
+`“Just go.@ Please.@ If only for now, let me be alone.”@
+ld c,"tachi/his_t21",crossfade,400
+`“…@If that is what you wish, Master Shiki….”@
+`She spoke in a trembling voice.@
+cl c,lshutter,800
+`Hisui left the room.
+\
+bg #000000,crossfade,800
+!w3000
+bg "bg/bg_40a",crossfade,800
+play "*9"
+`[line=256]。
+\
+`Time had tilted out of true.@ After lying in bed so long in this body, I could no longer experience its passage normally.@
+br
+`I could not tell whether I had driven Hisui away an hour ago, or whether it somehow would not happen for another thirty minutes.@ The clock hands had advanced about three hours since I was left alone, but they could not be trusted.@ The face should have been round; for some time now, it had looked grotesquely warped, like a gourd.
+\
+`wheeze    wheeze    wheeze
+br
+`Only my breathing disturbed the silence.@ The distorted clock said noon had just passed.@ My examination was due around two, which left me a little while longer to preserve my sanity alone.@
+br
+`Though, of course, solitude brought that “headache”@—and this time it seemed ready to tear every last shred of Shiki Tohno’s reason out by the roots.
+\
+wave se_04
+ld c,"tachi/his_t01",lshutter,400
+`“Excuse me.”@
+`Hisui entered and closed the door without a sound.@ On her silver tray stood a glass of water and a small packet that looked like medicine.
+\
+`“…@Hisui.@ It isn’t time for my examination.”@
+`“Yes.@ I thought you might be thirsty, Master Shiki.”@
+cl c,lshutter,800
+`She turned the key in the lock with a click, then approached the bed.@
+br
+`She locked it…?
+\
+ld c,"tachi/his_t01",lshutter,800
+`“Can you sit up by yourself?@ If not, I can help you.”@
+`“No, I’m not thirsty.@ More importantly, why are you here?@ I told you to leave me alone for a while.”@
+ld c,"tachi/his_t08",crossfade,400
+`“I refuse.@ In your present condition, I cannot possibly leave you alone.”@
+`The words were firm.@ Hisui seized my shoulder.
+\
+`“Wait—Hisui?”@
+ld c,"tachi/his_t01",crossfade,400
+`“If you cannot sit up alone, then please say so.”@
+cl c,lshutter,400
+`“—?!”@
+`She hauled me upright.@ Her fingers snatched the packet from the tray and, with equal force, pushed its contents into my mouth.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Swallow it.@ It is a special medicine prescribed by my sister.”@
+`“Mmph…!”@
+`The glass pressed to my mouth.@
+`“Mm—mm, mmm…!”@
+`Perhaps she was angry about what had happened before, because Hisui showed no mercy.@ Every movement was precise and fluid—truly like a doll without a will.@
+`“Hah—pah…!@ What was that for, Hisui?!@ I know I’ve been taking everything out on you lately, but even so, that was—”@
+bg #000000,crossfade,800
+bg "bg/bg_40a",crossfade,400
+br
+`Huh…?
+\
+quakey 2,100
+wave se_05
+`My raised body collapsed onto the bed.@ I had no strength.@ Yet the weakness wasn’t unpleasant.@ Unlike before, this helplessness had shape and substance.@ Heat began to spread outward from my core.@
+br
+`Somehow…@ it felt as though it had been an eternity since I last felt this unmistakably alive.
+\
+`“…@I can’t believe it.@ I feel like I could—”@
+`I felt ready to stand and walk that very moment.@
+ld c,"tachi/his_t01",crossfade,400
+`“You mustn’t.@ My sister said the medicine will be ineffective unless sensation returns to your body gradually.@ Please remain as you are and rest for a while.”@
+`“Oh…@ all right.@ If you say so.@ But what will you do?”@
+`“I will monitor your condition, Master Shiki.”@
+cl c,lshutter,800
+`Then Hisui began to trail fingers cold as ice over my chest.
+\
+`“—!”@
+`A shiver ran through me.@ As my strength returned, something that had lain dormant raised its head as well.@
+`“Hisui…!@ If you’re taking my p-pulse, use my wrist!@ My wrist…!”@
+ld c,"tachi/his_t01",crossfade,400
+`“No.@ I am not checking your pulse.@ I am checking your heartbeat.”@
+cl c,crossfade,400
+`“Ngh—!”@
+`Cold fingers traveled from my chest down toward my stomach.@
+br
+`Her fingers slipped through the opening in my shirt and touched the bare skin of my chest.
+\
+`“H-Hisui…!”@
+ld c,"tachi/his_t01b",crossfade,400
+`“Please keep still.@ If you move too much, the precious medicine will lose its effect.”@
+`“Is…@ is that true?”@
+ld c,"tachi/his_t01",crossfade,400
+`“Yes.@ I’m told it is readily absorbed by the body, and that movement makes it dissolve too quickly.@ That would weaken its effect.@ My sister instructed me to let it permeate your body as gradually as possible.”@
+`“If Kohaku said so…@ then I suppose I don’t have a choice.”
+\
+`Heat rushes to my face.@ Hisui has always avoided touching men, yet now her bare fingers are against my skin.@
+br
+`If this goes on, I’m going to—
+\
+playstop
+bg #000000,notrans,0
+bg "bg/bg_40a",crossfade,1500
+bg #000000,notrans,0
+bg "bg/bg_40a",crossfade,800
+bg #000000,notrans,0
+bg "bg/bg_40a",crossfade,400
+`“Huh…?”@
+ld c,"tachi/his_t18",crossfade,400
+`“Your temperature is stabilizing.@ At this stage the medicine will leave you in a torpor for a while, so complicated thoughts may become difficult.”@ “Wha…”@
+br
+`Wha—at.@
+`What is      Hisui      saying?
+\
+play "*4"
+`“It seems we still have some time, so perhaps we should talk.@ Let me see…@ Shall we talk about one of your favorite subjects—the days when we were children?”@ She remains standing, looking down at me as solemnly as if she were laying a corpse to rest in its coffin.
+\
+`“Do you remember?@ Whenever you played in the garden, you would look up, again and again, at the window where I sat.@ I lived for those moments.@ Everyone in the house treated me as though I were not there—as though I did not exist.”
+\
+bg "event/his_e02",notrans,0
+!w3000
+bg "bg/bg_40a",notrans,0
+ld c,"tachi/his_t18",crossfade,400
+`“Whenever you looked at me, your eyes spoke without words.@ Come outside.@ Come and play with us.@ But I never left the house.@ I didn’t know how, and I didn’t even understand what purpose there could be in doing so.”@
+br
+`Hisui’s voice is far away.@ Her story proceeds in that calm, level tone.@ There is no shadow in it, and yet it is unbearably—
+\
+`“I never went to that window in search of meaning.@ I simply did not want to be in Makihisa’s room, and that was the only other place I was permitted to stay.@ What lay outside meant nothing to me.@ SHIKI and Akiha playing in the courtyard were no different from the sunlight or the leaves on the trees.”
+\
+`“If only you had never noticed me, everything could have remained that way.@ If you had not waved to me—if you had not called to me when you knew nothing at all—I don’t know what would have become of me.@ Everything I am now, I owe to you.”@
+br
+`And with those words—
+ld c,"tachi/his_t29",crossfade,400
+`Hisui smiles.@ Happily.
+\
+`“Every day, I could hardly wait for that hour.@ I watched you searching the courtyard for me.@ Your eyes always said, Today we’ll play.@ Today you’ll come outside.@ …@It’s funny, isn’t it?@ Until you came along, I had never realized I was human—that I had legs of my own, and could walk outside.”
+\
+`“Are you listening, Master Shiki?@ You mustn’t drift away merely because the medicine has taken hold.@ I’ve wanted to talk with you like this ever since we were children.”@
+br
+`Hisui’s mouth is twisting.@ Joy and delight have bent her lips into the shape called a SMILE.
+\
+`“I truly could hardly wait.@ But not for the day when you would finally take me outside.@ I knew that could never happen.”
+\
+`“I wish I had never learned what hope was.@ Then I could have lived without learning despair.@ But you would look so pleased with yourself, as if it were the easiest thing in the world, and tell me with your eyes that I ought to come outside.@ …@Every day, I waited desperately for the afternoon when you would appear.@ You were the only person against whom I could hurl my feelings—whatever those feelings happened to be.@ You never knew how I thought of you every day, almost as if I were praying.”
+\
+cl c,crossfade,400
+`I can barely hear Hisui now.@ Still she speaks on in that level voice.@ My mind has grown too clouded to grasp her meaning.@ All I understand is that the words leaving her mouth are a curse beyond compare.@
+wave se_01
+br
+`“H—hot.”@
+br
+`Only then do I notice the heat consuming my entire body.@ Blood pounds through my veins.@ Every organ that had been dying, moments from stopping altogether, is slowly coming back to life.
+\
+`“Hot…@ Hisui, it’s so…@ hot—”@ Too hot.@ The heat is driving me out of my mind.@ The sheets are in the way.@ Even my nightclothes suffocate me, like a heavy coat worn at the height of summer.@ “Haa…@ ngh—”@ But my body still refuses to move.@ Muscles left idle for three days will not turn their gears so easily.
+\
+`“Hisui, what’s happening to me…?@ My whole body’s burning, but I still can’t move at all…!”@
+ld c,"tachi/his_t19",crossfade,400
+`“Yes.@ However much function your body recovers, it is losing even more life force.@ The medicine you took can restore only this one small part of you.”
+\
+cl c,lshutter,800
+playstop
+`As she speaks, Hisui slides the fingers resting on my stomach farther down.@ Waiting there is a pillar of flesh that has long since risen—an embodiment of myself.@ “—!”@ My back arches with a shudder.@ Her fingers close around my swollen, feverish genitals, blue veins standing stark beneath the skin, and she pulls my trousers away.@ “Ngh…!@ Stop fooling around, Hisui…!@ Why—why would you do this when I’ve tried so desperately to keep you away?@ If this goes on, I’ll—”@ I won’t be able to restrain myself any longer.
+\
+eroskip 40
+ld c,"tachi/his_t02",crossfade,400
+play "*8"
+`“Master Shiki…@ I am going to attend to your needs below the waist.”@ Her cheeks burn red with shame as she says something unthinkable.@ “—”@ I try to tell her to stop, but no words emerge.@ I cannot let Hisui do this.@ Yet heedless of my reason, my throbbing, fevered penis aches for her fingers.
+\
+`“What the hell am I thinking…!”@ Even my shout is too faint to make out.@
+br
+`Thump.@ I remember the beautiful, doll-like body that was defiled in my dream.
+\
+ld c,"tachi/his_t18",crossfade,400
+`“Master Shiki, why are you resisting?”@ “Of course I am…!@ I can’t let you do something like—”@ “Master Shiki, you need not force yourself when your body is already in this condition.”@
+br
+`Her fingertip brushes the head of my penis.@ Precum must already have spilled from the slit, for a lewd, glistening thread clings to her white finger.
+\
+`“Relax.@ Let us do only what you desire—only what you wish to do.@ …@Your mind and body are both under such strain that I can hardly bear to watch.”@ “—”@ She isn’t…@ wrong.@
+br
+bg #9c0120,notrans,0
+`It’s hot.@ Damn it, I’m burning—I can’t put my thoughts in order.
+\
+bg "bg/bg_40a",notrans,0
+ld c,"tachi/his_t19",crossfade,400
+`“Master Shiki, I will make you feel a little better.”@ Her fingers tighten, hooking into my shaft like a fishhook.
+\
+`“We possess such a power.@ If you give me your bodily fluid, I can return a little strength to you.@ …@So please say nothing, and bear with me for now.”@ A hot breath washes over me there.@ Unlike her icy fingers, Hisui’s breath is hot enough to sear.
+\
+bg #000000,crossfade,800
+`“Then…@ if you will excuse me.”@ Her voice small and hesitant, Hisui lowers her face toward my waist.@ Whether from the medicine or from the fingers wrapped around it, my erection is fiercely alive—the complete opposite of my motionless body.
+\
+`The engorged shaft burns, so swollen with blood I almost fear it may burst.@ Hisui’s uncertain fingers make their way over it.
+\
+`“Ngh…!@ Hi—Hisui, I still don’t think—”@ Before I can say no, both her hands enfold me from the base, as though cradling something precious.@ “Mm…”@ She draws a tiny breath.@ Then a warmth unlike my own descends upon me like a kiss.
+\
+bg "event/his_h01",crossfade,800
+`My entire body flares with heat.@
+br
+`My heart leaps at a sensation I have never known.@ Hisui’s soft lips timidly close around the head—not biting, barely even sucking, but holding it with a pressure so frail that “mouthing”@ is the only word for it.
+\
+`“—”@ That alone wipes my mind clean.@ I do not yet understand how much pleasure it can bring.@ Merely lifting my head and seeing her between my legs is enough to set all the blood in my body boiling.
+\
+`“Mm…@ hah…@ mm…”@ Perhaps she cannot breathe; Hisui’s breaths come harsh and fast.@ The sight of her—the very spectacle—snaps the last thread of my reason.@ Cheeks flushed, she labors desperately to serve me.@ Her clumsy fingers merely struggle to hold the swollen shaft steady.
+\
+`“Hah…@ mm, mmm…@ mm…”@ Breath from her mouth and nose tickles the head.@ “—!”@ The maddening little touch only sharpens the pleasure.@ Whether it is her saliva or my own secretion, warm slime trickles down the rigid flesh.
+\
+`Thump.@
+br
+`My pulse rockets.@ Hisui’s fingers close around my penis with single-minded earnestness.@ Holding only the tip in her mouth, her tongue gives it one hesitant lick, then another.
+\
+`“Mmm…@ hah…@ mm…”@ Her wholly inexperienced lips remain weak, but her tongue flickers over the head inside her mouth, caressing it.@ Little by little, that tongue grows bolder.@ “Ngh…@ Hi…@ sui…!”@ My back arches at the sensation.@
+br
+`Thump.@
+br
+`Until now, the mere knowledge that Hisui was doing this had been enough to inflame me.@ That is over.@ Her fumbling caresses are swiftly learning the trick of it—learning every place that undoes me.
+\
+`“Mm…@ mmm…@ mm…”@ Hisui’s breathing quickens.@ Wetness.@ Her tongue, which had only been licking the head, narrows to a point and passes across the opening as if splitting it apart.@ “Ngh—hah…!”@ My hips jerk.@ The pressure I had fought to contain surges from the pit of my body toward my testicles.
+\
+`“Hisui…@ stop, I said—”@ Thump, thump.@ Heat gathers at the base.@ “Mm…@ mmm…@ mm…”@ Her ministrations do not stop.@ Slowly, the lips that held only the tip begin to descend.
+\
+`Thump.@
+br
+`“Mm…@ mm…@ mmm…”@ Hisui’s hair sways.@ The lips that had merely held me begin to move, ever so slightly, up and down.@
+br
+`Wetly, inch by inch, the head—slick with her saliva and my fluid—rubs between Hisui’s lips.
+\
+`“Ah—aaah…”@ A cry escapes me.@ The crawling sensation, the knowledge of Hisui’s lips kissing me there, sends pleasure almost indistinguishable from pain racing from my hips, up my spine, and into my brain.@
+bg "event/his_h02",crossfade,800
+br
+`The obscene sounds grow louder.@ Hisui works with utter devotion, cherishing my flesh as though she were performing some sacred rite.
+\
+`“Mm…@ mmm…!”@ Her fingers squeeze me harder.@ “Ngh—ah…!”@ My breath comes ragged.@ I am already beginning to hollow out inside.
+\
+bg "event/his_h01",crossfade,800
+`“Ah…@ mm…@ mmph…”@ Hisui breathes as if in pain.@ She has gone so long without breathing through her mouth that the air from her nostrils keeps tickling my penis.
+\
+`Thu…@mp.@
+br
+`My penis grows wetter and wetter.@ Nor is the shaft alone drenched; so are Hisui’s fingers, still clutching desperately at the base.@ Filthy.@ Those delicate fingers of hers, wet with the fluids of both our bodies.
+\
+`Th…@u…@mp.@
+br
+`The sight seems to whisper that I should lose my mind.
+\
+`“Mm…@ Master…@ Shiki…”@ Perhaps daunted by the suffocating smell and quantity of fluid, Hisui draws her mouth slightly away.@ A shining thread stretches between her lips and my penis.
+\
+bg "bg/bg_40a",crossfade,800
+`“Hah…@ hah…@ hah…”@ The ragged breathing is mine, not Hisui’s—the breath of a man granted a moment’s release from pleasure.@
+br
+`THUMP.@
+br
+`My heart is about to burst.@ My body is going mad.@ I want none of this—none of this pleasure.@ It isn’t enough.@ This is nowhere near enough.
+\
+`“Master Shiki…@ are you feeling all right…?”@ Hisui asks hesitantly.@ “Hah…@ hah…@ hah…”@ Still able to move little more than my arms, I can only pant.@ “If it felt good…@ please bear it just a little longer.”@ Drawing one deep breath, Hisui buries her face at my waist once more.
+\
+bg "event/his_h01",crossfade,800
+`“Mmm—”@ The kiss-like caresses begin again.@
+br
+`THUMP.@
+br
+`THUMP.@ THUMP.@ THUMP.@ THUMP—!
+\
+`“Not…@ enough…”@ “Ah…@ Master…@ Shiki…?”@ “Hisui…@ deeper…”@ As I speak, my hand presses down on her head.@ “—!@ Master Shiki, what are you…!”@ “Hi…@ sui—”@ I bear down, forcing her face into my body.
+\
+bg "event/his_h02",crossfade,800
+`“Mmm—!?”@ Her lips slide down with a wet sound.@ “Mm—mm, mmm—!”@ Choking, Hisui struggles to raise her head, but my arm refuses to allow it.
+\
+`“Hisui—more.”@ Panting hard, I utter the selfish demand.@ “Mmm—hah, mmm—!”@ Hisui fights for breath.@ Before, she had merely held me inside her mouth.@ Now I thrust toward her throat, filling her completely.
+\
+`“Mmm—mm, mmm—!”@ Hisui opens her mouth as wide as she can and somehow takes me.@ None of her earlier devotion remains.@ There is only the force with which she tries to escape the foreign thing invading her mouth.
+\
+`“Hisui…@ does it hurt?”@ “Mmm—mmph.”@ Her frantic breath sweeps across my shaft.@ Hard teeth scrape the head.@ “I see.@ Then I’ll let go.”@ I lift my hand from her head.@ “Mm…@ haa…”@ Gasping painfully, Hisui tries to raise her face.@
+bg "event/his_h01",crossfade,800
+`“No.@ Stay there—and move.”@ Hisui freezes.
+\
+`“—”@ After a moment’s bewilderment, she obeys with hesitant movements.@ “Mm…@ mmm…@ hah…”@ Taking me deep as if swallowing, she begins to stroke me with her mouth.
+\
+bg "event/his_h02",crossfade,800
+`Thump.@
+br
+`“Mm…@ mmph, mmm…”@ Wetly, Hisui’s lips travel up and down the fevered shaft.@ “Ah…@ mm, mm…”@ Instead of drawing breath, her mouth seems to draw in my very being.@ Unlike the embrace of a woman’s body, it does not envelop me; it sucks me upward.
+\
+bg "event/his_h01",crossfade,800
+`“Mmm…@ mmh…”@ She can no longer contain her saliva.@ It spills more thickly than before, slicking and soiling Hisui’s face.@ “Haa—Hisui, that’s…”@ I lift my hips slightly to meet the rhythm of her mouth.@ The tip presses against her throat.
+\
+bg "event/his_h02",crossfade,800
+`“Hah—mmmm—!”@ Choking, Hisui’s teeth clamp down hard enough to leave their mark.@ “—!”@ Trying to escape them, I drive my hips still farther forward.@ “Mmmmm—!”@ Her fingers seize me.@ Her hair tosses violently as she continues the painful service.
+\
+bg "event/his_h01",crossfade,800
+`“Ngh…@ Hisui, more…!”@ “Mmm—ah, Master…@ Shiki—!”@ I hear a voice that could not possibly have escaped her.@ My penis pulses again and again as she opens her mouth as wide as she can to take it.@ Down, then upward—the sensation of being swallowed and sucked clean.
+\
+bg "event/his_h02",crossfade,800
+`“Mmm—ngh…!”@ Semen surges upward.@ “Hah—Hisui, I’m coming…!”@ She starts to lift her face, but my arm moves first.@ I neither restrain the eruption nor allow her to escape it.@
+br
+`Abandoning myself to pleasure, I release the burning mass into Hisui’s mouth.
+\
+`“Mmm—ah, mmmm—!!”@ It spurts into her.@ “Mmm—mmm—!”@ Hisui’s head jerks in distress, but my arm does not release her.@ Again and again, every pulse drives itself into her.
+\
+`“Ah—haa—!”@ Even as she coughs, Hisui’s throat works in a swallow.@ “Hah…@ haa…”@ Only then does my arm finally let go.
+\
+bg #ffffff,crossfade,800
+playstop
+bg "bg/bg_40a",crossfade,800
+`“Hah—aaah—”@ Hisui collapses onto the floor, breathless.@ “Hah…@ hah…@ hah…”@ My own breathing is no calmer.@
+br
+`Thump.@
+br
+`No.@ It’s no good.@ Something like that could never satisfy me.@ My body moves now—yes, it moves.@ And for that very reason, what she gave me cannot possibly be enough.
+\
+`Thump.@
+br
+`“Master Shiki…@ how does your body feel?”@ Hisui asks from where she sits on the carpet.@
+br
+`I—
+\

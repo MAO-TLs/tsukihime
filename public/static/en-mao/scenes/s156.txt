@@ -1,0 +1,213 @@
+monocro off
+playstop
+wavestop
+bg "bg/bg_29b",lcartain,400
+play "*9"
+`The serial killings had probably driven everyone indoors; by ten at night, the park was utterly deserted.@ In that empty park, a solitary woman’s silhouette stood out in white.
+\
+ld c,"tachi/ark_t16",lshutter,400
+`“Shiki!”@ Arcueid started shouting the instant she saw me.@ “Do you have any idea what time it is?@ You’re twenty minutes late!”@ “…”@ Apparently she had arrived precisely on time.
+\
+`“Yeah, sorry.@ I left home at ten, but sneaking out without Akiha noticing took longer than I expected.@ I’ll be punctual from now on, so let this one go.”@
+ld c,"tachi/ark_t04",crossfade,400
+`“Honestly.@ You don’t seem to understand that we’re about to go fight someone to the death.”@ Arcueid was so cross that you could almost see her huffing in indignation.@ Had she been waiting since long before our appointed time?
+\
+`“Arcueid, what time did you get here?”@ “Me?@ I came as soon as I woke up, so…@ let me think—”@ She paused to calculate.@
+ld c,"tachi/ark_t03",crossfade,400
+`“I think it was around seven.”@ “Seven?@ You’ve been waiting more than three hours?”@ More to the point, why had she arrived three hours early in the first place?
+\
+`“There’s something wrong with me.”@ Even Arcueid sounded baffled by herself.@ “I know I was late, but you’re at fault too.@ You can’t turn up hours early, decide to wait, and then blame me for it.”@
+ld c,"tachi/ark_t04",crossfade,400
+`“Hmph.@ That’s a separate issue.@ You were still late.”@ “Well…@ yes.@ But why wait three whole hours?@ With that much time, you could have gone back to your room.”
+\
+ld c,"tachi/ark_t16",crossfade,400
+`“How should I know?@ I was enjoying myself somehow, so I thought I might as well keep waiting for you.@ Then, before I knew it, it was ten.”@ “Enjoying yourself?@ Why?”@
+ld c,"tachi/ark_t01b",crossfade,400
+`“I don’t know.@ I just told you I don’t understand it myself.@ Maybe it’s because you killed me.@ Something inside my body must have broken and never healed.@ I know I’m behaving strangely, but I have no idea what’s wrong with me, or why.”
+\
+`“Urgh…”@ Put that way, there wasn’t much I could say.@ After carving Arcueid into seventeen pieces, if she told me something was wrong with her body, all I could do was bow and apologize.
+\
+`“Well, never mind.@ We’ve lost enough time already, and we can’t afford to stand here chatting.”@ Yes.@ I was immensely grateful to hear that.@
+ld c,"tachi/ark_t06",crossfade,400
+`“But if you’re late again, I’m coming straight to your house to collect you.@ You’ll be the one who broke our promise, so you won’t have any right to complain.@ Agreed?”
+\
+`“Wh—no!@ I’ll keep our appointments, but unexpected things can always happen, just like tonight.@ Being late is the most obvious example!@ Listen, no matter what happens, do not come to my house.@ Akiha already has the wrong idea about us.@ Please don’t make my position any worse than it is.”@
+ld c,"tachi/ark_t03",crossfade,400
+`“Hmm…@ Akiha is that little sister who looks nothing like you?”@ “The part about us looking nothing alike was unnecessary, but yes.”
+\
+`“I see.@ Are you really that afraid of your sister?”@ “Oh, shut up.@ I just don’t want to worry her.@ I’ve already caused her enough trouble, so I can’t make things any harder for her.”@ “Hmm.@ You’re very kind to your sister, Shiki.”@ “As a rule, I’m kind to everyone.@ It’s only recently that I’ve acquired one exception.”@
+ld c,"tachi/ark_t08",crossfade,400
+`“Ahaha!@ That means me!”
+\
+`“You really don’t understand anything.@ That was sarcasm.@ I was insulting you, not praising you.”@ “That’s not true.@ It means I’m your exception, doesn’t it?@ I don’t mind being that.”@ Arcueid was still smiling—a bright, guileless smile, like a child’s.@
+br
+`“…”@ If I kept looking at that smile, I was going to lose the will to stay angry.
+\
+`“Forget it.@ I’m tired.@ Let’s start hunting the vampire already, Arcueid.”@
+ld c,"tachi/ark_t01a",crossfade,400
+`“All right.@ The timing should be about right.@ We’ll start by walking around town, but—”@
+ld c,"tachi/ark_t01b",crossfade,400
+`“Shiki, I want you to take off your glasses before you come with me.@ Is that all right?”@ “Take off my glasses…@ why?”
+\
+`“Because I’ll have trouble finding it alone.@ I can sense whether something is human or not, but that won’t lead me to the vampire itself.@ All I can sense is presence.@ You, on the other hand, can look at someone and distinguish the living from the dead.@ It would be foolish not to use that.”@
+br
+`“…”@ What Arcueid said made a certain amount of sense.@ But walking around without my glasses—
+\
+`“I know.@ Even I can feel that your eyes have grown stronger these past few days.@ Doing this now will put a terrible strain on your body.@ I’m asking despite knowing that, but the choice is still yours.@ I won’t force you.@ If you decide you can bear it, take off your glasses and come with me.”@
+cl c,crossfade,400
+\
+`Walking through town without my glasses…@ In all eight years since I was given them, I had never done such a thing.@ Looking at anything bare-eyed was enough to bring on a headache.@ It wasn’t hard to imagine what walking through an entire city that way would do to me.@
+br
+`Even so—Arcueid was here despite wounds that hadn’t closed.@ If Shiki Tohno had a debt of his own to pay, then—
+\
+`“Arcueid, I—”@
+br
+`I would be fine.@ It was only a headache.@ Compared with the pain Arcueid was enduring throughout her body, that was nothing.@
+br
+`“All right.@ I’ll take them off and come with you.@ If that settles this, it’s a small price.”
+\
+ld c,"tachi/ark_t10",crossfade,400
+`“I see.@ Then let’s go, Shiki.”@
+cl c,lshutter,800
+`Arcueid turned and began to walk.@ I removed my glasses and followed her.
+\
+bg #000000,crossfade,800
+monocro #ff00ff
+bg "bg/bg_26a",crossfade,800
+`I followed behind Arcueid.@ I hadn’t walked through this scribbled-over world since the days when I was in the hospital.@
+br
+`“…”@
+br
+`Strangely, my head didn’t hurt.@ Merely looking seemed to cause little pain.@ But whenever I saw the ‘lines’ on people walking past—not the pale ones on buildings—nausea rose in me.
+\
+`Once, I had thought they were simply lines that could be cut.@ Now I knew they were the ‘death’ inherent in things.@ Revulsion came first.@ It wasn’t the sight of people covered from head to toe in scribbles that sickened me.@ It was being shown just how easily—how terribly easily—a human being could die.
+\
+bg #000000,lcartain,800
+`We walked through the city at night.@ Arcueid said nothing and moved without hesitation, as though she had a destination in mind.@
+br
+`We spent several hours ranging across the city.@ In the end, we found no one who contained even a single abnormal ‘death.@’
+\
+monocro off
+playstop
+bg "bg/bg_29c",lcartain,800
+ld c,"tachi/ark_t04",crossfade,400
+`“Shiki, you can put your glasses back on.@ It looks like searching any longer tonight would be pointless.”@ With a sigh, Arcueid pronounced the hunt over.@
+bg "bg/bg_29b",crossfade,400
+play "*1"
+`I put my glasses on.@ My vision returned to sanity, and relief loosened my chest.
+\
+`“Pointless tonight?@ Aren’t you giving up awfully quickly?@ We’ve only made one circuit of the city.”@
+ld c,"tachi/ark_t01b",crossfade,400
+`“No, once is enough.@ A presence leaves traces behind in a place.@ There was no trace of the Dead anywhere tonight, so none of them are active.”
+\
+ld c,"tachi/ark_t07",crossfade,400
+`“The enemy must be wary after losing nearly all of the Dead under its control.@ What a coward.@ I expected it to come settle matters tonight, but apparently it wants to keep playing hide-and-seek.”@ Arcueid bit her lip in frustration.@ “You look upset.”@ “Of course I am.@ You went to all this trouble to help me, and it was completely wasted.”
+\
+`“I don’t really mind.@ If you’re that dissatisfied, we can make another circuit.@ This time I’ll concentrate harder when I look.@ Maybe I’ll find something.”@
+ld c,"tachi/ark_t06",crossfade,400
+`“No.@ I’m not letting you push yourself any further.”@ “Push myself?@ I’m not pushing myself at all.”@ “You are.@ You may not notice it, but if you work your brain any harder, you could reduce yourself to a vegetable.”
+\
+`“What…?@ Me?”@ “You.@ Oh, that’s right.@ You don’t know how your eyes actually work, do you?”@
+ld c,"tachi/ark_t02",crossfade,400
+`“Listen carefully.@ You said the death of living creatures is easy to see, while the death of minerals is difficult, remember?@ That comes down to the circuitry in your brain.@ When you perceive the death of a thing—when you see the chain of cause and effect leading to its end—you aren’t truly looking at it so much as reading it.”
+\
+`“Everything has a first cause, an absolute One.@ It’s something like what a German scholar called the Akashic Records.@ In other words, at the heart of all phenomena is ‘that which records everything.@’ Though ‘record’ isn’t quite right, because it isn’t information.@ It simply exists.@ It has no will of its own, and no possible direction.@ Think of it as a vortex at the Root that does nothing but spill causes into existence.”
+\
+ld c,"tachi/ark_t06",crossfade,400
+`“Everything in this world flowed out of that vortex, branched away from it, and assumed its present form.@ You and I, humans and every vampiric species—we all began there.@ We’ve grown too complex and wandered too far to return to that first cause, but you understand that this One exists, don’t you?@ And however far a thing’s present form may have strayed from the source, if it arose from there, a thread still connects them—infinitely fine, but unbroken.”
+\
+ld c,"tachi/ark_t02",crossfade,400
+`“The Root of everything: a record containing every beginning and every end.@ Anything connected to it ‘knows’ how things end.@ The brain is fundamentally an organ for transmitting and receiving, but in most people its circuitry is closed upon the self.@ A few people, however, are born with those circuits open.@ Human beings who can cause supernatural phenomena without using a single Magic Circuit, despite not belonging to any transcendent species.”
+\
+`“Mages classify those people as psychics.@ They’re human mutants born as something equivalent to a Magic Circuit in their own right.@ Someone who can see the ‘death of things’ without ever studying the mysteries, for example.”@
+cl c,crossfade,400
+br
+`“…”@ I was sorry, Arcueid, truly—but despite all the trouble she had taken, my brain seemed to have understood none of that whatsoever.
+\
+ld c,"tachi/ark_t04",crossfade,400
+`“That’s fine.@ You don’t need to understand.@ What you do need to remember is never to force yourself to see the death of something that won’t come into focus.@ If you truly tried, you could probably see the ‘death’ of minerals with perfect clarity.@ But to do it, your brain would have to open its circuitry beyond living things and into the category of minerals, then attempt to comprehend mineral death.@ That operation should be impossible.@ Your brain would overload, and you would unquestionably destroy yourself.”
+\
+cl c,crossfade,400
+`“Destroy myself…@ Do you mean these eyes would stop seeing death?”@
+ld c,"tachi/ark_t06",crossfade,400
+`“Of course not.@ Shiki, what happens to an engine that’s pushed until it blows?”@ “It goes to the scrapyard.@ Once an engine breaks, it’s never useful again—”@
+br
+`Oh.@ So that was what she meant.@ The headaches I felt when I looked at death were like an engine screaming because it had been driven too fast.
+\
+`“…”@
+ld c,"tachi/ark_t02",crossfade,400
+`“Do you understand now?@ Merely seeing what presents itself should be safe, but never strain to see what you can’t.@ A blood vessel in your brain could rupture, and then there would be no undoing the damage.”@
+br
+`I had no answer.@ I had lived all this time without knowing I was doing anything so dangerous.
+\
+ld c,"tachi/ark_t01b",crossfade,400
+`“You should be grateful to the mage who made those glasses.@ Most psychics use their powers without understanding the danger and reduce themselves to wrecks.@ Though perhaps that’s kinder in the end.@ They’re human, yet fundamentally unfit to live in human society.”@
+cl c,crossfade,400
+\
+`“…”@
+br
+`—That seems to be why I came here.@ I’ll give you back your ordinary life.@
+br
+`My teacher had said that, and made these glasses for me.@ There was so much to thank her for that my chest tightened.@ In every sense of the word, she had saved the Shiki Tohno I was now, all those years ago—
+\
+playstop
+bg #9c0120,crossfade,400
+bg "bg/bg_29b",crossfade,400
+wave se_01
+`“What…?”@ Something twinged.@ It wasn’t pain.@ It was closer to an itch—an odd, nameless sensation.@
+ld c,"tachi/ark_t03",crossfade,400
+`“Shiki?”@ “No…@ what is this?”@ The fleeting sensation seemed to have come from my chest.@
+cl c,notrans,0
+\
+wave se_01
+`“Hmm…?”@ Without knowing why, I slipped a hand through my collar and into my shirt.@
+br
+`Something wet and slick.@
+br
+waveloop se_02
+bg #9c0120,crossfade,400
+bg "bg/bg_29b",crossfade,400
+`Something like paint had smeared itself across my chest.
+\
+`“What is this…?@ It’s wet.”@ I drew my hand out of my shirt and opened my palm.@
+bg "bg/ima_13b",notrans,0
+wait 100
+bg "bg/bg_29b",notrans,0
+`It was plastered with brilliant red blood.@
+bg "bg/ima_13b",notrans,0
+wait 100
+bg "bg/bg_29b",notrans,0
+`“What—”@ A tiny sting.@ That strange sensation again.@ It took me far too long to realize that it came from the old scar on my chest.
+\
+ld c,"tachi/ark_t13",crossfade,400
+`“Shiki, that—”@ “Yeah…@ it’s strange.@ It doesn’t hurt, and the wound hasn’t opened, but blood is seeping out of my chest.”@
+br
+`So red.@ A pure, unclouded, irresistible RED.@
+br
+`“Well, it doesn’t hurt, so I’m probably fine for now.@ That seems to be all the blood, too.@ There’s no need to—”@
+ld c,"tachi/ark_t06",crossfade,400
+\
+`Arcueid was staring blankly at my hand.@ No—not at my hand.@ At the red blood smeared thickly across it.@ “Arcueid?”@ “…”@
+cl c,crossfade,400
+`Arcueid didn’t answer.@ Her breathing had grown ragged and violent—hah, hah—as though she were enduring terrible pain.
+\
+`“Hey, Arcueid…!@ What’s wrong?@ Are your wounds hurting again?”@ I caught her by the shoulder—and she sprang away from my hand as though fleeing from me.
+\
+wavestop
+ld c,"tachi/ark_t20",crossfade,400
+cl c,crossfade,400
+`“…”@ She glared at me as if I were an enemy.@ “Ar…@ cueid?”@
+ld c,"tachi/ark_t07",crossfade,800
+`“Shi…@ ki?”@
+br
+`My name came out short and sharp, with something almost like hostility in it.@
+br
+ld c,"tachi/ark_t10",crossfade,800
+`“I…@ I wasn’t thinking anything like that.”@ What?@ Arcueid looked away awkwardly.
+\
+`“What’s wrong with you?@ You’re acting strange.@ Your body still hasn’t recovered, has it?”@ “You’re right.@ I think I pushed myself too far.@ I’m going home.”@ “Oh…@ right.@ You said we were finished for tonight anyway.”@ “Mm.@ I’ll wait here again tomorrow.”@
+cl c,crossfade,1500
+`Without once meeting my eyes, Arcueid hurried away.
+\
+bg #000000,crossfade,800
+!w3000

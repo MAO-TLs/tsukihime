@@ -1,0 +1,96 @@
+monocro off
+play "*3"
+wavestop
+bg "bg/bg_06a",notrans,0
+br
+`—Forget it.@ No one ever died from missing a meal or two.@
+br
+`“…@I’ll pass today.@ Do whatever you want, Arihiko.”@ I had no desire to hallucinate fresh blood splashed over food again.@ The mere sight of his sandwich already made me sick.@ Naturally, it was stuffed with vivid red tomato.
+\
+ld c,"tachi/ari_t03",crossfade,400
+`“You look less healthy every day.@ Does your new life disagree with you that much?”@ “Maybe it does.@ They complain that seven is late to wake up, impose an eight o’clock curfew, and interrogate me if I spend a night away without permission.@ Sounds like prison, doesn’t it?”@
+ld c,"tachi/ari_t01",crossfade,400
+`“What’s wrong with that?@ A disciplined life is good for you.@ Long live strict supervision.@ Young people ought to live under pressure.@ Take it easy while you’re young and you’ll grow into a useless adult.”@ “Agreed.@ …@And somehow, coming from you, that carries more weight than anyone else could give it.”@
+br
+`As the ultimate cautionary example.
+\
+ld c,"tachi/ari_t02",crossfade,400
+`“Really?@ You’re awfully agreeable today.@ Good boy.@ Here, I’ll share a piece of my sandwich.”@ “I said I don’t want any food.@ Forget about me and eat.@ Lunch break will be over soon.”@ “Yeah?@ Then don’t mind if I do.”@ Arihiko put his hands together and began eating.@
+cl a,crossfade,400
+br
+`And then—
+br
+ld l,"tachi/cel_t04",lshutter,400
+`“Mind if I join you?”@ Ciel arrived carrying what appeared to be a packed lunch.
+\
+ld r,"tachi/ari_t01",crossfade,400
+`“Huh?@ Don’t you usually eat in the cafeteria?”@
+ld l,"tachi/cel_t01a",crossfade,400
+`“I don’t have a rule about it.@ I eat whatever suits my mood that day.”@ Ciel drew a lunch box from a charming little cloth bag.@ It was somewhat large for a girl’s lunch.@ “…@Meaning you woke up early enough to make one today?”@ “Exactly.@ I managed to wake before seven for once—wait, Tohno!@ What are you making me admit?”@
+ld l,"tachi/cel_t08",crossfade,400
+`“…@I didn’t mean anything by it.@ Are you bad at mornings, Ciel?”
+\
+ld l,"tachi/cel_t02",crossfade,400
+`“What—?@ Oh.@ Yes, actually, I’m terrible at getting up early.”@ Ciel sat as stiffly as a student being scolded by a teacher.@
+ld l,"tachi/cel_t01a",crossfade,400
+`“My family owned a bakery, so our mornings began incredibly early.@ But I could never manage them.@ My father was always scolding me, even when I was little.”
+\
+`A bakery, of all things!@
+ld r,"tachi/ari_t04",crossfade,400
+`Arihiko and I exchanged looks.@ He too must have imagined Ciel with a brick oven in her room, kneading flour with those white fingers and baking bread.
+\
+ld l,"tachi/cel_t03",crossfade,400
+`“The war between my father and me lasted about ten years.@ At last he gave up and said, ‘I would rather do the work of two people than try to train you.@’ Ever since then, I’ve been allowed to wake whenever I please.”@
+br
+`Ciel gave a proud little ahem and thrust out her ample chest.@
+br
+`“Wow, really?@ That’s unexpected.@ You always seem so capable.”@
+ld l,"tachi/cel_t02",crossfade,400
+`“That’s because I work hard not to make mistakes when you’re around, Tohno.@ The truth is, I’m rather bad at managing things efficiently.”
+\
+`She might be right about that.@ After all, we had first become acquainted because I could not leave an older student to repair a support stake in the courtyard all by herself.@ Someone good at looking after her own interests would never undertake work with nothing whatsoever to gain from it.
+\
+`“I see.@ But I prefer people who aren’t good at looking out for themselves.@ They make me feel at ease.”@ Beside me, Arihiko nodded solemnly.@ “So because mornings defeat you, you usually eat in the cafeteria.”@
+ld l,"tachi/cel_t03",crossfade,400
+`“Yes, usually.@ But now and then I do make myself a lunch like this.@ You two normally use the cafeteria, don’t you?”@
+ld r,"tachi/ari_t03",crossfade,400
+`“Nah, we go by mood too.@ My sister made my lunches in our first year, but Tohno kept switching between the cafeteria and the school shop.@ I started following his lead, and this is where I ended up.”
+\
+ld l,"tachi/cel_t12",crossfade,400
+`“I see.@ So Tohno is a creature of whims.”@
+ld r,"tachi/ari_t02",crossfade,400
+`“Exactly.@ Dating a man like this would only wear you out, so watch yourself.”@
+ld l,"tachi/cel_t04",crossfade,400
+br
+`“Very true,”@ Ciel agreed as she opened her lunch box.@ The round container was divided evenly between rice and side dishes.@ Entirely conventional, though the portions did appear generous.
+\
+ld l,"tachi/cel_t01a",crossfade,400
+`“Well, time to eat.@ May I borrow the chair from the next desk?”@ “An absent man’s chair belongs to everyone.@ Takada would be honored to have you sit in it.”@ Takada, who occupied the desk beside mine, was a good-natured young man with a well-padded frame.@ Occasionally, I borrowed money from him with no fixed date of repayment.@
+cl a,crossfade,400
+`Ciel set the lunch box on her lap rather than my desk and began to eat.@ Beside her at an angle, Arihiko stood opening the wrapper on a second roll.@ I watched them from the corner of my eye, then stared aimlessly out the window.
+\
+ld l,"tachi/cel_t12",crossfade,400
+`“Oh?@ Aren’t you eating lunch, Tohno?”@ “Not today.@ I decided to skip it.”@
+ld l,"tachi/cel_t08",crossfade,400
+`“Skip it?@ But you’ll get hungry.”@ “I’m not hungry now, and I’m not so delicate that missing lunch will hurt me.”@
+ld l,"tachi/cel_t02",crossfade,400
+`“That’s amazing.@ If I miss even one meal, I can’t move.@ I get so hungry I could collapse.@ …@It’s embarrassing.@ I already eat more than an ordinary girl, yet I’m hungry again in no time.”
+\
+ld r,"tachi/ari_t01",crossfade,400
+`“Nothing embarrassing about it.@ You’re better developed than the other girls.@ A larger chest has to burn more fuel.”@ Arihiko’s argument was perfectly sound.@ For our part, we hoped she would eat even more and continue to develop without restraint.@
+ld l,"tachi/cel_t11",crossfade,400
+`Ciel wore an expression I could not quite distinguish as embarrassment or bashful pleasure.@ …@She was probably pleased.
+\
+ld l,"tachi/cel_t01a",crossfade,400
+`“But are you sure you’ll be all right without lunch?”@ “I’ll be fine.@ Going a whole day without food isn’t unusual for me.@ I only skipped breakfast today, so I should still be fine until evening.”@
+ld l,"tachi/cel_t08",crossfade,400
+`“Oh, Tohno—you’ll ruin your health living that way.”@ “I won’t.@ I only restrict my meals when I’m under mental strain.@ …@Besides, because of my old accident, the doctor warned me not to gain much weight.@ Missing an occasional meal is about right for me.”
+\
+ld l,"tachi/cel_t12",crossfade,400
+`“I see.@ So men think about dieting too.”@ Ciel looked up at me from beneath her lashes, considered something for a moment, and then closed her lunch box.@
+ld l,"tachi/cel_t08",crossfade,400
+`“Um, I just remembered something I have to do.@ Excuse me.”@ She packed everything away with brisk efficiency and vanished like the wind.@
+cl l,lshutter,400
+`“Mm.@ Adorable.”@ Arihiko murmured the words while staring longingly at the door through which Ciel had departed.
+\
+bg #000000,crossfade,1500

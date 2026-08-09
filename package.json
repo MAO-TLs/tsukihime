@@ -1,0 +1,41 @@
+{
+	"name": "tsukiweb",
+	"version": "0.7.1",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=22.18"
+	},
+	"scripts": {
+		"start": "vite",
+		"proxy": "vite --mode proxy",
+		"assets": "node tools/make-assets.ts",
+		"common:check": "tsc -p tsukiweb-common/tsconfig.json",
+		"common:update": "git submodule update --remote --merge tsukiweb-common && npm install",
+		"test:direct-audio": "node --test tests/direct-media-audio.test.ts tests/direct-media-manager.test.mjs",
+		"test:runtime": "node --test tests/direct-media-audio.test.ts tests/direct-media-manager.test.mjs tests/en-mao-scenes.test.mjs tests/publication-safety.test.mjs tests/reader-public-contract.test.mjs tests/text-layout.test.ts",
+		"build": "npm run common:check && tsc && vite build"
+	},
+	"dependencies": {
+		"@tanstack/react-virtual": "^3.14.8",
+		"@tsukiweb/common": "file:./tsukiweb-common",
+		"classnames": "^2.5.1",
+		"motion": "^12.42.2",
+		"react": "^19.2.8",
+		"react-dom": "^19.2.8",
+		"react-error-boundary": "^6.1.2",
+		"react-icons": "^5.7.0",
+		"react-toastify": "^11.1.0",
+		"sass": "^1.102.0",
+		"wouter": "^3.10.0",
+		"yet-another-react-lightbox": "^3.32.1"
+	},
+	"devDependencies": {
+		"@types/node": "^26.1.1",
+		"@types/react": "^19.2.17",
+		"@types/react-dom": "^19.2.3",
+		"@vitejs/plugin-react": "^6.0.4",
+		"typescript": "^7.0.2",
+		"vite": "^8.1.5"
+	}
+}

@@ -1,0 +1,1905 @@
+play "*1"
+wavestop
+bg #000000,crossfade,400
+bg "bg/bg_40c",crossfade,400
+`A violent fit of coughing seizes me.@ I must have pushed myself too far talking to Kohaku.@ In its present state, my body will not permit even that small indulgence.
+\
+ld c,"tachi/koha_t16",crossfade,800
+`“Shiki…@ why didn’t you tell Miss Akiha you loved her?”@
+`She repeats the same question.@ But this time it is different from before.@ Kohaku’s voice sounds almost…@ sad.
+\
+`“If you do as Miss Akiha asks, you can live.@ Even if you don’t mean a word of it, you have to say it now or you’ll die.@ I don’t know what’s going through your mind, but surely you could at least return her feelings.”@
+br
+`If I could do that, I would have done it long ago.
+\
+`“No.@ I do love Akiha, but as her brother.@ Nothing more.@ The person I’m in love with isn’t Akiha, Kohaku.@ Whatever else I may do, I won’t lie about the person I love most.”@
+`The words come through ragged breaths, but my voice does not waver.@ Tick.@ A single beat of the second hand passes in silence.
+\
+ld c,"tachi/koha_t03b",crossfade,800
+`“Honestly, Shiki.@ Are you really incapable of one little white lie, just for now?”@
+`“…@I can’t.@ If my body can’t be free, then at least I want my heart to be.@ Once you lie to yourself, you have to keep living that lie.@ You bury one lie beneath another until someday there’s nothing left inside.@ And if that happened to me—”@
+br
+`…@that girl who had been left all alone, with nowhere to escape, until she was hollow inside—
+\
+`“—I would never be able to save her—the person I love most.”@
+`I look at Kohaku and no one else.@
+ld c,"tachi/koha_t17",crossfade,400
+`She does not recover her smile.@ Instead, she looks away.@
+`“…@That won’t do.@ Poor Miss Akiha.”@
+`“Poor Miss Akiha…?”@
+`“Yes.@ She’ll go into town again tonight and drink someone’s blood.@ Unlike SHIKI, she cannot turn those she feeds on into creatures like herself.@ Instead, she takes something from them.”
+\
+`“Miss Akiha must know what it is doing to her.@ The more blood she drinks, the further her power strays from anything human.@ Yet she refuses to stop.@ Her own strength is not enough to keep you alive.@ And so—even knowing that she is changing—she will go on becoming a monster that drinks blood, all to keep you alive.”@
+`“Ah—”
+\
+ld c,"tachi/koha_t08",crossfade,400
+`“Will you still reject her when she needs you so desperately?@ For eight years, you were the only person Miss Akiha waited for.”@
+`“…”@
+`I have no answer.@ Akiha is the reason I am lying here dying in the first place.@ But she is also the reason I have survived this long.@ I owe her more than I could ever repay.
+\
+`“—!”@
+`I cannot say what is right and what is wrong.@ But there are things I will not surrender, and things I cannot forgive.@ So I know what I have to do.
+\
+playstop
+`“I see.@ So Akiha is going out to feed again tonight.”@
+`I force myself upright.@ Pain like an electric current tears through my brain.@ Enduring it, I somehow manage to rise from the bed.@
+ld c,"tachi/koha_t13",crossfade,400
+`“Shiki…@ what are you doing?”@
+`“I can’t let her.@ I have to stop Akiha Tohno from drinking blood.”@
+cl c,crossfade,400
+`I manage one step.@ I nearly fall, but I can still move forward.@ At this rate…@ I can at least make it to Akiha’s room.
+\
+`“Please wait.”@
+`Kohaku steps directly into my path, barring the way.@
+ld c,"tachi/koha_t08",lshutter,400
+`“You said you would stop Miss Akiha.@ Is that the blood of Nanaya speaking?”@
+`“…@I don’t know anything about that.@ I only want Akiha to stay the Akiha she is now.@ That’s only natural—for Shiki Tohno, at least.”
+\
+ld c,"tachi/koha_t13",crossfade,400
+`“…@You mustn’t.@ Not if that is all you feel.@ Miss Akiha will never forgive you.@ Surely you understand that she is not the Miss Akiha she once was.”@
+br
+`I know that already.@ The mirage wavering behind Akiha—that thing is driving her into a corner, stripping away everything that makes her Akiha.@ To the woman she has become, a brother who will not accept her is probably nothing but refuse.
+\
+`“Even so, I have to stop her.@ I’m her brother.”@
+ld c,"tachi/koha_t16",crossfade,800
+`“…”@
+`Kohaku says nothing.@
+cl c,lshutter,400
+`I push past her and make my way to the desk.@ It holds the handful of belongings I brought from the Arima home.@ I take my knife from the drawer—and find something I have yet to return.
+\
+play "*7"
+`“Kohaku.”@
+`Clutching it tightly in one last farewell, I cross to her.@
+ld c,"tachi/koha_t13",crossfade,800
+`“…”@
+`Kohaku only stands there.@
+`“…@This may be the last time, so here.”@
+`I hold out my hand and show her the white ribbon.@
+`“It took me long enough, but I’m giving it back.@ Sorry.@ You lent it to me, and in the end I never used it once.”@
+br
+`I do not know whether the words have carried what I feel.@ With the gentlest little pat I can manage, I lay the ribbon of our promise in the girl’s palm.
+\
+ld c,"tachi/koha_t09b",crossfade,800
+`“—”@
+`She catches her breath.@ Kohaku stands frozen like a doll, staring numbly at the ribbon resting in her palm.@
+br
+`“…@You knew, Shiki?”@
+br
+`“…@Not at first.@ I only realized very recently.@ I should have known the moment I came home.”
+\
+cl c,crossfade,800
+`Yes.@ When I returned to the mansion and Kohaku welcomed me home, I should have known.@ Yet when I asked whether she was the girl who had once lived here, she still gave me a smile.@
+br
+`“…@So I have no right to say this after all this time, but thank you.@ I was glad you were here, waiting for me.”@
+br
+`Those are the words Shiki Tohno has wanted to say for eight long years.
+\
+bg "event/koha_e06",crossfade,800
+!w3000
+`A tear.@ One solitary tear traces Kohaku’s cheek, though her face looks neither happy nor sad.@ I cannot tell what that tear means.@
+br
+`She looks so fragile.@ Before I know it, I am holding her as I did once before.
+\
+`Kohaku’s warmth seeps into me.@ Strangely, it calms the frenzy of my heart.
+\
+`“…@Kohaku.@ I’ll stop Akiha.@ You take Hisui and leave this place.@ Once you’re gone, you never have to come back.@ This mansion has held you prisoner for ten years.@ You’re allowed to be free now.@ You don’t ever have to force yourself to smile again—”@
+br
+`“Shiki…@ you know everything—”@
+br
+`Her lips move to form the final words.@ I do not want to hear them.@ Before I know what I am doing, I stop her mouth with my own.
+\
+bg #000000,crossfade,400
+br
+br
+br
+br
+br
+br
+`It lasts only an instant.@ Our lips barely touch, yet the moment is unforgettable—a kiss that seems to give each of us a claim upon the other.
+\
+!w2000
+playstop
+!w2000
+bg "bg/bg_40c",crossfade,400
+`I raise my head and release her from my arms.@ Since she still stands there like a doll, I smile with all the strength I have left—for both of us.@
+br
+`“Goodbye, then.@ We weren’t together long, but I loved every moment of it.@ And…@ yes.@ You’re the one I love most, Kohaku.”@
+br
+`Time to go.@ All that remains is to stop Akiha.
+\
+`“…@No.”@
+`As I reach for the door, her voice comes from behind me.@
+`“…@No, Shiki.@ You can’t stop Miss Akiha like that.”@
+`“…@What?”@
+`I turn, and there—
+ld c,"tachi/koha_t16",lshutter,400
+`“You have to stop Miss Akiha.@ You simply have to.”@
+`Kohaku stands there without her smile, looking truly, painfully sad.
+\
+`“Kohaku…@ why?”@
+`Why does she look ready to cry?@
+`“Shiki.@ Did you mean what you just said?”@
+`She looks straight into my eyes, searching them for proof that I truly love her.
+\
+cl c,crossfade,400
+`“…”@
+`I nod.@ Kohaku comes pattering over and clasps my hand tightly.@ How long do we remain that way?@ She says nothing.@ After holding my hand like a child, she recovers her familiar smile and places my palm over the center of her breast.
+\
+play "*8"
+ld c,"tachi/koha_t03b",lshutter,400
+`“Then please make love to me.@ If you do, you’ll no longer need Miss Akiha’s help.”@
+`“Wh—make love?@ Kohaku, what are you saying?”@
+`“I mean that we should join our bodies.@ Hisui and I were brought to this mansion for precisely that purpose.”@
+`Still smiling, Kohaku delivers that staggering revelation as though it were nothing at all.
+\
+`“J-join our bodies?@ You can’t mean…!”@
+`The shock pitches my voice into a squeak.@
+`“Yes.@ You wouldn’t know this, but we are what people call resonators.@ Put simply, we can project ourselves into another person and heighten that person’s power.@ But it only works with our counterpart—in other words, someone of the opposite sex.@ Miss Akiha is a woman, so I could not resonate with her.@ She only drank my blood to form a temporary bond.”
+\
+`“…”@
+`My body heat surges with a single thud of my heart.@ This is not the dangerous pounding from before.@ This is…@ well, Shiki Tohno himself getting worked up.
+\
+`“…@B-but that just feels…@ wrong somehow—”@
+ld c,"tachi/koha_t12",crossfade,400
+`“You cannot grant Miss Akiha’s wish, can you?@ Then this is the only way left.@ Please take my body.@ Once we exchange bodily fluids, I can sustain you.@ You’ll regain an ordinary, healthy body without any help from Miss Akiha.”@
+`“Ugh…”
+\
+`It is everything I could have asked for.@ If Akiha no longer has to sustain me, she will have no need to drink blood.@ And if I am honest with myself, I want Kohaku to be mine.
+\
+`“…”@
+`And yet…@ something about it still feels wrong.@
+ld c,"tachi/koha_t03b",crossfade,400
+`“Was it a lie when you said you loved me?”@
+`When she asks with that smile, my restraint begins to crumble.
+\
+`“Of course it wasn’t.@ I’ve always—Kohaku, I—”@
+ld c,"tachi/koha_t12",crossfade,400
+`“Then please let me give you my strength.@ Otherwise you will die, and you will never be able to stop Miss Akiha.”@
+`With that, she presses my hand more firmly to her breast.@ Soft flesh yields beneath my palm.@ The touch of a woman’s body leaves my head spinning.
+\
+`“…”@
+br
+`I know.@ Kohaku’s performance has not ended.@ I know she is only using me.@ Even so—this means something precious to me.@
+br
+`“…@Are you sure?@ You really want to entrust your body to someone like me?”@
+`“Yes.@ I love you too, Shiki.”@
+br
+`I know that smile is false.@
+br
+`Even so, I believe her words.
+\
+br
+br
+br
+br
+br
+br
+br
+`I simply want to believe them.
+\
+cl c,lshutter,800
+`I pull Kohaku against me and kiss her again—not as I did before, but violently, taking without giving.@
+playstop
+bg #000000,crossfade,1500
+br
+`I lose all sense of how long it lasts.@ Kohaku’s lips are soft beneath mine.@ I crush my mouth against them and hold her so tightly it feels as though I mean to drink even the breath from her lungs.
+\
+`“—”@
+`Reason refuses to work.@ My mind has become a vacuum in which no coherent thought can form.@ All I know is that I want to remain like this forever.@
+`“—kh.”@
+`But my body has reached its limit.@ My legs buckle.@ My arms slip from around Kohaku, and I sag against her.
+\
+`“…@Honestly, Shiki.@ Of course you’ll collapse if you push yourself in that condition.”@
+br
+`My body sways and begins to collapse toward the floor.@
+br
+`“Lie down and rest on the bed.@ I’ll have you feeling better very soon.”
+\
+eroskip 139
+bg "bg/bg_40c",tshutter,800
+play "*5"
+`I drop onto the edge of the bed.@ My body barely moves.@ Every breath hurts, and my vision warps like melting glass.@
+`“Kh…”@
+`Damn.@ Like this, I cannot even put my arms around Kohaku.@ She says that taking her the way Makihisa Tohno once did will restore me—but if I cannot move to begin with, how am I supposed to—
+\
+`“…@Don’t worry.@ You need only stay as you are.@ Let me serve you.”@
+`She sinks to her knees.@ Kohaku disappears below the edge of my vision.
+\
+`“…@Kohaku…?”@
+`There is no answer, only a faint clinking near my waist.@
+`“—Ah.”@
+`When I realize she is undoing my belt, my breath stops.@ I hear and feel the zipper slowly descend.@
+`“W-wait—Kohaku…!”@
+`“…”@
+`Still silent, she slips careful fingers beneath my underwear and exposes my shrunken penis.
+\
+`“—!”@
+`Heat rushes into my face.@ Not from arousal, but from the shame of having Kohaku stare so intently at me.@ Of course we can hardly join our bodies while I keep it hidden forever.@ Even so—I had imagined nothing beyond simply having sex.@ This is nowhere in my expectations.
+\
+`“Kohaku, what are you—”@
+`“…@I have to make at least this part of you healthy first.”@
+`Her breath brushes me.@ As though answering that warmth instead of the rest of my failing body, my penis begins to rise.@
+`“Ah…”@
+`I hear Kohaku catch her breath.@ Hooking her little finger beneath the slowly swelling shaft, she gently lifts it free of my trousers.
+\
+`“Kh—Kohaku—”@
+`A tiny prick of sensation.@ Though it is only her little finger, the touch is almost too intense for flesh not yet fully hard.@
+`“Mm…@ you mustn’t tense up, Shiki.@ Don’t hold back.@ Relax.”@
+`Chiding me softly, Kohaku encloses me in her hand.@ All five fingers merely rest against my skin.@
+br
+`That cool, unmistakably human warmth sends a shiver through me.
+\
+`“Hah—ah, kh—”@
+`Blood gathers inside me.@ The shame that has locked every feeling in place slowly gives way, and a sound escapes my throat.@
+`“That’s it…@ let me hear you.”@
+`Kohaku blows softly across the swelling flesh, as though cooling its heat.@
+`“Mm—!”@
+`One heavy pulse—and the part of me I had thought incapable of rising stands fully erect.
+\
+bg #ffffff,crossfade,800
+bg "event/koha_h01",crossfade,800
+`“Ahaha…@ goodness, Shiki.@ This part of you seems perfectly healthy.”@
+`Her voice takes on a strange sweetness.@ She rubs her nose against me, its soft pressure utterly unlike her fingertips.@ As though testing my scent, Kohaku teases the head of my rigid penis with the tip of her nose.
+\
+`“Mm…@ it’s cute, Shiki.@ Your scent is faint, but the size and shape are both impressive.”@
+`After sniffing softly, Kohaku flicks her tongue across the tip.@ The touch lasts only an instant, but the wet warmth of it sends a shudder up my spine.@
+`“Ah—!”@
+`A cry escapes me as heat gathers at the base of my penis.@
+`“…@Ahaha…@ at last it’s growing warm.”@
+`Kohaku seems delighted as she tests that heat with her fingers.
+\
+`Kohaku’s hand begins to move.@ Four slender fingers stroke upward from the base, varying their pressure by delicate degrees.@ With every caress of those supple fingers, my erection swells larger.
+\
+`My erection strains as though to escape her touch.@ Kohaku pins the shaft firmly beneath her thumb, its strength startling beside the delicacy of her other fingers.@
+`“Oh…@ Shiki, you’re so naughty.”@
+`She murmurs it dreamily, almost in a daze.@ A clear bead begins to spill from the puckered opening at my tip.@
+`“…”@
+`My face burns scarlet.@ While I turn away in shame, Kohaku’s own cheeks flush as she bends to breathe in the scent of the seeping fluid.
+\
+`“Mm…@ now I can make it feel even better.”@
+`The rigid flesh, dry until now, grows slick beneath the sticky fluid.@ Working the indecent drops between her dainty fingers, Kohaku begins stroking me harder.
+\
+br
+`…@Slip, slide, slip—slick.
+\
+`“Hah—ah—!”@
+`I cannot hold back my voice.@ The motion is simply up and down, yet Kohaku’s fingers have a peculiar resilience that makes every stroke complex.@ Her moist fingertips seem to draw the dry skin of my penis upward with them.
+\
+`“Hehe…@ look at you, Shiki.@ It seems you can grow even bigger.”@
+`“No…@ that’s…@ Kohaku, you’re—”@
+`Yes.@ Her fingers are the strange part.@ It is as though she has turned my flesh into clay and is shaping it however she pleases.
+\
+`“Stop…@ Kohaku—you don’t have to do this—”@
+`It feels so good that everything else threatens to become meaningless.@ But this is not what I want.@ I do want to make love to Kohaku.@ Yet this feels wrong.
+\
+`“That’s enough—you don’t have to do that anymore—”@
+`I fight to steady my pleasure-broken breath and force out the words.@ Kohaku’s fingers do not stop.@ Then, in one wet stroke, her tongue—red and fever-hot as flame—licks the length of me.
+\
+`“—!?”@
+`The sudden pleasure snaps my chin upward.@ Through heavy-lidded eyes, Kohaku looks up at my clenched face.@
+`“Not yet…@ Shiki.@ This little one says it still isn’t ready.”@
+`Her red tongue travels up the shaft, slick with clear fluid.@ Pressing its flat surface to me, she sweeps from my testicles up along the shaft, then glides around the head as though tickling its rim.
+\
+`“Ah…@ mm…@ hah…@ ah…”@
+`Kohaku’s breath touches my penis directly, every ragged exhalation as hot as the swollen flesh itself.@
+`“Mm…@ I have to make you stronger, or you’ll break…”@
+`Her red tongue licks across the head.@ For some reason, the sight is almost poisonous.@ Kohaku’s tongue is so sweet and small, yet now it looks long and voluptuous, like a snake raising its head to strike.@ Red tongue.@ The raw, primary red of blood crawling over my already dark and engorged penis.
+\
+`“Kh—”@
+`The sight alone feels so good I could be sick.
+\
+`“Hah…@ I think that should be enough.”@
+`Her expression still vague and dreamy, Kohaku presses the underside of her tongue against the opening that weeps clear fluid.@
+`“Wh—ah, ngh—!?”@
+`The smooth underside feels utterly different from its rough surface.@ She seals the wet opening with her tongue and continues working me with her fingers—not merely up and down now, but from side to side, plucking mercilessly at every vulnerable place, the slit and the rim alike.
+\
+`“Hah—stop, Kohaku—I’m going to come—!”@
+br
+`My penis jerks.@ The burning pressure pooled at its root surges upward, desperate to race through the urethra.@ Kohaku’s fingers stop it.@ Her little finger, which until now has exerted no force, digs into the base of my erection like a fishhook and holds back the convulsion of release.
+\
+`“Ko…@ haku—why—?”@
+`“Mm…@ not yet.@ You have to hold it longer.@ That is the last seed your body has, so please…@ release it properly inside my vagina.”@
+`Her fingers withdraw.@ After kissing my twitching penis as though reluctant to part from it, Kohaku gives my body a gentle push.
+\
+bg "bg/bg_40c",crossfade,800
+`“Ah—”@
+`I topple backward onto the bed.@ Kohaku quietly climbs astride me as I lie on my back.
+\
+`“Mm…@ so tight…”@
+`Kohaku lowers her hips.@ She guides my upright penis to her opening and slowly sinks onto it.@
+`“—”@
+`My vision goes black.@ With a wet sound, my shaft enters her.@ At first only the tip slips inside, and all I notice is the extraordinary warmth.@ Then the head advances, parting her flesh, and the sensation transforms completely.
+\
+bg "event/koha_h02",crossfade,800
+`“…@Hah…@ ah…@ mm…!”@
+`Kohaku stifles her voice, but her breathing still breaks apart.@ Are her closed eyes enduring pain?@ Every inch of her skin flushes as she draws me inside.
+\
+`“…”@
+`Darkness still veils my sight.@ I cannot understand what is happening.@ I can see, yet nothing registers.@ The only certainty is the feeling of Kohaku enclosing me.@ Warm—or burning hot.@ She is narrow inside, yet her body ripples deeper and deeper, as though beckoning me inward.
+\
+`Honestly, I am amazed I do not come at once.@ Her fingers and tongue are nothing beside this.@ There is something impossible about the inside of Kohaku.@ Whether it is my fluid or hers, everything is drenched.@ The slippery warmth is delicious enough to tickle my spine, while the folds contract around me without sacrificing any of that softness.
+\
+`“…@Mm…@ you’re so hard, Shiki…@ I can’t take you all at once—”@
+br
+`Slick.@
+br
+`With a wet sound, Kohaku’s hips descend little by little.@ The arousal spilling from her opening soaks my penis until it feels as though it is melting in liquid heat.
+\
+`“…”@
+`My sight remains frozen.@ Why?@ With every inch that Kohaku sinks, sensation climbs beyond any measure.@ Her flushed skin, her face clouded as she endures something—the sight of her is so precious I want to pull her into my arms.
+\
+`And yet, why?@ My body drowns in pleasure while reason stands perfectly still.@ I do not understand.@ Kohaku and I are one.@ It feels this good, so why—
+\
+`“Mm—no more—I can’t—”@
+`Kohaku’s hips stop.@ Nearly all of me is swallowed inside her, her body clamping so tightly around the shaft that I feel something hard against its tip.@ The pressure seems ready to shear me off at the root.@ Bracing both hands against my chest, Kohaku struggles to keep herself from sinking any farther.
+\
+`It must be agony; Kohaku’s shoulders heave with every breath.@ Yet she will not raise her hips.@ Intent only on pleasing me, she fights to take every last inch of Shiki Tohno into herself.@
+br
+br
+`The anguish on her face is so unbearably dear to me that at last I understand: I truly love Kohaku.
+\
+`“Ah…@ just…@ a little more—”@
+`Her voice trembles.@ With one final wet slide, Kohaku lowers herself completely.@ Our skin meets without a gap, and she surrenders her weight to me.
+\
+bg "event/koha_h03",crossfade,800
+`A deep, straining sensation passes through me.@ Still buried inside her, my penis seems to cry out in pleasure at the motion.
+\
+`“Ah…@ it’s all…@ inside me.”@
+`Resting against my chest, Kohaku speaks with a face lost in rapture.@
+`“…”@
+`The sight is so sensual it threatens to steal my consciousness with hers.@
+br
+`I feel the softness of Kohaku’s breasts through her kimono.@ The contrast between her slender body and her legs spread so wantonly around me leaves me dizzy.
+\
+`“Ahaha…@ like this, your face is…@ so close.”@
+`Perspiration gleaming at her collar, Kohaku gazes straight at me.@
+`“…@Kohaku.”@
+`“Yes…@ you don’t have to hold back anymore.@ Please…@ stay like this and let out as much as you can.”
+\
+`“…”@
+`That is why.@ Merely lying joined to her feels exquisite, and I want to hold her—but cannot.@ At last I understand the unease that has haunted me.@ I simply love Kohaku.@ I hate reducing this to an exchange of bodily fluids.
+\
+`“No, Kohaku.@ This isn’t what I—”@
+`“Mm…@ then I’ll move for you.”@
+`“Ah—”@
+`Before I can stop her, Kohaku lifts herself slightly and begins to move her hips.
+\
+bg "event/koha_h02",crossfade,800
+`“W-wait—ah, kh—!”@
+`My whole body convulses.@ Keeping me inside her, Kohaku rolls her hips in slow circles.@ I had been ready to come from penetration alone; once she begins to move, I have no defense.@ Her inner walls already feel like hundreds of tongues licking me, binding me, drawing me deeper.@ When the body containing them moves as well, the sensation doubles.
+\
+`“Ah—Ko…@ Kohaku—!”@
+`My mouth.@ I try to close it and endure, but the pleasure is too great even to bring my lips together.@
+`“Hah—ah…!”@
+`It is one-sided ecstasy so intense I want to die—no, so intense I could die here gladly.@ The organ that ought to be mine now feels like something from another dimension.@ Every nerve lies naked, and Kohaku’s folds have become needles driving into it without mercy.
+\
+`“—…!”@
+`Breathing is all I can do.@
+`“Mm…@ Shiki, lift your hips…@ more…”@
+`Lost in rapture, Kohaku makes an impossible request.@ Any more pleasure and my mind will truly break.
+\
+`“Ah—yes, just like that.@ See, Shiki?@ You can do it when you try—”@
+`Kohaku’s hair sways.@ Just as she asks, I am thrusting my own hips upward into her.
+\
+`“—…”@
+`My throat is ruined.@ I cannot breathe.@
+`I want to come.@ My body has long been ready to expel everything pent inside it, yet it cannot.@ Kohaku holds me too tightly.@ It is madness.@ For all that pressure, there is no pain.@ The crushing grip exists only deep within my penis; outside, her flesh enfolds me with nothing but softness.@ There is no suffering at all.
+\
+bg "event/koha_h03",crossfade,800
+`“Well…@ Shiki?@ Does it feel good?”@
+`Kohaku asks in a dreamy voice.@
+`“—”@
+`The answer is obvious.@
+`“Mm…@ then I suppose that’s enough.”@
+`Her hips stop.@
+`“Ah—”@
+`Saved.@ At last I can come—
+`“—!”@
+`In that instant, her body clamps around me harder than ever.
+\
+`“Hah—ah, kh…!”@
+`Kohaku raises her hips.@ She gazes dreamily at my tormented face, and then—
+br
+!w2000
+`“Ahaha—go on.@ Come.”@
+!w2000
+br
+`Her voice is as innocent as a little girl’s.
+\
+bg #ffffff,crossfade,1500
+`That is enough to break the arousal I have endured for so long.@ An impossible quantity for a single climax bursts from me.@ Thick semen pulses into Kohaku in heavy throbs until it fills her womb.
+\
+bg "bg/bg_40c",crossfade,800
+br
+`Ah…@ hah…@ hah…@ hah…
+\
+`Only my ragged breathing echoes through the room.@ Kohaku climbs off me and presses a palm to my forehead, testing my temperature.
+\
+`“Thank goodness.@ Your warmth seems to be returning.@ Perhaps you and I are especially compatible, Shiki.@ Usually, when someone like me has had a previous partner, one time isn’t enough for a new bond to take.”@
+`Kohaku’s voice dances with delight.
+\
+br
+br
+br
+`Hah…@ hah…@ hah…
+\
+`She is right: my body has changed.@ My breathlessness comes from having sex with Kohaku, but my flesh itself is returning to the ordinary condition it knew days ago—the simple state of moving when I will it to move.
+\
+`“I’m so relieved.@ You hardly have any strength right now, do you?@ I was worried one ejaculation might not be enough for me to accept you.@ In your condition, asking for a second could have killed you.”@
+`Straightening her disordered kimono, Kohaku moves away from the bed.@ She looks genuinely happy that my strength is returning.
+\
+br
+br
+br
+br
+br
+br
+`Hah…@ hah…@ ah…
+\
+`But I am not happy.@ Not in the least.
+\
+`“I’ll fetch you a change of clothes, so please rest here.@ My power does not act immediately.@ You’ll need to stay still for a little while.”@
+`Kohaku turns to leave.@ The sight of that familiar smile and retreating back becomes unbearable.
+\
+`“Kohaku—!”@
+`“What—?”@
+`I rise from the bed and catch her hand before she can leave.@
+`“…”@
+`No words come.@ I can only hold her slender hand tightly.
+\
+ld c,"tachi/koha_t03b",lshutter,400
+`“…@Is something wrong, Shiki?”@
+`“…”@
+`I bow my head and clench my teeth until they creak.@ Kohaku’s warmth flows through my palm.@ If I let this moment pass, I might never feel it like this again.@ Even someone as slow as me understands that stopping Akiha will mean staking my life.@
+br
+`This is my only chance.@ If I am ever going to love Kohaku, it has to be now.@ And I cannot bear for what we just did to be the whole of it.
+\
+`“…@No.@ That wasn’t enough.”@
+`“What, Shiki…?”@
+`“What happened just now wasn’t enough, Kohaku.@ Not even close.”@
+`Still staring at the floor, acutely aware of the heat in my face, I say the words.
+\
+ld c,"tachi/koha_t13",crossfade,400
+`“Oh…@ I-I’m sorry!@ So one time really wasn’t enough for me to accept you.@ Forgive me for making you say such a thing.@ Please wait—I’ll find another way that won’t strain your body—”@
+`Kohaku begins to panic.@
+`“No, that part is fine.@ My body really is recovering.@ What wasn’t satisfied…@ was my heart.”@
+ld c,"tachi/koha_t09b",crossfade,400
+`“Your…@ heart?”@
+`Kohaku’s panic vanishes.@ She tilts her head, baffled.
+\
+`“Um…@ did it not feel good, Shiki?”@
+`She asks the outrageous question with a perfectly straight face.@ It is far too late for embarrassment.@
+`“Of course it did!@ It…@ it felt incredible.@ Honestly, I could get addicted to it.”@
+ld c,"tachi/koha_t15",crossfade,400
+`“Ahaha.@ You’re adorable when your face turns that red.”@
+`Kohaku smiles happily.
+\
+ld c,"tachi/koha_t03b",crossfade,400
+`“Then what was missing?@ I don’t understand what you mean.”@
+`“…@Isn’t it obvious?@ I wasn’t loving you—not at all.@ That wasn’t how I wanted to make love to you.”@
+ld c,"tachi/koha_t13",crossfade,400
+`“…@I still don’t understand.@ What we did was the best method.@ It allowed us to exchange bodily fluids without placing any strain on you.@ And look—you’re already recovering.”
+\
+`“That’s exactly what I’m saying was wrong!@ When you asked me to do it, I was so happy.@ Happy enough to forget Akiha completely.@ I love you so much that nothing else matters.@ I don’t need resonators or treatments or any of those excuses.@ Is it wrong for me simply to want you?”@
+ld c,"tachi/koha_t09b",crossfade,400
+`“…”
+\
+`“It felt wonderful, but I hated it.@ I was the only one feeling anything.@ You didn’t enjoy it at all.@ I don’t have much experience, but I wanted you to feel every bit as much as I did.@ So no, I haven’t had nearly enough of you.@ I only want to show you that I love you.@ I don’t need a resonator.@ I want to love Kohaku exactly as she is.”
+\
+`I squeeze her hand.@ Kohaku stares up at me in stunned silence, and then—
+ld c,"tachi/koha_t14",crossfade,400
+`“I…@ I don’t know what to do when you say that.@ I’ve never…@ done anything like that.”@
+`Her face crimson, she stumbles over every word.
+\
+cl c,crossfade,400
+`The hand that had remained perfectly dry until now suddenly grows damp with sweat.@ Standing this close, I can almost hear Kohaku’s heart racing.@ And then I understand.@ Not once in her life has Kohaku joined her body with someone who loved her.@ Makihisa Tohno had seen her only as a tool.@ Kohaku, in turn, had accepted that she was one.
+\
+`“…”@
+`How terrible.@ She had been violated almost every day, yet had never learned what it truly meant to join with another person.
+\
+`“Kohaku…@ I want to see you naked.”@
+ld c,"tachi/koha_t10",crossfade,400
+`“Y-you can’t!@ How can you suddenly say something like that, Shiki?”@
+`Kohaku shouts, red from head to toe.@
+`“…@I see.@ I don’t want to think it, but I suppose what we did before was only a duty.@ You couldn’t undress in front of someone you don’t love.”@
+ld c,"tachi/koha_t17b",crossfade,400
+`“Ah…”@
+`Still scarlet, Kohaku bows her head.@ She mumbles something about that not being what she meant.@ The sight is devastatingly adorable.
+\
+`“…@No.@ It’s because my body is filthy.@ I couldn’t let you see it.”@
+`“I don’t care.@ I know that isn’t true—but even if it were, I know your body would still be beautiful.”@
+`I draw her closer by our joined hands.@
+cl c,lshutter,400
+`“—!”@
+`Kohaku’s weight settles lightly against my chest.@ Once I feel her there, I move behind her and bury my face against her neck.
+\
+`“Ah—Shiki—”@
+br
+`I hear no protest.@ Holding her trembling body, I gently draw my tongue along the side of her neck.
+\
+bg #000000,crossfade,800
+bg "event/koha_h04",crossfade,800
+`I kiss the smooth curve of Kohaku’s nape.@
+`“Mm…”@
+`A faint breath escapes her.@ Cheeks flushed, she accepts my touch without a word.@
+`“…@See?@ Your skin is…@ beautiful, Kohaku.”@
+`My tongue travels over skin as smooth as porcelain.
+\
+`“…”@
+`Eyes closed, Kohaku trembles in tiny shivers.@ Perhaps even this is new to her.@ Her response is nothing like the sultry woman from moments ago.@ She has the innocence of someone being touched for the first time, and it stirs an almost irresistible urge to tease her.
+\
+`“Is your neck sensitive?”@ I whisper from behind.@
+`“…”@
+`Kohaku keeps her lips sealed and shakes her head.@ She does not seem to realize the gesture is as good as admitting that it is.
+\
+`“…@I see.@ Then I suppose this will be all right.”@
+`I press my lips firmly to her neck, purse them, and draw them downward in a slow, sucking kiss.@
+`“…@Ah…@ Shiki…”@
+`Her lips quiver.@ Tasting and feeling her skin, I place a hand upon her shoulder and slowly ease her kimono aside.
+\
+`“…”@
+`Kohaku still says nothing, but neither does she stop my fingers.@ The kimono slips from both shoulders.@
+`“…”@
+`Her mouth draws into a tight line.@ Perhaps she is bracing herself against the shame of exposing bare skin.@ Though frightened enough to tremble, she silently accepts it.@ This is not the passive surrender of someone allowing anything to be done to her.@ There is something fresh and expectant in it.
+\
+`“…@Kohaku.@ I’m going to undress you.@ Is that all right?”@
+`“…@Yes…”@
+`Her answer is almost too soft to hear.@ I draw the kimono farther down from her shoulders.@
+`“…”@
+`And when I see her, I think with all my heart that she is beautiful.
+\
+`A white body.@ The stark, living lines of her collarbones.@ Pale breasts damp with sweat.@ Skin faintly flushed as though warmed by wine.@ Her eyes shut in embarrassment, her lips parted with unease—every part of her is so dear that I want to gather her into my arms.
+\
+`“…@Ah…@ Shiki.”@
+`Kohaku’s voice rises.@ Without thinking, I trace my fingers across her bared breast.@ Hot.@ Soft flesh yields beneath the slightest pressure.@ Merely touching her sends heat climbing through my mind.
+\
+`“Mm…@ Shiki…@ what are you doing?”@
+`Kohaku asks the strange question without relaxing her rigid body.@
+`“What do you think?@ Loving you.”@
+`I press harder.@ Her soft flesh gives beneath my hand as I slowly knead the breast that fits within my palm, drawing out every touch.
+\
+`“Ah…”@
+`Kohaku’s back arches with a convulsion.@ I have barely begun, yet her nipples are already flushed and hardening.@
+`“No…@ Shiki, I—”@
+`Her lips tremble as she fights desperately to suppress her voice.
+\
+`My fingertips, buried in the swell of her breast, feel Kohaku growing hotter without end.@ Her breathing dissolves into feverish pants—sounds she had never made even while riding me.
+\
+`“…@Kohaku, are your breasts sensitive too?”@
+`“What…?@ No, that isn’t…”@
+`Her attempt to deny it vanishes beneath her heated breathing.
+\
+`“Hah…@ something’s wrong.@ I’ve never…”@
+`“Yes.@ Your voice is incredibly sexy.”@
+`“Ah—”@
+`Kohaku’s face flares scarlet.@ Delighted by her honest response, I kiss her neck again.
+\
+`“Ah…!@ Shiki…@ that tickles—”@
+`“But you said your neck wasn’t sensitive.@ Then I wonder how this feels.”@
+`Holding her twisting body, I take my hand from her breast.@
+`“Mm…”@
+`Kohaku sighs, trying to recover now that the caress has stopped.@ Then I catch her hard, wet, pink nipple between thumb and forefinger and roll it.
+\
+`“Hah—!”@
+`Her body jolts.@ I work the nipple harder, savoring its firm texture as I pinch, twist, and pluck it.@
+`“Mm…@ hah…@ ah…”@
+`Each touch draws another hot breath from Kohaku.@ She sounds less like someone moaning in pleasure than someone in genuine distress.
+\
+`“…@Kohaku, could it be…?”@
+`Surely not.@
+`“Is this the first time anyone has made you feel good?”@
+`“Ah…”@
+`Her breath stops.@ Eyes lowered in shame, Kohaku gives one tiny nod.
+\
+`“…@I’m sorry.@ Something is wrong with me.@ I’m supposed to be serving you, but just having you touch me makes my head go hazy…”@
+`She releases a long breath, as though trying to empty the heat from inside her.
+\
+`“It’s strange…@ No matter what anyone did to me before, I never became like this.@ You’ve hardly done anything, yet my whole body is hot.@ Shiki…@ did you do something to me?”@
+`Her words come in fragments.@ Kohaku is no longer standing under her own power.@ Feverish and limp against me, she looks ready to collapse the moment I release her.@ Her knees fold inward, frail enough that she might simply sink to the floor.
+\
+`“…@Tell me honestly, Kohaku.@ Does it feel good?”@
+`“…”@
+`She nods shyly.@
+`“…@Then I’ll have to make it feel even better.@ I’m taking the rest of your kimono off.”@
+`“Ah…@ no…”@
+`I pretend not to hear that tiny murmur of reluctance.@
+br
+`I loosen her sash and lower the arm around her.@ The garments covering Kohaku’s body fall away with almost insulting ease.
+\
+bg "bg/bg_40c",crossfade,800
+`Naked, Kohaku is truly beautiful.@
+br
+`Her bashfully lowered face, her delicate limbs that look so soft—the sight alone fills me with a savage exhilaration.
+\
+`“Um…@ aren’t you going to undress, Shiki?”@
+`She has a point.@ But if I strip now, I will expose the erection that has been standing for some time.@
+`“I’ll undress in a moment.@ When I do, come to the bed.”@
+`I walk over and lie flat on my back.@ Opening my trousers, I free my swollen penis.
+\
+`“—”@
+`I hear Kohaku catch her breath.@ Lying on my back makes my full erection appear even more conspicuous than it is.@
+`“Come here, Kohaku.@ It’s time I returned what you did for me.”@
+`Still on my back, I beckon her over.@
+`“…@All right.”@
+`Breathing hard, Kohaku climbs onto the bed.@ At first she takes the same position as before, straddling me so that we face one another.
+\
+`“No, no.@ Turn the other way.@ I want your bottom over here.”@
+`“What—Shiki, you can’t…!”@
+`My hands move before Kohaku can escape.@ I catch her hips and swing her around until they hover directly above my face.
+\
+bg "bg/ima_10b",crossfade,800
+`“Sh-Shiki, what are you doing…?”@
+`“I told you, I’m returning the favor.@ You loved me before, Kohaku.@ Now it’s my turn.”@
+`“What…@ ah—!”@
+`Gripping buttocks even softer than her breasts, I draw her hips down toward me.@
+br
+`Above me, the ceiling has vanished.@ In its place is the most private part of Kohaku’s body.
+\
+`“Mm…”@
+`I raise my face between her legs.@ Seen from below, Kohaku’s sex alone seems enough to burst my heart.@ White, succulent thighs that beg for my mouth.@ Between them, a soft mound, already hot and swollen.@ Her petals look ready to spill nectar the moment I press my tongue inside.@ Beyond them rises the gentle curve of her buttocks, sensual in an entirely different way.
+\
+`“Ah…@ Shiki…”@
+`Kohaku’s voice trembles.@ Is it the shame of having her most precious place exposed to my gaze?@ With a wet patter, a drop of her arousal falls against my cheek.
+\
+`“…@You really were feeling it, Kohaku.”@
+`“…”@
+`She says nothing.@ I hear only her ragged breathing, hot enough to kindle flame.@
+br
+`I extend my tongue, narrow its tip, and work it between the tightly closed petals.@ They yield softly.@ The pale pink cleft accepts the intrusion without resistance.@ Her inner flesh is burning hot.@ I slip my tongue just inside and move it as though drawing the nectar out of her.
+\
+`“Ah—mm…@ ah…!”@
+br
+`Kohaku’s hips jerk upward.@ I pin them in place, leave her depths, and begin caressing the outside instead.@ My tongue sweeps lightly upward, noisily gathering every drop that spills from her.@
+br
+`“…@Ah…@ hah…@ mm…”@
+br
+`Though still ragged, Kohaku’s breathing gradually settles into a rhythm.
+\
+`The wet sound of my tongue lapping at her mingles with Kohaku’s harsh breaths.@
+br
+`I lose all sense of how long I have been loving her that way.@ Then a shiver like an electric current races along my spine.
+\
+bg "event/koha_h07",crossfade,800
+`“Ko…@ haku.”@
+`My tongue stills against the cleft I have been licking so carefully.@
+`“Ah…@ mm…@ hah…”@
+`Kohaku’s breath is touching my rigid penis.
+\
+`Wet, lapping sounds.@ They no longer come only from me loving Kohaku.@ They are also the sounds of Kohaku loving me.
+\
+`“Hah…@ yours is…@ so hot, Shiki.”@
+`Kohaku flicks her tongue over the engorged head of my swollen penis.@
+`“Kh—”@
+`My back arches.@ Her tongue feels so good that I can no longer keep drawing nectar from between her folds.
+\
+`“Mm…@ mmm…@ ah…”@
+`As though tasting something sweet, Kohaku moves her tongue little by little.@ She licks only the head, tracing it timidly, again and again, as if that were the sole place where flavor lingered.
+\
+`“Kohaku…@ that feels incredible.”@
+`I plunge my tongue back inside her.@ Swallowing the arousal that wells out, I suck hard at the clustered folds as though trying to draw her whole sex into my mouth.@
+`“Mm…!@ Hah…@ Shiki…@ more…”@
+`With a faint cry, Kohaku places both hands around my penis.@ She holds the slippery shaft gently, almost hesitantly, and begins licking it with painstaking care.
+\
+`“Hah—kh…!”@
+`There is something guilelessly earnest in the movement of Kohaku’s tongue.@ This is not the skilled woman from before.@ She has no technique now.@ She touches me with single-minded devotion, obeying nothing but the feelings rising inside her.@ That inflames me more deeply than any practiced skill could.
+\
+`“Hah…@ mm…@ ah…”@
+`Kohaku’s breathing begins to unravel again.@ Perhaps the act of pleasuring me excites her in itself.@ She is already more than wet enough, but now nectar floods from her as though a dam has burst.
+\
+`“Mm—hah.”@
+`I swallow the salty liquid rather than let it escape my mouth.@ It feels perfectly natural now.@ Kohaku loves my body.@ Kohaku feels pleasure through me.@ So I cannot bear to waste a single drop that spills from her.@ I want her so desperately that I could take every last part of her and make it mine.
+\
+`Only the wet sounds of skin and tongues fill the room.@ Before long, it is not merely our most intimate places rubbing together.@ Every surface that touches presses close, slides sideways, and tries to melt slickly into the other.@
+br
+`Kohaku’s breasts brush my stomach.@ Her arms touch my flanks, while her legs enclose my face and shoulders.
+\
+`Slide.@ Slide.@ Slide.@
+br
+`The sound of bodies rubbing—skin made slick by sweat and nectar.@ Each time Kohaku’s breathing breaks into feverish pants, her arousal spreads into me.
+\
+`“I…@ can’t last much longer.”@
+`Feeling my limit approach, I lower my head.@ Kohaku holds my penis tenderly between her fingers and cleans it with her red tongue.@
+br
+`I hate to lose that sensation, but we cannot remain this way forever.@ An unbearable heat is already coiling around my testicles.
+\
+`“Kohaku, lie underneath me.”@
+`“…@Underneath you?”@
+`She tilts her head in puzzlement, then obediently does as I ask.
+\
+`Kohaku lies on her back upon the bed.@ Bracing my arms above that perfectly proportioned body, I gaze down at her.
+\
+bg "event/koha_h06",crossfade,1500,bottom
+!w2000
+bg "event/koha_h06",tscroll,1500,top
+`“…@Ah…”@
+`Kohaku folds her arms shyly across herself and looks up at me.@ Her skin is flushed, her cheeks red enough to betray the pounding of her heart.
+\
+`“…@Shiki…@ my heart is beating so hard.”@
+`She whispers it almost to herself.@
+`“I know.@ You’re like a child, Kohaku.”@
+`I speak the thought without hiding it.@ She reddens further, lowers her eyes, and nods.
+\
+bg "event/koha_h05",crossfade,800
+`“…@It’s so strange.@ I’ve done this more times than I can count, yet I never knew it could make my chest ache like this.”@
+`That is surely because she had never felt anything for the man who held her before.
+\
+`“…@Do you hate the ache?”@
+`“…@No.@ I’m so happy that it frightens me.”@
+`Her voice comes haltingly.@ Nothing remains of the Kohaku who wears her smile like a mask.@ The thought that this is her true self makes her so precious that I want to take her then and there.
+\
+`“But I’m just as ashamed.@ My body grows hot merely because you’re looking at me.@ That’s indecent, isn’t it?”@
+`“…@Not at all.@ Just having you look at me excites me too.@ I can’t help it.@ I love you, and I want us to feel good together.”@
+`“…@Honestly, Shiki.@ How can you say such things aloud?@ You keep saying them, and I become so embarrassed that I don’t even know what kind of smile to make anymore.”
+\
+`Her face is scarlet, yet Kohaku still meets my eyes without flinching.@
+br
+`Blood thunders once through my body.@
+br
+`We need no more words.
+\
+`“Kohaku.”@
+`I lower myself.@ Still covering herself bashfully with crossed arms, she opens her body to receive me.@ I ease her legs apart and settle between them.@
+`“Mm…”@
+`Though I have not yet touched her, Kohaku’s face tightens as if in pain.@ She truly has never done it this ordinary way.@ Her expression holds a complicated mingling of anxiety and longing.
+\
+`“…@Kohaku, I’m going inside.”@
+`“…”@
+`She nods without a word.@ I answer with a nod of my own and take hold of my penis, swollen nearly to bursting.@ Beyond Kohaku’s white legs, where her thighs meet, her cleft is drenched and disordered—partly from her own arousal, partly from the saliva with which I tried to lick it all away.
+\
+`With a firm pressure, I set the head of my penis against Kohaku’s opening.@
+br
+`“Ah…!”@
+br
+`Kohaku’s body twitches at the slightest contact.@ The head is wet with my arousal and her saliva, just as she is.@ Nothing hinders entry.@ I press forward, sinking the slick head into her softened cleft.
+\
+bg "event/koha_h06",crossfade,800,top
+`“Ah…@ mm…!”@
+`Kohaku’s body rocks as though lifted from below.@ Perhaps she is tense.@ Unlike the first time, her vagina is rigidly closed.@ Only the head has entered; pushing farther would require more force than I want to use.
+\
+`“…@Kohaku, are you all right?”@
+`“…@Y-yes.@ Kohaku is happy, Shiki.”@
+`She clutches the sheets and gazes up at me through wet eyes.@
+`“…”@
+`I resume the movement I hesitated to make.@ With one hard thrust, I force my way into her unyielding body as though tearing it open.
+\
+`“Ah—ah…!”@
+`Kohaku’s head lifts.@ One deep pulse passes through her.@ The rigid flesh barring me rapidly softens, becoming once more a yielding maze of folds.
+\
+`“Kh—”@
+`The sensation comes close to torture.@ There is something impossible about being inside Kohaku.@ The pleasure is too sharp, too hot.@ It drives upward not from my testicles but from behind—from my anus—stabbing through my body and hammering directly into my brain.
+\
+`“Mm…@ ah—!”@
+`I endure it and move my hips.@ There is no hope of reaching her depths.@ I can only thrust halfway in, withdraw, then enter again and again.@
+br
+`Wet flesh works against wet flesh, liquid tangling with liquid.
+\
+`“Kohaku—!”@
+`“Y-yes, Shiki, I—mm…!”@
+`Her back arches.@ Each time it does, her insides ripple, squeezing and milking the part of me buried there.@ I clench my teeth and fight the pleasure.@ Kohaku is not yet close to release.@ I cannot finish selfishly before her.
+\
+`And yet it feels impossibly good.@ Kohaku’s body is made of contradictions.@ Her depths are molten as lava, yet close around me like a perfect vacuum.@ Layer upon layer of folds change with every motion, stimulating me without end.@ The soft flesh that merely clings to me never once repeats the same movement.
+\
+`“Ah—kh…!”@
+`Still I endure the torment and thrust.@
+`“Mm…@ ah—!”@
+`Kohaku’s voice.@ But I am not holding back for her sake alone.@ In the end, I have become captive to this sensation—to Kohaku herself.
+\
+bg "event/koha_h08",crossfade,800
+`“Hah—ah…!”@
+br
+`Refusing to be overwhelmed by the sensations inside her, I drive my hips forward with all my strength.
+\
+`“Ah—mm…!”@
+br
+`Kohaku’s body leaps higher than before.@
+`“Kh—”@
+`She tightens further.@ Trying to break free of that grip, I thrust into her again, harder still.
+\
+`“Hah…@ Shiki—more gently—!”@
+`Her words plead for mercy, yet her body assaults me more fiercely, driving enough pleasure into my naked nerves to reduce me to an idiot.
+\
+`“Hah—Kohaku—!”@
+`Wet thrust after wet thrust.@ I move like a madman, struggling both to accept the pleasure she gives me and to escape it.
+\
+`“Hah…@ ah…!”@
+`The motion grows fiercer without limit.@ Every fluid our bodies possess runs across our skin and seeps into the other.@
+`“Ah…@ it’s touching…@ deep inside…!”@
+`More.@ Harder.@ Deeper inside Kohaku.@ If I do not love all of her, I feel I will go mad.
+\
+`“Hah—ah…!”@
+`I drive into Kohaku so violently I have no room to love any other part of her.@
+`“Ah—Shiki!”@
+`Reason gradually vanishes from her voice.@ Her spread legs wind around my body as though inviting not only my penis but all of Shiki Tohno inside.
+\
+`“No—if you do that, I’ll…@ I can’t…!”@
+`Kohaku seems to have no strength left to move.@ She only clenches both hands, bracing herself for the ending drawing near.
+\
+`“Hah—hah—ah—!”@
+`Something strikes with a hard impact—or perhaps the sensation is merely hammered into my brain.@
+`“Ah—!?”@
+`At last, the head of my penis reaches Kohaku’s deepest point.@ Her face twists beneath a pleasure so unfamiliar it resembles pain.@
+br
+`Again and again.@ As though rewarding her for finally enduring me at full depth, I batter the entrance to Kohaku’s womb without mercy.
+\
+`“Ah—Shiki—!”@
+`I plunge down; Kohaku’s body springs upward.@
+`“Kohaku—I’m coming!”@
+`I clench my teeth.@
+`“Yes—come, Shiki—!”@
+`“—!”@
+`I drive into her harder than ever before.
+\
+bg #ffffff,crossfade,400
+bg "event/koha_h08",crossfade,400
+`“Ah—mm…@ ahhh—!”@
+br
+`The final thrust.@ My penis convulses and releases scalding semen that burns through Kohaku’s depths.@
+br
+`“Hah…@ ah…”@
+br
+`Kohaku’s lips tremble.@ Then, as though her soul has slipped free, she surrenders her body to the bed.
+\
+bg #000000,crossfade,800
+!w2000
+playstop
+bg "bg/bg_40c",crossfade,800
+`“Ah…”@
+`My body falls across hers.@ Kohaku lies motionless, asleep or lost in a daze.@ But I am not.@ I am exhausted.@ My body has not fully recovered, but more than that, it has simply felt too good for me to control myself.@ I have raced past the limits of my strength without knowing where they lie, and now I am collapsing.
+\
+`“…@Sleepy.”@
+`I drop onto the bed beside Kohaku.@ Consciousness begins to blur.@ Her profile rests next to mine, her breath still coming in soft pants.@
+`“…”@
+`The sight alone fills me with an extraordinary peace.@ I roll onto my back and gaze vaguely at the ceiling.@ Falling asleep now would be such a waste.@ I want to feel Kohaku breathing beside me a little longer, so with my thoughts drifting loose, I fight to stay awake.
+\
+bg #000000,crossfade,800
+!w3000
+phase "bg/ima_02",l,koha,11a,11
+bg #ffffff,notrans,0
+!w1000
+bg "bg/bg_40d",crossfade,800
+play "*8"
+`I lie stretched out on the bed, staring absently at the ceiling.@ Kohaku lies close beside me.@ Exhaustion must have carried her into sleep; only her quiet breathing reaches my ears.
+\
+`“……”@
+`I raise one hand and flex it into a fist.@
+`“All right.”@
+`No pain.@ No numbness, either.@
+`It feels as though her warmth still envelops my body.@
+`The strength has not reached every limb yet, but I can feel life steadily pouring back into me.@ I will be able to move again soon.@
+`Until then, rushing to Akiha’s room will accomplish nothing.@ For now, I want only to lie here and quietly savor what lingers between Kohaku and me.
+\
+`“Shiki.”@
+`Kohaku’s voice comes from right beside me.
+\
+`“Please don’t answer.@ I only wanted to talk for a little while.@ This is just me talking to myself, so I need you to listen in silence.”@
+`Her voice is wonderfully serene.@
+`“……”@
+`I give a small nod and keep my eyes on the ceiling.@
+`Beside me, with her body nestled against mine, I can feel her watching me.
+\
+`“I’m not the girl you think I am, Shiki.@ There is no real me.@ Even now, lying here with you, I may only be playing another part.”@
+`“……”@
+`“I used to be a very quiet child.@ I couldn’t understand why people laughed or cried, and I saw no reason to imitate them.@
+`“But even so, I think I had a self then.@ Until I was brought to this mansion, I truly existed.”
+\
+`“Then I came here and learned what unbearable pain was.@ I think that pain broke whatever self I had.@
+`“I became a doll that merely happened to be there.@ It was easier that way.@ It was the only way I could stay alive.”
+\
+`“But that solved nothing.@ So I found a purpose of my own and began playing whatever role would help me fulfill it.@
+`“I was a doll without a self.@ All I had to do was put on the proper costume, and I could become anyone at all.@
+`“But however completely I became someone else, it was still only an act.@
+`“I learned to laugh and cry.@ What I never learned was whether I was truly happy or truly sad.”
+\
+`“It’s strange, isn’t it?@ I threw myself away and became a doll to protect myself.@
+`“And the longer I lived that way, the more broken I became.@
+`“I perfected my acting.@ I learned to lie, to deceive people with a smile.@ The harder I worked toward my purpose, the more thoroughly I erased the very self I had meant to protect.@
+`“What had happiness been?@
+`“What did sorrow feel like?@
+`“What had pain even meant?@
+`“In the end, I could no longer remember.”
+\
+`“And yet one memory could still make something stir inside me.@
+`“When I remembered the boy who disappeared eight years ago, I felt something I couldn’t name.@
+`“He was always playing in the garden.@ He knew nothing about me, yet he kept calling for me to come down and join him.@
+`“I neither liked nor disliked him.@ I was only afraid of him.@
+`“I had finally become a doll, finally convinced myself I could endure the pain.@ But whenever I watched him, I felt as though I might realize that was nothing but a lie I told myself.”
+\
+`“When that boy lost his life in the garden, I watched it all from the window.@
+`“He died protecting a girl who wasn’t even related to him.@
+`“I couldn’t look away.@ The face reflected in the glass was terrifying.@
+`“That was the first time I ever hated anyone.@
+`“I was so bitter.@
+`“I hated that boy—him, and no one else—so bitterly that I wept.”
+\
+`“I never hated your father.@ I felt nothing toward him at all.@ Nor did I care about SHIKI, who killed the boy, or Miss Akiha, whom the boy died protecting.”
+\
+`“I suppose I was only lashing out.@
+`“I couldn’t understand why that boy had done such a thing.@
+`“I stared and stared at his blood-soaked body, discarded in the garden like rubbish.@
+`“Had someone else truly mattered more to him than his own life?@ Was that why he could save Miss Akiha?@
+`“But then…@ if he could do something so wonderful, why hadn’t he saved me?@
+`“And why—why had no one around me ever been as kind as he was?”
+\
+`“I still don’t know what that feeling was.@
+`“But in all those dead, unfeeling days, that boy was the only thing that shone.”@
+br
+`Then, slowly, she sits up.
+\
+bg "event/koha_e07",crossfade,800
+`“But that is all I know.@
+`“I still can’t tell you what this feeling is.@
+`“I’m very happy now—but perhaps even that is only another performance.@
+`“Are you sure about this, Shiki?@
+`“Can you truly trust someone like me, when I don’t even know whether I love you as you love me?”
+\
+`“I told you, didn’t I?@ I don’t even know what kind of person I am.@ I’m a doll.@ If I wish, I can become any Kohaku at all.@
+`“So the Kohaku you said you loved may never have been me.@ She may have been nothing more than—”@
+br
+`The Kohaku who had been acting.@
+br
+`Her smile is one of perfect contentment, but her voice trembles as she speaks.
+\
+bg #000000,crossfade,400
+br
+br
+br
+br
+br
+br
+br
+`But no.@
+`That can never be true.
+\
+bg "event/koha_e07",crossfade,800
+`“You’re wrong.@ Acting, pretending—none of that matters.@ You’re still you, Kohaku.@
+`“Someone incapable of kindness can’t become kind simply by putting on an act.@ However much your behavior changed, the person underneath it was always the same.”@
+br
+`Yes.@
+`Even if it had been an act, Kohaku had seemed so happy playing that part.@
+`Which meant she had taken joy in it.@ It was who she herself had wished to become—a dream so close that wanting it was enough to make it real.
+\
+`“And even if every Kohaku I’ve known until now was a lie, I could fall in love with the next one too.@ I know I could.”@
+`“……”@
+`Without a word, Kohaku nods happily.
+\
+`“Yes.@ I thought you would say that, Shiki.”@
+`Her lips draw near.@
+`“Wha—”@
+`Before I can react, Kohaku presses them to mine.@
+`Her tongue slips into my mouth.@
+`Something hard clicks against my teeth—and then…@
+br
+`“Mm—gulp.”@
+`Something goes down my throat before I can stop it.
+\
+`“Wait—Kohaku, you just fed me something mouth-to-mouth, didn’t you—?”@
+bg #ffffff,crossfade,400
+bg "event/koha_e07",crossfade,400
+`…@Huh?@
+`I suddenly feel…@ wonderful.@
+`After hurting for so long, I could almost drift straight to sleep like this—
+\
+`“Shiki, tell me one last thing.@ Which ‘Kohaku’ did you love?”@
+`Her voice comes from very far away, though she is right beside me.@
+`“Mm…”@
+`Consciousness slips from me.@
+`Still, I have to…@ give her a proper answer.
+\
+`“I…@ don’t know.@ But I love the Kohaku who’s here now.”@
+`The words leave me through a haze of sleep.@
+`She stares at me, stunned.@ Then…@
+br
+`“Yes.@ This was my favorite Kohaku too.”@
+br
+`Leaving behind the most radiant smile I have ever seen, she quietly rises.
+\
+playstop
+bg "bg/bg_40d",lshutter,800
+`Silk whispers through the room.@
+`She must be out of bed, getting dressed.@
+br
+`“Well then, Shiki.@ I’m going to take responsibility for what I set in motion.”@
+br
+`She says it with a smile—a true smile, unlike any she has worn before—and leaves the room.
+\
+`“What…@ are you going to do, Kohaku…?”@
+br
+`Consciousness comes and goes in ragged fragments.@
+`Damn it.@
+`My body has finally recovered, and now my mind is fading instead, growing thinner and dimmer—
+\
+bg #000000,crossfade,800
+bg "bg/bg_40d",notrans,0
+`“No time…@ to lie here cursing…!”@
+`I wrench my sinking mind awake.@
+`Kohaku.@
+`What did she say before leaving?@
+br
+`“I’m going to take responsibility for what I set in motion.”@
+br
+`“You’ve got to be kidding…!@ Why does she always—”@
+`Why does that woman insist on handling everything alone?
+\
+`She has nothing left to hide and no role left to play.@
+`I would do anything for her, so why—why is she trying to go alone again?@
+`She has drugged me to sleep, and thinks that counts as protecting me…?@
+`“I have…@ had enough of this…”@
+`I force myself out of bed.@
+`The desk seems miles away.@
+`“Damn it…@ what did she give me…?@ When this is over, her room…”@
+`I am going to search it from top to bottom and confiscate every last drug like this.
+\
+`“Hah…@ ah…”@
+`I somehow stagger to the desk and collapse against it.@
+`My knife lies on top.@
+`I took it from the drawer earlier and left it there afterward—
+\
+bg #000000,crossfade,800
+bg "bg/bg_40d",notrans,0
+`“……”@
+`No.@ I have fallen asleep again.@
+`What is this monstrous drowsiness?@
+`No amount of willpower can overcome it.
+\
+`“Damn you, Kohaku…@ I’ll pay you back twice over for this…”@
+`I pick up the knife.@
+`The blade springs out with a snap.@
+`Then I—
+br
+!w500
+`God, this is going to hurt.@
+!w500
+br
+`With that thought, I drive the point beneath the nail of my middle finger.
+\
+quakey 2,50
+`“Ghh—!”@
+`The sharp, metallic pain punches straight into my brain.@
+`“Hah—take that, you bastard.”@
+`I pull the knife from beneath my nail.@
+`Each throb in my middle finger drives the drowsiness farther back.@
+`I wrap the finger in a handy handkerchief and staunch the blood.
+\
+`“Well…@ this much is nothing.”@
+`It won’t stop me from holding the knife.@ In any case, holding it is all I need to do.@ Shiki Tohno requires no strength to sever things.@
+`“Damn it, Kohaku—don’t do anything rash!”@
+`I pocket the knife and tear out of the room.@
+`I cannot let Kohaku meet Akiha.@
+`If I fail to stop her first, something irreparable is bound to happen.
+\
+bg #000000,lcartain,800
+bg "bg/bg_36d",lcartain,800
+`I throw open the door.@
+`“Kohaku…!”@
+`The room is utterly deserted.@
+`Neither Kohaku nor Akiha is there.@
+`“Next door?”@
+`I check the bedroom, but find no trace of them there either.@
+`“No…@ Where did they both—?”@
+`My eyes fly to the clock.@
+`It is past midnight.@ The date has already changed.
+\
+`“No way.”@
+`When did it get so late?@
+`I have lost all sense of time since Kohaku and I slept together, but I had still thought the night had only just begun.@
+`“At this hour, Akiha must already be…”@
+`Out in the sleeping city, drinking human blood.
+\
+bg #000000,lcartain,800
+bg "bg/bg_32d",lcartain,800
+`I run out of the mansion.@
+`There is no time to waste.@
+`Kohaku has gone to stop Akiha.@
+`But Akiha will never listen to her now.@
+`She is no longer herself.@ At worst, she might decide that Kohaku is merely an obstacle and dispose of her.
+\
+`“Could she be…@ at the school?”@
+br
+`After Akiha killed SHIKI, I once dreamed that I was drinking human blood.@
+`I don’t know how such a thing was possible.@ But if what I saw was Akiha’s reality, then she, like SHIKI, made the school her feeding ground after dark.@
+`Which means that at this hour, there is nowhere else the blood-drinking demon Akiha has become could possibly be.
+\
+bg #000000,lcartain,400
+!w2000
+bg "bg/bg_01c",lcartain,400
+play "*9"
+`And so I return to this place.@
+br
+`Silence.@
+`The enormous building stands drenched in moonlight, impossible to imagine as a place meant to hold hundreds of students.@
+br
+`It seems ancient beyond reckoning.@
+br
+`A cursed grave marker abandoned ages ago, erased from every memory and even from the map.@
+bg #9c0120,crossfade,400
+bg "bg/bg_01c",crossfade,400
+`“……”@
+`A dull ache pulses at my temples.@
+`Enduring it, I pass through the front gate.
+\
+wave se_01
+bg #000000,lshutter,400
+monocro #ff0000
+bg "bg/bg_03c",lshutter,400
+`The instant I step onto the grounds, the headache doubles.@
+`My vision warps.@ My heart awakens.@ My fingertips tremble at the promise of battle.@
+`“She’s here.”@
+`The place is unclean beyond belief.@
+`Nothing remains in the school but the stench of blood.@
+`The air itself is feverish, prickling against my skin like flame.@
+`The wind is dead.@ The stagnant air has rotted and changed, becoming something monstrous—a crimson cage.
+\
+`Even through my glasses, my eyes conjure a vision of countless red hairs.@
+`They infest not only the school building but the entire grounds, a thousand-year-old spiderweb without a single gap through which its prey might escape.
+\
+`“Akiha—you…”@
+br
+`This place already belongs to another world.@
+`No human being has any right to enter it.@
+br
+`“Has it gone this far?”@
+br
+`The headache will not stop.@
+`The fingertip beneath whose nail I drove the knife throbs.@
+`My heart sobs with joy at every beat.
+\
+monocro off
+bg "bg/bg_03c",crossfade,400
+`I remove my glasses and grip the knife.@
+`How many years has it been since I last faced the lines like this?@
+`I never imagined the day would come when I would willingly remove the glasses my teacher gave me.@
+`Least of all to confront my own sister.
+\
+`“……”@
+`There is no time for grief.@
+`I am ready.@
+`All that remains is to slash through this red Hair Cage.
+\
+playstop
+bg #000000,lshutter,800
+bg "bg/bg_10c",lshutter,800
+play "*4"
+br
+br
+`Scalding.
+\
+`Inside the building, the temperature rises higher still.
+\
+bg #000000,lshutter,800
+bg "bg/bg_07b",lshutter,800
+br
+br
+br
+br
+`Scalding.
+\
+`I know this heat.@
+`I saw it in a dream.@ The vampire who attacked the unknown girl entered the school, and then—
+\
+bg #000000,lshutter,800
+bg "bg/bg_11c",lshutter,800
+br
+br
+br
+br
+br
+br
+`Scalding.
+\
+`Dragging the girl’s body behind him, he entered that place.@
+`The sealed room once used by a murderer named SHIKI.@
+`The place where a silver moon watched the sinner like a snake—
+\
+bg #000000,lcartain,800
+bg "bg/bg_06c",lcartain,800
+br
+br
+br
+br
+br
+br
+br
+br
+`Scalding.
+\
+`This classroom.
+\
+playstop
+`“…@Akiha.”@
+`The moment I enter, vertigo strikes.@
+`Girls lie crumpled between the desks.@
+`One, two…@ three.@
+`Every one of the strangers is unconscious.@
+`Red marks stain their throats.@
+`And among them, the red-haired fiend is smiling.
+\
+play "*9"
+ld c,"tachi/aki_t28",lshutter,800
+`“Why, Brother.@ What brings you here?@ Couldn’t you wait until tomorrow?”@
+`Without the slightest shame, Akiha welcomes me.@
+br
+`—THUMP.@
+br
+`The sight of her threatens to unleash a certain impulse inside me.@
+`I smother it with everything I have, more desperately than I have ever fought any enemy.
+\
+`“……”@
+`Akiha stands at the window, bathed in moonlight.@
+br
+`—thump.@
+br
+`Since entering the classroom, I have not taken a single step forward.@
+`Something apart from instinct is warning me: this is bad.@
+`She is more than I anticipated.@
+`There is no comparison between this Akiha and the one who disposed of SHIKI.
+\
+`“I’m impressed.@ You could barely move, yet you forced that body all the way here to see me.@
+`“How wonderful.@ At last, Brother, you understand how I feel.”@
+`Akiha speaks with open delight.@
+br
+`—THUM—P.@
+br
+`Reason whispers from somewhere deep within me.@
+`Shiki Tohno cannot defeat that thing.@
+`Do not anger it.@ Do not make an enemy of it.@ If you do, you will be the one erased without a trace.
+\
+`—thum—p.@
+br
+`Even so, it is far too late to run.@
+br
+`“Akiha.@ Where is Kohaku?”@
+br
+ld c,"tachi/aki_t11c",crossfade,400
+`Her presence seems to compress the air itself.@
+`Akiha clicks her teeth in displeasure.
+\
+`“Kohaku is right there.@ For some incomprehensible reason she raised a hand against me, so I’m giving her a little punishment.”@
+`Akiha glances toward the corridor wall beside me.@
+`“……?”@
+`I follow her gaze.@
+cl c,crossfade,400
+br
+`There—crucified against the wall—is Kohaku.
+\
+`“What—?”@
+`Kohaku’s body hangs suspended in the air.@
+`At least, that is how it would appear to any ordinary observer.@
+br
+`But—
+\
+wave se_01
+`—THUM—P.@
+br
+`My eyes can see what binds her.@
+`Things like strands of red hair have merely pinned Kohaku’s body to the wall.@
+br
+`The hair creaks as it tightens around her arms and legs.@
+`Has she lost consciousness?@ Her head hangs limp.@ She looks like nothing so much as a pitiful swallowtail caught in a spider’s web.
+\
+ld c,"tachi/aki_t28",crossfade,400
+`“Remarkable, isn’t it?@ Kohaku clinging to the wall all by herself.@ Who knew she had such a marvelous talent?”@
+`Akiha giggles.@
+`“But don’t worry, Brother.@ I wouldn’t kill a pet cat over a single bite.@ I’ll punish Kohaku a little, then forgive her at once.”@
+`“You—”@
+br
+`—thum—p.@
+br
+`My vision blurs.@
+`Kohaku’s suffering, bowed figure overlaps with Akiha’s crimson form, and my reason begins to dissolve.
+\
+`“But do be careful.@ Once a pet bites me, I lose all interest in it.@ Somewhere inside, I suppose it stops being mine.@
+`“There is no second chance.@ I have no use for anything that is no longer mine.@
+`“You know, Brother, I can be as cruel as I please to anyone who betrays me.”@
+`The red hair binding Kohaku groans as it draws tight enough to tear her limbs away.
+\
+`“Akiha, you—!”@
+cl c,crossfade,400
+`I rush to the wall.@
+`As expected, my hands pass through the hair binding Kohaku.@
+`It is only an extension of Akiha’s hair, an image that exists within Akiha’s mind.@
+`By holding Kohaku in her sight, Akiha is pinning her to the wall through sheer force of will.
+\
+`—th—um—p.@
+br
+`I can see that flow of power as red hair.@
+`It is an image invisible even to Akiha herself.@
+`A sudden thought comes to me.@
+`Perhaps my eyes were originally made to see things like this.@
+`Perhaps all my brushes with death have merely taught them the concept of death.
+\
+`“Damn it—!”@
+`Shut up.@ None of that matters now.@
+`If I can see it, there is nothing I cannot sever.@
+`I will not let this wretched red hair toy with Kohaku a moment longer.
+\
+wave se_13
+bg "bg/ima_14",lshutter,400
+`I sweep the knife through the air.@
+`Perhaps my racing heart is responsible.@
+`Even I am astonished by the mastery in my hand.@
+`It does not feel like wielding a blade.@
+`The knife glides with such impossible speed and delicacy that it seems to reap the air itself rather than the crimson hair.@
+`Before I know it, a single breath has sufficed to dismantle every strand binding Kohaku.
+\
+bg "bg/bg_06c",lshutter,400
+`Kohaku falls.@
+`“—!”@
+`I catch her and touch her cheek.@
+`She is warm.@ Her breathing is weak, but it has not stopped.@ And only a handful of those hateful lines mar her body.@
+`“Hah…”@
+`Relief floods me as I lower her to the floor.@
+`Thank God.@ Truly…@ thank God she is still alive.
+\
+`“Brother…@ what did you just…?”@
+`Akiha’s voice trembles.@
+`Still holding the knife, I turn to face her.@
+ld c,"tachi/aki_t29",crossfade,400
+`“……”@
+`At the sight of me, Akiha gasps.@
+`One hand rises to her mouth as though she has seen the impossible.@ She stares into my eyes.@
+`“What…@ beautiful…@ blue eyes.”@
+`“……?”@
+`“How?@ Brother, you shouldn’t have any strength left…”@
+`She murmurs in a daze.@ Then—
+`“No…@ it can’t be.”@
+`Her lips begin to tremble.
+\
+`“Brother…@ did you form a pact with Kohaku?”@
+`Akiha’s voice shakes.@
+`It sounds less like hatred than grief.@
+`“……”@
+`“No.@ Then that means you’ve…@ abandoned me…”@
+`Akiha’s body buckles.@
+cl c,crossfade,800
+`Eyes wide with shock, she sags against the window.@
+`Her face has gone deathly pale.@ She looks ready to vomit—
+\
+`“Ugh…@ ah…@ hk—”@
+br
+`No—she can no longer hold it back.
+\
+playstop
+`“Ah—gh…!”@
+`Akiha vomits as though she were weeping.@
+`Her crimson hair sways as she hides her face in anguish and retches, as though expelling the scream that has risen into her throat.
+\
+play "*4"
+br
+`“You thieving little cat.@ I should have killed you.”@
+br
+`After glaring at the fallen Kohaku, Akiha laughs as though she has never heard anything so funny.
+\
+ld c,"tachi/aki_t28",crossfade,400
+`“I see.@ So that is your intention, Brother.@
+`“You betrayed me, and now you’ve come to drive the knife in deeper.@
+`“How thorough of you.@ Betraying me once wasn’t enough, so you even borrowed Kohaku’s help and came all this way to kill Akiha Tohno.”@
+`Her laughter fills the classroom.@
+`The temperature rises with it.
+\
+wave se_01
+`—TH—UM—P.@
+br
+`My heart roars for blood while reason shrieks its warning.@
+`Even the command to KILL is drowned beneath the command to RUN.
+\
+`“Don’t be ridiculous!@ I didn’t come here to kill you, Akiha…!”@
+`“A lie.@ You slept with Kohaku, didn’t you?@
+`“So you no longer need my help.@ If you came here anyway, there can only be one reason.”
+\
+`“That’s not it!@ I didn’t come to fight you to the death.@ I came to stop you from drinking blood…!@
+`“If you stop trying to keep me alive, you won’t have to drink anymore, will you?@ Then you won’t need to suffer.@ My body will be fine.@ As long as Kohaku is with me, I…”
+\
+`“So I’m no longer of any use to you?@
+`“Ahaha…@ what a fool I am.@ I treasured you so dearly.@ I loved you so much—and in the end, Brother, you never once turned to look at me.”@
+`“Don’t say something so stupid!@ Of course you aren’t useless!@
+`“You matter to me too, Akiha.@ If you—if there’s anything you want, I’ll…”@
+`I cannot say I will give it to her.@
+`I know exactly what Akiha wants.@
+`But I cannot grant it.@ Never again can I do anything that would betray Kohaku.
+\
+ld c,"tachi/aki_t31",crossfade,400
+`“Liar.@ I have no use for someone like you.”@
+br
+`The classroom shrieks around us.@
+`The air begins to burn.@ Akiha’s crimson hair spreads without limit.@
+`The difference in our power is absolute.
+\
+play "*6"
+`“Ah…”@
+`My body sways.@
+`One foot retreats without conscious command.
+\
+br
+wave se_01
+`—thump.
+\
+`“I told you, Brother.@ I don’t want a dog once it has bitten me.”
+\
+br
+br
+br
+wave se_01
+`—thump.@ thump.
+\
+`“Brother…@ to Akiha, you truly were the most precious person in the world.@ But that is over now.@
+`“No matter how desperately you yearn for something, if it can never be yours, it only becomes an eyesore.@ Wouldn’t you agree?”
+\
+br
+br
+br
+br
+br
+wave se_01
+`—thump.@ thump.@ thump.
+\
+`“So I’m going to kill you, Brother.@
+`“You were my most precious possession.@ I won’t let anyone else be the one to hurt you.”
+\
+br
+br
+br
+br
+br
+br
+br
+wave se_01
+`—thump.@ thumpthumpthumpthump…!
+\
+cl c,crossfade,400
+`“A-Akiha…”@
+`I can’t breathe.@
+`The classroom air has become flame, searing my lungs with every breath.@
+`A mirage shimmers around Akiha.@
+`My heart demands a choice, now and at once: flee, or kill.
+\
+ld c,"tachi/aki_t28",crossfade,400
+`“What’s wrong, Brother?@ I am trying to be considerate.@ If I grew serious, this would end immediately, and I ought to give you at least one chance to shine.@
+`“Come now.@ Aren’t you going to attack me with that knife, the way you used it to save Kohaku?”@
+`“……!”@
+`Akiha’s smile never falters.@
+`Her murderous intent is nauseating.@
+`She has already, completely—
+\
+`“I see.@ You’re weak, Brother.@ Even after all this, you still can’t bring yourself to kill me.@
+`“But I am different.@ I can hardly wait to kill you.@
+`“I have denied myself for so long.@
+`“I dreamed of making every part of you mine—your blood, your body, your warmth, even the shape of you—until I possessed you completely.”@
+cl c,crossfade,400
+`Akiha shudders, intoxicated by her own words, and laughs with delight.
+\
+`My heart is going mad.@
+br
+`The thing before me is no longer anything like the Akiha Tohno I knew.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_06c",crossfade,400
+`My head aches.@
+`It feels ready to split apart.@
+`The pain is too great to let me think.
+\
+wave se_01
+br
+br
+br
+br
+br
+br
+br
+br
+br
+`My reason is going mad.@
+br
+`My head.@ If my head keeps HURTING like this, then I will—
+`I will go mad too.@ I will want to fight Akiha until one of us dies.
+\
+ld c,"tachi/aki_t28",crossfade,400
+`“Come, Brother.@ Let us kill each other.@ That has always been the relationship between the Tohno and Nanaya families.@ There is no reason to hesitate now.”@
+br
+`Her shoes click as Akiha approaches.@
+`The crimson hair carpeting the floor rustles and pulses.
+\
+`“And if you still refuse, so be it.@
+`“A liar like you can die right here.”@
+cl c,lshutter,400
+`With that, Akiha fixes her gaze upon me, just as she did when she killed SHIKI.@
+br
+playstop
+`“—!”@
+`The floor bucks beneath me.@
+`Something that should be invisible—a red, heat-hazed mass—surges up to engulf me.
+\
+bg #000000,lshutter,400
+bg "bg/bg_11c",lshutter,400
+waveloop se_02
+`“……”@
+`The crack of my landing echoes down the corridor.@
+`“Hah…”@
+`This is insane.@
+`The instant that heat begins to close around me, my body senses the danger and leaps.@
+`I spring far backward, land, and kick off the floor once more.@
+`That alone has carried me this far.@
+`“Hah…@ ah…”
+\
+`I am panting.@
+`That speed was inhuman.@
+`In a single instant, I vanished entirely from Akiha’s sight.@
+`Nothing less could have escaped that heat.@
+`In the dream, Akiha stripped away SHIKI’s body with nothing but her stare.@
+`SHIKI and I are exactly alike.@
+`Akiha needs only to see me.@ I have to reach her.@ The difference is overwhelming.
+\
+`“You’re wrong!@ I told you, I don’t want to fight you to the death…!”@
+br
+`A stab of pain.@
+br
+`But the headache only doubles.@
+`My skull feels ready to crack open and sprout wings.@
+`Crimson heat spills from the classroom doorway.@
+`Turning the air around her scarlet, Akiha follows me into the corridor.@
+br
+`A classroom’s length of corridor separates us.
+\
+ld c,"tachi/aki_t11c",lshutter,1500
+`“Unbelievable.@ Just what kind of body do you have, Brother?”@
+br
+`Crimson hair sways like flame.@
+`The temperature in the corridor climbs without end.@
+br
+`“Even granting that it’s night, vanishing from sight outright is absurd.@ What astonishing speed you have when running away.@ You didn’t hide behind anything—you simply moved too fast for my eyes to follow.”
+\
+`My temples grind as though packed with broken glass.@
+`Shiki Tohno’s headache goes on multiplying.@
+br
+`“But that is over.@ I won’t be careless again, and here there is nowhere for you to escape my sight.”@
+br
+`She is right.@ The corridor puts me at a greater disadvantage than the classroom.@
+`The stairs are too far behind me to reach by retreating.@
+`However fast I run, the moment Akiha fixes her gaze on my back, the red heat will seize me.@
+`If I duck into the nearest classroom, I will be trapped.@
+`Akiha will erase my limbs one by one, like a child pulling the legs from an insect.
+\
+ld c,"tachi/aki_t28",crossfade,400
+`“First…@ yes.@ Let’s take away those marvelous legs of yours!”@
+ld c,"tachi/aki_t27",crossfade,400
+`Akiha’s eyes lock upon my legs.@
+`The air wavers with the smell of burning.
+\
+cl c,lshutter,400
+`“……”@
+`I leap backward.@ The air around Shiki Tohno becomes heat and wraps itself around both legs.@
+`I tighten my grip on the knife.@ My vision is clear.@ Pain shears through the right half of my brain.@
+br
+`Sever.@
+`Air and all, I cut the red hair dead.
+\
+bg #000000,lshutter,400
+bg "bg/bg_11c",lshutter,400
+ld c,"tachi/aki_t29",lshutter,400
+`“Ghh—!”@
+`Akiha groans and glares at me with naked hatred.@
+`“……”@
+`But I am suffering no less.@
+`I severed it immediately, yet both legs throb as though badly burned.@
+`The headache is sharper still—sharp enough to split my skull in two.
+\
+`“Again…@ How can you possibly do such a thing?”@
+cl c,lshutter,400
+`Akiha advances with faltering steps.@
+`She must have decided her power failed because the distance kept her from seeing me clearly.
+\
+`She is probably right.@
+`Akiha’s power depends on the clarity of the image within her eyes.@
+`Because it is midnight and we are inside, the heat pursuing me moves slowly.@
+`In daylight, Akiha’s gaze and that heat would travel at almost the same speed.@
+`Then, however clearly I saw it, I would never sever it quickly enough to defend myself.
+\
+`“Damn…!”@
+`I back away on my burned legs.@
+`Akiha follows.@
+`Perhaps because we are both wary, neither changes the distance between us as we move together down the corridor.@
+br
+`Then—
+br
+`A figure emerges from the classroom we have just left.
+\
+playstop
+wavestop
+`“……”@
+`My mind stops.@
+`The headache vanishes.@ So does the beating of my heart.@
+br
+`No.@
+br
+`Why has she come out?@ Why couldn’t she have remained unconscious inside that classroom?@
+br
+play "*8"
+`“Miss…@ Akiha.”@
+br
+`At the voice behind her, Akiha turns.@
+br
+`In that instant, I know the worst has happened.
+\
+`“Please stop this, Miss Akiha.@ You will only make yourself suffer.@ Even if you keep drinking human blood until you go mad like SHIKI, it will never bring you peace.”@
+`Staggering, scarcely able to remain on her feet, Kohaku walks toward Akiha.
+\
+`“Stop.”@
+`My whisper does not reach her.@
+`To reach Kohaku, I would have to get past Akiha.@
+`How can I possibly do that?
+\
+`“It isn’t too late for you yet, Miss Akiha.@ But if you kill Shiki, then you truly will become—a demon of the Tohno blood.”@
+`“……”@
+`Akiha looks from Kohaku to me.@
+`And then—
+ld c,"tachi/aki_t11c",crossfade,400
+`“It is already too late.@ I’m a demon that drinks blood, and I won’t dance to your tune anymore.@
+`“You claim this won’t bring me peace?@ Don’t pretend to understand a feeling you’ve never known, Kohaku.@
+ld c,"tachi/aki_t28",crossfade,400
+`“I am enjoying myself more than I ever have.@ I understand SHIKI now.@ Never in my life have I felt so free or had such fun.@
+`“There can be no going back.”
+\
+`“That isn’t true!@ You’re only trying to make yourself believe it.@ You killed SHIKI, and Shiki learned everything, so now you want to pretend none of it ever happened.@ Isn’t that right?@
+`“But you can’t erase it.@ However mad you pretend to be, you are still—”
+\
+ld c,"tachi/aki_t29",crossfade,400
+`“Be quiet!@ You tried to make Brother and me kill each other.@ Someone like you has no right to stand there pretending to be good!”@
+br
+`Akiha’s hair sweeps into the air.@
+`This is not the bodiless heat she sent against me.@ This hair possesses real mass.@
+br
+`“You must be pleased, Kohaku.@ Brother and I are killing each other exactly as you planned.@ Your revenge is complete.”@
+`“Ah—”@
+`Kohaku’s words die in her throat.
+\
+ld c,"tachi/aki_t28",crossfade,400
+`“Of course.@ Brother, you don’t know, do you?@ Kohaku manipulated you.@ She made you lose all faith in yourself.”@
+`Akiha turns a triumphant gaze upon me.
+\
+`“Didn’t you ever find it strange, Brother?@ Falling asleep so quickly every night, your memories growing confused—it was all Kohaku’s doing.@
+`“She gave you something like a narcotic and called it medicine.@ Then, once you were delirious, she must have whispered into your ear:
+`“‘You’re the one murdering people across the city.@’”
+\
+`“Kohaku turned you into a murderer and tried to make you kill me.@
+`“No—even if you never became one, it was enough simply to make you wander the city at night.@
+`“She devised an elaborate plot that would end with us killing each other no matter what happened, then carried it out with a smile.@
+`“To take revenge on the Tohno family, she deceived not only me but you, who had nothing to do with any of it, and engineered everything you see tonight.”
+\
+playstop
+`“……”@
+br
+`Of course.@ Now it makes sense.@
+`That was why Kohaku had always appeared at precisely the right moment, told me exactly what I wanted to know, and brought medicine whenever I couldn’t sleep.@
+`But none of that—
+\
+ld c,"tachi/aki_t11c",crossfade,400
+`“To Kohaku, you and I were nothing but pieces needed to complete her performance.@
+`“Surely you understand now.@ Even you were only a tool to her…!@
+cl c,crossfade,400
+ld c,"tachi/aki_t30",crossfade,400
+`“Knowing that, Brother—knowing all of it—can you still say you choose Kohaku?”@
+!w1000
+`Akiha hurls the words at me with the violence of a sob.@
+br
+`But none of that—
+play "*7"
+br
+`“I know.@ I’ve understood that for a long time, Akiha.”
+\
+cl c,crossfade,400
+`“What?”@
+br
+`A bewildered voice.@
+`Whose voice was it?
+\
+`“I’ve known for ages that Kohaku was using me.@ But that doesn’t matter.@
+`“I love her.@
+`“Whatever Kohaku chose to do, I chose to trust her.@ That’s all.”@
+ld c,"tachi/koha_t09b",crossfade,400
+`“……”@
+`A sharp intake of breath.@
+`She stares at me, utterly lost, as though gazing from afar upon a homeland she can never reach.
+\
+cl c,crossfade,400
+bg #000000,crossfade,400
+bg "bg/bg_11c",crossfade,400
+`“Ha…@ ahaha…@ ha.”@
+`Akiha’s laughter is dry and hollow as a doll’s.
+\
+ld c,"tachi/aki_t29",crossfade,400
+`“What is that supposed to mean?@ Then I’m nothing but a clown.@
+`“The person I wanted more than anything rejected me, while the woman he loves treats him like a tool.@
+`“And even then—even then, you still get to have him?@ Don’t make a fool of me, Kohaku!”@
+cl c,lshutter,400
+`“Akiha!”
+\
+`Akiha’s hair streams out behind her.@
+br
+`I run.@
+`I strip away every useless thought—that approaching Akiha means death, that I can never make it in time—and run with my hand outstretched.@
+br
+`Yet some cruel part of me already understands.@
+`From the moment she stepped out of that classroom—
+br
+br
+!w1000
+`My hand will never reach her.
+\
+bg "event/koha_e08",crossfade,800
+`A soft, blunt sound.@
+`Sharp as a blade, Akiha’s hair pierces Kohaku’s chest.
+\
+`Dazed—or perhaps accepting it—she makes no attempt to evade the blow.@
+`She falls.@
+`Her kimono flutters.@ Everything moves so slowly.@
+`Is my mind slowing time because it refuses to accept what it sees?
+\
+br
+br
+br
+br
+br
+br
+br
+`“I suppose I was only lashing out.”
+\
+`Those words suddenly return to me.
+\
+br
+br
+br
+br
+br
+br
+`Why had that boy done such a thing?@ Had someone else truly mattered more to him than his own life?
+\
+`She had always wanted to become that precious someone.@
+`But the wish was never granted, and she had lived alone.@
+`As though, at the end of that life, this was the only conclusion she could accept.
+\
+br
+br
+br
+br
+br
+br
+br
+`If he could do something so wonderful, why hadn’t he saved me?
+\
+`That sin…@
+`It did not end eight years ago.@ It repeats itself even now, in this very moment.
+\
+br
+br
+br
+br
+br
+`That was why I wondered.@
+`Why—why had no one around me ever been as kind as he was?
+\
+`Her body crumples.@
+`At the very last moment, her eyes hollow to the end—and yet, I think I see Kohaku look at me and smile.
+\
+playstop
+!w5000
+bg #000000,crossfade,1500
+bg "bg/bg_11c",crossfade,800
+play "*4"
+`“……”@
+`My feet stop.@
+`I have no voice.@ No breath.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_11c",crossfade,400
+`There is only a stabbing headache.
+\
+ld c,"tachi/aki_t27",crossfade,400
+`“Hmph.@ A fitting end for a thieving cat.”@
+`Akiha laughs.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_11c",crossfade,400
+ld c,"tachi/aki_t27",notrans,0
+`A stabbing headache.
+\
+`“There is no going back for me.@ I killed SHIKI, and even Brother rejected me.@ All that remains is to follow this path to its end.@ I am free now.@ I couldn’t possibly be suffering.”@
+`Akiha turns toward me.@
+`The air burns.@ The crimson hair rears like a snake preparing to strike, radiating an evil that seems to possess a will of its own.
+\
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_11c",crossfade,400
+`A stabbing headache.@ Headache.@
+br
+`“Weren’t you…@ going to kill me?”
+\
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_11c",crossfade,400
+`Like a headache.@ Headache.@ Headache.@ Headache.@
+br
+`“You were going to kill me, not Kohaku.@ Weren’t you, Akiha?”
+\
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_11c",crossfade,400
+`Headache.@ Headache.@ Headache.@ Headache.@ Headache.@ Headache.@
+`Rage.@ Rage.@ Rage.@
+`At myself, for failing to save her.@
+`At myself, for going on living as though nothing happened.@
+`At Akiha, for failing to save her.@
+`At Akiha, for going on living as though nothing happened.
+\
+ld c,"tachi/aki_t28",crossfade,400
+`“What’s this, Brother?@ Did you want me to kill you at once?@ Apologize if you like; I won’t forgive you.@ But I meant to kill Kohaku in any case.@
+`“There was no point in letting that thing live.@ She broke long ago.@ Throwing her away sooner was an act of mercy, don’t you think?”@
+br
+`I see.@
+`If something is broken, throwing it away is an act of mercy.@
+br
+`Then—
+\
+`“You aren’t Akiha.”@
+br
+`Not the Akiha I know.@
+`I was the only one who refused to admit it, but that shimmering apparition possessed her long ago.@
+br
+`“All right, Akiha.@ We’ll do this your way.”@
+br
+`Just as we had run together through the garden eight years ago.
+\
+playstop
+bg #000000,crossfade,400
+!w1000
+br
+br
+br
+br
+br
+br
+br
+`“Come on.@ Let’s begin in earnest—and kill each other.”
+\
+`The headache stops.@
+`Shiki Tohno dies.@ In his place, I become Shiki Nanaya—the one who once roamed the night.
+\
+bg "bg/bg_11d",crossfade,400
+`I measure the distance between myself and the enemy.@
+`Ten meters.@ Two strides to enter the knife’s reach; three to kill with certainty.@
+`The corridor offers no cover and no room for a wide maneuver.@ Even using the walls and ceiling as footholds, escaping Akiha’s sight is difficult.@
+`Two strides for me to close.@ One breath for Akiha to see me.@
+`That is the full situation.@ A direct approach will leave me dead by the margin of a single breath.
+\
+ld c,"tachi/aki_t11c",lshutter,400
+`“I see.@ So you’ve finally decided to fight, Brother.”@
+cl c,crossfade,400
+`Akiha steps closer.@
+`Even in this darkness, at that distance she can see me clearly.@
+`One more step.@ The next time she advances, that will be the signal.
+\
+`Kill, or retreat.@
+`One mistaken judgment, and the human body named SHIKI will be swallowed by Akiha’s hair, just as it was in the dream.@
+br
+`Her next footstep rings against the floor.@
+br
+`“……”
+\

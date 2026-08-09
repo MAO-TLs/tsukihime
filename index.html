@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/webp" href="%BASE_URL%icons/icon_32.webp" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+		<meta name="theme-color" content="#0b2f66" />
+		<meta name="description" content="Enjoy the original story from 2000 in your browser." />
+		<link rel="manifest" href="%BASE_URL%manifest.json">
+		<title>Tsukihime</title>
+
+		<script>
+			const appBase = '%BASE_URL%';
+			const appRoot = appBase.endsWith('/') ? appBase.slice(0, -1) : appBase;
+			const playPath = `${appRoot}/play`;
+			if (window.location.pathname === playPath || window.location.pathname === `${playPath}/`) {
+				if (!sessionStorage.getItem('app_entry_path')) {
+					sessionStorage.setItem('app_entry_path', '/play');
+					document.documentElement.dataset.preloading = 'disclaimer';
+				}
+			} else if (!sessionStorage.getItem('app_entry_path')) {
+				sessionStorage.setItem('app_entry_path', window.location.pathname);
+			}
+		</script>
+		<style>
+			:root {
+				--ui-font: "Ubuntu";
+				--game-font: "Ubuntu";
+			}
+			* {
+				box-sizing: border-box;
+				-webkit-tap-highlight-color: transparent;
+			}
+			html {
+				font-family: var(--ui-font, system-ui), Arial, sans-serif;
+				font-size: 1.1rem;
+				line-height: 1.5;
+				font-weight: normal;
+
+				color-scheme: light dark;
+				color: #e0e3ec;
+				background-color: #000000;
+
+				font-synthesis: none;
+				text-rendering: optimizeLegibility;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-text-size-adjust: 100%;
+			}
+			body {
+				margin: 0;
+				display: flex;
+				touch-action: manipulation;
+			}
+			#root {
+				background-image: radial-gradient(#00267d 10%, #01001e);
+				background-image: radial-gradient(oklch(0.32 0.16 262 / 1) 10%, oklch(0.12 0.08 268 / 1));
+				height: 100vh;
+				height: 100svh;
+				width: 100vw;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+				isolation: isolate;
+				position: relative;
+			}
+			html[data-preloading='disclaimer'] #root {
+				background: black !important;
+			}
+		</style>
+	</head>
+	<body>
+		<noscript>You need to enable javascript to run this visual novel.</noscript>
+		<div id="root"></div>
+		<script type="module" src="/src/app/main.tsx"></script>
+	</body>
+</html>

@@ -1,0 +1,108 @@
+monocro off
+playstop
+wavestop
+bg "bg/bg_33a",notrans,0
+`—Even so, I cannot break my promise.@
+br
+bg #9c0120,crossfade,400
+bg "bg/bg_33a",crossfade,400
+waveloop se_02
+`“Ah—!”@ The headache pierces me like a blade.@ Enduring it, I somehow force myself forward.
+\
+`“You mustn't, Shiki!@ If you go out in that condition, Miss Akiha will scold us!”@ Kohaku…@ blocks my way outside.
+\
+`“—”@ I understand why she wants to stop me.@ If I go out with a headache like this, I'm certain to collapse somewhere.@ That is why she is telling me to stay here and rest.
+\
+`But I can't listen.@ “…@Shut…@ up.”@ Why?@ For no reason at all, I think that if I don't go to her now, I will never again see Ciel while I am still in my right mind.
+\
+`“If you have an appointment, I'll go and cancel it on your behalf, so please return to your room—”@ “Shut up.@ I said get out of my way…!”@ “Ah—”@ I shove Kohaku roughly aside and run for the door.
+\
+bg "bg/bg_48a",lcartain,800
+`“You mustn't, Shiki…!”@ I outrun Kohaku's voice, fighting back nausea as I go.@
+br
+bg #000000,lcartain,800
+bg "bg/bg_22a",lcartain,800
+`I run.@ I run to keep the promise I made to Ciel, as though fleeing some nameless, incomprehensible thing, driving my body onward at the brink of collapse.
+\
+bg #000000,lcartain,1500
+bg "bg/bg_25a",lcartain,800
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_25a",notrans,0
+`—The city overflows with humans.@ Scorching sunlight.@ The suffocating bustle, full of mindless inertia, is hideous.@
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_25a",notrans,0
+`Why do beings with reason gather in purposeless swarms like idle insects?
+\
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_25a",notrans,0
+`“—”@ My thoughts are fogging.@ Is it the nausea and dizziness?@ Somehow, I feel as though I am no longer myself.@ “—Ci…@el.”@ I scan the crowd.@ Where…@ is she?@
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_25a",notrans,0
+`My clouded mind cannot find her.
+\
+`—Can't find her.@
+`With this many people.@
+`
+`                    Can't find her—
+`                         With all this clutter.@
+`Nothing.@
+`                              As if any of it had meaning
+!w1000
+`The dizziness—
+!w2000
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_25a",notrans,0
+\
+ld c,"tachi/cel_t01c",lshutter,800
+`“Oh, Tohno.@ I'm surprised—you actually made it on time?”@ “Ci…@el?”@
+br
+`—It’s the first time I’ve seen Ciel in ordinary clothes.@
+br
+`“…@Um, I was a little mean earlier.@ I'm sorry I made you run until you were this exhausted.”@
+br
+`—Ciel bows to me.
+\
+`“—!”@ Idiot.@ She doesn’t need to worry about anything like that.@
+br
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_25a",notrans,0
+wavestop
+`“Tohno—!?”@
+bg #ffffff,crossfade,800
+br
+`God, I feel sick.@ But I'm glad I came.@ I got to see Ciel in ordinary clothes, so I have to endure a little dizziness and spend today having fun with the three of us—
+\
+!w3000
+play "*1"
+bg "bg/bg_40c",crossfade,1500
+br
+`—When I come to, I find myself lying in bed.
+\
+`“What…?”@ I turn my head and look around.@ This is my room, and beyond the window it is night.@ Hisui is here; she has been keeping watch over me while I slept.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki, are you awake?”@ “…@Hisui.@ Why am I…?”@ My limbs are numb and useless, so I can only turn my head toward her.
+\
+`“You collapsed outside.@ Your school friends contacted the mansion, and you were brought home at once.”@ “—I see.@ So in the end…”@ I shoved Kohaku aside only to lose consciousness anyway.
+\
+`“…@I'm such an idiot.@ I don't know how I'll face Kohaku.”@
+wave se_01
+bg #9c0120,crossfade,400
+bg "bg/bg_40c",crossfade,400
+`Regret brings the headache surging back with it.@ My body seems to have recovered somewhat, but the pain in my head refuses to leave.
+\
+`“…@Hisui.@ What happened to my body?”@
+ld c,"tachi/his_t01",crossfade,400
+`“Please don't be alarmed.@ Nothing serious was found.@ Kohaku has also prescribed a painkiller, so take it if your headache persists.”@
+cl c,crossfade,800
+`Hisui brings a silver tray bearing water and the medicine Kohaku prepared.
+\
+cl c,crossfade,400
+`But I can't bring myself to take it now.@ “…@All right.@ Leave it there.@ I'll take it myself if the pain gets worse.”
+\

@@ -1,0 +1,579 @@
+play "*2"
+wavestop
+bg "bg/bg_34a",notrans,0
+ld c,"tachi/koha_t01a",lshutter,400
+`“Shiki, I’m sorry to interrupt while you’re enjoying yourself, but what would you like for breakfast?@ It’s nearly time, so I thought I should start preparing it.”@ “Oh, right.@ I forgot.@ …@I don’t have much of an appetite, though.@ I’m thirsty, but somehow I feel full.”@
+ld c,"tachi/koha_t04",crossfade,400
+`“Oh, that won’t do, Shiki.@ You collapsed yesterday, remember?@ If you skip breakfast, you’ll only make yourself ill again.@ Even if you don’t feel hungry, I’m going to see that you eat a proper meal.”
+\
+cl c,lshutter,400
+`“Ugh…”@ Kohaku was perfectly right, but that didn’t make eating any more possible.@ After a dream like that, there was no way I could stomach a normal meal.
+\
+ld l,"tachi/his_t01",lshutter,400
+`“…@Kohaku.@ Master Shiki has seemed unwell since this morning.@ I don’t think we should force him.”@
+ld r,"tachi/koha_t04",lshutter,400
+`“Honestly, Hisui, you’re far too soft on Shiki—wait, what?”@
+ld r,"tachi/koha_t09",crossfade,400
+`“Shiki, are you feeling ill again this morning?”@ Kohaku fixes me with an unwavering stare.@ As if drawn in by her, Hisui and Akiha begin studying me just as intently.@ …@Somehow, this doesn’t feel like an atmosphere where a flimsy excuse is going to survive.
+\
+`“—To tell you the truth, I do feel pretty bad.@ I’ll eat breakfast, but could you make it something I can drink?@ I haven’t been well lately, and I can barely taste anything.”@
+cl r,lshutter,400
+`When I confess the truth, Kohaku murmurs, “I see,”@ and lowers her eyes in disappointment.@ …@As the one who does the cooking, she must have feelings about that.
+\
+ld l,"tachi/his_t04",crossfade,400
+`“…@Master Shiki?@ I think your health may have suffered because your living situation changed so suddenly.@ If life at the mansion doesn’t agree with you, perhaps you should return to the Arima family for a while and recuperate…?”@ “…”@ Hisui’s suggestion comes from nothing but genuine concern for me.
+\
+cl l,lshutter,400
+`…@It’s true that Shiki Tohno’s ordinary life has begun to unravel ever since he returned to this mansion.@ And now the promise from eight years ago has vanished as well.@ Rather than force myself to stay, perhaps I should spend a few days with the Arimas and give my body a chance to recover.
+\
+`“…@Yes.@ That might be a good idea.@ It’s only been a week, but if I still can’t adjust, I’ll leave for a while and get my health back.”@ Though that wouldn’t be for some time yet, I add.@
+br
+`At that, Akiha abruptly rises from the sofa.
+\
+ld c,"tachi/aki_t09",lshutter,400
+`“Oh, no, Brother.@ You’ve only just come home.@ Please don’t ever leave this mansion again.@
+ld c,"tachi/aki_t08a",crossfade,400
+`If you try to leave us again, I’ll have to kill you.”@
+cl c,lshutter,400
+`With a bright smile at her little joke, Akiha walks out into the lobby.
+\
+ld c,"tachi/koha_t03",lshutter,400
+`“Hisui, it’s time for Miss Akiha to leave for school, so go with her.@ I’ll prepare Shiki’s breakfast.”@ Hisui answers, “Yes,”@ and hurries after Akiha.@ “I’ll make you something easy to eat, then.@ Please wait just a little longer.”@
+cl c,lshutter,400
+`Kohaku strides quickly toward the kitchen.
+\
+`“…”@ I remain on the sofa, too stunned to move.@
+br
+`—I’ll have to kill you, Brother.@
+br
+`…@Those words refuse to leave my mind.@ It was supposed to be a joke, yet somehow I couldn’t make myself hear it as one.
+\
+bg #000000,crossfade,800
+playstop
+!w2000
+bg "bg/bg_06a",lcartain,800
+wave se_03
+`—Lunch break arrives.@ As usual, Arihiko is absent from school.@
+br
+`“May as well go to the cafeteria.”@ Eating lunch alone is dull.@ At least in a crowded dining hall, there might be some flavor to the solitude.
+\
+bg #000000,lcartain,800
+bg "bg/bg_50",lcartain,800
+`As expected, the cafeteria is roaring with activity.@ I join a line dozens deep, buy the safe Set A, and find a table.@ I eat amid the chatter of the other students.@
+br
+`And then—
+br
+`For an instant, something horrible flashes before my eyes.
+\
+`“…@Was that the television?”@ I look toward the massive set enthroned at the back of the cafeteria.@ Our school provides the questionably thoughtful service of recording the morning news and replaying it here at lunchtime.@ Today, as ever, I stare blankly at news already several hours old.
+\
+play "*4"
+`“—No.”@ The broadcast leaves me frozen.@ The face on the screen belongs to the girl from last night’s dream.@ The newsreader is speaking, and a huge blood-red caption declares: VAMPIRE MURDER—ANOTHER VICTIM.
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_50",notrans,0
+`…@Apparently the girl survived, for now.@ The report says she is in the hospital after having the blood drained from her body.@ Whether she is conscious is unknown.@ Whether she will recover is unknown.@ …@Who attacked her and stole her blood is unknown as well.@ But the photograph on the screen is unmistakably the girl from last night.@
+br
+`—Then there is one thing that isn’t unknown.@ The person who attacked her was beyond any doubt—
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_50",notrans,0
+`“…”@ I feel consciousness slipping away.@ “Why…?”@ That was a dream.@ There can be no doubt that it was a dream.@ Yet the same person has suffered the same fate in reality, her blood taken exactly as I saw it.@ “But there aren’t any vampires left.”@ I killed Yumizuka with my own hands.@ Wasn’t that supposed to mean the vampire murders could never happen again?
+\
+`“I—killed her?”@ Yes.@ I killed her.@ Just as I stabbed Yumizuka with my own hand.@ Panting for breath that same way, last night I took that unknown girl and—
+\
+bg "bg/ima_13",crossfade,800
+br
+br
+br
+br
+br
+br
+`I told you, didn’t I, Shiki?@ Holding back was pointless.
+\
+br
+br
+br
+br
+br
+br
+`Who are you kidding?@ You’re an even worse killer than I am.
+\
+bg "bg/bg_50",crossfade,800
+`“Ugh—”@ I force down the nausea and rise from my seat.@
+bg #000000,lshutter,400
+br
+`I can’t go back to the classroom.@ Before I know it, I’m running out into the city.
+\
+!w2000
+bg "bg/bg_31a",lcartain,800
+`—I arrive at the place from my dream.@
+br
+`Several police officers are standing nearby, and tape seals off the alley.@ “—It’s the same.”@ I passed through this place in the dream.@ No—that wasn’t a dream.@ I can’t hide behind that excuse any longer.
+\
+`“…”@ Staying here will only draw suspicion from the police.@ …@It’s too late to return to school.@ I have no choice but to go back to the mansion.
+\
+bg #000000,crossfade,400
+playstop
+!w2000
+bg "bg/bg_33a",lcartain,800
+waveloop se_11
+`Perhaps because it is only just after two in the afternoon, no one is waiting in the lobby.@ “…”@ That suits me.@ I don’t want to see anyone.@ My eyes drift to the window.@ Reflected in the glass is Shiki Tohno, pale-faced and looking like a stranger.@
+br
+`A self like someone else.@ A dream belonging to someone else.@ A murder absent from consciousness, leaving its traces only in memory.
+\
+bg #000000,crossfade,400
+br
+br
+br
+br
+br
+br
+`The world sways.@ Darkness spreads across my sight.
+\
+bg "bg/bg_33a",notrans,0
+`“No—!@ I’m nothing like my father…!”@ I fight the vertigo and wrench my collapsing body upright.@ “—Father.”@ I can search his room and find out what illness he had.@ Then I’ll know whether I’m different from Makihisa Tohno—and if I’m not, perhaps he left behind some kind of cure.
+\
+bg #000000,lcartain,800
+`…@Makihisa Tohno’s room is in the west wing of the first floor, beside Kohaku’s.@ For once, cutting school has worked in my favor.@ At this hour, Kohaku, Hisui, and Akiha are all gone.@ I draw my knife and remove my glasses.@ I’m about to cut the lock on the door when I put the glasses back on.@
+br
+`The door isn’t locked.
+\
+bg "bg/bg_41",lshutter,800
+`My father’s room is exactly as it was.@ Most of the books lining the shelves are academic texts, nothing that interests me.@ What I need is a diary or personal journal.@ Knowing how meticulous he was, he must have left something of the kind—
+\
+`“…@Damn.@ Of course he wouldn’t leave it lying in plain sight.”@ If anything exists, it will be somewhere locked.@ I’ll start with the desk drawers.
+\
+bg #000000,lshutter,400
+bg "bg/bg_41",lshutter,400
+`This is no time for scruples.@ I remove my glasses and look for a line.@ With the knife, I cut the line on the drawer’s lock.@ Inside the desk are an old bundle of records tied with string and a book that looks like a journal.
+\
+`I examine the old records first.@ “…@Is this our family tree?”@ There is no mistake.@ After Makihisa Tohno come the names SHIKI Tohno and Akiha Tohno.@ Immediately behind them appears the word Nanaya.@
+br
+`“…@So Father adopted a child ten years ago.@ …@But the child died of illness soon afterward?”@ Ten years ago, I would have been in first grade.@ If it happened that long ago, no wonder I don’t remember.
+\
+`“…@The heads of this family really do die young.@ Father died of illness before he reached fifty, and the head before him died in an accident at thirty.@ …@The one before that committed suicide at eighteen—”@
+br
+`—No.@ Wait.@ This is too strange.
+\
+play "*6"
+wave se_01
+`When I study the family tree more closely, I find that every member of the Tohno family died abnormally.@ Death by madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@ …@Not one of them reached the end of a natural life and died in peace.@
+wave se_01
+bg #000000,crossfade,400
+bg "bg/bg_41",crossfade,400
+br
+`“What…”@ The record reads like the history of a cursed family.@ Madness accounts for most of the deaths.@ The greater part of the Tohno line ended by taking their own lives.
+\
+`“This is wrong—something is wrong here.”@ Yet I can’t say what.@ “…@That leaves…@ Father’s journal.”@ I pick up the comparatively new-looking volume.@
+br
+`—Thump.@
+br
+`My heartbeat reverberates through me.@ Somewhere inside, I know I must not read what is written here.@ But I’ve come too far to turn back.@ I swallow and open my father’s journal.
+\
+bg #000000,lshutter,400
+bg "bg/bg_41",lshutter,400
+br
+`—Something demonic dwells in the Tohno bloodline.@
+br
+`That is how it begins.
+\
+`It is no metaphor.@ The Tohno ancestors truly mingled their blood with things that were not human, and that inhuman blood still runs in us, their descendants.@
+br
+`That blood manifests in some more strongly than in others.@ Those in whom it runs thin can live without difficulty as ordinary humans.@ Those in whom it runs thick cannot live as human beings.
+\
+`Those born with a strong inheritance of Tohno blood bear special powers within their bodies: flesh that is difficult to kill, the ability to move objects without touching them, or fangs that drain bodily fluids from others.@
+br
+`That blood.@ When it begins to manifest strongly in a Tohno, reason slowly erodes.@ Most who lose it altogether become man-eating demons.@ The head of the Tohno family is therefore charged with punishing any member of the clan who falls that far.
+\
+`“…”@ …@This is insane.@ Why would Father record such fairy-tale nonsense with such deadly seriousness?@
+br
+`—Without my noticing, the journal has shifted into my father’s own voice.@
+br
+`The entry is dated roughly nine years ago.@ The handwriting that follows is erratic.
+\
+monocro #ffff00
+bg "bg/bg_41",crossfade,400
+`At last, the rising of my blood has grown impossible to contain.@ I acquired an orphan of an empath clan and used the child to reinforce my will, but in time even that will cease to suffice.@ Little time may remain in which I can still be myself.
+\
+`…@I am afraid.@ When awareness returns, I find half the day entirely missing from my memory.@ Without knowing it, I am forcing the impulses of my Inversion onto that child.@
+br
+`At this rate, I will eventually lose all reason and become a mere beast.@ How much longer can I remain myself?
+\
+`No.@ With that resonator child, I may endure for several years yet.@ But the child cannot withstand what I am doing.@ Once the child breaks, I will most likely have to end my life with my own hands.@
+br
+`…@How ironic.@ After removing so many obstacles to preserve myself, I am apparently destined to die by my own hand.@ Or is this the curse of Nanaya?@ I kept his son as a pet on a whim, but perhaps even that was not enough to sever the father’s hatred.
+\
+`But it is too late to atone for what I have done.@ If a shameful death awaits me, I will accept it without protest.@ Until then, however—I must protect the children.@ Akiha’s blood is thin.@ Unless she chooses otherwise, she will never become what I have.@
+br
+`The problem is SHIKI.@ That child is very like me.@ If nothing else, I would spare him the same suffering.@ …@If the Tohno blood itself is the source of this abnormality, I can only remove the child from the Tohno name and observe what follows—
+\
+monocro off
+bg "bg/bg_41",crossfade,400
+`“Haaah…”@ I look away from the unfinished journal and expel the foul air congealed in my lungs.@ …@I feel sick.@ What Father has written is so unreal that it turns my stomach.@
+br
+`Father hadn’t suffered violent swings between mania and depression.@ He had simply become violent without knowing it.@ Just like—Shiki Tohno now.
+\
+`“—Something’s wrong.”@ But that isn’t what troubles me.@ Father wrote the names SHIKI and Akiha phonetically, in an odd manner.@ I check the family tree again.@ Akiha’s name is written normally, but SHIKI’s is given with the characters for “four seasons.”@ “Four Seasons…@ Sure, that can be read Shiki, but…”@ Instinct warns me not to think any further, yet the torrent won’t stop.@ “…@And what is this ‘resonator’?@ The adopted child…@ perhaps?”@ No.@ Somehow that feels wrong too.
+\
+`In any case, half the journal remains.@ If I read to the end, these questions may be answered.@ But are they—truly questions I should answer?@
+wave se_01
+bg #9c0120,crossfade,400
+bg "bg/bg_41",crossfade,400
+`“…”@
+br
+`—I’m going to be sick.@
+br
+`I can barely stay on my feet.@ Quickly.@ If I don’t return to my room and sleep, I feel as though my mind will come apart.@
+br
+`Even so, I turn the page.
+\
+`—The remainder of the journal is some kind of record.@
+br
+`The entries begin on a summer day eight years ago, then advance little by little through the months and years.@ “…”@ Though I don’t understand what they mean, I begin to read.
+\
+monocro #ffff00
+bg "bg/bg_41",crossfade,400
+`Month ○, Day ○.@
+br
+`My son SHIKI succumbs to the Tohno blood.@ SHIKI kills the adopted child present at the scene.@ (The adoptee is the heir of Nanaya.@ It is a small mercy that he is not of a resonator clan such as Kohaku and Hisui’s.@) SHIKI’s Inversion is severe.@ I have therefore judged that he must be punished.@ Even as part of my duty as head of the Tohno family, it pains me to kill my own son.
+\
+`The Tohno blood is stronger in SHIKI than in Akiha.@ On the latent level, I sense an older Origin in Akiha, but SHIKI surpasses her in the density of his blood.@ That must be why he underwent Inversion before reaching adulthood.@ SHIKI’s abilities are Immortality and Coalescence.@ Unable to control the power that resurrected him, SHIKI killed the nearby Nanaya adoptee and stole his life.@ For a first use of his abilities, the result can only be called remarkable.
+\
+`Month ○, Day ×
+br
+`Both SHIKI and the adopted child survive.
+\
+`Month ○, Day ○
+br
+`The matter must still be settled in the eyes of society.@ SHIKI killed the Nanaya adoptee.@ I concealed the truth, but SHIKI is in no condition to appear in public.@ The wound I inflicted has yet to heal, and his very shape has transformed.@ He cannot be presented as SHIKI Tohno…@ nor can the life he has become be described as human.@
+br
+`The Nanaya adoptee is still alive.@ While it remains alive, I have decided to put it to further use.@ Any objections should be submitted in reply.
+\
+`Addendum.@ The Nanaya bloodline produces a particular breed of killer.@ Should the adoptee survive, he may exert a harmful influence on SHIKI, to whom he is joined through their shared life.@ We cannot dismiss the possibility that SHIKI, having finally regained his reason, will be dragged along by the Nanaya adoptee and become a “killer”@ himself.@
+br
+`To prevent such an outcome, the adoptee must be kept as a pet somewhere within our reach.@ He cannot, however, be allowed near the Tohno mansion.@ Select a branch family suited to managing him.
+\
+`Month ○, Day ×.@
+br
+`…@SHIKI has awakened to the Tohno blood.@ Perhaps because he passed so close to death, his former reason has returned for now.@ But there is no knowing what stimulus might send him into Inversion again.@ Much as I regret it, SHIKI cannot be allowed near the Tohno mansion either.@ His care will be entrusted entirely to a reliable servant.
+\
+`Month ○, Day ×.@
+br
+`The son of Nanaya is placed with a branch family.@ Akiha has come to hate me.@ From her perspective, she lost both her brothers at once.@ Perhaps her hatred is only natural.
+\
+`Month ○, Day ×.@
+br
+`Akiha’s education as the next head begins.@ In the abilities required to govern the clan, she possesses more talent than she could ever need.@ If SHIKI is “Immortality,”@ then Akiha is “Plunder.”@ (As brother and sister, both possess the ability of Coalescence.@) It is regrettable.@ Had Akiha been born ten years earlier, I could have disposed of Nanaya without borrowing Kishima’s hand.
+\
+`But caution is essential.@ Plunder is a double-edged gift.@ When she takes another’s heat, she may absorb their thoughts as well.@ She must be trained so that she does not, as I did, draw down the curse of one she has killed.
+\
+`Month ○, Day ×.@
+br
+`Akiha attempted to visit the Arima family.@ Akiha and the son of Nanaya cannot be allowed to meet.@ She will be transferred to a boarding school and her movements restricted.
+\
+`Month ○, Day ×.@
+br
+`My health has begun to fail of late.@ Has the resonator girl alone reached the limit of what she can do?
+\
+`Month ○, Day ×.@
+br
+`…@For the first time in many months, I have returned to myself.@ How long has it been since I last held a pen?@ There will probably be no next time.@ I will lay it down here.@ I have instructed the girl to give this to Akiha after my death.@ I do not know whether Akiha will read it.@ If she so much as looks through it once, however, she must destroy it.@ This is the sole testament I, Makihisa Tohno, leave to my daughter.
+\
+monocro off
+bg "bg/bg_41",crossfade,400
+`“—What is this?”@ An adopted child taken in ten years ago.@ I remember absolutely nothing from so long ago.@ …@I killed him?@ On that summer day eight years ago, when I received this wound.@
+br
+bg "bg/cmo_05",notrans,0
+wait 100
+bg "bg/bg_41",notrans,0
+`…@Or did he kill me?@ On that summer day eight years ago, when I received this wound.
+\
+`“…”@ I’m going to vomit.@ I feel sick.@ Memories forgotten until now are thrashing around inside my skull, mangled beyond recognition.
+\
+wave se_01
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_41",notrans,0
+br
+`“—Damn it.”@ …@I understand.@ When the truth is written this plainly, I have no choice but to accept it.@ Besides, it makes everything fit.@ Why I was sent to the Arima family.@ Why the eldest son and heir was disowned.@ It was nothing complicated.@ I was only a substitute—a boy named Shiki filling the place of someone named SHIKI.
+\
+`“Ha—how pathetic.”@ The contemptuous whisper is aimed at myself.@ I fling the journal away.@ …@There is nothing else here I need to know.@ Staying any longer would only waste time.
+\
+bg #000000,lcartain,800
+playstop
+!w2000
+bg "bg/bg_40b",crossfade,800
+`—The sun goes down.@
+br
+`Sprawled across the bed, I keep circling the same thought.@ …@Considered calmly, the journal told me only two things.@ I am not a member of the Tohno family.@ The Nanaya bloodline produces killers.
+\
+`I share no blood with Makihisa Tohno.@ If I dream of murder, the cause lies entirely within me.@ Which means what I have to do is finally clear.@
+br
+`—Voices come from the lobby.@
+br
+`“…@Akiha must be home.”@ I rise from the bed.@ There is one last thing I want—to hear the truth from Akiha herself.
+\
+bg #000000,lcartain,800
+bg "bg/bg_46b",lcartain,800
+`“…”@ I steel myself and knock.@ “Akiha, I need to talk to you.”@ “Oh, Brother?@ Please, come in.”@ Her voice is bright.@ It weakens my resolve, but I open the door in one motion.
+\
+bg #000000,lshutter,400
+bg "bg/bg_36c",lshutter,400
+ld c,"tachi/aki_t04b",lshutter,400
+`“How unusual.@ I’m surprised you came to visit me in my room, Brother.”@ Akiha is smiling, just as she was this morning.@ Seeing that smile makes me want to turn around and leave without a word.@ …@When it came down to it, perhaps both the self called Shiki Tohno and the sister called Akiha Tohno had become too precious for me to bear losing.@
+br
+`—Even so, there is something I have to ask.
+\
+`“Akiha—”@ “Yes, Brother?”@ She looks at me as though expecting some pleasant conversation.@
+cl c,lshutter,400
+`“—”@ I grind my teeth and force myself to meet Akiha’s eyes without flinching.
+\
+`“Tell me about the Nanaya family.@ I think I have a right to know.”@ “…”@ In that instant, every movement in Akiha stops, like a clockwork doll whose spring has snapped.
+\
+play "*8"
+ld c,"tachi/aki_t11b",lshutter,400
+`“…”@ Akiha stares at me in silence.@ “You won’t answer?@ Then I’ll ask something else.@ Father—Makihisa Tohno—had two personalities, didn’t he?@ And it wasn’t only him.@ A great many people in the Tohno family suffered from some kind of disorder.@ …@That was why I assumed my body was the same.@ But I was wrong.@ My anemia is only the result of the accident eight years ago.@ Because I—”@ “I know.@ Because you were adopted into the Tohno family, weren’t you?”@
+cl c,lshutter,400
+`Having said it, Akiha gives a quiet laugh for reasons I can’t begin to understand.
+\
+`“Akiha…?”@ With slow, theatrical grace, she crosses to the window.@ The curtains lift in the breeze.@ Resting one hand on the sill, she turns to face me.
+\
+bg "event/aki_e07a",lshutter,400
+`“You were adopted into the Tohno family, Brother.@ Your true name is Shiki Nanaya.@ And as you said, your health is unstable because of the accident eight years ago.@ …@I see.@ Judging by your expression, you’ve also learned that none of the Tohnos are entirely human.”@ Akiha states the hardest truth of all without the slightest hesitation.
+\
+`“…@Akiha, that means—”@ “It’s all right.@ You were bound to discover it one day, and I hate beating around the bush.@ Now that you know, I won’t try to hide it.@ …@No.@ I should have done this from the start.@ Then I wouldn’t have needed to hold back at all.”@
+br
+`“Isn’t that right, Brother?”@
+br
+`Akiha says it with perfect confidence.
+\
+`“Akiha.@ Then I really am—”@ “Yes.@ A child Father adopted ten years ago.@ But you don’t remember that.@ Brother, do you remember that we once had another playmate named SHIKI?”@ “—No.@ I can’t.”@ “Of course not.@ Father placed a suggestion in your mind.”
+\
+`“…@SHIKI was unable to endure the Tohno blood.@ You won’t remember, but on that day eight years ago, you protected me from him.@ You put your own body between me and SHIKI after he became a blood-starved murderer.@ He killed you, and Father disposed of him in turn.@ Punishing those members of the clan who stray beyond the bounds is the duty of the Tohno family head.”
+\
+`“…?@ You say he killed me, but I’m alive.”@ “—Yes.@ By some miracle, you survived.@ You remember what followed, don’t you?@ You were taken to the hospital, and on the very day you returned to the mansion, you were sent to the Arima family.@ Father must have placed the suggestion in you then.@ Your wounds had not yet healed, and both your body and mind were terribly unstable.@ That made it easy for his suggestion to take root in you—deeply, completely.”
+\
+`“…@I see.@ Then that’s enough.@ If you already know, there’s nothing more to discuss.@ I’m not one of the Tohnos, am I?@ So you don’t have to force yourself to call me your brother anymore.”@ I’ll leave this house at once.@ I’m nothing but a stranger here.
+\
+`“…@Don’t misunderstand me, Brother.@ I never called you that for appearances’ sake.@ Don’t you remember?@ I called you Brother even before SHIKI killed you.@ Whether you were adopted or anything else never mattered.@ I knew from the beginning that you weren’t my brother by blood, and you accepted that too.@ So no matter how fiercely you deny it, you are already Shiki Tohno.@ Please stay in this mansion with me forever.”
+\
+`Akiha’s words make me genuinely happy.@ But I don’t understand.@ Why is she so willing to accept someone who is, in truth, a stranger?
+\
+`“—Why?@ I’m not really your brother.”@ “…@Honestly.@ After everything I’ve said, you still don’t understand.@ You are the only person I could ever call my brother.@ Even if you can’t accept that, I still want you beside me.@ Because I love you, Brother.”
+\
+wave se_01
+`“Wha—”@ Akiha says something astonishing as casually as if it were nothing.@ I’m happy that she cares for me as her brother.@ Yet the more she does—the more impossible it becomes for me to remain in this mansion.
+\
+`“…@No.@ I’m not the person you think I am.@ You call SHIKI a murderer, but I might be one too—someone no different from him.”@ “A murderer?@ What do you mean?”@ “…”@
+br
+`After coming this far, I can’t keep hiding it.@ I tell her everything that has happened—the dream of murder last night, the bloodstains I couldn’t remember leaving, and the dream in which Akiha killed me.
+\
+`“…@I can’t trust myself.@ No matter what I tell myself, I can’t believe that was only a dream.@ Father wrote that the Nanaya family produced killers.@ So one day I’ll become like SHIKI and bring you nothing but misery.”@ I wrench the confession from the depths of my heart.@ Yet Akiha only widens her eyes, then struggles to suppress an amused laugh.
+\
+`“W-what’s so funny?@ This isn’t a joke.@ …@You may not believe me, but I really dreamed that I drank someone’s blood…!”@ Akiha is still laughing softly.@ …@Somehow, it makes all the hours I spent suffering alone feel ridiculous.
+\
+`“Oh, it is funny.@ Listen to me, Brother.@ You are not a vampire.@ The Nanaya blood is exceptional, but entirely human.@ And the Nanayas are not killers.@ …@Father might have seen them that way, certainly, but the Nanayas feel a murderous impulse only toward things that look human yet are not.@ So what you saw was nothing more than a dream.@ Even that dream was only a residue of thought that leaked into you from the killer called SHIKI.@ It reflects none of your own desires.”
+\
+`…@Thoughts leaking from SHIKI?@ Now that she mentions it, Father’s journal did say something like that.@ SHIKI stole my life and joined it to his through coalescence, so the two of us affect each other—or something along those lines.
+\
+`“…@I see.@ But then who is killing people in the city?@ Even if what I’m seeing is a dream, there are real victims out there—”@
+br
+`—The killer exists.@ I feel as though I have met him before.@ Did that happen in a dream too?@ No, whether it did or not, if a killer is loose in this city, then he must be—
+\
+`“…@SHIKI is still alive…?”@ “What?”@ Even Akiha, who had been hiding her laughter until now, turns grave.
+\
+`“Akiha, Father’s journal said SHIKI survived.@ That means—”@ “Father’s journal…?”@ Akiha tilts her head in genuine puzzlement.@ “Father wrote that SHIKI and I were connected.@ Then the dreams I’m seeing may be SHIKI’s.”@ …@No.@ More likely, they are the murders SHIKI himself is committing.
+\
+`“…@That is possible.@ Father’s death was suspicious in several respects, and there were signs that someone had been hidden in the cells beneath the mansion.”@ “…@Wait, Akiha.@ There are underground cells in this house?”@ “Why, of course.@ Many members of the Tohno family suffer mental disturbances.@ We need such facilities to prevent them from harming the outside world.@ Though that isn’t their only use.@ Father often locked me there when I disobeyed him as a child.”@ For some reason, Akiha gives me a sidelong look of delight.@ …@A chill runs down my back.
+\
+`“…@Fine.@ Forget the cells.@ We need to do something about SHIKI.@ If he really is murdering people in the city, we have to stop him.”@ “Do we?@ Whatever SHIKI has become, why should we involve ourselves?@ The police exist for precisely this reason.@ Wouldn’t it be better to leave murderers to them?”
+\
+`“What—Akiha, how can you say that?@ Murderer or not, SHIKI is still your brother.@ He has to answer for his crimes, but even so—”@ “…@Good grief.@ How can you possibly be this kindhearted, Brother?”@ With an exasperated sigh, Akiha sweeps back her hair.
+\
+`“You are my only family, Brother.@ SHIKI means nothing to me, and you have no reason to grieve over him.”@ “Idiot, we can’t just ignore this.@ He’s evaded the police until now—what makes you think they’ll suddenly catch him?@ What if he claims another victim in the meantime?”@ “Then he does.@ That would not be our responsibility.”@ Akiha says it while staring directly into my eyes.
+\
+`“Can’t we stop talking about this?@ Murder and killers make for such tedious conversation.”@ “Wha—”@ I try to say this concerns our own family, but the words won’t come.@ …@Akiha’s eyes are fathomless, as though they can see through to the center of my heart.@ Under that gaze, I feel inexplicably incapable of opposing her, and my resolve drains away.
+\
+`“I see you understand.@ Would you return to your room now?@ I’ve only just come home from school, and I have things to do.”@ “…”@ …@For the moment, Akiha is right: there is nothing more to say.@ Still unconvinced, I nod and turn my back on her.
+\
+bg "bg/bg_36c",lshutter,800
+`I start to leave Akiha’s room.@
+br
+`Then a voice calls after me.@ “…@What is it?@ I thought we had nothing left to talk about, Akiha.”@
+ld c,"tachi/aki_t01b",lshutter,400
+`“…”@ Akiha says nothing.@ She only holds my gaze.
+\
+`“—Brother.@ You are the most precious thing in the world to me.@ Without my memories of you to sustain me through these eight years, I would have ceased to be myself.@ …@Because you existed, Akiha was able to remain Akiha.@ You matter more to me than my own life.@ That was why I wanted you to go on loving me forever.”@ Her eyes are utterly sincere, fixed on me with a devotion so complete it is as though nothing else exists.
+\
+`“But that was only my own selfish wish, wasn’t it?@ To you, both the Tohno family and I must be burdens.@ I spent all those years afraid that you despised me.@
+ld c,"tachi/aki_t09b",crossfade,400
+`But there was never anything to fear, was there?@ You came back to the mansion.@ You returned for me—not for anyone else.”@
+br
+`Akiha smiles, radiant with happiness.@ …@The sight sends a pain through my chest.
+\
+`“…@Yes.@ I came back because I couldn’t leave you alone, and I still believe that was the right choice.”@ Akiha seems so precarious now that returning to watch over her could never have been a mistake.@ But that isn’t the whole truth.@ Her gaze is too earnest for me to lie.
+\
+`“But Akiha, that wasn’t my only reason for coming back.@ I—”@
+br
+`I came back to fulfill the promise I made to that girl eight years ago.@ That promise feels more precious than my affection for Akiha—something I cannot deny without betraying myself.
+\
+ld c,"tachi/aki_t06b",crossfade,400
+`“Stop.@ I don’t want to hear this.@ You came home, Brother.@ That is the only fact that matters, isn’t it?@ Everything else—your reasons, your circumstances—means nothing to me.”@
+cl c,lshutter,400
+`Akiha looks away.@ With her eyes averted, she seems somehow—dangerously, inexplicably fragile.
+\
+`“Go back to your room.@ Please don’t stand before me with that expression, Brother.”@ “…”@ Unable to find any answer, I leave Akiha’s room in silence.
+\
+bg #000000,lcartain,400
+playstop
+!w2000
+bg "bg/bg_40c",crossfade,400
+`The night deepens, and midnight draws near.@ My usual bedtime is long past.@ Lying on the bed, I stare at the moon through the window.@ “…”@ I spend the night unable to sleep.@ It isn’t that I’m afraid of another dream of murder.@ SHIKI, the killer wandering the city.@ Akiha, seeming always on the verge of coming apart.@ Those thoughts keep me awake, staring endlessly at the moon.
+\
+`“…@I’m thirsty.”@ Nearly four hours have passed since I last drank anything at dinner.@ There is no point enduring it, so I decide to go down to the kitchen for some water.
+\
+bg #000000,lcartain,800
+bg "bg/bg_35",lcartain,800
+`I fill a glass and drain it in one breath.@ For some reason, it tastes extraordinarily good.@ “…@That’s strange.@ I’m only thirsty.”@ As in last night’s dream, the sensation of liquid sliding down my throat is almost blissful.
+\
+`“Hm…?@ Someone’s coming.”@ Tap, tap.@ Footsteps approach.@ They are so faint that I could never have heard them outside the silence of midnight.@
+br
+ld c,"tachi/his_t01",lshutter,800
+`“…@Master Shiki?@ What are you doing at this hour?”@ “Oh, Hisui.@ I was thirsty, so I came down for some water.”@
+ld c,"tachi/his_t17",crossfade,400
+`“Master Shiki, if you require something, please call for me and I will bring it to you.@ At night, I ask that you remain in your room and rest.@ …@It is unwise to walk through this mansion after dark.”@ Hisui delivers the warning without inflection.
+\
+`“…?”@ There is something odd in her choice of words.@ Saying that it is unwise to walk the mansion at night amounts to telling me not to leave my room.@ …@No, more importantly, Hisui and Kohaku have worked here since childhood.@ It would hardly be strange if they knew I was adopted into the Tohno family.
+\
+play "*1"
+`“…@Hisui.@ There’s something I’d like to ask you.@ Is that all right?”@
+ld c,"tachi/his_t01",crossfade,400
+`“Certainly, Master Shiki.@ Let us return to your room first.@ This is not a suitable place for a conversation.”@ “No, here is fine.@ It’s only a small question.”@ “—?”@ Hisui tilts her head almost imperceptibly.
+\
+`“…”@ I draw a long breath.@ If Hisui doesn’t know, asking the question will reveal the secret myself.@ But at this point, I have no intention of hiding it.
+\
+`“I’ll be direct.@ Did you know I was adopted?”@ “…”@ Hisui’s shoulders jerk.@ …@That alone tells me she knew.
+\
+`“…@I see.@ If you knew, then Kohaku must have known too.@ So it was never much of a secret at all.”@ “Master Shiki, that is—”@
+ld c,"tachi/his_t17",crossfade,400
+`Hisui breaks off and lowers her eyes.
+\
+`“…@I am sorry.@ But you are unquestionably the eldest son of the Tohno family, Master Shiki, whether you were adopted or not.@ Just as Miss Akiha accepts you as her own family, both my sister and I recognize you as our master.”@ “…@Thank you.@ Hearing that makes me believe I’m allowed to remain in this mansion.”
+\
+ld c,"tachi/his_t13",crossfade,400
+`“Master Shiki…@ please do not speak that way.@ This mansion is your true home.”@ “I know.@ That’s how I feel too.@ I didn’t spend many years here as a child, but the time I did have is precious to me.@ I could never throw it away.”@
+ld c,"tachi/his_t04",crossfade,400
+`Hisui lets out a breath of relief.
+\
+`“…@But I still want to know.@ Before I came here—when I was, um…@ Nanaya, wasn’t it?@ I want to know what kind of child I was.@ If you know, please tell me.”@ “…@I am sorry, Master Shiki.@ I was told only that you were the eldest son of an ancient family called Nanaya.@ Your father destroyed everything else.”@ …@Of course.@ If he meant to pass me off as Shiki Tohno, he would have destroyed every record of Shiki Nanaya.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“However, Master Shiki, my sister may know something.”@ “What…?@ Hisui, why would Kohaku know?”@ “She attended to your father from childhood.@ When it comes to the circumstances of the Tohno family, she may in some respects have been taught more than Miss Akiha herself.”@ “…?”
+\
+`Come to think of it, Kohaku did mention that she had once been Makihisa’s personal attendant.@ I assumed that meant she occasionally looked after his health.@ …@I never knew she had been at his side since childhood.
+\
+`“…@Kohaku, of all people…@ She played with me every day, so I can’t picture her spending her time beside Father—”@ …@If anything, Hisui fits the image of Makihisa’s attendant.@ The child who was always inside the mansion, watching while Akiha, Kohaku, and I played together.
+\
+`“…@I see.@ But that’s strange, Hisui.@ Why would Father tell Kohaku things he never told Akiha?”@ “I do not believe he told her intentionally.@ From the day my sister was brought to this mansion, she was always at your father’s side.@ She must often have overheard him speaking to himself.”@ “—She was always beside Father?”@
+br
+playstop
+`But that was Hisui—the girl who had always remained inside the mansion—
+\
+`“Wait.@ Are you saying Kohaku was beside Father from the time she was a child?”@
+ld c,"tachi/his_t25",crossfade,400
+`“Ah—”@
+ld c,"tachi/his_t26",crossfade,400
+`Hisui looks away.@
+br
+`—Something just slipped out of alignment.@
+br
+`What had been no more than a vague dissonance shifts with an audible click and settles into a new configuration.
+\
+`Kohaku knew the promise only Hisui should have known.@ Hisui had forgotten the promise from eight years ago.@ But what if that simply meant their places had been reversed all along?@ If so—
+\
+`“…@Hisui.@ Let me ask again.@ Do you remember what happened eight years ago?”@
+ld c,"tachi/his_t17",crossfade,400
+`“—Yes.@ You mean the ribbon I gave you, Master Shiki.”@ “…@Right.@ After I left my room, you stopped me at the front entrance and gave me the ribbon as a farewell gift.@ Do you remember what color it was?”@ “It was white.@ Why do you ask?”@
+br
+`Hisui answers without the slightest hesitation.@ But she has already made a mistake.@ “…”@ My knees give way, and I collapse heavily into a chair.
+\
+play "*9"
+`“How could I—”@ How could I have been so terribly wrong all this time?@
+ld c,"tachi/his_t23",crossfade,400
+`“Master Shiki…?”@ “No, Hisui.@ That isn’t what happened.@ She gave me the ribbon beneath the tree in the garden, not at the front door.”@ Hisui catches her breath, then falls utterly silent.
+\
+cl c,lshutter,400
+`“Why—”@ I don’t understand.@ Why had Kohaku done so much to deceive me?@ Why hadn’t she simply told me that she was the girl I’d made that promise to?
+\
+ld c,"tachi/his_t26",lshutter,400
+`“Master Shiki, please don’t tell my sister what you’ve discovered.@ If she learns that you know, she’ll have nowhere left to turn.”@ The plea comes without warning.
+\
+`“You mean that you and Kohaku traded places?”@ Hisui nods without a word.@ “Then it’s true.@ You were the girl who used to play with us, and Kohaku was the one who stayed inside the mansion.@ Is that what you’re saying?”@ Again, Hisui nods in silence.
+\
+`“But why…?@ Why would the two of you switch places like that?@ What could it possibly accomplish?@ Don’t tell me this was all some kind of joke at my expense.”@
+ld c,"tachi/his_t21b",lshutter,400
+`“We never meant to deceive you, Master Shiki.@ The truth is, neither of us can clearly explain how it came to this.”
+\
+`“It began eight years ago, Master Shiki.@ After you went to live with the Arima family, I think I became much quieter than I had been.@ My sister began acting cheerful to lift my spirits, and before we knew it, our roles had completely reversed.”@ “That’s what I don’t understand.@ You were such a lively child, Hisui.”@ “No.@ I was never very energetic by nature.@ I only ran so hard because you were there, and I was doing everything I could to keep up with you.”@ I have no answer.
+\
+bg #000000,crossfade,800
+bg "event/his_e01b",crossfade,800
+`…@Yes, I remember her.@ The girl who was always full of life, always smiling.@ Freer and more reckless than any of us, yet somehow the most dependable of all—a child who looked exactly like the Kohaku I know now.
+\
+bg #000000,crossfade,800
+bg "bg/bg_35",crossfade,400
+`“…@I don’t know about that.@ I think you’d have been just as lively without me, Hisui.@ That was the real you.@ Believe me—I’m the one you dragged into every one of your adventures.”@
+ld c,"tachi/his_t04",crossfade,400
+`“…@Yes.@ I was very happy then, Master Shiki.@ I think the two years you spent here were the finest season of my life.”
+\
+ld c,"tachi/his_t21b",crossfade,400
+`“But after you left, Master Shiki, something in the household broke apart.@ Miss Akiha began to hate your father, and he began treating my sister cruelly.@ That was the end of our happy life here.@ I spoke less and less, until eventually I could no longer perform my duties at all.”
+\
+`“So my sister began working in my place.@ She smiled the way I used to smile and behaved the way I used to behave.@ In return, I took on the role that had once been hers.@ …@For me, that was the easier life.@ And it was the only thing my sister had ever wanted.”
+\
+`“…@What Kohaku wanted…?”@ I can’t understand what Hisui means.@ But she is truly afraid for her sister.@ Even someone as insensitive as me can see that much plainly.
+\
+`“Hisui, what do you mean when you say Kohaku wanted this?”@
+ld c,"tachi/his_t17",crossfade,400
+`“…@My sister always wanted to be Hisui.@ For my sake, she denied herself that wish for years.@ I think working in my place is only a performance to her.@ She has become the Hisui I used to be and smothered every desire of her own.@ She no longer lives by her own will.@ She passes each day as ‘the old Hisui’—nothing more than a doll.”
+\
+ld c,"tachi/his_t26",crossfade,400
+`“…@That frightened me.@ I realized there was no self left inside her—that she only lived by becoming someone else.@ …@I’m sure that if I returned to being the girl I once was, she would immediately return to being her old, true self.@ …@When we first exchanged places, she said this to me.”
+\
+bg #000000,crossfade,800
+bg "event/his_e02b",crossfade,800
+br
+br
+br
+br
+`“It’s all right, Hisui.@ I’ll take your place until you feel better.@ And whenever you’re ready—whenever you’re well again—I’ll give Hisui back to you.”
+\
+bg #000000,crossfade,800
+bg "bg/bg_35",crossfade,400
+ld c,"tachi/his_t17",crossfade,400
+`“Those words frightened me, and I kept telling myself I had to become my old self again as soon as possible.@ …@But then, quite by chance, I saw my sister walking happily through the garden.@
+ld c,"tachi/his_t21b",crossfade,400
+`She looked so happy.@ …@I had never known that the girl I used to be could walk through the garden with such a smile.@ My sister looked happier than I had ever seen her, though she was only walking there alone.”
+\
+`“I know that everything she does is only part of her performance as ‘Hisui.@’ But she looked so happy in that role.@ And then I understood: though my sister herself didn’t realize it, the Kohaku she is now was the dream she had longed for all her life.@ I could not bring myself to destroy it.”@
+cl c,crossfade,400
+`Hisui bites her lip and falls silent, struggling to hold back her tears.
+\
+ld c,"tachi/his_t17",lshutter,400
+`“Master Shiki, please let my sister remain as she is.@ …@Otherwise, she will lose the only place she has left.”@ I can only nod.@ Yet I know it can never be the right choice.@ Is Kohaku to spend the rest of her life playing the Hisui of long ago, while Hisui plays the old Kohaku simply to protect that illusion?
+\
+`And Hisui means to remain beside Kohaku all that time, watching a sister who knows nothing but falsehood.@ That has to be unbearably painful.
+\
+ld c,"tachi/his_t13",crossfade,400
+`“Master Shiki, please promise me you won’t tell her anything.”@ “…@All right.@ But Hisui—is this truly what you want?”@ She gives no answer.@ I swallow everything I have no way to express and rise from the chair.@ All I can do is leave the kitchen, abandoning Hisui there with her head bowed.
+\
+bg #000000,crossfade,800
+playstop
+bg "bg/bg_33d",lcartain,800
+`“Hm…?”@ On my way back to my room, I notice that the front door stands slightly ajar.@ “…@Did someone go outside?”@ Hisui should still be in the kitchen.@ That means either Kohaku or Akiha has left the house.
+\
+`I want nothing now but sleep.@ Body and mind alike are spent; if I don’t lie down at once, I feel I might collapse.@ Just for tonight, I have to sleep quietly through until morning—or Shiki Tohno will break.@ So I should—
+\

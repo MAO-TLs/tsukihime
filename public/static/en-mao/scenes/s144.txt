@@ -1,0 +1,142 @@
+phase "bg/bg_47",l,ark,07a,7
+bg "bg/cmo_05",crossfade,800
+`Back then, the estate was one enormous playground.@
+br
+`A garden as deep as a forest.@
+`A house as tall as a castle.@
+br
+`We ran wild through that little walled-off world, too vast to explore even if we spent days trying.
+\
+`Every day was fun.@
+`We didn’t even know we would grow up someday, and never doubted that morning and night would go on repeating themselves forever.@
+br
+`It was simply childhood—us running wild like puppies.@
+`We got along perfectly.@ We were the best playmates in the world.
+\
+`Whenever I looked back, Akiha was there.@ If I waved, she would get shy and hide.@
+`Yep.@ Same as always.
+\
+`Back then, the estate was one enormous playground.@
+`A garden as deep as a forest.@
+`A house as tall as a castle.@
+br
+`We ran wild through that little walled-off world, too vast to explore even if we spent days trying.
+\
+!w2000
+bg #ffffff,crossfade,800
+`Awareness slowly returns.@
+`Morning light enfolds my body, easing me little by little out of sleep.@
+br
+`Somewhere inside that light, I feel as though I was dreaming of something long ago.
+\
+bg "bg/bg_40e",crossfade,1500
+`“[line=2]”@
+`The instant I open my eyes, something hateful fills my sight.@ A headache like a bullet wound lances through my temple.@
+`“Ghh—”@
+`I snatch up the glasses beside my pillow and put them on.
+\
+bg "bg/bg_40a",crossfade,800
+play "*2"
+`“Haaaah…”@
+`I draw a long, deep breath and somehow steady myself.@
+`“Why—first thing in the morning…?”@
+`Why did I see the lines so clearly?@ Lines of death are hard to see on buildings.@ Even when they show, they are faint; almost never this stark.@
+`“…”@
+`And this time I could even see the points.@ The headache feels sharper too.
+\
+`My teacher once told me these eyes would draw dangerous things to me.@
+`Arcueid and vampires certainly qualify.@
+`Maybe some kind of vicious feedback is making the eyes themselves grow stronger.@
+`“No.@ That’s ridiculous.”@
+`I’m probably just tired.
+\
+wave se_04
+`“Excuse me.”@
+ld c,"tachi/his_t01",lshutter,800
+`　ふかぶかとおじぎをして翡翠が入ってくる。
+`“Oh, morning, Hisui.”@
+`“Good morning, Master Shiki.”@
+`…@Hisui prepares my clothes with her customary composure.@ Even so, there is no mistaking the edge in her manner.
+\
+`…@The reason is obvious.@ I stayed out until late last night, then somehow returned to my room and went to sleep without anyone noticing.@ She must be angry with me.
+\
+`“Hisui, about yesterday…@ I…”@
+ld c,"tachi/his_t08",crossfade,400
+`“You have no need to explain yourself to someone in my position, Master Shiki.”@
+`The answer comes down like a cleaver.@ Hisui walks to the door.@
+ld c,"tachi/his_t01",crossfade,400
+`“I shall leave you, then.@ I’ll ask Kohaku to prepare breakfast, so please come down to the sitting room promptly.”@
+`“Yeah, I was going to, but…”
+\
+ld c,"tachi/his_t09",crossfade,400
+`“One more thing, Master Shiki.@ Miss Akiha wishes to speak with you about not returning home last night.@ Please come down promptly.”@
+cl c,lshutter,800
+br
+`The door shuts with a heartless thud.@
+`“Ugh…”@
+`…@Well, this is the obvious outcome.
+\
+bg #000000,lcartain,800
+bg "bg/bg_34a",lcartain,800
+`Akiha is alone in the sitting room.@ From the kitchen comes Kohaku’s tuneless humming.@
+ld c,"tachi/aki_t11a",crossfade,400
+`“…”@
+`Akiha sees me, says nothing, and continues drinking her tea in silence.
+\
+`“Hey.@ Morning, Akiha.”@
+`I attempt the most natural greeting I can manage.@ One eyebrow twitches.@ Akiha sets her cup on the table and slowly turns her eyes upon me.
+\
+ld c,"tachi/aki_t18a",crossfade,400
+`“Good morning, Brother.@ You seem to have come home awfully late last night.”@
+`“…@It wasn’t that late, was it?@ Barely past one.@ Any healthy high-school boy could still be awake then.”@
+`“True.@ I rarely retire before midnight myself, so I’m awake at that hour too.@ I simply make a point of returning home much earlier.”
+\
+`“Urk…@ Look, something complicated came up yesterday, and I couldn’t make it back to the estate.@ But I did come home eventually, so…”@
+ld c,"tachi/aki_t11a",crossfade,400
+`“Yes.@ You came home in the middle of the night and slipped into your room without permission or so much as a footstep.@ Frankly, it is difficult to imagine such behavior unless you had something to hide.”@
+`“Ugh…”@
+`Akiha’s gaze is glacial.@
+`…@This is the second time she has had to lecture me.@ However calm she looks, she may truly be at the end of her patience.
+\
+`“Brother.@ I don’t know what rules the Arima family kept, but curfew here is eight o’clock.@ That rule is absolute.@ The gates are locked after eight, so do not climb over them and break in as you did last night.”@
+`“Urk—you knew?”@
+`“Of course I knew.@ The security cameras caught you perfectly.@ Fortunately, Kohaku recognized you and switched off the alarm in a panic.@ Otherwise, Shiki Tohno would be sitting in a police cell this very moment.”
+\
+`“…@I see.@ I owe Kohaku a lot, then.@ And I’m sorry, Akiha.@ I shouldn’t have left without telling you.”@
+`“…@As long as you understand.@ Let this be a lesson, and observe the curfew from now on.@ I’ll overlook everything that has happened so far.”@
+`“…@About that, Akiha.”@
+`“What is it?”@
+`“…@This is hard to say, but I have somewhere to be tonight too.@ I don’t know when I’ll be back.@ I swear I’m not doing anything wrong, but—”
+\
+`“[line=2]”@
+`Akiha’s stare turns colder still.@
+`“Kohaku!”@
+`She shoots to her feet.@
+cl c,lshutter,400
+`At the sound of her name, Kohaku emerges from the kitchen.@
+ld l,"tachi/koha_t02",lshutter,800
+`“Yes, Miss Akiha?”@
+ld r,"tachi/aki_t11a",crossfade,400
+`“We’re leaving for school.@ Get ready.”@
+`“Certainly, but I haven’t finished preparing Shiki’s breakfast.”@
+ld r,"tachi/aki_t06",crossfade,400
+`“Forget his breakfast!@ Apparently he can manage perfectly well on his own!”@
+cl r,lshutter,800
+`Akiha marches into the foyer.
+\
+ld l,"tachi/koha_t01a",crossfade,800
+`“Oh dear…@ You really mustn’t make Miss Akiha so angry, Shiki.@ You’re her brother; you ought to pay her a little more attention.”@
+`With that, Kohaku hurries after her.@
+cl l,lshutter,800
+br
+`One solitary cup remains in the sitting room, still giving off steam.
+\
+`“So, in summary…”@
+`Left alone, I assess the situation with perfect objectivity.@
+`“I’m not getting breakfast today.”@
+`Yep.@ No doubt about it.@
+`…@I’ll stop by a convenience store on the way and buy some bread.
+\
+bg #000000,lcartain,1500
+playstop
+!w2000

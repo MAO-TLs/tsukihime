@@ -1,0 +1,404 @@
+wavestop
+bg "bg/bg_06g",notrans,0
+play "*4"
+`It ends here.@ I will not follow the course of SHIKI’s dream.@ Here, I will dismantle Akiha Tohno completely.
+\
+`“…”@ I stare at the “lines”@ running through the wall.@ Beyond it comes the click of a footstep.@ Harder.@ Until my brain burns, I force my death-seeing gaze into the wall.@ The footsteps draw level with me.@ On the far side of this thin partition, Akiha walks on, defenseless.
+\
+`“…”@ If this works, I may not even need to touch her.@ Akiha Tohno will die beneath the collapsing wall.@ No—the wall by the windows is thin.@ That alone will not kill her.
+\
+`“…”@ Then it is my task after all: to sever that long hair and cut her body to pieces.
+\
+`Kill Akiha.@ Akiha is no longer human.@ That makes her fair game.@ …@No longer human.@ But even so, Akiha is Shiki Tohno’s little sister.@ And you would—merely because she stopped being human—
+\
+wave se_01
+`Throb.@
+br
+`“Ngh—ah!”@ The headache.@ It had stopped, so why?@
+br
+wave se_01
+!w750
+`Throb.@ Throb.@ Throb.@
+br
+!w500
+`A headache.@ Pain fierce enough to force my eyes from their sockets.@ I strained too hard to find the wall’s lines.@ My head hurts.@ Ah—when the pain is this intense, the thing I was until moments ago begins to subside.
+\
+wave se_01
+`Throb.@ Throb.@ Throb.@ Throb.@
+br
+`“Ah—aaaaah…”@ Do not think.@ Ignore the headache.@ If I think now, I will realize my mistake.@ Before that happens—before I become Shiki Tohno again—I must kill Akiha, or she will kill me.@
+wave se_01
+br
+`“—!”
+\
+bg "bg/ima_14",lshutter,400
+`I swing the knife with enough force to kill myself.@ A dry, ringing crack.@ The single broad stroke traces a circle and cuts cleanly through the wall as though it were butter.@
+br
+`Then I kick the severed section out into the corridor.
+\
+playstop
+bg #000000,lshutter,400
+`“What—?”@ I hear Akiha’s absurdly baffled voice.@ No wonder.@ The wall has suddenly been cut into a circle, and the entire slab is sliding straight toward her.
+\
+`And that decides it.@ I leap through the hole into the corridor.@ The severed wall stands between us, shielding me from Akiha’s sight.
+\
+`“…”@ The wall topples toward Akiha.@ Her red hair envelops it.@ Perhaps she can steal heat even from lifeless matter; the wall rapidly loses cohesion.@ But before Akiha can break it down, my knife dismantles it.
+\
+bg "bg/bg_10f",tshutter,400
+`With a clatter, fragments of every size rain down.@
+bg #000000,notrans,0
+wave se_01
+ld c,"tachi/aki_t23b",crossfade,400
+cl c,notrans,0
+play "*9"
+br
+`Throb.@
+br
+`It lasts only an instant—a single instant of vision.
+\
+bg "bg/bg_10f",notrans,0
+`Akiha’s hair rises and surges around my body.@ But she is too late.@ I severed the wall together with the heat around her.@ Fresh heat cannot be released in an instant—and even if it can…@
+br
+cl c,notrans,0
+`I knock Akiha down and straddle her.@ My knife is a fraction faster than her hair.
+\
+wave se_01
+`“Ah—”@ Akiha’s voice.@ My knife is raised.@ All that remains is to drive it along the “line”@ running from her left collarbone to her right lung.@ But her hair is already wound around my arm.@ It streams over my neck and body, and I know that one moment’s hesitation will see me vaporized.
+\
+wave se_01
+`Throb.@
+br
+`But my head hurts.@ It hurts, Akiha.@ Though KILL HER had repeated endlessly inside my skull, though I hated you so much—even so—
+\
+bg #000000,notrans,0
+bg "event/aki_e01",crossfade,400
+bg "bg/bg_10f",crossfade,400
+`Why?@ Why did I come to my senses?@ Why, even for an instant, did Akiha look like the Akiha she used to be?@ Without that single glimpse, I would already have brought the knife down.@
+br
+`Even so—
+\
+bg "event/koha_e02",crossfade,400
+bg "bg/bg_10f",crossfade,400
+`My skin is burning.@ The hair around me is draining away my heat.@ My sight fades.@ There is no strength left in the body pinning Akiha down.@ If she merely breathed on me, I would topple; my body has become that light.
+\
+`But my arm still lives.@ There is time.@ If I have not died instantly, then I have won.@ Once I finish Akiha, she can steal no more heat.@
+br
+`Even so—
+\
+bg "event/aki_e07a",crossfade,400
+bg "bg/bg_10f",crossfade,400
+`“—!”@ And yet I cannot bring the knife down.@ What weakness.@ Akiha will erase me without hesitation.@ I know that.@ Akiha is no longer the girl she was.
+\
+bg "event/aki_e01b",crossfade,800
+bg #000000,crossfade,400
+br
+br
+br
+br
+`Even so.@
+br
+`Even so…@ I could never do it.
+\
+playstop
+bg "bg/bg_10c",crossfade,800
+`Throb.@
+br
+`The headache.@ It has tormented me endlessly, but for this moment alone I must be grateful.
+\
+`I was wrong.@ To think I could kill Akiha merely because she was no longer human, because she was no longer the girl she had been—that was madness.@ However much she changes, Akiha is Akiha.@ My precious little sister, who saved me and waited for me all these years.@
+br
+`How could I ever hurt her?
+\
+`…………………………………………@Throb.@
+br
+`The headache vanishes, and the strength leaves my body.@ As my consciousness fades, I desperately tense my arm to keep the knife from falling onto Akiha.
+\
+play "*7"
+!w3000
+`“Why…@ won’t you kill me?”@ Akiha’s voice.@ “I’m a blood-drinking fiend, aren’t I?@ A monster who feeds on people at night.@ I’m killing you even now, and I killed Kohaku with these hands.@ Then why do you look so sad?”@
+br
+`My heat is stolen away.@ Unlike me, Akiha truly has no mercy.@ My body has grown so cold that it must have died some time ago.
+\
+`“Stop it.@ Dying with that expression is unfair.@ I’m the villain.@ You should hate me to the end and curse me for killing Kohaku.@ Kohaku must have hated me too.@ I am Makihisa Tohno’s daughter, and though I knew how she felt, I kept her bound to this mansion.”
+\
+`“…@That’s why I thought I could accept it, so long as it was for Kohaku.@ If she wanted revenge on the Tohno family, I would let her make a puppet of me.@ Even if drinking her blood meant losing my humanity…@ Kohaku hated me, so I told myself that could not be helped.”@
+br
+`I see.@ Akiha was the same as me.@ She knew.@ She knew Kohaku meant to destroy us, and even so—
+\
+`“What else could I do?@ That was the only way I could atone to Kohaku.@ If she wished it, then at least one person in the Tohno bloodline would take her side.”@
+br
+`“……………………@No.”@
+br
+`The word escapes me, and I am astonished.@ It seems I am still alive.
+\
+`“…@What?@ Brother, I can’t hear you.”@ “…@No, Akiha.@ Kohaku never hated anyone.@ None of this was something she truly wanted.”
+\
+`Yes.@ She found no other purpose, so she pursued this one with all her strength.@ It was the only thing she could do—the only way she could desperately deceive herself into believing she had a reason to live.
+\
+`“Akiha, compared with you and Kohaku, I think I was incredibly fortunate.@ So I’m sorry.@ I cannot understand the pain of being bound to the Tohno family, or Kohaku’s pain when, though she hated no one, this was the only thing she could make herself do.”
+\
+`How bitterly ironic.@
+br
+`“…@No one was at fault.@ Not me, not you, not SHIKI, not Kohaku.@ No one was at fault, and yet—”@
+br
+`Why did we choose an ending that could only wound one another?
+\
+!w3000
+`“…@Brother.@ Maybe it isn’t too late.”@ Pinned beneath me, Akiha gazes up in a daze.
+\
+`“…@You’ll die soon.@ But if you kill me, I think you can still survive.@ I can’t promise it without Kohaku here, though.”@
+br
+`Akiha looks up at me with grave, unwavering eyes.@
+br
+`“…@So hurry and bring that knife down.@ Then you’ll be saved.”@ Akiha says something monstrous with an irritated frown.
+\
+`“…”@ Honestly.@ If I could do that, I would have done it already.@ “Fine!@ If you refuse, then I’ll be the one who survives.@ Do you understand?@ Starting tomorrow, I’ll turn this city into a screaming vision of hell.@ Not just Hisui—I’ll do terrible things to all those precious friends of yours too.”@
+br
+`I can tell Akiha is at least fairly serious.
+\
+`“…@Idiot.@ If you did that, frightening people would come from elsewhere and make your life miserable.@ There must be professional vampire killers somewhere, and you’d end up fighting them night after night.”@
+br
+`So please, do not turn the city into hell.@ If at all possible, I want Akiha to resist drinking blood, however painful it may be, and go on living as she always has.
+\
+`“Why?@ Why do you look at me like that?@ …@I’m not the Akiha I was.@ Even now, all I can think about is sinking my teeth into your throat.@ I’m no different from SHIKI—just another monster possessed by madness.@ So go back to the way you were a moment ago and finish me off.@ One clean stroke.@ Wouldn’t that feel better?”@ Akiha sulks and berates me as if this were all my fault.
+\
+`…@She says I ought to finish her off.@ Those are the very words that ruled me only moments ago.@ But there is nothing good about them.@ Nothing at all.
+\
+`“I can’t.@ I can’t kill you, Akiha.”@ “The old Akiha, you mean.@ I’m different now.@ I’m not the Akiha Tohno you knew.”@ “No.@ That doesn’t matter.@ Even if something has possessed you, even if hurting you is the only way to destroy it—Shiki Tohno could never harm Akiha Tohno.”@
+br
+!w1000
+`…@I love the black-haired girl who has gone on forgiving me for these past eight years.@ Even if mine is only the love between a brother and sister, nothing like what she feels for me.
+\
+`“You’re precious to me, Akiha.@ I could never—hurt someone I care about that much.”@ “…”@ Her eyes widen.@ Then her shoulders sink, and she breathes a long sigh.
+\
+`“Honestly, what are you talking about?@ You’ve done nothing but hurt me.@ You never even noticed, did you?@ You really are hopelessly dense.”@ Akiha whispers in a tender voice.@ Then she gently lays both hands over my motionless palm.
+\
+`“Ah—”@ That alone tells me what Akiha means to do.@ I try to pull my arm away, but there is no strength left in it.@ …@Akiha is right.@ My body has long since ceased to obey me.
+\
+`“Stop—stop, Akiha…!”@ I force out the words with everything I have.@ Pretending not to hear, Akiha smiles.@ “Honestly.@ Even at a time like this, I have to do everything myself.”@ Her smile holds a trace of happiness and an unbearable sadness.@ Then Akiha tightens both hands.
+\
+playstop
+bg #000000,tshutter,800
+`—The knife falls.@
+br
+`No line runs there.@ Only her heart.@ Nothing supernatural—a thrust there would merely be agonizing, and fatal.@
+br
+`“A—Aki…@ha…!”@
+br
+`My arm will not stop.@ I cannot stop what Akiha is doing.@ How—how can this be happening?@ In the end, I tried to save the two people dearest to me, only to lose them both before my very eyes—
+\
+bg "bg/bg_10c",lshutter,400
+`“No—don’t!”@
+quakex 2,50
+br
+`—What?@ What…@ happened?@ My arm has stopped.@ Someone is bent over us, cradling Akiha’s hands where they lie over mine.
+\
+`Akiha stares at that figure as though confronted with the impossible.@ And I—I must look every bit as white as she does.
+\
+play "*8"
+`“Ko—haku?”@ “Yes…!@ It’s me, Miss Akiha…!@ It’s me, so please—let go…!”@ On the verge of tears, Kohaku pries the knife from Akiha’s grip.@ “…@Ko…@haku.”@ Akiha stares at her in a daze, as if the spirit possessing her has suddenly departed.
+\
+`“…@I see.@ You’re alive, Kohaku.”@ “Yes.@ You only knocked me unconscious, Miss Akiha.@ At the final moment, you hesitated to take a human life.”@ “…”@ Sorrow trembles in Akiha’s eyes.@ …@One last human feeling survives, buried beneath the violent obsession possessing her.@ And that feeling is what saves both Kohaku and Akiha.@
+br
+`Akiha lets out a long, deep breath and closes her eyes.
+\
+`“Well, this is awkward.@ It means you’ve won completely after all, doesn’t it?@ Kohaku is alive, and the last of the Tohno bloodline ends here.@ …@Still, perhaps that’s for the best.@ To be honest, I was beginning to want a rest.”@ With that, Akiha lets both hands fall limply.
+\
+`“Go ahead, Kohaku.@ …@My brother wouldn’t kill me, but you will, won’t you?@ I tried to kill you, and I’m the daughter of Makihisa Tohno, the man you hated.”@ “…”@ Still holding the knife, Kohaku gazes steadily at Akiha and shakes her head as though the answer were self-evident.
+\
+br
+br
+br
+br
+br
+br
+`—Utterly still.@ Time begins to flow again, slowly and gently, like ice melting after being drawn taut to the breaking point.
+\
+`“…@How strange.@ Why won’t you kill me either, Kohaku?”@ Akiha murmurs without opening her eyes, as though speaking in her sleep.@ “The answer is simple.@ I love you, Miss Akiha.”@ The knife falls from Kohaku’s hand with a bright clatter.
+\
+`“Even if you come to hate me, I still want to remain in your service forever.@ So please, Miss Akiha—if you feel any pity for me at all, don’t die.@ If you die now, I’ll become—the Kohaku I used to be again.”
+\
+`“…@Honestly.@ You ask the impossible.”@ Akiha sighs heavily, then turns her eyes away in a sulk.
+\
+`“But I suppose I have no choice.@ I owe Kohaku for what happened earlier, so I’ll behave myself for now.@ …@And as for you, I suppose I’ll be gracious enough to accept being loved as your sister.”@
+br
+`—Akiha’s hair streams away.@ Whatever has been coiled around my body vanishes, and I collapse backward.
+\
+bg "bg/ima_01",crossfade,400
+`At some point, the sky has become clear and boundlessly high.@ A silver moon.@ No trace of the crimson heat remains in the pallid corridor.@ Akiha’s hair is still red, but the wavering mirage that cloaked her is long gone.@ Now that Kohaku is beside her, Akiha will surely be all right.
+\
+`“…”@ Consciousness recedes.@ My body, cold to its core, is sinking toward sleep.@ Before it can take me, I gaze into the moonlight—peaceful now—and let myself dream.@
+br
+`A convenient dream in which, as the months and years pass and Shiki Tohno grows accustomed to life at the mansion, we will all go on living happily just as we are—
+\
+bg #000000,crossfade,800
+playstop
+!w3000
+phase "event/koha_f03",l,koha,12a,epi
+!w2000
+bg #ffffff,crossfade,800
+`“Master Shiki, please wake up.@ Master Shiki.”@
+br
+`…@A voice.@ Hisui’s voice, familiar now from hearing it morning after morning.@
+br
+`“The appointed hour has already passed.@ I really cannot recommend sleeping any longer.”@
+br
+`…@Hisui’s voice remained characteristically restrained.@ But no such gentle appeal could wake me after happiness had kept me from falling asleep until late last night.
+\
+`“Master Shiki.@ If you do not get up soon, I believe Miss Akiha will only torment you again.”@
+br
+`In that instant, those words snapped my drowsing mind awake.
+\
+bg "bg/bg_40a",tshutter,400
+play "*3"
+`“—!”@ I shot upright in bed.@
+ld c,"tachi/his_t01",crossfade,400
+`Hisui stood beside me, calmly observing my panic.@ Outside, cicadas whined in a ceaseless chorus.@ The morning sun was already fierce, and my pajamas were soaked with sweat.@ In short, it was the most perfectly ordinary summer morning imaginable.
+\
+`“Ah—good morning, Hisui.”@
+ld c,"tachi/his_t16",crossfade,400
+`“Good morning, Master Shiki.”@ Hisui bowed with perfect courtesy.@ …@Somehow, her composure only deepened my sense of impending disaster.@ “Hisui.@ Don’t tell me Akiha hasn’t left yet…?”@
+ld c,"tachi/his_t01",crossfade,400
+`“She has not.@ She said she would wait in the sitting room until she had seen you.@ …@I believe it has now been nearly an hour.”@ “—!”@ I looked at the clock.@ It was a little past ten in the morning.
+\
+`“Damn it—why did she have to stay this late today of all days…!”@
+ld c,"tachi/his_t18",crossfade,400
+`“Because this is the morning you leave on your trip.@ I think it only natural that Miss Akiha should wish to see you off.”@ “…@Urk.”@ Hisui’s gaze felt painful.@ …@That matter was supposed to be a secret, but had Hisui and Akiha seen through me after all?
+\
+`“…@All right.@ I’ll go to the sitting room at once.@ You go on ahead.”@
+ld c,"tachi/his_t16",crossfade,400
+`“Very well.@ Please excuse me.”@
+cl c,lshutter,800
+`…@Hisui withdrew with impeccable formality.@ I changed into the clothes I had laid out the night before, slung my shoulder bag over one arm, and left the room.
+\
+bg #000000,lcartain,800
+bg "bg/bg_34a",lcartain,800
+ld c,"tachi/aki_t03b",lshutter,400
+`—In the sitting room, Akiha’s temper had gone well past sour and was rapidly approaching perpendicular.
+\
+`“Hey.@ Morning, Akiha.”@
+ld c,"tachi/aki_t18b",crossfade,400
+`“Good morning.@ You certainly slept late for someone leaving on a trip today.”@ Akiha fixed me with a slow, clinging stare.@ “…@Sorry.@ I couldn’t sleep last night and stayed awake until dawn.@ Believe it or not, this counts as getting up early for me.”
+\
+`“How sweet.@ Too excited about your trip to sleep the night before.@ Are you truly that delighted to go gallivanting with Inui?”@ “What’s with that tone?@ Of course I’m excited.@ Trips are supposed to be fun.”@ “Naturally.@ You’ve been carrying on like a drunken squirrel.@ You’ve waited for this day ever since summer vacation began, haven’t you?@ I have no idea where you and Inui are going, but something very special must be waiting for you there.”
+\
+cl c,crossfade,400
+ld l,"tachi/his_t01",crossfade,400
+`“Miss Akiha, I believe that expression is incorrect.@ Good things are found somewhere; they do not wait there.”@
+ld r,"tachi/aki_t08b",crossfade,400
+`“Oh, of course.@ People wait; good things don’t.@ Being kept waiting for an hour must have scrambled my grammar.”@ “…”@ …@Those two had become alarmingly good at working together lately.
+\
+ld r,"tachi/aki_t04b",crossfade,400
+`“Now then, how long was this trip again?”@ “…@Seven days.@ Why?”@ “Oh, how short.@ Since you so rarely see her, I assumed you would spend the entire vacation there.@ Don’t you think Kohaku will be lonely?”@ “Wh-what the hell are you talking about!@ I’m going on an aimless journey with Inui.@ I am absolutely not going to visit Kohaku…!@ Besides, I can see her whenever I want.@ She already comes here on weekends, so there’s no reason I need to go all the way to see her…”
+\
+ld l,"tachi/his_t18",crossfade,400
+ld r,"tachi/aki_t18b",crossfade,400
+`“…”@ “…@No reason, exactly…@ but I suppose I do get lonely…”@
+cl a,crossfade,400
+`Unable to endure their stares any longer, I found myself studying the floor.
+\
+`—Damn it, what was wrong with it?@ It was summer vacation.@ They could at least pretend not to notice that I was going to stay with Kohaku.
+\
+ld c,"tachi/aki_t08b",crossfade,400
+`“Oh, look at the time.@ We mustn’t keep the other party waiting any longer, so I’ll show mercy for today.”@ Akiha rose from the sofa, plainly enjoying herself.
+\
+`“Hisui, I’ll leave the rest to you.@ I’ll be back this evening, and then the two of us can enjoy talking behind his back.”@ “Yes.@ I would be delighted.”@
+br
+`…@Honestly.@ Akiha was one thing, but when had Hisui’s personality begun changing too?
+\
+ld c,"tachi/aki_t04b",crossfade,400
+`“I’m off.@ Have a pleasant trip yourself.@ I’m not expecting a souvenir, so please, take all the time you like.”@
+cl c,lshutter,800
+`Akiha departed for the foyer.@ Then—
+br
+`“Oh, I wish I could find myself a good man soon, too.”@
+br
+`She left that final barb behind in a voice loud enough to fill the mansion.
+\
+`“…@She gets more energetic by the day.”@ Honestly, I never imagined things would turn out like this.
+\
+`…@Nearly a year had passed since that incident.@ Many things had changed, but the most remarkable changes concerned Akiha and Kohaku.@
+br
+`To put it bluntly, Akiha remained much as she had been.@ Her hair was still red, though she usually made it black.@ …@Not with dye, apparently; she could change it by force of will.@ Perhaps it was some form of camouflage.@ Her vampiric impulse seemed to remain as well, and every so often she could be found slurping from a transfusion pack.@ Perhaps that was camouflage too.
+\
+`Akiha had inherited something from SHIKI that resembled an evil spirit.@ It had driven her berserk, but after the incident she apparently managed to seize its reins.@ Put simply, the Thing had become greatly diluted when it passed into her.@ Its influence amounted to little more than making her personality slightly more assertive.@ …@I would have said it made her meaner, but she gets angry whenever I mention that, so I keep the thought to myself.
+\
+`The Thing did more than make Akiha a little more forthright.@ It also seems to have increased her power.@ The Tohno “blood”@ she had once been unable to contain alone was now completely under her control, thanks to it.@ That must also be what allowed her to conceal the color of her hair.@ …@In short, she had become unbeatable, and as her brother I had no idea how I was supposed to handle her.
+\
+`—Kohaku, meanwhile, struck out on her own around New Year’s.@ Perhaps because Akiha could now manage by herself, perhaps for reasons of her own, Kohaku took a position at the mansion of a Tohno branch family deep in the mountains of Nagano.
+\
+`…@Even so, she returned here at the end of every week, and the four of us spent our time together just as before.@ When I once pressed her to explain why she had left, she said there was something she wanted to investigate there and asked me to indulge her until she had finished.@ I was the one in love, so all I could do was wait.@ Since then, Kohaku and I had reunited every weekend, but with Akiha and Hisui always at the mansion, finding time alone together was difficult.
+\
+`For the record, Kohaku and Akiha got along extremely well.@ Kohaku loved Akiha, and Akiha was very fond of Kohaku.@ …@Akiha had publicly declared that she accepted Kohaku and me as a couple.@ She had declared it, certainly, but—
+br
+`“I don’t mind.@ You do as you please, so I’ll simply do as I please.”@
+br
+`—she had added, leaving me with no idea how to interpret it.
+\
+`“…@Sigh.”@ In the midst of this complicated state of affairs, a letter arrived from Kohaku.@ It said she had something to show me and wanted me to come to Nagano during summer vacation.@ The moment I read it, I began planning this trip as a cover.@
+br
+`Officially, Arihiko and I were about to leave on a week-long trip.@ Yet Akiha and Hisui persisted in entertaining all sorts of improper suspicions.@ …@Honestly.@ What kind of person did those two imagine I was?
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki.”@ “Wah!”@
+quakey 1,50
+br
+`…@Bad for the heart.@ I wished Hisui would stop erasing her presence before speaking to me from behind.
+\
+`“Master Shiki, will you not miss your train unless you hurry?”@ “Ah—damn, that’s right.@ This isn’t the time to dawdle.”@ Ever-thorough Kohaku had arranged my transportation to Nagano down to the last detail.@ The train ticket was for a reserved seat; if I missed it, I would have to buy another ticket myself.@ …@To a penniless student who was not even permitted a part-time job, that amounted to ritual suicide.
+\
+`“Sorry, I’d better get going.@ I didn’t mean to make the whole morning so hectic…!”@ I grabbed my bag and left the sitting room.@ Behind me—
+br
+ld c,"tachi/his_t19",crossfade,400
+`“Yes.@ Please give my sister my regards.”@
+br
+`Hisui’s gentle voice followed me out.
+\
+bg #000000,lcartain,1500
+playstop
+!w4000
+bg "event/koha_f02",crossfade,400
+play "*2"
+br
+`—The train runs on.@
+br
+`Through mountain farmland it races beneath sunlight so white the world seems ready to vanish.
+\
+`Perhaps the countryside was simply that remote, but I had the entire carriage to myself.@ I sat beside the window and watched the scenery flow past.@ The blazing sun dazzled my eyes; only the pleasant wind touched my cheek.
+\
+`“…”@ I lowered my eyes to the letter.@ A photograph had been enclosed, along with nothing but the “address”@ where we were to meet.@ …@Address was hardly the word.@ It was a set of directions—follow this road from this town, then turn here—leading to a place that had no address at all.@ The photograph must have shown that place.
+\
+`“—The place I’m meant to return to.”@ No one had needed to tell me where it was.@ I had already guessed.@ …@Kohaku must have remembered.@ Perhaps she had followed some trivial remark once made by Makihisa Tohno and used it to find that forest.@ The black forest.@ The old mansion hidden deep in the mountains, unseen by anyone.@
+br
+`The place where, long ago, a child named Shiki Nanaya had lived.
+\
+`“…”@ My destination was still some distance away.@ Perhaps the sunlight was simply too fierce.@ I closed my eyes, leaned back in my seat, and—
+br
+br
+br
+bg #ffffff,crossfade,800
+bg "event/koha_f03",crossfade,400
+`—fell into a dream.
+\
+`A sun blurred white with haze.@ The scent of air unstained by human hands.@ The sky clear to its furthest reach, the trembling heat turning back the wind.@
+br
+`A homeland of wild grasses in spring, stars in autumn, and nothing but cold earth in winter.@ And in summer, if memory serves—brilliant flowers bright enough to steal the eye.@
+br
+`—There, she waits for me.
+\
+bg #ffffff,crossfade,800
+bg "event/koha_f01",crossfade,800
+`A field of flowers stretching in every direction.@ The heady scent of summer.@ A radiant smile bright enough to rival the sunflowers.@ Amid heat fierce enough to scorch, she welcomes me.
+\
+br
+br
+br
+br
+br
+br
+`—And says, “Welcome home.”@ This time, truly—making good at last on the promise we made as children.
+\
+!w4000
+bg "event/koha_f01b",crossfade,800
+wait 3000
+gosub *ending

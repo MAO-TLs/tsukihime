@@ -1,0 +1,29 @@
+monocro off
+wave se_03
+bg "bg/bg_06a",notrans,0
+play "*3"
+ld c,"tachi/osiete",lcartain,800
+!w1000
+cl c,lcartain,800
+ld c,"tachi/his_t16",tshutter,800
+`“My apologies.@ The Teach Me, Ciel!@ instructor is away at lunch.@ Please wait until she returns.”@
+ld l,"tachi/ark_t31a",lshutter,400
+br
+`“It’s only going to be curry bread!@ Dereliction of duty!”@
+br
+ld r,"tachi/ark_t31b",lshutter,400
+`“Come out here, stupid Ciel!”@
+br
+ld c,"tachi/his_t01",crossfade,400
+`“I share your opinion, but nothing can be done when she is absent.@ One cannot give what one does not have, and lamenting my sister’s inability to keep anything in order is equally futile.@ Now, for our customary salvation segment…”
+\
+ld c,"tachi/his_t17",crossfade,400
+`“A word, Master Shiki.@ Secrets seldom lead to desirable outcomes.@ Once you have learned your lesson, please place your trust in Hisui next time.@
+ld c,"tachi/his_t01b",crossfade,400
+`That is all.@ I shall return to the mansion now.@ Please continue to enjoy the main game.”
+\
+bg #000000,crossfade,800
+ld c,"tachi/ark_t30",lscroll,800
+`“Nya…@ that woman smelled like she had the same cat streak as me…”@
+cl c,lscroll,800
+playstop

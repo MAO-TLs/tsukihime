@@ -1,0 +1,685 @@
+{
+  "scripts-dir": "./scenes",
+  "choices": {
+    "f20": [
+      "1. Homeroom starts in a few minutes. I should go straight to class.",
+      "2. …I can’t let it go. I’ll see what’s happening."
+    ],
+    "f21": [
+      "1. Step into the hall and decide there.",
+      "2. Eat in the cafeteria.",
+      "3. Stay in the classroom for lunch."
+    ],
+    "f22": [
+      "1. Stay in the classroom for lunch.",
+      "2. Eat in the cafeteria.",
+      "3. Step into the hall and decide there."
+    ],
+    "f31": [
+      "1. It’s time I steeled myself and went home to the mansion.",
+      "2. Stay at school a little longer."
+    ],
+    "f201": [
+      "1. My little sister, Akiha.",
+      "2. The lively girl.",
+      "3. The girl at the window."
+    ],
+    "f42": [
+      "1. Go to the sitting room and talk to Akiha.",
+      "2. Stay quietly in my room.",
+      "3. Go to Kohaku’s room to watch television."
+    ],
+    "f46": [
+      "1. Go see what’s happening.",
+      "2. Stay in bed and sleep."
+    ],
+    "f183": [
+      "1. …Go back to the mansion.",
+      "2. …Wait a little longer."
+    ],
+    "f184": [
+      "1. …Wait a little longer.",
+      "2. …Go back to the mansion."
+    ],
+    "f185": [
+      "1. …Wait a little longer.",
+      "2. …Go back to the mansion."
+    ],
+    "f189": [
+      "1. Hurry to the alley from last night.",
+      "2. …Stay here in the park.",
+      "3. Go to Arcueid’s room."
+    ],
+    "f284": [
+      "1. Kohaku is in the way.",
+      "2. Kohaku is right."
+    ],
+    "f365": [
+      "1. First floor, east wing.",
+      "2. First floor, west wing.",
+      "3. Second floor, east wing.",
+      "4. Second floor, west wing."
+    ],
+    "f370": [
+      "1. took off my glasses and resolved to kill him.",
+      "2. tried to draw him away from Akiha’s room first."
+    ],
+    "f194": [
+      "1. Search for Arcueid, even if it’s hopeless.",
+      "2. Go quietly back to the mansion.",
+      "3. At this point, find Roa on my own."
+    ],
+    "f292": [
+      "1. No—I have to send Kohaku away.",
+      "2. …I’ll ask her to leave the food."
+    ],
+    "f295": [
+      "1. …I can’t let her see me like this.",
+      "2. …Even so, I want to hear her voice."
+    ],
+    "f297": [
+      "Run forward.",
+      "Run backward."
+    ],
+    "f299": [
+      "1. …Take off my glasses.",
+      "2. …Keep my glasses on."
+    ],
+    "f302": [
+      "1. I like her just the way she is.",
+      "2. Without her glasses, she just isn’t herself!"
+    ],
+    "f375": [
+      "1. Chase him now.",
+      "2. Catch my breath, calm down, then follow."
+    ],
+    "f378": [
+      "1. …Stop.",
+      "2. …I won’t let him deceive me again."
+    ],
+    "f380": [
+      "1. …Go after Akiha.",
+      "2. …I can’t do it."
+    ],
+    "f381": [
+      "1. …Keep my promise.",
+      "2. …That is the one thing I cannot do."
+    ],
+    "f383": [
+      "1. …Give this life back to Akiha.",
+      "2. …I can’t do that."
+    ],
+    "f52": [
+      "1. Keep the promise.",
+      "2. Never forget Arcueid."
+    ],
+    "f307": [
+      "1. Obey Arcueid.",
+      "2. Refuse Arcueid."
+    ],
+    "f405": [
+      "1. Unlock the door.",
+      "2. …Why did I lock it again?"
+    ],
+    "f409": [
+      "1. Shout Akiha’s name.",
+      "2. Shout Kohaku’s name."
+    ],
+    "f416": [
+      "1. Go and see Kohaku.",
+      "2. Search Makihisa’s room."
+    ],
+    "f419": [
+      "1. …Go outside and take a look.",
+      "2. Be sensible and return to my room."
+    ],
+    "f425": [
+      "1. Finish her here.",
+      "2. Retreat for now."
+    ],
+    "f427": [
+      "1. Finish her before she notices.",
+      "2. Strike her from behind after she passes."
+    ],
+    "f51": [
+      "1. Say good morning to Akiha.",
+      "2. Say good morning to Kohaku.",
+      "3. Say good morning to both of them."
+    ],
+    "f57": [
+      "1. Eat in the classroom.",
+      "2. Go to the cafeteria.",
+      "3. Stop by the tea-ceremony room."
+    ],
+    "f65": [
+      "1. This is some kind of nightmare.",
+      "2. There’s no mistake. This is something I really did."
+    ],
+    "f204": [
+      "1. Say good morning to Akiha.",
+      "2. Say good morning to Kohaku.",
+      "3. Say good morning to both of them."
+    ],
+    "f205": [
+      "1. Say good morning to Akiha.",
+      "2. Say good morning to Kohaku.",
+      "3. Say good morning to both of them."
+    ],
+    "f206": [
+      "1. Ask about Satsuki Yumizuka.",
+      "2. …Keep quiet and wait."
+    ],
+    "f210": [
+      "1. Ciel has a point.",
+      "2. …No. I still feel sick."
+    ],
+    "f212": [
+      "1. Go find Hisui.",
+      "2. Go help Kohaku.",
+      "3. Stay in my room."
+    ],
+    "f211": [
+      "1. Go and look.",
+      "2. Don’t go and look."
+    ],
+    "f69": [
+      "1. Ask about Akiha.",
+      "2. Ask about Kohaku.",
+      "3. Ask about the mansion."
+    ],
+    "f75": [
+      "1. …Help her.",
+      "2. No. Absolutely refuse to help.",
+      "3. Find a way to escape."
+    ],
+    "f80": [
+      "1. I should get out of here after all.",
+      "2. …Even so, I can’t abandon her."
+    ],
+    "f81": [
+      "1. …Fine. Just for a second.",
+      "2. …No. I’ve got a bad feeling about this."
+    ],
+    "f84": [
+      "1. I think I’ll return to the mansion.",
+      "2. I think I’ll return to the hotel."
+    ],
+    "f88": [
+      "1. —I should go see what’s happening outside.",
+      "2. Stay here for now and keep watch from the room."
+    ],
+    "f235": [
+      "1. Go look for Yumizuka.",
+      "2. Search the school.",
+      "3. Search the city."
+    ],
+    "f240": [
+      "1. Go look for Yumizuka.",
+      "2. I can’t do anything that dangerous."
+    ],
+    "f242half": [
+      "1. I like her.",
+      "2. I don’t like her.",
+      "3. I can’t answer."
+    ],
+    "f94": [
+      "1. If I could, I’d like to… refuse, but—",
+      "2. No. I can’t fight a monster like that."
+    ],
+    "f97": [
+      "1. Run at Nrvnqsr.",
+      "2. …No. It’s too soon."
+    ],
+    "f98": [
+      "1. If I could, I’d like to… refuse, but—",
+      "2. No. I can’t fight a monster like that."
+    ],
+    "f99": [
+      "1. Charge Nrvnqsr.",
+      "2. …It’s still too soon."
+    ],
+    "f101": [
+      "1. Endure for now and wait for an opening.",
+      "2. Then I have no choice but to destroy the source."
+    ],
+    "f305": [
+      "1. …No. I’m not in the mood.",
+      "2. Of course I’m in favor."
+    ],
+    "f306": [
+      "1. …No. I’m not in the mood.",
+      "2. Of course I’m in favor."
+    ],
+    "f303": [
+      "1. Demand to know why she transferred.",
+      "2. Introduce Arihiko to her.",
+      "3. Ask whether her helpless act was a performance."
+    ],
+    "f317": [
+      "1. Help Kohaku.",
+      "2. Help Hisui."
+    ],
+    "f108": [
+      "1. I can’t explain, so at least apologize honestly.",
+      "2. I can’t explain, so find some way to bluff through it.",
+      "3. No—tell her the whole truth."
+    ],
+    "f112": [
+      "1. …Go into town and see if I can find her.",
+      "2. Stay in the classroom and let my mind drift.",
+      "3. Head straight back to the mansion and rest."
+    ],
+    "f116a": [
+      "1. It might be Arcueid.",
+      "2. It might be Ciel.",
+      "3. It might be Akiha.",
+      "4. It might be Hisui.",
+      "5. It might be Kohaku."
+    ],
+    "f200": [
+      "1. Apologize honestly.",
+      "2. Find some way to bluff through it.",
+      "3. Tell her the truth."
+    ],
+    "f222": [
+      "1. …No. It had to be someone else.",
+      "2. Ask her about last night."
+    ],
+    "f225": [
+      "1. All right, eat.",
+      "2. All right, don’t eat."
+    ],
+    "f230": [
+      "1. No. That would be too embarrassing. Refuse.",
+      "2. No, I don’t mind. Accept."
+    ],
+    "f325": [
+      "1. Demand to know why she transferred.",
+      "2. …Introduce Arihiko to her.",
+      "3. Ask if that helpless act was all a pretense."
+    ],
+    "f329": [
+      "1. Go home alone.",
+      "2. Stop by Akiha’s classroom."
+    ],
+    "f334": [
+      "1. Go to the sitting room.",
+      "2. Visit the detached house.",
+      "3. Stay put until dinner."
+    ],
+    "f338": [
+      "1. Go to the annex.",
+      "2. Go to sleep."
+    ],
+    "f386": [
+      "1. Go and see Hisui.",
+      "2. Go help Kohaku.",
+      "3. Go to Akiha’s room."
+    ],
+    "f129": [
+      "1. Go out into the hall and talk to her.",
+      "2. Maybe she isn’t here for me. Stay in the classroom and watch.",
+      "3. She’s wide open. Sneak up behind her and scare her!"
+    ],
+    "f135": [
+      "1. Keep searching aimlessly for Arcueid.",
+      "2. Return to the mansion for now."
+    ],
+    "f244": [
+      "1. Fine. Go quietly to the cafeteria with Arihiko.",
+      "2. No. Even if she hates me, go see Ciel."
+    ],
+    "f249": [
+      "1. Head straight home.",
+      "2. Stop by the tea ceremony room.",
+      "3. Wander into town, just because."
+    ],
+    "f256": [
+      "1. I can’t just leave Arcueid alone.",
+      "2. Ciel is someone I care deeply about."
+    ],
+    "f343": [
+      "1. Calm down before going to the sitting room.",
+      "2. I’m fine. Go to the sitting room.",
+      "3. Rest a little longer."
+    ],
+    "f347": [
+      "1. The uniform Akiha wears now suits her.",
+      "2. Our school’s uniform would suit Akiha better."
+    ],
+    "f350": [
+      "1. Help Hisui.",
+      "2. Help Kohaku."
+    ],
+    "f391": [
+      "1. Ask her advice.",
+      "2. Keep it to myself."
+    ],
+    "f394": [
+      "1. Go to Father’s room.",
+      "2. Stay in my room."
+    ],
+    "f395": [
+      "1. Go out into the city tonight.",
+      "2. Stay awake until morning."
+    ],
+    "f143": [
+      "1. Greet her cheerfully and try to lighten the mood.",
+      "2. Don’t try anything clever. Offer a cautious greeting.",
+      "3. No—just apologize first."
+    ],
+    "f149": [
+      "1. Go to the courtyard now.",
+      "2. Pray she does nothing until class ends.",
+      "3. Not my problem. Ignore her."
+    ],
+    "f153": [
+      "1. Tell Hisui the truth anyway.",
+      "2. No. No one can be allowed to know."
+    ],
+    "f260": [
+      "1. No, go to the sitting room.",
+      "2. Forget that—go to school."
+    ],
+    "f267": [
+      "1. Tell her off.",
+      "2. Reason with her calmly."
+    ],
+    "f353": [
+      "1. Even so, I think I can at least say good morning to Akiha.",
+      "2. …No. I should go back to my room."
+    ],
+    "f354": [
+      "1. Go to Akiha’s classroom.",
+      "2. …No. Better not risk seeing her."
+    ],
+    "f355": [
+      "1. Go to Akiha’s classroom.",
+      "2. …No. Better not risk seeing her."
+    ],
+    "f358": [
+      "1. Tell Ciel what happened last night.",
+      "2. …No. That would be pointless."
+    ],
+    "f399": [
+      "1. Ask Kohaku to make something.",
+      "2. Try asking Hisui."
+    ],
+    "f402": [
+      "1. …That wasn’t nearly enough.",
+      "2. …Hisui brought me back from the brink. I should be grateful."
+    ],
+    "f159": [
+      "1. …Do as Akiha says.",
+      "2. No. Go meet Arcueid, even if I have to push myself."
+    ],
+    "f361": [
+      "1. Go settle things with myself.",
+      "2. No. Stay at the estate."
+    ],
+    "f162": [
+      "1. …Fine. I’ll spend the day with Arcueid.",
+      "2. …No. I should go to school."
+    ],
+    "f163": [
+      "1. Because you’re selfish, obviously.",
+      "2. Because you hate me, obviously.",
+      "3. Because you’re a vampire, obviously."
+    ],
+    "f168": [
+      "1. You can’t go wrong with a movie.",
+      "2. Maybe she’d prefer an alley after all?",
+      "3. I have no idea. Let’s settle for the park."
+    ],
+    "f172": [
+      "1. All right. Tell her about what happened last night.",
+      "2. Then ask Arcueid for the full story about her ‘enemy.’",
+      "3. Time to interrogate Arcueid about her hobbies, tastes, personal history, and measurements!"
+    ],
+    "f178": [
+      "1. Go to Arcueid's apartment.",
+      "2. Search the downtown district.",
+      "3. …Maybe the school?"
+    ],
+    "f180": [
+      "1. I can’t do something she hates.",
+      "2. I just want her."
+    ],
+    "f273": [
+      "1. Wait here.",
+      "2. Go to the classroom.",
+      "3. Check the rear courtyard."
+    ],
+    "f277": [
+      "1. Stay in the classroom.",
+      "2. Go get lunch."
+    ],
+    "f279": [
+      "1. Why not?",
+      "2. …No. It does matter."
+    ],
+    "f362": [
+      "1. …I have to survive.",
+      "2. …I can’t do it."
+    ]
+  },
+  "images": {
+    "words": {
+      "fin": "#ffffff$c`[center][noline][color=black][font=serif]Fin`",
+      "end": "#ffffff$b`[right][noline][color=black][font=serif]END`"
+    }
+  },
+  "scenario": {
+    "days": [
+      "[i]1[sup]st[/sup] day|October 21 (Thur.)",
+      "[i]2[sup]nd[/sup] day|October 22 (Fri.)",
+      "[i]3[sup]rd[/sup] day|October 23 (Sat.)",
+      "[i]4[sup]th[/sup] day|October 24 (Sun.)",
+      "[i]5[sup]th[/sup] day|October 25 (Mon.)",
+      "[i]6[sup]th[/sup] day|October 26 (Tue.)",
+      "[i]7[sup]th[/sup] day|October 27 (Wed.)",
+      "[i]8[sup]th[/sup] day|October 28 (Thur.)",
+      "[i]9[sup]th[/sup] day|October 29 (Fri.)",
+      "[i]10[sup]th[/sup] day|October 30 (Sat.)",
+      "[i]11[sup]th[/sup] day|October 31 (Sun.)",
+      "[i]12[sup]th[/sup] day|November 1 (Mon.)",
+      "[i]13[sup]th[/sup] day|November 2 (Tue.)"
+    ],
+    "routes": {
+      "aki": {
+        "03a": "[b]3 / Inversion Impulse III",
+        "03b": "[b]3 / Dark Lipprint",
+        "04a": "[b]4 / Dark Scars I",
+        "05a": "[b]5 / Quiet Dream",
+        "06a": "[b]6 / Sunken Dream",
+        "07a": "[b]7 / Dark Scars II",
+        "08a": "[b]8 / Dream of an Afternoon Nap",
+        "09a": "[b]9 / Blood-Drinking Demon",
+        "10a": "[b]10 / Tropical Night",
+        "11a": "[b]11 / Telescope",
+        "12a": "[b]12 / A Certain Ending",
+        "13a": "[b]A Warm Afternoon Nap",
+        "13b": "[b]The Distant Reed Warbler"
+      },
+      "ark": {
+        "01a": "[b]1 / Inversion Impulse I",
+        "02a": "[b]2 / Inversion Impulse II",
+        "03a": "[b]3 / Black Beast I",
+        "04a": "[b]4 / Black Beast II",
+        "05a": "[b]5 / Blue Mark of Sin",
+        "06a": "[b]6 / Mystic Eyes of Death Perception I",
+        "07a": "[b]7 / Mystic Eyes of Death Perception II",
+        "08a": "[b]8 / Death.",
+        "09a": "[b]9 / The Scarlet Crimson Moon I",
+        "10a": "[b]10 / The Scarlet Crimson Moon II",
+        "11a": "[b]11 / Accursed Night",
+        "11b": "[b]11 / Cream",
+        "12a": "[b]12 / Moonlit World",
+        "13a": "[b]TSUKIHIME",
+        "13b": "[b]Moon at Dawn"
+      },
+      "cel": {
+        "05a": "[b]5 / Red Remnants",
+        "06a": "[b]6 / Bow of the Sky I",
+        "07a": "[b]7 / Bow of the Sky II",
+        "08a": "[b]8 / (Death).",
+        "09a": "[b]9 / Cicada Shell",
+        "09b": "[b]9 / Blackout Moon",
+        "10a": "[b]10 / Red Remnants II",
+        "11a": "[b]11 / Mirage",
+        "11b": "[b]11 / Insomnia",
+        "12a": "[b]12 / Endless Stone",
+        "13a": "[b]Azure in Broad Daylight",
+        "13b": "[b]The Sun."
+      },
+      "his": {
+        "04a": "[b]4 / Cradle Garden",
+        "05a": "[b]5 / Murderer I",
+        "06a": "[b]6 / Murderer II",
+        "07a": "[b]7 / Lucent Claw Marks",
+        "07b": "[b][i]7 / Killer of Death",
+        "08a": "[b]8 / “Death.”",
+        "09a": "[b]9 / Body of Glass I",
+        "10a": "[b]10 / Body of Glass II",
+        "11a": "[b]11 / Body of Glass III",
+        "12a": "[b]12 / Daydream",
+        "13a": "[b]13 / Golden Cocoon",
+        "14a": "[b]Midday Moon",
+        "14b": "[b]A Dream in the Sun"
+      },
+      "koha": {
+        "05a": "[b]5 / Cain I",
+        "06a": "[b]6 / Cain II",
+        "06b": "[b]VI / Future Sight, Future Death",
+        "07a": "[b]7 / Crossroads at the Witching Hour I",
+        "08a": "[b]8 / Crossroads at the Witching Hour II",
+        "09a": "[b]9 / Origami",
+        "10a": "[b]10 / Hair Cage",
+        "11a": "[b]11 / Seven Nights",
+        "12a": "[b]A Dream in the Sun"
+      },
+      "others": {
+        "pro": "[b][i]a prologue",
+        "epi": "[i]an epilogue"
+      }
+    },
+    "scenes": {
+      "openning": "[b][i]Prologue — Glass Moon",
+      "eclipse": "[b][i]Epilogue",
+      "ending": "[b][i]Credits"
+    },
+    "dead-end": "Dead End",
+    "osiete": "Teach Me, Ciel!"
+  },
+  "credits": [
+    {
+      "center": "[center][font=serif][i]Planning / Takashi Takeuchi, Kinoko Nasu"
+    },
+    {
+      "center": [
+        "",
+        "[right][font=serif][i]Original Concept / Scenario / Scenario Programming /",
+        "[right][font=serif][i]Kinoko Nasu"
+      ]
+    },
+    {
+      "bottom": [
+        "[right][font=serif][i]Scenario Programming Assistant /[hide]OKSG",
+        "[right][font=serif][i]OKSG"
+      ]
+    },
+    {
+      "center": [
+        "",
+        "[right][font=serif][i]Character Design / Original Artwork / CG /",
+        "[right][font=serif][i]Takashi Takeuchi"
+      ]
+    },
+    {
+      "bottom": [
+        "[right][font=serif][i]CG Assistant /[hide]Micchi",
+        "[right][font=serif][i]Fumicchi"
+      ]
+    },
+    {
+      "center": [
+        "[center][font=serif][i]Backgrounds / [hide]Mamoru Kuki",
+        "[center][font=serif][i][hide]Backgrounds /[/] Mamoru Kuki",
+        "[center][font=serif][i][hide]Backgrounds /[/] Takashi Takeuchi"
+      ]
+    },
+    {
+      "top": [
+        "[left][font=serif][i]Programming / Stagecraft /",
+        "[center][font=serif][i]Seibei"
+      ]
+    },
+    {
+      "top": [
+        "[left][font=serif][i]Composition / Arrangement / Sound Effects",
+        "[center][font=serif][i]KEITA HAGA"
+      ]
+    },
+    {
+      "bottom": [
+        "[right][font=serif][i]Special Thanks /[left=8/]",
+        "[right][font=serif][i][left=8]Naoki Takahashi",
+        "[right][font=serif][i][left=8]B46"
+      ]
+    },
+    {
+      "bottom": [
+        "[right][font=serif][i]Special Thanks /[left=8/]",
+        "[right][font=serif][i][left=8]OKSG",
+        "[right][font=serif][i][left=8]SUBTLE",
+        "[right][font=serif][i][left=8]Kotori Kirihara",
+        "[right][font=serif][i][left=8]Yoko Hayashi",
+        "[right][font=serif][i][size=80%](Names listed without titles)"
+      ]
+    },
+    {
+      "bottom": [
+        "[right][font=serif][i]Playtesting /[left=3/][left=12]Hiroyoshi Kamitsuzuki",
+        "[right][font=serif][i][left=12]EDF Sakata",
+        "[right][font=serif][i][left=12]K-1",
+        "[right][font=serif][i][left=12]Shiten",
+        "[right][font=serif][i][left=12]Derochi",
+        "[right][font=serif][i][left=12]NOCKy"
+      ]
+    },
+    {
+      "bottom": [
+        "[right][font=serif][i]Playtesting /[left=3/][left=12][size=80%]B46",
+        "[right][font=serif][i][left=12]Mikage",
+        "[right][font=serif][i][left=12]Taro Yamaguchi",
+        "[right][font=serif][i][left=12]Seiji Yamazaki[left=2/][size=80%](Names listed without titles)",
+        "",
+        ""
+      ]
+    },
+    {
+      "bottom": [
+        "[right][font=serif][i]Playtesting /[left=15/]",
+        "[right][font=serif][i]ALL TYPE-MOON STAFF",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "center": "[center][font=serif][i]Game Director /[left=3/]Kinoko Nasu"
+    },
+    {
+      "center": "[center][font=serif][i]Executive Producer /[left=3/]Takashi Takeuchi"
+    },
+    {
+      "center": "[center][font=serif][i][left=5/]Production /[left=3/]TYPE-MOON"
+    },
+    {
+      "bottom": "[right][font=serif][noline][color=black][copy/] 2000 TYPE-MOON. All rights reserved.",
+      "delay": 21500,
+      "bg": "#ffffff"
+    }
+  ]
+}

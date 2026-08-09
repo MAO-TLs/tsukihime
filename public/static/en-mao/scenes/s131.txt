@@ -1,0 +1,23 @@
+monocro off
+play "*3"
+wavestop
+bg "bg/bg_06a",notrans,0
+`She wandered up and down the hall, apparently searching for someone.@ On closer inspection, it didn’t look as though our classroom was her destination after all.
+\
+`“She’s as impossible to read as ever.@ What is she doing out there?”@ I sat and watched.@ She stared intently at students passing through the corridor, then folded her arms and sank into thought.
+\
+`“Maybe she lost something.”@ It would be odd for a third-year to lose something in the second-year corridor, but given how freely she roamed the school, it was hardly impossible.@
+br
+`Wait.@ She had just walked into our classroom.@ And now she was marching straight toward me.
+\
+ld c,"tachi/cel_t10a",lshutter,400
+`“Tohno!”@ “!”@ She shouted at me without warning.@ “Wh-what is it?@ I haven’t done anything bad enough to wind up on your radar.”@ “No excuses!@ Just come with me!”
+\
+bg #000000,lcartain,800
+bg "bg/bg_11a",lcartain,800
+`She seized my arm and hauled me into the hall.@ “H-hey, what is this all of a sudden?@ Weren’t you looking for something?”@
+ld c,"tachi/cel_t10a",crossfade,400
+`“Never mind that.@ Stand right there and don’t move!”@
+cl c,lshutter,800
+`“—!”@ Swept up by her intensity, I snapped to attention.@ Then, just as she had the day before, she leaned in and began sniffing me.@ “Um…@ Ciel…?”
+\

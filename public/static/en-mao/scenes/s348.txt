@@ -1,0 +1,25 @@
+play "*3"
+wavestop
+bg "bg/bg_04",notrans,0
+`“I don’t know.@ I think Akiha looks best as she is.@ Her hair is beautiful, and I don’t think bright-colored clothes would suit it.”@
+ld c,"tachi/ari_t01",crossfade,400
+`“Well, look at that.@ Tohno complimenting a girl’s appearance!@ Is this a historic first?”@ “Oh, shut up.@ I’m only saying what I think.@ A sailor uniform suits Akiha, and a blazer wouldn’t.”@
+ld c,"tachi/ari_t05",crossfade,400
+`“Is that so?”@ Arihiko grins knowingly.
+\
+`“—Ah.”@ Damn it.@ Arihiko baited me into that.@
+ld c,"tachi/aki_t16a",crossfade,400
+`I glance at Akiha.@ She has turned her face away and fallen strangely silent.
+\
+cl a,crossfade,400
+ld c,"tachi/ari_t01",crossfade,400
+`“Now I understand why Tohno never has a girl around.@ If you get to look at Akiha every day, of course you wouldn’t spare a glance for the girls at our schoo—ghuuuh!?”@
+quakex 2,150
+cl a,lshutter,400
+ld c,"tachi/cel_t04",lshutter,400
+`“Oh, I’m sorry, Inui.@ My arm slipped.”@ Ciel smiles sweetly after driving an elbow at a sharp angle into Arihiko’s ribs.@
+br
+`…@Hah.@ I still have nearly ten minutes of this stomach-destroying ordeal to survive.
+\
+playstop
+bg #000000,crossfade,800

@@ -1,0 +1,78 @@
+monocro off
+playstop
+wavestop
+bg #000000,lcartain,800
+bg "bg/bg_01c",lcartain,800
+`—Troubled by what happened that evening, I come to the school.@
+br
+`Looking back, there was something strange about Arcueid at school.@ There is no logical reason for it, but if her aimless flight led anywhere, I feel it must have been this building.
+\
+bg "bg/bg_03c",lcartain,800
+`There is no sign of anyone nearby.@ Not even the faintest sound.@
+bg #000000,crossfade,400
+bg "bg/bg_03c",crossfade,400
+`“…”@ And yet I have the premonition that something is inside the school.
+\
+wave se_01
+`Something.@
+!w500
+`After sunset, this school has become an ominous—
+!w500
+`place.
+\
+`“…@Go in, Shiki.”@ Hesitation only wastes time.@ I whisper the words to steel myself, then enter the school.
+\
+bg #000000,lcartain,800
+play "*6"
+bg "bg/bg_10c",lcartain,800
+waveloop se_02
+br
+`—There is no one on the first floor.
+\
+bg #000000,lcartain,800
+bg "bg/bg_07b",lcartain,800
+br
+br
+br
+`—Pain crackles through the back of my neck, leaving it numb.@ I endure it and climb the stairs.
+\
+bg #000000,lcartain,800
+bg "bg/bg_11c",lcartain,800
+br
+br
+br
+br
+br
+`—I climb to the second floor.@ No one.
+\
+wave se_08
+`No one.@
+wave se_08
+`No one at all.@
+br
+`But then something slick settles against my back: a sensation like the belly of a snake, cold yet yielding.
+\
+`“—Who’s there!?”@ I turn.@ And there, unmistakably—
+ld c,"tachi/roa_t07a",notrans,0
+wait 100
+bg #000000,notrans,0
+\
+`“What—?”@ A soft thud.@ In the next instant, my chest is laid open.
+\
+bg "bg/ima_12b",lshutter,400
+`Blood flows.@ As though reopening the old scar on my chest, a knife suddenly drives through me from behind.@ “Ah—”@ My body slips downward.@
+br
+`—I don’t understand.
+\
+bg #000000,crossfade,800
+`My consciousness fades.@ In its final instant—
+br
+wavestop
+bg "bg/cmo_06",crossfade,800
+`an image from a distant summer day plays once more.
+\
+bg #000000,crossfade,1500
+playstop
+cl a,notrans,0
+bg "word/end",crossfade,1500
+wait 3000

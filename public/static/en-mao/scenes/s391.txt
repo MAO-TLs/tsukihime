@@ -1,0 +1,116 @@
+phase "bg/bg_47",l,his,06a,6
+bg "bg/bg_40a",tshutter,400
+waveloop se_02
+quakey 2,10
+`“Aaaaaah!”@
+br
+`Ahhhhhhh—
+br
+`“Hah…@ hah…”@ It’s morning.@ This is my room.@ I’ve been here all along, sleeping like this.@ I must have been—
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_31b",notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`“Ow…”@ Pain spikes through my temple.@ “A…@ dream.”@ A horrible dream.@ A dream of murdering someone—and climaxing again and again as I killed her.
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`“Hot…”@ My throat is burning.@ My whole body feels leaden, and the sensation remains on both my hands: the crunch of a human neck breaking.
+\
+`“No…”@ No.@ That was a dream.@ It had to be.@ But can a dream be so vivid?@ I remember everything—the city at night, the neck snapping in my hands, the sticky blood clinging to my throat, the face of the woman I butchered—
+\
+bg #9c0120,notrans,0
+wait 100
+bg "bg/bg_40a",notrans,0
+`But it was a dream.@ Shiki Tohno was here in this room, so it could have been nothing else.@ The problem is that I dreamed of taking pleasure in murder.
+\
+bg "bg/ima_08",crossfade,400
+br
+`—Shiki, you’re the same as me.@
+!w1000
+bg "bg/bg_25b",crossfade,400
+br
+`The world before me pitches and slides.@
+bg "bg/ima_13b",crossfade,400
+br
+`—You love killing people more than anything.@
+!w1000
+bg "bg/bg_31b",crossfade,400
+br
+`It moves fast enough to drive me mad.
+\
+bg "bg/bg_40a",notrans,0
+!w1000
+wavestop
+play "*2"
+`Announcing herself from the doorway, Hisui enters the room.@
+ld c,"tachi/his_t01",lshutter,400
+`“Good morning, Master Shiki.@ You’re already awake this morning.”@ “…@Yeah.@ Morning, Hisui.”@ The sliding stops.@ Her voice arrests the sickening illusion that the floor is slipping away beneath the angle of my body.
+\
+!w2000
+ld c,"tachi/his_t04",crossfade,400
+`“…@Master Shiki?”@ “Huh?@ What is it, Hisui?”@ “That is what I should be asking you.@ Are you unwell?@ You have not said a word since I came in.”@ “…@No, I was just admiring you.@ I know, I have to get to school.@ I’ll be in the sitting room in a minute, so could you go on ahead?”@
+ld c,"tachi/his_t07",crossfade,400
+`“Master Shiki, if you are feeling unwell, please do not overexert yourself.@ School is important, but not more important than your health.”
+\
+`“Come on, Hisui, I’m not missing school.@ There’s nothing wrong with me, so don’t spoil me too much.”@
+ld c,"tachi/his_t01",crossfade,400
+`“Then I will explain the matter to Miss Akiha myself.@ Please remain in bed.”@ Hisui presses the point with unusual determination.@ Do I really look that pathetic?@ “Honestly, Hisui, I never knew you worried this much.@ I’m fine, so you don’t have to fuss.@ I’m just going to wash my face.@ Go on to the sitting room without me.”
+\
+cl c,lshutter,400
+`I climb out of bed and pass Hisui, who still looks as though she wants to object.@
+ld c,"tachi/his_t07",lshutter,400
+`As I leave, the anxious gaze she fixes on my back hurts more than it should.
+\
+bg #000000,crossfade,800
+`I go to the washroom and examine myself in the mirror.@ “…@I don’t look pale.@ Why did Hisui seem so worried?”@ I splash cold water over my face.@
+br
+`The memory of last night’s dream certainly makes me nauseous enough to lose all desire to go to school.@
+br
+`But staying home because of it would feel like admitting something, and that frightens me.
+\
+bg #000000,crossfade,800
+bg "bg/bg_34a",lcartain,800
+`Akiha, Kohaku, and Hisui are all in the sitting room.@ As usual, I’m the last one to arrive.
+\
+ld l,"tachi/koha_t01a",lshutter,400
+`“Oh, good morning, Shiki.”@
+ld r,"tachi/aki_t15a",lshutter,400
+`“You can’t be serious!@ It’s only half past six!”@ Kohaku greets me with her gentle smile, while Akiha has the poor manners to lean halfway off the sofa and stare.
+\
+`“Good morning, Kohaku.@ Oh, and morning to you too, Akiha.”@
+ld r,"tachi/aki_t21",crossfade,400
+`“Excuse me?@ What do you mean, ‘you too’?”@ “Exactly what it sounds like.@ You’re always telling me to get up earlier, and then you act astonished when I do.@ ‘You too’ is plenty for someone like that.”@
+ld r,"tachi/aki_t03a",crossfade,400
+`“Hmph.@ You get up early once and act as proud as if you’d broken an ogre’s neck.”@ “An ogre’s neck?@ Akiha, that’s—”
+\
+br
+br
+br
+br
+`A neck.@ A neck…?@ The sensation from my dream crawls back through me, and nausea rises in my throat.
+\
+`“…@Sorry, Kohaku.@ Could I have something cold to drink before breakfast?”@
+ld l,"tachi/koha_t02",crossfade,400
+`“Certainly.@ Would you prefer something carbonated or fruit juice?”@ “Um, carbonated, please.”@ “Right away.”@
+cl l,lshutter,800
+`Kohaku hurries off to the kitchen.
+\
+ld r,"tachi/aki_t01a",crossfade,400
+`“…@Brother?@ What’s wrong?@ You never go quiet without even answering back.@ Are you feeling ill?”@ “…@Honestly, first Hisui and now you.@ What do you two think I am?@ I just woke up and my throat is dry.@ There’s nothing wrong with me!”@ I shout without thinking, as though the force of my denial could drive out the nausea.
+\
+ld r,"tachi/aki_t12a",crossfade,400
+`“…@I’m sorry, Brother.@ I suppose being fussed over at every turn cannot be pleasant.”@ “Ah—no, that’s not it.@ I’m glad you’re worried about me.@ I just had a bad dream and woke up irritable.@ …@I’m sorry, Akiha.@ I’m the one who should apologize.”@
+cl r,lshutter,400
+`I sit down on the sofa.@ I know I’m behaving strangely, but knowing does nothing to stop it.
+\
+ld c,"tachi/aki_t12a",lshutter,400
+`“Is something troubling you, Brother?@ If it concerns life in this house, perhaps I can help if you tell me.”@ “No, it isn’t that I’m having trouble settling in, but…”@
+cl c,lshutter,800
+`…@Maybe talking it over with Akiha as a hypothetical would help clear my head.@
+br
+`So I should—
+\

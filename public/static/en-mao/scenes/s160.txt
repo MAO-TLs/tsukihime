@@ -1,0 +1,46 @@
+monocro off
+play "*8"
+wavestop
+bg "bg/bg_40c",notrans,0
+`“…”@
+`…@Fine.@ If I kept defying Akiha, I was afraid I might make her cry.
+\
+`“…@All right.@ I’ll be good and go to sleep tonight.”@
+`With that, I stretched out on the bed.@
+ld c,"tachi/aki_t12b",crossfade,400
+`“Really…?@ You won’t sneak out later?”@
+`“I know.@ Honestly, my body still feels too heavy anyway.@ There’s no chance I could slip past you and get outside.”@
+ld c,"tachi/aki_t04b",crossfade,400
+`“Thank goodness.”@
+`Akiha’s shoulders sagged as she let out a long breath.
+\
+`“Hisui, go tell Kohaku that Brother is awake.@ Brother, would you like dinner?”@
+`“…@Oh, right.@ I feel bad for Kohaku, but I don’t think I could eat.@ I’ll just sleep through the night.”@
+ld c,"tachi/aki_t01b",crossfade,400
+`“…@Very well.@ Hisui, please tell Kohaku that.”@
+`Still looking down, Hisui gave a small nod and left the room.
+\
+`…@Well, then.@ The moment I surrendered my weight to the bed, sleep came for me again.@ At this rate I’d be asleep in under a minute.@
+br
+`But before that—
+br
+`“Akiha.@ Has that place always been in our garden?”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“Yes.@ We used to play there all the time when we were children.”@
+`“I see.@ I hardly remember it.”@
+`…@No.@ I truly had forgotten.
+\
+`“One more thing.@ This is going to sound strange, but when we were children, was there ever another child with us?@ Someone besides you and me?”@
+ld c,"tachi/aki_t01b",crossfade,400
+`“What?”@
+`Akiha tilted her head, utterly at a loss.@ …@Of course.@ There couldn’t have been another child.@ But if there wasn’t, nothing made sense.@ The scene I saw in my dream, and the dream I saw in that clearing—if those two were the same, then there had to have been one more child.@ A child who was killed.
+\
+`“Never mind.@ It was only a dream.”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“I see.@ Good night, then, Brother.@ Please get plenty of rest.”@
+`“I will.”@
+bg #000000,crossfade,800
+`The moment I answered Akiha, sleep took me without warning, sudden as one of my usual anemic spells.
+\
+playstop
+!w3000

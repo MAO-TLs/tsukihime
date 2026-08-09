@@ -1,0 +1,144 @@
+playstop
+wavestop
+bg "bg/bg_34a",notrans,0
+`Kohaku has plenty to do, but Hisui seems even busier with Kohaku’s share of the work added to her own.@ I owe her for everything she does, so I’ll go lend her a hand.
+\
+bg #000000,lshutter,400
+bg "bg/bg_33a",lshutter,400
+play "*3"
+`I find Hisui as soon as I enter the lobby.@ A feather duster, polishing cloths, and other supplies lie at her feet, presumably for tending the furnishings.@
+br
+`“Hisui, have you got a minute?”@
+ld c,"tachi/his_t01",lshutter,400
+`“Master Shiki?@ I thought you had returned to your room.”@ “No, I’m not going back.@ I can’t relax while you and Kohaku are both working yourselves ragged.”@ “……”@ Hisui fixes me with a stern, wordless stare.
+\
+ld c,"tachi/his_t08",crossfade,400
+`“…@Master Shiki.@ Surely you are not about to suggest helping me with my duties.”@ “—Uh.”@ She struck before I could.
+\
+`“What’s wrong with letting me help?@ Nobody can clean a mansion this big alone.@ At least let me do something.”@
+ld c,"tachi/his_t01b",crossfade,400
+`“Forgive me, Master Shiki, but there is not enough work to require your assistance.@ In fact…@ today is somewhat easier because my sister is absent.”@ “What?@ Cleaning is easier when Kohaku isn’t here?”@
+ld c,"tachi/his_t26",crossfade,400
+`“Ah—no, I…@ that was not what I meant…”@
+cl c,lshutter,400
+`Apparently realizing that she let something slip, Hisui lowers her head and mumbles an explanation.@ This is such a rare sight that I can barely keep from grinning.
+\
+ld c,"tachi/his_t04",lshutter,400
+`“…@Master Shiki.@ About what I just said, please do not tell my sister…”@ Hisui mumbles the request under her breath.@ “Oh, so Kohaku isn’t supposed to hear that?@ I understand.”@ Which means, naturally, that I absolutely must tell her.@
+ld c,"tachi/his_t13",crossfade,400
+`“…@Master Shiki, I believe you should cultivate a manner that does not reveal your thoughts quite so plainly.”@ “Hm?@ I’m not thinking anything.”
+\
+`“……”@ Hisui stares straight through me.@ Was what she said an even greater taboo with Kohaku than I realized?@ “All right, I won’t tell her.@ Just stop glaring at me.”@
+ld c,"tachi/his_t22",crossfade,400
+`“…@Now I remember, Master Shiki.@ Even as a child, you played pranks without the slightest cause.@ Why must you turn contrary on a whim like this?”@ “There’s no grand reason.@ I just wanted to see what you looked like flustered.”
+\
+ld c,"tachi/his_t08",crossfade,400
+`“……”@ Damn.@ Why do I always blurt out exactly what I’m thinking?@
+ld c,"tachi/his_t09",crossfade,400
+`“Master Shiki, I have work to do.@ If you have so much time to spare, please assist my sister instead.@ As you yourself observed, I am busy and cannot entertain you.”@
+cl c,lshutter,400
+`Hisui turns away sharply and begins polishing around a vase.@ I came here to help, but somehow I’ve only managed to make her angry.
+\
+`“…@Um, Hisui?”@
+ld c,"tachi/his_t09",lshutter,400
+`“Yes?@ What is it?”@ Even angry, she answers when addressed.@ Hisui is a better person than I am.@ “About what you said—oh, you don’t have to answer if you’d rather not.@ Kohaku is always cleaning the courtyard, but she hardly ever cleans inside the mansion.@ Does that have something to do with what you meant?”@
+ld c,"tachi/his_t05",crossfade,400
+`“Ah…@ yes.@ There is a connection, but…”
+\
+ld c,"tachi/his_t04",crossfade,400
+`“Please do not discuss it with her.@ She appears to be rather sensitive about her clumsiness.”@ “Clumsiness?@ Kohaku is good with her hands.@ Her cooking is wonderful, and she knows pharmacology too, doesn’t she?”@
+ld c,"tachi/his_t05",crossfade,400
+`“People have their strengths and weaknesses.@ My sister can cheerfully manage broad, simple cleaning, but when it comes to caring for delicate furnishings, she is catastrophically clumsy.”@ “Clumsy?@ Hisui, I never expected you to put it so bluntly.”@ It is entirely unlike the image I had of her.
+\
+ld c,"tachi/his_t13",crossfade,400
+`“You can afford to be charitable because you do not know the facts, Master Shiki.@ The number of objects my sister has destroyed under the pretense of cleaning is far beyond ten or twenty.@ She possesses the rare gift of making a room messier the more earnestly she cleans it.”@ Hisui speaks with enough force to make a fist.@ Apparently she has suffered quite extensively from Kohaku’s fabled clumsiness.
+\
+`“…@I see.@ That’s rather unexpected.”@
+ld c,"tachi/his_t05",crossfade,400
+`“…@Yes.@ She is conscious of it herself.@ Miss Akiha and I agreed that she should concentrate on cooking and the garden, but she was devastated when we told her.”@ “…@Well, anyone would be upset if they were told not to clean because they broke things…”@ It is difficult to imagine the perpetually smiling Kohaku looking dejected.
+\
+ld c,"tachi/his_t23",crossfade,400
+`“So please do not suggest that my sister clean indoors, Master Shiki.@ Without that one failing, she is an exemplary—”@
+cl c,lshutter,400
+ld r,"tachi/koha_t02",lshutter,400
+`“Yes?@ Did someone call me?”@ “?!”@ Hisui and I cry out together and jump.@ Speak of the devil: Kohaku has arrived from the direction of the kitchen.
+\
+ld l,"tachi/his_t04",lshutter,400
+`“Kohaku—do you need something?”@
+ld r,"tachi/koha_t03",crossfade,400
+`“Yes.@ I’m short-handed, so I came to ask Shiki for help.”@ Kohaku smiles at me as I stand there frozen.@ “But it seems I was too late.@ Please help Hisui instead, Shiki.”@
+ld l,"tachi/his_t01",crossfade,400
+`“I was not receiving any help from Master Shiki.”@ Hisui states it flatly.@ She is right, of course.
+\
+ld r,"tachi/koha_t01a",crossfade,400
+`“Oh, really?@ Then you’re free at the moment, Shiki?”@ “—I suppose I am.@ If you need another pair of hands, I’ll help.@ But are you sure I can manage?@ I’ve never cooked before.”@
+ld r,"tachi/koha_t05",crossfade,400
+`“Oh, don’t worry.@ There are plenty of jobs anyone can do.@ Come along, then—time to put you to work.”@
+cl r,lshutter,400
+`Kohaku takes me firmly by the hand and pulls me away.
+\
+ld l,"tachi/his_t04",crossfade,400
+`“……”@ Hisui watches us go without a word.
+\
+bg #000000,crossfade,800
+bg "bg/bg_35",lcartain,800
+`The mansion’s kitchen is smaller than I expected.@ Apparently they used the main kitchens back when the house was fully staffed, but now that only Akiha, Hisui, Kohaku, and I live here, this smaller room has been remodeled for daily use.
+\
+ld c,"tachi/koha_t02",lshutter,400
+`“First, wash your hands properly and put on an apron.”@ She hands me an apron with ‘BOOR’ brushed boldly across the stomach.@ Whose taste is this supposed to be?@ “We’ll start you on something simple, Shiki.@ Once you finish all of that, I have a special job that only you can do.”
+\
+cl c,lshutter,400
+`Kohaku is in excellent spirits.@ For my first mission, the captain orders me to peel an entire colander of shrimp.
+\
+`Tap, tap, tap.@ Her knife patters briskly against the cutting board.@ Mmm-mm-mm-mmm.@ Kohaku’s off-key humming fills the kitchen.
+\
+`…@ …@ …@ …@ …@ ……@ Perhaps Kohaku is too absorbed in cooking to talk much.@ I’m enjoying peeling the shrimp myself, and keep happily stripping shell after shell.@
+bg #000000,crossfade,400
+bg "event/his_e01",crossfade,400
+`“……”@ But this feels nostalgic.@ Before the accident sent me away from the mansion, Kohaku, Akiha, and I played at keeping house like this several times.
+\
+`We were so young then that it never occurred to us to think of one another as boys and girls.@ We were simply happy to spend each day with new friends in this enormous mansion.@ I think we played hard enough to forget everything that had piled up before.@ Or perhaps we were trying to fill our days with fun precisely so we could forget the past.
+\
+bg #000000,crossfade,400
+bg "bg/bg_35",crossfade,400
+ld c,"tachi/koha_t01a",lshutter,400
+`“Have you taken a liking to peeling shrimp, Shiki?”@ “Hm?@ Not especially.@ What makes you ask?”@
+ld c,"tachi/koha_t05",crossfade,400
+`“You look as though you’re having such fun.@ Whenever Hisui peels shrimp, her brows pinch closer and closer until they make a perfect little frown.”@ “Really?@ I wouldn’t have guessed.@ She looks like she’d work through something like this without a word.”
+\
+ld c,"tachi/koha_t02",crossfade,400
+`“For some reason, Hisui is hopeless at cooking.@ She’s wonderful at cleaning and putting things in order, though.”@ “…@Huh.@ I feel as though I heard a very similar story somewhere.”@ Yes—from Hisui herself, only moments ago.
+\
+`“…@Well, when I think about it, there’s no reason you and Hisui should be alike in every way.@ You were always cheerful, and Hisui always kept herself shut away inside the mansion.”@ “Oh?@ Did I seem cheerful?@ I was trying to keep an eye on all of you, in my own way, Shiki.”@ “I knew that.@ You ran wild with us, but you stopped us whenever a game became dangerous.@ You were always watching over us.”
+\
+play "*9"
+`Yes.@ I remember it clearly.@ Playing tag in the courtyard.@ Trying scheme after scheme to catch Father’s carp from the newly dug pond.@
+br
+`“Remember the time we slipped through the gates and went outside?@ We couldn’t find our way back, so in the end you called the mansion and had one of the servants come collect us.”
+\
+ld c,"tachi/koha_t03",crossfade,400
+`“Yes.@ Your father gave you a terrible scolding afterward.@ All of us had gone out to play, but somehow by the end it was as though only you had gone, Shiki.@ No matter how harshly he scolded you, you insisted the fault was yours.@ …@Those days were wonderful.@ We got into all kinds of mischief, but it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@ Kohaku laughs softly, speaking almost to herself as she savors the memory.
+\
+`“…@I don’t know.@ Talking about those days like this makes me feel as though I really have come home.”@ Yes.@ I have few memories of the mansion itself, so merely talking about the childhood I spent with Kohaku fills me with a fierce nostalgia.@ But those happy memories are not the only ones returning.
+\
+`“…@I treated Hisui badly.”@ The girl who had always lingered in a corner of my mind.@ The girl at the window, with whom I never managed to have a real conversation.@ “…@She watched us from the window the whole time.@ Even as a child, I worried about her.@ I kept wishing she would stop looking so lonely and come play with us.”@ Yet when I left the mansion, she alone gave me a parting gift.
+\
+ld c,"tachi/koha_t02",crossfade,400
+`“That’s true.@ Hisui was shy even then, and it was always difficult to tell what she was thinking.@ I had always felt that I didn’t care what happened to me, as long as she could be happy.”@ “I see.@ You really love your sister.”@ The thought makes me strangely happy, and I say it almost without thinking.
+\
+cl c,lshutter,400
+playstop
+`“Ah.”@ At that small sound, Kohaku raises her hand.@ Her index finger has been sliced deeply by the knife.@ “K-Kohaku, you cut your finger…!”@ “Hm?”@ Only when I point it out does she seem to notice the wound.
+\
+ld c,"tachi/koha_t07",lshutter,400
+`“Oh.@ So I did.”@ “What do you mean, ‘so I did’?@ Kohaku!”@ I can’t believe her.@ Even I can see it is a deep cut, yet she remains perfectly unhurried.
+\
+`“How embarrassing.@ Imagine making a blunder while doing the one thing I’m good at.”@ Kohaku laughs as cheerfully as ever.@ “This isn’t funny.@ You need to treat that immediately!”@ “I’ll be fine.@ It isn’t going to kill me.”@ “That doesn’t mean you can ignore it!@ Honestly, a cut that deep must hurt…!”@ “Not at all.@ Things like this only hurt if you believe they do.@ You convince yourself that this finger isn’t part of your body—that it belongs to a doll or something.@ Then there’s no reason to feel the pain, is there?”
+\
+`“Wha—”@ Kohaku delivers this serene pronouncement with a smile.@ Thinking that way might help her endure the pain, but it cannot diminish the pain itself.
+\
+`“Oh, enough—just please bandage it!@ I can’t stand blood.@ If I collapse from anemia in here, it will be your fault…!”@ “You’re right.@ I ought to tend to it properly.@ Please excuse me for a moment, Shiki.”@
+cl c,lshutter,400
+`Her bright smile never faltering, Kohaku gives me a neat little bow and leaves the kitchen.
+\
+bg #000000,crossfade,800

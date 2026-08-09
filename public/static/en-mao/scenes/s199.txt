@@ -1,0 +1,1184 @@
+phase "bg/ima_01",l,ark,12a,11
+bg "bg/bg_32c",lcartain,800
+waveloop se_02
+`Ciel carries me straight to the Tohno mansion without once slowing down.@
+`I don’t know what she intends, but this is a problem.@ There is still a knife sticking out of my chest, and I am unquestionably dying.@ If Akiha sees me like this, mere worry will be the least of it.
+\
+`“…”@
+`Damn it.@ I can’t speak.@ I want to tell her to stop, but my throat can barely manage the work of breathing.
+\
+`“Please don’t try to speak, Tohno.@ It’s all right.@ Your sister should be able to save you.”@
+`“…”@
+`Save me?@ That’s impossible, Ciel.@ There is a knife in my chest, and I can no longer move.@ No one can save a man this close to death.
+\
+`“No, she can.@ Otherwise none of this makes sense…!@ Listen, Tohno: if your sister couldn’t save you, you would have died eight years ago.@
+`So this time too—we must still have time…!”@
+br
+`I think Ciel’s explanation is a little hard to follow with all those Tohnos in it.
+\
+`“…”@
+br
+`Ciel…@ what does that—
+br
+`“Enough!@ Please be quiet!@ If you keep trying to talk, you truly won’t survive!”@
+`She scolds me with a severity I have never seen on her face before.@ Somehow I feel terribly guilty, so I decide to close my eyes.
+\
+br
+`…@Well, anyway.@
+`……………………@By then,
+`                        staying awake
+`            had become
+`                                      too hard.
+\
+wavestop
+bg #ffffff,crossfade,800
+play "*9"
+!w3000
+bg "bg/cmo_05",crossfade,800
+br
+`I have always been a stranger to my family.@
+br
+`I had carried those words since childhood.@ Ever since I was sent from the Tohno family to the Arima family.@
+`No—to be precise, much longer than that.@ I had always been a stranger to my family.
+\
+`I never wondered why.@ I simply found myself alone, with people nearby who seemed to be my parents, and did my best to act like their child.
+\
+`I think my first home was an old house with a traditional tatami parlor.@ After some kind of accident, I was taken in by a vast Western mansion.@
+`There was a brother and sister there, both around my age.@ I think we were very close.
+\
+`But there was always a wall between me and their father.@
+br
+`Even so, we both tried to become a real family.@ Though no blood bound us, we tried to believe we were father and son.
+\
+`That ended almost before it began.@ There was a terrible accident, and I was taken to the hospital.@
+`No one came to visit.@ My eyes went wrong.@ I had been alone before, and in the end I was alone again.@
+`I thought I might as well disappear.@
+br
+`Until I met the Magician, beautiful as a clear blue sky.
+\
+bg #ffffff,crossfade,800
+playstop
+bg "bg/bg_40c",crossfade,800
+play "*8"
+`…………………………………………………………@
+`……………………………………………@A familiar
+`dream.
+\
+`“I’m…@ alive.”@
+`The words leave me in a daze.@ My body still refuses to move so much as a finger, but at least my voice works.@ My thoughts are clearing too, enough for me to recognize my own room.
+\
+ld c,"tachi/aki_t17b",lshutter,800
+`“Brother…?@ You’re awake?”@
+`“Akiha…@ Oh.@ You were here.”@
+`She has been standing at my bedside, nursing me.@
+`“Akiha, you…”@
+`I stare at her, unable to make sense of the situation.@ She looks away uneasily.
+\
+cl c,crossfade,400
+`“About…@ this wound…”@
+`I cannot tell her that he—SHIKI—did it to me.@
+`For that matter, why did Akiha even let them bring me here in this condition?@ A man with a knife still buried in his chest would normally be sent to a hospital, not invited inside the house.
+\
+`“Akiha, I…”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“It’s all right.@ She told me most of what happened.”@
+`“She…@ You mean Ciel?”@
+`Akiha lowers her eyes and nods.@
+`“…”@
+`Now I am even more confused.@ What exactly did Ciel tell her when she explained ‘most of what happened’?
+\
+`“Hmm…”@
+`This is awkward.@ Until I know what story Ciel gave Akiha, I can’t risk asking the wrong question.@
+`“Um…@ Akiha.@ Where is Ciel?”
+\
+`“She is resting in the sitting room.@ Ordinarily I would never permit someone like her to enter the mansion, but she did save you.@ I could hardly turn her away.”@
+br
+`Akiha’s expression sharpens by degrees.
+\
+ld c,"tachi/aki_t01b",crossfade,400
+`“Brother.@ SHIKI was the one who gave you that wound, wasn’t he?”@
+`Her question is direct and absolute.
+\
+`“A-Akiha, you…”@
+`“I told you, she explained most of it.@ Though one look at your condition would have told me everything even if she hadn’t.”@
+`“…”@
+`My throat locks.@ Akiha speaks as though she has known about SHIKI from the beginning.@
+`“Akiha…@ you knew about him?”
+\
+`“Yes.@ I knew everything from the beginning when I called you back to the mansion.”@
+`The room lurches as though someone has struck me over the head with a hammer.@
+`“W-wait.@ What do you mean, you knew everything?@ I still don’t understand any of this.@
+`I know there was another child besides you and me when we were little.@ But when I asked, you said…”@
+br
+`You said there had never been a third child.
+\
+ld c,"tachi/aki_t12b",crossfade,400
+`“I’m sorry.@ I’ve told you so many lies.@ Even this time, though I knew this would happen, I kept deceiving you and hiding the truth.”@
+`“Then there really was a third child.@ But why did he suddenly disappear?”
+\
+cl c,crossfade,400
+`I truly don’t remember.@ I remember a boy around my age, the third child, and how the two of us were always running around together.@ Sometimes Akiha would slip away from her father, and the three of us would play.@
+`But I cannot remember why he disappeared—or that his name, like mine, was SHIKI.@
+br
+`All of it has been wiped perfectly clean from my mind.
+\
+`“I don’t know.@ The only thing I can remember is…”@
+br
+`That scene in the courtyard.@ Since returning to the mansion, it has surfaced in my mind like a waking dream: a scene from a blistering summer day.@
+`Akiha was there, and I was there.@ Before us lay the blood-soaked corpse of another boy.
+\
+`“Ah…”@
+br
+`Yes.@ SHIKI had said it clearly: “The debt I owed you for killing me has now been repaid.”@
+`Which meant…
+\
+`“That dream…@ Did I really kill him?”@
+br
+`Had I killed him?@ Was that why he vanished so suddenly?@ Had I forgotten the memory simply because it was inconvenient for me to remember?
+\
+`“Akiha, did I…?”@
+ld c,"tachi/aki_t01b",crossfade,400
+`“No.@ You didn’t kill anyone.@ Makihisa Tohno—our father—ordered you to believe that you had.”@
+`“Father…@ did?”@
+`That makes even less sense.@ Why would he ever order me to believe such a thing?
+\
+`“Akiha, you said you knew everything when you called me back.@
+`What did you mean?@ Do you know everything about what happened eight years ago—and about SHIKI?”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“Yes.@ I never wanted you to remember SHIKI.@ If possible, I wanted you to forget him forever.@
+`But that is over now.@ It was impossible to hide the truth from the very beginning.”@
+`She gives a faint, self-mocking smile, then meets my eyes and begins.
+\
+ld c,"tachi/aki_t01b",crossfade,400
+`“Brother, she told you the Tohno family possesses a special bloodline, didn’t she?@ It may be difficult to believe, but something inhuman is mingled with Tohno blood.@ At least, that is what Father taught me from childhood.@
+`I never truly believed him.@ Then something happened that gave me no choice.@
+`It was the incident eight years ago—when SHIKI killed you.”@
+cl c,crossfade,400
+\
+`“Killed…?@ SHIKI killed me?”@
+`Akiha nods without a word.@
+`But that is backward.@ SHIKI was the one lying there covered in blood.@ And he plainly told me he had repaid me for killing him.
+\
+ld c,"tachi/aki_t12b",crossfade,400
+`“As members of the Tohno family age, the ‘other blood’ within them grows stronger, though the degree varies from person to person.@
+`It is not a benevolent blood.@
+`The inhuman strain mixed into the Tohno line magnifies instinct until one could almost believe it came from beasts.@ If reason is the human part of us, then those bestial instincts eventually devour it.”
+\
+`“Akiha…@ that’s…”@
+`“I know.@ It is difficult to believe without warning, so please listen quietly for now.”@
+br
+`No.@ I know someone very much like that.@
+`Even now, if I had never met SHIKI and my body could move, I would already be outside searching for her.
+\
+ld c,"tachi/aki_t01b",crossfade,400
+`“But members of the Tohno line ordinarily do not cease to be human until old age.@
+`There had never been a case of someone undergoing ‘Inversion’ in childhood—not until my brother, SHIKI.@
+`The inhuman blood mingled into each Tohno differs from one person to another.@ Some retain a perfectly human appearance, while others physically change shape.@
+`SHIKI was a classic example of the latter.”
+\
+`“The latter…@ You mean his body actually changed?”@
+`“Yes.@ I don’t know why SHIKI lost himself at such an early age.@ His Inversion came without any warning—and the person he attacked was you, Brother.”@
+`“SHIKI…@ attacked me?”@
+br
+`The old scar in my chest gives a phantom throb.
+\
+`“It happened in that courtyard.@ SHIKI pierced your chest, and you were already dying when Father arrived and stopped him.@
+`There was only one way to stop SHIKI after he lost his reason: kill him.@
+`The head of the Tohno family has a duty to dispose of any relative who undergoes Inversion.@
+`So might the blood-soaked SHIKI you remember have been SHIKI after Father dealt with him?”
+\
+`“…”@
+`I cannot remember clearly.@ I feel that something else happened then—something terribly important—but I cannot reach it.
+\
+ld c,"tachi/aki_t12b",crossfade,400
+`“Afterward, you survived by a miracle.@ As you remember, they fabricated the story that Shiki Tohno had been caught in an accident and took you to the hospital.”@
+`“…”@
+`“That was also why I was raised to head the family despite being the younger daughter.@ Someone who had undergone Inversion could never be accepted as head.@ SHIKI lost his place as heir, so I, the only remaining child of the bloodline, inherited it.”
+\
+`I see.@ That was how Akiha came to shoulder a responsibility as immense as heading the family.@
+`Wait.@ Something is wrong.
+\
+`“Akiha, that doesn’t make sense.@ SHIKI was the one who underwent Inversion, wasn’t he?@
+`Then am I…@ not normal either?”@
+ld c,"tachi/aki_t13b",crossfade,400
+`“I’m surprised.@ You believe all this, Brother?”@
+`“You would never invent a lie like this.@ Besides…@ I’ve had some experience with stories like these.@
+`But never mind that!@ I’m asking why your explanation doesn’t add up, Akiha.”
+\
+ld c,"tachi/aki_t12b",crossfade,400
+`“You’re right.@ But, Brother, there is no contradiction.@ Couldn’t you simply leave the rest unasked?”@
+`“No, Akiha.@
+`I’m sorry, but SHIKI matters too much.@ He is an enemy to both me and her.@ I can’t ignore him.@
+`I need to know what he is, and I can’t leave questions unanswered.@ Why is he alive if Father killed him?@ Why did I forget something so important?@
+`Please.@ Tell me, Akiha.”
+\
+`“It’s simple.@ There was a reason you could never inherit the Tohno family.@
+`You truly forgot even that, Brother.@
+`I wish that mirage could have lasted forever.”@
+`“Akiha…?”@
+ld c,"tachi/aki_t01b",crossfade,400
+`“Brother…@ you are not a member of the Tohno family.@ Father adopted you on a whim merely because you happened to bear the same name, Shiki, as my brother SHIKI.”
+\
+br
+br
+`What…?
+\
+`“You, SHIKI, and I were raised as true siblings.@ You and SHIKI were so close that even as a little girl, I was jealous.@
+`But when that happened to SHIKI, everything went wrong.@
+`He was dealt with in secret, but the eldest son of the Tohno family could not simply be allowed to die.@ The Tohnos hold considerable social standing.@ They could hardly announce that their eldest son and heir had suddenly vanished.”
+\
+`“Then Father had an idea.@ He could pass you, whom SHIKI had nearly killed, off as the real Shiki Tohno—and declare that SHIKI, who had undergone Inversion and ceased to be human, was the adopted child killed in an accident.@
+`In other words, he switched the two of you.@
+`The victim survived, and the killer died.@ That is the relationship between you and SHIKI.”
+\
+br
+br
+br
+br
+`“Ha…”
+\
+`“Then what am I?@ I’m not Akiha’s brother, and I’m not a Tohno…”@
+`Nor, of course, am I an Arima.
+\
+br
+br
+br
+br
+br
+`Then who am I?@ Where do I belong?
+\
+ld c,"tachi/aki_t23b",crossfade,400
+`“I’m sorry.@ No one can answer that anymore.@
+`Brother—the child named Shiki no longer exists anywhere.@
+`That child died eight years ago.@ Not in life, but in existence.@ His records, his past, his home, even the memories of him—nothing remains.@
+`When you replaced SHIKI Tohno eight years ago, Father disposed of it all.”
+\
+br
+br
+br
+br
+br
+br
+`“Ha…”
+\
+ld c,"tachi/aki_t12b",crossfade,400
+`“That is why you were sent to the Arima family.@
+`For appearances, the Tohno family’s eldest son needed to remain alive.@ But since you shared none of our blood, you could not inherit.@
+`Father used the weakness left by your accident as an excuse to exile you to the Arimas.@ He ordered me never to let you set foot in the Tohno mansion again.”@
+`Akiha’s voice trembles.@
+cl c,crossfade,400
+`Her head is bowed, as though she is struggling to hold something back.@ She must feel an enormous guilt toward me.
+\
+br
+`I have no intention of blaming her for any of it.@
+br
+`In fact, knowing that she cares enough to feel guilty brings me some small comfort.@ Even so, there are things I must ask.
+\
+`“No.@ I still have two questions.@ Keep going, Akiha.@ Nothing has really been settled yet.”@
+ld c,"tachi/aki_t17b",crossfade,400
+`“Brother…?”
+\
+`“First.@ I understand that I’m not a Tohno, but that creates another problem.@
+`You say members of the Tohno family are different from ordinary people.@ The truth is, there’s something unusual about my body too.@
+`Ciel thought I had that power because I was a Tohno, and I believed her.@ But I’m not one of you.@
+`So what does that make me?”
+\
+ld c,"tachi/aki_t12b",crossfade,400
+`“I don’t know.@ Father was not a man who adopted children on a whim.@ Perhaps he did have some purpose in taking you in.”@
+`“I see…@ Well, at this point, I honestly don’t care what I am.@ You don’t need to worry about it either.@
+`I’m lucky simply to be alive.@ That wound should have killed me, shouldn’t it?@ Being here at all is good fortune enough.”@
+br
+`Yes.@ Compared with that, the real problem is…
+\
+`“Second: why is SHIKI alive?”@
+`Without meaning to, I turn an openly hostile stare upon Akiha.
+\
+ld c,"tachi/aki_t23b",crossfade,400
+`“Brother…@ that is…”@
+`“It doesn’t make sense.@ SHIKI lost to the Tohno blood and underwent that Inversion, didn’t he?@ He killed me, and Father killed him.@
+`Then he cannot possibly still be alive.”@
+`“That…@ I…”
+\
+`“There’s only one possibility.@ I survived, and so did he.@
+`Or perhaps Father never killed SHIKI at all.@ However mad he became, SHIKI was still his own flesh and blood.@ Maybe he spared him and let him recover somewhere out of sight, the way they took me to a hospital.”@
+br
+`Akiha does not answer.@ It seems my guess may not have been wrong.
+\
+`“I see.@ Knowing Father, he probably meant to bring SHIKI back to the mansion as Shiki Tohno once he recovered his senses.”@
+`“No…@ he couldn’t have…”@
+`But she cannot bring herself to finish.@ Akiha lowers her head and falls silent.@
+cl c,crossfade,400
+\
+`“It’s all right.@ None of this was your fault.@ It wasn’t Father’s fault, and it wasn’t SHIKI’s either.@
+`The cause was nothing but chance.@ Sheer bad luck put a madman from some foreign country inside SHIKI.@
+`You say everything went wrong, but in the end, that is all that happened.”@
+br
+`Akiha says nothing, her head still bowed.
+\
+br
+`I am tired.@
+br
+`The truth is, I never wanted to learn about myself.@ Right now none of it matters beside the need to find Arcueid.
+\
+`“Akiha, I’m tired.@ I’m going to sleep, so would you leave me alone?”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“Very well…@ if that’s what you want, Brother.”@
+`Akiha turns toward the door.@
+cl c,lshutter,800
+br
+`“Akiha.”@
+`One question remains, and I call her back.
+\
+ld c,"tachi/aki_t01b",crossfade,400
+`“What is it, Brother?”@
+`“Why did you bring me back to this mansion?@ I’m not your real brother.”@
+ld c,"tachi/aki_t23b",crossfade,400
+`“Please don’t say anything so foolish.@
+`You are the only brother I have.@
+`You are now, and you always have been—even if you have forgotten, ever since we were children.@ To Akiha Tohno, you are my only brother, Shiki.”@
+cl c,lshutter,800
+br
+`The door opens with a click, and Akiha leaves the room.
+\
+bg #000000,lshutter,800
+bg "bg/bg_40c",lshutter,800
+`“…”@
+`Only after Akiha has gone do I finally grasp the situation I am in.@
+br
+`The clock has just passed ten at night.@ Only three hours have gone by since SHIKI—no, Roa—attacked me at school.
+\
+`My body will not move at all.@ It feels as though I have become a robot operated by remote control.@ My mind is clear and nothing hurts, yet neither arms nor legs will obey me.
+\
+`“Haa…”@
+`I take a long breath and calm myself.@ Perhaps I cannot move because I keep trying to command large things like my arms and legs.@
+`Start somewhere tiny.@ I focus every nerve upon moving the little finger of my right hand.
+\
+`“Ghh…”@
+`I pour every scrap of strength in my body into that finger.@ By the time I am drenched in sweat, several minutes have passed.@
+`At last, my little finger twitches.
+\
+`Even one moving finger gives me something to build upon.@ Recalling what the touch of my own nerves feels like, I widen the territory I can move: little finger, ring finger, palm, elbow, arm, shoulder.@
+br
+`“Hah…@ hah…@ hah…”@
+br
+`The more of my body I reclaim, the more pain returns with it.@
+`Of course.@ I felt nothing because my entire body was numb.@ As my nerves awaken one by one, they bring the pain back too.
+\
+`“Ghh…@ ah…!”@
+`Cold sweat beads on my brow.@ Pain like knives driven into my flesh races across my body.@
+`But unless I regain control, I cannot leave this room.@
+br
+`I cannot leave the room, reach the city, return to the school, and search for Arcueid.
+\
+`“Gah…@ ngh…!”@
+`Fighting down nausea, I force my upper body upright.@ Walking may be the most I can manage, but that is enough.@
+`Surviving after Roa struck the point in my chest is already a miracle.@ Asking for more would be tempting fate.@
+br
+`I examine the wound where the knife entered my chest—and find nothing there that resembles a Point of Death.
+\
+`“What…?”@
+`A sudden clarity comes over me.@ Anything stabbed through a Point of Death dies, no questions asked.@ Even Nrvnqsr, that immortal monster, was no exception.@
+`Someone like me could never survive such a wound.@
+br
+`“Maybe what he sees and what I see aren’t the same.”@
+`The thought has barely formed when a light knock sounds, and Ciel enters the room.
+\
+ld c,"tachi/cel_t10b",lshutter,400
+`“T-Tohno!?@ You were told to remain absolutely still!@ Why in the world are you trying to get up?”@
+cl c,lshutter,400
+`Ciel marches straight to the bed.@
+`“…”@
+`For the moment, I simply watch her in silence.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“What is it, Tohno?@ Is there something on my face?”@
+`“No.@ I just noticed you aren’t wearing glasses.”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Yes, it’s a little disappointing.@ We matched so nicely before.”@
+`The fact that she can smile at a moment like this proves she is still the Ciel I know.@ Even dressed in a priest’s vestments, even capable of facing Roa head-on, she remains herself.
+\
+`“Thank you.@ You saved me again.”@
+`“Yes, for the third time.@ Be warned: next time I shall leave you to your fate.”@
+`“All right.@ I’ll remember.@ Next time, I’ll make sure I get him before he gets me.”@
+`I meet her gaze squarely.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“Tohno…@ have you learned nothing at all?”@
+`“I’m the victim here.@ He came after me without warning.@ What lesson am I supposed to learn from that?”@
+`“That may be true, but you’re plainly eager to fight him again.”
+\
+`“…”@
+`I let the accusation pass unanswered.@ I don’t know whether I am as eager as she says.@
+`I only know I cannot remain here doing nothing.
+\
+`“Ciel, may I ask you something?”@
+`“I suspect saying no would have little effect on you.@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Very well.@ If it will keep you quiet, that is a small price to pay.@ I’ll indulge your questions for a while.”@
+`Ciel sits in the chair Akiha occupied moments ago.@ I expected her to stop me.@ I still have no idea what this woman truly intends.
+\
+`“Then tell me: that man before was Roa, wasn’t he?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Yes.@ That is Roa’s present reincarnation vessel: SHIKI Tohno, the man who stole your life eight years ago.@ Did Akiha tell you what happened?”@
+`“She did.@ Have you and Akiha become friends or something?@ She seemed to hate you.”
+\
+ld c,"tachi/cel_t01b",crossfade,400
+`“Oh, she does hate me.@ She despises my work as a heretic hunter, and she dislikes me personally.@ It is, well…@ an extraordinary degree of hatred.”@
+`Ciel delivers this alarming statement with a smile.
+\
+`“I see.@ We can leave that aside.@
+`Back to Roa: is our school where he lives?”@
+`“Strictly speaking, no.@ But he does appear to be using the building as his lair.@ Arcueid destroyed every one of his Dead, so I imagine he was forced to act personally.”
+\
+`“…”@
+`Then Arcueid has not found Roa yet.@ There is still a chance to reach her first.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“Tohno?”@
+`“Nothing.@ But why would Roa make our school his lair?@
+`Actually, he felt more like SHIKI than Roa.@ I didn’t get any sense of a vampire from him.@ What exactly is going on?”
+\
+ld c,"tachi/cel_t01b",crossfade,400
+`“His personality is built upon SHIKI’s.@ Naturally, he does not behave like a vampire.”@
+`“Wait.@ SHIKI is Roa’s reincarnation vessel, isn’t he?@ Shouldn’t Roa’s personality replace his?@ Wouldn’t everything human about SHIKI disappear?”
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“No, it doesn’t work that way.@
+`The body Roa chooses as his next host grows into a human being with a personality separate from Roa’s.@ Unless it first matures as an independent person, it cannot make use of the intellect Roa gives it when his consciousness surfaces.@
+`Even after awakening as Roa, therefore, each incarnation acts according to the nature of its host body.”@
+`“Then he truly is SHIKI, with no separate personality called Roa at all?”
+\
+`“In one sense, yes.@ The man called Roa no longer exists.@ What remains is an obsession with eternity—a compulsion to attain ageless immortality.@
+`The difficulty is that this compulsion possesses a will, a history, and centuries of accumulated magical knowledge.@
+`As long as the pursuit of immortality continues, ‘Roa’ cares nothing about what else his current self may choose to do.
+\
+`“Roa creates more of the Dead, but that resembles the instinct of a species to reproduce.@ SHIKI’s own wishes—the things he personally wants—are separate from that.”
+\
+`“What SHIKI personally wants…”@
+`“Yes.@ I believe that for him, killing you, Tohno, takes precedence even over winning Arcueid over.”@
+`“What?”@
+`Her conclusion makes no sense to me.
+\
+`“Why would SHIKI’s first goal be killing me?”@
+`“This is difficult to say, but to SHIKI, you are the person who killed him.”@
+`“That’s backward.@ I’m the one he killed.”
+\
+`“And yet you lived, while SHIKI was killed.@ As a result, you became Shiki Tohno.@
+`After the Tohno family dealt with him, SHIKI revived by a miracle much as you did.@ But when he returned, he no longer had a place in his own home.@
+`Shiki Tohno was alive and well, living there with his sister Akiha.”
+\
+`“In a sense, you killed the person SHIKI Tohno.@ You took away every place to which he might have returned.@
+`Makihisa Tohno imprisoned SHIKI somewhere, and it is painfully easy to imagine what he felt toward the man living his life.”@
+`“To SHIKI, I’m a counterfeit using his name and pretending to be him.”@
+`“Yes.@ I believe he hates you more than anyone in the world.”
+\
+cl c,crossfade,400
+br
+`It isn’t as though I chose any of that.@
+br
+`But to SHIKI, that hardly matters.@ I am the hated counterfeit who stole everything from him—a man watching a stranger occupy his rightful place.@
+`For eight years, his grievance could only deepen, never fade.@
+`Yes.@ Of course he would try to kill me first.
+\
+`“But I’m still the one who was killed, Ciel.”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Tohno…?”@
+br
+`Yes.@ Things were taken from me too.@ Eight years ago, I was nine.@ The person called Shiki who had lived until that day was erased without a trace.
+\
+`I can barely remember anything from before.@ I have no desire to see my real parents, but even the memories that probably mattered to me once are gone.@
+br
+`The boy who was simply Shiki no longer exists anywhere—
+br
+`“Tohno.@ You mustn’t fight out of hatred.”@ Perhaps she heard something dangerous in my muttering.@ I shook my head.@ Nothing like that.
+\
+`“That isn’t why.@ I have another reason for wanting to stop Roa.”@ “You don’t hate him…?”@ “I’d be lying if I said I didn’t, but that doesn’t matter.@ I can’t leave Roa alone.@ If I do, our princess will go and do something reckless all by herself.@ So I have to help her.@ I promised I’d see this through with her.”@
+br
+`That was it.@ I couldn’t lie here resting comfortably while she fought alone.@ All this time, she must have been bearing pain at least as bad as mine and smiling for me anyway.
+\
+`“I don’t understand.@ Why go so far for her?@ Arcueid is a vampire.@ She’s nothing like you.”@ “I don’t care about that.@ I love her.@ That’s reason enough to take her side.”@ I looked her straight in the eye and said it plainly.@
+cl c,crossfade,400
+`She raised a hand to her mouth with an impressed little “Oh,”@ and, for some reason, began to blush.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“All right.@ So you mean to help her no matter what.”@ “Yeah.@ I can’t waste any more time here.@ If Roa’s at the school, I have to go now—”@ Arcueid might find him and start fighting.@ There was no guarantee she would survive it.@
+br
+`I had to be there for her.@ I had no idea what use I could possibly be in this state, but she would still be better off with me than alone.
+\
+`“Impossible.@ Even if you could move properly, she no longer has the strength to stand against Roa.”@ “How could you possibly know that…?”@ “It’s simple arithmetic.@ She’s functioning while holding back a vampiric impulse that has already broken loose once.@ That drains her still further; she can’t have even half Roa’s strength now.@ You have considerably less than half his strength yourself, so adding you to her side still won’t be enough.
+\
+`“Besides…@ she’s already dying.@ Her power is failing, yet she’s using what little remains to keep her impulses suppressed.@ For a human, it would be like running around with both lungs crushed.”@ “What—?”@ What was that supposed to mean?@ Dying—why?@ She had been in pain, yes, but she had never looked as if she were dying…!
+\
+`“She could recover if she stopped suppressing the impulse.@ All she would have to do is drink human blood.@ But Arcueid will never drink from a human again.@ So for as long as she continues chasing Roa, every step carries her closer to death.”@ “That’s…@ that’s insane…!”@
+cl c,crossfade,400
+br
+`I stood up from the bed.
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_40c",crossfade,400
+quakey 2,100
+`And immediately collapsed.@ I couldn’t even break my fall; I hit the carpet with a thud, like a bag of garbage.
+\
+`“Hah—gh…!”@ Weak.@ God, I was weak.@ Arcueid was out there in that condition, while I—I was too weak even to walk by myself.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“Please don’t push yourself, Tohno.@ The wound itself is almost nothing, but your reserves of life force are empty.@ It must be an ability of SHIKI, Roa’s present reincarnation vessel.@ One knife thrust carved away an enormous portion of your very ‘life.@’”@ “My…@ life…?”
+\
+`“Put simply, it’s energy—the force that keeps you alive.@ Life is infinite, but its immediate reserves are not.@ A living body continually produces life force, though the amount it can store varies from person to person.@ That means there is a limit to how much can be taken from any one body at a time.@ Before we exhaust our reserves, we use what remains to draw fresh life force from the inexhaustible well of life itself.@ But if all the stored energy is stolen in an instant, there is nothing left with which to draw out more.@ Infinite or not, the body then ceases to function.”
+\
+cl c,crossfade,400
+br
+br
+`…@Life.@ The life that keeps life alive.
+\
+`“You mean…@ the thing that keeps things alive…?”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Yes.@ Strictly speaking, it isn’t death.@ It’s more like a car stopping because the tank is empty.”@ As she spoke, she lifted me from the floor and tried to put me back to bed.
+\
+`“No…@ I’m not lying down again.”@ “Honestly.@ You can’t even stand by yourself, and you’re still arguing?@ If you refuse to lie down, then sit.”@ She pushed me firmly onto the edge of the bed.
+\
+`“Hah…@ ah…”@ Simply sitting upright left me breathless.@ “D-damn it.”@ There was no chance I could make it to the school like this.@ Even if I found Arcueid, I would only drag her down…!
+\
+ld c,"tachi/cel_t01b",crossfade,400
+`“You don’t have to fight anymore.@ Roa will be dealt with in a matter of days.”@ “Dealt…@ with?@ What do you…@ mean…?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Now that we’ve identified Roa’s reincarnation vessel, the Holy See—our headquarters—will authorize my request.@ Within seven days, the Burial Agency under His Holiness’s direct command will be sent here.@ That will be the end of Roa.@ It will only start the same cycle all over again, of course, but this incarnation can at least be disposed of.”
+\
+cl c,crossfade,400
+`…@Seven days.@ Seven days…?@
+br
+`“No.@ We can’t wait that long.@ Arcueid might settle things with Roa tonight.@ If she does, those people won’t mean a damn thing…!”@ I forced strength into both legs.@ Concealing my ragged breathing as best I could, I rose from the bed.
+\
+`“Where’s my knife?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“I’m keeping it for you—but do you honestly think I’ll give it back?”@ “No.@ Still, you shouldn’t pocket things that don’t belong to you.@ Everyone knows you return lost property to its owner.”@ “Quite right,”@ she said, rummaging in her pocket and producing the knife.
+\
+`“It is your knife, so I’ll return it.@ But you still intend to go back to the school?”@ “Yeah.@ Before Arcueid finds Roa, I’ll—”@
+br
+`Finish him.@ If SHIKI was after me, then sooner or later we would have to kill each other.@ In that case, I would go to him first—and kill him to protect Arcueid.
+\
+`“In that condition?@ I still don’t understand.@ Tell me why she matters so much to you.@ If you can make me understand that, I won’t try to stop you again.”@ She was asking the same question as before.@ Her gaze was gentle but perfectly earnest.@ She truly wanted an answer.
+\
+`“I…”@ Why did I want to save her?@ Because I loved Arcueid?@ Because being with her had made me happy?@ Yes.@ Those things were so obviously true they hardly needed saying.@
+br
+`But somewhere deeper, there was something I could never surrender.
+\
+`“She’s all alone.@ I can’t just leave her that way.@ I think that’s all there is to it.”@
+ld c,"tachi/cel_t06b",crossfade,400
+`“That’s a lie.@ No one throws away his own life for a reason like that.@ Answer me seriously, Tohno.@ I can’t accept it.”@ “No, that really is the reason.@ She’s always been alone.@ She never even knew how many wonderful things there are in the world.@ All this time, she’s been alone like an idiot.@ That’s too lonely.@ I can’t accept such a meaningless life.@ So—”
+\
+`I had only wanted her to know.@ The world was full of things to experience, and most of them were pointless and wasteful—but discovering them was part of the joy of being alive.@ It was something even a child understood—
+\
+`“I wanted to show her.@ She smiles as if happiness were some incredible miracle, and I wanted her to know it was something anyone could have.@ I wanted to take her out again and again, until she discovered pleasures great enough to blow all her stupid worries away.@ I wanted ordinary happiness to feel ordinary to her.@ I wanted to make her happy.”@
+br
+`So that every smile could be real.@ Because I loved Arcueid’s smile.
+\
+`“It’s only fair.@ For all the happiness she’s been denied, she deserves many times as much in return.@ The balance has to be set right.@ And keeping her from being alone is so incredibly simple.”@
+br
+`…@Yes.@ It was that simple.@ All she had to do was talk to someone and do the things she wanted to do.
+\
+`“Anyone could give her that.@ Anyone could make her happy.@ So you’re right—I probably don’t need to drive this wretched body so hard.@ Anyone in the world could keep her from being alone.”@
+br
+`…@I knew that.@ I understood it perfectly, but reason had nothing to do with it.
+\
+`“But I can’t.@ I can’t leave her to someone else, and I can’t let things end between us like this.@ She’s the only one I have now.”@
+br
+`Because Arcueid was the one and only person in this world I wanted to make happy.
+\
+`“I love Arcueid.”@ I loved every part of her, with all the love a man could give a woman.@
+br
+`“But even more than that, I want to be the one who makes her happy.@ My life means nothing beside that.@ I don’t want her to die like this.@ Right now, that’s all there is.”@
+br
+`…@Yes.@ That was all.@ Right now, Arcueid mattered more to me than I did—
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“Don’t be ridiculous.@ No one else could do that.@ Apparently, you’re the only person in the world capable of saying such things.”@ She sighed deeply and shrugged.@ “Ciel…”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Honestly, now I’m a little angry.@ Isn’t she already happy enough?”@ With the gentleness of someone surrendering something, she murmured the words under her breath.
+\
+br
+br
+`Then branches rustled outside the window.
+\
+playstop
+`“What—!?”@ “Don’t be alarmed.@ That was only her leaving.@ I’ve felt something oddly out of place for a while now.@ So that was it.”@ She glanced toward the window.
+\
+`“Coming here for you instead of Roa isn’t like her.@ Still, after hearing all that, she would deserve divine punishment if she chose Roa first.”@ “What…?”@ Did that mean Arcueid had been outside my window until a moment ago?
+\
+`“Why would Arcueid come to my room…?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Roa hurt you, so she came to make sure you were all right.@ She listened to our conversation—and now she’s gone to find him.”@
+br
+`Meaning she had gone to settle things with Roa.
+\
+`“She’s gone?@ Why would she…!?”@ “Isn’t it obvious?@ After hearing something like that, I would have done exactly the same.@ I envy her…@ and pity her just as much.”@ “But why—?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“You want to save her.@ She doesn’t want you involved.@ There’s only one answer.”@ She was perfectly calm, as though she had known this would happen.
+\
+`“Surely you can give up now.@ No matter how hard you try, you’ll never catch her.@ Leave the rest to us and give your body time to—”@ “Don’t screw with me!”@
+cl c,lshutter,400
+`In a burst of fury, I seized her by the collar.@ The effort alone made the world spin, but I no longer cared.
+\
+`“You knew this would happen, and you still made me tell you why?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“No.@ I never knew you saw her that way.@ This was my mistake.”@ Even now her expression did not change.@ She watched me clutching her collar with the same tranquil eyes.
+\
+`“…”@ This was getting me nowhere.@ Arcueid was gone.@ Blaming the woman in front of me was not what I needed to do.
+\
+`“I’m going after her.@ Take me there.”@ “Do you really think I’ll obey someone in your condition?”@ Of course I didn’t.@ “If you refuse, I’ll rape you right here until you’re a wreck.”@
+ld c,"tachi/cel_t06b",crossfade,400
+`“…”@ Her composure cracked.@ Her eyes flashed, sharp enough to pierce my heart.@ But it was too late.@ I could not let something like that frighten me now.
+\
+`“…”@
+cl c,crossfade,400
+`After a while, she gave what must have been her hundredth sigh.
+\
+ld c,"tachi/cel_t01b",crossfade,400
+`“Tempting as that proposal is, I suppose I have no choice.@ This was partly my fault, and I’m already aboard.@ I may as well stay until the final stop.”@ She peeled my hand from her collar and padded around beside me.@ “I’ll take you, so hold still.”@ “What—?”@
+cl c,lshutter,400
+`Before I could react, she gave a little grunt of effort and swept me into her arms.
+\
+`“Akiha would stop us if she caught us, so let’s leave the same way Arcueid did.”@ “Wait—what!?”@ There was a light tap, and then she leapt through the window with me still in her arms.
+\
+bg #000000,lcartain,800
+!w2000
+bg "bg/bg_01c",lcartain,800
+`…@We reached the school.@ Despite carrying me, she had sprinted here at full speed as easily as if she were running alone, without so much as losing her breath.
+\
+`“Can you walk?”@ “Somehow.@ I’m about to go kill or be killed by Roa.@ I can’t exactly do that in your arms.”@ “True enough.@ From here, you walk.”@ She lowered me to the ground.
+\
+`“…”@ The school building was deathly still.@ Once I went inside, there would be nothing left but killing him or being killed.@ I drew one deep breath and removed my glasses.@
+bg "bg/bg_01d",crossfade,1500
+br
+`Pain knifed through my head.@ Coupled with a body that would hardly move, it was nauseating enough to make me scream.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“This is bad…”@ Her face grave, she looked up into the night sky.@
+bg "bg/ima_02",crossfade,800
+`The moon was full.@ Its brilliant light flooded the school beneath it.
+\
+bg "bg/bg_01d",crossfade,400
+`“What’s bad?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“True Ancestors are called the people of the moon for good reason.@ The lunar cycle affects them profoundly.@ The same is true of Roa, a Dead Apostle sired directly by a True Ancestor.@ Tonight, he will be very nearly immortal.@ With the equipment I have, I may not be able to finish him.”@ My teeth ground together.
+\
+`Very nearly immortal.@ It made no difference to me.@ If only I could reach him—even if he pierced my heart the next instant—then I would drive my blade through his “death.”
+\
+`“It really is bright tonight.@ We’ll have trouble slipping in under cover of darkness.@ I normally love moonlit nights, but tonight is another matter.”@ She sighed.@
+br
+`…@A blue night, frozen beneath the lucid moon.@ Even the lines of death seemed to glow.@
+br
+`“That’s why I hate bright moonlit nights.”@ “Tohno…?”@
+cl c,crossfade,400
+\
+br
+br
+br
+br
+br
+br
+`A stab of pain made my brain creak.
+\
+`“Moonlight is so much weaker than sunlight that it makes the lines stand out even more.@ I prefer sunlight strong enough to drown them—or real darkness.”
+\
+br
+br
+br
+br
+br
+br
+`Another stab.@ Not the pain, but the truth of it made my brain grind.
+\
+`“Tonight is especially maddening.@ Everything looks so easy to kill.@ It’s like standing in a wasteland on the moon.”@
+br
+`But at least this way there was no chance I would overlook Roa’s “death.”
+\
+bg "bg/bg_01c",crossfade,800
+`I put my glasses back on, closed my hand around the knife, and started toward the school.
+\
+bg "bg/bg_03c",lcartain,800
+`We passed through the main gate.@ Walking itself was an ordeal.@ The school building seemed impossibly far away.
+\
+ld c,"tachi/cel_t01b",crossfade,400
+`“This is where we part.”@ The announcement came without warning.@ “Go on alone from here.@ I’ll take a separate route.”@ “What are you planning?”@ “My objective is to dispose of Roa too, you know.@ But this incarnation appears stronger than any of the others, so I won’t challenge him head-on.@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Once he has killed you and Arcueid, I’ll use the opening to execute him.”@ She said it plainly, her face utterly serious.
+\
+`“You mean that.”@ “Yes.@ I’ve indulged my personal feelings as far as I can.@ You’re fighting for her, aren’t you?@ I have reasons of my own, just as you do.@ So I can’t help either of you any further.”
+\
+`“I see…@ Thanks.@ We may never meet again, so I want you to know that I liked you.@ Sitting around with you and Arihiko, talking about stupid things—that was fun.”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Yes.@ To me, it was like a dream.”@
+cl c,lshutter,800
+\
+`She vanished into the school like a black shadow.@ “All right…@ time to go.”@ Driving my body onward through the dizziness that came with every step, I ran inside.
+\
+bg #000000,lcartain,1500
+bg "bg/bg_10c",lcartain,1500
+play "*6"
+waveloop se_02
+`…@The interior was scarred from end to end, as though a small tornado had raged through it and worked its way steadily upward.@ Arcueid and Roa’s battle had already begun.@
+br
+`“Upstairs…!”@ I spat the word and charged up the steps.
+\
+bg #000000,lcartain,800
+bg "bg/bg_11c",lcartain,800
+`“Hah…@ hah…@ hah…”@ I reached the fourth floor.@ Gouges covered every wall and continued along the hall toward the enclosed walkway joining the two school buildings.@ “Damn it!”@ Forcing my staggering legs to move, I ran toward it.
+\
+bg #000000,lcartain,800
+`I raced down the corridor and reached the corner leading onto the walkway.@
+br
+`That was the final stop.@
+br
+\
+bg "bg/bg_49",lcartain,800
+`Two figures faced each other in the middle of the walkway, holding their distance.@
+br
+`At the far end, just before the corridor of the opposite building, SHIKI stood at ease.@
+br
+`And in the center, Arcueid knelt on the floor, fighting for every breath—
+\
+`“Arcueid!”@ I broke into a run toward her.@ But before I could reach her—
+ld c,"tachi/ark_t23",lshutter,400
+`Her eyes flashed.@ Still on her knees, Arcueid glared at me.@
+cl c,crossfade,400
+bg #9c0120,crossfade,400
+bg "bg/bg_49",crossfade,400
+\
+`“What…!?”@ I couldn’t move.@ The instant our eyes met, my body turned to stone.@ Not a single part of me would obey.@
+ld c,"tachi/roa_t01a",lshutter,400
+`“How cruel.@ Your companion comes all this way, and you bind him with your Mystic Eyes.@ The least you could do is accept his kind offer to die beside you.”@ He chuckled with open delight.@ SHIKI—no, Roa—was laughing.@
+cl c,crossfade,400
+\
+`“Mystic Eyes…?@ Why?”@ Why would Arcueid turn something like that on me?@ I had made it.@ After everything, I had reached her in time— “Why?@ Why, Arcueid…!”@
+br
+`Arcueid looked away from me and turned back to Roa.
+\
+`She said nothing.@ Not one word to me.@ She only stared at the enemy before her, her face drawn with pain.
+\
+`“Why…@ why…?”@ Even my voice began to fail.@ It wasn’t the work of Arcueid’s Mystic Eyes.@ I had come all this way and could do nothing.@ Rage at my own helplessness drained the warmth from the body I had forced onward for so long.@
+br
+`Roa surveyed the two of us and burst into booming laughter.
+\
+ld c,"tachi/roa_t01a",crossfade,400
+`“So you’ve finally steeled yourself, Princess!”@ Roa advanced on Arcueid, one slow step at a time.@ She remained kneeling and did not move.
+\
+ld c,"tachi/roa_t02a",crossfade,400
+`“Magnificent, Shiki.@ The Princess means to die with me so that you can escape.@ Once, she would have terrified me—but as you are now, you’re no more than a vampire.@ None of the strength of a True Ancestor remains.@ What a pity.@ You should have surrendered to your desires.”@ “Silence!”@ Arcueid’s voice rang through the corridor.
+\
+`What was that?@ Unless my eyes were deceiving me, the space around Arcueid had begun to waver.
+\
+ld c,"tachi/roa_t05a",crossfade,400
+`“Ngh—”@ Roa halted.@ “Marble Phantasm.@ To think you still possessed that much power.@ You are royalty among the True Ancestors indeed.”@ He edged backward in fear.
+\
+`“But you cannot defeat me.@ I possess something you do not.”@ “…”@ Arcueid had stopped breathing.@ It was as if she had abandoned every other function of her body to gather strength—a balance so precarious it frightened me.
+\
+ld c,"tachi/roa_t04c",crossfade,400
+`“You understand, don’t you?@ I have experienced death itself.@ I know death, and you do not.@ That is the decisive difference between us.@ No living creature can experience death while it lives, of course.@ Only I, the Infinite Reincarnator, can know such a thing.”@
+br
+`…@The distortion around Arcueid continued to swell.
+\
+`“Human beings instinctively fear the unknown.@ Even transcendent beings such as the True Ancestors are no exception.@ No amount of mystery studied, no span of life endured, can give a living being the experience of death.@ You gain your immense power by rejecting death, but in doing so you create your own weakness.@ You flee death; I have accepted it.@ That is the essential difference between Arcueid Brunestud and Michael Roa Valdamjong.
+\
+ld c,"tachi/roa_t02a",crossfade,400
+`“I still live as a man within the age of man.@ You are only a ghost forsaken by the age.@ You have no right to pass judgment on me.”@
+br
+`With a crystalline crash, the windows along the walkway shattered.
+\
+`“I know death—the darkness, the void I have crossed scores of times!@ Death here is no more than a rite of passage to me.@ Even if this body perishes tonight, Roa will hatch once more into the human world.@ Why can’t you understand that dying with me here will accomplish nothing?”@ Roa flung both arms wide.@ Arcueid did not answer.
+\
+ld c,"tachi/roa_t01a",crossfade,400
+`“So be it.@ If you still insist on challenging me, I won’t stop you.@ But then you will pay the price of your thousand years.”@
+cl c,crossfade,400
+`Roa lowered his arms and sank into a fighting crouch.@ The distortion around Arcueid looked ready to burst.
+\
+`“Ah…”@ I couldn’t make a sound.@ Every instinct in my head was screaming that something was wrong, that this could not be allowed to happen—
+br
+`I had no reason and no proof.@ But I had seen too many deaths not to recognize which of them—Roa or Arcueid—stood closer to the edge.
+\
+`“S-sto…”@ No voice.@ It would not come.
+\
+br
+`Then—boom.@
+br
+`The sound split the air.@ The distortion surrounding Arcueid engulfed the entire walkway.
+\
+playstop
+monocro #00ffff
+bg "bg/bg_49",lshutter,400
+`The corridor began to pulse like a living artery.@ Windowpanes, walls, the passage and school building before Arcueid—everything was sliced into tens, hundreds, thousands of layers, countless as shredded vegetables, and buckled in rolling waves.
+\
+ld c,"tachi/roa_t03a",lshutter,400
+`“Ghh—!”@
+cl c,bshutter,400
+`Roa’s body vanished in an instant—warped, severed, compressed—until nothing remained but his ankles.
+\
+monocro off
+bg "bg/bg_49",lshutter,400
+`The displacement disappeared as quickly as it had come.@ It must have lasted only an instant.@ The walkway looked exactly as before, except for the pair of ankles left standing there.
+\
+!w1000
+br
+br
+br
+br
+br
+br
+br
+`But it refused to end there.
+\
+wavestop
+`“Ah…”@
+br
+`The ankles moved.@ They clacked across the floor toward Arcueid.@
+br
+`With every step, more of him sprouted from them: thighs, hips, a second leg, a torso, both arms.
+\
+ld c,"tachi/ark_t18",crossfade,400
+`“…”@ Arcueid remained motionless on her knees.@ Directly before her, Roa’s face bulged wetly from the end of his neck.
+\
+`“Arcueid—!”@ My cry never reached her.@ Fully restored, Roa swept his hand across her abdomen.@ It was as effortless as cutting a “line”@: no torn flesh, no flowing blood.
+\
+cl c,crossfade,800
+ld c,"tachi/roa_t04a",crossfade,800
+`“That was close.@ I chose tonight wisely.@ Had the moon been even partly waning, regenerating from my ankles would have been beyond me.”@ “…”@ “And you, Princess, cannot recover from this wound.@ My claws possess the same power as that man’s.”@
+br
+`Arcueid crumpled to the floor.
+\
+ld c,"tachi/roa_t02a",crossfade,800
+`“This is the power I acquired through the experience of death.@ Ironically, even I did not know how to use it until this boy showed me.@ After witnessing death so many times, giving shape to the death of a thing proved simple enough.”@
+cl c,crossfade,400
+`With that proud declaration, Roa kicked Arcueid’s body.@ She skidded across the floor toward me.
+\
+`“Arcueid!”@ My body moved.@
+br
+`Which meant the power of Arcueid’s Mystic Eyes was gone.@
+br
+`…@It meant Arcueid’s power was no longer working at all.
+\
+`“Ghh!”@ I tore the thought from my mind and caught her.
+\
+!w500
+bg #000000,crossfade,1500
+`The instant I held her, horror ran through me.@ Arcueid’s body was terribly cold.@ The scant warmth remaining in her was no more than a candle flame.@ Roa was still in front of us, but I no longer cared.@ All I wanted was to save her.
+\
+bg "event/ark_e07",crossfade,800
+play "*7"
+`“Arcueid!”@ I called her name.@ Her closed eyes flew open with the vigor of someone waking from sleep.@ “Ahaha…@ you saw me looking pretty pathetic.”@ With brightness patched together from scraps, Arcueid gave me a dreamy smile.
+\
+`“You idiot…@ What are you saying?@ Why—why did you—?”@ No words came.@ I wanted to give her something better, something worthy of her, but my mind had stopped working.
+\
+`How could I possibly stay calm?@ The cold of Arcueid’s body was already beyond hope.@ If I removed my glasses now, I knew I would see something even more hopeless.@
+br
+`No.@ I never wanted to see that.@ Never.
+\
+`“Why…@ why?@ Why…?”@ Those were the only words I could find.@ Furious with myself, I pulled her close and held her more tightly than I ever had before.@
+br
+`…@No strength answered my embrace.@ There was no strength of any kind left in Arcueid’s body.@ She could only smile, looking so very happy.
+\
+`“This is a lie!”@ Yes.@ None of this could be real.
+\
+`“Why?@ Why would you do this alone…?@ We were partners.@ We said we’d work together—I told you I’d help you to the very end…!”@ “Oh…@ right.@ We did, didn’t we?@ I guess…@ I forgot.”@ “Don’t forget something like that…!@ This makes me the worst kind of liar.@ I said I’d save you.@ I promised I would—and I couldn’t help you at all.@ Not even a little.”
+\
+`“No…@ that isn’t true, Shiki.@ You saved me so many times.@ So I don’t…@ need you to save me…@ anymore.”@
+br
+`She coughed.@ Blood spilled over her lips as she smiled through the pain.
+\
+`“So I thought…@ I should do at least this much to thank you.@ I’m glad I could protect you from Roa…@ at the end.”@ “…”@ My breath caught.@ Arcueid’s eyes no longer saw anything—not her own wound, not the fact that Roa was still alive.@
+br
+`…@Her time had already ended when she unleashed that final attack.
+\
+`“Ah…@ th-thank you.@ You saved me.”@ What a pitiful thing.@ I couldn’t even tell that lie properly.@
+br
+`…@The color faded from Arcueid’s eyes.@ The warmth of her body sank slowly toward nothing.
+\
+br
+br
+br
+br
+br
+br
+`Lose her.@ Was I going to lose her like this?
+\
+`“Ar…@ cueid.”@ “Wh…@ at?”@ “Drink my blood.@ That will restore your strength, won’t it…?”@ I shouted it without thinking.@ “…”@ Arcueid gave no answer.@ She only made the faintest movement, so slight I might have missed it.@
+br
+`She shook her head.
+\
+`“Why!?@ Are you still afraid?@ Listen to me.@ You once asked whether I could eat birds or fish if they were as intelligent as I was.@ I would.@ I’d have to, or I couldn’t live.@ Taking something else so you can survive is natural, isn’t it…?”@ Those were Arcueid’s own words.
+\
+`And yet she looked at me with sorrowful eyes and shook her head.
+\
+!w1000
+`“I don’t…@ like what-ifs.”@ A refusal—and the phrase had always been mine.@ Arcueid was the one who said she liked what-ifs.@ She had said they felt as though some small salvation might exist inside them.
+\
+`“Is…@ that so?@ I like them.@ Even if they sound like sophistry, they still feel as though…@ somewhere, there might be…”@ Salvation.@ I wanted to finish the sentence, but my throat shook too violently to form the words.
+\
+`“That’s right…@ But there’s something I want even more now.”@ I asked what it was, my voice trembling.@ “I want…@ Shiki to kiss me.”@
+br
+`Was that all?@ Was something so simple truly enough?
+\
+`I pressed my lips to hers.@ It was neither sweet nor tender like the time before.@ It was only a kiss without warmth—my lips resting against lips gone cold.@
+br
+`Afterward, she smiled with pure, unfeigned joy.
+\
+`“I’m glad.@ I always dreamed of doing that.”@ “You dreamed about strange things.”@ “Yes…@ and now I’m happy.@ It was such a little thing, but it felt wonderful.@ I’ve lived for such a long time, yet I’ve never known a moment as happy as this one.”@
+br
+`And so—
+!w1000
+br
+`“I think I’d be all right with simply fading away now.”
+\
+`She whispered the words, and all warmth left her body.
+\
+playstop
+bg "bg/bg_49",crossfade,1500
+`“Ar…@ cueid…?”@ There was no answer.@ Her body was still here, still so soft in my arms.@ My ears still remembered her voice perfectly.@
+br
+`Would none of those things ever happen again?@ Not once, for all eternity?
+\
+`“Ah…”@ What had I been doing?@ I had wanted to make her happy.@ I had wanted to show her so many things, take her to so many places.@
+br
+`I had wanted to stay with her forever.@ Now that wish could never come true.
+\
+!w750
+`“…”@ She had done it to me.@ Even for her, this was too cruel.@ She had gone off and died without warning, all by herself, before I could find a single worthy thing to say.@ After this, I would never forget her for as long as I lived.
+\
+`I would never forget this death.@ I would never forget this terrible stillness inside me, so complete that I wondered if I had lost my mind.
+\
+br
+`A hard footstep clicked against the floor.@
+br
+`I heard the man who had watched in silence begin to approach.@ “Are you finished, Shiki?”@ “Yeah.@ It’s over.”@
+br
+`After answering, I turned to face my enemy.
+\
+bg #000000,crossfade,800
+bg "bg/bg_49",crossfade,800
+play "*9"
+`We confronted each other in the moonlit corridor.@ Roa had not moved from the place where she had been.@ Perhaps the fact that he had watched in silence until now was merely the leisure of one who knew himself overwhelmingly superior.
+\
+ld c,"tachi/roa_t01a",crossfade,400
+`“I never expected you to survive.”@ Roa addressed me as casually as though nothing had happened.@
+br
+`I removed my glasses and raised the knife.
+\
+`“Perhaps a man who sees death becomes unusually adept at evading it.@ It has nothing to do with the strength of his life force.@ Still, common people would call that not knowing when to die.”@ “Neither of us knows when to die.@ We’ve both failed at it once already.”@ “True,”@ Roa said with an amused laugh.
+\
+`“Those who return from death gain an understanding of it.@ You and I are rarer still: our experiences produced extraordinary abilities.@ I endured death seventeen times before reaching this point, while one was enough for you.@ Frankly, it must be a difference in talent.@ I confess I’m curious what power I might have acquired had I reincarnated into you.”@
+br
+`That grating voice, so swollen with confidence.@ Merely hearing it made my head ache.
+\
+`“I have two questions for you—and one thing to teach you.”@ I forced the words through a mind rapidly filling with pain.@
+ld c,"tachi/roa_t04c",crossfade,400
+`“Oh?@ Very well.@ Speak.”@ Secure in his absolute advantage, Roa answered with evident delight.
+\
+`“The first question is the one that matters.@ Why did you kill Arcueid?”@ “Why?@ She intended to kill me.@ It was only natural that I kill her in return.@
+ld c,"tachi/roa_t01a",crossfade,400
+`“Admittedly, I had no desire for a Princess reduced to that state.@ As I am now, I could certainly have dissected her alive.@ But there was no value in absorbing a True Ancestor no better than an ordinary vampire.@ I judged her not worth absorbing and disposed of her instead.@ I, too, regret that matters ended this way.”@ The enemy twisted his mouth into a chuckle.
+\
+`My head hurt.@ Quickly.@ I had to kill him—now.@ I could not endure another second in which this thing continued to “exist.”
+\
+`“Now, what do you intend to do?@ Surely you don’t mean to fight me with that body.@ Resistance is meaningless, Shiki.”@
+br
+`…@No one knew that better than I did.@ Dizziness swept over me, and I fell to my knees.@ Even without enough strength to rise again, I kept staring.
+\
+bg "bg/bg_49b",crossfade,1500
+!w750
+ld c,"tachi/roa_t05a",crossfade,400
+`“Enough.@ Seeing my ‘death’ is useless if you cannot reach it.@ I hold your ability in the highest regard, Shiki.@ Hmm…@ it seems SHIKI’s personality is fading now.@ Having avenged his grudge against you, perhaps I incline more toward Roa than SHIKI at present.@ No matter.@ Such details are trivial.”
+\
+br
+`Roa came closer, each step ringing against the floor.
+\
+ld c,"tachi/roa_t01a",crossfade,400
+`“This power is magnificent, isn’t it, Shiki?@ Rejoice.@ You and I may be the only people in the world who possess the Mystic Eyes of Death Perception.@ It would be a pity to lose so rare an ability.@ More importantly, we are alike.@ We can understand each other as no one else can.@ I could ask for no more formidable partner.”
+\
+`“You want me to join you?”@
+ld c,"tachi/roa_t04c",crossfade,400
+`“No.@ I am not asking you to join me.@ I will make you mine.@ Your wishes mean nothing; indeed, they would only interfere.@ Rest easy.@ Once I have drained your blood and stolen your soul, I will elevate you into a being capable of wielding your power without the slightest hesitation.”
+\
+br
+br
+br
+br
+br
+br
+`My teeth ground together.@
+bg #9c0120,crossfade,400
+bg "bg/bg_49b",crossfade,400
+\
+`“One more question.@ Do you see lines or points?@ No—let me make it simpler.@ You only see these things on living creatures, don’t you?@ Nothing else.”@ “What?@ Of course.@ A thing without life has no life to begin with.@ The ‘place’ life comes from can exist only in something alive.”@ “I thought so.@ Now it all makes sense, vampire.”@
+br
+`I tightened my grip on the knife.@ Pain had conquered my mind.@ There was only one thing left in my sight.
+\
+ld c,"tachi/roa_t04a",crossfade,400
+`“Strange.@ Those are hardly suitable last words, but no matter.@ Our conversation is over.@ I still have that Church woman to find and dispose of.@ Rejoice, Shiki.@ Once I have made you my thrall, she will be your first victim.”@
+cl c,lshutter,800
+br
+`Roa was coming.@ My distorted vision could no longer make out his shape.
+\
+`“You and I don’t see the same thing, SHIKI.”@
+br
+`Deep inside my head, a switch clicked on.
+\
+`“All you see is life.@ You understand nothing about death.@ That’s why you couldn’t kill me, and why you could only kill a woman already at death’s door.”@
+br
+`My brain burned white-hot.@
+br
+`“What…?”
+\
+`“If you truly saw death, you couldn’t stay sane.@ All you recognize are the places that keep things alive.@ If you saw death—there’s no way you could remain standing.”
+\
+br
+br
+br
+br
+br
+`The nearest comparison was a world on the moon: a wilderness where everything had died.@ Every visible thing bore a fatal flaw.@ The whole world was made of things that would vanish at a touch.
+\
+`“You…@ what are you—?”@ “To see the ‘death’ of things is to be cast into the knowledge that everything in this world is uncertain and fragile.@ The ground may as well not exist.@ The sky looks ready to fall at any moment.”@ “What are you talking about?@ What does any of that mean?”
+\
+`Roa’s voice had begun to shake.@ Of course it had.@ He could not understand even a fraction of what I was saying.@
+br
+`That proved it: his eyes and mine only resembled each other.@ In truth, they were entirely different things.
+\
+`“Stop.@ Don’t look at me with those eyes!”@
+br
+`Fear entered Roa’s voice.@ He had said it himself: human beings instinctively fear the unknown.
+\
+`“You don’t know the illusion that the whole world might die one second from now.@ That is what it means to see death.@ These eyes aren’t some wonderful power I could ever boast of, the way you do.”
+\
+br
+br
+br
+br
+br
+`Back then, even taking a step had terrified me.@ If I had never met that person, I would have lost my mind long ago.
+\
+`“That’s where you’re mistaken, vampire.@ Life and death stand back to back.@ They can never, for all eternity, look each other in the face.”@ “I told you—stop looking at me with those eyes!”@ His footsteps rushed toward me.@ But I was many times faster.
+\
+br
+br
+br
+br
+br
+br
+`“I’ll teach you.@ This is what it means to kill something.”@
+!w1000
+\
+`With that, I drove the knife into the corridor’s “point.”
+\
+monocro #ff0000
+bg "bg/bg_49b",crossfade,400
+`In that instant, every line veining the walkway writhed.@
+br
+`“What—!”@ Roa’s cry vanished beneath the roar of collapsing debris.
+\
+monocro off
+bg #000000,crossfade,400
+`The walkway had quite literally been killed.@ Reduced to a mass without meaning, it disintegrated and fell apart in an instant.@
+br
+`For Roa, it must have been a complete surprise.@
+br
+`Caught in the collapse and crushed beneath the rubble, he plunged toward the ground below.
+\
+`“…”@ The entire walkway had fallen away before me.@ Enduring the agony in my head and my failing body, I turned toward the stairs.@
+br
+`“…”@ I passed Arcueid’s remains and hurried down to the courtyard.
+\
+bg "bg/ima_02",lcartain,800
+playstop
+`…@Beneath the moonlight, the courtyard where the walkway had stood was now a sea of rubble.@ Something shifted and rattled at its center.@ “…”@ He truly did not know when to die.@ Dragging a body on the verge of collapse, I made my way toward him.
+\
+bg #000000,lcartain,1500
+`…@It was almost impressive.@ Roa’s lower body had ceased to exist, yet the upper half crawling free of the rubble continued functioning as if that were irrelevant.@ His life force might almost have deserved my sincere respect.
+\
+`“What…@ was that?”@ Roa whispered, trembling.@ I picked my way over the rubble until I stood before him.
+\
+`“Shiki…”@ Roa raised his face toward me.@ His eyes held so much hatred it seemed ready to spill from their sockets.
+\
+`“You…@ monster.”@ The words were thick with loathing.@ “Look who’s talking.”@ I stopped in front of him.
+\
+`Roa’s “death”@ lay just to the right of his heart.@ I gave the knife a light push.@ It passed through with the feeling of piercing paper.@ That sensation was “death.”@
+br
+`“Ah…”@
+br
+`The brief sound escaped Roa.@
+!w500
+`…@He, too, had experienced death.@ He must have known that sensation well.@ “It isn’t frightening, is it?@ You’ve traveled this road many times before.@ There is only one difference.”@
+!w1000
+\
+br
+br
+br
+br
+br
+br
+br
+`“This time, you won’t return.”@
+!w1000
+\
+bg "bg/ima_02",crossfade,1500
+`I pulled out the knife and turned my back on him.@ Roa had not yet completed his death.@ Like Arcueid, he had lived so long that the process took a little more time.@
+br
+`“Hah…@ ah…”@ My consciousness dimmed.@ If my body was at its limit, my mind had passed beyond it.@ Arcueid had warned me not to force myself to see the death of minerals.@ Something about the blood vessels in my brain burning out.
+\
+`“…”@ None of that mattered.@ If this was all it took—if the price was merely burning my mind to ruin—I should have finished Roa much sooner.@
+br
+`Then you would never have ended up like that—
+\
+bg #000000,crossfade,800
+bg "bg/bg_02b",crossfade,800
+quakey 3,100
+play "*4"
+`“What…!?”@ I was down.@ Somehow, I was lying on the ground.@ Pain flared in my ankle.@ When I looked back, Roa was there, dragging himself toward me on the remains of his upper body.
+\
+`“Y-you…@ you…!”@ With bloodshot eyes, he hauled himself over my fallen body.
+\
+`“Van…@ vanish…@ I’m…@ vanishing—”@ His blood-drenched arms wound around my neck.@ “What…@ what did you do?@ Why?@ How did you kill my death—d-deathdeathdeaththe—did, did, dididid—?”@ His mouth opened like the blade of a saw and descended toward my throat.
+\
+`“I won’t vanish…@ You and I are con…@ nected.@ If I pass into you, the chain of my existence still won’t break…!”@
+br
+`His fangs pierced my throat.
+\
+bg "bg/ima_12b",lshutter,400
+wave se_07
+playstop
+`“Ah…”@ Then he was gone.@ Roa’s body was hacked to pieces in a single instant.@
+!w1000
+\
+bg "bg/bg_02b",crossfade,400
+ld c,"tachi/cel_t01b",lshutter,400
+`“There.@ Now I’m the one who killed him.”@ She stood there with a sword in her hand, breathing hard.@ “What…?”@ I couldn’t quite understand what she meant.
+\
+`“I said I killed Roa.@ Taking a life is wrong, no matter what the victim may be.@ You must never cross over to this side.@ That’s why I killed him.”@ She planted both hands on her hips and delivered the declaration with tremendous authority.
+\
+`“That’s sophistry.”@ “Perhaps.@ But I think a gentle lie can be worthwhile.@ Even if it’s hypocritical, doesn’t it feel as though some small salvation might remain?”@ “…”@
+br
+`Those words were familiar.@ They echoed what Arcueid had said when I told her not to talk about what-ifs.
+\
+`“Yes…@ I suppose so.@ If there might still be…@ some small salvation left somewhere…”@
+br
+`What happiness that would be.
+\
+cl c,crossfade,1500
+`“But never mind that!@ Are you all right?@ Did he bite you?”@ She knelt to tend me where I had fallen.@
+br
+`“…”@
+br
+`My consciousness receded.@ My brain pleaded for rest, refusing to function for another moment.
+\
+bg "bg/ima_01",crossfade,800
+`“Shiki…@ Shiki, come on…!”@ Her voice drifted farther and farther away.
+\
+`With my eyes still open and the glasswork moon hanging overhead, my consciousness broke off completely.
+\
+br
+br
+br
+br
+br
+`Just before it did, I thought how much it felt like the snap of a television being switched off.
+\
+bg #000000,notrans,0
+!w3000

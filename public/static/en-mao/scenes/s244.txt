@@ -1,0 +1,26 @@
+monocro off
+wavestop
+play "*3"
+bg "bg/bg_06a",crossfade,800
+wave se_03
+`The instant lunch break began, a certain boy who hadn’t attended a single class all morning finally showed up.@
+ld c,"tachi/ari_t05",lshutter,400
+`“Yo, Tohno!@ Let’s eat!@ Lunch, lunch!”@ Whatever had him so delighted, Arihiko was bursting with energy.
+\
+`“Obviously I’m going to eat, but you’re in a suspiciously good mood.@ What happened, Arihiko?”@ “Yeah.@ I just asked Ciel if she wanted to have lunch with us, and she turned me down.”@ “……”@ Strange.@ He clearly meant Ciel, but apparently this friend of mine enjoyed being turned down.
+\
+`“Tell me something, Arihiko.@ Have you always been into that?”@
+ld c,"tachi/ari_t02",crossfade,400
+`“No, no, hear the whole story.@ I asked her why not, and she said, ‘Not if Tohno is coming too.@’ Wahahahahahaha!@ Isn’t that priceless, Tohno?”@ “……”@ Strange.@ Why had I been friends with this worthless excuse for a human being since middle school?
+\
+`“Boy, she really hates you, Tohno!@ I’m so happy to have one less rival that lunch is on me today!”@ Arihiko gleefully pounded me on the back.@ “…@I’m glad you’re paying, but was she angry with me?”@
+ld c,"tachi/ari_t01",crossfade,400
+`“Hm?@ Let me think.@ She asked, ‘Will Tohno be there too?@’ When I nodded, her face turned red.@ Perchance her cheeks flushed with rage the instant she heard your name.”@ “Perchance?@ Since when do you talk like that, Arihiko?”@ “Who knows?@ Perchance not.”@
+cl c,crossfade,800
+\
+`Arihiko was not a reliable source.@ Ciel had certainly seemed angry that morning, but I had no idea what I could have done to offend her.@ “…@It’s not as if she could tell what I dreamed about.”@ If she had worked that out from our brief conversation, she had a brilliant future as a detective.
+\
+ld c,"tachi/ari_t01",crossfade,400
+`“Quit muttering and come on, Tohno.@ The cafeteria has half as many seats as it has customers.”@ “Ah—no, I…”@
+br
+cl c,crossfade,800

@@ -1,0 +1,23 @@
+play "*3"
+wavestop
+bg "bg/bg_04",notrans,0
+`“Actually, our uniform might suit her better.@ Akiha looks quiet, but she has a will of iron, so there’s no reason to force herself into something so prim and proper—”@
+ld c,"tachi/aki_t03a",crossfade,400
+br
+`“—Or rather, a brighter outfit now and then might help soften that impression.”@
+cl c,crossfade,400
+`That was close.@ Much safer not to let careless opinions escape my mouth.
+\
+ld r,"tachi/ari_t01",crossfade,400
+`“Huh.@ I guess so.@ A beauty like Akiha could probably make even our dowdy blazer look good.”@
+ld l,"tachi/aki_t04a",crossfade,400
+`“Oh?@ You dislike this school’s uniform, Mr.@ Inui?”@ “Not dislike, exactly.@ It’s just ordinary.@ No charm, no excitement.@ The girls here don’t have enough personality to stand out through all that uniformity, so they end up looking exactly the sa—mwaagh!?”
+\
+quakex 3,100
+ld l,"tachi/cel_t04",crossfade,400
+`“Oh, I’m sorry, Inui.@ My arm slipped.”@ Ciel smiles sweetly after driving an elbow at a sharp angle into Arihiko’s ribs.@
+br
+`…@This is depressing.@ I still have nearly ten minutes of this stomach-destroying ordeal to survive.
+\
+playstop
+bg #000000,tshutter,800

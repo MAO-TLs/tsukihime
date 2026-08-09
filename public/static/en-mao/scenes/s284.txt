@@ -1,0 +1,337 @@
+phase "bg/ima_08",l,cel,10a,10
+bg #000000,notrans,0
+bg "bg/bg_40a",bcartain,1500
+play "*2"
+`“—!”@ I fling off the sheet and bolt upright, my upper body snapping up like a spring-loaded automaton.@
+br
+`“Wha—”@ I wipe the sweat from my brow.@ Whatever I dreamed must have been terrible; my whole body is drenched.@ Yet I don't remember anything nightmarish enough to leave me like this.@ Maybe it was the book I read before bed.@ I have a vague sense that I saw something unpleasant, but I can't recall it.
+\
+`…@Well, some famous doctor said dreams are destined to be forgotten.@ There's no point straining myself to remember.@
+br
+`Knock, knock.@
+br
+`A quiet, diffident knock at the door.@
+ld c,"tachi/his_t01",lshutter,800
+`“Good morning, Master Shiki.”@ “Mm.@ Morning.”@ I return the greeting and climb out of bed.@ Hisui lays the clean uniform in her hands on the desk, then glides quietly back toward the door.
+\
+`“Please come to the dining room once you have dressed.”@ “I will.@ Thanks, as always.”@ With a soft acknowledgment, Hisui leaves the room.@
+cl c,lshutter,800
+`“…@Huh?”@ Perhaps seeing Hisui let me relax, because I've forgotten what I was thinking about moments ago.@ “…@This is bad.@ Was I always this forgetful?”@ Puzzling over myself, I change into my uniform.
+\
+`The knife lies on the desk: the short blade said to be my father’s keepsake, which I’ve carried in my pocket for the past several days.@
+br
+`—I probably won’t need it again.@
+br
+`“…@Right.@ They're gone now.”@ Arcueid and Ciel.@ The swarm of beasts called Nrvnqsr, and the vampire called Roa.@ The whole lot of them have vanished somewhere together.
+\
+`“Maybe that’s what I forgot.”@ There’s nothing special waiting for me at school.@ Without Ciel there, it won’t be a particularly enjoyable place.@ But it is the ordinary life Shiki Tohno has always lived.@ I only lost what I had newly gained.@ Everything that was mine from the beginning remains exactly as it was.
+\
+`“—Haa.”@ If I think of it that way, I can go on without Ciel.@ I can’t forget her, but I can go on.@ With that lie to myself, I open the door.@
+br
+`All right.@ Time to go to school, bright and cheerful as ever—
+\
+bg #000000,lcartain,1500
+playstop
+bg "bg/bg_01a",lcartain,1500
+`Seven fifty.@ The front gate is overflowing with students on their way to class.@ Perhaps because it’s Saturday, most of them arrive looking cheerful.@
+br
+`“…”@ I walk among them with the only gloomy face in sight.@ No matter how fiercely I try to encourage myself, the fact that Ciel is gone still bears down on my shoulders—
+\
+`“—What?”@ For a moment I doubt my own eyes, but there is no mistake.@ Ciel is right ahead of me, trotting cheerfully toward school.@ “C-Ciel—!?”@ At my involuntary shout, she turns.@
+ld c,"tachi/cel_t01a",lshutter,400
+`“Oh, Tohno.@ Good morning.”@ Ciel gives me a neat little bow.
+\
+`“What do you mean, good morning?@ I thought you went home…!?”@
+ld c,"tachi/cel_t03",crossfade,400
+`“No.@ As if I could leave you behind and go home.”@ Ciel says it with a faint smile.@
+br
+`There was no way she could leave me behind and go home.@
+br
+`Even with students swarming all around us, I feel my face burst into flame.
+\
+`“Um…@ does that mean—”@
+ld c,"tachi/cel_t01a",crossfade,400
+`“Yes?@ What is it?”@ “Can I…@ take that exactly the way it sounds?”@
+ld c,"tachi/cel_t04",crossfade,400
+`“Yes.@ I’ll leave that to your imagination, Tohno.”@ Ciel nods, her smile perfectly unclouded.
+\
+`“—!”@ My breath catches.@ Not from the strain and tension I’ve suffered until now, but because I’m so happy my chest has gone hot.@ If no one else were here, I’d be deranged enough to scream Yes!@ at the top of my lungs.
+\
+`“Ciel!”@ I seize her hand.@ “Then you really aren’t going anywhere!?@ You’re staying here at school!?”@
+ld c,"tachi/cel_t08",crossfade,400
+`“Honestly, if I stayed at school forever, I’d become an old woman.@ I’m a third-year; I graduate in four months.”@ “But you’re really staying, right?@ You won’t suddenly leave again like yesterday?”
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“Yes.@ Now that it’s come to this, I’ll see it through with you.”@ “Yeeeees!”@ I release her hand and somehow restrain the force surging through my whole body.@ I feel like running lap after lap around the athletic field.@ I’m as giddy as if I’d won first prize in the lottery.
+\
+ld c,"tachi/cel_t07a",crossfade,400
+`No—forget the lottery.@ I want to laugh many times harder than any prize could ever make me.@ I'm so beside myself I can barely stand still.@
+ld c,"tachi/cel_t05",crossfade,400
+`“Tohno, we’d better go or we’ll be late.”@ “—Oh, right.@ Then I’ll see you at break, Ciel!”@
+cl c,lshutter,800
+`I wave to Ciel and head into the school ahead of her.@ Grinning helplessly to myself, I break into a full sprint for my classroom.
+\
+bg #000000,lcartain,1500
+!w1000
+play "*3"
+bg "bg/bg_06a",crossfade,400
+wave se_03
+br
+`—First period ends.@
+!w2000
+`There are only ten minutes before the next class.@ “—All right.”@ I rise to search the third-year classrooms for Ciel, but before I can leave my seat—
+ld c,"tachi/cel_t03",lshutter,400
+`“Oh, are you going somewhere, Tohno?”@ —Ciel reaches me first.
+\
+`“I was about to come find you.@ You’re always the one who visits me, so I thought I’d return the favor for once.”@
+ld c,"tachi/cel_t02",crossfade,400
+`“I see.@ That makes me happy, but you don’t even know which class I’m in, do you?@ It’s Class 3-B, so please remember.”@ “Huh.@ So you really do attend lessons.@ I’m impressed—I thought you only drank tea on the tea ceremony club’s budget.”
+\
+ld c,"tachi/cel_t04",crossfade,400
+`“Yes, I’m somehow managing to keep up with my classes—”@
+ld c,"tachi/cel_t10a",crossfade,400
+`“Wait—did you really think that was all I did!?”@ “—Urk.”@ I can’t honestly claim that I didn’t, which leaves me feeling guilty.
+\
+`“Ah, sorry.@ But you told me before that the tea ceremony club had no members.@ Don’t tell me this school never had a tea ceremony club at all?”@
+ld c,"tachi/cel_t05",crossfade,400
+`Ciel abruptly falls silent, as if someone has dropped a piece of ice into her mouth.
+\
+`“…@Wait.@ Does it really not exist?@ Is that tea room just an unused Japanese-style room?”@
+ld c,"tachi/cel_t12",crossfade,400
+`“—Goodness.@ I’m afraid I haven’t the faintest idea what you’re talking about.”@ Ciel turns to the window in the least convincing display of innocence imaginable.
+\
+`“…@Fine, whatever.@ No matter what mischief you get up to, you aren't a bad person at heart.@ I'm sure you haven't hurt anyone.@ But can your hypnotic suggestions really do things like that?”@ “As I said, Tohno, I have no idea what you're talking about, so I cannot answer.”@ “—”@ Still seated at my desk, I stare steadily up at Ciel.@
+br
+`The silence lasts nearly a minute.
+\
+ld c,"tachi/cel_t09",crossfade,400
+`“…@You're surprisingly persistent, Tohno.”@ “Not really.@ I was only noticing that your eyes are blue.”@ “…”@ Ciel finally sighs in surrender.
+\
+ld c,"tachi/cel_t08",crossfade,400
+`“For the record, hypnotic suggestion isn't nearly that convenient.@ Its fundamental principle is not to change how someone perceives something, but to divert that perception.@ So if I told you, ‘Tohno loves curry,’ but you truly hated curry, the suggestion wouldn't take.”@ “…@Really?@ So you can't suggest something the person fundamentally rejects?”
+\
+`“That's right.@ Although there are any number of ways I could still make you eat curry.@ Instead of suggesting that you eat it because you love it, I could suggest that you'll die unless you do—”@ “I see.@ Then I'd have no choice even if I hated it.@ So it can do anything after all.”
+\
+ld c,"tachi/cel_t03",crossfade,400
+`“No.@ Substituting one meaning for another is extremely difficult.@ It won't work unless the circumstances are very carefully prepared.@ Many people are resistant to suggestion as well.@ About all I can manage is making people ‘never question my presence.@’”@ …@Right.@ Arcueid told me that before.
+\
+`“—I see.@ By the way, Ciel.”@
+ld c,"tachi/cel_t01a",crossfade,400
+`“Yes?@ Why so solemn all of a sudden?”@ “Well, you keep using curry as your example.@ Do you happen to like it?”@
+ld c,"tachi/cel_t05",crossfade,400
+br
+`Ciel keeps smiling and says nothing.@ Her expression is so delicately poised between denial and admission that I can’t tell which it is.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“Oh, it's nearly time.@ I'll come back after school, but how are you feeling, Tohno?@ Can you move both arms properly?”@ “Yes, they don't even hurt anymore.@ You're the reason I was able to come to school today.”@ I press my palms together and bow to her in mock worship.
+\
+`“I see.@ What about your headache?@ You were in terrible pain last night.”@ “That’s fine too.@ As long as I’m wearing my glasses, there’s never much of a problem.”@ “Good.@ I’m relieved to hear it.”@
+cl c,lshutter,800
+`Ciel pads toward the corridor.
+\
+`Then she stops dead, as if something has occurred to her, and spins back toward me.@
+ld c,"tachi/cel_t07a",lshutter,400
+`“I forgot to ask.@ How are you feeling otherwise, Tohno?”@ “—I feel great.@ I mean…@ now that you're here, all my worries are gone.”@
+ld c,"tachi/cel_t04",crossfade,400
+`“I'm glad.@ Then if anything strange happens, please come to me without hesitation.@ Here's the telephone number for my room.”@ “—What?”@
+cl c,lshutter,400
+\
+`Ciel hands me a scrap of paper bearing her telephone number, then hurries out of the classroom.@
+br
+`“…@Her telephone number…?@ This?”@ I stare blankly at the note.@ I'm sure Ciel only gave it to me because she's worried about what happened last night, but…
+\
+`“…@This is incredible luck.@ But is it really all right for everything to go this smoothly?”@ …@I'm pathetic.@ Perhaps I was born too incurably ordinary to accept my own happiness without suspicion.
+\
+bg #000000,lshutter,1500
+!w1000
+bg "bg/bg_06a",lshutter,1500
+wave se_03
+`Homeroom ends and the classroom erupts into noise.@ It isn’t even noon yet.@ Saturday afternoons are always lively: students heading straight home mingle with those eating lunch at their desks before club activities.@
+br
+`I rise, pack my things, and wait for Ciel.@ Then Arihiko—who knows when he arrived at school—approaches wearing a suspicious grin.
+\
+ld c,"tachi/ari_t05",lshutter,400
+`“Let's go out, Tohno.”@ …@No preamble, no explanation.@ He simply hurls his desire straight at me.
+\
+`“…@You're unusually direct today.@ Did something bad happen?”@ “Noooothing.@ I just happened to feel like hanging out with my best friend today, that's all.”@
+br
+`…@Painfully suspicious.@ “No.@ Someone stood you up, didn't they?@ I'm going home with Ciel today, so I have no time to listen to you complain.”
+\
+`“Ciel?@ You mean Ciel?”@ Arihiko’s eyebrows leap upward.@
+br
+`“…@Yes, but…@ Arihiko, you remember her!?”@ “What kind of question is that?@ Ciel is the girl of my dreams.@ Like I'd ever forget her.”@ He answers at once, as if nothing could be more obvious.@
+cl c,crossfade,400
+`“…”@ Right.@ Ciel has returned to school, so everything else has returned to normal too.
+\
+ld l,"tachi/ari_t02",crossfade,400
+`“Oh, there she is!”@ Arihiko points toward the classroom door, delighted.@
+cl l,crossfade,400
+ld r,"tachi/cel_t01a",lshutter,400
+`“Thank you for waiting.@ Hello to you too, Inui.”@ Ciel bows politely.@ “Shall we go home, then?@ Or would you like to stop by the tea room?”@ “Let’s do that.@ If we leave now, we’ll have to part at the front gate.@ I want to talk to you more today, so we could have some tea and—”
+\
+quakex 2,250
+`“—!?”@ S-Something suddenly slams into my back—
+ld l,"tachi/ari_t02",crossfade,400
+`“Wham.”@ “…@That was you, Arihiko.”@
+ld l,"tachi/ari_t03",crossfade,400
+`“Yes, me.@ I don’t usually interfere in this kind of thing, but that was so awful I have to say something.”@ Arihiko gives me an exasperated look, then throws one Ciel’s way for good measure.
+\
+ld r,"tachi/cel_t12",crossfade,400
+`“?”@ Ciel and I glance at each other.
+\
+`“Listen, you two.@ Why would you waste a precious Saturday half-day like that?@ Forget the tea room—the whole city is full of better places to have fun!”@ With a grand flourish, Arihiko points out the window.@
+ld r,"tachi/cel_t01a",crossfade,400
+`“…@Um, where exactly?”@ “Outside the window is…@ outside, I suppose.”@ I offer Ciel my best attempt at an answer.@
+cl r,crossfade,400
+\
+br
+`And then—
+quakex 2,250
+`Arihiko hits me again.
+\
+ld l,"tachi/ari_t04",crossfade,400
+`“Tohno, your stupidity is rubbing off on Ciel!@ Listen.@ It's Saturday.@ It isn't even noon yet.@ And we're students!@ With all those conditions aligned, how can going into town to have fun not even occur to you!?”@ “—Mm.”@
+br
+`Idiot.@ Of course it occurred to me.@ It did, but……
+\
+ld r,"tachi/cel_t01a",crossfade,400
+`“?”@ I steal a glance at Ciel.@ She seems more the type to take it easy in a park than go out on the town, so I can never quite bring myself to invite her.@ If I asked her to go out with us now, I'm sure she would turn me down—
+\
+ld r,"tachi/cel_t04",crossfade,400
+`“All right, then.@ Why don't the three of us go out?”@ “…@Ciel?”@
+ld r,"tachi/cel_t03",crossfade,400
+`“Why not?@ There’s nothing left for me to worry about, and I’m sure going out with you and Inui will be fun.”@ “Oh—well, if you want to, then I’d be happy to.”@
+ld r,"tachi/cel_t04",crossfade,400
+`“Good.@ That’s all right with you too, isn’t it, Inui?”
+\
+`“—”@ Arihiko nods furiously.@ He clearly never imagined things would turn out this way either.@
+cl l,crossfade,400
+\
+ld r,"tachi/cel_t01a",crossfade,400
+`“Then it’s settled.@ What shall we do about lunch?@ Would you both like to eat at home first, or shall the three of us eat together?”@ “We eat together at school all the time.@ Let’s save the money we’d spend on lunch for having fun.@ Arihiko and I don’t have much to spare.@ Right, Arihiko?”@
+ld l,"tachi/ari_t03",crossfade,400
+`“…@Uh…@ I could borrow money from my sister.”@
+br
+`…@Apparently Arihiko is determined to eat out with Ciel.
+\
+`“—What about you, Ciel?@ Is there anywhere you’d like to eat?”@
+ld r,"tachi/cel_t11",crossfade,400
+`“No, I'd rather not…@ Eating in front of other people is a little…”@ “Right, you eat more than most people.@ I suppose that gets expensive.”@
+ld r,"tachi/cel_t10d",crossfade,400
+`“Th-That’s not why!@ How could you say such a thing, Tohno!?”@
+br
+`…@I only offered an objective conclusion based on the data gathered from all our lunches in the tea room.
+\
+ld r,"tachi/cel_t12",crossfade,400
+`“Fine.@ I agree with Inui.@ The three of us will go to lunch right now.@ I hear Ahnenerbe, beside the movie theater, serves delicious strawberry pie.”@
+ld l,"tachi/ari_t02",crossfade,400
+`“Oh, you know the good places!@ They say the master of that café is secretly some kind of genius at Italian cooking!”@
+br
+`……@How does this man always know such baffling bits of gossip?
+\
+ld r,"tachi/cel_t10a",crossfade,400
+`“Then let’s meet in front of the movie theater in thirty minutes.@ Understood, Tohno?”@ “—You do know it takes me thirty minutes just to get home, don’t you?”@
+cl r,lshutter,800
+`Ciel marches briskly out into the corridor.
+\
+`“All right!@ Be late, Tohno.@ I won’t mind if you’re a whole day late!”@
+cl l,lshutter,400
+`Arihiko sprints from the classroom too.@ Somehow, events have taken a bizarre turn before I could blink.
+\
+`“…@Oh, well.”@ Whatever else happens, I'm going out with Ciel.@ I grab my bag and sprint home myself.
+\
+bg #000000,lcartain,800
+playstop
+bg "bg/bg_33a",lcartain,800
+ld c,"tachi/koha_t02",lshutter,400
+`“My, you’re home early today, Shiki.”@ “I’m back, Kohaku.@ I’m in a hurry, so I’ll see you later!”
+\
+bg "bg/bg_46a",lcartain,400
+ld c,"tachi/his_t01",lshutter,400
+`「志貴さま？　お帰りになられたのですか？」
+`“I just got back.@ I’m heading straight out again, so don’t make lunch for me!”
+\
+bg "bg/bg_40a",lcartain,400
+`“Yes!@ Fifteen minutes!”@ A new record from school to the mansion.@ I fling my bag onto the desk, change from my uniform into ordinary clothes, and bolt from the room without stopping for breath.
+\
+bg "bg/bg_46a",lcartain,400
+`The city’s main avenue is farther from the mansion than the mansion is from school.@ Frankly, there is no way I can reach it in the remaining fifteen minutes.@ Ciel knew my house stood at the top of a hill when she imposed that impossible meeting time.@
+br
+`“—Damn.@ Maybe she has a mean streak after all.”@ Complaining under my breath, I race down the stairs.
+\
+bg #000000,crossfade,400
+bg #9c0120,crossfade,400
+bg #000000,crossfade,400
+br
+br
+br
+br
+br
+br
+br
+wave se_01
+`—Throb.
+\
+`“—What?”
+\
+br
+br
+br
+br
+br
+br
+br
+wave se_01
+`—Throb.
+\
+`All at once, without the slightest warning.
+\
+br
+br
+br
+br
+br
+br
+br
+wave se_01
+`—Throb.@
+bg #9c0120,crossfade,400
+\
+`Everything before me turns scarlet.
+\
+quakey 4,375
+`“Master Shiki!?”@ …@I hear Hisui's voice.@ Feet thunder toward me—she sounds more frantic than I ever imagined Hisui could be.@ “Master Shiki, are you hurt!?”@ Her voice is beside my ear, but I can't see her.@
+br
+wave se_01
+`—Throb.@
+br
+`There is nothing but the headache.
+\
+`“Hisui, calm down.@ The fall only left him bruised, so there's no need to call a doctor.@ What matters is that Shiki is burning up.@ The fever probably made him miss his footing, so prepare his bed at once.”@ “Understood.@ Kohaku, should we tell Miss Akiha…?”
+\
+`“If nothing worse comes of it, there’s no need to alarm her.@ I have some fever medicine in my room.@ Bring that too, please.”@
+br
+`Hisui’s hurried footsteps recede.@ I—
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_33a",crossfade,800
+ld c,"tachi/koha_t03",crossfade,800
+waveloop se_02
+`“Shiki, are you awake?”@ “…@Kohaku…?”@ “Yes.@ You just took quite a spectacular fall down the stairs.@ Fortunately, you seem to have escaped with nothing worse than a bruise on your back, but you do have a fever.@ It looked as though you were going out, but you must stay in bed today.”@
+br
+`Kohaku puts a hand on my shoulder and somehow helps me to my feet.
+\
+`“No—I’m fine.@ There’s no need for bed.@ I’m probably just winded from running all the way home.”@
+ld c,"tachi/koha_t04",crossfade,400
+`“Absolutely not!@ Your face is so pale you look ready to vomit.@ Your doctor specifically entrusted me with looking after your health, Shiki.@ I cannot let you put yourself in danger like this.”@ “But I promised—”@ “I’ll contact them and cancel for you.@ If you insist on being reckless, I’ll have to bring out the injections!”@
+br
+`…@Kohaku plants herself squarely in my path to stop me.
+\
+bg #9c0120,crossfade,400
+bg "bg/bg_33a",crossfade,400
+br
+`—Throb.@
+br
+`My head aches.@ I—
+\
+wavestop

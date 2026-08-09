@@ -1,0 +1,16 @@
+services:
+  tsukiweb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VERSION: ${VERSION:-latest}
+    container_name: tsukiweb
+    volumes:
+      - tsukiweb_cache:/var/cache/nginx
+    ports:
+      - 8080:80
+    restart: unless-stopped
+
+volumes:
+  tsukiweb_cache:

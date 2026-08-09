@@ -1,0 +1,17 @@
+play "*2"
+wavestop
+bg "bg/bg_34a",notrans,0
+`“Morning, you two.”@
+ld r,"tachi/koha_t01a",lshutter,400
+`“Good morning, Shiki.”@ Kohaku answers with the warmest smile imaginable, perfectly at home above her snowy kitchen smock.@
+cl r,crossfade,400
+`Akiha, on the other hand, gives me one sidelong glance and—
+ld l,"tachi/aki_t01a",lshutter,400
+`“Good morning.@ You certainly take your time getting started, Brother.”@ A magnificently well-aimed piece of sarcasm.
+\
+`“Take my time?@ It’s only just past seven.@ School is barely more than a thirty-minute walk from here.@ By my standards, I got up early today.”@
+ld l,"tachi/aki_t18a",crossfade,400
+`“Which leaves you ten whole minutes for breakfast.@ You’re not a starving dog, so please eat like a civilized human being.”@
+cl l,crossfade,400
+`“…”@ There are thorns in every word she says.
+\

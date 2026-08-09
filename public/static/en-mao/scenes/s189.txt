@@ -1,0 +1,778 @@
+monocro off
+playstop
+waveloop se_02
+bg "event/ark_e05b",lshutter,800
+`Arcueid reached for me.@
+`Her arms pinned my body down.@
+`“Ar—”@
+`I tried to speak her name, and my breath stopped.
+\
+`Bloodshot eyes.@
+`Teeth sharpened into the fangs of a beast.@
+`A crushing presence that made any hope of communication absurd.@
+`The thing before him, preparing to sink its teeth into his throat, was not the woman Shiki Tohno knew.
+\
+`I could do nothing.@
+`I couldn’t move so much as a fingertip.@
+br
+`So this was what it meant to be eaten.@
+`This was what it meant to be nothing but prey.@
+br
+`Her fangs sank slowly into my neck.@
+`There was nothing left inside my head but fear.
+\
+`“Ee—!”@
+`A scream tore out of me.@
+`The moment I heard my own voice and thought how pathetic it sounded—
+br
+`though it may truly have been only my imagination—
+br
+`I thought Arcueid stopped dead.
+\
+wavestop
+bg #000000,lshutter,400
+wave se_10
+`But before I could be sure,
+`a violent blast exploded in front of me, and Arcueid was hurled sideways through the air.
+\
+bg "bg/bg_29b",lshutter,400
+`“Wh—?”@
+`As if a car had struck her broadside, Arcueid flew several meters.@
+`Apparently unhurt, she sprang back to her feet at once.
+\
+ld c,"tachi/ark_t18",lshutter,800
+`“I…@ was…”@
+`Arcueid stood in a daze.@
+`I could not even begin to think what I should do.
+\
+`Then—
+`“You were going to drink his blood.”@
+`A cold voice struck down like a blow.@
+`“That is your true nature, Arcueid Brunestud.”@
+`The merciless words came from above us.
+\
+bg #000000,crossfade,400
+bg "event/cel_e04",crossfade,400
+`I looked up at the moon.@
+`There—as though some former night were repeating itself—stood a figure in clerical robes.@
+br
+`“Ci…@el—”@
+`There could be no mistake.@
+`However I looked at her, the figure was Ciel herself.@
+`She did not spare a glance for me below.@ Her eyes remained fixed on Arcueid, kneeling in the distance.
+\
+`“No matter how many vampires of your own kind you destroy, you remain a member of the vampiric species.@
+`…@I don’t know why you drew him into this, but did you truly never imagine it would end this way?”@
+br
+`Ciel’s voice was nothing like the one I knew.@
+`Neither stern nor gentle.@
+`Empty of all emotion, it was horribly devoid of anything human.
+\
+bg "bg/bg_29b",lshutter,400
+`Without the faintest footfall, Ciel descended from the streetlamp to the ground.@
+ld l,"tachi/cel_t06b",lshutter,400
+`“Ordinarily, this would be none of my concern.@ But I cannot stand by while you murder an innocent civilian.@
+`A confrontation with you was not part of my plans—but if necessary, we can settle our mutual grudges here and now.”@
+ld r,"tachi/ark_t15",crossfade,400
+`“—Don’t be ridiculous.@ I have no intention of wasting my time on you.@ Besides—”@
+`Arcueid glared at Ciel with naked hatred.
+\
+`“I never meant to kill Shiki.”@
+`“—That carries no credibility whatsoever.@ You know what you just did.@ Nor can you have failed to hear the sound he made when he saw you.”@
+ld r,"tachi/ark_t05c",crossfade,400
+`“—”@
+`“Hate me if you like.@ But those murderous eyes were turned upon him.@ Shall we ask him how that felt?”@
+`For the first time, Ciel glanced my way.
+\
+ld r,"tachi/ark_t10",crossfade,400
+`“—”@
+`Arcueid looked away in pain.@
+`Silence settled over the park.@
+cl a,crossfade,400
+br
+`Clack.@
+`Still dressed in her clerical robes, Ciel took a single step toward me.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“Stand back, vampire.@ You never had any right to be at his side.”@
+`“Wh—?”@
+br
+`That was absolutely wrong.@
+`I had no idea who Ciel truly was or what had just happened to Arcueid, but of that one thing I was certain.@
+`Because I wanted to be at Arcueid’s side.
+\
+`“That’s not true…!@ What’s with you, Ciel?@ You appear out of nowhere in those bizarre clothes and start talking as if you understand everything…!@
+`Arcueid may be a vampire, but she has never drunk anyone’s blood!@ What just happened must have been some kind of joke.@ This right you keep talking about—it doesn’t—”@
+ld c,"tachi/cel_t06b",crossfade,400
+`“Be quiet, Tohno.@ Never drunk blood, you say?@ It is true that no victim has been attributed to her for roughly eight hundred years.@ However—”
+\
+`“Shut up!@ I don’t care about stories that make no sense…!@
+`Listen, if you try to interfere with Arcueid, I won’t forgive you—even if it’s you.@
+`I’m helping her because I choose to.@ You have no right to tell me I shouldn’t!”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“—Tohno, you…”@
+`A faint trace of emotion entered Ciel’s voice.
+\
+`“—Very well.@ If that is your own decision, Tohno, then I cannot accuse her of having no right to remain beside you.@
+`But—”@
+cl c,crossfade,400
+`Ciel turned her eyes upon Arcueid.@
+`Arcueid kept her head bowed, looking at neither Ciel nor me.
+\
+ld r,"tachi/ark_t10",crossfade,400
+`“……”@
+ld l,"tachi/cel_t07b",crossfade,400
+`“You heard him, Arcueid Brunestud.@ Even now, do you still intend to remain at his side?”@
+br
+`Arcueid did not answer.@
+`Once, she began to raise her face toward me.@ Then—almost as if dissolving into the darkness—she fled the park.@
+cl r,lshutter,400
+\
+`“Wh—what the hell?@ Why are you running, Arcueid…?”@
+`I broke into a run after her.@
+br
+quakey 1,100
+`My body lurched to a stop.@
+br
+`“—!?”@
+`My foot would not leave the ground.@
+`Ciel approached at an unhurried pace.
+\
+cl l,crossfade,400
+ld c,"tachi/cel_t07b",crossfade,400
+`“I won’t let you follow her.@ I have no intention of allowing her to murder you.”@
+br
+`Ciel held several slender, rodlike blades.@
+`One of them was buried in the ground at my feet—driven straight through the shadow of Shiki Tohno.
+\
+`“You cannot move until that is removed.@ However hard you struggle, your own shadow is struggling even harder to keep you here.”@
+`“—Quit screwing around!@ I’m going to lose her!”@
+`I seized the blade at my feet.@
+`No matter how I pulled, it refused to budge.
+\
+`“I neglected to mention that I am the only one who can remove it, so you may as well stop trying.”@
+`Ciel halted directly in front of me.@
+`“—”@
+`I glared at her.@
+`She met my eyes squarely, then sighed with weary exasperation.
+\
+ld c,"tachi/cel_t10b",crossfade,400
+`“Honestly—why do you insist on doing such reckless things, Tohno?”@
+`“—Huh?@ Ciel…?”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“I understand.@ I don’t hate her either.@ But for now, this is best for both of you.@ I will remove the blade in a little while, so please listen to me until then.”
+\
+`Ciel looked up at me almost timidly.@
+`She seemed no different from the girl I had encountered so casually at school.@
+br
+`—Perhaps that was why.@
+`I still understood nothing about the situation, but at least my mind began to settle.
+\
+play "*1"
+ld c,"tachi/cel_t07b",crossfade,400
+`“…@I knew this sudden revelation might make you regard me as an enemy.@ But there are things I must tell you.@
+`And…@ I’m sorry for restraining you like this.”@
+`Ciel bowed deeply.@
+`…@The clothes were strange and the objects in her hands dangerous, but she was still Ciel.
+\
+`“—It’s fine.@ I’m not angry, so don’t apologize like that.@ You’ve already saved me once, and I have questions of my own.”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“—That is a relief.@ …@But what did you want to ask me?”@
+`“Come on.@ Obviously, I want to know who you really are.@
+`You’re dressed like that, you blasted Arcueid away without blinking, and I’m the only person at school who even remembers you.”@
+`“Oh,”@ Ciel replied, sounding oddly deflated.
+\
+`“Then let me ask you first.@ What do you think I am, Tohno?”@
+`“…@I only know what Arcueid told me, but I thought you might belong to something called the Church.”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“That is correct.@ Just as you suspected, I am an exorcist of the Holy Church, assigned specifically to vampires.@
+`I cannot tell you more than that, but for your purposes it should be enough.”
+\
+`“Enough?@ Then why was someone like you attending my school?@ If hunting vampires is your specialty, shouldn’t you have been searching the city like Arcueid?”@
+`“No, as it happens, I did have a reason for going to your school.@ Um…@ yes, that brings me right around to what I wanted to tell you, so how about I ask the questions from here?”
+\
+ld c,"tachi/cel_t06b",crossfade,400
+`“You seem to be helping her, but do you know what she is hunting?”@
+`“Yeah.@ …@She said it was an old kind of vampire that drinks human blood to expand its territory.”
+\
+`“Then you know vampires fall into two broad categories.@ I assume she also told you that their ageless immortality is incomplete—”@
+`“She did.@ They need human blood to maintain their bodies.@ But as long as they keep drinking it, they can live without growing old, right?”
+\
+`“Yes.@ But that cannot truly be called ageless immortality.@ Some of them cannot maintain themselves on blood alone, and others are disposed of by people like us.@
+`Anything capable of ‘dying’ in those ways is not immortal.”
+\
+`“—Well, I suppose if they can die, they aren’t immortal.”@
+`I had absolutely no idea what Ciel was trying to explain.@
+`“What does this have to do with you attending my school?”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“It does.@ Honestly, we have barely reached the beginning, so please be quiet and listen.”
+\
+`“…@Fine, but I’d appreciate it if you could keep the summary as short as possible.”@
+`“…@Would you?@ Very well.@ I’ll give you a crisp, concise explanation.”@
+`For some reason, Ciel looked disappointed.@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Then I will be as brief as possible.@ The ageless immortality of vampires classified as Dead Apostles is extremely unstable.@
+`In practical terms, their lifespans have merely become several times longer than a human being’s.”
+\
+`“…@Question.@ Their strength is inhuman too.@ Isn’t that related?”@
+`“Fundamentally, no.@ A Dead Apostle’s unique powers are things they acquired while human and continued developing for hundreds of years.@
+`They persist in studying whatever discipline they once pursued.@ In time, the result is elevated into a transcendent phenomenon.”
+\
+`“Every Dead Apostle pursues a different purpose.@ That is why the discipline each of them cultivated is different.@
+`And among them, there was one who devoted himself earnestly to the study of immortality.”@
+`“…@He became immortal, then researched immortality?”@
+`“Yes.@ Dead Apostles recognize that becoming vampires has brought them to the highest immortality possible in a human body.@
+`But he considered it a form of degeneration.@ He rejected such an imperfect state and resolved to create a more perfect immortality.”
+\
+!w1000
+`“……”@
+`Ciel was starting to get carried away.
+\
+`“But anything that possesses form must inevitably perish.@ No being is exempt from the pressure of time.@
+`Vampires are simply made strong enough to withstand that pressure longer than humans.@ Life contains death from the instant it is born.@ So long as the self exists here, even an ageless body cannot escape that death.@
+`To escape death is itself to die.@
+`That absolute contradiction cannot be resolved.”
+\
+`“—That’s true.@ Everyone has a death.@ Anything without one would have to be—”@
+`something that had never existed in the first place.@
+`Even Arcueid possessed death by day.@
+`Nothing in this world could truly be undying.
+\
+ld c,"tachi/cel_t01b",crossfade,400
+`“And so he arrived at the idea that if the self continued to exist after the body’s death, that might qualify as immortality.@
+`…@Our doctrine does not recognize it, but you would call the process reincarnation.@
+`If the present self dies yet can preserve itself intact and begin again as a new human being, then it has outrun death.@
+`…@Though since the self was never annihilated, it did not truly die and therefore cannot be said to have passed beyond death.”
+\
+`“Reincarnation—so after he dies, he starts over as a baby?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Precisely.@ While still alive, he chooses the body that will become his next self.@ The moment that child is born, every piece of information constituting ‘him’ is transplanted into it.@
+`His information remains dormant until the child reaches adulthood—or at least develops an independent intelligence.@
+`Once the child possesses an intellect fit to inherit ‘him,’ it becomes the vampire he was.”
+\
+`“—Wait.@ What does that mean?@ Does he perform some kind of operation while the baby is still inside its mother?”
+\
+`“No, this is not a medical procedure.@ The instant he is destroyed, he reincarnates into the womb he selected beforehand as his next host.”
+\
+`“I called it ‘all his information,’ but in simpler terms, it is his soul.@
+`The idea of a soul traveling through the air and possessing another person may be difficult to imagine, but it resembles a radio signal.@ In this case, human brains serve as both transmitter and receiver.@
+`His achievement was to process the soul—something immeasurable that normally disperses once separated from the vessel of the body—into a form that could be transmitted.”
+\
+`“…@Sorry, Ciel, but I still don’t see what any of this has to do with you being at my school.”@
+`“It has everything to do with it.@ That reincarnating vampire is somewhere in your school.”
+\
+`“—What?!”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“The vampire I am pursuing and the vampire Arcueid is pursuing are one and the same.@
+`…@Though I expect she only ever called him her ‘enemy’ when speaking to you.”
+\
+cl c,crossfade,400
+`“……”@
+`I nodded without a word.@
+`It was true.@ Arcueid never used any word but enemy and had told me nothing about what sort of vampire he was.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“Her original role was to destroy vampires in general, but once he appeared, she began pursuing him alone with extraordinary persistence.@
+`He has reincarnated seventeen times.@
+`She has destroyed every one of those incarnations.”@
+`“…@Every one?@ But if he is reborn whenever he dies, what’s the point?”
+\
+`“—Quite.@
+`She kills him, he reincarnates, and she kills him again.@ The cycle has continued for ages.@
+`If she—if Arcueid—possessed the power to destroy not merely his body but the meaning of his existence, it would never have come to this.”@
+cl c,crossfade,400
+`Ciel lowered her face slightly and seemed to grind her teeth.@
+`…@I did not know why,
+`but like Arcueid, she appeared to harbor some private hatred for this enemy.
+\
+`“…@Ciel.@ What kind of vampire is he?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“He was originally male, though the sex of each incarnation depends upon the host body.@
+`What makes this Dead Apostle so troublesome is that he is extraordinarily difficult to detect.@
+`He is born as an entirely normal human infant, complete with parents.@ He does not transform his body and consciousness into those of a vampire until he reaches an age at which he can operate freely.”
+\
+`“Until that point, the human being displays no trace of vampirism.@ Once he awakens, however, he uses every relationship the host cultivated to blend seamlessly into society.@
+`I am told that by the time the Church discovers him, an entire city has usually become a city of the dead.”
+\
+`“Wait.@ The baby he reincarnates into doesn’t know what it is until he awakens?”@
+`“…@Correct.@ But it is not a case of two personalities sharing one body.@ The human child is also him.@
+`Its environment may shape that child into a good person or a bad one.@ …@But either personality disappears when the original awakens.”
+\
+`“In short, when he dies, he is reborn in another body.@ Once that body develops an intellect, he recovers the personality of his previous life and becomes his vampiric self once more.”@
+br
+`“—”@
+`I didn’t know why,
+`but listening to this story frightened me terribly.
+\
+`“…@That doesn’t make sense.@ I may not understand all of this, but something is wrong.@
+`Becoming a vampire isn’t automatically what turns a person into a monster, is it?@
+`Then even if a former personality wakes up, shouldn’t the body remain human?”
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“No.@ It is the soul that reincarnates, not merely the personality.@ Once a True Ancestor drinks a human being’s blood, both body and soul are contaminated.@
+`He passes all the information of that soul into his ‘next self,’ so once he awakens, the body also becomes vampiric.@ However—”@
+`“However what?”
+\
+`“As you said, that alone would leave him weak.@
+`So he chooses his next reincarnation host while he is still alive.@
+`The family he selects must satisfy two conditions.@ First, it must be wealthy.@
+`Being born into a family rich in both property and social status makes it much easier to convert the entire city afterward.”
+\
+`“The second condition is more important.@ Even among ordinary human beings like us, a few are born with special powers.@
+`Not magecraft—the mystery one can acquire through study—but an innate ability possessed by the body from birth.@ People commonly scorn them as psychics or demon children.”
+\
+`“An innate ability belongs to the body, so naturally it passes through the family bloodline.@ He chooses his new body from a lineage containing such ‘inhuman things.@’Wealth and prestige, with an inhuman power hidden beneath them.@ Those are the conditions he demands of a reincarnation host, Shiki Tohno.”@
+cl c,crossfade,400
+\
+playstop
+`“—”@
+`Something was wrong.@
+`There was something terribly wrong with this story.@
+br
+`What was wrong was obvious—why tell any of this to someone like me in the first place, Ciel?
+\
+`“…@His name.”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Pardon?@ Did you say something?”@
+`“His name…!@ Calling him your enemy or him tells me nothing!@ Tell me his name—tell me what he’s called…!”@
+`Anger exploded out of me before I knew it, and I shouted at Ciel.@
+br
+`Ciel showed no alarm.@
+`She only watched me with something almost like pity.
+\
+`“Very well.@ Among the Dead Apostles, he is called the Serpent of Akasha.@
+`A serpent symbolizes infinity and the eternal cycle.@ Shedding one body for another made it an appropriate epithet.@
+`The Church, on the other hand, records him as the Infinite Reincarnator.@ His human name was Michael Roa Valdamjong.@ In practice, we simply call him Roa.”@
+`“Ro…@a—”@
+`I had never heard the name.@ …@Of course I hadn’t.@ I had never met anyone like that.
+\
+`“…@So you came to our school because you discovered that this Roa was there?”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Yes.@ My initial sense of his location was extremely vague, but I knew Roa’s reincarnation vessel was somewhere in this area.@
+`Where Roa is concerned, my senses are keener than Arcueid’s.@ I arrived in this city before she did—and in fact, I have already identified the host.”@
+cl c,crossfade,400
+\
+br
+`—
+br
+`For some reason, my voice failed me.@
+`Ciel looked at me with the same pity as before.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+play "*9"
+`“…@As I explained, Roa selects his next reincarnation host for both physical potential and pedigree.@
+`Once I knew he was in this city, I needed only investigate the families that met those conditions.@ The answer followed naturally.”@
+`“—”@
+`“There is only one ancient family in this entire region that satisfies Roa’s requirements.@ I needn’t say any more, do I, Tohno—Shiki?”@
+cl c,crossfade,400
+\
+br
+br
+br
+br
+br
+br
+br
+`—That was why.@
+`I kept saying there was something wrong with that story.
+\
+`“Ha.”@
+br
+`“Ha.”@
+br
+`“Ha ha ha…@ ha.”@
+br
+`The dry laughter was coming from me.
+\
+`“…@What are you talking about, Ciel?@ That’s impossible.”@
+br
+`Ciel did not answer.@
+`As though—
+`as though she meant that I was Roa’s reincarnation host.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“…@But this much is certain.@ Something other runs in the blood of the Tohno family.@
+`They possess power, status, and the superhuman potential Roa requires.@
+`The power you used to defeat the Dead earlier was itself inhuman.@
+`Therefore—there can be no mistake.@ Shiki Tohno is Roa’s host in this incarnation.”@
+br
+`—I don’t understand.@
+`I don’t understand a single thing she is saying.
+\
+`“…@Why?@ How can you be so certain?”@
+`“Because I’m the one who decided that.”@
+`This time she stated the incomprehensible words without the slightest hesitation.
+\
+`“Wh-whaaat?!”@
+`“…@But something went wrong.@ You were the one who was killed.@ You were also the one who survived.@
+`The murdered one lived, while the murderer died.@ I think every mistake began there.”@
+br
+`After speaking with a look of grave resolve,
+`Ciel pulled the blade out of the shadow at my feet.
+\
+playstop
+`“Ah—”@
+`“That is everything I needed to tell you.@ What you do now is for you to decide.”@
+`“Decide?@ According to what you just said, I’m—”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“…@To tell you the truth, I don’t know either.@ You are an utterly ordinary student, the sort one might meet anywhere.@ I’m sure my intuition has simply failed me.@
+`Because—you are someone who should never belong in the world where I live.”@
+cl c,crossfade,400
+\
+`With a sad little smile, Ciel hopped far away from me.@
+`It was an unreachable distance, as though she were declaring that from this moment on, we were strangers.
+\
+`“—”@
+`I still could not abandon Arcueid.@
+`If I did not run after her now, I felt that I would truly never see her again.@
+ld c,"tachi/cel_t07b",crossfade,400
+`“You intend to follow her, Tohno?”@
+`Ciel’s voice had returned to the one she used while cornering Arcueid—flat and nearly empty of emotion.
+\
+`“—Yeah.@ I understand that you belong to the Church and that Arcueid is your enemy.@
+`But a lot has happened, and right now she and I are partners.@ I have to find her.@ Who knows what she’ll do if I leave her alone?”@
+`I gave Ciel a joking smile, said goodbye, and turned my back.
+\
+`“—Wait.@ If you follow her, she will only kill you.@ You must never see Arcueid Brunestud again.”@
+`“Kill me?@ You may not believe it, but Arcueid really doesn’t drink blood.@ She’s actually a decent person.”@
+`“…@I know.@ It is true that she has never drunk human blood.@ But that is over now.@ Once a True Ancestor succumbs to the vampiric impulse, there is nothing left but the fall.”@
+br
+`I stopped dead.
+\
+`“…@Ciel?@ True Ancestor—vampiric impulse—what are you talking about?”@
+`“…@The desire to drink blood.@
+`Most vampires called Dead Apostles were once humans who became vampires after another vampire drank their blood.@ They require human blood to replenish their decaying bodies.@
+`For them, drinking blood is unavoidable if they wish to survive.”
+\
+`“But those born as vampires are different.@
+`…@However vampiric they may be, Dead Apostles were originally human beings like us.@ Perhaps they can still be called human.@
+`But can something born as a member of a vampiric species truly be called human?”@
+`“Wh-what are you talking about?@ I asked you about Arcueid.”
+\
+`“This is about her.@
+`You cannot tell me the thought never occurred to you.@
+`If vampires create more vampires by drinking human blood,
+`then there must be an origin—a being that was a vampire from the beginning.@
+`Members of this vampiric species, whose tree of life does not share its roots with ours, are called True Ancestors.@
+`They have no need of human blood and possess powers equal to, or greater than, those of the Dead Apostles.@
+`She belongs to the royal line of the True Ancestors.@ …@Though ‘royal’ is not strictly accurate, since they have no social ranks.”
+\
+`“—What does any of that matter?@ None of it has anything to do with me…!”@
+`“It has everything to do with you.@ The vampiric impulse burdening the True Ancestors runs far deeper than that of the Dead Apostles who serve them.”@
+`Ciel’s eyes held no emotion.@
+`Like mirrors, they reflected only my own badly shaken face.
+\
+`“Listen carefully, Tohno.@ True Ancestors can survive without human blood.@
+`Yet whether through some flaw in their evolution, or simply because no perfect being can exist, there comes a time when they begin to desire human blood as naturally as breathing.”
+\
+`“…@A human whose blood they drink ceases to be human at that instant.@
+`The scale of life embodied by a True Ancestor is simply too far beyond ours.@ The moment human blood mingles with the blood of that overwhelming life, the gulf between them makes it impossible for the human to remain human.@
+`Just as a small wave disappears into a greater one at the slightest touch, the person becomes an extension of the True Ancestor—put plainly, a puppet.”
+\
+`“The problem is that their vampiric impulse has no cause.@
+`With no cause, there is no way to stop it.@
+`It is the flaw contained within the perfect life of a True Ancestor—a fatal illness, you might say.@
+`They live by suppressing the desire to drink blood.@
+`This is not a simple matter of resisting temptation through reason.@
+`They turn every power they possess against their own desire and seal themselves by force.
+\
+`“…@By directing their immense power against themselves, they suppress the vampiric impulse.@
+`But if some outside cause weakened a True Ancestor’s power, what do you think would happen to the impulse being restrained?”@
+cl c,crossfade,400
+br
+`…@If some outside cause weakened her power…?@
+`If she spent that power healing terrible wounds—or if she had once been killed as completely as anything could be killed and exhausted herself returning to life—
+\
+`…@Suppose Arcueid possessed ten measures of power.@
+`Suppose she had always devoted seven of them to suppressing her desire for blood.@
+`But if some event robbed her of five, then even by turning all her remaining strength inward, she could oppose that desire with only five.@
+br
+`Then what would that missing strength
+`strip away from Arcueid herself?
+\
+`“…@What happens to a True Ancestor who can no longer suppress the impulse?”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“Naturally, they drink human blood.@ Nothing remains after that.@ Once a True Ancestor yields to the impulse, the only direction left is downward.@
+`I am told that once they learn the taste of blood, the pain of the impulse doubles.@ They can never resist it again.”
+\
+`“Those who fall that far are feared as demon lords.@
+`True Ancestors are an exceptionally powerful species, but the need to restrain their own vampiric impulse prevents them from using their full strength.@
+`A fallen True Ancestor has no need to bind itself.@ It becomes a monster that drinks human blood for nothing but its own pleasure.”@
+cl c,crossfade,400
+\
+play "*8"
+`…@I saw Arcueid as she had been moments ago.@
+`Bloodshot eyes.@
+`Ragged breathing.@
+`Breath pounding against my neck.
+\
+`“……@That’s a lie.”@
+`That’s a lie.@
+`Because she—
+`she said it herself.@ She was afraid to drink blood—
+br
+`“Oh.”@ …@Yes.@ Of course she’s afraid.@ Because she knows that once she starts, she’ll never be able to stop.
+\
+ld c,"tachi/cel_t07b",crossfade,400
+`“……@The one small mercy is that the impulse comes in sudden attacks.@ Each True Ancestor kept a single servant in reserve for those moments when the craving became unbearable.@ That was how the beings called Dead Apostles first came to be—apostles already dead.@ Vampires kept alive as medicine for a True Ancestor’s pain.@ That is the true nature of the vampires infesting this city.”
+\
+`“But she has no such servant.@ …@No, until now she never needed one.@ Even among the True Ancestors, she was exceptional; her own will was enough to contain the vampiric impulse.”@ “Then there isn’t a problem after all.@ Once her wounds heal—once she gets her old strength back—she’ll be able to control it again, won’t she…?”
+\
+`“……@No.@ The end will come even then, Tohno.@ The vampiric impulse is endless.@ It never disappears.@ Every craving they suppress leaves sediment behind, until at last the vessel overflows.@ The longer they live, the greater the impulse inside them grows.@ And when their own power can no longer contain it—when the impulse becomes stronger than they are—their kin put them to death.@ That is the only lifespan possessed by beings who do not age.”
+\
+`“But Arcueid will be all right.@ She’s weak now because of what I did, but give her a few days and she’ll—”@ “……@Perhaps.@ But she was already approaching her limit.@ She may have spent less than a handful of years awake, but that does not change how long she has existed.@ The hunger that has festered inside her for centuries will soon tear its way out.@ Nothing can guarantee that it has not chosen this very moment.@ Arcueid’s life—cannot be saved.”
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_29b",crossfade,400
+br
+br
+br
+`—Thump.@
+br
+`For the first time, it wasn’t anemia that made the world disappear.@ It was something another person had said.@ The dizziness swallowed everything before my eyes.
+\
+`“……”@ So what did that mean?@ Did she know she was already doomed, yet still come all the way here to hunt vampires?@
+br
+`—That made no sense.@ No matter how I looked at it, it made no sense at all.
+\
+`“……@Everything you’ve told me is a lie.@ Someone who knew she was finished wouldn’t come here to kill vampires for our sake.”@
+ld c,"tachi/cel_t07b",crossfade,400
+`“She does not dispose of vampires for our sake.@ She does it because that is her role.”@
+`“Her role—?@ Who decided that?”
+\
+`“The other True Ancestors, I imagine.@ Arcueid was born in the twelfth century, when Dead Apostles and fallen True Ancestors were more numerous than ever.@ The True Ancestors could ignore neither their fallen kin nor the Dead Apostles those kin multiplied without restraint.@ And so they created the purest of their kind, a creature who needed nothing beyond the act of killing, and made her their executioner.@ That creature was Arcueid.@ They say she was like a nuclear missile without a will of its own: once released from the castle, whatever vampire had been designated as her target was certain to be annihilated.”
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_29b",crossfade,400
+br
+`—Thump.@ The dizziness struck again.@
+br
+`…@Don’t talk about her that way.@ She’s a human being—a real person.@ Talking about her as if she were some kind of weapon makes me furious.
+\
+`“No.@ She is a weapon.@ That was the only reason her existence was ever permitted.@ …@Which is why she must have been quite beside herself earlier.@ I had never seen her talk so much.@ Ordinarily, she never speaks at all.”
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_29b",crossfade,400
+br
+br
+`—What?@ Wait.@ She never speaks?@ That doesn’t make any sense.
+\
+`“She never does anything unnecessary.@ That is how she has lived for centuries, ever since she was born in that old castle in the mountains—unchanging, forever.”
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_29b",crossfade,400
+br
+`—Thump.@ My heartbeat, and a plunge into darkness.@ …@What was happening?@ Places I had never known, memories I could never have seen, reeled across my vision.
+\
+bg #ffffff,crossfade,800
+bg "event/ark_e06b",crossfade,400
+br
+br
+br
+br
+br
+`A vast castle courtyard.@ An empty castle whose only ornament was a plain field of grass.@ Alone in it, the girl in white gazed absently up at the sky.
+\
+`“She was allowed neither needless knowledge nor any freedom beyond her assigned purpose.@ Only when a target had been selected was she released into the world.@ She would be taught whatever was required for that particular enemy, so that the execution could not fail.”
+\
+br
+br
+br
+br
+br
+br
+`No one else was there.@ No one to speak to.@ No one whose face she might see.
+\
+`“After killing the appointed vampire and returning to the castle, every scrap of knowledge she had been given was washed away, and she was put back to sleep.@ She knew nothing—nothing except how to kill vampires.”
+\
+br
+br
+br
+br
+`Nothing.@ The pleasure of talking to someone.@ The precious little ritual of meeting another person’s eyes and saying good morning.@ Every such thing had been stripped from her existence.
+\
+`“Her power was great enough to destroy even fallen True Ancestors.@ …@Ironically, that very power made the others shun her.@ They praised her as a princess, but no one dared approach.@ They gave her a castle, yet her entire world was a dim underground chamber.@ There was no one, anywhere, who might teach her what it meant to feel.”
+\
+br
+br
+br
+br
+br
+br
+`A way of living so absurd that merely being alive seemed pitiful.
+\
+`“I’m told she had neither words of her own nor a moment she could call her own.@ The True Ancestors must have treated her the way one maintains a weapon.@ Weapons have no need for superfluous functions.@ There is no point teaching one to bake bread or wash clothes.@ If you were going to add anything at all, you would give it a function more appropriate to a weapon, wouldn’t you?”
+\
+br
+br
+br
+br
+br
+`—All my life, they taught me I mustn’t do anything unnecessary.
+\
+br
+br
+br
+`She had said it almost like a song.@ Now I understood the emptiness in her eyes when she told me she had always decided everything alone.@
+br
+`Was that why she had needed no one else?@ No—had she simply never known there could be anyone else?
+\
+`“The True Ancestors wanted nothing from her but an efficient capacity to kill.@ So she knows nothing—not grand questions like the meaning of life, but the simple, ordinary pleasure of being alive.”
+\
+br
+br
+br
+br
+br
+`She was always so cheerful.@ The smallest thing could make her smile with delight.@
+br
+`I had assumed that was simply the way she had always been.
+\
+br
+br
+br
+br
+br
+`…@What a cruel mistake.@ Those ordinary little things truly delighted her—more deeply, perhaps, than she herself could ever understand.
+\
+br
+br
+br
+br
+br
+`—Because it’s so much fun.@ I never knew that simply being alive could make me this happy.
+\
+br
+br
+br
+br
+br
+`The classroom at sunset.@ Her quiet voice, confiding in me as though her own incomprehensible happiness frightened her.
+\
+`“Arcueid has existed for an age, yet understands what it means to live far less than we do.@ The total time she was allowed to spend awake and acting for herself is astonishingly brief.@ Almost her entire life was sleep—and I imagine it was a sleep as black as darkness.”
+\
+br
+br
+br
+br
+br
+br
+`—Really?@ I have fun just talking to you.@
+!w1000
+\
+`“Once she had executed every fallen True Ancestor, she ceased leaving the castle.@ Her original purpose had been fulfilled, so the others attempted to educate her properly.@ But freedom never came.@ Because of one truly trivial mistake, she killed every True Ancestor remaining in the castle.”
+\
+br
+br
+br
+br
+br
+`A creature taught nothing but the killing of vampires may simply have obeyed her orders with perfect diligence and carried the work through to its end.@ And when she was left alone, in the end, she…
+\
+`“After executing every last True Ancestor, she shut herself inside the castle of her own accord.@ In the heart of that empty stronghold, a thousand chains from its walls bound her in place.@ Whenever the vampire Roa reincarnated, she would wake and act for only a little while.”
+\
+br
+br
+br
+br
+br
+br
+`Within that ordained, unchanging world, she never once spoke a single word.
+\
+`“That is why she is an executioner to her very core.@ The True Ancestors who bound her are gone, yet she still wanders the world with no purpose but killing vampires.@ Perhaps she simply has no other pleasure.”
+\
+br
+br
+br
+br
+br
+br
+`That was a lie.@ Killing vampires wasn’t what had made her happy.
+\
+bg #ffffff,crossfade,800
+`“……”@
+br
+`I hadn’t seen anything.@
+br
+`“……@Lie.”@
+br
+`Her words.@ The joy in her face.@ If only I had looked a little more closely—I would have understood.
+\
+`“……@A lie.”@
+br
+`I had never noticed how utterly alone she had always been.@
+br
+`All the things we take for granted.@ Losing track of time while trading worthless jokes with a friend who understands you.@
+br
+`The unremarkable peace of falling onto your bed at the end of the day and doing nothing for a while.
+\
+br
+br
+br
+br
+br
+`To think those meaningless little things had been irreplaceable happiness to her.
+\
+`“……@It’s a lie.”@
+br
+`And the most wretched part was this—she herself had never felt even the faintest pity for how she had lived.@
+br
+`No.@ There could not be such monstrous, farcical loneliness in this world.
+\
+`“It’s all a lie.”@
+br
+`…@I didn’t care about the complicated details anymore.@ If only I could give her enough of the ordinary world that she would stop mistaking it for happiness—until she could take it for granted, certain it would always be there—how wonderful that would…
+\
+!w2000
+bg "bg/bg_29b",crossfade,1500
+ld c,"tachi/cel_t07b",crossfade,400
+`“Tohno…?”@
+`Her voice snapped the world back into focus.@
+`“What’s wrong?@ You suddenly went blank.@ Were you listening to me?”@
+`“No—sorry.@ I don’t remember.@ Sometimes it sounded like you were speaking, and sometimes it sounded like someone else.”@
+`Ciel gave a doubtful sigh and nodded.
+\
+`“Well, what I’m saying is that she—”@ “That’s enough.@ I don’t care what Arcueid has done or what she is.@ I can’t leave her alone any longer, so I’m going.”@
+cl c,crossfade,400
+`I turned my back on her and started toward the city at night.
+\
+`“Tohno.@ Once a True Ancestor loses control of the vampiric impulse, there is no recovery.@ If she appears before you again, it will be because she has come to drink your blood.”@
+br
+`I was sure that, for her, those words were the truth.@ But her truth was not mine.
+\
+`“That’s not true.@ Arcueid still hasn’t drunk anyone’s blood.”@
+`“If I hadn’t stopped her, she would have drunk yours.”@
+`“……@No.@ She stopped.@ Arcueid was all right.@ So—even if you hadn’t knocked her away, nothing would have changed.”
+\
+br
+br
+`Yes.@ I knew it.@ Arcueid’s fangs had stopped.
+\
+`“……@So you mean to stand by her no matter what, Shiki?”@
+`“Yeah.@ Sorry, but I am.”@
+`She made no reply.@ I thought I heard only a sigh.
+\
+`“We may find ourselves fighting one another.”@ “Maybe.@ But I’m not going to apologize.”@ “……”@ No answer came.@ Her presence simply receded, followed by the sound of departing footsteps.@ Without looking back, I ran into the night.
+\
+bg #000000,lcartain,1500
+playstop
+bg "bg/bg_25b",lcartain,1500
+`The main avenue was deserted.@ Not only was Arcueid nowhere to be seen, there wasn’t another pedestrian in sight.@ “Damn…”@ It was exactly like last night.@ I had no way to find her.@ Even now, when I wanted so desperately to see her, I had no way at all.@
+br
+`—She.@
+`She had been suffering so badly, and there was nothing, nothing I could do to help her—
+\
+`“Damn it!”@
+`The frustration was driving me out of my mind.@
+`Somehow—I had to find her somehow, or Shiki Tohno would never be able to take another step forward—
+bg #000000,lcartain,1500
+bg "bg/bg_52",lcartain,1500
+bg "bg/bg_24c",lcartain,1500
+bg "bg/bg_12b",lcartain,1500
+bg "bg/bg_25b",lcartain,1500
+bg #000000,crossfade,1500
+bg "bg/bg_29b",crossfade,800
+`“Hah…@ hah…@ hah…”@ I had run all over the city without finding Arcueid.@ My body was spent, my breathing hopelessly ragged.@ “Hah…@ hah…@ hah…”@ The wound in my chest throbbed with every tortured beat of my heart.@ Never had I hated this broken-down body more.
+\
+`“Hah…@ hah…@ ha…@ ah…”@ …@I couldn’t find her.@ Running blindly through the city would never lead me to her.@ “…@Hah…@ ah…”@ If there was any place where I might find her, it would be—
+\

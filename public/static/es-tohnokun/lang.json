@@ -1,0 +1,193 @@
+{
+  "translation": {
+    "name": "Tohno-kuN",
+    "desc": "Traducido al español por Tohno-kuN.",
+    "url": "https://web.archive.org/web/20140908015008/http://www.mcanime.net/foro/viewtopic.php?t=113083&postdays=0&postorder=asc&start=0&sid=52365a03cb733b1ddc0f0576310609f5",
+    "vndb": "https://vndb.org/r6351"
+  },
+  "translation-pd": {
+    "name": "07th Inquisition",
+    "desc": "Traducido al español por 07th Inquisition.",
+    "url": "https://07thinquisition.foroactivo.com/t629-parche-tsukihime-plusdisc",
+    "vndb": "https://vndb.org/r21586"
+  },
+
+  "disclaimer": [
+    "Esta es una versión web de Tsukihime, una novela visual publicada en el año 2000 por Type-Moon.",
+    "El juego incluye contenido para adultos y está destinado únicamente a audiencias maduras."
+  ],
+  "title": {
+    "start": "Iniciar",
+    "resume": "Continuar",
+    "load": "Cargar",
+    "config": "Ajustes",
+    "extra": "Extras",
+    "about": {
+      "port": "Esta es una versión web de Tsukihime, una novela visual publicada en el año 2000 por Type-Moon.",
+      "project": "El proyecto está disponible en %0GitHub%1. ¡Dale una estrella si te gusta! Las contribuciones son bienvenidas.",
+      "feedback": "Envía tus comentarios o notifica un error %0aquí%1.",
+      "data": "No se recopilan datos; toda la información se almacena localmente en tu navegador. Administra tus datos %0aquí%1.",
+      "remake": "Considera comprar el remake %0Tsukihime - A piece of blue glass moon%1."
+    },
+    "install": "Instalar",
+    "share": "Compartir",
+    "copied": "Copied to clipboard"
+  },
+  "extra": {
+    "gallery": "Galería",
+    "endings": "Finales",
+    "scenes": "Escenas",
+    "eclipse": "Eclipse"
+  },
+  "config": {
+    "on": "Activado",
+    "off": "Desactivado",
+    "reset": "Restablecer",
+    "default": "Predeterminado",
+    "tab-game": "Juego",
+    "tab-audio": "Audio",
+    "tab-controls": "Controles",
+    "tab-advanced": "Avanzado",
+    "volume-master": "Volumen general",
+    "volume-track": "Música",
+    "volume-se": "Efectos",
+    "volume-title-track": "Música del título",
+    "volume-system-se": "Efectos del sistema",
+    "track-source": "Versión de la banda sonora",
+    "track-sources": {
+      "original": "Original (2000)",
+      "everafter": "Ever After (2002)",
+      "tsukibako": "Tsuki-Bako (2003)"
+    },
+    "track-source-help": [
+      "[b]Original[/b]: Banda sonora original del juego completo de 2000.",
+      "[b]Ever After[/b]: Remake de la banda sonora original, publicado en 2002.",
+      "[b]Tsuki-Bako[/b]: Banda sonora remezclada que vino con un paquete de Tsukihime + PLUS-DISC + Kagetsu Tohya en 2003."
+    ],
+    "auto-mute": "Silenciar al cambiar de pestaña",
+    "ratio": "Relación de aspecto",
+    "ratio-auto": "Automática",
+    "ratio-4-3": "4:3",
+    "ratio-16-9": "16:9",
+    "text-speed": "Velocidad del texto",
+    "text-speed-low": "Lenta",
+    "text-speed-med": "Media",
+    "text-speed-high": "Rápida",
+    "text-speed-instant": "Instantánea",
+    "auto-play-delay-text": "Retraso del texto en la reproducción automática: %0s",
+    "auto-play-delay-page": "Retraso de la página en la reproducción automática: %0s",
+    "adult-title": "Contenido para adultos",
+    "adult-blur": "Desenfocar miniaturas",
+    "adult-blur-help": [
+      "Aplica un efecto de desenfoque en las miniaturas de las escenas para adultos."
+    ],
+    "adult-warn": "Preguntar para omitir contenido para adultos",
+    "fullscreen": "Pantalla completa",
+    "language": "Idioma",
+    "show-locked-content": "Mostrar contenido bloqueado",
+    "show-locked-content-help": [
+      "Desbloquea la Galería completa, el Diagrama de flujo, los Finales, Eclipse, etc.",
+      "También permite acceder a las rutas de la Cara Oculta de la Luna.",
+      "Se puede activar y desactivar en cualquier momento."
+    ],
+    "game-font": "Fuente de texto del juego",
+    "game-font-help": [
+      "La fuente predeterminada se incluye con el proyecto.",
+      "Para seleccionar una fuente diferente, introduce su nombre. Se cargará desde %0 si está disponible; de lo contrario, desde tu dispositivo."
+    ],
+    "flowchart-badges": "Mostrar iconos en el diagrama de flujo",
+    "data": "Almacenamiento de datos",
+    "data-export": "Exportar",
+    "data-import": "Importar",
+    "data-erase": "Eliminar",
+    "data-erase-warning": "Esto eliminará todas las partidas guardadas, restablecerá todos los ajustes y el progreso. ¿Estás seguro?",
+    "data-erase-confirm": "Todos los datos han sido eliminados. Si abandonas este sitio web sin hacer ningún cambio en los ajustes y sin comenzar un nuevo juego, no se almacenará ningún dato en tu dispositivo.",
+    "controls": {
+      "next": "Siguiente",
+      "history": "Mostrar/ocultar historial",
+      "flowchart": "Mostrar/ocultar diagrama de flujo",
+      "back": "Cerrar pantalla actual / Mostrar menú",
+      "bg_move": "Mover imagen de fondo",
+      "auto_play": "Reproducción automática",
+      "page_nav": "Navegar a la página siguiente / anterior",
+      "load": "Abrir panel de carga",
+      "save": "Abrir panel de guardado",
+      "q_save": "Guardado rápido",
+      "q_load": "Carga rápida",
+      "config": "Abrir panel de ajustes",
+      "_hold": "[i](Mantener)"
+    }
+  },
+  "endings": {
+    "normal": "Normal",
+    "good": "Bueno",
+    "true": "Verdadero",
+    "osiete": "¡Enséñame, Ciel-sensei!"
+  },
+  "saves": {
+    "title-load": "Cargar",
+    "title-save": "Guardar",
+    "create": "Nuevo guardado",
+    "import": "Importar",
+    "export": "Exportar",
+    "delete": "Eliminar",
+    "delete-warning": "¿Estás seguro de que quieres eliminar este guardado?",
+    "overwrite-warning": "¿Estás seguro de que quieres sobrescribir este guardado?",
+    "quick-save": "Guardado rápido",
+    "local-storage-warning": "Las partidas guardadas y las configuraciones se almacenan localmente en el navegador y podrían eliminarse tras un período de inactividad. Exporta tus datos regularmente.",
+    "local-storage-last-export": "Última exportación completa de datos: %0"
+  },
+  "game": {
+    "skip-viewed": "Ya has visto esta escena.",
+    "skip-hscene": "Esta escena contiene contenido para adultos.",
+    "skip-hcontent": "Este fragmento contiene contenido para adultos.",
+    "skip-prompt": "¿Quieres omitirlo?",
+    "toast-qsave": "El progreso ha sido guardado",
+    "toast-qload": "Progreso restaurado",
+    "toast-load": "Progreso restaurado",
+    "toast-save-fail": "No se pudo guardar el progreso",
+    "toast-load-fail": "No se pudo restaurar el progreso",
+    "toast-autoplay-stop": "Reproducción automática detenida",
+    "toast-ffw-stop": "Avance rápido detenido"
+  },
+  "menu": {
+    "graphics": "Ocultar texto",
+    "history": "Historial",
+    "save": "Guardar",
+    "load": "Cargar",
+    "config": "Ajustes",
+    "auto-play": "Reproducción automática",
+    "ffw": "Avance rápido",
+    "title": "Título",
+    "q-save": "Guardado rápido",
+    "q-load": "Carga rápida",
+    "copy-scene-url": "Compartir escena"
+  },
+  "history": {
+    "load": "Cargar",
+    "skipped": "Escena %0 omitida."
+  },
+  "characters": {
+    "aki": "Akiha",
+    "ark": "Arcueid",
+    "cel": "Ciel",
+    "his": "Hisui",
+    "koha": "Kohaku",
+    "others": "Otros"
+  },
+  "plus_disc": {
+    "desc": [
+      "PLUS-DISC es un fan disc que contiene una historia corta y contenido extra, lanzado originalmente en 2001.",
+      "Nota: Se recomienda haber leído primero Tsukihime."
+    ],
+    "viewed": "Visto",
+    "gallery": "Galería",
+    "scenes": "Escenas"
+  },
+  "yes": "Sí",
+  "no": "No",
+  "ok": "Aceptar",
+  "back": "Atrás",
+  "close": "Cerrar",
+  "later": "Después"
+}

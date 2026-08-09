@@ -1,0 +1,137 @@
+monocro off
+play "*9"
+wavestop
+bg "bg/bg_27b",notrans,0
+`“…”@ So that was her answer.@ She was right: it was none of my business.@ It wasn’t—but…
+\
+`“Oh, to hell with it.@ You still can’t go!@ Arcueid is in the park!@ You know how much she hates you, don’t you?@ I can’t just let the two of you meet like this!”@
+ld c,"tachi/cel_t01b",crossfade,400
+`“Oh?@ Are you worried about me?”@ “Of course I am!@ I don’t want to see you and Arcueid fighting.@ Please—just turn around and go home!”
+\
+`“I see.@ So it isn’t me you’re worried about.@ You’re worried about her, aren’t you, Tohno?”@
+br
+`Ciel stared off into some unrelated corner of the night sky, ignoring my entire argument.@
+br
+`…@Somehow, I had the feeling she was deliberately giving me a hard time—and enjoying every second of it.
+\
+`“…@Ciel.@ Are you still that angry about this morning?”@ She only smiled sweetly and said nothing.@ …@She was angry.@ That was unquestionably the face of someone nursing a grudge.
+\
+`“…@All right.@ What I said this morning was completely out of line.@ I’m sorry.@ I shouldn’t have said it.@ So—”@ “If the next words are ‘please go home,’ I will slap you, Tohno.”@ “…@What?”@ “Tohno, we are presently not speaking to each other.@ We’re having a fight.@ Apparently I’m sulking as well, so a halfhearted apology won’t make me nice again.”
+\
+`“Ciel…?”@ “If you went home, we could make up.@ But I already know you won’t.@
+ld c,"tachi/cel_t07b",crossfade,400
+`So there is no point discussing it.@ You have no need to apologize.@ I am not at all concerned about what happened this morning.”@ Ciel looked directly at me, her eyes devoid of emotion.
+\
+`“My duty is to exterminate vampires.@ Everything else is trivial.”@
+cl c,lshutter,800
+br
+`Her shoes struck the pavement in brisk, hard taps as she entered the park.@ “W-wait, Ciel!”
+\
+bg #000000,lcartain,800
+playstop
+bg "bg/bg_28b",lcartain,800
+`Ciel crossed the park.@ Just as I had feared, she seemed to be heading for the place where Arcueid and I were supposed to meet.
+\
+`“I said wait!@ Why are you getting so worked up over this, Ciel?”@
+ld c,"tachi/cel_t07b",lshutter,400
+`“I am not getting worked up.@ You should worry about yourself.@ Won’t she get the wrong idea if she sees you with me?”@ “The wrong idea about what?”@ “You like her, don’t you?@ In that case, being seen with her enemy would put you in a rather awkward position.”
+\
+`“What…?@ It isn’t as if I like her…”@
+br
+`I could not bring myself to finish the denial.@ I didn’t understand the nature of my own feelings, but I knew that Arcueid drew me toward her.
+\
+ld c,"tachi/cel_t01b",crossfade,400
+`“You truly can’t lie, even to yourself.@ You’re so painfully honest that I don’t know what to do with you.”@ Ciel’s masklike face finally cracked, releasing a weary sigh and the emotion beneath it.
+\
+`“But we really should part here.@ We are in the middle of a quarrel, after all, and if Arcueid saw us together—”@
+br
+`“Oh?@ And what would happen if I did see you, Ciel?”@
+play "*6"
+br
+`“—!”@
+cl c,crossfade,400
+`At the voice behind us, we both turned.@ There stood Arcueid—looking, for some reason, spectacularly displeased.
+\
+ld l,"tachi/ark_t05b",lshutter,400
+`“What a surprise.@ I heard Shiki’s voice and came over, never expecting to find you with him.@ We exchanged all the information we had yesterday.@ You shouldn’t have any further business with me.”@
+ld r,"tachi/cel_t07b",crossfade,400
+`“I have none.@ He is simply so reckless that I have been giving him some instruction.”
+\
+`“Is that so?@ Are you planning to steal someone else’s partner?”@ “…@That might be pleasant.@ You still owe me for the considerable injury you dealt me.”@
+cl c,crossfade,400
+\
+`Ciel and Arcueid were one breath away from violence.@
+br
+`As the person trapped between them, I could hardly stand and watch.@ More literally, the arrangement was Ciel, me, then Arcueid.@ If they started fighting, I was almost certain to be caught in the middle.
+\
+`“Why are you two glaring at each other?@ You want the same thing, so try to calm down a little…”@
+ld l,"tachi/ark_t05a",crossfade,400
+`“Stay out of this, Shiki!”@
+ld r,"tachi/cel_t06b",crossfade,400
+`“Please stay out of this, Tohno!”@ “…”@ …@That had been a mistake.@ Anything I said would only make matters worse.
+\
+ld l,"tachi/ark_t05a",crossfade,400
+`“Fine.@ Shiki apparently cares about you, so I’ll let you go.@ I won’t touch you.@ Leave now.”@ “…@I am surprised.@ Is he truly so important to you?@ I thought Arcueid Brunestud took no interest in anything beyond killing vampires.”
+\
+ld l,"tachi/ark_t05c",crossfade,400
+`“…”@ “Humans should be easy for you to bend to your will.@ If you require his help, why not make him your thrall?@ Why haven’t you done so, Arcueid?”@
+ld l,"tachi/ark_t10",crossfade,400
+`“That isn’t even a good joke.@ Shiki is my partner.@ He said he would help me without any of that.”@ Arcueid looked away, suddenly uncomfortable.@ Every trace of the murderous tension that had filled her a moment ago was gone.
+\
+`“Arcueid.@ Don’t tell me…”@
+ld l,"tachi/ark_t07",crossfade,400
+ld r,"tachi/cel_t07b",crossfade,400
+`“You truly do crave his blood.”@ A hard metallic click came from Ciel’s direction.
+\
+`“…@I see.@ I never expected you to take an interest in a human, but that is no concern of mine.@ If you desire human blood, however, there is only one thing for me to do.”@ Metal rang in Ciel’s palm.@ Several long, nail-like swords had appeared there.
+\
+`“W-wait, Ciel…!?”@
+ld r,"tachi/cel_t06b",crossfade,400
+`“Stay back, Tohno.@ I have just confirmed that she is a vampire.@ Even a True Ancestor who cooperates with the Holy Church becomes our enemy once she begins to drink blood.@ I will dispose of her here, before she can claim a victim.”
+\
+ld l,"tachi/ark_t05c",crossfade,400
+`“I’ve listened quietly while you said whatever you pleased, Ciel.@ Fine.@ If you want to die, I’ll grant your wish.@ One rarely gets to kill the same human twice.”@ Murder kindled in Arcueid’s eyes.@ Ciel held her swords ready and met that gaze without flinching.
+\
+wave se_01
+`A high metallic note rang out.@ The air throughout the park froze beneath a tension so dense it was hard to breathe.@
+br
+`This was bad.@ In another moment, they would truly try to kill each other.
+\
+`“…@Both of you, wait.@ I told you to calm down…!”@ Bracing myself against the pressure in the air, I drew breath from deep in my belly and shouted.@
+ld l,"tachi/ark_t07",crossfade,400
+ld r,"tachi/cel_t07b",crossfade,400
+`“…”@ “…”@ For one instant, both of them stopped breathing.@
+cl a,lshutter,400
+\
+`Then came two simultaneous cracks as their feet struck the ground.@
+br
+`Perhaps my shout had pulled the final trigger.@
+br
+`The white shadow and the black collided like opposite magnetic poles snapping together.
+\
+bg #000000,lshutter,400
+`Their battle lay frankly beyond my comprehension.@ Arcueid moved far too quickly for my eyes to follow.@ All I saw was a stream of white afterimages through the night.@ What astonished me was that Ciel refused to yield a single step before her.
+\
+`Ciel possessed none of Arcueid’s impossible speed or motion.@ Her feet remained firmly on the ground as she met and deflected every stroke of that arrow-fast assault.@
+br
+`From where I stood, they seemed evenly matched.@ But as Ciel herself had said, there appeared to be no ceiling to Arcueid’s power.
+\
+`However extraordinary Ciel was, her strength could not continue rising forever.@ Arcueid, on the other hand, seemed to possess no limit at all.@ Ciel had driven her back at first.@ Then Arcueid matched her—and now she was surpassing her with ease.
+\
+bg "bg/bg_29b",lcartain,400
+quakey 4,375
+wave se_05
+`The battle was decided almost immediately.@ Ciel’s body floated lightly into the air, then struck the ground and rolled like a piece of refuse.
+\
+ld c,"tachi/cel_t06b",lshutter,400
+`“Kh—”@ Ciel groaned and forced herself upright.@ But even that was futile.@
+wave se_10
+cl c,tshutter,400
+wave se_05
+`As though struck by something invisible, Ciel was hurled still higher and crashed back to earth.@ She lay where she had fallen, motionless.@ Red blood slowly spread across the park’s brick path.
+\
+wave se_01
+`“Ci…@el?”@ No answer.@ Ciel lay unconscious.@ Arcueid rushed toward her without mercy, her eyes cold enough to cut her throat.
+\
+`“Ah…”@ My voice would not come.@ Arcueid unquestionably meant to “kill”@ Ciel, and Ciel no longer had the power to stop her.@ “…”
+\

@@ -1,0 +1,72 @@
+playstop
+wavestop
+bg "bg/bg_06a",notrans,0
+`…@Maybe I’ll try the tea-ceremony room.@ Yesterday after school, Ciel mentioned that she sometimes eats lunch there.@ If she’s there today, perhaps we can eat and talk together.@
+br
+`More importantly, I enjoy having lunch with her—and I’m curious about that news she mentioned this morning.@
+br
+`“—Right.”@ No time like the present.@ I’ll reach the tea-ceremony room before Arihiko can sniff out my plans.
+\
+bg "bg/bg_11a",lcartain,800
+play "*3"
+`I knock on the door.@ After a short wait, it slides open and Ciel peeks out.@
+ld c,"tachi/cel_t12",lshutter,400
+`“Oh?@ Tohno.”@ Ciel tilts her head in puzzlement.@ She doesn’t look displeased; she simply cannot imagine what has brought me here.
+\
+`“Ciel, would you like to have lunch together?”@ I hold up the bread I bought and state my purpose plainly.@
+ld c,"tachi/cel_t08",crossfade,400
+`“Lunch?@ I’m happy you invited me, Tohno, but…”@ Ciel lapses into thought with a troubled look.@ …@This isn’t going well.@ She doesn’t seem eager.@ That leaves me no choice but to try a little trick.
+\
+`“I have curry bread.”@
+ld c,"tachi/cel_t05",crossfade,400
+`“What—?”@ Ciel’s face lights up.@ I’d gotten an inkling at lunch yesterday, but seeing her react this openly makes me happy too.@ “It’s repayment for yesterday.@ So will you eat with me?”@
+ld c,"tachi/cel_t04",crossfade,400
+`“Yes, please come in!@ I was just making tea!”@
+cl a,lshutter,400
+br
+`Ciel hurries back inside.@ I follow her into the tea-ceremony room.
+\
+bg "bg/bg_09a",lcartain,800
+`“Oh…”@ Once inside, I understand why she hesitated.@ An empty lunch box already rests on the tatami.@ Apparently Ciel finished eating some time ago.
+\
+ld c,"tachi/cel_t03",lshutter,400
+`“Would you prefer green tea or black tea, Tohno?”@ “What?@ Oh, green tea is fine.@ More importantly, have you already eaten lunch?”@
+ld c,"tachi/cel_t04",crossfade,400
+`“Yes, a little while ago.@ I overslept today and missed breakfast, so I was famished all morning.”@ “…@I see.@ Then there’s no reason to make you keep me company.@ Sorry for disturbing you.@ I’ll eat in the classroom, so please relax.”@
+ld c,"tachi/cel_t09",crossfade,400
+`“What—don’t I get the bread?”@ Ciel murmurs, looking genuinely crushed.
+\
+`“But you’re already full, aren’t you?”@
+ld c,"tachi/cel_t12",crossfade,400
+`“Not at all.@ I’m hungry.”@ …@She does not appear to be saying that out of consideration for me.@ “All right, then I’ll stay.@ But are you sure?@ The bread from our school shop is pretty substantial.”
+\
+ld c,"tachi/cel_t02",crossfade,400
+`“You needn’t worry.@ When it’s something I like, I can eat almost without limit.”@ Her bashful-looking smile must come from anticipation of the curry bread rather than shyness.@ “…”@ She is a mysterious person.@ Anyone this delighted by a single curry bun may be a rare treasure in this day and age.
+\
+bg #000000,lshutter,800
+!w500
+bg "event/cel_e02a",lshutter,800
+`Ciel eats one bun and I eat two, after which we settle down to tea.@ Kneeling on the tatami, I sip in companionable silence with her.@ If only this weren’t a school lunch break, it would be perfect.@ But life never works out quite that neatly.
+\
+`“How is your new home, Tohno?@ Something rather serious seemed to be happening there this morning.”@ “Hard to say.@ The house itself is magnificent, and the only trouble last night was a pack of noisy wild dogs.@ If I had to complain, I’d say it needs a television and a Japanese-style room.@ There’s nowhere I can sit and drink tea like this.”@ “Wild dogs?@ What do you mean?@ Wasn’t the incident at your home connected with the serial killer?”
+\
+`“I don’t really understand it myself.@ The mansion is surrounded by a high wall, and they found bloodstains beside it.@ But that’s where—”@
+br
+`—I went to look for the wild dogs last night.@ I cannot bring myself to say it.@
+br
+`“…@Well, never mind.@ It has nothing to do with us.@ I’m finally getting to relax with you, so let’s not spoil it with ugly conversation.”@ “That isn’t true.@ We both live in this city, so the serial killings have everything to do with us.”
+\
+`Holding her teacup, Ciel fixes me with a grave stare.@ “That’s true, but surely we’ll be safe if we stay indoors at night.@ Eight people have died now, haven’t they?@ With so many victims, the police must catch the killer soon.”@ “Honestly, Tohno, you have no sense of danger at all.@ The news has been saying exactly that since the third victim, and the killer is still free!”
+\
+`“Mm…@ you’re right.@ The news keeps flashing ridiculous captions about a ‘modern-day vampire,’ so it never felt like a real event close to home.@ I’m sorry.@ That was careless.@ I live in this city, so I should be cautious.”@ “Yes.@ As long as you understand.”@ Ciel smiles, satisfied.
+\
+`“But Ciel, why call the killer a vampire in the first place?”@ “The victims were drained of every drop of blood.@ Doesn’t that sound like a vampire?”@ “…@Does it?@ The usual story is that anyone bitten by a vampire becomes one too.@ They’ve found all the victims’ bodies, so there’s no need to drag vampires into it.”@ Ciel nods with amused interest.@ “Tohno, do you honestly believe vampires exist?”
+\
+`“…@The news was sensationalizing it, so I played along.@ Like I said, if a real vampire were responsible, there wouldn’t be any bodies.”@ “True.@ But consider this: perhaps the bodies they found belonged to people who died because they could not become vampires.@ Some people can become vampires and others cannot.@ When the right kind of person is attacked, no body is ever discovered—because that person is still alive somewhere.”
+\
+`“Wow.@ That’s quite a horror story.”@ “Yes, it is.@ Unfortunately, I couldn’t think of an ending.”@ Ciel laughs and raises her teacup to her lips.@
+br
+`Lunch break comes to an end as we talk about one thing and another.
+\
+playstop
+bg #000000,lshutter,800

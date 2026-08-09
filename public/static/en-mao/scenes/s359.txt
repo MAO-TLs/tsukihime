@@ -1,0 +1,405 @@
+playstop
+wavestop
+bg "bg/bg_04",notrans,0
+`…@I had no grounds for believing it.@ Yet somehow I felt that she, of all people, might be able to resolve what tormented me.@
+br
+`“……”@ There was no time to hesitate.@ I could no longer bear to carry this alone.@ “Sorry, Arihiko!@ Go back without me!”@
+ld c,"tachi/ari_t03",crossfade,400
+`“What?@ Go back where?@ Where are you going, Tohno?”
+\
+bg #000000,lcartain,400
+bg "bg/bg_05a",lcartain,400
+play "*1"
+`…@I practically dragged Ciel behind the school building, roughly enough that I could hardly blame her for getting angry.@ Fifth period had begun long ago.
+\
+ld c,"tachi/cel_t08",crossfade,400
+`“Honestly, Tohno, what is this?@ Why did you suddenly drag me all the way out here?”@ She sounded less angry than exasperated.@ “Sorry.@ I need to hear more about what you were saying.”@ “About the random killings?”@ “Yes.@ You said the killer doesn’t recognize the crime as a crime.@ Does that mean the person could be killing without being aware of it?”@ For example, someone might believe they were asleep, yet go outside and murder people.
+\
+ld c,"tachi/cel_t09",crossfade,400
+`“Ow, Tohno!@ I’ll listen, so please let go of my hand.”@ “Oh—sorry.”@
+cl a,crossfade,400
+`I released her.@ I must have been far more frantic than I realized.
+\
+ld c,"tachi/cel_t01a",crossfade,400
+`“That’s better.@ You want to know whether the killer might be committing these murders without realizing it, correct?”@ “Yes.@ I have to know.”@
+ld c,"tachi/cel_t12",crossfade,400
+`“How should I know?@ I’m not the killer.”@ “Wh—well, obviously, but please!”
+\
+ld c,"tachi/cel_t04",crossfade,400
+`“I was joking.@ You looked so terribly serious that I couldn’t resist teasing you.”@ “Please don’t.@ I’m serious because this really matters.”@
+ld c,"tachi/cel_t03",crossfade,400
+`“Yes, I can see that.@ But why?@ Whoever committed those murders has nothing to do with you.”@ “That’s—”
+\
+ld c,"tachi/cel_t06a",crossfade,400
+`“That’s what?”@ It was…@ “What would you do if I told you I was the killer?”@ I forced the words out.@
+ld c,"tachi/cel_t05",crossfade,400
+`And yet Ciel looked as though she had just heard a particularly good joke.@ She began to laugh.
+\
+`“I’m not joking.@ I—”@
+play "*8"
+ld c,"tachi/cel_t01a",crossfade,400
+`“I know you’re serious.@ That is precisely what makes it funny.@ A killer who comes to someone for advice because he thinks he might be a killer is hardly typical.”@ “But—”@
+ld c,"tachi/cel_t03",crossfade,400
+`“Then let me ask you something.@ Why do you think that?”@ “Because…@ I haven’t been myself lately.@ I think I know why.@ I may have been bitten by a vampire.”@ The words came out sounding like some elaborate metaphor.
+\
+ld c,"tachi/cel_t07a",crossfade,400
+`“Go on.@ There is more, isn’t there?”@ “Ever since then, strange things have happened.@ Sometimes I suddenly feel as though I’m not myself.@ I dream about murdering people.@ Yesterday, I apparently wandered outside while I thought I was asleep.@ And the dream I had then was about killing someone and drinking their blood.”@ “……”@ Ciel said nothing.@ She only stared into my eyes.
+\
+`“They say my father had two personalities.@ Maybe there is a murderous part of me that I don’t even know exists.@ But I have no way to find out, and I…”@
+ld c,"tachi/cel_t08",crossfade,400
+`“Which is why you asked whether the killer might be unaware.”@ Ciel sighed in exasperation.
+\
+`“Listen.@ If you were this murderer, then you would not be unaware.@ The very fact that you see the murders in your dreams means you are aware of them.@ More importantly, though, they are only dreams.@ I don’t know exactly what has frightened you, but you are still yourself.”@
+cl a,crossfade,400
+`“……”@ I was grateful to hear it.@ But there was nothing—not one shred of evidence—that could make me take her reassurance at face value.
+\
+ld c,"tachi/cel_t03",crossfade,400
+`“You really are terrified, aren’t you?”@
+cl a,crossfade,400
+br
+`With that, Ciel gently patted my head.
+\
+ld c,"tachi/cel_t04",crossfade,400
+`“You’ll be all right.@ There is nothing wrong with you.@ I am personally guaranteeing it, so you can be absolutely certain.”@ “Ah…@ all right.”@ The answer came naturally, from my heart.@ Even knowing the peace would last only as long as this moment, I felt myself relax.@ Her palm was gentle, as though it could cradle all my fear.
+\
+bg #000000,crossfade,800
+playstop
+!w2000
+bg "bg/bg_06b",lcartain,800
+`School let out.@ Still confused over Akiha and myself, I somehow reached the end of the day.@
+br
+`“Time to go home.”@ I would collect Akiha and return to the estate.
+\
+bg #000000,lcartain,800
+bg "bg/bg_24b",lcartain,800
+play "*1"
+`Akiha and I started home together.@ Just as at lunch, the moment we were alone, conversation deserted us both.@
+br
+`I wanted to talk to her, yet I was too embarrassed even to look at her face.@
+br
+`“Honestly, I’m not in middle school anymore.”@
+ld c,"tachi/aki_t13a",crossfade,400
+`“Hm?@ Did you say something, Brother?”@ “No—nothing.@ Just talking to myself.”@
+cl a,crossfade,400
+br
+`…@God.@ What the hell were you doing, Shiki Tohno?
+\
+bg #000000,lcartain,800
+bg "bg/bg_22b",lcartain,800
+`We reached the long hill.@ Once we climbed it, the estate would be directly ahead.@
+br
+ld c,"tachi/aki_t01a",crossfade,400
+`“Brother.@ Before we return, there is something I would like to ask you.”@ Akiha stopped dead and faced me squarely.@ “……”@ The maddening awkwardness of our earlier silence was gone.@ Her gaze was utterly serious.
+\
+`“All right.@ What do you want to ask?”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“I’ve asked before, but…@ what exactly do you think of Ciel?”@ “That again?@ Ciel is just an upperclassman I trust.@ She’s dependable, and I can talk to her about anything.”@
+ld c,"tachi/aki_t16a",crossfade,400
+`“Yes, I thought you seemed troubled.@ That was what caused what happened this morning too, wasn’t it?”@ “……”@ I was stunned.@ Akiha had noticed that I was suffering alone.
+\
+`“Akiha…@ you knew?”@
+ld c,"tachi/aki_t06",crossfade,400
+`“Of course.@ We are brother and sister.@ I can at least tell when you’re unhappy.@ So why won’t you come to me?@ Do you truly trust that woman more than you trust me?”@ “Y-you saw me talking to her?”
+\
+ld c,"tachi/aki_t05a",crossfade,400
+`“Yes.@ I could hardly believe my eyes.@ You’re so open with her!”@
+cl a,crossfade,400
+`Akiha turned away with a huff.@ “That isn’t it.@ I didn’t tell you or Kohaku because…”@ Because I could not bear to show you what my body had become and have you hate me for it.
+\
+ld c,"tachi/aki_t03a",crossfade,400
+`“Because what?@ If you have something to say, say it clearly.”@ “Idiot!@ If I could say it, I wouldn’t have spent so long agonizing over it!@ I spoke to Ciel because you and the others matter to me.@ It wasn’t because I didn’t trust you.”@
+ld c,"tachi/aki_t07",crossfade,400
+`“I don’t want to hear your excuses.”
+\
+`“Then I will be perfectly clear.@ That woman is not right for you.@ Do not grow any closer to her.@ It will bring you no good.”@ “What—”@ The words came so abruptly that I could not answer.
+\
+`“Akiha, do you mean someone from an ordinary family isn’t good enough for the Tohnos?”@ “……”@ She did not answer.@ I took her silence for a yes.
+\
+`“I see.@ Of course.@ You’re the head of the Tohno family, after all.@ Just like Father, you care about pedigree and bloodline more than anything.”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“Brother, that isn’t—”@ “It’s fine.@ I’m not blaming you.@ I was the one who left you alone and went away.@ I was supposed to be raised that way too.@ So I’m not criticizing you.”@
+ld c,"tachi/aki_t17a",crossfade,400
+`“……”@ “But I cannot ignore what you just said.@ You know nothing about Ciel, so don’t tell me she isn’t good enough.”
+\
+cl a,crossfade,400
+`Akiha kept her head bowed and said nothing.@ For a time, no words passed between us.@
+br
+`“……@As if you knew.”@ “What?”@
+ld c,"tachi/aki_t10",crossfade,400
+`“You don’t know anything about the Tohno family either, so stop saying whatever you please!”@ The cry came out anguished.@ Akiha drew away from me.
+\
+ld c,"tachi/aki_t14",crossfade,400
+`“Just stay away from her.@ She’s different.@ The closer you become, the more you will suffer.”@
+cl a,lshutter,400
+`Akiha ran up the hill.@
+br
+`“What the hell does that mean?”@ I could only stare after her, dumbfounded.
+\
+bg #000000,lcartain,800
+bg "bg/bg_32b",lcartain,800
+`I returned to the estate.@ Usually I would walk into the foyer without a thought, but now I found it difficult to go inside.@ Since coming back, I had made Akiha angry countless times.@ But what had just happened was different.@ For the first time, I had made her truly angry and driven her to that anguished cry.
+\
+`“……”@ I did not think it was a question of who had been right or wrong.@ Given time, Akiha would calm down and explain why she hated Ciel so much.@
+br
+`“Maybe I’ll walk around the garden.”@ If I entered the house, I might run into Akiha.@ Better to stay outside for a while.
+\
+bg #000000,lcartain,800
+bg "bg/bg_42b",lcartain,800
+`“Is that Kohaku…?”@ It was.@ She had not noticed me and seemed to be heading toward the woods.@
+br
+`Kohaku entered the trees without seeing me.@ Curious what she was doing there, I followed at a distance.
+\
+playstop
+bg #000000,lshutter,800
+bg "bg/bg_54b",lshutter,800
+`Beyond the path Kohaku had taken, there appeared to be a small clearing.@ “What…?@ Was there always a clearing there?”@ I searched my memory, but found only haze.@ Through the trees of the estate’s woods, I could make out an open space as neat as though it had been cut from the forest.
+\
+`No—saying I could make it out was not quite right.@
+br
+`I could never have seen it by simply walking past.@ Had Kohaku not gone there, I might have lived on the estate my entire life without discovering that tiny clearing hidden among the trees.
+\
+`“Was that always there…?@ If it was, it would have made the perfect place to play…”@ At least, I had no memory of playing with Akiha in a woodland clearing.@
+br
+`At least…@ I didn’t…@ think I did.@
+br
+`“……”@ After a moment’s thought, I stepped inside.
+\
+bg #000000,lshutter,800
+bg "bg/bg_53",lshutter,800
+`There was nothing remarkable in the clearing.@ Nor was there any sign of Kohaku, though she had entered ahead of me.@
+br
+`“What?@ It’s only an empty lot.”@
+br
+`I walked to the center.@ It truly was an unremarkable patch of ground: bare earth leveled perfectly smooth, enclosed on every side by the dense woods.
+\
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_53",notrans,0
+wave se_01
+`The cry of cicadas.@ The fierce summer sunlight, hot enough to melt the world—
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_53",notrans,0
+br
+`“What…?”@ Summer sunlight—?@
+br
+bg #ffffff,notrans,0
+wait 100
+bg "bg/bg_53",notrans,0
+wave se_01
+`“It—hurts…”@ The wound in my chest began to ache.@ A blade—driving deep.@ The pain of a kitchen knife thrust through my chest.
+\
+bg #ffffff,crossfade,800
+waveloop se_02
+br
+br
+`Zeeee—zee-zee.@
+!w750
+`Zeeee—zee-zee.@
+!w750
+`Zeeee—zee-zee—
+!w750
+br
+`Somewhere, cicadas were crying.@
+br
+`Though it was already autumn.
+\
+br
+`Summer sunlight so white it might melt everything away.@
+br
+`Thunderheads in the distant sky.@ All I can see is the voice of an empty cicada shell.@ At my feet, another husk.@ A husk.@ Someone’s discarded husk.
+\
+br
+br
+br
+`“……”@
+br
+`The third.@ The husk of the third child.@ The third child I could no longer even remember.
+\
+bg "bg/cmo_06b",crossfade,800
+br
+br
+br
+br
+br
+`…@Someone’s shadow, crouched upon the ground.@ The footsteps of little Akiha drawing near.@ Thunderheads far away, beneath a blue sky ringing with cicadas.
+\
+br
+br
+br
+br
+br
+`I couldn’t think of anything else.@ If I did nothing, Akiha would be killed.@ That was all I knew.@ Truly, all I knew.
+\
+br
+br
+br
+br
+br
+`I was running.@ That was all I understood.@ It didn’t matter that I was the one in danger.@ Nothing about me mattered.
+\
+br
+br
+br
+br
+br
+br
+`I wanted to protect Akiha.@ So I took her place.
+\
+br
+br
+br
+br
+br
+br
+br
+`Far away, the cicadas cried.
+\
+br
+br
+br
+br
+br
+br
+`After that, there was my body, murdered with its chest pierced through.@
+br
+br
+br
+br
+`And standing over my corpse, staring down at it in a daze, was the third child.
+\
+bg #ffffff,crossfade,800
+bg "bg/bg_53",crossfade,400
+`“Ah—gh…”@ My chest hurt.@ I felt sick.@ The wound had closed long ago, so why did it hurt this much?
+\
+bg #9c0120,crossfade,400
+bg "bg/ima_13",notrans,0
+`My chest is broken.@ The old wound splits open, and a crimson stain pours out.@
+br
+`Of course.@ My wound never healed at all.
+\
+br
+`HURTS.@ SCARED.@
+br
+`The world reels.@
+br
+`SO THIS IS…@ THE IMPULSE CALLED DEATH.
+\
+bg #000000,crossfade,800
+`Consciousness sinks.@ The wound aches.@
+br
+`With a heavy thud, I heard my own body strike the ground.
+\
+wavestop
+bg #ffffff,crossfade,800
+!w4000
+bg "bg/bg_40c",crossfade,1500
+play "*1"
+`…@Voices reached me.@
+br
+`“Miss Akiha, aren’t you going to call a doctor?”@ “Don’t be ridiculous, Hisui.@ We can’t.@ His wound isn’t ordinary…!”
+\
+`…@Akiha and Hisui are talking.@ This is SHIKI’s room.@ Apparently, I am asleep on the bed.@
+br
+`I tried to sit up and say hello, but my body would not obey.@ The pain in my chest was gone, yet every limb felt made of lead.@ Only my eyes and mouth seemed capable of moving properly.
+\
+ld l,"tachi/aki_t11b",crossfade,400
+`“What were you thinking, Hisui?@ You knew he must never be allowed near that place…!”@
+ld r,"tachi/his_t21b",crossfade,400
+`“I am…@ terribly sorry.”@ “Sorry is not enough.@ You were assigned to Brother precisely so this could be prevented.@ Did you forget?@ What were you doing…?”
+\
+`Akiha’s anger was raw and unguarded in a way I had never seen.@ Hisui stood beneath the scolding with her head bowed, saying nothing.@
+br
+`…@I had no idea how things had come to this.@ But even I could understand that Hisui was being blamed because of me.
+\
+ld l,"tachi/aki_t10b",crossfade,400
+`“Answer me, Hisui.@ Why did Brother go there?”@ Hisui gave no reply.@ The air between them grew heavier.@ Akiha bit down on her lip and stepped toward her.@
+br
+`…@Even from the bed, I could tell Akiha was about to strike her.@ Hisui must have known too, yet she kept her head bowed and silently prepared to accept it.
+\
+playstop
+`“Wait, Akiha.”@
+ld l,"tachi/aki_t17b",crossfade,400
+`“Brother—you’re awake?”@ “Yeah.@ You were making so much noise that you woke me.”@ “Ah…”@
+ld l,"tachi/aki_t05b",crossfade,400
+`Akiha looked away awkwardly.
+\
+`“Don’t take it out on Hisui.@ I don’t know the details, but you’re arguing because I collapsed, right?@ Then it isn’t her fault.@ I fell over all by myself.”@ With a grunt, I forced enough strength into my arms to lift my upper body from the bed.@
+br
+`That small effort left me unable to move another finger.@ But with Hisui looking so miserable, I had to pretend I was well, however much it cost me.
+\
+`“And you—don’t pick fights over something as trivial as me.@ You look so grown-up, but you’re still a child.”@
+ld l,"tachi/aki_t14b",crossfade,400
+play "*8"
+`“But you were unconscious for more than five hours!@ That has never happened before.@ If—if you had never opened your eyes again, what was I supposed to do?”
+\
+`“Idiot, don’t say things like that.@ It was only anemia.@ Wait…@ is it already past ten?”@
+ld l,"tachi/aki_t12b",crossfade,400
+`“Yes.@ You were unconscious from late afternoon until now.”@ Akiha spoke hesitantly.@ “……”@ All the strength drained out of me at once.
+\
+`“That’s bad.@ I haven’t been out that long since elementary school.@ I used to collapse all the time then.@ I couldn’t settle into life with the Arima family, and my nerves were shot.”@ Perhaps it was an aftereffect of the anemia, but I still felt as though I were dreaming.
+\
+`“I remember.@ Everyone in the Arima family was kind.@ They treated me as though I were really their child.@ Keiko was strict, but she cared.@ She kept telling herself I was her own son.@ So I thought…@ I had to become their real son too.”
+\
+ld l,"tachi/aki_t23b",crossfade,400
+`“Don’t push yourself, Brother.@ This is the Tohno estate.@ You don’t have to tell yourself such things anymore.”@ “I know.@ But I always felt that way, as far back as I can remember.@ The Arimas, you, everyone here—you were all so kind.@ That was why it hurt so much.”@
+br
+`…@What was I talking about?@ I stared vaguely at the ceiling, remembering things so old that I could no longer truly recall them.
+\
+`“Please don’t strain yourself.@ You have only been back a week.@ Everything has exhausted you.”@ “Maybe…@ I am tired, I suppose.”@ “Exactly.@ So stay in bed tonight.@ Your body is more fragile than most.@ Unless you occasionally give it a full day’s rest, you will collapse again as you did today.”@ Akiha’s gaze remained solemn.
+\
+`“……”@ She was right.@ I had to forget everything and rest without thinking about vampires or myself, or I really would break down.
+\
+`“All right.@ I’ll behave and stay in bed today.”@ I lowered myself onto the mattress.@
+ld l,"tachi/aki_t12b",crossfade,400
+`“You promise?@ You won’t sneak out later?”@ “What’s that supposed to mean?@ Am I really so untrustworthy?”@ …@Yes, perhaps I was.@ I had neglected Akiha often enough.
+\
+`“Hisui, tell Kohaku that Brother is awake.@ Brother, would you like dinner?”@ “Oh…@ No.@ I’m sorry to disappoint Kohaku, but I don’t think I can eat.”@ “I understand.@ Hisui, please tell her that as well.”@ Still looking down, Hisui nodded once and left the room.
+\
+cl a,crossfade,400
+ld c,"tachi/aki_t12b",crossfade,400
+`“Now, Brother.@ Please rest for the night.”@ Akiha’s voice was extraordinarily gentle.@
+br
+`But sleep frightened me.@ If I slept, I might see that nightmare again.@
+br
+`“No, I—”@ “Please, Brother.@ You said you would listen to me, just for today…”@ Akiha’s eyes pleaded with me.@ She was worried for me from the very bottom of her heart.
+\
+`“All right.@ I’ll go to sleep.”@ “Thank you.”@ “Idiot.@ Why are you thanking me?@ I’m the one who owes you.”@ After all, you were the one who brought me—who had abandoned you for eight years—back to this house.
+\
+`“Akiha…@ I’m sorry for everything.@ I was selfish.@ I never considered how you felt.@ But from now on—”@ “It’s all right.@ Please remain the same brother you have always been.@ I’m the one who should apologize.@ Don’t apologize to me.@ If you do, I really will become a hateful woman.”
+\
+`Tears filled Akiha’s eyes as she clasped my hand.@ I didn’t understand.@ Why would she say that?@ Why did she keep whispering, “I’m sorry”@ again and again?
+\
+`“I’m getting sleepy.@ I think I’ll rest.”@ “All right.@ Good night, Brother.”
+\
+bg #000000,crossfade,1500
+playstop
+!w2000
+play "*7"
+`…@The old wound in my chest ached.@ The third child.@ It must have been the child adopted ten years ago, the one who died almost immediately.@
+br
+`A sweltering summer day.@ A child drenched in blood.@ In Shiki Tohno’s world, ill omens piled one upon another.
+\
+`Thump.@
+br
+`And yet everything was quiet.@
+br
+`Thump.@
+br
+`Peace settled over me.@
+br
+`Thump.@
+br
+`Akiha’s heartbeat, very near.
+\
+br
+`Thump.@
+br
+`It was truly quiet.@
+br
+`Thu…@ mp.@
+br
+`And for the first time in days, I slipped into a peaceful sleep untouched by nightmares.
+\
+playstop
+!w4000

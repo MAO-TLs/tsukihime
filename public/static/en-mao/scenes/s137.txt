@@ -1,0 +1,108 @@
+monocro off
+playstop
+wavestop
+bg "bg/bg_32c",crossfade,800
+`The estate gates stand silent.@ It is seven in the evening.@ Akiha should be home by now, probably taking tea in the sitting room.
+\
+bg #000000,lshutter,800
+bg "bg/bg_48c",lshutter,800
+`…@Hm?@ Voices are coming from the sitting room.@ That’s odd when it’s almost time for dinner.@ Kohaku should be in the kitchen, and Hisui isn’t exactly the sort to sit chatting with Akiha.@
+br
+`“Maybe Kohaku and Akiha are having tea.”@ That must be it.@ I push open the front door.
+\
+bg "bg/bg_33c",lcartain,800
+ld c,"tachi/his_t01",notrans,0
+`Hisui is standing in the foyer.@ “I’m late, but I’m home.”@ “…”@ Hisui fixes me with a blank stare.@ There is no customary welcome, and she somehow looks displeased.
+\
+`“Did something happen?@ Maybe it’s my imagination, but you look angry.”@
+ld c,"tachi/his_t08",crossfade,400
+`“You have a visitor, Master Shiki.@ She has been waiting in the sitting room for some time, so please go to her at once.”@ “A visitor for me?”@ Hisui nods.
+\
+`“Who could that be?@ No one ever comes here to see me—”@
+br
+`Wait.@ I have an extremely bad feeling about this.@
+br
+`“Hisui…@ what does this visitor look like?”@ “She is a beautiful woman with golden hair.”@ Hisui’s answer could not be more direct.@ Without another word, I sprint for the sitting room.
+\
+bg #000000,lcartain,400
+bg "bg/bg_34b",lcartain,400
+play "*3"
+`—Too late.@ Apparently, the situation was already well past the point where it could be explained away.
+\
+bg "event/ark_e08",tshutter,800
+`“Welcome home, Brother.”@ “Oh, there you are.@ Took you long enough.”@ They greet me in utterly opposite tones.@ “…”@ This can’t be happening.@ Of all people, Arcueid and Akiha are sitting face-to-face in our sitting room, locked in a standoff.
+\
+`Arcueid looks perfectly at ease.@ So does Akiha.@ But while Arcueid’s composure is natural—or simply oblivious—Akiha’s is an obvious mask for open hostility.@ She cuts me a sidelong glance.
+\
+`“What is the matter, Brother?@ Don’t stand there.@ Please come and sit with us.”@
+br
+`Ugh.@ If I go over there, I have the distinct feeling she’ll calmly stick a knife into me.@
+br
+`“No, I’m fine.@ More importantly, Akiha, she’s, well…”@ Well—how am I supposed to explain her?@ Calling her a classmate won’t work, and saying we met downtown would be pouring oil on the fire.
+\
+`“She is what?”@ “Well, you see, um…”@
+br
+`Damn it.@ Anything I say now will probably be useless, but I still have to invent some convincing excuse and smooth this over.@ Before that, though—what on earth did Arcueid tell them when she arrived?@
+br
+`“Um…@ what did she say when she came here?”@ Pointing at Arcueid, I promptly dig my own grave.
+\
+`“Hm?”@ Arcueid tilts her head in puzzlement.@ “Is she not a friend of yours, Brother?@ That is what she told me.”@ “Yes—well, I suppose you could call us friends.”@ “I see.@ Then I would be delighted if you introduced us.@ I could hardly turn away a friend of my brother’s.”@ “Ah, well, about that, Akiha…”@ I mumble incoherently.@ Evidently tired of keeping quiet, Arcueid barges into our private exchange without the slightest invitation.
+\
+`“Please don’t trouble yourself.@ I only came to ask Shiki out, so we’ll be leaving right away.@ Isn’t that right, Shiki?”@ The room tilts around me.@
+br
+`—This is bad.@ If I let her keep talking, Shiki Tohno’s life as he knows it is over.
+\
+`“Ha…@ hahahahaha!”@ Laughing with desperate abandon, I rush to Arcueid and seize her arm.@
+bg "bg/bg_34b",lshutter,800
+ld l,"tachi/ark_t06",crossfade,400
+`“Hey, Shiki!@ What are you doing?”@ I have no time to listen to Arcueid complain.@
+cl l,lshutter,400
+`Dragging Arcueid by the arm, I bolt from the room and leave a stunned Akiha behind.
+\
+bg #000000,lcartain,400
+bg "bg/bg_33c",lcartain,400
+ld c,"tachi/his_t01",notrans,0
+`Hisui is still in the foyer.@ Her gaze turns colder than ever as I come running toward her, towing Arcueid behind me.@
+br
+`“Are you going out, Master Shiki?”@ “—Yes.@ I’ll be back late.@ I’m really sorry to ask, but could you leave the gates open?”@ “—Certainly.”@ Hisui gives me an exquisitely formal bow.@ I race past her and flee the estate.
+\
+bg #000000,lcartain,400
+bg "bg/bg_32c",lcartain,400
+ld c,"tachi/ark_t11",crossfade,400
+`“Ow!@ What do you think you’re doing, dragging me outside like that?”@ “That’s my line!@ What the hell were you thinking, walking straight up to my front door?@ You’ve lost your mind!@ Are you trying to destroy my entire life, you stupid woman?”@ Grinding my teeth, I glare at Arcueid.@
+ld c,"tachi/ark_t13",crossfade,400
+`“St—stupid woman?@ Are you calling me stupid?!”
+\
+`“I’m calling an idiot an idiot!@ What else would I mean, idiot?@ If you have an argument, let’s hear it!”@ “Wh—uh…?”@ I am well and truly furious.@ I haven’t been this angry in years, and now that I am, I won’t be satisfied until I tell her exactly what I think, no matter who she is.
+\
+ld c,"tachi/ark_t16",crossfade,400
+`“What’s your problem?@ All I did was come to see you.@ I didn’t do anything worth getting this angry about!”@ “Wait.@ You ‘just came to see me’?@ Arcueid, are you serious?”@
+ld c,"tachi/ark_t14",crossfade,400
+`“I didn’t say anything strange.@ I even kept quiet about your eyes and about myself when I talked to your sister.”@ “Of course you did.@ If you’d mentioned any of that, we wouldn’t be standing here talking.@ I’d have thrown you off the estate on the spot.”
+\
+ld c,"tachi/ark_t11",crossfade,400
+`“I don’t get it.@ Then why are you so angry?”@ “Because you don’t think about anything!@ Listen, you stand out merely by existing.@ Since we’re having this conversation, you need to understand that your very presence causes trouble!”@ There.@ I’ve finally said everything I wanted to say.@ The release clears my head, but Arcueid, having endured the whole tirade, is understandably no happier.@ She glares at me with a catlike pout.
+\
+ld c,"tachi/ark_t16",crossfade,400
+`“You’re the one saying whatever you please.@ And why would I stand out just by being there?@ I look no different from a human.”@ “Because beautiful women stand out wherever they are.@ Whether you’re human has nothing to do with it.”@ I answer without hesitation.@
+cl c,crossfade,400
+br
+`Perhaps because the answer comes so readily, Arcueid accepts it just as readily.
+\
+`“Anyway, I went too far.@ I’ve never been caught in a scene like that before, and I panicked.”@
+ld c,"tachi/ark_t14",crossfade,400
+`“It’s fine.@ It sounds like I was the one at fault.”@ Arcueid nods with disconcerting meekness.@ I feel guilty for finding even that suspicious.@ …@But why had she come to my house in the first place?
+\
+`“By the way, why did you come to my house?@ I suppose the timing worked out, since I needed to talk to you too.”@
+ld c,"tachi/ark_t11",crossfade,400
+`“Oh, you did?@ I only came by to see how you were doing.”@ “I see.@ Next time, please observe me secretly from somewhere inconspicuous.@ Try not to let anyone find you.”@ …@All at once, I feel exhausted.
+\
+`“Anyway, I need to talk to you about something serious.@ I can’t settle down here, so can we go somewhere else?”@
+ld c,"tachi/ark_t03",crossfade,400
+`“All right, but what do you want to talk about?”@ “You’ll see.@ It should be empty soon, so the park might be best.”@ I tell her to come along and start walking.@
+cl c,lshutter,800
+`Arcueid tilts her head, then obediently follows.
+\
+bg #000000,lcartain,800
+playstop
+!w1000

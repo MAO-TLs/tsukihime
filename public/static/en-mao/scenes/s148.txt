@@ -1,0 +1,126 @@
+monocro off
+play "*2"
+wavestop
+bg "bg/bg_34a",notrans,0
+`There is no possible way to talk my way out of what happened last night.@ My only chance is to apologize before Akiha says anything and somehow make the whole thing go away.
+\
+`“Akiha, about last night—that was—”@
+ld c,"tachi/aki_t11a",crossfade,400
+`“Brother, may I offer you one piece of advice?”@
+br
+`And just like that, before I can get my apology out, Akiha cuts me off in a voice chilling enough to make my blood run cold.
+\
+`“As the eldest son of the Tohno family, you should not offer apologies lightly.@ To apologize is to admit that you are at fault.@ In that event, I would be obliged to impose a punishment befitting the eldest son of this family, would I not?”@ “Uh…@ Akiha, that’s—”@
+ld c,"tachi/aki_t04a",crossfade,400
+`“I have no wish to do such a thing to you.@ So, Brother, I am looking forward to hearing the splendid defense you are about to offer.”
+\
+`“…”@
+br
+`…@A demon.@ There is a demon in this room.
+\
+`“Akiha, before that, could I go to the dining room and have breakfast?”@ I begin edging toward the dining room.@
+br
+ld c,"tachi/aki_t02",crossfade,400
+`“Brother.”@ Akiha’s voice cracks like a whip and stops me in my tracks.@ Ugh…@ She plainly has no intention of letting me escape.
+\
+ld c,"tachi/aki_t01a",crossfade,400
+`“We need to speak before breakfast.@ Sit on the sofa, please.”@
+`“…@Fine.@ Just keep it as brief as possible.”@
+`I perch meekly on the sofa opposite her.@ Kohaku brings me a cup of tea.@ Her smile seems to say, You can do this, and gives me a tiny measure of courage.@
+`I take one bracing sip and meet Akiha’s eyes.
+\
+`“So what did you want to discuss, Akiha?”@
+`“What exactly is your relationship with the woman who was here last night?”@
+br
+`Ghk—!@
+br
+`That was close.@
+`Akiha usually couches everything in elaborate indirection.@ Where did that fastball come from?@ The shock nearly made me spray tea across the room.
+\
+ld c,"tachi/aki_t03a",crossfade,400
+`“Brother, are you listening to me?”@
+`“I’m listening.@ Loud and clear.”@
+`“Then answer me.@ What is your relationship with that woman?”@
+`“…@That’s difficult to define.@ We’re cooperating, sort of.@ Or maybe friends—”
+\
+`“Friends close enough to go out together in the middle of the night, I see.@ I have no intention of dictating whom you become involved with in the future, but you are still a student, Brother, aren’t you?@
+ld c,"tachi/aki_t16a",crossfade,400
+`The eldest son of the Tohno family holding secret rendezvous night after night with some woman of unknown background—please put an end to such shameless behavior.”
+\
+cl c,crossfade,400
+`Partway through her speech, Akiha’s cheeks redden and she turns away.@
+br
+`—I see.@ Akiha thinks Arcueid and I are lovers.
+\
+`“Hold on, Akiha.@ There’s nothing between us.@ I’m only helping her find something.@ Once that’s done, we’ll never see each other again.@ That’s all there is between us.”@
+ld c,"tachi/aki_t18a",crossfade,400
+`“Really?@ You seemed remarkably close for two people with nothing between them.@ Are you telling me I imagined that, Brother?”@
+`Akiha’s gaze is cold.@
+`It would be easy to lie and say she did—but I hate lying to Akiha.@ More than that, for some reason, I hate the idea of claiming Arcueid and I aren’t close.
+\
+`“Urk.@ Well…@ maybe you didn’t imagine it.”@
+ld c,"tachi/aki_t03a",crossfade,400
+`“I thought not.@ I’ve never seen you so flustered.@ You never take anything seriously, so what extraordinary turn of events made you display such naked emotion?”@
+`“It wasn’t like that.@ I was only shocked because her coming to the estate was a complete ambush.”@
+ld c,"tachi/aki_t18a",crossfade,400
+`“She looked perfectly composed while she waited for you.”@
+`Akiha glares sideways at me.@
+`She seems utterly convinced that Arcueid and I are dating.
+\
+`“Listen, Akiha, that’s enough.@ You’ve got this all wrong.@ The whole reason she and I met was—”@
+br
+`Because I killed her.@ I nearly say it, then clamp my mouth shut.@
+`…@The truth is far too absurd to tell.@ But I can’t think of any convincing excuse, so, just as I did last night, I trail off into incoherent mumbling.
+\
+ld c,"tachi/aki_t01a",crossfade,400
+`“If you cannot answer, perhaps I should change the question.@ You keep calling her ‘that woman.@’ What is her name?”@
+`“…@Arcueid.”@
+`“I see.@ Then you did not meet her at school.@ There are no foreign exchange students at your high school.”@
+`“…@Urk.”@
+`She is right, there aren’t.@ But why does Akiha know even that?
+\
+ld c,"tachi/aki_t03a",crossfade,400
+`“Then where did you meet a woman like her?”@
+`“In town.@ By chance.”@
+`“By chance?@ Then Arcueid approached you?”@
+`“Ah—no.@ I was the one who approached her…”@
+`I didn’t literally strike up a conversation, but I was certainly the one who created the circumstances of our meeting.
+\
+`“Why did you approach her?@ You say there’s nothing between you and Arcueid.@ Or was that what you wanted from the beginning?”@
+br
+`Akiha’s questions are unerringly precise.@ Step by step, she is closing in on the most vulnerable point.@ I am a frog transfixed by a snake; before long, she will have me cornered where no evasion can save me.@
+br
+`I have no choice but to end this conversation by force.
+\
+`“Oh, enough!@ There is nothing between us!@
+`Besides, whatever I do is none of your business.@ You have no right to complain about whom I choose to date.”@
+`I thrust an accusing finger at her and deliver the verdict.@
+cl c,crossfade,400
+`Akiha scowls—then rises in one smooth, silent motion.@
+`“—?”@
+`…@That’s strange.@ I expected her to shout back, but instead she looks away, oddly self-conscious.
+\
+ld c,"tachi/aki_t12a",crossfade,400
+`“…@I don’t want to say any of this either.@ There’s simply something about that woman I cannot stand.@
+`If it were anyone else, I would accept it and give up.@ But if you’ve truly fallen for her, then I feel like an utter fool.”@
+`…@Why?@
+`Akiha bites her lip and says it, looking bitterly frustrated.
+\
+`“I keep telling you, she and I aren’t like that.@ What’s gotten into you, Akiha?@ You’re acting strange.”@
+ld c,"tachi/aki_t14",crossfade,400
+`“Enough!@ Do whatever you please, Brother…!”@
+cl c,lshutter,400
+`Akiha stamps away into the lobby, every footfall sharp with anger.@
+`“…?”@
+`I don’t understand any of this.
+\
+ld c,"tachi/koha_t01a",lshutter,400
+`“Honestly, Shiki, that was cruel.”@
+`Kohaku sighs in disappointment and starts after her.@
+`“I feel so sorry for Miss Akiha.@ If you intend to bring home a lover, you should at least choose someone a little more ordinary.@ Then perhaps Miss Akiha could have accepted her.”@
+cl c,lshutter,800
+`Kohaku leaves for the lobby, hurrying after Akiha.
+\
+bg #000000,crossfade,1500
+!w2000
+playstop

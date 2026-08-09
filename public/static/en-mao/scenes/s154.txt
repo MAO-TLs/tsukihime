@@ -1,0 +1,42 @@
+monocro off
+play "*1"
+wavestop
+bg "bg/bg_33b",notrans,0
+`—Right.@ However I tried to deceive them, I could never hide it indefinitely from Hisui and Kohaku, who managed the mansion.@ At the very least, I should warn them that I would be out at night for the next few days.
+\
+`“…@The truth is, I’ll be going out at night for the next few days.@ But I swear I’m not getting into bad company.@ Akiha will probably hate me more each time I do it, but it’s too late for me to stop now.”@
+br
+`There was an unknown vampire somewhere in this city, and people were already dying.@ Now that I knew, I couldn’t look away from it as someone who lived here.
+\
+`“This will make trouble for you too, Hisui, but I’d be grateful if you’d overlook it for a while.@ I’ll make my own way back, so just leave the gate unlocked.”@ “You mean that you cannot tell us your reason.”@ “…@Yes.@ I’m sorry.@ You can think me irresponsible if you like, but please don’t ask me anything now.@ Anything I said would be a lie.”@ “…@No.@ You are the one I serve.@ No servant would look down upon her master as irresponsible.”@ Hisui spoke in the same calm, expressionless manner as ever.@ The conversation ended there, and I started upstairs toward my room.
+\
+bg "bg/bg_46b",lcartain,800
+`“Please wait.”@
+ld c,"tachi/his_t04",lshutter,400
+`“…@Forgive me for presuming.”@ Hisui paused, clenched both hands, then made herself look directly at me.@
+ld c,"tachi/his_t01",crossfade,400
+`“If you wish, I can conceal your nightly outings from Miss Akiha.”@ “What?@ You mean you’ll cover for me?”@ “Yes.@ Miss Akiha rarely leaves her room after dinner.@ My sister and I conduct the final rounds before bedtime, so if we include a falsehood in our report, she will never know that you left.”
+\
+`“That would be a tremendous help, but…@ are you sure?@ Akiha employs both of you.”@
+ld c,"tachi/his_t04",crossfade,400
+`“I believe I already told you that you are the one I serve.”@
+br
+`—Oh.@ That actually made me happy.@ I was always telling her she didn’t have to be so formal with me, and now I felt guilty for being pleased when that devotion happened to work in my favor.@ Still, there was no denying how happy it made me.
+\
+`“Yes—that would help enormously.@ Please do it.”@
+ld c,"tachi/his_t01",crossfade,400
+`“Then beginning tonight, please use the rear entrance.@ The main gate will be locked, but with a key you can pass unnoticed through the servants’ door at the back.”@ “I never knew there was a servants’ entrance.@ No wonder I’ve never seen you leave by the gate.”@ “Only my sister uses it.@ She has the key, so I shall bring it to you later.”@
+cl c,lshutter,800
+`With a brief “If you’ll excuse me,”@ Hisui bowed and departed.
+\
+`“Yes!”@ Help had come from an unexpected quarter.@ Now I could keep my promise to Arcueid without giving Akiha any further cause to worry.
+\
+bg #000000,crossfade,800
+bg "bg/bg_40c",crossfade,800
+playstop
+`After dinner, I shut myself in my room.@ It was nearly ten.@ While I had been eating, Hisui had left the key to the rear door on my desk.@
+br
+`“All right—time to go.”@ I slipped the knife into my pocket and left the room as quietly as I could.
+\
+bg #000000,crossfade,800
+!w2000

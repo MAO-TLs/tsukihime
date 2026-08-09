@@ -1,0 +1,111 @@
+play "*2"
+wavestop
+bg "bg/bg_40a",notrans,0
+`Since I’ve managed to wake early for once, there’s no reason to waste the time.@ I’m also worried about what happened at dinner yesterday—how Akiha went deathly pale and shut herself in her room.@ If she’s feeling better, she should be in the sitting room.
+\
+bg #000000,lcartain,800
+bg "bg/bg_34a",lcartain,800
+ld c,"tachi/koha_t03",lshutter,800
+`“Good morning, Shiki.@ You’re up early today.”@ Kohaku greets me with a smile the moment she sees me.@ “Morning, Kohaku.@ Is Akiha awake yet?”@ “Yes, she’ll be here shortly.@ You’ll be able to have breakfast together this morning.”@
+cl c,lshutter,800
+`Kohaku skips cheerfully away toward the kitchen.
+\
+ld c,"tachi/aki_t01a",crossfade,400
+`“Brother…?”@ “Hey.@ Morning, Akiha.@ Are you feeling all right now?”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“Oh—yes.@ Thank you, the attack has passed…@ Were you concerned about me?”@ “Well, yes.@ I was worried.@ …@I’m sorry about yesterday.@ I had no idea that could happen to you, so I panicked and ended up pushing you too hard.”
+\
+ld c,"tachi/aki_t16a",crossfade,400
+`“No, I’m the one who should apologize for shouting.@ …@When an attack takes hold, I lose sight of everything around me and become terribly coarse.”@ Remembering last night, Akiha’s gaze wanders in embarrassment.@ “…@I’m sorry, Brother.@ You had to see me behave so disgracefully.”@ “It wasn’t disgraceful.@ Everyone loses their composure when they’re ill.@ You don’t have to torment yourself over it.”@
+ld c,"tachi/aki_t13a",crossfade,400
+`“Oh…@ If you say so, Brother, I suppose that helps a little.”@ Last night must still be weighing heavily on her; she can’t seem to settle.
+\
+`Then Kohaku’s irrepressibly bright voice rings out.@ “Master Shiki!@ Miss Akiha!@ Breakfast is ready!”
+\
+`“…@Let’s eat for now.@ Come to think of it, this will be the first time we’ve had breakfast together.”@
+ld c,"tachi/aki_t04a",crossfade,400
+`“Yes.@ Now that I’ve changed schools, my mornings are less hurried.@ I hope we can do this every day from now on.”@
+cl c,crossfade,400
+br
+`Of course.@ She’s right.@ Now that we attend the same school, all I have to do is wake ten minutes earlier and there will be plenty of time to eat breakfast with her.
+\
+bg #000000,tshutter,800
+!w1000
+bg "bg/bg_34a",bshutter,400
+`Breakfast over, I return to the sitting room.@ It is seven twenty.@ If we want an easy walk to school, we need to leave now.@ Apparently ready already, Akiha sits on the sofa watching the clock.@
+br
+`…@Then again, Akiha has always traveled to school by car.@ Perhaps she intends to do the same here.
+\
+`“Akiha.@ Just to make sure—you’re walking to school, aren’t you?”@
+ld c,"tachi/aki_t13a",crossfade,400
+`“Of course.@ Arriving at your school in a chauffeured car would be an appalling display.@ Even I understand that much.”@ I see.@ Then we’ll be leaving together.@ “We should get going.@ At this hour we can take our time.”
+\
+ld c,"tachi/aki_t01a",crossfade,400
+`“What…@ Brother?”@ “I’m saying we should go to school together.@ I’ll show you a shortcut, so come on.@ …@Unless you’d rather not go with me.@ That’s fine too.”@
+ld c,"tachi/aki_t09",crossfade,400
+`“No—I’d be glad to.@ If you’re with me, Brother, I have nothing to worry about.”@ “Settled, then.@ Let’s go.”@
+cl c,crossfade,400
+`“Hisui, you don’t need to see us to the door.@ I’ll be back this evening as usual.@ Take care of things while we’re gone.”@ With that, Akiha and I leave the mansion together.
+\
+bg #000000,lcartain,800
+play "*3"
+bg "bg/bg_01a",rcartain,800
+`Matching Akiha’s pace, I walk leisurely to school.@ We arrive at ten to eight, with plenty of time before homeroom.@
+br
+`“Right on time.@ If we walked a little faster, we could leave at seven thirty and still—Akiha?”@
+ld c,"tachi/aki_t01a",crossfade,400
+`“…”@ Akiha is staring at the school gate as though it were some strange and marvelous thing.
+\
+`“What is it?@ See something odd?”@
+ld c,"tachi/aki_t16a",crossfade,400
+`“Oh—no, nothing.@ Yesterday I arrived before the other students, so this is my first time seeing the school like this.”@
+cl c,crossfade,400
+br
+`I see.@ She attended boarding schools from childhood, so the sight of a crowd of students arriving for the day is unfamiliar to her.
+\
+`“Don’t be silly.@ Why talk as if you’re an outsider?@ You’ve been a student here since yesterday.@ There’s no need to hang back.”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“…”@ Whether from guilt or something else, Akiha seems uncharacteristically subdued.@ “What’s wrong with you?@ This isn’t like you, Akiha.”@
+ld c,"tachi/aki_t16a",crossfade,400
+`“…@I can’t help it.@ Walking to school with you is already more than enough.@ If I let myself enjoy an ordinary life like this, I…”@
+cl c,crossfade,400
+`Akiha lowers her face, suddenly awkward.
+\
+`“…?”@ I don’t really understand what she means.@ But standing frozen at the gate is drawing far too much attention.@ Every student who passes has been staring at Akiha, enough to make even me self-conscious.@ “Come on.@ Let’s get inside.”@ I take her hand and lead her through the gate.@
+bg "bg/bg_03a",lshutter,800
+`We head toward the entrance hall.@ This is where Akiha and I part ways: her classroom is on the fourth floor, mine on the third.
+\
+ld c,"tachi/aki_t01a",crossfade,400
+`“Well, Brother, the first-year classrooms are upstairs, so I suppose this is goodbye until after school.”@ “What are you talking about?@ Lunch comes first.@ I’ll wait in the courtyard, so don’t be late.”@
+ld c,"tachi/aki_t12a",crossfade,400
+`“Ah—yes.@ I’ll be there.”@
+cl c,lshutter,800
+br
+`Akiha gives an unexpectedly sweet little bow, then hurries into the entrance hall.
+\
+`“…”@ Well, look at that.@ She does have a cute side.@ “How lovely.@ You two are so close.”@ Wha—!?@
+ld c,"tachi/cel_t04",lshutter,400
+`“C-Ciel!@ Please don’t suddenly speak to me from behind…!”@
+ld c,"tachi/cel_t01a",crossfade,400
+`“Very well.@ I’ll be more careful in future.”@ She beams at me, plainly amused.
+\
+`“…@What is it?@ If you have something to say, just say it.”@
+ld c,"tachi/cel_t04",crossfade,400
+`“Oh, there’s no need for me to say anything now.@ You already look perfectly happy, Tohno.”@ “Wh—”@
+ld c,"tachi/cel_t03",crossfade,400
+`“If you go to class wearing that expression, Inui will never let you hear the end of it.@ Well then, Tohno, I’ll come bother you again at lunch.”@
+cl a,lshutter,400
+`She walks toward the entrance, laughing softly to herself.
+\
+`“…”@ I pinch my own cheek.@ “…@Was I really grinning that much?”@ Well, I suppose I was.@ One smile from Akiha had been enough to leave me absurdly happy.
+\
+bg #000000,lcartain,800
+!w1000
+wave se_03
+!w1000
+bg "bg/bg_06a",tshutter,800
+wave se_03
+`Fourth period ends.@
+br
+`Lunchtime begins, and the whole school swells with noise.@ “Right, then.”@ I promised to meet Akiha in the courtyard.@ Knowing her, she probably had Kohaku prepare a lunch for her, but I’ll pick up something from the school store just in case.
+\

@@ -1,0 +1,110 @@
+playstop
+wavestop
+bg "bg/bg_34a",notrans,0
+`…@Right.@ I’d only get in Hisui and Kohaku’s way when I don’t know the work.@ Akiha is hardly ever home, so I may as well spend today talking with her.
+\
+bg #000000,lcartain,800
+play "*3"
+bg "bg/bg_46a",lcartain,800
+wave se_04
+`“Akiha, are you in there?”@ “Wha—B-Brother…?!”@ A sudden flurry of noise comes from inside.@ “I wanted to talk for a while, if that’s all right.”@ “Ah—yes.@ Please, come in.”@ I put my hand on the knob.@ Come to think of it, I’ve never actually been inside Akiha’s room.@ “……@Mm.”@ A little nervous, I open the door.
+\
+bg "bg/bg_36a",lshutter,800
+`“Uh…”@ I had expected something like this, but somehow the room is even more exactly what I expected than I expected.
+\
+ld c,"tachi/aki_t16b",crossfade,400
+`“What is it, Brother?@ You’ve never visited my room before.@ Did you need something special?”@ “No, nothing like that.@ I just felt like talking to you.@ If you’re busy, I can come back later, so don’t be afraid to say so.”@
+ld c,"tachi/aki_t08b",crossfade,400
+`“I suppose I am busy, but, well…@ this can wait.@ I can certainly make time to talk with you, Brother.”@ Akiha hurriedly gathers up the notebooks spread across her desk.
+\
+`“Oh, you were doing schoolwork.@ Then I’ll come back later.@ I can’t interrupt your studies.”@
+ld c,"tachi/aki_t04b",crossfade,800
+`“No, I was only about to start.@ I can leave it until tonight.@ Please, Brother, sit wherever you like.@ I’ll go make some tea.”@ “If you’re sure…@ but forget the tea.@ We ought to save our appetites today, don’t you think?”@
+ld c,"tachi/aki_t16b",crossfade,400
+`“Y-yes, that’s true.@ Let’s do that.”
+\
+cl a,crossfade,400
+`Akiha sits at her desk.@ I take another chair and quietly survey her room.@ The furnishings are impressive, but they’re definitely not for me.@ I can’t even relax in my own room, with nothing but a bed and a desk.@ If they had given me a room like this, I might have run away on the spot.
+\
+`“Hey, Akiha.”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“Yes?@ Why so serious all of a sudden?”@ “It’s something I’ve been meaning to ask.@ Why did you really decide to bring me home now?@ Father died and I’m the eldest son, sure, but that doesn’t seem like enough of a reason by itself.”@
+ld c,"tachi/aki_t21b",crossfade,400
+`“Not enough of a reason?@ What are you talking about, Brother?@ This is your home.@ Of course you should come back.@ We don’t need any other reason.”
+\
+`“I suppose that’s true, but…@ don’t you resent me, Akiha?@ I left you alone for eight whole years.”@
+ld c,"tachi/aki_t03b",crossfade,400
+`“Of course I resent you.@ It was Father’s fault that you were sent to live with the Arima family, so I can hardly blame you for that.@ But you never sent me so much as one letter.@ I was furious about it every single day.”@ “Uh—well, that was…”
+\
+ld c,"tachi/aki_t07b",crossfade,400
+`“That was what?@ Oh, honestly, what is wrong with you, Brother?@ I was finally trying to forget about it, and you came here just to drag it all up again.@ Is making me angry really so entertaining?”@ “No!@ I wasn’t trying to make you angry at all.@ And the letters…@ Father forbade me to write, so I couldn’t—”@
+ld c,"tachi/aki_t06b",crossfade,400
+`“I know that!@ What makes me angry is that you chose to say all this now!”@ “—I see.@ I’m sorry.@ I was only wondering, but I shouldn’t have asked.”
+\
+ld c,"tachi/aki_t05b",crossfade,400
+`“Good.@ If you mean that, then don’t say anything so foolish again.”@ With a huff, Akiha turns her face away.@ What am I doing?@ I came here because I wanted to talk to her, and the first thing I do is ask a stupid question.
+\
+ld c,"tachi/aki_t18b",crossfade,400
+`“Well, knowing you, I expected you to keep brooding over it.@ Kohaku told you the same thing, didn’t she?@ This is your home.@ You’re allowed to relax.”@ “Mm…@ I’m sure I’ll settle in eventually.@ It’s just—”@ “Just what?”@ “I don’t know.@ It doesn’t feel very nostalgic.@ I remember living in the mansion, but none of it quite matches the picture in my head, and that keeps throwing me.@ I suppose that’s only natural after eight years away.”
+\
+ld c,"tachi/aki_t23b",crossfade,400
+`“Hm?@ Why are you making that face?@ I don’t dislike this mansion, you know.@ I’m not going to leave again, so stop worrying.”@ “Ah…@ yes.@ I’m glad to hear that, but…”@
+cl a,crossfade,400
+`For some reason, Akiha lowers her head and looks away.
+\
+ld c,"tachi/aki_t17b",crossfade,400
+`“Brother, there was something I forgot to ask you as well.@ It’s about the injury from the accident eight years ago…”@ “The injury?@ You mean the scar on my chest?”@ “Yes.@ Kohaku told me that you still haven’t recovered completely.@ Is there truly nothing to worry about?”
+\
+`“I’m not sure.@ The wound itself healed ages ago, apparently, but some of the organs that were damaged are still unstable.@ Some things mend completely with time, and others never do.@ They say the reason I keep getting anemic is a combination of those damaged organs and the mental trauma from the accident never fully healing.”@
+cl a,crossfade,400
+`“Does it…@ does it hurt, Brother?”@ Akiha murmurs without raising her head.
+\
+`“…@No.@ It doesn’t hurt anymore.@ I only get dizzy, so it’s nothing serious.”@ Though it does ache now and then when winter turns cold.@ “Even the dizzy spells have become less frequent.@ In another few years, the chronic anemia may disappear altogether.@ Either way, an injury like mine isn’t worth worrying over.@ There are amazing people who spend twenty years in rehabilitation even after they’re cured.@ Compared with that, mine is nothing.”
+\
+`Akiha says nothing, her head still bowed.@ “……”@ Wonderful.@ The whole room has gone heavy in an instant.@ “……”@ She doesn’t move a muscle.@ “…?”@ This is beginning to feel unnatural.
+\
+`“Akiha?!”@
+ld c,"tachi/aki_t19c",crossfade,400
+`“Ah…@ Bro…@ther?”@ Akiha raises her face.@ Her eyes are vacant, her whole expression lifeless—as though she had been unconscious until this moment.
+\
+`“What’s wrong?@ Are you ill?@ Lie down if you’re not feeling well.@ I’ll go back to my room.”@ “Mm…@ no, it isn’t that.@ Listening to you reminded me of something from long ago, and…”@
+cl a,crossfade,400
+`Akiha’s body lurches.@ She starts to topple from the chair, but somehow catches herself before she hits the floor.
+\
+ld c,"tachi/aki_t20b",crossfade,400
+`“Hah…@ ah…”@ “Akiha, something is really wrong.@ Don’t push yourself.@ You need to lie down.”@
+ld c,"tachi/aki_t12b",crossfade,800
+`“—No, I’m all right.@ I’m not as bad as you, but I’ve always been prone to dizzy spells.@ I simply remembered the accident eight years ago.@ Your wound was so deep, and there was so much blood…@ The memory made me feel sick, that’s all.”
+\
+`“…@I see.@ If that’s all, fine—but don’t force yourself.@ The moment you feel ill, tell someone.”@
+ld c,"tachi/aki_t04b",crossfade,400
+`“Yes, I will, whether you tell me to or not.@ Don’t worry.@ Unlike yours, my dizzy spells are purely psychological.”@ Apparently recovered, Akiha answers with her usual crisp certainty.
+\
+bg #000000,tshutter,400
+bg "bg/bg_36a",bshutter,400
+ld c,"tachi/aki_t04b",crossfade,400
+`“It must be nearly time.@ Kohaku will be coming to call for you, so you ought to return to your room.”@ “What, it’s five already?@ All right, I’ll go.@ But don’t bottle everything up, Akiha.@ When something hurts, you only lose by pretending it doesn’t.”@
+ld c,"tachi/aki_t08b",crossfade,400
+`“My.@ I never expected you to worry so much about me.@ Perhaps I should collapse every now and then.”@ “Idiot.@ Today was a special case.@ See you later.”
+\
+cl a,crossfade,400
+playstop
+`I open the door with a click.@ Akiha’s room lies at the far end of the west wing and mine at the far end of the east, which puts almost fifty meters between us.@
+ld c,"tachi/aki_t17b",crossfade,400
+`“Ah—Brother.”@ “Hm?@ Did you forget something?”@
+ld c,"tachi/aki_t12b",crossfade,400
+`“No, it isn’t that…”
+\
+`Akiha falls silent, struggling to say whatever is on her mind.@ But the way she looks at me is almost—
+br
+`“…@I’m sorry.@ It’s nothing.”@
+br
+`—as though she were apologizing.
+\
+ld c,"tachi/aki_t04b",crossfade,400
+`“Then I’ll see you in the dining room.@ You may do whatever you like today without fear of being scolded.”@ “Now that is good news.@ Kohaku went to all the trouble of making a feast, so just for today, I was hoping to forget table manners existed.”@
+cl a,crossfade,400
+`With that answer, I leave Akiha’s room.
+\
+bg #000000,lcartain,800
+!w2000

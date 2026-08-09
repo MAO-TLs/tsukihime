@@ -1,0 +1,327 @@
+monocro off
+playstop
+wavestop
+bg #000000,lshutter,400
+!w1500
+playstop
+bg "bg/bg_33d",lshutter,400
+waveloop se_02
+`“Hah—hah—hah—”@ Sweat drips steadily to the floor.@ His knife has opened cuts all over my body, but fortunately none of them are fatal.@ My breathing is ragged only because I have driven my body far past its limits.
+\
+ld c,"tachi/hal_t02",lshutter,800
+`“I do not understand—”@ The enemy before me exhales in disgust.@ “Why?@ Why can I not kill a mere human…?@ Why do you possess such a capacity for killing, Shiki?”@ There is fury in his eyes—probably the frustration of a hunter whose supposedly helpless prey has the nerve to resist.
+\
+cl a,crossfade,400
+`“Hah—hah—hah—”@ My heart is agony.@ I may have seen his methods in my dreams, but our bodies are built on entirely different levels.@ It takes everything I have merely to parry his knife with mine; tracing his line is all but impossible.@
+br
+`—Still.@ If I am willing to die with him, ending his life would be easy.
+\
+`“Very well.@ Playtime is over.@ I thought I would finish you with the same kind of knife you use, but an unfamiliar weapon is never worth the trouble.”@ The enemy drops his knife to the floor.@ A glint in the darkness: sharp, bestial claws.
+\
+ld c,"tachi/hal_t01",crossfade,400
+`“So it comes to this after all.@ Repeating what happened eight years ago is hardly original, though.”@ Laughing, the enemy drops his stance.@
+br
+`—Thump.@
+br
+`My body already understands that I cannot keep pace once he becomes serious.@ I probably will not even see him attack.@ By the time I notice anything, there will be a hole through my body.
+\
+`—Thump.@
+br
+`The presence of death grows stronger.@ The certainty that if this continues, he will kill me.@ Yet I feel no fear.@ As the danger mounts, every joint and sinew in my body begins to creak more violently.
+\
+`“Hah—hah—hah—”@
+br
+`A burning pain.@ The strain of a bow drawn to the very limit.@ A murderous impulse I cannot restrain, not even within myself.@ In the next instant, it will be released—and it will kill SHIKI without fail.
+\
+ld c,"tachi/hal_t03",crossfade,400
+`“Goodbye, Shiki.@ Akiha is mine.@ This time, you will be the one to fall into endless darkness—!”@
+cl a,lcartain,400
+`The enemy’s body vanishes.@ The bowstring inside me draws taut.@
+br
+`—But just before it can be released, a figure steps between SHIKI and me.
+\
+wavestop
+ld c,"tachi/aki_t11c",crossfade,400
+play "*9"
+`“…”@ …@It is Akiha, her red hair streaming behind her.@ She plants herself in SHIKI’s path, shielding me with her body.
+\
+ld c,"tachi/hal_t02",crossfade,400
+`“…@Akiha.@ What do you think you’re doing?”@ Akiha does not answer.@
+wave se_01
+br
+`—Her back.@ At the sight of Akiha’s red hair, the blood inside me begins to stir and whisper.@
+br
+`“…@Move, Akiha.@ I am your real brother.@ There is no need to concern yourself with that counterfeit.”@ Akiha does not answer.@
+wave se_01
+br
+`—Her back.@ At the sight of Akiha’s red hair, the blood inside me begins to stir and whisper.
+\
+`“…@Akiha, please don’t hurt me like this.@ You are the only person in this world who matters to me.”@
+ld c,"tachi/aki_t11c",crossfade,400
+`“…@No.@ I won’t move.”@ Akiha shakes her head and rejects SHIKI without hesitation.@
+cl a,crossfade,400
+ld c,"tachi/hal_t02",crossfade,400
+`“…@Akiha!”@
+cl a,crossfade,400
+ld c,"tachi/aki_t11c",crossfade,400
+`“Step back.@ If you intend to kill my brother, I will kill you first.@ It is the duty of the head of the Tohno family to eradicate things like you.”
+\
+cl a,crossfade,400
+ld c,"tachi/hal_t05",crossfade,400
+`“What—what are you saying, Akiha?@ You waited for me all those years!@ I was always watching you.@ I saw you waiting, always waiting, for your brother, and that is why I came home.@ I killed that bastard father of ours and finally won my freedom, all for you.@ So why are you protecting that counterfeit?”
+\
+cl a,crossfade,400
+ld c,"tachi/aki_t11c",crossfade,400
+`“…@Yes.@ I was waiting for my brother.@ But that brother was never you.@ You surrendered to the Tohno blood and became nothing more than a murderer.@ You should have died eight years ago.”@
+cl a,crossfade,400
+ld c,"tachi/hal_t05",crossfade,400
+`“A-Akiha, you would tell your own brother to die?@ No, you’re wrong.@ He isn’t the one.@ Don’t be deceived—your only brother is me.@ Listen, that man is nothing but—”
+\
+cl a,crossfade,400
+ld c,"tachi/aki_t11c",crossfade,400
+`“Silence…!@ I will not allow you to insult my brother any further.@ I will never let you—someone like you—kill him again…!”@
+cl a,crossfade,400
+ld c,"tachi/hal_t05",crossfade,400
+`“Aki…@ha.”@ SHIKI’s body sways.
+\
+`“Stop—he is only a counterfeit.@ Don’t protect someone like that.@ Please, Akiha…@ don’t betray me any more than you already have.”@ “…”@ Akiha offers no answer, only a gaze of blazing hostility fixed on SHIKI.
+\
+`“Akiha—even you would betray me, Akiha—”@ A foot scrapes across the floor.@ With bloodshot eyes, SHIKI now regards both Akiha and me as enemies.
+\
+`“…@This is your final warning.@ Move, Akiha.@ Can you not obey your own brother?”@
+cl a,crossfade,400
+ld c,"tachi/aki_t29",crossfade,400
+`“—I will not move.@ You are not my brother…!”@
+cl a,crossfade,400
+bg #000000,lshutter,400
+br
+`A scream tears from him—Aaaaaaagh!@
+br
+`With that inhuman shriek, SHIKI leaps.@ Not at Akiha, but at me behind her.
+\
+`“…”@ But I was ready for that.@ I raise my knife to meet the enemy hurtling toward me.@ SHIKI’s claws, however, are a fraction faster than my blade.@
+br
+`So it ends in mutual destruction after all.@ But then I can sever his line without fail and carve him into pieces—
+\
+playstop
+bg #9c0120,notrans,0
+wait 100
+bg "bg/ima_12b",notrans,0
+wait 100
+bg #000000,notrans,0
+wave se_05
+!w2000
+`—SHIKI’s claws never reach me.@
+br
+`“Ah—”@ SHIKI’s voice is empty, as though his soul has fallen out.@ “Aki…@ha—”@ His claws have ripped a great wound across Akiha’s back.@
+br
+`He did not aim for her.@ Akiha had simply thrown herself into my arms.@ That was all.
+\
+`“…”@ Yet I feel nothing.@ My mind has frozen solid.@ Without feeling a thing, I let my murderous impulse drive me onward.
+\
+`Akiha’s body crumples.@ In that opening—in the instant SHIKI loses himself—I slash through his line.
+\
+bg #9c0120,crossfade,800
+bg "bg/bg_33d",crossfade,400
+`…@The suffocating reek of blood.@ Maddeningly, it is the only thing I can feel.@ The vertigo is so severe that almost all five of my senses seem to have gone numb.@
+br
+`I feel nothing now.@ Akiha lies before me drenched in blood, and SHIKI’s corpse lies beside her.@ Yet I can feel nothing.@ I only stand there, stunned and empty.
+\
+bg #ffffff,crossfade,1500
+!w3000
+bg "bg/bg_33c",bshutter,800
+`The lights come on.@ Their artificial glare stings my eyes and jars my vacant mind awake.@ “…”@ I look around.@ There is nothing on the carpet before me but a red trail of blood.@ Akiha’s fallen body is gone, and so is SHIKI’s corpse with its severed line.
+\
+`“What—”@ The knife is still clenched in my hand.@ What just happened was no dream; the blood soaked into the carpet proves it.@ “Akiha—she shielded me…”@ The memory makes me want to vomit.@ I never wanted that.@ I wanted to protect Akiha, so how did everything end with her—
+\
+`“Master Shiki.”@ A voice calls from behind me.@
+ld c,"tachi/his_t01",crossfade,400
+play "*1"
+`“I have switched the estate to its backup power supply.@ Miss Akiha’s wound is not deep, so please, try to collect yourself.”@ “Hisui—where have you been all this time?”@
+ld c,"tachi/his_t17",crossfade,400
+`“I explained that a moment ago.@ When my sister and I arrived, we found you there with Miss Akiha lying wounded.@ …@We called to you several times, but you were in no condition to speak.”@ …@So I had simply stood there in a stupor before the wounded Akiha.
+\
+ld c,"tachi/his_t01",crossfade,400
+`“Miss Akiha needed immediate first aid, so my sister and I treated her and restored power to the estate.@ Should we have waited for your instructions after all?”@ “—No.@ You did the right thing.@ I was only standing there without saying anything, wasn’t I?”@ “Yes.@ It has been almost an hour since we arrived, and you did nothing but stand in place.”@ “…@I see.”@ I left Akiha wounded in front of me and did nothing.@ I’m the worst.@ Far from protecting her, I might as well have been the one who hurt her.
+\
+`“Hisui.@ Is Akiha going to be all right?”@ “Yes.@ I am told the wound is not very deep.@ …@It will not heal in only a few days, however, so she is resting in her room.”
+\
+ld c,"tachi/his_t17",crossfade,400
+`“Master Shiki, what happened here?@ When I awoke, the estate had lost power and I was lying unconscious in my sister’s room.@ It appears that someone drugged both of us.@ When we made our way to the lobby, we found you and Miss Akiha.@ My sister said Miss Akiha’s injury looked like a laceration from the claws of some large animal, but that—”
+\
+`“What—?”@ Something is wrong.@ There are not enough people in her account.@ “Hisui, wasn’t SHIKI there?”@
+ld c,"tachi/his_t01",crossfade,400
+`“If you mean Master Shiki, you were standing before Miss Akiha…”@ “No, not me.@ I mean—”@ I stop myself.@ Hisui knows nothing about SHIKI.@ She does not know why Akiha was wounded or that someone almost killed me.
+\
+`“…@Hisui.@ Akiha and I were the only ones in the lobby?”@ Hisui gives a small nod.@ “—That bastard—!”@ He is alive.@ I know I severed his line diagonally from the shoulder, yet it was not fatal.@ Perhaps vampires are simply harder to kill than human beings.@ Either way, he survived and fled the estate.@ There can be no doubt of that.
+\
+`“…@No.@ None of that matters now.@ Akiha is what matters—”@
+ld c,"tachi/his_t17",crossfade,400
+`“Please wait, Master Shiki.@ Are you going to Miss Akiha’s bedroom?”@ “Of course I am.@ I have to apologize to her, and we need to talk—”@ “…@My sister is still treating her.@ I do not believe Miss Akiha would be pleased if you went in now.”@ “Th-that may be true, but…”
+\
+ld c,"tachi/his_t09",crossfade,400
+`“Please return to your room.@ Once Miss Akiha’s treatment is complete, if she herself asks to see you, I will come and fetch you.”@
+cl a,crossfade,400
+`With that, Hisui climbs the stairs.@ She is probably going to Akiha’s room to help Kohaku.
+\
+`“…”@ She is right.@ As a man, there is no way I can tend Akiha’s injuries.@ With my chest ready to split apart, all I can do is wait in my room for Hisui to call me.
+\
+bg #000000,crossfade,800
+!w2000
+bg "bg/bg_40c",lcartain,800
+`—Back in my room, I force myself to calm down.@
+br
+`I need to think through everything rationally.@ Akiha.@ Myself.@ And the man named SHIKI.
+\
+`…@SHIKI said I was adopted, then installed in his place and treated as Shiki Tohno.@ I have no desire to deny it.@ In fact, it explains everything: why so little of this estate felt familiar, and why I felt nothing when told this had once been my room.@ …@Why I was sent to live with the Arima family, and why no one came to visit me after the accident eight years ago.
+\
+`…@I was adopted ten years ago.@ For the two years before the accident, Akiha, SHIKI, and I were raised as siblings.@ SHIKI spoke as though he had known from the beginning that I was adopted.@ But what about Akiha?@
+br
+`“My brother is not someone like you—”@
+br
+`Akiha screamed those words at SHIKI, then was wounded protecting me.
+\
+`…@Perhaps Akiha does not know that I was adopted.@ That would explain why she risked her own body to save me.@ No one could do such a thing for someone who was not truly her brother.@ So—Akiha must believe I am her real brother.
+\
+wave se_04
+!w1000
+ld c,"tachi/koha_t03",lshutter,800
+`“Shiki?@ May I come in?”@ “Kohaku.@ Is Akiha all right now?”@
+ld c,"tachi/koha_t01a",crossfade,400
+`“Yes.@ We have finished treating her for the moment.@ She will need absolute bed rest and probably will not be able to walk properly for several weeks, but her life is not in danger.”@ “I see—thank God.”@ A vast breath of relief leaves me.@ If the wound she took for me had placed her life in danger, I would never have known how to face her again.
+\
+ld c,"tachi/koha_t03",crossfade,400
+`“Shiki, Hisui told me you wished to speak with Miss Akiha.”@ “…@Yes.@ If she feels too ill, I won’t, but if possible, I want to see her and talk.”@
+ld c,"tachi/koha_t01a",crossfade,400
+`“In that case, please go ahead.@ But don’t discuss anything too complicated.@ Miss Akiha has already pushed herself much too far, and I don’t want her placed under any emotional strain.”
+\
+`“…@I understand.@ I only want to see her face and thank her.”@
+ld c,"tachi/koha_t03",crossfade,400
+`“Good.@ I will be resting for a while myself, so please look after Miss Akiha.”@
+cl a,lshutter,800
+`Perhaps exhausted from treating Akiha, Kohaku leaves the room on unsteady feet.
+\
+`“…”@ All right.@ I have to go make sure Akiha is safe.
+\
+bg #000000,lcartain,400
+playstop
+bg "bg/bg_46c",lcartain,400
+`I knock twice.@ “Akiha?@ It’s me.@ May I come in?”@ After a brief silence, her voice answers, faint enough to disappear.@ “…@Yes.@ Please come in, Brother.”
+\
+bg "bg/bg_37",lshutter,800
+play "*9"
+`I enter Akiha’s bedroom.@ She must have been lying down until now; slowly, she raises herself from the bed.
+\
+`“…”@ …@This is hopeless.@ Now that we are face-to-face, I cannot think of a single thing to say.@ Being in Akiha’s bedroom already has me tense, and she looks so terribly frail that my chest closes up.@
+br
+`“…”@ Neither of us speaks.@ We only stare at each other.
+\
+`…@
+`……@
+`………@
+`……………@ Then, suddenly—
+br
+`“Brother, aren’t you going to sit down?”@ “Ah—right.@ Standing here forever won’t make either of us more comfortable.”@ I take the chair.@ Now my eyes are level with hers, and the words become even harder to find.
+\
+bg "event/aki_e04b",lshutter,800
+`“…@You aren’t going to ask me anything, Brother?@ I had prepared myself.”@ Akiha’s voice is gentle.@ “…@I do have plenty of questions.@ But they can wait until you’re well.@ Right now, I only came to see your face.”@ “I see.@ But I have questions for you.@ When there is something I don’t understand, I become irritable.@ Unless I hear the answers from you, I won’t be able to sleep in peace.”@ “…@All right.@ You’re the patient, so you get special treatment.@ Ask me anything.”
+\
+`“I’m sorry.@ I keep so many secrets myself, yet I don’t want you hiding anything from me.@ …@I really am selfish.”@ “…@I told you, it’s fine.@ That side of you is one of the things I love, so you’re forgiven.@ Now, what did you want to ask, Akiha?”@
+br
+`Perhaps Akiha’s manner is rubbing off on me.@ I am speaking to her in a voice so gentle it surprises even me.
+\
+`“…@Then I’ll ask.@ You used the word vampire, didn’t you?@ Did Ciel teach you that word, or did you arrive at it yourself?”@ “…@Both, I suppose.@ Whenever I slept, I kept dreaming that I was murdering people and drinking their blood.@ I thought I might be the killer, but Ciel cleared up that misunderstanding.”@ “…@I see.@ Your mind synchronizes with SHIKI’s.@ Is that why you asked me that question at school?”
+\
+`“What—Akiha, you knew that vampire and I could synchronize?”@ “No.@ I only thought it was a possibility.@ You may not remember, but that man called SHIKI was our…”@ “Our older brother, right?@ I had forgotten until a moment ago too, but there were pieces left.@ Whenever we played in the garden, you were always following behind us.@ If I remember us, then I couldn’t have been alone.”
+\
+br
+`Yes.@ Looking back, my childhood memories contain contradictions like that.@ I never noticed them because Father must have placed some kind of suggestion on me.
+\
+`“…”@ Akiha falls silent.@ …@So she really does not know I was adopted.@ Then I cannot unsettle her by telling her now.@ If the lie can still hold, I have to preserve it.
+\
+`“…@Brother, eight years ago SHIKI nearly killed you.@ His Tohno blood was not considered particularly strong, but without warning he became something closer to the Tohno side.@ The Tohno blood comes from ancient creatures and makes instinct take precedence over reason.@ Once that blood flooded SHIKI’s body, he attacked you simply because you happened to be there.”@ …@SHIKI told me that much himself.@ The scar on my chest came from him, not from any accident.
+\
+`“Every member of the Tohno family manifests a different ability.@ Some become man-eaters like SHIKI; others, like Father, suffer an aberration of the mind alone.@ …@SHIKI attacked you and stole your blood—your very life.@ Father punished him, but because he had taken your life into himself, he barely survived.”
+\
+`“…@I don’t understand.@ What does it mean that he stole my life?”@ “Perhaps soul would be the better word.@ I am not SHIKI, so I do not understand the mechanism.@ I only know that your life was what kept him barely alive.@ You and SHIKI are like two separate people sustained by a single heart.@ That is why your minds synchronize so easily.@ …@By the same principle, I suppose you might synchronize with me as well, but you and SHIKI were very close.@ Something in each of you must have drawn the other.”
+\
+`“Don’t say that.@ I could never share anything with someone like him—someone who hurt you.”@ “…”@ Akiha watches my face, looking somehow pained.@ …@Her slender body.@ Skin gone bloodlessly white.@ Faint traces of red shifting through the black fall of her hair, lending her a terribly fragile, precarious air—
+\
+`“That’s right—Akiha, what happened to your hair?@ It was bright red before, but now it’s black again.@ What does that mean?”@ “…@That is the Tohno blood.@ My body does not transform as SHIKI’s did, but when the blood is excited, my hair returns to its natural color.@ I have calmed down now, so I managed to make it black again.”@ “…@I see.@ Good.@ Black hair suits you.@ I wouldn’t know what to do if it stayed red.”@ …@I do not want anything as incomprehensible as the Tohno blood to stain her.
+\
+`“…@Yes.@ I dislike the red as well.@ Even if it is only a change in color, it means my body is transforming.@ I don’t want to become like SHIKI—”@
+br
+bg "bg/bg_37",lshutter,400
+wave se_05
+`Her words break off as she collapses onto the bed.@ “Akiha—!”@ I seize her shoulders where she has fallen.
+\
+`“Ghh—ah…@ ngh…!”@ Akiha’s whole body is trembling.@ Her breath is ragged as though her heart itself has vanished.@ Her teeth are clenched against the pain, and sweat beads from every inch of her as if her body can no longer contain the agony.@ “Akiha!@ What’s wrong?@ Is it your wound?”@ “Ah—Bro…@ther—”@ She twists the sheets in her fists.@ “Wait here!@ I’ll get Kohaku at once…!”@ “N-no—no one can…@ cure this…@ anyway…!”
+\
+`Her chest heaving, Akiha grabs my arm.@ Slender fingers.@ A soft palm that clutches my hand with desperate strength.@
+br
+`“All right—I’ll stay.@ I’m right here, Akiha.”@ “…”@ Her voice is too hoarse for me to make out.
+\
+`Akiha writhes on the bed.@ Her long, disordered hair has turned a deep and vivid red.@ “Akiha, your hair—”@ “I’m…@ all right—this will…@ pass soon—”@ She suffers before me, and I can do nothing but squeeze her hand as the time crawls by.
+\
+bg #000000,lshutter,800
+bg "bg/bg_37",lshutter,800
+`…@At last, that endless span of time is over.@ In truth, it lasted only a few minutes, but each one felt like an hour.@ “…”@ Akiha’s breathing has steadied.@ Her hair remains red, though the color is beginning to fade.
+\
+bg "event/aki_e04",lshutter,800
+`“I’m sorry.@ You had to see me in such a disgraceful state.”@ Akiha tries to sit up.@ …@By now, it is painfully obvious that she is forcing herself.@ “Don’t.@ Lie down and stop pushing yourself.@ The wound still hurts, doesn’t it?@ You don’t have to put on a brave face for me.”
+\
+`“No, I’m all right.@ The wound on my back has nothing to do with this.@ Attacks like this happen all the time.”@
+br
+`—The wound has nothing to do with it?@
+br
+`“…@What does that mean?@ What do you mean, all the time?@ Are you saying what just happened isn’t unusual?”@ “…”@ Akiha does not answer.@ That silence means yes.@ …@I cannot believe it.@ Does she endure agony like that all the time—pain so vicious it might make her cough blood?
+\
+`“…@Why?@ That isn’t right.@ Something like that—it isn’t normal.”@ Akiha gives no answer.@ She only nods in silence, looking unbearably lonely.
+\
+`“…@You’re right, Brother.@ I’m not normal.@ These attacks are different from your anemia.@ They are the inherited suffering of the Tohno family.@ Anyone who can no longer endure them becomes something closer to the Tohno side, as SHIKI did.”@ “Wh—”@ “I told you that the Tohno family is abnormal.@ My blood is especially strong, even by our standards.@ As my body matured, that tendency grew stronger day by day.@ …@It has already passed beyond anything I can control.@ That is why every night is like this.”@ Akiha explains it calmly, without resentment toward anyone.
+\
+`I understand well enough what she is telling me.@ I simply refuse to accept it.
+\
+`“…@What are you talking about?@ I don’t understand.”@ “…@Honestly, Brother.@ You really are hopelessly dense.”@ Akiha gives a small, troubled laugh.
+\
+`“My body consumes heat much faster than an ordinary person’s.@ Normal nourishment cannot replenish it quickly enough, so in the end I have to drain heat directly from another person.@ …@You were right.@ I have kept myself from breaking by doing something like a vampire would.@ But the more I resort to it, the less human I become and the more strongly the Tohno blood asserts itself.@ …@And yet it is the only way I can preserve myself.”
+\
+`“Akiha—”@ “Do you understand?@ A defective living thing that cannot survive without stealing heat from something alive.@ That is what Akiha Tohno is, Brother.”@
+br
+`—My throat closes.@ Even so, I force myself to search for words.@ If I fall silent now, I will only hurt her.
+\
+`“…@I see.@ So that’s why you drink Kohaku’s blood.”@ “What—Brother, you knew?@ You knew Kohaku was sharing her blood with me?”@ “Yes.@ I’m sorry I kept quiet.”@ Akiha’s cheeks flare red, and she lowers her head slightly.
+\
+`“…@Blood is only a last resort.@ It doesn’t have to be what I take.@ Body heat, will—anything that carries heat can become strength.@ Blood is simply the most nourishing.”@ “…@Then you’re different from SHIKI.@ You aren’t truly a vampire like him.”@ “…@Yes.@ Unlike SHIKI, I cannot create others like myself.@ I am a creature that only takes.”@ Akiha lowers her eyes.@ To me, though, that is a salvation.@ After all, it only means her diet is a little different.
+\
+`“…@What a relief.@ You kept calling yourself abnormal, but you’re perfectly normal, Akiha.@ You’re an ordinary human being, nothing like SHIKI.@ These attacks wouldn’t happen if you received blood regularly, would they?@ Then—”@ “…@It is true that if I regularly drained blood from someone, the attacks would stop.@ But that does not mean I can feed indiscriminately.@ If I ever grew accustomed to doing that, I would become the same as SHIKI.”
+\
+`“…@No matter how severe it becomes, I can endure suffering that is only pain.@ The Tohno blood is especially restless at night, but it subsides when morning comes.@ So this is nothing unusual.@ There is no need for you to look so distressed.”@ “…@Idiot.@ If it hurts that badly, I’d gladly give you some blood.”@ The thought comes naturally and without hesitation.@ If Akiha suffers this way every night, she can have as much of my blood as she needs.
+\
+`“No.@ I don’t want to drink anyone’s blood.@ I don’t truly want Kohaku’s either.”@ “Why?@ If it would stop the attacks, what’s wrong with that?”@ “That is…@ true, but…”@ Akiha falters and lowers her head, then speaks in a frail voice, as if confessing something shameful.@ “…@Because I don’t want you to call me a vampire.@ Akiha wants to remain human, just like you.”
+\
+`“—Ah.”@ Never have I hated my own thoughtlessness more.@ …@I had not considered Akiha’s feelings at all: how deeply she loathes the Tohno blood, or how much I must matter to her.
+\
+`“…@Akiha.@ Isn’t there anything I can do for you?”@ “Yes.@ Please return to your room and rest.@ You must be tired too, Brother.”@ “…@Idiot.”@
+br
+`…@It is the only answer I can manage.@
+br
+`“Just lie down.@ I’ll stay beside you until you fall asleep.”@ “…@Very well.@ If you insist, Brother, then I will allow myself to depend on you.”
+\
+bg #000000,tcartain,800
+bg "bg/bg_37",tcartain,800
+`…@With that, Akiha lies down.@ Time trickles past like sand.@ Quietly, slowly, she drifts into sleep.@ I watch her peaceful sleeping face and never once tire of the sight.
+\
+bg #000000,crossfade,800
+!w3000
+wave se_04
+bg "bg/bg_37",crossfade,800
+`“Shiki, are you awake?”@ …@I hear Kohaku’s voice.@ When I look at the clock, it is already three in the morning.
+\
+`“I’m awake.@ Are you here to look after Akiha?”@ “Yes.@ I need to take her temperature.@ Shiki, I’m sorry, but…”@ “Oh—of course.@ I’ll leave right away.”@ I rise from the chair.@ Before leaving, I look once more at Akiha’s sleeping face.@ “…@Thank you.@ And I’m sorry, Akiha.”@ I whisper the words and leave her bedroom.
+\
+bg #000000,lcartain,800
+playstop
+`…@Leaving Akiha in Kohaku’s care, I walk down the corridor.@ I ought to be able to rest easy for a while, yet the shadow of anxiety refuses to lift.@ The fact that SHIKI is still alive hardly matters.@ Only one thing troubles me.@ …@I watched Akiha sleep for hours.@ Her hair never returned to its original black.
+\
+!w3000

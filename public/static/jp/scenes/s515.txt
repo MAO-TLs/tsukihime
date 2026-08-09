@@ -1,0 +1,35 @@
+monocro off
+wave se_03
+bg "bg/bg_06a",notrans,0
+play "*3"
+ld c,"tachi/osiete",lcartain,800
+!w1000
+cl c,lcartain,800
+ld c,"tachi/his_t16",tshutter,800
+`「申し訳ございません。@知得留先生は昼食の時間なのでお休みです。@お帰りになるまでしばらくお待ちください」@
+ld l,"tachi/ark_t31a",lshutter,400
+br
+`「どうせカレーパンのくせに、職務怠慢ー！」@
+br
+ld r,"tachi/ark_t31b",lshutter,400
+`「でてこーい、ばかシエルー！」@
+br
+ld c,"tachi/his_t01",crossfade,400
+`「同感ですが、居ないものは仕方がありません。@
+`　無い袖はふれませんし、姉さんが整理整頓できない事を嘆いても虚しいだけです。@
+`　それでは恒例の救罪コーナーですが」
+\
+ld c,"tachi/his_t17",crossfade,400
+`「……時に、志貴さま。@
+`　隠し事はあまりよい結果を生みません。@
+`　これに懲りましたら、次からは翡翠を信頼してください。@
+ld c,"tachi/his_t01b",crossfade,400
+`　……以上です。@
+`　それでは私はお屋敷に戻ります。@
+`　引き続き、ゲーム本編をお楽しみくださいませ」
+\
+bg #000000,crossfade,800
+ld c,"tachi/ark_t30",lscroll,800
+`「にゃ……なんか今のおんな、おなじネコ属性のかおりがするのにゃ……」@
+cl c,lscroll,800
+playstop

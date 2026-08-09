@@ -1,0 +1,193 @@
+{
+  "translation": {
+    "name": "月姬野人汉化组& Hawkwin & SHIROU神父",
+    "desc": "月姬汉化补丁最终版v0.97，发布日期：2026/4/19。由Hawkwin基于SHIROU神父个人汉化补丁v1.6(https://vndb.org/r71804) 修改制作而成，对大部分文本进行了重新校对和翻译，将SHIROU神父在月姬野人汉化组的汉化文本上进行的一些不恰当修改还原成原文，删除了SHIROU神父添加的所有括号注释. Converted to Traditional Chinese with OpenCC.",
+    "url": "https://bbs.sumisora.net/read.php?tid=10940555",
+    "vndb": "https://vndb.org/r71804"
+  },
+  "translation-pd": {
+    "name": "朱月临时汉化组",
+    "desc": "月姬PLUS+DISC完整汉化V1.1版，发布日期：2012/8/19，【朱月临时汉化组】，翻译：零色ノ夢, soulshooter，程序：仌⊙魔，校对：Nero·Chaos，润色：迷失花园之窗，组织者：酒池墨林. Converted to Traditional Chinese with OpenCC.",
+    "url": "http://bbs.sumisora.org/read.php?tid=11033776&page=1&toread=1",
+    "vndb": "https://vndb.org/r22655"
+  },
+
+  "disclaimer": [
+    "這是Type-Moon於2000年出版的視覺小說月姬的網路版。",
+    "該遊戲包含成人內容，僅適合成熟觀眾。"
+  ],
+  "title": {
+    "start": "從頭閱讀",
+    "resume": "接續閱讀",
+    "load": "尋找書籤",
+    "config": "設定",
+    "extra": "其他",
+    "about": {
+      "port": "這是Type-Moon於2000年出版的視覺小說月姬的網路版。",
+      "project": "該專案位於 %0GitHub%1 上。 喜歡就加個星吧！歡迎貢獻。",
+      "feedback": "發送你的反饋或報告錯誤 %0這裡%1.",
+      "data": "不收集任何資料，所有內容都儲存在你的瀏覽器中。管理你的資料%0這裡%1。",
+      "remake": "請購買並支援重製版 %0月姬$ - A piece of blue glass moon%1."
+    },
+    "install": "安裝",
+    "share": "分享",
+    "copied": "Copied to clipboard"
+  },
+  "extra": {
+    "gallery": "畫廊",
+    "endings": "結局列表",
+    "scenes": "場景",
+    "eclipse": "月蝕"
+  },
+  "config": {
+    "on": "On",
+    "off": "Off",
+    "reset": "恢復初始設定",
+    "default": "Default",
+    "tab-game": "遊戲",
+    "tab-audio": "聲音",
+    "tab-controls": "操作設定",
+    "tab-advanced": "進階設定",
+    "volume-master": "音量",
+    "volume-track": "BGM音量",
+    "volume-se": "效果音",
+    "volume-title-track": "主页音乐音量",
+    "volume-system-se": "系统特效音量",
+    "track-source": "音軌來源",
+    "track-sources": {
+      "original": "原始 (2000)",
+      "everafter": "Ever After (2002)",
+      "tsukibako": "月箱 (2003)"
+    },
+    "track-source-help": [
+      "[b]原版[/b]: 2000年发售的完整版游戏背景音乐。",
+      "[b]Ever After 版[/b]: 2002年发售的游戏原声带重制版。",
+      "[b]“月箱”版[/b]: 2003年随《月箱》（收录《月姬》、《PLUS-DISC》及《歌月十夜》）发布的重混音版背景音乐。"
+    ],
+    "auto-mute": "切換分頁時靜音",
+    "ratio": "縱橫比",
+    "ratio-auto": "自動",
+    "ratio-4-3": "4:3",
+    "ratio-16-9": "16:9",
+    "text-speed": "文字顯示速度",
+    "text-speed-low": "慢",
+    "text-speed-med": "通常",
+    "text-speed-high": "快",
+    "text-speed-instant": "瞬間",
+    "auto-play-delay-text": "自動模式文字延遲: %0s",
+    "auto-play-delay-page": "自動模式頁面延遲: %0s",
+    "adult-title": "成人設定",
+    "adult-blur": "模糊縮圖",
+    "adult-blur-help": [
+      "對成人場景的縮圖（保存，載入，流程圖，畫廊，…）套用模糊效果。"
+    ],
+    "adult-warn": "進入成人場景時警告",
+    "fullscreen": "全屏",
+    "language": "語言",
+    "show-locked-content": "解鎖內容",
+    "show-locked-content-help": [
+      "顯示完整的畫廊，流程圖，結局，月蝕…，",
+      "并满足开启月姬里线的要求，",
+      "它可以隨時打開和關閉。"
+    ],
+    "game-font": "Game text font",
+    "game-font-help": [
+      "The default font is served with the project.",
+      "To select a different font, input its name. It will be loaded from %0 if available, else from your device."
+    ],
+    "flowchart-badges": "Display badges in the flowchart",
+    "data": "存檔",
+    "data-export": "匯出",
+    "data-import": "匯入",
+    "data-erase": "刪除",
+    "data-erase-warning": "你真的要刪除所有存檔並恢復為初始設定嗎？",
+    "data-erase-confirm": "刪除了所有的存檔。 如果你在未對設定進行任何更改且未開始新遊戲的情況下離開本網站，則你的電腦上不會保留任何資料",
+    "controls": {
+      "next": "文字推進",
+      "history": "顯示/隱藏履歷",
+      "flowchart": "Show/hide Flowchart",
+      "back": "關閉當前頁面/顯示選單",
+      "bg_move": "移動背景影像",
+      "auto_play": "自動模式",
+      "page_nav": "下一頁/上一頁",
+      "load": "開啟載入頁面",
+      "save": "開啟保存頁面",
+      "q_save": "快速保存",
+      "q_load": "快速載入",
+      "config": "開啟設定頁面",
+      "_hold": "[i](按住)"
+    }
+  },
+  "endings": {
+    "normal": "Normal",
+    "good": "Good",
+    "true": "True",
+    "osiete": "教教我吧！知得留老師！"
+  },
+  "saves": {
+    "title-load": "尋找書籤",
+    "title-save": "貼上書籤",
+    "create": "新存檔",
+    "import": "匯入存檔",
+    "export": "匯出",
+    "delete": "刪除",
+    "delete-warning": "你確定要刪除此存檔嗎？",
+    "overwrite-warning": "你確定要覆蓋此存檔嗎？",
+    "quick-save": "快速保存",
+    "local-storage-warning": "存档与设置仅存储在浏览器本地。若长时间未访问，可能会被浏览器自动清理。请务必定期导出并备份存档。",
+    "local-storage-last-export": "最后一次存档导出时间: %0"
+  },
+  "game": {
+    "skip-viewed": "該場景曾顯示過。",
+    "skip-hscene": "This scene contains adult content.",
+    "skip-hcontent": "This passage contains adult content.",
+    "skip-prompt": "要跳過嗎？",
+    "toast-qsave": "進度已保存",
+    "toast-qload": "恢復進度",
+    "toast-load": "恢復進度",
+    "toast-save-fail": "無法保存進度",
+    "toast-load-fail": "無法恢復進度",
+    "toast-autoplay-stop": "自動模式停止",
+    "toast-ffw-stop": "快轉停止"
+  },
+  "menu": {
+    "graphics": "顯示影像",
+    "history": "履歷",
+    "save": "貼上書籤",
+    "load": "尋找書籤",
+    "config": "設定",
+    "auto-play": "自動模式",
+    "ffw": "快轉",
+    "title": "標題畫面",
+    "q-save": "快速保存",
+    "q-load": "快速載入",
+    "copy-scene-url": "拷贝场景链接"
+  },
+  "history": {
+    "load": "載入",
+    "skipped": "跳過場景 %0."
+  },
+  "characters": {
+    "aki": "秋葉",
+    "ark": "愛爾奎特",
+    "cel": "希耶爾",
+    "his": "翡翠",
+    "koha": "琥珀",
+    "others": "其他"
+  },
+  "plus_disc": {
+    "desc": [
+      "月姬 PLUS-DISC 是最早发布于 2001 年的外传作品，包含一部短篇故事以及特典内容。",
+      "提示：你应该先通关月姬本篇。"
+    ],
+    "viewed": "Viewed",
+    "gallery": "畫廊",
+    "scenes": "Scenes"
+  },
+  "yes": "是",
+  "no": "否",
+  "ok": "是",
+  "back": "返回",
+  "close": "關閉",
+  "later": "Later"
+}

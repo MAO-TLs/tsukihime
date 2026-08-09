@@ -1,0 +1,123 @@
+@use 'layer-text';
+
+%layer-history {
+	z-index: 100;
+	opacity: 0;
+	pointer-events: none;
+	touch-action: manipulation;
+	transition: opacity var(--transition-time) ease-out;
+	background: var(--transparent-layer);
+	-webkit-backdrop-filter: blur(.5px);
+	backdrop-filter: blur(.5px);
+	display: grid;
+	grid-template-rows: 1fr min-content;
+
+	&.show {
+		pointer-events: auto;
+		opacity: 1;
+	}
+
+	.scroll-container {
+		overflow-y: scroll;
+		scrollbar-gutter: stable both-edges;
+		width: inherit;
+		height: 100%;
+	}
+
+	#history {
+		background: none;
+		padding-bottom: 30vh;
+		margin-inline: auto;
+		@extend %layer-text;
+		user-select: text;
+		transform: translateZ(0);
+
+		.load {
+			display: flex;
+			margin-left: auto;
+			padding: 0 .8em;
+			font-size: 1rem;
+			margin-top: -1em;
+			margin-bottom: 2em;
+			text-shadow: none;
+			gap: 8px;
+			color: var(--color-link);
+		}
+
+		hr {
+			border: 0;
+			height: 1px;
+			background-image: var(--history-separator);
+			margin: 4em 0 1em;
+			position: relative;
+			overflow: visible;
+
+			&[page-type="phase"] {
+				background-image: linear-gradient(90deg,
+					#1b9ab900 0%,
+					#00aed9 30%,
+					#fff 50%,
+					#00aed9 70%,
+					#1b9ab900 100%
+				);
+				height: 4px;
+				&::after {
+					content: attr(data-label);
+					position: absolute;
+					bottom: 100%;
+					left: 50%;
+					transform: translateX(-50%);
+					font-size: 0.8em;
+				}
+			}
+		}
+	}
+
+	#flowchart-progress {
+		overflow: auto;
+		overscroll-behavior: contain;
+		touch-action: pan-x pan-y;
+		will-change: scroll-position;
+		display: flex;
+		.progress-container {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 1;
+			border-bottom: 1px solid var(--separator);
+			background: var(--transparent-layer);
+			.progress-panel {
+				max-width: var(--page-width);
+				margin-inline: auto;
+				display: flex;
+				column-gap: 1rem;
+				padding-top: 4px;
+				padding-inline: 1rem;
+				overflow-x: auto;
+				height: 44px;
+
+				.hearts-list, .ending-list, .flags-list {
+					padding-block: .3em .2em;
+					flex: none;
+				}
+			}
+		}
+		.flowchart-container {
+			flex: 1;
+			max-width: var(--page-width);
+			margin-inline: auto;
+			padding-inline: 1em;
+			overflow: unset;
+		}
+	}
+
+	footer {
+		overflow-x: auto;
+
+		& > div {
+			display: flex;
+			align-items: start;
+		}
+	}
+}

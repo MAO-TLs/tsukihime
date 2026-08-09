@@ -1,0 +1,13 @@
+monocro off
+play "*2"
+wavestop
+bg "bg/bg_34a",notrans,0
+`“Akiha.@ About Kohaku…”@
+ld c,"tachi/aki_t01a",notrans,0
+`“Yes?@ What about her?”@ “She’s a good person.@ She scolded me in the foyer earlier: ‘You’ll never grow big and strong if you skip breakfast!@’”@
+ld c,"tachi/aki_t04a",crossfade,800
+`“I see.@ That does sound like Kohaku.@ Do you like her, Brother?”
+\
+`“What—?@ I didn’t mean it like that.@ I was just surprised.@ Even at the Arimas’, no one ever scolded me that way.@ I doubt I’ll be able to skip breakfast again.”@ “Just as well, Brother.@ You’re anemic enough already.@ Missing breakfast is out of the question.”@ Food had little to do with my dizzy spells, but this seemed like a good time to nod obediently.@
+cl c,notrans,0
+\

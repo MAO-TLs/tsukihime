@@ -1,0 +1,178 @@
+{
+  "translation": {
+    "name": "MAO-TLs bespoke English translation",
+    "desc": "A complete bespoke English translation by MAO-TLs.",
+    "url": "https://mao-tls.github.io/",
+    "vndb": ""
+  },
+  "disclaimer": [
+    "This is the web version of TYPE-MOON’s visual novel TSUKIHIME, originally released in 2000.",
+    "For adults aged 18 and over only."
+  ],
+  "title": {
+    "start": "Start",
+    "resume": "Continue",
+    "load": "Load",
+    "config": "Settings",
+    "extra": "Extras",
+    "exit": "Exit",
+    "about": {
+      "port": "This is the web version of TYPE-MOON’s visual novel TSUKIHIME, originally released in 2000.",
+      "project": "Find the project on %0GitHub%1. Give it a star if you enjoy it—contributions are welcome.",
+      "feedback": "Send feedback or report a bug %0here%1.",
+      "data": "All data is stored in your browser; none is collected. Manage your data %0here%1.",
+      "remake": "Support TYPE-MOON by purchasing %0TSUKIHIME -A piece of blue glass moon-%1."
+    },
+    "install": "Install",
+    "share": "Share",
+    "copied": "Copied to clipboard"
+  },
+  "extra": {
+    "gallery": "Gallery",
+    "endings": "Endings",
+    "scenes": "Flowchart",
+    "eclipse": "Eclipse"
+  },
+  "config": {
+    "on": "ON",
+    "off": "OFF",
+    "reset": "Reset to Defaults",
+    "default": "Default",
+    "tab-game": "Game",
+    "tab-audio": "Audio",
+    "tab-controls": "Controls",
+    "tab-advanced": "Advanced",
+    "volume-master": "Master Volume",
+    "volume-track": "BGM Volume",
+    "volume-se": "SFX Volume",
+    "volume-title-track": "Title BGM Volume",
+    "volume-system-se": "System SFX Volume",
+    "track-source": "Music Source",
+    "track-sources": {
+      "original": "Original (2000)",
+      "everafter": "Ever After (2002)",
+      "tsukibako": "Tsuki-Bako (2003)"
+    },
+    "track-source-help": [
+      "[b]Original[/b]: The complete game’s original 2000 soundtrack.",
+      "[b]Ever After[/b]: A new arrangement of the original soundtrack, released in 2002.",
+      "[b]Tsuki-Bako[/b]: The remixed soundtrack included in the 2003 collection of TSUKIHIME, PLUS-DISC, and Kagetsu Tohya."
+    ],
+    "auto-mute": "Mute When App Is in Background",
+    "ratio": "Aspect Ratio",
+    "ratio-auto": "Auto",
+    "ratio-4-3": "4:3",
+    "ratio-16-9": "16:9",
+    "text-speed": "Text Speed",
+    "text-speed-low": "Slow",
+    "text-speed-med": "Normal",
+    "text-speed-high": "Fast",
+    "text-speed-instant": "Instant",
+    "auto-play-delay-text": "Auto Mode text delay: %0 s",
+    "auto-play-delay-page": "Auto Mode page delay: %0 s",
+    "adult-title": "Adult Content",
+    "adult-blur": "Blur Images",
+    "adult-blur-help": [
+      "Applies a blur effect to images in adult scenes."
+    ],
+    "adult-warn": "Warn Before Adult Scenes",
+    "fullscreen": "Fullscreen",
+    "language": "Language",
+    "show-locked-content": "Reveal Locked Content",
+    "show-locked-content-help": [
+      "Unlocks the full Gallery, Flowchart, Endings, Eclipse, and more.",
+      "Also unlocks access to the Far Side routes.",
+      "This setting can be changed at any time."
+    ],
+    "game-font": "Game Text Font",
+    "game-font-help": [
+      "The default font is included with the project.",
+      "Enter another font’s name to load it from %0 when available, or from your device otherwise."
+    ],
+    "flowchart-badges": "Show Flowchart Badges",
+    "data": "Data Storage",
+    "data-export": "Export",
+    "data-import": "Import",
+    "data-erase": "Erase",
+    "data-erase-warning": "Erase all save data and restore the default settings?",
+    "data-erase-confirm": "All save data has been erased. If you leave this site without changing any settings or starting a new game, no data will remain stored on your device.",
+    "controls": {
+      "next": "Advance",
+      "history": "Show/Hide Backlog",
+      "flowchart": "Show/Hide Flowchart",
+      "back": "Close Current View / Open Menu",
+      "bg_move": "Move Background Image",
+      "auto_play": "Auto Mode",
+      "page_nav": "Next/Previous Page",
+      "load": "Open Load Screen",
+      "save": "Open Save Screen",
+      "q_save": "Quick Save",
+      "q_load": "Quick Load",
+      "config": "Open Settings",
+      "_hold": "[i](Hold)"
+    }
+  },
+  "endings": {
+    "normal": "Ending",
+    "good": "Good Ending",
+    "true": "True Ending",
+    "osiete": "Teach Me, Ciel!"
+  },
+  "saves": {
+    "title-load": "Load",
+    "title-save": "Save",
+    "create": "New Save",
+    "import": "Import Save File",
+    "export": "Export",
+    "delete": "Delete",
+    "delete-warning": "Delete this save?",
+    "overwrite-warning": "Overwrite this save?",
+    "quick-save": "Quick Save",
+    "local-storage-warning": "Save files and settings are stored locally in your browser and may be deleted after a period of inactivity. Export your data regularly.",
+    "local-storage-last-export": "Last Full Data Export: %0"
+  },
+  "game": {
+    "skip-viewed": "You’ve already viewed this scene.",
+    "skip-hscene": "This scene contains adult content.",
+    "skip-hcontent": "This passage contains adult content.",
+    "skip-prompt": "Skip it?",
+    "toast-qsave": "Saved successfully.",
+    "toast-qload": "Loaded successfully.",
+    "toast-load": "Loaded successfully.",
+    "toast-save-fail": "Save failed.",
+    "toast-load-fail": "Load failed.",
+    "toast-autoplay-stop": "Auto Mode stopped.",
+    "toast-ffw-stop": "Fast-forward stopped."
+  },
+  "menu": {
+    "graphics": "Graphics",
+    "history": "Backlog",
+    "save": "Save",
+    "load": "Load",
+    "config": "Settings",
+    "auto-play": "Auto Mode",
+    "ffw": "Fast-forward",
+    "title": "Return to Title",
+    "q-save": "Quick Save",
+    "q-load": "Quick Load",
+    "copy-scene-url": "Share Scene"
+  },
+  "history": {
+    "load": "Load",
+    "skipped": "Skipped %0 scene(s)."
+  },
+  "characters": {
+    "aki": "Akiha",
+    "ark": "Arcueid",
+    "cel": "Ciel",
+    "his": "Hisui",
+    "koha": "Kohaku",
+    "others": "Others"
+  },
+  "yes": "Yes",
+  "no": "No",
+  "ok": "OK",
+  "back": "Back",
+  "close": "Close",
+  "later": "Later"
+}

@@ -1,0 +1,55 @@
+#!/bin/sh
+set -eu
+
+expected_login='MAO-TLs'
+expected_name='MAO Translations'
+expected_email='MAO-TLs@users.noreply.github.com'
+expected_repository='MAO-TLs/tsukihime'
+zero='0000000000000000000000000000000000000000'
+remote_name=${1:-origin}
+remote_url=${2:-}
+
+case "$remote_url" in
+  "https://github.com/$expected_repository"|"https://github.com/$expected_repository.git"|"git@github.com:$expected_repository"|"git@github.com:$expected_repository.git")
+    ;;
+  *)
+    echo "Push rejected: the remote must be $expected_repository." >&2
+    exit 1
+    ;;
+esac
+
+active_login=$(gh api user --jq .login 2>/dev/null || true)
+if [ "$active_login" != "$expected_login" ]; then
+  echo 'Push rejected: the active GitHub login is not MAO-TLs.' >&2
+  exit 1
+fi
+
+while read -r local_ref local_sha remote_ref remote_sha; do
+  if [ "$local_sha" = "$zero" ]; then
+    echo 'Push rejected: ref deletion is disabled for MAO repositories.' >&2
+    exit 1
+  fi
+
+  if [ "$remote_sha" = "$zero" ]; then
+    commits=$(git rev-list "$local_sha" --not --remotes="$remote_name")
+  else
+    commits=$(git rev-list "$remote_sha..$local_sha")
+  fi
+
+  for commit in $commits; do
+    author_name=$(git show -s --format='%an' "$commit")
+    author_email=$(git show -s --format='%ae' "$commit")
+    committer_name=$(git show -s --format='%cn' "$commit")
+    committer_email=$(git show -s --format='%ce' "$commit")
+
+    if [ "$author_name" != "$expected_name" ] ||
+       [ "$author_email" != "$expected_email" ] ||
+       [ "$committer_name" != "$expected_name" ] ||
+       [ "$committer_email" != "$expected_email" ]; then
+      echo "Push rejected: commit $commit does not use the MAO-TLs identity." >&2
+      exit 1
+    fi
+  done
+done
+
+echo 'MAO identity guard passed.'

@@ -1,0 +1,45 @@
+monocro off
+play "*3"
+wavestop
+bg "bg/bg_11b",notrans,0
+br
+`I’ll eat it, of course.@ I have always believed in accepting kindness without making a fuss.
+\
+`“I’ll take it.@ I’m starving, so if it’s edible, I’ll eat it.”@ Yes, even a slightly dubious expiration date would not deter me.@
+ld c,"tachi/cel_t04",crossfade,400
+`“Then shall we go to the tea club?@ I can at least make you some tea in the clubroom.”@
+cl c,crossfade,800
+`She patters briskly away down the corridor.
+\
+playstop
+bg #000000,lcartain,800
+!w500
+bg "event/cel_e02b",lcartain,800
+play "*2"
+`“Thanks for the food.”@ I press my hands together, then attack her lunch.@ As I devour it without the least restraint, she sits watching me intently.
+\
+`Munch, munch.@ Munch-munch-munch.@ Munchmunchmunchmunchmunch.
+\
+`“Mmm.”@ I wash it down with a swallow of tea.@ She is still staring.
+\
+`“Is the lunch good?”@ “Mmm…@ It’s cold, so not especially.”@ Even I suspect that answer may be too honest, but it is my nature and cannot be helped.@ She laughs softly, meets my eyes, and says in a remarkably gentle voice, “You really are a little sage, aren’t you?”
+\
+`“I don’t understand you.@ Where did that come from?”@ “But it’s true.@ Most people wouldn’t eat someone else’s half-finished lunch.@ You don’t seem to care what other people think.”@ “Don’t I?@ I’ve never really noticed.”@
+br
+`I merely live according to what feels honest to me.
+\
+`But if ignoring the world’s opinions makes one a sage, she deserves the title far more than I do.@ I could never have repaired that forgotten tree brace alone when everyone else simply walked past it.
+\
+`“If you ask me, you’re much more of a sage.@ You always move at your own pace.@ It’s actually refreshing to watch.”@ I offer the compliment in complete sincerity.@ For some reason, she murmurs, “I see,”@ and droops like someone whose treasured lottery ticket has failed to win.
+\
+`“Um…@ did I say something wrong?”@ “Yes.@ People say that sort of composure makes a woman seem matronly.@ I’m a girl too, you know.@ It hurts.”@ …@Ah.@ In her mind, being a sage apparently means being elderly.
+\
+`“Then you’re saying I seem like an old man.@ How rude.@ I’m a high-school student with a difficult future ahead of me.”@ “Oh, I can’t deny it.@ You look perfectly natural on a floor cushion with tea in your hand—so calm and settled, like a retired gentleman.”@ She giggles.@ I would have preferred a dashing young master in traditional dress, but when she says it, even “retired gentleman”@ does not sound so bad.
+\
+`“Then why don’t we two old folks drink tea and talk for a while?”@ “Gladly.@ I’ll keep you company as long as you like, Shiki.”@ Beaming, she pours a musical stream of tea into my cup.
+\
+bg #000000,lshutter,800
+`An hour later, at half past five, we finally leave before the gates close and part at the intersection.
+\
+!w1000
+playstop

@@ -1,0 +1,40 @@
+playstop
+wavestop
+bg "bg/bg_40b",notrans,0
+`Maybe I should go see Hisui.@
+br
+`“But Hisui won’t let me help with her work, and going out of my way to see her would only interrupt it…”@ A problem.@ I didn’t want to inconvenience her.@ Even so, for some reason, I wanted to see her.
+\
+`“Oh…”@ I still hadn’t returned Hisui’s ribbon.@ She had said she had forgotten it, but it had belonged to her in the first place.@ There was no point in my keeping it forever.@ I would take it back to her.
+\
+bg #000000,lshutter,800
+bg "bg/bg_41",lshutter,800
+play "*8"
+`Hisui appeared to be sorting books in Father’s room.@ Though its owner was gone, the room had been preserved exactly as it was.
+\
+`“Hisui, do you have a moment?”@
+ld c,"tachi/his_t01",lshutter,400
+`“Ah—Master Shiki.@ Yes, what is it?”@ “I mentioned it before, but I thought I should return this.”@
+br
+`I held out the ribbon Hisui had given me eight years ago.@
+br
+ld c,"tachi/his_t04",crossfade,400
+`“…”@ “Hisui?@ Do you…@ not want it anymore?”@
+ld c,"tachi/his_t17",crossfade,400
+`“No.@ I will hold on to it.@ It is something precious.”@ Hisui accepted the ribbon, then fell silent.
+\
+`“…”@ I couldn’t bring myself to speak.@ Hisui looked as she had eight years ago, shutting every other human being out.@
+ld c,"tachi/his_t01",crossfade,400
+`“Master Shiki, was that all you required?”@ Unable to find my voice, I merely nodded.@ “Then please return to your room.@ I still have work to complete.”@
+cl c,lshutter,400
+`Hisui walked away toward the far end of the room.
+\
+`“Hisui…”@ Had that ribbon held some special meaning?@ Perhaps, after eight years, all I had truly done was fulfill a promise far too late.@
+br
+`“I’ll go back to my room, then.@ See you later, Hisui.”@
+br
+`With that, I left.
+\
+bg #000000,crossfade,800
+playstop
+!w1500
