@@ -15,13 +15,13 @@ ld l,"tachi/ark_t30",lshutter,400
 br
 `Question rejected.@
 cl l,lshutter,400
-`Now then, Tohno.@ Caution is generally admirable, but this time it worked against you.@ As the hero, you are allowed a certain amount of recklessness.@ Unfortunately, even a hero was no match for an animal as unreasonable as a shark.@ At this point, forget about Arcueid and—
+`[line=4]Now then, Tohno.@ Caution is generally admirable, but this time it worked against you.@ As the hero, you are allowed a certain amount of recklessness.@ Unfortunately, even a hero was no match for an animal as unreasonable as a shark.@ At this point, forget about Arcueid and—
 \
 ld l,"tachi/ark_t31a",lshutter,400
 ld l,"tachi/ark_t31b",lshutter,400
 `“Hmph!@ I don’t want to hear that from Ciel!”@
 br
-`Forget about her, I said!@
+`[line=3]Forget about her, I said!@
 cl l,lshutter,400
 br
 `“Eek!@ Down with violence!”@

@@ -25,7 +25,7 @@ br
 br
 br
 br
-`—Has my purpose changed?@
+`[line=4]Has my purpose changed?@
 !w750
 \
 `No.@ The purpose itself remains unchanged.@
@@ -70,7 +70,7 @@ wait 100
 bg "bg/bg_18a",notrans,0
 `“That…@ woman?”@
 br
-`—Throb.@
+`[line=3]Throb.@
 br
 wave se_01
 bg #9c0120,notrans,0
@@ -79,7 +79,7 @@ bg "bg/bg_18a",notrans,0
 bg "bg/bg_18e",crossfade,1500
 `“It…@ hurts.”@
 br
-`[line=4]Throb.
+`[line=8]Throb.
 \
 wave se_01
 bg #9c0120,notrans,0
@@ -87,13 +87,13 @@ wait 100
 bg "bg/bg_18a",notrans,0
 `“…@A woman…@ I know…?”@
 br
-`[line=8]Throb!
+`[line=14]Throb!
 \
 br
 quakex 4,100
 `“Gah—!”@
 br
-`—What was that headache?@
+`[line=3]What was that headache?@
 br
 `This…@ this isn’t normal…!
 \
@@ -205,7 +205,7 @@ monocro off
 playstop
 bg "bg/bg_24d",lcartain,1500
 br
-`—The lines won’t disappear.@ My vision is more distorted than ever.@ White mist shrouds the city at night, making it resemble a capital that died thousands of years ago.
+`[line=3]The lines won’t disappear.@ My vision is more distorted than ever.@ White mist shrouds the city at night, making it resemble a capital that died thousands of years ago.
 \
 br
 `There is no trace of anyone in the city.@ Every street, every building lies swaddled in a cocoon like a web of spider silk.@ So terribly quiet.@ A dead city built on the ocean floor.
@@ -242,7 +242,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 ld c,"tachi/ark_t05b",crossfade,400
 `“No.@ I still haven’t accomplished what I came here to do.@ I can hardly go home now, can I?”@
 br
-`Without ceremony, Arcueid fixes her crimson eyes on me.
+`[line=3]Without ceremony, Arcueid fixes her crimson eyes on me.
 \
 `“—!”@ My breath stops.@ The alien pressure is beyond anything I felt facing Ciel.@ This is what it means to have Arcueid for an enemy.@ “—”@ I can’t breathe.@ Can’t move my throat.@ One unnecessary twitch, and my head will be torn from my shoulders.
 \
@@ -255,11 +255,11 @@ bg "bg/bg_27b",crossfade,800
 ld c,"tachi/ark_t05c",crossfade,400
 `The certainty that my entire spine is about to be ripped out jolts me fully awake.@
 br
-`Arcueid is standing before me, intent on killing me.@ The distance—seven meters, maybe.@ Damn it.@ A hundred meters wouldn’t be safe against her, and I have seven.
+`[line=3]Arcueid is standing before me, intent on killing me.@ The distance—seven meters, maybe.@ Damn it.@ A hundred meters wouldn’t be safe against her, and I have seven.
 \
 `“What kind of stupid nonsense are you talking about?”@ I check that the knife is still in my pocket and play dumb.@ “It won’t work.@ Roa was a man I turned into a Dead Apostle myself.@ I can easily feel where the power he stole from me is still beating.”@
 br
-`Oh.@ Right.@ Ciel had told me before: Roa was originally made a vampire when Arcueid drank his blood.
+`[line=3]Oh.@ Right.@ Ciel had told me before: Roa was originally made a vampire when Arcueid drank his blood.
 \
 `“I don’t know why.@ I’ve been through this seventeen times, and nothing like it has ever happened before.”@ Arcueid doesn’t move a muscle.@ She has no need to come any closer.@ I am already within her reach.
 \
@@ -284,7 +284,7 @@ br
 bg #ffffff,crossfade,800
 bg "event/ark_e06a",crossfade,400
 br
-`Where had it been?@ A mountain castle, deep as the floor of a lightless sea.@ A single girl imprisoned there.@ That image alone remained branded upon the soul of a man who had long since withered into nothing but memory.
+`[line=3]Where had it been?@ A mountain castle, deep as the floor of a lightless sea.@ A single girl imprisoned there.@ That image alone remained branded upon the soul of a man who had long since withered into nothing but memory.
 \
 br
 `I couldn’t understand.@ A True Ancestor who had never even been told the meaning of her own existence, she had been used as nothing more than a weapon to hunt fallen True Ancestors.
@@ -305,7 +305,7 @@ br
 br
 br
 br
-`Michael Roa Valdamjong fell in love with the girl in white.
+`[line=4]Michael Roa Valdamjong fell in love with the girl in white.
 \
 bg #000000,crossfade,800
 `“—”@ For the first time, I saw not an impulse, but the heart of the man Roa had been.@ His one surviving emotion.@ The person he once was had died long ago, yet this eternal memory remained, branded too deeply ever to fade.
@@ -325,7 +325,8 @@ br
 `If only someone had given it a name—love—the man called Roa might never have made such a terrible mistake.
 \
 bg "bg/bg_27b",crossfade,800
-`“…”@ For an instant—or perhaps a very long time—I dreamed the dream of the man behind everything, the man who reincarnated so that he might remain forever in the present age.
+`“…”@
+`[line=4]For an instant—or perhaps a very long time—I dreamed the dream of the man behind everything, the man who reincarnated so that he might remain forever in the present age.
 \
 ld c,"tachi/ark_t06",crossfade,400
 `“How composed you are.@ I’m standing right in front of you, and you don’t even run.@ Or have you finally resigned yourself to it, Shiki?”@ “Resigned myself to what?@ I’m not losing to someone like Roa.@ Once tomorrow comes, I know—”@ Ciel would return.@ Until then, I could not let Arcueid kill me here.
@@ -350,11 +351,11 @@ br
 \
 `“…@I don’t understand.@ What are you trying to say, Arcueid?”@ “I’m telling you to become my servant.”@ “Wha—”@
 br
-`She didn’t seem to be joking.@ When she and Ciel had faced each other before, Arcueid herself had called the idea a particularly nasty joke.
+`[line=3]She didn’t seem to be joking.@ When she and Ciel had faced each other before, Arcueid herself had called the idea a particularly nasty joke.
 \
 `“…@So that wasn’t a joke?”@ “No.@ I like you.@ If the choice is between killing you and keeping you beside me, isn’t it obvious which I’d prefer?”@
 br
-`Crack.@
+`[line=4]Crack.@
 br
 `At those words, a headache unlike anything before tore through me.
 \
@@ -385,7 +386,7 @@ br
 cl c,notrans,0
 `A white blur rushed me on a blast of wind.@
 br
-`In that instant, the fight had already begun.
+`[line=4]In that instant, the fight had already begun.
 \
 playstop
 bg #000000,lshutter,400
@@ -415,7 +416,7 @@ br
 bg #000000,lshutter,400
 `“Guh—!”@ I somehow landed on my feet and raised the knife.@ However fiercely I stared, I couldn’t see a single line on Arcueid’s body.@ “Damn it.@ Nothing about her makes any sense…!”@
 br
-`Exactly.@ Here at night, beyond the sun’s dominion, challenging the princess of the moon was lunacy.
+`[line=4]Exactly.@ Here at night, beyond the sun’s dominion, challenging the princess of the moon was lunacy.
 \
 bg "bg/bg_29b",lshutter,800
 `“Haa—ah…”@ My throat burned.@ My heart felt ready to burst.@ Only then did I realize that Arcueid’s crimson gaze had been crushing me from the moment we met, scarcely allowing me to breathe.
@@ -451,7 +452,7 @@ wave se_01
 `“—”@ At this distance, so close we might almost have been embracing, perhaps I could finally see it.
 \
 wave se_01
-`I stared hard at Arcueid’s body.@
+`[line=6]I stared hard at Arcueid’s body.@
 br
 `Something cracked at the core of my skull.@ Not another headache—a sound as though an actual fissure were opening through my brain.
 \
@@ -474,5 +475,5 @@ br
 wave se_01
 `“I can hardly believe it, but it seems I like you.@ So I’ll save you.@ I won’t drink your blood, and I’ll never do anything you hate.”@ Her crimson eyes told me, So do as I say.@
 br
-`There could be no doubt: Arcueid meant every word.
+`[line=3]There could be no doubt: Arcueid meant every word.
 \

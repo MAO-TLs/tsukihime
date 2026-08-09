@@ -14,21 +14,21 @@ ld c,"tachi/aki_t15b",lshutter,400
 cl c,crossfade,400
 br
 wave se_01
-`Thump.@
+`[line=4]Thump.@
 br
 ld c,"tachi/koha_t03",lshutter,400
 `“She’s right, Shiki.@ You haven’t eaten since lunch, and you missed your evening IV.@ You’ll never recover this way.”@
 cl c,crossfade,400
 br
 wave se_01
-`Thump.
+`[line=4]Thump.
 \
 ld c,"tachi/aki_t02b",crossfade,400
 `“Honestly, I don’t know what happened, but you must keep still.@ Lying on the floor in your condition—are you trying to die, Brother?”@
 cl c,crossfade,400
 br
 wave se_01
-`Thu…@mp.@
+`[line=4]Thu…@mp.@
 br
 `Akiha reaches for my arm as she says it.@ Just as she said in the annex.@ She is coming closer to kill me.
 \
@@ -65,7 +65,7 @@ cl c,lshutter,800
 `“Hah…@ hah…@ hah…”@
 `Even so, that would be better than letting her kill me.@
 br
-`I lock the door.@
+`[line=4]I lock the door.@
 br
 `Then I lean against the wall and force my eyes to remain open, refusing to sleep.
 \

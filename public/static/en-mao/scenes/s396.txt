@@ -39,14 +39,14 @@ ld c,"tachi/his_t29",crossfade,400
 bg #000000,crossfade,400
 `My consciousness swims out of focus.@
 br
-`Time to sleep.@ My head hurts so badly that I no longer care whether I have a nightmare or not—
+`[line=3]Time to sleep.@ My head hurts so badly that I no longer care whether I have a nightmare or not—
 \
 !w4000
 phase "bg/cmo_14",l,his,07b,7
 !w1000
 bg "bg/bg_25b",tshutter,800
 play "*6"
-`I am in the city at night.@
+`[line=3]I am in the city at night.@
 br
 `Somehow, my feet have carried me here.@ Is this a dream?@ If it is, why am I here?@ “…”@ No—the reason is obvious.@ I have come out into the night for the killer—to find the killer, to hunt the killer.
 \
@@ -74,7 +74,7 @@ bg #000000,crossfade,400
 monocro #ff0000
 bg "bg/bg_31b",notrans,0
 br
-`That is where the journey ends.@
+`[line=4]That is where the journey ends.@
 br
 `Just as in yesterday’s dream, the body of a stranger lies discarded in the alley.
 \
@@ -94,7 +94,7 @@ waveloop se_02
 \
 `“What…@ are you?”@ the man asks, his voice shaking.@ Smothering my laughter, I drive my knife into his chest with all the casual ease of offering a handshake.@
 br
-`What?@
+`[line=9]What?@
 br
 `What an idiotic sound.@ Even as he is being murdered, he remains too sluggish to move.@ The thought that this thing called itself a KILLER makes me sick.
 \
@@ -116,7 +116,7 @@ br
 br
 br
 br
-`And yet I have been left behind.
+`[line=3]And yet I have been left behind.
 \
 `The city is itself again, but I alone remain broken, abandoned here.@
 br
@@ -125,7 +125,7 @@ br
 `“……@I should go home.”@ Yes.@ I must.@ Even if I am the only one still wrong, I must return to the mansion.@ Nothing has really changed.@ By day I will live properly as Shiki Tohno; by night I will repeat the nightmare.
 \
 br
-`It is nothing worth making a fuss over.@
+`[line=3]It is nothing worth making a fuss over.@
 br
 `The dream did not become reality.@ I simply stopped waking up from it.@
 monocro off

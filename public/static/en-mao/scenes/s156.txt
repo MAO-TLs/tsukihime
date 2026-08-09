@@ -62,7 +62,7 @@ br
 \
 `“Arcueid, I—”@
 br
-`I would be fine.@ It was only a headache.@ Compared with the pain Arcueid was enduring throughout her body, that was nothing.@
+`[line=3]I would be fine.@ It was only a headache.@ Compared with the pain Arcueid was enduring throughout her body, that was nothing.@
 br
 `“All right.@ I’ll take them off and come with you.@ If that settles this, it’s a small price.”
 \
@@ -146,7 +146,7 @@ cl c,crossfade,400
 \
 `“…”@
 br
-`—That seems to be why I came here.@ I’ll give you back your ordinary life.@
+`[line=3]That seems to be why I came here.@ I’ll give you back your ordinary life.@
 br
 `My teacher had said that, and made these glasses for me.@ There was so much to thank her for that my chest tightened.@ In every sense of the word, she had saved the Shiki Tohno I was now, all those years ago—
 \
@@ -162,7 +162,7 @@ cl c,notrans,0
 wave se_01
 `“Hmm…?”@ Without knowing why, I slipped a hand through my collar and into my shirt.@
 br
-`Something wet and slick.@
+`[line=3]Something wet and slick.@
 br
 waveloop se_02
 bg #9c0120,crossfade,400
@@ -191,7 +191,8 @@ ld c,"tachi/ark_t06",crossfade,400
 cl c,crossfade,400
 `Arcueid didn’t answer.@ Her breathing had grown ragged and violent—hah, hah—as though she were enduring terrible pain.
 \
-`“Hey, Arcueid…!@ What’s wrong?@ Are your wounds hurting again?”@ I caught her by the shoulder—and she sprang away from my hand as though fleeing from me.
+`“Hey, Arcueid…!@ What’s wrong?@ Are your wounds hurting again?”@ I caught her by the shoulder
+`[line=4]and she sprang away from my hand as though fleeing from me.
 \
 wavestop
 ld c,"tachi/ark_t20",crossfade,400

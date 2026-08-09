@@ -3,7 +3,7 @@ wavestop
 play "*3"
 !w2000
 bg "bg/bg_34c",rshutter,800
-`—And so.@
+`[line=5]And so.@
 br
 `Before an hour had passed, Hisui fell asleep.@ Still smiling, Kohaku dragged her off to bed.
 \
@@ -109,7 +109,7 @@ ld c,"tachi/aki_t13b",crossfade,400
 cl a,crossfade,400
 wave se_01
 br
-`—A room with tatami?@
+`[line=4]A room with tatami?@
 br
 `What is that memory?@ I understand Akiha was caring for me, but why were we in a tatami room instead of my bedroom?@
 br
@@ -121,7 +121,8 @@ ld c,"tachi/aki_t01b",crossfade,400
 ld c,"tachi/aki_t13b",crossfade,400
 `“I see.@ Does the absence of a Japanese-style room strike you as strange, Brother?”@ “A little.@ In a mansion this large, you’d think there might be at least one.”@
 ld c,"tachi/aki_t01b",crossfade,400
-`“There is considerably more than one.@ The entire detached house is Japanese-style.”@ “What—?”@ Oh.@ Of course.@ There was a traditional house beyond the trees in the garden.
+`“There is considerably more than one.@ The entire detached house is Japanese-style.”@ “What—?”@
+`[line=3]Oh.@ Of course.@ There was a traditional house beyond the trees in the garden.
 \
 ld c,"tachi/aki_t16b",crossfade,400
 `“…@You really have recovered.@ I seem to be in the way now, so I’ll return to my room.”@
@@ -137,7 +138,7 @@ cl a,lcartain,800
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_40d",rcartain,800
-`I switch off the light and settle into bed.@
+`[line=4]I switch off the light and settle into bed.@
 br
 `Akiha’s care has left me deeply at peace.@ I should be able to fall at once into the first gentle sleep I have had in days.@
 br
@@ -150,7 +151,7 @@ bg "bg/bg_45b",crossfade,800
 \
 `A dark Japanese-style room where no one else came to visit.@ Perhaps slipping past Makihisa’s notice, Akiha crept inside, took my hand, and wept.@ I’m sorry, she said.@ I did not understand why.@ The black-haired girl only repeated those words again and again.
 \
-`—I remember.@
+`[line=3]I remember.@
 br
 `The frail eldest daughter of the Tohno family, the only person who cared for me.@ “……”@ A little girl who had cried and cried in that dark tatami room.@ Feverish and dazed, I bit my tongue in frustration.@ Why was she crying?@ If it were up to me—if it were up to me, I would never, ever make akiha cry.
 \

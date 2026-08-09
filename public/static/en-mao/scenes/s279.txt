@@ -2,7 +2,7 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_06a",notrans,0
-`—Nothing will change if I sit here rotting.@
+`[line=3]Nothing will change if I sit here rotting.@
 br
 `I already felt sick enough; if I didn’t at least eat something, I really might collapse.@ “I guess I’ll go to the cafeteria.”@ I muttered without enthusiasm and rose from my seat.
 \
@@ -10,7 +10,7 @@ bg #000000,lcartain,800
 bg "bg/bg_50",lcartain,800
 `The lunch rush must have passed, because there was no line at the cafeteria.@ Almost every table was still packed with students, though.@ I scanned the room for an empty seat.@
 br
-`And then—
+`[line=3]And then—
 ld c,"tachi/cel_t01a",crossfade,400
 cl c,crossfade,400
 br

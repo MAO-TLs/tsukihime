@@ -8,7 +8,7 @@ br
 \
 `…@Well, some famous doctor said dreams are destined to be forgotten.@ There's no point straining myself to remember.@
 br
-`Knock, knock.@
+`[line=3]Knock, knock.@
 br
 `A quiet, diffident knock at the door.@
 ld c,"tachi/his_t01",lshutter,800
@@ -20,7 +20,7 @@ cl c,lshutter,800
 \
 `The knife lies on the desk: the short blade said to be my father’s keepsake, which I’ve carried in my pocket for the past several days.@
 br
-`—I probably won’t need it again.@
+`[line=3]I probably won’t need it again.@
 br
 `“…@Right.@ They're gone now.”@ Arcueid and Ciel.@ The swarm of beasts called Nrvnqsr, and the vampire called Roa.@ The whole lot of them have vanished somewhere together.
 \
@@ -77,11 +77,12 @@ play "*3"
 bg "bg/bg_06a",crossfade,400
 wave se_03
 br
-`—First period ends.@
+`[line=4]First period ends.@
 !w2000
 `There are only ten minutes before the next class.@ “—All right.”@ I rise to search the third-year classrooms for Ciel, but before I can leave my seat—
 ld c,"tachi/cel_t03",lshutter,400
-`“Oh, are you going somewhere, Tohno?”@ —Ciel reaches me first.
+`“Oh, are you going somewhere, Tohno?”@
+`[line=3]Ciel reaches me first.
 \
 `“I was about to come find you.@ You’re always the one who visits me, so I thought I’d return the favor for once.”@
 ld c,"tachi/cel_t02",crossfade,400
@@ -270,7 +271,7 @@ br
 br
 br
 wave se_01
-`—Throb.
+`[line=5]Throb.
 \
 `“—What?”
 \
@@ -282,7 +283,7 @@ br
 br
 br
 wave se_01
-`—Throb.
+`[line=5]Throb.
 \
 `All at once, without the slightest warning.
 \
@@ -294,7 +295,7 @@ br
 br
 br
 wave se_01
-`—Throb.@
+`[line=5]Throb.@
 bg #9c0120,crossfade,400
 \
 `Everything before me turns scarlet.
@@ -303,7 +304,7 @@ quakey 4,375
 `“Master Shiki!?”@ …@I hear Hisui's voice.@ Feet thunder toward me—she sounds more frantic than I ever imagined Hisui could be.@ “Master Shiki, are you hurt!?”@ Her voice is beside my ear, but I can't see her.@
 br
 wave se_01
-`—Throb.@
+`[line=5]Throb.@
 br
 `There is nothing but the headache.
 \
@@ -330,7 +331,7 @@ br
 bg #9c0120,crossfade,400
 bg "bg/bg_33a",crossfade,400
 br
-`—Throb.@
+`[line=3]Throb.@
 br
 `My head aches.@ I—
 \

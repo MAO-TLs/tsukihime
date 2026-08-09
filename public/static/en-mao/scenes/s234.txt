@@ -1,7 +1,7 @@
 playstop
 wavestop
 bg "bg/bg_25b",notrans,0
-`—I can’t take a risk like that.@
+`[line=4]I can’t take a risk like that.@
 br
 `An alley is a dead end.@ Once inside, no one will come to help.@ Going into a place like that over a suspicious noise would be insane.@ It was already late; I should go straight home.
 \
@@ -46,7 +46,7 @@ cl c,crossfade,400
 ld c,"tachi/his_t08",crossfade,400
 `“Master Shiki, may I ask you something?@ What time did you return last night?”@
 br
-`Last night.@ I had gone looking for Yumizuka and failed to find her.@ By the time I returned—
+`[line=4]Last night.@ I had gone looking for Yumizuka and failed to find her.@ By the time I returned—
 br
 `“I’m sorry.@ Something was bothering me, and I stayed out late investigating it.@ I’ll be more responsible from today on, so I’d appreciate it if you could overlook this once…”
 \
@@ -99,7 +99,7 @@ playstop
 !w1000
 bg "bg/bg_06a",lcartain,800
 play "*3"
-`—The moment I entered the classroom, I looked for Yumizuka.@ She was not among the clusters of girls.@ Perhaps she had not arrived yet.@ Or perhaps—
+`[line=3]The moment I entered the classroom, I looked for Yumizuka.@ She was not among the clusters of girls.@ Perhaps she had not arrived yet.@ Or perhaps—
 \
 ld c,"tachi/ari_t01",lshutter,400
 `“Morning, Tohno.@ Looking for something?”@ A familiar face scuttled in sideways like a crab.@ “Yes, I am.@ If you already know that, don’t get in my way, Arihiko.”@ “Heh-heh.@ No point looking for Sats.@ She’s staying home today.”@ Arihiko gave me a knowing, unpleasant little grin.@ I disliked the distinct impression that he had seen through absolutely everything.
@@ -114,7 +114,7 @@ cl c,lshutter,800
 br
 wave se_03
 !w500
-`—The bell rang for homeroom.@
+`[line=4]The bell rang for homeroom.@
 br
 `Still vaguely dissatisfied, I took my seat and waited for our homeroom teacher, Mr.@ Kunifuji.
 \
@@ -125,13 +125,13 @@ bg "bg/bg_06a",bshutter,800
 \
 `“Well…”@ I had no reason to linger either.@ I rose, intending to go home and decide what to do next.@
 br
-`—And then.@
+`[line=4]And then.@
 br
 `“Shiki Tohno of Class 2-3, report to the faculty office immediately.”@ The announcement rang through the school.@ “What could that be?@ Did I do something?”@ Puzzled, I left the classroom.
 \
 bg #000000,tcartain,800
 play "*1"
-`On reflection, one possibility came readily to mind.@ Running around town at night in my school uniform was bound to get back to the administration.@ The school might be second-rate, but it was still academically ambitious and strict about its rules.@ After a severe reprimand, I was sent to the disciplinary room to write a formal apology.
+`[line=3]On reflection, one possibility came readily to mind.@ Running around town at night in my school uniform was bound to get back to the administration.@ The school might be second-rate, but it was still academically ambitious and strict about its rules.@ After a severe reprimand, I was sent to the disciplinary room to write a formal apology.
 \
 bg "bg/bg_08b",tshutter,800
 `“The sun has gone down, Mr.@ Kunifuji.”@ I muttered to the empty disciplinary room.@ My homeroom teacher had promised to collect my essay in an hour, then vanished without a word.@ The clock had passed six-thirty.@ At this rate Akiha would spend another evening needling me.@ “I’m going home now, whether you like it or not.”@ Disgusted with myself for addressing an absent teacher so politely, I rose.
@@ -147,7 +147,7 @@ br
 \
 `“—!?”@ I whirled around.@
 br
-`The classroom lay dark, lit only by pallid moonlight.@ Satsuki Yumizuka stood with that light behind her.@ “Yumizuka…?”@
+`[line=3]The classroom lay dark, lit only by pallid moonlight.@ Satsuki Yumizuka stood with that light behind her.@ “Yumizuka…?”@
 ld c,"tachi/stk_t10",lshutter,800
 `“What a coincidence.@ You stayed late too, Tohno.@ Were you in the disciplinary room?”@ “Yes…@ I got detention over something stupid.”@ “I see.@ I was called in because of yesterday.@ They put me in the room right beside yours.”
 \
@@ -160,7 +160,8 @@ bg "bg/bg_06c",crossfade,400
 `The world swayed.@ Buckled.@ The floor seemed to bend beneath me.
 \
 ld c,"tachi/stk_t10",crossfade,400
-`“But this works out perfectly.@ There’s something I wanted to ask you.@ Would that be all right?”@ “If it’s something I can do, I’ll certainly try…”@ “Really?@ Then I’ll ask.@ Tohno, would you…@ spend some time with me?”@ What?@ Well, if that was all, I supposed I could.
+`“But this works out perfectly.@ There’s something I wanted to ask you.@ Would that be all right?”@ “If it’s something I can do, I’ll certainly try…”@ “Really?@ Then I’ll ask.@ Tohno, would you…@ spend some time with me?”@
+`[line=3]What?@ Well, if that was all, I supposed I could.
 \
 `“Sure, but did you want to go shopping?@ Most of the good stores will be closed by now.”@
 ld c,"tachi/stk_t09",crossfade,400
@@ -198,11 +199,11 @@ ld c,"tachi/stk_t03",crossfade,400
 bg #9c0120,crossfade,400
 monocro #0000ff
 bg "bg/bg_06c",crossfade,400
-`—Danger.@
+`[line=3]Danger.@
 br
 `Somewhere inside me, an alarm insisted that this was dangerous.@
 br
-`—So what?@
+`[line=3]So what?@
 br
 `I didn’t care.@ If she—if Yumizuka wanted it, what was wrong with that?@ We were lovers now.@ A kiss was perfectly ordinary.@ I thought.
 \
@@ -211,7 +212,7 @@ ld c,"tachi/stk_t02",crossfade,400
 cl c,lshutter,800
 `I walked toward her, my shoes striking the floor with dry clicks as I passed between the desks to the window.@ On the way, I saw several girls lying hidden in the narrow valleys between desks.@ Blood ran from every throat.@ Yet no matter how I tried, I could not make myself care about them.
 \
-`—Yumizuka did not move.@
+`[line=4]Yumizuka did not move.@
 br
 `I took her by both arms and kissed her without a trace of feeling.@
 bg #9c0120,crossfade,400
@@ -229,7 +230,7 @@ bg "bg/bg_06c",crossfade,400
 \
 `“Don’t be afraid, Shiki.@ I won’t make you like the others.@ You only have to stay there forever and listen to my voice.”@
 br
-`A cold voice.@ I understood nothing of what was happening.@ Nothing at all—yet I understood with nauseating certainty that it was wrong.
+`[line=3]A cold voice.@ I understood nothing of what was happening.@ Nothing at all—yet I understood with nauseating certainty that it was wrong.
 \
 `“Ghh—!”@ I forced strength into my limbs and crawled.@ Even that became impossible when her voice stopped me.@ “No.@ You can’t escape anymore, and I won’t let you.@ Now, where should I begin spreading my world?@ Right here, perhaps.@ You’ll help me, won’t you, Shiki?@ You broke your promise to save me when I was in trouble, so from now on you’ll indulge every selfish wish I have.”@ Her muffled laughter followed.
 \

@@ -2,7 +2,7 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_33a",notrans,0
-`—Even so, I cannot break my promise.@
+`[line=3]Even so, I cannot break my promise.@
 br
 bg #9c0120,crossfade,400
 bg "bg/bg_33a",crossfade,400
@@ -29,7 +29,7 @@ bg "bg/bg_25a",lcartain,800
 bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_25a",notrans,0
-`—The city overflows with humans.@ Scorching sunlight.@ The suffocating bustle, full of mindless inertia, is hideous.@
+`[line=3]The city overflows with humans.@ Scorching sunlight.@ The suffocating bustle, full of mindless inertia, is hideous.@
 bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_25a",notrans,0
@@ -45,7 +45,7 @@ bg "bg/bg_25a",notrans,0
 `My clouded mind cannot find her.
 \
 `—Can't find her.@
-`With this many people.@
+`[line=5]With this many people.@
 `
 `                    Can't find her—
 `                         With all this clutter.@
@@ -61,11 +61,11 @@ bg "bg/bg_25a",notrans,0
 ld c,"tachi/cel_t01c",lshutter,800
 `“Oh, Tohno.@ I'm surprised—you actually made it on time?”@ “Ci…@el?”@
 br
-`—It’s the first time I’ve seen Ciel in ordinary clothes.@
+`[line=3]It’s the first time I’ve seen Ciel in ordinary clothes.@
 br
 `“…@Um, I was a little mean earlier.@ I'm sorry I made you run until you were this exhausted.”@
 br
-`—Ciel bows to me.
+`[line=3]Ciel bows to me.
 \
 `“—!”@ Idiot.@ She doesn’t need to worry about anything like that.@
 br
@@ -82,7 +82,7 @@ br
 play "*1"
 bg "bg/bg_40c",crossfade,1500
 br
-`—When I come to, I find myself lying in bed.
+`[line=4]When I come to, I find myself lying in bed.
 \
 `“What…?”@ I turn my head and look around.@ This is my room, and beyond the window it is night.@ Hisui is here; she has been keeping watch over me while I slept.
 \

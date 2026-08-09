@@ -2,11 +2,11 @@ phase "bg/cmo_19",r,aki,03a,3
 bg #ffffff,crossfade,800
 `“Master Shiki…!”@
 br
-`A voice.@
+`[line=5]A voice.@
 br
 `“Please hold on.@ I’ll bring you something to drink at once.”@
 br
-`A presence receding into the distance.@
+`[line=5]A presence receding into the distance.@
 br
 `The click of heels.@ Only then did I realize morning had finally come.
 \
@@ -48,7 +48,7 @@ cl c,lshutter,800
 \
 `“Well, time to get up.”@ I threw back the sheets and sat up.@
 br
-`The instant I moved—
+`[line=3]The instant I moved—
 br
 wave se_01
 bg #9c0120,crossfade,400
@@ -90,7 +90,7 @@ cl c,lshutter,400
 ld c,"tachi/aki_t12a",crossfade,400
 `“…@I shouldn’t have to remind you, but your health can’t bear this kind of strain, Brother.@ I can’t simply watch you come home looking as exhausted as you did last night.@ If something is troubling you, please tell me.@ I may not be much help, but if I’m enough…”@
 br
-`I didn’t want to think it, but—
+`[line=3]I didn’t want to think it, but—
 br
 `Yumizuka.@ Yumizuka might be the murderer terrorizing this city.
 \
@@ -127,7 +127,7 @@ playstop
 !w2000
 play "*1"
 bg "bg/bg_06a",rshutter,800
-`Coming to school had accomplished nothing.@
+`[line=3]Coming to school had accomplished nothing.@
 br
 `Satsuki Yumizuka was treated as just another absent student, and no one seemed worried about her.@ The hours slipped away before I knew it.@ Arihiko and Ciel may have stopped by at some point, but I barely remembered.
 \
@@ -148,7 +148,7 @@ br
 \
 `Two days ago, on this very road, I had made her that promise.@ I was furious with myself for it.@
 br
-`If I’m ever in trouble, you’ll help me, right?@
+`[line=3]If I’m ever in trouble, you’ll help me, right?@
 br
 `When Yumizuka said that, I answered lightly that I would help if there was anything I could do.@ What an irresponsible promise.@ The things I could do were pitifully small.@ She had said it hurt—that it was dark and cold and it hurt—and I couldn’t even find her.
 \
@@ -167,7 +167,7 @@ bg #000000,crossfade,800
 !w2000
 bg "bg/bg_40c",crossfade,800
 br
-`After dinner, I sat on the edge of my bed.@
+`[line=3]After dinner, I sat on the edge of my bed.@
 br
 `The clock was approaching nine.@ No one in this house was allowed out after eight, so I couldn’t leave now.@ “…”@ But that was only a rule.@ If I truly wanted to, nothing could keep me inside.
 \
@@ -182,7 +182,7 @@ br
 br
 br
 br
-`Bye.@ See you at school tomorrow, Tohno.
+`[line=3]Bye.@ See you at school tomorrow, Tohno.
 \
 bg #ffffff,crossfade,400
 monocro off

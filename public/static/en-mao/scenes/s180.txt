@@ -2,7 +2,7 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_25b",notrans,0
-`—I’ll concentrate on the downtown district.@
+`[line=3]I’ll concentrate on the downtown district.@
 br
 `Arcueid was suffering, but she isn't the sort to rest simply because she's in pain.@ She told me to go home.@ Put another way, that must mean she isn't going home herself.@ I think she means to keep hunting the vampire alone.
 \
@@ -25,7 +25,7 @@ bg "bg/bg_26a",lshutter,800
 `“Haa—haa, haa—”@ Exhaustion and pain make me nauseous.@ No matter how often I circle the district, I can't find one of the Dead or anything else abnormal.@ When I touch my forehead, it is unnaturally hot.@ I feel as though I've caught a vicious fever approaching forty degrees.@ “…@Damn it.@ Not yet—”@ I force myself to resume the search.
 \
 br
-`—Then—
+`[line=4]Then—
 br
 wave se_12
 mov %flushcount,0
@@ -76,7 +76,7 @@ bg "bg/bg_31b",crossfade,400
 `“—”@ I cannot call to her.@ The grinding in my spine has reached its peak.@ The saw feels as though it has already severed the bone.
 \
 br
-`—Creak.@ Creak.@
+`[line=4]Creak.@ Creak.@
 br
 `My consciousness screams that I must not stay here.@ That I don’t want to die yet.@
 br
@@ -90,7 +90,7 @@ waveloop se_02
 br
 br
 br
-`First comes an overwhelming sense of danger.
+`[line=3]First comes an overwhelming sense of danger.
 \
 `I must not remain here.@ I must not stand before that thing.@
 br
@@ -228,7 +228,7 @@ br
 \
 `“Nnh…@ Shiki, calm…@ down—!”@ Her body gives small, convulsive shudders, yet she still tries to resist.@
 br
-`Hah…@
+`[line=4]Hah…@
 br
 `My ragged breath traces a path across Arcueid’s stomach.
 \
@@ -262,7 +262,7 @@ br
 \
 `Arcueid’s sweat-slick body wipes away the last of my reason.@ Already beautiful beyond belief, her figure seems only more vivid glazed in sweat.@
 br
-`Thump.@
+`[line=3]Thump.@
 br
 `The blood surging through me hurts.@ My cock strains to bury itself inside Arcueid this instant.
 \
@@ -292,5 +292,6 @@ bg "event/ark_h03",crossfade,400
 \
 bg #9c0120,crossfade,400
 bg "event/ark_h03",crossfade,400
-`Pain tears through my head, screaming at me to keep going.@ Hesitating is madness.@ There was never any question what I had to do.@ I…@ Arcueid—
+`Pain tears through my head, screaming at me to keep going.@
+`[line=4]Hesitating is madness.@ There was never any question what I had to do.@ I…@ Arcueid—
 \

@@ -2,7 +2,7 @@ monocro off
 play "*3"
 wavestop
 bg "bg/bg_06a",notrans,0
-`—Right.@ Disaster is best stopped before it can begin.@ I need to drag her out of the rear courtyard before she creates some ludicrous catastrophe.@
+`[line=3]Right.@ Disaster is best stopped before it can begin.@ I need to drag her out of the rear courtyard before she creates some ludicrous catastrophe.@
 bg "bg/bg_06a",lshutter,800
 br
 `“Sir, I’m feeling anemic, so I’m going to the infirmary!”@
@@ -59,7 +59,7 @@ ld c,"tachi/ark_t06",crossfade,400
 `“All right.@ If you say so, then perhaps there is nothing wrong here.”@ “Not perhaps.@ There really isn’t.”@ Arcueid still looks unconvinced.
 \
 wave se_03
-`Just then, the bell rings to mark the end of fourth period.@
+`[line=4]Just then, the bell rings to mark the end of fourth period.@
 br
 `“—Damn, it’s lunchtime already.”@ The grove behind the school may be deserted, but during lunch someone could easily wander through.
 \

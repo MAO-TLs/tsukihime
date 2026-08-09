@@ -82,7 +82,7 @@ ld l,"tachi/ari_t04",crossfade,400
 \
 wave se_03
 !w1000
-`Then—
+`[line=3]Then—
 br
 `The warning bell rang, cutting short our morning conversation.@
 br
@@ -99,15 +99,15 @@ bg "bg/bg_06a",lshutter,800
 \
 bg #000000,lcartain,800
 bg "bg/bg_11a",lcartain,800
-`—Run.
+`[line=3]Run.
 \
 bg #000000,lcartain,800
 bg "bg/bg_07a",lcartain,800
-`—Run.
+`[line=3]Run.
 \
 bg #000000,lcartain,800
 bg "bg/bg_10a",lcartain,800
-`—Ru—
+`[line=3]Ru—
 wave se_10
 quakex 2,250
 bg #000000,notrans,0
@@ -148,7 +148,7 @@ ld c,"tachi/cel_t01a",crossfade,400
 br
 br
 br
-`—Wait.@
+`[line=4]Wait.@
 br
 `I had never told her my first name.@ And hadn’t she already used it once before, as though it were the most natural thing in the world?
 \

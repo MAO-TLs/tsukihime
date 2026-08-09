@@ -15,7 +15,7 @@ wait 100
 bg "bg/bg_47",notrans,0
 br
 wave se_01
-`Thump.@
+`[line=3]Thump.@
 br
 `My heart leaped, cutting off my breath.@ Blood raced through my body several times faster than before.@ That sensation—
 \
@@ -26,7 +26,7 @@ br
 \
 br
 wave se_01
-`Thump.@
+`[line=4]Thump.@
 br
 `A terrible premonition.@ A chill like a centipede crawling down my spine.
 \
@@ -65,7 +65,7 @@ br
 `Because those were all I could see, I slashed blindly at the lines.@ The bandaged man’s knife was forced to intercept mine.@ I wasn’t defending against him.@ He was defending against me.
 \
 br
-`I could win…!@
+`[line=4]I could win…!@
 br
 `I had no idea who he was, but there was no mistake: I was driving him back.@ A shiver of exhilaration ran through my blood at the overwhelming advantage.@ I could win.@ I was stronger than he was.@ And if I was stronger, then when he tried to kill me, all I had to do was kill him first—!
 \
@@ -77,7 +77,7 @@ waveloop se_02
 monocro #ff0000
 bg "bg/cmo_06",crossfade,400
 br
-`In that instant, I thought I saw a boy covered in blood—and Akiha’s tearful face.
+`[line=4]In that instant, I thought I saw a boy covered in blood—and Akiha’s tearful face.
 \
 monocro off
 bg #000000,crossfade,400
@@ -89,7 +89,7 @@ br
 br
 br
 br
-`What was I doing?@ Why had I tried to kill someone of my own accord—?
+`[line=3]What was I doing?@ Why had I tried to kill someone of my own accord—?
 \
 bg #9c0120,crossfade,400
 bg #000000,crossfade,400
@@ -125,11 +125,11 @@ br
 \
 `“Ah…”@ The exact opposite of before.@ Which meant—could he possibly—
 br
-`Heh.@
+`[line=4]Heh.@
 br
 `The bandaged man laughed in the darkness.
 \
-`Th…@ ump.@
+`[line=3]Th…@ ump.@
 br
 `My heart pounded harder than ever.@ Seized by a terror I couldn’t name, I retreated as if fleeing.@ The bandaged man didn’t pursue.@ He only grinned.@ His bulging, bloodshot eyes jeered: So you finally noticed.@
 br
@@ -144,7 +144,7 @@ br
 `Then someone like me could be killed in a single blow.
 \
 br
-`Heh.@
+`[line=4]Heh.@
 br
 `The man laughed and advanced.@ Even the fingers wrapped around my knife could do nothing but tremble.@
 br
@@ -155,7 +155,7 @@ bg #000000,lshutter,400
 wavestop
 `“What…?”@
 br
-`I couldn’t grasp what had happened.@
+`[line=3]I couldn’t grasp what had happened.@
 br
 `Three pipe-like spears had flown from nowhere and pierced the bandaged man.@ They hadn’t merely run him through—they had pinned him to the wall like an insect in a display case.
 \
@@ -176,7 +176,7 @@ br
 `“What…”@ I could only stare.@ Still wrapped in fire, the man fled.
 \
 bg "bg/ima_18",crossfade,800
-`The moon emerged.@ Flames had towered into the night and that monstrous scream had torn through the street, yet everything around me was as quiet as if nothing had happened.@ “…”@ My knees gave way, and I sagged against the wall.
+`[line=3]The moon emerged.@ Flames had towered into the night and that monstrous scream had torn through the street, yet everything around me was as quiet as if nothing had happened.@ “…”@ My knees gave way, and I sagged against the wall.
 \
 `I looked up toward the place the spears had come from.@ Someone stood high above and far away.@
 bg "event/cel_e04",crossfade,400

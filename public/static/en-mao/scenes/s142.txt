@@ -14,7 +14,7 @@ bg #000000,lcartain,800
 bg "bg/bg_26a",lcartain,400
 `Our silent walk continued to the hard, unbroken rhythm of her footsteps.@
 br
-`Then Arcueid stopped dead and turned around.@
+`[line=3]Then Arcueid stopped dead and turned around.@
 ld c,"tachi/ark_t07",crossfade,400
 `“Stop following me.@ Don’t you understand how troublesome it is to have an ordinary person like you tagging along?”@ “Then tell me what you’re doing and I’ll go home.”@
 ld c,"tachi/ark_t06",crossfade,400
@@ -76,17 +76,17 @@ bg #000000,lshutter,400
 monocro #ff00ff
 bg "bg/bg_25b",lshutter,1500
 br
-`Thump.@
+`[line=3]Thump.@
 br
 `My heartbeat sounded impossibly close.@ It was not yet late, and I stood in the heart of a crowded entertainment district—yet every trace of another human presence had vanished.
 \
 br
-`THUMP.@
+`[line=3]THUMP.@
 br
 `My glasses—I had to put them on.@ Now.@ Otherwise I would see something hideous: a darkness so deep that everything I had seen before was merely its threshold.
 \
 br
-`Th—ump.@
+`[line=3]Th—ump.@
 br
 `But my body would not move.@ My naked eyes, seeing a world stitched together from broken pieces, stared as if enthralled into the alley Arcueid had entered—straight through the wall.
 \
@@ -110,7 +110,7 @@ br
 br
 br
 br
-`Krrr—
+`[line=6]Krrr—
 \
 `Beneath a moon at absolute zero, something alien sounded beyond the wall.
 \
@@ -121,7 +121,7 @@ br
 br
 br
 br
-`GNNK.
+`[line=6]GNNK.
 \
 br
 br
@@ -134,7 +134,7 @@ br
 br
 br
 br
-`Squelch.
+`[line=6]Squelch.
 \
 br
 br
@@ -165,7 +165,7 @@ br
 cl c,lshutter,800
 \
 br
-`To be honest, my own nausea had not eased.@ But beside Arcueid’s obvious suffering, it seemed too trivial to mention.@
+`[line=3]To be honest, my own nausea had not eased.@ But beside Arcueid’s obvious suffering, it seemed too trivial to mention.@
 br
 `“Wait.@ What happened to you?”@
 ld c,"tachi/ark_t18",crossfade,400
@@ -205,7 +205,7 @@ ld c,"tachi/ark_t01b",crossfade,400
 \
 `“The Dead are much the same.@ Listen: if a vampire drains someone’s blood and sends some of its own blood back into the victim, that person remains in this world despite being dead.@ We call them the Dead, and they are the common familiars of vampires.@ Though perhaps ‘zombie’ would make more sense to you, Shiki.@ Strictly speaking that refers to the Haitian white serpent said to inhabit a corpse, but ‘zombie’ is the famous word for a walking corpse, isn’t it?”@
 br
-`Well, that did give me a much clearer picture.
+`[line=3]Well, that did give me a much clearer picture.
 \
 `“All right.@ So that man was killed by a vampire a long time ago, then turned into a zombie and worked like a slave?”@
 ld c,"tachi/ark_t01a",crossfade,400
@@ -274,7 +274,7 @@ br
 br
 `It was the same now.@ Being told that a vampire drank human blood and was gradually expanding its domain still did not make it feel real.
 \
-`But—
+`[line=3]But—
 br
 `What would become of me if, without reason or warning, someone dearest to me were killed that way?@ Though I wanted no part of the image, it flashed across my mind: Akiha drained of blood and discarded like rubbish.@
 br
@@ -286,7 +286,7 @@ ld c,"tachi/ark_t01b",crossfade,400
 `“Of course there isn’t.@ It’s obscene.@ Even a stranger whose face I’ve never seen has a whole past behind them, and a future they’ve dreamed of for just as long.@ I don’t want to be killed because someone happened to feel like playing.@ It would be too bitter, too meaningless.@ To die with everything unfinished…@ it’s too cruel.”@
 cl c,crossfade,400
 \
-`Yes.@ The people Nrvnqsr killed must have died in terror and confusion.@ But at the very end, hadn’t there been something worse—a helpless grief that everything had been left unfinished?@
+`[line=2]Yes.@ The people Nrvnqsr killed must have died in terror and confusion.@ But at the very end, hadn’t there been something worse—a helpless grief that everything had been left unfinished?@
 br
 `That night in the park, a girl had died simply because chance placed her there.@ She had been killed by Nrvnqsr before she even realized death was coming.
 \
@@ -342,7 +342,7 @@ cl c,crossfade,400
 br
 `Honestly, I wanted nothing more to do with any of this either.@
 br
-`But those words—the promise to protect this city—shouldn’t they have come from me, one of the people who lived here, rather than from Arcueid?
+`[line=3]But those words—the promise to protect this city—shouldn’t they have come from me, one of the people who lived here, rather than from Arcueid?
 \
 `“Arcueid, let me ask one thing.@ Is this ‘enemy’ of yours strong?”@
 ld c,"tachi/ark_t01b",crossfade,400
@@ -359,7 +359,7 @@ cl c,crossfade,400
 ld c,"tachi/ark_t01a",crossfade,400
 `“Even wounds that normally restore themselves at once refuse to heal.@ I managed to put the outside back together, but my insides still aren’t finished.”@
 br
-`And those wounds—the unnecessary ones she had taken while protecting me.
+`[line=3]And those wounds—the unnecessary ones she had taken while protecting me.
 \
 `“I…”@ There was nothing I could say.@ It was indisputably my fault that Arcueid had been reduced to this state.@
 br
@@ -436,7 +436,7 @@ ld c,"tachi/ark_t08",crossfade,400
 ld c,"tachi/ark_t01a",crossfade,400
 `“Ordinarily, yes.@ But as a vampire, my enemy cannot continue to exist without extracting blood and vital essence from others.@ Even knowing I’m hunting it, it must send out the Dead to secure the minimum nourishment it needs.”@
 br
-`Right.@ So that man was the one it sent out to cover the bare minimum.@
+`[line=3]Right.@ So that man was the one it sent out to cover the bare minimum.@
 br
 `“Exactly.@ So there’s no point searching any further tonight.”
 \
@@ -456,7 +456,7 @@ br
 bg #000000,lcartain,1500
 playstop
 bg "bg/bg_32c",lcartain,800
-`I returned to the estate.@ It was past midnight, and every light had gone out.@
+`[line=3]I returned to the estate.@ It was past midnight, and every light had gone out.@
 br
 `“This could be bad…”@ I touched the front gate.@ The lock clanged against the chain; a formidable-looking bolt had been fastened from inside.@ “Wonderful.@ It’s not as if I can cut through it.”@ After a moment’s thought, I resigned myself to climbing over.
 \

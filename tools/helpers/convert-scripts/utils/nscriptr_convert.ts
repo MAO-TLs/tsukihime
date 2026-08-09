@@ -103,8 +103,16 @@ function dwaveFileConvert(num: string|number, file: string) {
 
 function genericTokenFixes(clickRE: RegExp|null, token: Token) {
     if (token instanceof TextToken) {
-        if (clickRE) 
-            token.text = token.text.replaceAll(clickRE, '@')
+        if (clickRE) {
+            const waits: string[] = []
+            const protectedText = token.text.replaceAll(/!w\d+/g, wait => {
+                waits.push(wait)
+                return `\uE000${waits.length - 1}\uE001`
+            })
+            token.text = protectedText
+                .replaceAll(clickRE, '@')
+                .replaceAll(/\uE000(\d+)\uE001/g, (_match, index: string) => waits[+index])
+        }
         
         token.text = token.text
                 .replaceAll(/@{2,}/g, '@')// remove dup. '@' if any

@@ -8,7 +8,7 @@ bg "bg/bg_42b",lcartain,800
 play "*1"
 `“Kohaku should be cleaning the garden around now.”@ I stepped into the courtyard.@ “Huh…?”@ She was nowhere in sight.@ I looked around.@
 br
-`Then—
+`[line=3]Then—
 br
 `For an instant, I caught a flicker of her kimono among the trees.
 \
@@ -37,10 +37,11 @@ br
 br
 br
 br
-`The room was familiar: a small space filled with the scent of tatami.
+`[line=3]The room was familiar: a small space filled with the scent of tatami.
 \
 ld c,"tachi/koha_t02b",lshutter,400
-`“Oh, Shiki?@ What brings you all the way out here?”@ Kohaku tilted her head, mildly surprised.@ I— “I wanted to ask you something, so I followed you.”@ Somehow, even to my own surprise, I answered with perfect calm.
+`“Oh, Shiki?@ What brings you all the way out here?”@ Kohaku tilted her head, mildly surprised.@ I— “I wanted to ask you something, so I followed you.”@
+`[line=3]Somehow, even to my own surprise, I answered with perfect calm.
 \
 ld c,"tachi/koha_t03b",crossfade,400
 `“You wished to speak with me?”@ “Yes.@ I wanted to hear more about what you said this morning.@ …@But this isn’t the best place.@ Shall we go back to the courtyard?”@ I glanced at the ceiling.@ Sunset was near, and the room would soon be dark.@ I doubted the lights worked here, so we ought to move somewhere illuminated while we still could.
@@ -58,7 +59,7 @@ ld c,"tachi/koha_t03b",crossfade,400
 \
 `“Perhaps Miss Akiha still has some lingering attachment to it.@ This was once the home of a child your father adopted.”@
 br
-`What?@ A child whom Makihisa—whom Father—had once adopted?@
+`[line=4]What?@ A child whom Makihisa—whom Father—had once adopted?@
 br
 `“…@Wait, Kohaku.@ What do you mean, my father adopted a child?”
 \
@@ -69,18 +70,18 @@ playstop
 bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
 waveloop se_02
-`Wait.@ Something about what Kohaku was saying terrified me.@ Merely listening made my vision buckle and warp.@ The room seemed as unstable as a house made of candy, sagging as it slowly melted around me.@
+`[line=5]Wait.@ Something about what Kohaku was saying terrified me.@ Merely listening made my vision buckle and warp.@ The room seemed as unstable as a house made of candy, sagging as it slowly melted around me.@
 br
 `“Ko…@ Kohaku.”@ Adopted ten years ago.@ Killed in an accident two years later.@ Which meant—eight years ago.@ The same year I had my accident and went to the hospital.
 \
 bg "bg/cmo_06",crossfade,800
-`An accident.@
+`[line=3]An accident.@
 br
 `What kind of accident had it been?@ One bad enough to leave me gravely injured.@ Bad enough to kill that adopted child.@
 br
 `A scorching summer day.@
 br
-`I couldn’t remember it clearly.@ Only that my arms had seemed drenched in scarlet blood…
+`[line=3]I couldn’t remember it clearly.@ Only that my arms had seemed drenched in scarlet blood…
 \
 bg "bg/bg_45b",crossfade,400
 play "*4"
@@ -106,7 +107,7 @@ ld c,"tachi/koha_t03b",crossfade,400
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
-`What…?@ What the hell was that?@ He had practically been insane.@ Out of his mind—like me in those dreams.@
+`[line=4]What…?@ What the hell was that?@ He had practically been insane.@ Out of his mind—like me in those dreams.@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
@@ -131,7 +132,7 @@ wave se_01
 bg #9c0120,crossfade,400
 `My vision, darkened moments ago by anemia, flooded scarlet.@ The color of blood.@ Last night’s dream, in which I had sunk my teeth carelessly into a corpse’s throat.@
 br
-`Sliding down my throat—the taste of blood, hot and thick as slime.
+`[line=3]Sliding down my throat—the taste of blood, hot and thick as slime.
 \
 bg "bg/bg_45b",crossfade,400
 quakey 2,300
@@ -154,7 +155,7 @@ play "*8"
 `“Hmm.@ This isn’t good.@ Your temperature still hasn’t come back up, Shiki.@ I’ll fetch some medicine.”@ “No, I’m okay.@ I’m used to this.@ I can tell my circulation will pick up again soon.@ This spell was worse than usual, but it’ll pass.@ So…@ could you stay like this?@ I feel safer with you here.”@ I said it because I wasn’t ready for this to end.@ “If that’s what you want,”@ Kohaku replied, and remained with me.
 \
 br
-`And then…@
+`[line=10]And then…@
 br
 `“Aren’t you afraid, Shiki?”@
 br
@@ -176,7 +177,7 @@ playstop
 br
 bg "event/koha_e03",crossfade,800
 play "*7"
-`—was her smile, quiet and infinitely gentle.
+`[line=3]was her smile, quiet and infinitely gentle.
 \
 `A smile I ought to have seen a thousand times.@ Yet somehow, I felt as though I were seeing her smile for the very first time.
 \
@@ -197,7 +198,7 @@ br
 \
 `“That’s fine.@ If it makes you happy, then…”@ If it would make her smile, I could stay this way forever.@ In the dim room, I reached out, wanting only to feel Kohaku a little closer.
 \
-`“Shiki…?”@ My fingers found her.@ They traced the curve of her cheek.@ From the fine softness of her skin they slipped into Kohaku’s hair, tangled there, and then—!@w3000
+`“Shiki…?”@ My fingers found her.@ They traced the curve of her cheek.@ From the fine softness of her skin they slipped into Kohaku’s hair, tangled there, and then—!w3000
 playstop
 br
 `“Kohaku?@ Are you already here?”@
@@ -240,7 +241,7 @@ bg "bg/bg_45c",notrans,0
 ld c,"tachi/aki_t11b",crossfade,400
 `“Very well.@ If that is what you insist, Brother, I have nothing more to say.@ But you will never come near this place again.@ If you cannot obey even that, I will be forced to take measures of my own.”@
 br
-`Perhaps it really had been an illusion.@ There was nothing visibly wrong with Akiha.@ Even so, something about her now seemed precarious, and the sight of her filled me with unease.
+`[line=3]Perhaps it really had been an illusion.@ There was nothing visibly wrong with Akiha.@ Even so, something about her now seemed precarious, and the sight of her filled me with unease.
 \
 `“We’re going back, Kohaku.@ Brother, return to your room immediately.”@
 cl c,lshutter,400
@@ -279,20 +280,20 @@ waveloop se_02
 br
 br
 !w1000
-`Burning.
+`[line=4]Burning.
 \
 br
 br
 br
 !w1000
-`Burning.
+`[line=4]Burning.
 \
 br
 br
 br
 br
 !w750
-`Burning.
+`[line=4]Burning.
 \
 br
 br
@@ -300,7 +301,7 @@ br
 br
 br
 !w500
-`My skin crackles and chars.@ Burning.
+`[line=4]My skin crackles and chars.@ Burning.
 \
 br
 br
@@ -309,7 +310,7 @@ br
 br
 br
 !w500
-`I can’t sleep like this.@ I have to get up.@ I have to find water.
+`[line=4]I can’t sleep like this.@ I have to get up.@ I have to find water.
 \
 wavestop
 bg "bg/bg_25b",crossfade,800
@@ -319,7 +320,7 @@ play "*4"
 br
 br
 br
-`Hot.
+`[line=3]Hot.
 \
 `My face catches suddenly in a shop window.@ My breathing is wild.@ I look like someone raving in a fever of forty degrees.
 \
@@ -329,13 +330,14 @@ br
 br
 br
 br
-`Hot—this heat is more than I can bear.
+`[line=3]Hot—this heat is more than I can bear.
 \
 `There.@ No need to approach her from the front.@ I pull the girl against me from behind and knock her unconscious.@
 br
 bg #000000,crossfade,400
 bg "bg/bg_31b",crossfade,400
-`Her body drags along with a wet, scraping sound.@ It almost makes me laugh.@ I had held myself in check all this time, and now that is over.
+`Her body drags along with a wet, scraping sound.@
+`[line=3]It almost makes me laugh.@ I had held myself in check all this time, and now that is over.
 \
 bg #000000,crossfade,400
 bg "bg/bg_01c",crossfade,400
@@ -346,7 +348,7 @@ bg "bg/bg_10c",crossfade,400
 br
 br
 br
-`Burning.
+`[line=3]Burning.
 \
 `The rasp of panting.@ Soon.@ Soon I can feed on this girl.
 \
@@ -359,7 +361,7 @@ br
 br
 br
 br
-`So sweet.
+`[line=3]So sweet.
 \
 `That sensation was truly terrifying.@ If it could be this sweet, feel this good, then I knew that it—not the murderer—would make me its slave.
 \
@@ -370,7 +372,7 @@ br
 br
 br
 br
-`The night is deep.@ Overhead hangs a silver eye that condemns my sin.
+`[line=3]The night is deep.@ Overhead hangs a silver eye that condemns my sin.
 \
 `Hot blood wetting my lips, I gaze at the night sky in rapture.@ My hair tumbles loose.@ Above me, the heavens turn in a spiral.@ What a beautiful silver moon.
 \
@@ -381,7 +383,7 @@ br
 br
 br
 br
-`Like a snake, it watches the blood-drinking fiend.
+`[line=3]Like a snake, it watches the blood-drinking fiend.
 \
 wavestop
 bg #000000,crossfade,800
@@ -396,7 +398,7 @@ waveloop se_11
 \
 `“What…?”@ What had that been?@ A dream.@ I had been dreaming—but what kind of dream was that?@ Nothing like the strange one from two days ago.@ The sensation of walking through the city at night.@ The smell of blood still lodged in my nose.@ The dragging sound of a girl my own age scraping along behind me.@
 br
-`Every detail remained with the clarity of a real memory.
+`[line=3]Every detail remained with the clarity of a real memory.
 \
 `“Hah…”@ Could that have been what people called pleasure?@ There had only been the impact: excitement compressed into a bullet, its trigger pulled beside my ear, firing it straight through my brain.
 \
@@ -405,15 +407,15 @@ wavestop
 `Yet for one instant, I saw both hands stained scarlet.
 \
 waveloop se_02
-`So you’re one of my kind.@
+`[line=3]So you’re one of my kind.@
 br
 `Wait…@
 br
-`You’re the first murderer I’ve ever met besides myself.@
+`[line=3]You’re the first murderer I’ve ever met besides myself.@
 br
 `…@Yes.@ I was certain a conversation like that had taken place.@
 br
-`One city doesn’t need two murderers.@ I’ll leave this place to you.@
+`[line=3]One city doesn’t need two murderers.@ I’ll leave this place to you.@
 br
 `But when had that conversation taken place?
 \
@@ -429,7 +431,7 @@ bg "bg/bg_40a",notrans,0
 \
 `I was afraid.@ There was nothing more frightening than being unable to remember.@ It felt as though another Shiki Tohno, one I knew nothing about, had murdered someone—and was deceiving the Shiki Tohno I knew in order to conceal the crime.@
 br
-`Then I sensed someone in the corridor.@
+`[line=4]Then I sensed someone in the corridor.@
 br
 `“Who’s there!?”@ I called out.
 \
@@ -452,11 +454,11 @@ cl c,lshutter,400
 \
 `“What am I getting so frightened about?”@ It had to be because I had learned about my father’s illness yesterday.@ My symptoms bore a slight resemblance to Makihisa Tohno’s, and I was letting paranoia do the rest.@ “Right.@ I’ve only just come home, and I’m tired.@ There’s no reason to worry about some stupid dream.”@
 br
-`Enough of that.@ It was almost seven.@ Just like yesterday, this promised to be another leisurely morning.
+`[line=3]Enough of that.@ It was almost seven.@ Just like yesterday, this promised to be another leisurely morning.
 \
 bg #000000,crossfade,400
 bg "bg/bg_34a",lcartain,400
-`Then I wandered into the sitting room without a thought and remembered something important.@ “Damn—”@ I barely swallowed the rest of the word.
+`[line=4]Then I wandered into the sitting room without a thought and remembered something important.@ “Damn—”@ I barely swallowed the rest of the word.
 \
 `Akiha, Hisui, and Kohaku were all there.@ Ordinarily there would have been nothing remarkable about that, but after yesterday it made for an excruciating scene.@ Akiha and Kohaku appeared to have made peace, while I had yet to exchange so much as a word with Akiha.@ Judging by the state she had been in yesterday, she was plainly still furious with me.
 \
@@ -479,7 +481,7 @@ ld c,"tachi/aki_t09",crossfade,400
 `“You don’t have anything to thank me for.”@ “Of course I do.@ You looked after me when I collapsed, and stayed beside me the whole time.@ When you held me, Brother, I finally found the courage to make my decision.@ That night made me so happy.”@ “—!”@ I nearly choked at hearing something so outrageous announced in front of everyone.@
 cl c,lshutter,400
 br
-`Then a crushing pressure gathered behind me.
+`[line=4]Then a crushing pressure gathered behind me.
 \
 `I glanced over my shoulder.@
 ld r,"tachi/koha_t03",lshutter,400

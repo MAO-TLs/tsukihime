@@ -2,7 +2,7 @@ monocro off
 play "*3"
 wavestop
 bg "bg/bg_03a",notrans,0
-`I take the plunge and ask her about last night.@
+`[line=3]I take the plunge and ask her about last night.@
 br
 `“Listen…@ Were you near the park last night?@ Wearing something like a black coat, with your skirt whipping around all dramatically?”@
 ld c,"tachi/cel_t09",crossfade,400
@@ -12,7 +12,8 @@ ld c,"tachi/cel_t08",crossfade,400
 \
 `“I’m not sure I follow.@ You think I was in the park last night, dressed like that?”@ “Yes.@ That was you, wasn’t it?”@
 ld c,"tachi/cel_t10a",crossfade,400
-`“Of course it wasn’t!@ Tohno, do I look as though I have that much time to waste?”@ She is genuinely angry.@ There is no trace of evasion or deceit in her reaction.
+`“Of course it wasn’t!@ Tohno, do I look as though I have that much time to waste?”@
+`[line=3]She is genuinely angry.@ There is no trace of evasion or deceit in her reaction.
 \
 `“No—I didn’t mean that.@ It’s just…@ I saw someone who looked like you in the park yesterday, so…”@ She sighs.@
 ld c,"tachi/cel_t01a",crossfade,400

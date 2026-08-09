@@ -16,7 +16,7 @@ br
 `Zeeeee, zee-zee.@
 !w1500
 br
-`So loud it makes me want to die.
+`[line=5]So loud it makes me want to die.
 \
 `The square is littered with cicada husks.@ The sun feels close enough to touch, and the square slowly scorches beneath it.@
 br
@@ -88,7 +88,7 @@ br
 br
 br
 br
-`Something.@ SOMETHING—an ominous dream.
+`[line=7]Something.@ SOMETHING—an ominous dream.
 \
 `“…@Shi…@ki…”@ “Yes, Master Shiki?”@ “…@It’s nothing.@ Sorry.@ I’m getting up, so go on ahead to the dining room.”@
 cl a,lshutter,800
@@ -110,7 +110,7 @@ cl a,lshutter,400
 \
 `“Well, time to get up.”@ I threw back the sheets and sat up.@
 br
-`The instant I moved—
+`[line=3]The instant I moved—
 br
 waveloop se_02
 bg #9c0120,notrans,0
@@ -148,7 +148,7 @@ wave se_01
 ld c,"tachi/aki_t12a",crossfade,400
 `“…@I shouldn’t have to remind you, but your health can’t bear this kind of strain, Brother.@ I can’t simply watch you come home looking as exhausted as you did last night.@ If something is troubling you, please tell me.@ I may not be much help, but if I’m enough…”@
 br
-`I didn’t want to think it, but Yumizuka—Yumizuka might be the murderer terrorizing this city.
+`[line=5]I didn’t want to think it, but Yumizuka—Yumizuka might be the murderer terrorizing this city.
 \
 ld c,"tachi/aki_t03a",crossfade,400
 `“Brother?@ Are you listening to me?”@ “What—?@ Yes.@ I’m lis…@tening.”@ I could hear Akiha’s voice, but all my mind could do was replay the sight of Yumizuka the night before.@
@@ -180,7 +180,7 @@ playstop
 !w2000
 play "*1"
 bg "bg/bg_06a",rshutter,800
-`Coming to school had accomplished nothing.@
+`[line=3]Coming to school had accomplished nothing.@
 br
 `Satsuki Yumizuka was treated as just another absent student, and no one seemed worried about her.@ The hours slipped away before I knew it.@ Arihiko and Ciel may have stopped by at some point, but I barely remembered.
 \

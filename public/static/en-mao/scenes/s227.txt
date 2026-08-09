@@ -3,7 +3,7 @@ play "*3"
 wavestop
 bg "bg/bg_06a",notrans,0
 br
-`—Forget it.@ No one ever died from missing a meal or two.@
+`[line=3]Forget it.@ No one ever died from missing a meal or two.@
 br
 `“…@I’ll pass today.@ Do whatever you want, Arihiko.”@ I had no desire to hallucinate fresh blood splashed over food again.@ The mere sight of his sandwich already made me sick.@ Naturally, it was stuffed with vivid red tomato.
 \
@@ -18,7 +18,7 @@ ld c,"tachi/ari_t02",crossfade,400
 `“Really?@ You’re awfully agreeable today.@ Good boy.@ Here, I’ll share a piece of my sandwich.”@ “I said I don’t want any food.@ Forget about me and eat.@ Lunch break will be over soon.”@ “Yeah?@ Then don’t mind if I do.”@ Arihiko put his hands together and began eating.@
 cl a,crossfade,400
 br
-`And then—
+`[line=3]And then—
 br
 ld l,"tachi/cel_t04",lshutter,400
 `“Mind if I join you?”@ Ciel arrived carrying what appeared to be a packed lunch.

@@ -1,7 +1,7 @@
 playstop
 wavestop
 bg "bg/bg_33b",notrans,0
-`I’ll try Father’s room.@ I had no particular reason to expect anything, but I might find some clue about the Tohno bloodline.
+`[line=4]I’ll try Father’s room.@ I had no particular reason to expect anything, but I might find some clue about the Tohno bloodline.
 \
 bg #000000,lcartain,800
 bg "bg/bg_41",lcartain,800
@@ -15,7 +15,8 @@ ld c,"tachi/his_t01",lshutter,800
 ld c,"tachi/his_t16",crossfade,400
 `“Understood.@ Please call me if you need anything.”@
 cl c,crossfade,400
-`Hisui resumed cleaning.@ All right, then.@ Time for me to begin as well.
+`Hisui resumed cleaning.@
+`[line=5]All right, then.@ Time for me to begin as well.
 \
 bg #000000,tshutter,800
 bg "bg/bg_41",bshutter,800
@@ -33,7 +34,7 @@ playstop
 bg #000000,crossfade,400
 wave se_01
 bg "bg/bg_41",crossfade,400
-`Without warning, and for no reason, the image of a dark forest rose before me.@
+`[line=7]Without warning, and for no reason, the image of a dark forest rose before me.@
 br
 bg #000000,crossfade,800
 bg "bg/bg_41",crossfade,800
@@ -43,10 +44,11 @@ play "*6"
 bg #000000,crossfade,400
 wave se_01
 bg "bg/bg_41",crossfade,400
-`Why?@ Why was I choking when nothing had happened?@ I hadn’t experienced anything.@ I hadn’t seen anything.@ Then why was I trembling so violently—shaking like a terrified child?
+`[line=4]Why?@ Why was I choking when nothing had happened?@ I hadn’t experienced anything.@ I hadn’t seen anything.@ Then why was I trembling so violently—shaking like a terrified child?
 \
 ld c,"tachi/his_t12",lshutter,800
-`“Master Shiki…!”@ Hisui—Hisui rushed toward me.@ I caught the bookcase and somehow kept myself upright.
+`“Master Shiki…!”@ Hisui—Hisui rushed toward me.@
+`[line=3]I caught the bookcase and somehow kept myself upright.
 \
 ld c,"tachi/his_t07",crossfade,400
 `“Master Shiki!@ Please stay with me, Master Shiki…!”@ Hisui’s voice was tight with worry, but her hands never touched my body.@ “I’m fine.@ It was only a little nausea.”@
@@ -63,7 +65,7 @@ wave se_01
 bg #9c0120,crossfade,400
 `My vision, darkened moments ago by anemia, flooded scarlet.@ Hisui’s white throat.@ Last night’s dream, red from end to end.@
 br
-`That night of murder.@ Pleasure so sharp with pain it threatened to burst my heart.
+`[line=3]That night of murder.@ Pleasure so sharp with pain it threatened to burst my heart.
 \
 bg "bg/bg_41",notrans,0
 `“Ghh—!”@ Unable to endure it, I fled from Hisui.@
@@ -73,7 +75,7 @@ ld c,"tachi/his_t17",crossfade,400
 `“I cannot.@ Not when you look like that.@ Please don’t force yourself.”@ Hisui came closer, intending to support me before I fell.
 \
 cl c,crossfade,400
-`No.@ That terrified me.@ If she came within reach, I had no idea what I might do to her.
+`[line=3]No.@ That terrified me.@ If she came within reach, I had no idea what I might do to her.
 \
 `“Stop…@ I’m fine…@ Just leave me…@ alone…”@
 bg #9c0120,crossfade,400
@@ -131,20 +133,20 @@ waveloop se_02
 br
 br
 !w1000
-`Burning.
+`[line=4]Burning.
 \
 br
 br
 br
 !w1000
-`Burning.
+`[line=4]Burning.
 \
 br
 br
 br
 br
 !w750
-`Burning.
+`[line=4]Burning.
 \
 br
 br
@@ -152,7 +154,7 @@ br
 br
 br
 !w500
-`My skin crackles and chars.@ Burning.
+`[line=4]My skin crackles and chars.@ Burning.
 \
 br
 br
@@ -161,7 +163,7 @@ br
 br
 br
 !w500
-`I can’t sleep like this.@ I have to get up.@ I have to find water.
+`[line=4]I can’t sleep like this.@ I have to get up.@ I have to find water.
 \
 wavestop
 bg "bg/bg_25b",crossfade,800
@@ -171,7 +173,7 @@ play "*4"
 br
 br
 br
-`Hot.
+`[line=3]Hot.
 \
 `My face catches suddenly in a shop window.@ My breathing is wild.@ I look like someone raving in a fever of forty degrees.
 \
@@ -181,13 +183,14 @@ br
 br
 br
 br
-`Hot—this heat is more than I can bear.
+`[line=3]Hot—this heat is more than I can bear.
 \
 `There.@ No need to approach her from the front.@ I pull the girl against me from behind and knock her unconscious.@
 br
 bg #000000,crossfade,400
 bg "bg/bg_31b",crossfade,400
-`Her body drags along with a wet, scraping sound.@ It almost makes me laugh.@ I had held myself in check all this time, and now that is over.
+`Her body drags along with a wet, scraping sound.@
+`[line=3]It almost makes me laugh.@ I had held myself in check all this time, and now that is over.
 \
 bg #000000,crossfade,400
 bg "bg/bg_01c",crossfade,400
@@ -198,7 +201,7 @@ bg "bg/bg_10c",crossfade,400
 br
 br
 br
-`Burning.
+`[line=3]Burning.
 \
 `The rasp of panting.@ Soon.@ Soon I can feed on this girl.
 \
@@ -211,7 +214,7 @@ br
 br
 br
 br
-`So sweet.
+`[line=3]So sweet.
 \
 `That sensation was truly terrifying.@ If it could be this sweet, feel this good, then I knew that it—not the murderer—would make me its slave.
 \
@@ -222,7 +225,7 @@ br
 br
 br
 br
-`The night is deep.@ Overhead hangs a silver eye that condemns my sin.
+`[line=3]The night is deep.@ Overhead hangs a silver eye that condemns my sin.
 \
 `Hot blood wetting my lips, I gaze at the night sky in rapture.@ My hair tumbles loose.@ Above me, the heavens turn in a spiral.@ What a beautiful silver moon.
 \
@@ -233,7 +236,7 @@ br
 br
 br
 br
-`Like a snake, it watches the blood-drinking fiend.
+`[line=3]Like a snake, it watches the blood-drinking fiend.
 \
 wavestop
 bg #000000,crossfade,800
@@ -248,7 +251,7 @@ waveloop se_11
 \
 `“What…?”@ What had that been?@ A dream.@ I had been dreaming—but what kind of dream was that?@ Nothing like the strange one from two days ago.@ The sensation of walking through the city at night.@ The smell of blood still lodged in my nose.@ The dragging sound of a girl my own age scraping along behind me.@
 br
-`Every detail remained with the clarity of a real memory.
+`[line=3]Every detail remained with the clarity of a real memory.
 \
 `“Hah…”@ Could that have been what people called pleasure?@ There had only been the impact: excitement compressed into a bullet, its trigger pulled beside my ear, firing it straight through my brain.
 \
@@ -257,15 +260,15 @@ wavestop
 `Yet for one instant, I saw both hands stained scarlet.
 \
 waveloop se_02
-`So you’re one of my kind.@
+`[line=3]So you’re one of my kind.@
 br
 `Wait…@
 br
-`You’re the first murderer I’ve ever met besides myself.@
+`[line=3]You’re the first murderer I’ve ever met besides myself.@
 br
 `…@Yes.@ I was certain a conversation like that had taken place.@
 br
-`One city doesn’t need two murderers.@ I’ll leave this place to you.@
+`[line=3]One city doesn’t need two murderers.@ I’ll leave this place to you.@
 br
 `But when had that conversation taken place?
 \
@@ -281,7 +284,7 @@ bg "bg/bg_40a",notrans,0
 \
 `I was afraid.@ There was nothing more frightening than being unable to remember.@ It felt as though another Shiki Tohno, one I knew nothing about, had murdered someone—and was deceiving the Shiki Tohno I knew in order to conceal the crime.@
 br
-`Then I sensed someone in the corridor.@
+`[line=4]Then I sensed someone in the corridor.@
 br
 `“Who’s there!?”@ I called out.
 \
@@ -304,11 +307,11 @@ cl c,lshutter,400
 \
 `“What am I getting so frightened about?”@ It had to be because I had learned about my father’s illness yesterday.@ My symptoms bore a slight resemblance to Makihisa Tohno’s, and I was letting paranoia do the rest.@ “Right.@ I’ve only just come home, and I’m tired.@ There’s no reason to worry about some stupid dream.”@
 br
-`Enough of that.@ It was almost seven.@ Just like yesterday, this promised to be another leisurely morning.
+`[line=3]Enough of that.@ It was almost seven.@ Just like yesterday, this promised to be another leisurely morning.
 \
 bg #000000,crossfade,400
 bg "bg/bg_34a",lcartain,400
-`Then I wandered into the sitting room without a thought and remembered something important.@ “Damn—”@ I barely swallowed the rest of the word.
+`[line=4]Then I wandered into the sitting room without a thought and remembered something important.@ “Damn—”@ I barely swallowed the rest of the word.
 \
 `Akiha, Hisui, and Kohaku were all there.@ Ordinarily there would have been nothing remarkable about that, but after yesterday it made for an excruciating scene.@ Akiha and Hisui appeared to have made peace, while I had yet to exchange so much as a word with Akiha.@ Judging by the state she had been in yesterday, she was plainly still furious with me.
 \
@@ -331,7 +334,7 @@ ld c,"tachi/aki_t09",crossfade,400
 `“You don’t have anything to thank me for.”@ “Of course I do.@ You looked after me when I collapsed, and stayed beside me the whole time.@ When you held me, Brother, I finally found the courage to make my decision.@ That night made me so happy.”@ “—!”@ I nearly choked at hearing something so outrageous announced in front of everyone.@
 cl c,lshutter,400
 br
-`Then a crushing pressure gathered behind me.
+`[line=4]Then a crushing pressure gathered behind me.
 \
 `I glanced over my shoulder.@
 ld r,"tachi/koha_t03",lshutter,400

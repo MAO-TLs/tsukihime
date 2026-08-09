@@ -14,10 +14,10 @@ test("centered click continuations reserve a new centered line", () => {
 	)
 })
 
-test("right-aligned continuations keep their alignment", () => {
+test("right-aligned continuations are not resegmented", () => {
 	assert.equal(
 		reserveAlignedContinuation("[color=#fff][right]First."),
-		"[color=#fff][right]First.\n[right]",
+		"[color=#fff][right]First.",
 	)
 })
 

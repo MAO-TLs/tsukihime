@@ -2,7 +2,7 @@ monocro off
 play "*2"
 wavestop
 bg "bg/bg_33a",notrans,0
-`I’ll try telling her the truth.@
+`[line=3]I’ll try telling her the truth.@
 br
 `I hate lying to Akiha.@ If I explain everything with complete sincerity, perhaps she will understand.@ The odds are roughly the same as winning the lottery, but still.@
 br
@@ -24,7 +24,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 \
 `“About that, Akiha…”@ “Yes, Brother?”@ “For the last two days, I was exterminating a vampire.@ You know about the serial murders in town, right?@ The killer turned out to be a vampire, so I joined forces with a ‘good vampire’ I happened to meet and fought the ‘bad vampire.@’”@
 br
-`There.@ A remarkably concise explanation.
+`[line=5]There.@ A remarkably concise explanation.
 \
 ld c,"tachi/aki_t15a",crossfade,400
 `“Wh—”@ Akiha freezes dead still.@ A reasonable first reaction, I suppose.@ Right now, her mind must be seething with the conviction that I am making a fool of her, and at any moment she will—

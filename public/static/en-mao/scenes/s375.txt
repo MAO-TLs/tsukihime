@@ -1,7 +1,7 @@
 phase "bg/ima_02",l,aki,12a,12
 bg #000000,crossfade,800
 play "*7"
-`—I dreamed.@
+`[line=3]I dreamed.@
 br
 `No—not a dream that belonged to me.@ I dreamed someone else’s dream.@ The dream of the girl who, that day, clung weeping to this body and shared her heart with me.
 \
@@ -20,7 +20,7 @@ br
 !w2000
 monocro #ffff00
 bg "bg/bg_36a",crossfade,800
-`—I was born a daughter of the Tohno family, and I had an older brother.@ No matter how I tried, I could never grow close to him.@ My parents called the boy my brother, but to me he could only ever seem like something else.
+`[line=3]I was born a daughter of the Tohno family, and I had an older brother.@ No matter how I tried, I could never grow close to him.@ My parents called the boy my brother, but to me he could only ever seem like something else.
 \
 bg "bg/bg_41",crossfade,800
 `Every Tohno carries a mingling of alien blood.@ Perhaps that was why my brother looked inhuman, but to my eyes he did not seem to be even that.@
@@ -51,14 +51,14 @@ bg "bg/bg_42a",crossfade,800
 \
 `My brother, too, seemed to understand that the boy was different from us.@ He knew that this time, when we could romp with an ordinary person like puppies, would soon be over.@ Because we both knew it, we wanted to treasure it.@ Someday, when I was grown and all alone inside this cage of a mansion, perhaps these memories would let me bear the lonely hours calmly, without tears.
 \
-`—There were more memories than I could count.@
+`[line=3]There were more memories than I could count.@
 br
 `Even among those special days, there was one night more precious than all the rest: the only night the boy and I traveled far from home.@
 br
 `A dark night, deep trees, the two of us in the fields.
 \
 bg #000000,lshutter,800
-`—It truly was a time out of a dream.@
+`[line=2]It truly was a time out of a dream.@
 br
 `Every day held the warmth of a parade.@ But then it ended all too suddenly.
 \
@@ -90,7 +90,7 @@ br
 \
 `When I looked up, he was crying.@ Not from the pain.@ His face was terribly sad, as though the tears were for some bitter regret.@
 br
-`—I’m sorry, the boy said.@
+`[line=3]I’m sorry, the boy said.@
 br
 `At the very edge of death, he squeezed me tighter, as though praying his body would go on shielding me even after he was gone.
 \
@@ -117,11 +117,11 @@ br
 \
 `That alone would be enough.@ I had taken everything from him.@ I had no right to ask for anything more.@
 br
-`—I could never again know the happiness of that night, when we did nothing but gaze up at the stars.@
+`[line=3]I could never again know the happiness of that night, when we did nothing but gaze up at the stars.@
 br
 `But if I could be beside him, that would be enough.@ If my brother would only come home.@
 br
-`—A dark night, tall trees, the two of us in the fields.
+`[line=3]A dark night, tall trees, the two of us in the fields.
 \
 br
 br
@@ -138,7 +138,7 @@ playstop
 bg #ffffff,crossfade,800
 bg "bg/bg_18b",tshutter,800
 play "*1"
-`—A stab of pain.@ The agony in my chest woke me.
+`[line=4]A stab of pain.@ The agony in my chest woke me.
 \
 `“…@Hah.”@ An unfamiliar room.@ I was lying in bed, naked from the waist up, with white bandages wound around my chest in place of clothes.@ “……”@ My memories were a murky tangle.@ What had happened, what was happening now—everything had melted together, and I couldn’t sort any of it out.
 \
@@ -225,7 +225,7 @@ br
 \
 `…@Oh.@ I remembered.@ The one who had said the same thing was Akiha herself.@
 br
-`—Please kill me.@
+`[line=3]Please kill me.@
 br
 `Akiha had shed tears as she asked for that one stupid, trivial thing.
 \
@@ -256,11 +256,11 @@ ld c,"tachi/cel_t07a",crossfade,400
 \
 `“…@Yes.@ It is selfish, but I’ll leave this to you.@ There is one thing I don’t understand.@ Why are you willing to go so far?@ In that body, when you aren’t even a member of the Tohno family—why?”@
 br
-`—Why?@ I already knew the answer.
+`[line=4]Why?@ I already knew the answer.
 \
 `“You were the one who said it.@ Shiki Tohno cares more about Akiha Tohno than he does about himself.@ But I never cared for her as deeply as she cared for me.@ That’s why I have to go.”@
 br
-`—All this time, Akiha had suffered alone.@ Beside that, pain like this wasn’t even worth noticing.
+`[line=3]All this time, Akiha had suffered alone.@ Beside that, pain like this wasn’t even worth noticing.
 \
 `“Then I’m going.@ Thank you for everything.@ And goodbye.”@ I began to walk, holding the agony of the wound at bay.@
 br
@@ -286,11 +286,11 @@ bg "bg/bg_54c",crossfade,800
 \
 bg #000000,crossfade,800
 bg "bg/bg_44b",crossfade,800
-`—I had simply come here, as though it were the most natural thing in the world.@
+`[line=3]I had simply come here, as though it were the most natural thing in the world.@
 br
 `There was no mistaking it.@ My heart swelled with one heavy thud.@ My throat burned.@ Every function of my exhausted body was devoted merely to keeping me alive.@ To fight in this condition—was that any different from suicide?@ Yet I felt no fear.@ The weight of the knife numbed my fingers.@ My nerves felt stripped bare.
 \
-`—It was familiar.@
+`[line=3]It was familiar.@
 br
 `I knew this sensation.@ I had felt it several times before: the fever in my blood when he killed people in my dreams—and somewhere in the distant past, I felt as if this had happened once before—
 br
@@ -309,7 +309,7 @@ br
 br
 br
 br
-`—Strangely, even the sight before me stirred nothing in my heart.
+`[line=3]Strangely, even the sight before me stirred nothing in my heart.
 \
 `“—SHIKI.”@ “So—it’s you.”@ SHIKI slowly raised himself upright.@
 br
@@ -337,13 +337,13 @@ ld c,"tachi/hal_t01",crossfade,800
 ld c,"tachi/hal_t03",crossfade,400
 `“No.@ I went mad that day eight years ago.@ There’s another tenant in my skull now, a strange one.@ It tells me to kill everything.”@ SHIKI laughed.@ He went on and on, like gears revolving with a ceaseless rusty shriek.@
 br
-`—There was not the faintest shadow of anything human in that laughter.
+`[line=3]There was not the faintest shadow of anything human in that laughter.
 \
 `“…@One last question.@ Doesn’t it hurt to be what you are now?”@ “Hurt?@ Don’t be absurd.@ I am perfect.@ I adore what I’ve become.@ If I had one complaint, it was the boredom, and even that has been cured.@ Until now my only diversion was feeding on mongrels, but that ends today.@ Now that Akiha is back, I’ll have no time left to play with them.”
 \
 `SHIKI purred with satisfaction.@
 br
-`—It had been pointless to ask.@
+`[line=3]It had been pointless to ask.@
 br
 `Yet I had needed to ask.@ Yumizuka had been turned into a vampire against her will, just as he had, and suffered to the very end from the pain of remaining human.@ I had wanted to know whether any of that pain remained in him.
 \
@@ -360,7 +360,7 @@ bg "bg/bg_45d",crossfade,400
 ld c,"tachi/hal_t02",crossfade,400
 `“Don’t presume…!@ She is mine.@ I will never give her to the likes of you!”@ Perhaps he sensed something ominous.@ SHIKI retreated as though afraid.@ “Listen to me.@ Akiha is my sister!@ I alone share her blood.@ You have no place between us!”@ He glared with bloodshot eyes.@
 br
-`—There were no more words to exchange.@ I raised the knife and stepped forward.
+`[line=3]There were no more words to exchange.@ I raised the knife and stepped forward.
 \
 `“You’re right, SHIKI.@ Akiha isn’t my sister.”@ “What…?”@ “She’s my woman.”@ “You—!”@
 cl a,lcartain,400
@@ -370,16 +370,17 @@ br
 \
 playstop
 bg #000000,lshutter,400
-`—I could not afford a drawn-out fight.@
+`[line=3]I could not afford a drawn-out fight.@
 br
 `My body was at its limit, and I wanted Akiha out of this place as soon as possible.@ So there was only one thing to do: evade SHIKI’s arm as he charged and cut the line visible across his chest.@ Once.@ While my body could still move, I should be able to dodge him once.@ He came at me.@ Barehanded, his reach was the same as mine.@ We would kill each other on equal terms, each standing inside the other’s fatal range—
 \
 bg "bg/ima_14",lshutter,400
-`—No.@ That equality had existed only in my imagination.
+`[line=5]No.@ That equality had existed only in my imagination.
 \
 `“Hah…!”@ With a mocking cry, SHIKI swung it.@ “—!?”@
 wave se_12
-`I caught it on my knife.@ There was no time for a single useless thought.@ A hard clang split the air as my knife and the thing in SHIKI’s hand rang apart.
+`I caught it on my knife.@
+`[line=3]There was no time for a single useless thought.@ A hard clang split the air as my knife and the thing in SHIKI’s hand rang apart.
 \
 bg #000000,lshutter,400
 play "*4"

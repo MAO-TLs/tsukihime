@@ -55,7 +55,8 @@ br
 bg #000000,lshutter,400
 bg "bg/bg_34a",lshutter,400
 ld c,"tachi/aki_t08a",lshutter,400
-`“Well, this is a surprise.@ You’re early, Brother.”@ The instant I open the sitting-room door, Akiha greets me from where she sits elegantly drinking tea.
+`“Well, this is a surprise.@ You’re early, Brother.”@
+`[line=4]The instant I open the sitting-room door, Akiha greets me from where she sits elegantly drinking tea.
 \
 `“…@I think I’m the surprised one.”@ I manage a calm answer and enter.@ “What are you doing up, Akiha?@ Don’t tell me you always wake this early.”@ “Early?@ I slept nearly an hour later than usual today, so I wouldn’t call it that.”@ For some reason, Akiha is in a wonderful mood.
 \
@@ -175,7 +176,7 @@ br
 \
 `“Why…?”@ The realization left me uneasy.@ What had happened with Yumizuka should have been impossible to forget.@ So why—why had I never once tried to remember her until this very moment?@
 br
-`—You’re just like me, Shiki.@
+`[line=4]You’re just like me, Shiki.@
 br
 `…@Those words were still seared into my mind.@ “But…@ that’s strange.”@ And yet I could not make myself think about them deeply.
 \
@@ -206,7 +207,7 @@ bg #000000,lcartain,800
 bg "bg/bg_40b",lcartain,800
 `I took off my jacket and sorted through my schoolbag.@
 br
-`Then, among my textbooks, out came a white ribbon.@ “…@Right.@ I suppose I really ought to give it back.”@ The ribbon I had carried ever since that day eight years ago.@ Returning it was why I had come back.@ It was past time I restored it to its owner.
+`[line=4]Then, among my textbooks, out came a white ribbon.@ “…@Right.@ I suppose I really ought to give it back.”@ The ribbon I had carried ever since that day eight years ago.@ Returning it was why I had come back.@ It was past time I restored it to its owner.
 \
 `I stood there clutching the ribbon.@ …@I pictured myself returning it to Hisui, then shook my head.@ Eight years ago, beneath that tree, we had exchanged no more than two or three sentences.@ Even so, it was a precious memory to me.@ So—selfish or not, I could not bear to return the ribbon while Hisui still remembered nothing of our promise.
 \
@@ -220,7 +221,7 @@ bg "bg/bg_42b",lcartain,800
 \
 `When I had come into the courtyard to sober up and spoken with Kohaku.@
 br
-`—Why did you ever come back?@
+`[line=4]Why did you ever come back?@
 br
 `For one fleeting instant, her face had worn none of its usual smile.@ What had that meant?
 \
@@ -233,7 +234,8 @@ cl c,lshutter,400
 `Kohaku climbed from the garden onto the terrace and removed her apron, as though to announce that she was officially off duty.
 \
 ld c,"tachi/koha_t03b",lshutter,400
-`“So, Shiki, would you keep me company?”@ “Ah—sure.@ If you’d like me to, I’d be glad to.”@ “Then it’s settled,”@ Kohaku said with a smile, moving to sit in a chair a short distance away.@ No—correction.@ She was about to sit when she stopped and peered intently into my face.
+`“So, Shiki, would you keep me company?”@ “Ah—sure.@ If you’d like me to, I’d be glad to.”@ “Then it’s settled,”@ Kohaku said with a smile, moving to sit in a chair a short distance away.@
+`[line=3]No—correction.@ She was about to sit when she stopped and peered intently into my face.
 \
 ld c,"tachi/koha_t08",crossfade,400
 `“Shiki, you look rather glum.”@ “Do I?”@ “Yes.@ If you brood that hard, you’ll fog your glasses.”@ I could not tell whether Kohaku’s warning was a joke or perfectly serious.
@@ -297,7 +299,7 @@ bg "bg/bg_34b",crossfade,400
 ld c,"tachi/his_t01",lshutter,400
 `“…”@ Hisui offered no answer.@ Kohaku, meanwhile, was clearing the dishes in the kitchen as if nothing were amiss.@
 br
-`Then—
+`[line=4]Then—
 wave se_05
 br
 `Something fell with a crash in the foyer.@ “Akiha?!”@ I had nothing but a feeling, but it sent me racing out there.
@@ -346,13 +348,13 @@ bg "bg/bg_37",lshutter,400
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_37",notrans,0
-`—Red again.@
+`[line=3]Red again.@
 br
 `It was only my imagination.@ I shouted as if sheer volume could drive the vision away.
 \
 `“Hold on, Akiha…!@ Damn it, why did this happen so suddenly?!”@ I could do nothing but watch her suffer.@ I bit my lip in frustration.@ The sight of her pain was so terrible that I lost all sense of my own strength.@
 br
-`The skin split.@ Blood welled from my lip.@
+`[line=3]The skin split.@ Blood welled from my lip.@
 br
 `A red drop fell onto the bed.@ It vanished into Akiha’s red hair at once.
 \
@@ -377,11 +379,11 @@ br
 br
 `“Do I truly have to kill him with my own hands?”@
 br
-`—I heard the anguish wrenched out of her.
+`[line=3]I heard the anguish wrenched out of her.
 \
 `“A…@kiha?”@ “No—I don’t know what to do…!”@ Her voice shook as the tears spilled over.@ Then the dam broke, and her sobs came pouring out.@ “…”@ Unable to say anything, I simply held her.@
 br
-`How long did we remain that way?@ At last Akiha fell asleep like a child exhausted from crying, and I laid her frail body upon the bed.
+`[line=3]How long did we remain that way?@ At last Akiha fell asleep like a child exhausted from crying, and I laid her frail body upon the bed.
 \
 bg #000000,crossfade,800
 playstop
@@ -433,14 +435,14 @@ wait 100
 bg "bg/ima_02",notrans,0
 `…@What was happening to me?@ The thought of Akiha with red hair sent my blood racing and tightened my breath.@ I tried not to think about it, but I could not stop.@ That vision of Akiha had been too beautiful.@ Never before—never before had anything consumed me so completely.@
 br
-`—No.@ Or perhaps—
+`[line=4]No.@ Or perhaps—
 br
 `I had felt this before: the sense of my mind blazing white.@ A few days ago, perhaps.
 \
 bg "bg/bg_40c",crossfade,400
 `“…@God.@ It’s as if I’m in love with Akiha.”@ …@Another lie.@ This fever was nothing so gentle as love.@ The memory alone left me panting.@ What I felt was lust.
 \
-`“…”@ I covered my face and fell back onto the bed.@ The feeling would not abate.@ Was I going to spend the entire night like this?!@w1000
+`“…”@ I covered my face and fell back onto the bed.@ The feeling would not abate.@ Was I going to spend the entire night like this?@!w1000
 br
 wave se_04
 `A soft knock sounded at the door.@
@@ -490,7 +492,7 @@ bg "bg/bg_23a",crossfade,400
 \
 bg #000000,crossfade,400
 !w2000
-`School was the same as ever.@ Nothing had changed; nothing threatened me.@ By evening the students had gone home, and the building fell abruptly silent.@
+`[line=4]School was the same as ever.@ Nothing had changed; nothing threatened me.@ By evening the students had gone home, and the building fell abruptly silent.@
 br
 `For no particular reason, I killed time until sunset.
 \
@@ -506,17 +508,17 @@ bg "bg/ima_12",notrans,0
 bg "bg/bg_31b",crossfade,400
 play "*4"
 br
-`—Hah, hah, hah, hah—
+`[line=4]Hah, hah, hah, hah—
 br
 `Once it was done, I began breathing again.@ A woman’s fresh corpse lay before me.@ My hands were stained with blood, as usual.
 \
 br
-`—Hah, hah, hah, hah—
+`[line=4]Hah, hah, hah, hah—
 br
 `I had done it again.@ I had not meant to, but once I started, I always got carried away.@ A bad habit.@ Now, what to do with the corpse?
 \
 br
-`—Hah, hah, hah…@ tap—
+`[line=4]Hah, hah, hah…@ tap—
 br
 `Only my breathing echoed through the night.@ Yet that last sound had been wrong.@ “Who’s there?!”@ I spun around.@
 bg #9c0120,notrans,0
@@ -525,7 +527,7 @@ bg "bg/bg_31b",notrans,0
 `Footsteps came from the narrow lane leading to the main road.
 \
 br
-`—Hah, hah, hah, hah—
+`[line=4]Hah, hah, hah, hah—
 br
 `A drop of sweat fell from my brow.@ …@It was not tension.@
 br
@@ -536,7 +538,7 @@ br
 `It was nowhere near enough to quench my thirst.
 \
 br
-`—Hah, hah, hah, hah—
+`[line=4]Hah, hah, hah, hah—
 br
 `My vision warped in the shimmering air.@ It was no illusion.@ The temperature here was unnatural.@ The ground was far too hot beneath the cold night air.@ Rising steam warned of mortal danger.@
 br
@@ -547,7 +549,7 @@ br
 bg #000000,crossfade,400
 bg "bg/bg_01c",crossfade,400
 br
-`—Hah, hah, hah, hah!@—
+`[line=4]Hah, hah, hah, hah!@—
 br
 `I fled as far as the school.@ No one would see me here.@ I had no idea what that had been, but—
 \
@@ -594,7 +596,7 @@ bg #000000,crossfade,400
 play "*6"
 bg "bg/bg_10c",crossfade,400
 br
-`—Hah, hah, hah, hah—
+`[line=4]Hah, hah, hah, hah—
 br
 `I made it to the fourth floor.@ Surely it would not follow me this far.
 \
@@ -614,7 +616,7 @@ monocro off
 bg "bg/bg_10c",notrans,0
 `“Hah…@ hah…@ ha, ha…”@ At last I caught my breath and realized the corpse was still clenched between my teeth.@ I opened my mouth.@ It dropped onto the corridor with a wet thud.@ All four limbs were still attached.@ I was hungry anyway, so I decided to dispose of it here.
 \
-`—Click.@
+`[line=6]Click.@
 br
 `“?!”@ I turned.@ There stood that same incomprehensible thing.@
 br
@@ -656,9 +658,9 @@ textcolor #ff0000
 textcolor #ffffff
 ` Nothing stood outside the window, yet whenever I tried to leave, my body burst into flame.
 \
-`A single footstep clicked in the corridor.@
+`[line=4]A single footstep clicked in the corridor.@
 br
-`“Damn…@ the windows are no good…!”@ I had to run.@ If I did not escape, I would be killed.@ I tumbled headlong down the stairs.
+`“Damn…@ the windows are no good…!”@ I had to run.@ If I did not escape, I would be killed.@ I raced headlong down the stairs.
 \
 bg #000000,crossfade,400
 bg "bg/bg_07b",lshutter,400
@@ -736,7 +738,7 @@ textcolor #ffffff
 bg "bg/bg_11c",crossfade,1500
 ld c,"tachi/aki_t11c",lshutter,400
 br
-`It was Akiha.@
+`[line=4]It was Akiha.@
 br
 `“…”@ The revelation struck me speechless.@ And only then did I finally understand that this was a dream.
 \
@@ -785,7 +787,7 @@ br
 br
 br
 br
-`And then I shot upright in bed.
+`[line=4]And then I shot upright in bed.
 \
 `“Hah—haaah…@ hah…”@ I dragged air into my lungs.@ That had been…@ a dream, apparently.@ “Hah…@ hah…@ ah…”@ As I steadied my breathing, I wrapped my arms around myself.@ …@My body still existed.@ There were no burns, no missing pieces.@ When I touched my back, my fingers landed with a wet slap.
 \
@@ -797,14 +799,14 @@ br
 br
 br
 br
-`But then—what had Shiki Tohno done yesterday morning?@ Hadn’t he taken those hands stained with red paint—
+`[line=3]But then—what had Shiki Tohno done yesterday morning?@ Hadn’t he taken those hands stained with red paint—
 !w750
 `—somewhere no one would find him—
 !w750
 `—and washed them clean?
 \
 br
-`—You’re just like me, Shiki.@
+`[line=4]You’re just like me, Shiki.@
 br
 `There had been a girl who told me that.@
 br
@@ -867,7 +869,7 @@ ld c,"tachi/his_t16",lshutter,400
 cl c,lshutter,400
 `…@Hisui left.@ “…”@ Alone, I felt an inexplicable ache in my chest.@ …@I was not angry with her.@ If anything, all I felt was guilt.
 \
-`—You need not remain bound by a promise from long ago.@
+`[line=4]You need not remain bound by a promise from long ago.@
 br
 `A promise that meant nothing to Hisui.@ A promise precious to me.@ Even after she stated the difference so plainly, no anger came.@ The reason was obvious.@ “…@Why did you look as though you were about to cry, Hisui?”@ I felt only sorry for her.@ I could never have blamed her.
 \
@@ -911,7 +913,7 @@ ld c,"tachi/koha_t03b",crossfade,400
 `“…@As I said, this happened after you left, Shiki.@ Your father’s condition worsened by the day.@ Eventually it could no longer be called manic depression; it was as if two distinct personalities lived inside him.@ The smallest thing would excite him into a frenzy, yet when he calmed down he could not remember what he had done.@ I began tending to your father’s health around that time, and he once confided something to me alone.”
 \
 cl c,lshutter,400
-`—There is a violent self inside me.@
+`[line=3]There is a violent self inside me.@
 br
 `His ordinary self could not restrain it, and whenever it emerged, he fell asleep.@ For no reason at all, he wanted to destroy everything he saw.@ At such times, he said, it felt as though he were trapped in a nightmare.
 \
@@ -953,7 +955,7 @@ bg "bg/bg_06a",lcartain,800
 bg #000000,crossfade,800
 !w2000
 bg "bg/bg_06b",lshutter,400
-`The day ended without incident.@ Arihiko was absent, perhaps off traveling.@ That was not a figure of speech; he had the peculiar habit of taking sudden trips.@ Nor did he do anything glamorous, like roaming wherever his motorcycle carried him.@ Weekday package tours were cheap, he said, so apparently he joined sightseeing groups full of elderly travelers.@ …@I had known him since elementary school, and still could not make sense of his tastes.
+`[line=3]The day ended without incident.@ Arihiko was absent, perhaps off traveling.@ That was not a figure of speech; he had the peculiar habit of taking sudden trips.@ Nor did he do anything glamorous, like roaming wherever his motorcycle carried him.@ Weekday package tours were cheap, he said, so apparently he joined sightseeing groups full of elderly travelers.@ …@I had known him since elementary school, and still could not make sense of his tastes.
 \
 bg #000000,lcartain,400
 bg "bg/bg_01b",lcartain,400
@@ -962,7 +964,7 @@ bg "bg/bg_22b",lcartain,400
 bg #000000,lcartain,400
 bg "bg/bg_32b",lcartain,400
 waveloop se_11
-`I returned to the mansion.@
+`[line=4]I returned to the mansion.@
 br
 `The thoughts I had suppressed at school returned.@ My father’s two faces, as Kohaku had described them that morning.@ The hereditary afflictions of the Tohno family.@ …@Hisui was right.@ Something had been wrong with me since I returned here.@ Somewhere beyond my own awareness, my memories seemed to be growing indistinct.@ …@As Kohaku said, I could not believe I was the same as my father.@ Yet the fact remained: since returning to this mansion, I had begun to lose faith in the person called Shiki Tohno.
 \

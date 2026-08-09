@@ -65,9 +65,9 @@ waveloop se_02
 ld c,"tachi/roa_t05a",crossfade,400
 `“No.@ That is not so.@ I am indeed a member of the vampiric species known as the reincarnating Serpent of Akasha.@ But to you, surely I am not the Serpent.@ Surely I am SHIKI?@
 ld c,"tachi/roa_t04a",crossfade,400
-`Tch.@ You really are cold.@ I’ve spent eight years thinking of you, and now I look like a fool.”
+`[line=3]Tch.@ You really are cold.@ I’ve spent eight years thinking of you, and now I look like a fool.”
 \
-`—?@ SHIKI?@ Eight years?@ What in the world—
+`[line=5]?@ SHIKI?@ Eight years?@ What in the world—
 \
 `“Have you truly forgotten, Shiki?@ Was Father’s suggestion really so perfect?@ Or did dying once damage everything you remembered from before?@ Damn it—either way, this ruins everything!@ Do you understand!?@ Eight years—I waited eight years!@ I waited all this time for the moment I could take everything from you, the one who killed me, and now the man at the heart of it is nothing but an empty shell…!”
 \
@@ -79,7 +79,7 @@ bg #ffffff,crossfade,400
 bg "bg/cmo_06",notrans,0
 wait 100
 bg "bg/bg_09c",notrans,0
-`I couldn’t remember clearly.@ And yet—I did feel as though there had been someone else when I was a child.
+`[line=3]I couldn’t remember clearly.@ And yet—I did feel as though there had been someone else when I was a child.
 \
 ld c,"tachi/roa_t04a",crossfade,400
 `“You can’t remember?@ After you and I were such good friends.”@ His face tightened, clouding with what looked like genuine bitterness.

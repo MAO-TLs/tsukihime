@@ -50,7 +50,7 @@ wavestop
 ld c,"tachi/his_t20",crossfade,800
 play "*1"
 br
-`—stood Hisui, looking somehow unlike herself.@
+`[line=4]stood Hisui, looking somehow unlike herself.@
 br
 `“What is it, Hisui?@ Did something happen this late at night?”@
 `“…@Yes.@ I have come to perform my duties for the night, Master Shiki.”@
@@ -58,7 +58,7 @@ br
 \
 `“Your duties for the night?@ What does that mean?”@ I tilted my head and peered straight into her face.@ “…”@ Hisui gave no answer.@ She merely looked away.@ “…”@ “……”@ “………”@ “…………”@ “……………”@
 br
-`Once again, an excruciating silence took possession of the room.
+`[line=4]Once again, an excruciating silence took possession of the room.
 \
 `“Hisui, unless you tell me plainly what you’re here for, I’m never going to understand.”@
 `Unable to endure the silence, I finally said it.@
@@ -159,7 +159,7 @@ bg "event/his_h15",bshutter,800
 `It was the only sound I could make.@
 `Her flower gave off no fragrance at all, yet I was drunk on its imagined scent.@ There was nothing voluptuous about her, but my heart surged.@ It felt as though the warmth trapped beneath her skirt had flooded the entire room.@ My head, my throat, even my fingertips burned, and reason went dark.
 \
-`Hisui.@
+`[line=4]Hisui.@
 br
 `Hisui stood there with her eyes squeezed shut in shame.@ I should have stopped her.@ I should have spared her this.@
 `Instead, every thought in my head urged the exact opposite.
@@ -326,7 +326,7 @@ bg "bg/bg_40d",crossfade,400
 `“No, that isn’t it.@ I have no complaint at all.@ I’m satisfied, but my body…@ apparently isn’t.”@
 `I faltered, unable to think how to explain.@
 br
-`Hisui understood.@ Her face reddened, and she lowered her eyes.
+`[line=4]Hisui understood.@ Her face reddened, and she lowered her eyes.
 \
 `“Hisui?”@
 `“Forgive me for forcing you to say such a thing, Master Shiki.”@
@@ -403,7 +403,7 @@ bg #ffffff,crossfade,800
 `“Hisui…”@
 `Lost in the sensation of release, I watched her throat.@ It moved as she swallowed.@ Tears brimmed in her glass-blue eyes.@
 br
-`And then I thought—
+`[line=4]And then I thought—
 br
 `Hisui was so devoted, and so terribly awkward.@
 `What a shame.@ If only this had been reality instead of a dream, I might never have mistaken Hisui for a doll.
@@ -444,7 +444,7 @@ br
 \
 `“…@But she was adorable.”@
 br
-`The memory left me conflicted.@ The real Hisui would never express herself so openly.@ She was always calm and expressionless; only something extraordinary could bring color to her cheeks.@
+`[line=3]The memory left me conflicted.@ The real Hisui would never express herself so openly.@ She was always calm and expressionless; only something extraordinary could bring color to her cheeks.@
 `And that, regrettably, was precisely the disappointment.@ Wrong as it was, I let myself drift back to the sweetly honest Hisui from the dream.
 \
 `And just then—
@@ -453,7 +453,7 @@ ld c,"tachi/his_t01",lshutter,400
 `“Waaaaaaaaah!”@
 quakey 2,100
 br
-`The real Hisui appeared, wearing her usual face.
+`[line=3]The real Hisui appeared, wearing her usual face.
 \
 `“H-H-H-Hisui!”@
 `I flailed, rolled out of bed, and struck the wall with a thump.@ Fortunately—or unfortunately—the sheet remained wound around my waist.
@@ -472,7 +472,7 @@ ld c,"tachi/his_t08",crossfade,400
 cl c,crossfade,400
 br
 `“Right…@ since before I woke up…”@
-`Wait.@
+`[line=3]Wait.@
 `Did that mean Hisui had watched my sleeping face while I was having that dream?
 \
 `“H-Hisui, about that…”@
@@ -491,7 +491,7 @@ ld c,"tachi/his_t01",crossfade,400
 `“Yes, Master Shiki?”@
 `“Would you mind waiting outside while I dress?”@
 br
-`More to the point, I simply needed her gone because I couldn’t look her in the face.
+`[line=3]More to the point, I simply needed her gone because I couldn’t look her in the face.
 \
 `“Very well.@ Please excuse me.”@
 cl c,crossfade,800
@@ -522,7 +522,7 @@ cl c,crossfade,400
 `“A few things?@ What things?”@
 `“Well, that’s…”@
 br
-`And then, like a fool, I vividly remembered the dream about Hisui.
+`[line=4]And then, like a fool, I vividly remembered the dream about Hisui.
 \
 `“Ugh…”@
 `This was bad.@ I could feel my face turning helplessly red.@

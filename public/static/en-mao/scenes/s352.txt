@@ -1,7 +1,7 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`All right.@ Kohaku is always taking care of me; I’ll go lend her a hand.@
+`[line=3]All right.@ Kohaku is always taking care of me; I’ll go lend her a hand.@
 br
 bg #000000,lcartain,400
 bg "bg/bg_42b",lcartain,400
@@ -30,7 +30,7 @@ ld c,"tachi/koha_t03",crossfade,400
 ld c,"tachi/koha_t01a",crossfade,400
 `“Perhaps Miss Akiha still feels attached to it.@ This was once the home of a child your father adopted.”@
 br
-`What?@ A child Father…@ Makihisa adopted?
+`[line=4]What?@ A child Father…@ Makihisa adopted?
 \
 `“…@Wait, Kohaku.@ What do you mean, Father adopted a child?”@
 ld c,"tachi/koha_t02",crossfade,400
@@ -42,7 +42,7 @@ playstop
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
-`Wait.@
+`[line=5]Wait.@
 br
 `Something about Kohaku’s words frightens me.@ Merely hearing them makes my sight buckle.@ The tatami room seems to be made of candy, softening and running around me in viscous streams.
 \
@@ -54,14 +54,14 @@ bg "bg/cmo_05",notrans,0
 br
 br
 br
-`The accident.@
+`[line=6]The accident.@
 br
 `What kind of accident was it?@ One that injured me so badly.@ One that killed that adopted child.
 \
 br
 `A sweltering summer day.@
 br
-`I can’t remember.@
+`[line=6]I can’t remember.@
 br
 `Only that my arms seemed to be covered in red blood—
 \
@@ -98,7 +98,7 @@ ld c,"tachi/koha_t01a",crossfade,400
 `“…@Yes.@ At night he would roam the grounds.@ It was not unusual for him to kill dogs or cats he had bought that day, or to injure himself.”
 \
 wave se_01
-`Wh—what is that?@ That’s madness.@ He wasn’t sane.@ Just like me in the dream.@
+`[line=4]Wh—what is that?@ That’s madness.@ He wasn’t sane.@ Just like me in the dream.@
 wave se_01
 br
 `…@Or is it the other way around?@ Am I the one who has gone mad, just like Father?
@@ -129,7 +129,7 @@ br
 bg #9c0120,notrans,0
 `The darkness of anemia vanishes, and my whole field of vision floods crimson.@ Kohaku’s white throat.@ Last night’s dream, drenched in red.@
 br
-`The night of murder.@ Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
+`[line=6]The night of murder.@ Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
 \
 bg #000000,notrans,0
 wait 100
@@ -152,7 +152,7 @@ cl c,crossfade,400
 `With that, Kohaku comes closer.
 \
 br
-`This is bad.@
+`[line=6]This is bad.@
 br
 `It terrifies me.@ If she comes within reach, I don’t know what I might do.@ That terrifies me.
 \
@@ -173,7 +173,7 @@ br
 br
 br
 br
-`Why?@
+`[line=3]Why?@
 br
 `      Why are you getting in my way.@
 wave se_01
@@ -213,7 +213,7 @@ bg #000000,lcartain,800
 !w2000
 play "*1"
 bg "bg/bg_40c",lcartain,800
-`After dinner, I return to my room and fall onto the bed, Kohaku’s face before my eyes.@
+`[line=3]After dinner, I return to my room and fall onto the bed, Kohaku’s face before my eyes.@
 br
 `“….”@
 `I don’t understand.@ I don’t know why that feeling came over me, or why I did such a thing.
@@ -236,23 +236,14 @@ playstop
 wave se_01
 !w750
 br
-`Hot.
+`[line=4]Hot.
 \
 wave se_01
 !w750
 br
 br
 br
-`Hot.
-\
-wave se_01
-!w750
-br
-br
-br
-br
-br
-`Hot.
+`[line=4]Hot.
 \
 wave se_01
 !w750
@@ -261,9 +252,18 @@ br
 br
 br
 br
+`[line=4]Hot.
+\
+wave se_01
+!w750
 br
 br
-`Once the body has been roused,
+br
+br
+br
+br
+br
+`[line=4]Once the body has been roused,
 `          sleep cannot quiet it.
 \
 wave se_01
@@ -275,7 +275,7 @@ br
 br
 br
 br
-`Come, then.@
+`[line=4]Come, then.@
 `        Tonight, too, let us go and slake this thirst.
 \
 monocro #ff0000
@@ -297,7 +297,7 @@ br
 br
 br
 br
-`Again.
+`[line=4]Again.
 \
 wave se_01
 br
@@ -317,7 +317,7 @@ br
 br
 br
 br
-`This dream again.
+`[line=4]This dream again.
 \
 wave se_01
 br
@@ -337,7 +337,7 @@ br
 br
 br
 br
-`I am being made to witness this nightmare again.
+`[line=4]I am being made to witness this nightmare again.
 \
 bg #000000,notrans,0
 wait 100
@@ -353,7 +353,7 @@ br
 br
 br
 br
-`The same thing as yesterday.
+`[line=4]The same thing as yesterday.
 \
 `Blood is not enough.@ One by one, the fingers are bitten from the corpse’s hand.
 \
@@ -364,7 +364,7 @@ br
 br
 br
 br
-`The same thing as yesterday.
+`[line=4]The same thing as yesterday.
 \
 `Fingers are not enough.@ One by one, the corpse’s limbs are bitten off.
 \
@@ -375,7 +375,7 @@ br
 br
 br
 br
-`The same thing as yesterday.
+`[line=4]The same thing as yesterday.
 \
 `Then—an interruption.@ The corpse is cast aside, and I leap away.@ Someone.@ Someone is watching.
 \
@@ -386,7 +386,7 @@ br
 br
 br
 br
-`So tonight is different.
+`[line=4]So tonight is different.
 \
 bg "bg/ima_02",tshutter,400
 `Something like an enormous nail comes hurtling through the air.@ I leap aside, race up the face of a building, and bound from rooftop to rooftop.
@@ -398,7 +398,7 @@ br
 br
 br
 br
-`A black silhouette pursues the vampire.
+`[line=4]A black silhouette pursues the vampire.
 \
 `Roof to roof.@ Darkness to darkness.@ Still the figure follows.
 \
@@ -409,7 +409,7 @@ br
 br
 br
 br
-`It can’t be helped.
+`[line=4]It can’t be helped.
 \
 `“It can’t be helped,”@ someone murmurs, and tonight’s meal comes to an end.
 \
@@ -421,11 +421,11 @@ waveloop se_02
 bg #ffffff,crossfade,800
 `“Master Shiki…?”@
 br
-`A voice reaches me.@
+`[line=4]A voice reaches me.@
 br
 `“Please stay with me.@ I’ll bring you something to drink right away…!”@
 br
-`Quick footsteps hurry away.@
+`[line=4]Quick footsteps hurry away.@
 bg "bg/bg_40a",crossfade,800
 br
 `“Ah—”@
@@ -439,5 +439,5 @@ br
 `“Ah—”@
 `No.@ Yesterday, I…@ When I saw Kohaku’s throat, what did I think?@
 br
-`A white throat.@ From the bottom of my heart, I wanted the red blood flowing inside it—
+`[line=3]A white throat.@ From the bottom of my heart, I wanted the red blood flowing inside it—
 \

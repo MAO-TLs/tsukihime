@@ -12,19 +12,19 @@ play "*4"
 `Kill Akiha.@ Akiha is no longer human.@ That makes her fair game.@ …@No longer human.@ But even so, Akiha is Shiki Tohno’s little sister.@ And you would—merely because she stopped being human—
 \
 wave se_01
-`Throb.@
+`[line=7]Throb.@
 br
 `“Ngh—ah!”@ The headache.@ It had stopped, so why?@
 br
 wave se_01
 !w750
-`Throb.@ Throb.@ Throb.@
+`[line=7]Throb.@ Throb.@ Throb.@
 br
 !w500
 `A headache.@ Pain fierce enough to force my eyes from their sockets.@ I strained too hard to find the wall’s lines.@ My head hurts.@ Ah—when the pain is this intense, the thing I was until moments ago begins to subside.
 \
 wave se_01
-`Throb.@ Throb.@ Throb.@ Throb.@
+`[line=7]Throb.@ Throb.@ Throb.@ Throb.@
 br
 `“Ah—aaaaah…”@ Do not think.@ Ignore the headache.@ If I think now, I will realize my mistake.@ Before that happens—before I become Shiki Tohno again—I must kill Akiha, or she will kill me.@
 wave se_01
@@ -52,7 +52,7 @@ ld c,"tachi/aki_t23b",crossfade,400
 cl c,notrans,0
 play "*9"
 br
-`Throb.@
+`[line=13]Throb.@
 br
 `It lasts only an instant—a single instant of vision.
 \
@@ -66,7 +66,7 @@ wave se_01
 `“Ah—”@ Akiha’s voice.@ My knife is raised.@ All that remains is to drive it along the “line”@ running from her left collarbone to her right lung.@ But her hair is already wound around my arm.@ It streams over my neck and body, and I know that one moment’s hesitation will see me vaporized.
 \
 wave se_01
-`Throb.@
+`[line=16]Throb.@
 br
 `But my head hurts.@ It hurts, Akiha.@ Though KILL HER had repeated endlessly inside my skull, though I hated you so much—even so—
 \
@@ -95,19 +95,19 @@ br
 br
 br
 br
-`Even so.@
+`[line=6]Even so.@
 br
 `Even so…@ I could never do it.
 \
 playstop
 bg "bg/bg_10c",crossfade,800
-`Throb.@
+`[line=17]Throb.@
 br
 `The headache.@ It has tormented me endlessly, but for this moment alone I must be grateful.
 \
 `I was wrong.@ To think I could kill Akiha merely because she was no longer human, because she was no longer the girl she had been—that was madness.@ However much she changes, Akiha is Akiha.@ My precious little sister, who saved me and waited for me all these years.@
 br
-`How could I ever hurt her?
+`[line=4]How could I ever hurt her?
 \
 `…………………………………………@Throb.@
 br
@@ -123,7 +123,7 @@ br
 \
 `“…@That’s why I thought I could accept it, so long as it was for Kohaku.@ If she wanted revenge on the Tohno family, I would let her make a puppet of me.@ Even if drinking her blood meant losing my humanity…@ Kohaku hated me, so I told myself that could not be helped.”@
 br
-`I see.@ Akiha was the same as me.@ She knew.@ She knew Kohaku meant to destroy us, and even so—
+`[line=3]I see.@ Akiha was the same as me.@ She knew.@ She knew Kohaku meant to destroy us, and even so—
 \
 `“What else could I do?@ That was the only way I could atone to Kohaku.@ If she wished it, then at least one person in the Tohno bloodline would take her side.”@
 br
@@ -133,7 +133,7 @@ br
 \
 `“…@What?@ Brother, I can’t hear you.”@ “…@No, Akiha.@ Kohaku never hated anyone.@ None of this was something she truly wanted.”
 \
-`Yes.@ She found no other purpose, so she pursued this one with all her strength.@ It was the only thing she could do—the only way she could desperately deceive herself into believing she had a reason to live.
+`[line=3]Yes.@ She found no other purpose, so she pursued this one with all her strength.@ It was the only thing she could do—the only way she could desperately deceive herself into believing she had a reason to live.
 \
 `“Akiha, compared with you and Kohaku, I think I was incredibly fortunate.@ So I’m sorry.@ I cannot understand the pain of being bound to the Tohno family, or Kohaku’s pain when, though she hated no one, this was the only thing she could make herself do.”
 \
@@ -179,7 +179,7 @@ br
 \
 playstop
 bg #000000,tshutter,800
-`—The knife falls.@
+`[line=7]The knife falls.@
 br
 `No line runs there.@ Only her heart.@ Nothing supernatural—a thrust there would merely be agonizing, and fatal.@
 br
@@ -191,7 +191,7 @@ bg "bg/bg_10c",lshutter,400
 `“No—don’t!”@
 quakex 2,50
 br
-`—What?@ What…@ happened?@ My arm has stopped.@ Someone is bent over us, cradling Akiha’s hands where they lie over mine.
+`[line=9]What?@ What…@ happened?@ My arm has stopped.@ Someone is bent over us, cradling Akiha’s hands where they lie over mine.
 \
 `Akiha stares at that figure as though confronted with the impossible.@ And I—I must look every bit as white as she does.
 \
@@ -212,7 +212,7 @@ br
 br
 br
 br
-`—Utterly still.@ Time begins to flow again, slowly and gently, like ice melting after being drawn taut to the breaking point.
+`[line=4]Utterly still.@ Time begins to flow again, slowly and gently, like ice melting after being drawn taut to the breaking point.
 \
 `“…@How strange.@ Why won’t you kill me either, Kohaku?”@ Akiha murmurs without opening her eyes, as though speaking in her sleep.@ “The answer is simple.@ I love you, Miss Akiha.”@ The knife falls from Kohaku’s hand with a bright clatter.
 \
@@ -222,7 +222,7 @@ br
 \
 `“But I suppose I have no choice.@ I owe Kohaku for what happened earlier, so I’ll behave myself for now.@ …@And as for you, I suppose I’ll be gracious enough to accept being loved as your sister.”@
 br
-`—Akiha’s hair streams away.@ Whatever has been coiled around my body vanishes, and I collapse backward.
+`[line=4]Akiha’s hair streams away.@ Whatever has been coiled around my body vanishes, and I collapse backward.
 \
 bg "bg/ima_01",crossfade,400
 `At some point, the sky has become clear and boundlessly high.@ A silver moon.@ No trace of the crimson heat remains in the pallid corridor.@ Akiha’s hair is still red, but the wavering mirage that cloaked her is long gone.@ Now that Kohaku is beside her, Akiha will surely be all right.
@@ -247,7 +247,7 @@ br
 \
 `“Master Shiki.@ If you do not get up soon, I believe Miss Akiha will only torment you again.”@
 br
-`In that instant, those words snapped my drowsing mind awake.
+`[line=3]In that instant, those words snapped my drowsing mind awake.
 \
 bg "bg/bg_40a",tshutter,400
 play "*3"
@@ -274,7 +274,7 @@ cl c,lshutter,800
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
 ld c,"tachi/aki_t03b",lshutter,400
-`—In the sitting room, Akiha’s temper had gone well past sour and was rapidly approaching perpendicular.
+`[line=3]In the sitting room, Akiha’s temper had gone well past sour and was rapidly approaching perpendicular.
 \
 `“Hey.@ Morning, Akiha.”@
 ld c,"tachi/aki_t18b",crossfade,400
@@ -297,7 +297,7 @@ ld r,"tachi/aki_t18b",crossfade,400
 cl a,crossfade,400
 `Unable to endure their stares any longer, I found myself studying the floor.
 \
-`—Damn it, what was wrong with it?@ It was summer vacation.@ They could at least pretend not to notice that I was going to stay with Kohaku.
+`[line=3]Damn it, what was wrong with it?@ It was summer vacation.@ They could at least pretend not to notice that I was going to stay with Kohaku.
 \
 ld c,"tachi/aki_t08b",crossfade,400
 `“Oh, look at the time.@ We mustn’t keep the other party waiting any longer, so I’ll show mercy for today.”@ Akiha rose from the sofa, plainly enjoying herself.
@@ -325,7 +325,7 @@ br
 \
 `The Thing did more than make Akiha a little more forthright.@ It also seems to have increased her power.@ The Tohno “blood”@ she had once been unable to contain alone was now completely under her control, thanks to it.@ That must also be what allowed her to conceal the color of her hair.@ …@In short, she had become unbeatable, and as her brother I had no idea how I was supposed to handle her.
 \
-`—Kohaku, meanwhile, struck out on her own around New Year’s.@ Perhaps because Akiha could now manage by herself, perhaps for reasons of her own, Kohaku took a position at the mansion of a Tohno branch family deep in the mountains of Nagano.
+`[line=3]Kohaku, meanwhile, struck out on her own around New Year’s.@ Perhaps because Akiha could now manage by herself, perhaps for reasons of her own, Kohaku took a position at the mansion of a Tohno branch family deep in the mountains of Nagano.
 \
 `…@Even so, she returned here at the end of every week, and the four of us spent our time together just as before.@ When I once pressed her to explain why she had left, she said there was something she wanted to investigate there and asked me to indulge her until she had finished.@ I was the one in love, so all I could do was wait.@ Since then, Kohaku and I had reunited every weekend, but with Akiha and Hisui always at the mansion, finding time alone together was difficult.
 \
@@ -360,7 +360,7 @@ playstop
 bg "event/koha_f02",crossfade,400
 play "*2"
 br
-`—The train runs on.@
+`[line=7]The train runs on.@
 br
 `Through mountain farmland it races beneath sunlight so white the world seems ready to vanish.
 \
@@ -368,7 +368,7 @@ br
 \
 `“…”@ I lowered my eyes to the letter.@ A photograph had been enclosed, along with nothing but the “address”@ where we were to meet.@ …@Address was hardly the word.@ It was a set of directions—follow this road from this town, then turn here—leading to a place that had no address at all.@ The photograph must have shown that place.
 \
-`“—The place I’m meant to return to.”@ No one had needed to tell me where it was.@ I had already guessed.@ …@Kohaku must have remembered.@ Perhaps she had followed some trivial remark once made by Makihisa Tohno and used it to find that forest.@ The black forest.@ The old mansion hidden deep in the mountains, unseen by anyone.@
+`“—The place I’m meant to return to.”@ No one had to tell me where it was; I had already guessed.@ …@Kohaku must have remembered some trivial remark once made by Makihisa Tohno.@ Perhaps she had used it as a clue to find that forest.@ The black forest.@ The old mansion hidden deep in the mountains, unseen by anyone.@
 br
 `The place where, long ago, a child named Shiki Nanaya had lived.
 \
@@ -378,13 +378,13 @@ br
 br
 bg #ffffff,crossfade,800
 bg "event/koha_f03",crossfade,400
-`—fell into a dream.
+`[line=3]fell into a dream.
 \
 `A sun blurred white with haze.@ The scent of air unstained by human hands.@ The sky clear to its furthest reach, the trembling heat turning back the wind.@
 br
 `A homeland of wild grasses in spring, stars in autumn, and nothing but cold earth in winter.@ And in summer, if memory serves—brilliant flowers bright enough to steal the eye.@
 br
-`—There, she waits for me.
+`[line=3]There, she waits for me.
 \
 bg #ffffff,crossfade,800
 bg "event/koha_f01",crossfade,800
@@ -396,7 +396,7 @@ br
 br
 br
 br
-`—And says, “Welcome home.”@ This time, truly—making good at last on the promise we made as children.
+`[line=6]And says, “Welcome home.”@ This time, truly—making good at last on the promise we made as children.
 \
 !w4000
 bg "event/koha_f01b",crossfade,800

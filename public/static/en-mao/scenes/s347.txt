@@ -2,14 +2,14 @@ play "*3"
 wavestop
 bg #000000,lcartain,800
 bg "bg/bg_04",lcartain,800
-`And so—
+`[line=4]And so—
 ld r,"tachi/ari_t01",crossfade,400
 `“Heeey, Tohno.@ Took you long enough.”@
 ld l,"tachi/aki_t13a",crossfade,400
 `“You certainly did take your time, Brother.”@
 cl a,crossfade,400
 br
-`For some unfathomable reason, Arihiko had reached the courtyard before me and had apparently been keeping Akiha company.
+`[line=3]For some unfathomable reason, Arihiko had reached the courtyard before me and had apparently been keeping Akiha company.
 \
 `“So this is where you’ve been hiding all morning, Arihiko.”@
 ld c,"tachi/ari_t05",crossfade,400
@@ -47,7 +47,7 @@ ld l,"tachi/aki_t21",crossfade,400
 `As Arihiko roars with laughter beside her, Akiha fixes me with a look that seems to have something to say.@
 cl a,crossfade,400
 br
-`And then—
+`[line=4]And then—
 br
 ld c,"tachi/cel_t03",lshutter,800
 `“Ah, so this is where you all were.”@ Carrying her lunch, Ciel joins us.

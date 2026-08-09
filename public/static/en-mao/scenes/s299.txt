@@ -2,7 +2,7 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_02a",notrans,0
-`I pitch my body forward.@
+`[line=3]I pitch my body forward.@
 br
 `I have felt it all along: if I turn away, if I show her my back, she will punch straight through my heart from behind.@
 br
@@ -59,7 +59,7 @@ cl c,lshutter,400
 \
 bg #000000,notrans,0
 br
-`No—that is not what happened.@ She drops so low she is nearly scraping the ground, like a lizard, and shoots across the space between us in an instant.@
+`[line=4]No—that is not what happened.@ She drops so low she is nearly scraping the ground, like a lizard, and shoots across the space between us in an instant.@
 br
 `Six meters vanish in the span of a blink.
 \
@@ -130,11 +130,11 @@ ld c,"tachi/cel_t06c",crossfade,400
 cl c,crossfade,400
 `Ciel lowers her stance.@
 br
-`She’s coming.@
+`[line=3]She’s coming.@
 br
 `I know she is about to rush me again, but I can barely follow her with my eyes.
 \
-`I can think of nothing but escape.@ If I do not want her to kill me, running is the only choice left.@ Fortunately, nearly ten meters separate us.@ At a full sprint, I can at least reach the school building.@ On this open ground I have no chance, but inside, perhaps I can do something—!@
+`[line=3]I can think of nothing but escape.@ If I do not want her to kill me, running is the only choice left.@ Fortunately, nearly ten meters separate us.@ At a full sprint, I can at least reach the school building.@ On this open ground I have no chance, but inside, perhaps I can do something—!@
 bg #000000,lcartain,400
 bg "bg/bg_03c",lcartain,400
 monocro #ff0000
@@ -164,7 +164,7 @@ br
 \
 `“—!”@ My body springs.@ My back, shoulder, and arm are nearly dead, yet my body launches itself as if those wounds were trivial.@
 br
-`I can hardly believe it myself.@ Breathing raggedly, I race into the school at a speed that rivals hers.
+`[line=3]I can hardly believe it myself.@ Breathing raggedly, I race into the school at a speed that rivals hers.
 \
 wavestop
 bg #000000,lcartain,400
@@ -208,7 +208,7 @@ br
 br
 br
 br
-`—For that alone, I kept myself alive.@ But now even that is over.@ Five years.@ I cannot really say whether they were long or short.
+`[line=3]For that alone, I kept myself alive.@ But now even that is over.@ Five years.@ I cannot really say whether they were long or short.
 \
 `“…@Liar.”@ I never wanted to hear those words.
 \
@@ -217,7 +217,7 @@ br
 br
 br
 br
-`—I am grateful to you, Tohno.@ My work is finished now.@ All that remains is to discharge the responsibility I still bear.
+`[line=3]I am grateful to you, Tohno.@ My work is finished now.@ All that remains is to discharge the responsibility I still bear.
 \
 `“…@You liar.”@ Yet perhaps there had been truth as well.@ She deceived me, yes—but not even once had she ever—
 \
@@ -226,7 +226,7 @@ br
 br
 br
 br
-`—Thank you for everything.@ I cannot remember the last time I was this happy.@ So let us shake hands one final time.
+`[line=3]Thank you for everything.@ I cannot remember the last time I was this happy.@ So let us shake hands one final time.
 \
 `“…@God, you liar.”@ Not once.@ Not once had she actually lied to me.
 \
@@ -235,7 +235,7 @@ br
 br
 br
 br
-`—After I am gone, please stay friends with Inui.@ I wanted to be a student like you and him—
+`[line=3]After I am gone, please stay friends with Inui.@ I wanted to be a student like you and him—
 \
 `“…”@ But her very existence had been the lie.@ Even so, I cannot believe that smile was false.
 \
@@ -283,7 +283,7 @@ wave se_08
 `The approaching footsteps grow louder.@ Her shadow reaches toward me.
 \
 br
-`—Aren’t you going to take off your glasses?@
+`[line=3]Aren’t you going to take off your glasses?@
 br
 `She said it knowing exactly what it meant.@ Then—
 \

@@ -25,7 +25,8 @@ bg #000000,lshutter,800
 bg "event/ark_e02",lshutter,800
 `“Wh—”@ She is there.
 \
-`Golden hair brushing her shoulders.@ White clothes.@ Long, fine brows and red eyes.@ The figure I could never mistake again, no matter what happened—the figure that was supposed to have vanished.
+`Golden hair brushing her shoulders.@ White clothes.@ Long, fine brows and red eyes.@
+`[line=3]The figure I could never mistake again, no matter what happened—the figure that was supposed to have vanished.
 \
 `“…”@ The light turns green.@ Students pour across the street.@ Amid them all, only I remain still—and only she notices me.
 \
@@ -33,7 +34,7 @@ bg "bg/bg_24a",lshutter,800
 play "*3"
 `Arcueid crosses the road with a smile that seems to call out a cheerful hello.@ “…”@ I can’t speak.@ There is too much inside me.@ I don’t know what to do.@
 br
-`Even if this is some cruel hallucination, the sight of her again makes me so happy I could cry.
+`[line=3]Even if this is some cruel hallucination, the sight of her again makes me so happy I could cry.
 \
 ld c,"tachi/ark_t01a",lshutter,800
 `“Hello.@ On your way to school, young man?”@ I can’t believe it.@ Even the hallucination’s voice is exactly hers.@
@@ -48,7 +49,7 @@ ld c,"tachi/ark_t16",crossfade,400
 ld c,"tachi/ark_t01a",crossfade,400
 `“Yes, that’s right.@ Oh, good.@ I was honestly starting to worry that your fight with Roa had left you a vegetable.”@ “…”@
 br
-`Wait.@ Just wait.@
+`[line=2]Wait.@ Just wait.@
 br
 `I’m so confused I don’t know what to say, what to be happy about first, what I’m supposed to do.@ My heart is simply too full for me to understand anything.
 \
@@ -56,7 +57,7 @@ ld c,"tachi/ark_t11",crossfade,400
 `“Shiki…?@ You’ve been acting strange this whole time.@ Your mouth is hanging open and you keep blinking at me.@ Though I have to admit, you’re so funny I could watch all day.”@ “Ar…@ cueid.”@ “I keep telling you, yes.@ Honestly, all you’ve said since I got here is my name.@ We’ve finally been reunited—can’t you come up with something a little more charming?”
 \
 br
-`Yes.@ There can be no mistake.@ Who else could possibly say something that ridiculous?
+`[line=4]Yes.@ There can be no mistake.@ Who else could possibly say something that ridiculous?
 \
 `“Why…?”@ “Hm?@ What was that?@ I can’t hear you.@ Say it louder.”@ Arcueid turns one shapely ear toward me, urging me on.@ “Why are you still alive?!”@ At the top of my lungs, I blurt out the first thing in my heart.
 \
@@ -110,7 +111,7 @@ bg "event/ark_f03",lshutter,400
 \
 `“Oh, right.@ I’d forgotten.@ Eavesdropping is rude, Arcueid.”@ “I couldn’t help hearing.@ Never mind that—tell me.@ Do you still mean what you said back then?”@
 br
-`Idiot.@ As if she even needs to ask.@
+`[line=4]Idiot.@ As if she even needs to ask.@
 br
 `“Yeah.@ Nothing’s changed.@ I can’t promise, but I don’t think it ever will.”@ Too embarrassed to face her, I gaze at an empty patch of sky and deliver the hopelessly sentimental answer.
 \
@@ -129,7 +130,7 @@ br
 \
 `We go against the stream of students headed for school, bound for anywhere at all.@ How far should we go?@ I don’t think anywhere is beyond our reach.@ Even sunlight suits the princess of the moon walking beside me.
 \
-`For now, at least, the weather has given us a blue sky beyond reproach.@
+`[line=3]For now, at least, the weather has given us a blue sky beyond reproach.@
 br
 `Hand in hand, we set out for somewhere neither of us has ever been.
 \

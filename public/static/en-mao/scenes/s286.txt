@@ -2,7 +2,7 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_33a",notrans,0
-`—She’s right.@ Going out with a headache like this would only cause trouble for Ciel.@
+`[line=3]She’s right.@ Going out with a headache like this would only cause trouble for Ciel.@
 br
 `“…@You're right…@ It hasn't even been a full day since last night.@ I pushed myself too hard.”@
 ld l,"tachi/koha_t03",crossfade,400
@@ -43,7 +43,7 @@ bg #000000,crossfade,800
 play "*1"
 bg "bg/bg_40c",crossfade,800
 br
-`—In the end, I lie down in bed, take the medicine Kohaku prepared, and ask someone to carry a message to Ciel as she waits outside the movie theater.@
+`[line=3]In the end, I lie down in bed, take the medicine Kohaku prepared, and ask someone to carry a message to Ciel as she waits outside the movie theater.@
 br
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400

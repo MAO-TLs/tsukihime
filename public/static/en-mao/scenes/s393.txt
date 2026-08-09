@@ -1,7 +1,7 @@
 play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
-`No.@ I can’t frighten Akiha and the others for no reason.@ This—the matter of that dream—is something I have to resolve alone.
+`[line=3]No.@ I can’t frighten Akiha and the others for no reason.@ This—the matter of that dream—is something I have to resolve alone.
 \
 `“School has just been keeping me busy lately.@ The school festival is in November, and we have the athletics festival before that.”@
 ld c,"tachi/aki_t12a",crossfade,400
@@ -18,7 +18,7 @@ bg "bg/bg_48a",lcartain,400
 ld c,"tachi/his_t01",lshutter,400
 `“Have a safe day, Master Shiki.”@ “Right.@ I’m off, but…@ Hisui.”@ “Yes?@ What is it?”@ Hisui looks directly into my eyes.@
 br
-`Why is it?@
+`[line=3]Why is it?@
 br
 `Faced with eyes so utterly trusting, I feel horribly unclean.@ I can’t settle down.
 \
@@ -31,14 +31,14 @@ playstop
 !w2000
 wave se_03
 bg "bg/bg_06a",lcartain,400
-`Lunchtime arrives.@ Arihiko is absent from school, as usual.@
+`[line=3]Lunchtime arrives.@ Arihiko is absent from school, as usual.@
 br
 `“Maybe I’ll go to the cafeteria.”@ Eating alone would only leave me brooding.@ In a dining hall packed with students, I shouldn’t have room to think about anything unnecessary.
 \
 bg "bg/bg_50",lcartain,800
 `As expected, the cafeteria is roaring with life.@ I join a line dozens deep, buy the safe choice—Set A—and find a table.@ The racket of conversation lets me concentrate on eating, at least.@ I work my fork in silence and take in the necessary nutrients.@
 br
-`And then—
+`[line=4]And then—
 br
 `For an instant, an ugly image flashes before me.
 \
@@ -79,9 +79,10 @@ br
 wavestop
 !w2000
 bg "bg/bg_30a",lcartain,400
-`I reach the place from my dream.@
+`[line=3]I reach the place from my dream.@
 br
-`Several police officers stand nearby, and tape seals off the alley.@ “It’s the same.”@ I came through this place in the dream.@ No—that wasn’t a dream.@ I can’t hide from it by calling it one anymore.@ “…”@ If I stay, the police will only start watching me.@ It’s too late to return to school, so I may as well go back to the mansion.
+`Several police officers stand nearby, and tape seals off the alley.@ “It’s the same.”@ I came through this place in the dream.@
+`[line=3]No—that wasn’t a dream.@ I can’t hide from it by calling it one anymore.@ “…”@ If I stay, the police will only start watching me.@ It’s too late to return to school, so I may as well go back to the mansion.
 \
 bg #000000,lcartain,800
 !w1000
@@ -97,7 +98,7 @@ bg #000000,crossfade,400
 `I truly don’t understand.@ The self who dreams of murder.@ The murders that happen exactly as I dream them.@ The self who goes on living an ordinary life.@ The self who exulted in killing inside the dream.@
 br
 br
-`Which one—which one is the real Shiki Tohno?
+`[line=6]Which one—which one is the real Shiki Tohno?
 \
 textcolor #ff0000
 br

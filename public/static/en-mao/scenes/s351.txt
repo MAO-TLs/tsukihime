@@ -1,7 +1,7 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`That settles it.@ Hisui is always looking after me; I’ll go lend her a hand.
+`[line=4]That settles it.@ Hisui is always looking after me; I’ll go lend her a hand.
 \
 bg #000000,lcartain,400
 play "*3"
@@ -25,7 +25,8 @@ ld c,"tachi/his_t05",crossfade,400
 ld c,"tachi/his_t04",crossfade,400
 `“…@Very well.@ Then I leave them in your care, Master Shiki.”@
 cl a,crossfade,400
-`Looking apologetic, Hisui climbs the stairs.@ Now, then.@ That leaves me to haul this mountain of books up to the second floor.
+`Looking apologetic, Hisui climbs the stairs.@
+`[line=3]Now, then.@ That leaves me to haul this mountain of books up to the second floor.
 \
 bg #000000,lshutter,800
 bg "bg/bg_41",rshutter,800
@@ -60,7 +61,7 @@ br
 playstop
 play "*6"
 br
-`No.@ Wait.@ This is too strange.
+`[line=4]No.@ Wait.@ This is too strange.
 \
 wave se_01
 `Reading the family tree carefully, I find that every member of the Tohno family met an unnatural end.@ Death by madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@ …@Not one of them died quietly of old age.@
@@ -77,7 +78,8 @@ waveloop se_02
 `The light drains out of my sight.@ It feels as though blood is pooling and swaying at the back of my skull.@ Strength leaves my limbs, and I suffer the illusion that I can no longer breathe.@
 ld c,"tachi/his_t08",lshutter,400
 `“Master Shiki…!”@
-`Hisui…@ Hisui runs toward me.@ I catch the bookcase and somehow steady myself.
+`Hisui…@ Hisui runs toward me.@
+`[line=3]I catch the bookcase and somehow steady myself.
 \
 ld c,"tachi/his_t25",crossfade,400
 playstop
@@ -101,7 +103,7 @@ bg "bg/bg_41",crossfade,400
 bg #9c0120,notrans,0
 `The darkness of anemia vanishes, and my whole field of vision floods crimson.@ Hisui’s white throat.@ Last night’s dream, drenched in red.@
 br
-`The night of murder.@ Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
+`[line=3]The night of murder.@ Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
 \
 bg "bg/bg_41",notrans,0
 wavestop
@@ -115,7 +117,7 @@ ld c,"tachi/his_t17",crossfade,400
 `And Hisui comes closer.
 \
 cl a,crossfade,400
-`This is bad.@
+`[line=3]This is bad.@
 `It terrifies me.@
 `If she comes within reach, I don’t know what I might do.@ That terrifies me.
 \
@@ -129,7 +131,7 @@ bg "bg/bg_41",crossfade,400
 `…@Stop.@ Please stop.@ It’s dangerous to come closer.@ I told you not to.@ Why?@ Why won’t this woman do as I say?@
 br
 bg #000000,crossfade,400
-`Why are you getting in my way.@
+`[line=3]Why are you getting in my way.@
 `      Why won’t anything go the way I want…!
 \
 bg "bg/bg_41",crossfade,400
@@ -163,7 +165,7 @@ bg #000000,lcartain,800
 !w2000
 bg "bg/bg_40c",lcartain,800
 play "*1"
-`After dinner, I return to my room.@
+`[line=3]After dinner, I return to my room.@
 br
 `I fall onto the bed and see Hisui’s face again.@
 `“….”@
@@ -187,23 +189,14 @@ playstop
 wave se_01
 !w750
 br
-`Hot.
+`[line=4]Hot.
 \
 wave se_01
 !w750
 br
 br
 br
-`Hot.
-\
-wave se_01
-!w750
-br
-br
-br
-br
-br
-`Hot.
+`[line=4]Hot.
 \
 wave se_01
 !w750
@@ -212,9 +205,18 @@ br
 br
 br
 br
+`[line=4]Hot.
+\
+wave se_01
+!w750
 br
 br
-`Once the body has been roused,
+br
+br
+br
+br
+br
+`[line=4]Once the body has been roused,
 `          sleep cannot quiet it.
 \
 wave se_01
@@ -226,7 +228,7 @@ br
 br
 br
 br
-`Come, then.@
+`[line=4]Come, then.@
 `        Tonight, too, let us go and slake this thirst.
 \
 monocro #ff0000
@@ -248,7 +250,7 @@ br
 br
 br
 br
-`Again.
+`[line=4]Again.
 \
 wave se_01
 br
@@ -268,7 +270,7 @@ br
 br
 br
 br
-`This dream again.
+`[line=4]This dream again.
 \
 wave se_01
 br
@@ -288,7 +290,7 @@ br
 br
 br
 br
-`I am being made to witness this nightmare again.
+`[line=4]I am being made to witness this nightmare again.
 \
 bg #000000,notrans,0
 wait 100
@@ -304,7 +306,7 @@ br
 br
 br
 br
-`The same thing as yesterday.
+`[line=4]The same thing as yesterday.
 \
 `Blood is not enough.@ One by one, the fingers are bitten from the corpse’s hand.
 \
@@ -315,7 +317,7 @@ br
 br
 br
 br
-`The same thing as yesterday.
+`[line=4]The same thing as yesterday.
 \
 `Fingers are not enough.@ One by one, the corpse’s limbs are bitten off.
 \
@@ -326,7 +328,7 @@ br
 br
 br
 br
-`The same thing as yesterday.
+`[line=4]The same thing as yesterday.
 \
 `Then—an interruption.@ The corpse is cast aside, and I leap away.@ Someone.@ Someone is watching.
 \
@@ -337,7 +339,7 @@ br
 br
 br
 br
-`So tonight is different.
+`[line=4]So tonight is different.
 \
 bg "bg/ima_02",tshutter,400
 `Something like an enormous nail comes hurtling through the air.@ I leap aside, race up the face of a building, and bound from rooftop to rooftop.
@@ -349,7 +351,7 @@ br
 br
 br
 br
-`A black silhouette pursues the vampire.
+`[line=4]A black silhouette pursues the vampire.
 \
 `Roof to roof.@ Darkness to darkness.@ Still the figure follows.
 \
@@ -360,7 +362,7 @@ br
 br
 br
 br
-`It can’t be helped.
+`[line=4]It can’t be helped.
 \
 `“It can’t be helped,”@ someone murmurs, and tonight’s meal comes to an end.
 \
@@ -373,11 +375,11 @@ bg #ffffff,notrans,0
 !w750
 `“Master Shiki…?”@
 br
-`A voice reaches me.@
+`[line=4]A voice reaches me.@
 br
 `“Please stay with me.@ I’ll bring you something to drink…!”@
 br
-`Quick footsteps hurry away.
+`[line=4]Quick footsteps hurry away.
 \
 bg "bg/bg_40a",crossfade,800
 `“Ah—”@
@@ -389,5 +391,5 @@ bg "bg/bg_40a",crossfade,800
 `I touch my throat.@ The wound where Yumizuka bit me has long since closed.@ I am still an ordinary human being.@ I’ve never wanted to drink anyone’s blood, and sunlight does not repel me.@
 `“Ah—”@
 `No.@ Yesterday, I…@ When I saw Hisui’s throat, what did I think?@
-`A white throat.@ From the bottom of my heart, I wanted the red blood that would flow from it—
+`[line=3]A white throat.@ From the bottom of my heart, I wanted the red blood that would flow from it—
 \

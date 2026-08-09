@@ -39,7 +39,7 @@ br
 bg "bg/bg_20b",crossfade,800
 `The elevator came into sight.@ It was a long corridor; from here, it might still have been more than ten meters away.@
 br
-`And then—
+`[line=4]And then—
 br
 `With a bright chime, an elevator arrived on the eleventh floor.
 \
@@ -109,7 +109,7 @@ br
 br
 `A black dog charged.@ Countless lines covered its body, and on its forehead I could see a point of death.@
 br
-`And yet—
+`[line=4]And yet—
 br
 `My numbed mind sent my body no order to fight, and no order to flee.
 \
@@ -125,7 +125,7 @@ bg #ffffff,notrans,0
 `But that was wrong.@ Something like this could not kill me.@ I refused to die.@ The mere fact that people were dead was not enough to make me hesitate.
 \
 br
-`—A hot summer day.@
+`[line=4]A hot summer day.@
 br
 `Long ago—or was eight years ago really so long?@ I had witnessed something far worse than this—
 \
@@ -155,7 +155,7 @@ br
 bg "bg/ima_12",crossfade,400
 `“Aah—ahh!”@
 br
-`—This isn’t funny!@ How did stabbing a knife into a dog’s mouth end with my own arm about to be bitten off!?@
+`[line=3]This isn’t funny!@ How did stabbing a knife into a dog’s mouth end with my own arm about to be bitten off!?@
 br
 `“You…!”@
 br
@@ -168,7 +168,7 @@ quakey 4,100
 \
 `“Y-you…!”@ Something slick ran over me.@ Blood dripped steadily from the dog’s mouth.@ Was it the dog’s, from the knife through its skull?@ Or mine, from the arm it was trying to sever?@
 br
-`—Honestly, I didn’t care.@ My confusion overwhelmed even the pain; whose blood it was meant nothing.
+`[line=3]Honestly, I didn’t care.@ My confusion overwhelmed even the pain; whose blood it was meant nothing.
 \
 `“Let…@ go.”@ I tried to escape the dog, but it was fastened to my arm.@ I couldn’t run.@ There was no escape.@ If I wanted to get away, I had no choice but to kill it.
 \
@@ -176,7 +176,7 @@ br
 \
 `“Haaah—”@
 br
-`—It’s all right.@ Calm down, Shiki.@ Look closely first.@ Think carefully afterward.@ You’ve followed that lesson all this time.@
+`[line=4]It’s all right.@ Calm down, Shiki.@ Look closely first.@ Think carefully afterward.@ You’ve followed that lesson all this time.@
 br
 `Then I could manage this.@ There were more than enough lines behind its head, for example, while the black point lay in its chest.@ The way to survive was brutally simple.
 \
@@ -191,7 +191,7 @@ monocro off
 bg "bg/ima_12b",crossfade,400
 `A heavy drop of red blood fell onto my face.@ It ran down my forehead and oozed into my eye.@
 br
-`—Scarlet darkness seeped behind my eyes.@
+`[line=3]Scarlet darkness seeped behind my eyes.@
 br
 `“Red…”@ The world reeled.@ My consciousness vanished.
 \
@@ -205,7 +205,7 @@ br
 br
 br
 br
-`—What hypocrisy.@ You’ve already killed an animal far larger than this miserable cur.
+`[line=3]What hypocrisy.@ You’ve already killed an animal far larger than this miserable cur.
 \
 `…@Oh.@ That was true, wasn’t it?@ But that time was different.@ The Shiki Tohno who killed Arcueid wasn’t sane.@ Even when I dispatched the first dog, it had happened entirely apart from my own will.@ Now, however, the choice was unmistakably mine.
 \
@@ -219,7 +219,7 @@ br
 br
 br
 br
-`—More hypocrisy.@ Because long ago, you already—
+`[line=3]More hypocrisy.@ Because long ago, you already—
 \
 bg "bg/cmo_06",crossfade,400
 bg "bg/cmo_05",crossfade,400
@@ -234,7 +234,7 @@ br
 br
 br
 br
-`—Well?@ What are you hesitating for?
+`[line=3]Well?@ What are you hesitating for?
 \
 br
 br
@@ -248,7 +248,7 @@ br
 br
 br
 br
-`—If you do not kill, you will be killed, and
+`[line=3]If you do not kill, you will be killed, and
 \
 br
 br
@@ -263,7 +263,7 @@ br
 br
 br
 br
-`—you have already—
+`[line=3]you have already—
 \
 br
 br
@@ -279,7 +279,7 @@ br
 br
 br
 br
-`—killed someone once!
+`[line=4]killed someone once!
 \
 bg "bg/cmo_06",notrans,0
 wait 100
@@ -363,7 +363,7 @@ ld c,"tachi/nero_t02a",crossfade,400
 cl c,crossfade,800
 `He muttered in distaste and raised one arm.@ His coat lifted like a great black cape.@
 br
-`—Broken.@
+`[line=3]Broken.@
 br
 `With a liquid rush, the black dogs dissolved and vanished beneath the man’s coat.
 \
@@ -373,7 +373,7 @@ br
 \
 `The black coat drew nearer.@ “—!”@ I couldn’t remain here.@ The headache that had tormented me all this time swelled beyond endurance, screaming that this place meant death—that by any means, at any cost, I had to get away at once.@
 br
-`—But it was already too late.@
+`[line=5]But it was already too late.@
 br
 `The man stood before me.@ His eyes were not on me at all.
 \
@@ -414,7 +414,7 @@ cl c,crossfade,800
 `“In any event, your condition is a stroke of fortune for me.@ How or why you became so weak is irrelevant.@ While victory lies within my reach, I need only claim your head.”@ “Tch…!”@ I raised my knife, bracing for his attack.
 \
 br
-`And yet—
+`[line=3]And yet—
 br
 `After announcing that he would claim her head, the man simply walked back toward the elevator.@ Without the slightest haste, he stepped inside and departed the corridor with stately composure.
 \
@@ -427,11 +427,12 @@ br
 ld c,"tachi/ark_t18",crossfade,400
 `“Shi…@ki.”@ Arcueid collapsed against me.@ “Ah—”@ The wound was terrible.@ The bleeding from her stomach had stopped, but her face remained contorted with pain.@
 br
-`She had suffered that wound only seconds ago, protecting me from the man.
+`[line=3]She had suffered that wound only seconds ago, protecting me from the man.
 \
 `“Why did you—?”@ “…@I underestimated him a little.@ I thought I could save you and still dodge something like that easily.@ You really are incredible, Shiki.@ It seems the wounds you gave me were more serious than I thought.”@ Her face pinched with pain, Arcueid smiled as if delivering a joke.
 \
-`“You id—”@ I couldn’t bear to look.@ That wound came from protecting me, and I was also the reason she had been weak enough to suffer it.@ How was I supposed to face a smile that foolish?
+`“You id—”@
+`[line=3]I couldn’t bear to look.@ That wound came from protecting me, and I was also the reason she had been weak enough to suffer it.@ How was I supposed to face a smile that foolish?
 \
 `Arcueid let her weight rest against me, her eyelids beginning to droop.@
 cl c,crossfade,800
@@ -451,7 +452,7 @@ bg #9c0120,crossfade,400
 bg "bg/bg_20b",crossfade,400
 `“…@Ghh.”@ The headache refused to stop.@ After everything that had happened, I felt close to collapsing unless I rested too.@ “…@Arcueid’s apartment…@ right, I know the place.”@ I had visited only once, but I remembered the location perfectly.@
 br
-`There was no reason to linger.@ I gathered Arcueid into my arms and left the hotel as quickly as I could.
+`[line=3]There was no reason to linger.@ I gathered Arcueid into my arms and left the hotel as quickly as I could.
 \
 bg #000000,lcartain,800
 monocro #fffff0
