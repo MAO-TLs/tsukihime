@@ -66,7 +66,7 @@ export default function MaoReaderShell({
 		[repository, retryKey],
 	)
 	const readyManifest = manifest.status === "ready" ? manifest.data : undefined
-	const translationVersion = readyManifest?.translationVersion ?? "v1.1.0"
+	const translationVersion = readyManifest?.translationVersion ?? "v1.1.1"
 	const initialScriptLocationKey = JSON.stringify([
 		initialSectionId,
 		initialScriptId,

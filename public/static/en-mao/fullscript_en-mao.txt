@@ -906,7 +906,7 @@ skip 3
 return
 ;gosub *s186
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"Yes.",*f518,
 		"No.",*endofplay
 
@@ -968,7 +968,7 @@ skip 3
 return
 ;gosub *s188
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"Yes.",*f519,
 		"No.",*endofplay
 
@@ -2795,8 +2795,8 @@ br
 `One more step.
 `Now a single leap will bring him within reach of my knife.
 br
-`“—No, absolutely not—!”
-`My name is Nrvnqsr, chaos itself, called immortal even among the deathless, crawling species of vampires! That I should display such disgrace is beyond all possibility…!”
+`“―――No, absolutely not―――!
+`My name is Nrvnqsr, chaos itself, called immortal even among the deathless, crawling species of vampires! That I should display such disgrace is beyond all possibility……!”
 ; 中央を消去<クロスフェード(中)>
 cl c,%type_crossfade_mid
 
@@ -4811,7 +4811,7 @@ br
 br
 `At the very least, no one else in this city will be drained of blood and murdered.\
 
-`“―――I see. In that case, Brother, I have nothing more to say.”
+`“―――I’m sorry, Akiha. I know I’ve caused trouble, but please don’t ask me anything more.”
 ; 中央<昼>=秋葉:楽03（腕組）<クロスフェード(速)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
@@ -5016,7 +5016,7 @@ skip 3
 return
 ;gosub *s289a
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"Yes.",*f523,
 		"No.",*endofplay
 
@@ -5180,7 +5180,7 @@ skip 3
 return
 ;gosub *s298
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"Yes.",*f524,
 		"No.",*endofplay
 
@@ -5262,7 +5262,7 @@ skip 3
 return
 ;gosub *s301
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"Yes.",*f525,
 		"No.",*endofplay
 
@@ -5406,7 +5406,7 @@ skip 3
 return
 ;gosub *s376
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f537,
 		"2) No.",*endofplay
 
@@ -5468,7 +5468,7 @@ skip 3
 return
 ;gosub *s379
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f538,
 		"2) No.",*endofplay
 
@@ -5551,7 +5551,7 @@ skip 3
 return
 ;gosub *s509
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f539,
 		"2) No.",*endofplay
 
@@ -5593,7 +5593,7 @@ skip 3
 return
 ;gosub *s382
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f540,
 		"2) No.",*endofplay
 
@@ -5658,7 +5658,7 @@ return
 inc %clear_akiha
 inc %cleared
 inc %clear_akiha_good
-`Would you like a lesson from “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f542,
 		"2) No.",*endofplay
 
@@ -5703,7 +5703,7 @@ return
 inc %clear_akiha
 inc %cleared
 inc %clear_akiha_true
-`Would you like a lesson from “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f541,
 		"2) No.",*endofplay
 
@@ -7881,7 +7881,7 @@ return
 inc %clear_ciel
 inc %cleared
 inc %clear_ciel_good
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f526,
 		"2) No.",*endofplay
 
@@ -8118,7 +8118,7 @@ skip 3
 return
 ;gosub *s410
 ;end
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f529,
 		"2 No.",*endofplay
 
@@ -8172,7 +8172,7 @@ return
 inc %clear_hisui
 inc %cleared
 inc %clear_hisui_true
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f530,
 		"2 No.",*endofplay
 
@@ -8217,7 +8217,7 @@ return
 inc %clear_hisui
 inc %cleared
 inc %clear_hisui_good
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f531,
 		"2 No.",*endofplay
 
@@ -8458,7 +8458,7 @@ skip 3
 return
 ;gosub *s426
 ;end
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f543,
 		"2 No.",*endofplay
 
@@ -8520,7 +8520,7 @@ skip 3
 return
 ;gosub *s428
 ;end
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f544,
 		"2 No.",*endofplay
 
@@ -8565,7 +8565,7 @@ return
 inc %clear_kohaku
 inc %cleared
 inc %clear_kohaku_true
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f545,
 		"2 No.",*endofplay
 
@@ -8781,7 +8781,7 @@ ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
 `“For the man himself to be the only one who doesn’t notice—why, you’re just like a scarecrow.
-`“Dress it in rags and give it limbs of bamboo. From a distance it resembles a man, but up close it’s nothing more than a counterfeit human shape.”
+`Dress it in rags and give it limbs of bamboo. From a distance it resembles a man, but up close it’s nothing more than a counterfeit human shape.”
 br
 `“Wha――――――”
 `Why, all of a sudden. Why is Akiha saying these incomprehensible things――――\
@@ -8798,9 +8798,9 @@ br
 
 ld c,":a;image\tachi\aki_t11b.jpg",%type_crossfade_fst
 
-`“There, you’ve reached your limit.”
-`“Don’t fight it; fall back onto the bed.”
-`“But remain conscious.”
+`“There, you’ve reached your limit.
+`Don’t fight it; fall back onto the bed.
+`But remain conscious.
 `Your arms and legs won’t obey you, yet your mind will stay perfectly awake.”
 `“S―――stop saying that―――”
 br
@@ -8903,7 +8903,7 @@ br
 `――――Not so much as an eyebrow moves.
 `Without even seeming to breathe, Akiha smiles with the lifeless blankness of a Noh mask.\
 
-`“Tell me, Kohaku. Don’t you feel like breaking that?”
+`“Tell me, Kohaku. Don’t you feel like breaking that?
 `I’m sure it would be delightful.”
 br
 ; 屋敷 : 部屋 : 志貴の部屋（夜）<左シャッター(速)>
@@ -10626,7 +10626,7 @@ ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
 `“For the man himself to be the only one who doesn’t notice—why, you’re just like a scarecrow.
-`“Dress it in rags and give it limbs of bamboo. From a distance it resembles a man, but up close it’s nothing more than a counterfeit human shape.”
+`Dress it in rags and give it limbs of bamboo. From a distance it resembles a man, but up close it’s nothing more than a counterfeit human shape.”
 br
 `“Wha――――――”
 `Why, all of a sudden. Why is Akiha saying these incomprehensible things――――\
@@ -10643,9 +10643,9 @@ br
 
 ld c,":a;image\tachi\aki_t11b.jpg",%type_crossfade_fst
 
-`“There, you’ve reached your limit.”
-`“Don’t fight it; fall back onto the bed.”
-`“But remain conscious.”
+`“There, you’ve reached your limit.
+`Don’t fight it; fall back onto the bed.
+`But remain conscious.
 `Your arms and legs won’t obey you, yet your mind will stay perfectly awake.”
 `“S―――stop saying that―――”
 br
@@ -10748,7 +10748,7 @@ br
 `――――Not so much as an eyebrow moves.
 `Without even seeming to breathe, Akiha smiles with the lifeless blankness of a Noh mask.\
 
-`“Tell me, Kohaku. Don’t you feel like breaking that?”
+`“Tell me, Kohaku. Don’t you feel like breaking that?
 `I’m sure it would be delightful.”
 br
 ; 屋敷 : 部屋 : 志貴の部屋（夜）<左シャッター(速)>
@@ -14068,9 +14068,9 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; 教室（夕）<クロスフェード(中)>
 bg "image\bg\bg_06a.jpg",%type_crossfade_mid
 
-`Classes end.
-`Dark thoughts chase one another through my head.
-`When I finally look around, everyone else is gone.\
+`Classes end; it is after school.
+`No—that is not quite right; before I know it, it is after school.
+`Dark thoughts chase one another through my head; when I finally look around, everyone else is gone.\
 
 `“―――The killings are still happening.”
 `I do not know what that means.
@@ -19816,7 +19816,7 @@ br
 !w500
 `Miiin, min-min
 !w500
-`Miiin, min-min—
+`Miiin, min-min―――――
 br
 `Oh.
 br
@@ -19962,9 +19962,9 @@ br
 `“Miss Akiha, should we not summon a doctor?”
 `“Don’t be absurd, Hisui.
 `We can’t. My brother’s wound isn’t an ordinary injury…!”\
-`…Akiha and Hisui are talking.
-`This is SHIKI’s room.
-`Apparently, I am asleep on the bed.
+`……akiha and hisui are talking.
+`this is SHIKI’s room.
+`it seems i am asleep on the bed.
 br
 `I tried to sit up and greet them, but my body would not obey.
 `The pain in my chest was gone, yet every limb felt made of lead.
@@ -24123,7 +24123,7 @@ cl c,%type_crossfade_fst
 `I never once felt as though I were being controlled.
 `If anything, I welcomed it and surrendered to my desire of my own accord.\
 
-`“Arcueid, I…”
+`“Arcueid, I――――”
 ; 中央<夜>=アルクェイド:哀（寂しそう）<クロスフェード(速)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 `“Don’t apologize. Shiki, this was an accident. I’ll forget it, so you should too. That will be better for both of us.”
@@ -24400,7 +24400,7 @@ cl c,%type_crossfade_fst
 `I never once felt as though I were being controlled.
 `If anything, I welcomed it and surrendered to my desire of my own accord.\
 
-`“Arcueid, I…”
+`“Arcueid, I――――”
 ; 中央<夜>=アルクェイド:哀（寂しそう）<クロスフェード(速)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 `“Don’t apologize. Shiki, this was an accident. I’ll forget it, so you should too. That will be better for both of us.”
@@ -25178,9 +25178,9 @@ br
 ; 中央<夜>=アルクェイド:楽04（腕組、ちょっと不機嫌そう）<クロスフェード(速)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-`I couldn't forget either, Shiki.”
+`“I couldn’t forget either, Shiki.”
 `Blushing, Arcueid admits it with difficulty.
-`“Arcueid…”
+`“Arcueid――――”
 `She is unbearably adorable.
 ; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_fst
@@ -27714,7 +27714,7 @@ bg "image\event\ark_h09.jpg",%type_crossfade_fst
 `Arcueid arches violently.
 `“Ah… ahhh!”
 br
-`Throb.
+`Thump.
 br
 `Semen, almost solid, slams into Arcueid.\
 
@@ -31664,7 +31664,7 @@ skip 3
 return
 ;gosub *s234
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f532,
 		"2) No.",*endofplay
 
@@ -38296,7 +38296,7 @@ ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
 `“What happened, Tohno? Nobody told me you were skipping school. That’s a problem—you’ve got to report in properly when you ditch class for a day of fun!”
 `Arihiko delivers this idiocy with a delighted grin.
 `“Listen. Why should I have to report every absence to you?”
-`“Obviously. If Tohno isn’t here, Senpai won’t come to our class either, so I need advance warning to make other arrangements.”
+`“Obviously. If Tohno isn’t here, Ciel won’t come to our class either, so I need advance warning to make other arrangements.”
 `What could possibly be such a problem to this man?\
 
 `“Seriously, what happened Saturday? You’ve been anemic since middle school, but you never missed class.
@@ -39991,11 +39991,11 @@ br
 
 br
 !w500
-`Zeeeee, zee-zee.
+`Miiin, min-min
 !w750
-`Zeeeee, zee-zee.
+`Miiin, min-min
 !w1000
-`Zeeeee, zee-zee.
+`Miiin, min-min
 !w1500
 br
 `―――――So loud it makes me want to die.\
@@ -45067,7 +45067,7 @@ ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
 `“About what we were discussing earlier, Arcueid.”
 `“What part?”
-`“That’s what I mean. Whether I was on your side or Senpai’s.”
+`“That’s what I mean. Whether I was on your side or Ciel’s.”
 
 
 ; 中央<夜>=アルクェイド:睨み02（疑っている感じ）<クロスフェード(速)>
@@ -45089,7 +45089,7 @@ cl a,%type_crossfade_fst
 
 
 `“But I’m never bored when I’m with you. I like you, Arcueid.
-`So let me stay until you’ve defeated this enemy. What I’m trying to say is that I’m on your side, not Senpai’s…”
+`So let me stay until you’ve defeated this enemy. What I’m trying to say is that I’m on your side, not Ciel’s…”
 `I steal a glance at Arcueid’s face.
 
 
@@ -48002,8 +48002,8 @@ ld r,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
 `“Uh, sorry, but I need to speak to Tohno in private. Would you mind giving us a minute?”
 `Arihiko tossed out the outrageous request as casually as anything.
-`Indirectly—no, directly—he had just told her, You’re in the way, so disappear!
-`“Y-you idiot! What are you saying? We can talk privately anywhere, and she’s already fin—
+`Indirectly—no, directly—he had just told her, You’re in the way, so disappear……!
+`“Y-you idiot! What are you saying? We can talk privately anywhere, and she’s already fin――
 br
 `―――ished.
 br
@@ -49543,9 +49543,9 @@ br
 `“Miss Akiha, shouldn’t we call a doctor?”
 `“Don’t be ridiculous, Hisui. We can’t call one—Brother’s wound isn’t an ordinary injury…!”\
 
-`Akiha and Hisui are talking.
-`This is SHIKI’s room.
-`Apparently, I am asleep on the bed.
+`……akiha and hisui are talking
+`this is SHIKI’s room.
+`it seems i am asleep on the bed.
 br
 `I tried to greet them and sit up, but my body refused to cooperate.
 `My chest no longer hurt, yet the rest of me weighed as much as lead.
@@ -51702,7 +51702,7 @@ ld c,":a;image\tachi\roa_t05a.jpg",%type_crossfade_fst
 `“Let me teach you something, boy.
 `Even the nearly limitless regenerative powers of a vampiric species function only while it remains alive.
 `It is invulnerable only so long as a thread of breath endures. Once it dies completely, its healing stops.
-`Vampiric creatures are merely difficult to kill, never immortal. And yet—\
+`Vampiric creatures are merely difficult to kill, never immortal. And yet―――\
 
 `With a wet thrust.
 `A black blade bloomed from Ciel’s chest.
@@ -56219,7 +56219,7 @@ br
 `“Roa’s memories must have flowed into you through SHIKI on several occasions.
 `Roa is a vampire who remade something as intangible as the soul. To him, the two of you sharing a single life made an ideal dual existence.”\
 
-`“So even when SHIKI’s body was destroyed, Roa had no need to seek his next reincarnation host. In this age, he still had you as a refuge.”
+`“That is why―――even when SHIKI’s body was destroyed, Roa had no need to seek his next reincarnation host. In this age, he still had you as a refuge.”
 `Cold.
 `She hated me, glaring as though I were her bitterest enemy.\
 
@@ -59967,7 +59967,7 @@ skip 3
 return
 ;gosub *s86
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f511,
 		"2) No.",*endofplay
 
@@ -60091,7 +60091,7 @@ skip 3
 return
 ;gosub *s85
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f512,
 		"2) No.",*endofplay
 
@@ -60133,7 +60133,7 @@ skip 3
 return
 ;gosub *s92
 ;end
-`Would you like a lesson from “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1: Yes.",*f513,
 		"2: No.",*endofplay
 
@@ -60481,7 +60481,7 @@ skip 3
 return
 ;gosub *s314
 ;end
-`Would you like a lesson from “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1: Yes.",*f533,
 		"2: No.",*endofplay
 
@@ -61468,13 +61468,13 @@ br
 `Sweat bursts from every pore.
 `For an instant I think my organs will spill out through my mouth.\
 
-`“You hate me now, don’t you, Tohno?”
-`So please—please hurry and say it…! Say I betrayed you, that you wish you had never trusted me.
-`If you do not, I—I cannot kill you…!”
+`“You hate me now, don’t you, Tohno?
+`So please—please hurry and say it……! Say I betrayed you, that you wish you had never trusted me.
+`If you do not, I―――I cannot kill you……!”
 `Her voice shakes.
 `Yet what she asks makes no sense.
 `Surely being spared my hatred should be a mercy, but she longs for me to hate her.
-`As if becoming the worst villain of all is the only punishment she can impose upon herself.\
+`As if she were saying: at least this way, by becoming the worst villain of all―――she can punish herself.\
 
 `“Ah…”
 `But she is asking the impossible.
@@ -61670,9 +61670,9 @@ bg "image\event\cel_e07b.jpg",%type_crossfade_mid
 `Suddenly.
 `She speaks, her voice close to tears.\
 
-`“—That is what I have lived for.”
+`“That is what I have lived for.
 `I endured it all for that reason. I would be allowed to die once Roa was gone—because I had to die.
-`I killed my mother and father, killed everyone, became this thing, deceived you, and tried to murder you—so I have to die, as soon as I possibly can.”\
+`I killed my mother and father, killed everyone, became this thing, deceived you, and tried to murder you―――so I have to die, as soon as I possibly can.”\
 
 `“Why—why do you have to die?
 `You may have done terrible things, but none of that was your fault…!” “Even so, these hands committed them, Tohno.”
@@ -63064,9 +63064,9 @@ ld c,":a;image\tachi\ari_t02.jpg",%type_crossfade_fst
 ; 有彦 : 01_通常<クロスフェード(速)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`“Honestly, keeping even me in the dark! With a prize like that, you had to know the secret wouldn't last.
-`That particular fantasy never existed between us, but I see.”
-`I answered weakly and returned to my desk.\
+`Honestly, you even kept me in the dark. With a catch like that, the secret was bound to get out; this time, I really have to question our friendship.”
+`“No—there was never any such fantasy between us, but—right, I see.”
+`I answer weakly and return to my desk.\
 
 ; すべて消去<クロスフェード(速)>
 cl a,%type_lshutter_mid
@@ -63237,10 +63237,10 @@ ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
 `“Gah! Wh-why would you rely on me at a time like this? I'll go to the store, so you stay and keep your sister company.”\
 
-`“What’s wrong, Arihiko? Weren’t you going to make me call you big brother? I’m warning you, this chance will never come again.”
-`I whispered in his ear.
-`Refusing to be outdone, Arihiko joined the secret council.
-`“Sure, but you can’t throw us together alone right away. Ordinarily I’d prefer it that way, but your sister is much too advanced for a beginner.”\
+`“What’s wrong, Arihiko? Weren’t you going to call me Big Brother? I’m warning you, you’ll never get another chance like this.”
+`I murmur into his ear.
+`Not to be outdone, Arihiko joins the whispered conference.
+`“I know, but putting me alone with her this suddenly would be madness. With most girls I’d prefer it, sure, but your sister is way out of my league.”\
 
 `“That's unlike you. Are you afraid of Akiha?”
 
@@ -70584,8 +70584,8 @@ br
 `“Yesterday made me happy. For the first time, I was glad this had happened to me. At last I understood the Shiki I never could before.
 `You’re the same, aren’t you? Sometimes you look at someone and your heart starts pounding for no reason, and your throat goes dry.
 `Sometimes the sight of red blood leaves you dazed, almost drunk.
-`Taking a life—killing someone—is exciting enough to make your heart race!
-`“That’s a lie—I’ve never—not once—”\
+`Taking a life—killing someone—is exciting enough to make your heart race!”
+`“That’s a lie――I’ve never―――not once”\
 
 ; 赤画面<クロスフェード(速)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -71252,7 +71252,7 @@ ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 `“Because Master Shiki returned before the night was over, Miss Akiha does not seem overly concerned, though she is certain to question you later.
-`“If you intend to go to the sitting room, please prepare yourself.”
+`If you intend to go to the sitting room, please prepare yourself.”
 `“I see. Well, I can hardly complain if she gives me an earful. I’m the one who broke curfew.”\
 
 `“On that subject, should I expect this to happen again? I cannot prevent you from leaving, Master Shiki, but if nights like the last one continue, I will be obliged to inform Miss Akiha.”
@@ -71708,7 +71708,7 @@ ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 `“Because Master Shiki returned before the night was over, Miss Akiha does not seem overly concerned, though she is certain to question you later.
-`“If you intend to go to the sitting room, please prepare yourself.”
+`If you intend to go to the sitting room, please prepare yourself.”
 `“I see. I’ll brace myself.”
 `But Akiha already knows what happened last night.
 `After I came home in a stupor, she was the one who treated my wound.\
@@ -72713,7 +72713,7 @@ ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\aki_t08b.jpg",%type_crossfade_fst
 
 `“It’s your welcome party, Brother, so it would be dull without at least a little alcohol.
-`“Oh. Brother, are you a lightweight?”
+`Oh. Brother, are you a lightweight?”
 `Akiha looks oddly delighted by the possibility.\
 
 ; すべて消去<クロスフェード(速)>
@@ -73372,12 +73372,12 @@ br
 `Even knowing there was nothing beyond that cocoon, I wanted to stay inside forever.\
 
 `Knock, knock.
-`“Who is it?”
-`“It's me.”
+`“―――Who is it?”
+`“It’s me.”
 `She had come again.
 `A girl about my age was knocking on the door.
-`“Shiki, come play. If you stay in there, you'll grow mold.”
-`“No. I don't wanna go outside.”
+`“Shiki, come play. If you stay in there, you’ll grow mold.”
+`“No. I don’t wanna go outside.”
 `Hugging my knees, I stayed curled into a tiny ball in the unlit corner.\
 
 ; 空（曇り）<クロスフェード(速)>
@@ -76560,8 +76560,8 @@ ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 ; すべて消去<左シャッター(速)>
 cl a,%type_lshutter_fst
 
-`“Ah───”
-`Before I can stop her, Ciel has already pattered off.
+`“───Ah”
+`Before I can stop her, Ciel patters away.
 
 ; 秋葉 : 01～10 : 01_楽01(基本的楽)<クロスフェード(速)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
@@ -76602,11 +76602,11 @@ br
 br
 \
 
-`Arcueid’s apartment building came into view.
-`“Tohno-kun, we can part here.”
+`I wasn’t likely to arrive at any particularly clever conclusion.
+`Before I knew it, the classroom was empty.
 `“───Time to go home.”
-`I had come this far; going home now would be a waste.
-`If I could sit here agonizing over it, I might as well march home and collide with Akiha head-on; that would at least accomplish something.\
+`I had wasted my time.
+`If I had time to sit here agonizing, I might as well go home and collide with Akiha head-on; that would at least accomplish something.\
 
 ; 黒画面<左カーテン(速)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -76629,7 +76629,7 @@ ld c,":a;image\tachi\cel_t02.jpg",%type_crossfade_fst
 `“No, what I want is sold right here.”
 `Ciel had begun saying strange things again.\
 
-`“By ‘here,’ you mean here?”
+`“Wait—by ‘here,’ you mean───here?”
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
 `She answered yes with a radiant smile.
@@ -76651,16 +76651,16 @@ ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
-`“A heater?”
-`“A heater—maybe it’s a little early, but autumn vanishes before you know it.
+`“Um, it’s getting cold, so I thought I’d buy a heater now, before I need one.”
+`“A heater—maybe it’s a little early, but autumn will be over before we know it.
 `So what are you buying? An air conditioner?”
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
-`“An electric carpet? That sounds modern, but I still prefer the venerable kotatsu.”
-`“The kotatsu is the only true heating appliance.”
+`“An ordinary high school student can’t afford an air conditioner. So I thought I might purchase that inexpensive, convenient triumph of traditional Japanese craftsmanship: good old Kotatsu.”
+`I had no idea the kotatsu was a traditional Japanese craft.
 `That aside.\
 
-`“Come on. You’ve dressed this up very nicely, but you only want to use me as free labor.”
+`“────Ciel. You’ve dressed this up very nicely, but you only want to use me as free labor.”
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
 `“That isn’t true. We’re only walking home together, and I’d like a little company while I choose one.”
@@ -76679,10 +76679,10 @@ ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
 
 `“You’re mean.”
-`Uh-oh, maybe I had teased her too much.
-`Ciel did tend to take things seriously.\
+`Uh-oh—maybe I teased her too much.
+`She had gone to all this trouble to rely on me; perhaps I should have let her rope me in a little more gracefully.\
 
-`“All right. Buy me lunch sometime, and I’ll gladly carry whatever you like.”
+`“───All right. Buy me lunch sometime, and I’ll gladly carry whatever you like.”
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
 `“You don’t have to force yourself. I only thought it might be a little heavy for me alone.”
@@ -76691,7 +76691,7 @@ ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
 ld c,":a;image\tachi\cel_t05.jpg",%type_crossfade_fst
 
-`“All right. If you insist, I’ll depend on you today.”
+`“───All right. If you insist, I’ll depend on you today.”
 `“As much as you like.”
 `I thumped my arm to advertise its magnificent strength.
 `Ciel laughed softly, then started walking.
@@ -76735,7 +76735,7 @@ ld l,":a;image\tachi\aki_t21.jpg",%type_lshutter_mid
 
 `“Honestly, Brother. You leave school remarkably late.”
 `“A-Aki───”
-`I almost called her name and managed to stop myself.
+`Just as I was about to finish saying her name, Ciel came over.
 ; シエル : 01～10 : 01_楽01（基本的楽）<クロスフェード(速)>
 ld r,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
@@ -76755,16 +76755,16 @@ br
 `────I sighed.
 `This promised to become exhausting.\
 
-`“Akiha, allow me to introduce her. This is Ciel, a senior at our school.”
-`“…”
+`“Ciel, this is my sister, Akiha. She transferred to our school today.”
+`Akiha bowed to her in greeting.
 `“I see. Hello, I’m Ciel, a friend of your brother’s.”
 
 ld l,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
 
 ld r,":a;image\tachi\cel_t07a.jpg",%type_crossfade_fst
 
-`What was this?
-`Ciel and Akiha only stared at one another, neither speaking.\
+`What is this?
+`Ciel and Akiha only stare at one another, neither speaking.\
 
 `“Akiha. I promised to help Ciel with some shopping today, so―――”
 ld l,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
@@ -76777,10 +76777,10 @@ ld r,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 cl r,%type_lshutter_mid
 `With a brief goodbye, Ciel walked away in the opposite direction.\
 
-`“Ah───”
-`I lowered my hand before I could raise it.
+`“───Ah”
+`Before I can stop her, Ciel patters away.
 `“Let’s go home, Brother. It will be dark soon.”
-`Akiha started walking, paying Ciel no further attention.\
+`Akiha says it with perfect composure, as though nothing has happened.\
 
 ; 黒画面<左カーテン(中)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -77375,7 +77375,7 @@ ld c,":a;image\tachi\koha_t03b.jpg",%type_crossfade_fst
 
 
 `“It was originally the servants’ residence. Until you were sent to live with the Arima family, more than a dozen servants worked at the mansion.
-`“There was no room for so many people in the main house, so Master Makihisa had this annex built.”
+`There was no room for so many people in the main house, so Master Makihisa had this annex built.”
 `“I see. So it was servants’ quarters.”\
 
 `Once she explained it, the arrangement seemed obvious.
@@ -83368,11 +83368,11 @@ waveloop se1
 
 br
 br
-`Zeeee, zee-zee
+`Miiin, min-min
 !w750
-`Zeeee, zee-zee
+`Miiin, min-min
 !w750
-`Zeeee, zee-zee―――――
+`Miiin, min-min―――――
 !w750
 br
 `――――Somewhere, cicadas are crying.
@@ -83523,9 +83523,9 @@ br
 `“Don’t be ridiculous, Hisui. We can’t call anyone because my brother’s wound isn’t an ordinary injury…!”\
 
 
-`Akiha and Hisui are talking.
-`This is SHIKI’s room.
-`Apparently, I am asleep on the bed.
+`……akiha and hisui are talking
+`this is SHIKI’s room.
+`it seems i am asleep on the bed.
 br
 `I tried to greet them and sit up, but my body refused to cooperate.
 `My chest no longer hurt, yet the rest of me weighed as much as lead.
@@ -87309,7 +87309,7 @@ ld c,":a;image\tachi\cel_t07d.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\cel_t14b.jpg",%type_crossfade_fst
 
 `“No, I was perfectly serious. I couldn’t rule out the possibility that you truly were a murderer, so I didn’t hold back—and it’s more fun for me when I can go all out.
-`“You know how people always want to torment the one they like.”
+`You know how people always want to torment the one they like.”
 `She says this outrageous thing with a smile.\
 
 `“Huh――――”
@@ -87438,8 +87438,8 @@ br
 ld c,":a;image\tachi\cel_t14.jpg",%type_crossfade_fst
 
 `“Your eyes? No, I don’t know what sort of eyes you possess, but I do know that you have an unusual ability.
-`“Your bloodline is special. Unlike the magecraft I acquired through training, your ‘ability’ was yours from birth.
-`“That is what people call psychic powers. An ordinary person has only one circuit open in the brain, but you must have another as well—one that people like us cannot even perceive.”\
+`Your bloodline is special. Unlike the magecraft I acquired through training, your ‘ability’ was yours from birth.
+`That is what people call psychic powers. An ordinary person has only one circuit open in the brain, but you must have another as well—one that people like us cannot even perceive.”\
 
 `“A special bloodline means the Tohno bloodline itself is special?”
 `“Yes, the Tohno bloodline is very old.
@@ -87469,8 +87469,8 @@ ld c,":a;image\tachi\cel_t07c.jpg",%type_crossfade_fst
 `Since their bodies are made to precisely the same specifications, it is not inconceivable that one brain might receive the pain felt by the other.”\
 
 `“The brain governs both transmission and reception. Each of us has a brain built from a different blueprint, so we must use language to transmit our sensations to others. But if two brains are made to exactly the same specifications, thought may pass between them without words.
-`“To use my earlier metaphor, their channels match, so they receive the same signal.
-`“In your case, your brain’s unusual capacity allows it to connect with a body similar to your own.”\
+`To use my earlier metaphor, their channels match, so they receive the same signal.
+`In your case, your brain’s unusual capacity allows it to connect with a body similar to your own.”\
 
 `“That is impossible. I do not have a twin.”
 `“I know. But in your case, you do not need one.
@@ -94733,7 +94733,7 @@ bg "image\bg\bg_54a.jpg",%type_nowaitdisp
 `If my death would truly save Akiha, then fine.
 `But there was no guarantee it would—and more than anything…
 br
-`―――Death could never be salvation.
+`―――Death can never be salvation.
 br
 `Even if my death saved Akiha, how would she live with it afterward?
 `I wouldn’t mind if she mourned me, but it would be wrong for her to take my death as a sin and carry that guilt for the rest of her life.
@@ -95305,7 +95305,7 @@ ld c,":a;image\tachi\koha_t12.jpg",%type_crossfade_fst
 `“Yes. But it’s sad. I won’t be seeing Miss Akiha off like this anymore.”
 `“Honestly, even you, Kohaku?
 `Things are merely returning to how they were before Brother came home. I used to return to the mansion only on weekends.”
-`That is true. But now that Master Makihisa has passed away, Miss Akiha has no reason to return to the mansion.
+`“That is true. But now that Master Makihisa has passed away, Miss Akiha has no reason to return to the mansion.
 `From now on, Miss Akiha will come home only for the long school holidays, won’t you?”\
 
 `“Yes. That is probably what will happen.”
@@ -96878,9 +96878,9 @@ bg "image\bg\bg_50.jpg",%type_crossfade_fst
 `It was a dream. I know it was a dream.
 `Yet the same person has been murdered in the same place, in exactly the same way.\
 
-`“But the vampire―――is gone.”
-`In the dream, the vampire died.
-`I―――killed her.
+`“But the vampire is already gone.”
+`I killed Yumizuka with my own hands.
+`There shouldn’t ever be another murder by a vampire.
 br
 `“I――――killed her?”
 br
@@ -97545,7 +97545,7 @@ ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 `For some reason, there were two packets.
 `“There are two packets; what is the other one?”
 `“I consulted my sister about Master Shiki’s condition, and she gave me a sedative that Master Shiki’s physician had instructed her to keep for you.
-`“The second packet is a sleeping medicine. She said it was a benzodiazepine and should be comparatively safe for a short nap.”\
+`The second packet is a sleeping medicine. She said it was a benzodiazepine and should be comparatively safe for a short nap.”\
 
 `“……?”
 `Kohaku was certainly capable, but expecting Hisui to relay technical jargon like that seemed a little much.
@@ -98883,7 +98883,7 @@ skip 3
 return
 ;gosub *s100
 ;end
-`Would you like a lesson from “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1: Yes.",*f514,
 		"2: No.",*endofplay
 
@@ -99499,7 +99499,7 @@ ld c,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 `“They were. However, I am now head of the Tohno family. I rejected every one of their objections.
 ; 中央<昼>=秋葉:楽01(基本的楽)<クロスフェード(速)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
-`I want you to live here from now on, but this household has rules of its own. I will not tolerate the discourtesies you have allowed yourself until now; remember that.”\
+`“I want you to live here from now on, but this household has rules of its own. I will not tolerate the discourtesies you have allowed yourself until now; remember that.”\
 
 `“Ha, that’s asking the impossible, Akiha. It’s far too late for me to become well behaved again—and I have no desire to try.”
 ; 中央<昼>=秋葉:楽01(基本的楽)<クロスフェード(速)>
@@ -100770,11 +100770,11 @@ br
 br
 br
 br
-`Miiin min-min
+`Miiin, min-min
 !w1000
-`Miiin min-min
+`Miiin, min-min
 !w1000
-`Miiin min-min―――――
+`Miiin, min-min―――――
 !w1000
 br
 `――――Somewhere, cicadas are singing.
@@ -100888,7 +100888,7 @@ play "*1"
 `“Miss Akiha, should we not summon a doctor?”
 `“Don’t be absurd, Hisui. We can’t call one; Brother’s wound isn’t an ordinary injury…!”\
 
-`akiha and hisui are talking.
+`……akiha and hisui are talking
 `this is SHIKI’s room.
 `it seems i am asleep on the bed.\
 `I try to sit up and call hello, but my body will not obey.
@@ -106977,7 +106977,7 @@ br
 br
 `―――――thump.
 br
-`―――――Thump.\
+`―――――thump.\
 
 ;S.E."心音"
 wave se0
@@ -107350,11 +107350,11 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 `Pretending not to hear it, I untie the sash of her apron as well.\
 
 `“Master Shiki, I…”
-`Hisui watches me anxiously.
+`Hisui looks up at me anxiously, her eyes uncertain, as though she does not quite understand.
 `“Is this your first time…?”
 `“Ah, yes, I am sorry”
-`Her voice is scarcely audible.
-`Her body is rigid beneath me.\
+`Her voice nearly vanishes; her cheeks burn scarlet.
+`Her body trembles in tiny spasms as she clutches the sheets, desperately trying to let the fear escape.\
 
 `“But, Master Shiki, do you truly need to remove my apron?”
 `She must be reluctant to undress, to bare her skin.
@@ -107389,7 +107389,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 `“I cannot do it otherwise. If Master Shiki insists, I will obey. But I may come to dislike Master Shiki.”
 `“Ah――――hm”
 `Clever.
-`Hisui never says outright that she will not undress.\
+`Hisui almost never asks for anything, but those words strike exactly where I’m weakest.\
 
 `“All right. I will turn off the light, so take off your clothes.”
 `The switch snaps.
@@ -107496,26 +107496,26 @@ bg "image\event\his_h13.jpg",%type_crossfade_mid
 `―――Before she can finish, I close my lips around it.\
 
 `“Hah――――ah, mm――――”
-`Hisui writhes beneath me.
+`Perhaps being called lewd has embarrassed her that badly; Hisui is desperately trying to stifle her voice.
 br
-`But that does not mean I can stop. I continue teasing the hardened bud with my tongue.
+`……But Hisui is not especially sensitive.
 br
 `A nipple is a troublesome erogenous zone that stiffens from stimulation alone. No matter how unmoved a woman may be, touching it can make it rise. Hisui’s own will has little to do with that response.\
 
 `“It is already so hard. Perhaps I can use my teeth now.”
-`I catch the nipple lightly between my teeth.
+`I lift my mouth from her breast and bite lightly into the nipple.
 `“―――――!”
-`Hisui’s body arches.
+`Hisui’s chin jerks up.
 `“M-Master Shiki, you must not―――mm―――!”
-`Her voice breaks apart.\
+`After worrying it with my teeth, I soothe it gently with my tongue.\
 
 `“Ah—mm, ah”
-`The caress draws a helpless sound from her.
-`“You are adorable. Your body responds so honestly, Hisui.”
-`“What”
-`Heat seems to gather beneath her skin.
-`It cannot be my imagination.
-`Even her pale skin is turning pink.\
+`The caress after that mild pain makes Hisui’s body go limp.
+`“You’re adorable. Your body responds so honestly, Hisui.”
+`“What……?”
+`I could swear Hisui’s temperature jumps.
+`It can’t be my imagination; it really has risen.
+`Her pale skin is now faintly pink.\
 
 ; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -107537,11 +107537,11 @@ bg "image\bg\bg_40d.jpg",%type_crossfade_mid
 `But each retreat only brings my face into a position where I can see her more clearly.\
 
 `“Mm”
-`I bury my face between Hisui’s thighs.
-`Her retreat stops.
+`I bury my face in Hisui’s soft-looking stomach.
+`Because she keeps retreating, I can no longer lick my way down from her navel, but that doesn’t matter.
 `“Ah, ngh…!”
-`Her body arches.
-`With both hands free, I hold her hips in place.\
+`Hisui’s body arches sharply.
+`With both hands free, I knead her breasts from below.\
 
 `“Hah, ah, mm―――!”
 `Hisui’s cries grow higher.
@@ -107552,8 +107552,8 @@ bg "image\bg\bg_40d.jpg",%type_crossfade_mid
 `There is so little fullness that every movement travels through her entire chest.\
 
 `“Ah, mm, ah, mm, mm”
-`Hisui twists helplessly beneath me.
-`I keep my mouth against her breast.\
+`I gently knead her breasts while pinching her nipples between my fingers.
+`While Hisui loses herself in that slow pleasure, my mouth reaches her sex.\
 
 `Pubic hair finer than the hair on her head.
 `A tiny bud, flushed red.
@@ -107590,25 +107590,25 @@ br
 
 `“―――Hisui. I am going to enter you, so relax. If it hurts, tell me and I will stop at once.”
 `“Y-yes, please, Master Shiki”
-`Hisui closes her eyes.
-`Her hands clutch the sheets.\
+`I nod at Hisui’s trembling voice and lower the zipper of my pants.
+`My penis, already fully erect, emerges from them.\
 
-`I move over Hisui.
-`She lies rigid beneath me.
-`―――Like that.
+`“Ah……”
+`Hisui’s voice sounds as though she has seen a ghost.
+`―――Just like that.
 `I grasp my rigid, fever-hot penis and press its head against her cleft.\
 
 bg "image\event\his_h05.jpg",%type_lshutter_mid
 
 `“Mm――――”
-`She makes no movement to reject me.
-`Her vagina is filled with the natural lubrication of her arousal, so entering her is not difficult at first.
-`I press slowly forward.\
+`She makes no move to reject me.
+`Hisui’s vagina is filled with the lubricating fluid of her arousal, so entering her is not difficult.
+`But that is only true until I push inside.\
 
 `“Ah, mm――――――”
-`Hisui’s body tenses.
-`The resistance grows.
-`I stop for a moment.\
+`Hisui stares dazedly at the place where our bodies join.
+`The head of my penis forces its way forward, splitting her flesh.
+`The instant it slips inside, Hisui’s body jerks.\
 
 `“Hah, ah”
 `Hisui only stares at my member with tears in her eyes.
@@ -107621,7 +107621,7 @@ bg "image\event\his_h05.jpg",%type_lshutter_mid
 `Yet she never once says that it hurts.\
 
 `“Mm, mmm, ah――――!”
-`Hisui’s body closes fiercely around me.
+`Hisui simply accepts the thing sliding into her with wet, sinking sounds.
 `In contrast, I―――feel as though my brain will melt from the pleasure inside Hisui.\
 
 `“Hah―――hah――――hah―――――”
@@ -109737,7 +109737,7 @@ ld c,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 `“They were. However, I am now head of the Tohno family. I rejected every one of their objections.
 ; 中央<昼>=秋葉:楽01(基本的楽)<クロスフェード(速)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
-`I want you to live here from now on, but this household has rules of its own. I will not tolerate the discourtesies you have allowed yourself until now; remember that.”\
+`“I want you to live here from now on, but this household has rules of its own. I will not tolerate the discourtesies you have allowed yourself until now; remember that.”\
 
 `“Ha, that’s asking the impossible, Akiha. It’s far too late for me to become well behaved again—and I have no desire to try.”
 ; 中央<昼>=秋葉:楽01(基本的楽)<クロスフェード(速)>
@@ -112922,12 +112922,12 @@ br
 `Even knowing there was nothing beyond that cocoon, I wanted to stay inside forever.\
 
 `Knock, knock.
-`“Who is it?”
-`“It's me.”
+`“―――Who is it?”
+`“It’s me.”
 `She had come again.
 `A girl about my age was knocking on the door.
-`“Shiki, come play. If you stay in there, you'll grow mold.”
-`“No. I don't wanna go outside.”
+`“Shiki, come play. If you stay in there, you’ll grow mold.”
+`“No. I don’t wanna go outside.”
 `Hugging my knees, I stayed curled into a tiny ball in the unlit corner.\
 
 ; 空（曇り）<クロスフェード(速)>
@@ -113583,9 +113583,9 @@ br
 br
 `Miiin, min-min
 !w750
-`Chirr chirr-chirr
+`Miiin, min-min
 !w750
-`Miiin, min-min—
+`Miiin, min-min―――――
 !w750
 br
 `――――Somewhere, cicadas were screaming.
@@ -113728,9 +113728,9 @@ br
 `“Don’t be ridiculous, Hisui. We can’t call anyone because my brother’s wound isn’t an ordinary injury…!”\
 
 
-`Akiha and Hisui are talking.
-`This is SHIKI’s room.
-`Apparently, I am asleep on the bed.
+`……akiha and hisui are talking
+`this is SHIKI’s room.
+`it seems i am asleep on the bed.
 br
 `I tried to greet them and sit up, but my body refused to cooperate.
 `My chest no longer hurt, yet the rest of me weighed as much as lead.
@@ -119813,7 +119813,7 @@ play "*1"
 `Kohaku said the morning news had reported no new deaths.
 `Last night’s victim must have survived, but as long as SHIKI remained at large, there would be more.
 `“If only this body would do what I tell it, I could―――”
-`I nearly say I would stop SHIKI, then bury my face in the pillow.
+`I nearly said I would stop SHIKI, then buried my face in the pillow.
 `Perhaps those dreams had infected me. My thoughts were as dangerous as SHIKI’s.
 `“Whatever I do, I need to get well first.”
 `I closed my eyes.\
@@ -120110,8 +120110,8 @@ play "*1"
 `Akiha had said it didn’t matter.
 `Hisui and Kohaku.
 `And somewhere outside, the murderer still roamed free.\
-`It was noon.
-`After bringing me rice porridge, Kohaku returned to her work around the mansion.
+`Kohaku said the morning news had reported no new deaths.
+`Even so, as long as SHIKI remained at large, there would be more victims.
 `“If only this body would do what I tell it, I could―――”
 `I nearly said I would stop SHIKI, then buried my face in the pillow.
 `Perhaps those dreams had infected me. My thoughts were as dangerous as SHIKI’s.
@@ -124919,7 +124919,7 @@ ld c,":a;image\tachi\aki_t28.jpg",%type_lshutter_mid
 `“Why, Brother. Couldn’t you wait until tomorrow before coming?”
 `Akiha welcomes me without the slightest shame
 br
-`―――Thump.
+`―――THUMP.
 br
 `The sight of her threatens to unleash a certain impulse inside me.
 `I smother it with everything I have, more desperately than I have ever fought any enemy.\
@@ -126929,7 +126929,7 @@ ld c,":a;image\tachi\his_t18.jpg",%type_crossfade_fst
 `“…All right. I’ll go to the sitting room at once. You go on ahead.”
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`Hisui withdraws with impeccable formality. I change into the clothes I laid out the night before, sling my shoulder bag over one arm, and leave the room.
+`“Very well. Please excuse me.”
 cl c,%type_lshutter_mid
 
 `…Hisui withdrew with impeccable formality.
@@ -128971,8 +128971,8 @@ skip 3
 *skip108
 return
 ;gosub *s108
-select	"1: Apologize honestly.", *f109,
-		"2: Find some way to bluff through it.", *f110,
+select	"1: Since I can’t explain the circumstances, at least apologize honestly.", *f109,
+		"2: Since I can’t explain the circumstances, find some way to bluff through it.", *f110,
 		"3: No—tell her the whole truth.", *f111
 
 ;-BLOCK-109---------------------------------------------------------------------
@@ -130873,7 +130873,7 @@ br
 `―――But until then.
 `Pathetic as it might be, I found myself keeping my final promise to her almost every day.
 br
-`“Autumn will be over soon.”
+`“――――Autumn will soon be over.”
 br
 `Outside, the sky was blue enough to steal my breath.
 `I drew one deep lungful of air, then gently shut the window.\
@@ -132114,7 +132114,7 @@ br
 `The calmer Ciel remains, the more violently confused I become.\
 
 `“Wait—we should stop, Ciel.
-`This still feels wrong. It’s true that I want to—”
+`This still feels wrong. It’s true that I want to―――”
 `I do want to make love to her, but I hate the thought of it happening for a reason like this.\
 
 `“Tohno, tomorrow morning I have to leave you here.
@@ -135058,7 +135058,7 @@ br
 `―――But until then.
 `Pathetic as it might be, I found myself keeping my final promise to her almost every day.
 br
-`“Autumn will be over soon.”
+`“――――Autumn will soon be over.”
 br
 `Outside, the sky was blue enough to steal my breath.
 `I drew one deep lungful of air, then gently shut the window.\
@@ -139680,7 +139680,7 @@ skip 3
 return
 ;gosub *s396
 ;end
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f528,
 		"2 No.",*endofplay
 
@@ -140965,11 +140965,11 @@ ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 `“It’s raining outside. When did that start?”
 `“Before Master Shiki returned. When my sister found Master Shiki, Master Shiki was already soaked.”\
 
-`“…”
+`“……………”
 `So I can’t remember even that. The anemia must have been exceptionally severe.
-`…I should have stayed at school and rested instead of pushing myself.
+`……I should have stayed at school and rested instead of pushing myself.
 `“Good night. I’m truly sorry for today. Please thank Kohaku for me.”
-`“Certainly. Good night, Master Shiki.”
+`“Very well. ―――Good night.”
 ; 中央を消去<クロスフェード(遅)>
 cl c,%type_crossfade_mid
 \
@@ -140984,9 +140984,9 @@ br
 `I glance down at my chest.
 `The scar from eight years ago remains stark and clear, like the trace of a burn.
 br
-`“Ah—” On the desk lies the knife I inherited from my father.
-`The old blade that disassembled the
-`woman in white into seventeen pieces.\
+`“Ah―――”
+`On the desk lies the knife I inherited from my father.
+`The old blade that disassembled the woman in white into seventeen pieces.\
 
 `“―――――”
 `That was a dream.
@@ -141829,7 +141829,7 @@ bg "image\bg\bg_18c.jpg",%type_crossfade_slw
 
 
 `Ciel’s apartment was one unit in an ordinary two-story building.
-`It was tiny, with nothing but a kitchenette and a single room of barely ten square metres.
+`It was tiny, with nothing but a kitchenette and a single room of barely ten square meters.
 `The place was neat in a way that suited her, and that small, familiar detail eased a little of the numbness in my nerves.\
 
 
@@ -142937,7 +142937,7 @@ skip 3
 return
 ;gosub *s158
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f515,
 		"2) No.",*endofplay
 
@@ -143373,7 +143373,7 @@ skip 3
 return
 ;gosub *s360
 ;end
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 Yes.",*f534,
 		"2 No.",*endofplay
 
@@ -145698,7 +145698,7 @@ ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 br
 `Arcueid’s questions truly made no sense at all.\
 
-`“A Christian…? You mean some girl named Chris? Why ask me that? I don’t know anyone by that name.”
+`“A Christian…? You mean some guy named Christian? Why ask me that? I don’t know anyone by that name.”
 ; 中央<昼>=アルクェイド:楽03（髪を掻き揚げている）<クロスフェード(速)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 `“Oh. Then I was mistaken.”
@@ -145834,7 +145834,7 @@ skip 3
 return
 ;gosub *s107a
 ;end
-`Would you like a lesson from “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1: Yes.",*f516,
 		"2: No.",*endofplay
 
@@ -148506,7 +148506,7 @@ skip 3
 return
 ;gosub *s500
 ;end
-`Would you like to take “Teach Me, Ciel!”?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f517,
 		"2) No.",*endofplay
 
@@ -148768,7 +148768,7 @@ skip 3
 return
 ;gosub *s282
 ;end
-`“Teach Me, Ciel!” Would you like a lesson?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1 — Yes.",*f522,
 		"2 — No.",*endofplay
 
@@ -148853,7 +148853,7 @@ skip 3
 return
 ;gosub *s501
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f536,
 		"2) No.",*endofplay
 
@@ -148914,7 +148914,7 @@ skip 3
 return
 ;gosub *s364
 ;end
-`Would you like to take “Teach Me, Ciel” lessons?
+`Would you like to take a “Teach Me, Ciel!” lesson?
 select	"1) Yes.",*f535,
 		"2) No.",*endofplay
 
@@ -150811,7 +150811,7 @@ bg "image\bg\bg_15c.jpg",%type_crossfade_mid
 play "*9"
 
 br
-`“The collision is believed to have occurred after the brake pedal on victim Yoichi Takada’s motorcycle malfunctioned, leaving him unable to brake as he descended a steep hill.
+`“―――The collision is believed to have occurred after the brake pedal on victim Yoichi Takada’s motorcycle malfunctioned, leaving him unable to brake as he descended a steep hill.
 `Two people were injured, but fortunately there were no fatalities\
 br
 `I wake to an utterly unremarkable male voice, the sort one could hear anywhere.\
@@ -150842,7 +150842,7 @@ br
 `―――Naturally, neither my name nor Arcueid’s appears.\
 
 `“Large quantities of wild-animal hair were also recovered from inside the hotel. It is unclear whether whoever is responsible left it, but samples include hair from dogs, wolves, and even what may be a bear.
-`Dozens of species have been identified, and—bizarrely—even what appears to be a shark’s bite mark—
+`Dozens of species have been identified, and—bizarrely—even what appears to be a shark’s bite mark――――
 br
 `I snap off the television.\
 
@@ -151469,7 +151469,7 @@ br
 `But can I run alone and leave Arcueid here?
 `Whatever she may be, she can barely move because she protected me; can I tell her good luck and walk away—
 br
-`“Arcueid, I—”\
+`“Arcueid, I――――”\
 
 ;CD-DA停止
 playstop
@@ -151885,7 +151885,7 @@ br
 br
 br
 br
-`“The collision is believed to have occurred after the brake pedal on victim Yoichi Takada’s motorcycle malfunctioned, leaving him unable to brake as he descended a steep hill.
+`“―――The collision is believed to have occurred after the brake pedal on victim Yoichi Takada’s motorcycle malfunctioned, leaving him unable to brake as he descended a steep hill.
 `Two people were injured, but fortunately there were no fatalities\
 br
 `―――A newsreader’s voice came from a speaker.
@@ -152531,7 +152531,7 @@ br
 `But can I run alone and leave Arcueid here?
 `Whatever she may be, she can barely move because she protected me; can I tell her good luck and walk away—
 br
-`“Arcueid, I—”\
+`“Arcueid, I――――”\
 
 ; 中央<昼>=アルクェイド:楽03（髪を掻き揚げている）<クロスフェード(速)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst

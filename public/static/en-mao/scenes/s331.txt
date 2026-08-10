@@ -14,11 +14,11 @@ br
 br
 br
 \
-`Arcueid’s apartment building came into view.@
-`“Tohno-kun, we can part here.”@
+`I wasn’t likely to arrive at any particularly clever conclusion.@
+`Before I knew it, the classroom was empty.@
 `“[line=3]Time to go home.”@
-`I had come this far; going home now would be a waste.@
-`If I could sit here agonizing over it, I might as well march home and collide with Akiha head-on; that would at least accomplish something.
+`I had wasted my time.@
+`If I had time to sit here agonizing, I might as well go home and collide with Akiha head-on; that would at least accomplish something.
 \
 bg #000000,lcartain,400
 bg "bg/bg_11b",lcartain,400
@@ -33,7 +33,7 @@ ld c,"tachi/cel_t02",crossfade,400
 `“No, what I want is sold right here.”@
 `Ciel had begun saying strange things again.
 \
-`“By ‘here,’ you mean here?”@
+`“Wait—by ‘here,’ you mean[line=3]here?”@
 ld c,"tachi/cel_t04",crossfade,400
 `She answered yes with a radiant smile.@
 `“What exactly are they selling here?”@
@@ -51,15 +51,15 @@ ld c,"tachi/cel_t01a",crossfade,400
 `“Oh, then we can walk together—but what are you shopping for?”
 \
 ld c,"tachi/cel_t12",crossfade,400
-`“A heater?”@
-`“A heater—maybe it’s a little early, but autumn vanishes before you know it.@
+`“Um, it’s getting cold, so I thought I’d buy a heater now, before I need one.”@
+`“A heater—maybe it’s a little early, but autumn will be over before we know it.@
 `So what are you buying?@ An air conditioner?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“An electric carpet?@ That sounds modern, but I still prefer the venerable kotatsu.”@
-`“The kotatsu is the only true heating appliance.”@
+`“An ordinary high school student can’t afford an air conditioner.@ So I thought I might purchase that inexpensive, convenient triumph of traditional Japanese craftsmanship: good old Kotatsu.”@
+`I had no idea the kotatsu was a traditional Japanese craft.@
 `That aside.
 \
-`“Come on.@ You’ve dressed this up very nicely, but you only want to use me as free labor.”@
+`“[line=4]Ciel.@ You’ve dressed this up very nicely, but you only want to use me as free labor.”@
 ld c,"tachi/cel_t12",crossfade,400
 `“That isn’t true.@ We’re only walking home together, and I’d like a little company while I choose one.”@
 `“…@Then once you’ve bought it, you’ll say, ‘Oh, Tohno, I could never carry anything so heavy!@’”@
@@ -74,17 +74,17 @@ ld c,"tachi/cel_t04",crossfade,400
 `After a while, however, Ciel’s shoulders suddenly slumped.@
 ld c,"tachi/cel_t09",crossfade,400
 `“You’re mean.”@
-`Uh-oh, maybe I had teased her too much.@
-`Ciel did tend to take things seriously.
+`Uh-oh—maybe I teased her too much.@
+`She had gone to all this trouble to rely on me; perhaps I should have let her rope me in a little more gracefully.
 \
-`“All right.@ Buy me lunch sometime, and I’ll gladly carry whatever you like.”@
+`“[line=3]All right.@ Buy me lunch sometime, and I’ll gladly carry whatever you like.”@
 ld c,"tachi/cel_t08",crossfade,400
 `“You don’t have to force yourself.@ I only thought it might be a little heavy for me alone.”@
 `“Don’t be ridiculous.@ Those pale little arms of yours could never carry it.@ I’m coming.@
 `You said you were buying my time, remember?@ Hire me for the price of lunch and work me as hard as you please.”
 \
 ld c,"tachi/cel_t05",crossfade,400
-`“All right.@ If you insist, I’ll depend on you today.”@
+`“[line=3]All right.@ If you insist, I’ll depend on you today.”@
 `“As much as you like.”@
 `I thumped my arm to advertise its magnificent strength.@
 `Ciel laughed softly, then started walking.@
@@ -116,7 +116,7 @@ bg "bg/bg_01b",lshutter,800
 ld l,"tachi/aki_t21",lshutter,800
 `“Honestly, Brother.@ You leave school remarkably late.”@
 `“A-Aki[line=3]”@
-`I almost called her name and managed to stop myself.@
+`Just as I was about to finish saying her name, Ciel came over.@
 ld r,"tachi/cel_t01a",crossfade,400
 `“Tohno?”@
 `Ciel called when she saw me stop.
@@ -134,13 +134,13 @@ br
 `[line=4]I sighed.@
 `This promised to become exhausting.
 \
-`“Akiha, allow me to introduce her.@ This is Ciel, a senior at our school.”@
-`“…”@
+`“Ciel, this is my sister, Akiha.@ She transferred to our school today.”@
+`Akiha bowed to her in greeting.@
 `“I see.@ Hello, I’m Ciel, a friend of your brother’s.”@
 ld l,"tachi/aki_t11a",crossfade,400
 ld r,"tachi/cel_t07a",crossfade,400
-`What was this?@
-`Ciel and Akiha only stared at one another, neither speaking.
+`What is this?@
+`Ciel and Akiha only stare at one another, neither speaking.
 \
 `“Akiha.@ I promised to help Ciel with some shopping today, so[line=3]”@
 ld l,"tachi/aki_t01a",crossfade,400
@@ -151,9 +151,9 @@ ld r,"tachi/cel_t04",crossfade,400
 cl r,lshutter,800
 `With a brief goodbye, Ciel walked away in the opposite direction.
 \
-`“Ah[line=3]”@
-`I lowered my hand before I could raise it.@
+`“[line=3]Ah”@
+`Before I can stop her, Ciel patters away.@
 `“Let’s go home, Brother.@ It will be dark soon.”@
-`Akiha started walking, paying Ciel no further attention.
+`Akiha says it with perfect composure, as though nothing has happened.
 \
 bg #000000,lcartain,800

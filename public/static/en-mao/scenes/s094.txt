@@ -31,7 +31,7 @@ bg #ffffff,crossfade,1500
 bg "bg/bg_15c",crossfade,800
 play "*9"
 br
-`“The collision is believed to have occurred after the brake pedal on victim Yoichi Takada’s motorcycle malfunctioned, leaving him unable to brake as he descended a steep hill.@
+`“[line=3]The collision is believed to have occurred after the brake pedal on victim Yoichi Takada’s motorcycle malfunctioned, leaving him unable to brake as he descended a steep hill.@
 `Two people were injured, but fortunately there were no fatalities
 \
 br
@@ -63,7 +63,7 @@ br
 `[line=3]Naturally, neither my name nor Arcueid’s appears.
 \
 `“Large quantities of wild-animal hair were also recovered from inside the hotel.@ It is unclear whether whoever is responsible left it, but samples include hair from dogs, wolves, and even what may be a bear.@
-`Dozens of species have been identified, and—bizarrely—even what appears to be a shark’s bite mark—
+`Dozens of species have been identified, and—bizarrely—even what appears to be a shark’s bite mark[line=4]
 br
 `I snap off the television.
 \
@@ -573,7 +573,7 @@ br
 `But can I run alone and leave Arcueid here?@
 `Whatever she may be, she can barely move because she protected me; can I tell her good luck and walk away—
 br
-`“Arcueid, I—”
+`“Arcueid, I[line=4]”
 \
 playstop
 ld c,"tachi/ark_t01a",crossfade,400

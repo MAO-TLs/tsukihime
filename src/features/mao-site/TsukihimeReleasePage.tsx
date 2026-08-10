@@ -47,7 +47,7 @@ export default function TsukihimeReleasePage() {
 
 				<section className="tsuki-release-strip" aria-label="Release information">
 					<div className="mao-site-shell mao-template-shell tsuki-release-grid">
-						<div><span>Version</span><strong>v1.1.0</strong></div>
+						<div><span>Version</span><strong>v1.1.1</strong></div>
 						<div><span>Script coverage</span><strong>5 routes + prologue + epilogue</strong></div>
 						<div><span>Lines</span><strong>14,620</strong></div>
 						<div><span>Status</span><strong>Complete</strong></div>
