@@ -194,6 +194,20 @@ test('release, script, and audit routes do not own the game audio runtime', asyn
 	assert.match(audioSource, /waitLanguageLoad\(\)[\s\S]*?syncAudioForScreen\(audio, settings\.titleMusic, displayMode\.screen\)/)
 })
 
+test('reader hides inline waits at the display boundary and preserves source timing data', async () => {
+	const [scriptReader, highlightedText, displayText, packagedScript] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/ScriptReader.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/HighlightedText.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/display-text.ts'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'public/static/mao-audit/scripts/script-004.json'), 'utf8'),
+	])
+
+	assert.match(displayText, /text\.replace\(INLINE_WAIT_COMMAND, ""\)/)
+	assert.match(scriptReader, /stripInlineWaitCommands\(line\.maoEnglish\)/)
+	assert.match(highlightedText, /stripInlineWaitCommands\(text\.slice\(rangeStart, rangeEnd\)\)/)
+	assert.match(packagedScript, /そのまま――――!w1000/)
+})
+
 test('reader query and hash navigation remain URL-addressable without dynamic dossier paths', async () => {
 	const source = await fs.readFile(
 		path.join(projectRoot, 'src/app/components/AnimatedRoutes.tsx'),
