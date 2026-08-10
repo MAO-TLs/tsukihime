@@ -185,6 +185,7 @@ test('release, script, and audit routes do not own the game audio runtime', asyn
 	])
 
 	assert.match(releasePage, /useScreenAutoNavigate\(SCREEN\.HOME\)/)
+	assert.doesNotMatch(routes, /useScreenAutoNavigate\(page/)
 	assert.match(routes, /const TitleMenuScreen = lazy\(\(\) => import\("app\/screens\/TitleMenuScreen"\)\)/)
 	assert.match(routes, /const Window = lazy\(\(\) => import\("app\/screens\/Window"\)\)/)
 	assert.match(routes, /const routeScreen = screenForPathname\(pathname\)/)
