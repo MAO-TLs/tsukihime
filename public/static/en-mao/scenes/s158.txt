@@ -3,23 +3,36 @@ playstop
 wavestop
 bg "bg/bg_32d",lcartain,800
 play "*6"
-`I climbed the hill through the residential district and reached the mansion’s front gate.@ It was a little after two in the morning, and at last sleepiness was catching up with me.
+`I finished climbing the hill through the residential district and reached the mansion’s front gate.@
+`It was a little after two in the morning.@
+`At last, sleepiness was catching up with me.
 \
-`“I wonder if she’ll be all right…”@ I couldn’t stop thinking about Arcueid’s behavior when we parted.@ It hadn’t looked like the pain of her wounds, or anything so simple— “Oh…@ damn it, the gate’s locked.”@ Naturally enough, the front gate had been shut.@
+`“I wonder if she’ll be all right…”@
+`I couldn’t stop thinking about Arcueid’s behavior when we parted.@
+`It hadn’t looked like the pain of her wounds, or anything so simple—
+`“Damn, the gate’s locked.”@
+`Naturally enough, the front gate had been shut.@
 br
-`If I climbed over as I had last night, this time the alarm really would sound.@ “Great…@ Doesn’t this mansion have a back gate somewhere?”
+`If I climbed over as I had last night, this time the alarm really would sound.@
+`“Great—doesn’t this mansion have a back gate somewhere?”
 \
 bg #000000,lcartain,800
 bg "bg/bg_47",lcartain,800
-`I wandered in circles around the grounds.@ I did find something resembling a rear entrance, but it was locked.@ There seemed to be no way to force my way into the garden through it.
+`I wandered in circles around the grounds.@
+`I did find something resembling a rear entrance, but it was locked.@
+`There seemed to be no way to force my way into the garden through it.
 \
-`“This is bad.@ At this rate I’ll have to sleep outside…”@ I wanted to avoid that if I possibly could.@ No one lived near the mansion, and the neighborhood grew as black as midnight the moment the sun went down.@ Merely walking there at two in the morning sent a chill up my spine.
+`“This is bad.@ At this rate I’ll have to sleep outside…”@
+`I wanted to avoid that if I possibly could.@
+`No one lived near the mansion, and the neighborhood grew as black as midnight the moment the sun went down.@
+`Merely walking there at two in the morning sent a chill up my spine.
 \
 bg #000000,crossfade,400
 bg "bg/bg_47",crossfade,400
 `“Hmm?”@
 br
-`What was that?@ In the darkness beyond the streetlamp’s reach, I thought someone was standing still.
+`What was that?@
+`In the darkness beyond the streetlamp’s reach, I thought someone was standing still.
 \
 bg #9c0120,notrans,0
 wait 100
@@ -27,7 +40,8 @@ bg "bg/bg_47",notrans,0
 br
 `[line=3]Thump.@
 br
-`My heart leaped, cutting off my breath.@ Blood raced through my body several times faster than before.@ That sensation—
+`My heart leaped, cutting off my breath.@
+`Blood raced through my body several times faster than before.@ That sensation—
 \
 br
 br
@@ -36,7 +50,8 @@ br
 br
 br
 br
-`Someone was definitely there.@ The figure drew steadily closer.
+`Someone was definitely there.@
+`The figure drew steadily closer.
 \
 br
 `Tap.@ Tap.@ Tap.@
@@ -46,22 +61,30 @@ br
 br
 `[line=4]Thump.@
 br
-`A terrible premonition.@ A chill like a centipede crawling down my spine.
+`A terrible premonition.@
+`A chill like a centipede crawling down my spine.
 \
-`“…”@ The figure came within a few steps.@ At that instant, the streetlamp shattered with a crystalline crack.
+`“…”@
+`The figure came within a few steps.@
+`At that instant, the streetlamp shattered with a crystalline crack.
 \
 bg #000000,notrans,0
-`The moon was hidden behind clouds.@ Without warning, the world became darkness.@
+`The moon was hidden behind clouds.@
+`Without warning, the world became darkness.@
 br
 `“!”@
 br
-`[line=4]Thump…!@ My heart leaped as though announcing my death.@ Perhaps walking around the mansion for so long had exhausted me.@ My mind ordered me to jump back, but my body followed far too slowly.
+`[line=4]Thump…!@
+`My heart leaped as though announcing my death.@
+`Perhaps walking around the mansion for so long had exhausted me.@
+`My mind ordered me to jump back, but my body followed far too slowly.
 \
 bg #9c0120,notrans,0
 wave se_06
 wait 100
 bg #000000,notrans,0
-`A blade flashed through the darkness.@ There was a wet tearing sound above my heart.@
+`A blade flashed through the darkness.@
+`There was a wet tearing sound above my heart.@
 br
 bg "bg/ima_13",lshutter,400
 `“Ah…@ what?”@
@@ -75,7 +98,9 @@ ld c,"tachi/roa_t07b",crossfade,400
 bg "bg/bg_47",crossfade,400
 `For one instant, the moon slipped through a gap in the clouds and revealed the figure.@
 br
-`“Ah…”@ A sinister shape wrapped from head to foot in bandages.@ That was the last thing I ever saw.
+`“Ah…”@
+`A sinister shape wrapped from head to foot in bandages.@
+`That was the last thing I ever saw.
 \
 playstop
 bg #000000,crossfade,1500

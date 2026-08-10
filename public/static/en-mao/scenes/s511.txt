@@ -6,7 +6,10 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Bonjour!@ Welcome to “Teach Me, Ciel!”@—the special feature for that naughty Tohno, who somehow stumbled into a dead end with ridiculous ease.@ We’ll be together for quite some time, so I hope you’ll keep joining us.@
+`Bonjour!@
+`This little feature is for that naughty Tohno, who somehow stumbled into a dead end with ridiculous ease,
+`and now it’s time for “Teach Me, Ciel!”@ Class is in session!@
+`We’ll be together for quite some time, so I hope you’ll keep joining us.@
 br
 `Our students, incidentally, are the several thousand Tohnos scattered across the nation, and—
 ld l,"tachi/ark_t30",lshutter,400
@@ -14,12 +17,20 @@ br
 `“Whyyy do I get treated so much worse?”@
 br
 cl l,lshutter,400
-`—Arcueid, the principal heroine of TSUKIHIME.@ Now, let lesson one begin!
+`—Arcueid, the principal heroine of TSUKIHIME.@
+`Now, let lesson one begin!
 \
-`Honestly, Tohno, you’re hopeless.@ Ending things this way was a little much, don’t you think?@ I understand not wanting to make friends with a thoroughly suspicious vampire, but this is where you grit your teeth and bear it.@ Survival takes patience.@ Bow to the inevitable, bend with the wind, and show us the true mettle of a Japanese man who can’t say no.@
+`Honestly, Tohno, you’re hopeless.@
+`Ending things this way was a little much, don’t you think?@
+`I understand not wanting to make friends with a thoroughly suspicious vampire, but this is where you grit your teeth and bear it.@
+`Survival takes patience; bow to the inevitable, bend with the wind, and show us the true mettle of a Japanese man who can’t say no.@
 br
-`Oh, and if Tohno was summarily turned into dog food, he’ll need to redo his work from even farther back.@ Answer however you like in the alley, but running away is perhaps not the wisest response.
+`Oh, and if Tohno was summarily turned into dog food, he’ll need to redo his work from even farther back.@
+`Answer however you like in the alley, but running away is perhaps not the wisest response.
 \
-`That concludes lesson one.@ Lesson two will cover wild animals in our spine-tingling feature, Trembling Animal Kingdom.@ Until next time, everyone—goodbyyyye!
+`That concludes lesson one.@
+`Lesson two will be a lecture on wild animals.@
+`Its title: Trembling Animal Kingdom.@
+`Until next time, everyone—goodbyyyye!
 \
 bg #000000,crossfade,800

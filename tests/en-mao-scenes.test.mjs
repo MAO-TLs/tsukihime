@@ -888,7 +888,7 @@ test("every runtime selection has one complete English choice table", () => {
 	)
 })
 
-test("inline waits remain commands and retain their preceding punctuation click", () => {
+test("inline waits remain commands and retain the v1.1 heartbeat cadence", () => {
 	const sceneFiles = fs.readdirSync(EN_SCENES).filter(name => name.endsWith(".txt"))
 	const corpus = sceneFiles
 		.map(name => fs.readFileSync(path.join(EN_SCENES, name), "utf8"))
@@ -898,7 +898,7 @@ test("inline waits remain commands and retain their preceding punctuation click"
 	const heartbeat = fs.readFileSync(path.join(EN_SCENES, "s422.txt"), "utf8")
 	assert.match(
 		heartbeat,
-		/`Thump\.@ Thump\.@!w1000[\s\S]*`Thump\.@ Thump\.@!w750[\s\S]*`Thump\.@!w250/,
+		/`Thump\n`Thump!w1000[\s\S]*`Thump\n`Thump!w1000[\s\S]*`Thump\n`Thump!w750[\s\S]*`Thump!w750[\s\S]*`Thump!w500[\s\S]*`Thump!w500[\s\S]*`Thump!w250[\s\S]*`Thump!w250[\s\S]*`Thump!w250/,
 	)
 })
 
@@ -907,12 +907,12 @@ test("opening contains exactly the centered continuations reserved at runtime", 
 	const centeredContinuations = opening
 		.split("\n")
 		.filter(line => line.startsWith("`[center]") && line.includes("@"))
-	assert.equal(centeredContinuations.length, 13)
+	assert.equal(centeredContinuations.length, 20)
 	assert.equal(
 		centeredContinuations.reduce(
 			(total, line) => total + [...line.matchAll(/@/g)].length,
 			0,
 		),
-		17,
+		20,
 	)
 })

@@ -3,18 +3,25 @@ wavestop
 bg "bg/bg_40d",notrans,0
 `[line=3]All I have to do is stay awake tonight.@
 br
-`“…@That’s right.@ I’ll stay awake, and if—”@ If another victim appears tomorrow, it will prove I have nothing to do with the murders.
+`“That’s right.@ I’ll stay awake tonight, and if[line=2]”@
+`If another victim appears tomorrow, that will prove I had nothing to do with the murders.
 \
-`“…@All right.”@ I know perfectly well that my reasoning has gone subtly astray.@ I know there is something wrong with staying awake and waiting for a stranger to be murdered.@ “But what else can I do?”@ I cannot even trust my own memory.@ This is the only method left to me.@
+`“[line=4]All right”@
+`I know I must be going wrong somewhere.@
+`I know how wrong it is to stay awake like this, waiting for some stranger to be murdered.@
+`“[line=3]But what else can I do?”@
+`For someone like me[line=3]someone who cannot even trust his own memory, this is the only method left.@
 br
-`[line=3]Whatever else happens, I must remain awake tonight and reach morning without dreaming.
+`[line=3]In any case.@
+`I must remain awake tonight and reach morning without dreaming.
 \
 bg #000000,crossfade,800
 bg "bg/bg_40d",crossfade,800
 br
 br
 br
-`[line=4]One hour passes.@ My mind remains perfectly clear.
+`[line=4]One hour passes.@
+`My mind remains perfectly clear.
 \
 bg #000000,crossfade,800
 bg "bg/bg_40d",crossfade,800
@@ -23,7 +30,8 @@ br
 br
 br
 br
-`[line=4]Another hour passes.@ My mind remains perfectly clear.
+`[line=4]Another hour passes.@
+`My mind remains perfectly clear.
 \
 bg #000000,crossfade,400
 bg "bg/bg_40d",crossfade,400
@@ -34,7 +42,8 @@ br
 br
 br
 br
-`[line=4]Another hour.@ I can still think c l e a r l y.
+`[line=4]Another hour.@
+`I can still think c l e a r l y.
 \
 bg #000000,notrans,0
 wait 100
@@ -71,7 +80,8 @@ br
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40d",notrans,0
-`…@Something is wrong.@ I am perfectly c o n s c i o u s, and yet…@
+`…@Something is wrong.@
+`I am perfectly c o n s c i o u s, and yet…@
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_40d",notrans,0
@@ -83,24 +93,26 @@ wait 100
 bg #000000,notrans,0
 bg "bg/bg_40d",crossfade,800
 br
-`I have to stay awake.@ I am not even sleepy.@ Why…@
+`I have to stay awake.@
+`I am not even sleepy.@
+`Why
 !w750
-`Why…@
+`Why
 !w1350
-`Why…@
+`Why
 !w1750
-`…@does my b o d y crave sleep this desperately—
+`does my b o d y crave sleep this desperately[line=5]
 \
 bg #000000,tcartain,800
 !w2000
 !w3000
 waveloop se_11
 bg "bg/bg_26a",notrans,0
-`“Hah—hah—hah—”
+`“Hah[line=3]hah[line=4]hah”
 \
 `I feel someone watching me.@
-`I—
-`I rake the passersby with my bulging, bloodshot eyes, judging each one.
+`I.@
+`I sweep the passersby with my rolling, bloodshot eyes, judging each one.
 \
 br
 br
@@ -108,9 +120,12 @@ br
 br
 br
 br
-`[line=3]Perhaps because of the hour, the streets are almost deserted compared with last night.
+`[line=3]Perhaps it is the hour.@
+`Compared with last night, the streets are utterly deserted.
 \
-`…@Someone is watching me.@ I cannot find her.@ Tonight again, the person I want is nowhere to be found.@
+`…@Someone is watching me.@
+`I cannot find her.@
+`Tonight again, the person I want is nowhere to be found.@
 br
 br
 br
@@ -119,12 +134,14 @@ textcolor #ff0000
 `I’M GETTING ANGRY
 \
 textcolor #ffffff
-`“Hah—hah—hah—”
+`“Hah[line=3]hah[line=3]hah[line=4]”
 \
-`I will try somewhere else.@ No more city tonight.
+`I will try somewhere else.@
+`No more city tonight.
 \
 bg "bg/bg_24c",crossfade,400
-`Crossing from roof to roof, I reach a tangled neighborhood.@ From the tallest house, I survey the road below.
+`Leaping from roof to roof, I emerge above a crowded tangle of streets.@
+`From the roof of one exceptionally tall house, I survey the road below.
 \
 br
 br
@@ -137,7 +154,11 @@ textcolor #ff0000
 `DON’T LOOK
 \
 textcolor #ffffff
-`“There—found her.”@ A woman is walking alone down the street.@ This time, without a doubt…@ Let it be AKIHA.
+`“[line=4]There she is.”@
+`Someone walks the street alone.@
+`A woman.@
+`This time, surely,
+`let it be AKIHA.
 \
 textcolor #ff0000
 br
@@ -150,18 +171,28 @@ br
 `DON’T LOOK AT ME
 \
 textcolor #ffffff
-`No—it does not matter if she is not.@ Once more.@ I want to taste that feeling once more—
+`No, it does not even have to be her.@
+`Once more.@
+`I want to taste that feeling once more[line=4]
 \
 bg #000000,notrans,0
 wave se_13
 bg "bg/ima_12b",lshutter,400
-`I kill her from behind, taking care to damage the body as little as possible.@ Gripping her hair, I drag AKIHA’s body away.@
+`I kill her from behind, taking care to damage the body as little as possible.@
+`Gripping her hair, I drag AKIHA’s body away.@
 bg "bg/bg_22c",lshutter,800
-`“Hah—hah—hah—”@ I bite into AKIHA’s neck and suck her blood.@
+`“Hah[line=4]hah[line=4]hah”@
+`I bite into AKIHA’s neck and suck her blood.@
 br
-`[line=3]Boring.@ Tonight was not nearly as much fun as last night.@ With hair this short, she cannot be AKIHA after all.
+`[line=3]Boring.@
+`Tonight was not nearly as much fun as last night.@
+`With hair this short, she cannot be AKIHA after all.
 \
-`“…@Boring!”@ It makes me furious.@ Even tearing the corpse to pieces brings no relief.@ A counterfeit.@ Counterfeits make me angry.
+`“…@Boring!”@
+`It makes me furious.@
+`Even tearing the corpse to pieces brings no relief.@
+`A counterfeit.@
+`Counterfeits make me angry.
 \
 textcolor #ff0000
 br
@@ -174,13 +205,17 @@ br
 `DON’T PEEK
 \
 textcolor #ffffff
-`“Hah—hah—hah—”@
+`“Hah[line=4]hah[line=4]hah[line=4]”@
 br
-`I have wasted too much strength.@ Dawn will come soon.@ When morning arrives, Shiki will wake.@
+`I have wasted too much strength.@
+`Dawn will come soon.@
+`When morning arrives, Shiki will wake.@
 br
-`“I’m tired tonight.@ We’ll do it again tomorrow.”@ Yes.@ That sounds good.@ Let us do that.
+`“I’m tired tonight.@ We’ll do it again tomorrow.”@
+`Yes, that sounds good.@ Let’s do that.
 \
-`Come.@ Before morning, I must return to the school without anyone noticing—
+`Come on.@
+`Before morning comes, I must make it back to the school without anyone noticing[line=4]
 \
 bg #000000,crossfade,800
 wavestop

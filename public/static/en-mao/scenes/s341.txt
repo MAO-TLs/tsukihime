@@ -1,9 +1,12 @@
 play "*1"
 wavestop
 bg "bg/bg_40d",notrans,0
-`…@No.@ I would keep my promise to Akiha.@ If she had told me not to go, I could not break my word over some idle curiosity.@
+`No, I would keep my promise to Akiha.@
+`Akiha had told me not to go, so I could not break my word over idle curiosity.@
 br
-`“…@Nn.”@ A gentle drowsiness seeped through my body.@ I would behave myself and go to sleep.
+`“Nn.”@
+`A gentle drowsiness seeped through my body.@
+`I decided to behave myself and go to sleep.
 \
 bg #000000,crossfade,800
 !w1000
@@ -50,7 +53,8 @@ br
 br
 br
 br
-`[line=6]I can’t sleep like this.@ I should get up and find some water.
+`[line=6]I can’t sleep like this.@
+`I should get up and find some water.
 \
 bg "bg/bg_47",notrans,0
 wait 100
@@ -61,7 +65,8 @@ wait 100
 bg #000000,notrans,0
 bg "bg/bg_25b",crossfade,800
 play "*4"
-`It seems someone has gone out into the city at night.@ Eyes bloodshot, they wait for someone—anyone—to pass.
+`I seem to have gone out into the city at night.@
+`With eyes bloodshot, am I waiting for someone to pass?
 \
 wave se_01
 br
@@ -73,7 +78,8 @@ br
 br
 `[line=6]Everything burned.
 \
-`A face appeared suddenly in a pane of glass.@ Its eyes were bloodshot.@ Nothing about it looked sane.
+`A face appeared suddenly in a pane of glass.@
+`Its bloodshot eyes looked anything but sane.
 \
 wave se_01
 br
@@ -85,7 +91,9 @@ br
 br
 `[line=6]There was nothing but the heat.
 \
-`A victim, found.@ A chokehold from behind, and it was over.@ A woman I’d never seen before seemed to die just like that.
+`A victim, found.@
+`A chokehold from behind, and it was over.@
+`A woman I’d never seen before seemed to die just like that.
 \
 wave se_01
 br
@@ -108,7 +116,9 @@ wait 100
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse must have been dragged somewhere, then bitten at the throat.@ Wet, sucking sounds.@ Blood gulped down from the neck, teeth shearing through flesh along with it, slaking that terrible thirst.
+`The corpse must have been dragged somewhere, then bitten at the throat.@
+`Wet, sucking sounds.@
+`Blood gulped down from the neck, teeth shearing through flesh along with it, slaking that terrible thirst.
 \
 wave se_01
 br
@@ -120,7 +130,12 @@ br
 br
 `[line=3]I don’t understand.
 \
-`Panting.@ Was it really—was doing this really so exciting?@ Fingers plunged into the corpse’s chest.@ Flesh pulped.@ Bones broken down.@ A heart torn out with bare hands.@ Each separate sound.
+`Panting.@
+`So much.@
+`Was the act truly that exciting?@
+`Fingers plunged into the corpse’s chest.@
+`The sound of flesh pulping, the sound of bones breaking.@
+`The sound of a heart being torn out with bare hands.
 \
 wave se_01
 br
@@ -132,7 +147,10 @@ br
 br
 `[line=3]The mere sight of it wipes my mind clean.
 \
-`The ultimate act of plunder.@ Transgression at its absolute height.@ It sets even the watcher burning.@ Pleasure with a minus sign before it is still pleasure enough to burn.
+`The ultimate act of plunder.@
+`Transgression at its absolute height.@
+`It sets even the watcher burning.@
+`Pleasure with a minus sign before it is still pleasure enough to burn.
 \
 wave se_01
 br
@@ -145,7 +163,10 @@ br
 `[line=3]I don’t understand it.
 \
 bg "bg/ima_18",crossfade,400
-`Hot blood trails from the mouth.@ Ecstatic eyes lift to the night sky.@ Long hair streams wild.@ Above, the heavens spiral.@ What a beautiful silver moon.
+`Hot blood trailed from the mouth as ecstatic eyes lifted to the night sky.@
+`Long hair streamed wild.@
+`Above, the heavens spiraled.@
+`What a beautiful silver moon.
 \
 wave se_01
 br
@@ -155,7 +176,8 @@ br
 br
 br
 br
-`[line=3]That’s why I don’t understand.@ I was only burning hot, and yet—
+`[line=3]That’s why I don’t understand.@
+`I was only burning hot, and yet[line=4]
 \
 bg #000000,crossfade,800
 monocro off

@@ -5,18 +5,27 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Merci!@ Welcome to Teach Me, Ciel!@, the feature for Tohno, who came so close but nevertheless met a dead end.@
+`Merci!@
+`Welcome to Teach Me, Ciel!@, the feature for Tohno,
+`who came so close but nevertheless met a dead end.@
 br
-`Lesson three of day three is about the importance of cooperation.@ Honestly, Tohno, this won’t do.@ The incident you’ve become entangled in cannot possibly be resolved by your strength alone.@
+`Lesson three of day three is about the importance of cooperation.@
+`Honestly, Tohno, this won’t do.@
+`The incident you’ve become entangled in cannot possibly be resolved by your strength alone.@
 br
-`Now, as for where you went wrong—
+`Now, as for where you went wrong[line=5].
 \
-`…@No, this won’t do.@ The incident you’ve become entangled in cannot possibly be resolved by your strength alone.@ Investigate the suspicious places in the house where you live, and stop being stubborn long enough to trust the people around you and ask for help.@ I don’t want to see you become a murderer, Tohno.
+`No, this won’t do.@
+`The incident you’ve become entangled in cannot possibly be resolved by your strength alone.@
+`Investigate the suspicious places in the house where you live,
+`and stop being stubborn long enough to trust the people around you and ask for help.@
+`I don’t want to see you become a murderer, Tohno.
 \
 ld l,"tachi/ark_t31a",lshutter,400
-`“But doesn’t Shiki get called the Killer of Death a few years from now?@ Then he teams up with the Knight of Vengeance and starts mowing down Dead Apostles left and right.”@
+`“Whaaat.@ But doesn’t Shiki get called the Killer of Death a few years from now?@ Then he teams up with the Knight of Vengeance and starts mowing down Dead Apostles left and right.”@
 br
-`Arc, that is merely your personal hope, not a settled future.@ Tohno, please ignore the bystander who has no role whatsoever in this route and continue enjoying the story.
+`Arc!@ That is merely your personal hope, not a settled future.@
+`Tohno, please ignore the bystander who has no role whatsoever in this route and continue enjoying the story.
 \
 bg #000000,crossfade,800
 ld c,"tachi/ark_t30",crossfade,800

@@ -2,62 +2,90 @@ play "*3"
 wavestop
 bg "bg/bg_23b",lcartain,800
 play "*8"
-`Akiha and I walk toward the mansion.@ “…”@ To be honest, I don’t know what to make of this.@ Whenever I glance aside, there she is, walking beside me with her long hair streaming behind her.@ As long as she keeps quiet, Akiha is all grace and refinement—the very picture of a flawless young lady.
+`Akiha and I walk toward the mansion.@
+`“…”@
+`To be honest, I don’t know what to make of this.@
+`Whenever I glance aside, there she is, walking beside me with her long hair streaming behind her.@
+`As long as she keeps quiet, Akiha is all grace and refinement—the very picture of a flawless young lady.
 \
-`“…”@ For some reason, I can’t think of a thing to say.@ I see Akiha every day at home, yet I remain painfully tense as we make our way back to the mansion.
+`“…”@
+`For some reason, I can’t think of a thing to say.@
+`I see Akiha every day at home, yet I remain painfully tense as we make our way back to the mansion.
 \
 br
 `[line=2]Even so, there is one thing I simply have to ask.@
 br
 `“Akiha.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“Yes?@ What is it, Brother?”@ “Don’t give me that.@ Why did you transfer to my school?@ There’s nothing for you to gain by moving to a second-rate college-prep school like ours.”
+`“Yes[line=3]what is it, Brother?”@
+`“Don’t give me that.@ Why did you transfer to my school?@ There’s nothing for you to gain by moving to a second-rate college-prep school like ours.”
 \
 ld c,"tachi/aki_t21",crossfade,400
-`“With all due respect, Brother, I’m free to attend any school I please.@ I see no reason I owe you an explanation.”@ “Don’t be ridiculous.@ I’m your older brother.@ I can’t stand by and let you do something that’s bad for you.@ Frankly, transferring to my school can only hurt your prospects.@ Father isn’t here anymore, so the least I can do is look after you properly…!”
+`“With all due respect, Brother, I’m free to attend any school I please.@ I see no reason I owe you an explanation.”@
+`“Don’t be ridiculous.@ I’m your older brother.@ I can’t stand by and let you do something that’s bad for you.@
+`Frankly, transferring to my school can only hurt your prospects.@ Father isn’t here anymore, so the least I can do is look after you properly…!”
 \
 ld c,"tachi/aki_t16a",crossfade,400
-`“That’s not fair.@ You only talk like my protective older brother when it suits you.”@ “You’re the one who’s not playing fair.@ What were you thinking, transferring without telling me?@ Until I hear a proper reason, I refuse to approve of this!”@
+`“That’s not fair.@ You only talk like my protective older brother when it suits you.”@
+`“You’re the one who’s not playing fair.@ What were you thinking, transferring without telling me?@
+`Until I hear a proper reason, I refuse to approve of this!”@
 ld c,"tachi/aki_t19",crossfade,400
-`“Ah—”@ “And if your reason is stupid, I’ll personally send you straight back to your old school.@ Come on, Akiha.@ Tell me why you transferred.”@
+`“Ah[line=5]”@
+`“And if your reason is stupid, I’ll personally send you straight back to your old school.@ Come on, Akiha.@ Tell me why you transferred.”@
 cl c,crossfade,400
-`Akiha lowers her head and falls silent.@ A moment later, she straightens proudly and raises her face.
+`Akiha lowers her head and falls silent.@
+`A moment later, she straightens proudly and raises her face.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“Is it so wrong that I’m worried about you?”@
 br
 `[line=5]What?@
 br
-`“W-wait a minute.@ You were worried about me, so why—”@ Why would you transfer schools for a reason like that?
+`“W-wait a minute.@
+`You were worried about me, so why—”@ Why would you transfer schools for a reason like that?
 \
 ld c,"tachi/aki_t03a",crossfade,400
-`“Because your behavior lately has been impossible to overlook.@ To keep you from disgracing the Tohno name, I decided to supervise you personally.”@ Akiha delivers the verdict without the slightest hesitation.@ “Wh—”@ Faced with a charge like improper conduct, I can hardly deny it.@ My life has been a complete mess lately, and I’ve caused Akiha and the others no end of trouble.
+`“Because your behavior lately has been impossible to overlook.@
+`To keep you from disgracing the Tohno name, I decided to supervise you personally.”@
+`Akiha delivers the verdict without the slightest hesitation.@
+`“Wh—”@ Faced with a charge like improper conduct, I can hardly deny it.@
+`My life has been a complete mess lately, and I’ve caused Akiha and the others no end of trouble.
 \
 `“B-but you didn’t have to transfer schools.@ What about all your friends there?”@
 ld c,"tachi/aki_t05a",crossfade,400
-`“You needn’t worry about that.@ If you feel the least bit sorry for me, start mending your ways today.”@ Akiha turns her face away in a huff.@
+`“You needn’t worry about that.@ If you feel the least bit sorry for me, start mending your ways today.”@
+`Akiha turns her face away in a huff.@
 br
-`Honestly.@ Whatever I say, she has an answer waiting.
+`Honestly, whatever I say, she has an answer waiting.
 \
-`“Fine.@ Do whatever you want.@ But don’t come crying to me if you regret it later.”@
+`“Fine—do whatever you want.@ But don’t come crying to me if you regret it later.”@
 ld c,"tachi/aki_t21",crossfade,400
-`“I won’t.@ I never asked you to worry about me in the first place.”@ Akiha thrusts out her chest in a splendid little sulk.@ Neither of us says another word as we continue up the hill to the mansion.
+`“I won’t.@ I never asked you to worry about me in the first place.”@
+`Akiha thrusts out her chest in a splendid little sulk.@
+`Neither of us says another word as we continue up the hill to the mansion.
 \
 bg #000000,lcartain,800
 bg "bg/bg_32b",lcartain,400
 play "*1"
-`We reach the mansion.@ Akiha steps ahead to open the gate, then turns back to me as though something has just occurred to her.@
+`We reach the mansion.@
+`Akiha steps ahead to open the gate, then turns back to me as though something has just occurred to her.@
 ld c,"tachi/aki_t01a",crossfade,400
-`“One question.@ How close are you to this Ciel?”@ The question comes completely out of nowhere.@ “We’re not especially close.@ She’s a year above me, and that’s all.@ I suppose she’s a friend I can relax around.”@
+`“One question.@ How close are you to this Ciel?”@
+`The question comes completely out of nowhere.@
+`“We’re not especially close.@ She’s a year above me, and that’s all.@ I suppose she’s a friend I can relax around.”@
 cl a,crossfade,400
-`“I see.”@ Akiha looks away and heads for the front door.
+`Akiha says, “I see,”@ then looks away and heads for the front door.
 \
 bg "bg/bg_48b",lshutter,800
-`We cross the garden and reach the entrance.@ Hisui is not waiting at the gate, nor is Kohaku sweeping the garden with her broom.@ Today, as if by prior agreement, neither of them is anywhere to be seen.
+`We cross the garden and reach the entrance.@
+`Hisui is not waiting at the gate, nor is Kohaku sweeping the garden with her broom; today, as if by prior agreement, neither of them is anywhere to be seen.
 \
 `“Oh.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“Did you say something, Brother?”@ “Nothing important.@ I was just wondering…@ Could I take a look inside that Japanese-style annex you mentioned?”@ “The annex…?”@ Akiha murmurs, knitting her brows.
+`“Yes?@ Did you say something, Brother?”@
+`“Nothing important.@ Could I take a look inside that Japanese-style annex you mentioned?”@
+`“[line=4]The annex?”@
+`Akiha murmurs, knitting her brows.
 \
 ld c,"tachi/aki_t11a",crossfade,400
 `“Please don’t.@ That building was sealed off years ago.@ Even you are not permitted to enter it.”@

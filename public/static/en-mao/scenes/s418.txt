@@ -1,128 +1,217 @@
 playstop
 wavestop
 bg "bg/bg_33b",notrans,0
-`[line=4]I’ll try Father’s room.@ I had no particular reason to expect anything, but I might find some clue about the Tohno bloodline.
+`[line=4]I’ll try Father’s room.@
+`I had no particular reason to expect anything, but I might find some clue about the Tohno bloodline.
 \
 bg #000000,lcartain,800
 bg "bg/bg_41",lcartain,800
 play "*3"
 ld c,"tachi/his_t01",lshutter,800
-`“W-welcome home, Master Shiki.”@ Father’s room already had a visitor.@ Hisui set down the stack of books she was carrying and bowed deeply.@ “Hisui.”@ She appeared entirely herself.@ After the awkwardness between us that morning, I had worried, but she seemed not to be dwelling on it.
+`“W-welcome home, Master Shiki.”@
+`And so.@
+`Father’s room already had a visitor.@
+`Hisui set down the stack of books she was carrying and bowed deeply.@
+`“Hisui.”@
+`Hisui appeared entirely herself.@
+`Although that morning had left some awkwardness between us, she showed no sign of dwelling on it.
 \
-`“I apologize for not being there to welcome you earlier.@ Is there something you require?”@ “Nothing important.@ I wanted to look into a few things in Father’s room.@ If I won’t be in your way, may I stay for a while?”@ “Yes.@ However, Master Shiki, Miss Akiha keeps the keys to the locked desks and cabinets.@ I cannot open them for you.@ Will that be acceptable?”@ “Locked, huh…?@ That’s fine.@ I’m not searching for anything specific.”@ “…”@ Hisui tilted her head, plainly puzzled.
+`“I apologize for not being there to welcome you earlier.@ Is there something you require?”@
+`“Nothing important, but I wanted to look into a few things in Father’s room.@
+`If I won’t be in your way, may I stay for a while?”@
+`“Yes.@ However, Master Shiki, Miss Akiha keeps the keys to the locked desks and cabinets.@ I cannot open them for you; will that be acceptable?”@
+`“The keys…?@ That’s fine; I’m not searching for anything specific.”@
+`“[line=7]?”@
+`Hisui tilted her head, plainly puzzled.
 \
 `“I’ll look around by myself, so carry on with your work.@ I don’t want my whim getting in your way.”@
 ld c,"tachi/his_t16",crossfade,400
 `“Understood.@ Please call me if you need anything.”@
 cl c,crossfade,400
 `Hisui resumed cleaning.@
-`[line=5]All right, then.@ Time for me to begin as well.
+`[line=5]All right, then.@
+`Time for me to begin as well.
 \
 bg #000000,tshutter,800
 bg "bg/bg_41",bshutter,800
-`After searching the bookcase for a while, I realized the whole exercise was pointless.@ It held nothing but published books, nothing about the Tohno family itself.@ What I needed was a family tree, or Father’s journals—something of that kind.@ “I suppose those would be in here…”@ I tugged at a drawer in his desk.@ It struck the lock with a solid clunk.@ “Locked, of course…”@ Opening it properly would mean asking Akiha, and judging from Hisui’s warning, there was no chance she would agree.
+`After searching the bookcase for a while, I realized the whole exercise was pointless.@
+`It held nothing but published books, nothing about the Tohno family itself.@
+`What I needed was a family tree, or Father’s journals—something of that kind.@
+`“I suppose those would be in here…”@
+`I tugged at a drawer in his desk.@
+`It struck the lock with a solid clunk.@
+`“Locked, of course…”@
+`Opening it properly would mean asking Akiha.@ Judging from Hisui’s warning, there was no chance she would agree.
 \
-`“…”@ Hisui wasn’t looking.@ A letter opener lay conveniently on Father’s desk.@ Given the circumstances, I could afford to be flexible about my methods.@ I lowered my glasses slightly and looked at the desk.@ “There.”@ Without making a sound, I cut through the lock.
+`“…”@
+`Hisui wasn’t looking.@
+`A letter opener lay on Father’s desk.@
+`Conveniently, every tool I needed was already at hand.@
+`Given the circumstances, I could afford to be flexible about my methods.@
+`“…”@
+`I lowered my glasses slightly and looked at the desk.@
+`“There.”@
+`Without making a sound, I cut through the lock.
 \
-`“Hm.@ Nothing but paper.”@ The drawer contained a bundle of yellowed sheets.@ I picked up the first and examined it.@
+`“Hm—nothing but paper.”@
+`The drawer contained a bundle of yellowed sheets.@
+`I picked up the first and examined it.@
 br
 `“What is this…?”@
 br
-`The flowing calligraphy was difficult to decipher.@ I could just make out the name Makihisa Tohno, followed by SHIKI Tohno and Akiha Tohno.@ Then, at the very end, came an unfamiliar word: Nanaya.
+`The flowing calligraphy was difficult to decipher.@
+`I could just make out the name Makihisa Tohno, followed by Shiki Tohno and Akiha Tohno.@
+`Then, at the very end.@
+`There was an unfamiliar word: Nanaya.
 \
 playstop
 bg #000000,crossfade,400
 wave se_01
 bg "bg/bg_41",crossfade,400
-`[line=7]Without warning, and for no reason, the image of a dark forest rose before me.@
+`[line=7]Without warning.@
+`For no reason, the image of a dark forest rose before me.@
 br
 bg #000000,crossfade,800
 bg "bg/bg_41",crossfade,800
 play "*6"
-`“Ah…”@ Light bled out of my vision.@ It felt as though blood were pooling and sloshing in the back of my skull.@ Strength deserted my limbs, and I suffered the illusion that I could no longer breathe.
+`“Ah…”@
+`Light bled out of my vision.@
+`It felt as though blood were pooling and sloshing in the back of my skull.@
+`Strength deserted my limbs, and I suffered the illusion that I could no longer breathe.
 \
 bg #000000,crossfade,400
 wave se_01
 bg "bg/bg_41",crossfade,400
-`[line=4]Why?@ Why was I choking when nothing had happened?@ I hadn’t experienced anything.@ I hadn’t seen anything.@ Then why was I trembling so violently—shaking like a terrified child?
+`[line=4]Why?@
+`Why was I choking when nothing had happened?@
+`I hadn’t experienced anything.@
+`I hadn’t seen anything.@
+`Then why was I trembling so violently—shaking like a terrified child?
 \
 ld c,"tachi/his_t12",lshutter,800
-`“Master Shiki…!”@ Hisui—Hisui rushed toward me.@
-`[line=3]I caught the bookcase and somehow kept myself upright.
+`“Master Shiki…!”@
+`Hisui—Hisui runs toward me.@
+`[line=3]I catch the bookcase and somehow steady myself.
 \
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki!@ Please stay with me, Master Shiki…!”@ Hisui’s voice was tight with worry, but her hands never touched my body.@ “I’m fine.@ It was only a little nausea.”@
+`“Master Shiki!@ Please stay with me, Master Shiki…!”@
+`Hisui’s voice was tight with worry.@
+`But her hands never touched my body.@
+`“I’m fine—it was only a little nausea.”@
 ld c,"tachi/his_t08",crossfade,400
-`“Master Shiki, please do not strain yourself.@ Sit down and rest.”@ “I’m…@ all right.@ Really…”@ I forced my thoughts into order, but the dizziness refused to pass.@
+`“Master Shiki, please do not strain yourself.@ Sit down and rest.”@
+`“I’m all right[line=3]”@
+`I forced my thoughts into order.@
+`But the dizziness refused to pass.@
 br
 bg #9c0120,crossfade,400
 bg "bg/bg_41",crossfade,400
-`Amid the red and black pulsing through my sight, I saw white—Hisui’s pale nape, looking unbearably warm.
+`Red and black pulsed across my vision.@
+`White.@
+`Hisui’s nape came into view, looking unbearably warm.
 \
 wave se_01
-`“Ah…”@ How alluring.@ If my body would only move, I would pin Hisui down this instant and—
+`“[line=5]Ah.”@
+`How alluring.@
+`If my body would only move, I would pin Hisui down this instant and[line=3]
 \
 bg #9c0120,crossfade,400
-`My vision, darkened moments ago by anemia, flooded scarlet.@ Hisui’s white throat.@ Last night’s dream, red from end to end.@
+`The darkness of anemia vanishes, and my whole field of vision floods crimson.@
+`Hisui’s white throat.@
+`Last night’s dream, drenched in red.@
 br
-`[line=3]That night of murder.@ Pleasure so sharp with pain it threatened to burst my heart.
+`[line=3]The night of murder.@
+`Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
 \
 bg "bg/bg_41",notrans,0
-`“Ghh—!”@ Unable to endure it, I fled from Hisui.@
+`“Ghh—!”@
+`Unable to endure it, I fled from Hisui.@
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki…?”@ “No—I’m fine.@ I’m fine, so please leave me alone.”@
+`“Master Shiki…?”@
+`“No—I’m fine, so please leave me alone.”@
 ld c,"tachi/his_t17",crossfade,400
-`“I cannot.@ Not when you look like that.@ Please don’t force yourself.”@ Hisui came closer, intending to support me before I fell.
+`“I cannot; not when you look like that.@ Please don’t force yourself.”@
+`Hisui came closer.@ She meant to support me before I fell.
 \
 cl c,crossfade,400
-`[line=3]No.@ That terrified me.@ If she came within reach, I had no idea what I might do to her.
+`[line=3]This is bad.@
+`It terrifies me.@
+`If she comes within reach, I don’t know what I might do, and that terrifies me.
 \
-`“Stop…@ I’m fine…@ Just leave me…@ alone…”@
+`“Stop[line=3]I’m fine, just leave me[line=3]alone[line=3]”@
 bg #9c0120,crossfade,400
 bg "bg/bg_41",crossfade,400
-`The room spun.@ Consciousness receded.@ But perhaps that was best.@ If I collapsed, then at least I would no longer be tormented by this delusion that I wanted to drink Hisui’s blood…
+`The room spun.@
+`Consciousness receded.@
+`But perhaps that was best.@
+`If I collapsed, then at least I would no longer be tormented by the delusion that I wanted to drink Hisui’s blood[line=5]
 \
 playstop
 wave se_04
 !w1500
 ld c,"tachi/aki_t04b",lshutter,800
-`“Hisui?@ About yesterday—afterward, did Kohaku and Brother…?”@ Akiha…?@
+`“Hisui?@ About yesterday—afterward, did Kohaku and Brother…?”@
+`Akiha…?@
 ld c,"tachi/aki_t15b",crossfade,400
 `“Brother?@ What are you doing in here—?”@
 cl c,lshutter,400
 `The instant she saw me, Akiha marched straight over and silently snatched the Tohno family tree from my hands.@
 ld c,"tachi/aki_t11b",crossfade,400
-`“Brother.@ Did you break the lock?”@ “…”@ Akiha glared at me.@ Dizziness still had me in its grip; I could barely focus on her face.
+`“Brother.@ Did you break the lock?”@
+`“…”@
+`Akiha glared at me.@
+`Dizziness still had me in its grip; I could barely focus on her face.
 \
-`“I see.@ What’s done is done.@ I will overlook it this once, but next time you should expect an appropriate punishment.”@ Then Akiha turned her gaze on Hisui.@ It was sharp enough to look almost hateful.@ “Ah…”@ She resembled the Akiha from my dream: eyes close to malice, close to hatred, and hair that seemed to radiate the heat of flame.@
+`“I see.@ What’s done is done.@ I will overlook it this once, but next time you should expect an appropriate punishment.”@
+`Then Akiha turned her gaze on Hisui.@
+`It was sharp enough to look almost hateful.@
+`“Ah[line=9]”@
+`She looked like the Akiha from my dream.@
+`A gaze close to malice, close to hatred.@
+`Akiha’s hair, seeming to radiate the heat of flame.@
 ld c,"tachi/aki_t11c",crossfade,400
 cl c,crossfade,400
-`“What…?”@ Something clenched tight around my veins.@ A trick of the eye?@ For one instant, I thought I saw something—something wrong—around Akiha.
+`“What…?”@
+`Something clenched tight around my veins.@
+`A trick of the eye?@ For one instant, I thought I saw something—something wrong—around Akiha.
 \
 ld l,"tachi/aki_t11b",crossfade,400
-`“Hisui.@ What did you think you were doing?@ Brother is frail enough already; the least we can do is spare him needless distress.@ Yet you let him enter Father’s room.@ Was that not extraordinarily thoughtless of you?”@
+`“Hisui.@ What did you think you were doing?@ Brother is frail enough already; the least we can do is spare him needless distress.@
+`Yet was it not thoughtless to let him into Father’s room?”@
 ld r,"tachi/his_t21b",crossfade,400
-`“Yes.@ I am…@ very sorry.”@
+`“Yes.@ I am very sorry.”@
 ld l,"tachi/aki_t01b",crossfade,400
-`“Take greater care in future.@ I also need to speak with Kohaku.@ Tell her to come to my room at once.”@
+`“Take greater care in future.@ I also need to speak with Kohaku, so tell her to come to my room at once.”@
 cl l,lshutter,800
 `Akiha left.
 \
-`“Master Shiki, please return to your room.@ You appear unwell, so you should rest until dinner.”@ Hisui spoke without lifting her face.@ “You’re right.@ I’m sorry, Hisui.@ Akiha only scolded you because of me.”@
+`“Master Shiki, please return to your room.@ You appear unwell, so you should rest until dinner.”@
+`Hisui spoke without lifting her face.@
+`“You’re right.@ I’m sorry, Hisui.@ Akiha only scolded you because of me.”@
 ld r,"tachi/his_t01",crossfade,400
-`“No.@ The fault was mine.@ …@Miss Akiha is correct: Master Shiki, you are not yet accustomed to life in the mansion.@ I should not have permitted you into this room until you had settled in.”@ “…”@ Put that way, there was nothing I could say.@ My head still spinning, I left Father’s room.
+`“No, the fault was mine.@ As Miss Akiha said, Master Shiki is not yet accustomed to life in the mansion.@ I should not have permitted Master Shiki into this room until Master Shiki had settled in.”@
+`“…”@
+`Put that way, there was nothing I could say.@
+`My head still spinning, I left Father’s room.
 \
 bg #000000,lcartain,800
 !w2000
 bg "bg/bg_40c",lcartain,800
 play "*1"
-`I ate dinner alone in the dining room and returned to my room.@ Akiha still seemed unwell and took her meal upstairs.
+`I ate dinner alone in the dining room and returned to my room.@
+`Akiha still seemed unwell and took her meal upstairs.
 \
-`“…”@ I lay on the bed and let out a long breath.@ Was I tired?@ Lately I collapsed onto the bed as soon as night came.@ There ought to have been so many things to think about, yet they all felt as though they belonged to someone else, and all I wanted was sleep.
+`“…”@
+`I lay on the bed and let out a long breath.@
+`Was I tired?@
+`Lately I collapsed onto the bed as soon as night came.@
+`There ought to have been so many things to think about, yet they all felt as though they belonged to someone else, and all I wanted was sleep.
 \
-`“Something’s wrong.@ Was I always this bad at concentrating…?”@ I murmured vaguely at the ceiling.@
+`“Something’s wrong.@ Was I always this bad at concentrating…?”@
+`I murmured vaguely at the ceiling.@
 br
-`My eyelids drifted shut.@ And once again that night, without questioning a single thing, I sank into a deep sleep…
+`My eyelids drifted shut.@
+`And once again that night, without questioning a single thing, I sank into a deep sleep[line=4]
 \
 bg #000000,crossfade,800
 playstop
@@ -154,7 +243,7 @@ br
 br
 br
 !w500
-`[line=4]My skin crackles and chars.@ Burning.
+`[line=4]My skin crackles and chars with burning heat.
 \
 br
 br
@@ -163,19 +252,24 @@ br
 br
 br
 !w500
-`[line=4]I can’t sleep like this.@ I have to get up.@ I have to find water.
+`[line=4]I can’t sleep like this.@
+`I have to get up and find water.
 \
 wavestop
 bg "bg/bg_25b",crossfade,800
 play "*4"
-`The city at night.@ I watch the people passing through the streets, my breath feverish and ragged.@ Tonight, of all nights, everyone seems to be walking in twos and threes.@ What I want is a girl alone—someone my own age.
+`The city at night.@
+`I watch the people passing through the streets, my breath feverish and ragged.@
+`Tonight, of all nights, everyone seems to be walking in twos and threes.@
+`What I want is a girl alone—someone my own age.
 \
 br
 br
 br
 `[line=3]Hot.
 \
-`My face catches suddenly in a shop window.@ My breathing is wild.@ I look like someone raving in a fever of forty degrees.
+`My face catches suddenly in a shop window.@
+`My breathing is wild, as though I were delirious with a forty-degree fever.
 \
 br
 br
@@ -185,16 +279,21 @@ br
 br
 `[line=3]Hot—this heat is more than I can bear.
 \
-`There.@ No need to approach her from the front.@ I pull the girl against me from behind and knock her unconscious.@
+`There.@
+`No need to approach her from the front.@
+`I pull the girl against me from behind and knock her unconscious.@
 br
 bg #000000,crossfade,400
 bg "bg/bg_31b",crossfade,400
 `Her body drags along with a wet, scraping sound.@
-`[line=3]It almost makes me laugh.@ I had held myself in check all this time, and now that is over.
+`[line=3]It almost makes me laugh.@
+`I had held myself in check all this time, and now that is over.
 \
 bg #000000,crossfade,400
 bg "bg/bg_01c",crossfade,400
-`In the end, I decide to do it here.@ The reason is simple.@ This is the murderer’s lair.
+`In the end, I decide to do it here.@
+`The reason is simple.@
+`This is the murderer’s lair.
 \
 bg #000000,crossfade,400
 bg "bg/bg_10c",crossfade,400
@@ -203,11 +302,14 @@ br
 br
 `[line=3]Burning.
 \
-`The rasp of panting.@ Soon.@ Soon I can feed on this girl.
+`The rasp of panting.@
+`Soon.@
+`Soon I can feed on this girl.
 \
 bg #000000,crossfade,400
 bg "bg/bg_06c",crossfade,400
-`Then the meal begins.@ I press my mouth to her throat and draw out the blood.
+`Then the meal begins.@
+`I press my mouth to her throat and draw out the blood.
 \
 br
 br
@@ -216,7 +318,9 @@ br
 br
 `[line=3]So sweet.
 \
-`That sensation was truly terrifying.@ If it could be this sweet, feel this good, then I knew that it—not the murderer—would make me its slave.
+`That sensation was truly terrifying.@
+`If it could be this sweet and feel this good.@
+`Then I knew that it—not the murderer—would make me its slave.
 \
 br
 br
@@ -227,7 +331,10 @@ br
 br
 `[line=3]The night is deep.@ Overhead hangs a silver eye that condemns my sin.
 \
-`Hot blood wetting my lips, I gaze at the night sky in rapture.@ My hair tumbles loose.@ Above me, the heavens turn in a spiral.@ What a beautiful silver moon.
+`Hot blood wetting my lips, I gaze at the night sky in rapture.@
+`My hair tumbles loose.@
+`Above me, the heavens turn in a spiral.@
+`What a beautiful silver moon.
 \
 br
 br
@@ -236,7 +343,7 @@ br
 br
 br
 br
-`[line=3]Like a snake, it watches the blood-drinking fiend.
+`[line=3]Like a snake.@ It watches the blood-drinking fiend.
 \
 wavestop
 bg #000000,crossfade,800
@@ -247,17 +354,33 @@ bg #ffffff,notrans,0
 !w2000
 bg "bg/bg_40a",crossfade,800
 waveloop se_11
-`“—!”@ I could bear no more and sprang upright in bed.@ “Ah…@ hah…@ haah…”@ Fighting down the nausea surging through me, I panted like an animal.
+`“—!”@
+`I could bear no more and sprang upright in bed.@
+`“Ah[line=3]hah, ha[line=4]ah”@
+`Fighting down the nausea surging through me, I panted like an animal.
 \
-`“What…?”@ What had that been?@ A dream.@ I had been dreaming—but what kind of dream was that?@ Nothing like the strange one from two days ago.@ The sensation of walking through the city at night.@ The smell of blood still lodged in my nose.@ The dragging sound of a girl my own age scraping along behind me.@
+`“What[line=6]”@
+`What had that been?@
+`A dream.@ I had been dreaming.@ But what had that been?@
+`Nothing like the strange one from two days ago.@
+`The sensation of walking through the city at night.@
+`The smell of blood still lodged in my nose.@
+`Dragging.@ The sound of a girl my own age scraping along behind me.@
 br
 `[line=3]Every detail remained with the clarity of a real memory.
 \
-`“Hah…”@ Could that have been what people called pleasure?@ There had only been the impact: excitement compressed into a bullet, its trigger pulled beside my ear, firing it straight through my brain.
+`“Hah…”@
+`Could that have been what people called pleasure?@
+`There had only been the impact: excitement compressed into a bullet, its trigger pulled beside my ear, firing it straight through my brain.
 \
-`“Ghh…!”@ The memory alone stopped my breath.@ Then perhaps that impact truly had been pleasure.@ “What kind of dream…@ was that?”@ I stared at my hands.@ Naturally, they were bloodless and pale, without the faintest trace of red.@
+`“Ghh…!”@
+`The memory alone stopped my breath.@
+`Then perhaps that impact truly had been what people called ‘pleasure.@’“What kind of dream[line=3]”@
+`I stared at my hands.@
+`Naturally, they were bloodless and pale, without the faintest trace of red.@
 wavestop
-`Yet for one instant, I saw both hands stained scarlet.
+`Yet, for one instant.@
+`I saw both hands stained scarlet.
 \
 waveloop se_02
 `[line=3]So you’re one of my kind.@
@@ -266,98 +389,161 @@ br
 br
 `[line=3]You’re the first murderer I’ve ever met besides myself.@
 br
-`…@Yes.@ I was certain a conversation like that had taken place.@
+`Yes, I had certainly had a conversation like that.@
 br
-`[line=3]One city doesn’t need two murderers.@ I’ll leave this place to you.@
+`[line=3]One city doesn’t need two murderers.@
+`I’ll leave this place to you
 br
 `But when had that conversation taken place?
 \
 wavestop
-`“Why…@ can’t I remember…?”@ I felt certain I had had a conversation like that with someone, but I couldn’t recover a single detail.@ Had it happened in reality, or in another hollow dream?@ All I could remember clearly was that a murderer had called me one of his own kind.
+`“Why…@
+`can’t I remember…?”@
+`I felt certain I had had a conversation like that with someone, but I couldn’t recover a single detail.@
+`Had it happened in reality, or in another hollow dream?@
+`All I could remember clearly was that a murderer had called me one of his own kind.
 \
-`“This is wrong…@ Why is everything in my head such a mess…?”@ I fought to recall last night’s dream.@
+`“This is wrong—why is everything in my head such a mess[line=4]”@
+`I fought to recall last night’s dream.@
 wave se_05
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`“Gah—!?”@ Pain slammed through my skull hard enough to make a sound.@ “Hah…@ ah…@ hah…!”@ I couldn’t remember.@ Every attempt to force yesterday back into my mind made me want to vomit.
+`“Gah—!?”@
+`Pain slammed through my skull hard enough to make a sound.@
+`“Hah[line=3]ah, hah…………!”@
+`I couldn’t remember.@
+`Every attempt to force yesterday back into my mind made me want to vomit.
 \
-`I was afraid.@ There was nothing more frightening than being unable to remember.@ It felt as though another Shiki Tohno, one I knew nothing about, had murdered someone—and was deceiving the Shiki Tohno I knew in order to conceal the crime.@
+`I was afraid.@
+`There was nothing more frightening than being unable to remember.@
+`It felt something like this.@
+`Another Shiki Tohno, one I knew nothing about, had murdered someone—and was deceiving the Shiki Tohno I knew in order to conceal the crime.@
 br
-`[line=4]Then I sensed someone in the corridor.@
+`[line=4]Then.@
+`I sensed someone in the corridor.@
 br
-`“Who’s there!?”@ I called out.
+`“Who’s there!?”@
+`I called out.
 \
 wave se_04
 `A quiet knock answered me.@
 ld c,"tachi/his_t16",lshutter,800
 play "*2"
-`“Pardon me,”@ said Hisui as she entered.@ It was an utterly ordinary morning scene, exactly like any other.@ “Ah…”@ Perhaps it was because her presence felt so natural.@ My heart, hammering wildly moments before, quieted with almost laughable ease.
+`Hisui excused herself and entered the room.@
+`It was an utterly ordinary morning scene, exactly like any other.@
+`“Ah…”@
+`Perhaps it was because her presence felt so natural.@
+`My heart, hammering wildly moments before, quieted with almost laughable ease.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Good morning, Master Shiki.”@ “…@Hisui?”@
+`“Good morning, Master Shiki.”@
+`“Hisui?”@
 ld c,"tachi/his_t04",crossfade,400
-`“Yes.@ It is time to rise, so I have brought your clothes.@ Master Shiki…@ are you feeling unwell?”@ “No, nothing like that.@ I’m the same as always.@ There’s nothing wrong with me.”@ As if repeating it could make it true, I climbed out of bed.
+`“Yes.@ It is time to rise, so I have brought your clothes.@ Master Shiki, are you feeling unwell?”@
+`“No, nothing like that.@ I’m the same as always, with nothing wrong at all.”@
+`As if repeating it could make it true, I climbed out of bed.
 \
 `“Morning, Hisui.@ I’ll come to the sitting room once I’m dressed, so you can go on ahead.”@
 ld c,"tachi/his_t16",crossfade,400
 `“Very well.@ Excuse me.”@
 cl c,lshutter,400
-`Hisui quietly closed the door behind her.@ Once she was gone, I drew one long, deep breath.
+`Hisui quietly closed the door behind her.@
+`Once she was gone, I drew one long, deep breath.
 \
-`“What am I getting so frightened about?”@ It had to be because I had learned about my father’s illness yesterday.@ My symptoms bore a slight resemblance to Makihisa Tohno’s, and I was letting paranoia do the rest.@ “Right.@ I’ve only just come home, and I’m tired.@ There’s no reason to worry about some stupid dream.”@
+`“What am I getting so frightened about?”@
+`It had to be because I had learned about my father’s illness yesterday.@
+`My symptoms bore a slight resemblance to Makihisa Tohno’s, and I was letting paranoia do the rest.@
+`“Right.@ I’ve only just come home, and I’m tired.@ There’s no reason to worry about some stupid dream.”@
 br
-`[line=3]Enough of that.@ It was almost seven.@ Just like yesterday, this promised to be another leisurely morning.
+`[line=3]Enough of that.@
+`It was almost seven.@
+`Just like yesterday, this promised to be another leisurely morning.
 \
 bg #000000,crossfade,400
 bg "bg/bg_34a",lcartain,400
-`[line=4]Then I wandered into the sitting room without a thought and remembered something important.@ “Damn—”@ I barely swallowed the rest of the word.
+`[line=4]Then.@
+`I stepped into the sitting room without thinking and realized I had forgotten something important.@
+`“Damn[line=5]”@
+`I somehow swallowed the rest of the word.
 \
-`Akiha, Hisui, and Kohaku were all there.@ Ordinarily there would have been nothing remarkable about that, but after yesterday it made for an excruciating scene.@ Akiha and Hisui appeared to have made peace, while I had yet to exchange so much as a word with Akiha.@ Judging by the state she had been in yesterday, she was plainly still furious with me.
+`Akiha, Hisui, and Kohaku were all there.@
+`Ordinarily there would have been nothing remarkable about that, but after yesterday it made for an excruciating scene.@
+`Akiha and Hisui appeared to have made peace, while I had yet to exchange so much as a word with Akiha.@
+`Judging by how she had behaved yesterday, she was plainly still furious with me.
 \
 ld c,"tachi/aki_t09",lshutter,400
-`“Good morning, Brother.@ Did you sleep well?”@ “…@Excuse me?”@ Akiha greeted me with the brightest, freshest smile imaginable.
+`“Good morning, Brother.@ Did you sleep well?”@
+`“Excuse me?”@
+`Then.@
+`Akiha greeted me with the brightest, freshest smile imaginable.
 \
 cl c,lshutter,400
-`“Uh…@ what?”@ The shock petrified my thoughts.@ I stood there blankly while Akiha continued smiling at me.@ She was in such an impossibly good mood that I couldn’t help wondering what she was plotting.
+`“Uh—what?”@
+`The shock petrified my thoughts.@
+`I stood there blankly while Akiha continued smiling at me.@
+`She was in such an impossibly good mood that I couldn’t help wondering what she was plotting.
 \
 ld c,"tachi/his_t01",lshutter,400
-`“Master Shiki, will you not sit down?”@ “Oh…@ sure, if you want me to.”@ With extreme caution, I lowered myself onto the sofa opposite Akiha.@
+`“Master Shiki, will you not sit down?”@
+`“Yes, if you’re telling me to sit.”@
+`With extreme caution, I lowered myself onto the sofa opposite Akiha.@
 cl c,lshutter,400
-`“Morning, Akiha.@ You’re, well…@ awfully cheerful today.”@
+`“Morning, Akiha.@ You’re unusually cheerful today.”@
 ld c,"tachi/aki_t08a",lshutter,400
-`“Am I?@ I do feel well this morning, so perhaps I simply look healthier.”@ No, this went several miles beyond looking healthier.
+`“Am I?@ I do feel well this morning, so perhaps I simply look healthier.”@
+`No, this was not merely about looking healthier.
 \
 ld c,"tachi/aki_t09",crossfade,400
-`“More importantly, Brother, thank you for the other night.@ I meant to say so yesterday, but I wasn’t myself and never had the chance.”@ Akiha looked straight into my eyes.@ Not a trace remained of yesterday’s coldness, nor of that indefinable air of danger around her.
+`“More importantly, Brother, thank you for the other night.@ I meant to say so yesterday, but I wasn’t myself and never had the chance.”@
+`Akiha looked straight into my eyes.@
+`Not a trace remained of yesterday’s coldness.@
+`Even that indefinable air of danger around her seemed to have vanished.
 \
-`“You don’t have anything to thank me for.”@ “Of course I do.@ You looked after me when I collapsed, and stayed beside me the whole time.@ When you held me, Brother, I finally found the courage to make my decision.@ That night made me so happy.”@ “—!”@ I nearly choked at hearing something so outrageous announced in front of everyone.@
+`“You don’t have anything to thank me for.”@
+`“Of course I do.@ You looked after me when I collapsed, and stayed beside me the whole time.@
+`When you held me, Brother, I finally found the courage to make my decision.@ That night made me so happy.”@
+`“—!”@
+`I nearly choked at hearing something so outrageous announced in front of everyone.@
 cl c,lshutter,400
 br
-`[line=4]Then a crushing pressure gathered behind me.
+`[line=4]Then.@
+`A crushing pressure gathered behind me.
 \
 `I glanced over my shoulder.@
 ld r,"tachi/koha_t03",lshutter,400
 ld l,"tachi/his_t01",lshutter,400
-`Kohaku and Hisui were watching me.@ Both looked exactly as they always did, and neither looked remotely normal.
+`Kohaku and Hisui were watching me; both looked exactly as always, yet neither looked remotely normal.
 \
 cl a,lshutter,400
-`“Akiha, could you stop phrasing it in ways people might misunderstand?@ You were in pain that night, and I only held you up.”@
+`“Akiha.@ Stop phrasing it in ways people might misunderstand.@ You were in pain that night, and I only held you up.”@
 ld c,"tachi/aki_t08a",lshutter,400
-`“Oh?@ Is wrapping both arms around my back and holding me there what you call supporting me?”@ Akiha giggled.@ Two unbroken stares pressed against my back, steadily gaining weight—far more than my back was rated to carry.
+`“Oh.@ Is wrapping both arms around my back and holding me there what you call supporting me?”@
+`Akiha giggled.@
+`A long, unbroken stare.@
+`Two pairs of eyes pressed against my back, steadily gaining weight.@ Far more than my back was rated to carry.
 \
-`“Listen, you’re acting weird.@ Is tormenting me like this really that much fun?”@ “Very much so.@ Seeing you flustered has a charm of its own, Brother.”@ “…”@ This was beyond strange.@ Had Akiha always been this kind of person?
+`“Listen.@ You’re acting weird.@ Is tormenting me like this really that much fun?”@
+`“Very much so.@ Seeing you flustered has a charm of its own, Brother.”@
+`“…”@
+`This was beyond strange.@ Had Akiha always been this kind of person?
 \
-`“What a nasty streak.@ You spend the morning tormenting your brother, after spending yesterday lecturing him.@ I’m almost certain I know the answer already, but you’ve got some kind of grudge against me, don’t you?”@ I returned her teasing with a weary sigh.@
+`“What a nasty streak.@ You spend the morning tormenting your brother, after spending yesterday lecturing him.@
+`I’m almost certain I know the answer already, but you’ve got some kind of grudge against me, don’t you?”@
+`I returned her teasing with a weary sigh.@
 cl c,lshutter,400
 `At that, Akiha suddenly looked away, embarrassed.
 \
 ld c,"tachi/aki_t13a",lshutter,400
-`“I’m sorry.@ I know I behaved badly yesterday.@ I was ill and out of my mind.@ I even apologized to Hisui—”@ “You apologized to Hisui!?”@ Her apologizing to me was surprising enough; the idea of her apologizing to Hisui was so astonishing that I shouted without meaning to.@
+`“I’m sorry.@ I know I behaved badly yesterday.@ I was ill and out of my mind, and I even apologized to Hisui[line=3]”@
+`“You apologized to Hisui!?”@
+`Her apologizing to me was surprising enough; the idea of her apologizing to Hisui was so astonishing that I shouted without meaning to.@
 ld c,"tachi/aki_t21",crossfade,400
-`“Honestly!@ What sort of person do you think I am, Brother?@ I was at fault, so naturally I apologized to Hisui.”@ What sort of person?@ Well…@ some vague picture of a stern mistress mercilessly ruling her servants came to mind.
+`“Hmph.@ What sort of person do you think I am, Brother?@ I was at fault, so naturally I apologized to Hisui.”@
+`I vaguely imagined something like a stern mistress ruling her servants.
 \
 ld c,"tachi/aki_t02",crossfade,400
-`“Brother.@ You were just thinking something unkind about me.”@ Sharp as ever.@ Even giddy with good humor, Akiha’s instincts had not dulled in the least.
+`“Brother.@ You were just thinking something unkind about me.”@
+`Sharp as ever.@ Even giddy with good humor, Akiha’s instincts had not dulled in the least.
 \
 cl c,lshutter,400

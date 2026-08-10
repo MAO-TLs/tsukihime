@@ -3,36 +3,38 @@ play "*9"
 wavestop
 bg "bg/bg_19d",notrans,0
 `Arcueid showed no sign of giving up.@
-`“…@Fine.@ But give them back as soon as you’ve looked.”@
+`“Fine.@ Just give them back as soon as you’ve looked.”@
 bg "bg/bg_19d",crossfade,400
 monocro #ff00ff
 `I handed her the glasses.@
 `Arcueid examined them closely, then fixed me with a frightening glare.
 \
 ld c,"tachi/ark_t07",crossfade,400
-`“Shiki, is the person who made these still in this city?”@
-`“I don’t think so.@ It was eight years ago, and apparently she was only here for a week.”@
-`“…@Good.@ One less adversary to worry about.@ Though if the Blue were involved, retreat would probably be the wisest choice.”@
+`“Shiki.@ Is the person who made these still in this city?”@
+`“Who knows?@ I don’t think so.@ It was eight years ago, and apparently she was only here for a week.”@
+`“I see.@ Good—one less adversary to worry about.@ Though if the Blue were involved, retreat would probably be the wisest choice.”@
 `Arcueid fell gravely silent.
 \
 `“Arcueid, do you know my teacher—I mean, the person who made those glasses?”@
 `“…@I do.@ She’s one of the four Magicians still alive today.@ Those glasses are an extraordinary artifact too.@ Even with all my strength, I couldn’t possibly break them.”@
 `Arcueid grew more serious still.
 \
-`“…@Wait.@ You were planning to break them?”@
+`“So you were planning to break them.”@
 ld c,"tachi/ark_t12",crossfade,400
-`“…@What?@ D-did I say that aloud?”@
-`“…@So you were planning to break them.”@
-`“Give them back.”@ I snatched the glasses away from her.@
+`“What?”@
+`“Did I say that aloud?”@
+`“So you really were planning to break them.”@
+`I demanded them back and snatched the glasses from her.@
 monocro off
 bg "bg/bg_19d",crossfade,400
 \
 `“Honestly.@ You’re the one who said I couldn’t stay sane without these glasses.@ Or were you hoping I’d lose my mind?”@
 ld c,"tachi/ark_t11",crossfade,400
-`“It wasn’t anything like that.@ I just didn’t like how much you seemed to treasure them.”@ “Arcueid, you…”@
+`“It wasn’t anything like that.@ I just didn’t like how much you seemed to treasure them.”@
+`“Arcueid, you…”@
 cl c,crossfade,800
 br
-`…@Would somebody please explain how this girl’s mind worked?@
+`Someone, please tell me how this girl’s mind worked.@
 br
 `“My memories of my teacher matter to me, but more importantly, I can’t function without these now.@ If I had to see the lines every hour of the day, the headaches would wreck my skull before I had time to go mad.”
 \

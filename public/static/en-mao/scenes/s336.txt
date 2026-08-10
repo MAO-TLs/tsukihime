@@ -3,7 +3,7 @@ wavestop
 bg "bg/bg_40b",notrans,0
 `Something about Akiha’s warning still bothered me.@
 `She had told me never, under any circumstances, to enter the annex.@
-`Naturally, that only made me more curious.@ Besides, if it really contained the mansion’s only traditional Japanese rooms, I wanted to see them.@
+`That only made me more curious, and besides[line=3]if it contained the mansion’s only Japanese-style rooms, I wanted to see them.@
 br
 `“If nobody catches me, it should be fine.”@
 `After apologizing silently to Akiha, I crept toward the exit.
@@ -22,28 +22,28 @@ bg #000000,lcartain,800
 `In any case, I reached the annex without taking a single wrong turn.
 \
 bg "bg/bg_44b",lcartain,800
-`“……”@
+`“[line=7]”@
 `However many years the annex had stood unused, parts of it had visibly fallen into decay.@
 br
-`I tried the entrance.@ It was unlocked.@
+`The entrance was unlocked when I tried it.@
 br
 bg #000000,lcartain,800
-`Naturally, it was dark inside.@
-`The smell of straw matting and paper screens surrounded me, and even in total darkness I felt strangely at ease.
+`Naturally, the interior was dark.@
+`The smells of tatami and paper screens greeted me, and despite the absolute blackness, I felt at ease.
 \
 bg "bg/bg_45c",lcartain,800
-`“Ah…”@
+`“[line=5]Ah”@
 `The moment I entered the room, a shiver ran down my back.
 \
-`“I know this place.”@
+`“[line=5]I know this place.”@
 `As a child, I must have come here to play because the main house had no rooms like it.@
-`“……”@
+`“[line=6]”@
 `But something was wrong.@
 `My skin sensed the same strange dissonance I had felt when first shown to my bedroom after returning to the mansion.@
 `“Maybe it’s because the Arima house had rooms like this.”@
 `I felt as though I had lived here all my life.@
 br
-`Or perhaps—
+`Or perhaps[line=3]
 \
 bg #000000,crossfade,400
 bg "bg/bg_45c",crossfade,400
@@ -51,7 +51,7 @@ br
 br
 br
 br
-`Come to think of it, long ago—
+`Come to think of it, long ago
 \
 bg #000000,crossfade,400
 bg "bg/bg_45c",crossfade,400
@@ -62,7 +62,7 @@ br
 br
 br
 br
-`When I played in the garden, there had been—
+`When I played in the garden, there had been
 \
 bg #000000,crossfade,400
 bg "bg/cmo_06",notrans,0
@@ -77,46 +77,46 @@ br
 br
 br
 br
-`Someone besides Akiha and me—
+`Someone besides Akiha and me
 \
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_45c",notrans,0
 wave se_01
-`“Ow—”@
+`“Ow[line=4]”@
 `Pain stabbed through the back of my neck.@
 `Perhaps anemia was coming on; my body felt heavy as lead.@
-`“This is bad…@ I need to get back to my room.”@
-`I shook my head and decided to leave before I collapsed for real.@ Then—
+`“This is bad; I need to get back to my room.”@
+`I shook my head and was about to leave before I collapsed for real.@
 play "*1"
 ld c,"tachi/koha_t02b",lshutter,400
-`“Why, Shiki.@ What are you doing in a place like this?”@
+`“Why, Master Shiki.@ What are you doing in a place like this?”@
 `Kohaku suddenly walked in.
 \
-`“—!”@
+`“[line=5]!”@
 `I frantically looked around for some escape.@
-`There was nowhere to hide, and in any case she had already found me.@ Brilliant, Shiki.@
+`There was nowhere to hide, and she had already found me in any case.@
 ld c,"tachi/koha_t04b",crossfade,400
-`“You know you aren’t allowed in here.@ Miss Akiha gave us strict instructions that you, in particular, must never enter.”@
-`“I know.@ She told me today.@ But, well…”@
+`“You know you aren’t allowed in here.@ Miss Akiha gave us strict instructions that Master Shiki, in particular, must never enter.”@
+`“I know.@ She told me today, but, well[line=3]”@
 ld c,"tachi/koha_t15",crossfade,400
-`“You couldn’t help being curious, could you?@ Very well.@ I’ll overlook it this once, but please don’t come here again.@ This building is quite old, and parts of it are dangerous.”
+`“You couldn’t help being curious, could you?@ Very well, I’ll overlook it this once, but please don’t come here again.@ This building is quite old, and parts of it are dangerous.”
 \
 `The building was old and therefore dangerous.@
 `It sounded odd, but it made a certain amount of sense.@
 `“Sorry.@ But Kohaku, what was this building used for?@ Everyone says it’s abandoned now, so it must have been used for something before.”@
 ld c,"tachi/koha_t03b",crossfade,400
 `“It was originally the servants’ residence.@ Until you were sent to live with the Arima family, more than a dozen servants worked at the mansion.@
-`“There was no room for so many people in the main house, so your father had this annex built.”@
+`“There was no room for so many people in the main house, so Master Makihisa had this annex built.”@
 `“I see.@ So it was servants’ quarters.”
 \
 `Once she explained it, the arrangement seemed obvious.@
 `An estate this large would naturally have needed something of the sort.@
-`But then why—
-`Why was Akiha so determined to keep me out?
+`But why.@
+`Why was Akiha so determined to keep me out[line=3]?
 \
-`“Shiki, we should return to the main house before Miss Akiha notices.”@
-`“Right.@ Sorry.”@
+`“Master Shiki, we should return to the main house before Miss Akiha notices.”@
+`“Ah[line=3]right, sorry.”@
 `I pushed the faint misgiving aside and went back with Kohaku.
 \
 bg #000000,lcartain,800

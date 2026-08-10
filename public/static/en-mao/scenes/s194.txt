@@ -4,13 +4,16 @@ bg "bg/bg_40a",crossfade,1500
 `Afterward—after returning to the mansion—I must have shut myself in my room and fallen asleep.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki, are you feeling unwell?”@ “—No.@ I’m fine.”@ I answer and get out of bed.@
+`“Master Shiki, are you feeling unwell?”@
+`“—No.@ I’m fine.”@
+`I answer and get out of bed.@
 br
-`…@Even I can hardly believe it.@ I don’t want to say a word, yet my body insists on going through life as usual.
+`Even I can hardly believe it.@
+`I don’t want to say a word, yet my body insists on going through life as usual.
 \
 `“Breakfast, right?@ I’ll be there in a minute.”@
 ld c,"tachi/his_t04",crossfade,400
-`“…@Very well.@ We shall be waiting.”@
+`“Very well.@ We shall be waiting.”@
 `Hisui leaves with something unspoken on her face.@
 `I dress and make my way to the sitting room.
 \
@@ -19,7 +22,8 @@ bg "bg/bg_34a",lcartain,1500
 `Akiha and Kohaku are in the sitting room.@
 `“Good morning.”@
 `I offer the usual greeting and go into the dining room.@
-`I eat breakfast, return, sit on the sofa, and stare vacantly at the clock.
+`I eat breakfast and return to the sitting room.@
+`I sit on the sofa and stare vacantly at the clock.
 \
 ld c,"tachi/aki_t17a",crossfade,400
 `“…@Brother?@ You do realize there is school today, don’t you?”@
@@ -27,9 +31,11 @@ ld c,"tachi/aki_t17a",crossfade,400
 `I had forgotten.@
 `With nothing left for me to do, I had vaguely imagined that I would go on living like an empty shell forever.
 \
-`“…@I still have Shiki Tohno’s life to live, after all.@ If I have nothing else to do, I may as well go to school.”@ “Brother…?”@ Akiha gives me a suspicious look.@
+`“I still have Shiki Tohno’s life to live, after all.@ If I have nothing else to do, I may as well go to school.”@
+`“Brother?”@
+`Akiha gives me a suspicious look.@
 cl c,crossfade,400
-`…@I can’t even be bothered to make up an excuse.@
+`I can’t even be bothered to make up an excuse.@
 br
 `Without another word, I leave for school.
 \
@@ -60,7 +66,7 @@ br
 br
 `“…………”@
 `The sound came from my desk.@
-`…@Ah.@ It’s nothing.@
+`It’s nothing.@
 `I merely gripped my mechanical pencil too hard and snapped it again.
 \
 bg #000000,lshutter,800
@@ -102,21 +108,26 @@ bg "bg/bg_08a",lcartain,1500
 `Calls from students practicing on the athletic field and the murmur of those going home reach me like distant ripples.@
 `Amid it all, this one room is silent, as though cut away from the rest of the school.
 \
-`…@It makes me furious.@
+`It makes me furious.@
 `What am I doing here?@
 `I can do nothing.@
 `My own helplessness enrages me beyond endurance.@
 `Yet because I have no means of changing it, all I can do is obey whatever I’m told like an empty shell.
 \
-`“…@What am I doing?”@
+`“What am I doing?”@
 `There is no answer.@
 `I remain alone in the empty room, listening to the sounds of the school after hours.
 \
 bg #000000,crossfade,1500
 bg "bg/bg_08b",crossfade,800
-`Click.@ The second hand ticks forward, and the clock announces seven in the evening.@ No one has come to the student guidance office.@ The school closes at six and the teachers leave at half past, which means no one else remains in the building.
+`Click.@
+`The second hand ticks forward, and the clock announces seven in the evening.@
+`No one has come to the student guidance office.@
+`The school closes at six and the teachers leave at half past, which means no one else remains in the building.
 \
-`“…@Did they forget about me?”@ I rise from the chair.@ Maybe all those hours alone with my thoughts have brought my head back to something like normal.
+`“Did they forget about me?”@
+`I rise from the chair.@
+`Maybe all those hours alone with my thoughts have brought my head back to something like normal.
 \
 `I have been thinking all this time.@
 `About what I ought to do, and what matters most.@

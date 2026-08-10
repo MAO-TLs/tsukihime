@@ -6,16 +6,20 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Merci!@ Welcome to lesson four.@ …@What a disappointment.@ Turning your back in battle?@ You still have much to learn, Tohno.@ You can’t compare your experience with Ciel’s.@ You should have done something she would never expect.
+`Merci!@ Welcome to lesson four.@
+`What a disappointment.@
+`Showing your back in battle means you still have much to learn, Tohno.@
+`You can’t compare your experience with Ciel’s.@
+`You should have done something she would never expect.
 \
 ld l,"tachi/ark_t31a",lshutter,400
-`“Hmph.@ Cutting somebody down from behind really shows your personality, Ciel.@ Are we seeing your true colors, meow?”@
+`“Hmph, cutting somebody down from behind really shows your personality, Ciel.@ Are we seeing your true colors, meow?”@
 br
 `…@
 bg "bg/ima_14",lshutter,400
 wave se_12
 br
-`“Mreow!@ She stabbed me!@ Just now—jab!@—right where the camera couldn’t see!”@
+`“Mreow!@ She stabbed me just now—jab—right where the camera couldn’t see!”@
 br
 `…@
 bg "bg/ima_13",notrans,0
@@ -24,13 +28,15 @@ br
 \
 bg "bg/bg_06a",lshutter,800
 ld r,"tachi/cel_t20",lshutter,400
-`And with one clean slice, the monster cat is dispatched.@ Really, I won’t be lectured by a vampire who steals another woman’s lover out from under her.@ Everyone, please enjoy the rest of the story!
+`And with one clean slice, the monster cat is dispatched.@
+`Really, I won’t be lectured by a vampire who steals another woman’s lover out from under her.@
+`Everyone, please enjoy the rest of the story!
 \
 bg #000000,crossfade,800
 ld c,"tachi/ark_t30",lscroll,800
-`“That’s meow fair!@ I haven’t done anything like that yet!”@
+`“That’s meow fair—I haven’t done anything like that yet!”@
 br
-`Yet.@ Meaning you intend to someday.@
+`Yet means you intend to someday.@
 br
 `“Hee-hee!@ I’m saving that answer for a little later.”
 \

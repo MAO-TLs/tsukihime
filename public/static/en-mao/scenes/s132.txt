@@ -2,30 +2,51 @@ monocro off
 play "*3"
 wavestop
 bg "bg/bg_06a",notrans,0
-`…@She stood in the corridor, darting suspicious glances in every direction.@ Whether she was searching for a person or an object, she could not have looked more conspicuous.@
+`She stands in the corridor, darting suspicious glances in every direction.@
+`Whether she is searching for a person or an object, she could not look more conspicuous.@
 br
-`“Heh…@ heh heh.”@ A wicked impulse came over me.@ She was always dragging me along at her pace.@ It was only fair that I strike back once in a while.
+`“Heh, heh heh.”@
+`A wicked impulse comes over me.@
+`She is always dragging me along at her pace; it is only fair that I strike back once in a while.
 \
 bg #000000,lcartain,800
 bg "bg/bg_11a",lcartain,800
-`She was intent on her search.@ I slipped around behind her.@ Fortunately, she had not noticed me.@ Ready, and—
+`She was intent on her search.@
+`I slipped around behind her.@
+`Fortunately, she had not noticed me.@
+`Ready, and—
 br
-`“Boo!”@ “—!”@ I threw my arms around her from behind.@ Or tried to—
+`“Boo!”@
+`“[line=4]!”@
+`I throw my arms around her from behind, but[line=3]
 wave se_05
 quakex 4,375
 ld c,"tachi/cel_t06a",crossfade,400
-`…@Somehow, I ended up sprawled alone on the hallway floor.
+`Somehow, I end up sprawled alone on the hallway floor.
 \
 cl c,crossfade,400
-`“Oh—Tohno?”@ Her voice was full of concern.@ “Yep.@ It’s me.”@
+`“Oh[line=3]Tohno?”@
+`Her voice is full of concern.@
+`“Yep, it is me.”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Honestly, you startled me!@ I jumped aside on reflex.@ Are you all right?”@ “Huh?@ Oh, sure.@ I just fell over on my own.”@ I stood up.@ The other students’ peculiar stares were probably unavoidable.
+`“Honestly, you startled me!@ I jumped aside on reflex; are you all right?”@
+`“Huh?@ Oh, sure; I just fell over on my own.”@
+`I stand up.@
+`The other students’ peculiar stares are probably unavoidable.
 \
-`“Ow…@ I think I landed on my hip.@ That settles it.@ I shouldn’t attempt pranks when I have no talent for them.”@ Lesson learned.@ “Exactly.@ I may have overreacted, but this time you were at fault, so I’m not apologizing.”@ “I know, I know.@ Sorry I interrupted your search.@ This little troublemaker will go back to his classroom now.”@ Rubbing my hip, I started away.@
+`“Ow, I think I landed on my hip.@ That settles it; I should not attempt pranks when I have no talent for them.”@
+`Lesson learned.@
+`“Exactly.@ I may have overreacted, but this time you were at fault, so I am not apologizing.”@
+`“I know, I know.@ Sorry I interrupted your search.@ This little troublemaker will go back to his classroom now.”@
+`Rubbing my hip, I start away.@
 ld c,"tachi/cel_t01a",crossfade,400
 `“Wait, Tohno.@ As punishment, would you stand right there for a moment?”
 \
-`“?”@ Stand there as punishment?@ She was saying strange things again.@ “All right…@ but why?”@ “Never mind.@ Just don’t move.”@
+`“?”@
+`Stand there as punishment; she is saying strange things again.@
+`“All right, but why?”@
+`“Never mind; just do not move.”@
 cl c,lshutter,800
-`Then, just as she had the day before, she leaned close and began sniffing me again.@ “Um…@ Ciel…?”
+`Then, just as she did the day before, she leans close and begins sniffing me again.@
+`“Um, Ciel?”
 \

@@ -6,12 +6,18 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Merci!@ Congratulations!@ You’ve reached Ciel’s Good Ending!@
+`Merci!@
+`Congratulations!@ You’ve reached Ciel’s Good Ending!@
 br
-`…@Wait, what?@ …@Huh?@ …@Huuuh?@ Hold it!@ What is this?@ What kind of ending is this?!
+`Wait, what?@
+`Huh?@
+`Huuuh?@
+`Hold it!@
+`What is this?@
+`What kind of ending is this?!
 \
 ld l,"tachi/ark_t30",crossfade,800
-`“…………@sneak, sneak…”@
+`“[line=4]sneak, sneak”@
 br
 `You there!@ Stop, you thieving cat—!@
 bg #ffffff,notrans,0
@@ -22,7 +28,7 @@ quakey 1,50
 !w1000
 ld l,"tachi/ark_t31a",crossfade,800
 br
-`“Ow!@ Down with violence!@ I think Teacher Ciel is bad for using corporal punishment all the time!”
+`“Owww—down with violence!@ I think Teacher Ciel is bad for using corporal punishment all the time!”
 \
 bg #ffffff,notrans,0
 wait 100
@@ -30,15 +36,26 @@ bg "bg/bg_06a",notrans,0
 wave se_10
 quakey 1,50
 ld r,"tachi/cel_t20",lshutter,400
-`[line=4]Rejected.@ …@Oh, honestly!@ Each heroine has two endings.@ This was Ciel’s Good Ending.@ Return to a recent choice and follow the other branch of the story!@ That one is the True Ending!
+`[line=4]Rejected.@
+`Oh, honestly!@
+`Each heroine has two endings.@
+`This was Ciel’s Good Ending.@
+`Return to a recent choice and follow the other branch of the story!@
+`That one is the True Ending!
 \
-`Oh, and one other thing.@ If Ciel and Arcueid’s routes form the front side of the story, there is also a reverse side where events unfold completely differently: the Tohno family routes, represented by Akiha.@ The conditions for branching there can be rather obscure, so here is a hint.
+`Oh, and one other thing.@
+`Ciel and Arcueid’s routes form the front side of the story.@
+`There is also a reverse side where events unfold completely differently—the Tohno family routes, represented by Akiha.@
+`The conditions for branching there can be rather obscure, so here is a hint.
 \
 `On day one, do not go out of your way to meet Ciel.@
 br
 `It seems best to remain in the classroom during lunch.@
 br
-`And most importantly: none of this would have happened if Tohno hadn’t encountered the vampire Nrvnqsr.@ So return to the incident that started everything.@ If, at that moment, you simply refrain from taking that particular action, an entirely different story should await you.@
+`And most importantly.@
+`None of this would have happened if Tohno had never encountered Nrvnqsr.@
+`So begin by returning to the incident that started everything.@
+`If, at that moment, you simply refrain from taking that particular action, an entirely different story should await you.@
 br
 `Until we meet again in the story!
 \

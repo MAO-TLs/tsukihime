@@ -14,46 +14,49 @@ ld r,"tachi/aki_t04b",lshutter,400
 `“It’s difficult to say.@ The flavors are worlds apart, but whether you prefer one strength to the other is a matter of taste.@ In any case, Kohaku, don’t you favor green tea?@ I thought Hisui was the black-tea enthusiast.”
 \
 ld l,"tachi/koha_t01a",crossfade,400
-`“Hisui doesn’t care much about brands.@ She may look fussy, but she’s actually rather—”@
+`“Hisui does not care much about brands.@ She may look fussy, but she is actually rather[line=3]”@
 cl r,crossfade,400
 ld r,"tachi/his_t01",lshutter,400
 `“Kohaku.”@
 ld l,"tachi/koha_t02",crossfade,400
-`“—rather as fussy as she looks.@ Why, whether it’s cleaning or sewing, there’s nothing she can’t do, Shiki.”@
-`Without warning, Kohaku tosses the conversation to me.@
+`“[line=3]as fussy as she looks.@ Why, whether it is cleaning or sewing, there is nothing she cannot do, Master Shiki.”@
+`Without warning, Kohaku brings me into the conversation.@
 ld r,"tachi/his_t08",crossfade,400
 `And Hisui’s stare is frankly terrifying.
 \
 cl r,crossfade,400
-`“…@Why would you drag me into this, Kohaku?”@
+`“Why would you drag me into this, Kohaku?”@
 ld l,"tachi/koha_t05",crossfade,400
-`“Because Hisui looks after you, Shiki.@ Surely you know how particular she can be?”@
-`“No, I wouldn’t say—”@
+`“Because Hisui looks after you, Master Shiki.@ Surely you know how particular she can be?”@
+`“No, I would not say[line=3]”@
 `I glance at Hisui.@
 ld r,"tachi/his_t08",crossfade,400
 `“…”@
-`…@She is silently radiating something very much like an intent to attack.
+`She silently radiates open hostility.
 \
-`“No, I wouldn’t call her fussy.@ Whenever I make a mess, she cleans it up right away, and when I come home late, she doesn’t get angry like a certain someone.”@
+`“[line=3]No, I would not call her fussy.@ Whenever I make a mess, she cleans it up right away, and when I come home late, she does not get angry like a certain someone.”@
 ld r,"tachi/his_t04",crossfade,400
 cl l,crossfade,400
 ld l,"tachi/aki_t18b",crossfade,400
 `“Brother.@ You do understand that anyone who breaks curfew deserves to be scolded?”@
-`“…@I do.@ But eight o’clock is absurdly early, isn’t it?@ I’m not a child.@ Let’s revise it to ten.”@
+`“I understand.@ But is eight o’clock not absurdly early for someone who is no longer a child?@ Let us revise it to ten.”@
 ld l,"tachi/aki_t02b",crossfade,400
 `“Denied.@ You have no reason to remain out that late.@ You neither attend cram school nor belong to a club.”
 \
 cl a,crossfade,400
-`“…@Ngh.”@
-`Put that way, I don’t have much ground to stand on.@ For a free spirit like me, staying out late usually amounts to nothing more defensible than having fun.@
+`“Ngh.”@
+`Put that way, I do not have much ground to stand on.@
+`For a free spirit like me, staying out late usually amounts to nothing more defensible than having fun.@
 ld c,"tachi/koha_t02",crossfade,400
-`“Miss Akiha is right, Shiki.@ The city has been dangerous lately, so please don’t wander around at night.”@
-`“Dangerous?@ You mean that serial killer?”@
+`“Miss Akiha is right, Master Shiki.@ Since the city has been dangerous lately, please do not wander around at night.”@
+`“[line=3]By dangerous, do you mean that serial killer?”@
 `Kohaku nods.@
-`…@I almost laugh.@ Nrvnqsr, the creature behind those random killings, is gone.@ Yet only Arcueid and I know that; everyone else is still afraid of the shadow of a killer who no longer exists.
+`I almost laugh.@
+`Nrvnqsr, the creature behind those random killings, is gone.@
+`But only Arcueid and I know that; everyone else is still afraid of the shadow of a killer who no longer exists.
 \
-`“They found another victim downtown this morning.@ That makes eleven now.@ Eleven.”@
-`“…@Eleven, huh?@ Impressive.@ Enough for a baseball—”@
+`“They found another victim downtown this morning.@ That makes eleven now—eleven.”@
+`“The eleventh, huh.@ Impressive—enough for a baseball team[line=3]”@
 br
 `[line=5]Wait.@
 br
@@ -66,132 +69,160 @@ ld c,"tachi/koha_t03",crossfade,400
 `“Yes, it was on the morning news.@ Apparently the victim was killed last night.@ Another grotesque murder, with all the blood drained from the body.”@
 cl a,crossfade,400
 br
-`“What—”@
+`“Wha[line=6]”@
 br
 `That makes no sense.@
-`Nrvnqsr is dead.@ He died two days ago.@ How could he claim another victim the following night?
+`Nrvnqsr is dead.@
+`He died two days ago, so how could he claim another victim the following night?
 \
-`“Don’t tell me…”@
-`Was he still alive?@ No.@ Impossible.@ I saw him vanish completely.@
-`Then why—
+`“Do not tell me[line=3]”@
+`Was he still alive?@ No, that is impossible.@ I saw him vanish completely.@
+`Then why[line=3]
 bg "event/ark_e01",crossfade,800
 bg "bg/bg_34b",crossfade,800
-`“…”@
+`“[line=5]”@
 `It seems impossible.@
-`But if the vampire terrorizing the city is gone and the killings have continued, then only one other vampire remains here.
+`But if the vampire terrorizing the city is gone and the killings have continued.@
+`Then no vampire but that one remains in this city[line=3]
 \
 playstop
 bg #000000,crossfade,1500
 bg "bg/bg_40c",crossfade,1500
 ld c,"tachi/his_t01",lshutter,400
 `“Good night, Master Shiki.”@
-`“…@Yeah.@ Good night, Hisui.”@
+`“Yeah.@ Good night, Hisui.”@
 cl a,lshutter,400
 `The door clicks shut, leaving me alone.
 \
 `“…”@
-`There is another victim.@ Another body left by a vampire.@
-`“It can’t have been…@Arcueid.@ Can it?”@
-`She said she never drinks human blood.@ More than that, I can’t imagine anyone so painfully human doing such a thing.@ I only spent two days with her, but I believe she isn’t evil.@ Someone so beautiful, someone who smiles with such open delight, could never drink a person’s blood and throw the corpse away in the street.
+`There is another victim.@
+`Another body left by a vampire.@
+`“It could not have been Arcueid, could it?”@
+`She said she never drinks human blood, and above all[line=3]I cannot imagine anyone so human doing such a thing.@
+`I only spent two days with her, but I believe she is not a bad person.@
+`Someone so beautiful, someone who smiles with such open delight, could never drink a person’s blood and discard the body in the street.
 \
-`“But…”@
-`But there was another body.@
+`“[line=6]But”@
+`But there is another body.@
 bg "event/ark_e01",crossfade,800
 bg "bg/bg_40c",crossfade,800
-`“…@I suppose I’ll have to find her and ask.”
+`“I suppose I have no choice but to find her and ask.”
 \
 bg #000000,crossfade,1500
-`Once I say it aloud, the rest comes quickly.@ I retrieve the knife I put away after the fight with Nrvnqsr and slip out of the estate without a sound.@
+`Once I say it aloud, the rest comes quickly.@
+`I retrieve the knife I put away after the fight with Nrvnqsr and slip out of the estate without a sound.@
 `Then I take to the night streets and begin searching for Arcueid.
 \
 !w1000
 bg "bg/bg_27b",lcartain,800
-`“Hah…@hah…@hah…”@
-`I stop and try to catch my breath.@ After running without pause, my lungs claw greedily for air.@
-`“Hah…@hah…@hah…”@
-`No good.@ I can’t find her.@ I’ve run all over the city and even checked her room, but there is no sign of Arcueid anywhere.
+`“[line=3]Hah, hah, hah”@
+`I stop and try to catch my breath.@
+`After running without pause, my lungs claw greedily for air.@
+`“Hah[line=3]hah[line=3]hah”@
+`I cannot find her.@
+`I have run all over the city and even checked her room, but there is no sign of Arcueid anywhere.
 \
-`“…@Why is she always strolling around whenever it doesn’t matter, but nowhere to be found when I actually need her…?”@
-`The selfish complaint slips out.@ Four hours have passed.@ It is nearly midnight, and I still haven’t found Arcueid.@
+`“Why is she always strolling around when it does not matter, only to disappear whenever I actually need her…?”@
+`The selfish complaint slips out.@
+`Four hours have passed.@ It is nearly midnight, and I still have not found Arcueid.@
 br
-`…@Somehow, I had simply assumed I would find her as soon as I looked.@ I wanted to see her, and when we parted she had said, “See you.”
+`For some reason.@
+`I had simply assumed I would find her as soon as I looked.@
+`I wanted to see her, and when we parted she had said, “See you.”
 \
-`“Damn it…@ Where are you, Arcueid…?”@
-`I’m furious, absurdly so.@ I thought I would finally see her again, and being denied at the last moment is unbearable.@
-`“…@I thought…@I’d finally see you again…”@
-`[line=3]What?@
-`What was that supposed to mean?@ It makes it sound as if I’m…@as if I’m in love with Arcueid.
+`“Damn it, where are you, Arcueid…?”@
+`I am furious, absurdly so.@
+`I thought I would finally see her again, and being denied at the last moment is unbearable.@
+`“I thought I would finally see you again…”@
+`[line=3]?@
+`What was that supposed to mean?@
+`That makes it sound as though I am in love with Arcueid.
 \
-`“That’s…”@
+`“[line=3]That cannot be”@
 bg "event/ark_e06b",crossfade,400
 bg "bg/bg_27b",crossfade,400
-`“That’s idiotic.”@
+`“[line=3]That is idiotic”@
 `I force a crooked smile and shake off the ridiculous thought.@
-`“…@I’ll check the park one last time.@ If she isn’t there, I’m going home.”@
+`“I will check the park one last time and go home if she is not there.”@
 `With a long breath, I start walking.@
 br
-`Toward the park where Arcueid and I parted two nights ago, a place already heavy with bad memories.
+`Two nights ago.@
+`Toward the park where Arcueid and I parted, a place already heavy with bad memories.
 \
 bg #000000,crossfade,1500
 monocro #0000ff
 bg "bg/bg_28b",crossfade,1500
 play "*6"
-`“Hm?”@
+`“[line=3]Hm?”@
 `Something about the park is different.@
-`“…@The lights are out.”@
-`Every lamp inside the park is dark.@ Beneath the thin moonlight, the grounds look even more lifeless than usual.@
-`“What happened…@a blackout?”@
-`I scan the area.@ The streetlamps outside are working normally.@ Only the lights within the park have failed.
+`“The lights are out.”@
+`Every lamp inside the park is dark.@
+`Beneath the thin moonlight, the grounds look even more lifeless than usual.@
+`“Could it be a blackout?”@
+`I scan the area.@
+`The streetlamps outside are working normally.@
+`Only the lights within the park have failed.
 \
 br
 br
 wave se_12
-`[line=4]A long metallic shriek—
+`[line=4]Keeeeen[line=5]
 br
 br
-`“What—what was that?”@
-`When I listen closely, I can hear something: a confused tangle of noises, like a brawl or some other violent struggle.
+`“Wha[line=4]what was that?”@
+`When I listen closely, I can hear something.@
+`A confused tangle of noises, like a brawl or some other violent struggle.
 \
 !w2000
-`“…”@
-`I can’t ignore it.@ I have no evidence at all, but at this hour, there is only one person I can imagine stirring up that kind of trouble.
+`“[line=5]”@
+`I cannot ignore it.@
+`I have no evidence at all, but at this hour there is only one person I can imagine stirring up that kind of trouble.
 \
-`“…@All right.”@
+`“All right.”@
 `Moving as quietly as I can, I creep toward the noise.
 \
 bg #000000,lcartain,1500
 bg "bg/bg_29b",lcartain,1500
-`“—!”@
-`Two figures are fighting in the distance.@ One is dressed entirely in black, too indistinct to make out.@ The other is unmistakable: white clothes and golden hair bright even beneath the moon.
+`“[line=4]!”@
+`Two figures are fighting in the distance.@
+`One is dressed entirely in black, too indistinct to make out.@ The other is unmistakable.@
+`White clothes and golden hair bright even beneath the moon.
 \
-`“…@Arcueid…!”@
+`“Arcueid…!”@
 `A black figure is attacking her.@
 br
-`The figure in black carries something like a sword.@ Whatever this is, it is far beyond a mere fight.@
+`The figure in black carries something like a sword, so this is far beyond a mere fight.@
 br
-`The figure raises the blade and springs at Arcueid.@ She bats aside the thrust aimed at her chest, then gives her attacker’s breast the lightest tap.@
+`The figure raises the blade and springs at Arcueid.@
+`She bats aside the thrust aimed at her chest, then gives her attacker’s breast the lightest tap.@
 br
-`The next instant, the blade-wielding figure goes flying like a soccer ball.
+`The next instant.@
+`The blade-wielding figure goes flying like a soccer ball.
 \
 br
-`Bam.@ Ba-bump-bump-bump.@
+`Bam, ba-bump-bump-bump.@
 br
-`The figure crashes onto the park’s brick path and rolls with the impact.@ No—to be precise, it comes rolling straight to my feet.
+`The figure crashes onto the park’s brick path.@
+`It rolls with the impact.@
+`No—to be precise, it comes rolling straight to my feet.
 \
 `“…?”@
-`It is too dark to see clearly, but the figure’s tumble ends directly before me.@ In an instant, the attacker regains balance.@
-`“Ghh—!”@
+`It is too dark to see clearly, but the figure’s tumble ends directly before me and the attacker instantly regains balance.@
+`“Ghh[line=4]!”@
 `The voice is sharp with urgency.@
 `“Ha…”@
 `I can only stare, breath escaping me in wonder at the grace of that recovery.
 \
-`Then—perfect stillness.@
+`Then, perfect stillness.@
 `The blade-wielding figure freezes.@
-`“You saw me—!?”@
-`Only now does the figure seem to notice me standing there.@ The blade snaps back into guard, and its wielder lunges into my space.
+`“You saw me[line=4]!?”@
+`Only now does the figure seem to notice me standing there.@
+`Without another word[line=3]the blade snaps back into guard, and its wielder lunges into my space.
 \
-`“What—?”@
-`The point streaks toward my throat.@ The speed of that step, the precision of the strike at a vital point—Nrvnqsr’s beasts were nothing beside it.@ The figure moves as fast as Arcueid did when she tore those creatures apart.@
+`“[line=4]What?”@
+`The point streaks toward my throat.@
+`The speed of that step is overwhelming.@ The precise strike at a vital point leaves Nrvnqsr’s beasts looking trivial.@
+`The figure moves as fast as Arcueid did when she tore those creatures apart.@
 br
 `With a tiny snick, the sword’s point pricks my throat.
 \
@@ -201,127 +232,143 @@ br
 `[line=4]Thump.@
 br
 `My heart gives one tremendous beat.@
-`There is no time to think danger, no time to think move.@ I simply think: I’m dead.@
+`Before I can even think of danger or dodging, one thought flashes through my mind: I am dead.@
 br
-`But my throat is not pierced.@ The sword has stopped dead with flawless precision.
+`My throat is not pierced, however, because the sword stops dead with flawless precision.
 \
 bg #000000,crossfade,1500
 bg "bg/bg_29b",crossfade,1500
 ld c,"tachi/cel_t07b",crossfade,800
-`“Shiki…?”@
-`“C…@Ciel?”@
-`Our voices overlap, each carrying the same disbelief.@ Stunned, Ciel and I stare at one another.
+`“Shiki[line=3]?”@
+`“[line=6]Ci, el”@
+`Our voices overlap.@
+`The same disbelief colors both voices as they mingle[line=3]and Ciel and I stare at one another in shock.
 \
 `“Shiki, get away from her!”@
 `Arcueid’s voice rings out from across the park.@
 ld c,"tachi/cel_t06b",crossfade,400
-`“[line=2]”@
-`Arcueid races toward us.@ Ciel glares at me with the eyes of a stranger—and then…@
+`“[line=7]”@
+`Arcueid races toward us.@
+`Ciel glares at me with a stranger’s eyes[line=3]
 cl a,crossfade,1500
 playstop
 br
 `[line=3]She turns her back and runs away.
 \
-`“Why…@why?”@
+`“Why…?”@
 `Ciel is already gone.@
 `The black silhouette.@ Ciel dressed in black.@ The stranger who saved me two nights ago when the blue crow nearly killed me.@
-`But Ciel told me herself they were different people.@ Then why—?@
+`But[line=3]Ciel told me herself they were different people; then why[line=3]
 br
 ld c,"tachi/ark_t06",crossfade,800
-`“Shiki—!”@
+`“Shiki[line=3]!”@
 `By the time I come to myself, Arcueid is rushing up to me.
 \
-`“Ah—Arc…@ueid…”@
+`“Ah[line=2]Arc, ueid[line=2]”@
 ld c,"tachi/ark_t07",crossfade,400
 `“Are you all right?@ Did she do anything to you?”@
 `Arcueid fixes me with the same fierce stare Ciel wore moments ago.@
 `But none of that matters.@
 br
 `“Do anything to me…?”@
-`Murmuring the words, I touch the throat where the sword had rested.@ A tiny sting answers me.@ My fingertips come away faintly red.@ Ciel’s blade cut several millimeters into my skin.
+`Murmuring the words, I touch the throat where the sword had rested.@
+`A tiny sting answers me.@
+`My fingertips come away faintly red.@
+`Ciel’s blade cut several millimeters into my skin.
 \
-`“…@I don’t understand.@ Why would Ciel attack me?”@
-`Why did she have to look at me that way?@
+`“I do not understand.@ Why would Ciel attack me?”@
+`Why[line=3]did she have to look at me that way?@
 ld c,"tachi/ark_t06",crossfade,400
-`“Isn’t it obvious?@ You saw us trying to kill each other.@ Her people are fanatical about secrecy.@ They don’t like ordinary civilians like you learning anything about them.”@
+`“Is it not obvious?@ You saw us trying to kill each other.@ Her people are fanatical about secrecy and hate being seen by ordinary civilians like you.”@
 `Arcueid delivers this appalling statement as if it were self-evident.@
-`“Trying to…@kill each other?@ Why?@ Why were you and Ciel doing that?”@
+`“[line=3]You were trying to kill each other—why?@
+`Why[line=3]why were you and Ciel doing that?”@
 `I am too stunned to say anything else.
 \
 cl a,crossfade,400
-`I didn’t come here to ask about any of this.@ I only searched the night streets because I had something to ask Arcueid.
+`I did not come here to ask about any of this.@ I only searched the night streets because there was something I wanted to ask her[line=3]to ask Arcueid.
 \
-`“…@I don’t understand.@ I came here to see you.@ So why—why did I have to find you and Ciel trying to kill each other?”@
+`“I do not understand.@ I only came here to see you, so why[line=3]why did I have to find you and Ciel trying to kill each other?”@
 ld c,"tachi/ark_t03",crossfade,400
 `“What?@ Shiki, you came to see me?”@
-`“Yes.@ There was something I had to talk to you about, and I’ve been searching for you all night.@ So why did everything turn into this?@
-`…@I don’t understand any of it, and it’s driving me insane.@ Please, Arcueid—tell me what’s going on.”
+`“[line=3]Yes.@ There was something I had to talk to you about, and I have been searching all night[line=3]so why did everything turn into this?@
+`I do not understand.@ It is driving me insane.@ Please[line=3]tell me what is going on, Arcueid.”
 \
-`“There isn’t much to tell.@ I was fighting someone from the Church, that’s all.@ It has nothing to do with you, so forget what you saw.”@
-`“It does have something to do with me.@ And what do you mean, someone from the Church?@ Explain it in words I can understand.”@
+`“There is not much to tell: I was fighting someone from the Church.@ It has nothing to do with you, so forget what you saw.”@
+`“[line=4]It does have something to do with me.@ What do you mean by someone from the Church?@ Explain it in words I can understand.”@
 cl a,crossfade,400
-`Arcueid does not answer.@ She considers the matter for a while, then decides, “Oh, why not?”@ and nods to herself.
+`Arcueid does not answer.@
+`After thinking it over for a while, she nods to herself as if to say, “Well, whatever.”
 \
 ld c,"tachi/ark_t01a",crossfade,400
 `“If you insist, I’ll tell you.@ But it truly has nothing to do with you.@ Are you sure you want to hear me ramble about something so dull?”@
 `“Yes.@ Whatever it is, I won’t complain.”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Hmm.@ You’re very determined.@ I’m more curious about why you came looking for me.”@
-`“…@Never mind that.@ Please hurry.@ I want to know about the person who was just here.”@
+`“Hmm, you are very determined.@ I am more curious about why you came looking for me.”@
+`“Never mind that.@ I want to know about the person who was just here, so please hurry.”@
 ld c,"tachi/ark_t04",crossfade,400
-`Arcueid scowls, plainly displeased.@ I have no room in my mind to wonder why.
+`Arcueid scowls, plainly displeased.@
+`I have no room in my mind to wonder why.
 \
 br
-`…@My throat throbs.@
-`Ciel—Ciel pointed a sword at me.@
+`My throat throbs.@
+`Ciel[line=3]Ciel pointed a sword at me.@
 `That fact has lodged itself in my mind, leaving no space for anything else.
 \
 ld c,"tachi/ark_t02",crossfade,400
 play "*1"
-`“…@Fine.@ I’ll explain.@
-`Vampires called Dead Apostles go to great lengths to conceal their existence.@ They must drink human blood to survive, so wherever they exist, there will inevitably be victims.@ Yet you almost never hear of anyone being killed by a vampire, do you?@ Why do you think that is?”@
-`“…@Arcueid, I didn’t ask about vampires.”
+`“Fine, I will explain.@
+`Vampires called Dead Apostles go to great lengths to conceal their existence.@
+`They must drink human blood to survive.@ Wherever they exist, there will inevitably be victims.@ Yet you almost never hear of anyone being killed by a vampire, do you?@
+`Why do you think that is?”@
+`“…@Arcueid, I did not ask about vampires.”
 \
 ld c,"tachi/ark_t16",crossfade,400
-`“Honestly, I’m explaining it in order for your sake, so answer the question.@
-`Listen.@ Even when vampires claim victims, they use all kinds of magecraft to hide the evidence—to keep the surrounding world, ordinary society where people like you live, from finding the bodies or realizing that anything is wrong.@ Why?”
+`“I am laying this out step by step for your sake, so answer me properly.@
+`Listen.@ Even when vampires claim victims, they use all kinds of magecraft to hide the evidence.@ They keep the surrounding world[line=2]the ordinary society where people like you live[line=2]from finding the bodies or realizing anything is wrong.@
+`Do you understand why?”
 \
-`“…@Because humans aren’t stupid.@ If they knew monsters like that lived among them, they would fight back.@ Humans may be weak, but we have the police and plenty of other ways to defend ourselves.@ If vampires were exposed, people would take precautions to prevent more deaths.@ They’d stop going out at night, like they have in this city.@ That would make hunting difficult, so vampires hide what they are.”@
+`“Because humans are not stupid.@ If they knew monsters like that lived among them, they would fight back.@
+`Humans may be weak, but we have the police and plenty of other ways to defend ourselves.@ If vampires were exposed, people would take precautions to prevent more deaths.@ They would stop going out at night, like they have in this city.@ That would make hunting difficult, so vampires hide what they are.”@
 ld c,"tachi/ark_t02",crossfade,400
-`“That is part of it, I suppose.@ But the police are an institution of human law, meant to deal with humans.@ Creatures like us don’t even take them into account.@
-`Still, you’re right that vampires erase their traces to protect themselves.”
+`“[line=3]That is part of it, but the police are an institution of human law meant to deal with humans.@ Creatures like us do not take them into account.@
+`Still, you are right that vampires erase their traces to protect themselves.”
 \
-`“Vampires have a natural enemy, Shiki—a whole band of killers, and these days the balance of power favors them.@
-`…@Other transcendent species face the same danger, but for a vampiric species in particular, revealing its existence can be fatal.@ A vampire might rule one tiny mountain village cut off from civilization and build a secret kingdom there, but once enough victims accumulate, those enemies will inevitably catch the scent.@
-`Vampires prey on humanity in secret for one reason alone: self-preservation.@ They don’t hide bodies to avoid rumors.@ They hide them so their natural enemy won’t find them.”
+`“Vampires have natural enemies, Shiki.@ A whole band of killers, and these days the balance of power favors them.@
+`Other transcendent species face the same danger, but for a vampiric species in particular, revealing its existence can be fatal.@
+`A vampire might rule one tiny mountain village cut off from civilization and build a secret kingdom there, but once enough victims accumulate, those enemies will inevitably catch the scent.@
+`Vampires prey on humanity in secret for one reason alone: self-preservation.@ They hide bodies not to avoid rumors, but to keep their natural enemies from finding them.”
 \
-`“…@A vampire’s natural enemy?”@
+`“A vampire’s natural enemy?”@
 `Something that hunts vampires.@
 `Someone like Ciel, who had been swinging a sword at Arcueid moments ago.
 \
-`“…@Are they another kind of nonhuman creature?”@
+`“Are they another kind of nonhuman creature?”@
 ld c,"tachi/ark_t04",crossfade,400
 `“What are you talking about?@ Their natural enemy is unquestionably humanity.”@
-`“—?@ Humans are?”@
+`“[line=4]?@ Humans are?”@
 ld c,"tachi/ark_t02",crossfade,400
 `“Yes.@ Long ago, humans built organizations upon various forms of magecraft, mysticism, and religious ritual, then began exterminating nonhuman primates.@
-`The foremost example is Christianity—the corps of exorcists maintained by the Holy See.@ Catholicism has always purged anything ‘not human’ with ruthless thoroughness, but its hatred of vampires is deranged even by those standards.”
+`The foremost example is Christianity[line=3]the corps of exorcists maintained by the Holy See.@ Catholicism has always purged anything ‘not human’ with ruthless thoroughness, but its hatred of vampires is deranged even by those standards.”
 \
-`“No religion on earth despises vampires more than Catholicism.@ They’re obsessed—possessed, even.@ It’s so pathological that not even I want anything to do with them.”@
+`“No religion on earth despises vampires more than Catholicism.@
+`They’re obsessed—possessed, even.@ It’s so pathological that not even I want anything to do with them.”@
 `Arcueid sighs.@
 ld c,"tachi/ark_t06",crossfade,400
-`“You understand now, don’t you?@ The woman who tried to kill you belongs to the branch that specializes in heretic hunting.”
+`“You understand now, don’t you?@
+`The woman who tried to kill you belongs to the branch that specializes in heretic hunting.”
 \
-`“They call it the Burial Agency.@ Its members resolve Christianity’s contradictions through force instead of doctrine—exorcists who operate like assassins and never appear in public.@
-`Their very purpose is to erase contradictions, so their existence belongs to the darkness.@ Strictly speaking, no such agency should exist within a Christian institution at all.@ That is why anyone who discovers them is eliminated without exception.”
+`“They are called the Burial Agency: people who dispose of the contradictions within Christianity through force rather than law.@ They are exorcists like assassins, never seen in public.@
+`Their very purpose is to erase contradictions, so their existence belongs to the darkness.@ Strictly speaking, no such agency should exist within a Christian institution at all.@ That is why[line=3]anyone who discovers them is eliminated without exception.”
 \
 ld c,"tachi/ark_t04",crossfade,400
-`“That woman—apparently she calls herself Ciel now—must have come to dispose of the vampire nesting in this city.@ Her nose for an enemy is even sharper than mine.”@
+`“That woman[line=3]who apparently calls herself Ciel now must have come to dispose of the vampire nesting in this city.@ Her nose for an enemy is even sharper than mine.”@
 `Arcueid grimaces in irritation.
 \
 cl a,crossfade,400
 `“…”@
-`I have no words.@ Ciel is an exorcist who came here to kill vampires?@ That is too absurd to believe.
+`I have no words.@
+`Ciel[line=3]an exorcist who came here to kill vampires[line=3]that is too absurd to believe.
 \
 bg #000000,crossfade,400
 monocro off
@@ -331,45 +378,50 @@ br
 br
 bg #000000,crossfade,400
 bg "event/cel_e02a",crossfade,1500
-`not someone who could kill, not someone equipped to handle horrors like these the way I somehow am.
+`not someone who could kill[line=3]not someone equipped to handle horrors like these the way I somehow am.
 \
 bg #000000,crossfade,1500
 monocro #0000ff
 bg "bg/bg_29b",crossfade,400
-`“That’s a lie.@ It has to be, Arcueid.@ Ciel is a third-year at my school.@ How could she possibly belong to some organization called the Church…?”@
+`“[line=3]That is a lie.@ It has to be, Arcueid.@ Ciel is a third-year at my school.@ How could she possibly belong to some organization called the Church…?”@
 ld c,"tachi/ark_t16",crossfade,400
 `“Wait.@ Shiki, you know her?”@
-`Arcueid crowds toward me as if this were unforgivable.@
+`Arcueid closes in on me as though this were unforgivable.@
 cl c,lshutter,800
-`“Of course I know her.@ She’s a third-year at my school, and I’ve known her since my first—”@
+`“Of course I know her.@ She is a third-year at my school, and I have known her since my first[line=2]”@
 br
 `[line=4]Since my first year?
 \
 bg #000000,crossfade,400
-`“Wait…”@
+`“[line=3]Wait[line=2]what”@
 `Something is wrong.@
-`Now that I think about it, when did Ciel become someone I knew?@ I don’t even know what class she belongs to.@ And I have no memories of her before the day she was repairing that tree support in the courtyard.
+`Now that I think about it, when did Ciel become someone I knew?@
+`I do not even know what class she belongs to.@
+`And as for memories[line=3]none exist before the day she was repairing that tree support in the courtyard.
 \
 monocro #ffff00
 bg "event/cel_e01",crossfade,1500
 br
 `[line=3]Thank you, Tohno.@
 br
-`She said it with such a warm smile that I somehow felt we had known each other forever.@
-`“No…@way…”
+`Ciel said it with a smile.@
+`So I somehow felt we had known each other forever.@
+`“[line=3]No[line=4]way”
 \
 bg #000000,crossfade,400
-`And strangest of all: everyone called her Ciel as though it were perfectly natural, yet no one ever spoke another name for her.@ Only Ciel.@
-`Why had none of us ever questioned a name like that?
+`The strangest thing of all.@
+`Everyone called her Ciel as though it were perfectly natural, yet no one ever spoke another name for her.@
+`Only Ciel.@
+`Why had none of us ever questioned a name like that[line=3]?
 \
 monocro #0000ff
 bg "bg/bg_29b",crossfade,400
-`“Arcueid…@ Ciel—who is she really…?”@
+`“Arcueid[line=3]who is Ciel really…?”@
 ld c,"tachi/ark_t02",crossfade,400
 `“I told you, she’s a member of the Burial Agency.@ She may have joined only eight years ago, but her talent must have been unrivaled.@ Now she is an Executor holding the Seventh seat—a perfect number.”@
 cl a,crossfade,400
-`“—”@
-`I don’t understand what Arcueid is saying.@
+`“[line=4]”@
+`I do not understand what Arcueid is saying.@
 br
 `But seven is indeed a perfect number.
 \
@@ -377,46 +429,56 @@ bg "bg/cmo_09",crossfade,1500
 monocro #00ffff
 `A number isolated from all the others.@
 `Lonely, with nowhere to go.@
-`Isolated.@ Isolated.@ Because it is complete, the apocryphon that bears that number denies reincarnation.@
+`Isolated, isolated.@ Because it is complete, the apocryphon that bears that number denies reincarnation.@
 br
-`…@I don’t understand.@
+`I do not understand.@
 `Yet for some reason, those words repeat themselves inside my head.
 \
 bg "bg/bg_29b",crossfade,800
 monocro #0000ff
 ld c,"tachi/ark_t06",crossfade,400
-`“…@Yes, I suppose even nominal members of the Burial Agency are adepts.@ It would be easy for her to place ordinary people—people with no resistance to miracles—under suggestion.@ She must have deceived everyone and slipped into your school.”@
-`“…@Suggestion?@ You mean something like hypnosis?”@
+`“Even nominal members of the Burial Agency are adepts, so placing ordinary people with no resistance to miracles under suggestion would be easy.@
+`She must have deceived everyone and slipped into your school.”@
+`“Suggestion, you mean something like hypnosis?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Yes.@ Suggestion can’t implant complicated commands.@ It was probably nothing more than a simple instruction: ‘Never question Ciel.@’”
+`“Yes.@ Suggestion cannot implant complicated commands.@ It was probably no more than a simple instruction never to question Ciel.”
 \
-`…@Of course.@
-`I felt something was wrong at first, but the doubt faded every time I saw her.@ No matter where she appeared, her presence seemed perfectly natural.@
+`Of course.@
+`I felt something was wrong at first, but the doubt faded every time I saw her.@
+`No matter where she appeared, her presence seemed perfectly natural.@
 `That had always been Ciel’s most peculiar quality.
 \
-`“…@I understand.@ But something still doesn’t add up.@ Even if Ciel belongs to this Burial Agency, why was she fighting you?@ The Church’s exorcists only hunt evil vampires, don’t they?@ Then you and Ciel have no reason to be trying to kill each other.”@
+`“I understand.@ But something still does not add up.@
+`Even if Ciel belongs to this Burial Agency, why was she fighting you?@ The Church’s exorcists only hunt evil vampires, do they not?@ Then[line=3]you and Ciel have no reason to be trying to kill each other.”@
 br
 `[line=3]They only hunt evil vampires.@
 br
 `Vampires who drink human blood, for example, then throw the bodies into the street.
 \
-`“…@Arcueid.@ You didn’t—”@
+`“Arcueid, you[line=3]”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Hm?@ What about me?”@
 `Arcueid looks straight into my eyes.@
-`…@I can’t believe it.@ I don’t want to believe she would drink human blood.@
-`But a murder did happen.@ And if Ciel truly is a Church exorcist, then the fact that she was trying to kill Arcueid means…
+`I cannot believe it.@
+`I do not want to believe she would drink human blood.@
+`But a murder did happen.@
+`And if Ciel truly is a Church exorcist, her attempt to kill Arcueid means…
 \
-`“Arcueid…@ Was last night’s murder your doing?@ Is that why Ciel was trying to kill you?”@
-`I grind my teeth.@ The question feels as heavy as confessing to a girl I’ve loved in secret.
+`“[line=3]Arcueid.@
+`Was last night’s murder your doing?@ Is that why Ciel was trying to kill you[line=3]”@
+`I grind my teeth.@
+`The question feels as heavy as confessing to a girl I have loved in secret.
 \
 ld c,"tachi/ark_t06",crossfade,400
 `“Shiki, are you serious?”@
-`“I don’t want to believe it either.@ But what other answer is there?@ Nrvnqsr is dead.@ That only leaves…@you.”@
+`“I do not want to believe it either.@ But what else could it be?@ Nrvnqsr is already dead.@
+`Then, well, that only leaves you.”@
 cl a,crossfade,400
-`…@I hate myself for saying it.@
-`I like Arcueid.@ She saved my life, and those two days with her were fun.@ I don’t want this to be where we part forever.@
-`But if she is a vampire who feeds on human beings, then I—
+`I hate myself for saying it.@
+`I like Arcueid.@
+`She saved my life, and those two days with her were fun.@
+`That is why[line=3]I do not want this to be where we part forever.@
+`But if she is a vampire who feeds on human beings, then I[line=4]
 \
 br
 br
@@ -424,79 +486,84 @@ br
 br
 br
 br
-`[line=6]And then—
+`[line=6]And then.@
 quakey 1,100
 br
-`She raps me on the head with her knuckles.
+`She bonks me on the head with her fist.
 \
 ld c,"tachi/ark_t09",crossfade,400
 `“Idiot, Shiki.”@
-`“What…@Arcueid?”@
-`“Ordinarily, you’d get far worse than that.@ But considering the face you were making, I’ll forgive you with one knock.”@
+`“Huh, Arcueid?”@
+`“Ordinarily you would get much worse, but given the look on your face, I will forgive you with one knock.”@
 `She smiles and springs lightly backward.
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Shiki, you’re a good person.”@
-`“Wh—”@
-`The words come from nowhere, and heat floods my face.@
+`“Shiki.@ You are a good person.”@
+`“Wha[line=4]”@
+`The words come from nowhere, and my face burns.@
 ld c,"tachi/ark_t08",crossfade,400
-`“And you’re painfully honest.@ I think I really like that about you.”@
-`Arcueid beams at me.@ Looking at that smile, I still can’t picture her killing people and drinking their blood.
+`“And you are incredibly honest.@ I think I really like that about you.”@
+`Arcueid beams at me.@
+`Even looking at her like this[line=3]I still cannot imagine her killing people and drinking their blood.
 \
-`“Arcueid, then that means—”@
+`“Arcueid, then[line=3]”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Yes.@ I’m not the serial killer you mean.@ Those murders were committed by another member of a vampiric species.”@
-`“[line=2]”@
-`The knot in my chest dissolves in a rush.@
-`Of course.@ Arcueid hadn’t done anything like that after all.@
+`“Yes.@ The serial killer you mean is not me.@ That was the work of another vampire.”@
+`“[line=8]”@
+`The haze in my chest clears in a rush.@
+`I knew it[line=3]Arcueid had not done anything like that.@
 br
-`“I see…@ So another vampire did it.”@
+`“I see[line=3]so it was another vampire.”@
 br
-`What a relief…@ Wait.@ Something about that is very wrong.
+`That is a relief, but no, wait, something about that is wrong.
 \
-`“Hold on, Arcueid.@ You say another vampiric species did it, but isn’t it strange for vampires to keep appearing one after another?”@
+`“Hold on, Arcueid.@ You say it was another vampire, but is it not strange for them to keep appearing one after another?”@
 ld c,"tachi/ark_t11",crossfade,400
 `“What are you talking about?@ No new vampire has appeared.”@
-`“What?@ But Nrvnqsr is gone.@ No one else was left who could do something like that.”@
-`“…@Oh.@ Shiki, you’ve misunderstood this rather spectacularly.”@
+`“[line=3]What?@ But Nrvnqsr is gone.@ There is no one else left who would do something like that.”@
+`“I see.@ Shiki, you have gotten the wrong idea entirely.”@
 `Arcueid sighs in exasperation.
 \
 ld c,"tachi/ark_t02",crossfade,400
-`“Listen carefully.@ The serial murders you mean were the work of one vampire from the very beginning.@ No new vampiric species arrived, and Nrvnqsr had nothing whatsoever to do with those killings.”@
+`“Listen, Shiki.@ The serial murders you mean were the work of one vampire from the very beginning.@
+`No new vampire has come to the city, and Nrvnqsr had nothing at all to do with those killings.”@
 br
 `[line=4]What?@
 `Even Nrvnqsr had nothing to do with them?@
 br
-`“What does that mean?”@
-`“Exactly what I said.@ Honestly, Shiki, you seem so sharp until you miss something enormous.@
-`Think back.@ Nrvnqsr may have belonged to a vampiric species, but did he drink anyone’s blood?”
+`“[line=3]What do you mean?”@
+`“Exactly what I said.@ Honestly, Shiki, you seem sharp until you miss something enormous.@
+`Think back.@ Nrvnqsr may have been a vampire, but did he drink anyone's blood?”
 \
-`“Drink it?@ He crunched people up whole, headfirst—oh.”
+`“As for drinking blood, he crunched people up whole, headfirst[line=3]oh.”
 \
 `Of course.@
 `How did I miss something so obvious?@
-`The serial killer’s victims were found as corpses drained of blood.@ Nrvnqsr was different.@ He left no bodies at all.@ He devoured flesh as well as blood, erasing every trace of his victims.@
+`The serial killer's victims were found as corpses drained of blood.@
+`Nrvnqsr was different.@
+`He left no bodies at all.@ He devoured flesh as well as blood, erasing every trace of his victims.@
 `The people eaten at the hotel were treated as missing persons, not murder victims.@
-`So his killings were plainly different from the crimes happening throughout the city.
+`So[line=3]his killings were plainly different from the crimes happening across the city.
 \
-`“Wait.@ Then what are these murders?@ Who is doing this?”@
+`“Wait.@ Then what are the murders happening now?@ Who in the world is doing such a thing?”@
 ld c,"tachi/ark_t01b",crossfade,400
-`“I told you: a different vampiric species.@ To be precise, that creature brought me to this city, and Nrvnqsr followed me here.@ That’s the chain of connections.”@
-`“Then—the enemy you were hunting wasn’t Nrvnqsr?”
+`“That is what I have been telling you: those murders were the work of a different vampire.@ More precisely, it was here first; I came because of it, and Nrvnqsr followed me, which is how everything connects.”@
+`“[line=3]What?@ Then the enemy you were hunting was not Nrvnqsr…!?”
 \
-`“No.@ I never said Nrvnqsr was my target.@ I was his target, certainly, but he was never mine.@ My only quarry was the vampire this city calls its ‘serial killer.@’”@
-`“What—”@
-`I suck in a stunned breath.@
-`But she is right.@ When Arcueid said she hunted vampires, I leapt to the conclusion that she had come to defeat Nrvnqsr.
+`“No, I never said Nrvnqsr was my target.@ I was his target, but my target was never Nrvnqsr, only the vampire this city calls its ‘serial killer.@’”@
+`“Wha[line=5]”@
+`I draw a stunned breath.@
+`But[line=3]Arcueid is right.@
+`When she said her purpose was to kill a vampire, I jumped to the conclusion that she had come to defeat Nrvnqsr[line=4]
 \
-`“…@Then are you telling me that our fight to the death with Nrvnqsr was completely pointless?”@
-`“It wasn’t pointless.@ You fought in my place.@ Of course, none of it would have happened if you hadn’t killed me first.”@
-`“[line=2]”@
+`“…@Then are you saying our fight to the death with Nrvnqsr that night was completely pointless…!?”@
+`“It was not pointless.@ You fought in my place.@ Of course, none of it would have happened if you had not killed me first.”@
+`“[line=6]”@
 `The world sways beneath me.
 \
-`“…@So Nrvnqsr had nothing to do with the vampire murders, and some other vampire has been terrorizing the city for the past month?”@
+`“So Nrvnqsr had nothing to do with the vampire murders, and some other vampire has been terrorizing the city for the past month?”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Exactly.@ But that’s my problem to settle, so you don’t need to worry about it.@ More importantly…”@
+`“Yes, exactly.@ But this is my problem to settle, so you do not need to worry about it.@ More importantly, Shiki…”@
 ld c,"tachi/ark_t08",crossfade,400
 playstop
 `Arcueid looks up at my dazed face with a smile far too delighted for comfort.
@@ -504,31 +571,33 @@ playstop
 play "*3"
 `“How was last night?@ Who appeared?”@
 `“Huh?”@
-`What does she mean, last night?@ I can’t follow her at all.@ Then again, I’m apparently the idiot who twists everything she says into the wrong conclusion, so naturally I wouldn’t understand—but wait.@
+`What does she mean by last night?@
+`I cannot follow her at all.@
+`Then again, I am apparently the idiot who twists everything she says into the wrong conclusion, so naturally I would not understand[line=3]but wait.@
 br
-`Did Arcueid just ask who appeared last night?
+`Did Arcueid just ask who appeared last night[line=3]?
 \
-`“…@Arcueid.@ What do you mean, last night?”@
+`“Arcueid.@ What do you mean by last night?”@
 ld c,"tachi/ark_t11",crossfade,400
-`“Huh?@ That’s strange.@ I know I sent the dream demon properly.”@
-`“Wait.@ What’s a dream demon?”@
+`“That is strange.@ I know I sent the dream familiar properly.”@
+`“Wait.@ What is a dream familiar?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Well, it’s a familiar that shows people whatever dreams they desire.@ Since you’re male, I sent a succubus.@ You had a pleasant dream, didn’t you?”@
+`“Basically, it is a familiar that shows people the dreams they desire.@ Since you are a man, Shiki, I sent you a succubus; you had a nice dream, did you not?”@
 br
-`“You—”@
+`“Oh[line=5]”@
 br
-`A pleasant dream?@ Does she mean that?
+`A nice dream, she says, but that was…
 \
-`I remember the dream, so vivid it could only have been real, and feel my face burst into flame.@
+`I remember the dream, vivid enough to pass for reality, and feel my face burn.@
 br
-`“That was your doing?”@
+`“You mean that was your doing[line=3]!”@
 ld c,"tachi/ark_t09",crossfade,400
-`Arcueid’s mouth curls into a wicked grin.@
+`Arcueid grins.@
 `[line=3]Damn it.@
-`If I had kept quiet, the subject might have died there.@ Instead I just confirmed everything myself.
+`If I had kept quiet, this would have blown over, but I went and admitted it myself[line=3]
 \
 ld c,"tachi/ark_t08",crossfade,400
 `“Oh, so it did reach you!@ Tell me, what kind of dream was it?@ Dream demons give form to a person’s desires, so it must have felt wonderful.”@
 cl c,crossfade,400
-`“What kind?@ I can’t just—”
+`“A dream like that is not something I can[line=3]”
 \

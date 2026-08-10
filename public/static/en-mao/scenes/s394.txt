@@ -3,21 +3,34 @@ wavestop
 bg "bg/bg_06a",lcartain,800
 wave se_03
 !w2000
-`[line=3]Lunchtime arrives.@ Arihiko is absent from school, as usual.@
+`[line=3]Lunchtime arrives.@
+`Arihiko is absent from school, as usual.@
 br
-`“Maybe I’ll go to the cafeteria.”@ Eating alone would only leave me brooding.@ In a dining hall packed with students, I shouldn’t have room to think about anything unnecessary.
+`“Maybe I’ll go to the cafeteria.”@
+`Eating alone would only leave me brooding.@
+`In a dining hall packed with students, I shouldn’t have room to think about anything unnecessary.
 \
 bg "bg/bg_50",lcartain,800
-`As expected, the cafeteria is roaring with life.@ I join a line dozens deep, buy the safe choice—Set A—and find a table.@ The racket of conversation lets me concentrate on eating, at least.@ I work my fork in silence and take in the necessary nutrients.@
+`As expected, the cafeteria is roaring with life.@
+`I join a line dozens deep, buy the safe choice—Set A—and find a table.@
+`The racket of conversation lets me concentrate on eating, at least.@
+`I work my fork in silence and take in the necessary nutrients.@
 br
-`[line=4]And then—
+`[line=4]And then.@
 br
 `For an instant, an ugly image flashes before me.
 \
-`“Something on television…?”@ I look toward the enormous television enthroned at the back of the cafeteria.@ Our school records the morning news and replays it during lunch—a service of distinctly questionable value.@ Today, as ever, I gaze blankly at news already several hours old.
+`“What was that?@ Something on television?”@
+`I look toward the enormous television enthroned at the back of the cafeteria.@
+`Our school records the morning news and replays it during lunch—a service of distinctly questionable value.@
+`Today, as ever, I gaze blankly at news already several hours old.
 \
 waveloop se_02
-`“No…”@ The report leaves me stunned.@ The screen shows the same back alley I saw in yesterday’s dream.@ A newscaster is speaking.@ Across the picture, huge letters the color of blood read: VAMPIRE MURDERS—NINTH VICTIM.@
+`“[line=4]No.”@
+`The report leaves me stunned.@
+`The screen shows the same back alley I saw in yesterday’s dream.@
+`A newscaster is speaking.@
+`Across the picture, huge letters the color of blood read: VAMPIRE MURDERS—NINTH VICTIM.@
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_50",notrans,0
@@ -27,12 +40,22 @@ br
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_50",crossfade,400
-`“…”@ For a moment, I feel consciousness recede.
+`“[line=9]”@
+`For a moment.@ I feel consciousness recede.
 \
 wavestop
-`“Why…?”@ It was a dream.@ I know it was a dream.@ Yet the same person has been murdered in the same place, in exactly the same way.@ “…@But the vampire is gone.”@ I killed Yumizuka with my own hands.@ There should never have been another vampire murder.
+`“Why?”@
+`It was a dream.@ I know it was a dream.@
+`Yet the same person has been murdered in the same place, in exactly the same way.@
+`“…@But the vampire is gone.”@
+`I killed Yumizuka with my own hands.@
+`There should never have been another vampire murder.
 \
-`“I—killed her?”@ Yes—I killed her.@ Just as I drove the knife into Yumizuka with my own hand.@ Panting for breath, last night, that woman I had never seen—
+`“I[line=4]killed her?”@
+`Yes, I killed her.@
+`Just as I drove the knife into Yumizuka with my own hand.@
+`Panting for breath, last night,
+`that woman I had never seen[line=7]
 \
 wave se_01
 bg #000000,notrans,0
@@ -42,36 +65,53 @@ br
 br
 br
 br
-`I told you so, Shiki.@ Holding back never did any good.
+`I told you so, Shiki.@
+`Holding back never did any good.
 \
 bg "bg/bg_50",notrans,0
-`“Urgh—”@ Fighting the urge to vomit, I stagger to my feet.@
+`“Urgh[line=3]”@
+`Fighting the urge to vomit, I stagger to my feet.@
 br
 bg #000000,lshutter,400
-`I can’t go back to class.@ Before I know it, I am running into the city.
+`I can’t go back to class.@
+`Before I know it, I am running into the city.
 \
 !w2000
 bg "bg/bg_31a",crossfade,400
 `[line=3]I reach the place from my dream.@
 br
-`Several police officers stand nearby, and tape seals off the alley.@ “It’s the same.”@ I came through this place in the dream.@
+`Several police officers stand nearby, and tape seals off the alley.@
+`“It’s the same.”@
+`I came through this place in the dream.@
 br
-`[line=3]No—that wasn’t a dream.@ I can’t hide from it by calling it one anymore.@ “…”@ If I stay, the police will only start watching me.@ It’s too late to return to school, so I may as well go back to the mansion.
+`[line=3]No—that wasn’t a dream.@
+`I can’t hide from it by calling it one anymore.@
+`“…”@
+`If I stay, the police will only start watching me.@
+`It’s too late to return to school, so I may as well go back to the mansion.
 \
 bg #000000,crossfade,800
 bg "bg/bg_33a",crossfade,800
 waveloop se_11
-`Perhaps because it is barely two in the afternoon, Hisui is not waiting in the lobby.@ “…”@ That suits me well enough.@ I don’t want to see anyone right now.
+`Perhaps because it is barely two in the afternoon, Hisui is not waiting in the lobby.@
+`“…”@
+`That suits me well enough.@ I don’t want to see anyone right now.
 \
 bg #000000,lshutter,800
 bg "bg/bg_40a",lshutter,800
-`“Haa…”@ I empty my lungs and collapse onto the bed.
+`“Haa…”@
+`I empty my lungs and collapse onto the bed.
 \
 bg #000000,crossfade,800
-`I truly don’t understand.@ The self who dreams of murder.@ The murders that happen exactly as I dream them.@ The self who goes on living an ordinary life.@ The self who exulted in killing inside the dream.@
+`I truly don’t understand.@
+`The self who dreams of murder.@
+`The murders that happen exactly as I dream them.@
+`The self who goes on living an ordinary life.@
+`The self who exulted in killing inside the dream.@
 br
 br
-`[line=6]Which one—which one is the real Shiki Tohno?
+`[line=6]Which one.@
+`Which one is the real Shiki Tohno?
 \
 textcolor #ff0000
 br
@@ -105,18 +145,30 @@ br
 br
 br
 br
-`Night comes every day.@ Sooner or later, we’re bound to find the one we want…@ aren’t we?
+`Night comes every day
+`Sooner or later, we’re bound to find the one we want[line=3]aren’t we?
 \
 textcolor #ffffff
 ld c,"tachi/aki_t01c",notrans,0
 !w250
 bg "bg/bg_40a",notrans,0
 wavestop
-`“Shut up!”@ I wrench myself upright.@ “Hah…@ hah…@ hah…”@ My breathing comes hard and fast.@
+`“Shut up[line=5]!”@
+`I wrench myself upright.@
+`“Hah[line=3]hah[line=3]hah”@
+`My breathing comes hard and fast.@
 br
-`Just now, I could have sworn I wanted Akiha.
+`Just now.@
+`I could have sworn I wanted Akiha.
 \
-`“Hah…@ hah…”@ I feel ready to vomit.@ I don’t want anything like that, not in the slightest, yet whenever I try to sleep, these twisted thoughts seep into my mind.@ It is as if some other, unknown self lives inside my head.
+`“Hah[line=3]hah”@
+`I feel ready to vomit.@
+`I don’t want anything like that, not in the slightest, yet whenever I try to sleep, these twisted thoughts seep into my mind.@
+`It is as if some other, unknown self lives inside my head.
 \
-`“…@Ah.”@ Come to think of it, Akiha said something similar.@ She said Father suffered from severe mood swings and sometimes seemed like a completely different person.@ Isn’t that rather like what is happening to me now?@ Of course.@ Father and I are related.@ It would hardly be strange if I had inherited the same condition.@ “Father’s room is still just as he left it…”
+`“Ah.”@
+`Come to think of it, Akiha said something similar.@
+`She said Father suffered from severe mood swings and sometimes seemed like a completely different person.@ Isn’t that rather like what is happening to me now?@
+`Since Father and I are related, it would hardly be strange if I had inherited the same condition.@
+`“Father’s room is still just as he left it…”
 \

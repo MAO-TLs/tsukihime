@@ -2,40 +2,52 @@ monocro off
 wavestop
 playstop
 bg "bg/bg_06b",crossfade,1500
-`Classes end, and twilight steals swiftly into the room.@ The sun is sinking beyond the far horizon.@ No one else is here.@ I’m probably the only person strange enough to linger in an empty classroom with nothing in particular to do.@
+`Classes end, and twilight steals swiftly into the room.@
+`The sun is sinking beyond the far horizon.@
+`No one else is here.@
+`I’m probably the only person strange enough to linger in an empty classroom with nothing in particular to do.@
 br
-`“…”@ The classroom deepens toward crimson.@
+`“[line=5]”@
+`The classroom deepens toward crimson.@
 br
 bg #000000,crossfade,800
 bg "bg/ima_07",crossfade,800
 wave se_01
-`[line=3]I don’t want to look at the sunset.@ Its vivid red brings blood to mind, and with it everything that has happened these past few days.
+`[line=3]I don’t want to look at the sunset.@
+`Its vivid red brings blood to mind, and with it everything that has happened these past few days.
 \
-`“…”@ Even so, I can’t bring myself to go home.@ I stare absently through the window into the scarlet light.@
+`“[line=6]”@
+`Even so, I can’t bring myself to go home.@
+`I stare absently through the window into the scarlet light.@
 br
-`Red.@ A red, red sunset.
+`Red.@
+`A red, red sunset.
 \
 bg #000000,crossfade,400
 bg "bg/ima_07",crossfade,400
 wave se_01
 br
-`“It—hurts.”@
+`“It[line=5]hurts.”@
 br
 `The old wound in my chest gives a vicious throb.
 \
 bg #000000,crossfade,400
 bg "bg/ima_07",crossfade,400
 wave se_01
-`Red.@ Something red.@ Human blood, for instance.@ Great smears of it, clinging thickly, rank with a stench so rich it chokes me.
+`Red.@
+`Something red.@
+`Human blood, for instance.@
+`Great smears of it, clinging thickly, rank with a stench so rich it chokes me.
 \
 bg #000000,crossfade,400
 bg "bg/ima_07",crossfade,400
 wave se_01
-`“Ngh—”@
+`“Ngh[line=4]”@
 br
-`It hurts.@ My glasses are on—they’re on properly—but my head still hurts.@
+`It hurts.@
+`My glasses are on—they’re on properly—but my head still hurts.@
 br
-`                why?
+`why?
 \
 bg #000000,crossfade,400
 bg "bg/ima_07",crossfade,400
@@ -47,7 +59,7 @@ wave se_01
 `                      my head.@
 `why?@
 `                                  throb
-`bing          why—
+`bing          why[line=5]
 !w750
 \
 bg #000000,crossfade,400
@@ -60,33 +72,51 @@ bg "bg/bg_06b",crossfade,1500
 br
 br
 br
-`“Hah—hah—haah—”@
+`“Hah[line=4]hah[line=4]haah[line=5]”@
 br
 br
-`My breathing is ragged.@ Something has me terribly—worked up.@ I’m seething.@ Something is wrong, something is unbearable, and I won’t calm down unless I take it out on something—
+`My breathing is ragged.@
+`Something has me terribly[line=3]worked up.@
+`I’m seething.@ Something is wrong, something is unbearable, and I won’t calm down unless I take it out on something[line=4]
 \
-`“…@Tohno?@ Is that you?”@
+`“Tohno, is that you?”@
 ld c,"tachi/cel_t07a",crossfade,1500
 play "*3"
-`“Oh—Ciel.”@ She enters the classroom with a grave look on her face.@ “I heard what sounded like desks falling over.@ Did you do this, Tohno?”@ “—What?”@ I look behind me.@ Desks and chairs lie scattered everywhere, flung down with unmistakable violence.
+`“Oh[line=4]Ciel.”@
+`She enters the classroom with a grave look on her face.@
+`“I came because I heard what sounded like desks falling over; did you do this, Tohno?”@
+`“[line=4]What?”@
+`I look behind me.@
+`Desks and chairs lie scattered everywhere, flung down with unmistakable violence.
 \
-`“…@Oh…@ yeah, I guess I did.@ I just got angry for no reason, and then—”@ Did I really make this mess?@
+`“Oh, yeah, I suppose I did.@ I got angry for no reason, and then[line=3]”@
+`Did I really make this mess?@
 ld c,"tachi/cel_t10a",crossfade,400
 `“Honestly, you know better than that.@ I don’t know what happened, but you mustn’t take your anger out on things.”@
 cl c,crossfade,400
 br
-`She begins setting the fallen desks and chairs upright.@ Without a word, I join her.
+`She begins setting the fallen desks and chairs upright.@
+`Without a word, I join her.
 \
-`“…@I’m sorry.@ I don’t really understand what came over me.”@
+`“I’m sorry.@ I don’t really understand what came over me.”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Goodness.@ You’ve been acting very strangely, Tohno.@ First I find you standing in the rain in a daze, and now you’re knocking over desks and staring into space.”@ “Yeah…@ I know.@ I’ve been tired lately.@ I haven’t been myself.”@ I draw a long, deep breath.@ Maybe it’s because I’ve seen her face.@ Whatever the reason, the headache and that senseless fury have vanished without a trace.
+`“Goodness.@ You’ve been acting very strangely, Tohno.@ First I find you standing in the rain in a daze, and now you’re knocking over desks and staring into space.”@
+`“Yeah[line=3]I know; I’ve been tired lately, and I haven’t been myself.”@
+`I draw a long, deep breath.@
+`Maybe it’s because I’ve seen her face.@
+`Whatever the reason, the headache and that senseless fury have vanished without a trace.
 \
-`“Sorry for causing you trouble again.@ I’m heading home now, so…@ see you tomorrow.”@
+`“Sorry for causing you trouble again.@ I’m heading home now, so I’ll see you tomorrow.”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“Oh, are you leaving now?”@ I nod.@ She gives me a faint smile, as though nothing at all had just happened.
+`“Oh, are you leaving now?”@
+`I nod.@
+`She gives me a faint smile, as though nothing at all had just happened.
 \
 ld c,"tachi/cel_t03",crossfade,400
-`“What a coincidence.@ I was thinking of going home early today too.@ Since the timing is perfect, may I walk with you?”@ “I’d love that, but…@ don’t we live in opposite directions?@ We can’t exactly walk home together.”@ “Then I’ll walk with you as far as the school gate.”@ “…@Well, in that case, I’d be delighted.”@
+`“What a coincidence.@ I was thinking of going home early today too.@ Since the timing is perfect, may I walk with you?”@
+`“I’d love that, but don’t we live in opposite directions?@ We can’t exactly walk home together.”@
+`“Then I’ll walk with you as far as the school gate.”@
+`“Well, in that case, I’d be delighted.”@
 ld c,"tachi/cel_t04",crossfade,400
 `“Wonderful.@ I’ll fetch my things, so please wait here a moment.”@
 cl c,lshutter,800
@@ -95,11 +125,16 @@ br
 `A mere minute later, she is back.
 \
 ld c,"tachi/cel_t01a",lshutter,400
-`“Thank you for waiting.@ Now, let’s be off!”@ She is so full of light.@ Just looking at her seems to clear away every gloomy thought I had a moment ago.@ When someone this kind has invited me along, keeping a miserable face would be downright ungrateful.
+`“Thank you for waiting.@ Now, let’s be off!”@
+`She is so full of light.@
+`Just looking at her seems to clear away every gloomy thought I had a moment ago.@
+`When someone this kind has invited me along, keeping a miserable face would be downright ungrateful.
 \
-`“…@All right, let’s go.@ But if you charge ahead with that much enthusiasm, we’ll reach the gate in no time.”@
+`“All right, let’s go.@ But at that pace we’ll reach the gate in no time.”@
 ld c,"tachi/cel_t02",crossfade,400
-`“Oh, you’re right.@ We’d better go as slowly as possible, or it would be a waste.”@ She sets off at a tiny, deliberate pace.@ I follow her out of the classroom and into the dusk.
+`“Oh, you’re right.@ We’d better go as slowly as possible, or it would be a waste.”@
+`She sets off at a tiny, deliberate pace.@
+`I follow her out of the classroom and into the dusk.
 \
 bg #000000,lcartain,1500
 playstop

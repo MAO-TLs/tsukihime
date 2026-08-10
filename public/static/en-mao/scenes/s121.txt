@@ -2,31 +2,37 @@ monocro off
 playstop
 bg #000000,notrans,0
 waveloop se_11
-`“Maybe it’s Hisui.”@
-`Perhaps she was making her nightly rounds and had come to check that I was properly asleep.@ After all my recent nights away without permission, Akiha might well have ordered her to keep an eye on me.@
-`“…@Zzz.”@
-`In that case, pretending to sleep would set Hisui’s mind at ease.@ I settled in to play possum.
+`“[line=5]Hisui, perhaps.”@
+`Perhaps she is making her nightly rounds and has come to check that I am properly asleep.@
+`After all my recent nights away without permission, Akiha might well have ordered her to keep an eye on me.@
+`“Zzz”@
+`If so, I would be better off pretending to sleep and putting Hisui at ease.
 \
 wave se_09
 `The footsteps didn’t stop.@
 waveloop se_11
-`Those ostentatious, clicking footfalls weren’t like Hisui at all.@ Even in ordinary circumstances she moved without a sound, suppressing her very presence.@ Something was wrong.
+`Those ostentatious, clicking footfalls aren’t like Hisui at all.@
+`Even in ordinary circumstances she moves without a sound, suppressing her very presence; something is wrong.
 \
-`The presence was beside me now.@ Hisui seemed to have reached the bed and stopped there.@
-`“…@Zzz.”@
-`Maybe it wasn’t Hisui after all.@ Careful not to betray that I was awake, I cracked one eye.@
+`The presence is beside me now.@
+`Hisui seems to have reached the bed and stopped there.@
+`“Zzz”@
+`Maybe it isn’t Hisui after all.@
+`Careful not to betray that I am awake, I crack one eye.@
 bg "bg/bg_40d",crossfade,800
 !w1000
 ld c,"tachi/his_t02",lshutter,400
 cl c,lshutter,400
-`“…@Mmm.”@
-`It was unquestionably Hisui—but something about her was unquestionably strange.
+`“Mmm”@
+`There is no mistaking Hisui.@
+`But there is certainly something strange about her.
 \
 `“…”@
-`“…@Zzz.”@
-`Hisui stood in silence, staring at me.@
-`“Ah—”@
-`She would begin to speak, then swallow the words.@ Again and again she did the same, never leaving the room.@
+`“Zzz”@
+`Hisui stands in silence, staring at me.@
+`“[line=6]Ah”@
+`She starts to speak, then swallows the words.@
+`Hisui repeats this again and again, yet never leaves the room.@
 `…@
 `……@
 `………@
@@ -36,47 +42,59 @@ cl c,lshutter,400
 \
 `After all that silence, even I was starting to feel nervous.@
 br
-`I had no idea what Hisui wanted to say, but it seemed cruel to leave her standing there forever.@ Besides, at this rate I was too tense to sleep.@
-`“…@Zzz.”@
-`The moment I resolved to abandon the act and ask what she needed—
+`I have no idea what Hisui wants to say, but it seems cruel to leave her standing there forever.@
+`Besides, at this rate I am too tense to sleep.@
+`“Zzz”@
+`The moment I resolve to abandon the act and ask what she needs.@
 br
-`“…@Are you awake, Master Shiki?”@
+`“Are you awake, Master Shiki?”@
 br
-`Her voice came out halting and uncertain.
+`A halting, uncertain voice reaches me.
 \
-`“…@Hisui?”@
-`I did my best impression of someone waking naturally.@ I sat up in bed, and there—
+`“Hisui?”@
+`I do my best impression of someone waking naturally.@
+`I sit up in bed, and there[line=3]
 wavestop
 ld c,"tachi/his_t20",crossfade,800
 play "*1"
 br
-`[line=4]stood Hisui, looking somehow unlike herself.@
+`[line=4]stands Hisui, clearly not herself.@
 br
 `“What is it, Hisui?@ Did something happen this late at night?”@
-`“…@Yes.@ I have come to perform my duties for the night, Master Shiki.”@
-`In a voice on the verge of vanishing, Hisui said something I couldn’t begin to understand.
+`“Yes.@ I have come to perform my duties for the night, Master Shiki.”@
+`In a voice on the verge of vanishing, Hisui says something I cannot make sense of.
 \
-`“Your duties for the night?@ What does that mean?”@ I tilted my head and peered straight into her face.@ “…”@ Hisui gave no answer.@ She merely looked away.@ “…”@ “……”@ “………”@ “…………”@ “……………”@
+`“Your duties for the night?@ What does that mean?”@
+`I tilt my head and peer straight into her face.@
+`“…”@
+`Hisui answers only by looking away.@
+`“…”@
+`“……”@
+`“………”@
+`“…………”@
+`“……………”@
 br
-`[line=4]Once again, an excruciating silence took possession of the room.
+`[line=4]Once again, an excruciating silence fills the room.
 \
-`“Hisui, unless you tell me plainly what you’re here for, I’m never going to understand.”@
-`Unable to endure the silence, I finally said it.@
-`Then—
+`“Hisui.@ Unless you tell me plainly what you’re here for, I’m never going to understand.”@
+`Unable to endure the silence, I finally say it.@
+`And then.@
 ld c,"tachi/his_t13",crossfade,400
-`“My duties for the night mean precisely that.@ You were the one who wished for this, Master Shiki.@ It is terribly unkind of you to tease me now.”@
-`Hisui stared at me with an almost petulant little pout.
+`“Those are my duties for the night.@ You asked this of me, Master Shiki, so it is terribly unfair of you to tease me.”@
+`Hisui stares at me with an almost petulant little pout.
 \
-`“…”@
-`I still couldn’t make sense of anything she said.@ More importantly, though…@ tonight’s Hisui was so unlike herself that my heart gave a jolt.@
-`She was so adorable like this that I wanted to tease her.@ That strange desire might have been what made my pulse race.
+`“[line=7]”@
+`I still cannot make sense of anything she says.@
+`More importantly, though, tonight's Hisui is so unlike herself that my heart gives a jolt.@
+`She is so adorable like this that I want to tease her, and that strange impulse may be what sets my heart racing.
 \
-`“Hisui, I’m sorry, but I truly don’t understand.@ What are these ‘duties for the night’?”@
+`“Hisui?@ I’m sorry, but I don’t understand.@ What do you mean by ‘duties for the night’?”@
 ld c,"tachi/his_t20",crossfade,400
-`“…@Do you honestly not know, Master Shiki?”@
-`“That’s what I’ve been saying.@ If there’s anything I can help with, I will—just tell me what I’m supposed to do.”@
-`“…”@
-`Hisui fell silent again, but this time not for long.@
+`“Do you truly not understand, Master Shiki?”@
+`“That’s what I’ve been telling you.@ If I can help, I will—just tell me what to do.”@
+`“……………………”@
+`Hisui falls silent again.@
+`This time, however, the silence does not last long.@
 ld c,"tachi/his_t21",crossfade,800
 `“I mean that I have come to be your companion for the night, Master Shiki.”@
 `Hisui’s entire face burned crimson as she said it.
@@ -85,328 +103,459 @@ ld c,"tachi/his_t21",crossfade,800
 `I clapped my hands together—and then it sank in.@
 playstop
 br
-`“Whaaaaaat?!”@
+`“[line=5]Whaaaaaat?!”@
 br
 `I recoiled so violently I nearly tumbled out of bed.
 \
-`“…”@
-`Hisui said nothing, her head bowed.@
-`“Wh—”@
-`I tried to speak, but my voice refused to work.@
-`So, in other words, Hisui had come here to let me take her.@
-`“…@This is a dream.”@
-`I pinched my cheek to wake myself from such a rotten one.@ It hurt, and Hisui remained exactly where she was.@
-`“W-why?”@
-`That was all my stunned mind could force out.
+`“……………………”@
+`Hisui says nothing, her head bowed.@
+`“[line=8]What?”@
+`I try to speak, but my voice refuses to work.@
+`So that is it.@
+`Hisui has apparently come here to let me take her.@
+`“This is a dream.”@
+`I pinch my cheek, certain this must be some wretched dream.@
+`It hurts, and Hisui does not disappear.@
+`“Why[line=3]why?”@
+`That is all my stunned mind can force out.
 \
 ld c,"tachi/his_t20",crossfade,400
-`“…”@
-`Hisui clasped her hands tight with embarrassment.@ She let her eyes meet mine for only an instant, then said—
+`“………………………”@
+`Hisui clasps her hands tight in embarrassment, meets my eyes for only an instant, and then[line=2]
 br
-`“…@Because I belong to you, Master Shiki.”@
+`“Because I belong to you, Master Shiki.”@
 br
 `Her voice was low and fevered.
 \
-`“Belong to me?@ Hisui—”@
-`My heart struck hard.@
-`“I’ve never thought of you that way—”@
-`I didn’t want to think of her that way.@ And yet…@
+`“Belong to me, Hisui[line=5]”@
+`My heart strikes hard.@
+`“I’ve never thought of you that way[line=3]”@
+`And I do not want to.@
 ld c,"tachi/his_t28",crossfade,400
-`“…”@
-`When she looked at me like that, the dizziness only grew worse.
+`“[line=7]”@
+`When she looks at me like that, it is hard to bear.@
+`The dizziness only grows worse.
 \
-`“Hisui, enough of this joke.@ I don’t…”@ I have never wanted to possess her.@ Never wanted to take her— “…@Do you dislike me, Master Shiki?”@ Her eyes tremble with fear.@ No one could withstand a look like that.@ “Of course I don’t…!@ I—Hisui, I—”@
+`“[line=3]Hisui, enough of this.@ I don’t[line=3]”@
+`I have never wanted to possess you or take you[line=3]
+`“Do you dislike me, Master Shiki?”@
+`Her eyes tremble with fear.@
+`No one could withstand a look like that.@
+`“Of course not…!@ I[line=3]Hisui, I[line=3]”@
 br
-`Could it be that somewhere on the edge of a dream, beneath even my own awareness, I had wished to possess Hisui?
+`Perhaps somewhere on the edge of a dream, beyond even my own awareness.@
+`Had I wished to possess Hisui?
 \
 bg #ffffff,crossfade,400
 waveloop se_02
 bg "bg/bg_40d",crossfade,400
-`My pulse quickened.@ My reason dulled.@
-`Something was wrong with me.@ I had already proved this wasn’t a dream, yet my thoughts refused to fit together, as though I were still inside one—and I truly wanted to take Hisui into my arms.
+`My pulse quickens.@
+`My reason grows dull.@
+`Something is wrong with me.@
+`I already proved this was not a dream.@
+`Yet my thoughts refuse to fit together, as though I were still inside one, and I truly want to embrace Hisui[line=5]
 \
 ld c,"tachi/his_t02",crossfade,400
-`“Master Shiki…@ am I not good enough for you?”@
-`“Don’t be stupid.@ Of course you are.@ I care for you, Hisui.”@
+`“Master Shiki, am I not good enough for you?”@
+`“Don’t be stupid[line=3]of course you are.@ I love you, Hisui.”@
 ld c,"tachi/his_t20",crossfade,400
-`Hisui exhaled in relief, one hand settling over her heart.@
-`“But that’s different from this.@ Being a servant doesn’t mean you should be forced into something like this.@ I can’t do anything you don’t want.”@
-`My heart pounded as I struggled to preserve the last scraps of a reason already bleaching white.@
+`Hisui exhales in relief, one hand settling over her heart.@
+`“But that is different.@ Being a servant does not mean you should be forced into this.@ I cannot do anything you do not want.”@
+`My heart pounds.@
+`I cling to the last scraps of reason bleaching white as I say it.@
 ld c,"tachi/his_t21",crossfade,400
-`“Master…@ Shiki.”@
+`“Master…@
+`Shiki.”@
 `She laced her fingers tightly through mine.
 \
-`“I do not object.@ Hisui belongs to you, Master Shiki.@ Is it wrong, then, for me to wish that you would love me in return?”@
-`Each broken whisper wore away what little reason I had left.@
-`“Hisui, but…”@
-`I somehow managed to turn my eyes aside.@ That resistance lasted only until—
+`“I do not object.@ Hisui belongs to you, Master Shiki.@
+`Is it wrong for me to wish that Master Shiki would love me in return?”@
+`Her words come in broken whispers.@
+`Each one wears away what little reason I have left.@
+`“Hisui, but[line=3]”@
+`I somehow manage to turn my eyes away from her.@
+`But even that fails.@
 ld c,"tachi/his_t22",crossfade,800
-`“Please…@ look at me, Master Shiki.”@
-`The instant I saw her hesitant fingers reach for the hem of her skirt, looking away became impossible.
+`“Please, look at me, Master Shiki.”@
+`The instant I see her hesitant fingers reach for the hem of her skirt, looking away becomes impossible.
 \
 eroskip 45
 wavestop
 play "*5"
 bg "event/his_h15",bshutter,800
-`I forgot to breathe.@ “…”@ Her long skirt rose, revealing slender, demure legs.@ Deep in the cleft between them, what should have remained hidden lay entirely bare.@ “…”@ Hisui’s trembling escaped as breath.@ Her pale body shivered in tiny waves.@ Even naked, her secret place possessed the same fragile modesty as Hisui herself—so little of raw flesh that the delicate folds truly seemed like flower petals.
+`For an instant, I forget to breathe.@
+`“[line=11]”@
+`Her long skirt is pulled up.@
+`Her legs are slender and demure.@
+`Deep between them, what should remain hidden lies entirely bare.@
+`“………………………………”@
+`Hisui’s trembling escapes as breath.@
+`Her pale body shivers in tiny waves.@
+`Her exposed sex is as delicate and modest as Hisui herself.@
+`There is so little sense of raw flesh that its thin folds truly seem like flower petals.
 \
-`“…@Ah…”@
-`Those petals quivered.@ The shame of being watched tormented her.@
-`“…”@
-`Still, Hisui did not move.@ Holding her skirt aloft and exposing herself to me, she shut her eyes, her face scarlet.
+`“Ah…”@
+`Those petals quiver faintly.@
+`The shame of being watched torments her.@
+`“……………………”@
+`Still, Hisui does not move.@
+`Holding her skirt aloft and exposing herself to me, she closes her eyes, her face scarlet.
 \
-`“Hi…@sui.”@
-`It was the only sound I could make.@
-`Her flower gave off no fragrance at all, yet I was drunk on its imagined scent.@ There was nothing voluptuous about her, but my heart surged.@ It felt as though the warmth trapped beneath her skirt had flooded the entire room.@ My head, my throat, even my fingertips burned, and reason went dark.
+`“Hi[line=5]sui”@
+`It is the only sound I can make.@
+`Her flower gives off no fragrance at all.@
+`Even so, I am drunk on its imagined scent.@
+`There is nothing voluptuous about her, yet my heart surges.@
+`It feels as though the warmth trapped beneath her skirt has flooded the entire room.@
+`My head, my throat, even my fingertips burn, and reason goes dark.
 \
 `[line=4]Hisui.@
 br
-`Hisui stood there with her eyes squeezed shut in shame.@ I should have stopped her.@ I should have spared her this.@
-`Instead, every thought in my head urged the exact opposite.
+`Hisui stands there with her eyes squeezed shut in shame.@
+`I should stop her, yet every thought in my head urges the exact opposite[line=4]
 \
-`“…”@
-`Hisui remained silent, trembling.@ It began in her fingertips, then spread slowly down her legs and into her thighs.@ Her knees drew faintly together, as if to shelter the heat gathering between them.
+`“…………………………”@
+`Hisui remains silent, trembling.@
+`A fine tremor.@
+`It begins in her fingertips, then spreads slowly down her legs and into her thighs.@
+`She quivers.@
+`Her knees draw faintly together, as if to shelter the heat gathering between them.
 \
-`“…@Hah…@ ah…”@
-`Hisui’s breathing had grown ragged.@
-`I found myself wishing she would cry out.@
-`No—that wasn’t quite it.@ What I wanted was simply…@
+`“Hah, hah, hah”@
+`Hisui’s breathing has grown ragged.@
+`I find myself wishing she would cry out.@
+`No, that is not it; what I want is simply[line=3]
 br
 `“Hisui.”@
 br
 `I wanted to hear her voice.
 \
-`My arm reached out.@ My body moved to draw her trembling form against me.@
+`My arm reached out.@
+`My body moves, reaching to draw her trembling form against me.@
 br
-`“…@Ah…”@
+`“Ah”@
 br
 `Her body gave a tiny start.@
 `“Hisui, I…”@
-`I no longer knew what I meant to say.@ As I pulled her toward me, ready to take her roughly, Hisui lifted wet eyes to mine.
+`I no longer knew what I meant to say.@
+`As I pulled her toward me, ready to take her roughly, Hisui lifted wet eyes to mine.
 \
-`“…@Yes.@ Please cherish me, Master Shiki.”@
-`“…”@
-`Whatever spell those words cast, the violence in me twisted at once into something colder and more perverse.
+`“Yes.@ Please cherish me, Master Shiki.”@
+`“[line=11]”@
+`What spell had those words cast?@
+`The violence in my heart changed course, twisting into something terribly perverse.
 \
 `“All right.@ I’m glad you said that, Hisui.”@
-`I sat on the edge of the bed.@
-`“Then stay exactly as you are until I tell you otherwise.@ Don’t move, and don’t speak unless I ask you to.”@
-`Hisui nodded.@ My hand slipped beneath her raised skirt.@ She watched it helplessly.@ Pretending not to notice, I extended my middle finger and traced her petals with its pad.
+`I sit on the edge of the bed.@
+`“Then stay exactly as you are until I say otherwise.@ Do not move or speak to me first.”@
+`Hisui nods.@
+`My fingers slip beneath her raised skirt.@ “……………………”@
+`She watches them helplessly.@
+`Pretending not to notice, I extend my middle finger and trace her petals with its pad.
 \
 `“Mmm…!”@
-`Hisui’s body jerked.@ I had tried to touch her as gently as possible, but it evidently hadn’t felt gentle to her.@
+`Hisui’s body jerks.@
+`I try to touch her as gently as possible, but it does not seem gentle to her.@
 `“You’re so soft here, Hisui.”@
-`I pressed my first two fingers together and slowly stroked her sex, fluttering over the whole mound without touching the slit itself.
+`I press my first two fingers together and slowly stroke her sex.@
+`I flutter over the whole mound without touching the slit itself.
 \
-`“Hah…@ ah…”@
-`Her leaking breaths slowly grew louder.@ After caressing her gently for a while, I traced only the cleft that twitched so painfully.@
-`“Ngh…!”@
+`“Hah, ah”@
+`Her escaping breaths slowly grow louder.@
+`A gentle caress.@
+`After continuing it for a while, I trace only the cleft twitching in distress.@
+`“[line=4]Ngh!”@
 `“Hmm?@ Did you say something, Hisui?”@
-`“Ah…@ no, Master Shiki…@ nothing.”@
-`“Good.@ I thought you’d forgotten that I told you not to speak.”@
-`With that, I abruptly thrust my middle finger inside her.
+`“No, Master Shiki, nothing.”@
+`“Good.@ I thought you had forgotten my order not to speak.”@
+`With that.@
+`I abruptly thrust my middle finger inside her.
 \
-`“Ngh…!”@
-`Hisui arched her back.@ I hadn’t even reached the first knuckle; at this rate, there was no telling how she would endure what came next.@
-`“So this is how you always feel inside.@ Beads of moisture everywhere…@ all soft and slippery.”@
-`“Ah…”@
-`Red to her ears, Hisui swallowed her voice, determined to obey my rule.@
-`“How lewd.@ I’d barely touched you, and you were already getting wet.”@
-`She bowed her head in shame.
+`“[line=6]Ngh…!”@
+`Hisui arches her back.@
+`I have not even reached the first knuckle, and already I fear what comes next.@
+`“So this is how you always feel inside.@ Beads of moisture are everywhere, soft and slippery.”@
+`“Ah”@
+`Red to her ears, Hisui swallows her voice.@
+`She is determined to obey my rule against speaking.@
+`“How lewd.@ I have barely touched you, and you are already wet.”@
+`“[line=9]”@
+`Hisui bows her head in shame.
 \
-`“I’m sorry.@ If I’d known, I would have done this for you much sooner—there!”@ I drove my middle finger deeper.@ “Ngh…@ mm…!”@ Hisui’s head snapped up, and I felt her close gently around me in response.
+`“I’m sorry.@ If I’d known, I would have done this for you much sooner—there!”@
+`I drove my middle finger deeper.@
+`“Ngh…@
+`mm…!”@
+`Hisui’s head snapped up, and I felt her close gently around me in response.
 \
 `“Honestly, Hisui.@ Are you always this sensitive to a single finger?”@
-`I pressed deeper, then made one slow circle inside her.@
-`“Ngh—!@ Ah…”@
-`Her lips trembled.@ Faithful even now, she struggled desperately to smother every breath and obey my command not to make a sound.
+`I press deeper, then make one slow circle inside her.@
+`“[line=5]Ngh!@ Ah”@
+`Her lips tremble.@
+`Faithful even now, Hisui obeys my order.@
+`She struggles desperately to smother every breath and make no sound.
 \
-`“You really are good at enduring things.@ Though I don’t think you’ll last much longer.”@
-`“Master…@ Shiki?”@
-`“You’re already melting inside.@ Getting this wet from one finger is hardly normal.”@
-`Hisui’s face reddened further.@
-`“No…@ it is because you are touching me, Master Shiki—”@
-`“Don’t speak.@ I didn’t ask you anything.”@
-`“Ah—!”
+`“You really are good at enduring things, Hisui.@ Though I do not think you will last much longer.”@
+`“Master Shiki?”@
+`“You are already melting inside.@ Getting this wet from one finger is hardly normal.”@
+`“[line=8]”@
+`Hisui’s face reddens further.@
+`“No.@ Master Shiki[line=3]it is because Master Shiki is touching me that I[line=4]”@
+`“Do not speak.@ I did not ask you anything.”@
+`“Ah[line=6]!”
 \
-`I worked the finger inside her, stirring slowly through the folds.@
-`“Ah…@ ngh…!”@
-`Heat flooded Hisui’s breath.@
-`“Did you say something?”@
-`“Ah…@ no…@ nothing…”@
-`Her teeth clicked together, though ragged panting still escaped between them.@
-`“One finger isn’t enough for how wanton you’ve become.”@
-`I withdrew with a wet sound.@ Shining threads followed, leaving my finger so drenched it seemed to be dissolving in her honey.
+`I work the finger inside her.@
+`It circles through the folds.@
+`“[line=3]Ah[line=3]ngh, mm…!”@
+`Heat floods Hisui’s breath.@
+`“Hisui.@ Did you say something?”@
+`“No, nothing[line=4]”@
+`Her teeth click together.@
+`Ragged panting still escapes between them.@
+`“Then fine.@ But one finger is no longer enough for how lewd you have become.”@
+`I withdraw it with a wet sound.@
+`Shining threads follow, leaving my finger so drenched it seems to dissolve in her honey.
 \
-`“Ah…”@
-`Hisui stared down in a daze.@
-`“Then let’s try this.@ Remember to obey me.”@
-`“Y-yes…”@
-`As she nodded, I drove two fingers into her to their roots.@
-`“Ngh—!”@
-`Her back arched; her body clenched around them.@ Her escaping breath was fever-hot.@ To make it hotter still, I worked the two fingers alternately up and down.
+`“Ah[line=5]”@
+`Hisui stares down in a daze.@
+`“Then let us try this.@ Remember to obey me.”@
+`“Y-yes.”@
+`Hisui nods.@ As she does, I drive two fingers into her to their roots.@
+`“Hah, ngh[line=7]!”@
+`Her back arches, and her body clenches around them.@
+`“Ah, ah, ngh[line=5]”@
+`Her escaping breath is fever-hot.@
+`To make it hotter still, I work the two fingers alternately up and down.
 \
-`“Mm…@ mmm…”@
-`Hisui twisted faintly, trying to withstand the sensation.@ But no such effort could resist the pleasure welling up inside her.@ The harder she fought to stifle her voice, the more urgently and obscenely her inner walls moved.
+`“Mm, mmm[line=4]”@
+`Hisui twists faintly, trying to withstand the sensation.@
+`But no such effort can resist the pleasure welling up inside her.@
+`The harder she fights to stifle her voice, the more urgently and obscenely her inner walls move.
 \
-`“Don’t moan so loudly, Hisui.@ You’ll drown out the lovely sounds you’re making down here.”@
-`I moved my fingers broadly, coaxing wet, clinging noises from her.@
-`“No—please, I don’t want this, Master Shiki…”@
-`Hisui turned her scarlet face away.@ The sight was so adorable that I wanted to torment her more deeply.
+`“Do not moan so loudly, Hisui.@ You will drown out the sounds you are making down here.”@
+`Wet, clinging sounds.@
+`I move my fingers broadly, coaxing them from her.@
+`“No[line=4]please, I do not want this, Master Shiki.”@
+`Hisui turns her scarlet face away.@
+`The sight is so adorable that I want to torment her[line=3]more deeply.
 \
-`“You can’t dislike it that much.@ Look how much you’ve spilled, how badly you’ve stained the carpet.@ It’s perfectly obvious how lewd you are.”@
-`I kept moving as I spoke.@ While two fingers stirred inside her, I crooked the middle one.@
-`“Ah…?!”@
-`Her body jumped as it rubbed the roughened place along her inner wall, toward her belly.
+`“You cannot dislike it that much.@ Look how much you have spilled and how badly you have stained the carpet.@ It is perfectly obvious how lewd you are.”@
+`“Ah, ngh”@
+`I keep moving as I speak.@
+`While two fingers stir inside her, I crook the middle one.@
+`“[line=4]Hah…!?”@
+`Her body jumps.@
+`The crooked finger rubs the roughened place along her inner wall, toward her belly.
 \
 `“Ah—ngh, hah!”@
 `That spot was so weak she couldn’t even smother her voice.@
 `“Hisui, I told you not to cry out.”@
-`“Y-yes…@ Master Shiki…”@
+`“Y-yes…@
+`Master Shiki…”@
 `Hisui panted helplessly, but I did not stop rubbing the upper wall inside her.
 \
-`“Mm…@ hah…@ ah…”@
-`Her breath sounded feverish.@
-`“Hisui, you’re swollen here.”@
-`I ran my tongue over the flushed bud above her drenched slit.@
-`“Ahh?!”@
-`Her body tried to fold around me.@
-`“I didn’t say you could move.”@
-`“Y-yes…@ Master…@ Shiki…”@
-`Her voice nearly vanished.@ Fingers within and tongue without—such simple caresses, yet her body already seemed at its limit.
+`“Mm, hah, ah[line=4]ah”@
+`Her breath sounds feverish.@
+`Then.@
+`“Hisui, you are swollen here.”@
+`I run my tongue over the flushed bud above her drenched slit.@
+`“Ah[line=5]!?”@
+`Her body tries to fold around me.@
+`“Hisui.@ I did not say you could move.”@
+`“Yes, Master Shiki.”@
+`Her voice nearly vanishes.@
+`Fingers within and tongue without.@
+`The caresses are simple, yet her body already seems at its limit.
 \
-`“Is this your first time, Hisui?”@
-`“Ah…@ yes.@ You are the only master I have ever had…”@
-`Her answer shook.@
+`“Hisui.@ Is this your first time?”@
+`“Ah, yes.@ You are the only master I have ever had, Master Shiki[line=4]”@
+`Her answer trembles.@
 `“I see.@ Then this is your reward.”@
-`I peeled back the hood of the swollen bud and licked the small red nub with the tip of my tongue.@
-`“Ah—ngh…!”
+`I run my tongue over her.@
+`I peel back the hood of the swollen bud and lick the small red nub with the tip of my tongue.@
+`“Ah[line=3]ngh…!!!”
 \
-`Her voice rose sharply.@ Ignoring it, I pressed my tongue harder.@
-`“Ah…@ Master Shiki!”@
-`I was no longer merely licking.@ I ground the bud against her with my tongue, hard enough to crush it.
+`Her voice rises sharply.@
+`Ignoring it, I press my tongue harder.@
+`“Ah[line=3]Master Shiki[line=4]!”@
+`I am no longer merely licking.@
+`I grind the bud against her with my tongue, hard enough to crush it.
 \
-`“Ngh…@ no—Master Shiki, please…@ please stop…@ ah…@ Master Shiki…!”@
-`Her body shook violently, her face tipped toward the ceiling as ragged breaths tore out of her.@
+`“Ngh, no[line=4]Master Shiki, please[line=3]please stop[line=3]hah, Master Shiki[line=3]”@
+`Her body shakes violently.@
+`Her ragged breaths tear out as her face tips toward the ceiling.@
 br
-`Her hands clenched the skirt so fiercely they seemed ready to tear it apart.
+`Her fingers clench tight around the skirt.@
+`They strain with enough force to tear it apart.
 \
-`“I can’t…@ endure any more…!@ Please, Master Shiki…@ have mercy…!”@
-`Her voice frail enough to collapse, Hisui’s knees gave way and she fell onto the bed.
+`“I cannot endure any more[line=3]!@ Please, Master Shiki, have mercy[line=5]!”@
+`Her voice is frail enough to collapse.@
+`Her knees give way, and Hisui falls onto the bed.
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_40d",crossfade,400
-`Her harsh breathing echoed through the empty room.@ Spent, Hisui let her body fall against mine.@ Since I was sitting on the bed, her collapse naturally left me holding her in my arms.
+`Her harsh breathing echoed through the empty room.@
+`Spent, Hisui let her body fall against mine.@ Since I was sitting on the bed, her collapse naturally left me holding her in my arms.
 \
 `“Hisui?”@
-`Still holding her, I whispered beside her ear.@
-`There was no reply, only her panting.@ Yet the warmth of the arms wrapped firmly around me proved she remained conscious.
+`Still holding her, I whisper beside her ear.@
+`“[line=8]”@
+`There is no reply.@
+`Only her panting reaches me, and Hisui says nothing.@
+`But.@
+`The warmth of the arms wrapped firmly around me proves that she remains conscious.
 \
-`We stayed that way for a while.@ Simply holding Hisui’s fever-warm body felt good, and more than anything, I was happy that she clung to me with such childlike trust.@
-`I could feel her heartbeat.@
-`I really had lost my mind.@ She trusted me so openly, and I had done that to her.@ The memory made me so guilty I wanted to die.@
-`“…@And if Akiha finds out, she’ll kill me.”@
-`That, at least, was unquestionably true.
+`“……………………”@
+`We remain that way for a while.@
+`Simply holding Hisui’s fever-warm body feels good, and more than anything I am happy that she clings to me with childlike trust.@
+`“[line=7]Mm”@
+`I can feel Hisui’s heartbeat.@
+`I really had lost my mind.@
+`She trusted me so openly, and remembering what I did makes me so ashamed I want to die.@
+`“And if Akiha finds out, she will kill me.”@
+`That, at least, is unquestionably true.
 \
-`Hisui’s panting gradually subsided.@
-`“…@Master Shiki?”@
-`At last she lifted her face, still holding me.@
-`“I’m sorry, Hisui.@ I think I took the teasing too far.”@
-`She stared straight up at me, caught completely by surprise.
+`“………………………”@
+`Hisui’s panting gradually subsides.@
+`“Master Shiki?”@
+`At last she lifts her face, still holding me.@
+`“Yes.@ I’m sorry, Hisui.@ I took the teasing too far.”@
+`“…………………”@
+`Hisui stares straight up at me, caught completely by surprise.
 \
 `“No.@ If you were satisfied, Master Shiki, then I am happy.”@
-`Hisui said it with her usual solemn face, though her cheeks were pink.@ She was unbearably adorable—and the part of me that had finally quieted began to rise again.@
-`“Ngh!”@
-`I hastily pushed her away.@ In our embrace, my erection would otherwise have pressed against her stomach.
+`Hisui says it with her usual solemn face, though her cheeks are pink.@
+`She is still adorable enough to drive me out of my mind.@
+`The part of me that had finally quieted begins to rise again.@
+`“[line=7]Ngh!”@
+`I hastily push her away.@
+`In our embrace, my erection would otherwise press against her stomach.
 \
-`“…@Master Shiki?”@
-`Hisui looked at me in puzzlement.@
-`“Is something wrong?@ Was I…@ inadequate after all?”@
-`Her anxious voice feared not a rebuke for poor service, but my rejection.@
-`“No, that isn’t it.@ I have no complaint at all.@ I’m satisfied, but my body…@ apparently isn’t.”@
-`I faltered, unable to think how to explain.@
+`“Master Shiki?”@
+`Hisui looks at me in puzzlement.@
+`“Is something wrong?@ Was I inadequate after all?”@
+`Her voice is anxious.@
+`She fears not a rebuke for poor service, but my rejection.@
+`“[line=3]No.@ That is not it.@ I have no complaint about you.@ I am satisfied, but my body apparently is not.”@
+`I falter, unable to think how to explain.@
 br
-`[line=4]Hisui understood.@ Her face reddened, and she lowered her eyes.
+`[line=4]Hisui understood.@
+`Her face reddened, and she lowered her eyes.
 \
 `“Hisui?”@
-`“Forgive me for forcing you to say such a thing, Master Shiki.”@
-`She mumbled the words.@
-`Then I looked down.@ My erection stood directly before her eyes.@ It would have been stranger if she hadn’t noticed it.
+`“I’m sorry.@ I made you say such a thing, Master Shiki.”@
+`She mumbles the words.@
+`“Ah[line=5]”@
+`My erection stands directly before her eyes.@ It would be stranger if she had not noticed it.
 \
-`“No, this is fine!@ It’ll go away soon, so don’t worry about it!”@
-`My frantic excuses only had the opposite effect.@
-`“Master Shiki, I have not yet served you.”@
-`Hisui fixed me with a resolute gaze.@
+`“No, this is fine!@ It will go away soon, so do not worry about it!”@
+`My frantic excuses only have the opposite effect.@
+`“Master Shiki.@ I have not yet served Master Shiki.”@
+`Hisui fixes me with a resolute gaze.@
 `“Please relax.@ I lack experience, but I will attend to you with all my ability.”@
-`Before I could stop her, she slipped out of her clothes as neatly as a conjuring trick and slowly lowered her face between my legs.
+`Before I can stop her.@
+`Hisui slips out of her clothes as neatly as a conjuring trick and slowly lowers her face between my legs.
 \
 bg #000000,crossfade,800
 bg "event/his_h16",crossfade,800
-`Hisui’s hands were painfully innocent.@ She lowered the zipper and exposed the rigid flesh straining beneath it.@ The strange shape and raw male scent didn’t make her recoil, yet the timid way she enclosed it in her hands made it clear she had never touched a man before.
+`Hisui’s hands were painfully innocent.@
+`She lowered the zipper and exposed the rigid flesh straining beneath it.@
+`The strange shape and raw male scent didn’t make her recoil, yet the timid way she enclosed it in her hands made it clear she had never touched a man before.
 \
-`“…@Ah.”@
-`She sounded startled by its heat.@ With the delicacy one might show a fragile object, her tentative fingers steadied the upright shaft.@
-`“If this is your first time, you don’t have to force yourself.”@
-`Hisui silently shook her head.@ Without hesitation, she pressed her lips to the head as though giving it a kiss.@
-`“Ngh…”@
-`That softness made me swell further.@ The knowledge that Hisui was kissing me sent another violent rush of blood into my sex.
+`“Ah”@
+`She sounds startled by its heat.@
+`With the care one might show a fragile object, her tentative fingers steady the upright shaft.@
+`“Hisui, if this is your first time, you do not have to force yourself.”@
+`“…………………”@
+`Hisui silently shakes her head.@
+`Without hesitation, she presses her lips to the head as though giving it a kiss.@
+`“[line=6]Ngh”@
+`That softness makes me swell further.@
+`The knowledge that Hisui is kissing me sends another violent rush of blood into my sex.
 \
 `“Master Shiki…@ are you in pain?”@
 `“No.@ Your lips felt good, that’s all.”@
 `“So it does not hurt?”@
-`I smiled at her worried gaze.@ Reassured, Hisui pressed her lips more firmly against me.
+`I smiled at her worried gaze.@
+`Reassured, Hisui pressed her lips more firmly against me.
 \
-`“Mmm…”@
-`Heat tightened fiercely near the root.@ Hisui’s attentions were almost nothing: ignorant of the technique, she held the shaft steady and merely sucked at the head.@
-`But I could never have called it unsatisfying.@
+`“Mmm[line=7]”@
+`Heat tightens fiercely near the root.@
+`Hisui’s attentions are almost nothing.@
+`Ignorant of the technique, she holds the shaft steady and merely sucks at the head.@
+`But I could never call it unsatisfying.@
 br
-`“…@Mm…@ Master Shiki, is this…@ pleasing you?”@
+`“Master Shiki, is this pleasing you?”@
 br
-`Though she knew nothing, Hisui was desperately trying to love me.@ Her lips enclosed the head with single-minded care—not taking me into her mouth so much as weakly nibbling me between those lips.
+`Though she knows nothing, Hisui is desperately trying to love me.@
+`Her lips enclose the head with single-minded care.@
+`She does not take me into her mouth so much as gently nibble me between her lips.
 \
-`“Ah…@ it’s getting wet.”@
-`A bead of clear fluid had emerged.@ Untroubled, Hisui set her tongue to the opening and drew it away.@
-`“Ngh—”@
-`The suction lifted my hips.@
-`“Master Shiki…@ you’re so hot.”@
-`Her fingers tightened to restrain the shaft as it bucked harder.@
-`I could have taught her and pursued sharper pleasure, but I needed none of that.@ It was enough that she was devoting herself wholly to pleasing me.
+`“Ah, it is getting wet.”@
+`A bead of clear fluid must have emerged.@
+`Untroubled, Hisui sets her tongue to the opening and draws it away.@
+`“[line=4]Ngh[line=4]”@
+`The suction lifts my hips.@
+`“Master Shiki, you are hot.”@
+`Her fingers tighten to restrain the shaft as it bucks harder.@
+`“Hisui”@
+`I could have taught her and pursued sharper pleasure.@
+`But I need none of that.@
+`It is enough that she devotes herself wholly to pleasing me.
 \
-`“…@Master Shiki?”@
+`“Master Shiki?”@
 `“Yes.@ It feels wonderful, Hisui.”@
-`I combed my fingers through her hair.@ More than desire, what I felt now was tenderness—for her red hair, her flushed cheeks, and the earnest effort she gave me despite having never done this before.
+`I comb my fingers through her hair.@
+`More than desire, what I feel now is tenderness.@
+`Her red hair.@ Her flushed cheeks.@ Despite this being her first time, Hisui gives me everything she has.
 \
-`“I’m glad, Master Shiki…”@
-`Hisui loved me more deeply.@ Her fingers pressed into the blue-veined shaft.@ Her mouth drew at the opening with a long pull while her tongue lapped up the fluid that escaped and ran down me.
+`“I’m glad, Master Shiki[line=3]”@
+`Hisui loves me more deeply.@
+`Her fingers press into the blue-veined shaft.@
+`A long, wet pull.@
+`Her mouth draws at the opening while her tongue laps up the fluid that escapes and runs down me.
 \
-`“Ngh…”@
-`The heat boiling at the root surged upward.@ As she began to understand a man’s body, Hisui kissed not only the head but the shaft as well.@
-`“Is this…@ better, Master Shiki?”@
-`I made no answer, fighting the gathering release.@ Her lips slid down the shaft, the small tip of her tongue flickering inside them to tease me.
+`“[line=5]Ngh”@
+`The heat boiling at the root surges upward.@
+`As she begins to understand a man’s body, Hisui kisses not only the head but the shaft as well.@
+`“Is this better, Master Shiki?”@
+`“[line=7]”@
+`I make no answer, fighting the gathering release.@
+`“Ah, mmm[line=4]”@
+`Her lips slide down the shaft.@
+`The small tip of her tongue flickers inside them to tease me.
 \
-`“Hisui—move away, or this is going to be bad.”@
-`Even as I warned her, I made no effort to push her away.@
-`“Master Shiki, it’s suddenly so…”@
-`She must have meant large.@ Just before release, my sex swelled further.@
-`“Hisui, I’m going to come—you have to…”@
-`“Yes…@ please come, Master Shiki…”@
-`She breathed the words hotly against me.@ She knew what was coming, and still she pressed her lips so firmly to the head.
+`“Wait[line=5]Hisui, move away, or this will be bad.”@
+`Even as I warn her, I make no effort to push her away.@
+`“Ah[line=3]Master Shiki, it is suddenly so[line=3]”@
+`She must mean large.@
+`Just before release, my sex swells further.@
+`“Hi, sui[line=3]I am going to come, so move away.”@
+`“Yes, please come, Master Shiki.”@
+`Hisui bathes me in hot breath as she answers.@
+`She knows.@
+`Hisui knows what is coming and still presses her lips so firmly to the head.
 \
-`“Ngh—!”@
-`That realization broke the dam.@
+`“Ngh[line=4], ah[line=3]!”@
+`That realization breaks the dam.@
 bg #ffffff,crossfade,400
 bg "event/his_h16",crossfade,400
-`“Mmph—?!”@
-`Hisui choked as milky fluid pulsed into her mouth.@ Coughing behind those small lips, she struggled earnestly to swallow every drop.
+`“Ah, mmph[line=7]!?”@
+`I hear Hisui choke.@
+`Milky fluid pulses into her mouth.@
+`Coughing behind those small lips, she struggles desperately to swallow every drop.
 \
 bg #ffffff,crossfade,800
-`“Hisui…”@
-`Lost in the sensation of release, I watched her throat.@ It moved as she swallowed.@ Tears brimmed in her glass-blue eyes.@
+`“[line=7]Hi, sui”@
+`Lost in the sensation of release, I watch her throat.@
+`It moves as she swallows.@
+`Tears brim in her glass-blue eyes.@
 br
-`[line=4]And then I thought—
+`[line=4]And then I think.@
 br
-`Hisui was so devoted, and so terribly awkward.@
-`What a shame.@ If only this had been reality instead of a dream, I might never have mistaken Hisui for a doll.
+`Hisui is so devoted, and so terribly awkward.@
+`It truly feels like a shame.@
+`If this were reality rather than a dream, I might never have mistaken Hisui for a doll[line=5]
 \
 !w4000
 playstop
@@ -417,37 +566,51 @@ phase "bg/bg_27b",l,cel,06a,6
 bg #ffffff,crossfade,1500
 bg "bg/bg_40a",lcartain,400
 play "*2"
-`…@ …@ ……@
+`……………………….@
 br
-`“Morn…@ing.”@
-`My blurred awareness woke.@ Sunlight streamed through the window, filling the room with warmth.
+`“[line=3]Morn[line=2]ing”@
+`My blurred awareness wakes.@
+`Sunlight streams through the window, filling the room with warmth.
 \
-`I stared at my hands.@ My palms were faintly damp, and sweat covered my body as though I had spent the night in tropical heat.@ I felt languid, but not unpleasantly so.@ If anything, the first sensation was one of profound satisfaction.@
+`“[line=8]”@
+`I stare at my hands.@
+`My palms are faintly damp.@ Sweat covers my body as though I spent the night in tropical heat.@
+`I feel languid, but not unpleasantly so.@ If anything, the first sensation is one of profound satisfaction.@
 br
-`“Huh?”@
-`I rolled my shoulders.@ My body felt fine.@
-`But Hisui was nowhere before me.@ The fingers and breath that had touched me moments ago had vanished as if they had never existed.
+`“[line=7]?”@
+`I roll my shoulders.@
+`My body feels fine.@
+`But Hisui is nowhere before me.@ The fingers and breath that touched me moments ago have vanished as though they never existed.
 \
-`“Wait…@ what?”@
-`Hisui’s fingers and breath…?@
+`“Wha[line=6]t?”@
+`Hisui’s fingers and breath?@
 br
 `“Aaaaaaaaaah!”@
 br
-`I shot upright.@ The full obscenity of the dream came back to me, followed by a crushing wave of regret.@
-`“Unbelievable…”@
-`What kind of dream had that been?@ Hisui coming to perform her “duties for the night”@—what sort of fantasy was my mind inventing?@ I was beginning to question my own tastes in earnest.
+`I shoot upright.@
+`The full obscenity of the dream returns, followed by a crushing wave of regret.@
+`“Unbelievable[line=4]”@
+`What kind of dream was that?@
+`Hisui coming to perform her ‘duties for the night’[line=3]what sort of fantasy is my mind inventing?@ I am beginning to question my own tastes in earnest.
 \
-`“Hah…”@
-`I stretched and emptied my lungs.@ I tried to forget last night’s dream, but an erotic dream wasn’t so easily erased.@
-`“…@Hisui.”@
-`I knew it had been a dream, yet every sensation had been so vivid it still felt real.@ Even so, it had unquestionably been a dream.@ That was the one slender mercy available to me.
+`“Hah[line=4]”@
+`I stretch and empty my lungs.@
+`I try to forget last night’s dream, but an erotic dream is not so easily erased.@
+`“Hisui.”@
+`I know it was a dream, yet every sensation was so vivid that it still feels real.@
+`Even so, it was unquestionably a dream.@
+`That is the one slender mercy available to me.
 \
-`“…@But she was adorable.”@
+`“But she was adorable.”@
 br
-`[line=3]The memory left me conflicted.@ The real Hisui would never express herself so openly.@ She was always calm and expressionless; only something extraordinary could bring color to her cheeks.@
-`And that, regrettably, was precisely the disappointment.@ Wrong as it was, I let myself drift back to the sweetly honest Hisui from the dream.
+`[line=3]Remembering it leaves me conflicted.@
+`The real Hisui would never express herself so openly.@
+`She is always calm and expressionless, and only something extraordinary brings color to her cheeks.@
+`“………………”@
+`That is precisely what makes it regrettable.@
+`Wrong as it is, I let myself drift back to the sweetly honest Hisui from the dream.
 \
-`And just then—
+`And just then.@
 ld c,"tachi/his_t01",lshutter,400
 `“Master Shiki.”@
 `“Waaaaaaaaah!”@
@@ -456,35 +619,40 @@ br
 `[line=3]The real Hisui appeared, wearing her usual face.
 \
 `“H-H-H-Hisui!”@
-`I flailed, rolled out of bed, and struck the wall with a thump.@ Fortunately—or unfortunately—the sheet remained wound around my waist.
+`Flail, roll, thump.@
+`The shock sends me tumbling from the bed and into the wall.@
+`Fortunately or unfortunately, the sheet remains wound around my waist.
 \
 ld c,"tachi/his_t18",crossfade,400
-`“Master Shiki, have I somehow given you cause for resentment?”@
-`Hisui’s eyes narrowed.@ I had just rolled across the room screaming her name, so suspicion was only natural.@
-`“N-no, nothing of the kind.@ By the way…@ how long have you been standing there?”@
-`A guilty conscience had made me absurdly polite.
+`“Master Shiki.@ Have I somehow given you cause for resentment?”@
+`Hisui’s eyes narrow.@
+`I just rolled across the room screaming her name, so suspicion is only natural.@
+`“N-no, that is not it.@ How long have you been standing there?”@
+`My guilty conscience has made me absurdly polite.
 \
 ld c,"tachi/his_t08",crossfade,400
-`“Since before you awoke, Master Shiki.@ Why?”@
-`Hisui regarded me with even deeper suspicion.@
-`“Ugh…”@
-`Under that gaze, I felt like the vilest creature alive.@
+`“I have been here since before you awoke, Master Shiki.”@
+`Hisui regards me with even deeper suspicion.@
+`“Ugh”@
+`Under that gaze, I feel like the vilest creature alive.@
 cl c,crossfade,400
 br
-`“Right…@ since before I woke up…”@
+`“I see.@ Before I woke up.”@
 `[line=3]Wait.@
-`Did that mean Hisui had watched my sleeping face while I was having that dream?
+`That means, perhaps.@
+`Hisui watched my sleeping face while I was having that dream[line=3]
 \
-`“H-Hisui, about that…”@
-`Still wrapped in the sheet on the floor, I couldn’t even stand.@ I could only look up at her.@ Hisui remained expressionless and volunteered nothing.@
-`“Was I…@ acting strange in my sleep?”@
+`“H-Hisui, about that[line=5]”@
+`Still wrapped in the sheet on the floor, I cannot even stand and can only look up at her.@
+`Hisui remains expressionless and volunteers nothing.@
+`“Was I acting strange in my sleep?”@
 ld c,"tachi/his_t01b",crossfade,400
 `“It would be improper for me to describe it.”@
-`“Ah…@ oh.”@
-`Apparently I had presented quite a spectacle after all.
+`“Ah[line=3]ugh”@
+`Apparently I presented quite a spectacle after all.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“If you insist, however, I can give you as exact an account as possible.”@
+`“If Master Shiki insists, however, I can give you as exact an account as possible.”@
 `“No.@ No account necessary, thank you.”@
 `Scarlet-faced, I answered in a dying voice.@
 `“Excuse me, Hisui?”@
@@ -495,24 +663,28 @@ br
 \
 `“Very well.@ Please excuse me.”@
 cl c,crossfade,800
-`Hisui bowed and walked toward the door.@
-`“Hah…”@
-`I had just begun to relax when—
+`Hisui bows and walks toward the door.@
+`“[line=6]Hah”@
+`Just as I begin to relax.@
 ld c,"tachi/his_t18",crossfade,400
 `“One more matter, Master Shiki.”@
-`Hisui turned, her face frighteningly stern.@
-`“Would you care to tell me what sort of dream you were having?”@
-`Her stare bored into me.@ This was bad.@ I must have said something catastrophically incriminating in my sleep.
+`Hisui turns, her face frighteningly stern.@
+`“Would you tell me what sort of dream Master Shiki was having?”@
+`Her stare bores into me.@
+`This is bad.@ I must have said something catastrophically incriminating in my sleep.
 \
-`“It wasn’t a dream worth telling anyone about.@ I may have muttered a few things, but I’d be grateful if you regarded them as words entirely unrelated to Shiki Tohno…”@
+`“It wasn’t a dream worth telling anyone about.@
+`I may have muttered a few things, but I’d be grateful if you regarded them as words entirely unrelated to Shiki Tohno…”@
 ld c,"tachi/his_t09",crossfade,400
-`“That will suffice.@ In future, however, please refrain from sleeping in a manner that makes you endlessly repeat observations that so-and-so is rather slight in the chest, or that someone else has a rather broad forehead.@ It interferes with my duty of waking you.”@
+`“That will suffice.@ In the future, however, please refrain from endlessly repeating remarks about one person’s flat chest or another’s broad forehead in your sleep.@
+`Otherwise, it interferes with my duty of waking you, Master Shiki.”@
 cl c,crossfade,400
 `With that, Hisui left the room.
 \
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
-`Once I had thoroughly composed myself, I went to the sitting room.@ Akiha was already on the sofa, sipping tea with practiced elegance.
+`Once I had thoroughly composed myself, I went to the sitting room.@
+`Akiha was already on the sofa, sipping tea with practiced elegance.
 \
 ld c,"tachi/aki_t04a",crossfade,400
 `“Good morning, Brother.@ You’re early today.”@
@@ -522,65 +694,73 @@ cl c,crossfade,400
 `“A few things?@ What things?”@
 `“Well, that’s…”@
 br
-`[line=4]And then, like a fool, I vividly remembered the dream about Hisui.
+`[line=4]And then.@
+`Like a fool, I vividly remember the dream about Hisui.
 \
-`“Ugh…”@
-`This was bad.@ I could feel my face turning helplessly red.@
-`“Brother?”@
-`A chair shifted.@
+`“Urk[line=3]”@
+`This is bad.@ I can feel my face reddening beyond all control.@
+`“Brother[line=3]?”@
+`A chair shifts.@
 ld c,"tachi/aki_t01a",crossfade,400
-`“What’s wrong?@ Your face is red.@ Do you have a fever?”@
-`“!”@
-`Akiha came right up to me and peered into my face from below.@ That angle—those upturned eyes—dragged last night’s dream back without mercy.
+`“What is wrong?@ Your face is red, but do you have a fever?”@
+`“[line=5]!”@
+`Akiha comes right up and peers into my face from below.@
+`That angle.@
+`Her upturned gaze drags last night’s dream back without mercy[line=4]
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“You really do seem feverish.@ Kohaku, come here a moment.@ Brother isn’t feeling well.”@
-`Akiha called toward the dining room.@ Kohaku was probably in the kitchen preparing my breakfast.
+`“[line=3]Hah, you really do seem feverish.@ Kohaku, come here.@ Brother does not seem well.”@
+`Akiha calls toward the dining room.@
+`Kohaku is presumably in the kitchen preparing my breakfast.
 \
-`“I’m fine!@ It’s only a cold.@ You don’t need to make a fuss!”@
+`“I am fine[line=3]!@ I-it is only a cold, so do not worry!”@
 ld c,"tachi/aki_t21",crossfade,400
 `“A cold is even more reason not to ignore it.@ A minor illness can be serious for you, Brother.@ Your immunity and resistance are weaker than other people’s.”@
 cl c,crossfade,400
-`With an exasperated sigh, Akiha laid a hand against my forehead.@
+`With an exasperated look, Akiha places her hand against my forehead.@
 br
-`The touch of her slender palm was cool.@ Pale, delicate fingers—white and lovely with a refinement no man’s hand could ever possess.
+`Her slender palm feels cool against me.@
+`Pale, delicate fingers.@
+`Fine, lovely white fingers beyond anything a man’s hand could possess[line=5]
 \
 `“Ngh!”@
-`Bad.@ Very bad.@
-`I knocked Akiha’s hand aside and bolted for the foyer.@
+`This is bad.@
+`I knock Akiha’s hand aside and bolt for the foyer.@
 bg "bg/bg_33a",lcartain,800
 br
-`My feet thundered through the mansion.@
+`Thud-thud-thud-thud-thud.@
 br
 bg "bg/bg_40a",lcartain,800
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki?@ Have you finished breakfast already?”@
-`“No, but—where’s my schoolbag?”@
-`“Here.@ Are you leaving for school now?”@
-`I nodded, snatched it from Hisui’s hand, and headed for the door.@
-`“I’m off!@ You don’t have to see me out!”
+`“No, but[line=3]where is my schoolbag?”@
+`“Here, but are you leaving for school already?”@
+`I nod, snatch it from Hisui’s hand, and head for the door.@
+`“I’m off!@ You do not have to see me out!”
 \
 bg "bg/bg_33a",lcartain,800
 ld c,"tachi/aki_t02",crossfade,400
-`“Brother, you’ve been acting strangely all morning.@ What are you doing when you have a fever?”@
-`“I told you, it’s nothing!@ Since it’s nothing, I’m going to school.@ I’ll get breakfast somewhere, so leave me alone!”@
-`“Leave you alone?@ Wait, Brother!”@
+`“Brother, you have been acting strangely all morning.@ What are you doing when you have a fever?”@
+`“I told you, it is nothing!@ Since it is nothing, I am going to school.@ I will find breakfast somewhere, so leave me alone!”@
+`“Leave you alone[line=3]wait, Brother!?”@
 br
-`I fled at a pounding run.
+`Thud-thud-thud-thud-thud.
 \
 bg "bg/bg_32a",lcartain,800
-`“Hah…”@
-`Even Akiha couldn’t possibly chase me this far.@ I wasn’t a child; surely she wouldn’t come out to drag back someone who had said he was going to school.
+`“Hah[line=5]”@
+`Even Akiha will not chase me this far.@
+`She is not a child, so surely she will not run after someone who already announced he was going to school.
 \
-`“Whew.”@
-`One long breath finally calmed me.@
-`“…@Why am I running away?”@
-`Once calm, I could think again.@ I hadn’t actually done anything wrong.@ There had been no need to flee the house.
+`“[line=4]Whew”@
+`One long breath finally calms me.@
+`“Why am I running away?”@
+`Once calm, I can think again.@
+`I have not done anything wrong, so there was no need to flee the house.
 \
-`“Unbelievable.@ I look like a complete idiot.”@
-`Still, going back now and asking for breakfast would be even more ridiculous.@
-`“I’ll go to school.”@
-`With a sigh, I started down the hill toward the residential district.
+`“[line=3]Unbelievable.@ I look like a complete idiot.”@
+`Going back to the mansion now and meekly eating breakfast would look even more ridiculous.@
+`“[line=3]Might as well go to school.”@
+`With a sigh, I start down the hill toward the residential district.
 \
 playstop
 bg #000000,lcartain,800

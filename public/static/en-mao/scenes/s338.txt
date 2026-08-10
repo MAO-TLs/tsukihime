@@ -1,79 +1,128 @@
 bg #000000,notrans,0
 wavestop
 play "*1"
-`Dinner is the customary quiet affair shared by Akiha and me.@ Kohaku stands behind her, Hisui behind me, and neither says a word—the same ritual every evening.
+`Dinner is the customary quiet affair shared by Akiha and me.@
+`Kohaku stands behind her, Hisui behind me, and neither says a word—the same ritual every evening.
 \
-`“…”@ Tonight, however, Akiha is behaving strangely.@ Ordinarily she glares whenever my cutlery makes the slightest noise, but now she herself keeps producing an irritating clatter.@ Finally she says, “I am returning to my room.@ Please clear my dinner,”@ and leaves the table halfway through the meal.
+`“…”@
+`Tonight, however, Akiha is behaving strangely.@
+`Ordinarily she glares whenever my cutlery makes the slightest noise, but now she herself keeps producing an irritating clatter.@
+`Finally,
+`“[line=3]I am returning to my room.@ Please clear my dinner.”@
+`With that, she leaves the dining room halfway through the meal.
 \
 bg "bg/bg_34b",lshutter,800
 `“What’s gotten into her?@ She was fine when we walked home together.”@
 ld c,"tachi/his_t01",crossfade,400
-`“…”@ Hisui remains silent.@ Kohaku clears the dishes with her usual smile.@
+`“…”@
+`Hisui remains silent.@
+`Kohaku clears the dishes with her usual smile.@
 br
-`[line=4]Then—
+`[line=4]Then.@
 wave se_05
 br
-`Something crashes in the foyer.@ “Akiha!”@ With nothing but a terrible premonition to guide me, I sprint toward the sound.
+`Something crashes in the foyer.@
+`“[line=3]Akiha!?”@
+`With nothing but a terrible premonition to guide me, I sprint toward the sound.
 \
 bg "bg/bg_33c",lshutter,800
 ld c,"tachi/aki_t20b",crossfade,400
-`“—!”@ Akiha is slumped against the staircase.@ Her breathing is so ragged that I can hear her wheezing from across the foyer.@ Her face is deathly pale, and beads of sweat stand out on her forehead and arms.@
+`“[line=5]!”@
+`Akiha is slumped against the staircase.@
+`Her breathing is so ragged that I can hear her wheezing from across the foyer.@
+`Her face is deathly pale, and beads of sweat stand out on her forehead and arms.@
 br
 `One glance is enough to tell me this is no ordinary illness.
 \
-`“Akiha!”@ “Don’t come any closer…!”@ “—!”@ I stop.@ Still propped against the stairs, Akiha rejects me with startling violence.
+`“Akiha!”@
+`“Don’t come any closer…!”@
+`“—!”@
+`I stop.@
+`Still propped against the stairs, Akiha rejects me with startling violence.
 \
-`“What do you mean, don’t come closer?@ I don’t know what happened, but I can’t abandon you when you’re suffering like this.”@ “Just…@ you, Brother.@ Please don’t…@ come near me.”@ Her breath rasps in and out.@
+`“What[line=3]do you mean, don’t come closer?@ I don’t know what happened, but I can’t abandon you when you’re suffering like this.”@
+`“[line=3]Please, Brother, just don’t come near me.”@
+`Her breath rasps in and out.@
 wave se_01
-`“What—”@ My heart bucks.@ Akiha stands there, breathing in torment.@ I must be losing my mind.@ Even for an instant, how could I think she looked so much like Satsuki Yumizuka?
+`“What[line=4]”@
+`My heart bucks.@
+`Akiha stands there, breathing in torment.@
+`I must be losing my mind.@
+`How could I think, even for an instant, that she looked so much like Satsuki Yumizuka?
 \
-`“Aki…@ha—”@ “Please, just stay away!@ If you come near me now, I know I’ll lose control.@ So don’t.@ I don’t need you, Brother.@ I’ll be perfectly fine without you—”@
+`“Akiha[line=3]”@
+`“Please, just stay away!@ If you come near me now, I know I’ll lose control.@ So don’t.@ I don’t need you, Brother; I’ll be perfectly fine without you[line=3]”@
 cl a,tshutter,800
-`Akiha slides down the stairs and crumples.
+`Akiha slips.@
+`Her body falls away from the staircase and crumples.
 \
 ld c,"tachi/koha_t02",lshutter,400
-`“Miss Akiha?”@ Kohaku slips past me and rushes to her.@
+`“Miss Akiha?”@
+`Kohaku slips past me and rushes to her.@
 cl a,crossfade,400
-`After exchanging a few quiet words with Akiha, Kohaku lends her a shoulder and helps her stand.@ Supported by Kohaku, Akiha returns to her room.
+`After exchanging a few quiet words with Akiha, Kohaku lends her a shoulder and helps her stand.@
+`Supported by Kohaku, Akiha returns to her room.
 \
-`“What…@ What was that?”@ None of it makes sense: Akiha’s agony, her refusal to let me near, then the way she calmly accepted Kohaku’s support.@
+`“What[line=4]was that?”@
+`None of it makes sense.@
+`Akiha is suffering, refuses to let me near, and then calmly accepts Kohaku’s support.@
 ld c,"tachi/his_t01",lshutter,800
-`“Master Shiki.”@ “Hisui…@ What just happened?@ Why would Akiha become like that?”
+`“[line=3]Master Shiki”@
+`“Hisui, what just happened?@ Why would Akiha become like that?”
 \
-`“Miss Akiha sometimes suffers sudden attacks that leave her unable to breathe.@ Just as you are prone to anemia, she too belongs to the Tohno family.”@ “Ah—”@
+`“Yes.@ Miss Akiha sometimes suffers sudden attacks that leave her unable to breathe.@ Just as Master Shiki is prone to anemia, Miss Akiha too belongs to the Tohno family.”@
+`“Ah[line=4]”@
 br
 `[line=3]The Tohnos have certain inherited peculiarities.@
 br
 `Akiha had indeed said that at lunch.
 \
-`“But…@ Akiha always seemed so healthy.”@ “She took great pains to keep the matter from you.@ We were also ordered not to tell you.”@ “…”@ I have no answer.@ All I can do is stare blankly up the staircase where Akiha disappeared.
+`“But…@ Akiha always seemed so healthy.”@
+`“Miss Akiha took great pains to keep the matter from Master Shiki.@ We were also ordered not to tell Master Shiki.”@
+`“[line=8]”@
+`I have no answer.@
+`All I can do is stare blankly up the staircase where Akiha disappeared.
 \
 bg #000000,crossfade,800
 !w2000
 bg "bg/bg_40c",tshutter,400
 ld c,"tachi/his_t01",crossfade,400
-`“Good night, then.@ Please entrust Miss Akiha to my sister.@ For many years she was responsible for your father’s health, and she has some medical training.”@ “You’re right.@ Akiha seemed to trust Kohaku completely.@ She’ll be safe in her hands.”@ I could do nothing for her even if I stayed, so there is no choice but to rely on Kohaku.
+`“Good night, then.@ Please entrust Miss Akiha to my sister.@
+`For many years she was responsible for Master Makihisa’s health, and she has some medical training.”@
+`“You’re right.@ Akiha seemed to trust Kohaku completely, so she should be safe in her hands.”@
+`I could do nothing for her even if I stayed, so there is no choice but to rely on Kohaku.
 \
 ld c,"tachi/his_t17",crossfade,400
-`“Master Shiki, attacks that severe are rare, and the proper medicine will restore her.@ I do not believe you need to worry.@ Miss Akiha is more concerned about your uncertain health than her own condition, whose cause and treatment she already knows.”@ “I know.@ Damn it, I’m a failure as a brother.@ I really didn’t understand anything.”
+`“Master Shiki, attacks that severe are rare for Miss Akiha, and the proper medicine will restore her.@ I do not believe you need to worry.@
+`Miss Akiha is more concerned about Master Shiki’s uncertain health than her own condition, whose cause and treatment she already knows.”@
+`“I know.@ Damn it, I’m a failure as a brother.@ I really didn’t understand anything.”
 \
 ld c,"tachi/his_t21b",crossfade,400
-`“You truly…@ understand nothing?”@ Hisui lowers her head as she whispers it.@ “Hisui?@ What’s wrong?@ Please don’t tell me you’re ill too.”@ “No.@ But can you truly remember nothing about the annex?”@ “What?”@
+`“You[line=3]truly understand nothing?”@
+`Hisui lowers her head as she whispers it.@
+`“Hisui?@ What’s wrong—don’t tell me you’re ill too.”@
+`“[line=3]No.@ But can Master Shiki truly remember nothing about the annex?”@
+`“[line=5]What?”@
 br
-`Remember nothing about…@ what?@
+`Remember nothing about what?@
 br
-`“Hisui, what do you—”@ “You truly have become Shiki Tohno.”
+`“Hisui, that means[line=3]”@
+`“[line=3]Master Shiki, you truly have become Shiki Tohno.”
 \
 `“Hisui?”@
 ld c,"tachi/his_t01",crossfade,400
-`“The annex fell out of use soon after you were sent to live with the Arima family.@ Your father decided to demolish it, but Miss Akiha protested so fiercely that it remains standing even now.@
+`“The annex fell out of use soon after Master Shiki was sent to live with the Arima family.@ Master Makihisa decided to demolish it, but Miss Akiha protested so fiercely that it remains standing even now.@
 ld c,"tachi/his_t09",crossfade,400
-`[line=3]Therefore, if you truly care for Miss Akiha, please stay away from the annex.”@
+`[line=3]Therefore, if Master Shiki truly cares for Miss Akiha, please stay away from the annex.”@
 cl a,lshutter,400
 `With that, Hisui hurries from the room as though fleeing.
 \
 bg #000000,bshutter,400
 !w2000
 bg "bg/bg_40d",crossfade,400
-`After ten, every light in the mansion goes out.@ “…”@ I am too wide awake to sleep.@ Akiha.@ The annex she is so desperate to keep secret.
+`After ten, every light in the mansion goes out.@
+`“…”@
+`I am too wide awake to sleep.@
+`Akiha.@
+`The annex she is so desperate to keep secret.
 \

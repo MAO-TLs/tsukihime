@@ -6,18 +6,24 @@ cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
 `Congratulations on completing Hisui’s Good Ending.@
 br
-`Each heroine has two endings, with one exception: a True Ending and a Good Ending.@ Since Hisui’s True Ending must be completed before her Good Ending becomes available, you have now seen her entire story!
+`Each heroine has two endings, with one exception.@
+`They are the True Ending and the Good Ending.@
+`Since Hisui’s True Ending must be completed before her Good Ending becomes available, you have now seen her entire story!
 \
-`Thank you for playing this far.@ I hope we meet again somewhere in TSUKIHIME!@
+`Thank you for playing this far.@
+`I hope we meet again somewhere in TSUKIHIME!@
 br
-`“Ciel, there’s something I must tell you as well.”@
+`“Ciel.@ There’s something I must tell you as well.”@
 br
 `Oh, Doctor Roa.@ How unusual to see you at an occasion like this.
 \
 ld l,"tachi/roa_t05a",lshutter,400
-`“The circumstances warrant it.@ In brief, if you restart from day one after completing Hisui’s route, a new choice will have appeared.@ In effect, it opens TSUKIHIME’s final route.@ …@Though a glance at the Gallery would make that obvious without any explanation from me.”@
+`“The circumstances warrant it.@ In brief, if you restart from day one after completing Hisui’s route, a new choice will have appeared.@
+`In effect, it opens TSUKIHIME’s final route.@
+`Though a glance at the Gallery would make that obvious without any explanation from me.”@
 br
-`Quite right.@ Please continue enjoying TSUKIHIME.
+`Quite right.@
+`Please continue enjoying TSUKIHIME.
 \
 bg #000000,crossfade,800
 playstop

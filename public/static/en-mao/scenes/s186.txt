@@ -3,7 +3,8 @@ playstop
 wavestop
 bg "bg/bg_29b",notrans,0
 `…@Arcueid isn’t coming.@
-`Of course she isn’t.@ I trampled over everything she had trusted me with and forced myself on her.
+`Of course she isn’t.@
+`I trampled over everything she had trusted me with and forced myself on her.
 \
 `Arcueid won’t come.@ I’m sure of it.@
 `When she said we should both forget it ever happened, this was what she meant.@
@@ -25,19 +26,20 @@ bg "bg/bg_40d",lcartain,1500
 \
 `“……”@
 `…@I should sleep.@
-`Once morning came and I woke up, something would surely have changed.@ Arcueid, the vampire terrorizing the city—if only morning would come, then all of it would—
+`Once morning came and I woke up, something would surely have changed.@
+`Arcueid, the vampire terrorizing the city—if only morning would come, then all of it would—
 \
 bg #000000,crossfade,1500
 phase "bg/bg_06a",l,ark,11b,12
 bg #000000,crossfade,400
 waveloop se_02
-`THROB   THROB   THROB
+`THROB THROB THROB
 !w1000
-`THUMP   THUMP   THUMP
+`THUMP THUMP THUMP
 !w1000
-`throb   throb   throb
+`throb throb throb
 !w1000
-`thump   thump   thump
+`thump thump thump
 \
 `…@Pain and heartbeat fell into an alternating rhythm.@
 `With every throb, a memory peeled away.@
@@ -62,7 +64,7 @@ bg #ffffff,crossfade,800
 br
 `[line=4]A voice.@
 br
-`“Please stay with me.@ I’ll bring you something to drink at once.”@
+`“Please hold on.@ I’ll bring you something to drink at once.”@
 br
 `[line=4]Then came the quick patter of footsteps running away.
 \
@@ -119,9 +121,9 @@ bg "bg/bg_34a",lcartain,800
 \
 ld c,"tachi/aki_t12a",lshutter,800
 `“Good morning, Brother.”@
-`“Morning.@ You look a little down, Akiha.@ Did breakfast come with something you hate?”@
+`“Morning.@ You look a little down, Akiha.@ Did they serve something you hate for breakfast?”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“…@Brother.@ By what conceivable chain of thought did you arrive at a remark that irrelevant?”
+`“Brother…@ how exactly did you leap to something so completely unrelated?”
 \
 `“No reason.@ I just remembered you used to be a really picky eater.”@
 `“How rude!@ I may have been picky as a child, but I eat everything now.”@
@@ -148,8 +150,8 @@ ld l,"tachi/aki_t21",crossfade,400
 \
 `“Huh.@ I had no idea.@ But I don’t have a cold or anything.”@
 ld r,"tachi/his_t01",crossfade,400
-`“I do not believe it was a cold.@ You slept as you normally do, and both your temperature and breathing were normal.@ You were, however, secreting an unusual quantity of sweat.”@
-`“…@‘Secreting’ makes it sound really disgusting.”
+`“I do not believe it was a cold.@ Master Shiki slept as you normally do, and both your temperature and breathing were normal.@ You were, however, secreting an unusual quantity of sweat.”@
+`“‘Secreting’ makes it sound really disgusting.”
 \
 ld l,"tachi/aki_t03a",crossfade,400
 `“Try being the one who had to nurse you.@ A little gratitude would be appropriate.@ And please remember to thank Kohaku later.@ I doubt I could have managed alone.”@
@@ -166,7 +168,7 @@ ld l,"tachi/aki_t05a",crossfade,400
 `“I don’t need your thanks!@ I only cared for you because it was my natural duty.@ Brother, save those words for Kohaku.”@
 `Akiha turned sharply away and refused to look at me again.
 \
-`“Shikiii, breakfast is ready!”@ Kohaku called from the dining room.@
+`“Master Shiki, breakfast is ready!”@ Kohaku called from the dining room.@
 `“There.@ Go and eat your breakfast, Brother.”@
 `“Right you are.”@
 `I ambled across the sitting room toward the dining room.

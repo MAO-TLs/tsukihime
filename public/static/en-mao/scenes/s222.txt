@@ -3,69 +3,129 @@ play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
 ld c,"tachi/aki_t02",crossfade,400
-`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother.@ You must show some awareness of your position.”@ “What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you’re worried about the family, find some suitable man to marry into it.”@
+`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother.@ You must show some awareness of your position.”@
+`“[line=3]What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you’re worried about the family, find some suitable man to marry into it.”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“…”@ What?@ For some reason, Akiha falls silent.
+`“[line=5]”@
+`What?@
+`For some reason, Akiha falls silent.
 \
-`“What is it, Akiha?@ Are you feeling ill?”@ “It’s nothing.@ If you have time to worry about me, spend it worrying about your own health.@ You suffer from chronic anemia, Brother.”@ “…@Right.”@ She has a point.@ I do collapse from anemia rather frequently.@
+`“What is it, Akiha?@ Are you feeling ill?”@
+`“[line=2]It’s nothing.@ If you have time to worry about me, spend it worrying about your own health.@ You suffer from chronic anemia, Brother.”@
+`“Right.”@
+`She has a point, since I do collapse from anemia rather frequently.@
 ld c,"tachi/aki_t01a",crossfade,400
-`“In any case, please don’t leave the mansion alone so often.@ The city has become dangerous lately.@ Someone as absentminded as you might as well hang a sign asking to be attacked.”@ “Attacked…?@ Oh, you mean those serial murders.”
+`“In any case, please don’t leave the mansion alone so often.@ The city has become dangerous lately.@ Someone as absentminded as you might as well hang a sign asking to be attacked.”@
+`“Attacked[line=3]oh, you mean those serial murders.”
 \
-`The serial murders with nine victims, if I remember correctly.@ Every corpse was drained of blood, prompting lurid talk of a modern-day vampire.@ “Oh, you don’t need to worry about that.@ It won’t happen again.”@ “What?”@ “I mean the vampire is gone.@ The killer has already been caught.”@ “Has he…?@ How could you possibly know that?”@ “I only happened to see it, but I’m certain.@ There won’t be another murder like that.”@
+`The serial murders with nine victims, if I remember correctly.@
+`Every corpse was drained of blood, prompting lurid talk of a modern-day vampire[line=2]
+`“Oh, you don’t need to worry about that.@ It won’t happen again.”@
+`“[line=4]What?”@
+`“I mean the vampire is gone.@ The killer has already been caught.”@
+`“Has he…?@ Brother, how could you possibly know that?”@
+`“I only happened to see it, but I’m certain there won’t be another murder like that.”@
 cl c,crossfade,400
-`Yes.@ At the very least, no one else will die at Nrvnqsr’s hands.@ Too much happened during those two days with Arcueid for me to say what was right and what was wrong.@ But that one fact—I can hold my head high and call it a good thing.
+`Yes—at least no one else will die at Nrvnqsr’s hands.@
+`Too much happened during those two days with Arcueid for me to say what was right and what was wrong.@
+`But that one fact[line=3]I can hold my head high and call it a good thing.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Brother?@ Why do you suddenly look so pleased?”@ Akiha peers at me, puzzled.@ “It’s nothing.@ I’ve only just realized that it’s finally over.”@ Before I know it, I am smiling as I answer.
+`“Brother[line=3]?@ Why do you suddenly look so pleased?”@
+`Akiha peers at me, puzzled.@
+`“It’s nothing.@ I’ve only just realized that it’s finally over.”@
+`Before I know it, I am smiling as I answer.
 \
 bg #000000,lshutter,800
 bg "bg/bg_34a",lshutter,800
-`It is a little past seven.@ “Shiki!@ Breakfast is ready!”@ Kohaku’s cheerful voice carries from the dining room.@ “I’m going to eat, then.@ You should be leaving soon too, Akiha.@ Don’t wait on my account.”@
+`It is a little past seven.@
+`“Breakfast is ready, Master Shiki!”@
+`Kohaku’s cheerful voice carries from the dining room.@
+`“I’m going to eat, then.@ You should be leaving soon too, Akiha.@ Don’t wait on my account.”@
 ld c,"tachi/aki_t09",crossfade,400
-`“Yes, I know, Brother.”@ Perhaps our long conversation has put her in a good mood.@
+`“Yes, I know, Brother.”@
+`Perhaps our long conversation has put her in a good mood.@
 cl a,crossfade,400
 `I get up and go to the dining room.
 \
 playstop
 bg #000000,crossfade,1500
-`I have no appetite whatsoever.@ Anyone would lose it if their white rice looked as though it had been sprinkled with red blood.@ “…”@ I shake my head hard.@ It is an illusion, of course; the breakfast Kohaku prepared is as splendid as ever.@ Pulling myself together, I raise a bite to my mouth.@
+`I have no appetite whatsoever.@
+`Anyone would lose it if their white rice looked as though it had been sprinkled with red blood.@
+`“[line=4]”@
+`I shake my head hard.@
+`It is an illusion, of course; the breakfast Kohaku prepared is as splendid as ever.@
+`Pulling myself together, I raise a bite to my mouth.@
 br
 `[line=3]The instant I do, I spit it back out.
 \
 bg "bg/bg_34a",lcartain,800
 ld l,"tachi/aki_t01a",lshutter,400
 play "*3"
-`When I emerge from the dining room almost immediately, Akiha gives me a suspicious look.@ “Did you forget something, Brother?”@ “No, it’s nothing.@ Just something minor.”@
+`When I emerge from the dining room almost immediately, Akiha gives me a suspicious look.@
+`“Did you forget something, Brother?”@
+`“No, it’s nothing.@ Just something minor.”@
 ld r,"tachi/koha_t01a",lshutter,400
-`“Shiki has no appetite this morning.@ He couldn’t keep his food down, so I had him take some medicine instead.”@
+`“Master Shiki has no appetite this morning.@ He couldn’t keep his food down, so I had him take some medicine instead.”@
 ld l,"tachi/aki_t13a",crossfade,400
-`“What?”@ “It was only a vitamin supplement.@ I just had a bad dream this morning.@ I’ll feel better once I settle down, so I’ll eat at school.”@ I address Akiha rather than Kohaku; Akiha is plainly bursting to say something.
+`“What[line=4]?”@
+`“It was only a vitamin supplement.@ I just had a bad dream this morning.@ I’ll feel better once I settle down, so I’ll eat at school.”@
+`I address Akiha rather than Kohaku; Akiha is plainly bursting to say something.
 \
 `“Anyway, I should get going.@ A walk through town will probably clear my head.”@
 ld l,"tachi/aki_t17a",crossfade,400
-`“Wait, Brother—”@ Akiha calls after me.@ “I’m off.@ I’ll be home early, so save the lecture until then.”@ Leaving her worried voice behind, I walk out of the mansion.
+`“Wait, Brother[line=3]”@
+`Akiha calls after me.@
+`“I’m off.@ I’ll be home early, so save the lecture until then.”@
+`Leaving her worried voice behind, I walk out of the mansion.
 \
 bg #000000,lshutter,800
 bg "bg/bg_32a",lcartain,800
-`Hisui carries my bag and accompanies me to the gate.@ “I’m off, then.@ Thanks for seeing me out, Hisui.”@ She silently places the bag in my hands.@
+`Hisui carries my bag and accompanies me to the gate.@
+`“I’m off, then.@ Thanks for seeing me out, Hisui.”@
+`She silently places the bag in my hands.@
 ld c,"tachi/his_t01",lshutter,400
-`“What time should we expect you home, Master Shiki?”@ “I really have lost everyone’s trust, haven’t I?@ Don’t worry.@ I’ll be back by evening today.”@ “Very well.@ Have a safe day.”@ Hisui bows deeply.@ Feeling more than a little self-conscious, I leave the mansion gates behind.
+`“What time should we expect you home, Master Shiki?”@
+`“I really have lost everyone’s trust, haven’t I?@ Don’t worry—I’ll be back by evening today.”@
+`“[line=3]Very well.@ Have a safe day.”@
+`Hisui bows deeply.@
+`Feeling more than a little self-conscious, I leave the mansion gates behind.
 \
 bg #000000,lshutter,1500
 bg "bg/bg_24a",lcartain,1500
-`The intersection is occupied only by students from my school.@ There is no woman sitting on the guardrail, waiting for someone as she did before.@ “Well, of course not.”@ I will probably never see her again.@ Her purpose seems to have been hunting vampires, and with Nrvnqsr gone, she has no reason to remain in this city.@
+`The intersection is occupied only by students from my school.@
+`There is no woman sitting on the guardrail, waiting for someone as she did before.@
+`“[line=3]Well, of course not.”@
+`I will probably never see her again.@
+`Her purpose seems to have been hunting vampires, and with Nrvnqsr gone, she has no reason to remain in this city.@
 br
-`[line=3]Still, something lingers in my chest.@ Regret, perhaps.@ Or reluctance to let go.@ She brought me nothing but trouble, certainly, yet even so…@ I suppose I enjoyed being with her.
+`[line=3]Still, something lingers in my chest.@
+`Regret, perhaps, or reluctance to let go.@
+`She brought me nothing but trouble, certainly, but I still enjoyed being with her.
 \
-`“…”@ I know there must be something wrong with me.@ After all that danger, some part of me is still trying to summon Arcueid’s face from memory.@ It is almost as if I have an unrequited crush on her, even though Shiki Tohno wants no part of anything so dangerous ever again.
+`“…”@
+`I know there must be something wrong with me.@
+`After all that danger, some part of me is still trying to summon Arcueid’s face from memory.@
+`It is almost as if I have an unrequited crush on her.@
+`Even though Shiki Tohno wants no part of anything so dangerous ever again.
 \
 bg "bg/bg_01a",lcartain,1500
-`Perhaps because I skipped breakfast, even an unhurried walk brings me to the main gate ten minutes before it closes.@ This is when students without morning practice arrive.@ At our college-prep school, only the major sports clubs practice before class, so the gate is naturally choked with students.@ “Ah.”@ I recognize a figure passing through it.@ Without knowing what I intend, I hurry after her.
+`Perhaps because I skipped breakfast, even an unhurried walk brings me to the main gate ten minutes before it closes.@
+`This is when students without morning practice arrive.@
+`At our college-prep school, only the major sports clubs practice before class.@
+`Naturally, the gate is choked with students.@
+`“[line=4]Ah.”@
+`I recognize a figure passing through it.@
+`Without knowing what I intend, I hurry after her.
 \
 bg "bg/bg_03a",lcartain,400
 ld c,"tachi/cel_t01a",lshutter,400
-`“Good morning, Tohno.@ How unusual to meet you in the schoolyard.”@ “Morning.@ I saw you ahead of me and ran to catch up.@ There’s…@ something I wanted to ask.”@ I steal a glance at Ciel’s face.
+`“Good morning, Tohno.@ How unusual to meet you in the schoolyard.”@
+`“Morning.@ I saw you ahead of me and ran to catch up.@ There’s something I wanted to ask.”@
+`I steal a glance at Ciel’s face.
 \
-`“Of course.@ What is it?”@ Ciel gives me her usual gentle smile.@ I—
+`“Yes—what is it?”@
+`Ciel gives me her usual gentle smile.@
+`I[line=3]
 br
 cl c,crossfade,400

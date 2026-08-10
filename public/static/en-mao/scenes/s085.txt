@@ -2,28 +2,38 @@ monocro off
 play "*6"
 wavestop
 bg "bg/bg_19d",notrans,0
-`[line=3]With Arcueid unable to move, going outside blindly would be dangerous.@
+`[line=3]With Arcueid unable to move, venturing outside without a plan would be dangerous.@
 br
-`“……”@ I held my knife in one hand and scarcely breathed.@ Arcueid remained equally silent, her attention ranging over our surroundings.
+`“……”@
+`I held my knife in one hand and scarcely breathed.@
+`Arcueid remained equally silent, her attention ranging over our surroundings.
 \
-`The floors below were in an uproar.@ Perhaps the impact had woken the guests, who had gone to complain to the hotel.@ Though it was only four in the morning, the noise rivaled a festival.@
+`The floors below were in an uproar.@
+`Perhaps the impact had woken the guests, who had gone to complain to the hotel.@
+`Though it was only four in the morning, the noise rivaled a festival.@
 br
 `[line=3]After several minutes, it stopped completely.
 \
 wave se_01
-`Every sound vanished.@ The silence was enough to make me sick.@
+`Every sound vanished.@
+`The silence was enough to make me sick.@
 bg #000000,notrans,0
 playstop
-`“—!”@ The lights went out.@ At the same instant—
+`“—!”@
+`The lights went out.@
+`At the same instant—
 wave se_05
 wave se_05
 wave se_05
 wave se_05
 `Countless blows began hammering against the door.
 \
-`“Shiki, are you ready?”@ Arcueid’s quiet words emerged from the darkness.
+`“Shiki, are you ready?”@
+`Softly.@
+`Arcueid’s words emerged from the darkness.
 \
-`“…@Ready for what…?”@ There was no need to ask.@
+`“Ready for what?”@
+`There was no need to ask.@
 wave se_05
 !w1200
 !w1200
@@ -38,15 +48,23 @@ wave se_05
 !w1000
 wave se_10
 br
-`[line=3]If remaining in this room had been my first mistake, perhaps asking that question was my second.
+`[line=3]If remaining in this room had been my first mistake,
+`perhaps asking that question was my second.
 \
-`The door shattered.@ I turned toward it.@ “……”@ No sound came out.@ Before me, filling my vision, stretched a wall of pure white teeth.
+`The door shattered; I turned toward it.@
+`“……”@
+`No sound came out.@
+`Before me was a wall of pure white teeth.@ They filled my vision.
 \
 bg #ffffff,crossfade,400
-`A colossal maw large enough to swallow a human being named Shiki Tohno whole.@ For some reason, I identified it with perfect calm as the mouth of a fish called a shark.
+`A colossal maw large enough to swallow a human being named Shiki Tohno whole.@
+`For some reason, I identified it with perfect calm as the mouth of a fish called a shark.
 \
 bg "bg/ima_12",lshutter,400
-`Blood burst through the air.@ What remained of my body dropped heavily to the floor.@ The fallen thing was my head.@ Everything beneath the face had been swallowed and chewed in a single bite.@
+`Blood burst through the air.@
+`What remained of my body dropped heavily to the floor.@
+`The fallen thing was my head.@
+`Everything beneath the face had been swallowed and chewed in a single bite.@
 br
 `That was the last image I ever saw.
 \

@@ -4,9 +4,11 @@ monocro off
 bg "bg/bg_46c",lshutter,400
 `[line=4]I reach Akiha’s room.@
 br
-`The vertigo has become almost unbearable.@ I put a hand into my pocket.@ By some last scrap of luck, the knife is there.@
-`“[line=2]”@
-`I bite down on the dizziness, take the knife in one hand, and open the door.
+`The vertigo has grown almost unbearable.@
+`I reach into my pocket.@
+`By some stroke of luck, the knife is still there.@
+`“[line=6]”@
+`I bite back the vertigo and open the door, knife in one hand.
 \
 bg #000000,lcartain,800
 bg "bg/bg_36d",tshutter,800
@@ -16,17 +18,17 @@ waveloop se_11
 br
 `Only the moonlight through the window gives the room any shape.@
 `In that blue darkness, Akiha lies collapsed.@
-`“Akiha!”@
+`“Akiha[line=4]!”@
 `I rush to her and lift her into my arms.@
 `“…”@
 `Whether unconscious or worse, she does not move.@ Only the faint rise and fall of her chest tells me she is still breathing.
 \
-`No.@ Something else is terribly wrong.@
-`Akiha’s long black hair has turned red as blood.@
-`“Akiha…@ Is that really you?”@
+`No, something else is terribly wrong.@
+`Akiha's long black hair.@ It has turned red as blood.@
+`“Akiha[line=3]you really are Akiha, right?”@
 `Hair that shines red even in darkness.@
-`Yet there can be no mistake.@ This is Akiha.@
-`“Akiha, come on, wake up!@ What happened—”
+`Yet she is unmistakably Akiha.@
+`“Akiha, wake up!@ What happened[line=3]”
 \
 wave se_01
 bg #000000,notrans,0
@@ -35,107 +37,113 @@ bg "bg/bg_36d",notrans,0
 `A rustle.@
 br
 waveloop se_11
-`“—!”@
+`“[line=6]!”@
 `I whirl around.@
-`Beside the window, where the moonlight enters—something alien is standing.
+`Beside the window, where moonlight spills in[line=3]something alien stands.
 \
-`…@It resembles a human being wrapped from head to foot in bandages.@
-`“Who are you?”@
+`It resembles a human being wrapped from head to foot in bandages.@
+`“[line=5]Who are you?”@
 `The silhouette does not answer.@
-`A deathly chill pours down my spine, races through the nerve center of my spinal cord, and delivers its message directly into my brain: death.
+`A terrible chill trickles down my spine.@
+`A premonition of death races up my spinal cord—the core of my nervous system—and into my brain.
 \
-`…@The figure is broken simply by existing.@
-`Its bulging eyes are unmistakably deranged, yet intelligence lives inside them.@ The bandaged man seems to possess madness and reason in equal measure.
+`The figure is broken simply by being there.@
+`Its bulging eyes are unmistakably deranged, yet intelligence lives inside them.@
+`The bandaged man seems to possess madness and reason in equal measure.
 \
 wave se_01
 `My heart bucks violently.@
 waveloop se_11
-`My pulse climbs beyond its limits.@ My reason, by contrast, turns cold as a corpse.@
+`My pulse races past its limit.@
+`My reason, by contrast, cools into something corpse-like.@
 `This air.@
-`I know this reek of death, this corruption that poisons the air and drains it of strength.@
+`I know this stench of death that pollutes the air and saps it of strength.@
 br
-`[line=3]There is no mistake.@
+`[line=3]There is no mistaking it.@
 `This room has become the world of murder I have seen again and again in dreams.
 \
-`“I asked who you are.”@
+`“[line=3]I asked who you are.”@
 `I tighten my grip on the knife and glare.@
 `The bandaged man seems to grin.@
 wavestop
 play "*4"
-`“How sad, Shiki.@ You don’t even remember the man you killed?”@
+`“How sad, Shiki.@ You do not even remember the man you killed?”@
 `He takes one audible step toward me.@
-`“—!”@
+`“[line=4]!”@
 `I retreat, gathering Akiha against me with one arm.
 \
-`“Don’t you understand, Shiki?@ I’m the man you murdered.”@
-`“What are you—?”@
-`Merely hearing his voice scrapes against my nerves.@
-`I hate him.@ All the hatred I have felt since entering the estate seems to condense and pour itself into this one man.@
-`Is this what a murderous impulse is—the instinct that says he must be eliminated?
+`“Do you not understand, Shiki?@ I am the man you killed.”@
+`“What are you[line=4]”@
+`The mere sound of his voice grates on my nerves.@
+`I hate him.@ All the hatred I have felt since entering the estate seems to have condensed into a single stream directed at him.@
+`This hatred.@ Is the instinct that tells me to eliminate him what they call a murderous impulse?
 \
 `My heart hammers.@
 `Somewhere beyond my awareness, my body is screaming.@
-`This man.@ This thing.@ It is something I must kill.@
+`This man.@ This thing is one I must kill.@
 br
 !w1500
-`“I see.@ You’re the vampire.”@
+`“[line=3]I see.@ You are the vampire.”@
 br
 `Still holding Akiha with one arm, I raise the knife in the other.
 \
-`The man stifles his laughter, yet the pleasure in it is unmistakable.@
-`“Don’t bother.@ I am you.@ No one can kill himself.”@
-`“What…@did you say?”@
-`“I’ll be taking Akiha back.@ She was mine to begin with.”@
-`Another step.@ He comes closer.
+`A stifled laugh.@
+`The man laughs with wholehearted delight, keeping his voice low.@
+`“Do not bother.@ I am you.@ No one can kill himself.”@
+`“What[line=3]did you say…?”@
+`“I am taking Akiha back.@ She was mine to begin with.”@
+`Another step.@
+`The man comes closer.
 \
-`“Stop!”@
-`“I will not.@ I came to reclaim everything you stole from me.@ My name, my place, my power—all of it once belonged to me.”@
+`“Stop[line=3]!”@
+`“I will not.@ I came to reclaim everything you stole from me: my name, my place, my power.@ All of it once belonged to me.”@
 `He slowly spreads his arms and makes the declaration with pride.
 \
-`“…@What are you talking about?@ What—what are you?”@
-`“…@You still don’t know?@ How utterly heartless.@ Eight years ago, you and I were such good friends.”@
-`“What—?”@
+`“What are you saying?@ What[line=3]what are you?”@
+`“You still do not know?@ Honestly, you are truly heartless.@ Eight years ago.@ You and I were such good friends.”@
+`“What[line=3]”@
 br
 `Eight years ago?@
-`We were…@good friends?
+`We were such good friends[line=3]?
 \
-`“…@Well, I suppose it isn’t your fault that you can’t remember.@ Knowing that old bastard, he must have taken great care with the suggestion that made you forget everything.”@
+`“Well, I suppose it is no surprise that you do not remember.@ Knowing that old man, he must have been thorough with the suggestion that made you forget everything.”@
 bg #ffffff,notrans,0
 wait 100
 bg "bg/cmo_05",notrans,0
 wait 100
 bg "bg/bg_36d",notrans,0
-`“And you must have wanted to forget those repulsive memories yourself, didn’t you, Shiki?”@
+`“And you[line=3]you must have wanted to forget those hateful memories yourself, Shiki.”@
 br
 `The man laughs.@
 `My vision sways.@
-`Eight years ago.@ Eight years ago.@ Eight years ago—
+`Eight years ago.@ Eight years ago.@ Eight years ago[line=4]
 \
-`When an accident sent me to the hospital.@
-`When the three of us played together at the Tohno estate for the last time.@
-`When a boy lay drenched in blood in that courtyard.
+`That was when an accident sent me to the hospital.@
+`That was when the three of us played together at the Tohno estate for the last time.@
+`That was[line=4]when a blood-soaked boy lay in the courtyard[line=4]
 \
-`“But that ends now.@ It has been painful, hasn’t it, Shiki?@ Wait there.@ I’ll put you out of your misery soon.”@
+`“But that ends now.@ It has been painful, has it not, Shiki?@ Wait there; I will put you out of your misery soon.”@
 `The man slowly unwinds the bandages from his face.@
-`The face beneath them is—
+`The face beneath them is[line=5]
 br
 `“You…”@
 ld c,"tachi/hal_t01",crossfade,800
-`“It has been a long time, Shiki Tohno.@ No—that was never your real name, was it?”@
-`The face emerging from the bandages is not that blood-soaked boy.
+`“It has been a long time, Shiki Tohno.@ No, that was never your real name, was it?”@
+`The face emerging from beneath the bandages.@
+`It is not[line=4]the blood-soaked boy from that day.
 \
-`“Tohno—SHIKI.”@
+`“Tohno[line=3]SHIKI.”@
 `Of course.@ How could I have forgotten?@
-`The other child who was always with Akiha—the third of us—had borne that name.
+`The boy who used to be with Akiha.@ The third child had certainly borne that name.
 \
-`“Yes.@ It has been a very long time, Shiki Nanaya.@ At last, it seems you remember that you are the impostor.”@
-`The man—SHIKI—pulls his lips into a smile of unalloyed delight.
+`“Yes.@ It has been a very long time, Shiki Nanaya.@ At last[line=3]it seems you remember that you are the impostor.”@
+`The man[line=3]SHIKI pulls his lips into a smile of unalloyed delight.
 \
 wave se_01
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_36d",notrans,0
-`“Ah—”@
+`“Ah[line=5]”@
 `Pain.@ My head is splitting.@
 `The lid opens.@
 `The thing sealed so tightly—by whom?@
@@ -174,8 +182,8 @@ br
 `There I met a boy and a girl.@
 `The three of us raced through the vast garden.@
 `A hot summer day.@
-`Akiha attacked by a terrifying shadow.@
-`The moment I could think of nothing but saving her and threw my own body in the way.
+`Akiha, attacked by a terrifying shadow.@
+`The moment I could think of nothing but saving her and threw my own body in the way[line=4]
 \
 br
 br
@@ -197,54 +205,58 @@ br
 br
 `By Makihisa Tohno.@
 `By my father.@
-`Ordered that from that moment on, I would no longer live as Shiki Nanaya, but as Shiki Tohno.
+`Ordered that from then on I would live not as Shiki Nanaya, but as Shiki Tohno[line=3]
 \
 bg #000000,crossfade,800
 playstop
 !w2000
 play "*4"
 bg "bg/bg_36d",crossfade,800
-`“—…!”@
-`Vertigo.@ Nausea.@
+`“[line=4]…!”@
+`Vertigo, nausea.@
 `Confused memories ricochet through my skull.@
 br
 `A heavy thud.@
-`My body will no longer obey me.@ I let Akiha tumble from my arms onto the floor, wheezing helplessly as I clutch the knife against myself.
+`My body will no longer obey me.@
+`I drop Akiha onto the floor despite having just lifted her, panting helplessly as I clutch the knife against myself.
 \
 ld c,"tachi/hal_t03",crossfade,400
-`“In shock?@ Of course you are.@ After all these years believing yourself to be Shiki Tohno, discovering you’re an impostor must be quite a blow!”@
+`“[line=3]In shock?@ Of course you are.@ After all these years believing yourself to be Shiki Tohno, discovering you are an impostor must be quite a blow!”@
 `SHIKI laughs.@
 ld c,"tachi/hal_t02",crossfade,400
-`“But compared to what I suffered, that is nothing.@
-`You killed me, Shiki—you, whom I thought was my dearest friend.@ You stole even the name Shiki Tohno.@ Then you took Akiha—my Akiha—from me!@ Can you understand that humiliation?”@
-`“Killed…@you?@ I killed you…?”
+`“But that is nothing compared to what I have endured.@
+`Listen, Shiki.@ You killed me, the man who thought you his best friend; you stole even the name Shiki Tohno, and then Akiha[line=3]even my Akiha was taken from me…!@ Do you understand that humiliation?”@
+`“Killed[line=3]?@ I killed you[line=3]”
 \
 ld c,"tachi/hal_t01",crossfade,400
-`“Yes.@ Granted, I killed you first, but in the end, you killed me.@
-`Do you still not remember that day eight years ago?@ My own blood overcame me, and I murdered you.@ Look at the scar on your chest.@ I drove this arm straight through you, didn’t I?”@
-`“The scar…@on my chest…”@
-`I had always been told it came from an accident—some terrible accident I was caught in.
+`“Yes.@ Granted, I killed you first, but in the end you killed me.@
+`Do you still not remember, Shiki?@ That day eight years ago, my own blood overcame me and I killed you.@ Look at the scar on your chest.@ I drove this arm straight through you, did I not?”@
+`“The scar on my chest[line=4]”@
+`That was from an accident.@
+`That was what I had always been told[line=5].
 \
-`“That’s right.@ Though afterward, Father nearly killed me too.@
-`The Tohno blood in me had finally awakened, and for that I was locked in an underground cell and left in darkness for eight years.@
-`That filthy bastard promised to release me if he could turn my Tohno body human again.@ In the meantime, having no Shiki Tohno would be inconvenient, so he fashioned you—the adopted child—into my replacement.”
+`“That is right.@ Though afterward, the old man nearly killed me too.@
+`Even though the Tohno blood in me had finally awakened, I was locked in an underground cell and left in darkness for eight years.@
+`[line=3]That bastard promised to let me out if he could turn my Tohno body human again…!@ Since it would be inconvenient for Shiki Tohno to remain absent until then, he turned you, his adopted son, into Shiki Tohno in my place.”
 \
-`“[line=2]”@
-`Then the adopted child who arrived ten years ago was none other than me.
+`“[line=8]”@
+`In other words.@
+`The adopted child from ten years ago was none other than me.
 \
 ld c,"tachi/hal_t02",crossfade,400
-`“Do you understand, Shiki?@ You killed me.@
-`I remain alive, yet you exist as Shiki Tohno.@ There is nowhere left for me to return to.@
-`You stole the name Shiki Tohno, my place in this family, my beloved sister—even my reason for being.@
-`SHIKI Tohno was murdered by the Shiki Tohno you became.”@
+`“Do you understand, Shiki?@ I was killed by you.@
+`I am alive.@ Yet here you stand as Shiki Tohno.@
+`There is nowhere left for me to return to.@
+`You stole the name Shiki Tohno, my place in this family, my beloved sister, even my reason for being.@
+`I, the real Shiki Tohno, was killed by the Shiki Tohno you became.”@
 br
 `One step.@
 `Eyes bright with murderous intent, SHIKI advances.
 \
 ld c,"tachi/hal_t03",crossfade,400
-`“There.@ Our story is finished.@ You were supposed to die eight years ago, Shiki.@ You’ve had more than enough borrowed time.@ Let us restore the proper order of things.”@
-`“The proper…@order…?”@
-`“Yes.@ I will become Shiki Tohno once more, and you will go back to being dead!”
+`“Come now[line=3]that ends our talk.@ Shiki, you should have died eight years ago.@ You have had long enough.@ Is it not time we returned to our proper relationship?”@
+`“[line=4]Our proper relationship[line=4]?”@
+`“Exactly.@ I will return to being Shiki Tohno, and you[line=3]will return to being dead!”
 \
 cl c,lcartain,400
 bg #ffffff,notrans,0
@@ -254,25 +266,28 @@ quakey 2,100
 bg #000000,lshutter,400
 bg "bg/bg_46c",lshutter,400
 `A crushing impact.@
-`One blow from SHIKI hurls me through the doorway and into the hall.@
-`“Ah—”@
-`My back slams against the wall.@ I can’t breathe.@ My mind is still locked in chaos, refusing to move.
+`One blow from SHIKI hurls me into the hallway.@
+`“Ah[line=4]”@
+`My back slams against the wall.@
+`I cannot breathe.@
+`My mind is still[line=3]still confused, refusing to move.
 \
-`“Ghh—”@
+`“Ghh[line=5]”@
 `His presence closes in.@
-`SHIKI bursts out of Akiha’s room.@
+`SHIKI bursts out of Akiha's room.@
 bg #ffffff,notrans,0
 bg "bg/ima_14",crossfade,400
 wave se_12
-`“Tch—!”@
+`“Tch[line=3]!”@
 `SHIKI snarls.@
-`He carries a knife as well.@ The blade I thrust out by reflex catches his, and the two lock together.
+`He has a knife too; his blade meets the one I thrust out by reflex, and they lock at the guards.
 \
 bg #000000,lshutter,400
 playstop
-`“Hah…@hah…@hah…”@
-`My breath comes ragged.@ The nausea will not stop.@
+`“Hah, hah, hah[line=3]”@
+`My breath comes ragged.@
+`The nausea will not stop.@
 `Even so, there is no time left for hesitation.@
 br
-`I—
+`I[line=3]
 \

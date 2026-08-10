@@ -1,41 +1,46 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`[line=3]All right.@ Kohaku is always taking care of me; I’ll go lend her a hand.@
+`[line=3]All right.@
+`Kohaku is always taking care of me; I’ll go lend her a hand.@
 br
 bg #000000,lcartain,400
 bg "bg/bg_42b",lcartain,400
 `“Huh…?”@
-`Kohaku is nowhere in the courtyard.@ I look around and catch a fleeting glimpse of her kimono among the trees.@
+`Kohaku is nowhere in the courtyard.@
+`I look around.@
+`For a moment, I catch a glimpse of her kimono among the trees.@
 `“That’s the detached house over there.”@
-`…@After a moment’s hesitation, I follow her.
+`After a moment’s hesitation, I follow her.
 \
 bg #000000,lcartain,800
 bg "bg/bg_44a",lcartain,800
-`Kohaku goes straight inside.@ Turning back now would be ridiculous, so I summon my nerve and follow.
+`Kohaku goes straight inside.@
+`Turning back now would be ridiculous, so I summon my nerve and follow.
 \
 bg #000000,lshutter,800
 bg "bg/bg_45b",lshutter,800
 play "*1"
 ld c,"tachi/koha_t09",lshutter,800
 `“Shiki?@ What brings you all the way out here?”@
-`“Well, I came to help you.@ Am I getting in the way?”@
+`“Well[line=3]I came to help you, but am I getting in the way?”@
 ld c,"tachi/koha_t18",crossfade,400
 `“The thought is very sweet, Shiki, but I didn’t come here to work.@ Miss Akiha asked me to check the power in the detached house.”@
 `“The power?@ This place is still usable?”
 \
 ld c,"tachi/koha_t03",crossfade,400
-`“Yes.@ Only this room still has electricity, but the house remains fit to live in.@ The bath works, and we keep bedding ready.”@
-`“Huh.@ …@But no one’s used this place for years, have they?@ Why keep it like this?”@
+`“Yes, only this room still has electricity, but the house remains fit to live in.@ The bath works, and we keep bedding ready.”@
+`“Huh, I see.@ But no one has used this place for years, have they?@ Why keep it like this?”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Perhaps Miss Akiha still feels attached to it.@ This was once the home of a child your father adopted.”@
+`“Perhaps Miss Akiha still feels attached to it.@ This was once the home of a child Master Makihisa adopted.”@
 br
-`[line=4]What?@ A child Father…@ Makihisa adopted?
+`[line=4]What?@
+`A child Makihisa—my father—once adopted?
 \
-`“…@Wait, Kohaku.@ What do you mean, Father adopted a child?”@
+`“Wait, Kohaku.@ What do you mean Father adopted a child?”@
 ld c,"tachi/koha_t02",crossfade,400
-`“Oh, don’t you remember?@ About ten years ago, your father took in a child whose parents had died in an accident and adopted them.”@
-`“Did…@ that really happen?”@
+`“Oh, don’t you remember?@ About ten years ago, Master Makihisa took in a child whose parents had died in an accident.@ Master Makihisa adopted the child.”@
+`“Did[line=3]that really happen?”@
 `“Yes.@ Sadly, the child died about two years later.@ It was only a minor accident, apparently, but the servants employed here then often said it proved the Tohno family was cursed.”
 \
 playstop
@@ -44,10 +49,14 @@ bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
 `[line=5]Wait.@
 br
-`Something about Kohaku’s words frightens me.@ Merely hearing them makes my sight buckle.@ The tatami room seems to be made of candy, softening and running around me in viscous streams.
+`Something about Kohaku’s words frightens me.@
+`Just hearing them makes my sight buckle.@
+`The tatami room seems made of candy, melting into a syrupy blur around me.
 \
-`“K-Kohaku…”@
-`Adopted ten years ago.@ Killed in an accident two years later.@ That means…@ eight years ago.@ The year I had my accident and was hospitalized.
+`“K-Kohaku.”@
+`Adopted ten years ago.@ Killed in an accident two years later.@
+`That means.@
+`Eight years ago[line=4]the year I had my accident and was hospitalized.
 \
 play "*6"
 bg "bg/cmo_05",notrans,0
@@ -56,7 +65,9 @@ br
 br
 `[line=6]The accident.@
 br
-`What kind of accident was it?@ One that injured me so badly.@ One that killed that adopted child.
+`What kind of accident was it?@
+`One that injured me so badly.@
+`One that killed that adopted child.
 \
 br
 `A sweltering summer day.@
@@ -68,40 +79,48 @@ br
 bg "bg/bg_45b",crossfade,400
 `“Kohaku…@ What do you mean, cursed?”@
 ld c,"tachi/koha_t18",crossfade,400
-`“Oh, it’s nothing so dramatic.@ Members of the Tohno family have simply tended to die young, generation after generation.@ Accidents, suicides, illnesses—none of them lived out a natural span.@ That is all that gave rise to the rumor of a curse.”
+`“Oh, it’s nothing so dramatic.@ Members of the Tohno family have simply tended to die young, generation after generation.@
+`Whether by accident, suicide, or illness, none lived out a natural span; that is all that gave rise to the rumor of a curse.”
 \
-`“Suicide…?@ What do you mean?”@
+`“[line=3]Suicide, what do you mean?”@
 ld c,"tachi/koha_t03",crossfade,400
-`“They say members of the Tohno family—mostly the men—often developed mental illnesses in childhood.@ More than ten went on to kill themselves as adults.@ It is only gossip, of course, but supposedly one man even committed murder before the war.”
+`“They say members of the Tohno family—mostly the men—often developed mental illnesses in childhood.@ More than ten went on to kill themselves as adults.@
+`It is only gossip, of course, but supposedly one man even committed murder before the war.”
 \
 bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
-`…@Mental illness?@
-`…@The crime of murder?@
-`Would that mean dreaming of killing people every night?@
-`Would it mean longing for those dreams every night?
+`Mental illness?@
+`The crime of murder?@
+`Does that include dreaming of killing people every night?@
+`Longing for those dreams every night?
 \
-`“Kohaku, does that mean—”@
+`“Kohaku, does that mean[line=3]”@
 ld c,"tachi/koha_t03",crossfade,400
-`“Oh, forgive me.@ I shouldn’t repeat rumors that disparage the Tohno family.”@
-`“No, it’s all right.@ Please…@ tell me more.”@
-`“…@If you wish, though I don’t know the details.@ Only…@ Your father certainly showed such tendencies.”@
-`“Father did?”@
+`“Oh, I’m sorry.@ I shouldn’t be repeating rumors that disparage the Tohno family.”@
+`“No, it’s all right.@ Please, Kohaku, tell me a little more.”@
+`“If you like, though I don’t know all the details.@ But[line=3]Master Makihisa certainly had those tendencies.”@
+`“Father[line=3]Father did?”@
 wave se_01
 bg #000000,crossfade,400
-`The world lurches.@ My vision begins to revolve.
+`The world lurches.@
+`My vision begins to spin.
 \
 bg "bg/bg_45b",crossfade,400
 ld c,"tachi/koha_t01a",crossfade,400
-`“Yes.@ For the final two years of your father’s life, I was entrusted with managing his condition.@ …@After he sent you to live with the Arima family, he fell into a severe depression and required medication to keep his mind stable.”@
-`“Medication?@ Was Father really that unwell?”@
-`“…@Yes.@ At night he would roam the grounds.@ It was not unusual for him to kill dogs or cats he had bought that day, or to injure himself.”
+`“Yes.@ For the final two years of Master Makihisa’s life, I was entrusted with managing Master Makihisa’s condition.@
+`After Master Makihisa sent you to live with the Arima family, he fell into a severe depression and had to take medicine to steady his mind.”@
+`“Medicine to steady his mind[line=3]was Father really that unwell, Kohaku?”@
+`“Yes.@ At night he would wander the grounds; it was not unusual for him to kill dogs or cats he had bought that day, or to injure himself.”
 \
 wave se_01
-`[line=4]Wh—what is that?@ That’s madness.@ He wasn’t sane.@ Just like me in the dream.@
+`[line=4]Wha.@
+`What was that?@
+`That was practically madness.@
+`As mad as I am in the dream.@
 wave se_01
 br
-`…@Or is it the other way around?@ Am I the one who has gone mad, just like Father?
+`Or else.@
+`Am I the one who has gone mad, just like Father?
 \
 bg #000000,crossfade,800
 !w500
@@ -112,24 +131,33 @@ wave se_05
 waveloop se_02
 ld c,"tachi/koha_t09",lshutter,400
 `“Shiki…!?”@
-`Kohaku’s voice reaches me.@ At some point, my knees have sunk to the tatami.@
-`“Shiki, you’re deathly pale!@ If you’re ill, you should be resting in your room…!”@
-`She offers me her shoulder, and with her support I rise.
+`Kohaku’s voice reaches me.@
+`Before I know it[line=3]my knees are on the tatami.@
+`“Shiki, you’re white as a sheet!@ If you’re ill, you should be resting in your room…!”@
+`As she speaks, Kohaku offers me her shoulder.@
+`With her support, I rise.
 \
-`“…@I’m…@ all right…”@
-`I struggle to gather my thoughts, but the dizziness won’t pass.@
+`“I’m all right, so[line=3]”@
+`I struggle to pull my thoughts together.@
+`But the dizziness won’t pass.@
 bg #9c0120,crossfade,400
 bg "bg/bg_45b",crossfade,400
 br
-`Red and black pulse across my vision.@ White.@ Kohaku’s…@ nape comes into view—so terribly warm and soft-looking.@
+`Red and black pulse across my vision.@
+`White.@
+`Kohaku’s nape comes into view, looking terribly warm.@
 br
-`“Ah…”@
-`How sensual it is.@ If my body would only obey me, I would pin Kohaku down this instant and—
+`“[line=5]Ah.”@
+`How alluring.@
+`If my body would only move, I would pin Kohaku down this instant and[line=3]
 \
 bg #9c0120,notrans,0
-`The darkness of anemia vanishes, and my whole field of vision floods crimson.@ Kohaku’s white throat.@ Last night’s dream, drenched in red.@
+`The darkness of anemia vanishes, and my whole field of vision floods crimson.@
+`Kohaku’s white throat.@
+`Last night’s dream, drenched in red.@
 br
-`[line=6]The night of murder.@ Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
+`[line=6]The night of murder.@
+`Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
 \
 bg #000000,notrans,0
 wait 100
@@ -139,13 +167,13 @@ bg "bg/ima_13",notrans,0
 wait 100
 bg #000000,notrans,0
 bg "bg/bg_45b",crossfade,400
-`“Damn—!”@
+`“Damn[line=5]!”@
 `Unable to bear it, I flee from Kohaku.
 \
 wavestop
 ld c,"tachi/koha_t01a",crossfade,400
-`“Shiki…?”@
-`“No—I’m fine.@ I’m fine, so leave me alone.”@
+`“Shiki?”@
+`“No[line=3]I’m fine[line=3]I’m fine, so leave me alone.”@
 ld c,"tachi/koha_t04",crossfade,400
 `“I can’t do that.@ If you collapse here, Miss Akiha will scold me.@ Besides, you’re clearly suffering.”@
 cl c,crossfade,400
@@ -154,16 +182,21 @@ cl c,crossfade,400
 br
 `[line=6]This is bad.@
 br
-`It terrifies me.@ If she comes within reach, I don’t know what I might do.@ That terrifies me.
+`It terrifies me.@
+`If she comes within reach, I don’t know what I might do, and that terrifies me.
 \
-`“Just leave me alone, Kohaku…”@
+`“[line=3]Just leave me alone, Kohaku.”@
 ld c,"tachi/koha_t04",crossfade,400
 `“No.@ Shiki, please calm down.”@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
 waveloop se_02
-`…@Stop.@ Please stop.@ It’s dangerous to come closer.@ I told you not to.@ Why?@ Why won’t this woman do as I say?
+`Please stop.@
+`It’s dangerous to come closer.@
+`I told you not to.@
+`Why?@
+`Why won’t this woman do as I say?
 \
 bg #000000,crossfade,400
 wave se_01
@@ -175,7 +208,7 @@ br
 br
 `[line=3]Why?@
 br
-`      Why are you getting in my way.@
+`Why are you getting in my way.@
 wave se_01
 `      Why is it that
 `      nothing will go the way I want…!
@@ -185,50 +218,66 @@ bg "bg/bg_45b",notrans,0
 `“Shut up…!@ Don’t you understand me when I tell you to stay away, Kohaku?”@
 wave se_10
 quakex 2,100
-`“Ah—!”@
-`A heavy crash.@ Kohaku rebounds against the wall, her face twisting in pain.@
+`“Eek[line=3]!”@
+`A heavy crash.@
+`Kohaku rebounds against the wall, her face twisting in pain.@
 br
-`“Ah—”@
+`“Ah[line=7]”@
 br
-`The sight of her face brings me to my senses.@ The dizziness ebbs almost at once.@ What remains has nothing to do with vertigo.@ It is only guilt.
+`The sight of her face brings me to my senses.@
+`The dizziness ebbs almost at once.@
+`What remains has nothing to do with vertigo; it is only guilt.
 \
-`“I’m sorry.@ What did I—”@
+`“[line=2]I’m sorry.@ What did I[line=2]”@
 ld c,"tachi/koha_t03",crossfade,800
-`“It’s quite all right.@ Please don’t trouble yourself.@ I overstepped while you were in a temper, that’s all.”@
+`“It’s quite all right; please don’t trouble yourself.@ I only overstepped while you were in a temper, that’s all.”@
 br
-`She smiles—the same smile she always wears.@
+`A smile.@
+`She smiles as she always does.@
 br
-`“Your color has returned, so you seem to be all right now.@ Shall we continue our conversation?”@
-`“No—not today.@ I’m sorry, Kohaku.@ There’s something wrong with me.”
+`“Your color has returned, so you seem to be all right now.@ Shall we continue our conversation?”@ “No[line=3]not today.@ I’m sorry, Kohaku.@ There’s something wrong with me.”
 \
-`“Do you think so?@ You’re a man, Shiki.@ A little roughness hardly means there’s something wrong with you.@ If anything, you’re usually too gentle.”@
+`“Do you think so?@ You’re a man, Shiki; a little roughness hardly means there’s something wrong with you.@ If anything, you’re usually too gentle.”@
 `Kohaku says it without losing her smile.@
 `“…!”@
-`That smile makes my chest ache.@ She trusts me completely.@ And only moments ago, what was I about to do to her?
+`That smile makes my chest ache.@
+`She trusts me completely.@
+`And only moments ago, what was I about to do to her[line=3]?
 \
-`“…@I’ll take your advice and go back to my room.@ I’m sorry about what happened.”@
-`Then I flee.@ Nearly crushed beneath my self-loathing, I leave the detached house.
+`“I’ll take your advice and go back to my room.@ I’m sorry about what happened.”@
+`With that, I flee.@
+`Nearly crushed beneath my self-loathing, I leave the detached house.
 \
 bg #000000,lcartain,800
 !w2000
 play "*1"
 bg "bg/bg_40c",lcartain,800
-`[line=3]After dinner, I return to my room and fall onto the bed, Kohaku’s face before my eyes.@
+`[line=3]After dinner, I return to my room.@
+`I fall onto the bed and see Kohaku’s face again.@
 br
-`“….”@
-`I don’t understand.@ I don’t know why that feeling came over me, or why I did such a thing.
+`“[line=4]”@
+`I don’t understand.@
+`I don’t know why that feeling came over me, or why I did such a thing.
 \
-`At that moment, the sight of Kohaku’s throat aroused me.@ Just as in last night’s dream, I wanted to fasten my teeth into it.@ Yet now the thought holds no appeal at all.@
+`At that moment.@
+`The sight of Kohaku’s throat aroused me.@
+`Just as in last night’s dream, I wanted to fasten my teeth into it.@
+`Yet now the thought holds no appeal at all.@
 br
-`Last night’s dream.@ The person I became today.@ It feels as though someone who is not me lives inside me.
+`Last night’s dream and the person I became today.@
+`It feels as though someone who is not me lives inside me.
 \
-`“….”@
-`I touch my throat.@ They say anyone bitten by a vampire becomes one in turn.@
-`“…@That’s absurd.@ I can walk around in broad daylight.”@
-`Yes.@ It’s impossible.@ Dizziness clouded my mind and showed me a hallucination, nothing more.@ What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
+`“[line=4]”@
+`I touch my throat.@
+`They say anyone bitten by a vampire becomes one in turn.@
+`“That’s absurd.@ I can walk around in broad daylight.”@
+`Yes, it’s impossible.@
+`Dizziness clouded my mind and showed me a hallucination, nothing more.@
+`What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
 \
-`“Maybe Kohaku was right.@ Maybe I’m just exhausted.”@
-`…@Perhaps I am.@ I should get a good night’s sleep and let my worn-out body recover.
+`“Maybe Kohaku is right and I’m just exhausted.”@
+`Perhaps so.@
+`I should get a good night’s sleep and let my worn-out body recover.
 \
 bg #000000,crossfade,800
 playstop
@@ -287,7 +336,8 @@ bg "bg/bg_24c",notrans,0
 wait 100
 bg #000000,notrans,0
 bg "bg/bg_26a",crossfade,800
-`Apparently I’ve gone out into the sleeping city.@ Eyes bloodshot, I seem to be waiting for someone to pass by.
+`Apparently I’ve gone out into the sleeping city.@
+`Eyes bloodshot, I seem to be waiting for someone to pass by.
 \
 wave se_01
 br
@@ -307,7 +357,8 @@ br
 br
 br
 br
-`My face appears suddenly in a darkened window.@ Its eyes are bloodshot.@ It cannot possibly be sane.
+`My face appears suddenly in a darkened window.@
+`Its bloodshot eyes look anything but sane.
 \
 wave se_01
 br
@@ -327,7 +378,8 @@ br
 br
 br
 br
-`The prey seems to have been found.@ It is killed before it can scream—before it can even realize that it has died.
+`The prey seems to have been found.@
+`It is killed before it can scream—before it can even realize that it has died.
 \
 wave se_01
 br
@@ -344,7 +396,9 @@ wait 100
 bg "bg/ima_12b",notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse is dragged away.@ Teeth close on its throat.@ I hear wet sucking.@ Blood is swallowed straight from the neck, flesh torn away with it, until the thirst subsides.
+`The corpse is dragged away, and teeth close on its throat.@
+`I hear wet sucking.@
+`Blood is swallowed straight from the neck, flesh torn away with it, until the thirst subsides.
 \
 br
 br
@@ -355,7 +409,7 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Blood is not enough.@ One by one, the fingers are bitten from the corpse’s hand.
+`Unsatisfied with blood alone, one finger after another is bitten from the corpse’s hand.
 \
 br
 br
@@ -366,7 +420,7 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Fingers are not enough.@ One by one, the corpse’s limbs are bitten off.
+`Unsatisfied with fingers alone, one limb after another is bitten from the corpse.
 \
 br
 br
@@ -377,7 +431,10 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Then—an interruption.@ The corpse is cast aside, and I leap away.@ Someone.@ Someone is watching.
+`Then.@
+`An interruption.@
+`The corpse is cast aside, and I leap away.@
+`Someone.@ Someone is watching.
 \
 br
 br
@@ -389,7 +446,9 @@ br
 `[line=4]So tonight is different.
 \
 bg "bg/ima_02",tshutter,400
-`Something like an enormous nail comes hurtling through the air.@ I leap aside, race up the face of a building, and bound from rooftop to rooftop.
+`Something like an enormous nail comes hurtling through the air.@
+`I leap aside to avoid it.@
+`I race up the face of a building and bound from rooftop to rooftop.
 \
 br
 br
@@ -400,7 +459,9 @@ br
 br
 `[line=4]A black silhouette pursues the vampire.
 \
-`Roof to roof.@ Darkness to darkness.@ Still the figure follows.
+`Roof to roof.@
+`Darkness to darkness.@
+`Still the figure follows.
 \
 br
 br
@@ -411,7 +472,8 @@ br
 br
 `[line=4]It can’t be helped.
 \
-`“It can’t be helped,”@ someone murmurs, and tonight’s meal comes to an end.
+`“It can’t be helped,”@ someone murmurs,
+`and tonight’s meal comes to an end.
 \
 bg #000000,crossfade,800
 monocro off
@@ -419,7 +481,7 @@ monocro off
 phase "bg/ima_19",l,aki,07a,7
 waveloop se_02
 bg #ffffff,crossfade,800
-`“Master Shiki…?”@
+`“Master Shiki[line=4]?”@
 br
 `[line=4]A voice reaches me.@
 br
@@ -428,16 +490,26 @@ br
 `[line=4]Quick footsteps hurry away.@
 bg "bg/bg_40a",crossfade,800
 br
-`“Ah—”@
+`“Ah[line=4]”@
 `I wake from the dark dream.
 \
-`“…@My room.”@
-`There can be no doubt: I am in my own room, lying in my own bed, greeting the morning.@ …@I dreamed it again.@ A dream of drinking someone’s blood.@ I know it was a dream, yet it was hideously real.@ My hands still remember tearing flesh, and the raw smell of blood still clings inside my nose—
+`“My room.”@
+`There can be no doubt that I am in my own room.@
+`I am lying in bed, greeting the morning.@
+`I dreamed it again.@
+`A dream of drinking someone’s blood.@
+`I know it was a dream, yet it was hideously real.@
+`My hands still remember tearing flesh, and the raw smell of blood still clings inside my nose[line=3]
 \
-`“What is happening to me?”@
-`I touch my throat.@ The wound where Yumizuka bit me has long since closed.@ I am still an ordinary human being.@ I’ve never wanted to drink anyone’s blood, and sunlight does not repel me.@
-`“Ah—”@
-`No.@ Yesterday, I…@ When I saw Kohaku’s throat, what did I think?@
+`“[line=3]What is happening to me?”@
+`I touch my throat.@
+`The wound where Yumizuka bit me has long since closed.@
+`I am still an ordinary human being.@
+`I have never wanted to drink anyone’s blood, and sunlight does not repel me.@
+`“[line=4]Ah.”@
+`No.@ Yesterday was different.@ I[line=3]
+`When I saw Kohaku’s throat, what did I think?@
 br
-`[line=3]A white throat.@ From the bottom of my heart, I wanted the red blood flowing inside it—
+`[line=3]A white throat.@
+`From the bottom of my heart, I wanted the red blood flowing through it[line=2]
 \

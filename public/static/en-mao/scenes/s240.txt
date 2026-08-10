@@ -2,11 +2,17 @@ play "*1"
 wavestop
 bg "bg/bg_33b",lcartain,800
 ld c,"tachi/his_t01",crossfade,400
-`“Welcome home, Master Shiki.”@ “I’m back.@ Hisui, where’s Akiha?”@ “Miss Akiha has gone to take care of some school formalities.@ She expects to be late and asked that you dine without her.”@ “…?”@ School formalities?@ Akiha attended a prestigious girls’ academy; perhaps it had all sorts of complicated procedures.
+`“Welcome home, Master Shiki.”@
+`“I’m back.@ Hisui, where’s Akiha?”@
+`“Miss Akiha has gone to take care of some school formalities.@ She expects to be late and asked that you dine without her.”@
+`“…?”@
+`School formalities?@
+`Akiha attended a prestigious girls’ academy; perhaps it had all sorts of complicated procedures.
 \
-`“I’ll rest in my room until dinner and come down when it’s time.”@ “Very well.@ I’ll call you.@ Please rest comfortably.”@
+`“I’ll rest in my room until dinner and come down when it’s time.”@
+`“Very well.@ I’ll call you.@ Please rest comfortably.”@
 cl a,crossfade,400
-`Leaving Hisui bowing deeply behind me, I went to my room.
+`I turned away from Hisui’s deep bow and went to my room.
 \
 bg #000000,tshutter,800
 !w2000
@@ -14,7 +20,11 @@ bg "bg/bg_40c",rshutter,800
 br
 `[line=3]After dinner, I sat on the edge of my bed.@
 br
-`The clock was approaching nine.@ No one in this house was allowed out after eight, so I couldn’t leave now.@ “…”@ But that was only a rule.@ If I truly wanted to, nothing could keep me inside.
+`The clock was approaching nine.@
+`No one in this house was allowed out after eight, so I couldn’t leave now.@
+`“…”@
+`But that was only a rule.@
+`If I truly wanted to, nothing could keep me inside.
 \
 bg #000000,crossfade,400
 bg "event/stk_e03",crossfade,400
@@ -23,5 +33,5 @@ br
 br
 bg #000000,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`I—
+`I[line=3]
 \

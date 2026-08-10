@@ -1,18 +1,24 @@
 bg "bg/bg_40d",notrans,0
 playstop
 waveloop se_11
-`With this much noise, Akiha and the others must be lying awake too.@ I was the only man in the house, so I supposed it fell to me to investigate.
+`With this much noise, Akiha and the others must be lying awake too.@
+`I was the only man in the house, so I supposed it fell to me to investigate.
 \
-`“……@It’s coming from the right side of the house, I think.”@ I drew back the curtains and looked outside.@
+`“It’s coming from the right side of the estate, I think…”@
+`I drew back the curtains and looked outside.@
 br
-`[line=4]And there—
+`[line=4]And there.@
 br
-`A large tree stood outside my window.@ Perched on one of its branches was a blue crow.
+`A large tree stood outside my window.@
+`Perched on one of its branches was a blue crow.
 \
 wavestop
 bg #000000,lshutter,400
 bg "bg/cmo_16",rshutter,400
-`In the dark of night, everything should have looked black.@ Yet the crow was unmistakably a deep blue.@ “……”@ I had never seen or even heard of a blue crow.@
+`In the darkness of night.@
+`Though everything should have looked black, the crow was unmistakably deep blue.@
+`“……”@
+`I had never seen or even heard of a blue crow.@
 br
 `Its eye rolled.@
 br
@@ -25,15 +31,20 @@ br
 `After giving a cry like a yawn, the crow flew away without a whisper of wings.@
 bg #000000,lshutter,400
 bg "bg/bg_40d",rshutter,400
-`“……@What was that?”@ A faint chill crept down my spine.@ The dogs were howling louder than ever.
+`“What was that?”@
+`A faint chill crept down my spine.@
+`The dogs were howling louder than ever.
 \
 `Awooooooo.@
 `        Awooooooo.@
 `                Awooooooo.@
 br
-`“……”@ The sound was getting under my skin.@ It was more than noise.@ Just hearing it made my heart pound into frantic life—a purely physical revulsion.@
+`“……”@
+`The sound was getting under my skin.@
+`It was more than noise: just hearing it made my heart pound into frantic life—a purely physical revulsion.@
 br
-`“Shut—up.”@ I changed out of my pajamas and into my uniform, then left the room.
+`“Shut[line=3]up.”@
+`I changed out of my pajamas and into my uniform, then left the room.
 \
 bg #000000,lcartain,800
 play "*6"
@@ -42,52 +53,70 @@ bg "bg/bg_32d",lcartain,800
 br
 `Awooooooooooo.@
 br
-`The howl rang through the night.@ There could be no mistake: it was coming from the right side of the estate.
+`The howl rang through the night.@
+`There could be no mistake: it was coming from the right side of the estate.
 \
-`“……”@ For some reason my throat had gone dry.@ Outside the estate, the high wall stretched endlessly along the night road.@ Swallowing against the dryness, I followed it toward the place where the dogs had gathered.
+`“……”@
+`For some reason my throat had gone dry.@
+`Outside the estate, the high wall stretched endlessly along the night road.@
+`Swallowing against the dryness, I followed it toward the place where the dogs had gathered.
 \
 bg #000000,lcartain,800
 bg "bg/bg_47",lcartain,800
-`I reached the source of the noise.@ “……@Huh?”@
+`I reached the source of the noise.@
+`“Huh…?”@
 br
 `Awooooooooooo.@
 br
-`The howling had not stopped.@ Yet there was not a dog in sight.@ There was only—a human figure.@ A man in a black coat stood alone beneath a streetlamp, its island of light cut from the darkness.@
+`The howling had not stopped.@
+`Yet there was not a dog in sight.@
+`There was only[line=3]a human figure.@
+`A man in a black coat stood alone beneath a streetlamp, its island of light cut from the darkness.@
 br
 `The howling came from beside the man.@
 `[line=5]Yet there was no dog anywhere.
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_47",crossfade,400
-`The man in the coat was extremely tall.@ Broad and powerfully built, he stood motionless with his back to me.
+`The man in the coat was extremely tall.@
+`Broad and powerfully built, he stood motionless with his back to me.
 \
-`“……”@
+`“[line=6]”@
 br
-`My throat dries.@ The dog’s drawn-out howl pounds against my eardrums.@ The night air clings damply to my skin.@
+`My throat dries.@
+`The dog’s drawn-out howl pounds against my eardrums.@
+`The night air clings damply to my skin.@
 br
-`Nothing has happened.@ Nothing at all.@ Yet breathing and moving feel unbearably heavy, as though I were trapped at the bottom of the sea—
+`Nothing at all had happened.@
+`Yet breathing and moving feel unbearably heavy, as though I were trapped at the bottom of the sea[line=4]
 \
 `Kwaa.@
 br
-`The sound came from above.@ With a sudden flap of wings, the deep-blue crow descended onto the man’s shoulder.@
+`The sound came from above.@
+`With a sudden flap of wings, the deep-blue crow descended onto the man’s shoulder.@
 br
-`[line=3]And then—
+`[line=3]And then.@
 br
 `The crow abruptly vanished.
 \
-`“……@What?”@ Had my eyes deceived me?@ It looked as though the crow had disappeared inside the black coat.@
+`“What…?”@
+`Had my eyes deceived me?@
+`It looked as though the crow had disappeared inside the black coat.@
 br
-`“……”@
+`“[line=5]”@
 br
 `The black coat turns.@
 ld c,"tachi/nero_t03",crossfade,400
-`Beneath the white streetlamp, the figure was quite literally a shadow.
+`Under the white streetlamp, the figure was shadow itself.
 \
-`A mass of black.@ Within it, only the eyes shone—eyes filled with a cold intelligence as keen and lethal as a weapon—
+`A mass of black.@
+`Within it, only the eyes shone—eyes filled with a cold intelligence as keen and lethal as a weapon[line=5]
 br
-`“……@Ah.”@
+`“Ah…”@
 br
-`I cannot breathe.@ Fortunately—his eyes seem not to see me at all.
+`I cannot breathe.@
+`Yet, thankfully.@
+`The man’s eyes seem not to see me at all.
 \
 br
 br
@@ -102,40 +131,59 @@ br
 cl c,crossfade,800
 `The black coat walks away.
 \
-`Only after the figure had vanished completely could I breathe again.@ “Hah—haa…@ ah.”@ Relief emptied my lungs.@
+`Only after the figure had vanished completely could I breathe again.@
+`“Hah[line=4]haa, ah.”@
+`I let out a breath of relief.@
 br
 `Only then did I realize that the dogs had stopped howling.
 \
 bg #000000,crossfade,1500
 bg "bg/bg_40c",lcartain,1500
-`I returned to my room.@ There was no sign that Akiha or the others had awakened.@ Apparently I was the only one who had found the howling unbearable.@
+`I returned to my room.@
+`There was no sign that Akiha or the others had awakened; apparently I was the only one who had found the howling unbearable.@
 br
-`“Ngh—”@
+`“[line=5]Ngh.”@
 br
-`What was wrong with me?@ My head still hurt.
+`What was this?@
+`My head still hurt.
 \
-`“Why…@ why am I shaking?”@ My fingers were trembling.@ My whole body shuddered in tiny spasms, and an unnatural cold ran down my back.@
+`“Why am I shaking…?”@
+`My fingers were trembling.@
+`My whole body shuddered in tiny spasms, and an unnatural cold ran down my back.@
 br
-`If I had to put it into words—
+`If I had to compare it to something—yes.@
 br
 `It felt as though someone had torn out my spinal cord and driven a pillar of ice into its place.
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`“……”@ The room lurched.@ Was it my usual anemia?@ I felt my consciousness plummeting toward the floor.@
+`“[line=5]”@
+`The room lurched.@
+`Was it my usual anemia?@
+`I felt my consciousness plummeting toward the floor.@
 br
 `And on the way down, I saw something horrible.
 \
 bg "bg/bg_40f",lshutter,800
-`“What—”@ I could see those “lines”@ despite my glasses.@ “Ugh……”@ Perhaps because I had not seen them at all lately, the backlash was worse.@ Nausea rose in me.@ Combined with the dizziness, it left me on the verge of vomiting.
+`“Wh[line=5]”@
+`Even through my glasses, I can see those “lines.”@
+`“Ugh…”@
+`Perhaps the backlash is so strong because I have not seen them at all lately.@
+`I feel sick.@
+`Together with the dizziness, it feels as though I might vomit at any moment.
 \
-`“……@What the hell is happening?”@ I couldn’t understand.@ As long as my eyes remained open, those hideous scribbles forced themselves into my vision.@
+`“What the hell is happening?”@
+`I could not understand.@
+`As long as my eyes remained open, those hideous scribbles forced themselves into my vision.@
 br
-`[line=3]A nightmare.@ That was all.@
+`[line=3]A bad dream.@
 br
-`Somehow I collapsed onto the bed.@ ……@Yes.@ I only had to sleep.@ The quickest way to deny what I was seeing was to stop seeing anything at all.
+`Somehow I collapsed onto the bed.@
+`…@Yes—I only had to sleep; the quickest way to deny what I was seeing was to stop seeing anything at all.
 \
-`My body would barely move.@ I could lie here like a corpse, sprawled across the bed, and sink into sleep as deep and heavy as mud—
+`My body would barely move.@
+`Like a corpse.@
+`All I had to do was collapse onto the bed and sink into sleep as deep and heavy as mud[line=4]
 \
 playstop
 bg #000000,crossfade,1500

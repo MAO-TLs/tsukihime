@@ -3,42 +3,72 @@ wavestop
 bg "bg/bg_40b",notrans,0
 `[line=4]I’ll have a look at Akiha’s room.@
 br
-`I had already heard that Akiha wasn’t home yet.@ Which meant her room ought to be empty.
+`I had already heard that Akiha wasn’t home yet.@
+`Which meant.@ Her room ought to be empty right now.
 \
 bg #000000,lcartain,800
 bg "bg/bg_46b",lcartain,800
 play "*3"
-`And yet here I was.@ Akiha’s room lay at the far eastern end of the second floor, more than forty meters from mine—a place I would ordinarily have no reason to enter.@ I swallowed.@ Looked at calmly, what I was about to do was incredibly dangerous.@ “I’ve come this far.@ I’m not turning back now!”@ Summoning my courage, I opened her door.
+`And yet here I was.@
+`Akiha’s room lay at the far eastern end of the second floor, more than forty meters from mine.@ It was a place I would ordinarily have no reason to enter.@
+`“[line=5]”@
+`I swallowed hard.@
+`Looked at calmly, what I was about to do was incredibly dangerous.@
+`“I’ve come this far—I’m not turning back now!”@
+`Summoning my courage, I opened her door.
 \
 bg #000000,lshutter,400
 bg "bg/bg_36c",lshutter,400
-`“…”@ Though the sight was more or less what I had expected, it left me speechless.@ The room looked nothing like a high school girl’s bedroom, and for a while I could only admire it in silence.@ “No bed…@ so she has a separate bedroom?”@ The sheer luxury took all the mischief out of me.@ I had come intending to explore while Akiha was away, but this did not feel like a place one trespassed in lightly.
+`“…”@
+`Though the sight was more or less what I had expected, it left me speechless.@
+`The room looked nothing like a high school girl’s bedroom, and for a while I could only admire it in silence.@
+`“No bed—so she has a separate bedroom?”@
+`The sheer luxury took all the mischief out of me.@
+`I had come intending to explore while Akiha was away, but this did not feel like a place one trespassed in lightly.
 \
-`“I’d better leave before Akiha catches me.”@ With a sigh, I turned back toward the door.@
+`“I’d better leave before Akiha catches me.”@
+`With a sigh, I turned back toward the door.@
 br
-`[line=4]And then—
+`[line=4]Then.@
 br
 ld c,"tachi/aki_t03a",notrans,0
-`“Oh, Brother, you needn’t hurry away.@ Please, make yourself at home.”@
+`“Oh, Brother, you needn’t hurry away; please make yourself at home.”@
 br
 `[line=3]Akiha stood before the door with her arms folded.
 \
-`“A-Akiha!@ You’re back already…!?”@ “Yes.@ I returned this very moment.@ More importantly, Brother, you must have something terribly important to discuss with me.@ Otherwise there could be no reason for you to enter my room alone and without permission, could there?”@ “Uh…”@ Her glare drove me back a step.
+`“A-Akiha[line=4]you’re back already[line=4]!?”@
+`“Yes, I returned this very moment.@ More importantly, Brother, you must have something terribly important to discuss with me.@ Otherwise there could be no reason for you to enter my room alone and without permission.”@
+`“Uh[line=4]”@
+`Her glare drove me back a step.
 \
-`“It’s nothing important.@ I only thought I might talk to you for a while…”@ “How strange.@ If you wished to speak with me, entering my room served no purpose.@ I wasn’t here.@ Surely the reasonable thing would have been to return to your own room.”@ “That’s true, but…@ I may or may not have thought I could wait for you in here…”@
+`“It’s nothing important—I only thought I might talk to you for a while[line=3]”@
+`“How strange.@ If you wished to speak with me, entering my room served no purpose while I was away.@ Surely the reasonable thing would have been to return to your own room.”@
+`“That’s true, but I may or may not have thought I could wait for you in here……”@
 ld c,"tachi/aki_t02",crossfade,400
-`“…”@ The pressure of Akiha’s gaze intensified.@ Yes, surrender and an honest apology were probably my only options.
+`“…”@
+`The pressure of Akiha’s gaze intensified.@
+`Yes, surrender and an honest apology were probably my only options.
 \
-`“I’m sorry.@ I was curious what your room looked like.”@ “In other words, you sneaked into my room to satisfy your curiosity.”@ “Well…@ I didn’t mean any harm…”@
+`“I’m sorry.@ I was curious what your room looked like.”@
+`“In other words, you sneaked into my room to satisfy your curiosity.”@
+`“Well[line=3]I didn’t mean any harm[line=3]”@
 ld c,"tachi/aki_t07",crossfade,400
-`“Meaning no harm does not excuse it!@ What did the Arima family teach you, Brother, if you think you may enter a woman’s room without permission?”@ “I have no defense.@ Call it a failure of training—or a childish impulse.”@
+`“Meaning no harm does not excuse it!@ What did the Arima family teach you, Brother, if you think you may enter a woman’s room without permission?”@
+`“I have no defense.@ Call it a failure of training—or a childish impulse.”@
 ld c,"tachi/aki_t18a",crossfade,400
-`“…”@ Akiha’s stare hurt.@ Since I was wrong in every conceivable respect, all I could do was keep apologizing.
+`“…”@
+`Akiha’s stare hurt.@
+`Since I was wrong in every conceivable respect, all I could do was keep apologizing.
 \
 ld c,"tachi/aki_t03a",crossfade,400
-`“Very well.@ I will pretend this never happened.@ Kohaku will be here shortly, so return to your own room before she arrives, Brother.”@ “Right…@ Sorry, Akiha.”@ Big brother had clearly taken his little prank too far.@ “But do not imagine that settles the matter.@ You will repay this debt in full, Brother.”@
+`“Very well, I will pretend this never happened.@ Kohaku will be here shortly, so return to your own room before she arrives, Brother.”@
+`“Right—sorry, Akiha.”@
+`Big brother had clearly taken his little prank too far.@
+`“But do not imagine that settles the matter.@ You will repay this debt in full, Brother.”@
 cl c,lshutter,800
-`There was an oddly menacing weight in her voice—and an equally odd note of pleasure.@ At last Akiha moved away from the door.@ “…”@ Reflecting that she had acquired devastating leverage over me, I escaped from her room.
+`Speaking in an oddly menacing voice with an equally odd note of pleasure, Akiha moved away from the door.@
+`“…”@
+`Reflecting that she had acquired devastating leverage over me, I escaped from her room.
 \
 bg #000000,lcartain,800
 playstop

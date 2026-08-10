@@ -1,65 +1,112 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`…@I can’t just sit around when they’ve been looking after me since yesterday.@ The least I can do is help Kohaku.@ “She said she’d be cleaning the garden, didn’t she?”@ Even I can manage some sweeping.@ All right, then.@ I gave myself a mental shove and headed outside.
+`They had been looking after me since yesterday; if I sat around doing nothing instead of at least helping Kohaku, I deserved divine punishment.@
+`“She said she’d be cleaning the garden, didn’t she?”@
+`Even I could help with sweeping the garden.@
+`I steeled myself and headed outside.
 \
 bg #000000,lcartain,800
 bg "bg/bg_42b",lcartain,800
 play "*3"
 ld c,"tachi/koha_t06",lshutter,800
-`“Oh, welcome home, Shiki.”@ Kohaku greeted me with a warm smile.@ “I’m back.@ Are you cleaning the whole garden by yourself?”@ “Yes.@ The gardener won’t be here for another three days, so I thought I’d at least gather up the fallen leaves.”@ She held the bamboo broom in both hands, looking strangely happy about it.@ Clearing all the leaves from a garden this size alone had to be backbreaking work.
+`“Oh.@ Welcome home, Shiki.”@
+`Kohaku greeted me with a warm smile.@
+`“I’m back.@ Are you cleaning the whole garden by yourself?”@
+`“Yes.@ The gardener won’t be here for another three days, so I thought I’d at least gather up the fallen leaves.”@
+`She held the bamboo broom in both hands, looking strangely happy about it.@
+`Clearing all the leaves from a garden this size alone had to be backbreaking work.
 \
-`“You’re something else, Kohaku.@ I’d already be complaining if I had to clean a garden this big.”@ “Oh, no, it’s nothing admirable.@ This is my job.@ If I abandoned it, I’d have nothing to eat.@ So here I am, tending the garden through my tears.”@ She laughed, her smile utterly carefree.@ She really was an irrepressibly cheerful person.
+`“You’re something else, Kohaku.@ I’d already be complaining if I had to clean a garden this big.”@
+`“Oh, no, it’s nothing admirable.@ This is my job; if I abandoned it, I’d have nothing to eat.@ So here I am, tending the garden through my tears.”@
+`She laughed, her smile utterly carefree.@
+`She really was an irrepressibly cheerful person.
 \
-`“Besides, I’m allowed to use the back garden, so I have to keep an eye on it even when there’s no work to do.”@ “Use it…?@ For what?”@ “I grow flowers.@ It’s been my hobby since I was little.@ I collect whatever catches my fancy, so it’s closer to a jungle than a flower bed now.”
+`“Besides, I’m allowed to use the back garden, so I have to keep an eye on it even when there’s no work to do.”@
+`“Use it…?@ For what?”@
+`“I grow flowers as a hobby I’ve had since childhood.@ I collect whatever catches my fancy, so it’s closer to a jungle than a flower bed now.”
 \
 cl c,crossfade,400
-`Kohaku laughed brightly again.@ …@I’d had no idea.@ I almost never went into the back garden, but now that she mentioned it, I did remember seeing something like a flower garden from the second-floor window.
+`Kohaku laughed brightly again.@
+`…@I had no idea; I almost never went into the back garden, but now that she mentioned it, I did remember seeing something like a flower garden from the second-floor window.
 \
 `“So gardening’s your hobby.@ What do you grow back there?”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Oh, all sorts of things.@ Mostly morning glories and flowers like that.”@ “Morning glories?@ That suits you somehow.”@ “Does it?@ They don’t really suit the mansion, so I find them a little depressing.”@ “I meant they suit you, not the mansion.@ Morning glories are simple and beautiful, aren’t they?”
+`“Oh, all sorts of things.@ Mostly morning glories and flowers like that.”@
+`“Morning glories?@ That suits you somehow.”@
+`“Does it?@ They don’t really suit the estate, so I find them a little depressing.”@
+`“No, not the estate.@ I meant you.@ Morning glories have a simple, graceful beauty, don’t they?”
 \
 ld c,"tachi/koha_t18",crossfade,400
-`“That isn’t quite right, Shiki.@ What I grow are Korean morning glories—datura.@ They’re rather dangerous.”@ For some reason, Kohaku was giggling.@ “Really?@ But if they’re called morning glories, they’re still morning glories, right?”
+`“That isn’t quite right, Shiki.@ What I grow are Korean morning glories—datura.@ They’re rather dangerous.”@
+`For some reason, Kohaku was giggling.@
+`“Really?@ But if they’re called morning glories, they’re still morning glories, right?”
 \
 ld c,"tachi/koha_t02",crossfade,400
 `“It’s also called mad apple or datura, and it can be used as an anesthetic.@ Tsūsensan, Japan’s first general anesthetic, was made by blending datura with several medicinal herbs.@ Um…@ it’s dangerous enough to cause delirium if you swallow it by mistake, so please be careful, Shiki.”@
 br
-`…@Kohaku, I don’t think there’s much danger of my accidentally drinking a flower in the first place.
+`Kohaku—I don’t think there’s much danger of my accidentally drinking a flower in the first place.
 \
 `“I’d like to try raising cute things like cacti too, but Miss Akiha objected so fiercely that the idea never went anywhere.@ I’m afraid there’s nothing in my flower bed worth showing you, Shiki.”@
 cl c,crossfade,400
-`With that, Kohaku picked up her broom again.@ “…@I see.@ So you clean the garden because you love flowers and things like that.”@
+`With that, Kohaku picked up her broom again.@
+`“I see.@ So you clean the garden because you love flowers and things like that.”@
 ld c,"tachi/koha_t06",crossfade,400
-`“Oh, that isn’t why.@ The truth is, I’m terrible at cleaning inside the mansion.@ I don’t know how it happens, but whenever I try, I always seem to break something.”
+`“Oh, that isn’t why.@ The truth is, I’m terrible at cleaning inside the estate.@ I don’t know how it happens, but whenever I try, I always seem to break something.”
 \
-`“Huh?”@ “And it’s always the most expensive thing in the room that I drop or tear.@ I swear I never mean to!@ But Hisui says such awful things, like, ‘Sis, you should stick to cooking and keeping the accounts!@’”@ Somehow, Kohaku managed to look angry without losing her smile.@ Still…@ she wasn’t quite the person I’d imagined when we first met.
+`“Huh?”@
+`“And it’s always the most expensive thing in the room that I drop or tear.@ I swear I never mean to!@ But Hisui says such awful things—that I should stick to cooking and keeping the accounts!”@
+`Somehow, Kohaku managed to look angry without losing her smile.@
+`Still[line=4]she wasn’t quite the person I’d imagined when we first met.
 \
-`“…@Kohaku, are you perhaps a little clumsy?”@ I stopped short of asking whether she was a complete klutz.@ She gave an offended little hum.@ “Even you say that, Shiki!@ Hisui coldly tells me I move too slowly, and Miss Akiha torments me about not paying attention.@ It isn’t as though I enjoy making mistakes.@ It’s so unfair.”@ “…@True.@ Most people don’t fail on purpose.”@ Unable to think of anything genuinely comforting, I offered that thoroughly useless observation.
+`“Kohaku.@ Could it be that you’re rather clumsy?”@
+`I stopped short of asking whether she was a complete klutz.@
+`She gave an offended little hum.@
+`“Even you say that, Shiki!@ Hisui coldly tells me I move too slowly, and Miss Akiha torments me about not paying attention.@
+`It’s cruel to act as if I make mistakes because I want to.”@
+`“…@True—few people fail on purpose.”@
+`Unable to think of anything genuinely comforting, I offered that thoroughly useless observation.
 \
 `“Exactly!@ It’s the thought that matters, so I think people ought to overlook a mere ten or twenty mistakes!”@
 cl c,crossfade,400
-`Scrape, scrape.@ Kohaku began sweeping the leaves together again.@
+`Scrape, scrape—Kohaku swept the leaves together again.@
 `[line=3]Oh, right—I hadn’t come here to distract her from her work.
 \
 `“Kohaku, is there another broom?”@
 ld c,"tachi/koha_t06",crossfade,400
-`“Yes, there are plenty in the storehouse.@ What do you need one for?”@ “I thought I’d help with the leaves.”@ Kohaku’s broom stopped dead.@
+`“Yes, there are plenty in the storehouse.@ What do you need one for?”@
+`“I thought I’d help with the leaves.”@
+`Kohaku’s broom stopped dead.@
 ld c,"tachi/koha_t03",crossfade,400
-`“No, that would never do.@ If you did such a thing, Master Shiki, I’d be scolded afterward.”@ “Scolded by who—?@ Well, I suppose there’s only one person who would.”@ “Yes.”@ Kohaku nodded firmly.
+`“[line=4]No, that would never do.@ If you did such a thing, Master Shiki, I’d be scolded afterward.”@
+`“Scolded by whom[line=3]well, I suppose only one person would do that.”@
+`“Yes.”@
+`Kohaku nodded firmly.
 \
-`“Forget that.@ I’m volunteering, so Akiha would have no right to blame you.@ If she wants to complain, she can complain to me.”@ “That is perfectly logical.”@ “Exactly.@ So don’t worry about it.@ Things like this are more fun with two people anyway.”@
+`“Forget that.@ I’m volunteering, so Akiha would have no right to blame you.@ If she wants to complain, she can complain to me.”@
+`“That is perfectly logical.”@
+`“Exactly.@ So don’t worry about it.@ Things like this are more fun with two people anyway.”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“…@Hmm.@ You really don’t understand Miss Akiha, do you, Shiki?@ If we did this together, I think she’d become angry for an entirely different reason.”@ “…@I’m not sure I follow, but she’ll be angry either way?”
+`“Hmm—you really don’t understand Miss Akiha, do you, Shiki?@ If we did this together, I think she’d be angry for an entirely different reason.”@
+`“I don’t quite follow, but she’ll be angry either way?”
 \
 ld c,"tachi/koha_t18",crossfade,400
-`“Ahaha, I suppose she will.@ Yes, so you really mustn’t help.”@ Kohaku said it with smiling finality.@ “…@Right.@ If helping means Akiha will take it out on you either way, I’d only be making trouble.@ Sorry.@ I should’ve thought before barging in.”@ “It wouldn’t be trouble at all.@ I was so happy when I realized you wanted to help me.”@ Urgh.@ When she said that with such an open smile, it only made me feel worse about leaving her to do it alone.@
+`“Ahaha, I suppose she will.@ Yes, so you really mustn’t help.”@
+`Kohaku said it with smiling finality.@
+`“Right.@ If helping means Akiha will take it out on you either way, I’d only be making trouble.@ Sorry—I should have thought before barging in.”@
+`“It wouldn’t be trouble at all.@ I was so happy when I realized you wanted to help me.”@
+`It hurt to see such an open smile when I could not help her after all.@
 br
-`I sighed.@ Kohaku looked up at me, plainly enjoying herself.
+`I sighed.@
+`Kohaku looked up at me, plainly enjoying herself.
 \
 ld c,"tachi/koha_t01a",crossfade,400
-`“Shiki, do you truly want to help?”@ “Of course.@ As long as it won’t get you in trouble, I’ll do as much as you like—”@ “Then let’s move elsewhere.@ Miss Akiha might see us here, but we can clean in secret around the back.”@ “The back…@ You mean the back garden?”@ “Yes.@ Miss Akiha won’t find us there.@ We can have a lovely time cleaning together.”@ With a cheerful “Here,”@ Kohaku handed me her broom.
+`“Shiki, do you truly want to help?”@
+`“Of course—as long as it won’t get you in trouble, I’ll help as much as you like[line=3]”@
+`“Then let’s move elsewhere.@ Miss Akiha might see us here, but we can clean in secret around the back.”@
+`“The back[line=3]you mean the back garden?”@
+`“Yes.@ Miss Akiha won’t find us there.@ We can have a lovely time cleaning together.”@
+`Cheerfully, Kohaku handed me her broom.
 \
 `“I’ll fetch another broom from the storehouse, so you go on ahead, Master Shiki.@ And whatever you do, don’t let Hisui or Miss Akiha see you on the way.”@
 cl c,lshutter,800
@@ -67,9 +114,11 @@ cl c,lshutter,800
 br
 `[line=3]Honestly, she was like a child plotting mischief.@
 br
-`Before I knew it, I was grinning.@ Akiha and Hisui had no sense of humor at all, which made Kohaku’s cheerfulness that much more endearing.
+`Before I knew it, I was grinning.@
+`Akiha and Hisui had no sense of humor at all, which made Kohaku’s cheerfulness that much more endearing.
 \
-`“All right—let’s do this!”@ I tightened my grip on the bamboo broom Kohaku had been using and set off for the secluded back garden.
+`“All right—let’s do this[line=5]!”@
+`I tightened my grip on the bamboo broom Kohaku had been using and set off for the secluded back garden.
 \
 bg #000000,lcartain,800
 playstop

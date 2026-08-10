@@ -4,33 +4,47 @@ wavestop
 bg "bg/bg_31a",notrans,0
 `“I…”@
 br
-`There was no way I could help her.@ A single black dog had nearly killed me.@ Following this creature would guarantee my death.@
+`There was no way I could help her.@
+`A single black dog had nearly killed me.@ Following this creature would guarantee my death.@
 br
-`“I can’t do something that amounts to suicide.”@ My voice shook, but I managed to answer while glaring at the woman.
+`“I can’t do something that suicidal.”@
+`My voice shook, but I managed to answer while glaring at the woman.
 \
 ld c,"tachi/ark_t06",crossfade,400
-`She stared at me, displeased.@ “Suicide?@ Why?@ With your talent for killing, I can’t imagine what you have to fear.”@ “That wasn’t talent.@ I’m sorry, but I’m an ordinary student.@ I’m nothing like a monster such as a vampire.@ How could an ordinary student possibly help someone like you?”@
+`She stared at me, displeased.@
+`“Suicide—why?@ With your talent for killing, I can’t imagine what you have to fear.”@
+`“That wasn’t talent; I’m sorry, but I’m an ordinary student.@
+`I’m nothing like a monster such as a vampire.@ How could an ordinary student possibly help someone like you?”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Really?@ Ordinary students dismember girls they’ve never met?”@ “Urgh.”@ That was difficult to answer.
+`“Really?@ Ordinary students dismember girls they’ve never met?”@
+`“Urgh.”@
+`That was difficult to answer.
 \
 `“That was different.@ Nothing like it had ever happened before.@ I lived an ordinary life.@ I’m—”@
 playstop
 `“Oh, shut up already!”@
 ld c,"tachi/ark_t23",lshutter,400
 wave se_01
-`“What—”@ The pupils of her red eyes dilated.@ In an instant, the woman’s entire presence changed.@
+`“What—”@
+`The pupils of her red eyes dilated.@
+`The woman’s entire presence changed in an instant.@
 br
-`A deathly chill swept through me.@ One glare, and I truly thought my heart might stop.
+`A deathly chill swept through me.@
+`One glare, and I truly thought my heart might stop.
 \
 monocro #ff0000
 `“Don’t misunderstand.@ You killed me.@ Ordinarily I would tear your head off here and now.@ I’m sparing you only because you look useful.”
 \
 br
 wave se_01
-`Something grated at the back of my neck—a spreading numbness like a utility-knife blade being driven into the flesh.
+`Something grated at the back of my neck—a spreading numbness
+`like a box-cutter blade being driven into my flesh.
 \
 wave se_01
-`“—”@ My burning throat went cold.@ The air became heavy in my lungs, as if everything around us had frozen solid and might crumble to pieces, leaving no room to breathe.@
+`“—”@
+`My burning throat went cold.@
+`The air became heavy in my lungs.@
+`It was as if the air around me had frozen and was about to crumble apart, leaving me crushed and unable to breathe.@
 wave se_01
 `The pressure was absolute, as though the world itself had turned its gaze upon me.@
 br
@@ -41,57 +55,81 @@ bg #ffffff,crossfade,400
 wave se_01
 `“Ah…@ what?”@
 br
-`My consciousness bleached white.@ It felt as though a hole had been bored through my skull and alcohol poured directly inside.@ The pain—the sensation—could be nothing else.
+`My consciousness bleached white.@
+`It felt as though a hole had been bored through my skull and alcohol poured directly inside.@
+`The pain—the sensation—could be nothing else.
 \
 wave se_01
 `“Khhh—”@
 br
-`I could not even scream.@ The sound leaking from my mouth was no longer human speech.
+`I could not even scream.@
+`The sound leaking from my mouth was no longer human speech.
 \
 wave se_01
 `“Aah…@ gh…”@
 br
-`My mind breaks.@ My memories collapse.@ She is only staring at me, yet it feels as though a bare hand is stirring my brain.@
+`My mind breaks.@
+`My memories collapse.@
+`She is only staring at me, yet it feels as though a bare hand is stirring my brain.@
 wave se_01
 `If this continues, there will be nothing left of me but an empty shell—
 \
 wave se_01
 `“St—op…”@
 br
-`Before my mind was destroyed, I managed that one word.@ At once, the alien presence inside my head began to withdraw.
+`Before my mind was destroyed, I managed that one word.@
+`At once, the alien presence inside my head began to withdraw.
 \
 monocro off
 play "*1"
 bg "bg/bg_31a",crossfade,400
-`“Haaah…”@ Released from the pressure, I wrapped both arms around myself.@
+`“Haaah…”@
+`Released from the pressure, I wrapped both arms around myself.@
 br
 `[line=3]I was still alive.@
 br
-`I wasn’t dead.@ I was here, alive, breathing.@
+`I wasn’t dead.@
+`I was here, alive, breathing.@
 br
-`[line=3]Tears nearly came.@ Until that moment, I had never known that anything so simple could feel like such a miracle—
+`[line=3]Tears nearly came.@
+`Until that moment, I had never known that anything so simple could feel like such a miracle—
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Well?@ Do you understand your position now?”@ “—”@ How could I?@ All I could do was fight the chattering of my teeth and look up at her.
+`“Well?@
+`Do you understand your position now?”@
+`“—”@ How could I?@
+`All I could do was fight the chattering of my teeth and look up at her.
 \
 ld c,"tachi/ark_t06",crossfade,400
-`“You have two choices: help me or refuse.@ Simple, isn’t it?@ I’m only asking whether you want to live or die.”@ “Hh—”@ My voice would not come.@ Only the instinct that screamed I did not want to die forced my head into a tiny nod.
+`“You have only two choices: help me or refuse.@
+`Simple, isn’t it?@ I’m only asking whether you want to live or die.”@
+`“Hh—”@
+`My voice would not come.@
+`Only the instinctive desire not to die made me give a tiny nod.
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Good.@ Then our contract is settled.”@ All trace of her murderous presence gone, she casually offered me a hand.
+`“Good.@ That settles our contract.”@
+`All trace of her murderous presence gone, she casually offered me a hand.
 \
-`“Now we can finally introduce ourselves.@ I’m Arcueid—my full name is long, so just Arcueid is fine.@ I’m a vampire classified as a True Ancestor.@ And who are you?”@
+`“Now we can finally introduce ourselves.@
+`I’m Arcueid—my full name is long, so just Arcueid is fine.@ I’m a vampire classified as a True Ancestor.@ And who are you?”@
 br
-`Presented with the strangest introduction I had ever heard, I released a long, heavy sigh—a sigh of surrender, or perhaps proof that I had finally accepted this preposterous situation.
+`It was the strangest introduction I had ever heard, and I let out a long, heavy sigh.@
+`A sigh of resignation—or maybe proof that I had accepted this ridiculous situation.
 \
-`“Shiki Tohno.@ Unfortunately, I’m only a student.@ I’m warning you now: I really won’t be much use.”@ I took the woman’s hand—Arcueid’s hand—and stood.@ She studied me intently, then offered her hand again for a proper shake.@
+`“Shiki Tohno.@ Unfortunately, I’m only a student.@ I’m warning you now: I really won’t be much use.”@
+`I took the woman’s hand—Arcueid’s hand—and stood.@ She studied me intently, then offered her hand again for a proper shake.@
 ld c,"tachi/ark_t09",crossfade,400
 br
-`“I’ll be counting on you, Shiki.@ You’re going to take proper responsibility for killing me.”@ Smiling brightly, Arcueid extended her left hand.
+`“I’ll be counting on you, Shiki.@
+`You’re going to take proper responsibility for killing me.”@
+`Smiling brightly, Arcueid extended her left hand.
 \
 `The world must contain every imaginable kind of responsibility, but I was probably the first and last person ever obliged to help someone he had murdered.
 \
-`“Damn it.@ Do whatever you want with me.”@ There was no other choice.@ Reluctantly, I extended my left hand and shook hands with the pale woman who claimed to be a vampire.
+`“Damn it.@ Do whatever you want with me.”@
+`There was no other choice.@
+`Reluctantly, I extended my left hand and shook hands with the pale woman who claimed to be a vampire.
 \
 bg #000000,lcartain,1500
 !w1500

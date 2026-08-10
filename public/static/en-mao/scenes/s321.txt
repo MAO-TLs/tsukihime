@@ -3,37 +3,50 @@ wavestop
 bg "bg/bg_34a",tcartain,800
 play "*3"
 ld c,"tachi/koha_t03",crossfade,400
-`“To celebrate Shiki’s return, I propose a toast.@ Everyone, please choose whichever drink you like.”@ With a perfectly innocent smile, Kohaku gestures toward the bottles laid out before us.@
+`“To celebrate Shiki’s return, I propose a toast.@ Everyone, please choose whichever drink you like.”@
+`With a perfectly innocent smile, Kohaku gestures toward the bottles laid out before us.@
 cl a,crossfade,400
 `The great majority of them are not juice or anything of the sort, but genuine alcoholic beverages.
 \
-`“…@Akiha, listen…”@
+`“Akiha, listen.”@
 ld c,"tachi/aki_t04b",crossfade,400
-`“Hm?@ What is it, Brother?”@ Akiha is pouring a steady stream of brown liquid into her glass and diluting it with orange juice.@ “I-isn’t that whiskey?”@ “It is.@ Is something wrong?”@ “What do you mean, ‘it is,’ Akiha?”@ Wasn’t drinking alcohol forbidden to minors…?
+`“Hm?@ What is it, Brother?”@
+`Akiha is pouring a steady stream of brown liquid into her glass and diluting it with orange juice.@
+`“I-isn’t that whiskey?”@
+`“Yes—is something wrong?”@
+`“What do you mean, ‘yes,’ Akiha?”@
+`Wasn’t drinking alcohol forbidden to minors…?
 \
 ld c,"tachi/aki_t08b",crossfade,400
-`“It’s your welcome party, Brother.@ It would be dull without at least a little alcohol.@ Unless…@ are you a lightweight?”@ Akiha looks oddly delighted by the possibility.
+`“It’s your welcome party, Brother, so it would be dull without at least a little alcohol.@
+`“Oh.@ Brother, are you a lightweight?”@
+`Akiha looks oddly delighted by the possibility.
 \
 cl a,crossfade,400
 ld l,"tachi/koha_t01a",crossfade,400
-`“Oh, Hisui!@ This is unusual.@ You’re not having juice tonight?”@
+`“Oh, Hisui—this is unusual.@ You’re not having juice tonight?”@
 ld r,"tachi/his_t20",crossfade,400
-`“……”@ Perhaps embarrassed, Hisui silently pours liquor into her glass.
+`“……”@
+`Perhaps embarrassed, Hisui silently pours liquor into her glass.
 \
 cl a,crossfade,400
 ld c,"tachi/aki_t04b",crossfade,400
-`“You see, Brother?@ Even Hisui is drinking.@ Surely you don’t intend to be the only one hiding behind a glass of juice.”@ “…@Honestly.@ I never knew you loved a party so much, Akiha.”@
+`“Even Hisui is drinking, Brother, so surely you don’t intend to be the only one hiding behind a glass of juice.”@
+`“Honestly.@ I never knew you loved a party so much, Akiha.”@
 ld c,"tachi/aki_t08b",crossfade,400
 `“There are very few celebrations I enjoy.@ But tonight is special.”@
 cl a,crossfade,400
 br
-`[line=4]I sigh.@ I suppose I have no choice.@ Strong alcohol is bad for my health, but a little should be safe.@ The weakest thing on the table is…@ probably the wine.
+`[line=4]I sigh.@
+`I suppose I have no choice; strong alcohol is bad for my health, but a little should be safe.@
+`The weakest thing on the table is probably the wine.
 \
 ld c,"tachi/koha_t03",crossfade,400
-`“Glasses, everyone.@ Ready—and cheers!”@
+`“Glasses, everyone.@
+`Ready—and cheers!”@
 br
-`The glasses meet with a bright chime.@ Kohaku tosses hers back in one swallow, Akiha drinks hers slowly and deliberately, and Hisui laps at hers in tiny sips until it is gone.@
+`The glasses meet with a bright chime; Kohaku tosses hers back in one swallow, Akiha drinks hers slowly and deliberately, and Hisui laps at hers in tiny sips until it is gone.@
 br
-`Oh, well.@ Whatever happens now, it isn’t my fault.
+`Oh, well—whatever happens now, it isn’t my fault.
 \
 bg #000000,lshutter,1500

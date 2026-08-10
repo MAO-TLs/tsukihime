@@ -1,113 +1,159 @@
 playstop
 wavestop
 bg "bg/bg_33a",notrans,0
-`Still, I had to at least say good morning.@ If something like this made me avoid Akiha, I might as well admit there really was something wrong with me.
+`Still, I have to at least say good morning.@
+`Avoiding Akiha over this would amount to admitting there really is something wrong with me.
 \
 bg "bg/bg_34a",lshutter,800
 play "*2"
 ld c,"tachi/aki_t09",crossfade,400
-`“Good morning, Brother.”@ “Ah—”@ The moment I entered the sitting room, Akiha welcomed me with a smile.@ “…@Morning, Akiha.”@
+`“Good morning, Brother.”@
+`“Ah[line=3]”@
+`As soon as I enter the sitting room, Akiha welcomes me with a smile.@
+`“Yeah.@ Morning, Akiha.”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“Good morning…@ Wait, what’s wrong, Brother?@ You look utterly drained.”@ “Just a bad dream.@ You’re in a fine mood today, though.@ Did something good happen?”
+`“Good morning, Akiha…@ wait, what is wrong, Brother?@ You look utterly drained”@
+`“Just a bad dream.@ You are in a fine mood today.@ Did something good happen?”
 \
 ld c,"tachi/aki_t08a",crossfade,400
-`“A little.@ Since you woke up early, we won’t have to rush to school today, will we?@ Anyone would be cheerful with such a leisurely morning ahead.”@ “…@I see.@ Good for you, Akiha.”@ As I answered, pain stabbed through my chest.@
+`“A little.@ Since you woke up early, Brother, we can take our time getting to school today, can’t we?@
+`Anyone would be cheerful to have such a leisurely morning”@
+`“[line=4]I see.@ Good for you, Akiha”@
+`I answer, and a sharp pain stabs my chest.@
 br
-`Because I—might not be the kind of person who deserved a smile like that.
+`I…@
+`I might not be the kind of person who deserves to have her smile at me like that.
 \
 `“Then go on ahead.@ If you wait for me, you’ll only end up running.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“I beg your pardon?@ Did you say something, Brother?”@
-`“I said you like having time to spare, so go ahead without me.@ You won’t have a leisurely morning if you keep waiting around, and I don’t have time to plan my morning around yours.@ If you’re ready, just go.”@
+`“Excuse me?@ Did you say something, Brother?”@
+`“I said you like leisurely mornings.@ So go on ahead.@
+`Waiting for me will not leave you any time to spare, and I am too busy to adjust my schedule to yours.@ If you are ready, just go.”@
 ld c,"tachi/aki_t23",crossfade,400
-`“I—well, that may be true, but I…”@ “What, can’t you get to school by yourself?@ Spare me, Akiha.@ You’re not a child anymore.@ You’re far too old for that.”
+`“I[line=3]well, that is true, but I[line=3]”@
+`“Or what, can you not go to school by yourself?@ Give me a break, Akiha.@ You are far too old to act like a child”
 \
 ld c,"tachi/aki_t15a",crossfade,400
-`“…”@
-`Akiha shot to her feet with a clatter.@
+`“[line=6]”@
+`Akiha rises from the sofa with a clatter.@
 ld c,"tachi/aki_t11a",crossfade,400
-`“Brother.@ Do you truly mean that?”@ “…@It’s nothing.@ I only said what I thought.”@
+`“Brother.@ Do you truly mean that?”@
+`“Nothing.@ I only said what I thought.”@
 cl a,crossfade,400
-`A sharp grinding sound.@ Akiha stood with her head bowed, her shoulders trembling.
+`A sharp grinding sound.@
+`Akiha keeps her head bowed, her shoulders trembling.
 \
-`“Akiha, you really will be late if you don’t leave soon.”@
+`“Akiha.@ You really will be late if you do not leave soon”@
 ld c,"tachi/aki_t06",crossfade,400
-`“Yes, I know!@ I have no desire to be late because I waited for you!”@ “Exactly.@ So go on ahead.@ …@I’m in no state to deal with anyone right now.”@
+`“Yes, I know!@ I have no desire to be late because I waited for you, Brother!”@
+`“Right.@ Then go on ahead.@ I am not in any state to deal with anyone right now”@
 ld c,"tachi/aki_t14",crossfade,400
-`“[line=2]!”@
+`“—!”@
 !w750
 cl c,lshutter,800
-`Akiha strode out of the room.
+`Akiha strides out of the room.
 \
-`“……”@ …@What was I doing?@ I had never meant for that to happen, so why—?@
+`“[line=6]”@
+`What am I doing?@ This was never supposed to happen, so why[line=4]
 ld c,"tachi/koha_t04",lshutter,400
-`“Shiki, that was horrible!”@ “K-Kohaku?”@ “Honestly, I’m ashamed of you!@ Why would you say such things to Miss Akiha?”@ “…@I know.@ I never meant to push her away like that.”
+`“Master Shiki, that was awful!”@
+`“[line=3]Kohaku?”@
+`“Honestly, Master Shiki, I am ashamed of you!@ Why would you say something so cruel to Miss Akiha?”@
+`“I know.@ I never meant to push Akiha away like that”
 \
-`“No, you don’t understand at all!@ You have no idea how Miss Akiha has felt, waiting all this time.”@ “Waiting?@ You mean this morning?”@ “Nothing of the sort!@ She told me never to mention it, but I simply can’t keep quiet any longer.”
+`“No, you do not understand at all!@ Master Shiki, you have no idea how Miss Akiha has felt, waiting all this time!”@
+`“Waiting?@ You mean this morning?”@
+`“Nothing of the sort!@ Miss Akiha told me never to mention it, but I simply cannot keep quiet any longer!”
 \
-`“Listen carefully, Shiki.@ Miss Akiha can have breakfast with you now, but before she transferred schools it was an enormous ordeal.@ Do you even know where her old school was?”@
+`“Listen carefully, Master Shiki.@ Miss Akiha can have breakfast with you now, but before she transferred schools it was an enormous ordeal.@
+`Master Shiki, do you even know where Miss Akiha’s old school was?”@
 cl a,crossfade,400
 br
-`…@Akiha’s girls’ academy had been in the neighboring prefecture, if I remembered correctly.@
+`Akiha’s girls’ academy was in the next prefecture, if I remembered right.@
 br
-`“The neighboring…@ prefecture?”@ Wait a second.@ Wouldn’t that be more than an hour away by car?
+`“[line=3]The next prefecture…?”@
+`Wait a second.@
+`Would that not be more than an hour away by car?
 \
 ld c,"tachi/koha_t03",crossfade,400
-`“At last, you understand.@ Miss Akiha had to leave this house by six every morning to reach school on time.@ Even so, she went to all that trouble because she looked forward to eating breakfast with you.”@ “…@Looked forward to it?@ Why?@ She complained every time she saw my face.”@ “Because Miss Akiha is incapable of being honest about such things.@ If you had managed to rise on time even once, I doubt she would have complained at all.”
+`“At last, you understand”@
+`“Miss Akiha had to leave this house by six every morning to reach school on time.@ Even so, Miss Akiha went to all that trouble because she looked forward to eating breakfast with Master Shiki”@
+`“Why would she look forward to it?@ She complained every time she saw me”@
+`“Because Miss Akiha cannot be honest about things like this.@ If you had gotten up on time even once, I doubt Miss Akiha would have complained”
 \
 ld c,"tachi/koha_t04",crossfade,400
-`“But you overslept every morning and never once joined her.@ Miss Akiha would say, ‘It’s enough if I see my brother’s face in the morning,’ and refused to let us wake you.”@ “Wh[line=2]”@
+`“But Master Shiki, you overslept every morning and never once joined her.@ Miss Akiha would say, ‘It is enough if I see Brother’s face in the morning,’ and refused to let us wake you.”@ “Wh[line=6]”@
 ld c,"tachi/koha_t02",crossfade,400
-`“Do you understand a little better now?@ Then please, at the very least, apologize to Miss Akiha for what you just said.”@ “……”@ …@I had intended to do that from the beginning.
+`“Do you understand a little better now?@ Then please, at the very least, apologize to Miss Akiha for what you just said.”@
+`“[line=6]”@
+`I had meant to do that from the beginning.
 \
-`“…@I don’t understand.@ What exactly do you want me to do, Kohaku?”@
+`“I do not understand.@ What exactly do you want me to do, Kohaku?”@
 ld c,"tachi/koha_t05",crossfade,400
-`“Oh, don’t make it so complicated.@ You can carry on exactly as before.@ Miss Akiha simply has trouble being honest, so I only wanted you to show her a little consideration.”@ “……”@ Carry on as before?@ That sounded like the hardest thing she could possibly ask.
+`“Oh, do not make it so complicated”@
+`“Master Shiki, you can carry on exactly as before.@ Miss Akiha merely has trouble being honest, and I only wanted Master Shiki to show her a little consideration”@
+`“……………”@
+`Carrying on as before sounded like the hardest thing she could have asked of me.
 \
 ld c,"tachi/koha_t18",crossfade,400
 `“Oh, and this conversation is our secret.@ If Miss Akiha learns I told you, I’ll be in dreadful trouble.”@
 cl a,lshutter,800
-`Still smiling, Kohaku went into the dining room.
+`Still smiling, Kohaku heads into the dining room.
 \
-`“……”@ “Come along, Shiki!@ If you don’t eat quickly, you really will be late!”@ Kohaku called from the dining room.@ Hiding my burning face behind one hand, I went in after her.
+`“……………”@
+`“Come along, Master Shiki—if you do not eat soon, you really will be late”@
+`Kohaku’s voice carries from the dining room.@
+`Hiding my burning face behind one hand, I follow her inside.
 \
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_01a",lcartain,400
-`I reached the school gates with no time to spare.@ After running all the way from the mansion, I had somehow escaped being late.@
+`I reach the school gates with no time to spare.@
+`After running all the way from the mansion, I somehow escape being late.@
 br
-`[line=4]Then someone tapped me on the shoulder from behind.@
+`[line=4]And then.@
+`Someone taps me on the shoulder from behind.@
 br
 ld c,"tachi/cel_t04",lshutter,800
-`“Good morning.@ Cutting it close today, aren’t you, Tohno?”@ “…@Ciel.”@
+`“Good morning.@ Cutting it close today, are you not, Tohno?”@
+`“…@Ciel”@
 ld c,"tachi/cel_t03",crossfade,400
-`“And Akiha isn’t with you.@ Did you sleep in?”@ “…@Something like that.@ Akiha and I had what you might call an argument over something stupid.”
+`“And Akiha is not with you.@ Did you sleep in?”@
+`“Something like that.@ Akiha and I had what you might call an argument over something stupid”
 \
 ld c,"tachi/cel_t08",crossfade,400
-`“You mustn’t quarrel with your sister.@ You’re the older brother, so make sure you apologize later.”@ “…@You’re right.@ We’re at the same school, so I’ll go before lunch.@ It was entirely my fault to begin with.”
+`“You must not quarrel with your sister.@ You are the older brother, so make sure you apologize later.”@
+`“You are right.@ We go to the same school, so I will apologize before lunch.@ It was entirely my fault to begin with”
 \
-`I sighed.@ Akiha mattered, of course, but first I had to do something about myself.@ Yesterday’s dream.@ I had believed I was asleep, yet another me had gone out into the night.
+`I sigh.@
+`Akiha matters, of course, but right now I have to deal with myself.@
+`Yesterday’s dream.@
+`I thought I was asleep, yet somehow I had gone out into the night.
 \
 ld c,"tachi/cel_t07a",crossfade,400
-`“…@Tohno?@ What’s wrong?@ You look miserable.@ Is something troubling you?”@ Ciel searched my face with worried eyes.@ Her concern was welcome, but this was one problem I couldn’t ask her to solve.
+`“Tohno?@ What is wrong—you look so glum.@ Is something troubling you?”@
+`Ciel studies my face with concern.@
+`I am grateful she is worried, but this is one problem I cannot ask her to solve.
 \
-`“Huh?@ Oh, yeah, something’s bothering me.@ But it’s my problem, so I’ll handle it myself.@ …@Thanks for worrying about me, Ciel.”@
+`“Uh[line=3]yeah, something is bothering me.@ But it is my problem, so I will handle it myself.@ Thanks for worrying about me, Ciel”@
 ld c,"tachi/cel_t09",crossfade,400
-`“…@All right.@ But if it becomes too much to handle alone, you can talk to me anytime.@ I’ll help however I can.”@ “If I’m truly stuck, I promise I’ll come to you.”@
+`“I see.@ But if it ever becomes too much to handle alone, please come talk to me.@ I will help however I can”@
+`“If I am truly stuck, I promise I will come to you”@
 br
 wave se_03
 !w750
-`While we talked, the warning bell began to ring.
+`As we talk, the warning bell begins to ring.
 \
-`“Damn, I have to go.@ See you later!”@
+`“[line=3]Damn.@ See you later, Ciel!”@
 ld c,"tachi/cel_t04",crossfade,400
 `“Of course.@ I’ll come bother you again at lunch.”@
 cl a,crossfade,400
-`Leaving Ciel unhurried despite the ringing bell, I sprinted for the student entrance.
+`Leaving Ciel unhurried even as the warning bell rings, I sprint for the student entrance.
 \
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_06a",tshutter,800
 wave se_03
-`Second period ended.@ …@If I meant to apologize to Akiha for this morning, now would be the ideal time.
+`Second period ends.@
+`If I am going to apologize to Akiha for this morning, now is the perfect time.
 \

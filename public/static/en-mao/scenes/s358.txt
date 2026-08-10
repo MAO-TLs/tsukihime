@@ -2,138 +2,196 @@ play "*3"
 wavestop
 bg "bg/bg_04",notrans,0
 ld c,"tachi/aki_t13a",crossfade,400
-`“……”@ Akiha sat in silence, staring at me.@
-`[line=3]Then—
+`“………………….”@
+`Akiha sits in silence, staring at me.@
+`[line=3]Then.@
 ld c,"tachi/aki_t16a",crossfade,400
-`“……@It’s lunchtime, Brother.”@ She stated the spectacularly obvious.@ “Yes.@ It certainly is.@ And since it’s lunchtime, we should probably eat.”@ I rustled through the plastic bag and took out the bread I had bought.@ “It’s the same as yesterday.@ Is that all right?”@
+`“Brother, it is lunchtime.”@
+`She states the spectacularly obvious.@
+`“Yes, it certainly is.@ Since it is lunchtime, we should probably eat.”@
+`I rustle through the plastic bag and take out the bread I bought.@
+`“It is the same as yesterday; is that all right?”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“Yes, thank you.”
 \
 cl a,crossfade,400
-`I handed Akiha a sandwich and began eating my own.@ “……”@ Damn it.@ I was so conscious of her every little movement that I could barely make my own body behave normally.
+`I hand Akiha a sandwich and begin eating my own.@
+`“………………”@
+`Damn it, I am so conscious of her every movement that I can barely make my body behave normally.
 \
 ld l,"tachi/ari_t05",crossfade,400
 `“Whoa, you’re eating like royalty today.@ Something to celebrate?”@
 ld r,"tachi/cel_t12",crossfade,400
-`“Not really.@ Things are reaching a critical stage, though, so I have to eat plenty and keep my strength up or I’ll collapse.”@ “Ah, the autumn appetite.@ With you, I bet every calorie goes straight to your chest.”@
+`“Not really.@ Things are reaching a critical stage, though, so I have to eat plenty and keep my strength up or I’ll collapse.”@
+`“Ah, the autumn appetite.@ With you, I bet every calorie goes straight to your chest.”@
 cl a,crossfade,400
 br
-`…@While Akiha and I struggled through the world’s most awkward lunch, Arihiko and Ciel were having a suspiciously merry time.
+`While Akiha and I struggle through an awkward lunch, Arihiko and Ciel have a remarkably cheerful one.
 \
-`“……”@ Chew.@ Chew, chew.@ Chewchewchewchewchew.
+`“……”@
+`Chew.@
+`Chew, chew.@
+`Chewchewchewchewchew.
 \
 ld c,"tachi/aki_t16a",crossfade,400
-`“Um…@ Brother?”@ “Mm?@ What is it, Akiha?”@ “Didn’t you bring anything to drink today?@ I’m getting a little thirsty…”@ “—Oh.”@
+`“Um, Brother?”@
+`“Hm?@ What is it, Akiha?”@
+`“Did you bring anything to drink today?@ I am getting a little thirsty…”@
+`“[line=5]Oh.”@
 cl a,crossfade,400
 br
-`I had forgotten.@ The strawberry milk I had bought for her was still sleeping at the bottom of the bag.
+`I had forgotten.@
+`The strawberry milk I had bought for her was still sleeping at the bottom of the bag.
 \
-`“Sorry, I forgot.@ Here.”@ I held out the carton, and Akiha reached for it.@
+`“Sorry, I forgot.@ Here.”@
+`I hold out the carton.@
+`Akiha takes it.@
 ld c,"tachi/aki_t19",crossfade,400
-`“Ah—”@ Perhaps the carton was too small.@ Her fingers settled over mine.
+`“Ah[line=4]”@
+`Perhaps the carton is too small; Akiha’s fingers settle over mine.
 \
 `[line=3]Thump.@
 br
-`That was all.@ Such a tiny thing, and yet my fingertips burned.@ I should have let go at once, but my hand would not move.@ When I looked at Akiha, she was frozen too.
+`That was all.@
+`Such a tiny thing, and yet my fingertips burned.@
+`I should have let go at once, but my hand would not move.@
+`When I looked at Akiha, she was frozen too.
 \
 cl a,crossfade,400
 ld l,"tachi/ari_t01",crossfade,400
 ld r,"tachi/cel_t01a",crossfade,400
-`“Tohno?@ What are you doing?”@ “—!”@ I snatched my hand away from Akiha’s.@ “N-nothing.@ I was only handing her a drink.”@
+`“Tohno?@ What are you doing?”@
+`“[line=5]!”@
+`I snatch my hand away from Akiha’s.@
+`“N-nothing; I was only handing her a drink.”@
 ld r,"tachi/cel_t12",crossfade,400
-`“Oh, I see.@ You both stopped moving, so it looked as though you were fighting over it.”@ “That’s what you saw too?@ Me too.@ It looked like Tohno was desperately guarding the last drink from her.@ I was thinking, Akiha says she’s thirsty and he still won’t hand it over?@ What kind of monster is this guy?”@ …@I supposed it might have looked that way.
+`“Oh, I see.@ You both stopped moving, so it looked as though you were fighting over it.”@
+`“That is what you saw too?@ Me too; it looked like Tohno was desperately guarding the last drink from her.@
+`I was thinking, Akiha says she is thirsty and he still will not hand it over—what kind of monster is this guy?”@
+`I suppose it might have looked that way.
 \
 cl a,crossfade,400
 `“No, it wasn’t like that.@ We both drifted off for a second.@ Right, Akiha?”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“……”@ Akiha remained dazed.@ That expression was so unlike the Akiha I knew that it made my heart jump.
+`“……”@
+`Akiha remained dazed.@
+`That expression was so unlike the Akiha I knew that it made my heart jump.
 \
 cl a,crossfade,400
 ld c,"tachi/ari_t01",crossfade,400
-`“Huh…@ You know, Tohno, I’ve always thought you and Akiha…”@ “What?@ Say anything stupid and I’ll hit you.”@ “You two don’t look much alike.”@ “Of course we don’t.@ We may be siblings, but I’m a boy and she’s a girl.”@ “That’s not what I mean.@ It’s more like…@ the two of you give off completely different vibes.”
+`“Huh…@ You know, Tohno, I have always thought you and Akiha…”@
+`“[line=3]What?@ Say anything stupid and I will hit you.”@
+`“You two do not look much alike.”@
+`“Of course we do not.@ We may be siblings, but I am a boy and she is a girl.”@
+`“That is not what I mean; it is more like the two of you give off completely different vibes.”
 \
 cl a,crossfade,400
 ld l,"tachi/ari_t01",crossfade,400
 ld r,"tachi/cel_t01a",crossfade,400
-`“That’s true.@ Akiha has an unapproachable air, while Tohno is just the opposite.@ The two of you are like oil and water.”@ “Well, Akiha can be rather prickly.@ If she were a little kinder, I’d have no complaints.”@
+`“That’s true.@ Akiha has an unapproachable air, while Tohno is just the opposite.@
+`The two of you are like oil and water.”@
+`“Well, Akiha can be rather prickly.@ If she were a little kinder, I’d have no complaints.”@
 ld l,"tachi/ari_t03",crossfade,400
-`“Really?@ She seems plenty kind to me.”@ “That’s because she behaves in public.@ At home she’s a different person altogether.@ Strict doesn’t begin to cover it.@ At dinner she lectures me so relentlessly I hardly feel alive—”
+`“Really?@ She seems plenty kind to me.”@
+`“That is because she behaves in public.@ At home she is a different person; strict does not begin to cover it.@ At dinner she lectures me so relentlessly I hardly feel alive[line=3]”
 \
 cl a,crossfade,400
 ld c,"tachi/aki_t03a",crossfade,400
 !w1000
-`“Actually, let’s drop this.@ We should talk about something less personal, Arihiko.”@
+`“[line=3]Actually, let us drop this.@ We should talk about something less personal, Arihiko.”@
 ld c,"tachi/aki_t18a",crossfade,400
-`“Oh?@ But you were in the middle of such an interesting story.@ I would very much like to hear the rest of your opinion, Brother.”@ “Urgh…”@ Akiha’s stare hurt.@ Apparently that dreamy expression had been a momentary aberration.
+`“Oh?@ But you were in the middle of such an interesting story; I would very much like to hear the rest of your opinion, Brother.”@
+`“Urgh…”@
+`Akiha’s stare hurts.@
+`Apparently that dreamy expression was a momentary aberration.
 \
 cl a,crossfade,400
 ld l,"tachi/ari_t01",crossfade,400
-`“Something less personal, huh…@ Oh, right, Tohno.@ Your house was on the news this morning.@ Did something happen?”@ “What?@ The morning news showed our house?”@
+`“Something less personal, huh[line=3]oh, right, Tohno; your house was on the news this morning.@ Did something happen?”@
+`“What[line=3]?@ The morning news showed our house?”@
 ld r,"tachi/cel_t12",crossfade,400
-`“Yes.@ Another victim of those random killings was found near your home.@ That endless wall that looks like a prison belongs to Akiha’s estate, doesn’t it?”@
+`“Yes.@ Another victim of the random killings was found near your home; that endless wall that looks like a prison belongs to Akiha’s estate, does it not?”@
 playstop
 cl l,crossfade,400
 waveloop se_02
 ld l,"tachi/aki_t01a",crossfade,400
-`“I wouldn’t know.@ I didn’t watch the news this morning, so I can’t tell you anything.”@ Akiha dismissed it as though it had nothing to do with her.@ I could not be so indifferent.
+`“[line=2]I would not know.@ I did not watch the news this morning, so I cannot tell you anything.”@
+`Akiha dismisses it as though it has nothing to do with her.@
+`I cannot be so indifferent.
 \
 cl a,crossfade,400
-`The random killings were supposed to be over.@ Yumizuka, who had needed human blood to survive, was gone.@ There should have been no more victims.@ Not unless my dream—my dream—had been more than a dream.
+`The random killings were supposed to be over.@
+`Yumizuka, who needed human blood to survive, was no longer here.@
+`There should be no more victims.@
+`My dream.@
+`If only it would remain a dream.
 \
 wavestop
 play "*1"
-`“Ciel, is that true?@ These random killings—you mean the vampire murders?”@
+`“[line=3]Ciel.@ Is that true?@ By the random killings, you mean the vampire murders?”@
 ld c,"tachi/cel_t03",crossfade,400
-`“Yes.@ Last night’s was apparently the tenth victim.@ The body had been drained of blood as before, but this time several other parts were missing as well.”@ Ciel explained it in her usual tone.@ But I was seized by a violent vertigo, as though the world beneath me had tilted.
+`“Yes.@ Last night’s was apparently the tenth victim.@
+`The body had been drained of blood as before, but this time several other parts were missing as well.”@
+`Ciel explained it in her usual tone.@
+`But I was seized by a violent vertigo, as though the world beneath me had tilted.
 \
 ld c,"tachi/cel_t12",crossfade,400
-`“The body had no arms or legs.@ They think those may have been bitten off by a human mouth.@ But that’s strange, isn’t it?@ A human mouth couldn’t—”@
+`“The body had no arms or legs.@ They believe a human mouth bit them off, but that is strange; a human mouth could not”@
 cl a,crossfade,400
 ld l,"tachi/cel_t12",crossfade,400
 ld r,"tachi/aki_t01a",crossfade,400
-`“It could not tear limbs from a human body.@ Human jaws lack the strength, and the teeth would fail as well.@ One might scrape bone by sinking one’s teeth into the softer cartilage, perhaps, but no more.”
+`“It could not tear limbs from a human body.@ Human jaws lack the strength, and the teeth would fail as well.@
+`One might scrape bone by sinking one’s teeth into the softer cartilage, perhaps, but no more.”
 \
 ld l,"tachi/cel_t04",crossfade,400
-`“Exactly.@ Yet the marks on the body looked unmistakably human.@ That would make the killer a creature shaped like a person but not actually human.@ Calling it a vampire may not be so far from the truth.”@
+`“Exactly.@ Yet the marks on the body looked unmistakably human, which would make the killer a creature shaped like a person but not human.@ In that case, calling it a vampire may be close to the truth.”@
 br
-`[line=4]Nausea rose in my throat.@ Ciel, you only smiled because you didn’t know.@ Because that was—
+`[line=4]Nausea rises in my throat.@
+`Ciel, you can smile because you do not know, but that is[line=3]
 \
 ld r,"tachi/aki_t04a",crossfade,400
 `“Heh.”@
 ld l,"tachi/cel_t12",crossfade,400
-`“Akiha, did I say something amusing?”@
+`“Akiha.@ Did I say something amusing?”@
 ld r,"tachi/aki_t08a",crossfade,400
-`“Yes.@ You were saying something so entertaining that I couldn’t help laughing.”@
+`“Yes, what you said was so entertaining that I could not help laughing.”@
 ld l,"tachi/cel_t10a",crossfade,400
 `“This is hardly a laughing matter!@ Last night’s victim was found near your home!”@
 ld r,"tachi/aki_t04a",crossfade,400
-`“I apologize if I was rude.@ I simply never imagined you were such a dreamer.@ Since the subject has come up, would you describe the vampire you imagine?”
+`“I apologize if I was rude.@ I simply never imagined you were such a dreamer.@
+`Since the subject has come up, would you describe the vampire you imagine?”
 \
 ld l,"tachi/cel_t08",crossfade,400
-`“Um…@ do you mean the sort of vampire that appears in fairy tales?”@
+`“Um, do you mean the sort of vampire that appears in fairy tales?”@
 ld r,"tachi/aki_t08a",crossfade,400
-`“No.@ I mean the vampire as a profile of the person responsible for these murders.”@
+`“No, I mean the kind of vampire you imagine as the culprit behind these murders.”@
 cl a,crossfade,400
 br
-`Ciel considered the question.@ Part of me wanted nothing less than to hear such a thing from her.@ Another part was fiercely curious.
+`Ciel considers the question.@
+`Part of me[line=3]does not want to hear any of this from her, while another part is fiercely curious.
 \
 ld l,"tachi/cel_t01a",crossfade,400
-`“The killer is still human.@ I think they simply possess values and inclinations different from ours.@ Perhaps when someone has qualities ordinary standards cannot judge, we call that person a ‘vampire’ so that we can make sense of them.”@
+`“The killer is still human.@ I think they simply possess values and inclinations different from ours.@
+`Perhaps when someone has qualities ordinary standards cannot judge, we call that person a ‘vampire’ so that we can make sense of them.”@
 ld r,"tachi/aki_t11a",crossfade,400
 `“So by ‘vampire,’ you mean a deranged human being—someone who no longer recognizes as taboo what should be forbidden.”
 \
 ld l,"tachi/cel_t07a",crossfade,400
-`“Yes.@ It needn’t be called a vampire.@ When someone leaves the rules of society behind, the people within society cease to regard them as human simply because their nature is incomprehensible.@ That is the common sense of society defending itself.”@
+`“Yes.@ It needn’t be called a vampire.@ When someone leaves the rules of society behind, the people within society cease to regard them as human simply because their nature is incomprehensible.@
+`That is the common sense of society defending itself.”@
 ld r,"tachi/aki_t04a",crossfade,400
-`“That was very instructive.@ But it creates a difficulty.@ Under your interpretation, the vampire is not committing a crime.@ The vampire feels no trace of guilt for what they do, correct?@ Then one cannot punish them for something that is not a crime to them.”
+`“That was very instructive.@ But it creates a difficulty.@ Under your interpretation, the vampire is not committing a crime.@
+`The vampire feels no trace of guilt for what they do, correct?@ Then one cannot punish them for something that is not a crime to them.”
 \
 ld l,"tachi/cel_t04",crossfade,400
-`“Exactly.@ That is why the people who belong to society cannot punish those who have strayed outside it.@ To punish a being that does not recognize its crime, one must appeal not to individual ethics but to the law of the species as a whole.”@
+`“Exactly.@ That is why the people who belong to society cannot punish those who have strayed outside it.@
+`To punish a being that does not recognize its crime, one must appeal not to individual ethics but to the law of the species as a whole.”@
 ld r,"tachi/aki_t01a",crossfade,400
-`“The law…@ of the entire species?”
+`“The law of the entire species?”
 \
 ld l,"tachi/cel_t03",crossfade,400
-`“Yes.@ The oldest law: that one’s own species must prosper over all others.@ Anything that obstructs that prosperity is, by that fact alone, a crime.@ Even if a vampire sees no sin in murder, to humanity as a whole, the crime is not the act of killing.@ It is the vampire’s very existence.”
+`“Yes.@ The oldest law: one’s own species must prosper over all others.@ Anything that obstructs that prosperity is, by that fact alone, a crime.@
+`Even if a vampire sees no sin in murder, to humanity as a whole the vampire’s very existence is the crime.”
 \
 cl a,crossfade,400
 br
@@ -144,22 +202,26 @@ br
 br
 `[line=6]Its very existence—a crime.
 \
-`…@What was this?@ Akiha was strange for asking, and Ciel was just as strange for answering.@ Worse, their conversation felt directed not at some hypothetical creature, but at me.
+`What is this?@
+`Akiha is strange for asking, and Ciel is just as strange for answering.@
+`And yet.@
+`Their conversation feels directed not at anyone else, but at me.
 \
 playstop
 wave se_03
 `The bell rang, announcing the end of lunch.@
 ld l,"tachi/aki_t01a",crossfade,400
-`“I’m sorry.@ I seem to have dragged everyone into a dreary conversation.”@
+`“[line=2]I am sorry for bringing up such a dull subject.”@
 ld r,"tachi/ari_t01",crossfade,400
 `“It’s fine, it’s fine.@ Hearing Akiha’s voice is enough to make me happy.”@
 cl l,crossfade,400
 ld l,"tachi/cel_t01a",crossfade,400
 `“Then I suppose we should disperse.@ You’ll all be late if you don’t hurry.”@
 cl a,crossfade,400
-`Ciel ran toward the cafeteria.@ Her classroom must have been closer if she entered the building from that side.
+`Ciel runs toward the cafeteria.@
+`Her classroom must be closer if she enters the building from that side.
 \
-`[line=4]Ciel was leaving.@
+`[line=4]Ciel is leaving.@
 br
 `Was it because she knew so much about the killings, or because something in that conversation still troubled me?
 \

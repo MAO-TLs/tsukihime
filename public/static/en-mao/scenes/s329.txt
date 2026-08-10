@@ -2,80 +2,112 @@ play "*3"
 wavestop
 bg "bg/bg_04",notrans,0
 ld l,"tachi/ari_t05",lshutter,400
-`“Sorry to keep you waiting.@ Lunch for three, coming right—wait, what?@ Am I interrupting something here?”@
+`“Sorry to keep you waiting—lunch for three, coming right up—wait, am I interrupting something here?”@
 ld r,"tachi/aki_t01a",crossfade,400
 `“Not at all.”@
 ld r,"tachi/aki_t04a",crossfade,400
-`“You’re a friend of my brother’s, then.@ I’m Akiha, Shiki Tohno’s younger sister.@ It’s a pleasure to meet you.”@ Akiha bowed with silent grace.
+`“You’re a friend of my brother’s, then.@ I’m Akiha, Shiki Tohno’s younger sister.@ It’s a pleasure to meet you.”@
+`Akiha bowed with silent grace.
 \
 ld l,"tachi/ari_t01",crossfade,400
-`“Likewise.@ I’m Arihiko Inui.@ Tohno and I have been stuck with each other since middle school—and today was the first I’d ever heard he had a sister.”@ Apparently he was still holding a grudge over my secrecy, because Arihiko added that last, entirely unnecessary remark.
+`“Likewise.@ I’m Arihiko Inui, and Tohno and I have been stuck with each other since middle school—today was the first I’d ever heard he had a sister.”@
+`Apparently he was still holding a grudge over my secrecy, because Arihiko added that last, entirely unnecessary remark.
 \
-`“Never mind that, Arihiko.@ Let’s eat.@ Lunch break is short; we can’t spend all of it fussing over Akiha.”@
+`“Never mind that, Arihiko.@ Lunch break is short, so let’s eat instead of spending it all fussing over Akiha.”@
 ld r,"tachi/aki_t02",crossfade,400
-`I ignored Akiha’s offended glare and accepted the food from Arihiko.@ “Here, Akiha.@ You can have the curry bread and milk.@ We’ll eat here, but there isn’t much time, so don’t dawdle.”
+`I ignored Akiha’s offended glare and accepted the food from Arihiko.@
+`“Here, Akiha.@ You can have the curry bread and milk.@ We’ll eat here, but there isn’t much time, so don’t dawdle.”
 \
 ld r,"tachi/aki_t21",crossfade,400
 `“I understand perfectly well.@ I’m not a child, so please stop explaining every little thing to me.”@
 ld l,"tachi/ari_t03",crossfade,400
-`“She’s right, Tohno.@ Are you going out of your way to be mean to her?”@ Arihiko booed me lustily.@ I ignored him, opened my own bread, and pushed the straw into my carton of milk.
+`“She’s right, Tohno—are you going out of your way to be mean to her?”@
+`Arihiko boos me loudly.@
+`“…”@
+`I ignore him, open my own bread, and push the straw into my carton of milk.
 \
 cl a,crossfade,400
-`Munch.@ Munch, munch.@ Munch, munch, munch.@
+`Munch.@
+`Munch, munch.@
+`Munch, munch, munch.@
 br
-`Well, that was lunch.@ Time to head back to class.
+`“…”@
+`Now that lunch is over, I should head back to class.
 \
 ld c,"tachi/aki_t13a",crossfade,400
-`“…@Um, Brother?”@ Akiha ventured timidly.@ Her curry bread was still in its wrapper.@ “What is it?@ Not hungry?”@ “No, that isn’t it.@ It’s just…@ well…”@ She looked up at me through her lashes, visibly embarrassed.@
+`“Um, Brother?”@
+`Akiha ventures timidly.@
+`Her curry bread is still in its wrapper.@
+`“What is it?@ Not hungry?”@
+`“Um, no, that isn’t it…”@
+`She looks up at me through her lashes, visibly embarrassed.@
 br
-`“…@Could you show me how to eat it?”@
+`“Could you show me how to eat it?”@
 br
-`She gazed up at me, shy and fidgeting.@ Faced with that—I mean, what else could I do?
+`“…”@
+`She gazes up at me, shy and fidgeting.@
+`Faced with that[line=3]what else can I do?
 \
 cl a,crossfade,400
 ld c,"tachi/ari_t01",crossfade,400
-`“Show you?@ What are you talking about?@ You open the wrapper and eat it.@ There’s nothing hard about that.@ Right, Tohno?”@ “Arihiko, could you run to the cafeteria and bring us some napkins or something?”@ “What—me?”@ I answered with a silent nod.@
+`“What do you mean, show you how to eat?@ You just open the wrapper and eat it.@ There’s nothing hard about that.@ Right, Tohno?”@
+`“Arihiko, could you run to the cafeteria and bring us some napkins or something?”@
+`“What?@ Me?”@
+`I answer with a silent nod.@
 ld c,"tachi/ari_t03",crossfade,400
 `“Fine, but you owe me.”@
 cl a,lshutter,400
 `Arihiko went sprinting back toward the school building yet again.
 \
-`“Here, give it to me.@ You tear the wrapper open here, like this, then just bite into it.@ …@But don’t expect too much from the taste.@ It’s worlds apart from Kohaku’s cooking.”@
+`“Here, give it to me.@ You tear the wrapper open here, like this, then just bite into it.@ Don’t expect too much from the taste.@ It’s worlds apart from Kohaku’s cooking.”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Um…@ Brother, are you serious?”@ “I wouldn’t lie to you.@ What, are you going to tell me that after transferring here, you’re too refined to eat anything from our school shop?@ I’d hate to lose all respect for you, Akiha.”
+`“Um—Brother, are you serious?”@
+`“I wouldn’t lie to you.@ Or is that it?@ After transferring here, are you going to tell me you’re too refined to eat anything from our school shop?@
+`I’d hate to lose all respect for you, Akiha.”
 \
 ld c,"tachi/aki_t17a",crossfade,400
-`“No, it isn’t that…@ It’s only that this bread is enormous.@ I don’t think I can eat it in one bite…”@ “Nobody told you to swallow it whole.@ You take little bites.@ It’ll make a mess around your mouth, but Arihiko is bringing napkins, so you can wipe it off.”@
+`“No, it isn’t that, but this bread is enormous—surely I can’t eat it in one bite…?”@
+`“Nobody told you to swallow it whole.@ You take little bites.@ It’ll make a mess around your mouth, but Arihiko is bringing napkins, so you can wipe it off.”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“…@All right.@ Thank you, Brother.”@
+`“All right.@ Thank you, Brother.”@
 cl a,crossfade,400
-`With that, Akiha began nibbling at the curry bread.@ I doubt any girl in history had ever approached her first bite of one with such grave resolve.
+`With that, Akiha began nibbling at the curry bread.@
+`I doubt any girl in history had ever approached her first bite of one with such grave resolve.
 \
 bg #000000,tshutter,800
 bg "bg/bg_04",bshutter,800
-`A few minutes after Akiha finished lunch, she and Arihiko were chatting almost companionably.@ Apparently his appearance didn’t bother her much.
+`A few minutes after Akiha finished lunch, she and Arihiko were chatting almost companionably.@
+`Apparently his appearance didn’t bother her much.
 \
 ld l,"tachi/aki_t04a",crossfade,400
 `“I see.@ So you and my brother have been friends since middle school, Arihiko?”@
 ld r,"tachi/ari_t01",crossfade,400
-`“Yeah, coming up on five years now.@ He’s been a lot of work from the day we met.@ I kept looking after him, and before I knew it, the poor guy had grown attached.”@ “…@That account is seriously misleading.@ The accurate version is that you latched on to me and never let go.”@
+`“Yeah, coming up on five years now.@ He’s been a lot of work from the day we met, and after I kept looking after him, the poor guy grew attached.”@
+`“That account is seriously misleading.@ The accurate version is that you latched on to me and never let go.”@
 ld r,"tachi/ari_t02",crossfade,400
-`“Sure.@ Either way, we’re stuck with each other.”@ Arihiko laughed uproariously.
+`“Sure.@ Either way, we’re stuck with each other.”@
+`Arihiko laughed uproariously.
 \
-`“Right.@ The bond’s so rotten it’s turned to sludge, which is why we can’t cut it.@ We’ve each been saddled with a real nuisance.”@ I returned Arihiko’s grin with a sardonic one of my own.@
+`“Right.@ The bond’s so rotten it’s turned to sludge and can’t be cut, so we’ve each been saddled with a real nuisance.”@
+`I return Arihiko’s grin with a sardonic one of my own.@
 ld l,"tachi/aki_t13a",crossfade,400
-`For some reason, Akiha watched the two of us with a distinctly displeased expression.
+`“…”@
+`For some reason, Akiha watches the two of us with a distinctly displeased expression.
 \
 ld r,"tachi/ari_t01",crossfade,400
 `“Oh, Akiha—mind if I ask you something?”@
 ld l,"tachi/aki_t04a",crossfade,400
-`“If it’s something I can answer.”@ “I’ve wondered about this for a while.@ Tohno’s chronically anemic, right?@ Was he born that way?”@ Arihiko’s great talent was asking difficult questions with the delicacy of a battering ram.
+`“If it’s something I can answer.”@
+`“I’ve wondered about this for a while: Tohno’s chronically anemic, right?@ Was he born that way?”@
+`Arihiko’s great talent is asking difficult questions with the delicacy of a battering ram.
 \
 ld l,"tachi/aki_t01a",crossfade,400
-`“Yes.@ I’m told Brother’s anemia is congenital.@ But traits of that kind appear throughout the Tohno family, so his condition is not unique.”@ “What…?@ Really, Akiha?”@ “Yes.@ Father suffered pronounced swings between mania and depression while he was alive—what is called dissociative identity disorder.”
+`“Yes.@ I’m told Brother’s anemia is congenital, but traits of that kind appear throughout the Tohno family, so his condition is not unique.”@
+`“What…?@ Is that true, Akiha?”@
+`“Yes.@ Father suffered pronounced swings between mania and depression while he was alive.@ It is what is called dissociative identity disorder.”
 \
 ld r,"tachi/ari_t03",crossfade,400
-`“What?@ Dis-so-ci-a-tive identity…@ what?”@
+`“What?@ Dis-so-ci-a-tive identity disorder…?”@
 ld l,"tachi/aki_t04a",crossfade,400
 `“What people commonly call a split personality.@ Father’s case was not severe enough to cloud his memory, however.”@
 cl a,crossfade,400
@@ -84,11 +116,16 @@ br
 br
 `But thinking back, Makihisa Tohno had been a man who could swing violently from kindness to brutality.
 \
-`“Huh…@ So Father was mentally ill.”@ Put that way, everything seemed to fall into place.@ Before my accident, he had kept his distance from me, but I remembered him as a kind man.@ Afterward, Makihisa had plainly loathed me.@ Perhaps that, too, had been due to his mood swings.
+`“Huh, so Father was mentally ill.”@
+`Put that way, everything seemed to fall into place.@
+`Before my accident, he had kept his distance from me, but I remembered him as a kind man.@
+`Afterward, Makihisa had plainly loathed me.@
+`Perhaps that, too, had been due to his mood swings.
 \
 wave se_03
 ld l,"tachi/ari_t03",crossfade,400
-`“Crap!@ Lunch break’s over, Tohno!”@ “Don’t blame me.@ Come on, Akiha, you need to hurry back to your classroom too.@ Being late for fifth period on your first day would be humiliating.”@
+`“Crap!@ Lunch break’s over, Tohno!”@
+`“Don’t blame me.@ Come on, Akiha, you need to hurry back to your classroom too.@ Being late for fifth period on your first day would be humiliating.”@
 ld r,"tachi/aki_t09",crossfade,400
 `“I know.@ Take care, Brother.”@
 cl a,crossfade,400
@@ -97,5 +134,6 @@ cl a,crossfade,400
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_06b",rcartain,800
-`At last, that eventful day came to an end.@ Now, what should I do—
+`At last, that eventful day came to an end.@
+`Now, what should I do—
 \

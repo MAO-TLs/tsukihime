@@ -42,6 +42,7 @@ test('the public audit package has the frozen 62/14620/1500 contract', async () 
 	const findings = await loadJson('findings.json')
 	const searchIndex = await loadJson('search-index.json')
 
+	assert.equal(manifest.translationVersion, 'v1.1.0')
 	assert.equal(manifest.scriptCount, 62)
 	assert.equal(manifest.scripts.length, 62)
 	assert.equal(new Set(manifest.scripts.map(script => script.id)).size, 62)

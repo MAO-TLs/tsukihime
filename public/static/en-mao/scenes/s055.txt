@@ -3,40 +3,56 @@ wavestop
 bg "bg/bg_34a",notrans,0
 `“Good morning, Kohaku.@ Beautiful day, isn’t it?”@
 ld c,"tachi/koha_t05",lshutter,800
-`“Yes, it is.@ Good morning, Shiki.”@ Kohaku answers my commonplace greeting with a radiant smile.
+`“Good morning, Shiki.”@
+`Kohaku answers my commonplace greeting with a radiant smile.
 \
 ld c,"tachi/koha_t03",crossfade,400
-`“Did you sleep well?@ It was your first night in an unfamiliar mansion, so I was worried something might not suit you.”@ “Nothing’s given me any trouble so far.@ I did live here once, after all—and now I have you looking after me so thoughtfully.”@
+`“Did you sleep well?@ It was your first night in an unfamiliar estate, so I was worried something might not suit you.”@
+`“Nothing’s given me any trouble so far.@ I did live here once, after all—and now I have you looking after me so thoughtfully.”@
 ld c,"tachi/koha_t05",crossfade,400
-`“My, how smooth of you, Shiki.”@ “What?@ I only said what I was thinking…@ Smooth at what, exactly?”@ Kohaku merely keeps smiling at me.@
+`“My, how smooth of you, Shiki.”@
+`“What?@ I only said what I was thinking…@ Smooth at what, exactly?”@
+`Kohaku merely keeps smiling at me.@
 cl c,crossfade,400
-`…@Having her look at me so directly is embarrassing somehow, and I turn my eyes away.
+`Having her look at me so directly is embarrassing somehow, and I turn my eyes away.
 \
 br
-`[line=3]That’s when—
+`[line=3]That was when.@
 br
 ld c,"tachi/aki_t02",crossfade,400
 `I notice another pair of eyes that has been silently fixed on me all this time.@
 cl c,crossfade,400
-`“Oh…@ hey.”@ I raise one hand in a casual greeting.@ Akiha keeps staring at me.@ …@No, she’s glaring.
+`“Oh—hey.”@
+`I raise one hand in a casual greeting.@
+`Akiha keeps staring at me.@ No, she is glaring.
 \
-`“Um…@ well…@ good morning, Akiha.”@
+`“Um—good morning, Akiha.”@
 ld l,"tachi/aki_t18a",crossfade,400
-`“Oh, you needn’t force yourself to greet me.@ Please, feel free to ignore me.@ You clearly prefer beginning your morning with Kohaku.”@ “Urgh…”@ Akiha’s words prick like needles.@ …@It isn’t as though I meant to ignore her.@ I only happened to greet Kohaku first…
+`“Oh, you needn’t force yourself to greet me.@ Please, feel free to ignore me.@ You clearly prefer beginning your morning with Kohaku.”@
+`“Urgh…”@
+`Akiha’s words prick like needles.@
+`I had not meant to ignore Akiha; I simply greeted Kohaku first.
 \
 ld r,"tachi/koha_t02",crossfade,400
 `“Miss Akiha, please don’t tease Shiki so.@ We’re short on time, and he hasn’t eaten breakfast yet.”@
 ld l,"tachi/aki_t03a",crossfade,400
-`“He hasn’t eaten because he rose too late.@ If his morning is rushed, he has no one but himself to blame.”@ Akiha gives a disdainful little sniff.@ …@Apparently she already resented my arriving at this hour, and failing to greet her was the second blow.@ No wonder she’s furious.
+`“He hasn’t eaten because he rose too late.@ If his morning is rushed, he has no one but himself to blame.”@
+`Akiha gives a disdainful little sniff.@
+`Apparently she resented both my arriving at this hour and my failure to greet her.
 \
 `“…@Kohaku, did you make breakfast for me?”@
 ld r,"tachi/koha_t03",crossfade,400
 `“Yes, it’s waiting in the dining room.@ Please take your time and enjoy it.”@
 ld l,"tachi/aki_t18a",crossfade,400
-`“Don’t be absurd, Kohaku.@ He can hardly take his time at this hour.@ Brother has no time left for breakfast.”
+`“Don’t be absurd, Kohaku; he can hardly take his time at this hour.@ Brother has no time left for breakfast.”
 \
-`“Listen, Akiha, it’s only just past seven.@ I’ve got plenty of time.@ School is barely more than a thirty-minute walk from here, so I can spare ten minutes easily.”@ “Ten whole minutes for breakfast?@ You’re not a starving dog.@ I would prefer you ate like a civilized human being.”@ “…”@ There are thorns in every word she says.
+`“Listen, Akiha, it’s only just past seven, and school is barely more than thirty minutes away, so I can spare ten minutes easily.”@ “Ten whole minutes for breakfast?@
+`You’re not a starving dog.@ I would prefer you ate like a civilized human being.”@
+`“[line=5]”@
+`There are thorns in every word she says.
 \
 cl a,crossfade,400
-`“A starving dog?@ Come on, Akiha—”@ And then I remember.@ Dogs.@ There was something about last night.
+`“A dog, Akiha[line=3]”@
+`Then I remembered.@
+`There had been the business with the dogs last night.
 \

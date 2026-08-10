@@ -1,49 +1,91 @@
 bg "bg/bg_06a",notrans,0
 play "*3"
-`I stayed in the classroom.@ My lunches depended entirely on my mood.@ Some days I had a packed lunch made for me; some days I craved udon and went to the cafeteria; and when eating felt like too much bother, I bought bread and milk from the school store.@ No one had packed anything for me today.@ Since I wouldn’t be returning to the Arima house, I had declined the offer.@ Consequently, remaining in the classroom left me with nothing whatsoever to eat.@ “I don’t much feel like it, but I suppose I’ll go to the cafeteria.”@ Exasperated that this was where I had ended up after all, I left the room.
+`I stayed in the classroom.@
+`For the record, what Shiki Tohno ate for lunch changed with his mood every day.@
+`Some days I had a packed lunch made for me; some days I craved udon and went to the cafeteria; and when eating felt like too much bother, I bought bread and milk from the school store.@
+`No one had packed anything for me today.@ Since I wouldn’t be returning to the Arima house, I had declined the offer.@
+`So there was nothing for me to eat if I stayed here.@
+`“I don’t much feel like it, but I suppose I’ll go to the cafeteria.”@
+`So much for staying in the classroom, I thought as I left.
 \
 bg #000000,lcartain,800
 bg "bg/bg_50",lcartain,800
-`As usual, the cafeteria was packed, with a ten-minute line to order.@ I queued, bought a bowl of udon with mochi, and scanned the room.@ At a table near the back, I spotted a familiar face.@
+`As usual, the cafeteria was packed, with a ten-minute line to order.@
+`I queued and bought a bowl of udon with mochi.@
+`Scanning the room, I spotted a familiar face at a table near the back.@
 ld c,"tachi/ari_t05",crossfade,400
-`“Heeey, over here, Tohno!”@ Arihiko waved both arms wildly.@
+`“Heeey, over here, Tohno!”@
+`Arihiko waved both arms wildly.@
 cl c,crossfade,400
 br
-`“…”@ My head hurt.@ But there were no other empty seats, so I reluctantly approached my frantically waving friend’s table.
+`“…”@
+`My head hurt.@
+`But there were no other empty seats, so I reluctantly headed for my waving friend’s table.
 \
 bg #000000,lshutter,400
 bg "bg/bg_50",lshutter,400
 ld c,"tachi/ari_t01",lshutter,400
-`“You’re late, Tohno.@ I told you we had a special guest today.@ You could’ve hurried.”@ For all his complaints, Arihiko was sitting alone.@ “So who is this special guest?”@
+`“You’re late, Tohno.@ I told you we had a special guest today.@ You could’ve hurried.”@
+`For all his complaints, Arihiko was sitting alone.@
+`“So who is this special guest?”@
 ld c,"tachi/ari_t02",crossfade,400
-`“Well, she turned me down.@ Said she had something to do today and that we should make it another time.”@ “Oh?@ The guest was a girl, then?”@
+`“Well, she turned me down.@ Said she had something to do today and that we should make it another time.”@
+`“Oh?@ The guest was a girl, then?”@
 ld c,"tachi/ari_t01",crossfade,400
-`“Yeah, one of the older girls I’ve been making moves on lately.@ She’s popular in all sorts of ways, so what can you do?”@ With that cheerful declaration, Arihiko slurped his curry udon.@ He could be relentless until the instant he gave up, and then perfectly breezy about it.@ That was one of his better qualities.
+`“Yeah, one of the older girls I’ve been making moves on lately.@ She’s popular in all sorts of ways, so what can you do?”@
+`With that cheerful declaration, Arihiko slurped his curry udon.@
+`He could be relentless until the instant he gave up, and then perfectly breezy about it; that was one of his better qualities.
 \
 bg #000000,lshutter,800
 !w1000
 bg "bg/bg_50",lshutter,800
 `“So what’s the real story?”@
 ld c,"tachi/ari_t04",notrans,0
-`“Hmm?@ About what?”@ “Why you were in class first thing this morning.@ Arihiko Inui isn’t enough of a romantic to come to school merely because he woke up early.”@ I asked while eating my udon.@ Arihiko gave a bored grunt and sipped his curry broth.
+`“Hmm?@ About what?”@
+`“Why you were in class first thing this morning.@ Arihiko Inui isn’t enough of a romantic to come to school merely because he woke up early.”@
+`I asked while eating my udon.@
+`Arihiko gave a bored grunt and sipped his curry broth.
 \
-`“You’re moving back home today, right?”@ “I am…@ Wait, did I tell you that?”@ “No.@ Our teacher did.”@ Arihiko continued eating without looking at me.@ “So I thought I’d come see whether you were feeling blue.”@ “…@I see.@ And your findings?”@ “The spectacle wasn’t entertaining enough to justify waking early.@ Bit of a disappointment.”@
+`“You’re moving back home today, right?”@
+`“I am…@ Wait, did I tell you that?”@
+`“No.@ Our teacher did.”@
+`Arihiko continued eating without looking at me.@
+`“So I thought I’d come see whether you were feeling blue.”@ “…@I see.@
+`And your findings?”@
+`“The spectacle wasn’t entertaining enough to justify waking early.@ Bit of a disappointment.”@
 cl c,crossfade,400
-`“Honestly, Arihiko.@ You have far too much time on your hands.”@ I bit through the white mochi at the heart of my bowl of udon.
+`“Honestly, Arihiko.@ You have far too much time on your hands.”@
+`I bit through the white mochi at the heart of my bowl of udon.
 \
-`…@That was the kind of person Arihiko was.@ Today I was leaving the relatives who had taken me in and returning to my birth parents’ home.@ Arihiko must have heard about it somewhere, worried that I might be taking it badly, and come to school early to check on me.
+`…@That was the kind of person Arihiko was:
+`Today I was leaving the relatives who had taken me in and returning to my birth parents’ home.@
+`Arihiko must have heard about it somewhere, worried that I might be taking it badly, and come to school early to check on me.
 \
-`“…@Arihiko, your appearance does you a serious disservice.@ Underneath it all, you’re a painfully sensitive and sentimental fellow.”@
+`“Arihiko, your appearance does you a serious disservice.@ Underneath it all, you’re a painfully sensitive and sentimental fellow.”@
 ld c,"tachi/ari_t02",notrans,0
-`“Heh heh.@ If Mr.@ Perpetually Melancholy says so, I suppose it must be true.”@ Arihiko noisily slurped up more noodles.@
+`“Heh heh—if the perpetually melancholy Tohno says so, I suppose I must be the real thing.”@
+`Arihiko noisily slurped up more noodles.@
 ld c,"tachi/ari_t01",crossfade,400
-`“But seriously, how are you taking it?”@ “Taking what?”@ “You’ve lived with the Arimas since elementary school, haven’t you?@ I don’t know why, but it’s been eight years.@ Why would your father suddenly summon the son he disowned after all this time?”
+`“—So.@ How are you really taking it?”@
+`“Taking what?”@
+`“You’ve lived with the Arimas since elementary school, haven’t you?@ I don’t know why, but it’s been eight years.@ Why would your father suddenly summon the son he disowned after all this time?”
 \
-`“I wasn’t disowned.@ I was just sort of thrown out of the mansion.”@ “Tohno.@ If a family throws a child out for no particular reason, that stops being a tragedy and becomes a joke.@ Oh, it is party joke.@ But is too cold, so laugh…@ NO.”@ Arihiko spread his hands and shrugged theatrically.@ His most obvious trait was his refusal to become serious under any circumstances.@ “…@You’re right.@ If I was thrown out for no reason, all I can do is laugh.”
+`“I wasn’t disowned; I was just sort of thrown out of the estate.”@ “Tohno.@
+`If a family throws a child out for no particular reason, that stops being a tragedy and becomes a joke.@ Oh, it is party joke.@ But is too cold, so laugh—NO.”@ Arihiko spread his hands and shrugged theatrically.@
+`His most obvious trait was his refusal to become serious under any circumstances.@
+`“…@You’re
+`right.@ If I were thrown out for no reason, all I could do is laugh.”
 \
-`“Exactly.@ And didn’t they give you the grand line about never darkening their doorstep again?@ The rest of society calls that disowning someone.@ I’ve never asked before, but why did they disown you?”@ “…”@ I had no idea.@ I would have liked an answer myself.@ “Well, if you don’t want to talk about it, forget it.”@
+`“Exactly.@ And didn’t they give you the grand line about never darkening their doorstep again?@ The rest of society calls that disowning someone.@
+`I’ve never asked before, but why did they disown you?”@
+`“…”@
+`I had no idea.@
+`I would have liked an answer myself.@
+`“Well, if you don’t want to talk about it, forget it.”@
 cl c,crossfade,400
-`Arihiko raised his bowl in both hands and gulped down the hot curry broth.@ Lunch break was short.@ Following his example, I hurriedly finished my own udon.
+`Arihiko raised his bowl in both hands and gulped down the hot curry broth.@
+`Lunch break was short.@
+`Following his example, I hurriedly finished my own udon.
 \
 bg #000000,crossfade,800
 playstop

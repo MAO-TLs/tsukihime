@@ -6,9 +6,15 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Hello!@ Welcome to Teach Me, Ciel!@, the feature for our lost little Tohno, who wandered into a dead end without ever finding his bearings.@
+`Hello!@
+`Welcome to Teach Me, Ciel!@, the feature for our lost little Tohno,
+`who wandered into a dead end without ever finding his bearings.@
 br
-`…@I see.@ So you’ve made it to lesson five.@ Quite a few Tohnos probably fall into this one.@ Divine punishment, I suppose.@ Repent your poor judgment in ever getting involved with that woman.
+`I see.@
+`So you’ve made it to lesson five.@
+`Quite a few Tohnos probably fall into this one.@
+`Divine punishment, I suppose.@
+`Repent your poor judgment in ever getting involved with that woman.
 \
 ld l,"tachi/ark_t31a",lshutter,400
 ld l,"tachi/ark_t31b",lshutter,400
@@ -18,30 +24,36 @@ bg "bg/ima_14",lshutter,400
 wave se_12
 bg "bg/bg_06a",lshutter,400
 ld r,"tachi/cel_t20",tshutter,400
-`[line=4]Moving on.@
+`[line=4]Now, then.@
 br
-`Normally, this one is beyond even my power to absolve.@ Still, some of you may have come here despite properly turning down that sunny little vampire—
+`Normally, this one is beyond even my power to absolve, but some of you may have come here despite properly turning down that sunny little vampire—
 br
-`(“Sunny”@ and “vampire”@ do make a rather belligerent contradiction.@)
+`(Calling a vampire sunny is practically picking a fight)
 br
 `—so I’ll throw you a lifeline.
 \
-`There are roughly three ways to arrive at this dead end.@ To avoid it—
+`There are roughly three ways to arrive at this dead end, but to avoid it,
 br
-`try reassuring your little sister once in a while; indulge that foolish woman’s whims once in a while; and when you’re hunting a filthy vampire, try the filthiest place in town—
+`try reassuring your little sister once in a while; indulge that foolish woman’s whims once in a while;
+`and when you’re hunting a filthy vampire, try the filthiest place in town—
 br
 `that should do it.
 \
 ld l,"tachi/ark_t30",lshutter,400
 `“Hey, Ciel.@ I can’t read these characters.”@
 br
-`[line=3]Rejected.@ …@Or so I’d like to say, but so many people have asked that I’ll answer.@ “Blackout Moon”@ combines blacking out with the blackness of a moonless night.@ A little play on a moon gone dark, I suppose.
+`[line=3]Rejected.@
+`Or so I’d like to say, but so many people have asked that I’ll answer.@
+`The Japanese title behind Blackout Moon uses three readings
+`kura from kuramu, to black out; yami from yamu, to fall ill; and tsuki, moon.@
+`Together they form Kurayamizuki.@ It is a pun on kurayami, darkness, and tsuki, moon.
 \
 br
-`“Huh.@ That’s weird.”@
+`“Huh, that’s weird.”@
 cl l,lshutter,400
 br
-`(Why, this fidgety little…!@) That’s all for today’s lesson.@ Remember, everyone: treat the English language with care!
+`(This fidgety little—)That’s all for today’s lesson.@
+`Remember, everyone: treat the English language with care!
 \
 bg #000000,crossfade,800
 playstop

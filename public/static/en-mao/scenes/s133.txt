@@ -3,15 +3,21 @@ play "*3"
 wavestop
 bg "bg/bg_11a",notrans,0
 ld c,"tachi/cel_t03",crossfade,400
-`“Tohno, did you sleep well last night?”@ “Huh?”@ She asked with an uncommonly direct gaze.@
+`“Tohno, did you sleep well last night?”@
+`“Huh?”@
+`She asks with an uncommonly direct gaze.@
 cl c,crossfade,400
-`There was hardly any need to answer.@ I had been unable to fall asleep, and more importantly—
+`There is hardly any need to answer.@ I could not fall asleep, and more importantly[line=3]
 \
-`“Urgh…”@ The memory of the previous night returned in vivid detail, and I felt my face turning red.@ She peered up at me, staring and staring.@ “Um…”@
+`“Urgh…”@
+`The memory of the previous night returns in vivid detail, and I feel my face turning red.@
+`She peers up at me, staring and staring.@
+`“Ciel, the thing is[line=3]”@
 ld c,"tachi/cel_t08",crossfade,400
-`“You’re a pervert, Tohno.”@ “Excuse me?”@
+`“You’re a pervert, Tohno.”@
+`“Excuse me?”@
 cl c,lshutter,800
-`She gave me a look heavy with unspoken complaint, then marched away on quick little steps.
+`She gives me a look heavy with unspoken complaint, then marches away on quick little steps.
 \
 bg #000000,crossfade,800
 !w1000

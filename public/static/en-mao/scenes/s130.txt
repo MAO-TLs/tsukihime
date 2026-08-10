@@ -4,17 +4,26 @@ wavestop
 bg "bg/bg_06a",notrans,0
 `Well, if she kept circling around our classroom, she might have come to see me after all.@
 br
-`“What is she doing?@ She usually walks straight into the classroom without a second thought.”@ Or had she finally realized how unusual it was for a third-year to visit a second-year classroom?@
+`“What is she doing?@ She usually walks straight into the classroom without a second thought.”@
+`Or had she finally realized how unusual it was for a third-year to visit a second-year classroom?@
 br
-`“No.@ Absolutely no chance of that.”@ Satisfied with my conclusion, I headed into the hall.
+`“[line=3]No.@ Absolutely no chance of that.”@
+`Satisfied with my conclusion, I head into the hall.
 \
 bg "bg/bg_11a",lcartain,800
 `“Ciel.”@
 ld c,"tachi/cel_t08",lshutter,400
-`“Oh—Tohno?”@ When I called out, she stared at me with her mouth hanging open in surprise.@ “What are you doing loitering here when class is about to start?”@ “……”@ She gazed at me blankly, then looked away as though I had somehow offended her.
+`“Oh[line=3]Tohno?”@
+`When I call out, she stares at me with her mouth hanging open in surprise.@
+`“What are you doing?@ Class is about to start, and you are loitering here.”@
+`“[line=5]”@
+`She gazes at me blankly, then looks away as though I have offended her.
 \
 ld c,"tachi/cel_t12",crossfade,400
-`“What I’m doing is none of your business.”@ “Well…@ I suppose it isn’t.”@ “That was a lie.@ It is a little bit your business.”@
+`“What I am doing is none of your business.”@
+`“Well[line=2]I suppose it is not.”@
+`“[line=3]That was a lie.@ It is a little bit your business.”@
 cl c,lshutter,800
-`One moment she was looking away; the next, she leaned toward me and began sniffing.@ “Um…@ Ciel…?”
+`One moment she is looking away; the next, she leans toward me and begins sniffing.@
+`“Um, Ciel?”
 \

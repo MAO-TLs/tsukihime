@@ -2,138 +2,231 @@ play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
 ld r,"tachi/koha_t02",crossfade,400
-`“Miss Akiha, you’re nearly out of time.@ Are you certain you shouldn’t leave?”@
+`“Miss Akiha, you’re nearly out of time—are you certain you shouldn’t leave?”@
 ld l,"tachi/aki_t05a",crossfade,400
-`“…@I know.@ Honestly, if this is how things are on the very first morning, I dread what comes next.”@ Still muttering complaints, Akiha rises from the sofa.
+`“…@I know—honestly, if this is how things are on the very first morning, I dread what comes next.”@
+`Still muttering complaints, Akiha rises from the sofa.
 \
 ld l,"tachi/aki_t01a",crossfade,400
 `“I must be going.@ Take care, Brother, and apply yourself diligently to your studies.”@
 cl a,lshutter,800
-`With that, Akiha leaves the sitting room.@ Kohaku follows, presumably to see her to the front door.@ “Apply myself diligently, she says…”@ Maybe eight years under Father’s discipline did it.@ In little things like that, she sounds old-fashioned—or perhaps simply very proper.@ “…@Well, I was going to school whether she told me to or not.”
+`With that, Akiha leaves the sitting room.@
+`Kohaku follows, presumably to see her to the front door.@
+`“Apply myself diligently, she says…”@
+`Perhaps eight years under Father’s discipline made her sound old-fashioned—or simply very proper.@
+`Well, I was going to school whether she told me to or not.
 \
-`I scratch my cheek.@ The expression Akiha wore as she left struck strangely deep, until all her scolding this morning ceased to matter.@ “Oh—that’s it.”@ I clap my hands together.@ That face looked so much like the Akiha I knew as a child.@ No wonder I couldn’t take my eyes off her—
+`I scratch my cheek.@
+`The expression Akiha wore as she left struck strangely deep, until all her scolding this morning ceased to matter.@
+`“So that’s it[line=4]”@
+`I clap my hands together.@
+`That expression looked so much like the Akiha I knew as a child that it must be why I could not take my eyes off her[line=3]
 \
 bg #000000,lcartain,800
 bg "bg/bg_33a",lcartain,800
-`After eating the breakfast Kohaku prepared, I step into the entrance hall.@ Hisui is waiting there with my schoolbag.@
+`After eating the breakfast Kohaku prepared, I step into the entrance hall.@
+`Hisui is waiting there with my schoolbag.@
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki, are you certain you have enough time?”@ “Sure.@ I can run to school in under twenty minutes.@ It’s seven-thirty now, so I could even take a detour.”@ Apparently satisfied, Hisui gives one small nod.
+`“Master Shiki, are you certain you have enough time?”@
+`“Sure.@ If I run, I can make school in under twenty minutes—even with a detour, I have plenty of time.”@
+`Apparently satisfied, Hisui gives one small nod.
 \
-`“Then I shall see you to the gate.”@ “What—oh.@ Sure, thanks.”@ …@Having a servant assigned especially to me is still painfully embarrassing.
+`“Then I shall see you to the gate.”@
+`“Oh—sure, thanks.”@
+`Having a servant assigned especially to me is still painfully embarrassing.
 \
-`“Shiki!@ Please wait!”@ Kohaku comes pattering down the stairs.@ “…”@
+`“Shiki!@ Please wait!”@
+`Kohaku comes pattering down the stairs.@
+`“…”@
 cl c,crossfade,400
 `The moment Kohaku approaches, Hisui smoothly withdraws a step and falls silent.
 \
 ld c,"tachi/koha_t03",lshutter,400
-`“Huh?@ Weren’t you going with Akiha?”@ “Miss Akiha travels to school by car.@ I stayed behind because I have something to give you this morning.”@ “Something for me?”@ “Yes.@ A parcel arrived from the Arima family yesterday.”@ Kohaku smiles brightly.
+`“Weren’t you going with Akiha?”@
+`“Miss Akiha travels to school by car.@ I stayed behind because I have something to give you this morning.”@
+`“Something for me?”@
+`“Yes.@ A parcel arrived from the Arima family yesterday.”@
+`Kohaku smiles brightly.
 \
-`“What?@ But I brought everything of mine.@ Most of what I used over there belonged to the Arimas, so aside from the clothes on my back, I hardly owned anything…”@ “Is that so?@ This is the parcel they delivered.”@ Kohaku hands me a slender wooden box about twenty centimeters long.@ It weighs very little.
+`“What?@ But I brought everything of mine.@ Most of what I used over there belonged to the Arimas, so aside from the clothes on my back, I hardly owned anything…”@
+`“Is that so?@ This is the parcel they delivered.”@
+`Kohaku hands me a slender wooden box about twenty centimeters long.@
+`It weighs very little.
 \
-`“Kohaku, I’ve never seen this before.”@ “I’m told it was among your father’s effects.@ Apparently his will instructed that it be left to you.”@ “…@That man left something to me?”@ It doesn’t feel real.@ Why would the father who cast me out of this mansion eight years ago leave me a keepsake?
+`“[line=3]Kohaku, I’ve never seen this before.”@
+`“Yes.@ I’m told it was among Master Shiki’s father’s effects.@ Apparently his will instructed that it be left to you.”@
+`“That man left something to me?”@
+`It doesn’t feel real.@
+`Why would the father who cast me out of this estate eight years ago leave me a keepsake?
 \
 `“Whatever.@ Kohaku, leave it in my room for me.”@
 ld c,"tachi/koha_t09",crossfade,400
-`“…”@ Kohaku stares avidly at the wooden box.@ She looks like a child longing for a toy.@
+`“[line=5]”@
+`Kohaku stares avidly at the wooden box.@
+`She looks like a child longing for a toy.@
 br
 `“Staaaaare.”@
 br
-`No.@ She is a child longing for a toy.
+`No—she really is a child.
 \
-`“…@All right, I understand.@ You want to know what’s inside.”@
+`“…@I see—you want to know what’s inside, don’t you?”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Not at all.@ I’m only a little curious.”@ …@Which means she’s curious.@ “Then let’s open it.@ Ready…@ and there.”@ The wooden lid slides aside with a dry whisper.@ Inside lies a slender iron rod, about ten centimeters long.
+`“Not at all.@ I’m only a little curious.”@
+`That still means she’s curious.@
+`“Then let’s open it.@ Ready—and there.”@
+`The wooden lid slides aside with a dry whisper.@
+`Inside lies[line=4]a slender iron rod about ten centimeters long.
 \
-`“…@An iron rod.”@ Plain, well worn, and darkened by years of handling.@ …@If this piece of junk is all Father left me, he must have disliked me even more than I thought.
+`“An iron rod…”@
+`Plain, well worn, and darkened by years of handling.@
+`If this piece of junk is all Father left me, he must have disliked me even more than I thought.
 \
-`“No, Shiki.@ It’s a fruit knife.”@ Kohaku lifts the iron rod from the box.@ “You know those knives with spring-loaded blades?@ It seems to work the same way.@ Ready—there!”@ A snap, and a blade about ten centimeters long leaps from the handle.@ …@She’s right.@ It is a knife.
+`“[line=3]No, Shiki.@ This is a fruit knife.”@
+`Kohaku lifts the iron rod from the box.@ “You know those spring-loaded
+`knives?@ This one seems to work the same way—ready, there!”@ A snap, and a blade about ten centimeters long leaps from the handle.@
+`She’s right.@
+`It is a knife.
 \
-`“It seems very old, but it’s sturdily made.@ There’s a date engraved on the back.”@ Kohaku retracts the blade and hands me the knife.@
+`“It seems very old, but it’s sturdily made.@ There’s a date engraved on the back.”@
+`Kohaku retracts the blade and hands me the knife.@
 cl c,crossfade,400
-`There are indeed characters carved near the bottom of the grip: first the character for seven, then the character for night.
+`There are indeed characters carved near the bottom of the grip.@
+`First the character for seven, then the character for night.
 \
 ld l,"tachi/his_t01",notrans,0
-`“Sis, that isn’t a date.@ It only says Nanatsu-Yoru.”@ “!”@ I whirl around in surprise.@ Hisui, silent until now, has been peering at the knife over my shoulder.
+`“Sis, that isn’t a date.@ It only says Nanatsu-Yoru.”@
+`“!”@
+`I whirl around in surprise.@
+`Hisui, silent until now, has been peering at the knife over my shoulder.
 \
-`“You startled me, Hisui…@ That was mean.@ You didn’t have to sneak up behind me.@ If you wanted to see it, I would’ve shown you.”@
+`“You startled me, Hisui…@ That was mean; you didn’t have to sneak up behind me when I would’ve shown it to you if you asked.”@
 ld l,"tachi/his_t02",crossfade,400
 `“Ah—”@
 br
 `A faint blush instantly rises in Hisui’s cheeks.
 \
-`“M-my apologies.@ I only…@ The dagger was so beautiful that I couldn’t help myself.”@ “Beautiful?@ I don’t know about that.@ It looks more battered than anything.”@
+`“M-my apologies.@ I couldn’t help myself—the dagger was so beautiful.”@
+`“Beautiful?@ I don’t know about that.@ It looks more battered than anything.”@
 ld l,"tachi/his_t01",crossfade,400
-`“—It is nothing of the kind.@ The temper line is exquisite.@ I believe this is an ancient blade with a distinguished history.”@ “…@Really?@ It still looks like junk to me…”
+`“[line=4]It is nothing of the kind.@ Its exquisite temper line marks it as an ancient blade with a distinguished history.”@
+`“Really?@ It still looks like junk to me…”
 \
-`Hisui insists so firmly that I begin to believe her.@ …@Yes.@ Perhaps it isn’t such a bad keepsake after all.
+`Hisui insists so firmly that I begin to believe her.@
+`…@Yes—perhaps it isn’t such a bad keepsake after all.
 \
 ld r,"tachi/koha_t02",notrans,0
-`“Nanatsu-Yoru…@ Could that be the fruit knife’s name?”@ “Maybe.@ Not many people bother naming their knives, though.”@ Whatever else it may be, the thing is clearly an antique.@ “Still, never turn down something free—that’s my creed.”@ I fold the blade away and slip the knife into my trouser pocket.
+`“Nanatsu-Yoru…@ Could that be the fruit knife’s name?”@
+`“Maybe.@ Not many people bother naming their knives, though.”@
+`Whatever else it may be, the thing is clearly an antique.@
+`“Still, never turn down something free—that’s my creed.”@
+`I fold the blade away and slip the knife into my trouser pocket.
 \
 cl r,crossfade,400
-`“Master Shiki, are you certain you have time…?”@ “Damn, I’d better go or I really will be late.@ Kohaku, thanks for bringing me the parcel.”@ Smiling, Kohaku waves away my thanks.
+`“Master Shiki.@ Are you certain you have time…?”@
+`“Damn, I’d better go or I really will be late.@ Kohaku, thanks for bringing me the parcel.”@
+`Smiling, Kohaku waves away my thanks.
 \
 bg #000000,lcartain,800
 bg "bg/bg_48a",lcartain,400
 ld c,"tachi/his_t01",crossfade,400
-`I cross the garden and reach the gate.@ Hisui follows in stately silence.@ “…@Hisui.@ Are you seeing me off?”@ She nods without a flicker of expression.
+`I cross the garden and reach the gate.@
+`Hisui follows in stately silence.@
+`“…@Hisui—are you seeing me off?”@
+`She nods without a flicker of expression.
 \
-`“Master Shiki, when should we expect you home?”@ …@Hisui appears determined to go on calling me Master Shiki.@ I can’t stand here debating it and make myself late for school.@ The question of that “Master”@ will have to wait until we have time.
+`“Master Shiki, when should we expect you home?”@ …@Hisui
+`seems determined to keep addressing me as Master Shiki.@
+`I can’t stand here debating it and make myself late for school.@ The debate over the title will have to wait until we have time.
 \
-`“Master Shiki?”@ “Oh—right.@ I should be back around four.@ I’m not in any clubs.”@ Unless Arihiko talks me into going somewhere, I ought to be home by late afternoon.@ Hisui bows deeply at my very rough estimate.
+`“Master Shiki?”@
+`“Oh—right.@ I should be back around four.@ I’m not in any clubs.”@
+`Unless Arihiko talks me into going somewhere, I ought to be home by late afternoon.@
+`Hisui bows deeply at my very rough estimate.
 \
 ld c,"tachi/his_t16",crossfade,800
-`“Understood.@ Have a safe journey, and please take great care on the way.”@ …@I’m not sure what danger she expects, but she’s probably worried about my health.@ “Thanks.@ You be careful too, Hisui.”@ Kindness deserves kindness in return.@ I raise one hand, give her a cheerful wave, and leave the mansion gate behind.
+`“Understood.@ Have a safe journey, and please take great care on the way.”@
+`…@I’m not sure what danger she expects, but she’s probably worried about my health.@
+`“Thanks.@ You be careful too, Hisui.”@
+`Kindness deserves kindness in return.@
+`I raise one hand, give her a cheerful wave, and leave the estate gate behind.
 \
 bg #000000,lcartain,800
 bg "bg/bg_22a",lcartain,800
 br
-`[line=3]I head down the hill.@ Until now I always commuted from the Arima house, so this is my first journey to school by this route.@ “…@Not many students from our school around here.”@ Apparently few families in this neighborhood send their children there.@ At seven-thirty in the morning, I’m the only uniformed figure jogging down the road.
+`[line=3]I head down the hill.@
+`Until now I always commuted from the Arima home, so this is my first journey to school by this route.@
+`“[line=4]Not many students from our school around here.”@
+`Apparently few families in this neighborhood send their children there.@
+`It is seven-thirty in the morning.@
+`I’m the only uniformed figure jogging down the road.
 \
 bg #000000,lcartain,800
 bg "bg/bg_23a",lcartain,800
-`A few other uniforms begin to appear.@ This must be where the neighborhood roads join the main route to our school.@
+`A few other uniforms begin to appear.@
+`This must be where the neighborhood roads join the main route to our school.@
 br
-`“…@Yumizuka…@ No, I couldn’t be that lucky.”@ I remember the smile of the classmate who parted from me here yesterday, saying her house was this way.@ The moment I think that Satsuki Yumizuka will be waiting in the classroom, my feet quicken almost of their own accord.
+`“Yumizuka—well, I couldn’t be that lucky.”@
+`I remember the smile of the classmate who parted from me here yesterday, saying her house was this way.@
+`The moment I think that Satsuki Yumizuka will be waiting in the classroom, my feet quicken almost of their own accord.
 \
 bg #000000,lcartain,800
 bg "bg/bg_24a",lcartain,800
-`I leave the residential district and reach the intersection.@ Ten minutes until the gates close.@ I break into a run over the asphalt, determined not to be late.@
+`I leave the residential district and reach the intersection.@
+`Ten minutes until the gates close.@
+`I break into a run over the asphalt, determined not to be late.@
 br
 bg #000000,lcartain,400
 bg "bg/bg_01a",lcartain,800
 `[line=6]Made it.@
 br
-`They said thirty minutes from the mansion, but it was closer to twenty.@ I ran part of the way, though.@ If I want a leisurely walk, I’ll have to leave just after seven.
+`They said it was thirty minutes from the estate, but it was closer to twenty.@ Since I ran part of the way, though, I’ll have to leave just after seven for a leisurely walk.
 \
 bg #000000,lcartain,800
 bg "bg/bg_06a",lcartain,400
-`“—?”@ The moment I enter the classroom, I notice something unsettled in the air.@ Mornings are always noisy here, but today’s commotion has a different pitch.@ I walk to my desk by the window.@ Arihiko is waiting there with a sour expression.
+`“[line=4]?”@
+`The moment I enter the classroom, I notice something unsettled in the air.@
+`Mornings are always noisy here, but today’s commotion has a different pitch.@
+`I walk to my desk by the window.@
+`Arihiko is waiting there with a sour expression.
 \
 `“Arihiko, did something happen?”@
 ld c,"tachi/ari_t04",crossfade,400
-`“…@Who knows?@ It’s nothing important.@ Somebody in our class ran away from home, that’s all.”@ “Oh.@ No wonder everyone’s making such a fuss.”@ I sit down and breathe out.@ “—Wait, that is important!@ Who ran away?”@
+`“…@Who knows?@ Nothing important—somebody in our class ran away from home, that’s all.”@
+`“Oh—no wonder everyone is making such a fuss.”@
+`I sit down and breathe out.@
+`“[line=3]Wait, that is important!@ Who ran away—who?!”@
 ld c,"tachi/ari_t03",crossfade,400
 `“How should I know?@ We’ll find out when homeroom starts.@ Whoever ran away won’t be at school, so the empty desk will tell us.”
 \
-`“Right.@ That makes sense.”@ It does, but Arihiko is unusually cold about this.@ …@A classmate has run away from home.@ Treating it like someone else’s problem seems wrong.
+`“Right—that makes sense.”@
+`It does, but Arihiko is unusually cold about this.@
+`A classmate has run away from home, and treating it like someone else’s problem seems wrong.
 \
-`“Arihiko, aren’t you being awfully indifferent?@ One of our classmates has run away.@ Aren’t you worried?”@
+`“Arihiko.@ Aren’t you being awfully indifferent?@ One of our classmates has run away.@ Aren’t you worried?”@
 ld c,"tachi/ari_t01",crossfade,400
-`“What?@ Idiot, you’re probably the only one honestly worried.@ Everyone else is excited because it’s unusual gossip.@ It isn’t as though you or I ran away, so why would I care?”@
+`“What?@ Idiot, you’re probably the only one honestly worried.@ Everyone else is excited because it’s unusual gossip.@
+`It isn’t as though you or I ran away, so why would I care?”@
 br
-`…@Come to think of it, he has always been brutally cold toward anyone outside his own circle.
+`Come to think of it, he has always been brutally cold toward anyone outside his own circle.
 \
 ld c,"tachi/ari_t04",crossfade,400
-`“…@I’m worried in another sense, I suppose.@ Running away at a time like this takes either remarkable courage or remarkable stupidity.”@ “…?@ What do you mean, a time like this?”@ “I told you yesterday.@ There’s a serial killer loose in the city.@ I don’t know where this person ran to, but if they sleep on the street and get carved up by the killer, they’ll have no one to blame but themselves.”@ “Come on—surely nothing like that will happen.”
+`“…@I’m worried in another sense, I suppose.@ Running away at a time like this takes either remarkable courage or remarkable
+`stupidity.”@ “What do you mean, a time like this?”@
+`“I told you yesterday, Tohno.@ Random street killings are spreading through the city.@ I don’t know where this person ran to, but if they sleep on the street and get carved up by a random attacker, they’ll have no one to blame but themselves.”@
+`“No[line=4]surely it won’t come to that.”
 \
-`“Tohno, you need to start watching the news.@ Eight people have died already, all chosen at random.@ Stop imagining you’re somehow safe.@ The city is dead quiet at night now.@ The only people outside are drunks with no sense of danger and police officers.@ It’s become so boring I can hardly stand it.”@ Arihiko’s voice is entirely serious.@ …@Hearing it put that way makes me uneasy too.
+`“Tohno, start watching the news.@ Eight people have died already—do you understand?@ Every victim was chosen at random.@ Stop imagining you’re somehow safe.@
+`The city is dead quiet at night now.@ The only people outside are drunks with no sense of danger and police officers, and the boredom is unbearable.”@
+`Arihiko’s voice is entirely serious.@
+`Hearing it put that way makes me uneasy too.
 \
-`“—Oh, here comes Kunifuji.@ Homeroom at last.”@
+`“[line=3]Oh, here comes Kunifuji.@ Homeroom at last.”@
 cl a,lshutter,400
 `Arihiko returns to his seat.@
 br
-`Soon everyone is seated.@ Only one desk remains empty.@ It is unmistakably Satsuki Yumizuka’s.
+`Soon everyone is seated.@
+`Only one desk remains empty.@
+`It is unmistakably Satsuki Yumizuka’s.
 \
 bg #000000,crossfade,400
 bg "bg/bg_22b",crossfade,400
@@ -144,13 +237,17 @@ br
 br
 br
 br
-`“My house is this way, so I’ll leave you here.@ Bye.@ See you at school tomorrow.”
+`“My house is this way, so I’ll leave you here.@
+`Goodbye—see you at school tomorrow.”
 \
 bg #000000,crossfade,400
 bg "bg/bg_06a",crossfade,400
-`“…”@ …@That is exactly what Yumizuka said when we parted yesterday.@ Whatever may have happened at home, that smile didn’t belong to someone about to run away.
+`“…”@
+`That is exactly what Yumizuka said when we parted yesterday.@ Whatever may have happened at home, that smile didn’t belong to someone about to run away.
 \
-`“Yumizuka is absent, then.”@ At the lectern, our homeroom teacher merely marks Satsuki Yumizuka absent and continues taking attendance.@ …@Homeroom proceeds as though nothing has happened.@
+`“Yumizuka is absent, then.”@
+`At the lectern, our homeroom teacher merely marks Satsuki Yumizuka absent and continues taking attendance.@
+`Homeroom proceeds as though nothing has happened.@
 br
-`And I—
+`I[line=4]
 \

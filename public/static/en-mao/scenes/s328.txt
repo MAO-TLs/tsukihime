@@ -1,13 +1,21 @@
 play "*3"
 wavestop
 bg "bg/bg_04",notrans,0
-`“Arihiko has been my friend since middle school, but—Akiha?”@ “Yes?@ What is it, Brother?”@ “You seem remarkably composed now.@ It’s hard to believe you were so nervous in the cafeteria a minute ago.”@
+`“Arihiko has been my friend since middle school, but—Akiha?”@
+`“Yes?@ What is it, Brother?”@
+`“You seem remarkably composed now.@ It’s hard to believe you were so nervous in the cafeteria a minute ago.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“And what of it, Brother?”@ “I wondered whether you had been putting on an act because everyone was watching.”@ That theory seemed increasingly likely.@ When I thought about it, there was no way this Akiha would be reduced to helpless silence by an ordinary crowd.
+`“And what of it, Brother?”@
+`“I wondered whether you had been putting on an act because everyone was watching.”@
+`That theory seemed increasingly likely.@
+`When I thought about it, there was no way this Akiha would be reduced to helpless silence by an ordinary crowd.
 \
 ld c,"tachi/aki_t18a",crossfade,400
-`“I see.@ So that is how you think of me, Brother.”@ Akiha gave me a long, sour inspection from head to toe.@ …@Had she really put on that whole performance just to fool me?@
+`“I see.@ So that is how you think of me, Brother.”@
+`Akiha gave me a long, sour inspection from head to toe.@
+`Had she really put on that whole performance just to fool me?@
 ld c,"tachi/aki_t21",crossfade,400
-`“Believe whatever you please.@ It isn’t as though I wanted you worrying about me, Brother.”@ Akiha thrust out her chest and sulked with all the dignity of a child declaring, So there.
+`“Believe whatever you please.@ It isn’t as though I wanted you worrying about me, Brother.”@
+`Akiha thrust out her chest and sulked with all the dignity of a child declaring, So there.
 \
 cl c,crossfade,400

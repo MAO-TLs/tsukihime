@@ -5,28 +5,35 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Bonjour!@ Welcome to Teach Me, Ciel!@, the feature for our precocious Tohno, who stumbled into a dead end with astonishing ease.@
+`Bonjour!@
+`Welcome to Teach Me, Ciel!@, the feature for our precocious Tohno,
+`who stumbled into a dead end with astonishing ease.@
 br
-`This is lesson one of day three.@ Only Akiha’s lessons remain now.
+`This is lesson one of day three, and only Akiha’s lessons remain now.
 \
 ld l,"tachi/ark_t30",lshutter,400
 `“Meow?@ Teacher, why did Hisui’s lessons finish before Akiha’s?”@
 br
-`That question is rejected.@ Now, Tohno.@ I understand how you feel, but Yumizuka is in terrible danger.@
+`That question is rejected.@
+`Now, Tohno.@
+`I understand how you feel, but Yumizuka is in terrible danger.@
 br
 `“Huh?@ Isn’t Shiki the one in terrible danger?”
 \
-`She is in terrible danger because I say so.@ A girl in your class is sending an SOS, so this is no time to play the prudent man and keep away from danger.@ Go back a little and investigate the alley properly.@ I’ll see you at the next lesson!
+`She is in terrible danger because I say so.@
+`A girl in your class is sending an SOS, so this is no time to play the prudent man and keep away from danger.@
+`Go back a little and investigate the alley properly.@
+`I’ll see you at the next lesson!
 \
 bg #000000,crossfade,800
 ld c,"tachi/ark_t31a",lshutter,400
-`“…@I’m not satisfied.@ Why did Hisui finish before Akiha?”@
+`“I’m not satisfied.@ Why did Hisui finish before Akiha?”@
 br
 ld l,"tachi/ark_t31b",lshutter,400
 `“I’m not satisfied at all!@ I’m the main heroine, but I never get any screen time, and Shiki keeps ignoring me!”@
 br
 ld r,"tachi/ark_t31b",lshutter,400
-`“That’s right, it’s completely unfair!@ It would be one thing if it were just me, but Ciel still seems to get scenes!@ All anyone sees of me is my back, and now Satsuki is more vampire-like than I am?@ What’s the big idea, Kinoko?!”
+`“That’s right, it’s completely unfair!@ It would be one thing if it were just me, but Ciel still seems to get scenes!@ All anyone sees of me is my back, and how is Satsuki more vampire-like than I am, Kinoko?!”
 \
 ld r,"tachi/ark_t31a",notrans,0
 wait 100

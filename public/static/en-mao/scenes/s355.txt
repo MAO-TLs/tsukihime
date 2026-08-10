@@ -1,68 +1,113 @@
 playstop
 wavestop
 bg "bg/bg_33a",notrans,0
-`…@I should go back to my room for now.@ If I entered the sitting room like this, I probably couldn’t even look Akiha in the face.@ Better to hide upstairs until she left for school than let her see me acting strangely.
+`I should go back to my room for now.@
+`If I walk into the sitting room like this, I probably cannot even look Akiha in the face.@ Better to hide upstairs until she leaves for school than let her see me acting strangely.
 \
 bg #000000,tshutter,800
 bg "bg/bg_40a",tshutter,800
-`…@ ………@ ………………@ ……………………@ …………………………@ It was past seven thirty.@ Looking down at the entrance from my window, I saw Akiha leaving the mansion alone.@ “……”@ A heavy sigh escaped me.@ I felt terrible for her, but right now I had to do something about myself.
+`………@
+`……………@
+`……………………@
+`……………………………@
+`…………………………………@ It is past seven thirty
+`Looking down at the entrance from my window, I see Akiha leaving the mansion alone.@
+`“…………”@
+`A heavy sigh escapes me.@
+`I feel terrible for her, but right now I have to deal with myself.
 \
-`Yesterday’s dream.@ I had believed I was asleep, yet another me had gone out into the night.@ That problem alone consumed everything I had.@ I had no strength left to perform the role of my usual self for Akiha.@ “…@Damn it.”@ Driven out by my own self-disgust, I left my room.
+`Yesterday’s dream.@
+`I thought I was asleep, yet somehow I had gone out into the night.@
+`That problem alone is all I can handle; I have no strength left to play my usual self for Akiha.@
+`“Damn…”@
+`Driven on by self-disgust, I leave my room.
 \
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
 play "*2"
-`The sitting room was empty.@ A single teacup sat forlornly on the table, probably the one Akiha had been using moments ago.@ “……”@ Burdened by guilt, I entered without a word.@
+`The sitting room is empty.@
+`A single teacup sits forlornly on the table.@ It is probably the one Akiha was using moments ago.@
+`“[line=6]”@
+`Burdened by guilt toward Akiha, I enter without a word.@
 br
-`[line=6]Then—
+`[line=6]And then.@
 br
 ld c,"tachi/koha_t04b",bshutter,400
-`“Shiki!”@ Kohaku came out of the kitchen and immediately shouted at me.
+`“Master Shiki!”@
+`Kohaku comes out of the kitchen and immediately shouts at me.
 \
-`“Oh…@ Morning, Kohaku.”@ “Don’t you ‘morning’ me!@ Do you have any idea what time it is?”@ Whether she was genuinely furious or not, Kohaku bore down on me like a storm.@ “…@Sorry.@ I woke up feeling awful and thought I might as well be late.”@ “I am not talking about school!@ I’m asking why you never came downstairs to say so much as one word to Miss Akiha!”@ Kohaku knitted her brows into an indignant scowl.@ “That’s…@ well, I just didn’t feel able to face Akiha this morning, and…”
+`“Morning, Kohaku”@
+`“Do not ‘good morning’ me!@ What time do you think it is, Master Shiki?”@
+`Whether she is genuinely furious or not, Kohaku bears down on me like a storm.@
+`“Sorry.@ I woke up feeling awful and thought I might as well be late”@
+`“I am not talking about school!@ I am asking why you did not come down and say so much as one word to Miss Akiha!”@
+`Kohaku knits her brows into an indignant scowl.@
+`“Well[line=3]I just did not feel able to face Akiha this morning, and[line=3]”
 \
-`“What do you mean, you ‘just didn’t feel able’?@ Miss Akiha waited for you until the very last moment!@ You never spoke to her once, then came downstairs only after she had left.@ That’s cruel!”@
-`“…@Ugh.”@
-`There was no answering her.@ I already felt guilty about avoiding Akiha.@
-`“…@I know.@ It isn’t because I hate her.@ I just couldn’t face talking to her as if everything were normal this morning.”
+`“What do you mean, you just did not feel able?@ Miss Akiha waited until the last possible moment!@ You never said a word to Miss Akiha, then came down only after Miss Akiha had left”@
+`“Ugh…”@
+`There is no answering her.@
+`I already feel guilty about avoiding Akiha.@
+`“I know.@ It is not because I hate her.@ I simply could not face talking to her as if everything were normal this morning”
 \
-`“No, you don’t understand at all!@ You have no idea how Miss Akiha has felt, waiting until this very day.”@ “What?@ Waiting all this time—you mean this morning?”@ “Nothing of the sort!@ She told me never to mention it, but I simply can’t keep quiet any longer.”@
+`“No, you do not understand at all!@ Master Shiki, you have no idea how Miss Akiha has felt, waiting all these years!”@
+`“What do you mean, all this time—you mean this morning?”@
+`“Nothing of the sort!@ Miss Akiha told me never to mention it, but I simply cannot keep quiet any longer!”@
 ld c,"tachi/koha_t08",crossfade,400
-`“Listen carefully, Shiki.@ Miss Akiha can have breakfast with you now, but before she transferred schools it was an enormous ordeal.@ Do you even know where her old school was?”
+`“Listen carefully, Master Shiki.@ Miss Akiha can have breakfast with you now, but before she transferred schools it was an enormous ordeal.@
+`Master Shiki, do you even know where Miss Akiha’s old school was?”
 \
 cl c,crossfade,400
-`…@Akiha’s girls’ academy had been in the neighboring prefecture, if I remembered correctly.@
+`Akiha’s girls’ academy was in the next prefecture, if I remembered right.@
 br
-`“The neighboring…@ prefecture?”@
+`“[line=3]The next prefecture…?”@
 br
-`Wait a second.@ Wouldn’t that be more than an hour away by car?
+`Wait a second.@
+`Wouldn’t that be more than an hour away by car?
 \
 ld c,"tachi/koha_t03b",crossfade,400
-`“At last, you understand.@ Miss Akiha had to leave this house by six every morning to reach school on time.@ Even so, she went to all that trouble because she looked forward to eating breakfast with you.”@ “…@Looked forward to it?@ Why?@ She complained every time she saw my face.”@ “Because Miss Akiha is incapable of being honest about such things.@ If you had managed to rise on time even once, I doubt she would have complained at all.”
+`“At last, you understand”@
+`“Miss Akiha had to leave this house by six every morning to reach school on time.@ Even so, Miss Akiha went to all that trouble because she looked forward to eating breakfast with Master Shiki”@
+`“Why would she look forward to it?@ She complained every time she saw me”@
+`“Because Miss Akiha cannot be honest about things like this.@ If you had gotten up on time even once, I doubt Miss Akiha would have complained”
 \
-`“But you overslept every morning and never once joined her.@ Miss Akiha would say, ‘It’s enough if I see my brother’s face in the morning,’ and refused to let us wake you.”@ “Wh[line=2]”@
+`“But Master Shiki, you overslept every morning and never once joined her.@
+`Miss Akiha would say, ‘It is enough if I see Brother’s face in the morning,’ and refused to let us wake you”@
+`“Wh[line=6]”@
 ld c,"tachi/koha_t02b",crossfade,400
-`“Do you understand a little better now?@ Then please, at the very least, apologize to Miss Akiha for this morning.”@ “……”@ …@I had intended to do that from the beginning.@ But hearing all of this—what was I supposed to do with it?
+`“Do you understand a little better now?@ Then please, at the very least, apologize to Miss Akiha for this morning.”@
+`“[line=6]”@
+`I had meant to do that from the beginning.@
+`But I do not know what I am supposed to do with a story like this.
 \
-`“…@I don’t understand.@ What exactly do you want me to do, Kohaku?”@
+`“I do not understand.@ What exactly do you want me to do, Kohaku?”@
 ld c,"tachi/koha_t15",crossfade,400
-`“Oh, don’t make it so complicated.@ You can carry on exactly as before.@ Miss Akiha simply has trouble being honest, so I only wanted you to show her a little consideration.”@ “……”@ Carry on as before?@ That sounded like the hardest thing she could possibly ask.
+`“Oh, do not make it so complicated”@
+`“Master Shiki, you can carry on exactly as before.@ Miss Akiha merely has trouble being honest, and I only wanted Master Shiki to show her a little consideration”@
+`“……………”@
+`Carrying on as before sounded like the hardest thing she could have asked of me.
 \
 ld c,"tachi/koha_t03b",crossfade,400
 `“Oh, and this conversation is our secret.@ If Miss Akiha learns I told you, I’ll be in dreadful trouble.”@
 cl c,lshutter,400
-`Still smiling, Kohaku went into the dining room.@ “……”@ “Shiki, breakfast is ready.@ Please come in.”@ Her voice carried back to me.@ Hiding my burning face behind one hand, I followed her into the dining room.
+`Still smiling, Kohaku heads into the dining room.@
+`“……………”@
+`“Master Shiki, breakfast is ready, so please come in”@
+`Her voice carries back to me.@
+`Hiding my burning face behind one hand, I follow her into the dining room.
 \
 bg #000000,lcartain,800
 bg "bg/bg_01a",lcartain,800
 `[line=5]In the end, I was late for school.@
 br
-`The school gates were utterly deserted.@ I passed through them alone with first period already halfway over.
+`The school gates are utterly deserted.@
+`I pass through them alone with first period already halfway over.
 \
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_06a",tshutter,800
 wave se_03
 !w2000
-`Second period ended.@ …@If I meant to apologize to Akiha for this morning, now would be the ideal time.
+`Second period ends.@
+`If I am going to apologize to Akiha for this morning, now is the perfect time.
 \

@@ -2,13 +2,18 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_47",lcartain,800
-`I climbed the hill through the residential district and reached the outer wall of the mansion.@ It was a little after two in the morning, and at last sleepiness was catching up with me.@
+`I finished climbing the hill through the residential district and reached the outer wall of the mansion.@
+`It was a little after two in the morning.@
+`At last, sleepiness was catching up with me.@
 br
-`“I wonder if she’ll be all right…”@ I couldn’t stop thinking about Arcueid’s behavior when we parted.@ It hadn’t looked like the pain of her wounds, or anything so simple—
+`“I wonder if she’ll be all right…”@
+`I couldn’t stop thinking about Arcueid’s behavior when we parted.@
+`It hadn’t looked like the pain of her wounds, or anything so simple—
 \
 `“Hmm?”@
 br
-`What was that?@ In the darkness beyond the streetlamp’s reach, I thought someone was standing still.
+`What was that?@
+`In the darkness beyond the streetlamp’s reach, I thought someone was standing still.
 \
 bg #000000,notrans,0
 wait 100
@@ -17,71 +22,110 @@ br
 wave se_01
 `[line=3]Thump.@
 br
-`My heart leaped, cutting off my breath.@ Blood raced through my body several times faster than before.@ That sensation—
+`My heart leaped, cutting off my breath.@
+`Blood raced through my body several times faster than before.@ That sensation—
 \
 br
-`Someone was definitely there.@ The figure drew steadily closer.@
+`Someone was definitely there.@
+`The figure drew steadily closer.@
 br
-`Tap.@ Tap.@ Tap.@ Dry footsteps approached.
+`Tap.@ Tap.@ Tap.@
+`Dry footsteps approached.
 \
 br
 wave se_01
 `[line=4]Thump.@
 br
-`A terrible premonition.@ A chill like a centipede crawling down my spine.
+`A terrible premonition.@
+`A chill like a centipede crawling down my spine.
 \
-`“…”@ The figure came within a few steps.@ At that instant, the streetlamp shattered with a crystalline crack.@
+`“…”@
+`The figure came within a few steps.@
+`At that instant, the streetlamp shattered with a crystalline crack.@
 bg #000000,notrans,0
-`The moon was hidden behind clouds.@ Without warning, the world became darkness.@
+`The moon was hidden behind clouds.@
+`Without warning, the world became darkness.@
 br
-`“!”@ Thump…!@
+`“!”@
+`Thump…!@
 br
-`My heart leaped as though announcing my death.@ Without knowing why, I sprang backward.
+`My heart leaped as though announcing my death.@
+`Without knowing why, I sprang backward.
 \
 bg "bg/ima_14",crossfade,400
-`A blade flashed through the dark.@ I failed to evade it completely; it grazed my glasses, sending them clattering to the ground.
+`A blade flashed through the dark.@
+`I failed to evade it completely; it grazed my glasses.@
+`They clattered to the ground.
 \
-`“You—”@ I was about to demand who he was when the moon slipped through a gap in the clouds and revealed him.
+`“You—”@
+`I was about to demand who he was.@
+`Then the moon slipped through a gap in the clouds for an instant and revealed the figure.
 \
 bg #000000,crossfade,400
 ld c,"tachi/roa_t07a",crossfade,400
-`“What—”@ A man wrapped from head to foot in bandages stood there with a knife in his hand.
+`“What—”@
+`A man wrapped from head to foot in bandages stood there with a knife in his hand.
 \
 cl c,lshutter,400
-`He lunged.@ I raised my own knife on instinct and turned his blade aside.@
+`He lunged.@
+`I raised my own knife on instinct and turned his blade aside.@
 bg "bg/ima_14",lshutter,400
 waveloop se_02
 br
-`Clang.@ Clang.@ Two streaks of light collided and rebounded.@ “—!”@ My thoughts refused to settle.@ The fact that someone was attacking me had thrown me into confusion.
+`Clang, clang—the two streaks of light collided and rebounded.@
+`“—!”@
+`My thoughts refused to settle.@
+`Being attacked had thrown me into confusion.
 \
-`Clang, clang—our knives scattered sparks through the darkness.@ “Kh—”@ I still couldn’t think clearly.@ But it wasn’t the mere fact that I was being attacked.@ It was—
+`Clang, clang—our knives scattered sparks through the darkness.@
+`“Kh—”@
+`I still couldn’t think clearly.@
+`The cause was not the mere fact that I was being attacked.@
 br
-`Clang!@ I met the knife’s sharp thrust with a swing at almost exactly the same angle, knocking it aside.
+`Clang!@
+`I met the knife’s sharp thrust with a swing at almost exactly the same angle, knocking it aside.
 \
-`“Why…?”@ The astonishing thing was my own body.@ His knife never stopped, and in this darkness I could scarcely see, yet I was blocking every stroke perfectly.
+`“Why…?”@
+`The astonishing thing was my own body.@
+`His knife never stopped, and in this darkness I could scarcely see, yet I was blocking every stroke perfectly.
 \
-`“My body’s moving…@ on its own…”@ No.@ That wasn’t it.@ My glasses were gone, and in this darkness the only things visible to my bare eyes were lines and points.@ My arm was simply following them.@
+`“My body is moving on its own—”@
+`No—that wasn’t it.@
+`My glasses were gone, here in the darkness.@
+`My arm was merely following the lines and points visible to my bare eyes.@
 br
-`Because those were all I could see, I slashed blindly at the lines.@ The bandaged man’s knife was forced to intercept mine.@ I wasn’t defending against him.@ He was defending against me.
+`Because those were all I could see, I slashed blindly at the lines.@
+`The bandaged man’s knife was forced to intercept mine.@
+`In other words.@
+`I wasn’t defending against him; he was defending against me.
 \
 br
 `[line=4]I could win…!@
 br
-`I had no idea who he was, but there was no mistake: I was driving him back.@ A shiver of exhilaration ran through my blood at the overwhelming advantage.@ I could win.@ I was stronger than he was.@ And if I was stronger, then when he tried to kill me, all I had to do was kill him first—!
+`I had no idea who he was, but there was no mistake: I was driving him back.@
+`A shiver of exhilaration ran through my blood at the overwhelming advantage.@
+`I could win.@
+`I was stronger than he was.@
+`And if I was stronger, then when he tried to kill me, all I had to do was kill him first—!
 \
 wave se_12
-`Clang.@ Clang.@ To a sound like hammering steel, I drove him against the mansion wall.
+`Clang.@ Clang.@
+`To a sound like hammering steel, I drove him against the mansion wall.
 \
 waveloop se_02
-`“—!”@ I had him.@ I struck like a fang at the ‘line’ across his chest.@
+`“—!”@
+`I had him.@
+`I struck like a fang at the ‘line’ across his chest.@
 monocro #ff0000
 bg "bg/cmo_06",crossfade,400
 br
-`[line=4]In that instant, I thought I saw a boy covered in blood—and Akiha’s tearful face.
+`[line=4]In that instant.@
+`I thought I saw a boy covered in blood—and Akiha’s tearful face—
 \
 monocro off
 bg #000000,crossfade,400
-`“……!”@ I pulled the knife back at the last possible instant.
+`“……!”@
+`I pulled the knife back at the last possible instant.
 \
 br
 br
@@ -93,27 +137,40 @@ br
 \
 bg #9c0120,crossfade,400
 bg #000000,crossfade,400
-`My head.@ My head hurt.@ My footing gave way, and I staggered backward.@ Then I vomited everything in my stomach.@
+`My head.@
+`My head hurt.@
+`My footing gave way.@
+`I staggered backward.@
+`Then I vomited everything in my stomach.@
 br
 `A deep itch spread through the scar on my chest.@
 br
-`My head hurt.@ The old wound in my chest burned.@ My eyes felt ready to spill from their sockets—
+`My head hurt.@ The old wound in my chest burned.@
+`My eyes felt ready to spill from their sockets—
 \
-`“Haaah—ah, aah!”@ The vomiting wouldn’t stop.@ Filth splattered wetly across the asphalt.@ Through it, the bandaged man approached with his knife raised.
+`“Haaah—ah, aah!”@
+`The vomiting wouldn’t stop.@
+`Filth splattered wetly across the asphalt.@
+`And then.@
+`The bandaged man approached with his knife raised.
 \
 bg "bg/ima_14",lshutter,400
 br
 `“—!”@
 br
 wave se_12
-`Clang.@ The impact ran through me as I knocked his knife aside with mine.@ This time I truly had defended myself.@ I knew where he intended to strike, so I met the next blow with another ringing clash.
+`Clang.@
+`The impact ran through me as I knocked his knife aside with mine.@
+`This time I truly had defended myself.@
+`I knew where he intended to strike, so I met the next blow with another ringing clash.
 \
 wave se_12
 br
 `Clang-clang-clang.@
 br
 wave se_12
-`Again and again I deflected a knife moving too fast for my eyes to follow.@ The reason I could defend myself was simple.@
+`Again and again I deflected a knife moving too fast for my eyes to follow.@
+`The reason I could defend myself was simple.@
 waveloop se_02
 `He was aiming for the ‘lines’ on my body.@
 br
@@ -123,7 +180,10 @@ br
 br
 `He was…@ aiming at the lines?
 \
-`“Ah…”@ The exact opposite of before.@ Which meant—could he possibly—
+`“Ah…”@
+`The exact opposite of before.@
+`Which meant.@
+`Could it really be him?@
 br
 `[line=4]Heh.@
 br
@@ -131,9 +191,14 @@ br
 \
 `[line=3]Th…@ ump.@
 br
-`My heart pounded harder than ever.@ Seized by a terror I couldn’t name, I retreated as if fleeing.@ The bandaged man didn’t pursue.@ He only grinned.@ His bulging, bloodshot eyes jeered: So you finally noticed.@
+`My heart pounded harder than ever.@
+`Seized by a terror I couldn’t name, I retreated as if fleeing.@
+`The bandaged man didn’t pursue.@ He only grinned.@
+`His bulging, bloodshot eyes jeered: So you finally noticed.@
 br
-`“You can…@ see them?”@ Yes.@ He could see the ‘lines’ too.
+`“You can…@ see them?”@
+`Yes.@
+`He could see the ‘lines’ too.
 \
 br
 br
@@ -141,15 +206,19 @@ br
 br
 br
 br
-`Then someone like me could be killed in a single blow.
+`Then.@
+`Someone like me could be killed in a single blow—
 \
 br
 `[line=4]Heh.@
 br
-`The man laughed and advanced.@ Even the fingers wrapped around my knife could do nothing but tremble.@
+`The man laughed.@
+`He advanced as he laughed.@
+`Even the fingers wrapped around my knife could do nothing but tremble.@
 br
 bg #9c0120,crossfade,400
-`Three wet sounds of blades driving into flesh.@ Then the crash of a body slammed against the wall.
+`Three wet sounds of blades driving into flesh.@
+`Then the crash of a body slammed against the wall.
 \
 bg #000000,lshutter,400
 wavestop
@@ -157,37 +226,62 @@ wavestop
 br
 `[line=3]I couldn’t grasp what had happened.@
 br
-`Three pipe-like spears had flown from nowhere and pierced the bandaged man.@ They hadn’t merely run him through—they had pinned him to the wall like an insect in a display case.
+`Three pipe-like spears had flown from nowhere and pierced the bandaged man.@
+`They had not merely run him through; they had pinned him to the wall.@
+`Like an insect impaled in a display case.
 \
 br
 `“You…@ interfere…”@
 br
-`His voice was dry and ragged.@ At the same moment, the three spears flared like candles, wrapping the bandaged man in fire.@
+`His voice was dry and ragged.@
+`At the same moment, the three spears flared like candles, wrapping the bandaged man in fire.@
 br
 `“Aaaaaaaaaaaaaagh!”@
 br
-`His agony mingled with the roar of spiraling flames.@ Against the darkness, the sight struck me as beautiful rather than gruesome.
+`His agony mingled with the roar of spiraling flames.@
+`Against the darkness, the sight struck me as beautiful rather than gruesome.
 \
 br
 `“Aaaaaaaaaaaaah!”@
 br
-`The bandaged man—no, the bandages had burned away now, leaving his naked skin exposed—stared at me from inside the flames.@ Bloodshot eyes containing nothing but murder.@ Black eyes like weapons, cursing Shiki Tohno alone.
+`The bandaged man—no, every bandage had burned away.@
+`His naked skin was exposed as he stared at me from inside the flames.@
+`Bloodshot eyes containing nothing but murder.@
+`Black eyes like weapons, cursing Shiki Tohno alone.
 \
-`“What…”@ I could only stare.@ Still wrapped in fire, the man fled.
+`“What…”@
+`I could only stare.@
+`Still wrapped in fire, the man fled.
 \
 bg "bg/ima_18",crossfade,800
-`[line=3]The moon emerged.@ Flames had towered into the night and that monstrous scream had torn through the street, yet everything around me was as quiet as if nothing had happened.@ “…”@ My knees gave way, and I sagged against the wall.
+`[line=3]The moon emerged.@
+`Flames had towered into the night and that monstrous scream had torn through the street, yet everything around me was as quiet as if nothing had happened.@
+`“…”@
+`My knees gave way, and I sagged against the wall.
 \
-`I looked up toward the place the spears had come from.@ Someone stood high above and far away.@
+`I looked up.@
+`In the direction the spears had come from, someone stood high above and far away.@
 bg "event/cel_e04",crossfade,400
-`“…”@ In the distance, a familiar figure stood serenely atop a streetlamp.
+`“…”@
+`Far in the distance.@
+`A familiar figure stood serenely atop a streetlamp.
 \
-`“What…?”@ Clothes like those of a foreign priest.@ A great nail-shaped blade in one hand.@ Eyes as blue and emotionless as the open sky.@ “Ciel…?”@ Moonlight showed me nothing but a silhouette.@ Even so, I thought it looked like her.
+`“What…?”@
+`Clothes like those of a foreign priest.@
+`A great nail-shaped blade in one hand.@
+`Eyes as blue and emotionless as the open sky.@
+`“Ciel…?”@
+`Moonlight showed me nothing but a silhouette.@
+`Even so, I thought it looked like her.
 \
-`“…”@ Our eyes met.@ Then the figure atop the streetlamp vanished as abruptly as a ghost.@
+`“…”@
+`Our eyes met.@
+`Then the figure atop the streetlamp vanished as abruptly as a ghost.@
 bg #000000,crossfade,400
 bg "bg/bg_47",crossfade,800
-`“Ah…”@ I dropped heavily to the ground.@ Perhaps it was the pleasure of the headache fading, or the languor that came as all my tension dissolved.@
+`“Ah…”@
+`I dropped heavily to the ground.@
+`Perhaps it was the pleasure of the headache fading, or the languor that came as all my tension dissolved.@
 br
 `Still leaning against the wall, I watched myself drift softly into sleep.
 \

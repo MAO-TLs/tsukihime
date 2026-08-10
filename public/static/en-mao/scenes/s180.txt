@@ -4,28 +4,46 @@ wavestop
 bg "bg/bg_25b",notrans,0
 `[line=3]I’ll concentrate on the downtown district.@
 br
-`Arcueid was suffering, but she isn't the sort to rest simply because she's in pain.@ She told me to go home.@ Put another way, that must mean she isn't going home herself.@ I think she means to keep hunting the vampire alone.
+`Arcueid was suffering, but she isn't the sort to rest simply because she's in pain.@
+`She told me to go home.@ Put another way, that must mean she isn't going home herself.@
+`I think she means to keep hunting the vampire alone.
 \
-`Then I’ll go downtown and find the vampire—or one of the Dead—before she does.@ I may not be able to find Arcueid, but if I remove my glasses, I can distinguish the Dead from ordinary people.@
+`Then I’ll go downtown and find the vampire—or one of the Dead—before she does.@
+`I may not be able to find Arcueid, but if I remove my glasses, I can distinguish the Dead from ordinary people.@
 br
-`“—All right.”@ I remove my glasses and run toward downtown, enduring the mild pain in my head.
+`“[line=5]All right.”@
+`I remove my glasses and run toward downtown, enduring the mild pain in my head.
 \
 bg #000000,lcartain,800
 monocro #ff00ff
 bg "bg/bg_26a",lcartain,800
-`“Ugh—”@ Pain stabs through my temple.@ I'm not deliberately looking for the ‘lines,’ but merely walking through town with my naked eyes still seems to burden my brain.@
+`“Ugh[line=4]”@
+`Pain stabs through my temple.@
+`I’m not deliberately looking for the ‘lines,’ but merely walking through town with my naked eyes still seems to burden my brain.@
 br
-`“Damn it—there isn't a trace of them anywhere.”@ Everyone walking through downtown bears ordinary ‘lines.@’ Nowhere can I find a figure whose whole body looks blackened by frantic scribbles, like the one I saw before.
+`“Damn it—there isn't a trace of them anywhere.”@
+`Everyone walking through downtown bears ordinary ‘lines.@’ Nowhere can I find a figure whose whole body looks blackened by frantic scribbles,
+`like the one I saw before.
 \
-`“…@Ow.”@ I press two fingers to my temple.@ As long as my glasses remain off, the headache will only worsen.@ Even so, I can't give up this easily.@ After one deep breath, I begin searching downtown all over again.
+`“Ow…”@
+`I press two fingers to my temple.@
+`As long as my glasses remain off, the headache will only worsen.@
+`Even so, I can’t give up this easily.@
+`After one deep breath, I begin searching downtown all over again.
 \
 bg #000000,lshutter,800
 !w1000
 bg "bg/bg_26a",lshutter,800
-`“Haa—haa, haa—”@ Exhaustion and pain make me nauseous.@ No matter how often I circle the district, I can't find one of the Dead or anything else abnormal.@ When I touch my forehead, it is unnaturally hot.@ I feel as though I've caught a vicious fever approaching forty degrees.@ “…@Damn it.@ Not yet—”@ I force myself to resume the search.
+`“Haa[line=3]haa, haa[line=4]”@
+`Exhaustion and pain make me nauseous.@
+`No matter how often I circle the district, I can’t find one of the Dead or anything else abnormal.@
+`When I touch my forehead, it is unnaturally hot.@
+`I feel as though I’ve caught a vicious fever approaching forty degrees.@
+`“Damn it, not yet[line=4]”@
+`I force myself to resume the search.
 \
 br
-`[line=4]Then—
+`[line=4]Then.@
 br
 wave se_12
 mov %flushcount,0
@@ -35,74 +53,123 @@ bg "bg/bg_26a",notrans,0
 wait 16
 dec %flushcount
 if (%flushcount>=0) skip -5
-`“…@Ah.”@ Far from here, in a narrow alley between two buildings, I see something crackling like a shower of sparks.@ No—that isn't quite it.@ It feels as though a ‘point’ of death is snapping apart and vanishing.
+`“Ah…”@
+`Not here, but farther away.@
+`In a narrow alley between two buildings, I see something crackling like a shower of sparks.@
+`No—that isn’t quite it.@
+`It feels as though a ‘point’ of death is snapping apart and vanishing.
 \
-`“—That's…”@ There can be no mistake.@ It is the same thing I saw when Arcueid killed one of the Dead.@ That idiot—she really is fighting alone, even in that condition…!@
+`“[line=4]What is that?”@
+`There can be no mistake.@
+`It is the same thing I saw when Arcueid killed one of the Dead.@
+`That idiot[line=3]she really is fighting alone, even in that condition…!@
 br
-`“—Found you…!”@ Forgetting both fatigue and pain, I race toward the alley.
+`“[line=3]Found you…!”@
+`Forgetting both fatigue and pain, I race toward the alley.
 \
 monocro off
 bg #000000,lcartain,800
 play "*6"
-`The mouth of the alley.@ I run down the narrow passage between the buildings.@
+`The mouth of the alley.@
+`I run down the narrow passage between the buildings.@
 br
-`‘Death’ keeps bursting with sharp little snaps, then vanishing.@ The sheer number is grotesque.@ She must be fighting a horde of the Dead.
+`‘Death’ keeps bursting with sharp little snaps, then vanishing.@
+`There are far too many; she must be fighting a horde of the Dead.
 \
-`“—Ngh.”@ What I cannot bear is the creaking of my spine, growing louder with every step toward the alley.@
+`“[line=6]Ngh.”@
+`What I cannot bear.@
+`It is the creaking of my spine, growing louder with every step toward the alley.@
 br
-`“Hah—ah.”@ It feels as though a saw is cutting slowly through my bones.@ The pain comes from within me.@ Instinct is screaming: what lies ahead is dangerous; turn back now.
+`“Hah[line=5]ah.”@
+`It feels as though a saw is cutting slowly through my bones.@
+`The pain comes from within me.@
+`My instincts scream.@
+`Danger lies ahead; turn back now.
 \
-`“Shut…@ up.”@ I don't need instinct to tell me.@ This much death is not normal.@ Something terrible is happening deeper in the alley.@ But I can't turn back now.@ I can't abandon Arcueid.@ If I run home from here, she will go and die on her own.@ Unable to shake that premonition, I step willingly into the alley saturated with death.
+`“Shut[line=3]up.”@
+`I don’t need instinct to tell me.@
+`This much death is not normal.@
+`Deeper in the alley.@ Something terrible is happening there.@
+`But I can’t turn back now.@
+`I can’t abandon Arcueid.@
+`If I run home from here, she will go and die on her own.@
+`Unable to shake that premonition, I step willingly into the alley saturated with death.
 \
 monocro #ff0000
 monocro #ff0000
 bg "bg/bg_31b",lcartain,800
-`“Wha—”@ My consciousness freezes.@
+`“Wha[line=6]”@
+`My consciousness freezes.@
 br
-`The scene spread before me is beyond sanity.@
+`There is nothing sane about the scene spread before me.@
 br
-`Human shapes lie scattered across the ground.@ Faceless corpses with crushed arms and torn-open entrails, every inch of them dyed scarlet.@
+`Human shapes lie scattered across the ground.@
+`Faceless corpses with crushed arms and torn-open entrails, every inch of them dyed scarlet.@
 br
-`The walls, the pavement—perhaps even the moon overhead.@ Here, everything is simply red.
+`The walls, the pavement—perhaps even the moon overhead.@
+`Here, everything is simply red.
 \
-`A wet, heavy sound.@ Perhaps it is the last one: the humanoid figure blackened with scribbles dies at her hands.@
+`A wet, heavy sound.@
+`Perhaps it is the last one: the humanoid figure blackened with scribbles dies at her hands.@
 br
-`With one hand, she smashes the Dead man’s skull against the wall and crushes it like a tomato.@ As though that still cannot satisfy her, she tears the headless body apart lengthwise and slams it into the pavement.
+`With one hand.@
+`She smashes the Dead man’s skull against the wall and crushes it like a tomato.@
+`As though that still cannot satisfy her, she tears the headless body apart lengthwise and slams it into the pavement.
 \
 monocro off
 bg "bg/bg_31b",crossfade,400
-`“Arc—ueid.”@ In a world made only of moonlight and red, Arcueid stands at the center.@ She has not noticed me.@ She merely gazes up at the moon, breathing hard in ecstasy.
+`“Arc[line=3]ueid.”@
+`A world made only of moonlight and red.@
+`Arcueid stands at its center.@
+`She has not noticed me.@
+`She merely gazes up at the moon, breathing hard in ecstasy.
 \
-`“—”@ I cannot call to her.@ The grinding in my spine has reached its peak.@ The saw feels as though it has already severed the bone.
+`“[line=5]”@
+`I cannot call to her.@
+`The grinding in my spine has reached its peak.@
+`The saw feels as though it has already severed the bone.
 \
 br
-`[line=4]Creak.@ Creak.@
+`[line=4]Creak, creak.@
 br
-`My consciousness screams that I must not stay here.@ That I don’t want to die yet.@
+`My consciousness screams.@
+`It screams that I must not stay here.@ That I do not want to die yet.@
 br
-`Then Arcueid’s eyes swivel toward me.@
+`At that moment.@
+`Arcueid’s eyes swivel toward me.@
 playstop
 ld c,"tachi/ark_t20b",notrans,0
 waveloop se_02
-`Arcueid's eyes are not red, but gold.@ Our gazes do not meet.@ I have merely looked upon that ‘eye.@’
+`Arcueid's eyes are not red, but gold.@
+`Our gazes do not meet.@
+`I have merely looked upon that ‘eye.@’
 \
-`Thump.@ Every drop of blood in my body surges, and my consciousness blanks out.@
+`Thump.@
+`Every drop of blood in my body surges, and my consciousness blanks out.@
 br
 br
 br
 `[line=3]First comes an overwhelming sense of danger.
 \
-`I must not remain here.@ I must not stand before that thing.@
+`I must not remain here.@
+`I must not stand before that thing.@
 br
-`IT WILL KILL ME.@ I CAN NEVER WIN.@
+`IT WILL KILL ME.@
+`I CAN NEVER WIN.@
 br
-`That ‘creature’ exists on another level.@ Not a higher or lower one—the very measure called level is too different from ours to compare.@ Before that thing, simply by standing here, I will unquestionably be killed.
+`That ‘creature’ exists on another level.@
+`It is not a matter of higher or lower; the very scale by which its existence is measured is utterly different from ours.@
+`Before that thing, simply by standing here, I will unquestionably be killed.
 \
-`Thump.@ Every blood vessel in my body swells.@
+`Thump.@
+`Every blood vessel in my body swells.@
 br
-`First comes fear.@ What follows is absolute murderous intent.@
+`First comes fear.@
+`What follows is absolute murderous intent.@
 br
-`That thing must not exist.@ So kill it.@ Kill it quickly.@ Kill it here.@ Kill it now.@ On the pulse of this blood—
+`That thing must not exist.@
+`So kill it.@ Kill it quickly.@ Kill it here.@ Kill it now.@
+`On the pulse of this blood—
 !w500
 `that thing—
 !w500
@@ -111,11 +178,18 @@ br
 br
 `My heart leaps.@
 br
-`Though I know I cannot win, my whole body roars at me to kill.@ What a contradiction—I know it will kill me, yet I’m commanded to kill it.@ The voice says kill because I don’t want to die, yet it also commands me to remain here and be killed.
+`Though I know I cannot win, my whole body roars at me to kill.@
+`What a contradiction—I know it will kill me, yet I’m commanded to kill it.@
+`The voice says kill because I don’t want to die, yet it also commands me to remain here and be killed.
 \
-`“Gah—ah.”@ This is bad.@ I am no longer here.@ I must not look at those eyes—those golden eyes.@ I know that, yet I cannot tear myself away from Arcueid's gaze.
+`“Gah—ah.”@
+`This is bad.@ I am no longer here.@
+`I must not look at those eyes—those golden eyes.@
+`I know that, yet I cannot tear myself away from Arcueid's gaze.
 \
-`Thump, thump.@ My blood boils.@ Its rhythm is impossible to resist.@ But something stronger still is battering at the shell of reason, trying to break free.
+`My blood boils with each thump.@
+`Its rhythm is impossible to resist.@
+`But something stronger still is battering at the shell of reason, trying to break free.
 \
 monocro #ff0000
 bg "bg/bg_31b",crossfade,400
@@ -127,36 +201,48 @@ br
 `“Kh—haa, ah—”@
 br
 br
-`Why do you want to kill her?@ Because you don’t want to die, so you’ll kill before you’re killed?@ No.@ That reason is completely false.@ Murderous intent requires no reason.@ Be honest for once, Shiki Tohno.@ Long ago, you already wanted that woman—
+`Why do you want to kill her?@
+`Because you don’t want to die, so you’ll kill before you’re killed?@
+`No—that reason is completely false.@
+`Murderous intent requires no reason.@
+`Be honest for once, Shiki Tohno.@
+`Long ago[line=3]you already wanted that woman.
 \
 br
 br
-`“Shut…@ up.”@
+`“Shut[line=3]up.”@
 br
-`No—reason is what needs to shut up.@ The voice is right.@ I simply want her.@ I want Arcueid.@ Remember how it felt.@ You knew from the first moment you saw her.@ Ever since you killed that creature with your own hands and lost your murderer’s virginity—!@
+`No—reason is what needs to shut up.@
+`The voice is right.@
+`I simply want her—want Arcueid.@ Remember how it felt.@
+`You knew from the first moment you saw her.@
+`Ever since you killed that creature with your own hands and lost your murderer’s virginity[line=4]!@
 bg "bg/ima_13b",crossfade,800
 monocro off
 \
 br
 br
-`“Aaa—ah.”@
+`“A[line=5]ah.”@
 br
 br
-`Yes.@ I want everything.@
+`Yes—I want everything.@
 !w1200
 `Her heart and body,
 !w700
 `her tears and saliva,
 !w500
-`her blood, flesh, sin, punishment, desire, desperation—everything—
+`her blood, flesh, sin, punishment, desire, desperation[line=6]
 \
 br
 br
-`“Haa…!”@
+`“Haa[line=3]ah…!”@
 br
 br
 br
-`Every breath is agony.@ I can’t hold on to consciousness.@ Arcueid’s eyes are devouring me—golden pupils swaying darkly.
+`Every breath is agony.@
+`I can’t hold on to consciousness.@
+`Arcueid’s eyes are devouring me.@
+`Golden pupils swaying darkly.
 \
 br
 br
@@ -166,132 +252,253 @@ br
 br
 `They are enough—
 !w750
-`to make one death never enough.@
+`enough that I could kill and kill, and still never have enough.@
 !w750
 \
 playstop
 bg "bg/bg_31b",crossfade,400
 ld c,"tachi/ark_t18",crossfade,400
-`“—Shiki!?”@ Arcueid finally notices me.@ Realizing that I am spellbound by her eyes, she changes them back to red at once.@
+`“[line=3]Shiki!?”@
+`Arcueid finally notices me.@
+`Realizing that I am spellbound by her eyes, she changes them back to red at once.@
 br
-`But now it is far too late.
+`But now.@
+`It is far too late.
 \
 bg #000000,lshutter,400
-`Knife in hand, I throw Arcueid to the ground.@ There is no strength in her body, so pinning her is easy.@ I straddle her, press one forearm across the woman’s throat, and raise the other—the arm holding the knife—high overhead.@
+`Knife in hand, I throw Arcueid to the ground.@
+`There is no strength in her body, so pinning her is easy.@
+`I straddle her.@
+`I press one forearm across the woman’s throat and raise the other—the arm holding the knife—high overhead.@
 br
-`All that remains is to drive the blow down between her breasts.
+`All that remains.@
+`I need only drive the blow down between her breasts.
 \
-`“Calm down—!@ This isn’t your own will, Shiki…!”@
+`“Calm down[line=3]!@ This isn’t your own will, Shiki…!”@
 br
-`I hear Arcueid’s voice.@ The core of my skull is boiling.@
+`I hear Arcueid’s voice.@
+`The core of my skull is boiling.@
 br
-`“Shut up—!”@ My arm tightens across her throat.@ Arcueid lifts her chin in pain.@ …@I can hardly believe it.@ A life once so impossibly strong cannot even break free of this single arm.
+`“Shut up[line=5]!”@
+`My arm tightens across her throat.@
+`Arcueid lifts her chin in pain.@
+`I can hardly believe it.@
+`A life once so impossibly strong cannot even break free of this single arm.
 \
-`“Shi—ki.”@ Arcueid pants my name through labored breaths.@ Thump.@ My heart pounds with the frenzy in my blood.
+`“Shi[line=3]ki.”@
+`Arcueid pants my name through labored breaths.@
+`Thump.@
+`My heart pounds with the frenzy in my blood.
 \
 wave se_01
-`“Haa—haa—haa—”@ My breathing unravels.@ My eyes no longer work properly.@ My body is burning, and I need release now.
+`“Haa[line=3]haa[line=4]haa[line=4]”@
+`My breathing unravels.@
+`My eyes no longer work properly.@
+`My body is burning[line=3]and I need release now.
 \
 wave se_01
-`“Haa—haa—haa—”@ I shift my body, sliding my hips down from the woman’s stomach.@ I force Arcueid’s legs apart and settle between them.
+`“Haa[line=3]haa[line=4]haa[line=4]－”@
+`I shift my body.@
+`I slide my hips down from the woman’s stomach.@
+`I force Arcueid’s legs apart and settle between them.
 \
 eroskip 24
 waveloop se_02
-`“Wha…”@ She stares up at me in alarm.@ That look only drives me further out of my mind.@
+`“Wha…”@
+`She stares up at me in alarm.@
+`That look only drives me further out of my mind.@
 br
-`“Haa—haa—haa—”@ I become engorged.@ My cock is hard enough to hurt, and I feel I will go mad unless I rape this woman right now.
+`“Haa[line=4]haa[line=4]haa[line=4]”@
+`I become engorged.@
+`My cock is hard enough to hurt, and I feel I will go mad unless I rape this woman right now.
 \
-`Flushed cheeks.@ A tender throat.@ Beneath me, the body of a woman in every possible sense.
+`Flushed cheeks.@
+`A tender throat.@
+`Beneath me, the fullest, most perfect female body imaginable.
 \
-`“Haa—haa—haa—”@ I can feel the throbbing.@
+`“Haa[line=3]haa[line=3]haa[line=3]”@
+`I can feel the throbbing.@
 br
-`“Haa—haa—haa—!”@ Golden eyes that seemed ready to swallow even my soul.
+`“Haa[line=3]haa[line=3]haa[line=3]!”@
+`Golden.@ Eyes that seemed ready to swallow even my soul.
 \
-`My arm leaves her throat.@ My hand touches her breast, then her body, then her legs.@ I slip my fingers beneath her clothes and over the white skin of her stomach, feeling the chill of her body.
+`My arm leaves her throat.@
+`My hand touches her breast.@
+`I touch her body.@ I touch her legs.@
+`I slip my fingers beneath her clothes and over the white skin of her stomach, feeling the chill of her body.
 \
-`“I told you, no—this isn’t like you, Shiki…!”@
+`“I told you, no[line=3]this isn’t like you, Shiki…!”@
 br
-`Her voice is feverish.@ Her red eyes plead with me.@ At that, the last restraint inside my mind gives way.
+`Her voice is feverish.@
+`Her red eyes plead with me.@
+`At that, the last restraint inside my mind gives way.
 \
 bg "event/ark_h03",lshutter,800
-`“Nn…!”@ I hear a sound as though she were choking back her shame.@ Arcueid desperately tries to push me away with both hands.
+`“Nn…!”@
+`I hear her voice, as though she is trying to choke back her shame.@
+`Arcueid desperately tries to push me away with both hands.
 \
-`I seize both her wrists and pin them to the ground.@ If only I had nails.@ Held beneath me like a woman crucified, Arcueid glares up with naked hatred.
+`I seize both her wrists and pin them to the ground.@
+`If only I had nails.@
+`Held beneath me like a woman crucified, Arcueid glares up with naked hatred.
 \
-`“Ngh—”@ That pose only makes her more alluring.@ Both my hands are occupied too; if I let go, Arcueid will undoubtedly tear my throat out.@
+`“[line=5]Ngh.”@
+`That pose only makes her more alluring.@
+`Both my hands are occupied too.@ If I let go, Arcueid will undoubtedly tear my throat out.@
 br
-`The tension—the balance of force between us, more like we are fighting to the death than I am raping her—drives my animal lust higher.
+`That tension.@ The balance of force between us—more like we are fighting to the death than I am raping her—drives my animal lust higher.
 \
-`“Stop…@ If you don’t, you’ll…@ regret…”@ I refuse to let her finish that tired line.@ With my mouth, the only part of me still free, I begin stripping Arcueid.@
+`“[line=3]Stop[line=3]if you don’t stop, you’ll regret it[line=3]”@
+`I refuse to let her finish that tired line.@
+`With my mouth, the only part of me still free, I begin stripping Arcueid.@
 br
 `Panting through parted lips, I tear savagely at her clothes.
 \
-`“Nnh…@ Shiki, calm…@ down—!”@ Her body gives small, convulsive shudders, yet she still tries to resist.@
+`“Nnh, Shiki, calm down[line=3]!”@
+`Her body gives small, convulsive shudders, yet she still tries to resist.@
 br
 `[line=4]Hah…@
 br
 `My ragged breath traces a path across Arcueid’s stomach.
 \
-`“Ah—nnn…!”@ She must be terribly sensitive; that alone makes her writhe.@ A thrill runs through me.@ I push her clothes aside and trail my tongue over her white skin.
+`“Ah—nnn…!”@
+`She must be terribly sensitive; that alone makes her writhe.@
+`A thrill runs through me.@
+`I push her clothes aside and trail my tongue over her white skin.
 \
-`“Shiki, no—!”@ Strength returns to Arcueid’s arms, but right now I am stronger.@ I will not let her resist.@ I keep forcing her clothes upward.@ Her breasts catch the fabric, so I wrench the top over them.
+`“Shiki, no—!”@
+`Strength returns to Arcueid’s arms, but right now I am stronger.@
+`I will not let her resist.@
+`I keep forcing her clothes upward.@
+`Her breasts catch the fabric, so I wrench the top over them.
 \
-`Her breasts spring free and bounce: two beautifully formed, unmistakably feminine curves.@ I sink my teeth into one.@
+`Her breasts spring free and bounce.@
+`Two beautifully formed, unmistakably feminine curves are there.@
+`I sink my teeth into one.@
 br
 `“Nnaah—!”@
 br
-`Arcueid cries out, her body jolting into an arch.@ I do not care.@ I bite down until I am on the verge of tearing flesh, then run my tongue over it as though savoring the taste.
+`Arcueid cries out.@
+`Her body jolts into an arch.@
+`I do not care.@
+`I bite down until I am on the verge of tearing flesh, then run my tongue over it as though savoring the taste.
 \
-`“Shi…@ ki…@ stop…!”@ A trace of heat enters Arcueid’s voice.@ Her pink nipple stiffens.@ Like a male erection, perhaps: the more I touch it, the harder it rises, heedless of reason.@ “Nn—!”@ Ashamed of it, she desperately smothers her voice.@ “Shiki…@ when this is over, you’ll—”@ Ignoring her, I lap at her breast.
+`“Shiki—stop…!”@
+`A trace of heat enters Arcueid’s voice.@
+`Her pink nipple stiffens.@
+`Like a male erection, perhaps: the more I touch it, the harder it rises, heedless of reason.@
+`“Nn[line=7]!”@
+`Ashamed of it, she desperately smothers her voice.@
+`“Shiki[line=4]when this is over, you’ll[line=3]”@
+`Ignoring her, I lap at her breast.
 \
-`“Nnh…@ ah—!”@ Arcueid’s head jerks.@ The harder I press, the more resiliently her breast springs back against me.@ Her pale flesh grows flushed with excitement, taking on an infuriating, tantalizing red.@ I fasten my mouth over it and suck.@ “Ah…@ nnh…@ ah, nn…”@ Her voice is feverish.@ Sweat gathers over her body.@ Each toss of her head brings another labored breath.
+`“Nnh—ah[line=3]!”@
+`Arcueid’s head jerks.@
+`The harder I press, the more resiliently her breast springs back against me.@
+`Her pale flesh grows flushed with excitement, taking on an infuriating, tantalizing red.@
+`I fasten my mouth over it and suck.@
+`“Ah—nnh—ah, nn[line=4]”@
+`Her voice is feverish.@
+`Sweat gathers over her body.@
+`Each toss of her head brings another labored breath.
 \
-`I ravage the soft breast with my tongue alone.@ There is no meaning in it—only the urge to lick it, wet it, torment it, and see what happens.@
+`I ravage the soft breast with my tongue alone.@
+`There is no meaning in it.@
+`Only the urge to lick it, wet it, torment it, and see what happens.@
 br
-`I bury my face in her chest.@ Her white breasts are slick with saliva, shining with a dull, oily gleam.
+`I bury my face in her chest.@
+`Her white breasts are slick with saliva, shining with a dull, oily gleam.
 \
-`“Ah…@ stop…@ I’ll never…@ forgive you…@ for this…!”@ The words come through clenched teeth.@ That half-suppressed voice, still clinging to shame, grates on me.@ I bite her nipple.@ “Ngh—!”@ Arcueid bucks again, higher this time—less a spasm than an explosion that thrusts her breasts toward me.
+`“Ah—stop—I’ll never forgive you for this…!”@
+`The words come through clenched teeth.@
+`That half-suppressed voice, still clinging to shame, grates on me.@
+`I bite her nipple.@
+`“Ngh[line=4]!!”@
+`Arcueid bucks again.@ This time higher.@
+`Less a spasm than an explosion that thrusts her breasts toward me.
 \
-`I have no intention of caressing her patiently.@ I shift my face.@ “N-no…@ Shiki, please—”@ My tongue travels from her nipple into the valley between her breasts.@ “If you touch me there, I’ll…@ I’ll lose—”@ I suck hard at her bare skin as though determined to leave a mark that will never fade.@
+`I have no intention of caressing her patiently.@
+`I shift my face.@
+`“No, Shiki, please[line=3]”@
+`My tongue travels from her nipple into the valley between her breasts.@
+`“If you touch me there, I’ll lose myself[line=3]”@
+`I suck hard at her bare skin as though determined to leave a mark that will never fade.@
 br
 `“Aah—!”@
 br
-`Arcueid’s arms thrash beneath my hands.@ Holding them down, I keep working my tongue upward, wetting a path from her chest to her collarbone and then along her throat.
+`Arcueid’s arms thrash beneath my hands.@
+`Holding them down, I keep working my tongue upward.@
+`I wet a path from her chest to her collarbone and then along her throat.
 \
-`“This isn’t right…@ Shiki…@ you don’t even…@ like me…!”@ I don’t care.@ I can’t hear her.
+`“This isn’t right—Shiki, you don’t even like me…!”@
+`I don’t care.@
+`I can’t hear her.
 \
-`Arcueid’s sweat-slick body wipes away the last of my reason.@ Already beautiful beyond belief, her figure seems only more vivid glazed in sweat.@
+`Arcueid’s sweat-slick body wipes away the last of my reason.@
+`Already beautiful beyond belief, her figure seems only more vivid glazed in sweat.@
 br
 `[line=3]Thump.@
 br
-`The blood surging through me hurts.@ My cock strains to bury itself inside Arcueid this instant.
+`The blood surging through me hurts.@
+`My cock strains to bury itself inside Arcueid this instant.
 \
-`“Hah, hah, haah—”@ There is no reason to hold back.@ If I want it, I should take it.@ I leave her throat and move my mouth down to the golden hair below her belly.@ “—!”@ Arcueid struggles more violently than ever.@ At this rate she may tear her arms free.
+`“Hah, hah, haah[line=3]”@
+`There is no reason to hold back.@
+`If I want it, I should take it.@
+`I leave her throat and move my mouth down to the golden hair below her belly.@
+`“—!”@
+`Arcueid struggles more violently than ever.@
+`At this rate she may tear her arms free.
 \
-`Before she can, I go lower than the hollow of her navel.@ Amid the golden hair, I set my tongue against the faintly swollen folds of pink flesh twitching there.@
+`Before she can.@
+`I go lower than the hollow of her navel.@
+`Amid the golden hair,
+`I set my tongue against the faintly swollen folds of pink flesh twitching there.@
 br
 `I thrust my tongue between the two folds and lightly catch the round bud above them in my teeth.
 \
-`“Ah—no, don’t—!”@ Arcueid’s back snaps into an arch.@ I have bitten the most sensitive place on a woman’s body.@ The pleasure is of another order entirely from having her skin licked.
+`“Ah—no, don’t—!”@
+`Arcueid’s back snaps into an arch.@
+`I have bitten the most sensitive place on a woman’s body.@
+`The pleasure is of another order entirely from having her skin licked.
 \
-`Looking closer, I see moisture beginning to gather between Arcueid’s inner membranes.@ It smells like beads of honey on fruit grown overripe with juice.@ She is not yet wet enough to admit something inside her, but I do not care.@ Not one corner of my mind intends to make love to this woman properly.@
+`I look.@
+`Moisture is beginning to gather between Arcueid’s inner membranes.@
+`It smells like beads of honey on fruit grown overripe with juice.@
+`She is not yet wet enough to admit something inside her, but I do not care.@
+`Not one corner of my mind intends to make love to this woman properly.@
 br
 `I only want her body.
 \
-`“Shi…@ ki.”@ Perhaps she understands what is coming; Arcueid’s voice has gone frail.@ As if she has lost the will to resist, she gazes at me through swimming eyes.@
+`“[line=5]Shiki.”@
+`Perhaps she understands what is coming; Arcueid’s voice has gone frail.@
+`As if she has lost the will to resist, she gazes at me through swimming eyes.@
 br
-`“…”@ Those wet eyes.@ Does that mean…@ she is crying?
+`“[line=5]”@
+`Those wet eyes.@
+`Does that mean…@
+`she is crying?
 \
 bg #ffffff,crossfade,400
 bg "event/ark_h03",crossfade,400
-`“Ghh…!”@ Pain lances through my skull.@ Keep going, instinct screams.@ Stop here and I will die.@ If I do not subdue this woman now, sooner or later she will slit my throat in my sleep—my heart pounds out that warning.
+`“Ghh…!”@
+`Pain lances through my skull.@
+`Keep going, instinct screams.@
+`Stop here and I will die.@
+`If I do not subdue this woman now, sooner or later she will slit my throat in my sleep—my heart pounds out that warning.
 \
 bg #ffffff,crossfade,400
 bg "event/ark_h03",crossfade,400
-`“…”@ She is crying.@ Why is she crying?@ If it were me, I would never make her cry.
+`“[line=6]”@
+`She is crying.@
+`Why[line=3]is she crying?@
+`If it were me, I would never make her cry.
 \
 bg #9c0120,crossfade,400
 bg "event/ark_h03",crossfade,400
-`Pain tears through my head, screaming at me to keep going.@
-`[line=4]Hesitating is madness.@ There was never any question what I had to do.@ I…@ Arcueid—
+`Pain tears through my head.@
+`It screams at me to keep going.@
+`[line=4]Hesitating is madness.@
+`There was never any question what I had to do.@
+`I want Arcueid[line=5]
 \

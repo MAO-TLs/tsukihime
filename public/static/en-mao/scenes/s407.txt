@@ -1,16 +1,17 @@
 play "*1"
 wavestop
 bg "bg/bg_40c",notrans,0
-`“You don’t have to pound so hard.@ I’m…@ opening it now…”@
+`“You don’t have to pound so hard, I’m opening it now[line=3]”@
 `Half delirious, I turn the lock.@
-`“Brother!”@
-`Akiha rushes into the room, with Kohaku behind her.
+`“Brother[line=3]!”@
+`Akiha rushes into the room.@
+`Kohaku stands behind her.
 \
 bg "event/aki_h13",notrans,0
 wait 100
 bg "bg/bg_40c",notrans,0
 ld c,"tachi/aki_t15b",lshutter,400
-`“Brother, what have you been doing…?@ You’re white as a sheet!@ You should be lying in bed—!”@
+`“Brother, what have you been doing…!@ You’re white as a sheet, you should be lying in bed[line=3]!”@
 cl c,crossfade,400
 br
 wave se_01
@@ -28,46 +29,54 @@ ld c,"tachi/aki_t02b",crossfade,400
 cl c,crossfade,400
 br
 wave se_01
-`[line=4]Thu…@mp.@
+`[line=4]Thump.@
 br
-`Akiha reaches for my arm as she says it.@ Just as she said in the annex.@ She is coming closer to kill me.
+`Akiha reaches for my arm as she says it.@
+`Just as she said in the annex.@
+`She is coming closer to kill me.
 \
-`“Get out!”@
+`“[line=4]Get out!”@
 wave se_10
 quakex 3,10
 ld c,"tachi/aki_t15b",crossfade,400
-`“Wh—Brother, what are you—”@
+`“Wh[line=3]Brother, what are you[line=3]”@
 `“I said get out!@ I’m not going to let you kill me…!”@
 cl c,lshutter,400
-`I slam both hands into Akiha.@ …@But in this condition, I can’t force her out into the hall.@ She only stumbles back a few steps, then glares at me.
+`I shove Akiha back with a thud.@
+`But in this condition, I can’t force her out into the hall.@
+`She only stumbles back a few steps, then glares at me.
 \
 ld c,"tachi/aki_t11b",crossfade,400
 `“Brother, what do you mean?@ Who told you I was going to kill you?”@
-`Akiha stares straight into me.@ My heart bucks.@ Her gaze is sharp enough to lay my confusion bare.@
-`“…@Just get out…!@ I’m not some murderer.@ I’m still a normal human being…!”
+`Akiha stares straight at me.@
+`My heart bucks.@
+`Her gaze is sharp enough to lay my confusion bare.@
+`“Just get out…!@ I’m not some murderer, I’m still a normal human being…!”
 \
 ld c,"tachi/aki_t15b",crossfade,400
-`“A murderer?@ Brother…@ have you really been dragged that far under?”@
-`The words leave her in a daze.@ Of her own accord, Akiha begins backing toward the door.@
+`“A murderer, Brother[line=4]have you really been dragged that far under?”@
+`Akiha murmurs in a daze.@
+`Of her own accord, she backs toward the door.@
 ld c,"tachi/aki_t11b",crossfade,400
-`“…@Very well.@ You seem exhausted, so I’ll return later.”@
-`“Shut up.@ I’m not letting any of you into this room…!”@
+`“Very well.@ You seem exhausted, so I’ll return later.”@
+`“[line=2]Shut up.@ I’m not letting any of you into this room…!”@
 `“….”@
 `Akiha frowns for a single instant, then retreats into the hall.
 \
 ld c,"tachi/aki_t10b",crossfade,400
-`“Brother.@ Tonight I’ll do as you ask, but tomorrow you will do as I say.@ Leaving you alone for even one day is dangerous; two could kill you from sheer debilitation.@ So please—hold on for one more day.”@
+`“Brother.@ Tonight I’ll do as you ask, but tomorrow you will do as I say.@
+`Leaving you alone for one day is dangerous enough; after two, you could die of exhaustion.@ So please hold on for just one more day.”@
 cl c,lshutter,800
 `The door slams shut.
 \
-`“Hah…@ hah…@ hah…”@
+`“Hah, hah, hah.”@
 `I can barely breathe.@ Akiha is right: if this continues, I really will waste away and die.@
-`“Hah…@ hah…@ hah…”@
+`“Hah, hah, hah.”@
 `Even so, that would be better than letting her kill me.@
 br
 `[line=4]I lock the door.@
 br
-`Then I lean against the wall and force my eyes to remain open, refusing to sleep.
+`Then I lean against the wall and keep my eyes open so I will not fall asleep.
 \
 bg #000000,crossfade,1500
 playstop

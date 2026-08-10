@@ -4,44 +4,50 @@ wavestop
 !w2000
 bg "bg/bg_06b",tshutter,800
 play "*1"
-`Classes are over.@ I should go meet Akiha outside the first-year classrooms.@
+`Classes are over.@
+`I should go meet Akiha outside the first-year classrooms.@
 br
 bg "bg/bg_10b",lcartain,400
-`…@The moment I step into the corridor, however, I run straight into her.
+`The moment I step into the corridor, however, I run straight into her.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“Oh, Brother.@ Were you going somewhere?”@
 `“No, I was just coming to get you.@ Were you planning to stop somewhere on the way home?”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“No.@ I thought I might go home with you, so I came looking…”@
-`“Good thing we didn’t miss each other, then.@ Let’s go.@ Kohaku and Hisui will be waiting.”@
+`“I thought I might go home with you, Brother, so I came looking.”@
+`“Good thing we didn’t miss each other, then.@ Let’s go; Kohaku and Hisui will be waiting.”@
 ld c,"tachi/aki_t09",crossfade,400
 `“Yes.@ Let’s go home, Brother.”
 \
 bg #000000,lcartain,800
 bg "bg/bg_23b",lcartain,800
-`“Oh, right.@ There was something I wanted to ask you.”@
+`“Right, there was something I wanted to ask you.”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“Something you wanted to ask me…?”@
 `“Yeah.@ Why do you dislike Ciel so much?@ Did you two know each other before yesterday?”@
 ld c,"tachi/aki_t01a",crossfade,400
 `“No, yesterday was the first time I met her.@ My aversion is instinctive, so it has nothing to do with you.”@
-`“‘Instinctive’?@ What’s that supposed to mean?”@
+`“What do you mean by instinctive?”@
 ld c,"tachi/aki_t21",crossfade,400
-`“It means I can’t control it through conscious feeling.@ It’s much like the way you disliked Father, so please don’t concern yourself with it.”
+`“It means I cannot control how I feel.@ It is much like the way you disliked Father, so please do not concern yourself with it.”
 \
-`“Now listen, Akiha.@ I may have found Father difficult, but I never hated him.”@
+`“[line=3]Now listen, Akiha.@ I may have found Father difficult, but I never hated him.”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“And I don’t hate her.@ …@Admittedly, I went too far today.@ I regret it, so please forgive what happened at lunch.”@
-`“…@All right.@ If you say so.”
+`“I don’t hate her either.@ Admittedly, I went too far today.@ I regret it, so please overlook what happened at lunch.”@
+`“I see.@ Then I suppose it’s all right.”
 \
 cl a,crossfade,400
-`…@Then I suppose there’s nothing to worry about.@ Ciel joins us for lunch more often than not, so having her and Akiha at each other’s throats would be a problem.@ If Akiha means what she says, perhaps Arihiko and I won’t have to sit there sweating bullets from tomorrow on—
+`Then I suppose there’s nothing to worry about.@
+`Ciel joins us for lunch more often than not, so having her and Akiha at each other’s throats would be a problem.@
+`If Akiha means what she says, perhaps Arihiko and I won’t have to sit there sweating bullets from tomorrow on[line=3]
 \
 bg #000000,lcartain,800
 !w1000
 playstop
 bg "bg/bg_40b",rcartain,800
-`“Whew.”@
-`I toss my bag onto the desk and sit on the bed.@ Now what?@ Akiha had another lesson and left by car almost as soon as we got home.@ Come to think of it, Kohaku and Hisui both looked busy as they crossed the garden.
+`“[line=4]Whew.”@
+`I toss my bag onto the desk and sit on the bed.@
+`Now what?@
+`Akiha had another lesson and left by car almost as soon as we got home.@
+`Come to think of it, Kohaku and Hisui both looked busy as they crossed the garden.
 \

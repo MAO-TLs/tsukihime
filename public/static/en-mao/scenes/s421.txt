@@ -3,39 +3,68 @@ wavestop
 bg "bg/bg_33d",notrans,0
 `[line=4]I should go back to my room.@
 br
-`Hisui’s words churned endlessly inside my head.@ My body was heavy enough already; now invisible chains forged from those words made every movement stiff and awkward.@
+`Hisui’s words churned endlessly inside my head.@
+`My body was heavy enough already; now invisible chains forged from those words made every movement stiff and awkward.@
 play "*6"
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
-`I tried to climb the stairs, and my body creaked in protest.@ My legs wouldn’t rise.@ Walking on level ground was all I could manage.@ “…@What’s wrong with me?”@ There was no choice.@ I would return to the kitchen and ask Hisui for her shoulder—
+`“…”@
+`I tried to climb the stairs, and my body creaked in protest.@
+`My legs wouldn’t rise.@ Walking on level ground was all I could manage.@
+`“What’s wrong with me?”@
+`There was no choice.@ I would return to the kitchen and ask Hisui for her shoulder[line=4]
 \
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
 quakey 2,300
-`“What…?”@ I turned toward the kitchen and collapsed onto the carpet.@ “Wait…@ just…”@ I couldn’t even raise my voice.@ Dragging myself by my arms, I crawled a short distance before my strength deserted me.
+`“What…?”@
+`I turned toward the kitchen and collapsed onto the carpet.@
+`“Wait[line=3]just”@
+`I couldn’t even raise my voice.@
+`Dragging myself by my arms, I crawled a short distance before my strength deserted me.
 \
 bg "bg/ima_10b",crossfade,800
 !w2000
-`Sharp footsteps approached from the kitchen.@ Hisui was coming.@ Saved.@ Now she could help me up— Click, click, click, click, click.@ “…@You’re kidding.”@ Crawling away from the stairs had worked against me.@ I had ended up behind an obstruction, and Hisui passed without noticing me, then climbed the stairs.
+`Sharp footsteps approached from the kitchen.@
+`Hisui was coming.@
+`Saved.@ Now she could help me up[line=3]
+`Click, click, click, click, click.@
+`“You’re kidding.”@
+`Crawling away from the stairs had worked against me.@
+`I had ended up behind an obstruction, and Hisui passed without noticing me, then climbed the stairs.
 \
-`“…@I look unbelievably stupid right now, don’t I?”@
+`“I look unbelievably stupid right now, don’t I?”@
 wave se_01
-`The moment I muttered it, a chill ran through me.@ I sensed someone nearby.@
+`The moment I muttered it, a chill ran through me.@
+`I sensed someone nearby.@
 br
+`“[line=11]!”@
 `Still sprawled on the floor, I wrenched my gaze behind me.@
 br
-`There stood a human shape, pale and insubstantial as a ghost.
+`There.@
+`A human shape stood there, pale and insubstantial as a ghost.
 \
 waveloop se_02
-`Only then did I understand my situation.@ A body that wouldn’t move.@ A voice that wouldn’t come.@ A dark Western mansion without a light burning anywhere.@ And someone staring fixedly at their prey.@ With the stage set so perfectly, being murdered was practically mandatory.@ The scene belonged in a cheap horror film, and instead of nausea, laughter welled up inside me.
+`“…”@
+`Only then did I understand my situation.@
+`A body that wouldn’t move.@
+`A voice that wouldn’t come.@
+`A dark Western mansion without a light burning anywhere.@
+`And someone staring fixedly at their prey.@
+`With the stage set so perfectly, being murdered was practically mandatory.@
+`The scene belonged in a cheap horror film, and instead of nausea, laughter welled up inside me.
 \
 bg #9c0120,crossfade,400
 bg "bg/ima_10b",crossfade,400
-`“…@Ha.@ Haha…”@ The “someone”@ drew near without making a sound.@ Perhaps it was the tension of impending death; the world began spinning faster still.@
+`“Ha[line=4]ha, ha”@
+`The figure drew near without making a sound.@
+`Perhaps it was the tension of impending death; the world began spinning faster still.@
 bg #9c0120,crossfade,400
 bg "bg/ima_10b",crossfade,400
-`The presence stopped.@ The “someone”@ looked down at me.@ Then, toward my defenseless back—
+`“…”@
+`The presence stopped.@
+`The figure looked down at me, then turned toward my defenseless back[line=4]
 playstop
 br
 `“Shiki, you’ll catch cold if you sleep in a place like this.”@
@@ -45,7 +74,12 @@ br
 wavestop
 bg "bg/bg_33d",tshutter,800
 play "*3"
-`“…@Kohaku?”@ “Yes, it’s me.@ Why?”@ Every ounce of strength left me at once.@ “Shiki?@ What happened?@ Why are you lying here?”@ Her voice remained relentlessly bright.@ Perhaps the relief was too much, because then—
+`“Kohaku?”@
+`“Yes, it’s me—what is it?”@
+`Every ounce of strength left me at once.@
+`“Shiki?@ Why are you lying here?”@
+`Her voice remained relentlessly bright.@
+`Perhaps the relief was too much, because then[line=3]
 bg #000000,crossfade,800
 `My consciousness, already rocking with vertigo, went out completely.
 \
@@ -55,56 +89,104 @@ phase "bg/bg_36d",l,koha,08a,8
 bg #ffffff,crossfade,800
 bg "bg/bg_40a",crossfade,400
 play "*2"
-`Strong sunlight pressed against my eyelids.@ When I opened them, I was in my own room, properly dressed in pajamas and lying in bed.@ “That’s right…@ last night.”@ I had collapsed in the foyer.@ Hisui had passed without seeing me, and Kohaku had come when she heard the noise.@ “…@Then Akiha must have been the one who went out.”@ Knowing her sense of responsibility, she had probably gone into the city to hunt for SHIKI.@ “…@Idiot.@ I told her to leave SHIKI to me…”
+`When I opened my eyes to strong sunlight, I was in my own room.@
+`I was wearing pajamas and lying in bed.@
+`“That’s right[line=5]yesterday”@
+`I had collapsed in the foyer.@
+`Hisui had passed me, and Kohaku had come afterward.@
+`“Then Akiha must have been the one who went out.”@
+`Probably.@ Knowing Akiha’s sense of responsibility, she had gone looking for SHIKI.@
+`“Idiot.@ I told her to leave SHIKI to me…”
 \
 wave se_04
-`“Excuse me.”@ A knock sounded, and the door opened.@ Kohaku entered carrying a basin, towels, and an assortment of other things.@
+`“Excuse me.”@
+`A knock sounded, and the door opened.@
+`Kohaku entered carrying a basin, towels, and an assortment of other things.@
 ld c,"tachi/koha_t02",lshutter,800
-`“Oh, good morning, Shiki.@ How are you feeling?”@ Kohaku approached with her usual smile.@ Last night’s conversation with Hisui came rushing back.@ I shoved it into a distant corner of my mind and returned as normal a smile as I could manage.
+`“Oh, good morning, Shiki.@ How are you feeling?”@
+`Kohaku approached with her usual smile.@
+`“…”@
+`Last night’s conversation with Hisui came rushing back.@
+`I shoved it into a distant corner of my mind and returned as normal a smile as I could manage.
 \
-`“Morning, Kohaku.@ Um…@ were you the one who brought me here after I collapsed last night?”@
+`“Morning, Kohaku.@ Were you the one who brought me here after I collapsed last night?”@
 ld c,"tachi/koha_t03",crossfade,400
-`“What, don’t you remember, Shiki?@ You were lying in the foyer.@ When I called to you, you stood up all by yourself and said, ‘Ah, what a wonderful nap!@’ Then you started walking.@ I lent you my shoulder, but you made it back here on your own.”@ “…@I don’t remember any of that.@ Maybe I’ve been too tired lately.@ I keep losing track of what I’ve been doing.”@ “Oh?@ Then don’t you remember last night either?”@ “…@Probably not.@ My memory stops in the kitchen, when—”@ When Hisui told me the truth about herself and Kohaku.
+`“What, don’t you remember, Shiki?@ You were lying in the foyer when I called to you.@ You stood up by yourself, said you had slept well, and started walking.@ I lent you my shoulder, but you made it back here on your own.”@
+`“I see.@ I don’t remember any of that.@ Maybe I’ve been too tired lately.@ I keep losing track of what I’ve been doing.”@
+`“Oh.@ Then don’t you remember last night either?”@
+`“Probably not.@ My memory stops in the kitchen, when[line=5]”@
+`That was when Hisui told me the truth about herself and Kohaku.
 \
 ld c,"tachi/koha_t05",crossfade,400
-`“Ahaha, what a shame, Shiki.@ You spent the whole time apologizing to me.@ I kept asking what you were sorry for, but all you would say was, ‘I’m an idiot.@ I’m a blockhead.@’ Shiki, are you really a blockhead?”@ “No.@ I’m fairly sure I’m human.”@ Although at this rate, I did expect people to start throwing stones at me for being a hopelessly insensitive good-for-nothing.@
+`“Ahaha, what a shame, Shiki.@ You spent the whole time apologizing to me.@
+`I kept asking what you were sorry for, but all you would say was that you were an idiot and a blockhead.@
+`Shiki, are you really a blockhead?”@
+`“No.@ I’m fairly sure I’m human.”@
+`Although at this rate, I did expect people to start throwing stones at me for being a hopelessly insensitive good-for-nothing.@
 cl c,crossfade,400
-`“…@Anyway, thank you.@ If I’d slept in the foyer all night, I’d have caught a cold, and school—”@ Wait.@ Unless my eyes deceived me, the clock was well past ten.
+`“Anyway, thank you.@ If I’d slept in the foyer all night, I’d have caught a cold, and school[line=3]”@
+`Wait.@ Unless my eyes deceived me, the clock was well past ten.
 \
 `“School!@ Kohaku, school!”@
 ld c,"tachi/koha_t03",crossfade,400
-`“Your school is closed today for its anniversary.”@ Oh.@ Right.@ There was such a day, wasn’t there?@ I had been so distracted at school lately that even that had slipped my mind.
+`“Yes.@ Your school is closed today for its anniversary.”@
+`“…”@
+`I see.@ Come to think of it, there was such a day.@
+`I had been so distracted at school lately that even that had slipped my mind.
 \
-`“Well, I should still get up.@ If Akiha hears I slept this late—”@ I pushed myself upright.@
+`“Well, I should still get up.@ If Akiha hears I slept this late[line=3]”@
+`I pushed myself upright.@
 quakey 2,300
-`“What…?@ My body won’t…”@ It refused to move properly.@ I braced my arms to sit up, but no strength would enter them.
+`“What[line=4]my body won’t move”@
+`It refused to move properly.@
+`I braced my arms to sit up, but no strength would enter them.
 \
 ld c,"tachi/koha_t01a",crossfade,400
 `“You still seem unwell.@ Your temperature was around thirty-eight degrees this morning, and you’re still rather pale.@ I know you’ll be bored, but please stay in bed and rest today, Shiki.”@
 cl c,lshutter,400
-`Kohaku laid a towel wrung out in cold water across my forehead.@ It was wonderfully cool.
+`Kohaku laid a towel wrung out in cold water across my forehead.@
+`It was wonderfully cool.
 \
-`“Hmm.@ Your fever has come down for now.@ You’ve mostly stopped sweating, and the color is returning to your face, so you should be feeling much better by tonight.”@ Kohaku briskly produced a thermometer, an ice pillow, and one instrument after another.@ By the end, she even made me open my mouth so she could examine my tongue.
+`“Hmm, your fever has come down for now.@ You’ve mostly stopped sweating, and the color is returning to your face, so you should be feeling much better by tonight.”@
+`Kohaku briskly produced a thermometer, an ice pillow, and one instrument after another.@
+`By the end, she even made me open my mouth so she could examine my tongue.
 \
 ld c,"tachi/koha_t03",lshutter,400
 `“I’ll bring you some rice porridge right away.@ You must behave yourself today, Shiki.”@
 cl c,lshutter,400
 `“Wait—Kohaku.”@
 ld c,"tachi/koha_t03",lshutter,400
-`“Yes?@ What is it, Shiki?”@ Kohaku was still Kohaku.@ That smile, bright enough to restore the spirits of anyone who saw it, had not changed.@ I could not believe it was merely an act.
+`“Yes?@ What is it, Shiki?”@
+`Kohaku was still Kohaku.@
+`That smile, bright enough to restore the spirits of anyone who saw it, had not changed.@
+`I could not believe it was merely an act.
 \
-`“…@No, it’s nothing.@ I’m looking forward to the porridge.”@
+`“No, it’s nothing.@ I’m looking forward to the porridge.”@
 ld c,"tachi/koha_t05",crossfade,400
-`“All right.@ I’ll leave you to rest.”@
+`“All right, I’ll leave you to rest.”@
 cl c,lshutter,400
-`Kohaku pattered out into the corridor.@ I watched her go without a word.
+`Kohaku pattered out into the corridor.@
+`I watched her go without a word.
 \
 bg #000000,tshutter,400
 playstop
 !w2500
 bg "bg/bg_40a",bshutter,400
 play "*1"
-`Noon arrived.@ After bringing my porridge, Kohaku returned to her work around the mansion.@ Alone again, I could only sigh at the madness of my situation.@ I was adopted.@ Akiha had said it didn’t matter.@ Hisui and Kohaku.@ And somewhere outside, the murderer still roamed free.
+`Noon arrived.@
+`After bringing my porridge, Kohaku returned to her work around the mansion.@
+`“Haaah…”@
+`Alone again, I could only sigh at the madness of my situation.@
+`I was adopted.@
+`Akiha had said it didn’t matter.@
+`Hisui and Kohaku.@
+`And somewhere outside, the murderer still roamed free.
 \
-`Kohaku said the morning news had reported no new deaths.@ Even so, as long as SHIKI remained at large, there would surely be more victims.@ “…@If only this body would do what I tell it, I could—”@ Stop SHIKI, I had nearly said.@ I buried my face in the pillow.@ Perhaps those dreams had infected me; the impulse to take matters into my own hands was dangerous in its own right.@ “…@Whatever I do, I need to get well first.”@ I closed my eyes.
+`It was noon.@
+`After bringing me rice porridge, Kohaku returned to her work around the mansion.@
+`“If only this body would do what I tell it, I could[line=3]”@
+`I nearly said I would stop SHIKI, then buried my face in the pillow.@
+`Perhaps those dreams had infected me.@ My thoughts were as dangerous as SHIKI’s.@
+`“Whatever I do, I need to get well first.”@
+`I closed my eyes.
 \

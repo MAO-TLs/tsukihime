@@ -1,55 +1,90 @@
 play "*3"
 bg "bg/bg_09b",notrans,0
 ld c,"tachi/cel_t08",crossfade,400
-`“What?@ Oh, I was just surprised that you seemed more at ease with all this than I am.”@ “Not really.@ My family was always strict, so I’m simply used to it.@ More importantly, didn’t you have something you wanted to discuss?”@ “I did.@ I wanted to continue our conversation from lunch.”@ “…@The conversation about my family?”@ She nodded.
+`“What?@ Oh, I was just surprised that you seemed more at ease with all this than I am.”@
+`“Not really.@ My family was always strict, so I’m simply used to it.@ More importantly, didn’t you have something you wanted to discuss?”@
+`“I did.@ I wanted to continue our conversation from lunch.”@
+`“The conversation about my family?”@
+`Ciel nodded.
 \
 ld c,"tachi/cel_t02",crossfade,400
-`“If you don’t mind, I’d like to hear a little more.@ We stopped halfway through at lunch, and it’s been bothering me.”@ “…@I don’t mind, but there’s nothing interesting about my family.@ Listening would only waste your time.”@
+`“If you don’t mind, I’d like to hear a little more.@ We stopped halfway through at lunch, and it’s been bothering me.”@
+`“I don’t mind, but there’s nothing interesting about my family.@ Listening would only waste your time.”@
 ld c,"tachi/cel_t03",crossfade,400
-`“It doesn’t need to be interesting.@ I simply want to hear it.”@ “…@You have peculiar tastes.”@ “Perhaps I do,”@ she said with a smile.
+`“It doesn’t need to be interesting.@ I simply want to hear it.”@
+`“…@You really are curious, Ciel.”@
+`She smiled and admitted that perhaps she was.
 \
 playstop
 ld c,"tachi/cel_t01a",crossfade,400
 play "*2"
-`“Then let’s pick up where we left off.@ You said you were moving into your own home.@ What exactly did you mean?”@ Her question was full of interest.@ …@To someone who knew none of the circumstances, our exchange at lunch must indeed have sounded hopelessly fragmentary.
+`“Then let’s pick up where we left off.@ You said you were moving into your own home—what exactly did you mean?”@
+`Her question was full of interest.@
+`To someone who knew none of the circumstances, our exchange at lunch must indeed have sounded hopelessly fragmentary.
 \
-`“Well, in short, I’m the boy who got thrown out by his own family.@ There you have it.@ Apparently I was caught in a traffic accident when I was nine and badly injured.@ The wound itself somehow healed, but afterward I kept fainting from anemia and throwing up whatever I ate.@ The plan was to let me recuperate for a while, so I was sent to live with relatives named Arima.”@
+`“[line=3]Well.@ In short, I’m the boy his family disowned.@
+`Apparently I was caught in a traffic accident when I was nine and badly injured.@
+`The wound itself somehow healed, but afterward I kept fainting from anemia and throwing up whatever I ate; the plan was to let me recuperate for a while, so I was sent to live with relatives named Arima.”@
 ld c,"tachi/cel_t07a",crossfade,400
 `“Then the Arimas have effectively been your parents since you were nine?”
 \
-`“Yes.@ For some reason, my father disliked me.@ From the moment he sent me to the Arimas, I knew I would never return to my own home—the Tohno mansion.@ So I always intended to live as one of the Arima children.@ That was the plan, but my father recently dropped dead.@ Now that he’s gone, I’ve finally said yes to the invitation to come back.”@
+`“Yes—for some reason, my father disliked me.@ From the moment he sent me to the Arimas, I knew I would never return to my own home—the Tohno estate.@ So I always intended to live as one of the Arima children.@
+`That was the plan, but my father recently dropped dead.@ Now that he’s gone, I’ve finally said yes to the invitation to come back.”@
 br
 `[line=3]And there you have it: the family circumstances of one Shiki Tohno.@
 br
-`That was how I brought the story to a close.@ Ciel gave a tiny, silent nod.
+`That was how I brought the story to a close.@
+`Ciel gave a tiny, silent nod.
 \
-`“…@May I ask one thing?”@ “Hm?@ If it’s something I can answer, ask away.”@ “…@Then I will.@ Did you dislike your former family after all?”@
+`“May I ask one thing?”@
+`“Hm?@ If it’s something I can answer, ask away.”@
+`“Then I will.@ Did you dislike your former family after all?”@
 br
-`My former family—she meant the Arima couple who had raised me.@ A father and mother who were not my true parents.@ An unfamiliar building that should have been someone else’s home.@ But none of that mattered—
+`My former family[line=3]she meant the Arima couple who had raised me.@
+`A father and mother who were not my true parents.@
+`An unfamiliar building that should have been someone else’s home.@
+`But none of that mattered[line=3]
 \
-`“No.@ I loved them.@ They never cared that we weren’t related by blood.@ They were so warm that I felt guilty whenever I sat brooding alone.@ And I thought there was something good in being able to trust such blind, unquestioning affection.”@
+`“No—I loved them.@ They never cared that we weren’t related by blood and were so warm that I felt guilty whenever I sat brooding alone.@
+`And I thought there was something good in being able to trust such blind, unquestioning affection.”@
 br
-`[line=3]These people love me.@ So I have to hurry.@ Even one day sooner, I have to become a real member of their family—
+`[line=3]These people love me.@
+`So I have to hurry,
+`Even one day sooner, I have to become a real member of their family[line=3]
 \
-`I had repeated those words to myself ever since I was small.@ …@Ever since a time so long ago it scarcely felt real.@ Again and again, until the years made me dizzy, I had sworn the same vow—
+`I had repeated those words to myself ever since I was small.@
+`Ever since a time so long ago it scarcely felt real.@
+`Again and again, until the years made me dizzy, I had sworn the same vow[line=3]
 \
-`“…@Arihiko was right.@ There wasn’t a single thing I resented about the Arimas.@ They treated me well, and I think I returned their affection.@ Of course we both knew we were playing at being a family, but even that little performance never caused me pain.”@ No—if anything, I had been happy.@ In a sense, I think they and I had made the perfect parents and son.
+`“Arihiko was right—I didn’t resent a single thing about living with the Arimas.@
+`They treated me well, and I think I returned their affection.@
+`Of course we both knew we were playing at being a family, but even that little performance never caused me pain.”@
+`No—if anything, I had been happy.@
+`In one sense, at least.@ I think the Arimas and I made the perfect parents and son.
 \
-`“—But it still wasn’t enough.”@ “…@No.@ I could never cross that final boundary.@ I couldn’t drive the words ‘you aren’t truly family’ out of my head.@ I knew I ought to ignore them, but I simply couldn’t.@ Maybe it comes from something that happened when I was little; I don’t know.@ At this point it feels like a curse.@ Wherever I went, I felt as though my family and I would always be strangers.”@
+`“[line=3]But it still wasn’t enough.”@
+`“No—I could never cross that final boundary.@ I couldn’t drive the words ‘you aren’t truly family’ out of my head.@ I knew I ought to ignore them, but I simply couldn’t.@
+`Maybe it comes from something that happened when I was little; I don’t know.@
+`At this point it feels like a curse.@ Wherever I went, I felt as though my family and I would always be strangers.”@
 ld c,"tachi/cel_t09",crossfade,400
-`She said nothing.@ Her eyes slid away, and she drew in her shoulders apologetically.
+`She said nothing.@
+`She looked away and hunched her shoulders as if apologizing.
 \
-`“See?@ It was a dull story.@ I told you it would waste your time.”@
+`“See?@ It was a dull story, just as I warned you.”@
 ld c,"tachi/cel_t03",crossfade,400
-`“No, not at all.@ It was a very worthwhile conversation.”@ She forced a smile, trying to soften the mood.@
+`“No, not at all.@ It was a very worthwhile conversation.”@
+`She forced a smile, trying to soften the mood.@
 ld c,"tachi/cel_t02",crossfade,400
 `“It did surprise me a little, though.@ I had always thought you were such an easygoing boy.”
 \
-`“Mm, I am easygoing most of the time.@ I made ‘enjoy the present whenever possible’ my motto.@ Isn’t it happier to look forward to what comes next than to dwell on what’s already over?”@ Admittedly, I had stolen that philosophy wholesale from Arihiko.@
+`“Mm, I am easygoing most of the time.@ I made ‘enjoy the present whenever possible’ my motto.@ Isn’t it better to look forward to what comes next than to dwell on what’s already over?”@
+`Admittedly, I had stolen that philosophy wholesale from Arihiko.@
 ld c,"tachi/cel_t04",crossfade,400
-`“Looking forward to what comes next…@ That sounds lovely.”@ With a smile of extraordinary gentleness, she sipped her tea.@
+`“Looking forward to what comes next…@ That sounds lovely.”@
+`Ciel smiled very gently and sipped her tea.@
 cl a,lshutter,400
-`I followed her example and raised my cup.@ With a quiet slurp, the faintly sweet bitterness ran down my throat.
+`I followed her example and raised my cup.@
+`The tea slid down my throat, bitter with a faint sweetness.
 \
 bg #000000,lcartain,800
 playstop

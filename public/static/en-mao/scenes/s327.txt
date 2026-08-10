@@ -1,24 +1,35 @@
 play "*3"
 wavestop
 bg "bg/bg_04",notrans,0
-`“What is he to me?@ Arihiko is just a classmate.@ What else could he possibly look like?”@
+`“What do you mean—Arihiko is just a classmate.@ What else could he possibly be?”@
 ld c,"tachi/aki_t03a",crossfade,400
-`“Really, Brother.@ And you address an ordinary friend by his given name?”@ Akiha shot me a distinctly displeased look.@ “What does it matter whether I call a friend by his first or last name?@ Why are you picking a fight over something so trivial?”
+`“Really, Brother.@ And you address an ordinary friend by his given name?”@
+`Akiha shot me a distinctly displeased look.@
+`“What does it matter whether I call a friend by his first or last name?@ Why are you picking a fight over something so trivial?”
 \
 ld c,"tachi/aki_t18a",crossfade,400
-`“So you aren’t even aware of it, Brother.@ It may be common with women, but men do not ordinarily use another man’s given name.@ That is generally reserved for brothers and other close relatives.”@ “Well…@ I suppose that’s true.”@ Now that she mentioned it, I did find it slightly odd.@ Still, I had called him Arihiko from the beginning, and we had known each other for years.@ Surely that made it natural enough.
+`“So you aren’t even aware of it, Brother.@ It may be common with women, but men do not ordinarily use another man’s given name.@ That is generally reserved for brothers and other close relatives.”@
+`“Well, I suppose that’s true.”@
+`Now that she mentioned it, I did find it slightly odd.@
+`Still, I had called him Arihiko from the beginning, and after knowing him for years I saw nothing strange in that.
 \
-`“There is one other exception, I suppose.@ Brother, are you and that boy in that kind of relationship?”@ “What?@ What kind of relationship is ‘that kind’?”@
+`“There is one other exception, I suppose.@ Brother, are you and that boy in that kind of relationship?”@
+`“What?@ What kind of relationship is ‘that kind’?”@
 cl c,crossfade,400
-`I asked in complete earnestness, having no idea what she meant.@ Akiha stared at me, dumbfounded, then looked away.@
+`Not knowing what she meant, I asked in complete earnestness; Akiha stared at me, dumbfounded, then looked away.@
 ld c,"tachi/aki_t13a",crossfade,400
-`“Never mind.@ It was meant as sarcasm, but apparently it was wasted on you, Brother.”@ Akiha’s shoulders sagged with a feeble sigh.@ Now I understood even less than before.
+`“Never mind.@ It was meant as sarcasm, but apparently it was wasted on you, Brother.”@
+`Akiha’s shoulders sagged with a feeble sigh.@
+`Now I understood even less than before.
 \
-`“Akiha, I’ve known him since middle school, and he’s helped me more times than I can count.@ People misjudge him because of his looks, but Arihiko is almost absurdly decent.@ I don’t know what you dislike about him, but stop assuming the worst.”@
+`“Akiha.@ I’ve known him since middle school, and he’s helped me more times than I can count.@ People misjudge him because of his looks, but Arihiko is almost absurdly decent.@ I don’t know what you dislike about him, but stop assuming the worst.”@
 ld c,"tachi/aki_t21",crossfade,400
-`“…”@ Whatever her grievance was, Akiha only grew more sullen.
+`“…”@
+`Whatever her grievance was, Akiha only grew more sullen.
 \
-`“Akiha, are you even listening?”@ “Of course I am!@ Brother, I’ve never seen you defend anyone so desperately before.@ This school friend of yours must be terribly precious to you!”@
+`“Akiha.@ Are you even listening?”@
+`“Of course I am!@ I’ve never seen you defend anyone so desperately before, Brother, so this school friend of yours must be terribly precious to you!”@
 cl c,crossfade,400
-`Akiha turned away with her chest thrust out, practically announcing, So there.@ Her transferring without warning had already made no sense; now she had become wholly incomprehensible.
+`Akiha turned away with her chest thrust out, practically announcing, So there.@
+`Her transferring without warning had already made no sense.@ Now she had become wholly incomprehensible.
 \

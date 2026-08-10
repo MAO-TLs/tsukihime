@@ -1,37 +1,54 @@
 playstop
 wavestop
 bg "bg/bg_40c",notrans,0
-`“—I can’t leave this unresolved any longer.”@ Were those dreams truly real?@ Had I become a murderer who drank human blood?@ …@Those questions can no longer be smothered in uncertainty.@
+`“[line=2]I cannot leave this unresolved any longer.”@
+`Were those dreams truly real?@
+`Had I become a murderer who drank human blood?@
+`Those questions can no longer remain unresolved.@
 br
-`“I’d better take it, just in case.”@ I slip into my pocket the knife that has lain in my desk since the incident with Yumizuka.
+`“I’d better take it, just in case.”@
+`I slip into my pocket the knife that has lain in my desk since the incident with Yumizuka.
 \
 bg #000000,lcartain,800
 bg "bg/bg_33c",lcartain,800
 play "*9"
-`I creep down to the foyer without letting Hisui or Kohaku see me.@ All that remains is to open the front door without a sound—
+`The street ahead is still busy.@
+`All that remains is to open the door and step outside[line=3]
 br
 `Before I can touch it, the front door creaks open.
 \
 ld c,"tachi/aki_t12b",crossfade,400
-`“Brother?@ Why are you standing there frozen?”@ “A—Akiha?@ What are you…”@ I point at her, silently asking what she is doing there.@
+`“Brother, what is wrong?@ Why are you frozen there?”@
+`“Ah[line=3]Akiha, you”@
+`I point at her, asking why she is there.@
 ld c,"tachi/aki_t03b",crossfade,400
-`“I was only taking a walk in the garden.@ What about you, Brother?@ You look as though you’re going out.”@ “…@I left something at school.@ I was just going to retrieve it.”@ I don’t want to lie to Akiha, so I give her the barest fragment of the truth.
+`“I was only taking a walk in the garden.@ What about you, Brother; you look as though you are about to go out.”@
+`“I left something at school and was just going to retrieve it.”@
+`I do not want to lie to Akiha.@
+`So I say only the bare minimum of the truth.
 \
 ld c,"tachi/aki_t18b",crossfade,400
-`“Hmm.@ Something you forgot.”@ Akiha stares directly into my eyes.@
+`“Hmm, something you forgot.”@
+`Akiha stares directly into my eyes.@
 !w2000
 ld c,"tachi/aki_t03b",crossfade,400
-`“Very well.@ It isn’t eight yet, so you can be back by nine, can’t you?”@ “…@Yes.@ An hour should be enough.”@
+`“Very well.@ It is not eight yet, so you can be back by nine, can you not, Brother?”@
+`“Yes.@ An hour should be enough.”@
 ld c,"tachi/aki_t09b",crossfade,400
-`“All right.@ I’ll leave the front door unlocked.@ Please be careful.”@
+`“All right.@ I will leave the front door unlocked, so please be careful.”@
 cl a,lshutter,800
-`Akiha walks toward the sitting room.@ …@Strange.@ Not long ago she would have questioned me far more closely, but now she seems to trust me completely.
+`Akiha walks toward the sitting room.@
+`Strange.@ Not long ago she would have been far more suspicious, but now Akiha seems to trust me completely.
 \
-`…@Maybe it is because of what happened in the courtyard yesterday.@ Knowing that Akiha trusts me—just as I want to trust her—makes me deeply happy.@
+`Perhaps this too is because of what happened in the courtyard yesterday.@
+`It makes me deeply happy to think that Akiha trusts me, just as I trust her.@
 br
 `[line=3]Be careful of her.@
 br
-`“—!”@ Ciel’s words return like a curse.@ “…@I’ll go to the school and come straight back.”@ Once I see her, that warning should make sense too.@ Steeling myself, I reach for the front door.
+`“[line=5]!”@
+`Ciel’s words return like a curse.@
+`“I will go to the school and come straight back.”@ Once I see her, the warning should make sense too.@
+`Steeling myself, I reach for the front door.
 \
 bg #000000,tcartain,800
 !w1000
@@ -39,108 +56,186 @@ playstop
 bg "bg/bg_01c",bcartain,400
 `[line=4]The school building is utterly silent.@
 br
-`Students must leave by six-thirty, and neither teachers nor custodians patrol at night.@ At this hour, the school is completely deserted.
+`Students must leave by six-thirty, and neither teachers nor custodians patrol at night.@
+`At this hour, the school is completely deserted.
 \
 bg "bg/bg_03c",lshutter,800
-`…@It is truly silent.@ Not a sound anywhere.@ My heartbeat is the only noise left in the world.@
+`It is truly silent.@
+`Not a sound anywhere; my heartbeat is the only noise left in the world.@
 br
-`“…@Is Ciel inside…?”@ She said she would wait at the school, but never told me where.@ …@No.@ More likely, she deliberately withheld that part.
+`“Is Ciel inside?”@
+`She said she would wait at the school, but never told me where.@
+`No, more likely she deliberately withheld that part.
 \
-`“…@Nothing else for it.@ I’ll cut the latch on a window and climb in.”@ I remove my glasses.@
+`“Nothing else for it.@ I will cut a window latch and climb inside.”@
+`I take off my glasses.@
 monocro #0000ff
 bg "bg/bg_03c",crossfade,400
-`“…@Ngh.”@ A mild headache comes with the lines that rise across my vision—the fragile lines in all things, which need only be traced to sever whatever bears them.
+`“Ngh…”@
+`A mild headache comes as lines rise across my vision.@
+`The fragile lines in all things.@
+`Tracing one is enough to sever whatever bears it.
 \
-`“…@With Yumizuka, I was too desperate to think…”@ Taking off my glasses in a calm state only reminds me how abnormal my eyes are.@ “Now, which window has a line running through its latch…?”@ I may be able to cut anything, but only where a line is visible.@ If I damage a wall or the window itself, there will be an uproar tomorrow.@ I have to keep the damage to an absolute minimum.
+`“With Yumizuka, I was too desperate to think.”@
+`Now that I can take off my glasses calmly, I am reminded just how abnormal my eyes are.@
+`“Now, which window has a line through its latch?”@
+`I may be able to sever anything, but only where I can see a line.@
+`If I cut the wall or the window itself, there will be an uproar tomorrow.@ I have to keep the damage to an absolute minimum.
 \
-`“There.@ Perfect.@ Now…@ done.”@ The latch parts as smoothly as butter beneath my knife, and I open the corridor window.
+`“There, I found one.@ This should do.”@
+`The blade slips through the latch as smoothly as butter, and I open the corridor window.
 \
 monocro off
 bg #000000,lshutter,400
 bg "bg/bg_10f",lshutter,400
 play "*6"
 wave se_01
-`[line=5]Thump.@
+`[line=5]thump.@
 br
 `The instant I climb through the window, my chest constricts.@
 bg #000000,crossfade,400
 bg "bg/bg_10f",crossfade,400
-`“Ugh…”@ What is this?@ Something is terribly—
+`“Ugh…”@
+`What is this?@
+`Terrible.@
 br
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_10f",crossfade,400
 `[line=4]Thump.@
 br
-`—wrong.@ The air itself feels like an omen.
+`A terrible, ominous air hangs here.
 \
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_10f",crossfade,400
-`“…@Ciel…@ where are you?”@ Even whispering is difficult.@ Thump.@ My heart beats harder, pounding as if it were driving the blood backward through my veins.
+`“Ciel, where are you?”@
+`Even whispering is difficult.@
+`My heart thumps.@
+`It pounds harder than ever, as though forcing my blood to flow backward.
 \
 bg #000000,crossfade,400
 bg "bg/bg_10f",crossfade,400
-`“What…@ is this?”@ My fingertips are trembling.@ Nausea clutches at my throat.@ Even allowing for the fact that my glasses are off, the headache is growing worse by the second.
+`“What…?”@
+`My fingertips are trembling.@
+`Nausea rises in my throat.@
+`Even with my glasses off, the headache grows stronger by the second.
 \
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_10f",crossfade,400
-`“Something…@ something’s wrong.”@ I don’t understand.@ The air inside the school is utterly unlike the air outdoors.@ The only word for it is lifeless.@ Compared with the raw reality outside, the atmosphere in this corridor has wasted away to something pitifully weak.
+`“Something is wrong.”@
+`I do not understand.@
+`The air inside the school is completely different from the air outside.@
+`If I had to put it into words, it has no vitality.@
+`Compared with the vivid reality outside, the air in the corridor feels pitifully drained.
 \
 bg #000000,crossfade,400
 bg "bg/bg_10f",crossfade,400
-`“…@But I know this…”@ I have never breathed air this foul before, yet I recognize it.@
+`“But I know this.”@
+`This clinging, ominous air is familiar.@
 br
-`Because I saw it every night in my dreams.@ Whenever I killed someone and drank their blood, the air was always thick with this same stench of death.
+`Because I saw it.@
+`Every night in my dreams.@
+`Whenever I killed someone and drank their blood, the air was always[line=3]thick with this same stench of death.
 \
 !w3000
 wave se_05
-`“What—?”@ A noise.@ Something falls behind me.@ “Ciel…?”@ I turn.@ And what is standing there—
+`“What[line=4]?”@
+`A noise.@ Something falls behind me.@
+`“Ciel?”@
+`I turn.@
+`There.@
 ld c,"tachi/man_t03",tshutter,400
 br
-`—is a man I have never seen before.
+`A man I have never seen before.
 \
 cl c,crossfade,400
-`“Ugh…!”@ I clamp a hand over my mouth to keep from vomiting.@ The stranger’s entire body is overrun with lines, grotesquely raised like every blood vessel beneath his skin.@ “—Ghh.”@ Slowly, with the unreal drag of slow motion, he starts toward me.
+`“Ugh…!”@
+`I clamp a hand over my mouth to keep from vomiting.@
+`The stranger’s entire body is overrun with lines.@
+`They rise grotesquely, like every blood vessel beneath his skin.@
+`“[line=5]Ghh.”@
+`Slowly, with the unreal drag of slow motion, he starts toward me.
 \
-`“Um…@ hello?”@ I force myself to speak.@ …@He looks bizarre, but only because my eyes are bizarre.@ I have never seen a human body covered in so many lines, yet without them he would look like any ordinary man.@ “—Ghh…@ gh-gh.”@ He is trying to say something, but it never becomes either voice or sound.@ I can’t understand him.
+`“Um[line=4]hello?”@
+`I force myself to speak.@
+`He looks bizarre, but only because my eyes are bizarre.@
+`I have never seen a human body covered in so many lines, yet without them he would look like any ordinary man.@
+`“[line=3]Ghh[line=3]ghgh.”@
+`The man is saying something.@
+`But it is neither voice nor sound, and I cannot make it out.
 \
 bg #000000,crossfade,400
 bg "bg/bg_10f",crossfade,400
 `The man keeps coming.@
-`[line=3]A chill crawls through me.@ For some reason, every step he takes sends another shiver down my spine.@ This is—
+`[line=3]A chill crawls through me.@
+`For some reason, every step he takes sends another shiver down my spine.@
+`This is[line=3]
 br
-`“Ghh—”@ He is already directly in front of me.@ “W-wait!@ Just what are you—”@ There is no time to finish asking who he is.
+`“Ghh[line=4]”@
+`The man is already right in front of me.@
+`“W-wait, just who are you[line=2]”@
+`There is no time to finish asking his name.
 \
 wave se_10
 quakex 3,50
 bg #000000,tshutter,400
-`“Ah—!”@ A blunt explosion of force.@ The instant he reaches me, the man sweeps me aside with one hand and sends my body flying.@ “Agh—!”@ My back slams into the wall.@ The attack is so sudden, the pain so violent, that the corridor spins.
+`“Ah[line=4]!”@
+`A heavy impact.@
+`The instant he comes close, the man sweeps me aside with one hand and sends me flying.@
+`“Ah[line=4]gh.”@
+`My back.@ It slams into the wall.@
+`The attack is so sudden, the pain so violent, that the corridor spins.
 \
 bg "bg/bg_10c",lshutter,400
-`“Ow…@ What was that for?!”@ I struggle upright and glare at him.@
+`“Ow, what was that for, out of nowhere?!”@
+`I struggle upright and glare at him.@
 ld c,"tachi/man_t01",crossfade,400
 wave se_01
-`“…”@ My voice dies.@ That thing.@ What is that thing?@ What is standing in front of me now?@ Is it the same man I saw a moment ago?@ Is this a living human being?@
+`“[line=6]”@
+`My voice dies.@
+`That.@ What is that?@
+`What is standing before me now?@
+`Is it the same man as before?@ Is this a living human being?@
 br
-`No.@ None of that is the real issue—
+`None of that is the real issue[line=3]
 \
 bg "bg/bg_10f",crossfade,400
 ld c,"tachi/man_t03",crossfade,400
-`My vision clears, and the man’s appearance returns to normal.@ …@Yes.@ Returns.@ My teacher told me that my eyes see the “death”@ in things.@ She was exactly right.@ Because—
+`My vision clears, and the man returns to normal.@
+`Yes, back to normal.@
+`My teacher told me that my eyes see the ‘death’ of things.@
+`She was absolutely right.@
+`Because[line=3]
 \
-`“You’re—”@
+`“You are[line=3]”@
 br
-`“Ghh…@ gh-gh, ghghgh.”@
+`“Ghh[line=3]ghgh, ghghgh.”@
 br
-`The man tries to speak.@ Of course no words emerge.@ More than half his throat is gone, torn away by sharp fangs.@ There is no possible way for him to speak properly.
+`The man tries to speak.@
+`Of course it cannot form words.@ More than half its throat is gone.@ Sharp fangs tore it away.@ There is no way it can speak properly.
 \
-`“How…?@ I killed you yesterday…”@ “Ghh…@ ghghghghgh.”@ His shoulders shake as though he is laughing.@ There can be no mistake.@ The corpse before me is the man I killed in yesterday’s dream.
+`“How can you be[line=3]when I killed you yesterday?”@
+`“Ghh[line=3]ghghghghgh.”@
+`His shoulders shake as though he is laughing.@
+`There can be no mistake.@
+`The corpse before me is the man I killed in yesterday’s dream.
 \
-`“Ah—”@ The man approaches slowly.@ “Ah—”@ I can’t think.@ A mass of death is coming toward me.@ “Ah…@ ah.”@ Pain stabs through my side.@ Only then do I realize that when he knocked me away, his blow caught the side of my chest.
+`“Ah[line=4]”@
+`The man slowly comes closer.@
+`“Ah[line=4]”@
+`I cannot think.@ A mass of death is approaching.@
+`“Ah[line=4]ah.”@
+`Pain stabs through my side.@
+`Then I realize it.@ When he knocked me aside, he struck the side of my chest.
 \
-`Throb.@ Throb.@ My whole body hurts—not the ache of muscles, but as if my bones themselves are creaking.@ That blow definitely did something to my ribs.@ “Ghh—ghghghghgh…!”@ The man raises his arm.@ At last, my numb mind understands.
+`Throb, throb.@
+`My body hurts.@ Not merely my muscles; it feels as though my very bones are creaking.@
+`That blow definitely did something to my ribs.@
+`“Ghh[line=3]ghghghghghgh…!”@
+`The man raises his arm.@
+`At last, my numb mind understands.
 \
 br
 br
@@ -148,38 +243,80 @@ br
 br
 br
 br
-`[line=3]There can be no mistake.@ This thing means to kill me.
+`[line=3]There can be no mistake.@
+`This thing means to kill me.
 \
 cl c,lshutter,400
-`“Hh—!”@ I dodge the descending arm.@ A sick crack.@ His fist plunges into the wall—into solid concrete.@ He truly held nothing back.@ The price of smashing the concrete is that he breaks the bones in his own arm.@ “Ah…@ ah.”@ It is an absurd, unbelievable world.@ If this is a dream, I want to wake up now.
+`“Hh[line=3]!”@
+`I dodge the arm swinging down at me.@
+`An ugly crack.@
+`His arm buries itself in the wall.@ It truly is lodged in solid concrete.@
+`Apparently, he did not hold back at all.@
+`The price of smashing a concrete wall is breaking the bones in his own arm.@
+`“Ah[line=3]ah.”@
+`It is a grotesquely absurd, unbelievable world.@
+`If only this were a dream.@ If it is, I want to wake up now.
 \
-`“Ghh—”@ The man turns toward me.@ “Ah…@ aah—”@ Another crack.@ Leaving his arm embedded in the wall, he comes closer.@ The trapped limb tears away from his body with a splintering snap.@ “Gh…@ ghgh…@ gh.”@ He advances, laughing.@ “A—aaaaagh!”@ My legs finally move.@ I cannot remain there one second longer.
+`“Ghh[line=3]”@
+`The man turns toward me.@
+`“Aah, ah[line=3]”@
+`A crack.@
+`Without pulling his arm from the wall, the man advances on me.@
+`His arm stays buried in the wall.@ With a crack, it tears free from his body.@
+`“Gh, ghgh, gh.”@
+`He comes forward laughing.@
+`“Ah[line=3]aaaaaah!”@
+`My legs move.@
+`I cannot stay here another second.
 \
 bg #000000,lshutter,400
 bg "bg/bg_07b",lshutter,400
-`“Haaah, haaah, haaah…!”@ My knees buckle and I collapse to the floor.@ The man—that corpse—is not following.@ Moving at that speed, it can’t possibly catch up.@ It shouldn’t be able to.
+`“Haaah, haaah, haaah…!”@
+`My knees buckle and I collapse to the floor.@
+`The man, that corpse, is not following.@ At that speed, it should never be able to catch me.
 \
-`“Haaah, haaah, haaah…!”@ My chest aches.@ Every breath feels ready to shatter my ribs.
+`“Haaah, haaah, haaah…!”@
+`My chest aches.@
+`Every breath feels ready to shatter my ribs.
 \
-`“Haaah…@ haaah…@ ha…@ ah.”@ Somehow, I force my breathing under control.@ Somehow.@ Desperately, I try to calm down and get a grip on myself.@
+`“Haaah, haaah, ha, ah.”@
+`Somehow, I force my breathing under control.@
+`Somehow.@
+`Desperately, I try to calm down and get a grip on myself.@
 br
 bg #9c0120,crossfade,400
 bg "bg/bg_07b",crossfade,400
-`Think.@ My teacher taught me to look carefully first and think afterward.@ So I have to think.@ Even if that thing is a corpse.@ Even if it is someone I killed.
+`Think.@ My teacher taught me to look carefully first and think afterward.@
+`So I have to think.@
+`Even if that thing is a corpse.@
+`Even if it is someone I killed.
 \
-`“How the hell am I supposed to think about that?!”@
+`“Hh[line=3]how am I supposed to think about that…?!”@
 br
-`Ignoring the pain in my ribs, I scream.@ I don’t understand.@ I couldn’t possibly understand.@ Someone I killed is now trying to kill me.@ Someone who should be dead has returned to life for revenge.
+`Ignoring the pain in my ribs, I scream.@
+`I don’t understand.@
+`I couldn’t possibly understand.@
+`Someone I killed is now trying to kill me.@
+`Someone who should be dead has returned to life for revenge.
 \
-`[line=3]That is nothing but a nightmare.@ A nightmare that violates common sense and cannot exist in reality.@
+`[line=3]That is nothing but a nightmare.@
+`A nightmare that violates common sense and cannot exist in reality.@
 br
-`But what am I saying?@ I was thrown headfirst into that nightmare long ago.
+`But what am I saying?@
+`I was thrown headfirst into that nightmare long ago[line=3]
 \
-`“Damn…@ it.”@ Somehow, somehow I have to steady my breathing and escape.@ I have to get out of this school, return to the estate, and tell Akiha I’m home—
+`“Damn[line=3]it.”@
+`Somehow, somehow I have to steady my breathing and escape.@
+`I have to get out of this school, return to the estate, and tell Akiha I am home[line=3]
 wave se_09
-`“What—?”@ A noise behind me.@ “No…”@ Has it caught up?@ No, impossible.@ Something that slow couldn’t overtake me so easily.
+`“Wh[line=4]what?”@
+`A noise comes from behind me.@
+`“[line=3]It cannot be.”@
+`Has it caught up[line=3]?@ No, impossible.@ Something that slow could not overtake me so easily.
 \
-`I peer down the stairs.@ …@No figure is climbing toward me.@ The sound must have been my imagination—
+`I peer down the stairs.@
+`No figure is climbing toward me.@
+`The sound must have been my imagination[line=4]
 ld c,"tachi/man_t01",notrans,0
 wave se_10
 quakey 2,100
@@ -187,22 +324,30 @@ wait 100
 bg #000000,notrans,0
 !w1000
 bg "bg/bg_10f",lshutter,400
-`“Agh—!”@ It hits me again.@ Apparently, by the time I turned toward the stairwell, the thing was already on the second floor.
+`“Ah[line=3]ugh[line=4]”@
+`It hits me again.@
+`Apparently, by the time I turned toward the stairwell, the thing was already on the second floor.
 \
-`“Have to…@ run.”@ I force my battered body upright.@
+`“Have to[line=3]run.”@
+`I force my battered body upright.@
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_10f",notrans,0
-`“Ngh—?!”@ My legs fold and I crash down again.@ I must have injured my leg when I was thrown.@ There is no strength at all in my right leg.@ I can neither stand nor run.
+`“Ngh[line=3]?!”@
+`My legs fold and I crash down again.@
+`I must have injured my leg when I was thrown.@
+`There is no strength at all in my right leg.@
+`I can neither stand nor run.
 \
 wave se_08
 playstop
-`“Ah—”@ Footsteps draw closer.@
+`“Ah[line=4]”@
+`Footsteps draw closer.@
 br
 wave se_01
 `[line=3]Thump.@
 br
-`Clack.@ Clack.@ Dry, empty sounds without a trace of feeling.@
+`Clack, clack, a dry and emotionless sound.@
 wave se_01
 br
 `[line=3]Thump.@
@@ -217,140 +362,276 @@ br
 wave se_01
 `[line=3]Thump.@
 br
-`It comes closer.@ A corpse is coming to kill me.
+`It comes closer.@
+`A corpse is coming to kill me.
 \
 ld c,"tachi/man_t03",crossfade,800
-`“Ah…@ ah.”@ I am simply terrified.@ “Ghh…”@ It comes.@ That body riddled with holes comes to kill me.@ One more step, and it will punch through my chest as it punched through the wall.@ Then everything will end.@ “Ah…@ ha.”@ At the very limit of terror, a question occurs to me.@ What am I actually afraid of?
+`“Ah[line=4]ah.”@
+`I am simply terrified.@
+`“Ghh…”@
+`It comes.@
+`Its body riddled with holes, it comes to kill me.@
+`One more step.@
+`Then it will thrust through my chest just as it pierced the wall, and it will all be over.@
+`“Ah[line=4]ha.”@
+`At that extremity, a question suddenly occurs to me.@
+`What am I afraid of?
 \
-`Am I afraid because someone I killed is still moving?@ No.@ Am I afraid because I am about to be killed?@ No.@ Not that either.@
+`Am I afraid because someone I killed is still moving?@
+`No.@
+`Am I afraid because I am about to be killed?@
+`Not that either.@
 wave se_01
 bg #000000,crossfade,400
 monocro #ff0000
 bg "bg/bg_10f",crossfade,400
 br
-`Only one thing returns to me: the heat of killing people for pure pleasure in those dreams.@ …@That sin terrifies me.@ What I fear is my own sin—the will to kill another person.
+`Only one thing returns to me.@
+`The heat of killing people for pure pleasure in my dreams.@
+`That sin terrifies me.@
+`I fear my own sin, the will to kill another person.
 \
-`“Kh…@ haha…@ ha.”@ Then there was never any problem.@ This man is dead already.@ There is nothing to fear.@ Surely there can be no guilt in returning a dead man to death.@
+`“Kh[line=4]haha, ha.”@
+`Then there was never any problem.@
+`This man is already dead.@ There is nothing to fear.@
+`Surely there can be no guilt in returning the dead to death.@
 br
-`Then why should I hesitate to kill him again?
+`Then.@
+`Why should I hesitate to kill him again[line=3]?
 \
-`“Ghh—!”@ The corpse raises its arm.@ I draw the knife from my pocket.@
+`“Ghh[line=3]!”@
+`The corpse raises its arm.@
+`I draw the knife from my pocket.@
 monocro off
 bg #000000,lshutter,400
 br
 `[line=3]What follows is almost laughably brief.@
 br
-`Perhaps it is because I committed the act so many times in my dreams.@ Or perhaps those acts truly were committed by these hands.@ My arm moves with impossible precision, dispatching the dead man with the clean efficiency of a real murderer.
+`Perhaps I can do this because I committed the act so often in my dreams, or perhaps those acts truly were my own.@
+`My arm moves with impossible precision, dispatching the dead man with the clean efficiency of a true murderer.
 \
 bg "bg/bg_10f",lshutter,800
 play "*9"
-`Thud.@ Thud.@ Thud.@ The flesh I have just carved into eight pieces tumbles across the corridor.@
+`Thud, thud, thud.@
+`The flesh I have just carved into eight pieces tumbles across the corridor.@
 br
-`“Ah…@ ha.”@ A shudder passes through me.@ The feel of parting flesh.@ The yielding instant when life gives way.@ No blood has splashed onto me.@ Only the knife is smeared red.@ I remain untouched.
+`“Ah[line=4]ha.”@
+`A shudder passes through me.@
+`The sensation of parting flesh.@ The collapse of extinguishing a life.@
+`No blood has splashed onto me.@
+`Only the knife is caked in red; I myself am untouched.
 \
-`“…”@ I am still shuddering.@ Pain and cold creep along my back.@ I have gained nothing.@ There is only red blood clinging to the knife.@ I have gained absolutely nothing—
+`“[line=6]”@
+`I am still shuddering.@
+`Pain and cold crawl up my back.@
+`I have gained nothing.@
+`Only red blood clings to the knife; I have gained nothing at all[line=4]
 \
-`“—Ha.”@ Nausea.@ Have I gone mad?@ Looking at the remains scattered before me, my chest hurts as though it might split open.
+`“[line=5]Ha.”@
+`I only feel sick.@
+`Have I gone mad?@
+`Looking at the remains scattered before me, my chest hurts as though it might split open.
 \
-`In the school at night, beneath the moonlight, I laugh.
+`The school at night.@
+`I laugh beneath the moonlight.
 \
 br
-`“…@Ha.”@
+`“Ha,”@
 br
 !w750
-`“…@Hahaha…”@
+`“Hahaha,”@
 br
 !w500
-`“…@Ahahahahahahahahahaha!”
+`“Ahahahahahahahahahaha!”
 \
-`I laugh and laugh.@ Nothing is funny.@ The only thing rising within me is regret.@ I killed him.@ Whatever reason I had, I killed someone again.@
+`I laugh and laugh.@
+`Nothing is funny.@
+`The only thing rising within me is regret.@
+`I killed him.@ Whatever reason I had, I killed someone again.@
 br
-`[line=4]He had committed no crime.@ He, too, must once have had a life of his own.
+`[line=4]He had committed no crime.@
+`He, too, must once have had a life of his own.
 \
-`“Haha, hahaha, hahahahahahaha…!”@ The sound grates against my ears.@ I want to kill the ears forced to hear it, or the throat that keeps producing it.@ But I can only laugh.@ I have to laugh.@ If I do not perform at least one human act, I will break.
+`“Haha, hahaha, hahahahahahaha…!”@
+`The sound grates against my ears.@
+`I want to kill the ears forced to hear it, or the throat that keeps producing it.@
+`But I can only laugh.@
+`I have to laugh.@
+`If I do not perform at least one human act, I will break.
 \
-`“Haha…@ ha…@ haha…@ ha—”@ I am not laughing because anything is funny.@ I laugh to preserve the last scraps of sanity.@ My reason has become so fragile that unless I mock and abase myself like this, I cannot hold it together.@
+`“Haha, ha, haha, ha[line=4]”@
+`I am not laughing because anything is funny.@
+`I laugh to preserve the barest scrap of sanity.@
+`My reason is so fragile that I have to debase myself like this just to hold it together.@
 br
-`“Ha—hahaha…@ ha…@ ha.”@
+`“Ha[line=3]hahaha, ha, ha.”@
 br
-`…@I should have cried instead.@ But I have no right to such hypocrisy.@ What was that nonsense about there being no sin in killing the dead?
+`I should have cried instead.@
+`But I have no right to such hypocrisy.@
+`What was that[line=3]about there being no sin in killing the dead?
 \
-`“Ha—ha—ah.”@ …@It makes no difference.@ Living or dead, the will to kill another person remains the same.@ Calling someone dead does not even dull the sensation of extinguishing the life still moving within them.@ “—Ha.”@ I cannot summon enough feeling even to despise my own stupidity.@ Dead or not, killing a person is a sin in itself—a sin that becomes more unbearable the harder I, Shiki Tohno, try to remain a decent human being.
+`“Ha[line=3]ha[line=4]ah.”@
+`It makes no difference.@
+`Living or dead, the will to kill another person remains the same.@
+`Calling someone dead does not even dull the sensation of extinguishing the life still moving within them.@
+`“[line=4]Ha.”@
+`I cannot even summon anger at my own stupidity.@
+`Dead or not, killing a person is a sin in itself.@
+`The harder I, Shiki Tohno, try to be a decent human being, the more impossible that sin becomes to bear.
 \
-`…@I remember Yumizuka.@ She said that ending was the best one, but she must still have wanted to live.@ The belief that death can be salvation is only a selfish wish made by the living.@ Death hurts.@ Simply by being death, it hurts this much.
+`I remember Yumizuka.@
+`She said that ending was the best one, but she must still have wanted to live.@
+`The belief that death can be salvation is only a selfish wish made by the living.@
+`Death.@
+`That alone hurts this much.
 \
 wave se_09
 `[line=4]Someone is coming.@
 br
-`This time it must be Ciel.@ “—Ngh.”@ Leaning against the wall, I somehow force myself upright.
+`This time it must be Ciel.@
+`“[line=5]Ngh.”@
+`Leaning against the wall, I somehow force myself upright.
 \
-`Thump, thump.@ My heart still labors violently.@ Though my mind is half dead, my body fights at the very edge of its strength to remain alive.@
+`Thump, thump.@
+`My heart still labors violently.@
+`Though my mind is half dead, my body fights at the very edge of its strength to remain alive.@
 br
-`…@What a wretched attachment to life.@ Eight years ago, with Yumizuka, and now in this very moment, I learned how cruel death is.@ Yet Shiki Tohno’s body still struggles to survive.
+`What a wretched attachment to life.@
+`Eight years ago, with Yumizuka, and now in this very moment, I learned how cruel death is.@
+`Yet Shiki Tohno’s body still struggles to survive.
 \
-`“…@How pathetic.”@ But which part of me is pathetic?@ The mind that believes I deserve to die now that I know I am a murderer?@ Or the body that insists on surviving even if it must kill someone else?@ …@Probably the mind.@ Right or wrong aside, my heart has proved this fragile.
+`“How pathetic[line=4]”@
+`But which part of me is pathetic?@
+`The mind that believes I deserve to die now that I know I am a murderer?@
+`Or the body that insists on surviving even if it must kill someone else?@
+`Probably the mind.@
+`Right or wrong aside, my heart has proved this fragile.
 \
-`“—She’s here.”@ I steady my breathing and grip the knife.@ A faint ache has returned to my injured right leg.@ If I can feel pain, it can move.@ At least I can fight.@
+`“[line=4]She is here.”@
+`I steady my breathing and grip the knife.@
+`A faint ache has returned to my injured right leg.@
+`If I can feel pain, it can move.@
+`At least I can fight.@
 br
 `Then Ciel steps into the moonlight.
 \
 playstop
 ld c,"tachi/cel_t15",crossfade,800
-`“…@That’s a surprise.@ You never wore anything so dangerous in the dreams.”@ “No.@ This is what I wear when I kill vampires.”@
+`“What a surprise.@ Even in my dreams, you never wore anything so dangerous.”@
+`“Yes.@ This is what I wear when I kill vampires.”@
 br
-`[line=4]A chill passes through me.@ One look at her eyes, one sound of her voice, is enough.@ She intends to kill me without the slightest hesitation.
+`[line=4]A chill passes through me.@
+`One look at her eyes, one sound of her voice, is enough.@
+`She intends to kill me without the slightest hesitation.
 \
-`“…@So that’s why you called me here.@ You meant to kill me.”@ “…”@ Ciel does not answer.@ Perhaps the answer is too obvious to require words.@ “That’s cruel.@ You told me I wasn’t a murderer, but all along you knew I was.”@ “Yes.@ From the beginning, I knew that Shiki Tohno was the vampire nesting in this city.”
+`“So that is why you called me here.@ You meant to kill me.”@
+`“[line=9]”@
+`Ciel does not answer.@
+`Perhaps the answer is too obvious to require words.@
+`“That is cruel.@ You told me I was not a murderer, but all along you knew I was.”@
+`“[line=3]Yes.@ I knew from the beginning that the vampire nesting in this city was Shiki Tohno.”
 \
-`“From the beginning…?”@ “Yes.@ That is why I came to this school—to keep watch over you from the outset.”@
+`“You knew from the beginning?”@
+`“Yes.@ That is why I came to this school.@ From the beginning, I came to keep watch over you.”@
 ld c,"tachi/cel_t16",crossfade,800
-`With that, she draws a short sword—a weapon made unmistakably to kill, nearly twice the length and breadth of my knife.
+`With that, she draws a short sword.@
+`Its blade is nearly twice the length and breadth of my knife, a weapon made unmistakably to kill.
 \
-`“—I don’t know what you are, Ciel.@ Even if I did, I suppose it would have nothing to do with me.”@ “That’s right.@ None of this concerns you.”@ “…@I see.@ Sorry, but I’m not going to let you kill me.@ Now that I think about it, I killed Yumizuka because I didn’t want to die.@ So I can’t throw my life away now.@ If you’re going to kill me, then I’ll—”
+`“[line=3]I do not know what you are, Ciel.@ Even if I did, it would have nothing to do with me.”@
+`“That is right.@ None of this concerns you.”@
+`“I see.@ But I am sorry, I will not let you kill me.@ Now that I think about it, I killed Yumizuka because I did not want to die.@
+`Then[line=3]I cannot die so easily now.@ If you mean to kill me, then I will[line=3]”
 \
-`“Excellent.@ If we kill one another by mutual agreement, there may be sin, but there can be no punishment.@ I’m glad you’re willing.”@ A scrape.@ Somehow, Ciel’s body is already almost touching mine.@
+`“Excellent.@ If we kill one another by mutual agreement, there may be sin, but there can be no punishment.@ I’m glad you’re willing.”@
+`A scrape.@
+`Somehow, Ciel’s body is already almost touching mine.@
 br
-`“Then let us continue where we left off last night, Tohno.”
+`“Then, Tohno.@ Let us continue where we left off last night.”
 \
 play "*4"
 cl a,notrans,0
-`In that instant, Ciel charges with a speed that seems to scatter sparks.
+`In an instant.@
+`Ciel charges at me with a speed that seems to scatter sparks.
 \
 bg "bg/ima_14",lshutter,400
 wave se_12
-`Her movement is brutally simple.@ She steps directly into reach and sweeps the short sword sideways.@ “—!”@ The strike blasts through my hurried guard, knife and body together.@ “Ngh—!”@ I stagger.@ Fighting not to fall backward, I search desperately for her—
+`Ciel’s movements are brutally simple.@
+`She steps directly into reach and sweeps the short sword sideways.@
+`“Ngh…!”@
+`The strike blasts through my hurried guard, knife and body together.@
+`“Ngh[line=4]!”@
+`I stagger.@
+`Fighting not to fall backward, I search desperately for Ciel[line=4]
 \
 bg "bg/bg_10f",rshutter,400
-`“What—?”@ My thoughts freeze.@ The corridor is empty.@ Our blades met for only an instant, yet Ciel has vanished as though she were never—
+`“Wh[line=5]what?”@
+`My thoughts freeze.@
+`The corridor is empty.@
+`Only an instant passed.@
+`Our blades merely met, yet Ciel vanished as though she had never been there[line=4]
 br
-`“Huh—?”@
+`“H[line=5]huh?”@
 br
-`[line=3]It can only have been chance.@ With no warning at all, I feel a breath of wind from the side and turn my eyes toward it.
+`[line=3]It can only have been chance.@
+`With no warning at all, I feel a breath of wind from the side and turn my eyes toward it.
 \
-`In the blue moonlight spilling through the windows, I glimpse Ciel’s silhouette running up the wall as naturally as someone charging up a staircase.@
+`Blue moonlight spills through the windows.@
+`By its glow, I see Ciel’s silhouette running up the wall as though charging up a staircase.@
 br
-`“—Above?!”@ I recognize it and duck in the same instant.
+`“[line=5]Above?!”@
+`I recognize it and duck in the same instant.
 \
 bg "bg/ima_14",tshutter,400
-`“—!”@ I scramble forward on all fours like a dog.@ When I look back, Ciel is dropping from the ceiling.@ …@After striking at me, she ran straight up the wall, crossed overhead, and aimed for my skull.@ The impossible motion, like the loop of a roller coaster, is beautiful enough to make me stare—even though its purpose was to drive a blade through the back of my head.
+`“[line=7]”@
+`I scramble forward on all fours like a dog.@
+`When I look back, Ciel is dropping from the ceiling.@
+`After striking at me, she ran straight up the wall and aimed at my head from the ceiling.@ The impossible motion, like the loop of a roller coaster, was beautiful enough to make me stare.@
+`Even though that blow was meant to drive a blade through the back of my head.
 \
 bg "bg/bg_10f",lshutter,400
 ld c,"tachi/cel_t16",crossfade,400
-`“…”@ Ciel stops as completely as if the lightning speed a moment ago had been a lie.@ Perhaps she is surprised I avoided the blow.@ Her blue eyes assess the capabilities of the creature called Shiki Tohno.@ Emotionless as a machine.@ Click.@ Tension coils like a spring being wound for its next motion.
+`“[line=6]”@
+`Ciel stops as completely as if her lightning speed a moment ago had been a lie.@
+`Perhaps she is surprised that I evaded the blow.@
+`Her blue eyes assess the capabilities of the creature called Shiki Tohno.@
+`Those machine-like, emotionless eyes.@
+`Click.@
+`Tension coils like a spring being wound for its next motion.
 \
 wave se_01
-`“…”@ I forget even to breathe.@ Pinned beneath that gaze, I cannot move.@ The instant I offer the smallest opening, that short sword will pierce my chest.
+`“[line=7]”@
+`I forget even to breathe.@
+`Pinned beneath that gaze, I cannot move.@
+`The instant I offer the smallest opening, that short sword will pierce my chest[line=4]
 \
-`“—!”@ Only my pounding heart breaks the silence.@ I cannot make the first move, and Ciel merely stares at me.@ …@This is bad.@ Eventually the tension will become unbearable, and I’ll be forced to act.@ The moment I do, she will finish me.@ “…”@ Unable to do anything else, I tighten my grip on the knife.@ Then the machine that was Ciel abruptly opens its mouth.
+`“[line=9]Ngh.”@
+`Only my pounding heart echoes.@
+`I cannot make the first move, and Ciel merely stares at me.@
+`This is bad.@
+`Eventually the tension will become unbearable, and I will be forced to act.@
+`The moment I do, she will finish me.@
+`“[line=8]”@
+`Unable to do anything else, I tighten my grip on the knife.@
+`Then.@
+`Ciel, mechanical until now, abruptly speaks.
 \
-`“—I’m surprised.@ You truly are skilled at fighting to the death.@ You don’t react to your opponent’s presence, but to the approach of your own death.@ That is extraordinary.@ Even if you remember nothing, perhaps you once received training of that kind.”@ Her face remains perfectly still as she speaks.@ “Assassination is useless against someone whose instinctive fear of death has sharpened into precognition.@ Attacking you from a blind spot was pointless.”@ Ciel sighs, almost with pity.@ “—?”
+`“[line=4]I am surprised.@
+`You truly are skilled at fighting to the death.@ Reacting not to your opponent’s presence but to the approach of your own death is extraordinary.@
+`Even if you remember nothing, perhaps you once received training of that kind.”@
+`Her face remains perfectly still as she speaks.@
+`“Assassination is useless against someone whose instinctive fear of being killed has sharpened into precognition.@
+`A surprise attack from your blind spot was pointless, Tohno.”@
+`She exhales.@
+`Ciel sighs almost with pity.@
+`“[line=6]?”
 \
-`“How unfortunate.@ If I can’t sever your consciousness before you feel pain, I’ll simply have to kill you by force.@ Even if you can foresee death, your physical ability poses no real difficulty.”@
+`“How unfortunate.@ If I can’t sever your consciousness before you feel pain, I’ll simply have to kill you by force.@
+`Even if you can foresee death, your physical ability poses no real difficulty.”@
 br
 wave se_01
 `Creak.@
 br
-`“—You look pale, Tohno.”@
+`“[line=4]You look pale, Tohno.”@
 br
 `Thump.
 \
@@ -359,90 +640,161 @@ br
 wave se_01
 `A convulsion.@
 br
-`“You are unusually sensitive.@ That sensation is—”@
+`“You are unusually sensitive.@ That sensation is”@
 br
 wave se_01
 `A shudder.@
 br
-`“—the instinctive impulse every living thing feels at the prospect of being killed.”@
+`“The instinctive impulse that every living thing feels at the prospect of being killed.”@
 playstop
 cl a,notrans,0
 wave se_01
 br
-`And with those words, she attacks me head-on.
+`With those words.@
+`She attacks me head-on.
 \
 bg "bg/ima_14",lshutter,400
-`“Ngh…!”@ My knife catches her short sword.@ The impact lands with a boom.@ Her casual step and effortless blow strike like an enormous hammer.@ My knife shrieks in protest.@ “Nnnngh…!”@ My fingertips go numb, but there is no time to care.@ A foot slams against the floor.
+`“Ngh…!”@
+`My knife catches her short sword.@
+`The impact lands with a boom.@
+`Her casual step and effortless blow strike like an enormous hammer.@
+`My knife shrieks in protest.@
+`“Nnnngh…!”@
+`My fingertips go numb.@
+`But there is no time to care about that.@
+`A foot slams against the floor.
 \
 quakey 1,50
 wave se_10
-`“Hagh—?!”@ The breath bursts from my lungs.@ Ciel steps between my feet, close enough for our bodies to collide, and drives her shoulder into my chest with all her momentum.@
+`“Hagh?!”@
+`The breath bursts from my lungs.@
+`Ciel steps between my feet.@
+`She is close enough for our bodies to collide.@ With that momentum, she drives her shoulder into my chest.@
 br
-`My body reels.@ My grip on the knife weakens.@ Her second strike comes without the slightest pause.
+`My body reels.@
+`My grip on the knife weakens.@
+`Her second strike comes without the slightest pause.
 \
 wave se_12
 quakey 1,100
-`The short sword rises in a scooping arc.@ I barely block it with the knife, but cannot kill its momentum.@
+`The short sword rises in a scooping arc.@
+`I barely block it with the knife, but cannot kill its momentum.@
 br
-`A wet chop.@ A sickening sound.
+`A wet chop.@
+`A sickening sound.
 \
 bg "bg/ima_13b",tshutter,400
-`“Ah—”@ Heat.@ Something has been cut.@ Flesh falling away, the heat of blood.@ Before I can even feel where—
+`“Ah[line=8]”@
+`Heat.@ Something has been cut.@ Flesh falls away, and blood burns hot.@
+`I have no time even to feel it.@
 br
 wave se_12
 monocro #ff0000
 bg "bg/ima_14",lshutter,400
-`—the third strike arrives.
+`The third strike lands.
 \
 bg "bg/ima_12b",lshutter,400
-`She must have aimed for my heart.@ I twist at the last instant, and the blade gouges across a rib and the flesh around it.@
+`She must have aimed for my heart.@
+`I twist at the last instant, and the blade gouges across a rib and the flesh around it.@
 br
 monocro off
 bg #ffffff,notrans,0
-`“Gah—aaaaaaaagh!”@ A scream.@ The cold of nearly being killed is nothing beside the terror of the pain itself.@
+`“Gah, aaaaaaaaagh!”@
+`A scream.@
+`The chill of nearly being killed is nothing.@
+`Only the terror of pain races through me.@
 br
-`Then the merciless fourth blow bears down on me.
+`Then.@
+`The merciless fourth blow bears down on me.
 \
 bg "bg/ima_14",lshutter,400
 `[line=4]She got my ribs.@
 br
-`I can put only one arm’s strength behind the knife.@ That will never be enough to knock Ciel’s short sword aside.@ “Ngh—!”@ On staggering feet, I somehow leap backward.@ The distance opens.@ Ciel turns, presenting her back—
+`I can put only one arm’s strength behind the knife.@
+`That will never be enough to knock Ciel’s short sword aside.@
+`“Ngh[line=6]!”@
+`On staggering feet, I somehow leap backward.@
+`The distance opens.@
+`Ciel turns, presenting her back[line=3]
 bg #9c0120,notrans,0
 wait 100
 bg #000000,notrans,0
 br
-`—and whips a spinning kick into my stomach like the thrust of a spear.
+`A slash.@
+`Her spinning kick strikes my stomach like a spear thrust.
 \
 bg "bg/bg_10f",tshutter,400
 quakey 4,50
-`“Haaagh—!”@ I crash onto my back in the corridor.@ There is no time to writhe in pain.@ If I don’t stand immediately, she’ll kill me.@ But I am too slow.@ The instant I lift myself, Ciel is there before me.
+`“Ha[line=4]agh!”@
+`I crash onto my back in the corridor.@
+`There is no time to writhe in pain.@
+`If I do not stand immediately, she will kill me.@
+`But I am too slow.@
+`The instant I lift myself, Ciel is there before me.
 \
 bg "bg/ima_14",lshutter,400
-`Her short sword plunges toward my heart.@ “—!”@ I act without thought.@ Frantically, desperately, I raise my knife to Ciel’s throat in answer.@
+`Her short sword plunges toward my heart.@
+`“[line=6]!”@
+`I act without thought.@
+`Frantically, I raise my knife to Ciel’s throat in answer.@
 br
-`[line=3]And at that instant, Ciel’s blade stops dead.
+`[line=3]At that instant.@
+`Ciel’s blade stops dead.
 \
 bg "event/aki_e05a",lshutter,800
 waveloop se_02
-`“Hah—”@ Breath.@ My breathing is ragged.@ “Hah, hah, hah…@ hah—”@ A short sword rests against my throat.@ At this distance, the smallest pressure from Ciel’s arm will kill me instantly.@ “Haaah…”@ That fact alone is enough to drive me mad.
+`“Hah[line=3]”@
+`Breath.@ My breathing is ragged.@
+`“Hah, hah, hah, ha[line=4]”@
+`A short sword is pressed to my throat.@
+`At this distance, the slightest pressure from Ciel’s arm will kill me instantly.@
+`“Ha[line=3]ah.”@
+`That fact.@
+`That alone is enough to drive me mad.
 \
-`“—It’s over.@ Even if you drive that knife into my throat, I won’t die.”@ “Wh—what are you—”@ “You said you saw it yourself.@ Even after an iron pipe pierced my body, the wound healed at once.@ …@A blade through the throat would leave me dead for a little while, certainly.@ But I would kill you first.”@ “—What…”@ She is not lying.@ …@This is hardly a situation in which anyone would waste time on such a trivial lie.@
+`“[line=3]It is over.@ Even if you drive that knife into my throat, I will not die.”@
+`“Wh[line=3]what are you[line=3]”@
+`“You said you saw it yourself.@ Even after an iron pipe pierced my body, the wound healed at once.@ A blade through the throat would leave me dead for a little while, certainly, but I would kill you first.”@
+`“[line=5]What.”@
+`She is not lying.@
+`This is hardly a situation in which anyone would waste time on such a trivial lie.@
 br
-`Then this deadlock, each of us holding the other’s life, means nothing at all.
+`In other words.@
+`This deadlock, each of us holding the other’s life, means nothing at all.
 \
-`“You…@ don’t die?”@ …@It may be true.@ After suffering wounds like those, Ciel came to school looking perfectly well.@
+`“You say you do not die[line=3]is that what you mean[line=3]?”@
+`Yes, it may be true.@
+`After suffering wounds like those, Ciel came to school looking perfectly well.@
 br
-`“—Ngh.”@ But I don’t care.@ I can see “death”@ on her body.@ It looks profoundly different from the death in ordinary people, but it is there.@ That makes killing her easy.@ There can be no exception to these lines.
+`“[line=3]Ngh.”@
+`But I do not care.@
+`I can see ‘death’ on her body.@
+`It looks profoundly different from the death in ordinary people, but it is there.@
+`That makes killing her easy.@
+`There can be no exception to these lines.
 \
-`“If you don’t believe me, go ahead and move your knife.@ In any case, killing me is your only chance of surviving.@ Why not test it now?”@ “…”@ …@She is provoking me.@ Daring me to kill her if I can.@ But Ciel, that challenge will cost you your life.@ Anyone else might fail.@ I really can kill you.
+`“If you do not believe me, go ahead and move your knife.@ In any case, killing me is your only chance of surviving.@ Why not test it now?”@
+`“[line=6]”@
+`She is provoking me.@
+`Daring me to kill her if I can.@
+`But Ciel, that challenge will cost you your life.@
+`Anyone else might fail, but I[line=3]truly can kill you.
 \
-`[line=4]A heartbeat.@ Thump.@
+`[line=4]A heartbeat: thump.@
 br
-`I lower my eyes.@ The short sword is poised against my chest.@ …@I have to kill her.@ I don’t want to die.@ Now that I understand I cannot throw my life away so easily, I cannot let myself be killed here.@
+`Lowering my gaze, I see the short sword poised against my chest.@
+`I have to kill her.@
+`I do not want to die.@
+`Now that I understand I cannot throw my life away so easily, I cannot let myself be killed here.@
 br
-`No.@ More simply than that—I do not want to die.
+`No.@
+`More simply than that—I do not want to die.
 \
-`[line=4]A heartbeat.@ Thump.@
+`[line=4]A heartbeat: thump.@
 br
-`Then there is only one answer.@ Kill her.@ Cut the line visible across the side of Ciel’s neck with that knife, and kill her.@ If you want to live, kill.@ Kill.@ Kill.@ Kill.@ Kill.@ Kill.@ Kill—
+`Then there is only one answer.@
+`Kill her.@
+`Cut the line visible across the side of Ciel’s neck with that knife, and kill her.@
+`If you want to live, kill.@
+`Kill.@ Kill.@ Kill.@ Kill.@ Kill.@ Kill[line=3]
 \

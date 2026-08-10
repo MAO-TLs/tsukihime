@@ -2,7 +2,8 @@ monocro off
 play "*3"
 wavestop
 bg "bg/bg_11b",notrans,0
-`I cannot impose on her that much.@ I know the offer is kindly meant, but I do not want this woman to see too much of me at my most pathetic.
+`I cannot impose on her that much.@
+`I know the offer is kindly meant, but I do not want this woman to see too much of me at my most pathetic.
 \
 `“No, I can manage.@ The offer itself was enough to fill me up.”@
 ld c,"tachi/cel_t09",crossfade,400
@@ -10,20 +11,24 @@ ld c,"tachi/cel_t09",crossfade,400
 \
 `“There’s no need to worry.@ Once you’ve fainted from anemia as often as I have, you learn to tell when the next fall is coming.@ My body says I’m safe for today.”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Well…@ if you say so, I suppose you’ll be all right.”@ With a sigh of exasperation, she continues down the corridor.
+`“Well, if you say so, I suppose you’ll be all right.”@
+`With a sigh of exasperation, she continues down the corridor.
 \
 bg #000000,lcartain,800
 bg "bg/bg_01b",lcartain,800
-`We passed through the school gates.@ Our routes home split in opposite directions here.@
+`We passed through the school gates.@
+`Our routes home split in opposite directions here.@
 br
 ld c,"tachi/cel_t03",crossfade,800
-`“I suppose this is goodbye.@ That went by so quickly.”@ …@I feel exactly the same.@ I find myself sincerely wishing our school grounds had been a little larger.
+`“I suppose this is goodbye.@ That went by so quickly.”@
+`I feel exactly the same.@ I find myself sincerely wishing our school grounds had been a little larger.
 \
 `“Well, see you tomorrow.”@
 ld c,"tachi/cel_t04",crossfade,400
 `“Yes.@ I’ll see you at school tomorrow.”@
 cl c,lshutter,800
-`She answers with a smile and sets off down the road in the other direction.@ After watching her go for a moment, I start home toward the mansion.
+`She answers with a smile and sets off down the road in the other direction.@
+`After watching her go for a moment, I start home toward the estate.
 \
 bg #000000,lcartain,1500
 playstop

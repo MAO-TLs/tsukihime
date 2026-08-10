@@ -1,23 +1,35 @@
 playstop
 wavestop
 bg "bg/bg_40c",notrans,0
-`“—No.@ I can’t.”@ I can’t go.@ So few certainties remain to me: that I am a student, and that Ciel is the older schoolmate I know.@ I can’t lose either one.@ “…”@ I know this is only a temporary escape.@ Even so, I don’t want to surrender the last peaceful corner of my ordinary life.
+`“[line=3]No, I cannot.”@
+`I cannot go.@
+`So few certainties remain to me.@
+`I cannot lose my life as a student, or Ciel as the upperclassman I know.@
+`“[line=7]”@
+`I know this is only a temporary escape.@
+`Even so[line=3]I do not want to surrender the last peaceful corner of my ordinary life.
 \
 bg #000000,crossfade,800
 !w1000
 bg "bg/bg_40d",crossfade,800
-`[line=4]Night falls.@
+`[line=4]Night fell.@
 br
-`The time I promised to meet Ciel has passed, and once again I am about to enter that dream.@ “…”@ No.@ That isn’t right.@ I don’t need her help.@ If this is my problem, I’ll solve it myself.@ I’ll settle matters with the “murderer”@ on my own, so tomorrow I can return to the life I had before—
+`The time I promised to meet Ciel has passed, and once again I am about to enter that dream.@
+`“……………”@
+`No.@
+`That is not right.@ I do not need her help; if this is my problem, I will solve it myself.@
+`I will settle matters with the ‘murderer’ on my own, so tomorrow I can return to the life I had before[line=5]
 \
 bg #000000,lcartain,800
 br
-`A way to prove I am not the murderer.@ There is no need to overthink it.@ I only have to search the city at night and find another killer—someone who is not me.
+`A way to prove whether I am the murderer.@
+`There is no need to think about it.@
+`All I have to do is search the city at night and find another killer, someone other than me[line=3]
 \
 !w2000
 wave se_01
 bg "bg/bg_25b",crossfade,800
-`I let out a long breath.@
+`I breathe out[line=4]slowly.@
 br
 `[line=5]I wander through the city at night.@
 br
@@ -27,35 +39,48 @@ wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_26a",crossfade,800
 play "*6"
-`Hah…@ hah…@
+`Hah[line=3]hah.@
 br
-`[line=4]I move with my breath held, keeping out of sight as much as possible.@ From the shadows, hidden from the eyes around me, I watch the people passing by.
+`[line=4]I move with my breath held.@
+`As inconspicuously as possible.@
+`From the shadows, hidden from the eyes around me, I watch the people passing by.
 \
 wave se_01
 bg #000000,crossfade,800
 bg "bg/bg_27b",crossfade,800
 br
-`Hah…@ hah…@ hah.@
+`Hah[line=3]hah, hah.@
 br
-`[line=4]I am looking for the murderer.@ Looking for the next victim, the one who will surely be attacked tonight.@ A woman, perhaps, with long black hair.@ Someone my own age would be ideal.@ Beautiful arms and legs matter, naturally, but the grace of her throat is what deserves the closest appraisal.@ Everything comes down to that one point.
+`[line=4]I am looking for the murderer.@
+`Looking for the next victim, the one who will surely be attacked tonight.@
+`A woman, perhaps, with long black hair.@
+`Someone my own age would be ideal.@
+`Beautiful arms and legs matter, naturally, but the grace of her throat deserves the closest appraisal.@
+`Everything comes down to that one point.
 \
 wave se_01
 bg #000000,crossfade,800
 bg "bg/bg_30b",crossfade,800
-`Hah…@ hah, hah, hah.@
+`Hah[line=3]hah, hah, hah.@
 br
 `[line=4]I am looking for the murderer.@
 br
-`I do not expect to find one at once.@ My dreams have taught me again and again that ideal prey does not present itself so easily.
+`I do not expect to find one at once.@
+`My dreams have taught me again and again that ideal prey does not present itself so easily.
 \
 wave se_01
-`HAH…@ HAH…@ HAH…@
+`HAH, HAH, HAH
 br
-`Even so, the city is boring tonight.@ No prey.@ It makes me furious.@ My purpose was…@ finding someone?@ Eliminating someone?@ Something like that.
+`Even so.@
+`The city is boring tonight.@
+`No prey.@
+`It makes me furious.@ My purpose, I think.@ To find someone or eliminate someone; was that it?
 \
-`“—Hah.”@
+`“[line=6]Hah.”@
 br
-`Keep the breath silent.@ Keep the knife clenched tight.@ Hone every nerve so I can KILL IT BACK at any moment.
+`Keep the breath silent.@
+`Keep the knife clenched tight.@
+`Hone every nerve so I can KILL IT BACK at any moment.
 \
 wave se_01
 bg #000000,crossfade,800
@@ -65,26 +90,33 @@ br
 `[line=3]I am looking for THE KILLER.@
 br
 wave se_01
-`But I cannot find the killer.@ Only time passes, measured by the rasp of my breathing.@
+`But I cannot find the killer.@
+`Only time passes.@
+`Hah, hah.@
 wave se_01
-`Swelling, sharpening, exhausting itself, wearing itself away until it frays, warps—
+`Swelling, sharpening, exhausting itself, wearing itself away until it frays and warps[line=4]
 \
 wave se_01
 bg #ffffff,crossfade,400
 monocro #ff0000
 bg "bg/bg_31b",crossfade,400
 waveloop se_02
-`Tonight’s prey lies sprawled before me.@
+`Tonight’s prey lay sprawled before me.@
 br
 `“Hah, hah, hah, hah.”@
 br
-`A woman’s corpse.@ A knife is in my hand, dripping red blood onto the ground.@ Drop by drop.@
+`A woman’s corpse.@
+`In my hand, a knife drips red blood, drop by drop.@
 br
-`[line=4]Why?@ I was supposed to be looking for the killer.@ Yet somehow a fresh woman’s corpse now lies at my feet.
+`[line=4]Why?@
+`I was looking for the killer; yet somehow a fresh woman’s corpse lies at my feet.
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_31b",crossfade,400
-`Hah, hah, hah, hah.@ My breathing will not steady.@ A corpse before me.@ A bloodstained knife in my hand.
+`Hah, hah, hah, hah.@
+`My breathing will not steady.@
+`A corpse before me.@
+`A bloodstained knife in my hand.
 \
 br
 br
@@ -93,9 +125,15 @@ br
 br
 br
 br
-`[line=7]I don’t understand.
+`[line=7]I do not understand.
 \
-`When had it happened?@ In what missing instant?@ What had I done?@ Had my nerves gone wrong?@ Imagine it: swelling, sharpening, exhausting itself, wearing itself away until it frays, warps, changes meaning, becomes fluid, bursts, flashes.@ A process.@ The evolution of consciousness and meaning.@ But one crucial stage is missing.
+`When had it happened?@
+`In what missing instant had I done it?@
+`Had my nerves gone wrong?@
+`Imagine it: swelling, sharpening, exhausting itself, wearing itself away until it frays, warps, changes meaning, becomes fluid, bursts, flashes.@
+`A process.@
+`The evolution of consciousness and meaning.@
+`But one crucial stage was missing.
 \
 br
 br
@@ -110,19 +148,23 @@ br
 br
 `ME?
 \
-`[line=5]Well, look at that.@ Guess I never needed to rattle you after all, Shiki.
+`[line=5]Well, look at that.@
+`Guess I never needed to rattle you after all, Shiki.
 \
-`The voice comes from behind me.@
+`Behind me.@
+`A voice speaks.@
 br
 `“Hah, hah, hah, hah.”@
 br
-`I turn.@ And there—
+`I turn.@
+`There.@
 ld c,"tachi/hal_t01",crossfade,400
 cl c,crossfade,400
 br
-`stands someone I have never seen before, wearing a face much like mine.
+`Someone I have never seen stands there, wearing a face much like mine.
 \
-`[line=3]If you’re already broken, there’s no helping it.@ See you, Shiki.@ I’d hoped to enjoy you a little longer.
+`[line=3]If you’re already broken, there’s no helping it.@
+`See you, Shiki.@ I’d hoped to enjoy you a little longer.
 \
 wave se_06
 bg "bg/ima_12b",crossfade,400
@@ -131,9 +173,14 @@ br
 `PAIN.@
 `THRILL.@
 `CHILL.@
-`SHEER THRILL.
+`SHEER THRILL.@!w1000
 \
-`“Ha…@ ha ha…”@ Consciousness recedes.@ In that haze, I am killed.@ Somehow, I am glad.@ Shiki Tohno has been killed by THE KILLER.@ Which proves that I was never the murderer.
+`“Ha[line=3]ha ha, ha.”@
+`Consciousness recedes.@
+`In the haze, I am killed.@
+`Somehow, I am glad.@
+`Shiki Tohno is killed by THE KILLER.@
+`That proves I am not the murderer.
 \
 playstop
 bg #000000,crossfade,800

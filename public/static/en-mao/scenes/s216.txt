@@ -2,121 +2,200 @@ playstop
 wavestop
 bg "bg/bg_34b",tcartain,800
 play "*1"
-`After dinner, I sat in the sitting room drinking tea.@ Akiha was opposite me, while Hisui waited by the wall.@ There was no television, and Akiha made no attempt at idle conversation.@
+`After dinner, I sat in the sitting room drinking tea.@
+`Akiha was opposite me, while Hisui waited by the wall.@
+`There was no television, and Akiha made no attempt at idle conversation.@
 br
-`[line=3]It was an almost indecently genteel way to spend an evening.
+`[line=3]It was an almost excessively refined way to spend the evening.
 \
-`“Shiki, could you come here a moment?”@ Kohaku’s lively voice rang from the foyer.@
+`“Shiki, could you come here a moment?”@
+`Kohaku’s lively voice rang from the foyer.@
 ld c,"tachi/aki_t01b",lshutter,400
-`“Brother?@ Kohaku is calling you.@ Have you done something that would give her cause?”@ “Nothing I can think of.@ I’ll go see what she wants.”
+`“Brother?@ Kohaku wants you—what did you do?”@
+`“Nothing I can think of[line=3]I’ll be back in a bit.”
 \
 bg #000000,lshutter,800
 bg "bg/bg_33c",lshutter,800
-`I left Akiha and Hisui in the sitting room and went out to the foyer.@ Kohaku was pacing in circles by the front door.@ “…@Kohaku, what are you doing?”@
+`I left Akiha and Hisui in the sitting room and went out to the foyer.@
+`Kohaku was pacing in circles by the front door.@
+`“…@Kohaku, what are you doing?”@
 ld c,"tachi/koha_t02",lshutter,400
-`“Ah, Shiki.@ It’s rather complicated.@ …@It would be awkward if you stayed there, so could you come outside?”@ “…?”@ I had no idea what was happening, but I followed her.
+`“Ah, Shiki.@ It’s rather complicated; since it would be awkward if you stayed there…@ could you come outside?”@
+`“…?”@
+`I had no idea what was happening, but I followed her.
 \
 bg "bg/bg_48c",lcartain,800
 `“What did you want to tell me?@ Is it something you need to keep secret from everyone else?”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Yes.@ Especially from Miss Akiha.@ If she heard, you might be in trouble.”@ Something that would make Akiha angry…?@ “What are you talking about?@ I haven’t done anything to upset her.”@ “Oh, it isn’t something you did.@ The truth is, a visitor came while you and Miss Akiha were having dinner.”
+`“Yes.@ Especially if Miss Akiha hears, because you’ll likely get scolded.”@
+`Something that might get me scolded by Akiha[line=3]?@
+`“What are you talking about?@ I haven’t done anything to upset her.”@
+`“Oh, it isn’t anything you did.@ The truth is…@ a visitor came while you and Miss Akiha were having dinner.”
 \
-`“A visitor?@ For me?”@ “Yes.@ She was pacing outside the gate, so I went to speak to her.@ She was wearing your school’s uniform, and that made me wonder.”@ Kohaku described the visitor: about my age, a little baby-faced, with long hair in twin braids.@ A pretty girl…?
+`“A visitor?@ For me?”@
+`“Yes.@ She was pacing outside the gate, so I went to speak to her.@ She was wearing your school’s uniform, and that made me wonder.”@
+`Kohaku described the visitor for me.@
+`She was about my age and a little baby-faced.@ A pretty girl with long hair in twin braids…?
 \
-`“……”@ My heart lurched, and the world seemed to go black.@ That description—it sounded exactly like Satsuki Yumizuka, the girl everyone said had run away from home—
+`“……”@
+`My heart lurched, and for a moment my vision went black.@
+`That description.@
+`Could it really be Satsuki Yumizuka, the girl everyone said had run away from home[line=3]
 \
-`“Then she asked, ‘Is this the Tohno mansion?@’ When I said yes, she asked whether Tohno was home.”@ “…@And then?@ What happened, Kohaku?”@ “She seemed to want to speak with you, so I invited her inside.@ But she refused.@ She said she still couldn’t see you yet.”@ Kohaku tilted her head, wondering aloud what that could mean.@ I was the one who wanted to know.
+`“Then she asked, ‘Is this the Tohno estate?@’ I said yes.@ Then she asked, ‘Is Tohno here?@’”@
+`“I see.@ What happened next, Kohaku?”@
+`“She seemed to want to speak with you.@ I invited her inside, but she refused.@ She said she couldn’t see you yet.”@
+`Kohaku tilted her head and wondered aloud what that could mean.@
+`But I was the one who wanted to know.
 \
-`“Why would Yumizuka come looking for me…?”@ I didn’t understand.@ All I had was a terrible feeling.@ “…@How long ago was this?”@ “Let me see…@ It was before you finished dinner, so about ten minutes.”@ “—!@ Which way did she go?”@ “She walked down the hill toward town.@ I imagine she was heading for the station.”
+`“Why would[line=6]Satsuki Yumizuka come looking for me………?”@
+`I didn’t understand.@
+`I didn’t understand, but all I had was a terrible feeling.@
+`“How long ago was this?”@
+`“Let me see; it was before you finished dinner, so about ten minutes ago.”@
+`“[line=2]!@ Which way did she go?”@
+`“She walked down the hill toward town, so I think she went toward the station.”
 \
-`[line=3]Ten minutes.@ If I ran—and got lucky—I might still find her.@ “…@All right.@ I’m going out.@ Don’t tell Akiha about any of this.”@
+`[line=3]Ten minutes.@
+`If I ran—and got lucky—I might still find her.@
+`“…@All right; I’m going out, so don’t tell Akiha any of this.”@
 ld c,"tachi/koha_t03",crossfade,400
-`“Of course.@ If Miss Akiha found out, she’d only torment you again.”@ I thanked the smiling Kohaku and ran out into the night.
+`“I know.@ If Miss Akiha found out, you’d only be tormented again.”@
+`I thanked Kohaku, who was smiling as if she enjoyed the whole thing, and ran out into the night.
 \
 bg #000000,crossfade,800
 playstop
 bg "bg/bg_24c",lcartain,800
-`“Hah…@ hah, hah…”@ I sprinted down the hill toward the station.@
+`“Hah[line=4]hah, hah[line=4]”@
+`I sprinted down the hill toward the station.@
 br
 bg #000000,lcartain,800
 bg "bg/bg_25b",lcartain,800
-`“Hah, hah, hah, hah—!”@ I forced my way through the crowd outside the station, searching for anyone who looked like Yumizuka.@
+`“Hah, hah, hah, hah[line=4]!”@
+`I forced my way through the crowd outside the station, searching for anyone who looked like Yumizuka.@
 br
-`“Hah…@ hah…@ hah…”@ I was gasping.@ My lungs burning, I finally stopped the legs I’d been driving without rest.
+`“Hah[line=3]hah, hah[line=3]”@
+`I was gasping.@
+`The strain finally made me stop after running without rest.
 \
-`“…@Should’ve…@ known…@ she wouldn’t be…@ that easy to find…”@ Hah.@ Hah.@ I fought my breathing under control and immediately started running again.
+`“I—I knew she wouldn’t be that easy to find……”@
+`Hah, hah.@
+`I steadied my ragged breathing and immediately started running again.
 \
 bg #000000,lcartain,800
 bg "bg/bg_27b",lcartain,800
 br
 `[line=3]There was no sign of Satsuki Yumizuka.@
 br
-`That should have been no surprise, yet I couldn’t bring myself to give up.@ …@It wasn’t as though I was particularly worried about Satsuki Yumizuka.@ Some tiny thing had caught in my chest, that was all, and it kept me running through the streets.
+`That should have been no surprise, yet I couldn’t bring myself to give up.@
+`I didn’t think I was especially worried about Satsuki Yumizuka.@
+`There was simply some tiny unease lodged in my chest, and it kept me running through the streets.
 \
 `[line=3]See you, then.@ Bye, Tohno.@
 br
-`An ordinary farewell.@ …@And the soft smile she’d worn had looked so genuinely happy.@ Someone who could smile like that wouldn’t run away from home.@
+`It was an ordinary goodbye, the sort heard anywhere.@
+`The soft smile she wore had looked so genuinely happy.@
+`Someone who could smile like that wouldn’t run away from home.@
 br
 `[line=3]Help me if I’m ever in trouble, Tohno.@
 br
-`Yes.@ My reason for doing this was simple.@ I just couldn’t betray the smile she’d given me then—
+`Yes[line=3]the reason I was doing this was simple.@
+`I simply couldn’t betray the smile she’d given me then[line=4]
 \
 bg "bg/bg_28b",lcartain,800
-`“Hah…@ hah…@ hah…”@ There was no one resembling Yumizuka in the park either.@ …@Of course I could never find someone without a single lead.@ I wasn’t going to find her, so I ought to return to the mansion.@ “…@Damn…@ it…”@ And yet I turned back toward town to search a little longer.
+`“Hah[line=3]hah[line=4]hah[line=3]”@
+`There was no one resembling Yumizuka in the park either.@
+`I could never have found someone without a single lead to begin with.@
+`I wasn’t going to find her, so I ought to return to the estate.@
+`“Damn[line=3]it[line=3]”@
+`And yet I turned back toward town to search a little longer.
 \
 bg #000000,lcartain,800
 bg "bg/bg_25b",lcartain,800
-`I returned to the station once more.@ It was already past nine.@ Perhaps because of the recent serial murders, the streets were nearly deserted even at this hour.@
+`I returned to the station once more.@
+`It was already past nine.@
+`Perhaps because of the recent random street killings, there were remarkably few people out even though it was only nine.@
 br
-`[line=4]And then—
+`[line=4]And then.@
 br
-`“Yumi…@ zuka.”@ For an instant I doubted my eyes.@ But the figure walking ahead of me looked too much like Satsuki Yumizuka.
+`“Yumi[line=4]zuka”@
+`For an instant I doubted my eyes.@
+`But the figure walking ahead of me looked too much like Satsuki Yumizuka.
 \
 wave se_01
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_25b",notrans,0
-`Yumizuka drifted unsteadily through the crowd.@ She was too far away to see clearly; I might have been mistaken.@ Even so, I ran to catch her and call her back.@ “Wait, Yumizuka!”@ I shouted as I chased her.
+`Yumizuka drifted unsteadily through the crowd.@
+`She was too far away to see clearly.@
+`I might have been mistaken, but I ran after her to catch up and call her back.@
+`“Wait, Yumizuka[line=3]!”@
+`I called out as I chased her.
 \
 ld c,"tachi/stk_t10",lshutter,400
-`“—”@ Perhaps she heard me, because Yumizuka glanced over her shoulder.@
+`“[line=6]”@
+`Perhaps she heard me, because Yumizuka glanced back over her shoulder.@
 wave se_01
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_25b",notrans,0
-`There was nothing remarkable about her face.@ The girl ahead of me was unmistakably Satsuki Yumizuka, and she wasn’t wearing any frightening expression.
+`There was nothing remarkable about her face.@
+`The girl ahead of me was unmistakably Satsuki Yumizuka, and she wasn’t wearing any frightening expression.
 \
-`“—Ah.”@ Even so, a chill ran through me.@
+`“[line=4]Ah”@
+`Even so, a chill ran through me.@
 br
 wave se_01
-`[line=3]Thump.@ My heart quickened.@ The back of my head grew dizzy and heavy, and my throat grew faintly warm.@
+`[line=3]Thump.@
+`My heart quickened.@
+`The back of my head grew dizzy and heavy, and my throat grew faintly warm.@
 br
-`“What is this…?@ Something’s wrong.”@ My whole body burned.@ I reeled as though delirious with a vicious fever.@
+`“Something[line=3]something feels wrong.”@
+`My whole body burned.@
+`I reeled as though delirious with a vicious fever.@
 br
 `While I stood there, Yumizuka began walking again.
 \
 bg "bg/bg_26a",lcartain,400
 waveloop se_02
-`“W-wait, Yumizuka…!”@ I called as I ran.@ She never looked back, only continued her wavering walk.@ “D-damn it, can’t you hear me…?”@ I drove my feverish body onward, but no matter how hard I ran, I could not catch her.@
+`“Wai[line=3]wait, Yumizuka……!”@
+`I called as I ran.@
+`Without looking back, she kept walking unsteadily.@
+`“D[line=3]damn it, can’t you hear me, Yumizuka……!”@
+`I forced my feverish body to keep running.@
+`But no matter what I did, I could not catch her.@
 br
-`However fast I ran, I could not overtake a girl who was merely walking.
+`However fast I ran, I could not catch up with Yumizuka even though she was only walking.
 \
-`“—”@ Something was wrong.@ I knew that much, but not what.@ All I could do now was keep chasing Satsuki Yumizuka, though I had no idea what that would solve.
+`“[line=6]”@
+`Something was wrong.@
+`I knew that much, but I could not tell what.@
+`All I could do was chase Satsuki Yumizuka without the least idea how that would solve anything.
 \
 bg #000000,lshutter,800
 bg "bg/bg_26a",lcartain,800
 br
-`[line=4]And then—
+`[line=4]And then.@
 br
-`Yumizuka’s back suddenly vanished.@ Until that moment I had been unable to gain on her, but at least I could see her ahead.@ Now she was nowhere.
+`Yumizuka’s back suddenly vanished.@
+`Until then, her back had remained in sight even though I could not catch up, but now it was nowhere to be seen.
 \
-`“…@Damn it…@ What the hell is happening…?”@ I stopped to catch my breath, my chest heaving.@ …@I hadn’t realized it, but I must have been running for a very long time.@ “…@What time…@ is it…?”@ Hands braced on my knees, I looked toward a nearby shop window.@ The clock said it was almost midnight.
+`“Damn it[line=3]what is going on……!”@ I stopped and steadied my breathing.@
+`My chest heaved as I panted.@
+`I had not noticed until now, but I seemed to have been running for a very long time.@
+`“What time is it[line=3]?”@
+`Bracing both hands on my knees, I looked toward a nearby shop window.@
+`The time was[line=3]almost midnight.
 \
-`“No way.@ Was I really running that long?”@ …@It didn’t feel possible, but the clock couldn’t be wrong.@ Looking around, I saw that even the lights of the entertainment district were beginning to die.
+`“[line=4]No way.@ Was I really running that long?”@
+`It did not feel possible, but the clock could not be wrong.@
+`Looking around, I saw that even the lights of the entertainment district were beginning to die.
 \
-`“I should…@ go home.”@ Yumizuka still worried me, but I no longer believed I could find her.@ …@What had she been thinking, ignoring me through nearly three hours of pursuit no matter how often I called?@
+`“[line=3]I should go home.”@
+`Yumizuka still worried me, but I no longer believed I could find her.@
+`I had chased her for nearly three hours and called to her again and again without so much as a glance back; what was she thinking?@
 br
-`I drew one long breath and started back toward the mansion.
+`I took one long, deep breath and started back toward the estate.
 \
 wavestop
 bg #000000,lcartain,800

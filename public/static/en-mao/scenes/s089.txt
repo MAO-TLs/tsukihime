@@ -1,34 +1,57 @@
 bg "bg/bg_09b",notrans,0
 play "*3"
 ld c,"tachi/cel_t08",crossfade,400
-`“What?@ Oh, I was just surprised that you seemed more at ease with all this than I am.”@ “Do I?@ My family was always strict, so I’m simply used to it.@ More importantly, didn’t you have something you wanted to discuss?”
+`“What?@ Oh, I was just surprised that you seemed more at ease with all this than I am.”@
+`“Do I?@ My family was always strict, so I’m simply used to it.@ More importantly, didn’t you have something you wanted to discuss?”
 \
 ld c,"tachi/cel_t03",crossfade,400
-`“Yes.@ I still hadn’t thanked you for this morning, so I thought I might look after you like this in return.”@ With a gentle smile, she said something rather outrageous.
+`“Yes.@ I still hadn’t thanked you for this morning, so I thought I might look after you like this in return.”@
+`With a gentle smile, she said something rather outrageous.
 \
-`“L-look after me?@ I think you’re using that phrase wrong.”@ “Am I?@ I thought giving someone every courtesy and making them welcome was called looking after them.”@ “No.@ I mean, that isn’t entirely wrong, but it isn’t quite how you say it.”@ “Hmm.@ Etiquette really is difficult, isn’t it?@ Perhaps this means I shouldn’t attempt things I’m not used to.”@ She laughed, a little embarrassed.
+`“L-look after me?@
+`I think you’re using that phrase wrong, Ciel.”@ “Am I?@ I thought giving someone every courtesy and making them welcome was called
+`looking after them.”@ “[line=3]Not quite—it may not be completely wrong, but it still isn’t right.”@
+`“Hmm.@ Etiquette really is difficult, isn’t it?@ Perhaps this means I shouldn’t attempt things I’m not used to.”@
+`Ciel laughed, a little embarrassed.
 \
-`“That’s not true.@ They say good manners begin with the heart.@ You genuinely want to make me welcome, so a tiny mistake hardly matters.”@
+`“That’s not true.@ Good manners begin with the heart, and since you genuinely want to make me welcome, a tiny mistake hardly matters.”@
 cl c,crossfade,400
-`Her eyes widened, and she stared at me.@ …@Her gaze was so earnest that I began to feel like some rare beast on display at the zoo.
+`Her eyes widened, and she stared at me.@
+`Her gaze was so earnest that I began to feel like some rare beast on display at the zoo.
 \
-`“Um…@ Did I say something impertinent?”@
+`“Ciel?@ Did I say something impertinent?”@
 ld c,"tachi/cel_t07a",lshutter,400
-`“……”@ She continued staring.@ “Um…?”@ I was becoming acutely embarrassed.@ “—Tohno, this suits you far too well.@ You’re younger than I am, but you’re so composed.@ That’s cheeky.”@ She glared at me with a little frown.@ …@As usual, I couldn’t begin to understand what went on in her mind.
+`“……”@
+`She continued staring.@
+`“Um…?”@
+`I was becoming acutely embarrassed.@
+`“[line=3]Tohno, this suits you far too well.@ You’re younger than I am yet far too composed; it’s cheeky.”@
+`She glared at me with a little frown.@
+`As usual, I couldn’t begin to understand what went on in her mind.
 \
-`“—Sorry.@ I sounded awfully pompous just then, didn’t I?”@
+`“[line=3]Sorry.@ I sounded awfully pompous just then, didn’t I?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Yes.@ You were so cheeky that, in spite of myself, I was impressed.”@ Her shoulders slumped as she sighed and drank her tea.@
+`“Yes.@ You were so cheeky that, in spite of myself, I was impressed.”@
+`Her shoulders slumped as she sighed and drank her tea.@
 ld c,"tachi/cel_t03",crossfade,400
-`“I’ve decided I want to know more about you.@ Anything at all would make me happy, if you’re willing to tell me.”@ She straightened her posture and regarded me like a pupil awaiting a lesson from his teacher.@ “……”@ This was hardly an atmosphere in which I could refuse.
+`“I’ve decided I want to know more about you.@ Anything at all would make me happy, if you’re willing to tell me.”@
+`She straightened her posture like a student waiting for her teacher to begin a lesson.@
+`“……”@
+`This was hardly an atmosphere in which I could refuse.
 \
-`“…@All right, then.@ I warn you, nothing about me is very interesting.”@ “That’s fine,”@ she answered with a smile.@ …@There was no helping it.@ It wasn’t in my nature, but perhaps I could tell her about things that had happened at school—
+`“All right, then.@ Nothing about me is very interesting, Ciel.”@
+`Ciel answered with a smiling yes.@
+`I had no choice.@
+`It wasn’t in my nature, but perhaps I could tell her about things that had happened at school[line=3]
 \
 bg #000000,lshutter,800
 !w1000
-`In the end, she delighted in everything I told her.@ To my surprise, stories from middle school excited her most.@ Apparently she hadn’t gone on the school trip.@ I still remembered how her eyes shone as she said, “It sounds wonderful, everyone traveling together.”@
+`In the end, she delighted in everything I told her.@
+`To my surprise, stories from middle school excited her most; apparently she hadn’t gone on the school trip.@
+`I still remembered how her eyes shone as she said, “It sounds wonderful, everyone traveling together.”@
 br
-`Still, talking by myself for an hour was exhausting.@ With her permission, I finally set out for home.
+`Still, talking by myself for an hour was exhausting.@
+`With her permission, I finally set out for home.
 \
 !w1000
 playstop

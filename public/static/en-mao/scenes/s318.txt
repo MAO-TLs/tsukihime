@@ -1,86 +1,145 @@
 playstop
 wavestop
 bg "bg/bg_34a",notrans,0
-`Kohaku is making a feast for four, so by any reasonable measure she has the hardest job.@ I’m not sure what use I’ll be in a kitchen, but I’ll go see her anyway.@
+`Kohaku is making a feast for four, so by any reasonable measure she has the hardest job.@
+`I’m not sure what use I’ll be in a kitchen, but I’ll go see her anyway.@
 br
 bg #000000,lshutter,400
 bg "bg/bg_35",lshutter,400
-`The kitchen has already become a battlefield.@ Every available surface is buried beneath mountains of ingredients.@ The spectacle is so imposing that the moment I step inside, I want to retreat.
+`The kitchen has already become a battlefield.@
+`Every available surface is buried beneath mountains of ingredients, an imposing spectacle that makes me want to retreat the moment I step inside.
 \
 ld c,"tachi/koha_t02",lshutter,400
-`“Did you need something, Shiki?”@ Kohaku pops her head out.@ “…@No, I came to see if I could help, but…”@ I have the distinct feeling this is a world into which amateurs like me should never trespass.@
+`“Did you need something, Shiki?”@
+`Kohaku pops her head out.@
+`“I came to see if I could help, but—”@
+`I have the distinct feeling this is a world into which amateurs like me should never trespass.@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Oh, that would be wonderful.@ To tell you the truth, I was thinking of coming to ask for your help, Shiki.”@ “Y-you were…?@ I’ve never cooked anything in my life, so I’m not sure I’ll be much use to you.”
+`“Oh, that would be wonderful.@ To tell you the truth, I was thinking of coming to ask for your help, Shiki.”@
+`“Y-you were…?@ I’ve never cooked anything in my life, so I’m not sure I’ll be much use to you.”
 \
 ld c,"tachi/koha_t05",crossfade,400
-`“Oh, don’t worry.@ There are plenty of jobs anyone can do.@ Come along, then—time to put you to work.”@
+`“Don’t worry; there are plenty of jobs anyone can do.@ Come along, then—time to put you to work.”@
 cl c,lshutter,800
-`Kohaku takes me firmly by the hand and pulls me in.@ “……”@ Somehow, before I can quite agree to it, I find myself drafted into her service.
+`Kohaku takes me firmly by the hand and pulls me in.@
+`“……”@
+`Somehow, before I can quite agree to it, I find myself drafted into her service.
 \
 bg #000000,rshutter,400
 bg "bg/bg_35",rshutter,400
-`Once I stop to think about it, this kitchen is remarkably small for a mansion of this size.@ Apparently they used the main kitchens back when the house was fully staffed, but now that only Akiha, Hisui, Kohaku, and I live here, this smaller room has been remodeled for daily use.@
+`Once I stop to think about it, this kitchen is remarkably small for a mansion of this size.@
+`Apparently they used the main kitchens back when the house was fully staffed, but now that only Akiha, Hisui, Kohaku, and I live here, this smaller room has been remodeled for daily use.@
 br
 ld c,"tachi/koha_t02",crossfade,400
-`“First, wash your hands properly and put on an apron.”@ She hands me an apron emblazoned with the word ‘BLOCKHEAD.@’ Whose taste is this supposed to be?
+`“First, wash your hands properly and put on an apron.”@
+`She hands me an apron emblazoned with BLOCKHEAD and leaves me wondering whose taste it reflects.
 \
 `“We’ll start you on something simple, Shiki.@ Once you finish all of that, I have a special job that only you can do.”@
 cl c,lshutter,400
 `Kohaku is in excellent spirits.@
 `[line=4]For my first mission, the captain orders me to peel an entire colander of shrimp.
 \
-`Tap, tap, tap.@ Her knife patters briskly against the cutting board.@ Mmm-mm-mm-mmm.@ Kohaku’s off-key humming fills the kitchen.
+`Tap, tap, tap.@
+`Her knife patters briskly against the cutting board.@
+`Mmm-mm-mm-mmm.@
+`Kohaku’s off-key humming fills the kitchen.
 \
-`…@ …@ ……@ Perhaps Kohaku is too absorbed in cooking to talk much.@ I’m enjoying peeling the shrimp myself, and keep happily stripping shell after shell.@
+`…@
+`…@
+`……@
+`Perhaps Kohaku is too absorbed in cooking to talk much.@
+`I’m enjoying peeling the shrimp myself, and keep happily stripping shell after shell.@
 bg #000000,crossfade,400
 bg "event/his_e01",crossfade,400
-`“……”@ But this feels nostalgic.@ Before the accident sent me away from the mansion, Kohaku, Akiha, and I played at keeping house like this several times.
+`“……”@
+`But this feels nostalgic.@
+`Before the accident sent me away from the mansion, Kohaku, Akiha, and I played at keeping house like this several times.
 \
-`We were so young then that it never occurred to us to think of one another as boys and girls.@ We were simply happy to spend each day with new friends in this enormous mansion.@ I think we played hard enough to forget everything that had piled up before.@ Or perhaps we were trying to fill our days with fun precisely so we could forget the past.
+`We were so young then that it never occurred to us to think of one another as boys and girls.@
+`We were simply happy to spend each day with new friends in this enormous mansion.@
+`I think we played hard enough to forget everything that had piled up before.@
+`Or perhaps…@
+`Perhaps we were trying to fill our days with fun precisely so we could forget the past.
 \
 bg #000000,crossfade,400
 bg "bg/bg_35",crossfade,400
 ld c,"tachi/koha_t01a",crossfade,400
-`“Have you taken a liking to peeling shrimp, Shiki?”@ “Hm?@ Not especially.@ What makes you ask?”@
+`“Have you taken a liking to peeling shrimp, Shiki?”@
+`“Hm?@ Not especially, but what makes you ask?”@
 ld c,"tachi/koha_t05",crossfade,400
-`“You look as though you’re having such fun.@ Whenever Hisui peels shrimp, her brows pinch closer and closer until they make a perfect little frown.”@ “Really?@ I wouldn’t have guessed.@ She looks like she’d work through something like this without a word.”@
+`“You look as though you’re having such fun.@ Whenever Hisui peels shrimp, her brows pinch closer and closer until they make a perfect little frown.”@
+`“Really?@ I wouldn’t have guessed; she looks like she’d work through something like this without a word.”@
 ld c,"tachi/koha_t18",crossfade,400
-`“For some reason, Hisui is hopeless at cooking.@ She’s wonderful at cleaning and putting things in order, though.”@ “Huh.@ You and Hisui both seem like you can do anything.”
+`“For some reason, Hisui is hopeless at cooking.@ She’s wonderful at cleaning and putting things in order, though.”@
+`“Huh.@ You and Hisui both seem like you can do anything.”
 \
 ld c,"tachi/koha_t02",crossfade,400
-`“I’d be delighted if that were true, but both of us were born a little out of step with ordinary common sense.@ Hisui’s sense of taste is strange.@ She may believe she’s made something delicious, while Miss Akiha and I find the result…@ remarkably mysterious.”@ So that is why Hisui never cooks.@ Her oddity is her sense of taste.@ Kohaku’s is…@ what, exactly?
+`“I’d be delighted if that were true, but both of us were born a little out of step with what most people consider normal.@
+`Hisui’s sense of taste is so strange that she may believe she’s made something delicious while Miss Akiha and I find the result remarkably mysterious.”@
+`So that is why Hisui never cooks.@
+`Hisui’s oddity is her sense of taste, but what is Kohaku’s?
 \
-`“…@Well, when I think about it, there’s no reason you and Hisui should be alike in every way.@ You were always cheerful, and Hisui always kept herself shut away inside the mansion.”@ “Oh?@ Did I seem cheerful?@ I was trying to keep an eye on all of you, in my own way, Shiki.”@ “I knew that.@ You ran wild with us, but you stopped us whenever a game became dangerous.@ You were always watching over us.”
+`“When I think about it, there’s no reason you and Hisui should be alike in every way.@
+`You were always cheerful, and Hisui always kept herself shut away inside the mansion.”@
+`“Did I seem cheerful?@ I was trying to keep an eye on all of you in my own way, Shiki.”@
+`“I knew that.@ You ran wild with us, but you always watched over us and stopped us whenever a game became dangerous.”
 \
 play "*9"
-`Yes.@ I remember it clearly.@ Playing tag in the courtyard.@ Trying scheme after scheme to catch Father’s carp from the newly dug pond.
+`I remember it clearly.@
+`Playing tag in the courtyard.@
+`Trying scheme after scheme to catch Father’s carp from the newly dug pond.
 \
-`“Remember the time we slipped through the gates and went outside?@ We couldn’t find our way back, so in the end you called the mansion and had one of the servants come collect us.”@
+`“Remember the time we slipped through the gates and went outside?@
+`We couldn’t find our way back, so in the end you called the mansion and had one of the servants come collect us.”@
 ld c,"tachi/koha_t03",crossfade,400
-`“Yes.@ Your father gave you a terrible scolding afterward.@ All of us had gone out to play, but somehow by the end it was as though only you had gone, Shiki.@ We were always getting into mischief, yet it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@
+`“Master Makihisa gave you a terrible scolding afterward.@ All of us had gone out to play, but somehow by the end it was as though only you had gone, Shiki.@ We were always getting into mischief, yet it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@
 br
 `Kohaku laughs softly, speaking almost to herself as she savors the memory.
 \
-`“…@I don’t know.@ Talking about those days like this makes me feel as though I really have come home.”@ Yes.@ I have few memories of the mansion itself, so merely talking about the childhood I spent with Kohaku fills me with a fierce nostalgia.@ But those happy memories are not the only ones returning.
+`“I don’t know.@ Talking about those days like this makes me feel as though I really have come home.”@
+`Yes.@
+`I have few memories of the mansion itself, so merely talking about the childhood I spent with Kohaku fills me with a fierce nostalgia.@
+`But those happy memories are not the only ones returning.
 \
-`“…@I treated Hisui badly.”@ The girl who had always lingered in a corner of my mind.@ The girl at the window, with whom I never managed to have a real conversation.@ “…@She watched us from the window the whole time.@ Even as a child, I worried about her.@ I kept wishing she would stop looking so lonely and come play with us.”@ Yet when I left the mansion, she alone gave me a parting gift.
+`“I treated Hisui badly.”@
+`The girl who had always lingered in a corner of my mind.@
+`The girl at the window, with whom I never managed to have a real conversation.@
+`“She watched us from the window the whole time.@ Even as a child, I worried about her.@ I kept wishing she would stop looking so lonely and come play with us.”@
+`Yet when I left the mansion, she alone gave me a parting gift.
 \
-`“That’s true.@ Hisui was shy even then, and it was always difficult to tell what she was thinking.@ I had always felt that I didn’t care what happened to me, as long as she could be happy.”@ “I see.@ You really love your sister.”@ The thought makes me strangely happy, and I say it almost without thinking.@
+`“That’s true.@ Hisui was shy even then, and it was always difficult to tell what she was thinking.@ I always believed that as long as she could be happy, nothing that happened to me mattered.”@
+`“I see.@ You really love your sister.”@
+`The thought makes me strangely happy, and I say it almost without thinking.@
 br
 `“Ah.”@
 br
-`At that small sound, Kohaku raises her hand.@ Her index finger has been sliced deeply by the knife.
+`And then.@
+`Kohaku gives a short cry and raises her hand.@
+`Her index finger has been sliced deeply by the knife.
 \
 playstop
-`“K-Kohaku, you cut your finger…!”@ “Hm?”@ Only when I point it out does she seem to notice the wound.@
+`“K-Kohaku, you cut your finger…!”@
+`“Hm?”@
+`Only when I point it out does she seem to notice the wound.@
 ld c,"tachi/koha_t07",crossfade,400
-`“Oh.@ So I did.”@ “What do you mean, ‘so I did’?@ Kohaku!”@ I can’t believe her.@ Even I can see it is a deep cut, yet she remains perfectly unhurried.
+`“Oh, you’re right.”@
+`“Don’t just say that, Kohaku!”@
+`I can’t believe her.@
+`Even I can see it is a deep cut, yet she remains perfectly unhurried.
 \
-`“How embarrassing.@ Imagine making a blunder while doing the one thing I’m good at.”@ Kohaku laughs as cheerfully as ever.@ “This isn’t funny.@ You need to treat that immediately…!”@ “I’ll be fine.@ It isn’t going to kill me.”@ “But it must hurt!@ You cut yourself badly!”
+`“How embarrassing.@ Imagine making a blunder while doing the one thing I’m good at.”@
+`Kohaku laughs as cheerfully as ever.@
+`“This isn’t funny—you need to treat that immediately!”@
+`“I’ll be fine.@ It isn’t going to kill me.”@
+`“It must hurt with a cut that deep!”
 \
-`“Not at all.@ Things like this only hurt if you believe they do.@ You convince yourself that this finger isn’t part of your body—that it belongs to a doll or something.@ Then there’s no reason to feel the pain, is there?”@ “Wha—”@ Kohaku delivers this serene pronouncement with a smile.@ Thinking that way might help her endure the pain, but it cannot diminish the pain itself.
+`“Not at all.@ Things like this don’t hurt if you believe they don’t.@ You convince yourself that this finger isn’t part of your body, but belongs to a doll or something.@ Then you stop feeling pain, don’t you?”@
+`“Wha—”@
+`Kohaku delivers this serene pronouncement with a smile.@
+`Thinking that way might help her endure the pain, but it cannot diminish the pain itself.
 \
-`“Oh, enough—just please bandage it!@ I can’t stand blood.@ If I collapse from anemia in here, it will be your fault…!”@ “You’re right.@ I ought to tend to it properly.@ Please excuse me for a moment, Shiki.”@
+`“Oh, enough—just please bandage it!@ I can’t stand blood.@ If I collapse from anemia in here, it will be your fault…!”@
+`“You’re right—I ought to tend to it properly.@ Please excuse me for a moment, Shiki.”@
 cl c,lshutter,800
 `Her bright smile never faltering, Kohaku gives me a neat little bow and leaves the kitchen.
 \
