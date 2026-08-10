@@ -36,7 +36,7 @@
 	font-size: 13px;
 	font-weight: 600;
 
-	a { padding-block: 8px; }
+	a { padding-block: 8px; font-weight: 600; }
 	a:hover, a[aria-current="page"] { color: #fff; }
 	a[aria-current="page"] {
 		text-decoration: underline;
@@ -134,6 +134,10 @@
 	letter-spacing: .18em;
 	text-transform: uppercase;
 }
+
+/* The page reset has greater selector specificity than the shared eyebrow.
+ * Restore the canonical WHITE ALBUM 2 gap explicitly inside this host. */
+.tsuki-release-page .mao-site-eyebrow { margin: 0 0 18px; }
 
 .tsuki-release-hero .mao-site-eyebrow { color: var(--tsuki-ice-deep); }
 

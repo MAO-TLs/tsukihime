@@ -310,7 +310,7 @@ export default function AuditReader({
 				<section className="mao-audit-summary audit-summary" aria-labelledby="mao-audit-summary-title">
 					<div className="audit-summary-heading">
 						<div>
-							<p className="mao-reader-kicker">Completed corpus review</p>
+							<p className="mao-reader-kicker eyebrow">Completed corpus review</p>
 							<h2 id="mao-audit-summary-title">What the audit records</h2>
 						</div>
 						<p>{manifest.lineCount.toLocaleString()} passages reviewed across {manifest.scriptCount.toLocaleString()} scripts</p>
@@ -329,7 +329,7 @@ export default function AuditReader({
 
 				<section className="mao-audit-dossiers audit-dossiers" aria-labelledby="mao-audit-dossiers-title">
 					<header className="audit-dossiers-heading">
-						<p className="mao-reader-kicker">Work-wide dossiers</p>
+						<p className="mao-reader-kicker eyebrow">Work-wide dossiers</p>
 						<h2 id="mao-audit-dossiers-title">Recurring failure patterns</h2>
 						<p className="audit-dossiers-evidence-count">
 							{collection.dossiers.length.toLocaleString()} dossiers · {findingMembershipCount.toLocaleString()} cited findings · {uniqueEvidenceRefCount.toLocaleString()} unique source passages · {counterexampleMembershipCount.toLocaleString()} counterexample citations
