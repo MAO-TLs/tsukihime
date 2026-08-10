@@ -15,11 +15,10 @@ export function ReaderLoading({label = "Loading the public record…"}: {label?:
 export function ReaderError({error, onRetry}: ReaderErrorProps) {
 	return (
 		<div className="mao-reader-state mao-reader-state--error" role="alert">
-			<p className="mao-reader-kicker">Data unavailable</p>
+			<p className="mao-reader-kicker eyebrow">Data unavailable</p>
 			<h2>The public record could not be loaded.</h2>
 			<p>{error.message}</p>
 			{onRetry && <button type="button" className="mao-reader-button" onClick={onRetry}>Try again</button>}
 		</div>
 	)
 }
-
