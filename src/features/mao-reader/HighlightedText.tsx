@@ -1,4 +1,5 @@
 import {Fragment, type ReactNode} from "react"
+import {stripInlineWaitCommands} from "./display-text"
 import type {RubySpan} from "./types"
 
 export interface HighlightRange {
@@ -86,7 +87,7 @@ export default function HighlightedText({
 		let interactiveCursor = 0
 		for (const {highlight, start, end} of interactiveRanges) {
 			if (start > interactiveCursor)
-				interactiveNodes.push(<Fragment key={`text-${interactiveCursor}`}>{text.slice(interactiveCursor, start)}</Fragment>)
+				interactiveNodes.push(<Fragment key={`text-${interactiveCursor}`}>{stripInlineWaitCommands(text.slice(interactiveCursor, start))}</Fragment>)
 			const tooltipId = `mao-audit-preview-${highlight.id}`
 			interactiveNodes.push(
 				<button
@@ -98,7 +99,7 @@ export default function HighlightedText({
 					title={`${highlight.label}: ${highlight.description}`}
 					onClick={() => onToggleHighlight?.(highlight.id)}
 				>
-					{text.slice(start, end)}
+					{stripInlineWaitCommands(text.slice(start, end))}
 					<span className="todokanai-error-preview" id={tooltipId} role="tooltip">
 						<strong>{highlight.label}</strong>
 						<span>{highlight.description}</span>
@@ -108,7 +109,7 @@ export default function HighlightedText({
 			interactiveCursor = end
 		}
 		if (interactiveCursor < text.length)
-			interactiveNodes.push(<Fragment key={`text-${interactiveCursor}`}>{text.slice(interactiveCursor)}</Fragment>)
+			interactiveNodes.push(<Fragment key={`text-${interactiveCursor}`}>{stripInlineWaitCommands(text.slice(interactiveCursor))}</Fragment>)
 		return <>{interactiveNodes}</>
 	}
 
@@ -127,16 +128,16 @@ export default function HighlightedText({
 			if (rangeStart >= rangeEnd)
 				continue
 			if (cursor < rangeStart)
-				nodes.push(<Fragment key={`text-${key++}`}>{text.slice(cursor, rangeStart)}</Fragment>)
+				nodes.push(<Fragment key={`text-${key++}`}>{stripInlineWaitCommands(text.slice(cursor, rangeStart))}</Fragment>)
 			nodes.push(
 				<mark className={`mao-audit-highlight mao-audit-highlight--${tone}`} key={`mark-${key++}`}>
-					{text.slice(rangeStart, rangeEnd)}
+					{stripInlineWaitCommands(text.slice(rangeStart, rangeEnd))}
 				</mark>,
 			)
 			cursor = rangeEnd
 		}
 		if (cursor < end)
-			nodes.push(<Fragment key={`text-${key++}`}>{text.slice(cursor, end)}</Fragment>)
+			nodes.push(<Fragment key={`text-${key++}`}>{stripInlineWaitCommands(text.slice(cursor, end))}</Fragment>)
 	}
 
 	let cursor = 0
@@ -152,7 +153,7 @@ export default function HighlightedText({
 		pushPlainText(cursor, span.start)
 		const ruby = (
 			<ruby>
-				{span.base || text.slice(span.start, span.end)}
+				{stripInlineWaitCommands(span.base || text.slice(span.start, span.end))}
 				<rp>(</rp><rt>{span.reading}</rt><rp>)</rp>
 			</ruby>
 		)
@@ -165,5 +166,5 @@ export default function HighlightedText({
 	}
 	pushPlainText(cursor, text.length)
 
-	return <>{nodes.length ? nodes : text}</>
+	return <>{nodes.length ? nodes : stripInlineWaitCommands(text)}</>
 }

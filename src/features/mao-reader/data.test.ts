@@ -2,6 +2,8 @@ import assert from "node:assert/strict"
 import test from "node:test"
 // @ts-expect-error Node's strip-only TypeScript test runner requires the source extension.
 const data = await import("./data.ts")
+// @ts-expect-error Node's strip-only TypeScript test runner requires the source extension.
+const {stripInlineWaitCommands} = await import("./display-text.ts")
 const {
 	dedupeVisibleEvidence,
 	normalizeDossiers,
@@ -18,6 +20,14 @@ const evidence = {
 	japanese_sha256: "source-hash",
 	mirror_moon_sha256: "translation-hash",
 }
+
+test("reader display hides inline engine waits without changing surrounding prose", () => {
+	assert.equal(
+		stripInlineWaitCommands("The bed lies beneath me, and I――――!w1000\n――――How!w2000 quiet."),
+		"The bed lies beneath me, and I――――\n――――How quiet.",
+	)
+	assert.equal(stripInlineWaitCommands("Thump!w250 Thump!w3000"), "Thump Thump")
+})
 
 test("visually identical repeated evidence renders once without changing the source package", () => {
 	const visibleEvidence = {

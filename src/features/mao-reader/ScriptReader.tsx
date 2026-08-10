@@ -6,6 +6,7 @@ import {
 	useState,
 } from "react"
 import type {MaoAuditRepository} from "./data"
+import {stripInlineWaitCommands} from "./display-text"
 import HighlightedText, {
 	positionInteractiveHighlights,
 	type InteractiveHighlight,
@@ -188,7 +189,7 @@ function ScriptLine({
 					<span className="speaker">{line.speakerEnglish}</span>
 					{showMirrorMoon && <span className="edition-label">MAO English</span>}
 				</div>
-				<p>{line.maoEnglish}</p>
+				<p>{stripInlineWaitCommands(line.maoEnglish)}</p>
 			</div>
 			{showMirrorMoon && (
 				<div className="line-cell line-en line-todokanai">
@@ -250,9 +251,9 @@ function GlobalResult({
 				<button type="button" onClick={() => onOpen(entry)}><strong>Open in script →</strong></button>
 			</header>
 			<div className="concordance-hit-grid">
-				<section className="line-cell line-ja" lang="ja"><span className="edition-label">Japanese</span><p>{entry.japanese}</p></section>
-				<section className="line-cell line-en"><span className="edition-label">MAO English</span><p>{entry.maoEnglish}</p></section>
-				{showMirrorMoon && <section className="line-cell line-en line-todokanai"><span className="edition-label">mirror moon</span><p>{entry.mirrorMoon || <span className="comparison-missing">Not aligned</span>}</p></section>}
+				<section className="line-cell line-ja" lang="ja"><span className="edition-label">Japanese</span><p>{stripInlineWaitCommands(entry.japanese)}</p></section>
+				<section className="line-cell line-en"><span className="edition-label">MAO English</span><p>{stripInlineWaitCommands(entry.maoEnglish)}</p></section>
+				{showMirrorMoon && <section className="line-cell line-en line-todokanai"><span className="edition-label">mirror moon</span><p>{entry.mirrorMoon ? stripInlineWaitCommands(entry.mirrorMoon) : <span className="comparison-missing">Not aligned</span>}</p></section>}
 			</div>
 		</article>
 	)
