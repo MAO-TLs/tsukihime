@@ -3,110 +3,180 @@ play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
 ld c,"tachi/aki_t01a",crossfade,400
-`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother.@ You must show some awareness of your position.”@ “What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you’re worried about the family, find some suitable man to marry into it.”@
+`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother.@ You must show some awareness of your position.”@
+`“[line=3]What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you’re worried about the family, find some suitable man to marry into it.”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“…”@ What?@ For some reason, Akiha falls silent.
+`“[line=5]”@
+`What?@
+`For some reason, Akiha falls silent.
 \
 `“What is it, Akiha?@ Are you feeling ill?”@
 ld c,"tachi/aki_t06",crossfade,400
-`“It’s nothing.@ If you have time to worry about me, spend it worrying about your own health.@ You suffer from chronic anemia, Brother.”@ “…@Right.”@ She has a point.@ I do collapse from anemia rather frequently.
+`“[line=2]It’s nothing.@ If you have time to worry about me, spend it worrying about your own health.@ You suffer from chronic anemia, Brother.”@
+`“Right.”@
+`She has a point, since I do collapse from anemia rather frequently.
 \
-`“In any case, please don’t leave the mansion alone so often.@ The city has become dangerous lately.@ Someone as absentminded as you might as well hang a sign asking to be attacked.”@ “Attacked…?@ Oh, you mean those serial murders.”@
+`“In any case, please don’t leave the mansion alone so often.@ The city has become dangerous lately.@
+`Someone as absentminded as you might as well hang a sign asking to be attacked.”@
+`“Attacked[line=3]oh, you mean those serial murders.”@
 br
-`The serial murders with nine victims, if I remember correctly.@ Every corpse was drained of blood, prompting lurid talk of a modern-day vampire—
+`The serial murders with nine victims, if I remember correctly.@
+`Every corpse was drained of blood, prompting lurid talk of a modern-day vampire—
 \
 `“Oh, you don’t need to worry about that.@ It won’t happen again.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“What?”@ “I mean the vampire is gone.@ The killer has already been caught.”@ “Has he…?@ How could you possibly know that?”@ “I only happened to see it, but I’m certain.@ There won’t be another murder like that.”@
+`“[line=4]What?”@
+`“I mean the vampire is gone.@ The killer has already been caught.”@
+`“Has he…?@ Brother, how could you possibly know that?”@
+`“I only happened to see it, but I’m certain there won’t be another murder like that.”@
 cl c,crossfade,400
 \
-`Yes.@ At the very least, no one else will die at Nrvnqsr’s hands.@ Too much happened during those two days with Arcueid for me to say what was right and what was wrong.@ But that one fact—I can hold my head high and call it a good thing.
+`Yes—at least no one else will die at Nrvnqsr’s hands.@
+`Too much happened during those two days with Arcueid for me to say what was right and what was wrong.@
+`But that one fact[line=3]I can hold my head high and call it a good thing.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Brother?@ Why do you suddenly look so pleased?”@ Akiha peers at me, puzzled.@ “It’s nothing.@ I’ve only just realized that it’s finally over.”@ Before I know it, I am smiling as I answer.
+`“Brother?@ Why do you suddenly look so pleased?”@
+`Akiha peers at me, puzzled.@
+`“It’s nothing.@ I’ve only just realized that it’s finally over.”@
+`Before I know it, I am smiling as I answer.
 \
 bg #000000,crossfade,800
 playstop
 !w1000
 bg "bg/bg_33a",lcartain,800
-`It is half past seven.@ Akiha left for school twenty minutes before me—and by car, no less.@ I enjoy the breakfast Kohaku prepared, then set off for school myself.
+`It is half past seven.@
+`Akiha left for school twenty minutes before me.@ And by car, no less!@
+`I enjoy the breakfast Kohaku prepared, then set off for school myself.
 \
 bg #000000,lcartain,800
 bg "bg/bg_32a",lcartain,800
-`Hisui carries my bag and accompanies me to the gate.@ “I’m off, then.@ Thanks for seeing me out, Hisui.”@ She silently places the bag in my hands.
+`Hisui carries my bag and accompanies me to the gate.@
+`“I’m off, then.@ Thanks for seeing me out, Hisui.”@
+`She silently places the bag in my hands.
 \
 ld c,"tachi/his_t01",notrans,0
-`“What time should we expect you home, Master Shiki?”@ “I really have lost everyone’s trust, haven’t I?@ Don’t worry.@ I’ll be back by evening today.”@ “Very well.@ Have a safe day.”@ Hisui bows deeply.@ Feeling more than a little self-conscious, I leave the mansion gates behind.
+`“What time should we expect you home, Master Shiki?”@
+`“I really have lost everyone’s trust, haven’t I?@ Don’t worry—I’ll be back by evening today.”@
+`“[line=3]Very well.@ Have a safe day.”@
+`Hisui bows deeply.@
+`Feeling more than a little self-conscious, I leave the mansion gates behind.
 \
 bg #000000,lcartain,400
 bg "bg/bg_24a",lcartain,400
-`The intersection is occupied only by students from my school.@ There is no woman sitting on the guardrail, waiting for someone as she did before.
+`The intersection is occupied only by students from my school.@
+`There is no woman sitting on the guardrail, waiting for someone as she did before.
 \
-`“Well, of course not.”@ I will probably never see her again.@ Her purpose seems to have been hunting vampires, and with Nrvnqsr gone, she has no reason to remain in this city.@
+`“[line=3]Well, of course not.”@
+`I will probably never see her again.@
+`Her purpose seems to have been hunting vampires, and with Nrvnqsr gone, she has no reason to remain in this city.@
 br
 `[line=3]Still, something lingers in my chest.@
 br
-`Regret, perhaps.@ Or reluctance to let go.@ She brought me nothing but trouble, certainly, yet even so…@ I suppose I enjoyed being with her.
+`Regret, perhaps, or reluctance to let go.@
+`She brought me nothing but trouble, certainly, but I still enjoyed being with her.
 \
-`“What am I, an idiot?”@ She nearly got me killed, and I’m standing here feeling wistful?@ Last night’s wounds still gnaw at my body.@ Remember how close you came to being fed to Nrvnqsr’s beasts.@ Shiki Tohno wants no part of anything like that ever again.@
+`“What am I, an idiot?”@
+`She nearly got me killed, and I’m standing here feeling wistful?@
+`Last night’s wounds still gnaw at my body.@
+`Remember how close you came to being fed to Nrvnqsr’s beasts.@ Shiki Tohno wants no part of anything like that ever again.@
 wave se_03
 br
-`The warning bell rings through the school.@ “Damn, I’m going to be late!”@ I shake off the useless thoughts and sprint for the main gate.
+`The warning bell rings through the school.@
+`“[line=3]Damn, I’m going to be late!”@
+`I shake off the useless thoughts and sprint for the main gate.
 \
 bg #000000,lcartain,800
 play "*3"
 bg "bg/bg_06a",lcartain,800
-`I rush into the classroom.@ Homeroom is still five minutes away, and the room remains full of noise.@
+`I rush into the classroom.@
+`Homeroom is still five minutes away, and the room remains full of noise.@
 br
-`“Whew.”@ I catch my breath and head for my desk.@ At this rate, I probably never needed to run.@ “Well, look who finally decided to show up.”@ “…”@ A familiar and thoroughly unwelcome voice calls from behind me.
+`“Whew.”@
+`I catch my breath and head for my desk.@
+`At this rate, I probably never needed to run.@
+`“Well, look who finally decided to show up.”@
+`“…”@
+`A familiar and thoroughly unwelcome voice calls from behind me.
 \
 ld c,"tachi/ari_t05",lshutter,400
-`“What happened, Tohno?@ Nobody told me you were cutting class.@ That’s a serious problem!@ If you’re going to ditch school and have fun, you’re supposed to notify me in advance!”@ Arihiko spouts this nonsense with an absurdly delighted grin.
+`“What happened, Tohno?@ Nobody told me you were cutting class.@ That’s a serious problem—if you’re going to ditch school and have fun, you’re supposed to notify me in advance!”@
+`Arihiko spouts this nonsense with an absurdly delighted grin.
 \
-`“Why should I have to report every absence to you?”@
+`“Hold on.@ Why should I have to report every absence to you?”@
 ld c,"tachi/ari_t01",crossfade,800
-`“Isn’t it obvious?@ If you don’t show up, she doesn’t visit our classroom either.@ I need advance warning so I can make other arrangements.”@ What exactly he needs to arrange remains a mystery.
+`“Isn’t it obvious?@ If you don’t show up, she doesn’t visit our classroom either, so I need advance warning to make other arrangements.”@
+`What exactly he needs to arrange remains a mystery.
 \
-`“Seriously, though, what happened?@ You’ve had anemia since middle school, but you never actually missed class.@ Sure, you pulled that stunt where you arrived and went straight home a few times.”@ “This was much the same.@ I made it as far as the intersection, felt sick, and turned back.”@ “Huh.@ First Yumizuka, now you—both of you have been acting up lately.”@ “I won’t deny that I have, but…@ did something happen to Yumizuka?”
+`“Seriously, though, what happened?@ You’ve had anemia since middle school, but you never actually missed class.@ Sure, you pulled that stunt where you arrived and went straight home a few times.”@
+`“This was much the same.@ I made it as far as the intersection, felt sick, and turned back.”@
+`“Huh.@ First Yumizuka, now you—both of you have been acting up lately.”@
+`“[line=2]I won’t deny that, but did something happen to Yumizuka?”
 \
-`“Hm?@ Oh, she’s been absent for days.@ Maybe playing model student for so long finally left her one tile from a breakdown.@ But I bet she already discarded her winning tile, so now she can’t go out.”@ “…”@ Arihiko’s metaphors occupy a world entirely their own.
+`“Hm?@ Oh, she’s been absent for days.@ Maybe playing model student for so long finally left her one tile from a breakdown.@ But I bet she already discarded her winning tile, so now she can’t go out.”@
+`“…”@
+`Arihiko’s metaphors occupy a world entirely their own.
 \
 wave se_03
 `The homeroom bell rings.@
 br
-`“Oops.@ I’ll leave you to it, then.@ Make up for skipping Saturday by applying yourself to your studies.”@ Arihiko hurries out of the classroom.@ In other words, he intends to cut school today.
+`“Oops—I’ll leave you to it, then.@ Make up for skipping Saturday by applying yourself to your studies.”@
+`Arihiko hurries out of the classroom.@
+`In other words, he intends to cut school today.
 \
 bg #000000,lshutter,800
 !w2000
 bg "bg/bg_06a",lshutter,800
-`The morning session ends.@ At the bell for lunch, half the classroom empties almost at once.@ “Now what?”@ Arihiko is gone, so I may as well take my time over lunch today.
+`The morning session ends.@
+`At the bell for lunch, half the classroom empties almost at once.@
+`“Now what?”@
+`Arihiko is gone, so I may as well take my time over lunch today.
 \
 ld c,"tachi/cel_t12",lshutter,400
-`“Oh?@ Are you all alone, Tohno?”@ “I am.@ Did you come here for lunch?”@
+`“Oh?@ Are you all alone, Tohno?”@
+`“Yes[line=3]did you come here for lunch, Ciel?”@
 ld c,"tachi/cel_t07a",crossfade,400
-`“Yes.@ I hurried over because I thought we could all eat together, but…”@ Without warning, Ciel fixes me with a grave stare.@
+`“Yes—I hurried over because I thought we could all eat together, but[line=3]”@
+`Her gaze locks on me.@
+`Without warning, Ciel studies my face in deadly earnest.@
 cl c,lshutter,800
 br
 `Whatever has come over her, she moves in until her body is pressed close against mine.
 \
-`“W-wait…@ Ciel?”@ Her body is right there.@ We are practically embracing.@ Anyone’s heart would start hammering at this distance.@
+`“W-wait[line=2]Ciel?”@
+`Her body is right there.@
+`We are practically embracing.@
+`Anyone’s heart would start hammering at this distance.@
 ld c,"tachi/cel_t07a",crossfade,400
-`“…”@ Ciel says nothing.@ She merely nestles close—and starts sniffing me.
+`“[line=5]”@
+`Ciel says nothing.@
+`She merely nestles close[line=3]and starts sniffing me.
 \
-`“What?”@ What on earth is she doing?@ Then Ciel abruptly steps away.@
+`“[line=4]What?”@
+`What on earth is she doing?@
+`Then Ciel abruptly steps away.@
 cl c,lshutter,400
-`“Um…@ Ciel?”@
+`“Um, Ciel?”@
 ld c,"tachi/cel_t07a",lshutter,400
-`“Did something happen to you, Tohno?”@ she asks with absolute seriousness.@ I have no idea what she means.@ “Something…@ like what?”@
+`“Did something happen to you, Tohno?”@
+`She asks with absolute seriousness.@
+`I have no idea what she means.@
+`“Something[line=3]like what?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“I don’t know.@ That’s why I’m asking.”@ She peers up at me and somehow looks almost angry.
+`“I don’t know.@ That’s why I’m asking.”@
+`She peers up at me and somehow looks almost angry.
 \
-`“Nothing happened.@ I’m the same as always.@ Why—do I seem strange today?”@
+`“Nothing happened—I’m the same as always.@ Why—do I seem strange today?”@
 ld c,"tachi/cel_t09",crossfade,400
-`“Hmm.@ I can’t explain it either.@ It was only a feeling, so perhaps I imagined it.”@ “…?”@ I cock my head in confusion.
+`“I can’t explain it either.@ It was only a feeling, so perhaps I imagined it.”@
+`“…?”@
+`I cock my head in confusion.
 \
 ld c,"tachi/cel_t01a",crossfade,400
-`“Come on, let’s have lunch.@ You’re eating in the cafeteria today, aren’t you?@ We need to hurry before every seat is taken.”@ “Oh, right.@ Are you eating there too?”@ “Yes.@ Today feels like a day for something delicious.”@ Smiling brightly, Ciel takes my hand and leads me away.
+`“Come on, let’s have lunch.@ You’re eating in the cafeteria today, aren’t you?@ We need to hurry before every seat is taken.”@
+`“Oh, right.@ Are you eating there too?”@
+`“Yes—today feels like a day for something delicious.”@
+`Smiling brightly, Ciel takes my hand and leads me away.
 \
 bg #000000,lcartain,1500
 `In the end, we spend lunch discussing the athletics festival in two weeks and the school festival afterward.@
@@ -115,5 +185,6 @@ br
 \
 playstop
 bg "bg/bg_06b",crossfade,1500
-`Classes end for the day, and afternoon gives way to after school.@ Now, what should I do—
+`Classes end for the day, and afternoon gives way to after school.@
+`Now, what should I do[line=3]
 \

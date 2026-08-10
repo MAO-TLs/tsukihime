@@ -3,77 +3,119 @@ play "*3"
 wavestop
 bg "bg/bg_06a",crossfade,800
 wave se_03
-`The instant lunch break began, a certain boy who hadn’t attended a single class all morning finally showed up.@
+`The instant lunch break begins, a certain boy who has not attended a single class all morning finally shows up.@
 ld c,"tachi/ari_t05",lshutter,400
-`“Yo!@ Let’s eat!@ Lunch, lunch!”@ Whatever had him so delighted, Arihiko was bursting with energy.@ “Obviously I’m going to eat, but you’re in a suspiciously good mood.@ What happened, Arihiko?”@ “Yeah.@ I just asked Ciel if she wanted to have lunch with us, and she turned me down.”@ “……”@ Strange.@ He clearly meant Ciel, but apparently this friend of mine enjoyed being turned down.
+`“Yo!@ Let’s eat—lunch, lunch!”@
+`Whatever has him so delighted, Arihiko is bursting with energy.@
+`“Obviously I am going to eat, but you are in a suspiciously good mood.@ What happened, Arihiko?”@
+`“Yeah.@ I just asked Ciel if she wanted to have lunch with us, and she turned me down.”@
+`“………………”@
+`Strange.@
+`He clearly means Ciel, but apparently this friend of mine enjoys being turned down.
 \
 `“Tell me something, Arihiko.@ Have you always been into that?”@
 ld c,"tachi/ari_t02",crossfade,400
-`“No, no, hear the whole story.@ I asked her why not, and she said, ‘Not if Tohno is coming too.@’ Wahahahahahaha!@ Isn’t that priceless, Tohno?”@ “……”@ Strange.@ Why had I been friends with this worthless excuse for a human being since middle school?
+`“No, no, hear the whole story.@ I asked her why not, and she said, ‘Not if Tohno is coming too.@’ Wahahahahahaha!@ Is that not priceless, Tohno?”@
+`“………………”@
+`Strange.@
+`Why have I kept this lousy excuse for a friend around since middle school?
 \
-`“Boy, she really hates you, Tohno!@ I’m so happy to have one less rival that lunch is on me today!”@ Arihiko gleefully pounded me on the back.@ “…@I see.@ She was still angry about this morning.”@ I had no idea what I had done to deserve it, but she had certainly looked angry.@
+`“Boy, she really hates you, Tohno!@ I am so happy to have one less rival that lunch is on me today!”@
+`Arihiko gleefully pounds me on the back.@
+`“I see.@ Ciel is still angry about this morning.”@
+`I have no idea what I did to deserve it, but she certainly looked angry.@
 ld c,"tachi/ari_t01",crossfade,400
-`“Come on, Tohno.@ The cafeteria has half as many seats as it has customers.”@ Arihiko seized my arm and dragged me away by force.
+`“Come on, Tohno.@ The cafeteria has half as many seats as it has customers.”@
+`Arihiko seized my arm and dragged me away by force.
 \
 bg #000000,lcartain,800
 bg "bg/bg_50",lcartain,800
-`Arihiko and I sat down side by side for lunch.@ Our cafeteria had a television, and they played recordings of the morning news—one of those ideas poised exactly between educational and appalling.@
+`Arihiko and I sat down side by side for lunch.@
+`Our cafeteria had a television, and they played recordings of the morning news—one of those ideas poised exactly between educational and appalling.@
 br
 `The current story was about a drunk customer stabbing a convenience-store clerk to death, which was enough to keep me out of convenience stores for the next three days or so.
 \
 ld c,"tachi/ari_t01",crossfade,400
-`“Dangerous world out there.@ We’ve got some maniac killing strangers, drunks stabbing people…@ A guy can’t even go out at night with any peace of mind.@ Honestly.”@ Arihiko seemed to be watching the news with surprising seriousness.
+`“What a dangerous world.@ We have a maniac killing strangers and drunks stabbing people.@ A guy cannot even go out at night in peace.”@
+`Arihiko seems to be watching the news with surprising seriousness.
 \
-`“…@It’s dangerous, sure.@ But those random killings are over now, so things should be back to normal.”@ “Really?@ They catch the killer?”@ “No, I don’t think they caught him.”@
+`“It’s dangerous, sure.@ But the random killings are over, so I’d say things are back to normal.”@
+`“Really?@ They catch the guy?”@
+`“No, I don’t think anyone caught him.”@
 br
-`[line=3]At any rate, the one behind it was no longer in this world.@ There would be no more lurid MODERN-DAY VAMPIRE headlines on television.@ No more nameless “somebody”@ murdered for no reason.
+`[line=3]At any rate, the one behind it is no longer in this world.@
+`There will be no more lurid MODERN-DAY VAMPIRE headlines on television and no more nameless victims murdered for no reason.
 \
-`“The point is, those insane killings are over.@ There won’t be any more victims.@ This city is finally back to normal.”@
+`“The point is, those insane killings are over.@ This city is finally back to normal, with no more victims.”@
 ld c,"tachi/ari_t04",crossfade,400
-`“No—I’m pretty sure there’ll be more victims, Tohno.”@ “What?@ How can you be so sure, Arihiko?”@ “Because look.@ The news is saying they found the tenth body this morning.”@
+`“No[line=3]I am sure there will be more victims, Tohno.”@
+`“[line=3]What?@ How can you be so sure, Arihiko?”@
+`“Because look.@ The news says they found the tenth body this morning.”@
 br
 `[line=5]What?@
 br
 `“Whoa, seriously…?@ That’s right behind the movie theater I always go to.”
 \
-`“W-wait.”@ I shoved Arihiko aside and stared at the television.@ There it was.@ The news droned on: last night, a tenth victim had been claimed by the serial killer.@
+`“W-wait[line=4]”@
+`I shove Arihiko aside and stare at the television.@
+`There it is.@
+`The news drones on: last night, a tenth victim was claimed by the serial killer.@
 playstop
-`“That’s…@ impossible.”@ He—Nrvnqsr was definitely dead.@ So why had another body turned up with most of its blood drained away?
+`“That cannot be[line=3]”@
+`He was gone.@ Nrvnqsr was definitely dead.@
+`So why[line=3]had another body turned up with most of its blood drained away?
 \
 ld c,"tachi/ari_t01",crossfade,400
-`“A modern-day vampire, huh?@ No idea what one’s like, but if it’s a gorgeous older woman, I might let her suck me dry.@ Mm-hm.”@ “……”@
+`“A modern-day vampire, huh?@ No idea what one is like, but if it is a gorgeous older woman, I might let her suck me dry.”@
+`“[line=5]”@
 br
 `If she were a beautiful woman, he’d let her drink his blood.@
 br
-`Idiotic as Arihiko’s remark was, it might—well—have struck the mark.@
+`Idiotic as Arihiko’s remark is, it might[line=3]well, have struck the mark.@
 br
-`“It couldn’t be…”@ I didn’t want to consider it.@ But even with Nrvnqsr gone, there was still one vampire left, wasn’t there, Shiki?
+`“[line=3]It cannot be.”@
+`I do not want to consider it.@
+`But even with Nrvnqsr gone, there is still one vampire left, is there not, Shiki[line=4].
 \
 bg #000000,crossfade,800
 bg "bg/bg_06a",crossfade,800
-`Classes ended—or rather, the school day ended without my noticing.@ Dark thoughts had chased one another through my head until, when I finally looked around, everyone else was gone.
+`Classes end.@
+`Dark thoughts chase one another through my head.@
+`When I finally look around, everyone else is gone.
 \
-`“The killings are still happening.”@ I didn’t know what that meant.@ Arcueid herself was probably the only one who knew the answer.@
+`“[line=3]The killings are still happening.”@
+`I do not know what that means.@
+`Arcueid herself is probably the only one who knows the answer.@
 br
-`I didn’t know.@ Those murders no longer had anything to do with Shiki Tohno.@ When I settled things with Nrvnqsr, I had returned to this side of the world.@ To go willingly back into that nightmare would be sheer madness.
+`I do not know.@
+`Those murders no longer have anything to do with Shiki Tohno.@
+`When I settled things with Nrvnqsr, I returned to this side of the world.@
+`Then[line=3]to go willingly back into that nightmare would be sheer madness.
 \
-`“I shouldn’t get involved again.”@
+`“I should not[line=4]get involved again.”@
 br
-`I understood that without needing to say it aloud.@ It was probably the second-worst choice.@ But Shiki Tohno had been taught the best one a long, long time ago.
+`I understood that without needing to say it aloud.@
+`It was probably the second-worst choice.@
+`But Shiki Tohno had been taught the best one a long, long time ago.
 \
 br
 br
 br
 br
 br
-`[line=3]Shiki, everyone’s life is riddled with pitfalls.@ You have more power to do something about them than most, so hold your head up and act like it.@
+`[line=3]Shiki, everyone’s life is riddled with pitfalls.@
+`You have more power to do something about them than most, so hold your head up and act like it[line=4]
 !w750
 \
-`“……”@ That was why I couldn’t simply look away.@ The case was not over.@ Once Shiki Tohno had become involved, it seemed he would have to see the whole miserable business through to the end.
+`“[line=4]”@
+`That is why I cannot simply look away.@
+`The case is not over.@
+`Once Shiki Tohno becomes involved, it seems he must see the whole miserable business through[line=2]
 \
 bg #000000,lcartain,800
 bg "bg/bg_24a",lcartain,800
-`I left school.@ First, I would try Arcueid’s apartment.@
+`I leave school.@
+`First, I will try Arcueid’s apartment.@
 br
 bg "bg/bg_23a",lcartain,800
 bg "bg/bg_12a",lcartain,800
@@ -81,12 +123,16 @@ bg "bg/bg_13a",lcartain,800
 bg "bg/bg_14a",crossfade,800
 bg "bg/bg_15c",crossfade,800
 bg "bg/bg_12a",lcartain,800
-`The apartment was just as I remembered it, but Arcueid was nowhere to be seen.@ Well, I never expected her to be that easy to find.@ I would have to go into the city and search everywhere I could.
+`The apartment was just as I remembered it, but Arcueid was nowhere to be seen.@
+`Well, I never expected her to be that easy to find.@ I would have to go into the city and search everywhere I could.
 \
 bg #000000,crossfade,800
 !w3000
 bg "bg/bg_25b",lcartain,800
-`The sun had gone down, and the city was settling into night.@ I had searched every major part of town and found not the slightest trace of Arcueid.
+`The sun had gone down, and the city was settling into night.@
+`I had searched every major part of town and found not the slightest trace of Arcueid.
 \
-`“Damn it.@ She wanders around everywhere when it doesn’t matter, so why can’t I find her now?”@ What was I to do?@ The night had only just begun, so perhaps I should…
+`“[line=3]Damn it.@ She wanders around everywhere when it does not matter, so why can I not find her now?”@
+`What should I do?@
+`The night has only just begun, so perhaps I should[line=3]
 \

@@ -2,30 +2,41 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_06b",notrans,0
-`“……@Haaah.”@ Unable to make myself go straight home, I sit in the classroom and let the time drift by.
+`“Haaah.”@
+`Unable to make myself go straight home, I sit in the classroom and let the time drift by.
 \
-`Outside, evening is falling.@ The calls of the sports clubs carry in from the field, and merely sitting here in my chair is enough to make the world feel peaceful.@ Probably because yesterday and the day before were so monstrously abnormal.@
+`Outside, evening is falling.@
+`The calls of the sports clubs carry in from the field, and merely sitting here in my chair is enough to make the world feel peaceful.@
+`Probably because yesterday and the day before were so monstrously abnormal.@
 br
-`[line=3]And then—
+`[line=3]And then.@
 br
 ld c,"tachi/cel_t01a",lshutter,400
-`“Oh, good.@ Tohno, you’re still here.”@ Without warning, she pops her head around the door.
+`“Oh, good.@ Tohno, you’re still here.”@
+`Without warning, she pops her head around the door.
 \
 `“Ciel…?@ What brings you to a second-year classroom?@ Did you need something?”@
 ld c,"tachi/cel_t02",crossfade,400
-`“Yes.@ I came by to see whether you might still be here.”@ She says something irresistibly flattering and smiles.
+`“Yes, I came by to see whether you might still be here.”@
+`She says something irresistibly flattering and smiles.
 \
-`“Well, I am.@ What is it?”@ “There was something I forgot to tell you at lunch.@ It could have waited until tomorrow, but I thought sooner might be better.”@ “Oh…@ Something you forgot?”@
+`“I am still here, but what is it?”@
+`“There was something I forgot to tell you at lunch.@ It could have waited until tomorrow, but I thought sooner might be better.”@
+`“I see.@ Something you forgot?”@
 ld c,"tachi/cel_t03",crossfade,400
-`“Yes.@ You seem to have been going out at night lately, Tohno, so I wanted to warn you.@ The city has been dangerous recently.@ You really shouldn’t stay out so late.”@ “Ah—well, I…”@ Why does she know that?@ Maybe my lack of sleep shows in my face, or perhaps she has seen me out at night.
+`“Yes.@ You seem to have been going out at night lately, Tohno, so I wanted to warn you.@ The city has been dangerous recently, so you really shouldn’t stay out so late.”@
+`“Ah[line=4]well, I”@
+`Why does Ciel know?@ Is it because my lack of sleep shows in my face?@ Or did she see me out at night?
 \
-`“There, Tohno.@ I have warned you properly now.@ Please don’t do anything too dangerous.”@
+`“There, Tohno.@ I’ve warned you properly now, so please don’t do anything too dangerous.”@
 cl c,lshutter,800
 `As abruptly as she appeared, she is gone again like a gust of wind.
 \
 bg #000000,lcartain,1500
 bg "bg/bg_01b",lcartain,1500
-`After idling in the classroom for another hour, I finally set out for home.@ It is a little after five.@ Hisui will worry if I stay out much later, so I had better get going—
+`After idling in the classroom for another hour, I finally set out for home.@
+`It is a little after five.@
+`Hisui will worry if I stay out much later, so I had better get going[line=4]
 \
 bg #000000,lcartain,1500
 !w1000

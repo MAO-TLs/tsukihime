@@ -2,59 +2,87 @@ play "*2"
 wavestop
 bg #000000,tshutter,800
 bg "bg/bg_11a",bshutter,800
-`…@I made my way up to the fourth floor.@ Akiha was in Class 1-1, so I stopped a girl in the hall and asked her to call Akiha out.@ “Tohno!@ Your big brother’s here!”@ …@By chance, I had chosen a girl with a wonderfully straightforward approach.
+`I go up to the fourth floor.@
+`Akiha is in Class 1-1.@ I stop a girl in the hall and ask her to call Akiha out.@
+`“Tohno, your brother is here!”@
+`By chance, I chose a girl with a wonderfully direct approach.
 \
 ld c,"tachi/aki_t21",lshutter,400
-`“Did you want something, Brother?”@ Akiha emerged wearing a sullen expression.@ “……”@ This was awkward.@ Kohaku had told me to apologize, but after hearing that story, I couldn’t help feeling painfully self-conscious around Akiha.
+`“Did you want something, Brother?”@
+`Akiha emerges wearing a sullen expression.@
+`“[line=7]”@
+`This is awkward.@
+`Kohaku told me to apologize, but after hearing that story, I cannot help feeling painfully self-conscious around Akiha.
 \
-`“If you have no business with me, I’ll return to class.”@ “No, I do.@ It’s just…@ how should I put this…”@
+`“If you have no business with me, I will return to class.”@
+`“[line=3]No, I do.@ I am not sure how to say it.”@
 ld c,"tachi/aki_t03a",crossfade,400
-`“What do you mean, ‘How should I put this?@’ Break is short, so if you have something to say, please say it quickly.”@ “Well…@ the thing is…”@
+`“What do you mean, ‘I am not sure how to say it’?@ Break is short, so if you have something to say, say it quickly.”@
+`“Well, the thing is.”@
 br
 `[line=3]Damn it!@ I hadn’t come all this way to lose my nerve now!
 \
 `“I’m sorry about this morning…!”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“Wh—Brother…?”@ “I came to tell you I was wrong this morning!@ I’ll get my act together starting tomorrow, so can you forgive me for today, Akiha—?”@
+`“Wh[line=3]Brother?”@
+`“I came to tell you I was wrong this morning!@ I will get my act together tomorrow, so forgive me for today, Akiha[line=3]!”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“I—I don’t know what there is to forgive.@ I never cared about—”@ “It’s fine.@ I just wanted to apologize!@ Sorry I took up your time.@ See you!”
+`“There is nothing to forgive; I did not even care about[line=3]”@
+`“That is fine, I only wanted to apologize!@ Sorry I took your time; see you!”
 \
 bg #000000,lshutter,400
-`“Wait—Brother!”@
+`“[line=3]Wait, Brother!”@
 br
-`Akiha called after me, but by then I was too embarrassed to stop or even look back.@ I ran all the way to my own classroom.
+`Akiha called after me, but by then I was too embarrassed to stop or even look back.@
+`I ran all the way to my own classroom.
 \
 !w1000
 play "*3"
 bg "bg/bg_06a",tcartain,800
-`…@Lunch break arrived.@ Having just gone to apologize to Akiha made the thought of eating with her even more embarrassing.@ Still—
+`Lunch break arrives.@
+`Having just apologized to Akiha makes eating with her even more embarrassing.@
+`But.@
 ld c,"tachi/ari_t01",lshutter,400
-`“Yo, Tohno.@ Come on, let’s get to the courtyard.@ Akiha’s waiting.”@ With a man like that around, I could hardly leave her there alone.@ I let out a long sigh and left the classroom with Arihiko.
+`“Hey, Tohno.@ Come on, let us get to the courtyard; Akiha is waiting.”@
+`With a man like that around, I can hardly leave her there alone.@
+`“Sigh…”@
+`I let out a heavy breath and leave the classroom with Arihiko.
 \
 bg #000000,lcartain,800
 bg "bg/bg_04",lcartain,800
-`Akiha had not arrived yet.@ Since Ciel would be joining us anyway, we decided to claim a patch of lawn instead of a bench.
+`Akiha had not arrived yet.@
+`Since Ciel would be joining us anyway, we decided to claim a patch of lawn instead of a bench.
 \
 bg #000000,tshutter,400
 bg "bg/bg_04",bshutter,400
 ld l,"tachi/cel_t03",lshutter,800
 `“Mind if I join you?@ Oh, Akiha isn’t here yet.”@
 ld r,"tachi/ari_t01",crossfade,400
-`“Nope.@ She ought to be here any minute, though—Hey, Tohno, did something happen between you and Akiha?”@
+`“Yeah, she ought to be here any minute[line=3]hey, Tohno, did something happen between you and Akiha?”@
 cl a,crossfade,400
-`Arihiko drove an elbow into my ribs.@ Why did his intuition only work at the most useless times?@ “There she is.@ Akiha, over here!”@ He waved both arms wildly.@ Looking uncertain, Akiha crossed the lawn toward us.
+`Arihiko drove an elbow into my ribs.@
+`Why did his intuition only work at the most useless times?@
+`“There she is.@ Akiha, over here!”@
+`He waved both arms wildly.@
+`Looking uncertain, Akiha crossed the lawn toward us.
 \
 ld l,"tachi/aki_t12a",lshutter,800
 `“I’m sorry I’m late.@ Some girls in my class invited me to eat with them, and it took a while to decline.”@
 ld r,"tachi/ari_t01",crossfade,400
-`“Don’t worry about it.@ We only just got here ourselves.@ Come on, sit right here.”@
+`“No problem, we only just arrived.@ Come sit here.”@
 cl a,crossfade,400
-`Arihiko slapped the grass beside him.@ After a moment’s hesitation, Akiha sat down next to me.
+`Arihiko slapped the grass beside him.@
+`After a moment’s hesitation, Akiha sat down next to me.
 \
 ld c,"tachi/aki_t16a",crossfade,400
-`“……”@ Akiha said nothing.@ “……”@ I had no idea what to say either, so I fell silent too.@
+`“………………….”@
+`Akiha says nothing.@
+`“[line=7]”@
+`I do not know what to say either, so I fall silent.@
 cl a,crossfade,400
 ld c,"tachi/cel_t03",crossfade,400
-`“What’s wrong with you two?@ Sitting there in silence over lunch is just strange.”@ “Urgh…”@ I knew that.@ I simply had no idea what I was supposed to say.
+`“What is wrong with you two?@ Sitting there in silence over lunch is strange.”@
+`“U[line=6]”@
+`I know that, but have no idea what to say.
 \
 cl a,crossfade,400

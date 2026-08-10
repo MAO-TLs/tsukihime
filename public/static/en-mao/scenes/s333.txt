@@ -1,25 +1,38 @@
 play "*3"
 wavestop
 bg "bg/bg_23b",lcartain,800
-`Akiha and I walk toward the mansion.@ “…”@ To be honest, I don’t know what to make of this.@ Whenever I glance aside, there she is, walking beside me with her long hair streaming behind her.@ As long as she keeps quiet, Akiha is all grace and refinement—the very picture of a flawless young lady.
+`Akiha and I walk toward the mansion.@
+`“…”@
+`To be honest, I don’t know what to make of this.@
+`Whenever I glance aside, there she is, walking beside me with her long hair streaming behind her.@
+`As long as she keeps quiet, Akiha is all grace and refinement—the very picture of a flawless young lady.
 \
-`“…”@ For some reason, I can’t think of a thing to say.@ I see Akiha every day at home, yet I remain painfully tense as we make our way back to the mansion.
+`“…”@
+`For some reason, I can’t think of a thing to say.@
+`I see Akiha every day at home, yet I remain painfully tense as we make our way back to the mansion.
 \
 bg #000000,lcartain,800
 bg "bg/bg_32b",lcartain,400
 play "*1"
-`We reach the mansion.@ Akiha steps ahead to open the gate, then turns back to me as though something has just occurred to her.@
+`We reach the mansion.@
+`Akiha steps ahead to open the gate, then turns back to me as though something has just occurred to her.@
 ld c,"tachi/aki_t01a",crossfade,400
-`“One question.@ How close are you to this Ciel?”@ The question comes completely out of nowhere.@ “We’re not especially close.@ She’s a year above me, and that’s all.@ I suppose she’s a friend I can relax around.”@
+`“One question.@ How close are you to this Ciel?”@
+`The question comes completely out of nowhere.@
+`“We’re not especially close.@ She’s a year above me, and that’s all.@ I suppose she’s a friend I can relax around.”@
 cl a,crossfade,400
-`“I see.”@ Akiha looks away and heads for the front door.
+`Akiha says, “I see,”@ then looks away and heads for the front door.
 \
 bg "bg/bg_48b",lshutter,800
-`We cross the garden and reach the entrance.@ Hisui is not waiting at the gate, nor is Kohaku sweeping the garden with her broom.@ Today, as if by prior agreement, neither of them is anywhere to be seen.
+`We cross the garden and reach the entrance.@
+`Hisui is not waiting at the gate, nor is Kohaku sweeping the garden with her broom; today, as if by prior agreement, neither of them is anywhere to be seen.
 \
 `“Oh.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“Did you say something, Brother?”@ “Nothing important.@ I was just wondering…@ Could I take a look inside that Japanese-style annex you mentioned?”@ “The annex…?”@ Akiha murmurs, knitting her brows.
+`“Yes?@ Did you say something, Brother?”@
+`“Nothing important.@ Could I take a look inside that Japanese-style annex you mentioned?”@
+`“[line=4]The annex?”@
+`Akiha murmurs, knitting her brows.
 \
 ld c,"tachi/aki_t11a",crossfade,400
 `“Please don’t.@ That building was sealed off years ago.@ Even you are not permitted to enter it.”@

@@ -66,6 +66,7 @@ export default function MaoReaderShell({
 		[repository, retryKey],
 	)
 	const readyManifest = manifest.status === "ready" ? manifest.data : undefined
+	const translationVersion = readyManifest?.translationVersion ?? "v1.1.0"
 	const initialScriptLocationKey = JSON.stringify([
 		initialSectionId,
 		initialScriptId,
@@ -182,11 +183,11 @@ export default function MaoReaderShell({
 			<header className="mao-reader-header reader-header">
 				<MaoSiteNav currentPage={page} />
 				<div className="mao-reader-intro reader-intro shell">
-					<p className="mao-reader-intro__eyebrow eyebrow">{page === "audit" ? "Source-only editorial audit" : "Script Version v1.0.0"}</p>
+					<p className="mao-reader-intro__eyebrow eyebrow">{page === "audit" ? "Source-only editorial audit" : `Script Version ${translationVersion}`}</p>
 					<h1>{page === "audit" ? "mirror moon audit" : "Script browser"}</h1>
 					<p>{page === "audit"
 						? "Every published finding was checked against the Japanese and its scene context. Borderline calls were withheld, and counterexamples are recorded wherever they set a useful limit on a work-wide claim."
-						: "Search all 14,620 aligned passages or read any of the 62 scripts beside the v1.0.0 MAO English translation. The earlier mirror moon English and its adjudicated source errors can be displayed for comparison."}</p>
+						: `Search all 14,620 aligned passages or read any of the 62 scripts beside the ${translationVersion} MAO English translation. The earlier mirror moon English and its adjudicated source errors can be displayed for comparison.`}</p>
 				</div>
 			</header>
 

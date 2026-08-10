@@ -6,11 +6,17 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Merci!@ It’s time for Teach Me, Ciel!@, the feature for poor unfortunate Tohno, who managed to hit a dead end right at the climax.@ Against all good sense, we’ve already reached day two of these lessons.@ At this rate we may make it to day three, and the thought turns my stomach.@
+`Merci!@
+`It’s time for Teach Me, Ciel!@, the feature for poor unfortunate Tohno,
+`who managed to hit a dead end right at the climax.@
+`Against all good sense, we’ve already reached day two of these lessons.@
+`At this rate we may make it to day three, and the thought turns my stomach.@
 br
 `Now, let’s begin our first lesson.
 \
-`Oh dear.@ I warned you, didn’t I, Tohno?@ I told you not to trust someone like Arcueid.@
+`Oh dear.@
+`I warned you, didn’t I, Tohno?@
+`I told you not to trust someone like Arcueid.@
 br
 ld l,"tachi/ark_t30",lshutter,400
 `“That’s not fair.@ It wasn’t my fault.”@
@@ -22,9 +28,13 @@ br
 cl l,lshutter,400
 `[line=4]Now, then.@
 br
-`If you’ve ended up here, Tohno, I’m afraid you’ll have to resubmit your work from quite a long way back.@ Sadly, the feelings Arcueid had begun to develop for you weren’t strong enough to overcome her vampiric impulse.@ Restart from a day or two earlier and try deepening your bond.@
+`So, Tohno, you’ve ended up here.@
+`I’m afraid you’ll have to resubmit your work from quite a long way back.@
+`Sadly, the feelings Arcueid had begun to develop for you weren’t strong enough to overcome her vampiric impulse.@
+`Restart from a day or two earlier and try deepening your bond.@
 br
-`Oh, and one other thing.@ Even if you’d been bewitched, Tohno, losing control that easily was rather ill-advised.
+`Oh, and one other thing.@
+`Even if you’d been bewitched, Tohno, losing control that easily was rather ill-advised.
 \
 bg #000000,crossfade,800
 ld c,"tachi/ark_t30",lshutter,400

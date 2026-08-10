@@ -3,24 +3,40 @@ wavestop
 play "*3"
 bg "bg/bg_06a",crossfade,800
 wave se_03
-`The instant lunch break began, a certain boy who hadn’t attended a single class all morning finally showed up.@
+`The instant lunch break begins, a certain boy who has not attended a single class all morning finally shows up.@
 ld c,"tachi/ari_t05",lshutter,400
-`“Yo, Tohno!@ Let’s eat!@ Lunch, lunch!”@ Whatever had him so delighted, Arihiko was bursting with energy.
+`“Yo, Tohno!@ Let’s eat—lunch, lunch!”@
+`Whatever has him so delighted, Arihiko is bursting with energy.
 \
-`“Obviously I’m going to eat, but you’re in a suspiciously good mood.@ What happened, Arihiko?”@ “Yeah.@ I just asked Ciel if she wanted to have lunch with us, and she turned me down.”@ “……”@ Strange.@ He clearly meant Ciel, but apparently this friend of mine enjoyed being turned down.
+`“Obviously I am going to eat, but you are in a suspiciously good mood.@ What happened, Arihiko?”@
+`“Yeah.@ I just asked Ciel if she wanted to have lunch with us, and she turned me down.”@
+`“………………”@
+`Strange.@
+`He clearly means Ciel, but apparently this friend of mine enjoys being turned down.
 \
 `“Tell me something, Arihiko.@ Have you always been into that?”@
 ld c,"tachi/ari_t02",crossfade,400
-`“No, no, hear the whole story.@ I asked her why not, and she said, ‘Not if Tohno is coming too.@’ Wahahahahahaha!@ Isn’t that priceless, Tohno?”@ “……”@ Strange.@ Why had I been friends with this worthless excuse for a human being since middle school?
+`“No, no, hear the whole story.@ I asked her why not, and she said, ‘Not if Tohno is coming too.@’ Wahahahahahaha!@ Is that not priceless, Tohno?”@
+`“………………”@
+`Strange.@
+`Why have I kept this lousy excuse for a friend around since middle school?
 \
-`“Boy, she really hates you, Tohno!@ I’m so happy to have one less rival that lunch is on me today!”@ Arihiko gleefully pounded me on the back.@ “…@I’m glad you’re paying, but was she angry with me?”@
+`“Boy, she really hates you, Tohno!@ I am so happy to have one less rival that lunch is on me today!”@
+`Arihiko gleefully pounds me on the back.@
+`“I am glad you are paying, but was Ciel angry with me?”@
 ld c,"tachi/ari_t01",crossfade,400
-`“Hm?@ Let me think.@ She asked, ‘Will Tohno be there too?@’ When I nodded, her face turned red.@ Perchance her cheeks flushed with rage the instant she heard your name.”@ “Perchance?@ Since when do you talk like that, Arihiko?”@ “Who knows?@ Perchance not.”@
+`“Hm.@ Let me think; she asked, ‘Will Tohno be there too?@’ When I nodded, her face turned red; perchance her cheeks flushed with rage the instant she heard your name.”@
+`“Arihiko, I think you are using ‘perchance’ wrong.”@
+`“Who knows?@ Perchance not.”@
 cl c,crossfade,800
 \
-`Arihiko was not a reliable source.@ Ciel had certainly seemed angry that morning, but I had no idea what I could have done to offend her.@ “…@It’s not as if she could tell what I dreamed about.”@ If she had worked that out from our brief conversation, she had a brilliant future as a detective.
+`Arihiko is not a reliable source.@
+`Ciel certainly seemed angry that morning, but I have no idea what I did to offend her.@
+`There is no way she could tell what I dreamed about.@
+`If she worked that out from our brief conversation, she has a brilliant future as a detective.
 \
 ld c,"tachi/ari_t01",crossfade,400
-`“Quit muttering and come on, Tohno.@ The cafeteria has half as many seats as it has customers.”@ “Ah—no, I…”@
+`“Quit muttering and come on, Tohno.@ The cafeteria has half as many seats as it has customers.”@
+`“Ah[line=3]no, I[line=3]”@
 br
 cl c,crossfade,800

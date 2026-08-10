@@ -5,17 +5,22 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`…@Yes, it’s lunchtime on day three.@ Normally I’d go out for lunch, but under the present circumstances, that would be a little…@
+`Yes, it’s lunchtime on day three.@
+`Normally I’d go out for lunch, but under the present circumstances, that would be a little…@
 br
 ld l,"tachi/ark_t30",lshutter,400
 `“Your head did get chopped off.@ Even if you ate, the food wouldn’t reach your stomach, meow.@ What Shiki did was gruesome, but didn’t you bring it on yourself, Ciel?”@
 br
-`Ha ha.@ Do be quiet.@ At least I’m better off than someone who never appears at all.
+`Ha ha, do be quiet.@
+`At least I’m better off than someone who never appears at all.
 \
 ld l,"tachi/ark_t31b",lshutter,400
-`“Oof!@ Now that you mention it, you’re right!@ Why have I gone this long without a single scene, you idiots?!”@
+`“Oof, now that you mention it, you’re right!@ Why have I gone this long without a single scene, you idiots?!”@
 br
-`I imagine it’s the fruit of your usual conduct, but I have no time to indulge you today.@ Tohno, go back one choice at once and make a decision more worthy of you.@ At this rate, neither you nor I will ever rest in peace!
+`That may be the fruit of your usual conduct, but I have no time to indulge you today.@
+`Tohno.@
+`Go back one choice at once and make a decision more worthy of you.@
+`At this rate, neither you nor I will ever rest in peace!
 \
 bg #000000,crossfade,800
 playstop

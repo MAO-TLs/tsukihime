@@ -2,50 +2,83 @@ monocro off
 play "*2"
 wavestop
 bg "bg/bg_33a",notrans,0
-`I’ll simply have to bluff my way through.@ There is no chance she would understand talk of inhuman beings like Arcueid and Nrvnqsr, so my only option is to avoid lying as much as possible while revealing none of the truth.@
+`I’ll simply have to bluff my way through.@
+`There is no chance she would understand talk of inhuman beings like Arcueid and Nrvnqsr, so my only option is to avoid lying as much as possible while revealing none of the truth.@
 br
-`“All right.@ Here goes.”@ I draw one deep breath and open the door to the sitting room.
+`“[line=3]All right, here goes.”@
+`I fill my lungs and open the sitting-room door.
 \
 bg "bg/bg_34a",lcartain,800
 `Akiha is waiting on the sofa, while Hisui stands against the wall.@
 ld c,"tachi/aki_t03a",lshutter,800
-`“Good morning, Brother.”@ Akiha fixes me with a glare that all but declares, I am furious.@ “Um, well…@ good morning, Akiha.”@ “We can dispense with the greetings.@ Sit there, please.@ I have something to discuss with you.”@ “…”@ Something in Akiha’s voice brooks no refusal.@ Meek as a lamb, I lower myself onto the sofa opposite her.
+`“[line=3]Good morning, Brother.”@
+`Akiha fixes me with a glare that all but declares, I am furious.@
+`“Um, well[line=3]good morning, Akiha.”@
+`“We can dispense with the greetings.@ Sit there, please—I have something to discuss with you.”@
+`“[line=6]”@
+`Something in Akiha’s voice brooks no refusal.@
+`Meek as a lamb, I lower myself onto the sofa opposite her.
 \
-`“Brother.@ Shall we begin with an account of where you were the day before yesterday and yesterday?”@ “Urgh—”@ She phrases it as a courteous request, but make no mistake: this is a threat.@ Unfortunately, her big brother cannot possibly tell his little sister any of that.
+`“Brother.@ Shall we begin with an account of where you were the day before yesterday and yesterday?”@
+`“[line=5]Urgh”@
+`She phrases it as a courteous request, but make no mistake: this is a threat.@
+`Unfortunately, her big brother cannot possibly tell his little sister any of that.
 \
 `“About that, Akiha…”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“Yes?”@ “The truth is, I ran into an acquaintance I hadn’t seen in a while and ended up showing them around town.”@
+`“Yes?”@
+`“The truth is, I ran into an acquaintance I hadn’t seen in a while and ended up showing them around town.”@
 ld c,"tachi/aki_t18a",crossfade,400
-`“An acquaintance, you say.”@ “Yeah.@ Someone I met recently.@ We happened to run into each other outside the school, and they said they desperately needed me to stay with them until Sunday, so, well…”
+`“Oh?@ Just an acquaintance?”@
+`“Yeah, someone I met recently; we ran into each other outside the school.@ They said they desperately needed me to stay with them until Sunday, so[line=3]”
 \
 `“So you skipped school and spent the night away without permission.”@
 br
-`Urgh.@ Akiha’s stare is glacial.@ That isn’t anger so much as utter exasperation—I’m sure of it.
+`Urgh—Akiha’s stare is glacial.@
+`That isn’t anger so much as utter exasperation—I’m sure of it.
 \
-`“…”@ “…”@ I say nothing.@ Akiha says nothing and keeps staring.@
+`“…”@
+`“…”@
+`I say nothing while Akiha stares at me in silence.@
 ld c,"tachi/aki_t03a",crossfade,400
-`“And who was it?”@ “What?”@
+`“And who was it?”@
+`“What?”@
 ld c,"tachi/aki_t02",crossfade,400
-`“I asked who this acquaintance was.”@ Akiha looks me straight in the eye.@ Her expression could not make it clearer: You will not wriggle out of this.
+`“I asked who this acquaintance was.”@
+`Akiha looks me straight in the eye.@
+`Her expression could not make it clearer: You will not wriggle out of this.
 \
-`“Well, that’s—”@ “If you can’t tell me, then you must have something to feel guilty about.”@ Her gaze pierces straight through me.@ Looking away would only encourage her to torment me, so I stare stubbornly back.
+`“[line=3]Well, that is[line=3]”@
+`“If you cannot tell me, then you must have something to feel guilty about, Brother.”@
+`Her gaze pierces straight through me.@
+`Looking away would only encourage her to torment me, so I stare stubbornly back.
 \
-`This has nothing to do with anything, but looking at her now, I can find no trace of the Akiha I remember.@ Her proud, straight back.@ Her crisp voice.@ Those unwavering eyes.@ It is a wildly inappropriate thought at the moment, but she really has grown into a beautiful woman.
+`This has nothing to do with anything, but looking at her now, I can find no trace of the Akiha I remember.@
+`Her proud, straight back.@
+`Her crisp voice; those unwavering eyes.@
+`It is a wildly inappropriate thought at the moment, but she really has grown into a beautiful woman.
 \
 `“Hey, Akiha.”@
 ld c,"tachi/aki_t03a",crossfade,400
-`“What?”@ “You’ve got pretty thick eyebrows, don’t you?”@
+`“What?”@
+`“You’ve got pretty thick eyebrows, don’t you?”@
 ld c,"tachi/aki_t15a",crossfade,400
-`“—!?”@ Akiha jerks to her feet and catches the table with her leg.@ “…@Oh.”@ That is an astonishing reaction.@ “You’re impossible to understand.@ That wasn’t something to be shocked about.”@ “…”@ Akiha draws a long breath and lets her shoulders drop.
+`“[line=6]!?”@
+`Akiha jerks to her feet and catches the table with her leg.@
+`“[line=3]Oh.”@
+`That is an astonishing reaction.@
+`“You’re impossible to understand.@ That wasn’t something to be shocked about.”@
+`“[line=9]”@
+`Akiha draws a long breath and lets her shoulders drop.
 \
 ld c,"tachi/aki_t11a",crossfade,400
-`“It seems you have no intention of answering me seriously.”@ “That’s not true.@ I swear, I won’t lie to you, Akiha.@ There just happen to be a great many things I can’t tell you.”@
+`“It seems you have no intention of answering me seriously.”@
+`“That’s not true.@ I swear, I won’t lie to you, Akiha.@ There just happen to be a great many things I can’t tell you.”@
 ld c,"tachi/aki_t21",crossfade,400
 `“Honestly!@ Ever since we were children, I’ve never been able to tell whether you’re sincere or insincere, Brother.”
 \
 `“Really?@ I don’t remember myself very well as a child.”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“You’re better off not remembering.@ It seems I haven’t changed either.@ I know perfectly well this is how it will end, yet I still interrogate you.@ Perhaps I haven’t grown at all.”
+`“You’re better off not remembering.@ It seems I haven’t changed either.@ Perhaps I haven’t grown at all, interrogating you even though I know perfectly well how this will end.”
 \
 cl c,crossfade,400

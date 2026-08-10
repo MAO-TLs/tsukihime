@@ -2,61 +2,91 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_11c",notrans,0
-`[line=5]Everything.@ Let it all—let everyone—fade into illusion.@
+`[line=5]Everything.@
+`Let it all—let everyone—fade into illusion.@
 !w1000
 wavestop
 \
 bg "bg/bg_11d",crossfade,1500
 `I clench the knife and force myself to my feet.@
 br
-`The footsteps swell.@ The enemy is coming closer; I can feel it beyond doubt.@ And with every step, someone’s voice rings through my skull.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.
+`The footsteps swell.@
+`The enemy is coming closer; I can feel it beyond doubt.@
+`And with every step, someone’s voice rings through my skull.@
+`CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APART
 \
 `“—!”@
 br
-`Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her apart.@ Cut her—
+`CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER—
 br
-`“Shut up.”@ I seize hold of my own will and silence the voice in my head.
+`“Shut up.”@
+`I seize hold of my own will and silence the voice in my head.
 \
 `“This is my decision.”@
 !w750
-`Cut— “You don’t get to tell me what to do.”@
+`Cut—
+`“You don’t get to tell me what to do.”@
 !w750
-`her— “If you don’t want Ciel to kill you—”@
+`her—
+`“If you don’t want Ciel to kill you—”@
 !w750
-`up— “then keep your mouth shut until this is over, Roa.”@
+`up— “then keep your mouth shut until this is over,
+`Roa.”@
 !w750
 `[line=5]
 \
-`The voice vanishes completely.@ A sharp click of a heel; a shadow reaching toward me.@
+`The voice vanishes completely.@
+`A sharp click of a heel; a shadow reaching toward me.@
 br
 `[line=3]Then Ciel steps into view.
 \
 ld c,"tachi/cel_t15",crossfade,400
 play "*7"
-`“So you’ve finally decided to fight.”@ For some reason, she sounds relieved.
+`“So you’ve finally decided to fight.”@
+`For some reason, she sounds relieved.
 \
-`“Good.@ Now neither of us will be guilty.@ If we agree to kill one another, our sins cancel each other out.@ Only the survivor will be left to bear the punishment.”@ If both of us intend to kill, neither of us is guilty?@ She is speaking of a world I cannot understand.
+`“Good.@ Now neither of us will be guilty.@
+`If we agree to kill one another, our sins cancel each other out.@ Only the survivor will be left to bear the punishment.”@
+`If both of us intend to kill, neither of us is guilty?@
+`She is speaking of a world I cannot understand.
 \
-`“I see.@ Then can the survivor ever atone for that punishment?”@ “Yes.@ A punishment is an act of restitution that can be carried out.@ Nothing that truly deserves the name can be beyond atonement.@ Sin alone refuses to disappear.@ So—neither of us wishes to shoulder any more sin now, do we?”@ With that, she advances one step.
+`“I see.@ Then can the survivor ever atone for that punishment?”@
+`“Yes.@ A punishment is an act of restitution that can be carried out.@ Nothing that truly deserves the name can be beyond atonement.@
+`Sin alone refuses to disappear.@
+`So—neither of us wishes to shoulder any more sin now, do we?”@
+`With that, she advances one step.
 \
-`“Then killing you here wouldn’t be a sin?”@ “Correct.@ I am going to kill you, so you are free to kill me.@ We stand on equal terms.”@ Another step.
+`“Then killing you here wouldn’t be a sin?”@
+`“Correct.@ I am going to kill you.@ So you are free to kill me.@ We stand on equal terms.”@
+`Another step.
 \
-`“—”@ No.@ That isn’t right.@ She is trying to kill me, and I am trying to kill her in defense of my own life.@ But if that leaves me innocent—what does it make Ciel?@ She came here with a murderous intent that was hers alone from the very beginning.@
+`“—”@
+`No—that isn’t right.@
+`She is trying to kill me, and I am trying to kill her in defense of my own life.@
+`But if that leaves me innocent—what does it make Ciel?@
+`She came here with a murderous intent that was hers alone from the very beginning.@
 br
 `Which means—
 \
-`“Goodbye.@ Let us bring this ridiculous play to an end.”@ Her final step.@
+`“Goodbye.@ Let us bring this ridiculous play to an end.”@
+`Her final step.@
 cl c,lshutter,800
 `She levels her gun-blade, its point aimed straight at my heart.@
 br
-`Before she can strike, I pitch forward almost carelessly and aim for the “point”@ in her right lung.
+`Before she can strike,
+`I pitch forward almost carelessly and aim for the “point”@ in her right lung.
 \
 bg #000000,lshutter,800
 `[line=3]I never thought I could kill her.@
 br
-`By every right, her gun-blade should pierce my heart before I can step within reach of her.@ That is why I’m so shocked.@ I slip past the weapon with absurd ease, then tap my knife into her “point”@ as if it were nothing.@ “Ci…@el.”@ It looks as though she accepted my knife on purpose.
+`By every right, her gun-blade should pierce my heart before I can step within reach of her.@
+`That is why I’m so shocked.@
+`I slip past the weapon with absurd ease, then tap my knife into her “point”@ as if it were nothing.@
+`“Ci…@el.”@
+`It looks as though she accepted my knife on purpose.
 \
-`“I made you…@ kill me.”@ Her voice is frail, poised on the brink of death.
+`“I made you…@ kill me.”@
+`Her voice is frail, poised on the brink of death.
 \
 br
 br
@@ -72,31 +102,52 @@ br
 wave se_10
 bg "bg/bg_11c",crossfade,800
 quakey 1,100
-`“—Ghh.”@ Blood surges backward from my ruined heart.@ I vomit what wells into my throat and crumple onto the corridor floor.@
+`“—Ghh.”@
+`Blood surges backward from my ruined heart.@
+`I vomit the blood welling into my throat and crumple onto the corridor floor.@
 br
-`Before my eyes lies her body, dead only moments before mine will be.
+`Before my eyes.@
+`Her body lies there—she died only moments before I will.
 \
-`“How could you…”@ You knew?@ “You…@ fool.”@ Did you know from the start that if either of us bore any guilt, it belonged to you alone?
+`“How could you…”@
+`You knew?@
+`“You…@ fool.”@
+`Did you know from the start that if either of us bore any guilt, it belonged to you alone?
 \
-`“Hah—ah.”@ Feeling drains from my limbs.@ My consciousness follows.@ With the blood supply cut off, it cannot last more than a few seconds.@ At the instant her gun-blade struck me, I saw something within myself like an ancient book, scattering its pages as it vanished.@
+`“Hah—ah.”@
+`Feeling drains from my limbs.@
+`My consciousness follows.@
+`With the blood supply cut off, it cannot last more than a few seconds.@
+`At the instant her gun-blade struck me, I saw something within myself like an ancient book, scattering its pages as it vanished.@
 br
-`Perhaps that was the thing called Roa dispersing into nothing.
+`Perhaps.@ Then that was Roa dispersing into nothing.
 \
-`“…”@ Nothing comes to mind.@ From the very beginning, she had meant to kill me at the cost of her own life.@ Did she believe that would serve as some small punishment?@
+`“…”@
+`Nothing comes to mind.@
+`From the very beginning, she had meant to kill me at the cost of her own life.@
+`Did she believe that would serve as some small punishment?@
 br
-`[line=3]Absurd.@ It means nothing.@ Nothing at all.@
+`[line=3]Absurd.@
+`It means nothing.@ Nothing at all.@
 br
-`“Even so…”@ It hurts that she died without ever apologizing to me.
+`“Even so…”@
+`It hurts that she died without ever apologizing to me.
 \
-`If she had only said she was sorry, perhaps it would have brought her some small measure of peace.@ But she could not even permit herself that.@ Knowing an apology could never repay what she had done, she refused to offer one even at the end.@
+`If she had only said she was sorry, perhaps it would have brought her some small measure of peace.@ But she could not even permit herself that.@
+`Knowing an apology could never repay what she had done, she refused to offer one even at the end.@
 br
 `That resolve of hers—and the knowledge that I drove her to it—makes me furious.
 \
-`“So that was it…”@ I loved her after all.@ Right to the end.@ She mattered so much that even on the threshold of death, my heart still aches for her.
+`“So that was it…”@
+`I loved her after all.@
+`Right to the end.@
+`She mattered so much that even on the threshold of death, my heart still aches for her.
 \
-`“—”@ A small cough brings up another mouthful of blood.
+`“—”@
+`I cough lightly, bringing up a mouthful of blood.
 \
-`And that is the end.@ I gaze vaguely up at the moon, my thoughts adrift, and before I know it I am falling…@ asle—
+`And that is the end.@
+`I gaze vaguely up at the moon, my thoughts adrift, and before I know it I am falling…@ asle—
 !w3000
 \
 playstop

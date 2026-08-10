@@ -1,24 +1,46 @@
 playstop
 bg "bg/bg_32b",lcartain,800
-`“…@It’s enormous.”@ The words escaped me when I reached the main gate.@ After growing accustomed to an ordinary household, the Tohno mansion seemed impossibly vast, almost divorced from reality.@ “…@Maybe coming back was a mistake.”@ No.@ Regret would accomplish nothing now.@ The gate stood unlocked.@ I heaved it open and headed for the mansion’s entrance.
+`“[line=8]It’s enormous.”@
+`The words escaped me when I reached the main gate.@
+`After growing accustomed to an ordinary household, the Tohno estate seemed impossibly vast, almost divorced from reality.@
+`“Maybe coming back was a mistake.”@
+`No—regret would accomplish nothing now.@
+`The gate stood unlocked.@
+`I heaved it open and headed for the estate’s front entrance.
 \
 bg "bg/bg_48b",lcartain,400
-`The entrance loomed above me, ponderous and forbidding.@ Beside the massive double doors was a doorbell that looked almost comically out of place.@ “All right.”@ Shaking off my nerves, I pressed it.@ No friendly little chime answered me.@ Several seconds passed in oppressive silence.@ Then came the hurried patter of someone beyond the doors.
+`The estate’s front entrance loomed above me, ponderous and forbidding.@
+`Beside the massive double doors was a doorbell that looked almost comically out of place.@
+`“All right.”@
+`Shaking off my nerves, I pressed it.@
+`No friendly little chime answered me.@
+`Several seconds passed in oppressive silence.@
+`Then came the hurried patter of someone beyond the doors.
 \
 play "*3"
-`“We’ve been expecting you.”@ The door opened with a heavy click, revealing a familiar lobby and a girl in an old-fashioned house apron.
+`“We’ve been expecting you.”@
+`The door opened with a heavy click.@
+`Beyond it lay a familiar lobby and a girl in an old-fashioned house apron.
 \
 bg "bg/bg_33b",lcartain,800
 ld c,"tachi/koha_t03",lshutter,800
-`“Thank goodness.@ You were so late, I was afraid you’d lost your way.@ If you hadn’t arrived by sundown, I was going to come and find you.”@ The girl beamed at me, dressed in that anachronistic house apron.@ “Oh, no—I mean, well…”@ Her hopelessly old-fashioned appearance had taken me so completely aback that I could barely string two words together.
+`“Thank goodness.@ You were so late, I was afraid you’d lost your way.@ If you hadn’t arrived by sundown, I was going to come and find you.”@
+`The girl beamed at me, dressed in that anachronistic house apron.@
+`“Oh—no, I mean…”@
+`Her anachronistic outfit had taken me so completely aback that I could barely string two words together.
 \
-`Perhaps puzzled by my stammering, she tipped her head slightly.@ “You’re Master Shiki, aren’t you?”@ “Uh—yes.@ You can leave off the ‘Master,’ though.”@ “I knew it!@ Oh, please don’t frighten me like that.@ I thought I’d gotten it wrong again.”@ She laughed with easy, unaffected warmth.@
+`Perhaps puzzled by my stammering, she tipped her head slightly.@
+`“You’re Master Shiki, aren’t you?”@
+`“Uh—yes.@ You can leave off the ‘Master,’ though.”@
+`“I knew it!@ Oh, please don’t frighten me like that.@ I thought I’d gotten it wrong again.”@
+`She laughed with easy, unaffected warmth.@
 bg #000000,crossfade,400
 bg "event/his_e01",crossfade,800
 bg "bg/bg_33b",crossfade,400
 `I had no proof, but she fit the picture in my memory perfectly.
 \
-`“Um…@ you wouldn’t happen to be the girl who played with us when we were children?”@ I ventured the question timidly.@
+`“Um—you wouldn’t happen to be the girl who played with us when we were children?”@
+`I ventured the question timidly.@
 br
 ld c,"tachi/koha_t05",crossfade,400
 `The girl’s whole face lit with genuine delight.
@@ -27,10 +49,12 @@ ld c,"tachi/koha_t05",crossfade,400
 cl c,lshutter,400
 `She set off briskly across the lobby toward the sitting room.@
 br
-`…@Then, as though suddenly remembering something, she spun around, bowed, and gave me a radiant smile.
+`Then, as though suddenly remembering something, she spun around, bowed, and gave me a radiant smile.
 \
 ld c,"tachi/koha_t02",lshutter,400
-`“Welcome home, Master Shiki.@ It will be a pleasure to have you with us from today onward.”@ The greeting came with a smile like a flower in bloom.@ Unable to think of anything remotely clever to say, I followed her with faltering steps.
+`“Welcome home, Master Shiki.@ I look forward to serving you from now on.”@
+`Her greeting came with a smile like a flower in bloom.@
+`Unable to think of anything remotely clever to say, I followed her with faltering steps.
 \
 bg #000000,crossfade,800
 playstop
@@ -41,186 +65,323 @@ play "*1"
 br
 `[line=3]I felt as if I had never seen the room before.@
 br
-`Perhaps eight years had erased it from my memory, or perhaps it had been redecorated.@ Whatever the reason, I felt like a guest in a stranger’s house.@ While I stood there looking around, the maid in the house apron bowed.
+`Perhaps eight years had erased it from my memory, or perhaps it had been redecorated.@
+`Whatever the reason, I felt like a guest in a stranger’s house.@
+`While I stood there looking around, the maid in the house apron bowed.
 \
-`“I’ve brought Master Shiki.”@ “Thank you.@ You may return to the kitchen, Kohaku.”@ “Yes.”@ So her name was Kohaku.@ With another small bow in my direction, she excused herself and left.@ That left me alone with two girls I did not recognize.
+`“I’ve brought Master Shiki.”@
+`“Thank you.@ You may return to the kitchen, Kohaku.”@
+`“Yes.”@
+`So her name was Kohaku.@
+`With another small bow in my direction, she excused herself and left.@
+`That left me alone with two girls I did not recognize.
 \
 ld l,"tachi/aki_t01a",lshutter,400
 ld r,"tachi/his_t01",lshutter,400
 !w1000
 cl a,crossfade,400
 ld c,"tachi/aki_t01a",crossfade,400
-`“It has been a long time, Brother.”@ The long-haired girl spoke without relaxing her proud, steady gaze.
+`“It has been a long time, Brother.”@
+`The long-haired girl spoke without relaxing her proud, steady gaze.
 \
-`…@To be perfectly honest, my mind had stopped dead.@ My head was blank; I could not even manage a greeting, only nod and mumble, “Right.”@
+`To be perfectly honest, my mind had stopped dead.@
+`My head was blank; I could not even manage a greeting, only nod and mumble, ‘Right.@’
 br
-`…@And really, who could blame me?@ The Akiha standing before me after eight years was nothing like the one I remembered.@ She had become, in every particular, a young lady of impeccable breeding.
+`Who could blame me?@
+`After eight years, the Akiha standing before me was nothing like the one I remembered; she had become, in every particular, a young woman of impeccable breeding.
 \
-`“Brother?”@ The black-haired girl tilted her head.@ “Ah—no.”@ Pathetically, that was the best I could manage.@ I was working my brain to exhaustion trying to accept that this girl was Akiha, while she had apparently recognized her brother at once.
+`“Brother?”@
+`The black-haired girl tilted her head.@
+`“Ah—no.”@
+`Pathetically, that was the best I could manage.@
+`I was working my brain to exhaustion trying to recognize the girl before me as Akiha, while she had apparently recognized her brother at once.
 \
-`“You don’t look well.@ Would you like to rest before we speak?”@ Akiha fixed me with a hard stare.@ …@Was I imagining it, or did she seem extremely displeased?
+`“You don’t look well.@ Would you like to rest before we speak?”@
+`Akiha fixed me with a hard stare.@
+`Was I imagining it, or did she seem extremely displeased?
 \
-`“No, I feel fine.@ It’s just—you’ve changed so much that I was startled.”@ “Eight years will change a person.@ We were both still growing, after all.@ Or did you imagine I would remain exactly as you left me, Brother?”@
+`“No, I feel fine.@ It’s just—you’ve changed so much that I was startled.”@
+`“Eight years will change a person.@ We were both still growing, after all.@
+`[line=4]Or did you imagine I would remain exactly as you left me, Brother?”@
 br
-`…@What was this?@ There seemed to be a barb hidden in everything Akiha said.
+`What was this?@ There seemed to be a barb hidden in everything Akiha said.
 \
-`“Even so, you really have changed.@ You’re much more beautiful than you used to be.”@ It was no flattery; I simply said what I thought.@
+`“Even so, you really have changed.@ You’re much more beautiful than you used to be.”@
+`It was no flattery; I simply said what I thought.@
 br
-`[line=4]And then— “Yes.@ Brother, you have changed very little.”@ Eyes closed, Akiha delivered the verdict with glacial finality.
+`[line=4]And then.@
+`“Yes.@ But you have hardly changed at all, Brother.”@
+`Eyes closed, Akiha delivered the verdict with glacial finality.
 \
-`“…”@ …@Well, I had been braced for this.@ It seemed Akiha had not forgiven me after all.
+`“…”@
+`Well, I had been braced for this.@
+`It seemed Akiha had not forgiven me after all.
 \
-`“If you are well enough, let us settle the matter at hand.@ Brother, you haven’t been told the details, have you?”@ “What details?@ All I heard was that I was suddenly supposed to come back.@ I learned Father had died from the newspaper.”
+`“If you feel well enough, let us settle the matter at hand.@ Brother, you haven’t been told the details, have you?”@
+`“What details, when all I heard was that I was suddenly supposed to come back?@ I learned Father had died from the newspaper.”
 \
-`…@When the head of a company dies, it warrants at least a notice in the financial press.@ The news of Makihisa Tohno’s death reached his son, Shiki Tohno, by newspaper—after the funeral was already over.@ No message from the family was necessary.@ For a hundred yen, a disowned son could learn that his father had died.@ Ironic, perhaps, but what a wonderfully convenient age we live in.
+`When the head of a company dies, it warrants at least a notice in the financial press.@
+`The news of Makihisa Tohno’s death reached his son, Shiki Tohno, by newspaper—after the funeral was already over.@
+`No message from the family was necessary; for a hundred yen, a disowned son could learn that his father had died.@
+`Ironic, perhaps, but what a wonderfully convenient age we live in.
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“I’m sorry.@ Failing to inform you of Father’s death was an oversight on our part.”@ Akiha bowed her head.@ “Forget it.@ He wouldn’t have come back to life if I’d attended.@ There’s no reason for you to feel guilty.”@ “I’m sorry…@ but hearing you say that does ease my mind a little.”
+`“I’m sorry.@ Failing to inform you of Father’s death was an oversight on our part.”@
+`Akiha bowed her head in silence.@
+`“It’s all right.@ Even if I’d been there, the dead would not have come back to life.@ This is nothing you need to worry about.”@
+`“I’m sorry…@ but hearing you say that does make me feel a little better.”
 \
-`Akiha looked grave, but the whole matter truly meant nothing to me.@ A funeral is a rite for those who cannot release their feelings for the dead, meant to help them finally let go.@ My father and I had severed those feelings long ago.@ We had no need of a funeral.
+`Akiha looked grave, but the whole matter truly meant nothing to me.@
+`A funeral is a rite for those who cannot release their feelings for the dead, meant to help them finally let go.@ My father and I had severed those feelings long ago; in our case, there was no need for a funeral.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“It was my decision to bring you back.@ The eldest Tohno son cannot remain indefinitely in the care of the Arima family, can he?@
 ld c,"tachi/aki_t04a",crossfade,400
-`With Father dead, you and I are the only Tohnos left by blood.@ I don’t know what he intended when he sent you to the Arimas, but he is no longer here.@ There is no reason for you to remain in their care, so I decided that you would return home.”
+`With Father dead, you and I are the only Tohnos left by blood.@ I don’t know what he intended when he sent you to the Arimas, but he is no longer here.@
+`There is no reason for you to remain in their care, so I decided that you would return home.”
 \
 `“Fine, but I’m surprised the relatives agreed.@ Weren’t they the ones who demanded I be sent to the Arimas in the first place?”
 \
 `“They were.@ However, I am now head of the Tohno family.@ I rejected every one of their objections.@
 ld c,"tachi/aki_t01a",crossfade,400
-`I want you to live here from now on, but this household has rules of its own.@ Your former discourtesies will not be tolerated.@ Remember that.”
+`I want you to live here from now on, but this household has rules of its own.@ I will not tolerate the discourtesies you have allowed yourself until now; remember that.”
 \
 `“Ha, that’s asking the impossible, Akiha.@ It’s far too late for me to become well behaved again—and I have no desire to try.”@
 ld c,"tachi/aki_t02",crossfade,400
-`“Then make whatever effort lies within your power.@ Or are you claiming that what I managed is beyond you?”@ Akiha gave me another icy look.@ Without saying a word about it, she seemed to be flinging eight years of resentment at me for leaving her here alone.
+`“Then make whatever effort lies within your power.@ Or are you claiming that what I could do is beyond you?”@
+`Akiha gave me another icy look.@
+`Without saying a word, she seemed to be hurling eight years of resentment at me for leaving her here alone.
 \
-`“All right, all right.@ I’ll try somehow.”@ Akiha stared at me as though she believed none of it.
+`“All right, all right.@ I’ll do my best.”@
+`Akiha stared at me as though she believed none of it.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“I have no interest in your efforts.@ Results will be sufficient.”@ Still sitting perfectly erect, Akiha struck without mercy.
+`“I have no interest in your efforts.@ Results will be sufficient.”@
+`Without wavering, Akiha delivered the merciless retort.
 \
-`“Let us return to the subject.@ At present, you and I are the only Tohnos living here.@ I had everyone else sent away.@ They were becoming tiresome.”@ “What?@ Hold on, Akiha.@ You sent everyone—”@ “You wouldn’t want to meet our relatives in the halls every day either, would you?@ I dismissed most of the servants as well, but retained enough staff to attend to each of us.@ There is no problem.”
+`“Let us return to the subject.@
+`At present, only you and I live at the estate.@ I sent everyone else away because they had become tiresome.”@
+`“Wait, Akiha—you sent everyone away?”@ “You would not want to meet the relatives in the halls either, would you?@
+`I dismissed most of the servants as well, but kept those assigned to each of us.@ There is no problem.”
 \
 `“Of course there’s a problem!@ You can’t act that arbitrarily without getting torn apart at the next family council!”@
 ld c,"tachi/aki_t02",crossfade,400
-`“Oh, stop fussing.@ Surely you prefer having the mansion to ourselves over finding it crammed with people?”@ …@Urgh.@ She was right; that did make me feel considerably better.
+`“Oh, stop fussing.@ Surely you prefer having the estate to ourselves over finding it crammed with people?”@
+`Urgh.@
+`She was right; that did make me feel considerably better.
 \
-`“But you’ve only just become head of the family.@ If you start forcing through whims like some petty tyrant, won’t the relatives revolt?@ Even Father never defied them.”@
+`“But you’ve only just become head of the family; if you start forcing through whims like some petty tyrant, won’t the relatives revolt?@ Even Father never defied them.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“Precisely.@ That is why Father sent you to the Arimas.@ But I have detested those people since I was a child, and I refuse to listen to another one of their lectures.”@ “You refuse?@ Akiha—”
+`“Precisely.@ That is why Father sent you to the Arimas.@ But I have detested those people since I was a child, and I refuse to listen to another one of their lectures.”@
+`“You refuse?@ Akiha—”
 \
 ld c,"tachi/aki_t21",crossfade,400
-`“Oh, enough!@ Stop worrying about me.@ You should worry about your own life from now on.@ Anyone can see how difficult it is going to be.”@ Akiha looked slightly away from me as she spoke, sounding cross.
+`“Oh, enough—stop worrying about me!@ You should worry about your own life from now on.@ Anyone can see how difficult it is going to be.”@
+`Akiha looked slightly away from me as she spoke, sounding cross.
 \
-`“From now on, if there is anything you need, tell her.@ Hisui.”@
+`“From now on, if there is anything you do not understand, tell her.@ [line=4]Hisui.”@
 cl c,crossfade,400
 ld r,"tachi/his_t01",lshutter,800
-`Akiha glanced toward the girl standing beside her.@ The girl she had called Hisui bowed without a trace of expression.@
+`Akiha glanced toward the girl standing beside her.@
+`The girl she had called Hisui bowed without a trace of expression.@
 ld l,"tachi/aki_t04a",crossfade,400
-`“This is Hisui.@ She will be assigned as your personal maid.@ You have no objection, I trust?”@
+`“This is Hisui.@ She will be your personal maid—is that acceptable?”@
 br
 `[line=8]What?@
 br
-`“Wait—a maid?@ You mean…”@ “To put it plainly, a servant.”@ Akiha pronounced it as though it were the most obvious thing in the world.
+`“W-wait, a maid—that means—”@
+`“To put it plainly, a servant.”@
+`Akiha pronounced it as though it were the most obvious thing in the world.
 \
-`…@I could not believe this.@ Dressed in a maid’s uniform perfectly suited to the mansion, the girl stood as though this arrangement were every bit as natural to her as it was to Akiha.@ “Hold on.@ I’m not a child.@ I don’t need a personal maid; I can take care of myself.”@ “Including preparing your meals and doing your laundry?”@ Urgh.@ Akiha’s thrust went straight to the heart.
+`I could not believe this.@
+`Dressed in a maid’s uniform perfectly suited to the Western-style main house, the girl stood as though this arrangement were every bit as natural to her as it was to Akiha.@
+`“Hold on.@ I’m not a child.@ I don’t need a personal maid; I can take care of myself.”@
+`“Including preparing your meals and doing your laundry?”@
+`Urgh.@
+`Akiha had struck home.
 \
 ld l,"tachi/aki_t01a",crossfade,400
-`“Now that you have returned to this mansion, you will follow my instructions.@ I do not know how you lived with the Arimas, but you are a member of the Tohno family again.@ Accept that the position comes with appropriate treatment.”@ “Urgh…”@ At a loss for words, I looked helplessly toward Hisui.@ Still expressionless, she merely stared back at me like a doll.
+`“Now that you have returned to this estate, you will follow my instructions.@ I do not know how you lived with the Arimas, but from now on you will live as a Tohno.@ Accept the treatment that comes with your position.”@
+`“Urgh…”@
+`At a loss for words, I looked helplessly toward Hisui.@
+`Still expressionless, she merely stared back at me like a doll.
 \
-`“Hisui, show him to his room.”@ “Yes, ma’am.”@
+`“Hisui, show him to his room.”@ “Yes, Miss Akiha.”@
 cl a,crossfade,400
 `Hisui approached so silently that she might have been a shadow.
 \
-`“I will show you to your room, Master Shiki.”@ Hisui headed for the lobby.@ “Haaah…”@ Sighing, I followed her.
+`“I will show you to your room, Master Shiki.”@
+`Hisui headed for the lobby.@
+`“Haaah…”@
+`Sighing, I followed her.
 \
 bg #000000,lcartain,800
 bg "bg/bg_33c",lcartain,800
-`We entered the lobby.@ It formed the hub of the mansion, dividing it into east and west wings.@ The lobby was the body of a bird, the two wings slanting away on either side.@ Each one alone was as large as a small hospital.@ The building was symmetrical; as I remembered it, both wings had identical floor plans.
+`We entered the lobby.@
+`The main house was divided into east and west wings, with the lobby at its center.@
+`The lobby was the body of a bird, and the two wings slanted away on either side; each wing alone was as large as a small hospital.@
+`The structure was symmetrical, and as I remembered it, both wings had identical floor plans.
 \
-`“Your room is this way, Master Shiki.”@ Hisui started up the stairs.@ Apparently Shiki Tohno was quartered on the second floor.@
+`“Your room is this way, Master Shiki.”@
+`Hisui started up the stairs.@
+`Apparently Shiki Tohno’s room was on the second floor.@
 br
-`…@Come to think of it, the servants’ rooms had been on the ground floor of the west wing.@ Hisui and Kohaku must live down there.
+`Come to think of it, the servants’ rooms had been on the ground floor of the west wing, so Hisui and Kohaku’s rooms were probably there.
 \
 bg "bg/bg_46c",lcartain,800
-`The sun had already set.@ A girl in a maid’s uniform walked wordlessly down a long corridor lit by dim electric lamps.@ “…@It’s like something out of a fairy tale.”@ The thought escaped my lips.@
+`The sun had already set.@
+`A girl in a maid’s uniform walked wordlessly down a long corridor lit by dim electric lamps.@
+`“It’s like something out of a fairy tale.”@
+`The thought escaped my lips.@
 ld c,"tachi/his_t01",crossfade,400
-`“Did you say something, Master Shiki?”@ Hisui stopped and looked back.
+`“Did you say something, Master Shiki?”@
+`Hisui stopped and looked back.
 \
-`“No, I was talking to myself.@ Don’t worry about it.”@ “…”@ Hisui studied me for a moment, bowed as if to say very well, and resumed walking.
+`“No, it was only something I said to myself.”@
+`“…”@
+`Hisui studied me for a moment, bowed as if to say very well, and resumed walking.
 \
 bg #000000,lcartain,800
 bg "bg/bg_40c",lcartain,800
 bg "bg/bg_40c",lshutter,800
 ld c,"tachi/his_t01",lshutter,400
-`“…@This is my room?”@ “Yes.@ If it is not to your liking, another room can be prepared.”@ “No, there’s nothing to dislike, it’s just—”@ It was a little—no, vastly—too grand for me.
+`“This is my room?”@
+`“Yes.@ If it is not to your liking, another room can be prepared.”@
+`“No, there’s nothing to dislike; it’s just[line=3]”@
+`It was a little—no, vastly—too grand for me.
 \
-`“Master Shiki?”@ “Never mind.@ It’s nothing.@ I’ll be delighted to use this room.”@ “Very good.@ Nothing in the room has been altered since eight years ago, so I do not anticipate any inconvenience.”@ “—?”@ There was something odd about the way Hisui had put that.@ She made it sound as though this had once been my room.
+`“Master Shiki?”@
+`“[line=3]Never mind; it’s nothing.@ I’ll be delighted to use this room.”@
+`“Very good.@ Nothing in the room has been changed in eight years, so I do not expect any inconvenience.”@
+`“[line=3]?”@
+`There was something odd about the way Hisui had put that.@
+`She made it sound as though this had once been my room.
 \
-`“…@Was this my room before I left?”@
+`“Hey.@ Was this my room before I left?”@
 ld c,"tachi/his_t23",crossfade,400
-`“That is what I was told.@ Was it not?”@ Hisui tilted her head ever so slightly.@ …@What a relief.@ Apparently she did possess some means of expressing emotion.
+`“That is what I was told, but was it not?”@
+`Hisui tilted her head ever so slightly.@
+`What a relief.@
+`Apparently she did possess some means of expressing emotion.
 \
-`“…@Now that you mention it, perhaps it was.@ A few things do seem familiar, so I suppose that must be right.”@ The room stirred no affection in me at all, but perhaps eight years away would do that.@ “Still, I can’t relax here.@ Until this morning I lived in a cramped six-and-a-half-mat room.@ This feels like checking into a luxury hotel.”@
+`“Now that you mention it, perhaps it was.@ A few things do seem familiar, so I suppose that must be right.”@
+`The room stirred no affection in me at all, but perhaps eight years away would do that.@
+`“Still, I can’t relax here.@ Until this morning I lived in a cramped six-and-a-half-mat room; this feels like checking into a luxury hotel.”@
 ld c,"tachi/his_t01b",crossfade,400
-`“I understand, but please try to become accustomed to it.@ As of today, you are once again the eldest son of the Tohno family.”
+`“I understand, but please try to become accustomed to it.@ As of today, Master Shiki is once again the eldest son of the Tohno family.”
 \
 ld c,"tachi/his_t01",crossfade,400
 `“You’re right.@ I’ll at least try to look the part well enough not to be laughed at.”@
 br
 `I set my bag on the desk with a thump and straightened my back.@
 br
-`[line=3]It might wear my nerves to shreds, but I had no choice except to start getting used to it today.
+`[line=3]It was going to fray my nerves in all sorts of ways, but from today on, I simply had to get used to it.
 \
-`“All your belongings have been brought in.@ Is anything missing?”@ “No, I don’t think so.@ Why?”@ “Your luggage seemed unusually sparse.@ If there is anything you require, we will obtain it.@ You need only tell me.”@ “…@I see.@ No, I’m all right for now.@ I never owned much to begin with.@ Everything I have amounts to that bag, these glasses, and…”@
+`“All Master Shiki’s belongings have been brought in; is anything missing?”@
+`“[line=3]No, I don’t think so.@ Why do you ask?”@
+`“Your luggage seemed unusually sparse.@ If you require anything, we will obtain it; you need only tell me.”@
+`“I see.@ No, I’m all right for now.@ I never owned much to begin with.@ Everything I have amounts to that bag, these glasses, and…”@
 br
-`The textbooks in my bag, and a white ribbon whose owner I did not even know—that was all—
+`The textbooks in my bag and a white ribbon whose owner I did not even know—that was all[line=4]
 \
-`“Ah.”@ Of course.@ I still had not asked the most important question.@ “Hisui, may I ask you something?”@ “Yes, Master Shiki?”@ “Sorry if I’m wrong, but you and Kohaku are sisters, aren’t you?”@
+`“Ah.”@
+`That was right—I had yet to ask the important question.@
+`“Hisui, may I ask you something?”@
+`“Yes, Master Shiki?”@
+`“Sorry if I’m wrong.@ You and Kohaku are sisters, aren’t you?”@
 ld c,"tachi/his_t17",crossfade,400
-`“…”@ For one instant, surprise flickered through Hisui’s expressionless eyes.
+`“[line=5]”@
+`For one instant.@ Surprise flickered through Hisui’s expressionless eyes.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“…@Yes.@ Kohaku is my elder sister.”@ “I knew it!@ Then you’re both the girls who lived here when I was a child!”@ Delight made me raise my voice.@ Hisui remained perfectly still, the very opposite of my excitement.
+`“Yes.@ Kohaku is my elder sister.”@
+`“I knew it!@ Then you’re both the girls who lived here when I was a child!”@
+`Delight made me raise my voice.@
+`“…”@
+`Hisui remained perfectly still, the very opposite of my excitement.
 \
-`“Hisui…?@ You and Kohaku were the children Father took in, weren’t you?@ Don’t you remember?@ We used to play together—”@ I stopped.@ …@No.@ The girl who played with us had been the bright one.@ The one who only watched us with cold eyes had been—
+`“Hisui…?@ You and Kohaku were the children Father took in, weren’t you?@ Don’t you remember how we used to play together[line=3]”@
+`I stopped.@
+`No.@
+`The girl who played with us had been the bright one.@
+`The one who only watched us with cold eyes had been[line=3]
 \
-`“…@I used to play with your sister all the time, but you…”@ “Yes, I am aware.@ Your father took my sister and me in two years before you left for the Arima household.”@
+`“I used to play with your sister all the time, but what about you, Hisui?”@
+`“Yes, I know.@ My sister and I were taken in by Master Makihisa two years before Master Shiki went to live with the Arimas.”@
 br
-`Hisui replied in the same flat, matter-of-fact tone.@ …@It was wonderful to learn that she and Kohaku were the twins from my memories, but the discovery appeared to mean nothing at all to her.
+`Hisui replied in the same flat, matter-of-fact tone.@
+`It was wonderful to learn that she and Kohaku were the twins from my memories, but the discovery appeared to mean nothing at all to her.
 \
-`“…@Right.@ You and I hardly ever spoke.@ Sorry—I got carried away on my own.”@
+`“I see.@ You and I hardly ever spoke.@ Sorry—I got carried away on my own.”@
 ld c,"tachi/his_t16",crossfade,400
-`“You have nothing to apologize for.@ I am the one who behaved discourteously toward you, even if I was only a child.”@ Hisui bowed deeply.@ “…”@ This was painfully awkward.@ I knew she meant no harm, but I had no idea how to respond when a girl about my age spoke to me that way.
+`“Master Shiki has nothing to apologize for.@ I am the one who behaved discourteously toward Master Shiki, even if I was only a child.”@
+`Hisui bowed deeply.@
+`“[line=6]”@
+`This was painfully awkward.@
+`I knew she meant no harm, but I had no idea how to respond when a girl about my age spoke to me that way.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Is there anything else you require, Master Shiki?”@ “Ah…@ no, nothing.”@ “Then I will return for you in one hour.@ Until then, please make yourself comfortable.”@ Hisui said it all without expression.
+`“Is there anything else you require, Master Shiki?”@
+`“Ah—no, nothing.”@
+`“Then I will return for you in one hour; until then, please make yourself comfortable.”@
+`Hisui said it all without expression.
 \
-`One hour presumably meant dinner.@ …@But.@ Make myself comforble—comfortable?@ How was I supposed to do that here?@ The time was a little past six in the evening.@ Ordinarily I would be in the living room watching television, but I had serious doubts that this mansion contained one.
+`One hour presumably meant dinner.@
+`But.@ How was I supposed to make myself comforble—comfortable here?@
+`The time was a little past six in the evening.@
+`Ordinarily I would be in the living room watching television, but I had serious doubts that the estate contained one.
 \
-`“Hisui, this is probably a stupid question, but does the mansion have a television?”@ “A television…?”@ Hisui narrowed her eyes slightly.@ …@Even as the person asking, I could feel a headache coming on.@ Something was deeply wrong with having to ask whether a mansion this lavish owned a television.
+`“Hisui, this may be a silly question.@ Does the estate have a television?”@
+`“A television…?”@
+`Hisui narrowed her eyes slightly.@
+`Even as the person asking, I could feel a headache coming on.@
+`Something was deeply wrong with having to ask whether an estate this lavish owned a television.
 \
 ld c,"tachi/his_t26",crossfade,400
-`For once, Hisui looked uncertain.@ Her gaze drifted into the air.@ “…@There is none in the sitting room.@ Some of the relatives staying here had televisions, but they took all their belongings when they departed, so I do not believe any remain.”@ “Wait.@ Which relatives were ‘staying’ here, and for how long?”
+`For once, Hisui looked uncertain as her gaze drifted into the air.@
+`“There is none in the sitting room.@ Some of the relatives staying here had televisions, but they took all their belongings when they departed, so I do not believe any remain.”@
+`“Wait.@ Which relatives were ‘staying’ here, and for how long?”
 \
 ld c,"tachi/his_t01",crossfade,400
-`“The family of the eldest son of the Kugamine branch; the Tosaki family’s third daughter and her fiancé; and the Kishima family’s eldest son.@ They stayed for roughly three years.”@ “…@Three years?@ Hisui, I think the word for that is ‘freeloading.@’”@ Hisui did not answer.@ No matter what those freeloaders had been like, a servant could hardly speak ill of them.
+`“The family of the eldest son of the Kugamine branch; the Tosaki family’s third daughter and her fiancé; and the Kishima family’s eldest son.@ They stayed for roughly three years.”@
+`“Three years?@ Hisui, I think the word for that is freeloading, not staying.”@
+`Hisui did not answer.@
+`No matter what those freeloaders had been like, a servant could hardly speak ill of them.
 \
-`At any rate, Akiha had evidently made the resident relatives take their possessions with them.@ Father had despised modern culture as hopelessly vulgar, so he certainly would never have watched television.@ After eight years under his discipline, Akiha was probably the same.
+`At any rate, Akiha had evidently made the resident relatives take their possessions with them.@
+`Father had despised modern culture as hopelessly vulgar, so he certainly would never have watched television.@
+`After eight years under his discipline, Akiha was probably the same.
 \
-`“Well, I’m not going to die without one.”@ Hisui remained silent.@ The perfect servant, perhaps: she never said anything she had not been asked.@ That left me feeling rather low.@ I wanted to find some way of making that blank face smile, but no ordinary effort was likely to succeed.
+`“[line=3]Well, I’m not going to die without one.”@
+`Hisui remained silent.@
+`The perfect servant, perhaps: she never said anything she had not been asked.@
+`That left me feeling rather low.@
+`I wanted to find some way of making that blank face smile, but no ordinary effort was likely to succeed.
 \
-`“Never mind.@ There was a library in the west wing, wasn’t there?@ I’ll find something to read when I’m bored.”@ Hisui gave no answer.@ She simply stood in the doorway, staring at some point I could not identify.@ “Hisui?”@ She did not so much as murmur.@ Then, without warning, her gaze fixed directly on me.@
+`“Actually, there was a library in the west wing, wasn’t there?@ I’ll find something to read when I’m bored.”@
+`Hisui gave no answer.@
+`She simply stood in the doorway, staring at some point I could not identify.@
+`“[line=3]Hisui?”@
+`She did not so much as murmur.@
+`Then, without warning, her gaze fixed directly on me.@
 br
 `“I believe there is one in my sister’s room.”@
 br
-`“What?”@ Now I was completely lost.
+`“What?”@
+`Now I was completely lost.
 \
-`“…@There’s what in her room?”@ “A television.@ I remember seeing one there before.”@ Hisui spoke as though dredging up an incident from years ago.@ “I see.@ Kohaku certainly seems like the sort to watch variety shows.”@ Even so, barging into Kohaku’s room and asking to watch her television felt rather presumptuous.
+`“…@There’s what in her room?”@
+`“A television.@ I remember seeing one there before.”@
+`Hisui spoke as though dredging up an incident from years ago.@
+`“I see.@ Kohaku certainly seems like the sort to watch variety shows.”@
+`Even so, barging into Kohaku’s room and asking to watch her television felt rather presumptuous.
 \
-`“Sorry.@ Forget I asked.@ I’m going to live here now, so I ought to respect the rules of the house.”@ Besides, if Akiha caught me watching television, there was no telling what cutting remark she might make.@ I would simply become the diligent student worthy of the Tohno family.
+`“Sorry—forget I asked.@ I’m going to live here now, so I ought to respect the rules of the estate.”@
+`Besides, if Akiha caught me watching television, there was no telling what cutting remark she might make.@
+`I would simply become the diligent student worthy of the Tohno family.
 \
-`“I’ll stay here until dinner, then.@ Come and get me when it’s time.@ You must have other work to do.”@ Hisui nodded and turned away.@
+`“I’ll stay here until dinner; come and get me when it’s time.@ You must have other work to do.”@
+`Hisui nodded and turned away.@
 cl c,lshutter,400
 `The door opened with a quiet creak, and Hisui slipped out of the room.
 \

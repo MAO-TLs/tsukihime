@@ -22,16 +22,19 @@ ld r,"tachi/nero_t04",crossfade,400
 \
 ld l,"tachi/ark_t31b",lshutter,400
 ld l,"tachi/ark_t31a",lshutter,400
-`“I’m not convinced!@ There must be some Shikis who took off their glasses automatically even though they had no intention of fighting Ciel.@ What about them, meow?”@
+`“I’m not convinced!@ There must be some Shikis who took off their glasses automatically even though they had no intention of fighting Ciel.@
+`What about them, meow?”@
 ld r,"tachi/nero_t02a",crossfade,400
 br
-`“Do not steal.@ Do not violate.@ Do not deceive.@ The guilty know what they have done; let them make haste and travel back to the morning of this day.@ Hmph.@ Come to think of it, does that not strike close to home for you as well, Princess?”
+`“Do not steal, violate, or deceive.@ The guilty know what they have done.@ Let them make haste and travel back to the morning of this day.@
+`Hmph.@ Come to think of it, does that not strike close to home for you as well, Princess?”
 \
 ld l,"tachi/ark_t30",lshutter,400
 `“M-Meow what?@ I don’t understand complicated things.”@
 br
 ld r,"tachi/nero_t02c",crossfade,400
-`“…@Well, the affairs of others are trivial.@ I shall remain here and observe how you meet your end—”
+`“Well, the affairs of others are trivial.@
+`I shall remain here and observe how you meet your end—”
 \
 bg #000000,crossfade,800
 playstop

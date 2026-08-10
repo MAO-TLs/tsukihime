@@ -5,16 +5,20 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Merci!@ At last, lesson four.@ Welcome to Teach Me, Ciel!@, the feature for poor downtrodden Tohno, who has suffered a most unreasonable dead end.
+`Merci!@
+`At last, lesson four.@
+`Welcome to Teach Me, Ciel!@, the feature for poor downtrodden Tohno,
+`who has suffered a most unreasonable dead end.
 \
 ld l,"tachi/ark_t31a",lshutter,400
-`“Ciel gets so many different scenes.@ Lucky her.@ I’m the main heroine, and this is how they treat me, scribble.”@
+`“Ciel is lucky to get so many different scenes.@ I’m the main heroine, and this is how they treat me, scribble.”@
 br
-`You there, stop adding strange words to the ends of your sentences.@ Besides, isn’t it more dignified than being made into a general-purpose errand girl like me?@
+`You there, stop adding strange words to the ends of your sentences.@
+`Besides, isn’t it more dignified than being made into a general-purpose errand girl like me?@
 br
 ld l,"tachi/ark_t31b",lshutter,400
 ld l,"tachi/ark_t31a",lshutter,400
-`“No!@ It’s unfair!@ I’ll dress like Ciel too, and then everyone will say I look smart!”
+`“No, it’s unfair!@ I’ll dress like Ciel too, and then everyone will say I look smart!”
 \
 `…@
 br
@@ -37,7 +41,7 @@ ld l,"tachi/ark_t31b",notrans,0
 wait 100
 ld l,"tachi/ark_t31a",notrans,0
 br
-`…@(vein throbs)
+`(vein throbs)
 \
 bg #ffffff,notrans,0
 wait 100
@@ -48,7 +52,10 @@ br
 ld r,"tachi/cel_t20",lshutter,400
 `[line=4]Now, for the lesson.@
 br
-`The cause of death is obvious this time.@ Your determination to solve everything yourself is admirable, but this incident is beyond Tohno’s power alone.@ In this world, gaining one thing always means losing another.@ It pains me too, but this once, you should part ways with Ciel.
+`The cause of death is obvious this time.@
+`Your determination to solve everything yourself—wonderful!@ But this incident is beyond Tohno’s power alone.@
+`In this world, gaining one thing always means losing another.@
+`It pains me too, but this once, you should part ways with Ciel.
 \
 bg #000000,crossfade,800
 playstop

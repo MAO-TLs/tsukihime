@@ -2,45 +2,58 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_32b",lcartain,800
-`I crest the hill and follow the road around the estate.@ By the time I reach the front gate, I can see Hisui standing there alone.@
+`I crest the hill and follow the road around the estate.@
+`By the time I reach the front gate, I can see Hisui standing there alone.@
 br
 `“…@What’s Hisui doing out there?”@
-`I head toward the gate, puzzled.@ Hisui notices me and bows.
+`I head toward the gate, puzzled.@
+`Hisui notices me and bows.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“Welcome home, Master Shiki.”@
-`“Ah—right.@ I’m home, Hisui.”@
-`Her ceremonious reception catches me off guard, but I manage an answer.@
-`“Were you…@ waiting here for me?”@
-`“Yes.@ It is a servant’s duty to receive the master of the house.”@
-`She says it without so much as lifting an eyebrow, as though nothing could be more obvious.
+`“[line=3]Ah, right[line=3]I’m home, Hisui.”@
+`Her ceremonious greeting flusters me, but I manage an answer.@
+`“Um[line=3]were you waiting here for me to come back?”@
+`“Yes.@ It is a servant’s duty to welcome home the master of the house.”@
+`Hisui says it as though it were obvious, without so much as raising an eyebrow.
 \
-`“Listen, Hisui.@ I’m honestly glad you want to welcome me home, but you don’t have to wait outside.@ I’ll come back on my own.@ Just say hello if you happen to notice me coming in.”@
+`“Listen, Hisui.@ I’m honestly glad you want to welcome me home, but you don’t have to wait outside.@
+`I will come back on my own, so just say something whenever you happen to notice I am here.”@
 ld c,"tachi/his_t05",crossfade,400
-`“….”@
+`“[line=5]”@
 `A faint shadow crosses Hisui’s face.@
-`…@It occurs to me that she may have stood here waiting for me all day Saturday and Sunday too.
+`Maybe.@
+`She may have waited here like this all through Saturday and Sunday too.
 \
-`“Hisui, listen—”@
+`“[line=2]Hisui, listen[line=2]”@
 ld c,"tachi/his_t01",crossfade,400
-`“Understood.@ Beginning tomorrow, I shall await your return in the foyer.”@
-`With another bow, Hisui opens the gate.@ She keeps one hand on it and her back turned to me.
+`“Understood.@ Beginning tomorrow, I shall await Master Shiki’s return in the foyer.”@
+`Hisui bows and opens the gate.@
+`With one hand still on it, she turns her back to me.
 \
-`“…@Hah.”@
-`This hardly feels like the time to say anything else.@ I pass through the gate.@ Hisui closes it, walks to the front entrance, and opens that door without another word before leading me into the foyer.
+`“Haaah.”@
+`She does not seem inclined to talk.@
+`Once I pass through, Hisui closes the gate, walks to the front door, and silently opens it before leading me into the foyer.
 \
 bg #000000,lcartain,800
 bg "bg/bg_40b",lcartain,800
-`I return to my room.@ Akiha is still at her lessons, Kohaku is preparing dinner, and Hisui has the house to clean.@
+`I return to my room.@
+`Akiha is still at her lessons, Kohaku is preparing dinner, and Hisui has the house to clean.@
 br
-`“Well, this is a problem.@ I’ve got nothing to do.”@
-`That isn’t true, of course.@ I’m a student; there’s studying, revision, memorization, and any number of other things I ought to be doing.@ I simply don’t feel like doing any of them.
+`“[line=3]Damn, I have nothing to do.”@
+`No, I’m a student; I have plenty I should be doing—studying, reviewing, memorizing.@
+`I just do not feel like doing any of it.
 \
-`Arcueid’s face flits through my mind.@ Maybe this is the recoil from two frantic days, for better or worse.@ For a while, doing nothing at all seems more restful than trying to occupy myself.
+`Arcueid’s face flits through my mind.@
+`Maybe this is the backlash from two frantic days, for better or worse.@
+`For a while, doing nothing at all seems more restful than trying to occupy myself.
 \
 bg #000000,crossfade,800
 !w2000
 playstop
 bg "bg/bg_40c",crossfade,800
-`After eating alone in the cavernous dining room, I have Kohaku tend my wounds and return to my room.@ Akiha still hasn’t come home; apparently her lesson ran late, so she decided to eat out.@ It is well past ten.@ A little early, perhaps, but I’m exhausted.@ I think I’ll turn in for the night—
+`After eating alone in the cavernous dining room, I have Kohaku tend my wounds and return to my room.@
+`Akiha still has not come home.@ Apparently her lesson ran late, so she decided to eat out.@
+`It is well past ten.@
+`A little early, perhaps, but I am exhausted, so I think I will turn in for the night[line=3]
 \

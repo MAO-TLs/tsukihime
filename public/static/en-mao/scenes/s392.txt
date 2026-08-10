@@ -1,58 +1,77 @@
 play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
-`Of course it’s better to ask than not.@ Keeping everything bottled up only drives my thoughts into darker places.
+`Of course it’s better to ask than not.@
+`Keeping everything bottled up only drives my thoughts into darker places.
 \
-`“Then let me ask you this.@ Suppose someone does things they know they shouldn’t.@ Could stress cause that?”@
+`“Then let me ask you this.@ Could stress cause someone to do things they know they shouldn’t?”@
 ld c,"tachi/aki_t01a",lshutter,400
-`“Things they believe they shouldn’t do?@ Is this an ongoing pattern, or does it happen in sudden episodes?”@ “I’d say sudden.@ The person doesn’t seem especially conscious of it.”
+`“Things they believe they shouldn’t do?@ Is this an ongoing pattern, or does it happen in sudden episodes?”@
+`“I’d say sudden.@ The person doesn’t seem especially conscious of it.”
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“If they act without being conscious of it, then they can’t stop themselves by force of will?”@ “Right.@ They can’t stop.@ The very idea of stopping no longer occurs to them.”@
+`“If they act without being conscious of it, then they can’t stop themselves by force of will?”@
+`“[line=3]Right.@ They can’t stop; the very idea of stopping no longer occurs to them.”@
 ld c,"tachi/aki_t11a",crossfade,400
-`“Then I can only think their character is being temporarily inverted.”@ “Inverted…@ You mean turned inside out?”@ “Yes.@ Something triggers it and reverses their moral compass—the balance by which they decide what matters most.”
+`“Then I can only think their character is being temporarily inverted.”@
+`“Inverted—you mean turned inside out?”@
+`“Yes.@ Something triggers it and reverses their moral compass—the balance by which they decide what matters most.”
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“It may be a kind of mental illness.@ Don’t you remember, Brother?@ Father was a kind man, but there were times when he suddenly turned cold, almost as if he had become someone else.”@ “Father did—?”@
+`“It may be a kind of mental illness.@ Don’t you remember, Brother?@
+`Father was a kind man, but there were times when he suddenly turned cold, almost as if he had become someone else.”@
+`“Father did—?”@
 cl c,lshutter,400
 br
-`Now that she mentions it…@ Makihisa Tohno did seem to swing between extraordinary kindness and extraordinary severity.
+`Now that she mentions it, Makihisa Tohno did seem to swing between extraordinary kindness and extraordinary severity.
 \
-`“I don’t remember very well.@ Do you, Hisui?”@ I look toward Hisui, standing by the wall.@
+`“I don’t remember very well.@ Do you, Hisui?”@
+`I look toward Hisui, standing by the wall.@
 br
-`[line=3]But when I do—
+`[line=3]And then.@
 ld l,"tachi/his_t17",lshutter,400
-`Hisui has bowed her head as if enduring some private agony.@ She does not appear to have heard me at all.
+`Hisui has bowed her head as if enduring some private agony and does not appear to have heard me at all.
 \
 cl l,lshutter,400
 ld l,"tachi/koha_t02",lshutter,400
-`“Miss Akiha, you shouldn’t make it sound so dramatic.@ Your father simply had severe mood swings, that’s all.”@ Kohaku enters carrying glasses on a silver tray.
+`“Miss Akiha, you shouldn’t make it sound so dramatic.@ Master Makihisa simply had severe mood swings, that’s all.”@
+`Kohaku enters carrying glasses on a silver tray.
 \
-`“It isn’t right to speak badly of the dead, Miss Akiha.@ He was your father, after all.”@
+`“That won’t do, Miss Akiha.@ You mustn’t speak badly of the dead.@ After all, Master Makihisa was Miss Akiha’s father.”@
 ld r,"tachi/aki_t06",lshutter,400
 `“I-I know that…!@ I don’t need you to tell me…!”@
 cl r,lshutter,400
 `Now Akiha falls silent as well, joining Hisui.
 \
 ld l,"tachi/koha_t03",crossfade,400
-`“Here you are, Shiki.@ Sorry to keep you waiting.”@ Kohaku sets a glass of lemon soda on the table.@ “Thanks.”@ I slip in the straw and swallow the cold drink.@
+`“Here you are, Master Shiki—sorry to keep you waiting.”@
+`Kohaku sets a glass of lemon soda on the table.@
+`“Thanks.”@
+`I slip in the straw and swallow the cold drink.@
 cl l,lshutter,800
-`After that, neither Hisui nor Akiha speaks again.@ Kohaku alone remains cheerful in the morning sitting room.@ I may not understand why the mood has turned so grim, but I can feel with absolute certainty that talking about Father caused it.
+`After that, neither Hisui nor Akiha speaks again.@
+`Kohaku alone remains cheerful in the morning sitting room.@
+`I may not understand why the mood has turned so grim, but I can feel with absolute certainty that talking about Father caused it.
 \
 bg #000000,crossfade,800
 bg "bg/bg_32a",lcartain,800
 ld c,"tachi/his_t01",lshutter,800
-`“Have a safe day, Master Shiki.”@ “Right.@ I’m off, but…@ Hisui.”@ “Yes?@ What is it?”@ “About what happened earlier.@ The moment Father came up, you stopped talking.@ And it wasn’t only you—Akiha brought him up herself, then went silent too.”@
+`“Have a safe day, Master Shiki.”@
+`“Right[line=3]I’m off, but[line=3]Hisui”@
+`“Yes[line=3]what is it, Master Shiki?”@
+`“About what happened earlier.@ The moment Father came up, you stopped talking.@ And it wasn’t only you—Akiha brought him up herself, then went silent too.”@
 ld c,"tachi/his_t17",crossfade,400
-`“Did something happen to Father during the eight years I was gone?@ Neither you nor Akiha was acting normally.”@ “…”@ Hisui gives no answer.
+`“Listen.@ Did something happen to Father during the eight years I was gone?@ Neither you nor Akiha was acting normally.”@
+`“…”@
+`Hisui gives no answer.
 \
 `“I see.@ I won’t force you.@ Tell me someday, if the chance comes.”@
 ld c,"tachi/his_t08",crossfade,400
-`“No.@ It has nothing to do with you.”@
+`“[line=3]No.@ It has nothing to do with Master Shiki.@
 ld c,"tachi/his_t09",crossfade,400
-`“Master Shiki.@ If you intend to go on living in this house, never speak of your father again.”@
+`“Master Shiki.@ If you intend to go on living in this house, never speak of Master Makihisa again.”@
 cl c,lshutter,400
-`For one instant, Hisui’s eyes blaze like fire.@ Then she turns and goes back inside.
+`For one instant, Hisui’s eyes blaze like fire as she turns and goes back inside.
 \
 bg #000000,lcartain,800
 playstop

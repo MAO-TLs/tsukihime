@@ -3,60 +3,99 @@ wavestop
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`“Ngh—!”@ My head aches.@ Though I cannot begin to understand why, exchanging bodily fluids with Hisui undeniably restored some of my strength.@ But as that strength returns, the headache swells to match it.@
+`“[line=5]Ngh!”@
+`My head aches.@
+`Though I cannot begin to understand why, exchanging bodily fluids with Hisui undeniably restored some of my strength.@
+`But as that strength returns, the headache swells to match it.@
 wave se_04
-`There is a knock.@ Could it be Kohaku?
+`There is a knock.@
+`Could it be Kohaku?
 \
 ld c,"tachi/his_t01",lshutter,400
 play "*9"
-`“Excuse me, Master Shiki.”@ “—What?”@ It is Hisui.@
+`“Excuse me, Master Shiki.”@
+`“[line=9]What?”@
+`It is Hisui.@
 cl c,lshutter,400
-`“—”@ Without a word, Hisui performs the usual examination.@ Since I have not slept today, there has been no bleeding.@ She does not set up the transfusion drip; after taking my temperature, she changes the sheets and prepares water and medicine.
+`“[line=7]”@
+`Without a word, Hisui performs the usual examination.@
+`Since I have not slept today, there has been no bleeding.@
+`She forgoes the transfusion drip and, after taking my temperature, changes the sheets and prepares water and medicine.
 \
-`“—”@ Not a single word passes between us.@ After what happened, I cannot look Hisui in the face.@ I assume she feels the same, but duty is duty.@ With brisk efficiency, she carries on exactly as always.
+`“[line=7]”@
+`Not a single word passes between us.@
+`After what happened, I cannot look Hisui in the face.@
+`I assume she feels the same, but she still has a servant’s responsibilities.@ With brisk efficiency, she carries on exactly as always.
 \
-`Then, without warning—
+`Then, without warning.@
 ld c,"tachi/his_t02",lshutter,400
-`“Master Shiki, how are you feeling?”@ she asks from directly beside me.@ “Ah—well, that’s…”@ It is true that what happened earlier restored enough strength for me to move a little, but—
+`“Master Shiki, how are you feeling?”@
+`she asks from directly beside me.@
+`“Ah, well, that’s[line=5]”@
+`It is true that what happened earlier restored enough strength for me to move a little, but[line=3]
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki, is something wrong?@ Your face seems rather red.”@ “R-red?@ That’s because—you…”@ “Yes?@ Have I done something?”@ Hisui tilts her head.
+`“Master Shiki, is something wrong?@ Your face seems rather red.”@
+`“M-my face is red because[line=3]because of you, Hisui.”@
+`“Yes.@ Have I done something?”@
+`Hisui tilts her head.
 \
-`“Urgh…”@ Damn it, I cannot say it plainly.@ I have not even apologized yet.@ “I mean…@ I’m sorry about before.@ I know it must have been embarrassing for you, and I was so rough.”@
+`“Urgh[line=5]”@
+`Damn it, I cannot say it plainly.@
+`I have not even apologized yet.@
+`“I mean, I’m sorry about before.@ I know it must have been embarrassing for you, and I was so rough.”@
 ld c,"tachi/his_t20",crossfade,400
-`“Ah…”@ Hisui lowers her face as though the memory has embarrassed her.@
+`“Ah…”@
+`Perhaps remembering what happened, Hisui lowers her face in embarrassment.@
 br
 `[line=4]Or so I thought.
 \
 ld c,"tachi/his_t02",crossfade,400
-`“It’s all right.@ I was the inconsiderate one.@ I ignored the condition of your body and did whatever I pleased.@ I could hardly blame you for hating me.”@ “H-hate you?@ There’s no way I could ever hate you…!@ Whatever happens, I will never hate you!@ Though…@ I suppose I couldn’t blame you if you came to hate me.”@
+`“It’s all right.@ I was the one who failed to take Master Shiki’s condition into account and acted selfishly.@ I could hardly blame Master Shiki for hating me.”@
+`“H-hate you[line=3]there’s no way I could ever hate you…!@ Whatever happens, I will never hate you!@ Though I suppose I could hardly blame you if you came to hate me.”@
 cl c,crossfade,400
-`The moment I say it, a weight settles across my back.@ Even though I was the one who said it, Hisui must surely be sick of me by now.
+`The moment I say it, a weight settles across my back.@
+`It is a strange thing for me to say, but Hisui must surely be sick of me by now.
 \
-`She must be remembering what happened and staring at me in disgust…@ Wait, what?@
+`She must be remembering what happened and thinking me hopeless[line=3]wait, what?@
 ld c,"tachi/his_t14",lshutter,800
-`Something is wrong.@ Why is Hisui smiling so happily?@ “Hisui…@ why are you laughing?”@ “Because what you just said is exactly what I would say to you.@ I found it amusing.”@ She laughs softly, with genuine delight.
+`Something is wrong.@
+`Why is Hisui smiling so happily…?@
+`“Hisui.@ Why are you laughing?”@
+`“Yes.@ What Master Shiki just said is exactly what I would say to you.@ That is why I found it amusing.”@
+`She laughs softly, with genuine delight.
 \
-`The room sways.@ Hisui smiles so rarely, and so beautifully, that seeing it nearly does me in.@
+`The room sways.@
+`Hisui smiles so rarely, and so beautifully, that seeing it nearly does me in.@
 bg #000000,notrans,0
 ld c,"tachi/his_t29",crossfade,400
 bg "bg/bg_40a",notrans,0
-`Perhaps that is why the smile she wore a moment ago frightens me so deeply.
+`Perhaps that is why.@
+`The smile Hisui wore a moment ago frightens me so deeply.
 \
-`“In any case, I still haven’t thanked you.@ Thank you for before, Hisui.@ The method had…@ several problems, but I think my body may recover now.@ I might even be able to walk a little.”@
+`“In any case, I still haven’t thanked you.@ Thank you for before, Hisui.@ There were several problems with the method, but thanks to you I think my body may recover.@ I might even be able to walk a little now.”@
 ld c,"tachi/his_t03",crossfade,400
-`“Oh—yes.@ What I did was very little, but I’m glad if it helped.”@ Hisui looks straight into my eyes.@ Under that gaze, the memory returns and arousal begins to stir in me again.
+`“Oh[line=3]ah, yes.@ It was a small thing, but I’m glad I could be of service.”@
+`Hisui looks straight into my eyes.@
+`When she looks at me like that, I remember what happened and begin to feel aroused all over again.
 \
-`“But what happened was still…@ wrong.@ It made me happy, yes, but there was something unnatural about it.”@
+`“But I still think what happened was wrong.@ It made me happy, yes, but there was something unnatural about it.”@
 ld c,"tachi/his_t01",crossfade,400
-`“Unnatural…?”@ “Yes.@ Something like that should happen only when both people agree to it.@ Being my maid doesn’t mean you have to go that far.”@
+`“Unnatural?”@
+`“Yes, unnatural.@ That sort of thing should happen only when both people agree to it.@ Being my maid does not mean you have to go that far.”@
 ld c,"tachi/his_t08",crossfade,400
-`“Understood.@ If that is your wish, I will ask permission before touching your body next time.”@ …@No, that is not what I meant.@
+`“Understood.@ If Master Shiki says so, I will ask permission before touching Master Shiki’s body next time.”@
+`No, that is not what I meant.@
 ld c,"tachi/his_t16",crossfade,800
 `“Then I will take my leave.@ Please call if you require anything, Master Shiki.”@
 cl c,lshutter,800
 `With that, Hisui leaves the room.
 \
-`“She’s so cool about it…”@ I murmur.@ Merely seeing her face makes me blush, yet Hisui behaved exactly as she always does.@ “….”@ Something does not add up.@ The faint sense of wrongness troubles me for a long while.
+`“Cool.”@
+`I murmur.@
+`Just seeing Hisui’s face is enough to make me realize I am blushing, yet she behaves exactly as she always does.@
+`“……”@
+`Something does not add up.@
+`The faint sense of wrongness troubles me for a long while.
 \
 bg #000000,lshutter,800
 playstop
@@ -65,99 +104,138 @@ waveloop se_02
 !w3000
 monocro #fffff0
 bg "bg/bg_40b",crossfade,1500
-`“H—hot.”@ By the time I wake, the sun is already setting.@ At some point, I must have fallen asleep.
+`“H[line=6]ot.”@
+`By the time I wake, the sun is already setting.@
+`At some point, I must have fallen asleep.
 \
-`Hah…@ hah…@ hah…@ hah…@
+`Hah hah hah hah
 br
-`My breath comes hard.@ My body burns.@ It feels as though something inside me is burning—searing itself away.
+`My breath comes hard.@
+`My body burns.@
+`Something is happening.@ My body feels as though it is burning, searing away.
 \
-`“Wa…@ ter…”@ My throat is parched.@ The heat will not even let me raise my voice.@ I cannot call Hisui or Kohaku.@ “……”@ This enormous room—after so many days trapped here, it is driving me mad.@ An unsettling room.@ An unfamiliar room.@ This does not feel like my room at all.
+`“Wa—ter.”@
+`My throat is parched.@
+`The heat will not even let me raise my voice.@
+`I cannot call Hisui or Kohaku.@
+`“……”@
+`This enormous room.@
+`After so many days trapped here, it is driving me mad.@
+`An unsettling room.@
+`An unfamiliar room.@
+`This does not feel like my room at all.
 \
-`“Wa…@ ter…”@ I am so thirsty.@ Water.@ I have to go home and drink some water, quickly.
+`“Wa—ter.”@
+`My throat is parched.@
+`Water.@ I have to go home and drink some, quickly.
 \
 bg #000000,crossfade,400
 bg "bg/bg_46b",crossfade,400
-`“Hah…@ hah…@ hah…”@
+`“Hah, hah, hah.”@
 br
-`Bracing one hand against the wall, on the verge of collapse, I somehow begin to walk.@
+`With one hand against the wall and my legs threatening to buckle, I somehow start walking.@
 br
-`“Hah…@ hah…@ hah…”@
+`“Hah, hah, hah.”@
 br
 `This is absurd.@ I have not even walked ten meters, and already my heart feels ready to burst.
 \
-`“…@Hah…@ hah…”@
+`“Hah, hah.”@
 br
-`Still, I have to go.@ Walking any farther may kill me, but so may lying there without water.@ Then I will walk and get it myself.@ I cannot endure another moment of a life spent waiting helplessly in bed.
+`Still, I have to go.@
+`Walking any farther may kill me.@
+`But lying here without water may kill me too.@
+`Then I will walk and get it myself.@
+`I cannot endure another moment of a life spent waiting helplessly in bed.
 \
 bg #000000,crossfade,400
 bg "bg/bg_42b",crossfade,800
-`“Hah…@ hah…@ hah…”@
+`“Hah, hah, hah.”@
 br
-`I emerge into the courtyard.@ Water—the kitchen is not this way.@
+`I emerge into the courtyard.@
+`Water[line=4]the kitchen is not this way.@
 br
 bg #000000,crossfade,400
 bg "bg/bg_54b",crossfade,400
-`“…@Hah…@ aaah…”@
+`“Hah, aaah.”@
 br
-`I enter the grove.@ Nearly there.@ Nearly at that familiar place where the water waits.
+`I enter the grove.@
+`Nearly there.@
+`Nearly at that familiar place where the water waits.
 \
 bg #000000,crossfade,800
 bg "bg/bg_44a",crossfade,800
-`“Hah…@ aaah…”@
+`“Hah, aaah.”@
 br
-`Delirious with fever, I come to myself here.@ White sunlight.@ Though evening is near, the world is white—hot and blinding as if this one place had become a desert, my sight dissolving in the glare.@
+`Delirious with fever, I come to myself here.@
+`White sunlight.@
+`Though evening is near, the world is white.@
+`This one place is as hot and white as a desert, the glare blurring my sight.@
 br
 br
-`A dull clunk.@
-`From inside the annex.@
-`Someone…@
-`Is someone in there?
+`Something knocks softly inside.@
+`Inside the annex.@
+`Is someone…@
+`in there?
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_45b",crossfade,400
-`From the veranda, I slide the paper door open a crack and peer inside.@ Akiha and Kohaku are there, but something about them is strange.@ Silk whispers as a sash comes loose.@
+`From the veranda, I ease the shoji open a crack and peer inside.@
+`Akiha and Kohaku are there.@
+`Something about them is wrong.@
+`Silk whispers as an obi comes undone.@
 br
-`[line=5]What…@ are they doing?@
+`[line=5]What are they doing?@
 br
-`Without a word, Kohaku opens her kimono and bares her breasts.
+`Without a word, Kohaku parts her kimono and bares her breasts.
 \
 monocro off
 bg "event/aki_h13",lshutter,800
-`Naked and flushed, Kohaku remains perfectly still.@ Akiha presses her lips to the pale swell of her breast.@
+`Naked, her cheeks flushed, Kohaku stands perfectly still.@
+`Akiha presses her lips to the white swell of her breast.@
 br
 `The tension draws taut as wire.@
 br
-`Kohaku bows her head, her breast exposed, while Akiha buries her face against it.@ Red drops fall from Kohaku’s chest, one after another.
+`Kohaku bows over her exposed chest while Akiha crouches against her, face buried between her breasts.@
+`Red drops fall from Kohaku’s bosom, one after another.
 \
-`Akiha’s throat works as she swallows.@ There is no need to ask what she is drinking.@ No need even to understand it.@
+`Akiha’s throat works as she swallows.@
+`There is no need to ask what[line=3]what she is drinking.@ No need even to understand it.@
 br
-`Akiha is drinking Kohaku’s blood—
+`Akiha is drinking Kohaku’s blood[line=4]
 \
 bg #ffffff,crossfade,800
 bg "event/aki_h13",notrans,0
-`Vertigo washes over me.@ Thought becomes impossible.@ In a waking dream, I stare at the dark enchantment of the two women.@ Still holding Kohaku, Akiha suddenly lifts her mouth from the wound.
+`Vertigo washes over me.@
+`Thought becomes impossible.@
+`In a waking dream, I stare at the dark enchantment of the two women.@
+`Still holding Kohaku, Akiha suddenly opens her mouth.
 \
-`“That serial killer…@ What do you make of it, Kohaku?”@ “I believe it is unquestionably SHIKI’s work.”@
+`“Kohaku, what do you make of the serial killer?”@
+`“Let me see.@ I have no doubt Master SHIKI is responsible.”@
 br
-`[line=4]What are they—
+`[line=4]What are they saying?@
 br
-`“Yes…@ I thought so.@ I don’t know how he can roam about in that condition, but we can no longer leave him alone.@ A stain born of Tohno blood must be cleansed by Tohno blood.”@
+`“Well[line=3]I thought so.@ I don’t know how he can roam about in that condition, but we can no longer leave him alone.@ A stain born of Tohno blood must be cleansed by Tohno blood.”@
 br
 `[line=4]What are they talking about?
 \
-`“Then, Miss Akiha…”@ “Yes.@ As head of the Tohno family, I will kill my brother.”@
+`“Then, Miss Akiha…”@
+`“Yes.@ As head of the Tohno family, I will kill my brother.”@
 br
 `[line=4]A chill runs through me at those words.@
 br
 `Akiha speaks without hesitation.@ Even Kohaku, nodding in agreement, is utterly serious.
 \
-`“Then, Miss Akiha, we must tell Hisui as well.”@ “Yes…@ but we needn’t involve her.@ My brother can barely move.@ You and I will be more than enough to finish him.”@
+`“Then, Miss Akiha.@ We must tell Hisui about this too.”@
+`“Yes.@ But we need not involve Hisui.@ My brother can barely move.@ You and I will be more than enough to finish him.”@
 br
-`[line=4]Hah…@ hah…@ hah.@ Without my noticing, my breathing grows ragged.@
+`[line=4]Hah, hah, hah.@
+`Without my noticing, my breathing grows ragged.@
 br
-`“Listen carefully, Kohaku.@ Do not let my brother suspect anything.@ I intend to settle this within the next few days, and I want him to suffer as little as possible.”@ “Yes, I understand.@ In any case, he cannot rise from bed unaided.@ There is little danger of his discovering us.”
+`“Listen carefully, Kohaku.@ Do not let my brother suspect anything.@ I intend to settle this within the next few days, and I want him to suffer as little as possible.”@
+`“Yes, I understand.@ In any case, since he cannot rise from bed unaided, there is little danger he will notice.”
 \
-`[line=5]Hah…@ hah…@ hah.@
+`[line=5]Hah, hah, hah.@
 br
 `My fingers tremble.@ Nausea crawls up my back, and my legs threaten to give way.@
 bg #000000,crossfade,800
@@ -166,9 +244,15 @@ br
 br
 `[line=5]I have to run.@
 br
-`If I fall here, they will kill me.@ If they discover me spying on them, I will be murdered where I lie.
+`If I fall here, they will kill me.@
+`If they discover me spying on them, I will be murdered where I lie.
 \
-`“Hah…@ aaah…”@ I don’t understand.@ I cannot begin to imagine why they want me dead, and my fevered mind will not even try.@ I don’t understand.@ This is a nightmare.
+`“Hah[line=4]aaah.”@
+`I don’t understand.@
+`I cannot begin to imagine why they want me dead.@
+`My fevered mind will not even try to understand.@
+`I don’t understand.@
+`This is a nightmare.
 \
 br
 br
@@ -176,68 +260,83 @@ br
 br
 br
 br
-`[line=10]A dream— A dream…?
+`[line=10]A dream
+`A dream[line=10]?
 \
-`Yes.@ This is only a dream, another of the vicious nightmares that always plague me.@ Then I must wake quickly—wake before this insane delusion devours me, and return to the life I had before.
+`Yes, this is a dream.@
+`Only another of the vicious nightmares that always plague me.@
+`Then I have to wake up quickly.@
+`Before this insane delusion devours me, I have to wake and return to the life I had before[line=4]
 \
 monocro off
 wavestop
 !w2000
 bg "bg/bg_40b",lcartain,1500
 play "*1"
-`“Ngh…”@ Somehow I make it back to my room.@ Now I only have to—yes, the lock.@ I have to lock the door—
+`“Ngh[line=4]uh.”@
+`Somehow I make it back to my room.@
+`Now[line=3]yes, the lock, I have to lock the door[line=2]
 br
 ld c,"tachi/his_t12",lshutter,400
-`“Master Shiki.”@ “—!”@ I do not know how long she has been there, but Hisui stands motionless in the middle of my room.
+`“Master Shiki.”@
+`“[line=7]!”@
+`I do not know how long she has been there, but Hisui stands motionless in the middle of my room.
 \
 ld c,"tachi/his_t13",crossfade,400
 `“What have you been doing?@ You can’t go wandering around in your condition.”@
-`“Hi…@ sui.”@
-`“Please lie down and rest.@ If you overexert yourself, Miss Akiha will hold me responsible.”@
-`“Akiha will…@ hold you responsible…?”@
+`“Hi-sui.”@
+`“Please lie down and rest.@ If Master Shiki overexerts himself, Miss Akiha will hold me responsible.”@
+`“Akiha will—hold you responsible?”@
 br
 `Why should Akiha care just because I left my room?@
-`…@No.@ I already know why.@
-`She realized I’m the killer.@ That’s why she shut me in here—and why she means to kill me, perhaps as soon as tonight.
+`No, I already know why.@
+`Akiha realized I am the killer, so she locked me in here and means to kill me tonight.
 \
-`“Get out, Hisui.”@
-`“Master Shiki…?”@
-`“No one comes into this room.@ Not even you.@ Never again…!”@
+`“[line=4]Get out, Hisui.”@
+`“Master Shiki?”@
+`“No one comes into this room.@ Not even you, Hisui, ever again…!”@
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki—ah!”@
+`“Master Shiki[line=3]ah!”@
 cl c,lshutter,400
-`Somehow, from somewhere, I find the strength to force Hisui through the doorway and out into the hall.@ Then I slam the door and lock it.
+`I do not know where the strength comes from, but I shove Hisui through the doorway and out into the hall.@
+`Then I slam the door and lock it.
 \
-`“Master Shiki—!?@ Master…@ Shiki, please open the door!@ Master Shiki…!”@
-`She pounds against it.@ Ignoring her, I crumple onto the carpet.
+`“Master Shiki[line=3]!?@ Master Shiki, please open the door, Master Shiki…!”@
+`She pounds against it.@
+`Ignoring her, I crumple onto the carpet.
 \
 bg #000000,crossfade,800
 !w3500
 wave se_01
 br
-`[line=4]I…@ can’t breathe.@
+`[line=4]I can’t breathe.@
 br
 `A membrane clinging to my brain.@ Poison seeping through every pore.@ Each breath drawn through my nose or mouth carries pus, mildew, filth into my body.@
 wave se_01
 br
-`[line=4]My body…@ won’t move properly.@
+`[line=4]My body will not move properly.@
 br
 `Something apart from organs or bodily functions—the primal life, the energy that keeps a human being in motion—is draining out of me.
 \
 wave se_01
-`An invisible tube runs from my heart to somewhere outside.@ Through it, my very “life”@ is flowing away—to that thing.
+`An invisible tube runs from my heart to somewhere outside.@
+`Through it, my very life is flowing away to that thing.
 \
 wave se_01
 br
-`[line=5]I…@ can’t breathe.@
+`[line=5]I can’t breathe.@
 br
-`That’s why I can’t keep up.@ However much my body produces to keep itself alive, that thing steals it all.@ Unless I replenish that vitality from outside, I can’t survive.@
+`That’s why I can’t keep up.@
+`However much my body produces to keep itself alive, that thing steals it all.@
+`Unless I replenish that vitality from outside, I can’t survive.@
 wave se_01
 `IV drips.@ Nutrients.@ Injections.@ Painkillers.@ Water.@ Blood.@ Reason.@ Intellect.@ Emotion.@ Memory.@ Sight.@ Hearing.@ Taste.@ Touch.@ Smell.@ Bodily fluids.@ Love.@ Urge.
 \
-`[line=6]hah…@ AH
+`[line=6]Hah ah
 br
-`Medicine can do no more than keep the last scrap of life inside me.@ It will never cure me.@ If anything can make this body move again, it would have to be—
+`Medicine can do no more than keep the last scrap of life inside me.@
+`It will never cure me.@
+`If anything can make this body move again, it would have to be[line=4]
 \
 wave se_01
 bg "event/his_h14",notrans,0
@@ -253,12 +352,12 @@ br
 `          Bang.@
 `                    Bang.
 \
-`“…@So…@ noisy.”@
-`Bracing myself against the wall, I somehow get to my feet.@ My own ragged wheezing grates on my ears.@
+`“So—noisy.”@
+`I brace against the wall and somehow get to my feet.@ My own ragged wheezing grates on my ears.@
 br
 `Bang.@ Bang.@ Bang.@
 br
 `“Brother!@ Open the door, Brother!”@
 `Akiha is pounding on it.@
-`…@Of course.@ I locked the door, so no one can get inside.
+`Of course.@ I locked the door, so no one can get inside.
 \

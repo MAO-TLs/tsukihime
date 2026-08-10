@@ -2,50 +2,71 @@ monocro off
 play "*1"
 wavestop
 bg "bg/bg_29b",notrans,0
-`[line=3]What do I really feel?@ Ciel is undeniably precious to me.@ Whatever she might truly be, the hours we have shared at school are something irreplaceable.@
+`[line=3]What do I really feel?@
+`Ciel is undeniably precious to me.@ Whatever she might truly be, the hours we have shared at school are something irreplaceable.@
 br
-`Even so—Ciel is Ciel.@ Before enemy or ally, before man or woman, she is simply the older friend I can always rely on.
+`Even so[line=4]Ciel is still Ciel to me.@
+`Whether enemy or ally, man or woman, before any of that, she is simply the upperclassman I have always relied on.
 \
-`“……”@
+`“…”@
 ld c,"tachi/ark_t06",crossfade,400
-`“What?@ You can’t wriggle out of this by keeping quiet.”@ Arcueid glares at me.@ Come to think of it, whatever Ciel might be, this woman is many times more frightening.@ I tend to forget she is a vampire—and that somewhere inside her, something like ordinary morality is simply missing.
+`“What?@ You can’t wriggle out of this by keeping quiet.”@
+`Arcueid glares at me.@
+`Come to think of it, whatever Ciel might be, this woman is many times more frightening.@
+`I tend to forget she is a vampire and that somewhere inside her, something like ordinary morality is simply missing.
 \
 `[line=4]And yet I am drawn to her.@
 br
-`Even tonight, I had set out to find her, growing more and more frustrated when I couldn’t.@ It was the restless misery of waiting for someone you’d fallen for.
+`Even tonight, I had set out to find her, growing more and more frustrated when I couldn’t.@
+`It was the restless misery of waiting for someone you’d fallen for.
 \
-`“Shiki, this is the last time I’m asking.@ Whose side are you on—mine or that woman’s?”@ Arcueid glares at me in open irritation.@ “……@Isn’t it obvious?@ I’m still standing here.@ If I’d chosen Ciel, I would’ve gone after her ages ago.”@
+`“Shiki, this is the last time I’m asking.@ Whose side are you on, mine or that woman’s?”@
+`Arcueid glares at me in open irritation.@
+`“Isn’t it obvious?@ I’m still standing here.@ If I’d chosen Ciel, I would’ve gone after her ages ago.”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Um, so that means……@ what, exactly?”@ Arcueid tilts her head, mystified.
+`“Um, so that means[line=3]what, exactly?”@
+`Arcueid tilts her head, mystified.
 \
 `“What do you mean, what does it mean?”@
 br
-`[line=3]Why do her powers of comprehension always collapse during the most ordinary conversations?@ At this rate, she will never understand how I feel unless I say it outright.
+`[line=3]Why do her powers of comprehension always collapse during the most ordinary conversations?@
+`At this rate, she will never understand how I feel unless I say it outright.
 \
-`“You really don’t get it, do you?@ The fact that I stayed means—”@
+`“You really don’t get it, do you?@ The fact that I stayed means[line=4]”@
 br
-`Means what, exactly?@ I can no longer deceive myself about being drawn to her.@ But that is something I can never say aloud.@ No matter how beautiful Arcueid is, she is still a vampire.
+`Means what, exactly?@
+`I can no longer deceive myself about being drawn to her.@
+`But that is something I can never say aloud.@
+`No matter how beautiful Arcueid is, she is still a vampire.
 \
 ld c,"tachi/ark_t04",crossfade,400
-`“You’ve gone quiet again.@ What is that supposed to mean?@ If Ciel is so wonderful, why don’t you just say so?”@ “I-I’ve told you, that isn’t it!@ How can you still not understand after everything I’ve said……?”@
+`“You’ve gone quiet again; what is that supposed to mean?@ If Ciel is so wonderful, why don’t you just say so?”@
+`“I-I’ve told you, that isn’t it!@ How can you still not understand after everything I’ve said?”@
 ld c,"tachi/ark_t16",crossfade,400
-`“How am I supposed to know?”@ I shout at her without cause, and she shouts back with even less.
+`“How am I supposed to know?”@
+`I shout at her without cause, and she shouts back with even less.
 \
-`“Fine!@ I’m through with you, Shiki!”@
+`“Fine, I’m through with you, Shiki!”@
 cl c,lshutter,400
-`“Hey, wait.@ Where are you going?”@ “It’s none of your business.@ Don’t follow me!”@ Whether she is truly furious or merely acting it, Arcueid walks away without once looking back.
+`“Hey, wait.@ Where are you going?”@ “It’s none of your business.@ Don’t follow me!”@
+`Whether she is truly furious or merely acting it, Arcueid walks away without once looking back.
 \
-`“What—”@ Left alone in the park, I stand there dumbfounded.@ Arcueid has flown into a rage and gone off by herself, and I have already learned what I came to ask.@ I know perfectly well that all I have to do now is go home.@
+`“Wh[line=5]?”@
+`Left alone in the park, I stand there dumbfounded.@
+`Arcueid has stormed off alone, and since I have heard everything I wanted to ask, I know I should simply go home.@
 br
-`But my feet refuse to take a single step toward the estate.@ My reason has everything arranged in neat, logical order.@ My heart refuses to follow.
+`But my feet refuse to take a single step toward the estate.@
+`My reason has everything arranged in neat, logical order, but my heart refuses to follow.
 \
-`[line=3]It is a cliché, but perhaps liking and disliking someone truly have nothing to do with reason.
+`[line=3]It is a cliché.@
+`But perhaps liking and disliking someone truly have nothing to do with reason.
 \
-`“—Oh, damn it!”@
+`“[line=5]Oh, damn it!”@
 br
-`Why the hell is Arcueid so impossible to leave alone……?@
+`Why the hell can’t I leave Arcueid alone…!@
 br
-`“Arcueid!@ I said wait!”@ I shout and run after her as she marches away without looking back.
+`“Arcueid!@ I said wait!”@
+`I shout and run after her as she marches away without looking back.
 \
 playstop
 bg #000000,lcartain,800

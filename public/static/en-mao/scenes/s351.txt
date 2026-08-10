@@ -1,125 +1,153 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`[line=4]That settles it.@ Hisui is always looking after me; I’ll go lend her a hand.
+`[line=4]That settles it.@
+`Hisui is always looking after me; I’ll go lend her a hand.
 \
 bg #000000,lcartain,400
 play "*3"
 bg "bg/bg_33b",lcartain,400
 `“I’m home, Hisui.@ You look busy—what are you doing?”@
 ld c,"tachi/his_t01",crossfade,400
-`“Ah—welcome home, Master Shiki.@ I am about to put your father’s room in order.”@
-`Dozens of books lie at Hisui’s feet.@ A single book weighs next to nothing, but stack ten together and the weight mounts quickly.@ There must be well over fifty here.@ There is no possible way Hisui’s slender arms can manage them all.
+`“Ah[line=3]welcome home, Master Shiki.@ I am about to put Master Makihisa’s room in order.”@
+`Dozens of books lie at Hisui’s feet.@
+`A single book weighs next to nothing, but stack ten together and the weight mounts quickly.@
+`There must be well over fifty here.@
+`There is no possible way Hisui’s slender arms can manage them all.
 \
-`“Father’s room…@ That was on the first floor of the west wing, wasn’t it?”@
+`“Father’s room[line=3]that was on the first floor of the west wing, wasn’t it?”@
 `With a grunt, I gather up a stack of books.@
 ld c,"tachi/his_t07",crossfade,400
-`“Please don’t, Master Shiki.@ This is my work.@ You should rest in your room.”@
-`“It’s fine.@ Sitting around will only make me stiff.@ This barely begins to repay everything you do for me, but at least let me help.”@
-`“But—”@
-`“…@These really are heavy.@ What was Akiha thinking, leaving this kind of lifting to you?”@
+`“Please don’t, Master Shiki.@ This is my work, so please rest in your room.”@
+`“It’s fine.@ Sitting around will only make me stiff, and though this barely begins to repay everything you do for me, at least let me help.”@
+`“But[line=4]”@
+`“These really are heavy.@ What was Akiha thinking, leaving this kind of lifting to you?”@
 ld c,"tachi/his_t05",crossfade,400
-`“Ah—”
+`“Ah[line=5]”
 \
-`“Go on ahead to Father’s room, Hisui.@ I’ll carry the books, and you can concentrate on arranging everything inside.@ Division of labor.@ Surely you can agree to that?”@
+`“Go on ahead to Father’s room, Hisui.@ I’ll carry the books, and you can concentrate on arranging everything inside.@ Division of labor should make sense, right?”@
 ld c,"tachi/his_t04",crossfade,400
-`“…@Very well.@ Then I leave them in your care, Master Shiki.”@
+`“[line=3]Very well, then I leave them in your care, Master Shiki.”@
 cl a,crossfade,400
 `Looking apologetic, Hisui climbs the stairs.@
-`[line=3]Now, then.@ That leaves me to haul this mountain of books up to the second floor.
+`[line=3]Now, then.@
+`That leaves me to haul this mountain of books up to the second floor.
 \
 bg #000000,lshutter,800
 bg "bg/bg_41",rshutter,800
-`“So this was Father’s room.@ Hisui, do you mind if I look through some of the books?”@
+`“So[line=3]this was Father’s room.@ Hisui, do you mind if I look through some of the books?”@
 ld c,"tachi/his_t04",crossfade,400
-`“I believe anything that is not locked should be permissible.”@
+`“I believe you may examine anything that is not locked.”@
 cl a,crossfade,400
-`Hisui shelves the books I carried in.@ Apparently sorting them by subject, she moves briskly back and forth across the room.
+`Hisui shelves the books I carried in.@
+`Apparently sorting them by subject, she moves briskly back and forth across the room.
 \
-`“Anything that isn’t locked…@ Does the desk have locks or something?”@
-`I tug at one of Father’s desk drawers.@ It catches with a hard clunk.@
+`“Anything that isn’t locked—does the desk have locks or something?”@
+`I tug at one of Father’s desk drawers.@
+`It catches with a hard clunk.@
 `“It really is locked.”@
 `What could it still be protecting now that Father is dead?
 \
-`“….”@
-`Hisui isn’t looking.@ A letter opener lies conveniently on Father’s desk.@
-`“….”@
+`“[line=5]”@
+`Hisui isn’t looking.@
+`A letter opener lies on Father’s desk.@
+`Everything I need is conveniently at hand.@
+`“……”@
 `I lower my glasses just enough to see the desk.@
-`“There.”@
+`“[line=5]There.”@
 `Silently, I sever the lock.
 \
-`“It’s only paper.”@
-`The drawer contains a bundle of yellowed sheets.@ I pick one up for a closer look.@
+`“[line=3]It’s only paper.”@
+`The drawer contains a bundle of yellowed sheets.@
+`I pick one up for a closer look.@
 br
-`“Wait—this is our family tree.”@
+`“Wait[line=3]this is our family tree.”@
 br
-`There is no mistaking it.@ Beneath Makihisa Tohno are the names SHIKI Tohno and Akiha Tohno.@ They are there, but—
+`There is no mistaking it.@
+`Beneath Makihisa Tohno are the names SHIKI Tohno and Akiha Tohno.@
+`They are there, but[line=3]
 \
-`“…@No way.@ Father adopted a child ten years ago.@ …@Oh, but the child died of an illness soon afterward.”@
-`Ten years ago, I would have been in first grade.@ No wonder I can’t remember something that old.@
-`“…@The heads of our family don’t seem to live very long.@ Father died of illness before fifty; the one before him died in an accident at thirty.@ …@God, the one before that killed himself at eighteen.”@
+`“No way.@ Father adopted a child ten years ago.@ Oh, but the child died of an illness soon afterward.”@
+`Ten years ago, I would have been in first grade.@
+`No wonder I can’t remember something that old.@
+`“The heads of our family don’t seem to live very long.@ Father died of illness before fifty, and the one before him died in an accident at thirty.@ God, the one before that killed himself at eighteen.”@
 playstop
 play "*6"
 br
-`[line=4]No.@ Wait.@ This is too strange.
+`[line=4]No, wait.@
+`This is too strange.
 \
 wave se_01
-`Reading the family tree carefully, I find that every member of the Tohno family met an unnatural end.@ Death by madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@ …@Not one of them died quietly of old age.@
+`Reading the family tree carefully, I find that every member of the Tohno family met an unnatural end.@
+`Death by madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@
+`Not one of them died quietly of old age.@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_41",crossfade,400
 `“What…”@
-`There is no other word for this history but cursed.@ Most of the deaths are attributed to madness: people who ended their own lives.
+`There is no other word for this history but cursed.@
+`Most of the deaths are attributed to madness.@ They ended their own lives.
 \
 bg #000000,crossfade,1500
 bg "bg/bg_41",crossfade,800
 waveloop se_02
-`“Ah—”@
-`The light drains out of my sight.@ It feels as though blood is pooling and swaying at the back of my skull.@ Strength leaves my limbs, and I suffer the illusion that I can no longer breathe.@
+`“Ah[line=4]”@
+`The light drains out of my sight.@
+`It feels as though blood is pooling and swaying at the back of my skull.@
+`Strength leaves my limbs, and I suffer the illusion that I can no longer breathe.@
 ld c,"tachi/his_t08",lshutter,400
 `“Master Shiki…!”@
-`Hisui…@ Hisui runs toward me.@
+`Hisui—Hisui runs toward me.@
 `[line=3]I catch the bookcase and somehow steady myself.
 \
 ld c,"tachi/his_t25",crossfade,400
 playstop
-`“Master Shiki!@ Please stay conscious—Master Shiki…!”@
-`Hisui’s voice is full of concern, but her hands never touch me.@
-`“I’m all right.@ I just felt a little sick.”@
+`“Master Shiki!@ Please stay conscious, Master Shiki…!”@
+`Hisui’s voice is full of concern.@
+`But her hands never touch me.@
+`“I’m all right[line=3]I just felt a little sick.”@
 ld c,"tachi/his_t12",crossfade,400
 `“Please don’t strain yourself, Master Shiki…!@ Sit down.@ You’re white as a sheet—there is no reason to force yourself to remain standing…!”@
-`…@That’s unusual.@ Hisui is pleading with me in earnest.
+`That’s unusual.@
+`Hisui is pleading with me in earnest.
 \
-`“…@I’m…@ all right…”@
-`I struggle to pull my thoughts together, but the dizziness won’t pass.@
+`“I’m all right, so[line=3]”@
+`I struggle to pull my thoughts together.@
+`But the dizziness won’t pass.@
 br
 bg #000000,crossfade,400
 bg "bg/bg_41",crossfade,400
-`Red and black pulse across my vision.@ White.@ Hisui’s nape comes into view—so terribly warm and soft-looking.
+`Red and black pulse across my vision.@
+`White.@
+`Hisui’s nape comes into view, looking terribly warm.
 \
-`“Ah…”@
-`How sensual it is.@ If my body would only obey me, I would pin Hisui down this instant and—
+`“[line=5]Ah.”@
+`How alluring.@
+`If my body would only move, I would pin Hisui down this instant and[line=3]
 \
 bg #9c0120,notrans,0
-`The darkness of anemia vanishes, and my whole field of vision floods crimson.@ Hisui’s white throat.@ Last night’s dream, drenched in red.@
+`The darkness of anemia vanishes, and my whole field of vision floods crimson.@
+`Hisui’s white throat.@
+`Last night’s dream, drenched in red.@
 br
-`[line=3]The night of murder.@ Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
+`[line=3]The night of murder.@
+`Pleasure so sharp and painful my heart seemed ready to tear free of my chest.
 \
 bg "bg/bg_41",notrans,0
 wavestop
-`“Damn—!”@
+`“Damn[line=5]!”@
 `Unable to bear it, I flee from Hisui.@
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki…?”@
-`“No—I’m fine.@ I’m fine, so leave me alone.”@
+`“Master Shiki?”@
+`“No[line=3]I’m fine[line=3]I’m fine, so leave me alone.”@
 ld c,"tachi/his_t17",crossfade,400
-`“I cannot.@ You don’t understand the state you’re in.@ I cannot leave someone in such…@ such a condition alone.”@
+`“I cannot.@ Master Shiki does not understand the state he is in.@ I cannot leave someone in such[line=3]such a condition alone.”@
 `And Hisui comes closer.
 \
 cl a,crossfade,400
 `[line=3]This is bad.@
 `It terrifies me.@
-`If she comes within reach, I don’t know what I might do.@ That terrifies me.
+`If she comes within reach, I don’t know what I might do, and that terrifies me.
 \
 `“Just leave me alone, Hisui…!”@
 ld c,"tachi/his_t17",crossfade,400
@@ -128,7 +156,11 @@ br
 waveloop se_02
 bg #000000,crossfade,400
 bg "bg/bg_41",crossfade,400
-`…@Stop.@ Please stop.@ It’s dangerous to come closer.@ I told you not to.@ Why?@ Why won’t this woman do as I say?@
+`Please stop.@
+`It’s dangerous to come closer.@
+`I told you not to.@
+`Why?@
+`Why won’t this woman do as I say?@
 br
 bg #000000,crossfade,400
 `[line=3]Why are you getting in my way.@
@@ -138,28 +170,32 @@ bg "bg/bg_41",crossfade,400
 `“Shut up…!@ Don’t you understand me when I tell you to stay away, Hisui?”@
 wave se_05
 quakex 2,100
-`“Ah—”@
+`“Ah[line=3]”@
 br
-`A heavy crash.@ Hisui rebounds against the bookcase, her face twisting in pain.@
+`A heavy crash.@
+`Hisui rebounds against the bookcase, her face twisting in pain.@
 br
-`“Ah—”@
-`The sight of her face brings me to my senses.@ The dizziness ebbs almost at once.@ What remains has nothing to do with vertigo.@ It is only guilt.
+`“Ah[line=3]”@
+`The sight of her face brings me to my senses.@
+`The dizziness ebbs almost at once.@
+`What remains has nothing to do with vertigo; it is only guilt.
 \
-`“I’m sorry.@ What did I—”@
+`“[line=2]I’m sorry.@ What did I[line=2]”@
 ld c,"tachi/his_t21",crossfade,400
-`“….”@
+`“[line=13]”@
 `Hisui keeps her head bowed.@
-`“Hisui, I…@ I’m sorry.@ I don’t even know why I did that…”@
+`“[line=3]Hisui, I[line=3]I’m sorry, I don’t even know why I did that[line=3]”@
 ld c,"tachi/his_t26",crossfade,400
-`“I apologize.@ I disobeyed your instruction and caused you distress, Master Shiki.”@
-`“No.@ I’m the one who should apologize.@ I did something terrible to you.”
+`“I apologize.@ I disobeyed Master Shiki’s instruction and caused you distress, Master Shiki.”@
+`“No, I’m the one who should apologize.@ I did something terrible to you.”
 \
 ld c,"tachi/his_t21",crossfade,400
-`“…@Please return to your room, Master Shiki.@ You are exhausted.@ I believe rest will soon restore you to yourself.”@
-`“….”@
+`“Please return to your room, Master Shiki.@ Master Shiki is exhausted.@ I believe rest will soon restore you to yourself.”@
+`“[line=6]”@
 `Hisui still won’t look up.@
-`“…@All right.@ I’ll go back.@ I’m sorry, Hisui.”@
-`She gives no answer.@ Nearly crushed beneath my self-loathing, I leave the room.
+`“All right, I’ll go back.@ I’m sorry, Hisui.”@
+`She gives no answer.@
+`Nearly crushed beneath my self-loathing, I leave the room.
 \
 bg #000000,lcartain,800
 !w2000
@@ -168,20 +204,29 @@ play "*1"
 `[line=3]After dinner, I return to my room.@
 br
 `I fall onto the bed and see Hisui’s face again.@
-`“….”@
-`I don’t understand.@ I don’t know why that feeling came over me, or why I did such a thing.
+`“[line=4]”@
+`I don’t understand.@
+`I don’t know why that feeling came over me, or why I did such a thing.
 \
-`At that moment, the sight of Hisui’s throat aroused me.@ Just as in last night’s dream, I wanted to fasten my teeth into it.@ Yet now the thought holds no appeal at all.@
+`At that moment.@
+`The sight of Hisui’s throat aroused me.@
+`Just as in last night’s dream, I wanted to fasten my teeth into it.@
+`Yet now the thought holds no appeal at all.@
 br
-`Last night’s dream.@ The person I became today.@ It feels as though someone who is not me lives inside me.
+`Last night’s dream and the person I became today.@
+`It feels as though someone who is not me lives inside me.
 \
-`“….”@
-`I touch my throat.@ They say anyone bitten by a vampire becomes one in turn.@
-`“…@That’s absurd.@ I can walk around in broad daylight.”@
-`Yes.@ It’s impossible.@ Dizziness clouded my mind and showed me a hallucination, nothing more.@ What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
+`“[line=4]”@
+`I touch my throat.@
+`They say anyone bitten by a vampire becomes one in turn.@
+`“That’s absurd.@ I can walk around in broad daylight.”@
+`Yes, it’s impossible.@
+`Dizziness clouded my mind and showed me a hallucination, nothing more.@
+`What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
 \
-`“Maybe Hisui was right.@ Maybe I’m just exhausted.”@
-`…@Perhaps I am.@ I should get a good night’s sleep and let my worn-out body recover.
+`“Maybe Hisui is right and I’m just exhausted.”@
+`Perhaps so.@
+`I should get a good night’s sleep and let my worn-out body recover.
 \
 bg #000000,crossfade,1500
 playstop
@@ -240,7 +285,8 @@ bg "bg/bg_24c",notrans,0
 wait 100
 bg #000000,notrans,0
 bg "bg/bg_26a",crossfade,800
-`Apparently I’ve gone out into the sleeping city.@ Eyes bloodshot, I seem to be waiting for someone to pass by.
+`Apparently I’ve gone out into the sleeping city.@
+`Eyes bloodshot, I seem to be waiting for someone to pass by.
 \
 wave se_01
 br
@@ -260,7 +306,8 @@ br
 br
 br
 br
-`My face appears suddenly in a darkened window.@ Its eyes are bloodshot.@ It cannot possibly be sane.
+`My face appears suddenly in a darkened window.@
+`Its bloodshot eyes look anything but sane.
 \
 wave se_01
 br
@@ -280,7 +327,8 @@ br
 br
 br
 br
-`The prey seems to have been found.@ It is killed before it can scream—before it can even realize that it has died.
+`The prey seems to have been found.@
+`It is killed before it can scream—before it can even realize that it has died.
 \
 wave se_01
 br
@@ -297,7 +345,9 @@ wait 100
 bg "bg/ima_12b",notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse is dragged away.@ Teeth close on its throat.@ I hear wet sucking.@ Blood is swallowed straight from the neck, flesh torn away with it, until the thirst subsides.
+`The corpse is dragged away, and teeth close on its throat.@
+`I hear wet sucking.@
+`Blood is swallowed straight from the neck, flesh torn away with it, until the thirst subsides.
 \
 br
 br
@@ -308,7 +358,7 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Blood is not enough.@ One by one, the fingers are bitten from the corpse’s hand.
+`Unsatisfied with blood alone, one finger after another is bitten from the corpse’s hand.
 \
 br
 br
@@ -319,7 +369,7 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Fingers are not enough.@ One by one, the corpse’s limbs are bitten off.
+`Unsatisfied with fingers alone, one limb after another is bitten from the corpse.
 \
 br
 br
@@ -330,7 +380,10 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Then—an interruption.@ The corpse is cast aside, and I leap away.@ Someone.@ Someone is watching.
+`Then.@
+`An interruption.@
+`The corpse is cast aside, and I leap away.@
+`Someone.@ Someone is watching.
 \
 br
 br
@@ -342,7 +395,9 @@ br
 `[line=4]So tonight is different.
 \
 bg "bg/ima_02",tshutter,400
-`Something like an enormous nail comes hurtling through the air.@ I leap aside, race up the face of a building, and bound from rooftop to rooftop.
+`Something like an enormous nail comes hurtling through the air.@
+`I leap aside to avoid it.@
+`I race up the face of a building and bound from rooftop to rooftop.
 \
 br
 br
@@ -353,7 +408,9 @@ br
 br
 `[line=4]A black silhouette pursues the vampire.
 \
-`Roof to roof.@ Darkness to darkness.@ Still the figure follows.
+`Roof to roof.@
+`Darkness to darkness.@
+`Still the figure follows.
 \
 br
 br
@@ -364,7 +421,8 @@ br
 br
 `[line=4]It can’t be helped.
 \
-`“It can’t be helped,”@ someone murmurs, and tonight’s meal comes to an end.
+`“It can’t be helped,”@ someone murmurs,
+`and tonight’s meal comes to an end.
 \
 bg #000000,crossfade,800
 monocro off
@@ -373,7 +431,7 @@ phase "bg/ima_19",l,aki,07a,7
 waveloop se_02
 bg #ffffff,notrans,0
 !w750
-`“Master Shiki…?”@
+`“Master Shiki[line=4]?”@
 br
 `[line=4]A voice reaches me.@
 br
@@ -382,14 +440,24 @@ br
 `[line=4]Quick footsteps hurry away.
 \
 bg "bg/bg_40a",crossfade,800
-`“Ah—”@
+`“Ah[line=4]”@
 `I wake from the dark dream.@
-`“…@My room.”@
-`There can be no doubt: I am in my own room, lying in my own bed, greeting the morning.@ …@I dreamed it again.@ A dream of drinking someone’s blood.@ I know it was a dream, yet it was hideously real.@ My hands still remember tearing flesh, and the raw smell of blood still clings inside my nose—
+`“My room.”@
+`There can be no doubt that I am in my own room.@
+`I am lying in bed, greeting the morning.@
+`I dreamed it again.@
+`A dream of drinking someone’s blood.@
+`I know it was a dream, yet it was hideously real.@
+`My hands still remember tearing flesh, and the raw smell of blood still clings inside my nose[line=3]
 \
-`“What is happening to me?”@
-`I touch my throat.@ The wound where Yumizuka bit me has long since closed.@ I am still an ordinary human being.@ I’ve never wanted to drink anyone’s blood, and sunlight does not repel me.@
-`“Ah—”@
-`No.@ Yesterday, I…@ When I saw Hisui’s throat, what did I think?@
-`[line=3]A white throat.@ From the bottom of my heart, I wanted the red blood that would flow from it—
+`“[line=3]What is happening to me?”@
+`I touch my throat.@
+`The wound where Yumizuka bit me has long since closed.@
+`I am still an ordinary human being.@
+`I have never wanted to drink anyone’s blood, and sunlight does not repel me.@
+`“[line=4]Ah.”@
+`No.@ Yesterday was different.@ I[line=3]
+`When I saw Hisui’s throat, what did I think?@
+`[line=3]A white throat.@
+`From the bottom of my heart, I wanted the red blood that would flow from it[line=4]
 \

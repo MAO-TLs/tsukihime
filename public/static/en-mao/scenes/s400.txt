@@ -1,41 +1,68 @@
 play "*3"
 wavestop
 bg "bg/bg_40b",notrans,0
-`…@I would impose on Kohaku and ask her to make me a light snack.
+`I would impose on Kohaku and ask her to make me a light snack.
 \
 bg #000000,lcartain,400
 bg "bg/bg_42b",lcartain,400
 ld c,"tachi/koha_t06",lshutter,400
-`“Oh, Shiki.@ I didn’t realize you were home.”@ Kohaku stopped sweeping and gave me a small bow.@ “I’m back.@ Sorry to bother you the moment I get home, Kohaku, but…”@
+`“Oh, Master Shiki.@ I didn’t realize you were home.”@
+`Kohaku stopped sweeping and gave me a small bow.@
+`“I’m back.@ Sorry to bother you the moment I get home, Kohaku, but…”@
 ld c,"tachi/koha_t03",crossfade,400
-`“Yes?@ Is there something special you need?”@ “Well, embarrassing as this is…”@ Before I could ask her to make something because I was hungry—
+`“Yes?@ Is there something special you need?”@
+`“Well, embarrassing as this is…”@
+`Before I could ask her to make something because I was hungry.@
 br
 `My stomach unleashed a long growl that echoed across the courtyard.
 \
 ld c,"tachi/koha_t09",crossfade,400
-`“…”@ Apparently dumbfounded, Kohaku stared openly at my face.@ “Urk—”@ I blushed, feeling like some creature utterly devoid of self-control.@ “…@Well, that explains it.@ I haven’t eaten since morning, and I don’t think I can last until dinner.”@ “…”@ Kohaku regarded me in silence, then, as though something had just come back to her, gave a quiet laugh.
+`“[line=6]”@
+`Apparently dumbfounded, Kohaku stared openly at my face.@
+`“[line=5]Urk”@
+`I blushed, feeling like some creature utterly devoid of self-control.@
+`“Well, that explains it.@ I haven’t eaten since morning, and I don’t think I can last until dinner.”@
+`“[line=6]”@
+`Kohaku regarded me in silence, then, as though something had just come back to her, gave a quiet laugh.
 \
 ld c,"tachi/koha_t05",crossfade,400
-`“In that case, I’ll make something light.@ Shiki, is there anything in particular you would like?”@ “Anything in particular?”@ …@Now that she asked, I realized I had only a vague sense of hunger, with no clear image of what I wanted to eat.
+`“In that case, I’ll make something light.@ Master Shiki, is there anything in particular you would like?”@
+`“Anything in particular?”@
+`Now that she asked, I realized I had only a vague sense of hunger, with no clear image of what I wanted to eat.
 \
-`“Hmm…@ Maybe you could make pancakes or something?”@ For no reason I could name, a stack of golden pancakes drizzled with honey appeared in my mind.@
+`“Hmm, could you make pancakes or something?”@
+`For no reason I could name, a stack of golden pancakes drizzled with honey appeared in my mind.@
 ld c,"tachi/koha_t03",crossfade,400
-`“Pancakes…?@ Shiki, I had heard that you disliked sweets.”@ Kohaku tilted her head in surprise.@ “Ah—no, I avoid too much sugar, but I don’t dislike it.@ I ate Japanese sweets fairly often when I lived with the Arimas.”
+`“Pancakes…?@ Master Shiki, I had heard that you disliked sweets.”@
+`Kohaku tilted her head in surprise.@
+`“Ah[line=3]no, I avoid too much sugar, but I don’t dislike it.@ I ate Japanese sweets fairly often when I lived with the Arimas.”
 \
-`“Oh, did you?@ You should have told me sooner!@ I’ve always wondered what to prepare for you at teatime, Shiki, but now I can make the same things for you and Miss Akiha.”@ Kohaku’s voice danced with delight.@ …@But if I received the same thing as Akiha, did that mean those exquisite little strawberry cakes that looked far too beautiful to eat?
+`“Oh, did you?@ You should have told me sooner!@
+`I’ve always wondered what to prepare for you at teatime, Master Shiki, but now I can make the same things for you and Miss Akiha.”@
+`Kohaku’s voice danced with delight.@
+`But if I received the same thing as Akiha, did that mean those exquisite little strawberry cakes that looked far too beautiful to eat?
 \
-`“But why pancakes, Shiki?@ If you asked, I could prepare something much more elaborate.”@ “Mm…@ no particular reason.@ They don’t look like the kind of food you have to be careful around.”@
+`“But why pancakes, Master Shiki?@ If you asked, I could prepare something much more elaborate.”@
+`“No particular reason.@ They don’t look like the kind of food you have to be careful around.”@
 ld c,"tachi/koha_t18",crossfade,400
-`“Ha ha, Shiki, you sound just like Hisui.@
+`“Ha ha, Master Shiki, you sound just like Hisui.@
 ld c,"tachi/koha_t01a",crossfade,400
 `Keep this to yourself, but I think she likes pancakes too.@ Whenever I notice her cooking in the kitchen, that is usually what she’s making.”
 \
-`“Really…?@ That’s unexpected.@ I always imagined Hisui preferring something more complicated.”@ Something so delicate you could not tell where to put the knife.@ “I thought so too.@ When I asked, she said it was because I had told her pancakes were the easiest thing to make.@ But apparently she still hasn’t managed a flavor she considers satisfactory.”@ “…?”@ …@Wasn’t that less a love of pancakes than a determined campaign to master them?
+`“Really?@ That’s unexpected; I always imagined Hisui preferring something more complicated.”@
+`Something so delicate you could not tell where to put the knife.@
+`“I thought so too.@ When I asked, she said it was because I had told her pancakes were the easiest thing to make.@
+`But apparently she still hasn’t managed a flavor she considers satisfactory.”@
+`“…?”@
+`Um.@ Wasn’t that less a love of pancakes than a determined campaign to master them?
 \
 ld c,"tachi/koha_t06",crossfade,400
-`“Oh, forgive me, Shiki.@ I’ll begin at once, so please wait in the sitting room.”@
+`“Oh, forgive me, Master Shiki.@ I’ll begin at once, so please wait in the sitting room.”@
 cl c,lshutter,800
-`Broom in hand, Kohaku hurried toward the back door.@ “—Oh well.”@ At least food was on its way.@ I would have Kohaku brew some tea, eat a few pancakes, then take it easy until dinner—
+`Broom in hand, Kohaku hurried toward the back door.@
+`“[line=5]Oh well.”@
+`At least food was on its way.@
+`I would have Kohaku brew some tea, eat a few pancakes, then take it easy until dinner[line=4]
 \
 bg #000000,lcartain,800
 playstop

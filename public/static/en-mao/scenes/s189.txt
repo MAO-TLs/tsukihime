@@ -80,8 +80,9 @@ ld r,"tachi/ark_t15",crossfade,400
 `“I never meant to kill Shiki.”@
 `“—That carries no credibility whatsoever.@ You know what you just did.@ Nor can you have failed to hear the sound he made when he saw you.”@
 ld r,"tachi/ark_t05c",crossfade,400
-`“—”@
-`“Hate me if you like.@ But those murderous eyes were turned upon him.@ Shall we ask him how that felt?”@
+`“—”@ “Hate me if you like.@
+`But those murderous eyes were turned upon him.@
+`Shall we ask him how that felt?”@
 `For the first time, Ciel glanced my way.
 \
 ld r,"tachi/ark_t10",crossfade,400
@@ -120,7 +121,7 @@ cl c,crossfade,400
 `Arcueid kept her head bowed, looking at neither Ciel nor me.
 \
 ld r,"tachi/ark_t10",crossfade,400
-`“……”@
+`“…”@
 ld l,"tachi/cel_t07b",crossfade,400
 `“You heard him, Arcueid Brunestud.@ Even now, do you still intend to remain at his side?”@
 br
@@ -310,8 +311,7 @@ br
 \
 ld c,"tachi/cel_t07b",crossfade,400
 `“No.@ It is the soul that reincarnates, not merely the personality.@ Once a True Ancestor drinks a human being’s blood, both body and soul are contaminated.@
-`He passes all the information of that soul into his ‘next self,’ so once he awakens, the body also becomes vampiric.@ However—”@
-`“However what?”
+`He passes all the information of that soul into his ‘next self,’ so once he awakens, the body also becomes vampiric.@ However—”@ “However what?”
 \
 `“As you said, that alone would leave him weak.@
 `So he chooses his next reincarnation host while he is still alive.@
@@ -321,7 +321,7 @@ ld c,"tachi/cel_t07b",crossfade,400
 `“The second condition is more important.@ Even among ordinary human beings like us, a few are born with special powers.@
 `Not magecraft—the mystery one can acquire through study—but an innate ability possessed by the body from birth.@ People commonly scorn them as psychics or demon children.”
 \
-`“An innate ability belongs to the body, so naturally it passes through the family bloodline.@ He chooses his new body from a lineage containing such ‘inhuman things.@’Wealth and prestige, with an inhuman power hidden beneath them.@ Those are the conditions he demands of a reincarnation host, Shiki Tohno.”@
+`“An innate ability belongs to the body, so naturally it passes through the family bloodline.@ He chooses his new body from a lineage bearing something ‘inhuman.@’Wealth and prestige, with an inhuman power hidden beneath them.@ Those are the conditions he demands of a reincarnation host, Shiki Tohno.”@
 cl c,crossfade,400
 \
 playstop
@@ -334,7 +334,7 @@ br
 `“…@His name.”@
 ld c,"tachi/cel_t07b",crossfade,400
 `“Pardon?@ Did you say something?”@
-`“His name…!@ Calling him your enemy or him tells me nothing!@ Tell me his name—tell me what he’s called…!”@
+`“His name…!@ Calling him ‘the enemy’ or simply ‘he’ tells me nothing!@ Tell me his name—tell me what he’s called…!”@
 `Anger exploded out of me before I knew it, and I shouted at Ciel.@
 br
 `Ciel showed no alarm.@
@@ -427,7 +427,8 @@ cl c,crossfade,400
 `If I did not run after her now, I felt that I would truly never see her again.@
 ld c,"tachi/cel_t07b",crossfade,400
 `“You intend to follow her, Tohno?”@
-`Ciel’s voice had returned to the one she used while cornering Arcueid—flat and nearly empty of emotion.
+`Ciel’s voice had returned to the one she used while
+`cornering Arcueid—flat and nearly empty of emotion.
 \
 `“—Yeah.@ I understand that you belong to the Church and that Arcueid is your enemy.@
 `But a lot has happened, and right now she and I are partners.@ I have to find her.@ Who knows what she’ll do if I leave her alone?”@
@@ -511,16 +512,31 @@ play "*8"
 `Because she—
 `she said it herself.@ She was afraid to drink blood—
 br
-`“Oh.”@ …@Yes.@ Of course she’s afraid.@ Because she knows that once she starts, she’ll never be able to stop.
+`“Oh.”@ …@Yes.@
+`Of course she’s afraid.@
+`Because she knows that once she starts, she’ll never be able to stop.
 \
 ld c,"tachi/cel_t07b",crossfade,400
-`“……@The one small mercy is that the impulse comes in sudden attacks.@ Each True Ancestor kept a single servant in reserve for those moments when the craving became unbearable.@ That was how the beings called Dead Apostles first came to be—apostles already dead.@ Vampires kept alive as medicine for a True Ancestor’s pain.@ That is the true nature of the vampires infesting this city.”
+`“……@The one small mercy is that the impulse comes in sudden attacks.@
+`Each True Ancestor kept a single servant in reserve for those moments when the craving became unbearable.@
+`That was how the beings called Dead Apostles first came to be—apostles already dead.@
+`Vampires kept alive as medicine for a True Ancestor’s pain.@ That is the true nature of the vampires infesting this city.”
 \
-`“But she has no such servant.@ …@No, until now she never needed one.@ Even among the True Ancestors, she was exceptional; her own will was enough to contain the vampiric impulse.”@ “Then there isn’t a problem after all.@ Once her wounds heal—once she gets her old strength back—she’ll be able to control it again, won’t she…?”
+`“But she has no such servant.@ …@No, until now she never needed one.@
+`Even among the True Ancestors, she was exceptional; her own will was enough to contain the vampiric impulse.”@
+`“Then there isn’t a problem after all.@ Once her wounds heal—once she gets her old strength back—she’ll be able to control it again, won’t she…?”
 \
-`“……@No.@ The end will come even then, Tohno.@ The vampiric impulse is endless.@ It never disappears.@ Every craving they suppress leaves sediment behind, until at last the vessel overflows.@ The longer they live, the greater the impulse inside them grows.@ And when their own power can no longer contain it—when the impulse becomes stronger than they are—their kin put them to death.@ That is the only lifespan possessed by beings who do not age.”
+`“……@No.@ The end will come even then, Tohno.@
+`The vampiric impulse is endless.@ It never disappears.@ Every craving they suppress leaves sediment behind, until at last the vessel overflows.@
+`The longer they live, the greater the impulse inside them grows.@
+`And when their own power can no longer contain it—when the impulse becomes stronger than they are—their kin put them to death.@
+`That is the only lifespan possessed by beings who do not age.”
 \
-`“But Arcueid will be all right.@ She’s weak now because of what I did, but give her a few days and she’ll—”@ “……@Perhaps.@ But she was already approaching her limit.@ She may have spent less than a handful of years awake, but that does not change how long she has existed.@ The hunger that has festered inside her for centuries will soon tear its way out.@ Nothing can guarantee that it has not chosen this very moment.@ Arcueid’s life—cannot be saved.”
+`“But Arcueid will be all right.@ She’s weak now because of what I did, but give her a few days and she’ll—”@ “……@Perhaps.@
+`But she was already approaching her limit.@
+`She may have spent less than a handful of years awake, but that does not change how long she has existed.@
+`The hunger that has festered inside her for centuries will soon tear its way out.@ Nothing can guarantee that it has not chosen this very moment.@
+`Arcueid’s life—cannot be saved.”
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_29b",crossfade,400
@@ -529,40 +545,60 @@ br
 br
 `[line=3]Thump.@
 br
-`For the first time, it wasn’t anemia that made the world disappear.@ It was something another person had said.@ The dizziness swallowed everything before my eyes.
+`For the first time, it wasn’t anemia that made the world disappear.@
+`It was something another person had said.@ The dizziness swallowed everything before my eyes.
 \
-`“……”@ So what did that mean?@ Did she know she was already doomed, yet still come all the way here to hunt vampires?@
+`“……”@
+`So what did that mean?@
+`Did she know she was already doomed, yet still come all the way here to hunt vampires?@
 br
-`[line=3]That made no sense.@ No matter how I looked at it, it made no sense at all.
+`[line=3]That made no sense.@
+`No matter how I looked at it, it made no sense at all.
 \
-`“……@Everything you’ve told me is a lie.@ Someone who knew she was finished wouldn’t come here to kill vampires for our sake.”@
+`“……@Everything you’ve told me is a lie.@
+`Someone who knew she was finished wouldn’t come here to kill vampires for our sake.”@
 ld c,"tachi/cel_t07b",crossfade,400
 `“She does not dispose of vampires for our sake.@ She does it because that is her role.”@
 `“Her role—?@ Who decided that?”
 \
-`“The other True Ancestors, I imagine.@ Arcueid was born in the twelfth century, when Dead Apostles and fallen True Ancestors were more numerous than ever.@ The True Ancestors could ignore neither their fallen kin nor the Dead Apostles those kin multiplied without restraint.@ And so they created the purest of their kind, a creature who needed nothing beyond the act of killing, and made her their executioner.@ That creature was Arcueid.@ They say she was like a nuclear missile without a will of its own: once released from the castle, whatever vampire had been designated as her target was certain to be annihilated.”
+`“The other True Ancestors, I imagine.@
+`Arcueid was born in the twelfth century, when Dead Apostles and fallen True Ancestors were more numerous than ever.@
+`The True Ancestors could ignore neither their fallen kin nor the Dead Apostles those kin multiplied without restraint.@
+`And so they created the purest of their kind, a creature who needed nothing beyond the act of killing, and made her their executioner.@
+`That creature was Arcueid.@
+`They say she was like a nuclear missile without a will of its own: once released from the castle, whatever vampire had been designated as her target was certain to be annihilated.”
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_29b",crossfade,400
 br
-`[line=3]Thump.@ The dizziness struck again.@
+`[line=3]Thump.@
+`The dizziness struck again.@
 br
-`…@Don’t talk about her that way.@ She’s a human being—a real person.@ Talking about her as if she were some kind of weapon makes me furious.
+`…@Don’t talk about her that way.@
+`She’s a human being—a real person.@ Talking about her as if she were some kind of weapon makes me furious.
 \
-`“No.@ She is a weapon.@ That was the only reason her existence was ever permitted.@ …@Which is why she must have been quite beside herself earlier.@ I had never seen her talk so much.@ Ordinarily, she never speaks at all.”
-\
-bg #ffffff,crossfade,400
-bg "bg/bg_29b",crossfade,400
-br
-br
-`[line=5]What?@ Wait.@ She never speaks?@ That doesn’t make any sense.
-\
-`“She never does anything unnecessary.@ That is how she has lived for centuries, ever since she was born in that old castle in the mountains—unchanging, forever.”
+`“No.@ She is a weapon.@ That was the only reason her existence was ever permitted.@
+`…@Which is why she must have been quite beside herself earlier.@
+`I had never seen her talk so much.@ Ordinarily, she never speaks at all.”
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_29b",crossfade,400
 br
-`[line=3]Thump.@ My heartbeat, and a plunge into darkness.@ …@What was happening?@ Places I had never known, memories I could never have seen, reeled across my vision.
+br
+`[line=5]What?@
+`Wait.@ She never speaks?@
+`That doesn’t make any sense.
+\
+`“She never does anything unnecessary.@
+`That is how she has lived for centuries, ever since she was born in that old castle in the mountains—unchanging, forever.”
+\
+bg #ffffff,crossfade,400
+bg "bg/bg_29b",crossfade,400
+br
+`[line=3]Thump.@
+`My heartbeat, and a plunge into darkness.@
+`…@What was happening?@
+`Places I had never known, memories I could never have seen, reeled across my vision.
 \
 bg #ffffff,crossfade,800
 bg "event/ark_e06b",crossfade,400
@@ -571,27 +607,13 @@ br
 br
 br
 br
-`A vast castle courtyard.@ An empty castle whose only ornament was a plain field of grass.@ Alone in it, the girl in white gazed absently up at the sky.
+`A vast castle courtyard.@
+`An empty castle whose only ornament was a plain field of grass.@
+`Alone in it, the girl in white gazed absently up at the sky.
 \
-`“She was allowed neither needless knowledge nor any freedom beyond her assigned purpose.@ Only when a target had been selected was she released into the world.@ She would be taught whatever was required for that particular enemy, so that the execution could not fail.”
-\
-br
-br
-br
-br
-br
-br
-`No one else was there.@ No one to speak to.@ No one whose face she might see.
-\
-`“After killing the appointed vampire and returning to the castle, every scrap of knowledge she had been given was washed away, and she was put back to sleep.@ She knew nothing—nothing except how to kill vampires.”
-\
-br
-br
-br
-br
-`Nothing.@ The pleasure of talking to someone.@ The precious little ritual of meeting another person’s eyes and saying good morning.@ Every such thing had been stripped from her existence.
-\
-`“Her power was great enough to destroy even fallen True Ancestors.@ …@Ironically, that very power made the others shun her.@ They praised her as a princess, but no one dared approach.@ They gave her a castle, yet her entire world was a dim underground chamber.@ There was no one, anywhere, who might teach her what it meant to feel.”
+`“She was allowed neither needless knowledge nor any freedom beyond her assigned purpose.@
+`Only when a target had been selected was she released into the world.@
+`She would be taught whatever was required for that particular enemy, so that the execution could not fail.”
 \
 br
 br
@@ -599,9 +621,40 @@ br
 br
 br
 br
-`A way of living so absurd that merely being alive seemed pitiful.
+`No one else was there.@
+`No one to speak to.@
+`No one whose face she might see.
 \
-`“I’m told she had neither words of her own nor a moment she could call her own.@ The True Ancestors must have treated her the way one maintains a weapon.@ Weapons have no need for superfluous functions.@ There is no point teaching one to bake bread or wash clothes.@ If you were going to add anything at all, you would give it a function more appropriate to a weapon, wouldn’t you?”
+`“After killing the appointed vampire and returning to the castle, every scrap of knowledge she had been given was washed away, and she was put back to sleep.@
+`She knew nothing—nothing except how to kill vampires.”
+\
+br
+br
+br
+br
+`Nothing.@
+`The pleasure of talking to someone.@
+`The precious little ritual of meeting another person’s eyes and saying good morning.@
+`Every such thing had been stripped from her existence.
+\
+`“Her power was great enough to destroy even fallen True Ancestors.@ …@Ironically, that very power made the others shun her.@
+`They praised her as a princess, but no one dared approach.@
+`They gave her a castle, yet her entire world was a dim underground chamber.@
+`There was no one, anywhere, who might teach her what it meant to feel.”
+\
+br
+br
+br
+br
+br
+br
+`A way of living so absurd that
+`merely being alive
+`seemed pitiful.
+\
+`“I’m told she had neither words of her own nor a moment she could call her own.@ The True Ancestors must have treated her the way one maintains a weapon.@
+`Weapons have no need for superfluous functions.@ There is no point teaching one to bake bread or wash clothes.@
+`If you were going to add anything at all, you would give it a function more appropriate to a weapon, wouldn’t you?”
 \
 br
 br
@@ -613,18 +666,22 @@ br
 br
 br
 br
-`She had said it almost like a song.@ Now I understood the emptiness in her eyes when she told me she had always decided everything alone.@
+`She had said it almost like a song.@
+`Now I understood the emptiness in her eyes when she told me she had always decided everything alone.@
 br
-`Was that why she had needed no one else?@ No—had she simply never known there could be anyone else?
+`Was that why she had needed no one else?@
+`No—had she simply never known there could be anyone else?
 \
-`“The True Ancestors wanted nothing from her but an efficient capacity to kill.@ So she knows nothing—not grand questions like the meaning of life, but the simple, ordinary pleasure of being alive.”
+`“The True Ancestors wanted only one thing from her: the ability to kill efficiently.@
+`So she knows nothing.@ Not grand questions like the meaning of life—she cannot even know the simple, ordinary pleasure of being alive.”
 \
 br
 br
 br
 br
 br
-`She was always so cheerful.@ The smallest thing could make her smile with delight.@
+`She was always so cheerful.@
+`The smallest thing could make her smile with delight.@
 br
 `I had assumed that was simply the way she had always been.
 \
@@ -633,23 +690,30 @@ br
 br
 br
 br
-`…@What a cruel mistake.@ Those ordinary little things truly delighted her—more deeply, perhaps, than she herself could ever understand.
+`…@What a cruel mistake.@
+`Those ordinary little things truly delighted her—more deeply,
+`perhaps, than she herself could ever understand.
 \
 br
 br
 br
 br
 br
-`[line=3]Because it’s so much fun.@ I never knew that simply being alive could make me this happy.
+`[line=3]Because it’s so much fun.@
+`I never knew that simply being alive could make me this happy.
 \
 br
 br
 br
 br
 br
-`The classroom at sunset.@ Her quiet voice, confiding in me as though her own incomprehensible happiness frightened her.
+`The classroom at sunset.@
+`Her quiet voice, confiding in me as though her own incomprehensible happiness frightened her.
 \
-`“Arcueid has existed for an age, yet understands what it means to live far less than we do.@ The total time she was allowed to spend awake and acting for herself is astonishingly brief.@ Almost her entire life was sleep—and I imagine it was a sleep as black as darkness.”
+`“Arcueid has existed for an age, yet understands what it means to live far less than we do.@
+`The total time she was allowed to spend awake
+`and acting for herself is astonishingly brief.@
+`Almost her entire life was sleep—and I imagine it was a sleep as black as darkness.”
 \
 br
 br
@@ -660,26 +724,19 @@ br
 `[line=3]Really?@ I have fun just talking to you.@
 !w1000
 \
-`“Once she had executed every fallen True Ancestor, she ceased leaving the castle.@ Her original purpose had been fulfilled, so the others attempted to educate her properly.@ But freedom never came.@ Because of one truly trivial mistake, she killed every True Ancestor remaining in the castle.”
+`“Once she had executed every fallen True Ancestor, she ceased leaving the castle.@ Her original purpose had been fulfilled, so the others attempted to educate her properly.@
+`But freedom never came.@ Because of one truly trivial mistake, she killed every True Ancestor remaining in the castle.”
 \
 br
 br
 br
 br
 br
-`A creature taught nothing but the killing of vampires may simply have obeyed her orders with perfect diligence and carried the work through to its end.@ And when she was left alone, in the end, she…
+`A creature taught nothing but the killing of vampires may simply have obeyed her orders with perfect diligence and carried the work through to its end.@
+`And when she was left alone, in the end, she…
 \
-`“After executing every last True Ancestor, she shut herself inside the castle of her own accord.@ In the heart of that empty stronghold, a thousand chains from its walls bound her in place.@ Whenever the vampire Roa reincarnated, she would wake and act for only a little while.”
-\
-br
-br
-br
-br
-br
-br
-`Within that ordained, unchanging world, she never once spoke a single word.
-\
-`“That is why she is an executioner to her very core.@ The True Ancestors who bound her are gone, yet she still wanders the world with no purpose but killing vampires.@ Perhaps she simply has no other pleasure.”
+`“After executing every last True Ancestor, she shut herself inside the castle of her own accord.@ In the heart of that empty stronghold, a thousand chains from its walls bound her in place.@
+`Whenever the vampire Roa reincarnated, she would wake and act for only a little while.”
 \
 br
 br
@@ -687,22 +744,38 @@ br
 br
 br
 br
-`That was a lie.@ Killing vampires wasn’t what had made her happy.
+`Within that ordained, unchanging world,
+`she never once spoke a single word.
+\
+`“That is why she is an executioner to her very core.@
+`The True Ancestors who bound her are gone, yet she still wanders the world with no purpose but killing vampires.@
+`Perhaps she simply has no other pleasure.”
+\
+br
+br
+br
+br
+br
+br
+`That was a lie.@
+`Killing vampires wasn’t what had made her happy.
 \
 bg #ffffff,crossfade,800
-`“……”@
+`“…”@
 br
 `I hadn’t seen anything.@
 br
 `“……@Lie.”@
 br
-`Her words.@ The joy in her face.@ If only I had looked a little more closely—I would have understood.
+`Her words.@ The joy in her face.@
+`If only I had looked a little more closely—I would have understood.
 \
 `“……@A lie.”@
 br
 `I had never noticed how utterly alone she had always been.@
 br
-`All the things we take for granted.@ Losing track of time while trading worthless jokes with a friend who understands you.@
+`All the things we take for granted.@
+`Losing track of time while trading worthless jokes with a friend who understands you.@
 br
 `The unremarkable peace of falling onto your bed at the end of the day and doing nothing for a while.
 \
@@ -717,11 +790,13 @@ br
 br
 `And the most wretched part was this—she herself had never felt even the faintest pity for how she had lived.@
 br
-`No.@ There could not be such monstrous, farcical loneliness in this world.
+`No one should have to endure loneliness so cruel—so absurd.
 \
 `“It’s all a lie.”@
 br
-`…@I didn’t care about the complicated details anymore.@ If only I could give her enough of the ordinary world that she would stop mistaking it for happiness—until she could take it for granted, certain it would always be there—how wonderful that would…
+`…@I didn’t care about the complicated details anymore.@
+`If only I could give her enough that she no longer had to call ordinary things happiness—so she could take them for granted,
+`certain they would always be there—how wonderful that would be…
 \
 !w2000
 bg "bg/bg_29b",crossfade,1500
@@ -732,13 +807,16 @@ ld c,"tachi/cel_t07b",crossfade,400
 `“No—sorry.@ I don’t remember.@ Sometimes it sounded like you were speaking, and sometimes it sounded like someone else.”@
 `Ciel gave a doubtful sigh and nodded.
 \
-`“Well, what I’m saying is that she—”@ “That’s enough.@ I don’t care what Arcueid has done or what she is.@ I can’t leave her alone any longer, so I’m going.”@
+`“Well, what I’m saying is that she—”@ “That’s enough.@
+`I don’t care what Arcueid has done or what she is.@
+`I can’t leave her alone any longer, so I’m going.”@
 cl c,crossfade,400
 `I turned my back on her and started toward the city at night.
 \
 `“Tohno.@ Once a True Ancestor loses control of the vampiric impulse, there is no recovery.@ If she appears before you again, it will be because she has come to drink your blood.”@
 br
-`I was sure that, for her, those words were the truth.@ But her truth was not mine.
+`I was sure that, for her, those words were the truth.@
+`But her truth was not mine.
 \
 `“That’s not true.@ Arcueid still hasn’t drunk anyone’s blood.”@
 `“If I hadn’t stopped her, she would have drunk yours.”@
@@ -746,18 +824,29 @@ br
 \
 br
 br
-`Yes.@ I knew it.@ Arcueid’s fangs had stopped.
+`Yes.@ I knew it.@
+`Arcueid’s fangs had stopped.
 \
 `“……@So you mean to stand by her no matter what, Shiki?”@
 `“Yeah.@ Sorry, but I am.”@
-`She made no reply.@ I thought I heard only a sigh.
+`She made no reply.@
+`I thought I heard only a sigh.
 \
-`“We may find ourselves fighting one another.”@ “Maybe.@ But I’m not going to apologize.”@ “……”@ No answer came.@ Her presence simply receded, followed by the sound of departing footsteps.@ Without looking back, I ran into the night.
+`“We may find ourselves fighting one another.”@
+`“Maybe.@ But I’m not going to apologize.”@ “……”@
+`No answer came.@
+`Her presence simply receded, followed by the sound of departing footsteps.@
+`Without looking back, I ran into the night.
 \
 bg #000000,lcartain,1500
 playstop
 bg "bg/bg_25b",lcartain,1500
-`[line=3]The main avenue was deserted.@ Not only was Arcueid nowhere to be seen, there wasn’t another pedestrian in sight.@ “Damn…”@ It was exactly like last night.@ I had no way to find her.@ Even now, when I wanted so desperately to see her, I had no way at all.@
+`[line=3]The main avenue was deserted.@
+`Not only was Arcueid nowhere to be seen, there wasn’t another pedestrian in sight.@
+`“Damn…”@
+`It was exactly like last night.@
+`I had no way to find her.@
+`Even now, when I wanted so desperately to see her, I had no way at all.@
 br
 `[line=3]She.@
 `She had been suffering so badly, and there was nothing, nothing I could do to help her—
@@ -772,7 +861,16 @@ bg "bg/bg_12b",lcartain,1500
 bg "bg/bg_25b",lcartain,1500
 bg #000000,crossfade,1500
 bg "bg/bg_29b",crossfade,800
-`“Hah…@ hah…@ hah…”@ I had run all over the city without finding Arcueid.@ My body was spent, my breathing hopelessly ragged.@ “Hah…@ hah…@ hah…”@ The wound in my chest throbbed with every tortured beat of my heart.@ Never had I hated this broken-down body more.
+`“Hah…@ hah…@ hah…”@
+`I had run all over the city without finding Arcueid.@
+`My body was spent, my breathing hopelessly ragged.@
+`“Hah…@ hah…@ hah…”@
+`The wound in my chest throbbed with every tortured beat of my heart.@
+`Never had I hated this broken-down body more.
 \
-`“Hah…@ hah…@ ha…@ ah…”@ …@I couldn’t find her.@ Running blindly through the city would never lead me to her.@ “…@Hah…@ ah…”@ If there was any place where I might find her, it would be—
+`“Hah…@ hah…@ ha…@ ah…”@
+`…@I couldn’t find her.@
+`Running blindly through the city would never lead me to her.@
+`“…@Hah…@ ah…”@
+`If there was any place where I might find her, it would be—
 \

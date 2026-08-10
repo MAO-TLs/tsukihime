@@ -2,50 +2,58 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_33a",notrans,0
-`[line=3]She’s right.@ Going out with a headache like this would only cause trouble for Ciel.@
+`[line=3]Going out with a headache like this would only cause trouble for Ciel.@
 br
-`“…@You're right…@ It hasn't even been a full day since last night.@ I pushed myself too hard.”@
+`“Right.@ It hasn’t even been a full day since last night, and I pushed myself too hard.”@
 ld l,"tachi/koha_t03",crossfade,400
-`“Then you’ll rest?@ Shiki, can you walk by yourself?”@
+`“Then you’ll rest?@ Master Shiki, can you walk by yourself?”@
 bg #9c0120,crossfade,400
 bg "bg/bg_33a",crossfade,400
-`“Ah…@ no.”@ It doesn't seem possible.
+`“Ah—no.”@
+`It doesn’t seem possible.
 \
 ld l,"tachi/koha_t02",crossfade,400
-`“I thought not.@ Hisui!@ Help Shiki back to his room.”@
+`“I thought not.@ Hisui, help Master Shiki back to his room.”@
 ld r,"tachi/his_t07",crossfade,400
 `“What—Kohaku, but…”@
 ld l,"tachi/koha_t04",crossfade,400
-`“Hisui!@ Shiki is ill.@ Would you abandon someone who needs help?”@ “Ah—”@ “I’ll allow it just for today.@ Take proper care of him and help him back to his room.”
+`“Hisui, Master Shiki is ill!@ Would you abandon someone who needs help?”@
+`“Ah—”@
+`“I’ll allow it just for today.@ Take proper care of him and help him back to his room.”
 \
 ld r,"tachi/his_t21",crossfade,400
-`“…@Yes.@ I'm sorry.@ I was being selfish.”@
+`“Yes.@ I’m sorry I was being selfish.”@
 ld l,"tachi/koha_t01a",crossfade,400
 `“As long as you understand.@ Did you find the medicine?”@
 ld r,"tachi/his_t23",crossfade,400
-`“…@There are so many things in your medicine chest.@ Is this the fever medicine?”
+`“There are so many things in your medicine chest.@ Is this the fever medicine?”
 \
 ld l,"tachi/koha_t05",crossfade,400
-`“Ahaha, that’s for something rather different.@ Shiki is still perfectly lucid, so he doesn’t need a tranquilizer yet.”@
+`“Ahaha, that’s for something rather different.@ Master Shiki is still perfectly lucid, so he doesn’t need a tranquilizer yet.”@
 ld l,"tachi/koha_t02",crossfade,400
-`“His fever seems to be caused by exhaustion, so I’ll prepare the medicine myself.@ Hisui, I’ll be right back.@ Take care of everything here.”@
+`“Master Shiki’s fever seems to be caused by exhaustion, so I’ll prepare the medicine myself.@ Hisui, I’ll be right back, so take care of everything here.”@
 cl l,lshutter,800
 `Kohaku hurries toward the mansion’s west wing, where her room is located.
 \
 ld r,"tachi/his_t20",crossfade,400
-`“Then I will take you to your room, Master Shiki.”@ After asking permission, Hisui slips beneath my arm and lends me her shoulder.@
+`“Then I will take you to your room, Master Shiki.”@
+`After asking permission, Hisui slips beneath my arm and lends me her shoulder.@
 cl r,crossfade,400
 br
-`With Hisui’s help, I climb the stairs.@ Along the way, the fierce embarrassment on her face beside me sears itself into my memory far more deeply than the headache pounding again and again through my skull.
+`With Hisui’s help, I climb the stairs.@
+`Along the way, the headache pounds again and again.@ Yet the fierce embarrassment on her face beside me sears itself into my memory far more deeply.
 \
 bg #000000,crossfade,800
 !w2000
 play "*1"
 bg "bg/bg_40c",crossfade,800
 br
-`[line=3]In the end, I lie down in bed, take the medicine Kohaku prepared, and ask someone to carry a message to Ciel as she waits outside the movie theater.@
+`[line=3]In the end.@
+`I lie down in bed, take the medicine Kohaku prepared, and ask someone to carry a message to Ciel as she waits outside the movie theater.@
 br
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`“…@Ngh.”@ The headache does not stop.@ On the other hand, for whatever comfort that offers, my fever has vanished completely.
+`“Ngh…”@
+`The headache does not stop.@
+`On the other hand, for whatever comfort that offers, my fever has vanished completely.
 \

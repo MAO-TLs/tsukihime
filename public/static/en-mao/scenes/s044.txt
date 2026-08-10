@@ -1,49 +1,92 @@
 bg "bg/bg_40c",notrans,0
 playstop
-`“Nngh—”@ I rolled the stiffness out of the shoulders dinner had locked solid, stretched as hard as I could, and fell backward onto the bed.@ “Unbelievable.@ Dinner alone was enough to wear me out.”@ Not because the knives and forks were heavy, of course.@ It was Akiha’s merciless stare that did it.
+`“Nngh[line=5]”@
+`I rolled the stiffness out of the shoulders dinner had locked solid.@
+`I stretched as hard as I could and fell backward onto the bed.@
+`“Unbelievable.@ Dinner alone was enough to wear me out.”@
+`Not because the knives and forks were heavy, of course—it was Akiha’s merciless stare.
 \
 wave se_04
-`“Master Shiki, are you there?”@ Hisui’s voice came through the door with a knock.@ “I’m here.@ Come on in.”@ “Thank you.@ Excuse me, then.”@ Hisui entered with a bow.
+`“Master Shiki, are you there?”@
+`Hisui’s voice came through the door with a knock.@
+`“I’m here.@ Come on in.”@
+`“Yes—excuse me.”@
+`Hisui entered with a bow.
 \
 ld c,"tachi/his_t01",crossfade,400
 play "*1"
-`“I have come to make the bed.@ I’m afraid it will not be much to look at, so would you mind waiting in the sitting room?”@ “There’s nothing unsightly about it.@ I’ll stay quietly out of your way in the corner, so just pretend I’m not here.”@ I sprang off the bed and retreated to the edge of the room.@ “……”@ Hisui looked as though she wanted to say something, but in the end she silently set about her work.
+`“I have come to make the bed.@ I’m afraid it will not be much to look at, so would you mind waiting in the sitting room?”@
+`“There’s nothing unsightly about it.@ I’ll stay quietly out of your way in the corner, so just pretend I’m not here.”@
+`I sprang off the bed and retreated to the edge of the room.@
+`“……”@
+`Hisui looked as though she wanted to say something, but in the end she silently set about her work.
 \
-`“Hisui.”@ “Yes.@ What is it, Master Shiki?”@ “You can keep making the bed while we talk.@ You don’t have to stand at attention every time I say your name.”@ “……”@ Hisui did not answer.@ Her training as a servant seemed almost frighteningly thorough.
+`“[line=3]Hisui.”@
+`“Yes.@ What is it, Master Shiki?”@
+`“You can keep making the bed while we talk.@ You don’t have to stand at attention every time I say your name.”@
+`“……”@
+`Hisui did not answer.@
+`Her training as a servant seemed almost frighteningly thorough.
 \
-`“Please, talk while you work.@ Otherwise I start feeling guilty for getting in your way.”@ “If that is Master Shiki’s wish, then please excuse my discourtesy.”@
+`“Please, talk while you work.@ Otherwise I start feeling guilty for getting in your way.”@
+`“[line=3]If that is Master Shiki’s wish, then please excuse my discourtesy.”@
 cl c,lshutter,400
 `Hisui calmly returned to making the bed.
 \
-`“Um…@ is it true the curfew here is seven?”@
+`“Is it true the curfew here is seven?”@
 bg "event/his_e08",lshutter,800
-`“Wh—oh, yes.@ To be precise, the front gate is locked at seven, and every entrance to the house at eight.@ The rules also require you to refrain from moving about the house after ten.”
+`“Wh[line=3]oh, yes.@
+`To be precise, the main gate is locked at seven and every entrance to the estate at eight.@
+`After ten, the rules require everyone to refrain from moving about the estate.”
 \
-`“We’re not even allowed to walk around inside?@ …@I’m not complaining, but isn’t that a little extreme?@ Akiha and I aren’t children anymore.”@ “……@Yes.@ Nevertheless, Master Shiki, it is a rule, and I must ask you to observe it.@ Surely you know how dangerous the nights have become of late?”@
+`“We’re not even allowed to walk around inside?@ I’m not complaining, but isn’t that a little extreme?@ Akiha and I aren’t children anymore.”@
+`“Yes.@ But it is a rule, Master Shiki, and I must ask you to observe it.@ Surely Master Shiki knows how dangerous the nights have become?”@
 br
-`……@Oh.@ She meant that vampire panic Arihiko had mentioned.@ With a string of murders taking place in the city, I supposed there was no such thing as being too careful, but still…
+`Oh—that vampire panic Arihiko had mentioned.@
+`With a string of murders taking place in the city, I supposed there was no such thing as being too careful, but still…
 \
 bg "bg/bg_40c",lshutter,800
 ld c,"tachi/his_t01",crossfade,400
-`“Do you have any other questions?”@ Hisui finished spreading the sheet and turned neatly to face me.@ “Um, let’s see…”@ There was plenty I wanted to ask, but I knew absolutely nothing about Hisui or Kohaku themselves.
+`“Do you have any other questions?”@
+`Hisui finished spreading the sheet and turned neatly to face me.@
+`“Um, let’s see[line=4]”@
+`There was plenty I wanted to ask, but I knew absolutely nothing about Hisui or Kohaku themselves.
 \
-`“This doesn’t have much to do with that, but may I ask?”@ “Certainly.”@ “I’d like to know what you and Kohaku actually do here.”@ “I am assigned personally to you, while my sister Kohaku attends Miss Akiha.@ When neither of you is at home, we are entrusted with the upkeep of the house.@ Is there some problem?”@ “……@So ‘attends’ really does mean what I thought.”
+`“There is one more thing—it is not particularly relevant, but may I ask?”@
+`“Of course.”@
+`“What exactly do you and Kohaku do here?”@
+`“I am assigned to you, Master Shiki, while my sister Kohaku attends Miss Akiha.@
+`When neither of you is home, we are entrusted with managing the estate; is something wrong?”@
+`“So attending her really does mean exactly that—”
 \
-`My shoulders sagged.@ Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@ I had no desire—at least not yet—to be waited on by a girl about my own age.
+`My shoulders sagged.@
+`Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@
+`I had no desire—at least not yet—to be waited on by a girl about my own age.
 \
-`“……@If you’re assigned to me, does that make you my personal servant?”@ “Yes.@ You may ask anything of me.”@ “……@All right, I understand.@ From the way Akiha talked, she’d never let me dismiss you, so I’ll accept your help—but…”@ “Do you have some special request?”@ “Nothing special.@ Could you stop calling me ‘Master Shiki’?@ Honestly, it gives me chills every time I hear it.”
+`“…@If you’re assigned to Master Shiki, does that make you
+`my personal servant?”@ “Yes.@
+`Ask anything of me.”@ “All right, I understand.@ From the way Akiha spoke, she would never let me dismiss you, so
+`I’ll accept your help, but[line=3]”@
+`“Do you have some special request?”@ “Nothing special.@ Just stop calling me Master Shiki; honestly, it sends a chill down my spine.”
 \
-`“But you are my master, Master Shiki.”@ “That’s exactly what I don’t like.@ Until yesterday I was living a perfectly ordinary life.@ The last thing I want now is a girl my age treating me like some lord of the manor.”@ “I see,”@ Hisui replied without interest.
+`“But you are my master, Master Shiki.”@
+`“That’s exactly what I don’t like.@ Until yesterday I was living a perfectly ordinary life.@ The last thing I want now is a girl my age treating me like some lord of the manor.”@
+`Hisui gave a listless acknowledgment.
 \
-`“Just call me Shiki.@ I’ll call you Hisui, and we can forget all the stiff formalities.@ Let’s make things easy on each other.”@ Hisui’s face remained blank, but her brows drooped slightly, as if I had placed her in a difficult position.@
+`“Just call me Shiki.@ I’ll call you Hisui in return.@ And let’s drop the stiff formalities.@ We can be more relaxed with each other.”@
+`Hisui’s face remained blank, but her brows drooped slightly, as if I had put her in a difficult position.@
 ld c,"tachi/his_t23",crossfade,400
-`“But you are my employer.”@ “I’m not the one who hired you.@ Besides, you do all the things I can’t, so if anything, you’re the important one.”@ “I see,”@ Hisui said again in the same listless tone.@ Apparently this was not something I could talk her out of overnight.
+`“But you are my employer.”@
+`“I’m not the one who hired you.@ Besides, you do all the things I can’t, so if anything, you’re the important one.”@
+`Hisui again gave the same listless acknowledgment.@
+`Apparently this was not something I could talk her out of overnight.
 \
-`“Anyway, that’s how I feel, so please don’t be so formal with me.@ I’d appreciate it if you told your sister the same thing.”@
+`“[line=3]Anyway, that’s how I feel, so please don’t be so formal with me.@ I’d appreciate it if you told your sister the same thing.”@
 ld c,"tachi/his_t16",crossfade,400
-`“Yes.@ If that is what Master Shiki wishes.”@ Hisui bowed, her face utterly blank.@
+`“Yes.@ If that is what Master Shiki wishes.”@
+`Hisui bowed, her face utterly blank.@
 br
-`She had missed the point completely.@ It was almost impressive.@
+`She had missed the point so completely it was almost impressive.@
 br
 `“I shall take my leave, then.@ Please retire for the night.”@
 cl c,lshutter,400
@@ -52,7 +95,8 @@ cl c,lshutter,400
 br
 `[line=4]And then I remembered one last question.@
 br
-`“Oh, wait a second.”@ I hurried to the door and put a hand on Hisui’s shoulder as she was leaving.@
+`“Oh, wait a second.”@
+`I hurried to the door and put a hand on Hisui’s shoulder as she was leaving.@
 bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_40c",notrans,0
@@ -60,42 +104,71 @@ bg "bg/bg_40c",notrans,0
 \
 `The slap cracked through the room, and Hisui sprang back as though fleeing from me.@
 ld c,"tachi/his_t10",lshutter,400
-`“What—”@ It happened so suddenly that no other word would come.@ Hisui’s face was still expressionless, but she was unmistakably glaring at me with the ferocity one reserves for a hated enemy—
+`“What[line=4]”@
+`It happened so suddenly that no other word would come.@
+`Hisui’s face remained expressionless, but she was unmistakably glaring at me with the ferocity one reserves for a hated enemy[line=4]
 \
-`“Um…@ did I do something wrong?”@
+`“Um[line=3]did I do something wrong?”@
 ld c,"tachi/his_t28",crossfade,400
 `“Ah……”@
 ld c,"tachi/his_t26",crossfade,400
-`“……@I am terribly sorry…”@ Tension threaded Hisui’s voice.@ “……@I am not accustomed to being touched.@ Please forgive me.”@ Her shoulders were trembling faintly.@ Somehow, I felt as though I had done something truly awful.
+`“I am terribly sorry…”@
+`Tension threaded Hisui’s voice.@
+`“I am not accustomed to being touched.@ Please forgive me.”@
+`Her shoulders trembled faintly.@
+`Somehow, I felt as though I had done something truly awful.
 \
-`“Oh—yeah.@ I’m sorry.”@ The apology came out before I knew it.@ I couldn’t have explained why.@ She simply looked so pitiful that I found myself bowing to her.@
+`“Oh—yes, sorry.”@
+`The apology came out before I knew it.@
+`I could not have explained why.@ She simply looked so pitiful that I found myself bowing to her.@
 ld c,"tachi/his_t04",crossfade,400
-`“……”@ Hisui said nothing.@ Still, I thought her gaze softened a little.
+`“[line=6]”@
+`Hisui said nothing.@
+`Still, I thought her gaze softened a little.
 \
 ld c,"tachi/his_t23",crossfade,400
-`“You have no reason to apologize, Master Shiki.@ The fault was mine.”@ “Well, I suppose so, but…@ I don’t know.@ I just felt like I should.”@ I scratched my head.@
+`“[line=3]You have no reason to apologize, Master Shiki.@ The fault was mine.”@
+`“I suppose you’re right, but somehow—”@ I scratched my head.@
 ld c,"tachi/his_t01",crossfade,400
-`Hisui studied my face, then lowered her eyes for a fleeting moment.@ “Um…@ what did you need, Master Shiki?”@ Oh, right.@ I had stopped her because there was something I wanted to ask.
+`Hisui studied my face, then lowered her eyes for a fleeting moment.@
+`“What did you need, Master Shiki?”@
+`Oh, right.@
+`I had stopped her because there was something I wanted to ask.
 \
-`“I was wondering about Akiha.@ Didn’t she attend a boarding school?”@ “Master Shiki, that was only through middle school.@ Beginning this year, Miss Akiha has been granted special permission to commute from home.”@ “……@So she goes to school from this house?”@ “Yes.@ However, it is rare for her to return as early as she did today.@ She has lessons until dinnertime, so she ordinarily arrives just before seven.”
+`“I was wondering about Akiha.@ Didn’t she attend a boarding school?”@
+`“Master Shiki, that was only through middle school.@ Beginning this year, Miss Akiha has been granted special permission to commute from home.”@
+`“So she commutes from this house?”@
+`“Yes.@ However, it is rare for her to return as early as she did today.@ Miss Akiha has lessons until dinnertime, so she ordinarily arrives just before seven.”
 \
-`“Lessons?@ What kind?”@ “As today is Thursday, she had violin practice.”@ “……@What?”@ “She returns before dinner on weekdays.@ If you wish to speak with her, please ask my sister to arrange it after the meal.”@
+`“Lessons[line=3]what kind?”@
+`“Today was Thursday, so she had violin practice.”@
+`“[line=4]What—”@
+`“She returns before dinner on weekdays, so if you wish to speak with Miss Akiha, please ask my sister after the meal.”@
 cl c,lshutter,400
-`“Good night, then.”@ Hisui bowed and left the room.
+`With that, Hisui bowed and left the room.
 \
-`“Violin lessons.”@ What was that about?@ It wasn’t as though she were some pampered young lady, so why bother with something so—
+`“Violin lessons.”@
+`What was that about?@
+`It wasn’t as though she were some pampered young lady, so why bother with something so[line=3]
 br
-`“……@Oh.@ Right.@ She is a pampered young lady.”@
+`“Oh—right; she is a pampered young lady.”@
 br
-`Of course.@ Shiki Tohno’s little sister was Akiha Tohno, a young lady born and bred.
+`Right—come to think of it, Shiki Tohno’s little sister was Akiha Tohno, a young lady born and bred.
 \
-`In my memories, Akiha was my quiet little sister, one year younger, always trailing behind me with anxious eyes.@ As a child she had been frail and timid, too shy even to say what she wanted, forever frightened that her father, Makihisa Tohno, might scold her.@
+`In my memories, Akiha was my quiet little sister, one year younger, always trailing behind me with anxious eyes.@
+`As a child she had been frail and timid, too shy even to say what she wanted, forever frightened that her father, Makihisa Tohno, might scold her.@
 br
-`“……@Of course.@ Eight years is enough to change anyone completely.”@ Just as those years had made me into the Shiki Tohno I was now, they must have made Akiha into the Akiha Tohno she was today.
+`“[line=3]Of course.@ Eight years is enough to change anyone completely.”@
+`Just as those eight years had made me into Shiki Tohno,
+`they must have made Akiha into Akiha Tohno as well.
 \
-`[line=3]Eight years is a long time.@ Half my life so far.@ I had been absent from this house during the years that mattered most—the years when a child struggled to become an adult.@
+`[line=3]Eight years is a long time.@
+`Half my life so far.@
+`I had been absent from this house during the years that mattered most—the years when a child struggled to become an adult.@
 br
-`“……@I’m sorry, Akiha.”@ If only I could have been there beside her through those eight years.@ The thought brought the apology unbidden to my lips.
+`“I’m sorry, Akiha.”@
+`If only I could have been there beside her through those eight years.@
+`The thought brought the apology unbidden to my lips.
 \
 bg #000000,crossfade,800
 playstop

@@ -4,133 +4,237 @@ playstop
 wavestop
 !w2000
 bg "bg/bg_23a",lcartain,800
-`I walk down from the mansion on the hill toward school.@ Nothing much has changed in my daily life, and the morning is wrapped in peace.@
+`I walk down from the estate on the hill toward school.@
+`Nothing much has changed in my daily life, and the morning air is peaceful.@
 br
-`Autumn will soon be over, and winter will come.@ Perhaps when this uncertain season—neither hot like summer nor cold like winter—finally changes, this crystalline numbness inside me will change a little too.
+`Autumn will soon be over, and winter will come.@
+`Perhaps this uncertain season—neither hot like summer nor cold like winter—will finally change.@
+`Then perhaps this crystalline numbness inside me will change a little too.
 \
 bg "bg/bg_24a",lcartain,800
-`The closer I get to school, the more students I see in uniform.@ Since it’s Saturday, most of them are walking along smiling.@ Once I cross this intersection, the front gate is only a little farther.@ It has been almost a month since I moved into the Tohno mansion.@ By now, even this route to school has become familiar.@
+`The closer I get to school, the more students I see in uniform.@
+`Since it’s Saturday, most of them are walking along smiling.@
+`Once I cross this intersection, the front gate is only a little farther.@
+`It has been almost a month since I moved into the Tohno mansion.@
+`By now, even this route to school has become familiar.@
 br
-`The light turns red, and I stop at the crosswalk.@
+`The signal turned red, and I stopped at the crosswalk.@
 br
-`“…”@ Every time the light stops me here, I remember.
+`“…”@
+`Every time the light stops me here, I remember.
 \
-`Back then, at this very intersection, Arcueid sat on the guardrail waiting for Shiki Tohno—just as though she were waiting there for him now.@
+`Back then, at this very intersection.@
+`Arcueid had sat on the guardrail waiting for Shiki Tohno—just as she seemed to be waiting there now.@
 br
-`“What…?”@
+`“[line=5]What?”@
 br
-`The sound escapes me before I know it.@ Beyond the stream of impatient traffic lies exactly the same sight I saw that day.
+`The sound escapes me before I know it.@
+`Beyond the stream of impatient traffic lies exactly the same sight I saw that day.
 \
 bg #000000,lshutter,800
 bg "event/ark_e02",lshutter,800
-`“Wh—”@ She is there.
+`“Wh—”@
+`She was there.
 \
-`Golden hair brushing her shoulders.@ White clothes.@ Long, fine brows and red eyes.@
+`Golden hair brushing her shoulders, and white clothes.@
+`Long, fine brows and red eyes.@
 `[line=3]The figure I could never mistake again, no matter what happened—the figure that was supposed to have vanished.
 \
-`“…”@ The light turns green.@ Students pour across the street.@ Amid them all, only I remain still—and only she notices me.
+`“[line=8]”@
+`The light turns green.@
+`Students pour across the street.@
+`Amid them all.@
+`Only I remain still—and only she notices me.
 \
 bg "bg/bg_24a",lshutter,800
 play "*3"
-`Arcueid crosses the road with a smile that seems to call out a cheerful hello.@ “…”@ I can’t speak.@ There is too much inside me.@ I don’t know what to do.@
+`Arcueid crosses the road with a smile that seems to call out a cheerful hello.@
+`“…”@
+`I can’t speak.@
+`My heart is too full for me to know what to do.@
 br
-`[line=3]Even if this is some cruel hallucination, the sight of her again makes me so happy I could cry.
+`[line=3]Even if this is some cruel hallucination.@
+`The sight of her again makes me so happy I could cry.
 \
 ld c,"tachi/ark_t01a",lshutter,800
-`“Hello.@ On your way to school, young man?”@ I can’t believe it.@ Even the hallucination’s voice is exactly hers.@
+`“Hello.@ On your way to school, young man?”@
+`I can’t believe it.@
+`Even the hallucination’s voice is exactly hers.@
 ld c,"tachi/ark_t01b",crossfade,400
-`“Shiki?@ Hey, why aren’t you saying anything?@ Don’t tell me you’ve forgotten me.”@ Red eyes peer up into mine from below.@ Forget her?@ Never.@ But just as surely, she cannot possibly be standing here alive.
+`“Shiki?@ Hey, why aren’t you saying anything?@ Don’t tell me you’ve forgotten me.”@
+`Red eyes peer up into mine from below.@
+`I could never forget her.@
+`But just as surely, she cannot possibly be standing here alive.
 \
-`“…”@ No sound comes.@ She knits her brows and glares at me like a disgruntled cat.@
+`“[line=5]”@
+`No sound comes.@
+`She knits her brows and glares at me like a disgruntled cat.@
 ld c,"tachi/ark_t16",crossfade,400
-`“Honestly, what’s wrong with you?@ I made myself wait here instead of coming to see you.@ Are you angry with me or something?”@ “I…”@ I can’t believe it.@ What stands before me isn’t a vision at all.@ It really is her.@ It really, truly—
+`“Honestly, what’s wrong with you?@ I made myself wait here instead of coming to see you.@ Are you angry with me or something?”@
+`“Ugh[line=5]”@
+`I can’t believe it.@
+`What stands before me is no vision at all, but the real, living Arcueid[line=4]
 \
-`“Ar…@ cueid…?”@
+`“Arcueid…?”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Yes, that’s right.@ Oh, good.@ I was honestly starting to worry that your fight with Roa had left you a vegetable.”@ “…”@
+`“Yes, that’s right.@ [line=3]Thank goodness; I was seriously worried your fight with Roa had left you a vegetable.”@
+`“[line=4]”@
 br
-`[line=2]Wait.@ Just wait.@
+`[line=2]Wait a moment.@
 br
-`I’m so confused I don’t know what to say, what to be happy about first, what I’m supposed to do.@ My heart is simply too full for me to understand anything.
+`I’m so confused I don’t know what to say, what to be happy about first, what I’m supposed to do.@
+`My heart is simply too full for me to understand anything.
 \
 ld c,"tachi/ark_t11",crossfade,400
-`“Shiki…?@ You’ve been acting strange this whole time.@ Your mouth is hanging open and you keep blinking at me.@ Though I have to admit, you’re so funny I could watch all day.”@ “Ar…@ cueid.”@ “I keep telling you, yes.@ Honestly, all you’ve said since I got here is my name.@ We’ve finally been reunited—can’t you come up with something a little more charming?”
+`“Shiki…?@ You’ve been acting strange this whole time.@ Your mouth is hanging open and you keep blinking at me.@
+`Though I have to admit, you’re so funny I could watch all day.”@
+`“[line=4]Arcueid.”@
+`“I keep telling you, yes.@ Honestly, all you’ve said since I got here is my name.@ We’ve finally been reunited—can’t you come up with something a little more charming?”
 \
 br
-`[line=4]Yes.@ There can be no mistake.@ Who else could possibly say something that ridiculous?
+`[line=4]Yes, there can be no mistake.@
+`Who else could possibly say something that ridiculous?
 \
-`“Why…?”@ “Hm?@ What was that?@ I can’t hear you.@ Say it louder.”@ Arcueid turns one shapely ear toward me, urging me on.@ “Why are you still alive?!”@ At the top of my lungs, I blurt out the first thing in my heart.
+`“Why…?”@
+`“Hm?@ I can’t hear you.@ Say it louder.”@
+`Arcueid turns one shapely ear toward me, urging me on.@
+`“[line=3]Why are you still alive?!”@
+`At the top of my lungs, I blurt out the first thing in my heart.
 \
 ld c,"tachi/ark_t12",lshutter,400
-`“Ow!@ Shiki, you’re way too loud!”@ “Don’t give me ‘too loud’!@ Why—why are you alive…?@ I thought you were gone.@ I thought I’d never see you again, and all this time I’ve been—”@ All this time, I’ve been drowning in regret.@ So how can she greet me so cheerfully, so casually, as if we had only parted yesterday?
+`“Ow[line=4]Shiki, you’re too loud~”@
+`“Don’t give me ‘too loud’!@ Why—why are you alive…!@
+`I[line=3]I thought you were gone, that I’d never see you again, all this time[line=5]”@
+`And yet I had been living with that regret.@
+`How could she greet me so cheerfully, so easily, as though we had only parted yesterday…!
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“Oh, right.@ I never told you, did I?”@ Arcueid claps her hands together.@ “Why I was chasing Roa.@ He had stolen part of my power.@ I kept hunting him because I wanted it back, but then you erased him completely, remember?@ Once my power was freed from him, it returned to me, and I managed to revive.”@ “Y-you never told me anything about that!”@ “Of course I didn’t.@ It didn’t have much to do with you.”@ “You—”@ How can she always be so—
+`“Oh, right.@ I never told you, did I?”@
+`Arcueid claps her hands together.@
+`“Why I was chasing Roa.@ He had stolen part of my power.@
+`I kept hunting him because I wanted it back, but then you erased him completely, remember?@ Once my power was freed from him, it returned to me, and I managed to revive.”@
+`“Y-you never told me anything about that!”@
+`“Of course I didn’t.@ It didn’t have much to do with you.”@
+`“Y-you[line=3]”@
+`How can you be so[line=4]
 \
-`“Anyway, I managed to revive, but my vampiric impulse was so intense I couldn’t control it.@ If I’d gone to see you like that, something terrible would definitely have happened, so I slept until my strength returned.@ That’s why it took me a whole seven days to get back to normal and bring the impulse under control.”
+`“Anyway, I managed to revive, but my vampiric impulse was so intense I couldn’t control it.@
+`If I’d gone to see you like that, something terrible would definitely have happened, so I slept until my strength returned.@
+`That’s why it took me a whole seven days to get back to normal and bring the impulse under control.”
 \
-`“Then—then you’re really all right now, Arcueid…?”@
+`“W-wait[line=3]then, you’re really all right now, Arcueid…?”@
 ld c,"tachi/ark_t09",crossfade,400
-`“Of course!@ Otherwise I wouldn’t have come anywhere near you.”@ Beaming from ear to ear, Arcueid takes my hand.
+`“Of course!@ Otherwise I wouldn’t have come to see you.”@
+`She beams from ear to ear.@
+`Arcueid takes my hand.
 \
 ld c,"tachi/ark_t08",crossfade,400
-`“You know, Shiki, while I was asleep I couldn’t wait to see you like this.@ Once I was well enough to come to you, you’d take me all sorts of places.@ I kept wishing my body would recover soon—just a little sooner.”@ With an utterly guileless smile, Arcueid gazes into my eyes.
+`“You know, Shiki.@ While I was asleep, I couldn’t wait to see you like this.@
+`Once I was well enough to come to you, you’d take me all sorts of places.@
+`I kept wishing my body would recover soon—just a little sooner.”@
+`With an utterly guileless smile, Arcueid gazes into my eyes.
 \
-`“…”@ I have no words—not because anything is wrong, but because I am so happy.@ Arcueid’s smile.@ Everything still waiting for us.@ Even the wish I once confessed to Ciel, the wish not to leave her alone.@ I hadn’t lost a single thing.
+`“[line=7]”@
+`I had no words.@
+`Not for any bad reason[line=3]I was simply, truly happy.@
+`To see Arcueid smile, and for everything still ahead.@
+`And for the wish I once confessed to Ciel—not to leave her all alone.@
+`I had lost nothing[line=3]nothing at all.
 \
-`“…”@ There are a thousand things I want to say, a thousand things I need her to know.@ But for now, only the simplest truth rises to my lips.@
+`“[line=5]”@
+`There are a thousand things I want to say, a thousand things I need her to know.@
+`But for now, only the simplest truth rises to my lips.@
 br
-`“Welcome home.@ I’ve been waiting for you all this time.”@ I close my fingers around the hand holding mine and tell her only that.@ Arcueid stares, blinking in astonishment, then—
+`“[line=4]Welcome home.@ I’ve been waiting for you all this time.”@
+`I close my fingers around the hand holding mine and tell her only that.@
+`Arcueid stares, blinking in astonishment, then—
 ld c,"tachi/ark_t14",crossfade,400
-`“Yeah…”@ she murmurs, lowering her head in embarrassment.
+`“Yeah…”@
+`she murmurs, lowering her head in embarrassment.
 \
-`“Arcueid…?”@ I call her name.@ After a moment, she lifts her face with a radiant smile.@
+`“Arcueid…?”@
+`I call her name.@
+`After a moment, she lifts her face with a radiant smile.@
 ld c,"tachi/ark_t09",crossfade,400
-`“I’m home, Shiki.@ I’m glad you’re still yourself.”@ “…”@ My chest tightens.@ Arcueid’s smile is so lovely that if we weren’t standing on the road to school, I might have swept her into my arms and kissed her.
+`“I’m home, Shiki.@ I’m glad you’re still yourself.”@
+`“[line=6]”@
+`My chest tightens.@
+`Arcueid’s smile is so lovely that if we weren’t standing on the road to school, I might have swept her into my arms and kissed her.
 \
 ld c,"tachi/ark_t01a",crossfade,400
 `“All right, let’s go, Shiki.@ You’re going to take me all sorts of places, aren’t you?”@
 cl c,lshutter,800
-`Arcueid slips her hand free and bounds away like a rabbit.@ She is so dazzling I can scarcely look at her.
+`Arcueid slips her hand free and bounds away like a rabbit.@
+`She is so dazzling I can scarcely look at her.
 \
-`“But, um…@ when you say go, where exactly do you mean?”@
+`“But, um[line=3]when you say go, where exactly?”@
 ld c,"tachi/ark_t08",crossfade,400
-`“Anywhere.@ Somewhere you think is fun.”@ Arcueid answers with a smile, as though it were the most obvious thing in the world.@ There is one small problem.@ “You do know I’m on my way to school, right?”@
+`“Anywhere.@ Somewhere you think is fun.”@
+`Arcueid answers with a smile, as though it were the most obvious thing in the world.@
+`There is one small problem.@
+`“Um.@ I’m on my way to school.”@
 ld c,"tachi/ark_t06",crossfade,400
-`“Oh, come on.@ Can’t you give me today, at least?”@ Arcueid gives me a wounded look.
+`“Oh, come on.@ Can’t you give me today, at least?”@
+`Arcueid gives me a dissatisfied look.
 \
-`“Urgh…”@ Apparently I’m completely helpless against that face.@ Besides, in this state I’d only spend school staring into space.@ More importantly—I want to be with Arcueid.
+`“Urgh…”@
+`Apparently I’m completely helpless against that face.@
+`In any case, I’d only stare into space at school in this state; more than anything[line=3]I wanted to be with Arcueid.
 \
-`“Yeah, all right.@ To hell with appearances for once.@ Okay, Arcueid.@ Today I’ll indulge every whim of my spoiled princess.”@ “Hooray!”@
+`“Yeah, all right.@ To hell with appearances for once.@
+`Okay, Arcueid.@ Today I’ll indulge my princess’s every whim.”@
+`“Hooray!”@
 cl c,lshutter,800
-`With a thump, Arcueid abruptly presses herself against me.
+`A thump.@
+`Arcueid abruptly presses herself against me.
 \
 bg #000000,lshutter,400
 bg "event/ark_f03",lshutter,400
-`“Shiki, do you still feel the same way you did when you spoke to Ciel that night?”@ Arcueid peers up at me.@ “The way I felt that night…?@ About what?”@ “That part about loving me.”@ “—!”@ I choke.@ Hearing Arcueid herself ask me that from inches away is mortifying.
+`“Hey, Shiki.@ Do you still feel the same way you did when you spoke to Ciel that night?”@
+`Arcueid peers up at me.@
+`“What I felt that night[line=3]what do you mean?”@
+`“That part about loving me.”@
+`“[line=6]!”@
+`I choke.@
+`Hearing Arcueid herself ask me that from inches away is mortifying.
 \
-`“Oh, right.@ I’d forgotten.@ Eavesdropping is rude, Arcueid.”@ “I couldn’t help hearing.@ Never mind that—tell me.@ Do you still mean what you said back then?”@
+`“Oh, right—I’d forgotten.@ Eavesdropping is rude, Arcueid.”@
+`“I couldn’t help hearing.@ Never mind that—tell me.@ Do you still mean what you said back then?”@
 br
-`[line=4]Idiot.@ As if she even needs to ask.@
+`[line=4]Idiot.@
+`As if she even needs to ask.@
 br
-`“Yeah.@ Nothing’s changed.@ I can’t promise, but I don’t think it ever will.”@ Too embarrassed to face her, I gaze at an empty patch of sky and deliver the hopelessly sentimental answer.
+`“Yeah, nothing’s changed.@ I can’t promise, but I don’t think it ever will.”@
+`Too embarrassed to face her, I gaze at an empty patch of sky and deliver the hopelessly sentimental answer.
 \
-`Arcueid hugs the arm nearest her tight against her body.@ “I see.@ Then you’d better prepare yourself, Shiki.”@ “Prepare myself for what?”@ A thread of unease enters my voice.@ Still clutching my arm, Arcueid smiles sweetly and says—
+`A squeeze.@
+`Arcueid hugs the arm nearest her tight against her body.@
+`“I see.@ Then you’d better prepare yourself, Shiki.”@
+`“Prepare myself for what?”@
+`A thread of unease enters my voice.@
+`Still clutching my arm, Arcueid smiles sweetly and says.
 \
 br
 br
 br
 br
 br
-`“For our promise to stay together forever.@ Remember what I told you at the very beginning?@ I’m going to have you take proper responsibility for me.”
+`“For our promise to stay together forever.@
+`Remember what I told you at the very beginning?@
+`I’m going to have you take proper responsibility for me.”@!w2000
 \
-`Then Arcueid starts walking, still holding fast to my arm, tugging me along with the breathless energy of a child who can’t reach the playground quickly enough.@
+`Then Arcueid starts walking, still holding fast to my arm.@
+`She tugs me along with the breathless energy of a child who can’t reach the playground quickly enough.@
 br
-`“Ah…@ now I understand.@ That really does take some preparation.”@ Murmuring it to no one in particular, I fall into step beside her.
+`“Hah[line=3]I see; that really does take some resolve.”@
+`Murmuring it to no one in particular, I fall into step beside her.
 \
-`We go against the stream of students headed for school, bound for anywhere at all.@ How far should we go?@ I don’t think anywhere is beyond our reach.@ Even sunlight suits the princess of the moon walking beside me.
+`We go against the stream of students headed for school, bound for anywhere at all.@
+`How far should we go?@
+`I don’t think anywhere is beyond our reach.@
+`Even sunlight suits the princess of the moon walking beside me.
 \
-`[line=3]For now, at least, the weather has given us a blue sky beyond reproach.@
+`[line=3]For now, at least, the weather was perfect: a clear blue sky.@
 br
 `Hand in hand, we set out for somewhere neither of us has ever been.
 \

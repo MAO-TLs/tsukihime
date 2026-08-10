@@ -4,85 +4,108 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
 play "*1"
-`“What nonsense.”@
-`No.@ I was only tired.@ I still hadn’t shaken what happened with Yumizuka.@ I hadn’t become a vampire.@ I should still be an ordinary human being.@
+`“[line=4]What nonsense”@
+`No, I am only tired.@
+`I still have not shaken what happened with Yumizuka.@
+`I have not become a vampire.@ I should still be an ordinary human being.@
 br
 bg "bg/ima_13b",notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
 `And yet, there I was—roaming the streets every night in search of blood.@
 br
-`Then perhaps I was the only one who hadn’t noticed.@ Perhaps in truth I had already gone too far to ever return—
+`Then, perhaps.@
+`Without my even realizing it, I had already gone too far to return[line=4]
 \
 wave se_04
 ld c,"tachi/his_t12",lshutter,400
-`“Hisui…?”@ She came in looking unusually desperate.@
+`“Hisui[line=3]?”@
+`She comes in looking unusually desperate.@
 ld c,"tachi/his_t16b",crossfade,400
-`“Forgive me.@ I see you are awake, Master Shiki.”@ Hisui gave a swift, silent bow.@
+`“[line=3]Forgive me.@ I see you are awake, Master Shiki.”@
+`Hisui gives a swift, silent bow.@
 cl a,crossfade,400
-`…@She was the very opposite of the dream: so pure that merely looking at her eased the dread in my chest.
+`She is the very opposite of the dream, so pure that looking at her eases the dread in my chest.
 \
-`“Don’t worry, I only just woke up.@ …@Good morning, Hisui.@ Thanks for coming to wake me again today.”@
+`“Do not worry, I only just woke up.@ Good morning, Hisui.@ Thank you for coming to wake me again today.”@
 ld c,"tachi/his_t04",crossfade,400
-`“…@Good morning.”@ Hisui bowed again, then approached the bed.@
+`“Good morning.”@
+`Hisui bows again, then approaches the bed.@
 ld c,"tachi/his_t01",crossfade,400
 `“I brought you something to drink.@ If you are feeling unwell, please have some.”@
 `Hisui had brought a drink on a silver tray.@ The tray even held what looked like medicine.
 \
 `“…?@ What’s wrong, Hisui?@ You’ve never brought me medicine before.”@
 ld c,"tachi/his_t17",crossfade,400
-`“…@Are you feeling all right, Master Shiki?@ You were having such a terrible nightmare, and you looked quite pale, so I brought you some medicine.”@
-`“—A nightmare?@ Me?”@
+`“Master Shiki, are you feeling all right?@ You were having a terrible nightmare and looked pale, so I brought medicine.”@
+`“[line=4]A nightmare, me?”@
 ld c,"tachi/his_t04",crossfade,400
-`“Yes.@ You also appeared feverish, so I asked my sister to prepare something to bring the fever down.@ Was that unnecessary?”@
+`“You also appeared feverish, so I asked my sister to prepare something for it.@ Was that unnecessary?”@
 `“Of course not.@ Thank you for going to the trouble.”
 \
 cl a,crossfade,400
-`I swallowed the medicine with the water she offered.@ Whatever I thought of the medicine, the water was a blessing.@ Just as Hisui had said, my whole body felt feverish and my throat was parched.@ Plain water had never tasted so good.
+`I swallowed the medicine with the water she offered.@
+`Whatever I thought of the medicine, the water was a blessing.@
+`Just as Hisui had said, my whole body felt feverish and my throat was parched.@
+`Plain water had never tasted so good.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“If you feel well enough, please come to the dining room.@ If not, I ask that you remain home today.”@
 `“No, I’m going to school.@ If I started staying home over something like this, there’d be no end to it.”@
 ld c,"tachi/his_t17",crossfade,400
-`“…@But you are still very pale.”@
-`“I said I’m fine.@ Besides, school’s closed tomorrow.@ If I can rest then, I can afford to push myself today, can’t I?”@
+`“But you are still very pale, Master Shiki.”@
+`“I said I am fine.@ Besides, school is closed tomorrow.@ If I can rest then, I can push myself today, can I not?”@
 ld c,"tachi/his_t05",crossfade,400
-`“…”@ Hisui lowered her head, plainly wanting to say something.@ Did I really look that bad?
+`“…”@
+`Hisui lowered her head, plainly wanting to say something.@
+`Did I really look that bad?
 \
 `“Hisui, tell me something.@ Was I really having that bad a nightmare?”@
 ld c,"tachi/his_t17",crossfade,400
-`“—Yes.@ I do not know when you returned, but you were sleeping as though utterly exhausted.@ Each morning I enter to open your curtains, and from the moment I arrived today, your breathing was labored.”@ …@Of course.@ A dream like that would make anyone suffer…@ Wait.@ Hold on.
+`“[line=3]Yes.@ I do not know when you returned, but you were sleeping as though exhausted.@
+`Each morning I enter to open Master Shiki’s curtains, and from the moment I arrived your breathing was labored.”@
+`I see.@ A dream like that would make anyone suffer—but wait.
 \
-`“—Hisui.@ What did you just say?”@
+`“[line=3]Hisui.@ What did you just say?”@
 ld c,"tachi/his_t01",crossfade,400
-`“That you appeared unwell from early this morning.”@
+`“That Master Shiki appeared unwell from early this morning.”@
 `“Not that—the part before it!@ Where did I come back from?”@
-`“—I do not know.@ My sister merely saw you leaving the mansion while making her rounds.”@
-`“Leaving?@ Me…?”@
-`“Yes.@ My sister and I inspect the mansion every three hours.@ Last night’s late round was hers, and she says she saw you going outside.”
+`“[line=3]I do not know.@ My sister only saw Master Shiki leaving the mansion during her rounds.”@
+`“Leaving, me?”@
+`“Yes.@ My sister and I inspect the mansion every three hours.@ Last night’s late round was hers, and she saw Master Shiki going outside.”
 \
-`“Wh—”@
-`“Since you appeared to have returned by morning, my sister did not report it to Miss Akiha.@ …@She has always been lenient with you.@ I expect she means to keep it secret.”@
+`“Wha[line=3]”@
+`“Since Master Shiki returned by morning, my sister did not report it to Miss Akiha.@
+`My sister is lenient with Master Shiki, so she must mean to keep it secret.”@
 cl a,crossfade,400
-`“…”@ Wh—what was that supposed to mean?@ I had gone outside?@ Impossible.@ I had been asleep right here.@ I had even been dreaming.@ Dreaming something so horribly vivid—
+`“[line=7]”@
+`Wh[line=3]what does that mean?@
+`I went outside?@
+`Impossible.@ I was asleep here and even had a dream.@
+`I dreamed something so vivid[line=3]so real.
 \
-`“Ah—”@ But that was strange.@ Dreams were supposed to vanish the instant you woke.@ Why could I still remember every detail so clearly?
+`“Ah[line=6]”@
+`But that is strange.@
+`Dreams vanish when one wakes, so why can I still remember every detail so clearly[line=3]
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki…?@ You still look unwell.@ What would you like me to do?”@
-`“…@Ah, no, I’m fine.@ I’m fine, so go on ahead, Hisui.@ …@I’m fine.@ I’ll be down in a minute.”@
+`“Master Shiki[line=3]?@ You still look unwell, so what would you like me to do?”@
+`“I am fine.@ Go on ahead, Hisui.@ I will be down in a minute.”@
 ld c,"tachi/his_t16",crossfade,400
 `“Very well.@ I shall await you in the dining room.”@
 cl a,crossfade,400
 `Hisui closed the door behind her and left.@
 br
-`“…@That’s right.@ I’m fine.@ …@Nothing is wrong.@ I’m fine—”@ I repeated it over and over, as though I could make it true.
+`“Yes, I am fine.@ Nothing is wrong.@ I am fine[line=3]”@
+`I repeat the words as though trying to convince myself.
 \
 bg #000000,crossfade,800
 !w2000
 bg "bg/bg_33a",lcartain,800
 playstop
-`There was no way to reach the dining room without passing through the sitting room.@ …@The thought weighed on me.@ I honestly didn’t want to face anyone—not Hisui, not Kohaku, and especially not Akiha.@ I had no confidence I could behave normally around them.@
+`There is no way to reach the dining room without passing through the sitting room.@
+`The thought weighs on me.@ I honestly do not want to face anyone.@
+`I have no confidence I can act normally around Hisui, Kohaku, or[line=3]Akiha.@
 br
-`I—
+`I[line=4]
 \

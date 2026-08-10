@@ -2,33 +2,49 @@ monocro off
 wavestop
 playstop
 bg "bg/bg_06b",crossfade,800
-`Contrary to all expectations, homeroom’s attempt to choose an attraction for the school festival turned into a war of attrition.@ Suggestions flew from every corner, the entire class split into opposing camps, and in the end the decision was postponed until next week.@ By the time it was over, evening had long since arrived, and everyone filed out of the classroom looking exhausted.@
+`Contrary to all expectations, homeroom’s attempt to choose an attraction for the school festival dragged on.@
+`Suggestions flew from every corner, the entire class split into opposing camps, and in the end the decision was postponed until next week.@
+`By the time it was over, evening had long since arrived, and everyone filed out of the classroom looking exhausted.@
 br
-`“Well…”@ There’s no point sitting here in a daze.@ I should head back to the mansion and prepare for tonight—
+`“Well…”@
+`There’s no point sitting here in a daze.@
+`I should head back to the mansion and prepare for tonight—
 \
 bg #000000,lcartain,1500
 bg "bg/bg_32b",lcartain,1500
 play "*1"
-`For once, I come straight home without stopping anywhere.@ The sun hasn’t fully set, so Akiha probably isn’t back yet.@ “I wonder if she’s still angry about this morning…”@
+`For once, I come straight home without stopping anywhere.@
+`The sun hasn’t fully set, so Akiha probably isn’t back yet.@
+`“I wonder if she’s still angry about this morning…”@
 br
-`There’s nothing I can do about that.@ I can’t tell Akiha the truth, so for a while I’ll have to play the feckless older brother and let her hate me.
+`There’s nothing I can do about that.@
+`I can’t tell Akiha the truth, so for a while I’ll have to play the feckless older brother and let her hate me.
 \
 bg #000000,lcartain,800
 bg "bg/bg_33b",lcartain,800
 ld c,"tachi/his_t01",crossfade,400
-`“Welcome home, Master Shiki.”@ The moment I enter, Hisui greets me with a deep bow.@ “Thanks, Hisui.@ I’m home.”@
+`“Welcome home, Master Shiki.”@
+`The moment I enter, Hisui greets me with a deep bow.@
+`“Thanks, Hisui.@ I’m home.”@
 `[line=3]It’s been about a week since I returned, but I still can’t get used to this sort of reception.
 \
-`“Um…@ Akiha isn’t home yet?”@ “No.@ She sent word that she will be unusually late tonight and that you should dine without her.”@
+`“Um—Akiha isn’t home yet?”@
+`“No.@ She sent word that she will be unusually late tonight and that Master Shiki should dine without her.”@
 cl c,crossfade,400
 `So Akiha really is still angry about this morning.
 \
-`“Haaah…”@ My shoulders sag beneath an invisible weight as I turn toward my room.@
-`[line=3]Then—
+`“Haaah…”@
+`My shoulders sag beneath an invisible weight as I turn toward my room.@
+`[line=3]Then.@
 br
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki.”@ Hisui glances around the lobby, then addresses me with sudden formality.
+`“Master Shiki.”@
+`Hisui glances around the lobby, then addresses me with sudden formality.
 \
-`“Forgive the impertinent question, but will you be going out again tonight?”@ “What…?”@ Hisui fixes me with her unreadable stare.@ She probably wants to know when I will return purely as a matter of household duty—but telling Hisui means telling Akiha.@ So—
+`“Forgive the impertinent question, but will Master Shiki be going out again tonight?”@
+`“What…?”@
+`Hisui fixes me with her unreadable stare.@
+`She probably wants to know when I will return purely as a matter of household duty—but telling Hisui means telling Akiha.@
+`So—
 br
 cl c,crossfade,400

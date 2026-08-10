@@ -1,39 +1,66 @@
 bg #000000,lcartain,800
 play "*3"
 bg "bg/bg_11b",lcartain,400
-`The moment I stepped into the hall, I ran into a familiar face.@ “Oh, Ciel.@ What brings you to the second-year classrooms?”@
+`The moment I stepped into the hall, I ran into a familiar face.@
+`“Oh, Ciel.@ What brings you to the second-year classrooms?”@
 ld c,"tachi/cel_t01a",lshutter,400
-`“Strictly speaking, I’m not here for a second-year classroom.@ I’m here for a particular second-year.”@ Ciel smiled brightly and trotted over.@ “You see, I’ve come into some excellent Japanese sweets, but I have no one to talk with.@ They’d be wasted if I ate them alone, so I came to catch someone who looked free.”
+`“Strictly speaking, I’m not here for a second-year classroom.@ I’m here for a particular second-year.”@
+`Ciel smiled brightly and trotted over.@
+`“You see, I’ve come into some excellent Japanese sweets, but I have no one to talk with.@ They’d be wasted if I ate them alone, so I came to catch someone who looked free.”
 \
-`“I see…@ A conversation partner.@ But there’s no one left in our classroom.@ The others will be empty too.@ Why come up here at all?@ Your floor is downstairs.”@ She had plenty of classmates in the third year she could talk to.@ There was no reason to climb all the way to the second-year rooms.@ “Why not invite someone from your class?@ You’d probably have more to talk about.”
+`“I see—a conversation partner.@ But no one is left in our classroom, and the others will be empty too.@ Why come up here at all?@ Your floor is downstairs.”@
+`She had plenty of third-year classmates she could talk to.@ There was no reason to climb all the way to the second-year rooms.@
+`“Why not invite someone from your class?@ You’d probably have more to talk about.”
 \
 ld c,"tachi/cel_t02",crossfade,400
-`“That’s true, but today I’m in the mood to talk to a younger boy.@ There’s no particular reason, so please don’t ask.”@ “…@All right.@ I won’t.”@ I probably wouldn’t understand even if I did.@ Her smile vanished, and she studied my face in silence.
+`“That’s true, but today I’m in the mood to talk to a younger boy.@ There’s no particular reason, so please don’t ask.”@
+`“All right—I won’t ask.”@
+`I probably wouldn’t understand even if I did.@
+`Her smile vanished, and she studied my face in silence.
 \
 ld c,"tachi/cel_t07a",crossfade,400
-`“Are you free, Tohno?”@ “Well—if having nothing to do counts as being free, then unquestionably.”@
+`“Are you free, Tohno?”@
+`“No[line=3]if having nothing to do counts as being free, then unquestionably.”@
 br
 `She caught my sleeve and gave it a little tug.@
 br
 ld c,"tachi/cel_t03",crossfade,400
-`“Then I’ve caught you.@ Come have tea with me.”@ Her invitation came with a smile.@ I had no reason to refuse—and talking with her might actually be rather nice.
+`“Then I’ve caught you.@ Come have tea with me.”@
+`Her invitation came with a smile.@
+`I had no reason to refuse—and talking with her might actually be rather nice.
 \
-`“If you’re sure I’ll do, then I’d be happy to.”@ “Settled.@ Let’s go at once!”@ Still holding my sleeve, she set off down the hall with a spring in her step.
+`“If you’re sure I’ll do, then I’d be happy to.”@
+`“Settled.@ Let’s go at once!”@
+`Still holding my sleeve, she set off down the hall with a spring in her step.
 \
 bg #000000,lcartain,1500
 bg "bg/bg_09b",lcartain,1500
-`“I never knew our school had a room like this.@ Is it the tea club’s room?”@
+`“Oh.@ I never knew our school had a room like this.@ Is it the tea club’s room?”@
 ld c,"tachi/cel_t03",crossfade,400
 `“Yes, officially.@ It seems no one used it before I joined.”@
 cl c,lshutter,400
-`She stepped onto the tatami ahead of me and began clattering through her preparations.@ “A clubroom…@ Won’t the other members be coming?@ It can’t be good to have an outsider like me in here.”@ “Don’t worry.@ I may call it the tea club, but I’m its only member.@ That means I can use this room however I please after school or during breaks.”@ Laughing, she laid out a floor cushion for me.@ So when she said tea, she meant an honest-to-goodness tea gathering.@ Frankly, this kind of thing put me out of my depth.
+`She stepped onto the tatami ahead of me and began clattering through her preparations.@
+`“A clubroom—but won’t the other members be coming?@ It can’t be good to have an outsider like me in here.”@
+`“Don’t worry.@ The tea club may have a room, but I’m its only member, so I can use it however I please after school or during breaks.”@
+`Laughing, she laid out a floor cushion for me.@
+`So when she said tea, she meant an honest-to-goodness tea gathering.@
+`Frankly, this kind of thing put me out of my depth.
 \
-`“Listen, I haven’t the faintest idea what the proper etiquette is.”@ “What are you talking about?@ I only know the casual procedure myself.”@ She answered without hesitation and came over carrying a tray with a teapot, cups, and sweets.@
+`“Listen, Ciel.@ I haven’t the faintest idea what the proper etiquette is.”@
+`“What are you talking about?@ I only know the casual procedure myself.”@
+`She answered without hesitation and came over carrying a tray with a teapot, cups, and sweets.@
 ld c,"tachi/cel_t03",lshutter,400
-`“We’re only here to chat, so let’s forget all the stiff formalities.@ They take all the fun out of it.”@ She smiled gently and poured tea into her cup.
+`“We’re only here to chat, so let’s forget all the stiff formalities.@ They take all the fun out of it.”@
+`She smiled gently and poured tea into her cup.
 \
 cl c,lshutter,400
-`“…@You’re a difficult person to understand.”@ Grumbling, I poured my own tea.@ I took a noisy sip, bit into one of the bean-paste wafers she had served, then drank again.@ I had never involved myself in it, but the Arima family headed a school of tea ceremony.@ Perhaps growing up in that house had made me accustomed to sitting idly in a tatami room over tea.@ Ciel was watching me with a strangely troubled expression.
+`“…@I really don’t understand you, Ciel.”@
+`Grumbling, I poured my own tea.@
+`I noisily sipped my tea.@
+`I ate one of the bean-paste wafers she had served, then drank again.@
+`I had never involved myself in it, but the Arima family headed a school of tea ceremony.@
+`Perhaps growing up in that house had made me accustomed to sitting idly in a tatami room over tea.@
+`Ciel was watching me with a strangely troubled expression.
 \
-`“What’s wrong?@ You look rather glum.”
+`“What’s wrong, Ciel?@ You look rather glum.”
 \

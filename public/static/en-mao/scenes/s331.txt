@@ -1,7 +1,8 @@
 play "*3"
 wavestop
 bg "bg/bg_06b",notrans,0
-`I had no idea how I was supposed to face Akiha when I got home.@ Since I couldn’t find an answer, I sat here brooding before returning to the mansion.@
+`I had no idea how I was supposed to face Akiha when I got home.@
+`Since I couldn’t find an answer, I sat here brooding before returning to the mansion.@
 br
 br
 br
@@ -13,84 +14,146 @@ br
 br
 br
 \
-`No clever solution seemed likely to present itself.@ By the time I looked up, the classroom was empty.@ “Time to go.”@ I had wasted enough time.@ If I could sit here agonizing over it, I might as well march home and collide with Akiha head-on.@ That would at least accomplish something.
+`Arcueid’s apartment building came into view.@
+`“Tohno-kun, we can part here.”@
+`“[line=3]Time to go home.”@
+`I had come this far; going home now would be a waste.@
+`If I could sit here agonizing over it, I might as well march home and collide with Akiha head-on; that would at least accomplish something.
 \
 bg #000000,lcartain,400
 bg "bg/bg_11b",lcartain,400
-`“Tohno!”@ The instant I stepped into the corridor, someone called my name.@
+`“Tohno!”@
+`The instant I stepped into the corridor, someone called my name.@
 ld c,"tachi/cel_t03",lshutter,400
-`“Thank goodness you’re still here.@ Were you about to leave?”@ “More or less.@ I’ve got nothing else to do, so I thought I’d be good and go straight home.@ Are you leaving too?”@ “Yes.@ No one needs me for anything today, so I thought I might do some shopping on the way.”@ “I see.@ Near the station?”@
+`“Thank goodness you’re still here.@ Were you about to leave?”@
+`“More or less.@ I’ve got nothing else to do, so I thought I’d be good and go straight home.@ Are you leaving too?”@
+`“Yes.@ No one needs me for anything today, so I thought I might do some shopping on the way.”@
+`“I see.@ Near the station?”@
 ld c,"tachi/cel_t02",crossfade,400
-`“No, what I want is sold right here.”@ Ciel had begun saying strange things again.
+`“No, what I want is sold right here.”@
+`Ciel had begun saying strange things again.
 \
-`“…@By ‘here,’ you mean here?”@
+`“By ‘here,’ you mean here?”@
 ld c,"tachi/cel_t04",crossfade,400
-`She answered yes with a radiant smile.@ “…@What exactly are they selling here?”@
+`She answered yes with a radiant smile.@
+`“What exactly are they selling here?”@
 ld c,"tachi/cel_t02",crossfade,400
-`“This.”@ She thrust out one slender finger.@ The only thing at its tip was my face.
+`“This.”@
+`She thrust out one slender finger.@
+`The only thing at its tip was my face.
 \
 `“By ‘this,’ do you mean me?”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“Yes.@ You were still here, so I’ve decided to buy some of your time.@ That means you’re coming home with me.”@ She seized my arm and began towing me away.@ “W-wait!@ I’m flattered, but your house is in the opposite direction from mine.@ Did you come all this way just so we could walk together as far as the schoolyard?”@ “No, I’m shopping near the station today, so we’ll be going the same way for a while.”@ “Oh, then we can walk together—wait.@ What are you shopping for?”
+`“Yes.@ You were still here, so I’ve decided to buy some of your time.@ That means you’re coming home with me.”@
+`She seized my arm and began towing me away.@
+`“W-wait!@ I’m flattered, but your house is in the opposite direction from mine; did you come all this way just so we could walk together as far as the schoolyard?”@
+`“No, I’m shopping near the station today, so we’ll be going the same way for a while.”@
+`“Oh, then we can walk together—but what are you shopping for?”
 \
 ld c,"tachi/cel_t12",crossfade,400
-`“Well, the weather has been getting colder, so I thought I should buy a heater while I have the chance.”@ “A heater?@ It feels a little early, but autumn does vanish before you know it.@ What are you buying?@ An air conditioner?”@
+`“A heater?”@
+`“A heater—maybe it’s a little early, but autumn vanishes before you know it.@
+`So what are you buying?@ An air conditioner?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“An ordinary high-school student can hardly afford an air conditioner.@ I was thinking of purchasing that inexpensive and useful masterpiece of traditional Japanese craft: the venerable kotatsu.”@ I had never known a heated table qualified as traditional craftsmanship.@ That aside—
+`“An electric carpet?@ That sounds modern, but I still prefer the venerable kotatsu.”@
+`“The kotatsu is the only true heating appliance.”@
+`That aside.
 \
 `“Come on.@ You’ve dressed this up very nicely, but you only want to use me as free labor.”@
 ld c,"tachi/cel_t12",crossfade,400
-`“That isn’t true.@ We’re only walking home together, and I’d like a little company while I choose one.”@ “…@Then once you’ve bought it, you’ll say, ‘Oh, Tohno, I could never carry anything so heavy!@’”@
+`“That isn’t true.@ We’re only walking home together, and I’d like a little company while I choose one.”@
+`“…@Then once you’ve bought it, you’ll say, ‘Oh, Tohno, I could never carry anything so heavy!@’”@
 ld c,"tachi/cel_t10a",crossfade,400
-`“Hmph.@ I would never make such an impertinent request.@ If I wanted your help, I’d phrase it much more delicately.”@ “Naturally.@ Either way, I’d refuse.”
+`“Hmph.@ I would never make such an impertinent request.@ If I wanted your help, I’d phrase it much more delicately.”@
+`“Naturally.@ Either way, I’d refuse.”
 \
 ld c,"tachi/cel_t04",crossfade,400
-`“Ahaha, don’t worry.@ I would never ask you to do such a thing.”@ “I know.@ You aren’t that kind of person.”@ We laughed together, each of us keeping up the ridiculous performance.@ After a while, however, Ciel’s shoulders suddenly slumped.@
+`“Ahaha, don’t worry.@ I would never ask you to do such a thing.”@
+`“I know.@ You aren’t that kind of person.”@
+`We laughed together, each of us keeping up the ridiculous performance.@
+`After a while, however, Ciel’s shoulders suddenly slumped.@
 ld c,"tachi/cel_t09",crossfade,400
-`“…@You’re mean.”@ Uh-oh.@ Maybe I had teased her too much.@ She had come to me because she was counting on me; perhaps I could have let myself be manipulated with a little more grace.
+`“You’re mean.”@
+`Uh-oh, maybe I had teased her too much.@
+`Ciel did tend to take things seriously.
 \
 `“All right.@ Buy me lunch sometime, and I’ll gladly carry whatever you like.”@
 ld c,"tachi/cel_t08",crossfade,400
-`“You don’t have to force yourself.@ I only thought it might be a little heavy for me alone.”@ “Don’t be ridiculous.@ Those pale little arms of yours could never carry it.@ I’m coming.@ You said you were buying my time, remember?@ Hire me for the price of lunch and work me as hard as you please.”
+`“You don’t have to force yourself.@ I only thought it might be a little heavy for me alone.”@
+`“Don’t be ridiculous.@ Those pale little arms of yours could never carry it.@ I’m coming.@
+`You said you were buying my time, remember?@ Hire me for the price of lunch and work me as hard as you please.”
 \
 ld c,"tachi/cel_t05",crossfade,400
-`“All right.@ If you insist, I’ll depend on you today.”@ “As much as you like.”@ I thumped my arm to advertise its magnificent strength.@ Ciel laughed softly, then started walking.@
+`“All right.@ If you insist, I’ll depend on you today.”@
+`“As much as you like.”@
+`I thumped my arm to advertise its magnificent strength.@
+`Ciel laughed softly, then started walking.@
 ld c,"tachi/cel_t03",crossfade,400
-`“Before we go, may I ask one thing?”@ “What?”@ “Would a packed lunch be acceptable payment?”@ There could be no objection.@ I nodded before thought had time to intervene.
+`“Before we go, may I ask one thing?”@
+`“What?”@
+`“Would a packed lunch be acceptable payment?”@
+`I could hardly say no.@
+`I nodded before I even had to think.
 \
 bg #000000,lcartain,800
 bg "bg/bg_03b",lcartain,800
-`We left through the shoe lockers and crossed into the schoolyard.@ Apart from the track team, the grounds were deserted.@
+`We left through the shoe lockers and crossed into the schoolyard.@
+`Apart from the track team, the grounds were deserted.@
 ld c,"tachi/cel_t09",crossfade,400
-`“…@There are so few clubs practicing after school now,”@ Ciel murmured sadly.@ In the wake of the vampire incidents, almost every club had been forbidden to remain after classes.@ Only the track team was left on the field.
+`“There are so few clubs practicing after school now.”@
+`Ciel murmured sadly.@
+`In the wake of the recent murders, almost every club had been sent home, leaving only the track team on the field.
 \
-`Of course, there would be no more such incidents.@ With Yumizuka gone, no more victims would appear—but no one would believe me if I said so.@ “…@I suppose parents couldn’t stay quiet after so many people were killed.”@ “It’s a shame.@ I always liked the atmosphere after school.”
+`Of course, there would be no more such incidents.@
+`With Yumizuka gone, no more victims would appear—but no one would believe me if I said so.@
+`“…@I suppose parents couldn’t stay quiet after so many people were killed.”@
+`“It’s a shame.@ I always liked the atmosphere after school.”
 \
 bg "bg/bg_01b",lshutter,800
-`We reached the school gate.@ “What…?”@ At that same instant, my eyes met those of the last person I expected to see.@
+`We reached the school gate.@
+`“What…?”@
+`At that same instant, my eyes met those of the last person I expected to see.@
 ld l,"tachi/aki_t21",lshutter,800
-`“Honestly, Brother.@ You leave school remarkably late.”@ “A-Aki—”@ Before I could finish her name, Ciel caught up with me.@
+`“Honestly, Brother.@ You leave school remarkably late.”@
+`“A-Aki[line=3]”@
+`I almost called her name and managed to stop myself.@
 ld r,"tachi/cel_t01a",crossfade,400
-`“Tohno?”@ Ciel called when she saw me stop.
+`“Tohno?”@
+`Ciel called when she saw me stop.
 \
 ld l,"tachi/aki_t01a",crossfade,400
-`One glance told Akiha that Ciel and I had been leaving together.@ She surveyed us both with open accusation.@ “Akiha, what are you doing here?”@ “I came so we could walk home together.”@ Her reply arrived on an icy glare.@ “Tohno, is this your sister?”@ Ciel gave Akiha a sidelong glance.@ Neither said so aloud, but both were plainly demanding an introduction with their eyes.@
+`One glance told Akiha that Ciel and I had been leaving together.@
+`She surveyed us both with open accusation.@
+`“Akiha, what are you doing here?”@
+`“I came so we could walk home together.”@
+`Her reply arrived on an icy glare.@
+`“Tohno, is this your sister?”@
+`Ciel gave Akiha a sidelong glance.@
+`Neither said so aloud, but both were plainly demanding an introduction with their eyes.@
 br
-`[line=4]I sighed.@ This promised to become exhausting.
+`[line=4]I sighed.@
+`This promised to become exhausting.
 \
-`“This is my sister, Akiha.@ She transferred to our school today.”@ Akiha bowed politely.@ “I see.@ Hello.@ I’m Ciel, a friend of your brother’s.”@
+`“Akiha, allow me to introduce her.@ This is Ciel, a senior at our school.”@
+`“…”@
+`“I see.@ Hello, I’m Ciel, a friend of your brother’s.”@
 ld l,"tachi/aki_t11a",crossfade,400
 ld r,"tachi/cel_t07a",crossfade,400
-`What was this?@ Ciel and Akiha only stared at one another, neither speaking.
+`What was this?@
+`Ciel and Akiha only stared at one another, neither speaking.
 \
-`“Akiha, I promised to help Ciel with some shopping today, so…”@
+`“Akiha.@ I promised to help Ciel with some shopping today, so[line=3]”@
 ld l,"tachi/aki_t01a",crossfade,400
-`“Is that true?”@ Before I could finish by asking her to go home without me, Akiha cut in and addressed Ciel directly.@
+`“Is that true?”@
+`Before I could finish by asking her to go home without me, Akiha cut in and addressed Ciel directly.@
 ld r,"tachi/cel_t04",crossfade,400
 `“Yes.@ But we can always go another time.@ You should be nicer to your sister, Tohno.”@
 cl r,lshutter,800
 `With a brief goodbye, Ciel walked away in the opposite direction.
 \
-`“Ah—”@ Before I could stop her, Ciel had already pattered off.@ “Let’s go home, Brother.@ It will be dark soon.”@ Akiha said it with perfect composure, as though nothing whatsoever had happened.
+`“Ah[line=3]”@
+`I lowered my hand before I could raise it.@
+`“Let’s go home, Brother.@ It will be dark soon.”@
+`Akiha started walking, paying Ciel no further attention.
 \
 bg #000000,lcartain,800

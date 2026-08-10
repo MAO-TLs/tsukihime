@@ -1,150 +1,250 @@
 phase "bg/bg_33d",r,ark,05a,5
 bg #ffffff,crossfade,800
-`I feel the morning light.@ Though my eyes are closed and I am sunk in sleep, the gentle sun coaxes my muddled consciousness toward waking.@
+`I feel the morning light.@
+`Though my eyes are closed and I am sunk in sleep, the gentle sun coaxes my muddled consciousness toward waking.@
 br
 `[line=3]Little by little, my awareness becomes my own again.
 \
-`Everything is quiet.@ The air is pleasantly cool, yet soft against my skin.@ It seems today is going to be as beautiful as any day could possibly be.@
+`Everything is quiet.@
+`The air is pleasantly cool, yet soft against my skin.@
+`It seems today is going to be as beautiful as any day could possibly be.@
 br
 `[line=3]Then I have to get up and go to school—
 br
-`That’s right.@ School.@ For the past two days, my life has been so completely insane that I almost forgot I was a student—
+`I have to go to school.@
+`For the past two days, my life has been so completely insane that I almost forgot I was a student—
 \
 bg "bg/bg_40e",crossfade,800
 play "*2"
-`“…”@ I wake.@ I’m lying in bed, my glasses beside the pillow.@ Without thinking, I put them on and let my gaze drift around the room.@
+`“…”@
+`I wake.@
+`I’m lying in bed, my glasses beside the pillow.@ Without thinking, I put them on and let my gaze drift around the room.@
 bg "bg/bg_40a",crossfade,400
 `The sunlight pouring through the window is so pure it seems to whisper, Come on.
 \
-`“…”@ I breathe out softly.@ Fresh air fills my lungs, washing the inside of my chest clean.@ The clock ticks.@ Birds call from the woods outside.@ I lie in my warm bed, doing nothing, immersed in the slow passage of time.@
+`“…”@
+`I breathe out softly.@
+`Fresh air fills my lungs, washing the inside of my chest clean.@
+`The clock ticks,
+`Birds call from the woods outside.@
+`I lie in my warm bed, doing nothing, immersed in the slow passage of time.@
 br
-`[line=5]Ah.@ I’ve come back.@
+`[line=5]Ah, I’m back.@
 br
-`It is only an ordinary morning.@ Yet now it feels so…@ sacred.
+`It is only an ordinary morning.@
+`Yet now it feels so sacred.
 \
-`“What a relief.”@ Truly.@ Not because I’m alive, or because we somehow defeated the vampire in the black coat.@ Because even after being dragged into that other world, I made it back to this ordinary life—and can still feel the simple happiness of this morning.@
+`“What a relief.”@
+`Truly.@
+`Not because I’m alive, or because we somehow defeated the vampire in the black coat.@
+`Because even after being dragged into that other world, I made it back to this ordinary life—and can still feel the simple happiness of this morning.@
 br
-`[line=3]And then—
+`[line=3]And then.@
 br
 ld c,"tachi/his_t01",notrans,0
 `“Good morning, Master Shiki.”
 \
-`“Waaaaah!”@ I bolt upright in bed.@ Hisui is standing motionless at its foot.@ “H-H-Hisui—”@ “…@My apologies.@ You did not appear to notice me, Master Shiki, so I took the liberty of addressing you.”@ “Ah—right.@ No, I’m the one who should apologize.”@ Hisui bows with grave formality.@
+`“Waaaaah!”@
+`I bolt upright in bed.@
+`Hisui is standing motionless at its foot.@
+`“H-H-Hisui[line=3]”@
+`“My apologies.@ You did not appear to notice me, Master Shiki, so I took the liberty of addressing you.”@
+`“Ah[line=3]right, no, I’m the one who should apologize.”@
+`Hisui bows with grave formality.@
 br
-`[line=3]That scared me half to death.@ My heart is still pounding in panic.
+`[line=3]That scared me half to death.@
+`My heart is still pounding in panic.
 \
-`“Wait, isn’t it still before seven, Hisui?”@ “Yes.@ It is somewhat earlier than you usually wake, Master Shiki.”@ “Right, but then what are you doing here?”@ “I came to wake you.@ Miss Akiha wishes to discuss the past two days and instructed me to bring you to her, even if I had to use a lever.”@ “Ah.”@ …@I forgot.@ I skipped school on Saturday, then spent all of Sunday with Arcueid.
+`“Wait.@ Isn’t it still before seven, Hisui?”@
+`“Yes.@ It is somewhat earlier than you usually wake, Master Shiki.”@
+`“Then what are you doing here?”@
+`“I came to wake Master Shiki.@ Miss Akiha wishes to discuss the past two days and ordered me to bring Master Shiki to her, even if I had to use a lever.”@
+`“Ah[line=5]”@
+`I had forgotten.@
+`I skipped school on Saturday, then spent all of Sunday with Arcueid.
 \
-`“…@Is Akiha angry, by any chance?”@ “I could not say, Master Shiki.@ You may judge that for yourself when you see her.”@
+`“Is Akiha angry, by any chance?”@
+`“I could not say, Master Shiki.@ You may judge that for yourself when you see her.”@
 br
 `[line=3]Hisui’s voice is positively glacial.@
 br
-`“…@Wait.@ Before that, why am I asleep in my own room?”@ “You returned shortly after two last night, Master Shiki.@ My sister found you asleep at the front entrance and carried you here.”
+`“Wait.@ Before that, why am I asleep in my own room?”@
+`“You returned shortly after two last night, Master Shiki.@ My sister found you asleep at the front entrance and carried you here.”
 \
 cl c,crossfade,400
-`“Wh—”@ My mouth hangs open.@ This is bad.@ I vanished for two days, came home in the middle of the night, then passed out in the entryway like some common drunk!@
+`“Wh[line=8]”@
+`My mouth hangs open.@
+`This is bad[line=3]I vanished for two days, came home in the middle of the night, then passed out in the entryway like some common drunk!@
 br
-`“That woman…@ dumping me there like some stray cat…”@ Arcueid’s face comes to mind.@ Still, perhaps I ought to be grateful she carried me as far as the entrance.
+`“That woman[line=3]dumping me there like some stray cat[line=3]”@
+`Arcueid’s face comes to mind.@
+`Still, perhaps I ought to be grateful she carried me as far as the entrance.
 \
-`“All right.@ I’ll be there in a minute, so could you tell Akiha to, um…@ remain as calm as possible?”@
+`“All right.@ I’ll be there in a minute, so could you tell Akiha to remain as calm as possible?”@
 ld c,"tachi/his_t01",crossfade,400
-`“I decline.”@ Hisui’s answer is immediate and absolute.@ …@Could she be angry with me too?
+`“I decline.”@
+`Hisui’s answer is immediate and absolute.@
+`…@Could she be angry with me too?
 \
 cl c,crossfade,400
-`“…”@ Great.@ Out of one disaster and into the next.@ Akiha is mistress of this house, so if she’s angry, does that mean nobody here is on my side?@
+`“…”@
+`Great, out of one disaster and into the next.@
+`Akiha is mistress of this house, so if she’s angry, does that mean nobody here is on my side?@
 br
-`Well, first things first: get up.@ Nothing will improve while I lie here hiding in bed.
+`Well, first things first: get up.@
+`Nothing will improve while I lie here hiding in bed.
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_40a",crossfade,400
-`“Ngh…!”@ It hurts.@ The instant I stand, pain tears through my entire body, as though every joint and bone is grinding.@
+`“Ngh…!”@
+`It hurts.@
+`The instant I stand, pain tears through my entire body, as though every joint and bone is grinding.@
 br
-`“Yesterday’s…@ wounds.”@ Of course.@ If anything should surprise me, it’s that I’m alive.@ After losing so much blood and taking injuries like those, the truly unnatural thing is that I woke to an ordinary morning at all.
+`“Yesterday’s[line=3]wounds”@
+`If anything should surprise me, it’s that I’m alive.@
+`After losing so much blood and taking injuries like those, the truly unnatural thing is that I woke to an ordinary morning at all.
 \
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki, that’s—”@ …@That’s unusual.@ Hisui is staring at me, eyes wide.@ “What?@ Is something wrong with—”@ I look down at myself.@ And—
+`“Master Shiki, that’s[line=3]”@
+`That is unusual.@
+`Hisui is staring at me, eyes wide.@
+`“What, is something wrong[line=3]”@
+`I look down at myself.@
+`And[line=3]
 br
-`“Wh-what is this…?”@ Red blotches cover my pajamas.@ They are obviously no part of the design.@ Blood is seeping from wounds all over my body.
+`“Wh-what is this…?”@
+`Red blotches cover my pajamas.@
+`They are obviously no part of the design; blood is seeping from wounds all over my body.
 \
-`“…”@ Hisui stifles whatever sound was about to escape her.@
-`[line=2]I’m grateful; her restraint helps me regain my own.@ The cause of the bleeding is obvious, but I can hardly tell her the truth.@ A well-meant lie is my only way out.
+`“…”@
+`Hisui stifles whatever sound was about to escape her.@
+`[line=2]I’m grateful.@
+`Her restraint helps me regain mine.@
+`The cause of the bleeding is obvious.@
+`But I can hardly tell her the truth, so a well-meant lie is my only way out.
 \
-`“Master Shiki, your body—”@ “…@I’m all right.@ It doesn’t hurt.@ You know how I came home late last night?@ I was in a fight, and that’s why it took me so long.@ These cuts are from that, but they’re only scratches.@ Nothing worth making a fuss over.”@ “…”@ Hisui’s eyes say plainly, Please do not lie to me.@ Yet her position must prevent her from challenging me.@ I’m sorry, but I have no choice except to force this transparent lie through.
+`“Master Shiki, your body[line=3]”@
+`“I’m all right; it doesn’t hurt.@ You know how I came home late last night?@ I was in a fight, and that’s why it took me so long.@
+`These cuts are from that, but they’re only scratches—not worth making a fuss over.”@
+`“[line=6]”@
+`Hisui’s eyes say plainly, Please do not lie to me.@
+`Yet her position must prevent her from challenging me.@
+`I’m sorry, but I have to make her accept this obvious lie.
 \
-`“So, um…@ could you keep this from Akiha?@ She’d probably be furious if she knew I’d been fighting.”@
+`“So, could you keep this from Akiha?@ She’d probably be furious if she knew I’d been fighting.”@
 ld c,"tachi/his_t01",crossfade,400
-`“Very well.@ I will say nothing to Miss Akiha.”@ Hisui gives a small nod.
+`“Very well.@ I will say nothing to Miss Akiha.”@
+`Hisui gives a small nod.
 \
 `“Thanks.@ And since I’m already asking favors, do we have any antiseptic?@ I scraped myself up all over, so I’d like to patch myself up.”@
 ld c,"tachi/his_t05",crossfade,400
-`“Ah…@ Yes.@ I will bring it at once.”@
+`“Ah[line=5]yes, I’ll bring it at once.”@
 cl c,lshutter,400
 \
-`“…?”@ What was that?@ For a moment, Hisui looked intensely uncomfortable.@ Still, I’m glad she’ll bring medicine.@ Once I have the first-aid kit, I can manage alone.@ The pain is faint; I only need something that will stop the blood from showing.
+`“…?”@
+`What was that?@
+`For a moment, Hisui looked intensely uncomfortable.@
+`Still, I’m glad she’ll bring medicine.@ Once I have the first-aid kit, I can manage alone.@
+`The pain is faint; I only need something that will stop the blood from showing.
 \
 bg #000000,lshutter,800
 bg "bg/bg_40a",lshutter,800
 ld c,"tachi/koha_t02",lshutter,400
-`“Sorry to keep you waiting!”@ The door opens, but the person who enters is Kohaku, not Hisui.@ She carries a wooden box marked with a red cross.
+`“Sorry to keep you waiting!”@
+`The door opens, but the person who enters is Kohaku, not Hisui.@ She carries a wooden box marked with a red cross.
 \
-`“Huh?@ Kohaku?”@
+`“Kohaku[line=3]?”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Yes.@ Hisui told me everything.@ I hear you were fighting outside, Shiki.”@ “Ah…@ no, that isn’t exactly…”@ But there is no other way to explain it.@
+`“Hisui told me everything.@ I hear you were fighting outside, Shiki.”@
+`“No, that isn’t exactly[line=3]”@
+`But there is no other way to explain it.@
 ld c,"tachi/koha_t04",crossfade,400
 `“You really mustn’t do that.@ High spirits are one thing, but violence is wrong.@ It only hurts the person who gets hit and the person who does the hitting.”
 \
-`It only hurts the one who hits and the one who gets hit.@ Such a simple thing, yet Kohaku’s words sink deep into my chest.@
+`It only hurts the one who hits and the one who gets hit.@
+`Such a simple thing, yet Kohaku’s words sink deep into my chest.@
 br
-`“…@Yeah.@ You’re right.@ A fistfight does nothing but hurt people.”@
+`“Yeah.@ You’re right.@ A fistfight does nothing but hurt people.”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Exactly.@ And seeing you hurt this badly is terribly disappointing.@ Whatever the circumstances were, if you behave like this, Shiki, I may have to think less of you.”@ Her words cut unexpectedly deep.
+`“Exactly.@ And seeing you hurt this badly is terribly disappointing.@ Whatever the circumstances were, if you behave like this, Shiki, I may have to think less of you.”@
+`Her words cut unexpectedly deep.
 \
 br
-`[line=3]In my heart, I want to apologize.@
+`[line=3]I wanted to apologize with all my heart.@
 br
-`I’m sorry, Kohaku.@ I’m sure I’ve already done more things that would make you think less of me than I could ever count.
+`I’m sorry, Kohaku.@
+`I was sure I had already done more to lose her respect than I could ever count.
 \
-`“You’re right.@ I was an idiot, and I regret it.@ It won’t happen again.”@ “Good.@ If you understand that, then I’m satisfied.@ Now take off your clothes so I can examine the wounds.”@
+`“You’re right.@ I was an idiot, and I regret it; it won’t happen again.”@
+`“Good.@ If you understand that, then I’m satisfied; now take off your clothes so I can examine the wounds.”@
 cl c,lshutter,800
-`“What?”@ Kohaku patters over, catches hold of my pajama shirt, and gives it a firm tug.@ She is telling me to strip naked, right here.
+`“What?”@
+`Kohaku patters over, catches hold of my pajama shirt, and gives it a firm tug.@
+`She is telling me to strip naked, right here.
 \
-`“W-wait!@ You don’t have to go that far!@ They’re only scrapes.@ I just need to disinfect them!”@
+`“W-wait!@ You don’t have to go that far; they’re only scrapes, and I just need to disinfect them!”@
 ld c,"tachi/koha_t04",crossfade,400
-`“What are you talking about?@ You keep calling them scrapes, but these are far worse than that.”@ “I told you, I’m fine.@ I can do it myself.”@ “No.@ You even have wounds all across your back—”@ Seeing them, Kohaku catches her breath.
+`“What are you talking about?@ You keep calling them scrapes, but these are far worse than that.”@
+`“I told you, I’m fine.@ I can do it myself.”@
+`“No.@ You even have wounds all across your back[line=3]”@
+`Seeing them, Kohaku catches her breath.
 \
 ld c,"tachi/koha_t02",crossfade,400
-`“These are terrible.@ Was the opponent in your ‘fight’ a Doberman, Shiki?”@ “…@Yeah.@ Something like that.”@ “…”@ Kohaku sighs in exasperation.@
+`“These are terrible.@ Was the opponent in your ‘fight’ a Doberman, Shiki?”@
+`“Yeah.@ Something like that.”@
+`“…”@
+`Kohaku sighs in exasperation.@
 br
-`“That makes it even more impossible to leave this to you, Shiki.@ Come on, take your clothes off.@ I can hardly treat you through them.”@ “I said I can do it myself!@ The wounds aren’t that serious, so there’s no reason for me to get naked!”
+`“All the more reason I can’t leave this to you, Shiki.@ Come on, take your clothes off.@ I can hardly treat you through them.”@
+`“I said I can do it myself!@ The wounds aren’t that serious, so there’s no reason for me to get naked!”
 \
 ld c,"tachi/koha_t01a",crossfade,400
-`“Aha.@ You’re embarrassed, aren’t you, Shiki?”@ Kohaku grins and begins undressing me anyway.@
+`“Aha.@ You’re embarrassed, aren’t you, Shiki?”@
+`Kohaku grins and begins undressing me anyway.@
 br
-`“I’m quite accustomed to seeing your body, Shiki.@ Now be good and take off your clothes.”@ “…@Accustomed to it?”@ “I changed your clothes once before, Shiki.@ I even know exactly where the mole on your back is.”@ “Wh-wh-wh-what?”@ “Come along, we haven’t much time.@ If this takes too long, Miss Akiha will notice.”
+`“I’m quite accustomed to seeing your body, Shiki.@ Now be good and take off your clothes.”@
+`“You’re accustomed to it, Kohaku?”@
+`“I changed your clothes once before, Shiki.@ I even know exactly where the mole on your back is.”@
+`“Wh-wh-wh-what?”@
+`“Come along, we haven’t much time.@ If this takes too long, Miss Akiha will notice.”
 \
-`[line=3]Urgh.@ She has me there.@ Even so, getting naked in front of Kohaku is a little…@
+`[line=3]Urgh.@
+`She has me there.@
+`Even so, getting naked in front of Kohaku is a little[line=3]
 br
 ld c,"tachi/koha_t03",crossfade,400
-`“…@Very well.@ I’ll examine only your upper body.@ Surely there’s nothing embarrassing about that?”@ It is still plenty embarrassing, but this must be the furthest she is willing to compromise.@
+`“Very well.@ I’ll examine only your upper body.@ Surely there’s nothing embarrassing about that?”@
+`It is still plenty embarrassing, but this must be the furthest she is willing to compromise.@
 cl c,crossfade,800
-`“…@All right.@ Please.”@ I perch on the edge of the bed and remove my shirt.
+`“All right.@ Please.”@
+`I perch on the edge of the bed and remove my shirt.
 \
-`Kohaku begins treating me with practiced ease.@ She tends not only my arms and shoulders, but every wound across my back.@ The antiseptic stings, though compared with my bouts of anemia or the pain from my old scar, it is nothing.@ Each time she applies it—
+`Kohaku begins treating me with practiced ease.@
+`She tends not only my arms and shoulders, but every wound across my back.@
+`The antiseptic stings.@
+`Even so, compared with my bouts of anemia or the pain from my old scar, it is nothing.@
+`Each time she applies it[line=3]
 ld c,"tachi/koha_t05",crossfade,400
 `“Oh, you really are a boy.”@
 cl c,crossfade,400
 `—Kohaku sounds so delighted that perhaps it makes the pain easier to bear.
 \
 ld c,"tachi/koha_t01a",crossfade,400
-`“I’ll put a compress here.@ It may come loose, so let’s bandage it in place.”@ She lays the compress over the bruise on my chest, then winds the bandage around me in smooth, swift loops.@
+`“I’ll put a compress here.@ It may come loose, so let’s bandage it in place.”@
+`She lays the compress over the bruise on my chest, then winds the bandage around me in smooth, swift loops.@
 ld c,"tachi/koha_t03",crossfade,400
-`“There, all finished.@ Are you certain you don’t want me to treat your legs?”@ “Yeah, I can handle those.@ Thanks, Kohaku.@ Sorry for taking up your time when you’re busy.”@ “Please don’t concern yourself with that.@ I’ll return to the kitchen now, so come to the dining room once you’ve finished.”@
+`“There, all finished.@ Are you certain you don’t want me to treat your legs?”@
+`“Yeah, I can handle those.@ Thanks, Kohaku.@ Sorry for taking up your time when you’re busy.”@
+`“Please don’t concern yourself with that.@ I’ll return to the kitchen now, so come to the dining room once you’ve finished.”@
 cl c,crossfade,400
 `Kohaku starts toward the door.
 \
 `“Wait, Kohaku.”@
 ld c,"tachi/koha_t01a",crossfade,400
-`“Yes?”@ “Um…@ I’m sorry.@ You were right.@ Fighting was stupid.@ All I did was cause trouble, and nothing good came of it.”@ “…”@ Kohaku looks at me in surprise, then suddenly breaks into a delighted smile.
+`“Yes?”@
+`“I’m sorry.@ You were right; fighting was stupid.@ All I did was cause trouble, and nothing good came of it.”@
+`“…”@
+`Kohaku looks at me in surprise, then suddenly breaks into a delighted smile.
 \
 ld c,"tachi/koha_t05",crossfade,400
 `“Very well.@ I’ll let you off this once.”@
@@ -153,7 +253,9 @@ cl c,lshutter,800
 \
 bg #000000,lcartain,800
 bg "bg/bg_33a",lcartain,800
-`[line=3]And now I have arrived.@ Beyond this single door lies the sitting room where Akiha is waiting.@ Whatever my reasons, there is no excuse for skipping school without permission and then failing to come home for two whole days.
+`[line=3]And now I’m here.@
+`Beyond this single door lies the sitting room where Akiha is waiting.@
+`Whatever my reasons, there is no excuse for skipping school without permission and then failing to come home for two whole days.
 \
 `I should—
 \

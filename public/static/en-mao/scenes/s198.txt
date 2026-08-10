@@ -2,45 +2,54 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_11c",lcartain,800
-`Naturally, the corridor is deserted.@ The electric lights are dead, leaving only the moonlight through the windows to wash the hall in ghostly blue.@
+`Naturally, the corridor is deserted.@
+`The electric lights are dead, leaving only the moonlight through the windows to wash the hall in ghostly blue.@
 br
 `“…”@
-`Looking out at the night sky, I finally notice: tonight’s moon is as perfectly round as a circle can be.
+`Looking out at the night sky, I finally notice.@
+`Tonight’s moon is as perfectly round as a circle can be.
 \
 `“…”@
-`For a moment I lose myself in it.@ A silver moon, beautiful as blown glass and seemingly fragile enough to crumble at a touch.@
-`A moon like this…@ When I was little.@ At the edge of a coma.@ I think I stared at one just like it.
+`For a moment, I lose myself staring up at the moon.@
+`A silver moon.@
+`Its glasswork beauty seems fragile enough to crumble if I touch it.@
+`A moon like this.@
+`When I was little.@ At the edge of a coma.@ I stared at it.@ Or so I think.
 \
 bg #000000,crossfade,400
 bg "bg/bg_11c",crossfade,400
 play "*6"
 br
-`[line=4]A chill.@
+`[line=4]A chill runs through me.@
 br
 `“Ghh…!?”@
 `The old wound in my chest erupts in pain.
 \
 br
-`[line=4]Thud.@
+`[line=4]Thump.@
 br
-`My heart gives a violent leap.@ Every blood vessel in my body surges awake, throwing my breath out of rhythm.
+`My heart gives a violent leap.@
+`Every blood vessel in my body surges awake, throwing my breath out of rhythm.
 \
 br
 `[line=4]A cold pulse.@
 br
-`I touch my chest.@ My uniform is already wet with brilliant red.@ The wound has opened, and I am bleeding.
+`I touch my chest.@
+`My uniform is already wet with brilliant red.@
+`The wound has opened, and I am bleeding.
 \
 br
-`[line=4]Thud.@
+`[line=4]Thump.@
 br
-`“Hah…@ hah…@ ha…”@
-`My breathing breaks apart.@ My back is ice-cold, and my spine hurts as though it might spear straight through my skin.
+`“Hah—hah—ha”@
+`My breathing breaks apart.@
+`My back is ice-cold, and my spine hurts as though it might spear straight through my skin.
 \
 br
 wave se_01
 `[line=3]A cold pulse.@
 wave se_01
-`[line=3]Thud.@
+`[line=3]Thump.@
 wave se_01
 `[line=3]Chi—
 wave se_01
@@ -52,13 +61,15 @@ br
 `Amid my hammering heartbeat comes another sound—something hard striking the floor.
 \
 `“Ah…”@
-`Someone is coming.@ A figure is walking toward me from the far end of the corridor.@
+`Someone is coming.@
+`A figure is walking toward me from the far end of the corridor.@
 `That click was a footstep.
 \
 `[line=4]Something is wrong.@
 br
-`This isn’t my body reacting to mortal danger as it has before.@ Pain lances through my head.@
-`This pain, this dread—they are directed at my own self.
+`This isn’t my body reacting to mortal danger as it has before.@
+`Pain lances through my head.@
+`This pain.@ This dread is directed at myself.
 \
 br
 br
@@ -68,21 +79,27 @@ br
 br
 `I—Shiki Tohno—feel that this is the one figure I must never meet.
 \
-`“Hah…@ hah…”@
-`With my breath still ragged, I remove my glasses.@ The knife is in my pocket.
+`“Hah—hah”@
+`With my breath still ragged, I remove my glasses.@
+`The knife is in my pocket.
 \
 bg "bg/bg_11d",crossfade,1500
-`The figure advances.@ In the moonlight, it appears to be a man.@
-`A ‘point’ of death pulses like a heart at the center of his body.@ Inside him run countless ‘lines’ of death, tangled together like the wiring in a machine.
+`The figure advances.@
+`In the moonlight, it appears to be a man.@
+`A ‘point’ of death pulses like a heart at the center of his body.@
+`Inside him run countless ‘lines’ of death, tangled together like the wiring in a machine.
 \
 `“…”@
 br
-`My breath stops.@ Something is wrong with my head.@
-`I don’t know that shadow.@ I know I don’t—and still I cannot escape the feeling that he resembles someone.
+`My breath stops.@
+`Something is wrong with my head.@
+`I don’t know that shadow.@
+`I know I don’t—and still I cannot escape the feeling that he resembles someone.
 \
 wave se_08
-`Click.@ Click.@
-`The man comes closer.@ In another moment, I will see his face clearly.@
+`Click, click.@
+`The man comes closer.@
+`In another moment, I will see his face clearly.@
 br
 `“…”@
 br
@@ -94,27 +111,34 @@ br
 `Who have I forgotten—
 \
 ld c,"tachi/roa_t07c",crossfade,1500
-`[line=3]Bloodshot eyes.@ Death everywhere inside his body.@ An inhuman stillness cold enough to freeze the air.@
-`There is no question.@ This thing is not human.@
+`[line=3]Bloodshot eyes.@
+`Death everywhere inside his body.@
+`An inhuman stillness cold enough to freeze the air.@
+`There is no question—this thing is not human.@
 cl c,crossfade,1500
 br
-`Another click brings him closer.@ His eyes never leave me, and his mouth spreads into a soundless grin.
+`Another click brings him closer.@
+`His eyes never leave me, and his mouth spreads into a soundless grin.
 \
 `“—!”@
-`I bring up the knife.@ The blade snaps out.@ The man keeps walking.@
+`I bring up the knife.@
+`The blade snaps out.@
+`The man keeps walking.@
 `There is no time to think, no room to hesitate.
 \
-`Beneath the white moon, I level the knife at the man before me as if moving through slow motion.@
+`Beneath the white moon.@
+`I level the knife at the man before me as if moving through slow motion.@
 `He does not stop.@
 br
-`Slowly—as though time has stopped for me alone.@
+`Slowly.@
+`As though time had stopped for me alone.@
 br
 `The man plucks the knife effortlessly from my hand and flips it into a reverse grip.
 \
 ld c,"tachi/roa_t07b",crossfade,400
 `“Wh—”@
 br
-`My body…@ won’t move.@
+`My body—won’t move—
 br
 `“Shiki…@ Seeing death is not a privilege reserved for you alone.”@
 br
@@ -122,10 +146,13 @@ br
 br
 `[line=4]A cold pulse.@
 br
-`My spine freezes.@ My brain turns to ice.@ My body remembers this pain.@ The same thing has been done to it before.
+`My spine freezes.@
+`My brain turns to ice.@
+`My body remembers this pain from the last time the same thing happened.
 \
 `“Ah…”@
-`There is a wet rip of flesh.@ The knife he stole from me drives deep into my own chest.
+`There is a wet rip of flesh.@
+`The knife he stole from me drives deep into my own chest—
 \
 playstop
 wave se_01
@@ -133,43 +160,55 @@ bg #9c0120,crossfade,400
 bg "bg/bg_11c",crossfade,400
 `My body pitches forward.@ All strength drains from me, and I crumple toward the floor.@
 br
-`Something like a strip of white cloth flutters down.
+`With a soft flutter.@
+`Something like a strip of white cloth falls.
 \
-`[line=3]I must have fallen against him just before the blade entered me.@ As I collapse, my hand catches and unravels one of the bandages wrapped around his body.
+`[line=3]I must have fallen against him just before the blade entered me.@
+`As I collapse, my hand catches and unravels one of the bandages wrapped around his body.
 \
 `“I see.@ You want to look upon my true face, Shiki.”@
-`With that, the man begins tearing away the bandages himself.@
+`With those words.@
+`The man begins tearing away the bandages himself.@
 ld c,"tachi/roa_t04c",crossfade,400
 wave se_01
 `“…”@
-`The world goes black.@ That face—I know that face.@ I know I do.
+`The world goes black.@
+`That face—I know that face.@ I know I do.
 \
 bg #ffffff,crossfade,400
 bg "bg/cmo_06",crossfade,400
-`[line=3]Of course he looked familiar.@ His face is far too much like the boy who lay bleeding before me on that sweltering summer day.
+`[line=3]Of course he looked familiar.@
+`His face is far too much like the boy who lay
+`bleeding before me on that sweltering summer day.
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_11c",crossfade,400
 waveloop se_02
-`I strike the floor with a thud, the knife still buried in my chest.@ Strangely, there is neither pain nor blood.@ Only my temperature falling, my consciousness fading by degrees.@ Control of my body—everything—slips away.
+`I strike the floor with a thud.@
+`The knife remains buried in my chest.@
+`Strangely, there is neither pain nor blood.@
+`Only my temperature is falling.@ My consciousness is fading by degrees.@
+`Control of my body—everything—slips away.
 \
 ld c,"tachi/roa_t04c",crossfade,400
 `“The debt I owed you for killing me has now been repaid.”@
-`The man looks down at me as he speaks.@ I stare up into a face I remember.@
+`The man looks down at me as he speaks.@
+`I look up at his face.@ I have seen this man before.@
 br
-`[line=3]No.@ Of course I remember it.
+`[line=3]No—of course I had seen him before.
 \
 bg #ffffff,crossfade,400
 bg "bg/cmo_06",notrans,0
 bg "bg/bg_11c",crossfade,400
 `How could I ever have forgotten?@
 br
-`When we were children, there had been three of us playing at the Tohno mansion: me, Akiha, and one other child.
+`When we were children.@
+`There had been three of us playing at the Tohno mansion: me, Akiha, and one other child.
 \
-`We were always together.@ Always.@ Whenever Akiha came to play, he and I would welcome her together.@
-`So how—how had I forgotten his name until now?
+`We had always been together.@
+`Whenever Akiha came to play, he and I would welcome her together, so why—why had I forgotten his name until now?
 \
-`“SHI…@KI.”@
+`“SHI—KI”@
 ld c,"tachi/roa_t04c",crossfade,400
 `“That’s right, Shiki.@ It has been a very long time.”@
 `The man—SHIKI—curls his lips in satisfaction.@
@@ -178,20 +217,23 @@ br
 br
 `The meaningless remains of a child’s scribble.
 \
-`“That’s…@ impossible.”@
+`“That’s—impossible.”@
 `“Sorry, Shiki.@ I still have a few grievances for you to hear, so I made sure to miss your ‘point’ by a little.@
 `Without instant death, you should remain conscious a while longer.@ Don’t disappear on me too quickly.”@
 br
-`That hateful laugh carries the same revulsion I learned so well in the battle with Nrvnqsr.@ Through my fading consciousness, I understand.@
+`That hateful laugh carries the same revulsion I learned so well in the battle with Nrvnqsr.@
+`Through my fading consciousness, I understand.@
 `This is Arcueid’s enemy.
 \
 ld c,"tachi/roa_t01a",crossfade,400
 `“Now, I think I’ll keep that knife.@ You’ll have no need of it once you vanish.”@
 br
-`His hand reaches for the knife embedded in my chest and closes around the hilt.@
-`The instant he pulls it free, I will die.@ There is no doubt of that.@
+`His hand reaches for the knife embedded in my chest.@
+`His fingers close around the hilt.@
+`The instant he pulls it free, I will die—there is no doubt of that.@
 br
-`But I can do nothing.@ My body refuses to move so completely that I cannot even close my eyes.
+`But I can do nothing.@
+`My body refuses to move so completely that I cannot even close my eyes.
 \
 bg #000000,lshutter,400
 wave se_12
@@ -199,21 +241,23 @@ bg "bg/bg_11c",notrans,0
 quakey 2,100
 waveloop se_02
 `“Ghh…!?”@
-`He flies backward.@ Without warning, SHIKI’s body hurtles away as though struck by a car.@
+`He flies backward.@
+`Without warning, SHIKI’s body hurtles away as though struck by a car.@
 br
 `At the same instant, a figure in black vestments appears.@
 br
 `Though we are on the third floor, she has made her entrance by smashing through a corridor window.
 \
 `“Damn you…!”@
-`After being thrown several meters, SHIKI slowly rights himself.@ His stare moves from me, sprawled on the floor, to Ciel standing over me like a shield.
+`After being thrown several meters, SHIKI slowly rights himself.@
+`His stare moves from me, sprawled on the floor, to Ciel standing over me like a shield.
 \
 ld c,"tachi/roa_t05a",crossfade,400
-`“You…@ Once was not enough for you?@ You would interfere with me twice?”@
+`“You—you have interfered with me not once, but twice.”@
 cl c,crossfade,400
 ld c,"tachi/cel_t06b",crossfade,400
 `“…”@
-`Ciel says nothing.@ She only glares at SHIKI.@
+`Ciel says nothing and only glares at SHIKI.@
 cl c,crossfade,400
 `SHIKI lowers his stance, ready to spring at her.
 \
@@ -222,33 +266,39 @@ br
 br
 br
 br
-`[line=4]Then…@
+`[line=4]Then.@
 br
 `As though he has suddenly realized something, SHIKI begins to laugh.
 \
 ld c,"tachi/roa_t04c",crossfade,400
-`“Heh…@ ha ha…@ ahahahahahaha!”
+`“Heh, ha ha, ahahahahahaha!”
 \
-`“So that’s it, woman!@ I scarcely believed it possible, but it is true!@ How fascinating.@ In eight hundred years of repetition, this has never happened before…!@
+`“So that’s it, woman!@ I scarcely believed it possible, but it is true!@ How fascinating—this has never happened before in eight hundred years of repetition…!@
 `Yes, this time the story may truly unfold differently…!”@
-`SHIKI goes on laughing in wholehearted delight.@ Ciel merely stares in silence at the vampire before her.
+`SHIKI goes on laughing in wholehearted delight.@
+`Ciel merely stares in silence at the vampire before her.
 \
-`“What is wrong?@ You came to kill me, did you not?@ Or is an empty shell incapable of even that?”@
+`“What is wrong?@ You came to kill me, did you not?@ Or what?@ Is an empty shell incapable even of that?”@
 `“…”@
-`Ciel does not answer.@ She turns her eyes from the vampire, bends down, and gathers my fallen body into her arms.
+`Ciel does not answer.@
+`She turns her eyes from the vampire, bends down, and gathers my fallen body into her arms.
 \
 `“So.@ That counterfeit matters more to you than severing the bond between us.@
 `Your effort is wasted.@ He cannot be saved.@ I have merely returned everything Shiki Tohno has done as he pleased.@
 `Anything whose line of death has been severed is beyond all treatment.@ Even that princess had no choice but to pay eight hundred years to restore herself.@
-`A mere human like him has no means of escaping death.”@
+`[line=3]A mere human like him has no means of escaping death.”@
 `Only his mocking voice reaches me.
 \
-`Ciel says nothing—not a single word.@ Holding me in her arms, she turns her back on the vampire and leaps through the shattered third-floor window.
+`Ciel says nothing.@
+`In the end, she does not utter a single word.@
+`Holding me in her arms, she turns her back on the vampire and leaps through the shattered third-floor window.
 \
 bg #000000,lcartain,800
-`Three stories of open air seem to mean little to her.@ She touches down with a light tap and races away from the school without looking back.@
+`Three stories of open air seem to mean little to her.@
+`She touches down with a light tap and races away from the school without looking back.@
 br
-`[line=3]All the while, my emptying eyes remain fixed upon the school building at night.
+`[line=3]All the while.@
+`My emptying eyes remain fixed upon the school building at night.
 \
 bg "bg/ima_02",crossfade,400
 `In the third-floor corridor where I had stood moments ago, a long-haired vampire watches us escape with a triumphant smile.@

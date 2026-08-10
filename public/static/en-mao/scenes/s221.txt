@@ -4,50 +4,75 @@ wavestop
 bg "bg/bg_33a",notrans,0
 `[line=3]I’ll try telling her the truth.@
 br
-`I hate lying to Akiha.@ If I explain everything with complete sincerity, perhaps she will understand.@ The odds are roughly the same as winning the lottery, but still.@
+`I hate lying to Akiha, and if I explain everything with complete sincerity, perhaps she will understand.@
+`The odds are roughly the same as winning the lottery, but still.@
 br
-`“All right.@ Here goes.”@ I draw one deep breath and open the door to the sitting room.
+`“[line=3]All right, here goes.”@
+`I fill my lungs and open the sitting-room door.
 \
 bg "bg/bg_34a",lcartain,800
 `Akiha is waiting on the sofa, while Hisui stands against the wall.@
 ld c,"tachi/aki_t02",lshutter,800
 `「[line=3]おはよう兄さん」
-`Akiha fixes me with a glare that all but declares, I am furious.@ “Morning, Akiha!”@ Once a man has resigned himself to disaster, nothing can frighten him.@ I return her bullying stare with the brightest greeting I can muster.
+`Akiha fixes me with a glare that all but declares, I am furious.@
+`“Hey.@ Good morning, Akiha!”@
+`Once a man has resigned himself to disaster, nothing can frighten him.@
+`I return her bullying stare with the brightest greeting I can muster.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“…”@ Perhaps my cheerfulness catches her off guard, because Akiha merely stares.@
+`“[line=4]”@
+`Perhaps my cheerfulness catches her off guard, because Akiha merely stares.@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Brother, enough greetings.@ Sit down, please.@ I have something to discuss with you.”@ “All right, but keep it brief.”@ Meek as a lamb, I lower myself onto the sofa opposite her.
+`“Brother, enough greetings.@ Sit down, please.@ I have something to discuss with you.”@
+`“All right, but keep it brief.”@
+`Meek as a lamb, I lower myself onto the sofa opposite her.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Then let us begin.@ Would you tell me where you were the day before yesterday and yesterday?”@ “Mm.”@ Just as I expected.@ After staying away from home for two days, no excuse could possibly save me.@ I will tell her honestly about the two days I spent with Arcueid.
+`“Then let us begin.@ Would you tell me where you were the day before yesterday and yesterday?”@
+`“[line=5]Mm.”@
+`Just as I expected.@
+`After staying away from home for two days, no excuse could possibly save me.@
+`I will tell her honestly about the two days I spent with Arcueid.
 \
-`“About that, Akiha…”@ “Yes, Brother?”@ “For the last two days, I was exterminating a vampire.@ You know about the serial murders in town, right?@ The killer turned out to be a vampire, so I joined forces with a ‘good vampire’ I happened to meet and fought the ‘bad vampire.@’”@
+`“About that, Akiha.”@
+`“Yes, Brother?”@
+`“For the last two days, I was exterminating a vampire.@ You know about the serial murders in town, right?@ The killer turned out to be a vampire, so I joined forces with a ‘good vampire’ I happened to meet and fought the ‘bad vampire.@’”@
 br
-`[line=5]There.@ A remarkably concise explanation.
+`[line=5]There: a remarkably concise explanation.
 \
 ld c,"tachi/aki_t15a",crossfade,400
-`“Wh—”@ Akiha freezes dead still.@ A reasonable first reaction, I suppose.@ Right now, her mind must be seething with the conviction that I am making a fool of her, and at any moment she will—
+`“Wh[line=7]”@
+`Akiha freezes dead still.@
+`A reasonable first reaction, I suppose.@
+`Right now, her mind must be seething with the conviction that I am making a fool of her, and at any moment she will
 bg #000000,notrans,0
 ld c,"tachi/aki_t07",crossfade,400
-`“Are you making fun of me, Brother?!”@ Yes, she is bound to shout something like that—
+`“Are you making fun of me, Brother?!”@
+`Yes, she is bound to shout something like that[line=3]
 bg "bg/bg_34a",notrans,0
 \
 ld c,"tachi/aki_t10",crossfade,400
-`“…”@ …@What?@ She certainly looks angry, but Akiha says nothing.
+`“…”@
+`What?@
+`She certainly looks angry, but Akiha says nothing.
 \
-`“Um…@ Akiha?”@
+`“Um, Akiha?”@
 ld c,"tachi/aki_t11a",crossfade,400
-`“Brother.@ Was that some particularly tasteless joke?”@ “Urgh.”@ Akiha regards me quietly, her gaze threatening to see straight through my heart.
+`“Brother.@ Was that some particularly tasteless joke?”@
+`“[line=6]Urgh.”@
+`Akiha regards me quietly, her gaze threatening to see straight through my heart.
 \
-`“No…@ I mean, well…”@
+`“No—I mean, well.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“It was a joke, wasn’t it?”@ “I suppose I can’t blame you for taking it that way, but…”@
+`“It was a joke, wasn’t it?”@
+`“I suppose I can’t blame you for taking it that way, but…”@
 ld c,"tachi/aki_t02",crossfade,400
-`“No.@ It was unquestionably a joke.@ In the future, please do not say such things, even in jest.”@
+`“[line=3]No, it was unquestionably a joke.@ In the future, please do not say such things, even in jest.”@
 cl c,crossfade,400
 `Akiha stares at me, looking less angry now than deeply uneasy.
 \
 cl c,crossfade,400
-`Her gaze is so painfully earnest that all I can do is murmur, “…@Mm,”@ and give her an uncertain nod.
+`Her gaze is so painfully earnest that
+`“Mm”@
+`is all I can manage as I give her an uncertain nod.
 \

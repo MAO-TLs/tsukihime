@@ -4,9 +4,18 @@ wavestop
 !w3000
 bg "bg/bg_33d",crossfade,800
 waveloop se_11
-`The door creaks open.@ I have made it back to the mansion, though my body is leaden and my thoughts barely move.@ Scuff.@ Drag.@ Scuff.@ Drag.@ In the moonlight, my long shadow looks like the ghost of some exhausted man.
+`The door creaks open.@
+`I have made it back to the mansion, though my body is leaden and my thoughts barely move.@
+`My footsteps scrape and drag.@
+`In the moonlight, my long shadow looks like the ghost of some exhausted man.
 \
-`“Ngh—!”@ My left arm throbs where Yumizuka tore it open.@ The bleeding stopped long ago.@ A grinding ache remains, but the wound itself cannot be very deep.@ “……”@ I make for the stairs.@ I do not know the first thing about treating a wound.@ All I want is to reach my room one second sooner and sink into oblivion.
+`“Ngh—!”@
+`My left arm throbs where Yumizuka tore it open.@
+`The bleeding stopped long ago.@ A grinding ache remains, but the wound itself cannot be very deep.@
+`“……”@
+`I make for the stairs.@
+`I do not know the first thing about treating a wound.@
+`All I want is to reach my room one second sooner and sink into dreamless sleep—
 \
 bg #000000,crossfade,800
 wavestop
@@ -15,48 +24,89 @@ phase "bg/bg_54b",r,his,04a,4
 bg #ffffff,crossfade,800
 bg "bg/bg_40a",crossfade,400
 play "*2"
-`I wake from a long sleep.@ The sunlight coming through the window belongs more to noon than morning.@ I must have slept late because I came home so late last night.@ It seems I have only just awakened, with midday almost here.
+`I wake from a long sleep.@
+`The sunlight coming through the window belongs more to noon than morning.@
+`I must have slept late because I came home so late last night.@
+`It seems I have only just awakened, with midday almost here.
 \
-`“……”@ I sit up in bed and stare at my hand.@
-`[line=4]I can still feel the moment I stabbed Yumizuka.@ Two nights ago, I met her—and that same night, I had a terrible nightmare.@ “……@I wish yesterday could have been…@ just another dream.”@ But nothing could be that convenient.@ I never learned why Yumizuka had become a vampire, and I could do nothing to save her.
+`“……”@
+`I sit up in bed and stare at my hand.@
+`[line=4]I can still feel the moment I stabbed Yumizuka.@
+`Two nights ago.@
+`I met Yumizuka, and that night I had a terrible nightmare.@
+`“I only wish yesterday had been a dream.”@
+`But nothing could be that convenient.@
+`I never learned why Yumizuka had become a vampire, and I could do nothing to save her.
 \
-`[line=3]No.@ Maybe there had been no saving Yumizuka after what she became.@ She had stopped being alive long before.@ I can understand that much: all I did was turn a corpse that could still walk around like anyone else into a corpse that behaved properly.@
+`[line=3]No.@
+`Maybe there had been no saving Yumizuka after what she became.@
+`She had stopped being alive long before.@
+`I can understand that much: all I did was turn a corpse that could still walk around like anyone else into a corpse that behaved properly.@
 br
 `And yet—
 br
 wave se_04
-`“Excuse me, Master Shiki.”@ The voice has already grown familiar.@ Hisui enters the room.
+`“Excuse me, Master Shiki.”@
+`Hisui enters the room, her voice already familiar to me.
 \
 ld c,"tachi/his_t01",lcartain,800
-`“Good morning, Master Shiki.@ How are you feeling today?”@ “Mm…@ Fine, I think.@ I suppose I have all that sleep to thank.”@ “I see.@ I am relieved to hear it.”@ Coming from someone who does not move so much as an eyebrow, that relief is rather difficult to see.
+`“Good morning, Master Shiki.@ How are you feeling today?”@
+`“Mm—I think all that sleep helped, because I don’t feel bad.”@
+`“I see.@ I am relieved to hear it.”@
+`With her expression perfectly still, she hardly looks relieved.
 \
-`“……”@ But I am relieved.@ Only one night separates me from what happened.@ Somewhere inside, I had already resigned myself to never escaping that world of madness.@ “……@Thanks, Hisui.@ Knowing you, you’ve probably checked on me over and over since morning, haven’t you?@ I appreciate you looking out for me.”@
+`“……”@
+`But I found relief.@
+`Only one night had passed since it happened.@ Somewhere inside, I had resigned myself to never escaping that mad world.@
+`“Thank you, Hisui.@ Knowing you, you probably checked on me again and again this morning, didn’t you?@ I appreciate your concern.”@
 ld c,"tachi/his_t03",crossfade,400
-`“No.@ It is my duty to attend to you, Master Shiki.”@ Something in Hisui’s expression looks almost pleased.
+`“No.@ It is my duty to attend to you, Master Shiki.”@
+`Something in Hisui’s expression looks almost pleased.
 \
-`That tiny change in her face saves me a little.@ I slept here in my own bed, and Hisui came to wake me as she always does.@ Something so small is enough to make me feel that I have truly returned to an ordinary life.
+`That tiny change in her face saves me a little.@
+`I slept here in my own bed, and Hisui came to wake me as she always does.@
+`Something so small is enough to make me feel that I have truly returned to an ordinary life.
 \
 ld c,"tachi/his_t04",crossfade,400
-`“Um…@ Master Shiki, there is something rather difficult I must tell you.@ May I?”@ “Hm?@ What’s so difficult?@ If this is about sleeping past noon, I don’t have a single excuse.@ All I can do is grovel.”@
+`“Master Shiki, there is something difficult for me to say; may I?”@
+`“Hm?@ What could be difficult?@ If this is about sleeping past noon, I have no excuse and can only apologize.”@
 ld c,"tachi/his_t23",crossfade,400
-`“No, it is not that.@ Although the length of time you slept may have some bearing on the matter.”@ Hisui fidgets, uneasily lacing and unlacing her fingers.
+`“No, not that, although it may have something to do with how long Master Shiki slept.”@
+`Hisui fidgets, uneasily lacing and unlacing her fingers.
 \
 ld c,"tachi/his_t04",crossfade,400
-`“……@I am afraid that, through my own inadequacy, Miss Akiha learned what happened last night.”@ “What happened…?@ What do you mean?”@ “That you went out, Master Shiki.”@ “Urk—”@ I look away without meaning to.@ I thought I had covered my tracks, but Hisui saw through me after all.
+`“Through my own failings, Miss Akiha learned about last night.”@
+`“Last night—what do you mean?”@
+`“That you went out, Master Shiki.”@
+`“Urk—”@
+`I look away without meaning to.@
+`I thought I had covered my tracks, but Hisui saw through me after all.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Because you returned before the night was over, Miss Akiha does not appear greatly concerned.@ Even so, she is certain to question you later.@ If you intend to go to the sitting room, please prepare yourself.”@ “……@Right.@ Well, I can hardly complain if she gives me an earful.@ I’m the one who broke curfew.”
+`“Because Master Shiki returned before the night was over, Miss Akiha does not seem overly concerned, though she is certain to question you later.@
+`“If you intend to go to the sitting room, please prepare yourself.”@
+`“I see.@ Well, I can hardly complain if she gives me an earful.@ I’m the one who broke curfew.”
 \
-`“On that subject, should I expect this to happen again?@ I cannot prevent you from leaving, Master Shiki, but if nights like the last one continue, I will be obliged to inform Miss Akiha.”@ “No.@ Nothing like yesterday will happen again.@ It all ended yesterday.@ There won’t be any more phone calls.”
+`“On that subject, should I expect this to happen again?@ I cannot prevent you from leaving, Master Shiki, but if nights like the last one continue, I will be obliged to inform Miss Akiha.”@
+`“—No, nothing like yesterday will happen again.@ It all ended yesterday.@ There won’t be any more phone calls.”
 \
-`[line=3]Yes.@ It really is over.@ Only after saying it aloud does the ending become real.@ Satsuki Yumizuka is gone.@ The vampire that terrorized the city has disappeared, and with my own hands I have lost forever the classmate who told me she loved me.
+`[line=3]Yes.@ It really is over.@
+`Only after saying it aloud does the ending become real.@
+`Satsuki Yumizuka is gone.@
+`The vampire that terrorized the city has disappeared, and with my own hands I have lost forever the classmate who told me she loved me.
 \
 ld c,"tachi/his_t07",crossfade,400
-`“……”@ Hisui watches me with pain in her eyes.@ God, do I look so awful that even she has to make a face like that?@ “Well, it’s getting late.@ I should drag myself out of bed.@ Hisui, is Akiha home today?@ She’s always busy—does she have lessons even on holidays?”@
+`“……”@
+`Hisui watches me with pain in her eyes.@
+`Do I really look so awful that even Hisui has to make that face?@
+`“Well, it’s getting late, so I should get up.@ Hisui, is Akiha home today?@ She’s always busy—does she have lessons even on holidays?”@
 ld c,"tachi/his_t01",crossfade,400
-`“Yes.@ Miss Akiha has an engagement today, despite it being a holiday, but she will remain at the mansion.”@ “……?”@ She has plans, but she is staying here?
+`“Miss Akiha has an engagement today despite the holiday, but she will remain at the mansion.”@
+`“……?”@
+`She has plans, but she is staying here?
 \
-`“I don’t really follow…@ Well, I’ll come to the sitting room once I’m dressed.@ Go on ahead.”@ “Very well.@ If you will excuse me.”@
+`“I don’t quite follow, but I’ll come to the sitting room when I’m dressed, so go on ahead.”@
+`“Very well.@ If you will excuse me.”@
 cl c,lshutter,800
 `As always, Hisui departs without making a sound.@
 br
@@ -65,11 +115,13 @@ br
 `“Hisui.”
 \
 ld c,"tachi/his_t01",lshutter,800
-`“Yes?@ What is it, Master Shiki?”@ “I forgot to say it.@ Thanks for coming to wake me.@ And though it’s late—good morning, Hisui.”@
+`“Yes?@ What is it, Master Shiki?”@
+`“I forgot to say it.@ Thanks for coming to wake me.@ And though it’s late—good morning, Hisui.”@
 ld c,"tachi/his_t03",crossfade,400
 `“Yes.@ I hope you have a pleasant day, Master Shiki.”@
 cl c,lshutter,800
-`Well, then.@ I had better dress quickly and head for the sitting room myself.
+`Well, then.@
+`I had better dress quickly and head for the sitting room myself.
 \
 bg #000000,lcartain,800
 !w1000

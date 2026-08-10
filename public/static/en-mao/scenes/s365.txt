@@ -1,29 +1,40 @@
 phase "bg/bg_36d",l,aki,10a,10
 bg "bg/cmo_20",crossfade,1500
 play "*7"
-`…@How many years ago was that?@
-`It happened after I first came here and spent so long shut away in my room.@ Perhaps it was after I befriended the servant girl and finally began playing outside.@
+`How many years ago was that?@
+`It happened after I first came here and spent so long shut away in my room.@
+`Perhaps it was after I befriended the servant girl and finally began playing outside.@
 br
 `[line=3]I’m sorry, Brother.@
 br
-`In the empty garden, Akiha suddenly began to cry.@ No matter how often I asked what she was apologizing for, all she did was repeat that she was sorry.
+`In the empty garden, Akiha suddenly began to cry.@
+`No matter how often I asked what she was apologizing for, all she did was repeat that she was sorry.
 \
 `[line=3]Because we took everything away from you.@
 br
 `By then, whatever had made Akiha cry was already over and done with as far as I was concerned.@
-`…@It would be a lie to say I felt no resentment.@ But it was not something a little girl of six should feel responsible for, much less apologize so desperately over.@ Akiha had done nothing wrong.
+`It would be a lie to say I felt no resentment.@
+`But it was not something a little girl of six should feel responsible for, much less apologize so desperately over.@ Akiha had done nothing wrong.
 \
 `[line=3]I’m sorry.@ I’m so sorry, Brother.@
 br
-`…@How had I never noticed?@ From the first day we met, Akiha had always been apologizing to me.@ In that vast estate, she was the only girl who cried for my sake.@
+`How had I never noticed?@
+`From the first day we met, Akiha had always been apologizing to me.@
+`In that vast estate, she was the only girl who cried for my sake.@
 br
 `[line=3]Thank you.@ But it’s all right now.@
 br
-`I smiled and stroked Akiha’s hair.@ She stared up at me, bewildered.@ And for the first time, I felt it with all my heart.
+`I smiled and stroked Akiha’s hair.@
+`She stared up at me, bewildered.@
+`And for the first time, I felt it with all my heart.
 \
-`[line=3]You don’t have to cry, Akiha.@ From now on, you and I are brother and sister.@
+`[line=3]You don’t have to cry, Akiha.@
+`From now on, you and I are brother and sister.@
 br
-`…@I remember the joy in Akiha’s smile.@ That was when I swore we would become a true family.@ I was her big brother, and whatever happened, I would protect her.
+`I remember the joy in Akiha’s smile.@
+`That was when I swore we would become a true family.@
+`I was her big brother.@
+`Whatever happened, I would protect her.
 \
 bg #ffffff,crossfade,400
 playstop
@@ -33,61 +44,69 @@ br
 br
 br
 br
-`There was a time when I held on to that resolve as tenderly as a dream.
+`That resolve.@
+`There was a time when I cherished it like a dream.
 \
 !w2000
 bg "bg/bg_40a",crossfade,800
 play "*2"
 `“Mm…”@
-`Morning light wakes me.@ Perhaps because I finally know I’m not a murderer, I had no dreams of killing last night.@
-`“…@But something…”@
-`I feel as though I dreamed of something long ago, from when Akiha and I were still children and did not understand what we were to each other.
+`Morning light wakes me.@
+`Perhaps because I finally know I’m not a murderer, I had no dreams of killing last night.@
+`“But something…”@
+`I have the feeling I dreamed of something long ago.@
+`From when Akiha and I were still children and did not understand what we were to each other[line=3]
 \
 wave se_04
 ld c,"tachi/his_t01",lshutter,800
 `“Pardon me.@ Are you awake, Master Shiki?”@
 `“Morning, Hisui.@ You’re up early again.”@
 ld c,"tachi/his_t04",crossfade,400
-`Hisui bows as she enters.@ As always, she lays out my school uniform and wishes me good morning.
+`Hisui bows as she enters.@
+`As always, she lays out my school uniform and wishes me good morning.
 \
 ld c,"tachi/his_t17",crossfade,400
 `“When did you return last night, Master Shiki?@ Miss Akiha was waiting for you in the sitting room.”@
-`“…@Oh.@ I was tired yesterday.@ I knew Akiha was there, but I went straight back to my room.”@
+`“Oh, I was tired yesterday.@ I knew Akiha was there, but I went straight back to my room.”@
 cl a,crossfade,400
 `The answer leaves me sick with self-loathing.@
-`…@Last night, after parting from Ciel, I returned to the estate and fled to my room as though running away from Akiha.
+`…@Last night, after parting from Ciel,
+`I returned to the estate and went straight to my room to avoid Akiha.
 \
-`For all my frantic insistence that Ciel was wrong, I was too afraid to confront Akiha myself.@ I could never ask her, “Are you the vampire?”@ And if she gave me the worst possible answer, I would have no idea what to do.@ With thoughts like that in my head, there was no chance I could face her and carry on a normal conversation.
+`For all my frantic insistence that Ciel was wrong, I was too afraid to confront Akiha myself.@
+`I could never ask her outright whether she was the vampire; if her answer was the worst possible one, I would have no idea what to do.@
+`With thoughts like that in my head, there was no chance I could face her and carry on a normal conversation.
 \
-`“Hisui, is Akiha already in the sitting room?”@
+`“Hisui.@ Is Akiha already in the sitting room?”@
 ld c,"tachi/his_t01",crossfade,400
-`“Yes, Master Shiki.@ She has been waiting for you for some time.”@
-`“…@I see.@ That’s a problem.”@
+`“Yes, Master Shiki; she has been waiting for you for some time.”@
+`“I see.@ That is a problem.”@
 `Right now, I have no confidence that I can be alone with her and behave as usual.@ Even an ordinary greeting feels beyond me.@
-`“Hisui, could you stay with me today?@ Only until I leave the house.@ I’d like you beside me.”@
+`“Hisui, could you stay with me today?@ Only until I leave the house; I would like you beside me.”@
 ld c,"tachi/his_t17",crossfade,400
-`“…”@
-`Her expression does not change, but Hisui catches her breath and stares at me.
+`“[line=8]”@
+`Her expression does not change,
+`but Hisui catches her breath and stares at me.
 \
 ld c,"tachi/his_t16b",crossfade,400
-`“Certainly.@ I will remain with you until you depart, Master Shiki.”@
+`“[line=3]Certainly.@ I will remain with you until you depart, Master Shiki.”@
 `She bows deeply, accepting my request.
 \
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
 `Akiha and Kohaku are having tea together in the sitting room.@
-`“Morning, you two.”@
+`“Hey.@ Good morning, you two.”@
 `Somehow, I manage to make it sound natural.@
 ld c,"tachi/aki_t01a",crossfade,400
 `“…”@
-`Perhaps she is angry that I went straight to my room last night without speaking to her.@ Akiha merely glances at me and says nothing.
+`Perhaps angry that I went straight to my room last night without speaking to her, Akiha merely glances at me and says nothing.
 \
 cl a,crossfade,400
 ld c,"tachi/koha_t01a",crossfade,400
 `“Good morning, Shiki.@ How unusual to see you come down with Hisui.”@
-`“…@I’m feeling a little unwell today, so I asked her to come with me.@ It would be dangerous if I got dizzy on the stairs.”@
+`“I’m feeling a little unwell today, so I asked her to come with me.@ It would be dangerous if I got dizzy on the stairs.”@
 ld c,"tachi/koha_t05",crossfade,400
-`“My, my.@ Hisui, someone certainly relies on you.”@
+`“My, my.@ He certainly relies on you, Hisui.”@
 cl a,crossfade,400
 ld c,"tachi/his_t02",crossfade,400
 `“…”@
@@ -99,25 +118,28 @@ ld c,"tachi/koha_t01a",crossfade,400
 cl a,lshutter,400
 `Kohaku heads for the kitchen.@
 `“…”@
-`Akiha says nothing.@ The atmosphere painfully awkward, I lower myself onto the sofa.
+`Akiha says nothing.@
+`I sit down on the sofa amid the awkward silence.
 \
 `…@
 `……@
 `………@
-`An uncomfortable silence takes possession of the room.
+`An uncomfortable silence settles over the room.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“Brother.”@
-`“Mm?@ What is it, Akiha?”@
+`“Mm[line=3]what is it, Akiha?”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“You said you weren’t feeling well.@ Are you all right…?”@
+`“You said you were not feeling well; are you all right…?”@
 `“It’s nothing serious.@ Certainly nothing you need to worry about.”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“…@I see.@ Then I suppose it’s fine.”@
+`“I see.@ Then I suppose it is fine.”@
 `Akiha looks away, plainly uncomfortable.
 \
 `“…?”@
-`Something is wrong with her.@ Last night is clearly on her mind, but she is not acting like herself.@ Normally, Akiha would at least demand to know why I hadn’t spoken to her.@ Instead she keeps fidgeting, unable to settle.
+`Something is wrong with her.@
+`Last night is clearly on her mind, but she is not acting like herself.@
+`Normally, Akiha would at least demand to know why I had not spoken to her; instead, she keeps fidgeting, unable to settle.
 \
 `“Um, Akiha?”@
 ld c,"tachi/aki_t17a",crossfade,400
@@ -126,22 +148,23 @@ br
 `[line=4]We both speak at once.@
 br
 ld c,"tachi/aki_t19",crossfade,400
-`“Oh—yes.@ What is it, Brother?”@
+`“Oh, yes.@ What is it, Brother?”@
 `“No, what were you going to say?”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“…@No.@ I just felt like calling out to you.”@
+`“No, I only wanted to call your name[line=3]”@
 `“…”@
 `Now I understand even less.
 \
-`“Miss Akiha!@ Master Shiki!@ Breakfast is ready!”@
+`“Miss Akiha, Master Shiki!@ Breakfast is ready!”@
 `Kohaku’s voice carries from the dining room.@
 `“You heard her.@ Shall we go, Akiha?”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Yes.@ Let’s go, Brother.”
+`“[line=3]Yes, let’s go, Brother.”
 \
 cl a,crossfade,400
 `Akiha is strangely meek this morning.@
-`…@And that only makes me despise myself more.@ Moments ago I was complaining that I couldn’t face her, yet now I find myself wishing I could talk a little longer with this quieter Akiha.
+`That only makes me despise myself more.@
+`Moments ago I was complaining that I could not face her, yet now I find myself wishing I could talk a little longer with this quieter Akiha.
 \
 bg #000000,lcartain,800
 bg "bg/bg_32a",lcartain,800
@@ -151,52 +174,60 @@ ld c,"tachi/his_t01",crossfade,400
 \
 `“It’s Saturday, so I’ll be home early.@ But you don’t have to wait here.@ I might go out with friends afterward, so relax inside the estate until I return.”@
 ld c,"tachi/his_t16",crossfade,400
-`Hisui bows with a quiet “Very well.”@ I wave to her and leave the estate grounds.
+`Hisui bows her agreement, and I wave to her as I leave the estate grounds.
 \
 bg "bg/bg_22a",lcartain,800
 `“…”@
-`Now comes the real problem: the entire walk from here to school.@
+`Now comes the real problem.@ The entire walk from here to school.@
 ld c,"tachi/aki_t12a",crossfade,400
 `“…”@
-`Akiha walks silently beside me.@ I’m grateful she isn’t talking, but the silence is uncomfortable in its own way.
+`Akiha walks silently beside me.@
+`I’m grateful she isn’t talking, but the silence is uncomfortable in its own way.
 \
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_01a",lcartain,800
-`We reach school a little after seven thirty.@ Very few students arrive this early.@
+`We reach school.@
+`It is a little after seven thirty.@
+`Very few students arrive this early.@
 `“…”@
-`Akiha is still silent.@ Going the whole morning without exchanging a single word is becoming unbearable.
+`Akiha is still silent.@
+`Going the whole morning without exchanging a single word is becoming unbearable.
 \
-`“…@Hey, Akiha.”@
+`“Hey, Akiha.”@
 ld c,"tachi/aki_t19",crossfade,400
-`“Ah—y-yes?@ What is it, Brother?”@
-`“What is it?@ That’s what I was going to ask you.@ You’ve been strange all morning.@ You didn’t even get angry about last night, and you’ve seemed lost in thought the whole time.”@
+`“Ah[line=3]y-yes?@ What is it, Brother?”@
+`“What do you mean?@ You have been acting strange all morning—you did not even get angry about last night, and you have seemed lost in thought the whole time.”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“What—?@ Do I really seem that way?”@
-`“…@Yes.@ Are you still feeling sick?@ If you are, you ought to stay home and rest properly—”
+`“Do I really seem that way[line=3]?”@
+`“Yes.@ Are you still feeling sick?@ If you are, you ought to stay home and rest properly[line=3]”
 \
 `[line=3]Oh.@
 br
-`Suddenly, I realize it.@ Akiha missed school yesterday.@ Yesterday, Ciel’s arm was bandaged, and she told me her fight with the vampire had ended in a draw.
+`Suddenly, I realize it.@
+`Akiha missed school yesterday.@
+`Yesterday, Ciel’s arm was bandaged, and she told me her fight with the vampire had ended in a draw.
 \
-`“…”@
+`“…………”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“…@Brother, you’re the one who looks pale.”@
-`“Ah—no, that’s…”@
+`“Ah[line=4]no, that is…”@
 `I shake my head hard, trying to scatter the ugly suspicion.@
-`…@What is wrong with me?@ Akiha suffers sudden attacks of poor health just as I do.@ Of course she sometimes misses school.@ I should trust her.@ Why am I imagining something so terrible?
+`What is wrong with me?@
+`Akiha suffers sudden attacks of poor health just as I do; of course she sometimes misses school.@
+`I should trust her, so why am I imagining something so terrible?
 \
-`“Never mind me.@ What’s really going on with you?@ You’re acting awfully girlish this morning.@ It doesn’t feel like you.”@
+`“Never mind me; what is really going on with you?@ You are acting awfully girlish this morning.@ It does not feel like you.”@
 ld c,"tachi/aki_t13a",crossfade,400
 `“…@That was an appalling thing to say, Brother.”@
 `“Oh, there you are.@ You’re starting to sound like yourself again.@ I can’t relax unless Akiha acts like Akiha.@ Though I suppose being quiet is preferable in itself.”
 \
 ld c,"tachi/aki_t16a",crossfade,400
-`“…@Honestly.@ Am I usually so unruly?”@
-`“Ah…@ no.@ You’re quiet.@ You have excellent manners, and you’re always composed.@ Wait, that’s strange.@ If you meet every requirement, why is it still so hard to think of you as demure…?”@
+`“Honestly.@ Am I usually so unruly?”@
+`“Ah, no; you are quiet.@ You have excellent manners, and you are always composed.@ Wait, that is strange—if you meet every requirement, why is it still so hard to think of you as demure…?”@
 `Why does the word fit Akiha so poorly?
 \
-`“…@Never mind.@ If you aren’t ill, I won’t pry.@ Come on, let’s go inside.”@
+`“Never mind.@ If you are not ill, I will not pry.@ Come on, let’s go inside.”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“…”@
 `Still looking as though she wants to say something, Akiha follows me through the gate.
@@ -204,277 +235,392 @@ ld c,"tachi/aki_t12a",crossfade,400
 bg "bg/bg_03a",lshutter,800
 `“See you later.@ School lets out at noon today, so we can have lunch at the estate.”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“Ah—Brother.”@
+`“Ah[line=3]Brother.”@
 `“Mm?@ Are you feeling sick after all?@ I can take you to the infirmary.”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“No, I feel perfectly well.@ I’m not unwell in any sense.@ There is simply a reason I’ve been so absent-minded this morning.”
+`“No, I feel perfectly healthy.@ I am not in a bad mood either.@ There is simply a reason I have been so absent-minded this morning.”
 \
 `“…?@ What reason?”@
 ld c,"tachi/aki_t19",crossfade,400
-`“Well…@ Brother, do you remember the promise we made as children?”@
-`The question comes from nowhere.@ Her cheeks flushed, Akiha stares directly into my eyes.
+`“Brother, do you remember the promise we made as children?”@
+`The question comes from nowhere.@
+`Her cheeks flushed, Akiha stares directly into my eyes.
 \
-`“What promise from when we were children?”@
+`“[line=3]What promise from when we were children?”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“…@Honestly.@ You really don’t remember after all.@
+`“Honestly.@ You really do not remember after all.@
 ld c,"tachi/aki_t06",crossfade,800
 `Never mind!@ I wasn’t expecting anything in the first place, and I’m sure it meant nothing to you anyway!”@
 `Akiha turns her face away with a huff.
 \
-`“What brought this on?@ Our childhood was more than eight years ago.@ And you and I made more promises than I could possibly count.@ How am I supposed to know which one you mean?”@
+`“What brought this on?@ Our childhood was more than eight years ago.@ And you and I made more promises than I could possibly count.@
+`How am I supposed to know which one you mean?”@
 ld c,"tachi/aki_t14",crossfade,400
-`“That may be true…@ but there are still some things you want another person to remember.@ I dreamed about our childhood last night, and I wondered whether you remembered it too.”
+`“That may be true, but some things still matter enough that you want another person to remember them.@ I dreamed about our childhood last night, and I wondered whether you remembered it too.”
 \
-`“Akiha, do you drag up the whole past every time you have a dream about being a child?”@
+`“Akiha.@ Do you drag up the whole past every time you dream about being a child?”@
 ld c,"tachi/aki_t16a",crossfade,400
 playstop
-`“…@But it made me nostalgic.@ Don’t you remember that day beneath the tree, when you called me Akiha for the first time and stroked my hair?@ I cried at the slightest thing in those days, didn’t I?@ Everyone else would fuss over me because they didn’t know what to do, but you were the only one who felt sad with me.@ It made me cry even harder—but afterward, I truly felt as though nothing sad could ever happen again.@
+`“But it made me nostalgic.@ Don’t you remember that day beneath the tree, when you called me Akiha for the first time and stroked my hair?@
+`I cried at the slightest thing in those days, didn’t I?@ Everyone else would fuss over me because they didn’t know what to do, but you were the only one who felt sad with me.@ It made me cry even harder—but afterward, I truly felt as though nothing sad could ever happen again.@
 ld c,"tachi/aki_t17a",crossfade,400
-`Ever since then, I’ve—Brother?@ What’s wrong?@ Are you feeling ill…?”
+`Ever since then, I[line=3]Brother?@ What is wrong; do you feel ill…?”
 \
-`“Akiha…@ was your dream about the day you cried and cried in that empty garden?”@
+`“[line=3]Akiha.@ Was your dream about the day you cried and cried in that empty garden?”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Ah…@ yes.@ I don’t remember it very clearly either, but I think it was something like that.”@
+`“Ah, yes; I do not remember it clearly either, but I think it was something like that[line=3]”@
 wave se_01
-`“…”@
+`“[line=6]”@
 `A cold shiver races down my back.@
 `That dream.@
 `I saw it too.@
-`…@Ciel told me that my consciousness was drawn into a vampire’s.
+`…@Ciel told me that my consciousness
+`was drawn into a vampire’s.
 \
 ld c,"tachi/aki_t17a",crossfade,400
 `“Brother?@ Are you sure you’re all right…?”@
-`“I’m fine.@ My classroom is this way.”
+`“[line=4]It is nothing.@ My classroom is this way.”
 \
 cl a,crossfade,400
 `Fighting down nausea, I move away from Akiha.@
-`…@Why?@ Why do things keep turning out the way I least want them to?@
-`Whenever I sleep, a vampire’s consciousness draws mine in.@ Last night, instead of dreaming of murder, I dreamed the same dream as Akiha.@ I never wanted to know that.
+`Why?@
+`Why do things keep turning out the way I least want them to?@
+`Whenever I sleep, a vampire’s consciousness draws mine in.@
+`Last night, instead of dreaming of murder, I dreamed the same dream as Akiha.@
+`I never wanted to know that.
 \
 bg #000000,lcartain,800
 bg "bg/bg_06a",lcartain,800
 play "*1"
-`…@Only a handful of students are in the classroom.@ I cross to my seat by the window and set down my bag.@
+`Only a handful of students are in the classroom.@
+`I cross to my seat by the window and set down my bag.@
 `“…”@
 `Then I sit and wait for homeroom to begin.
 \
 ld c,"tachi/ari_t01",crossfade,400
-`“Hey, you’re early, Tohno.@ You look awful this morning.@ What happened?”@
-`“Arihiko…@ First Akiha, now you.@ You’re both saying the same thing.@ Do I really look that pale?”@
+`“You are early, Tohno.@ You look awfully pale this morning; what happened?”@
+`“Arihiko.@ First Akiha, now you; you both keep saying the same thing.@ Do I really look that pale?”@
 `“Huh?@ No, now that I look, your color seems normal.@ Maybe it’s because you look so incredibly depressed.”@
-`“…@Depressed, huh?”@
+`“Depressed, huh?”@
 cl a,crossfade,400
-`I certainly feel depressed.@ If she appeared now and said, “You see?@ I was right after all,”@ I would have no answer left to give her.
+`I certainly feel depressed.@
+`If she appeared now and said
+`“I was right after all, was I not?”@
+`I would have no answer left to give her.
 \
-`“Arihiko…@ have you seen that upperclassman today?”@
+`“[line=3]Arihiko.@ Have you seen that upperclassman today?”@
 ld c,"tachi/ari_t04",crossfade,400
-`“What?@ Which upperclassman?”@
-`“What do you mean, which one?@ Ciel is the only one we both know.”@
-`“Ciel?@ Who’s that?@ Did our school have an exchange student?”@
+`“Huh?@ Who?”@
+`“The only upperclassman we both know is Ciel.”@
+`“Who’s Ciel?@ Did our school have a foreign exchange student?”@
 br
-`[line=4]My mouth falls open.@
+`[line=4]My mouth fell open in disbelief.@
 br
-`“…@Arihiko, you…”@
+`“Arihiko, you…”@
 `I manage to force out that much in broken fragments.@ Nothing else will come.
 \
 ld c,"tachi/ari_t03",crossfade,400
 `“What is it, Tohno?@ If you’ve got something to say, spit it out.@ I’ll listen to anything except a request for money.”@
-`Arihiko is exactly as he always is.@ Exactly as he always is—and he has utterly forgotten her.
+`Arihiko is exactly as he always is.@
+`Exactly as he always is—and he has utterly forgotten her.
 \
-`“You really don’t remember her?”@
+`“You really do not remember her?”@
 `“How many times do I have to ask which upperclassman you mean?”@
-`“…”@
+`“[line=6]”@
 `There is no way I can answer that now.@
-`At last, I understand what her goodbye meant last night.
+`At last.@
+`I understand what her goodbye meant last night.
 \
 wave se_03
 ld c,"tachi/ari_t05",crossfade,400
-`“Oh, looks like that bastard Kunifuji is about to show.@ Catch you later.”@
+`“Oh, looks like that bastard Kunifuji is about to show up.@ Catch you later.”@
 cl a,lshutter,400
-`Arihiko returns to his seat.@ Our homeroom teacher enters, homeroom begins, and then rolls directly into first-period physics.@
+`Arihiko returns to his seat.@
+`Our homeroom teacher enters, homeroom begins, and first-period physics follows without a break.@
 br
 `[line=4]I watch it all in a daze.@
 br
-`She truly has disappeared.@ Not merely left my life—the very existence of Ciel has vanished without a trace.
+`She truly has disappeared.@
+`Not merely left my life—the very existence of Ciel has vanished without a trace.
 \
 `[line=3]The magic came undone so easily.@
 br
-`…@She said that with such a sad look, didn’t she?@
+`She said that with such a sad look, didn’t she?@
 `Arihiko does not remember.@ No one else will remember either.@
-`She was never a student at this school.@ She had slipped inside to watch a person named Shiki Tohno.@ Once I discovered who she was, she had no choice but to disappear.
+`She was never a student at this school.@
+`She had slipped inside to watch a person named Shiki Tohno.@
+`Once I discovered who she was, she had no choice but to disappear.
 \
-`“…”@
-`My chest hurts.@ In exchange for proving that I was no murderer, Ciel vanished like a mirage.
+`“[line=6]”@
+`My chest hurts.@
+`In exchange for proving I was no murderer, Ciel had vanished like a mirage[line=3]gone.
 \
 bg #000000,crossfade,800
 playstop
 !w1000
 wave se_03
 bg "bg/bg_06a",tcartain,800
-`At noon, the school day ends.@ Eager to make full use of their Saturday, my classmates race one another out of the room.
+`At noon, the school day ends.@
+`Eager to make full use of their Saturday, my classmates race one another out of the room.
 \
 ld c,"tachi/ari_t01",crossfade,400
 `“Huh?@ Aren’t you going home, Tohno?”@
 `“No, I’m staying.@ I thought I might wait for someone.”@
-`“Hmm…@ Akiha?”@
+`“Hmm, are you waiting for Akiha?”@
 `“Of course not.@ If it were Akiha, I’d go meet her myself.@ The person I’m waiting for may never come, so I don’t know whether I’ll see her.”@
 `“Got it.@ I’m off, then.”@
 `“Try not to stay out all night.”@
 ld c,"tachi/ari_t02",crossfade,400
-`“Hah!@ If you’re worrying about me, I must really be finished.”
+`“Hah, if you are worrying about me, I must really be finished.”
 \
 cl a,lshutter,400
-`Arihiko leaves, and soon the other students disappear as well.@ Alone in the classroom, I keep waiting for Ciel.
+`Arihiko leaves, and soon the other students disappear as well.@
+`Alone in the classroom, I keep waiting for Ciel.
 \
 bg #000000,lshutter,400
 bg "bg/bg_06a",lshutter,400
 play "*8"
-`The clock clicks over to one in the afternoon.@ As the track team’s shouts begin to carry from the athletic field, the classroom door slides open.@
+`The clock clicks over to one in the afternoon.@
+`As the track team’s shouts begin to carry from the athletic field, the classroom door slides open.@
 ld c,"tachi/aki_t01a",lshutter,800
-`“…”@
+`“[line=6]”@
 cl a,crossfade,400
-`It is Akiha.@ She walks over to where I sit beside the window.
+`It is Akiha.@
+`She walks over to where I sit beside the window.
 \
 ld c,"tachi/aki_t12a",lshutter,800
 `“Brother, aren’t you going home?”@
-`“…@I will.@ I just haven’t seen her once today.@ I thought she might come if I waited here.”@
+`“I will.@ I just have not seen her once today.@ I thought she might come if I waited here.”@
 cl a,crossfade,400
-`…@No, that isn’t true.@ I only want her to come.@ I know she will probably never appear before me again.
+`No, that is not true.@
+`I only want her to come.@
+`I know she will probably never appear before me again.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“I see.@ Then I’ll wait with you.”@
+`“[line=3]I see.@ Then I will wait with you.”@
 `Akiha takes the chair beside mine.@
 `“…@I don’t mind, but you’re an odd one.”@
 ld c,"tachi/aki_t09",crossfade,400
-`“Naturally.@ I’m your sister.”@
-`For reasons I cannot fathom, Akiha sits there smiling.@
-`…@There is no reason to send her away.@ It would be dangerous to let her meet Ciel, but Ciel will not come anyway.@ I am merely throwing away an entire day.
+`“Yes.@ I am your sister, after all.”@
+`For some reason, Akiha sits there smiling.@
+`I have no reason to send her away.@
+`It would be dangerous to let her meet Ciel, but Ciel will not come anyway.@
+`I am merely throwing away an entire day.
 \
 bg #000000,lshutter,800
 bg "bg/bg_06b",lshutter,800
-`Evening comes.@ Akiha remains seated beside me without a single complaint.@
-`…@Now that I think about it, this may be the longest we have spent alone together since I returned to the estate.@ With no conversation to distract me, I am more conscious of her than ever.
+`Evening comes.@
+`Akiha remains seated beside me without a single complaint.@
+`Now that I think about it, this may be the longest we have spent alone together since I returned to the estate.@
+`With no conversation to distract me, I am more conscious of her than ever.
 \
 `Akiha, who cried so often as a child.@
 `Akiha, who waited eight years for my return.@
 `Akiha, who even now sits quietly beside me.@
 br
-`…@When I was told that Akiha might be a vampire, all I could do was deny it.@ The reason is obvious.@ Akiha is my precious little sister, and I simply did not want to believe it.
+`When I was told that Akiha might be a vampire, all I could do was deny it.@
+`The reason is obvious.@
+`Akiha is my precious little sister, and I simply did not want to believe it.
 \
-`…@The girl I swore to protect.@ The reason I returned to the Tohno estate.@ My astonishment when, after eight years apart, I saw how beautifully she had grown.
+`The girl I swore to protect.@
+`The reason I returned to the Tohno estate.@
+`My astonishment when, after eight years apart, I saw how beautifully she had grown.
 \
-`Akiha is precious to me.@ I think what I feel must be love, but I cannot put into words what kind of love it is.@
-`We lived as brother and sister for only two years.@ Even then, the desire to protect her somehow outweighed any ordinary affection between family.
+`Akiha is precious to me.@
+`I think what I feel must be love.@
+`But I cannot clearly put into words what kind of love it is.@
+`We lived as brother and sister for only two years.@
+`Even then, the desire to protect her somehow outweighed ordinary affection between family.
 \
 `“…”@
-`I don’t understand it.@ Sometimes I find myself captivated by her beauty beyond all reason.@
-`Is she precious because she is my sister?@ No.@ Akiha is simply precious to me.@
-`So—even if she really is a vampire, I—
+`I don’t understand it.@
+`Sometimes I find myself captivated by her beauty beyond all reason.@
+`Is she precious because she is my sister?@
+`No.@
+`Akiha is simply precious to me.@
+`So, even if Akiha truly is a vampire, I[line=3]
 \
 `“Akiha.@ Shall we go home?”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“I don’t mind, but…@ are you sure?@ The person you were waiting for still hasn’t come.”@
-`“No.@ I knew from the beginning that she wouldn’t.@ I’m done waiting.”@
+`“I do not mind, but are you sure, Brother?@ The person you were waiting for still has not come.”@
+`“No.@ I knew from the beginning that she would not come, so I am done waiting.”@
 `“…”@
 `Akiha asks no questions.@
-`…@Then a thought occurs to me.@ Arihiko, the other students—even the teachers—had forgotten her.@ But does Akiha remember?
+`Then a thought occurs to me.@
+`Arihiko, the other students[line=3]even the teachers had forgotten her, but did Akiha remember?
 \
 `“Akiha.@ What do you think of her?”@
 ld c,"tachi/aki_t03a",crossfade,400
-`“…@I don’t know whom you mean by ‘her,’ but you must be referring to Ciel.@ In that case, my opinion has not changed.@ I don’t want you associating with that woman.”@
-`“What—?”@
-`My voice catches.@ Akiha remembers Ciel.@ Everyone else forgot her, so why—
+`“I don’t know whom you mean by ‘her,’ but you must be referring to Ciel.@ In that case, my opinion has not changed.@ I don’t want you associating with that woman.”@
+`“[line=6]”@
+`My voice catches.@
+`Akiha remembers Ciel.@
+`Everyone else had forgotten Ciel, so why[line=2]
 \
-`“Akiha, you—”@
+`“Akiha, you[line=4]”@
 `“Brother?@ Why are you looking at me like that?”@
-`“…@Why?@ Why do you remember, Akiha?@ Everyone else has forgotten her.@ Why are you the only one who remembers?!”@
+`“Why?@ Why do you remember, Akiha?@ Everyone else has forgotten Ciel, so why are you the only one who remembers?!”@
 ld c,"tachi/aki_t15a",crossfade,400
-`“What—?”@
+`“What[line=4]?”@
 `Akiha’s expression freezes.@
 cl a,crossfade,400
 `Then, as though trying to hide something, she averts her eyes.
 \
-`“Akiha…@ did you know what she really was from the beginning?”@
-`“…”@
-`Akiha does not answer.@ Her silence is answer enough.
+`“Akiha.@ Did you know what she really was from the beginning?”@
+`“[line=8]”@
+`Akiha does not answer.@
+`Her silence is answer enough.
 \
-`“Akiha…!@ Don’t just stand there—answer me!@ Did you hate her all this time because you knew from the beginning that she was here to hunt vampires?!”@
+`“Akiha, answer me!@ Did you hate her all this time because you knew from the beginning that she was here to hunt vampires…?!”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“Vampires?@ Brother—”@
-`Akiha stares at me in shock.@ Her expression suggests not that the word itself surprises her, but that she is stunned to hear me speak it.@
+`“Vampires, Brother[line=4]”@
+`Akiha stares at me in shock.@
+`Her expression suggests not that the word itself surprises her, but that she is stunned to hear me speak it.@
 cl a,crossfade,400
-`“Akiha.@ Please, answer me.@ Otherwise I’ll—”@
-`I won’t be able to trust her anymore.
+`“Akiha.@ Please answer me.@ Otherwise I will[line=3]”@
+`I will no longer be able to trust you.
 \
 !w2500
 ld c,"tachi/aki_t01a",crossfade,400
-`“Yes, Brother.@ I knew from the beginning that there was something different about her.@ I noticed she was planting suggestions in everyone she met, so I never trusted her.”@ “Planting suggestions…?@ Ciel was doing that?”
+`“Yes, Brother.@ I knew from the beginning that there was something different about her.@ I noticed she was planting suggestions in everyone she met, so I never trusted her.”@
+`“Planting suggestions…?@ Ciel was doing that?”
 \
-`“Yes.@ That’s why no one even found a name like Ciel strange, remember?@ The suggestion didn’t work on me, so I could tell there was something wrong about her.”@ Akiha says it almost defensively.@ But she still avoids the one thing that matters: why had she alone resisted a suggestion that affected everyone else?
+`“Yes.@ That is why no one even found a name like Ciel strange, remember?@ The suggestion did not work on me, so I could tell there was something wrong about her.”@
+`Akiha says it almost defensively.@
+`But she still avoids the one thing that matters.@
+`Why had she alone resisted a suggestion that affected everyone else?
 \
-`“Everyone under her suggestion forgot that Ciel had ever existed the moment it was lifted.@ I was never under it, so naturally I still remember her now.”@ “I understand that.@ But Akiha—why didn’t it work on you?”@
+`“Everyone under her suggestion forgot that Ciel had ever existed the moment it was lifted.@ I was never under it, so naturally I still remember her now.”@
+`“I understand that.@ But why, Akiha?@ Why did the suggestion not work on you?”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“That’s…@ well…”@ “Right.@ The Tohnos aren’t normal.@ That’s why Ciel’s little trick didn’t work on you, isn’t it?”
+`“[line=3]That is, well[line=3]”@
+`“Right.@ The Tohnos are not normal.@ Because they are not normal, Ciel’s suggestion did not work on you, did it?”
 \
 ld c,"tachi/aki_t17a",crossfade,400
-`“Brother, how do you know that?”@ “Isn’t it obvious?@ I’m not normal either.”@
+`“Brother, how do you know that?”@
+`“Isn’t it obvious?@ I’m not normal either.”@
 cl a,crossfade,400
 `With that, I rise from my chair.@
 ld c,"tachi/aki_t01a",crossfade,400
-`Akiha stares at me in shock.@ Then, her face settling into grim resolve, she stands as well.@
+`Akiha stares at me in shock; then, her face settling into grim resolve, she stands as well.@
 br
-`[line=3]An empty classroom.@ In the room bathed red by the setting sun, we stand facing one another.
+`[line=3]An empty classroom.@
+`In the room bathed red by the setting sun, we stand facing one another.
 \
-`“Ciel told me.@ She said everyone in the Tohno family has some sort of special power…@ and that some of them lost control of themselves and killed people.”@ “…”@ “But I can’t believe that.@ I don’t want to.”@ “…”@ “Tell me, Akiha.@ You’re not…@ some kind of vampire, are you?”@
+`“Ciel told me.@ She said everyone in the Tohno family has some sort of special power…@ and that some of them lost control of themselves and killed people.”@
+`“…”@
+`“But I cannot believe it.@ I do not want to.”@
+`“…”@
+`“Tell me, Akiha.@ You are not[line=3]a vampire, are you?”@
 cl a,crossfade,400
 `Akiha gives no answer.@ Her eyes merely narrow with pain.
 \
-`[line=4]Why?@ Why can’t she deny it, even if she has to lie?@ “Say something!@ Why are you just standing there, Akiha…?”@ The silence hurts so much that I find myself shouting.@ After one brief stillness, Akiha walks to the window with all her customary grace, as though nothing has happened.@ Her long hair shines translucent in the crimson sunset.@ That red hair streams behind her as she turns to face me.
+`[line=4]Why?@
+`Why can she not deny it, even if she has to lie[line=3]
+`“[line=3]Say something.@ Why are you silent, Akiha…!?”@
+`The silence is unbearable, and I find myself shouting at her.@
+`After a brief stillness.@
+`Akiha walks to the window with all her customary grace, as though nothing happened.@
+`Her long hair shines translucent in the crimson sunset.@
+`That red hair streams behind her as she turns to face me.
 \
 bg "event/aki_e08",lshutter,400
-`“Then let me ask you something.@ What would you do if I were a vampire, Brother?”@ Her gaze thrusts at me with enough force to drive its blade through my throat.
+`“Then let me ask you something.@ What would you do if I were a vampire, Brother?”@
+`She leans toward me.@
+`Her gaze bears enough force to drive a blade through my throat.
 \
-`“I would…”@ Akiha’s eyes stab into me.@ We are far apart.@ Yet the air between us is so taut it feels as if she stood directly before me.
+`“[line=4]I would…”@
+`Akiha’s eyes stab into me.@
+`We are far apart.@
+`Yet the air between us is so taut it feels as if she stood directly before me.
 \
-`“Answer me, Brother.@ If I were an ogre that drank human blood, what would you do?”@ “Akiha, I…”@ “If I admitted it, Akiha wouldn’t have to keep smothering herself anymore.@ Do you understand, Brother?@ I could give up this silly pride and finally be honest with myself.”@ She looks up at me through eyes at once ferocious and cruelly amused.@ A shiver runs through me.@ Though Akiha is looking up, her cold, quiet force makes me feel as though I were the one beneath her.
+`“Answer me, Brother.@ If I were an ogre that drank human blood, what would you do?”@
+`“[line=3]Akiha, that is[line=4]”@
+`“If I admitted it, Akiha wouldn’t have to keep smothering herself anymore.@ Do you understand, Brother?@
+`I could give up this silly pride and finally be honest with myself.”@
+`She looks up at me through eyes at once ferocious and cruelly amused.@
+`A shiver runs through me.@
+`Though Akiha is looking up, her cold, quiet force makes me feel as though I were the one beneath her.
 \
-`“Wh—”@ I can only gasp.@ Though there is still all that distance between us, we stare at each other beneath the illusion that our faces are poised to meet in a kiss.
+`“Wh[line=4]”@
+`I can only gasp; no words come.@
+`Though there is still distance between us.@
+`We merely stare at each other, caught in the illusion that our faces are poised to meet in a kiss.
 \
-`Akiha’s eyes are so cold they seem to belong to someone else.@ “Akiha, you…”@ My throat closes there.@ No matter how I try, I cannot force out what comes next.
+`Akiha’s eyes are so cold they seem to belong to someone else.@
+`“Akiha, you[line=3]”@
+`My throat closes there.@
+`No matter how I try[line=3]no matter how I try, I cannot force out what comes next.
 \
-`“It was a joke, Brother.@ I don’t drink anyone’s blood.”@ Smiling as though she has enjoyed watching me struggle, Akiha sheaths the blade of her gaze.
+`“It was a joke, Brother.@ I don’t drink anyone’s blood.”@
+`Smiling as though she has enjoyed watching me struggle, Akiha sheaths the blade of her gaze.
 \
-`“Ciel was right that the blood of ‘something else’ runs in the Tohno family.@ But you know as well as I do that when it manifests, there’s no mistaking it.”@ Akiha gives a soft, teasing laugh.
+`“Ciel was right that the blood of ‘something else’ runs in the Tohno family.@
+`But you know as well as I do, Brother, that when it manifests, there is no mistaking it.”@
+`A soft giggle.@
+`Akiha gives a teasing laugh.
 \
-`“I know that…?”@ “Yes.@ Which makes your question meaningless.@ I’m not the thing you imagine me to be.@ Was that all?@ Then I’ll be going home ahead of you.”@ Akiha turns to leave.@ But I can’t let her.@ Something tells me that if I miss this moment, I will never have another chance.@ We have come too far.@ The only way out now is to demand the whole truth.
+`“I know that…?”@
+`“Yes.@ Which makes your question meaningless, Brother.@ I’m not the thing you imagine me to be.@
+`Was that all?@ Then I’ll be going home ahead of you.”@
+`Akiha turns to leave.@
+`But I can’t let her.@
+`Something tells me that if I miss this moment, I will never have another chance.@
+`We have come too far; the only way out now is to demand the whole truth.
 \
-`“No.@ There’s something else I want to ask.@ The other boy who lived with us when we were children.”@ “You’re surprisingly persistent, Brother.@ I already told you there was no such child.”@ “That can’t be true.@ Father adopted someone ten years ago.”@ “…”@ Akiha’s brows snap upward.@ This is no guilty flinch, no attempt to hide something.@ It is anger.
+`“There is something else I want to ask.@ The other boy who lived with us when we were children.”@
+`“You’re surprisingly persistent, Brother.@ I already told you there was no such child.”@
+`“That can’t be true.@ Father adopted someone ten years ago.”@
+`“[line=8]”@
+`Akiha’s brows snap upward.@
+`This is no guilty flinch or attempt to hide something; it is anger.
 \
-`“I see.@ Hisui really is hopeless.@ I warned her again and again not to let you find out.”@ Akiha sighs.
+`“I see.@ Hisui really is hopeless.@ I warned her again and again not to let you find out, Brother.”@
+`Akiha sighs.
 \
-`“Akiha, there was a third child.@ Even I remember him, however faintly.@ You can tell me now.@ Why did he…@ why did he die?”@ “He didn’t die.”@ “What?”@ “But he was killed—by your own hands, Brother.”@ “I…@ killed him?”@ The moment I say it, the world lurches beneath me.
+`“Akiha.@ There was a third child.@ Even I remember him, however faintly.@ You can tell me now.@ Why did he—why did he die?”@
+`“No.@ That person is not dead.”@
+`“[line=3]What?”@
+`“But he was killed.@ [line=2]By your own hands, Brother.”@
+`“Wh[line=3]I killed him[line=3]?”@
+`I say the words.@
+`The world lurches beneath me.
 \
 playstop
 bg #000000,crossfade,400
 waveloop se_02
 bg "bg/cmo_05",crossfade,800
-`[line=4]Yes.@ I killed him.@
+`[line=4]So I killed him.@
 br
-`The accident eight years ago.@ Myself as a child.@ That courtyard.@ A summer day hot as a nightmare.@ Akiha and the boy, drenched in blood.@ Towering clouds, and the endless shriek of cicadas.@
+`The accident eight years ago.@
+`Myself as a child.@
+`That courtyard.@
+`A summer day hot as a nightmare.@
+`Akiha and the boy, drenched in blood.@
+`Towering clouds, and the endless shriek of cicadas.@
 br
 `[line=4]Was that where I killed that child?
 \
 bg "bg/bg_06b",crossfade,400
-`The world reels.@ “Ghh—”@ I fight to hold on as consciousness recedes into the distance.@ “No—I didn’t…”@ My breath comes twisted and ragged.@ Me.@ I could never have—
+`The world reels.@
+`“Ghh[line=5]”@
+`I fight to hold on as consciousness recedes into the distance.@
+`“No[line=4]I did not”@
+`My breathing twists into ragged gasps.@
+`Me.@ I could never have done something like that[line=4]
 \
 bg "event/aki_e08",tshutter,800
-`“You see, Brother?@ Everyone has things they must keep secret.”@ “Akiha…@ you…”@ “So please stop troubling yourself with such pointless questions.@ All you need to do is remain at that estate as Shiki Tohno.”@
+`“You see, Brother?@ Everyone has things they must keep secret.”@
+`“Akiha[line=3]you”@
+`“So please stop troubling yourself with such pointless questions.@ All you need to do, Brother, is remain at that estate as Shiki Tohno.”@
 bg "bg/bg_06b",tshutter,800
 br
-`[line=3]Akiha walks away.@ I have no words with which to stop her.
+`[line=3]Akiha walks away.@
+`I have no words to stop her.
 \
 wavestop
-`In the classroom at dusk, I stand alone, helpless and unable to move—
+`The classroom at dusk.@
+`I stand there alone, helpless and unable to move[line=4]
 \
 bg #000000,crossfade,800
 !w3000
@@ -482,81 +628,137 @@ bg "bg/bg_29b",lcartain,800
 play "*1"
 `[line=8]Night falls.@
 br
-`I can’t bring myself to return to the estate.@ I sit on a park bench and think.
+`Unable to bring myself to return to the estate, I sit on a park bench and think.
 \
-`“…”@ Is there no escaping it?@ There can be no doubt that Akiha is “something else,”@ or that there was a third child and he died.@
+`“…”@
+`Is there no escaping it?@
+`There can be no doubt that Akiha is something inhuman, or that there was a third child and he died.@
 br
-`Akiha says I killed the third child.@ And I myself remember seeing a child drenched in blood in the courtyard.
+`Akiha says I killed the third child.@
+`And I myself remember seeing a child drenched in blood in the courtyard.
 \
-`“Ngh…”@ Akiha drinking Kohaku’s blood.@ Akiha telling me the Tohnos were not human.@ And Ciel saying that if we were brother and sister, it would be no surprise for one mind to merge with the other in sleep.@ “—!”@ There is nothing left to doubt.@ I don’t want to accept it, but this is the truth.@ If only—if only I had never seen Akiha drinking Kohaku’s blood—
+`“Ngh…”@
+`Akiha drinking Kohaku’s blood.@
+`Akiha telling me the Tohnos were not human.@
+`Ciel saying that, as brother and sister, it would be no surprise for one mind to merge with the other in sleep.@
+`“[line=5]!”@
+`There is nothing left to doubt.@
+`I don’t want to accept it, but this is the truth.@
+`If only.@
+`If only I had never seen Akiha drinking Kohaku’s blood[line=4]
 \
-`“Wait…”@ No.@ Hold on.@ I saw Akiha and Kohaku in a dream.@ In that dream, I was watching the two of them.@ Which means—if my consciousness had merged with Akiha’s, I couldn’t possibly have been watching Akiha herself.
+`“[line=4]Wait”@
+`No, hold on.@
+`I saw Akiha and Kohaku in a dream.@
+`In that dream, I was watching the two of them.@
+`Which means[line=3]if my consciousness had merged with Akiha’s, I could not possibly have been watching Akiha herself.
 \
-`“Then the one having that dream was…”@ It couldn’t have been Akiha, the person being watched.@ If Akiha were the vampire, I could never have seen the scene that way.@ “That’s right!@ There’s no way Akiha could be the killer!”@ I say it and spring from the bench.@ What follows is embarrassing even to me: I run madly around the park.
+`“Then the one who had that dream was[line=3]”@
+`It could not have been Akiha; she was the one I was watching.@
+`If Akiha were the vampire, I could never have seen the scene that way.@
+`“[line=2]That is right.@ There is no way Akiha could be the killer!”@
+`I say it and spring from the bench.@
+`What follows is embarrassing even to me: I run madly around the park.
 \
-`“Ha…@ haha…@ hahahahaha!”@ I don’t care who stares.@ I’m too happy; I run and laugh.@ Because this means I can go on protecting Akiha forever.@ For once, I can even thank the vampire whose consciousness merged with mine.@ If that monster hadn’t been spying on Akiha, I might have gone on believing something terrible—
+`“Ha, hah, hahahaha[line=4]!”@
+`I don’t care who stares.@
+`I’m too happy; I run and laugh.@
+`Because this means[line=3]I can go on protecting Akiha forever.@
+`For once, I can even thank the vampire whose consciousness merged with mine.@
+`If that monster hadn’t been spying on Akiha, I might have gone on believing something terrible[line=3]
 \
-`“…”@ No.@ Wait.@
+`“[line=5]”@
+`No, wait.@
 br
 playstop
-`“Spying…@ on Akiha?”@
+`“Was it watching[line=3]Akiha?”@
 br
 wave se_01
-`The killer was watching Akiha.@ Inside the estate.@ Patiently, from concealment, with the furtive malice of a hunter stalking prey—as if they had marked Akiha as their next victim.
+`The killer was watching Akiha.@
+`Inside the estate.@
+`Patiently, from concealment.@
+`With the furtive malice of a hunter stalking prey, as if it had marked Akiha as its next victim.
 \
-`“No—”@ Ice races down my spine.@ But there is no time to stand still.@ “Akiha!”@ I shout, and run for the estate with everything I have.
+`“No[line=5]”@
+`Ice races down my spine.@
+`But there is no time to stand still.@
+`“Akiha[line=4]!”@
+`I shout and run for the estate with everything I have.
 \
 play "*6"
 bg #000000,lshutter,400
 bg "bg/bg_27b",lcartain,400
-`Haaah—
+`Haaah[line=4]
 br
 bg #000000,lcartain,800
 bg "bg/bg_25b",lcartain,800
-`Haaah—
+`Haaah[line=4]
 !w750
 br
 bg #000000,lcartain,800
 bg "bg/bg_24c",lcartain,800
-`Haaah—
+`Haaah[line=4]
 !w750
 br
 bg #000000,lcartain,800
 bg "bg/bg_22c",lcartain,800
-`Haaah—
+`Haaah[line=4]
 !w750
 br
 bg #000000,lcartain,800
 bg "bg/bg_32d",lcartain,800
 br
-`“Hah…@ hah…@ hah…!”@
-`[line=3]Something is wrong.@ It is barely seven, yet there isn’t a single light on in the estate.
+`“Hah, hah, hah…!”@
+`[line=3]Something is wrong.@
+`It is barely seven, yet there isn’t a single light on in the estate.
 \
-`“Hah…@ hah…@ hah…”@ Fighting down the gasps torn from me by the long run, I rush inside.
+`“Hah, hah, hah[line=4]”@
+`Fighting down the gasps torn from me by the long run, I rush inside.
 \
 bg #000000,lshutter,400
 bg "bg/bg_48d",lshutter,400
-`The estate is utterly still.@ The air is unbearably hot.@ Though it is an autumn night, the heat is savage.@ “Hah…@ hah…@ hah…”@ Running is not the only reason my breathing has gone ragged.@ It is like a night in the tropics.@ Sweat streams from my forehead, rolls over my cheeks, and falls in heavy drops.
+`The estate is utterly still.@
+`The air is unbearably hot.@
+`Though it is an autumn night, the heat is savage.@
+`“Hah, hah, hah…”@
+`Running is not the only reason my breathing has gone ragged.@
+`It is a suffocatingly hot night.@ Sweat streams from my forehead, rolls over my cheeks, and falls in heavy drops.
 \
-`“Ngh…”@ I wipe the sweat from my brow and reach for the front door through the suffocating night air.@
+`“Ngh…”@
+`I wipe the sweat from my brow.@
+`Through the suffocating night air, I reach for the front door.@
 bg #000000,lshutter,400
 monocro #0000ff
 bg "bg/bg_33d",lshutter,400
 wave se_01
 br
-`“Ghh—!”@ Vertigo strikes.@ A chill that makes every bone in my body creak squeezes my consciousness thinner and thinner.
+`“Ghh[line=4]!”@
+`Vertigo strikes.@
+`A chill that makes every bone in my body creak squeezes my consciousness thinner and thinner.
 \
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
-`“…”@ But this is no ordinary vertigo.@ My consciousness does not recede.@ It sharpens.@ Every superfluous part is pared away until my mind becomes narrow, hard, and keen as a blade.@
+`“[line=6]”@
+`But this is no ordinary vertigo.@
+`My consciousness does not recede; it sharpens.@ Every superfluous part is pared away until my mind becomes narrow, hard, and keen as a blade.@
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
 br
 `[line=3]A dry, grinding sound.@
 br
-`Hatred wells up from nowhere.@ The dizziness will not stop and the headache only worsens, yet strength floods my body.
+`Hatred wells up from nowhere.@
+`The dizziness will not stop and the headache only worsens, yet strength floods my body.
 \
-`“Akiha…!”@ No answer comes.@ Every light in the estate is dead.@ There is not the faintest trace of another person.@ “Hisui!@ Kohaku!@ Is anyone here?”@ Nothing.@ Only the sweltering heat and a silence that pricks my skin like needles.
+`“Akiha…!”@
+`No answer comes.@
+`Every light in the estate is dead.@
+`There is not the faintest trace of another person.@
+`“Hisui, Kohaku!@ Is anyone here?!”@
+`Nothing.@
+`Only the sweltering heat and a silence that pricks my skin like needles.
 \
-`“Akiha…”@ There is only that hideous presence.@ No room remains in my mind for anything else.@ Akiha.@ Her room is…
+`“[line=4]Akiha”@
+`There is only that hideous presence.@
+`No room remains in my mind for anything else.@
+`Akiha.@ Her room should be[line=4]
 \

@@ -3,34 +3,49 @@ wavestop
 bg "bg/bg_04",notrans,0
 `“Arihiko is only a classmate.@ More importantly, Akiha, I asked my question first.”@
 ld c,"tachi/aki_t01a",crossfade,400
-`“Very well.@ What is it, Brother?”@ “Don’t ‘what is it’ me!@ Why did you transfer to my school?@ There’s nothing for you to gain by transferring to a second-rate prep school like ours!”
+`“Very well.@ What is it, Brother?”@
+`“Don’t ‘what is it’ me!@ Why did you transfer to my school?@ There’s nothing for you to gain by transferring to a second-rate prep school like ours!”
 \
 ld c,"tachi/aki_t03a",crossfade,400
-`“With all due respect, Brother, which school I attend is my own decision.@ I have no obligation to explain myself to you.”@ “Don’t be ridiculous.@ I’m your brother.@ I can’t stand by and watch you do something that will hurt your future.@ Frankly, transferring here can only be a loss for you.@ Father is gone, so somebody has to look out for you—and that somebody ought to be me…!”
+`“With all due respect, Brother.@ I’m free to attend any school I please.@ I see no reason I owe you an explanation.”@
+`“Don’t be ridiculous.@ I’m your older brother.@ I can’t stand by and let you do something that’s bad for you.@
+`Frankly, transferring to my school can only hurt your prospects.@ Father isn’t here anymore, so the least I can do is look after you properly…!”
 \
 ld c,"tachi/aki_t16a",crossfade,400
-`“That’s not fair.@ You only invoke being my brother when it suits you.”@ “You’re the one being unfair.@ What were you thinking, transferring without telling me?@ Until you give me a proper reason, I refuse to approve of it!”@
+`“That’s not fair.@ You only invoke being my brother when it suits you.”@
+`“You’re the one being unfair.@ What were you thinking, transferring without telling me?@
+`Until you give me a proper reason, I refuse to approve of it!”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“Ah…”@ “And if your reason is stupid, I’ll send you straight back to your old school.@ Come on, Akiha.@ Tell me why you transferred.”@
+`“Ah…”@
+`“And if your reason is stupid, I’ll send you straight back to your old school.@ Come on, Akiha.@ Tell me why you transferred.”@
 cl a,crossfade,400
-`Akiha lowered her head and fell silent.@ After a moment, she straightened with perfect dignity and met my eyes.
+`Akiha lowers her head and falls silent.@
+`A moment later, she straightens proudly and raises her face.
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“Is it not enough that I was worried about you, Brother?”@
+`“Is it so wrong that I’m worried about you?”@
 br
 `[line=7]What?@
 br
-`“W-wait.@ You were worried about me, so why would—?”@ Why would you transfer schools over something like that?
+`“W-wait.@ You were worried about me, so why would—?”@
+`Why would you transfer schools over something like that?
 \
 ld c,"tachi/aki_t03a",crossfade,400
-`“Because your recent conduct has become impossible to ignore, Brother.@ To keep you from disgracing the Tohno name, I decided to supervise you personally.”@ Akiha delivered the verdict without hesitation.@ “Urk…”@ Accused of bad conduct, I could only concede the point.@ My life had been a complete wreck lately, and I had caused nothing but trouble for Akiha and the others.
+`“Because your recent conduct has become impossible to ignore, Brother.@ To keep you from disgracing the Tohno name, I decided to supervise you personally.”@
+`Akiha delivered the verdict without hesitation.@
+`“Urk…”@
+`Accused of bad conduct, I could only concede the point.@
+`My life had been a complete wreck lately, and I had caused nothing but trouble for Akiha and the others.
 \
 `“B-but you didn’t have to transfer.@ What about all your friends at your old school?”@
 ld c,"tachi/aki_t05a",crossfade,400
-`“You needn’t worry about that, Brother.@ If you feel the least bit guilty, mend your ways starting today.”@ Akiha turned her face aside in a huff.@ She had an answer for everything.
+`“You needn’t worry about that, Brother.@ If you feel the least bit guilty, mend your ways starting today.”@
+`Akiha turned her face aside in a huff.@
+`She had an answer for everything.
 \
-`“Fine.@ Do whatever you want.@ But don’t come crying to me if you regret it later.”@
+`“Fine, do whatever you want.@ But don’t come crying to me if you regret it later.”@
 ld c,"tachi/aki_t06",crossfade,400
-`“Perfectly acceptable.@ I never wanted you worrying about me anyway, Brother.”@ Akiha thrust out her chest and sulked with all the dignity of a child declaring, So there.
+`“Perfectly acceptable.@ I never wanted you worrying about me anyway, Brother.”@
+`Akiha thrust out her chest and sulked with all the dignity of a child declaring, So there.
 \
 cl a,crossfade,400

@@ -3,7 +3,8 @@ play "*8"
 wavestop
 bg "bg/bg_40c",notrans,0
 `“…”@
-`…@Fine.@ If I kept defying Akiha, I was afraid I might make her cry.
+`…@Fine.@
+`If I kept defying Akiha, I was afraid I might make her cry.
 \
 `“…@All right.@ I’ll be good and go to sleep tonight.”@
 `With that, I stretched out on the bed.@
@@ -20,9 +21,11 @@ ld c,"tachi/aki_t01b",crossfade,400
 `“…@Very well.@ Hisui, please tell Kohaku that.”@
 `Still looking down, Hisui gave a small nod and left the room.
 \
-`…@Well, then.@ The moment I surrendered my weight to the bed, sleep came for me again.@ At this rate I’d be asleep in under a minute.@
+`Well, then.@
+`Once I settled back into bed, drowsiness returned.@
+`At this rate I’d be asleep in under a minute.@
 br
-`[line=3]But before that—
+`[line=3]But before that.@
 br
 `“Akiha.@ Has that place always been in our garden?”@
 ld c,"tachi/aki_t12b",crossfade,400
@@ -33,14 +36,21 @@ ld c,"tachi/aki_t12b",crossfade,400
 `“One more thing.@ This is going to sound strange, but when we were children, was there ever another child with us?@ Someone besides you and me?”@
 ld c,"tachi/aki_t01b",crossfade,400
 `“What?”@
-`Akiha tilted her head, utterly at a loss.@ …@Of course.@ There couldn’t have been another child.@ But if there wasn’t, nothing made sense.@ The scene I saw in my dream, and the dream I saw in that clearing—if those two were the same, then there had to have been one more child.@ A child who was killed.
+`Akiha tilted her head, utterly at a loss.@
+`Of course.@ There couldn’t have been another child.@
+`But if there wasn’t, nothing made sense.@
+`The scene I saw in my dream,
+`and the dream I saw in that clearing.@
+`If those two were the same—
+`then there had to have been one more child who was killed.
 \
 `“Never mind.@ It was only a dream.”@
 ld c,"tachi/aki_t12b",crossfade,400
 `“I see.@ Good night, then, Brother.@ Please get plenty of rest.”@
 `“I will.”@
 bg #000000,crossfade,800
-`The moment I answered Akiha, sleep took me without warning, sudden as one of my usual anemic spells.
+`The moment I answered Akiha.@
+`I fell abruptly asleep, as if succumbing to one of my usual anemic spells.
 \
 playstop
 !w3000

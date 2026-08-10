@@ -2,12 +2,12 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_40d",crossfade,400
-`…@Could it be Ciel?@
+`Could it be Ciel?@
 br
-`“…@God, I’m an idiot.@ There’s no possible way she’d—”@
+`“God, I’m an idiot.@ There’s no possible way she’d[line=4]”@
 ld c,"tachi/cel_t01a",crossfade,400
 `“Good evening, Tohno.”@
-`“—be here—what?!”@
+`“No way, wha[line=3]?!”@
 `I bolt upright in bed.
 \
 play "*1"
@@ -16,72 +16,80 @@ ld c,"tachi/cel_t04",crossfade,400
 `“Yes.@ I wanted to see you, so here I am.”@
 `She says it with a smile, as lightly as if there were nothing remarkable about it.
 \
-`“You came to see me?@ That’s…@ no way.”@
+`“You came to see me[line=3]that can’t be true.”@
 ld c,"tachi/cel_t01a",crossfade,400
 `“It’s true.@ I’m standing right here, aren’t I?”@
 `“That’s exactly what can’t be real…!@ Look at the time!@ And this is my bedroom—you can’t just stroll in here as if it’s nothing…!”
 \
 ld c,"tachi/cel_t03",crossfade,400
 `“Of course I can.@ This is a dream, after all.”@
-`“…@What?”@
+`“[line=4]What?”@
 br
-`A dream, she says.@ Excuse me?@
+`A dream, she says[line=3]what?@
 br
-`“A dream…@ Ciel?”@
-`“Yes.@ A dream you’re having, Tohno.@ For the moment, let’s leave it at that.”
+`“A dream[line=3]Ciel?”@
+`“Yes, a dream you’re having, Tohno.@ For the moment, let’s leave it at that.”
 \
 `She gives me a sweet smile.@
-`…@She looks like the same Ciel she always is.@
-`And yet something about her feels profoundly wrong.@
-`Her gentle eyes have taken on a secretive, beguiling gleam, as though she’s plotting something.@ Even her careful, courteous voice keeps slipping into teasing little notes designed to feed my confusion.@
+`She looks like the same Ciel she always is.@
+`But something[line=3]feels profoundly wrong.@
+`Her gentle eyes have taken on a secretive, beguiling gleam, as though she’s plotting something.@
+`Her careful, courteous voice keeps slipping into playful little notes that deliberately stoke my confusion.@
 br
 `[line=3]No—the strangest thing of all is simply that Ciel is standing in my bedroom.
 \
 `I glance at the clock.@
 `It still says a little past three in the morning.@
-`There’s no way this can possibly—
+`There’s no way this can possibly[line=3]
 br
 `“No.@ A dream couldn’t feel this real…!”@
-`I get out of bed and try to cross the room to her.
+`I get out of bed.@
+`I step forward to cross the room to Ciel.
 \
 bg #000000,crossfade,400
 bg "bg/bg_40d",crossfade,400
-`“H…@ huh?”@
-`My legs.@ My legs won’t move at all…!@
+`“Huh?”@
+`My legs.@ My legs won’t move at all…!?@
 ld c,"tachi/cel_t12",crossfade,400
 `“You mustn’t move without permission.@ Stay right there for me, Tohno.”@
-`“Stay right—wait a second, Ciel.@ Why can’t I move my legs…?”
+`“Stay right there[line=3]wait a second, Ciel.@
+`Why can’t I move my legs…?”
 \
 ld c,"tachi/cel_t08",crossfade,400
 `“Because it’s a dream, obviously.@ You still don’t believe me, do you?”@
 `She shrugs, regarding me as though I’m being tiresome.@
 `I’m the one who ought to be exasperated.
 \
-`“A dream?@ Don’t mess with me!@ What are you doing sneaking into my room in the middle of the night?!”@
+`“A dream[line=3]don’t mess with me.@ What are you doing sneaking into my room in the middle of the night, Ciel?!”@
 ld c,"tachi/cel_t02",crossfade,400
 `“Nothing in particular.@ There’s only one reason a girl comes to a boy’s room, isn’t there?”@
 `Her cheeks color, and a suggestive smile steals across her lips.
 \
-`“One reason…?@ Um, Ciel?”@
-`Surely she means she came to cook me something delicious, or play some pointless card game together—not, um—
+`“One reason, Ciel?”@
+`Surely she means she came to cook me something delicious, or play some pointless card game together, rather than[line=3]rather than[line=3]
 !w750
 ld c,"tachi/cel_t01a",crossfade,400
 br
 `“Yes.@ Let’s do something naughty.”@
 br
-`With the same easy manner she always has, Ciel says something utterly outrageous.
+`With the same easy manner she always has.@
+`Ciel says something utterly outrageous.
 \
-`“W-wait!@ What are you saying…?!@ H-how do you suddenly arrive at an idea like that…?”@
+`“W-wait[line=3]what are you saying, Ciel…!@ H-how did your mind suddenly go there…!”@
 `Knowing my whole face has gone scarlet, I flail my arms wildly.@
 `I have no idea what’s happening, but whatever Ciel is proposing is insane.
 \
-`Ciel and I are just…@ Ciel and me.@ We aren’t lovers.@ If anything, we’re close friends who talk to each other about things, and the fact that some part of me is actually thrilled by her invitation is so pathetic that—
+`Ciel and I are simply Ciel and me,
+`we are not lovers,
+`if anything, we are close friends who talk to each other,
+`and I am so pathetic for being thrilled that she invited me like this[line=3]
 \
 `“Oh, forget it—this whole thing is absurd!@ Why would you ever say something like that to someone like me…?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“…@I see.@ You don’t want me, then.”@
-`“Ah—no, that’s not it…@ No, wait, it is!@ It’s just—this doesn’t make sense.@ You’re important to me.@ You’re the person I can talk to about anything, and I never thought of us as a man and a woman.@ I wanted the three of us—you, Arihiko, and me—to keep having fun together!@
-`“So this…@ even in a dream, it’s wrong.”
+`“I see.@ You don’t want me, then.”@
+`“Ah[line=2]no, that’s not it[line=3]no, wait, it is!@ It just doesn’t make sense.@
+`You’re the person I can talk to about anything, and I never thought of us as a man and a woman; I wanted the three of us, you, Arihiko, and me, to keep having fun together!@
+`That’s why[line=3]this, even in a dream, is wrong.”
 \
 ld c,"tachi/cel_t12",crossfade,400
 `“Is that so.@ I understand you perfectly now, Tohno.”@
@@ -89,190 +97,221 @@ ld c,"tachi/cel_t12",crossfade,400
 cl c,lshutter,400
 `“Ah…”@
 `My legs, frozen only moments ago, move again.@
-`I don’t know what held them still, but now at least I can escort her out of the house—
+`I don’t know what held them still, but now at least I can escort her out of the house[line=3].
 \
 `“Tohno.”@
 `Her voice cuts like a whip, so stern it hardly sounds like hers.@
-`“Y-yes?”@
+`“Y[line=2]yes?”@
 ld c,"tachi/cel_t04",crossfade,400
-`“I’ve decided.@ I’m going to be mean to you.”@ Smiling radiantly, she takes one step toward me.@
+`“I’ve decided.@ I’m going to be mean to you.”@
+`She beams.@
+`Ciel takes one step toward me.@
 cl c,lshutter,400
 \
-`“Ciel, come on—that’s enough fooling arou—”@
-`“I’m not fooling around.@ I think a prank would be more like this, don’t you?”@
+`“Wai[line=2]Ciel, enough fooling around”@
+`“I am not fooling around.@
+`A prank would be more like this, don’t you think?”@
 `She snaps her fingers.@
 br
-`[line=3]And instantly—
+`[line=3]And instantly.@
 br
-`“—?!”@
+`“[line=4]!?”@
 quakey 2,200
 `My body drops backward onto the bed.
 \
-`“What—?!”@
+`“Wha[line=3]?!”@
 `I-I don’t understand!@
-`My arms have been wrenched behind me and wound tight with something like leather straps.@ More straps bind my ankles, leaving me utterly unable to move.
+`My arms have been wrenched behind me and wound tight with something[line=3]something like leather straps.@
+`More straps bind my ankles, leaving me utterly unable to move.
 \
 `“Why—why did this happen all of a sudden…?!”@
 ld c,"tachi/cel_t04",crossfade,400
 `“Because it’s a dream.@ A little trick like this is child’s play.”@
-`“What—”@
+`“Wha[line=4]”@
 cl c,lshutter,400
-`I strain my arms, trying to wrench myself free.@ The restraints merely clatter, without giving so much as an inch.@
-`“…@Wait.@ Are these chains?”@
+`I strain my arms, trying to wrench myself free.@
+`The restraints clatter but show no sign of coming loose.@
+`“Wait, are these chains?”@
 `That tiny realization settles over my shoulders with crushing weight.
 \
-`There’s no hope of freeing my hands or feet.@ Ciel stands before me, somehow unlike herself.@
+`There’s no hope of freeing my hands or feet.@
+`Ciel stands before me, somehow unlike herself.@
 `I don’t feel as if my life is in danger—but I do feel as if I’m in very, very serious trouble.
 \
 `Let’s do something naughty.@
 br
 `That was what she said.@
-`Alone together in my bedroom at night, it would be stranger not to be excited by an invitation like that.@ Whatever protests I make, my heart is pounding hard enough to shake me.@
-`But something is wrong.@
-`Doing that with Ciel just feels wrong—
+`Alone together in my bedroom at night, it would be stranger not to be excited by an invitation like that.@
+`Whatever protests I make, my heart is pounding hard enough to shake me.@
+`But[line=3]something is wrong.@
+`Doing that with Ciel just feels wrong[line=4]
 \
-`“—”@
-`I have no other choice.@ My mouth is still free.@ If I shout, Hisui will come—!@
+`“[line=7]”@
+`I have no other choice.@
+`My mouth is still free, so if I shout, Hisui will come[line=3]!@
 ld c,"tachi/cel_t04",crossfade,400
 `“Don’t.@ If you make too much noise, someone will come.@ And what excuse will you give them then, Tohno?”@
 cl c,lshutter,400
 \
 `Ciel climbs onto the bed.@
-`The mattress groans and sinks beneath our combined weight.@
-`Then comes the silken whisper of a ribbon being untied.
+`The mattress groans as it sinks beneath our combined weight.@
+`After that.@
+`The silken whisper of a ribbon being untied.
 \
 eroskip 91
-`“Wha—”@
+`“Wha[line=4]”@
 `There isn’t even time to stop her.@
-`…@No.@ Perhaps my desire to see defeats my better judgment before it can act.@
-`Either way, I simply remain there—
+`No, perhaps my desire to see defeats my better judgment before it can act.@
+`Either way, I simply remain there.@
 br
 bg #000000,crossfade,400
 play "*5"
 bg "event/cel_h01",lshutter,800
-`—watching breathlessly as she removes not only her uniform, but every last scrap of underwear.
+`I can only watch breathlessly as she removes not only her uniform, but every last scrap of underwear.
 \
-`“C-Ciel—”@
-`“There.@ Now it’s too late.@ If anyone from the house comes in, you’ll be the one with the explaining to do.”@
+`“C-Ciel[line=4]”@
+`“There, now it’s too late.@ If anyone from the house comes in, you’ll be the one with the explaining to do.”@
 `A wicked little smile on her lips, she kneels upon the bed like a cat.
 \
-`“—”@
+`“[line=7]”@
 `My throat burns.@
-`My thoughts reel like I’m blind drunk.@ What should I say?@ What should I do?@ What was I even doing before this?@ I can barely think at all—
+`My thoughts reel as if I’m blind drunk, leaving me unable to decide what to say or do, or even remember what I had been doing moments ago[line=4]
 \
-`“…@Ah.”@
+`“Ah”@
 `My throat works in a dry swallow.@
 `Ciel is before me without a thread on her body.@
-`The only thing I can still do is turn my eyes away and refuse to look—but my body has no interest in listening to reason’s empty proprieties.
+`The only thing I can still do is turn my eyes away and refuse to look[line=3]but my body has no interest in listening to reason’s empty proprieties.
 \
-`…@The soft curves of her breasts.@ Her naked white skin is arousing in itself; I can almost imagine its scent.
+`The soft curves of her breasts.@
+`Her naked white skin is arousing in itself; I can almost imagine its scent.
 \
 `My heart seems to burst with one violent beat.@
-`I shouldn’t be seeing this, yet her naked body is so sensual that it ensnares my very awareness.@ My eyes remain fixed upon her, unable to move.
+`I shouldn’t be seeing this, yet her naked body is so sensual that my gaze is trapped, unable to turn away.
 \
 `“Now, what shall I do with you?@ I could simply take you as you are, but that would be a little dull, wouldn’t it?”@
 `Still wearing that beguiling smile, she inches slowly closer.
 \
-`…@No.@
+`No.@
 `I thought she looked like a cat, but that isn’t quite right.@
 `The creature stalking toward me is more panther than house cat, and I begin to feel like prey waiting helplessly to be devoured.
 \
 `“C-Ciel…!@ Stop this nonsense and put your clothes back on…!”@
 `Somehow suppressing my desire, I force the plea out in a whisper.
 \
-`“…@Honestly.@ You still don’t understand your position, do you?”@
+`“Honestly.@ You still don’t understand your position, do you?”@
 `She knits her brows and gives me a sidelong look.@
-`“There’s almost nothing on your body you can move freely now.@ If you talk to me like that, you’ll only make me want to torment you more.”
+`“There’s almost nothing on your body you can move freely now.@
+`If you talk to me like that, you’ll only make me want to torment you more.”
 \
 bg #000000,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`“What—Ciel?!”@
+`“Wha[line=3]Ciel?!”@
 `She vanishes.@
-`The bed is empty.@ She is nowhere in the room, and only the unmistakable sense of another presence remains—
+`The bed is empty.@
+`She is nowhere in the room, and only the unmistakable sense of another presence remains[line=3]
 br
 `“Hh.”@
 br
 `“Aaaaah?!”@
-`[line=3]Without warning, a breath brushes my ear from behind.
+`[line=3]And then.@
+`Without warning, a breath brushes my ear from behind.
 \
 `“C-C-Ciel…?!”@
 `“Did I startle you?@ I didn’t mean to, but you’re so sensitive that I suppose you startled twice as badly as anyone else would.”@
-`As she speaks, her naked body presses snugly against my back.
+`As she speaks.@
+`Ciel’s body presses snugly against my back.
 \
 bg #000000,lshutter,400
 bg "event/cel_h01",lshutter,400
-`“—!!!!!”@
-`“You shouldn’t cry out so loudly.@ It’s the middle of the night.@ Someone might come.”@
+`“Ngh[line=4]!!!!!”@
+`“You shouldn’t cry out so loudly; it’s the middle of the night.@ Someone might come.”@
 br
-`…@Her voice comes from directly behind me.@
+`Ciel’s voice comes from directly behind me.@
+`A touch.@
 `A finger traces the nape of my neck.@
-`“Mm—…!”@
-`The shiver jerks my head back.@ My heart thunders louder than ever.@
+`“Nnh[line=4]gh…!”@
+`The shiver jerks my head back.@
+`My heart thunders louder than ever.@
 `Thump.@
 `With every surge of blood through my veins, lust seeps deeper into my mind.
 \
-`“…@Stop…@ Ciel, wait…!”@
-`“Oh, honestly.@ Do you hate me that much, Tohno?”@
+`“Stop, wait, Ciel…!”@
+`“Honestly.@ Do you hate me that much, Tohno?”@
 br
-`[line=3]No.@
-`      No, I could never, ever hate her.@ But—
+`[line=3]That is not true.@
+`I could never, ever hate her, but.@
 br
-`Her fingers travel from my neck down my back, then circle my chest as if embracing me.@
-`She draws me tight against her, and the softness of her breasts presses into my back.
+`From my neck to my back.@
+`Then her fingers circle from my back to my chest as if embracing me.@
+`A tight squeeze.@
+`The softness of Ciel’s breasts presses into my back.
 \
 `“…!”@
 `This is bad.@
-`I don’t want this—so why does a man’s body have to be so—
+`I don’t want this[line=3]so why does a man’s body have to be so[line=3]
 \
 `“That’s why I came.@ I thought even a stubborn boy like you might be honest with me inside a dream.”@
-`She whispers directly into my ear.@ Her lips are so close that each warm breath tickles the delicate flesh within it.
+`She whispers directly into my ear.@
+`Her lips are so close that each warm breath tickles the delicate flesh within it.
 \
-`“This…@ really is a dream…?”@
+`“This really is a dream?”@
 `“Yes.@ I could never do this if it weren’t.”@
-`“Then…@ even if I shout…@ nobody will come, will they…?”@
+`“Then, even if I shout, nobody will come, will they?”@
 `I speak in broken fragments, fighting to master the part of me straining to rise.@
 br
 `Ciel gives a soft laugh beside my ear.
 \
-`“They will.@ If you shout, your sister will hear something suspicious and come investigate.@ It’s one of those convenient-only-when-it-wants-to-be dreams.”@
+`“They will.@ If you shout, your sister will hear something suspicious and come investigate.@ It’s one of those dreams that is only convenient up to a point.”@
 br
-`[line=3]Then isn’t this—after all—reality, something no one could call a dream?
+`[line=3]Then.@
+`Isn’t this still reality after all, something no one could call a dream?
 \
-`Her fingers glide down from my chest.@ One by one they creep lower, smooth and deliberate as spider legs, stirring every nerve they pass.@
+`Her fingers glide down from my chest.@
+`One by one they creep lower, smooth and deliberate as spider legs, stirring every nerve they pass.@
 `My heart is deafening.@
 `At some point my clothes have vanished, and my erection is already standing rigid between my legs.@
 br
-`A faint, feathery crawl.@ Her fingers descend like a tarantula.
+`A faint, feathery crawl.@
+`Her fingers descend like a tarantula.
 \
-`“Now I’m going to be mean to you.@ Prepare yourself, Tohno.”@ Her fingers touch my naked erection.@ Another person’s touch settles upon that upright part of me, swollen hard enough to show every blue vein.@ The exposure alone is almost more shame than I can bear.@ Knowing those are Ciel’s fingers makes me want to die of it.
+`“Now I’m going to be mean to you.@ Prepare yourself, Tohno.”@
+`Her fingers touch my naked erection.@
+`Another person’s touch settles upon that upright part of me, swollen hard enough to show every blue vein.@
+`The exposure alone is almost more shame than I can bear; knowing those are Ciel’s fingers[line=3]makes me want to die of it.
 \
-`“Oh—look at you, Tohno.@ You’re hard as stone.@ I think you can bear a little rough treatment.”@
-`She sounds delighted.@ The fingers that merely rested against me coil around my erection, then seize it so viciously it feels as if she means to tear it off.
+`“Oh[line=2]look at you, Tohno, hard as stone.@ I think you can bear a little rough treatment.”@
+`Ciel sounds delighted.@
+`The fingers resting against me coil around my erection.@
+`Then she seizes it so viciously it feels as if she means to tear it off.
 \
 bg #ffffff,notrans,0
 wait 100
 bg "event/cel_h01",notrans,0
 `“Nn…!”@
-`A cry escapes me.@ For one instant, something thick and molten streaks from my hips to the crown of my head.@
-`“Oh, did I startle you?@ I’m sorry.@ You aren’t wet yet, are you?@ Don’t worry.@ I’ll be gentle.”@
-`Her palm withdraws.@ Then those white fingers return more carefully, cupping the base of my shaft with a soft, deliberate motion.@
-`“Ah—h…!”@
+`A cry escapes me.@
+`For one instant, something thick and molten streaks from my hips to the crown of my head.@
+`“Oh, did I startle you?@
+`I’m sorry, you aren’t wet yet, are you?@ Don’t worry.@ I’ll be gentle.”@
+`Her palm withdraws.@
+`Then those white fingers return more carefully, cupping the base of my shaft with a soft, deliberate motion.@
+`“Ah[line=3]hot[line=3]!”@
 `My breath catches at the sensation of her fingers exploring my penis.
 \
-`“No—Ciel, that’s not what I—”@
+`“No[line=3]Ciel, that’s not what I mean[line=3]”@
 `I only want her to stop.@
 `The chains clatter as I pull against them.@
 br
 `[line=3]Nothing moves.@ I have no freedom.@
 br
-`Ciel watches with shining, delighted eyes as I struggle and try to smother the moans her touch wrings from me—
+`Ciel watches with shining, delighted eyes as I struggle and try to smother the moans her touch wrings from me[line=3]
 \
-`“This should be fun.@ I wonder how long the stubborn boy from a moment ago will be able to hold out?”@ Her voice murmurs beside my ear, and then a red tongue slips inside it.
+`“This should be fun.@ I wonder how long the stubborn boy from a moment ago will be able to hold out?”@
+`Her voice murmurs beside my ear, and then a red tongue slips inside it.
 \
-`“…@Nn!”@
+`“Nn!”@
 `My eyes squeeze shut.@
 `Below, something even worse is being done to me.@
-`“St-stop—”@
+`“Ngh[line=3]stop[line=3]”@
 `Three of Ciel’s fingers begin stroking my hot, swollen penis from base to tip with maddening slowness.
 \
 br
@@ -283,281 +322,354 @@ br
 `Press.@
 `Then knead, as though wringing everything out of me.
 \
-`“Mm…@ yours is getting indecent now, Tohno.@
-`“Your eyes are free, aren’t they?@ It belongs to you, so make sure you watch.”@
-`“Wha—”@
+`“Mm, yours is getting indecent now, Tohno.@
+`Your eyes are free, aren’t they?@ It belongs to you, so make sure you watch.”@
+`“Wha[line=3]”@
 `Her voice deepens my humiliation still further.
 \
 br
 `Slk, slch, slick.@
 br
-`Under her relentless attention, my penis swells larger and larger.@ The more it grows, the more grotesquely unlike her slender fingers it becomes.@ Merely looking at it feels enough to drive me mad.@
+`Under her relentless attention, my penis swells larger and larger.@
+`The more it grows, the more grotesquely unlike her slender fingers it becomes[line=3]the sight alone feels enough to drive me mad.@
 br
-`…@Her fingers repeat the caress without mercy.
+`Her fingers repeat the caress without mercy.
 \
-`“Kh—h…!”@
+`“Kh[line=3]h, fu[line=3]”@
 `However desperately I resist, sounds escape me.@
-`I clench my teeth and insist I’m not aroused, that I feel nothing—but my body refuses every word.
+`I clench my teeth and insist I’m not aroused[line=2]that I feel nothing[line=3]but my body refuses every word.
 \
 `My erection swells another degree, stretched so tight it seems ready to burst.@
-`Her touch alone is enough to bring my reason crashing down, but the movement of those fingers is more ruinous still.@ Each wet stroke from base to tip brings the boiling pressure inside me to the brink of release.
+`Her touch alone is enough to bring my reason crashing down[line=3]yet the movement of those fingers is more ruinous still.@
+`A single wet stroke from base to tip.@
+`Brings the boiling pressure inside me to the brink of release.
 \
-`“Hah—kh…!”@
-`I fight to contain the broken sounds, breathing out as softly as I can so nothing carries beyond the room.@
-`Each time I do, Ciel giggles beside me.@
-`“Your voice is rather exciting, Tohno.@ It sounds so sensual.”@
-`“Don’t…@ mock—”@
+`“Hah[line=3]kh, uh[line=3]”@
+`I fight to contain the broken sounds.@
+`I breathe out as softly as I can so nothing carries beyond the room.@
+`Each time I do.@
+`Ciel giggles beside me.@
+`“This is rather exciting.@ Your voice sounds so sensual, Tohno.”@
+`“Don’t mock me[line=3]”@
 `Before I can finish, her fingers move again.
 \
-`The movement of her fingers—less than ten centimeters of motion—holds my entire body in thrall.@
+`The movement of Ciel’s fingers.@
+`Less than ten centimeters of motion holds my entire body in thrall.@
 br
-`…@I can’t resist her.@
-`My hands and feet are bound while she pleasures me however she chooses.@ I’m the only one panting shamelessly, fighting with all my strength against the pleasure.
+`I can’t resist her.@
+`My hands and feet are bound while she pleasures me however she chooses.@
+`I’m the only one panting shamelessly, fighting with all my strength against the pleasure.
 \
-`…@And I can’t resist that pleasure.@
+`I can’t resist that pleasure.@
 br
 `Ordinarily, this would inspire nothing but rage.@
-`Now, though, my helplessness only numbs my reason further.
+`Yet[line=2]now, my helplessness only numbs my reason further.
 \
-`“Ciel—let’s stop.@ This…@ this isn’t right.”@
-`…@Yes.@ It’s wrong.@
+`“Ciel[line=3]let’s stop.@ This is not right.”@
+`Yes, it’s wrong.@
 `I don’t want this.@
 `I can’t do something like this when I don’t love her.@
-`…@I don’t love her?@
+`I don’t love her?@
 `Is that true?@ If this really is my dream, doesn’t that make all of this the secret desire of Shiki Tohno?
 \
-`“Hah…@ hah…@ hah—”@
+`“Hah, hah, hah[line=3]”@
 br
-`…@It’s no use.@ I can’t think.@
-`It feels too good.@
-`Why—why am I this aroused?@
+`It’s no use.@ I can’t think.@
+`It feels[line=3]too good.@
+`Why, why am I this aroused?@
 `It isn’t as if this is the first time fingers have stroked me.
 \
-`And yet it feels nothing like doing it myself.@ I can’t endure much more.@ I want the fingers to stop, but they aren’t mine, and they obey nothing I say.@ My penis is already slick with translucent fluid.@ Thick with the promise of ejaculation, precum spills helplessly from the narrow urethra.@ “Hah…@ kh…@ ah…”@ Still, the last pitiful scrap of reason holds the impulse back.
+`And yet it feels nothing like doing it myself.@
+`I can’t endure much more.@
+`I want the fingers to stop, but they aren’t mine, and they obey nothing I say.@
+`My penis is already slick with translucent fluid.@
+`Thick with the promise of ejaculation, precum spills helplessly from the narrow urethra.@
+`“Hah, kh, ah”@
+`Still, the last pitiful scrap of reason holds the impulse back.
 \
-`“You really are stubborn, Tohno.@ Your body is so honest, so why must your heart keep pretending—like this!”@
-`On the final word, those gentle fingers turn to animal fangs, her nails biting into my shaft.
+`“You really are stubborn, Tohno.@ Your body is so honest, so why must your heart keep pretending, then!”@
+`On the final word.@
+`Those gentle fingers turn to animal fangs, her nails biting into my shaft.
 \
 bg #9c0120,notrans,0
 wait 100
 bg "event/cel_h01",notrans,0
-`“—!”@
+`“[line=5]!”@
 br
 `[line=4]A violent shock convulses me.@
-`My back arches.@ Until now I had been maddened by the need for her to go faster; now the sensation reverses, demanding instant release from her touch.@
+`My back arches.@
+`Until now I had been maddened by the need for her to go faster; now the sensation reverses, demanding instant release from her touch.@
 `Pleasure and pain collide.@
 `The impact drives upward from my groin, through my spine, and smashes into my brain.
 \
-`The chains around my wrists rattle.@ My arms strain with the need to be free, but the links refuse to open even the smallest gap.
+`The chains around my wrists rattle.@
+`My arms strain with the need to be free.@
+`But the links refuse to open even the smallest gap.
 \
-`“Ah—ah, aah!”@
-`Her nails remain buried in my shaft, grinding into the penis as though pinching shut what had been ready to erupt.
+`“Ah[line=3]ah, aah[line=3]!”@
+`Her nails remain buried in my shaft.@
+`They grind in.@ My penis is tormented as though she were pinching shut what had been ready to erupt.
 \
 `“C-Ciel…!”@
 `“Careful, Tohno.@ Those chains won’t come loose, and if you struggle too violently you’ll bleed.”@
-`“No—that’s not it!@ Your nails—your nails…!”@
-`“Oh?@ Are my fingers making you feel good?”@
+`“No[line=2]that’s not it, your nails, your nails[line=3]!”@
+`“Oh.@ Are my fingers making you feel good?”@
 `She asks the outrageous question in a voice sharpened with malice.
 \
 `“…!”@
 `I grit my teeth against the pain.@
-`Her fingers release me.@ Deep crescents from her nails remain across the middle of my shaft, but the impending climax has at least receded.
+`Her fingers release me.@
+`Deep crescents from her nails remain across the middle of my shaft.@
+`Perhaps because of that, the impending climax has at least receded.
 \
-`“Ciel…@ enough.@ If you go any further…@ I really will be angry.”@
+`“Ciel, enough; if you go any further, I really will be angry[line=3]”@
 `“I know.@ I wouldn’t dream of going further when you still don’t want me to.”@
 `Watching me as though she can see straight through my heart, she begins moving her fingers again.
 \
 `“…!@ You don’t understand at all, you idiot!”@
-`She gives no answer.@ She only resumes touching me with the same slow, gentle motions.@
+`She gives no answer.@
+`She only resumes touching me with the same slow, gentle motions.@
 `Slowly.@
 `Stroking upward from the base.@
 `Caressing that ugly shaft of flesh as it makes slick, obscene sounds.
 \
 `Again and again.@
-`So slowly that I begin to wonder why she won’t go faster—so slowly I find myself wishing she would hurry and grant me relief.
+`So slowly that I begin to wonder why she won’t go faster[line=3]so slowly I find myself wishing she would hurry and grant me relief.
 \
-`“…!”@
-`My breathing settles as I grow used to her fingers.@
+`“…”@
+`My breathing begins to settle.@
+`As I grow used to Ciel’s fingers, my breathing calms.@
 `But it is already too late.@
-`The caresses are languid, maddening, always building me higher without ever bringing an end.@ My arched penis is drenched in fluid, wet as a woman’s sex, yet I still haven’t come once.
+`The caresses are languid and maddening, always building me higher without ever bringing an end.@
+`My arched penis is drenched in fluid, wet as a woman’s sex.@
+`Yet I still haven’t come once.
 \
-`“…@Nn…”@
-`Her fingers move in a gentle rhythm.@ Only the fluid heralding climax continues to seep out.@
-`“Ah…@ kh.”@
-`I want to come, but I can’t.@ The pressure boils at the base of my penis, yet I have grown accustomed to this shallow pleasure and can no longer reach the summit.
+`“Nn”@
+`Her fingers move in a gentle rhythm.@
+`Only the fluid heralding climax continues to seep out.@
+`“Ah, kh”@
+`I want to come, but I can’t.@
+`The pressure boils at the base of my penis, yet I have grown accustomed to this shallow pleasure and can no longer reach the summit.
 \
 `I want release.@
 `But it won’t come.@
 `I want to finish.@
 `But I can’t.@
-`Ciel’s fingers remain slow.@ Maddening.@ Maddening.@ After bringing me this far, why won’t she use her nails again and drive me over the edge at once?
+`Ciel’s fingers remain slow.@
+`Maddening.@ Maddening.@ Why, after bringing me this far.@
+`Why won’t she use her nails again and drive me over the edge at once?
 \
 `[line=3]Hurry.@
 br
-`Hurry—if she doesn’t hurry, something inside me will break.@
-`The molten weight churning at my base is heavy and painful.@ I have to force it out, have to release it—
+`Hurry, if she doesn’t hurry, something inside me will break.@
+`The molten weight churning at my base is heavy and painful; I have to force it out, have to release it[line=3]
 `If this pleasure like a nail driven through my skull goes on, I’ll lose my mind…!
 \
-`“…@Damn…@ it.”@
+`“Damn it”@
 `My mind is coming apart.@
-`Hurry—I don’t care anymore.@
-`Reason, Ciel, any of it—none of that matters.@
-`I won’t cling to some stupid scrap of pride, so please, hurry—
+`Hurry[line=2]I don’t care anymore.@
+`Reason, Ciel, any of it, none of that matters.@
+`I won’t cling to some stupid scrap of pride, so please, hurry[line=3]
 \
 `“Tell me, Tohno.@ Are you about to come?”@
-`She asks from beside me in a sober voice.@ The playful delight has vanished; now she presses me for a serious answer.
+`She asks from beside me in a sober voice.@
+`The playful delight has vanished; now she presses me for a serious answer.
 \
-`“D-don’t be ridiculous…@ I don’t feel anything.@ This is pointless, no matter what you do.”@
-`…@And somehow the words that leave my mouth are the exact opposite of what I feel.
+`“D-don’t be ridiculous[line=3]I don’t feel anything.@ This is pointless, no matter what you do[line=3]”@
+`And yet the words that leave my mouth are the exact opposite of what I feel.
 \
-`I hear her sigh.@
+`I hear Ciel sigh.@
 `“You win.@ I can’t best you, Tohno.@ Since I can’t, I’ll stop now.”@
-`“—What?”@
-`Her fingers leave me without ceremony, and the shallow caress that had become constant abruptly disappears.
+`“[line=4]What?”@
+`Her fingers leave me without ceremony.@
+`The shallow caress that had become constant abruptly disappears.
 \
 bg #000000,lshutter,800
 bg "bg/bg_40d",lshutter,800
 `“There.@ That’s better, isn’t it, Tohno?”@
-`“—Ah.”@
-`No.@ It isn’t.@
+`“[line=4]Ah”@
+`No[line=3]that can’t be true.@
 `The caresses that had begun to feel inevitable are gone, and my body strains even more fiercely for them.@
 br
-`My penis is stretched to its absolute limit, still pulsing out drop after drop of fluid.
+`Stretched taut.@
+`My penis is swollen to its absolute limit, still pulsing out drop after drop of fluid.
 \
-`Yet I can’t come.@ My body has adapted to her touch, and without it I can’t finish.@ My hands are chained, and even Ciel’s fingers have abandoned me.
+`Yet I can’t come.@
+`My body has adapted to her touch, and without it I can’t finish.@
+`My hands are chained, and even Ciel’s fingers have abandoned me.
 \
-`“…@St…”@ “Yes?@ What is it, Tohno?”@ “Stop…”@ “But I did stop for you.@ Or is there something you would like me to do?”@ Her voice is full of delight.@ “What do you want?@ Unless you say it clearly, I can’t possibly know.”
+`“St”@
+`“Yes?@ What is it, Tohno?”@
+`“Stop”@
+`“But I did stop for you.@ Or is there something you would like me to do?”@
+`Her voice is full of delight.@
+`“What do you want?@ Unless you say it clearly, I can’t possibly know, Tohno.”
 \
 `“…”@
 `I can’t say it.@ I couldn’t say something like that if my life depended on it.@
-`But if this continues, I really will go mad—
+`But if this continues, I really will go mad[line=3]!
 \
-`“…@Don’t…@ stop…”@ “I can’t hear you.@ Speak more clearly.”@ Her voice dances with delight.@ …@I never knew Ciel could be this mean.
+`“Don’t stop”@
+`“I can’t hear you.@ Speak more clearly.”@
+`Ciel’s voice dances with delight.@
+`I never knew.@
+`I never knew Ciel could be this mean.
 \
-`“…@Don’t stop.@ Please…@ keep doing it…@ Ciel…”@
+`“Don’t stop.@ Please keep doing it, Ciel.”@
 `The words come out in mortified fragments.@
-`Beside me, she gives a soft laugh.@
+`Beside me.@
+`I hear Ciel give a soft laugh.@
 `“Very well.@ The honest Tohno deserves a reward.”
 \
 bg #000000,lshutter,400
-`Her body leaves my back.@ The mattress shifts with a muffled thump, and Ciel kneels before me.
+`Her body leaves my back.@
+`A muffled thump.@
+`Ciel kneels before me.
 \
 bg "event/cel_h02",lshutter,800
-`“C-Ciel…?!”@
+`“C[line=3]Ciel…?!”@
 `My hips recoil instinctively.@
 `Kneeling between my legs as I sit upon the bed, she has pressed the lightest kiss to my erection.
 \
-`“Mm…@ there’s so much.@ This is what your stubbornness has done to you.”@
+`“Mm, there’s so much.@ This is what your stubbornness has done to you.”@
 `Holding my shaft, slick with fluid, she leans close and sniffs it.@
-`She takes in her hand what even I can’t bear to look at and brings her face that near—
+`She takes in her hand what even I can’t bear to look at and brings her face that near[line=3]
 \
 `[line=4]Thump.@
 br
-`“…@Hah…”@
+`“Hah”@
 `She hasn’t done anything yet, but my penis gives a violent twitch.@
-`Perhaps pleasure is born where body and mind mingle.@ The mere closeness of her face makes the trapped heat coiled inside me rear its head with another heavy pulse.
+`Perhaps pleasure is born where body and mind mingle; the mere closeness of her face makes the trapped heat coiled inside me rear its head with another heavy pulse.
 \
-`…@Now that I look, her cheeks are flushed.@
-`Until this moment, I thought I was merely a toy she had been amusing herself with.@
-`Has she been pressed against me all this time wearing that same expression?
+`Now that I look, her cheeks are flushed.@
+`Until this moment, I thought I was nothing more than a toy she had been amusing herself with.@
+`Has she been pressed against me all this time[line=3]wearing that same expression[line=3]
 \
 `[line=3]Thump.@
 br
-`Stronger now, emotion surges toward my throat like nausea.
+`Stronger still.@
+`Emotion surges toward my throat like nausea.
 \
-`“Ciel…@ I…@ I can’t…”@
-`“I know.@ You’re incredible—hot as a brazier.”@
-`She murmurs in wonder, then draws her tongue across the head, already drenched with fluid.
+`“Ciel, I, something is wrong”@
+`“I know.@ You’re incredible[line=3]hot as a brazier, Tohno.”@
+`Ciel murmurs in wonder.@
+`Then she draws her tongue across the head, already drenched with fluid.
 \
-`“Nn—!”@
-`The roughness, so unlike her fingers, sends numbness through my body.@ Her tongue clings wetly enough to seem liquid, yet its firm resistance is unmistakable.
+`“Nn[line=4]gh!”@
+`The roughness, so unlike her fingers, sends numbness through my body.@
+`Her tongue clings wetly enough to seem liquid, yet its firm resistance is unmistakable.
 \
-`“Hah—ah, ah…”@
-`Wet stroke after wet stroke, her tongue wipes the fluid from the swollen head.
+`“Hah[line=3]ah, ah”@
+`Wet stroke after wet stroke.@
+`Ciel’s tongue wipes the fluid from the swollen head.
 \
-`“—Nn!”@
-`That alone brings a pressure rising from the base, and then her fingers begin to move in waves.@ She grips my penis lengthwise and strokes the upright column of flesh with four fingers.@ Blue veins stand out across the hot shaft, glistening dully beneath the fluid.
+`“[line=3]Nn!”@
+`That alone brings a pressure rising from the base, and then her fingers begin to move in waves.@
+`She grips my penis lengthwise and strokes the upright column of flesh with four fingers.@
+`Blue veins stand out across the hot shaft, glistening dully beneath the fluid.
 \
 `Ciel’s fingers stroke that grotesque thing.
 \
-`They move with wet, obscene sounds, as though milking out what has gathered at the base.@ Her thumb pushes up beneath the head and presses sharply against the urethral opening.
+`They move with wet, obscene sounds, as though milking out what has gathered at the base.@
+`Her thumb pushes up beneath the tip[line=3]the head, pressing sharply against the urethral opening.
 \
-`“Ciel—I’m going to—”@
+`“Ciel[line=3]I’m going to[line=3]”@
 `Unable even to breathe, I force out that much.@
-`She doesn’t draw her face away.@ Fingers and tongue continue moving, indifferent to how close I am.
+`She doesn’t draw her face away.@
+`Fingers and tongue continue moving, indifferent to how close I am.
 \
-`“No—I can’t hold it…!”@
-`But I can’t possibly come on her face.@
-`I lock my hips and fight the climax.@ If only my arms were free, I could push her away in time—!
+`“No[line=2]I can’t hold it[line=3]!”@
+`But no matter what[line=3]I can’t possibly come on her face.@
+`I lock my hips and fight the climax.@
+`My arms.@ If only they were free, I could push her away in time[line=3]!
 \
 `“Why are you holding back, Tohno?”@
 `Oblivious to my thoughts, she asks the question.@
-`“Idiot…@ I can’t…@ do that on your face…”@
+`“Idiot, I can’t do that on your face”@
 `I grit my teeth and force the words out.@
-`But I can’t endure any longer.
+`But[line=3]I can’t endure any longer.
 \
-`“…@Hee hee.@ You’re adorable, Tohno.”@
+`“Hee hee.@ You’re adorable, Tohno.”@
 br
-`She laughs softly—
+`Ciel laughs softly.@
 br
 !w750
-`“So I’m going to torment you much, much more.”@
+`“So[line=3]I’m going to torment you much, much more.”@
 !w750
 \
-`With her other hand, she presses the vas deferens beneath my penis where it passes the base of the scrotum.
+`With her other hand, she presses the vas deferens beneath my penis[line=3]where it passes the base of the scrotum.
 \
-`“—?!”@
+`“[line=5]?!”@
 `My body convulses.@
-`It feels as if someone has bored a hole through my skull.
+`It feels as if something[line=2]has bored a hole through my skull.
 \
 `“If you press right here, like this, boys can’t ejaculate.”@
-`“Ah—what?”@
-`My shaft jerks.@ It spasms again and again, but what should already have burst free does not come.
+`“Ah[line=3]what?”@
+`My shaft jerks.@
+`It spasms again and again, but what should already have burst free does not come.
 \
 `“I wonder if you’ll break if I keep tormenting you like this.”@
-`She slowly licks her own lips with the tongue coated in my fluid.
+`A slow lick.@
+`Ciel licks her own lips with the tongue coated in my fluid.
 \
-`“But you’re the one who asked me to do whatever I wanted with you.@ So—”@ “Ah…@ Ciel…?”@ “—I’m going to ruin you completely.”@ She narrows her tongue to a point and forces it into the tiny opening of my urethra.
+`“But you’re the one who asked me to do whatever I wanted with you.@ So[line=3]”@
+`“Ah, Ciel?”@
+`“[line=3]So I’m going to ruin you completely.”@
+`With that.@
+`Ciel narrows her tongue to a point and forces it into the tiny opening of my urethra.
 \
-`“Haaaaah—!”@
-`It feels as if I’ll tear loose at the root…!@
-`That narrow opening, a place never touched at all, is assaulted by a tongue trying to force its way inside.@ The sensation drives me mad.@
-`Struck by the greatest shock yet, my body strains with all its power to release.@ But it cannot.@ Her fingers have closed the passage, denying me ejaculation.
+`“Hah[line=6]!”@
+`It feels as if I’ll tear loose at the root[line=3]at the root…!@
+`That narrow opening, a place never touched at all, is assaulted by a tongue trying to force its way inside.@
+`The sensation drives me mad.@
+`Struck by the greatest shock yet, my body strains with all its power to release.@
+`But it cannot.@
+`Her fingers have closed the passage, denying me ejaculation.
 \
-`“Hah—ah, ah, aah!”@
-`I wrench at my arms, and the chains roar through the room.@
-`I no longer care who wakes.@ If I waste thought on that, I’ll lose my mind first.
+`“Hah[line=3]ah, ah, aah[line=3]!”@
+`I wrench at my arms.@
+`The chains roar through the room.@
+`I no longer care[line=3]who wakes.@
+`If I waste thought on that, I’ll lose my mind first.
 \
-`Sl—ch—uu—
+`Sl, ch, uu[line=4]
 br
 `The sensation changes.@
-`Her tongue withdraws from the opening, and her lips seal around it and begin to suck.
+`Her tongue withdraws from the opening.@
+`Ciel’s lips seal around it and begin to suck.
 \
-`A long, drawing pull—as if she means to suck out what she knows cannot emerge.@ Her lips draw the passage within me into a vacuum.
+`A long sucking pull.@
+`As if she means to draw out what she knows cannot emerge.@
+`Her lips draw the passage within me into a vacuum.
 \
 bg #ffffff,crossfade,800
-`“Ghah—!!”@
-`It is like having alcohol poured directly through the hole bored in my skull.@ My awareness bleaches white, as though an eraser is rubbing it away.
+`“Ghah[line=4]!!”@
+`It is like having alcohol poured directly through the hole bored in my skull.@
+`My awareness.@ It bleaches white, as though an eraser is rubbing it away.
 \
-`Her fingers release me.@ The barrier holding back my ejaculation vanishes, and everything she has tortured into waiting finally explodes.
+`Her fingers release me.@
+`The barrier holding back my ejaculation vanishes, and everything she has tortured into waiting finally explodes.
 \
 `Thump.@
-`Thump-thump-thump, thu…@mp.
+`Thump-thump-thump, thump.
 \
 `Clouded white fluid surges out as though carrying away my awareness, reason, and memory by the roots.@
 br
 `[line=3]My mind is already too dazed to make out Ciel’s face.
 \
-`I collapse onto the bed.@ The chains around my limbs have vanished as if they never existed.@
+`I collapse onto the bed.@
+`The chains around my limbs have vanished as if they never existed.@
 br
-`“Haaaa…”@
+`“Hah[line=6]”@
 br
 `One last spasm.@
-`…@Her warmth still envelops my penis.@ With the head deep in her mouth, Ciel draws down and swallows the semen left inside the passage.
+`Ciel’s warmth still envelops my penis.@
+`With the head deep in her mouth, she draws down and swallows the semen left inside the passage.
 \
-`“—Ah.”@
+`“[line=6]Ah”@
 br
-`That is the finishing blow.@ What little awareness remains feels as though Ciel has swallowed every last drop of it—
+`That is the finishing blow.@
+`What little awareness remains feels as though Ciel has swallowed every last drop of it[line=4]
 \
 playstop
 !w3000

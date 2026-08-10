@@ -2,68 +2,91 @@ phase "bg/bg_20a",r,ark,03a,3
 bg #ffffff,crossfade,1500
 play "*2"
 bg "bg/bg_18a",crossfade,1500
-`“Mm…”@ Sunlight through the window awakened me.@ The rain must have stopped; I could hear none falling.@ The sky remained overcast, and the light was far from bright.@
+`“[line=6]Mm.”@
+`Sunlight through the window awakened me.@
+`The rain must have stopped; I could hear none falling.@
+`The sky remained overcast, and the light was far from bright.@
 br
-`“…@Huh?”@
+`“[line=7]Huh?”@
 br
-`I looked around in confusion.@ This was plainly not my room.
+`I looked around in confusion.@
+`This was plainly not my room.
 \
 ld c,"tachi/cel_t01a",lshutter,400
 `“Oh, good morning.@ Did you sleep well, Tohno?”@
-`“Ah—”@
+`“Ah[line=8]”@
 br
-`I remembered.@ This was Ciel’s apartment, and I had borrowed her bed and spent the night here.@
+`I remembered.@
+`This was Ciel’s apartment, and I had borrowed her bed and spent the night here.@[line=4]
 br
-`“Ah—right.@ Good morning, Ciel.”@ Overcome by embarrassment, I sprang out of bed.
+`“Ah—right.@ Good morning, Ciel.”@
+`Overcome by embarrassment, I sprang out of bed.
 \
-`“Um, I’m sorry about yesterday.@ You did so much for me, and—”@
+`“Um, I’m sorry about yesterday.@ You did so much for me, and[line=3]”@
 ld c,"tachi/cel_t03",crossfade,400
-`“Then I’ll consider it one favor you owe me.”@ Ciel answered with a smile.@ She seemed extraordinarily grown-up.
+`“Then I’ll consider it one favor you owe me.”@
+`Ciel answered with a smile.@
+`She seemed extraordinarily grown-up.
 \
 `“A-anyway, thank you.@ I should go home.”@
 ld c,"tachi/cel_t12",crossfade,400
 `“Already?@ It’s only just six.”@
 `“I know, but I stayed out all night without permission.@ If I don’t return early, there’s no telling what Akiha will say.”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“Oh, your sister.@ I called your house yesterday, so I think it will be all right.”@ Ciel casually uttered this catastrophe.@ “Wait—you called my house?”
+`“Oh, your sister.@ I called your house yesterday, so I think it will be all right.”@
+`Ciel casually uttered this catastrophe.@
+`“Wait[line=3]you called my house?”
 \
 ld c,"tachi/cel_t02",crossfade,400
-`“Yes.@ I thought someone should tell them you were spending the night here.@ Was that a problem?”@ “Wh—”@ I was speechless.@ If Ciel had called my house, that meant a girl had called to tell them, “Tohno will be staying at my place tonight.”@ That was—
+`“Yes.@ I thought someone ought to tell them you were spending the night here; was that a problem?”@
+`“Wh[line=7]”@
+`I was speechless.@
+`If Ciel had called my house, that meant a girl had called to tell them, “Tohno will be staying at my place tonight.”@
+`That was[line=3]
 \
-`“A problem.@ A very serious problem.”@ If Akiha had answered, she would think I was some shameless womanizer.@ The Tohno family was strict enough already; I did not want to imagine what would happen if they learned I’d done such a thing.@
+`“[line=3]A problem.@ A very serious problem.”@
+`If Akiha had answered, she would think I was some shameless womanizer.@
+`The Tohno family was strict enough already; I did not want to imagine what would happen if they learned I’d done such a thing.@
 ld c,"tachi/cel_t09",crossfade,400
-`“I see…@ You hated spending the night in my room that much.”@
-`“No, that isn’t it.@ My family is extremely strict.@ This has nothing to do with disliking you—”@ I stumbled desperately through an explanation.
+`“So—you hated staying in my room that much?”@
+`“No—that’s not it; my family is extremely strict, and this has nothing to do with disliking you[line=3]”@
+`I stumble over myself trying to explain.
 \
-`“It’s all right.@ You don’t have to make excuses.”@
+`“It’s all right—you don’t have to make excuses.”@
 cl a,crossfade,400
-`Ciel lowered her eyes sadly.@ After everything she had done for me last night, seeing that expression was unbearable.@ “That isn’t what I mean.@ I truly am grateful.@ I feel much better now, and last night…@ I don’t know what would have happened to me if you hadn’t been there.”
+`Ciel lowered her eyes sadly.@
+`After all she had done for me the night before, I could not bear to see her look that way.@
+`“That isn’t what I mean; I truly am grateful.@ I feel much better now, and last night—without you, I don’t know what would have happened to me.”
 \
 ld c,"tachi/cel_t04",crossfade,400
-`“Yes.@ Your face does look like itself again.@ I don’t know what happened last night, but I’m glad you’re feeling better.”@
+`“[line=3]Yes.@ You look like yourself again.@ I don’t know what happened last night, but I’m glad you’re feeling better.”@
 br
-`Suddenly, Ciel’s face blossomed into the broadest smile imaginable.
+`All at once.@
+`Ciel’s face blossomed into the broadest smile imaginable.
 \
-`“What?”@
+`“[line=4]What?”@
 ld c,"tachi/cel_t01a",crossfade,400
 `“I was joking.@ I would never call your house directly.@ I asked Inui to telephone and say you had spent the night at his home.@ That won’t cause any trouble, will it?”@
-`“No, that’s fine, but…@ you have a cruel sense of humor.@ I honestly thought my heart was going to stop.”@
+`“No, that’s fine, but—you have a cruel sense of humor.@ I honestly thought my heart would stop.”@
 ld c,"tachi/cel_t03",crossfade,400
 `“I can be rather mean.@ You know how people want to tease someone they like?@ It’s the same thing.”@
 `“…@What?”@
 `[line=3]Someone she liked—did that mean—
 \
 ld c,"tachi/cel_t01a",crossfade,400
-`“Still, you should probably return home early.@ Let me see…@ Wait a moment.”@
+`“Still, you should probably return home early.@ Now—wait a moment.”@
 cl a,crossfade,400
 `Ciel began rummaging through a chest of drawers.@
 ld c,"tachi/cel_t04",crossfade,400
-`“Here, Tohno.@ It isn’t much, but you may have this.”@ She held out an old, tarnished ring.@ “What is it, Ciel?”@
+`“Here, Tohno.@ It isn’t much, but you may have this.”@
+`She held out an old, tarnished ring.@
+`“What is it, Ciel?”@
 ld c,"tachi/cel_t01a",crossfade,400
 `“A protective charm.@ You have a dangerous habit of drifting through the world half-awake, so keep it with you.”@
-`“Well, I’ll take anything offered for free…@ All right.@ I’ll treasure it.”@ I accepted the ring and slipped it into my pocket.
+`“Well—if it’s free, I’ll take it; all right, I’ll treasure it.”@
+`I accepted the ring and slipped it into my pocket.
 \
-`“I should go.@ And…@ thank you, truly.@ Like you said, I’ll try to decide for myself how I can atone.”@
+`“I should go.@ There was one more thing.@ Thank you—truly.@ Like you said, I’ll try to work out for myself how I can atone.”@
 ld c,"tachi/cel_t04",crossfade,400
 `“All right.@ I’ll see you at school.”
 \
@@ -72,7 +95,10 @@ playstop
 br
 `[line=3]Ciel saw me off with a smile.@
 br
-`But I might never see that smile again.@ The body of the woman I had killed yesterday might already have been discovered; the police might even be waiting at the mansion.@ Yet I could not run from that.@ For now, all I could do was thank Ciel for her smile and return home.
+`But I might never see that smile again.@
+`The body of the woman I had killed yesterday might already have been discovered; the police might even be waiting at the estate.@
+`Yet I could not run from that.@
+`For now, all I could do was thank Ciel for her smile and return home.
 \
 bg "bg/bg_33a",lcartain,1500
 br
@@ -82,91 +108,141 @@ br
 br
 br
 br
-`As it turned out, everything at the mansion was perfectly ordinary.@
+`As it turned out, everything at the estate was perfectly ordinary.@
 !w500
 \
 ld c,"tachi/koha_t02",lshutter,400
 play "*2"
-`“Oh, welcome home, Shiki.”@ Kohaku greeted me with a smile the instant I entered the lobby.@ “Ah…@ I’m home.@ Kohaku, is—”@ “Breakfast?@ I’ll prepare it at once, so please wait in the sitting room.@ Miss Akiha only just finished hers.”@
+`“Oh, welcome home, Shiki.”@
+`Kohaku greeted me with a smile the instant I entered the lobby.@
+`“Ah…@ I’m home.@ Kohaku, is[line=3]”@ “Breakfast?@
+`I’ll prepare it at once, so please wait in the sitting room.@ Miss Akiha only just finished hers.”@
 cl a,lshutter,400
-`Kohaku hurried away toward the sitting room, her footsteps pattering behind her.
+`Kohaku hurried toward the sitting room with quick, pattering footsteps.
 \
-`It was too peaceful.@ Had they still not found the woman’s body from yesterday?@ “…”@ For the moment, I decided to return to my room and change uniforms.
+`It was too peaceful.@
+`Had they still not found the woman’s body from yesterday?@
+`“…”@
+`For the moment, I decided to return to my room and change uniforms.
 \
 bg "bg/bg_40a",lcartain,800
 `Hisui was there when I entered my room.@
 ld c,"tachi/his_t01",lshutter,400
-`“Good morning, Master Shiki.@ You have returned.”@
-`“Yeah, just now.@ Hisui, do I have another uniform?@ The one I’m wearing got soaked in yesterday’s rain.”@
+`“[line=3]Good morning, Master Shiki.@ You have returned.”@
+`“Yeah.@ I just got back.@ Hisui, do I have another uniform?@ The one I’m wearing got soaked in yesterday’s rain.”@
 `“Certainly.@ I shall prepare it immediately.”@
 cl a,lshutter,400
-`Hisui bowed and left without a sound.@ Once she returned, I changed into the fresh uniform and went to the sitting room.
+`Hisui bowed and left without a sound.@
+`Once she returned, I changed into the fresh uniform and went to the sitting room.
 \
 bg #000000,lshutter,800
 bg "bg/bg_34a",lcartain,800
 `Akiha sat on the sofa wearing a thoroughly displeased expression.@
 ld c,"tachi/aki_t01a",lshutter,400
-`“Why, good morning, Brother.@ I hadn’t noticed you’d returned.”@ Her voice carried a faint barb of accusation.@ “Morning.@ You seem to be in a bad mood already, Akiha.”
+`“[line=2]Why, good morning, Brother.@ I hadn’t noticed you’d returned.”@
+`Her voice carried a faint barb of accusation.@
+`“Morning.@ You seem to be in a bad mood already, Akiha.”
 \
 ld c,"tachi/aki_t18a",crossfade,400
-`“I never knew you made such a habit of spending nights away, Brother.@ I am not in a bad mood so much as exasperated.”@ Akiha gave me a long, reproachful look.@ “Urk.”@ I had spent the night elsewhere, so I could hardly argue.
+`“I never knew you made such a habit of spending nights away, Brother.@ I am not in a bad mood so much as exasperated.”@ Akiha gave me a long, reproachful look.@
+`“Urk.”@ I had indeed spent the night
+`away.@
+`There was no way I could argue.
 \
 ld c,"tachi/aki_t03a",crossfade,400
 `“Still, if you became ill, it couldn’t be helped.@ This Inui has been your friend since middle school, I understand?”@
-`“Yeah…@ Right, he was the one who called.”@ A sudden anxiety seized me.@ What on earth had Arihiko told them?
+`“Yeah—right, he was the one who called.”@
+`A sudden anxiety seized me.@
+`What on earth had Arihiko told them?
 \
 ld c,"tachi/aki_t21",crossfade,400
-`“Even if you leave school early, Brother, you need only telephone and we can send a car.@ I don’t know why you hesitate, but you are the eldest son of the Tohno family.@ Make use of whatever is available—especially when your health is poorer than most people’s.”@ “Ah.”@ That was right.@ I had supposedly left school early yesterday.
+`“Even if you leave school early, Brother, you need only telephone and we can send a car.@
+`I don’t know why you hesitate, but you are the eldest son of the Tohno family.@ Use whatever is available.@ Especially when your health is poorer than most people’s.”@
+`“[line=4]Ah.”@
+`Right—I was supposed to have left school early yesterday.
 \
-`“If being caught in the rain is enough to make you collapse from anemia, perhaps you’re unwell, Brother.@ You should see your doctor, and perhaps travel to and from school by car.”@ “…”@ So that was the story: I had become ill in the rain and stayed at Arihiko’s house.
+`“If being caught in the rain is enough to make you collapse from anemia, perhaps you’re unwell, Brother.@ You should see your doctor.@ Perhaps you should even have a car take you to and from
+`school.”@
+`“…”@ So that was the story: I had become ill in the rain and stayed at Arihiko’s house.
 \
-`“I’m fine.@ I visit the hospital every month, and being driven everywhere would only make me weaker.@ You don’t need to be this nervous over me.@ Though I am glad you care.”@
+`“I’m fine.@ I visit the hospital every month, and being driven everywhere would only make me weaker.@
+`You don’t need to be this nervous over me.@ Though I am glad you care.”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“…@That isn’t true.@ I’m not worried about you, Brother.”@ Akiha looked away slightly.
+`“[line=2]That isn’t true.@ I’m not worried about you, Brother.”@
+`Akiha looked away slightly.
 \
-`“Shiki, everything’s ready!”@ Kohaku called from the dining room.@ “Well, that’s my cue.@ I’m going to eat.”@
+`“Shiki, everything’s ready!”@
+`Kohaku called from the dining room.@
+`“Well, I’m off to eat.”@
 ld c,"tachi/aki_t21",crossfade,400
-`“Honestly, Brother, please stop speaking so crudely.”@ Akiha’s gaze sharpened.@ “There you are.@ You’re finally back to normal.@ It doesn’t feel right unless you’re like this, so stop worrying about me and relax.”@
+`“Honestly, Brother, please stop speaking so crudely.”@ Akiha’s gaze sharpened.@
+`“Ah.@
+`There you are.@ You’re finally back to normal.@ It doesn’t feel right unless you’re like this, so stop worrying about me and relax.”@
 ld c,"tachi/aki_t05a",crossfade,400
-`“You are infuriating!@ I told you I am not worried about you, Brother!”@ Akiha snapped her face away.@ Smiling at the sight, I went to the dining room.
+`“[line=3]You are infuriating!@ I told you I am not worried about you, Brother!”@
+`Akiha jerks her face away.@
+`Smiling at the sight, I went to the dining room.
 \
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_48a",lcartain,800
 ld c,"tachi/his_t01",lshutter,400
-`“Have a safe journey.”@ After her customary farewell, Hisui continued to watch me.@ “Master Shiki, what happened last night?”@
+`“Have a safe journey.”@
+`After her customary farewell, Hisui continued to watch me.@
+`“Master Shiki, what happened last night?”@
 `“Nothing.@ I was caught in the rain and had an anemic spell.@ I’ll be more careful.”@
-`“I am not reproaching you.@ You merely appear to be forcing yourself this morning.@ Please take great care along the way.”
+`“I am not reproaching you.@ Master Shiki merely appears to be forcing himself this morning.@ Please take great care along the way.”
 \
 bg #000000,lcartain,800
 bg "bg/bg_32a",lcartain,800
 `Hisui bowed deeply as she saw me out.@
 br
-`So much for that.@ I had behaved as calmly as possible and kept both Akiha and Kohaku from noticing anything, yet Hisui had seen through me.@ “Was that her way of worrying about me?”@ Her emotions were difficult to read beneath that constant composure.@ In any case, this might be my last day of school.@ I would live it as normally as possible and leave nothing to regret.
+`So much for that.@
+`I had behaved as calmly as possible and kept both Akiha and Kohaku from noticing anything, yet Hisui had seen through me.@
+`“Was that her way of worrying about me?”@
+`Her emotions were difficult to read beneath that constant composure.@
+`In any case, this might be my last day of school.@
+`I would live it as normally as possible and leave nothing to regret.@[line=6]
 \
 bg #000000,lcartain,1500
 playstop
 bg "bg/bg_24a",lcartain,1500
-`However tangled my feelings, the morning itself remained unchanged.@ As I approached the school, more and more students in uniform appeared.@ It was Saturday, the day before a holiday.@ The thought that this might be Shiki Tohno’s final day as a student nearly stopped my feet.@
+`However tangled my feelings, the morning itself remained unchanged.@
+`As I approached the school, more and more students in uniform appeared.@
+`It was Saturday, the day before a holiday.@
+`The thought that this might be Shiki Tohno’s final day as a student nearly stopped my feet.@
 br
-`Even so, I followed the route I had known for two years, doing my best to remain calm.@ Beyond this intersection, the school gate would soon come into view.
+`Even so, I followed the route I had known for two years, doing my best to remain calm.@
+`Beyond this intersection, the school gate would soon come into view.
 \
 `The signal turned red, and I stopped at the crosswalk.@
 br
-`The school wall already ran along the far side of the road.@ Guardrails protected the sidewalk on this busy school route, and students were hurrying toward the gate in a steady stream.@ At this hour, everyone on that opposite sidewalk should have been from my school.
+`The school wall already ran along the far side of the road.@
+`Guardrails protected the sidewalk on this busy school route, and students were hurrying toward the gate in a steady stream.@
+`At that hour, the only people on the far sidewalk should have been students from my school.
 \
-`They should have been the only ones there.@ Yet between the ceaselessly passing cars, I thought I saw a figure in white.
+`They should have been the only ones there.@
+`Yet between the ceaselessly passing cars, I thought I saw a figure in white.
 \
 bg "event/ark_e02",lshutter,800
-`“Wh—”@
+`“[line=5]Wh—”@
 br
 `It was her.@
 br
-`Golden hair brushing her shoulders.@ White clothes.@ Slender brows and crimson eyes.@ I had seen her only once, but I could never mistake that figure.@ “—”@ Yet it was impossible.@ Yesterday, with my own hands, I had murdered her and cut her into pieces.
+`Golden hair brushing her shoulders, and white clothes.@
+`Slender brows and crimson eyes.@
+`I had seen her only once, but I could never mistake that figure.@
+`“[line=6]”@
+`But that was impossible.@
+`Yesterday, with my own hands, I had murdered her and cut her into pieces.
 \
-`The light turned green.@ The students around me crossed to the other side.@ I alone remained rooted where I stood, staring.
+`The light turned green.@
+`The students around me crossed to the other side.@
+`I alone remained rooted where I stood, staring.
 \
-`She sat on the guardrail, swinging her legs idly.@ She looked as though she were waiting for someone.@ I had no idea how long she had been there, but there was no anger in her face.@
+`She sat on the guardrail, swinging her legs idly.@
+`She looked as though she were waiting for someone.@
+`I had no idea how long she had been there, but there was no anger in her face.@
 br
 `[line=3]Who could she be waiting for?@
 br
@@ -181,76 +257,124 @@ br
 br
 `[line=3]Dread crawled through me.
 \
-`“Ah—”@ The woman in white looked my way.@ It was probably nothing but coincidence.@
+`“Ah[line=5]”@
+`The woman in white looked my way.@
+`It was probably only a coincidence.@
 br
-`She had to be a stranger who merely resembled the dead girl, waiting for someone else.@ Otherwise this very moment was the nightmare.@ I knew that because I had killed her with these hands—utterly, beyond all hope of survival.
+`She had to be a stranger who merely resembled the dead girl, waiting for someone else.@
+`Otherwise, this very moment was the nightmare.@
+`because I had killed her with these hands—utterly, beyond all hope of survival[line=4]
 \
-`But the woman looked at me and smiled.@ She had found the person who killed her, and her face shone with heartfelt satisfaction, as though to say, There you are at last—
+`But the woman looked at me and smiled.@
+`She had found the person who killed her, and her face shone with heartfelt satisfaction, as though to say, There you are at last[line=4]
 bg "bg/bg_24a",lshutter,800
-`She raised one hand in a familiar greeting, rose from the guardrail, and came toward me, golden hair streaming lightly behind her.@ “Don’t…@ come any closer.”@ This was a nightmare.@ The signal turned red.
+`She raised one hand in a familiar greeting and rose from the guardrail.@
+`Her golden hair streamed lightly behind her as she came toward me.@
+`“[line=7]Don’t come any closer.”@
+`This was a nightmare.@
+`The signal turned red.
 \
-`“I told you…@ stay away.”@ Paying no attention, she walked straight across the road through the moving traffic.@
+`“[line=7]Don’t come any closer.”@
+`Paying no attention, she walked straight across the road through the moving traffic.@
 br
 `Only a few meters remained between us.
 \
-`“I said, don’t come any closer!”@ Shouting changed nothing.@ I made some sound I could not understand and fled from the woman in white.
+`“I said, don’t come any closer[line=4]!!!”@
+`Shouting changed nothing.@
+`I made some sound I could not understand and fled from the woman in white.
 \
 bg "bg/bg_23a",lcartain,800
 waveloop se_02
-`I ran.@ I ran with everything I had.@ With no thought for shame or appearances, I knocked people aside and sprinted flat-out over the asphalt.@
+`I ran.@
+`I ran with everything I had.@
+`With no thought for shame or appearances, I knocked people aside and sprinted flat-out over the asphalt.@
 bg #ffffff,crossfade,400
 br
-`“Hah, hah, hah, hah—!”@
+`“Hah, hah, hah, hah[line=5]!”@
 br
-`My breath broke apart, and my heart screamed against my ribs.@ Still I ran.@ If I stopped, I felt I would go mad.
+`My breath broke apart, and my heart screamed against my ribs.@
+`Still I ran.@
+`If I stopped, I felt I would go mad.
 \
-`I looked back.@ The woman in white was walking after me.@ There was no doubt: she was pursuing me.@ The woman I had killed was coming for me.@ That was more than reason enough to run.
+`I looked back.@
+`The woman in white was walking after me.@
+`There was no doubt: she was pursuing me.@
+`The woman I had killed was coming for me.@
+`That was more than reason enough to run.
 \
 bg "bg/bg_25a",lcartain,800
-`“Hah, hah—haaah!”@
+`“Hah, hah—haaah[line=6]!”@
 br
-`Ignoring the heart that felt ready to burst, I kept running.@ Whenever I looked back, she was there, following my desperate flight with light, unhurried steps.@
+`Ignoring the heart that felt ready to burst, I kept running.@
+`Whenever I looked back, she was there.@
+`She followed my desperate flight with light, unhurried steps.@
 br
-`“Hah, hah, hah, hah—!”@
+`“Hah, hah, hah, hah[line=5]!”@
 br
-`My chin lifted.@ Both arms hung heavy.@ My legs had long since begun to feel as though they would tear away.@ Even so—when I was running with everything in me, how could I fail to shake someone who was only walking?
+`My chin lifted.@
+`Both arms hung heavy.@
+`My legs had long since felt ready to tear away.@
+`and yet—even running with everything I had—
+`why could I not shake someone who was only walking—
 \
 bg #000000,lcartain,800
 bg "bg/bg_30a",lcartain,800
-`“Hah, hah, hah, hah—”@
+`“Hah, hah, hah, hah[line=4]”@
 br
-`I could scarcely breathe.@ How many kilometers had I sprinted?@ Still, each glance behind showed her walking after me, matching me effortlessly with the ease of an afternoon stroll.
+`I could scarcely breathe.@
+`How many kilometers had I sprinted?@
+`Still, each glance behind showed her walking after me.@
+`She matched me effortlessly with the ease of an afternoon stroll.
 \
-`“…@Hah, hah, hah…@ ha, ha ha ha…”@
+`“Hah, hah, hah—ha, ha ha ha.”@
 br
 `Nothing was funny, but I laughed, and kept running as I laughed.@
 br
-`“Ha…@ ha ha…@ ahahahahaha!”@
+`“Ha, ha ha—ahahahahaha!”@
 br
-`The laughter would not stop.@ My body screamed that another step would kill me, yet I continued to run.
+`The laughter would not stop.@
+`My body screamed that another step would kill me, yet I continued to run.
 \
-`The reason was simple.@ If she caught me, I would unquestionably be killed.@ I could mock the thought and ask myself what basis I had for such a delusion, but I knew better than anyone that this was only cold comfort.@
+`The reason was simple.@
+`If she caught me, I would unquestionably be killed.@
+`I could ridicule the thought and ask what basis I had for such a delusion, but I knew better than anyone that I was only trying to reassure myself.@
 br
-`There was no reason, no basis, no proof.@ Shiki Tohno simply understood it as truth: if that woman caught him, she would kill him.
+`No reason, no basis, no proof.@
+`Shiki Tohno simply understood it as truth: if that woman caught him, she would kill him[line=5]
 \
 bg "bg/bg_31a",lcartain,800
 wave se_05
 quakey 3,100
-`“Ah—”@ I crashed gracelessly to the ground.@ I had not tripped; my body had simply lost the power to take one more step, and I pitched forward.@ “Gh—hah…”@ Still prone, I dragged myself toward a wall.
+`“Ah[line=3]”@
+`I crashed gracelessly to the ground.@
+`I had not tripped; my body had simply lost the power to take one more step, and I pitched forward.@
+`“Gh[line=3]hah…”@
+`Still prone, I dragged myself toward a wall.
 \
-`“—”@ I caught the wall and tried to stand, but it was useless.@ The moment I rose, my knees gave way and I landed heavily on the ground.@ My body would move no farther.@
+`“[line=4]”@
+`I caught the wall and tried to stand, but it was useless.@
+`The moment I rose, my knees gave way and I landed heavily on the ground.@
+`My body would move no farther.@
 br
-`“Haaah…@ hah, hah…”@
+`“Haaah[line=4]hah, hah[line=4]”@
 br
 `I raised my face and tried to breathe.
 \
-`[line=4]Agony.@ There was nowhere near enough air.@ My mind could no longer work properly.@ I had no idea what I was doing, or why I was doing it, or why—why—the woman I had killed was alive.
+`[line=4]Agony.@
+`There was nowhere near enough air.@
+`My mind could no longer work properly.@
+`I had no idea what I was doing.@
+`I had no idea why I was doing it.@
+`I had no idea why—why—the woman I had killed was alive.
 \
-`I had killed her beyond question, in the most absolute way imaginable.@ So how could she wait outside my school and smile at me with such delight?
+`I had killed her beyond question, in the most absolute way imaginable.@
+`So how could she wait outside my school
+`and smile at me with such delight?
 \
-`“…@But I know I killed her.”@
+`“But—I know I killed her.”@
 br
-`[line=3]Yes.@ I know I killed her—
+`[line=3]Yes.@
+`I know I killed her—
 !w500
 `I know I killed her—
 !w500
@@ -259,77 +383,115 @@ br
 `I KNOW I KILLED HER—
 !w500
 br
-`Why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why—!?
+`Why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why, why[line=6]!?
 \
 ld c,"tachi/ark_t03",lshutter,400
 wavestop
-`“Oh?@ Is our game of chase over already?”@ Click.@ The woman entered the alley with buoyant steps and gave a disappointed shrug.
+`“So, is our game of chase over already?”@
+`Click.@
+`The woman entered the alley with buoyant steps and gave a disappointed shrug.
 \
 ld c,"tachi/ark_t01a",crossfade,400
 play "*9"
-`“Hello.@ Thank you ever so much for yesterday.”@ Smiling sweetly, she stepped deeper into the alley, her heel striking a light note against the pavement.@
+`“Hello.@ Thank you so much for yesterday.”@
+`Smiling sweetly, she stepped deeper into the alley, her heel striking a light note against the pavement.@
 br
 `[line=4]I had to escape.@
 br
-`I tried to retreat and struck my head against concrete.@ “The chase is over, isn’t it?@ This is a dead end.@ Better still, no one else is here to interfere.”@ She must have been delighted, because her smile never wavered.
+`I tried to retreat and struck my head against concrete.@
+`“The chase is over, isn’t it?@ This is a dead end.@ Better still, no one else is here to interfere.”@
+`She must have been delighted, because her smile never wavered.
 \
 cl c,crossfade,400
-`I looked frantically around.@ The alley was deserted.@ I was disgusted by my own stupidity.@ Fleeing into a place like this was the same as asking her to kill me.
+`I looked frantically around.@
+`The alley was deserted; I was disgusted by my own stupidity.@
+`Fleeing into a place like this was the same as asking her to kill me.
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“What a long wait.@ Eighteen hours, and at last I’ve caught my target.”@ Her heel clicked as she took another step into the alley.@
+`“What a long wait.@ Eighteen hours, and at last I’ve caught my target.”@
+`Her heel clicked as she took another step into the alley.@
 br
-`“Y-you—”@
+`“Y-you[line=4]”@
 `“What?”@
-`“You were…@ I know I…”@
+`“You were, without a doubt[line=4]”@
 `“Yes.@ I’m the woman you killed yesterday.@ I’m glad you remember me.”@
-`“Th-that’s…”@ A lie.@ Nothing so absurd could possibly happen.
+`“Id[line=3]”@
+`A lie—nothing so absurd could possibly happen…!
 \
-`“Don’t be ridiculous!@ Dead people don’t come back to life!”@
-`“True, but is it really that astonishing?@ I simply came back.”@ She answered as casually as if it were nothing and took another step.@
+`“Don’t be ridiculous—dead people don’t come back to life!”@
+`“True, but is it really that astonishing?@ I simply came back.”@
+`She answered as casually as if it were nothing and took another step.@
 br
 `The distance between us continued to narrow.
 \
-`“…@Came…@ back?”@ I repeated her words numbly.@ Did that mean a doctor had found her afterward, operated, and somehow restored her?
+`“Came[line=3]back?”@
+`I repeated her words numbly.@
+`Did that mean a doctor had found her afterward, operated, and somehow restored her?
 \
-`“Don’t treat me like an idiot!@ No human being could come back after being cut to pieces!”@ “Exactly.@ I’m not human.”@ “What?”@ Her statement was too simple to permit any other interpretation.@
+`“[line=3]Don’t treat me like an idiot!@ No human being could come back after being cut to pieces[line=3]!”@
+`“Exactly.@ I’m not human.”@
+`“[line=5]What?”@
+`Her statement was too simple to permit any other interpretation.@
 br
 `I’m not human.@
 br
 `The woman before me had said it without qualification.
 \
-`“…@Not human…?”@
+`“Not—human?”@
 ld c,"tachi/ark_t02",crossfade,400
 `“Isn’t that obvious?@ Do you imagine a human could be dismembered and regenerate all by herself?”@
 cl c,crossfade,400
-`“—”@ Of course no human could.@ Such a being would only resemble a person; underneath, it would be an entirely different monster.@
+`“[line=7]”@
+`Of course no human could do that.@
+`Such a being would only resemble a person; underneath, it would be an entirely different monster.@
 br
-`Kill it and it comes back.@ Snuff out its life and it carries on as if nothing happened.@ Tear it to pieces and it simply puts itself back together and starts moving again—something that could never be called human.
+`Kill it and it comes back.@
+`Snuff out its life and it carries on as if nothing happened.@
+`Tear it to pieces and it simply puts itself back together and starts moving again—something that could never be called human.
 \
-`“That’s…@ a lie.”@ This, apparently, was the true nature of the woman before me.@ I tried to laugh, but my throat was too dry to produce the sound.
+`“A[line=4]lie.”@
+`This, apparently, was the true nature of the woman before me.@
+`I tried to laugh, but my throat was too dry to produce the sound.
 \
-`“What the hell is that supposed to mean?”@ It was too stupid even to pass for a joke.@ Worse, all the evidence was there to stop me laughing.@ If this woman truly was not human, then perhaps it made sense that she lived even after I killed her.@
+`“What the hell is that supposed to mean?”@
+`It was too stupid even to pass for a joke.@
+`Worse, there was too much evidence to dismiss it as one.@
+`After all, it was true.@
+`If this woman truly was not human, then perhaps it made sense that she lived even after I killed her.@
 br
 `[line=3]Something at the core of my mind settled.@
 br
-`First, I needed to look at her carefully.@ Then I could think through everything else.
+`First, I needed to look at her carefully.@
+`Then I could think through everything else.
 \
 `“You said you aren’t human.@ Then what are you?”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Me?@ I’m called a vampire.@ In your terms, I suppose I’m a monster that lives by drinking human blood.”@ Good.@ The word vampire, at least, was something I could understand.
+`“Me?@ I’m called a vampire.@ In your terms, I suppose I’m a monster that lives by drinking human blood.”@
+`Good.@
+`The word vampire, at least, was something I could understand.
 \
-`“A vampire.@ Right…”@ She smiled in satisfaction.@ What an absurd answer.@ I had heard vampires couldn’t walk in daylight, though that seemed a minor concern now.@ “So what does a monster like you want with me?”@
+`“Right.@
+`A vampire[line=3]”@
+`She smiled in satisfaction.@
+`What an absurd answer.@ I had heard vampires could not walk in daylight.@ Still, that seemed like a
+`minor concern now.@ “So what does a monster like you want with me?”@
 ld c,"tachi/ark_t12",crossfade,400
-`For some reason, the woman drew back in surprise.@ It lasted only an instant; then she planted both hands on her hips and gave me an offended glare.
+`For some reason, the woman drew back in surprise.@
+`It lasted only an instant; then she planted both hands on her hips and gave me an offended glare.
 \
 ld c,"tachi/ark_t16",crossfade,400
-`“Have you forgotten what you did yesterday?@ The instant you met a total stranger, you cut me apart and killed me.@ And now you ask what I want with you, as though this sort of thing were routine.”@ She sounded less angry than appalled.@ At the moment, I felt much the same.@ After all, the woman I had murdered was standing here reproaching me for the murder.
+`“Have you forgotten what you did yesterday?@ The instant you met a total stranger, you cut me apart and killed me.@ And now you ask what I want with you, as though this sort of thing were routine.”@
+`She sounded less angry than appalled.@
+`At the moment, I felt much the same.@
+`After all, the woman I had murdered was standing here reproaching me for the murder.
 \
 ld c,"tachi/ark_t04",crossfade,400
-`“Hello?@ Are you listening, you homicidal maniac?”@ “Yeah, I’m listening.@ I’m just taking in how spectacularly unlucky I am.@ Sorry, but could you be quiet for a moment?”@
+`“Hello?@ Are you listening, you homicidal maniac?”@
+`“Yeah, I’m listening.@ I’m just taking in how spectacularly unlucky I am.@ Sorry, but could you be quiet for a moment?”@
 cl c,crossfade,400
 br
-`[line=3]Honestly, what rotten luck.@ For no reason at all, I had suddenly wanted to kill a woman I’d never met—and then, carried by that impulse, I had done it.@
+`[line=3]Honestly, what rotten luck.@
+`For no reason at all, I had suddenly wanted to kill a woman I’d never met—and then, carried by that impulse, I had done it.@
 br
-`I had suffered, despaired, and finally resolved to find some way of atoning.@ And now, just as I made that decision, I learned the person I had killed was never human in the first place.
+`I had suffered, despaired, and finally resolved to find some way of atoning; now, just as I made that decision, I learned the person I had killed was never human in the first place.
 \

@@ -1,32 +1,47 @@
 play "*2"
 wavestop
 bg "bg/bg_40a",notrans,0
-`[line=3]Right.@ That nightmare has left my stomach churning.@ Since I still have time, I’ll rest a little longer.
+`[line=3]Right; that nightmare has left my stomach churning.@
+`Since I still have time, I’ll rest a little longer.
 \
 bg #000000,tshutter,800
 !w500
 bg "bg/bg_40a",tshutter,800
-`At some point I must have fallen back asleep.@ I shake my still-swimming head and look around.@
+`At some point I must have fallen back asleep.@
+`I shake my still-swimming head and look around.@
 br
-`And then—
+`Then.@
 ld c,"tachi/his_t01",bshutter,400
-`“Master Shiki.”@ “Wah!”@ Hisui is standing beside my pillow, leaning over to peer at me.
+`“Master Shiki.”@
+`“Wah!”@
+`Hisui is standing beside my pillow, leaning over to peer at me.
 \
-`“Wh-what—”@ “Master Shiki, are you certain you have time to spare?@ It is already past eight.”@ “…@What?”@
+`“Wh-what[line=3]”@
+`“Master Shiki, are you certain you have time to spare?@ It is already past eight.”@
+`“[line=4]What?”@
 cl c,crossfade,400
-`I look at the clock.@ Sure enough, the minute hand points to the eight on the dial.@ “Damn it, I overslept…!”@ I spring out of bed.@ I’m about to tear off my clothes when I remember that Hisui is still in the room.
+`I look at the clock.@
+`Sure enough, the minute hand points to the eight on the dial.@
+`“Damn it, I overslept…!”@
+`I spring out of bed.@
+`I’m about to tear off my clothes when I remember that Hisui is still in the room.
 \
 `“Hisui.@ Sorry, but, um…”@
 ld c,"tachi/his_t09",crossfade,400
 `“I understand.@ Please come to the sitting room this time, once you are dressed.”@
 cl c,lshutter,400
-`Hisui leaves the room.@ …@Her eyes look unmistakably angry.@ “…@Well, of course.@ She came all the way here to wake me, and then I went straight back to sleep.@ That makes her effort rather pointless…”@ After a moment of solitary repentance, I dress as fast as I can.
+`Hisui leaves the room.@ Her eyes look unmistakably angry.@
+`“Well, of course.@ She came all the way here to wake me, and then I went straight back to sleep; that makes her effort rather pointless…”@
+`After a moment of solitary repentance, I dress as fast as I can.
 \
 bg #000000,lcartain,800
 playstop
 !w1500
 bg "bg/bg_01a",lcartain,400
-`…@Somehow, I make it to school.@ First period has long since begun, and the gate is deserted.@ “Haa…”@ With a sigh, I trudge toward the building.
+`Somehow, I make it to school.@
+`First period has long since begun, and the gate is deserted.@
+`“Haa…”@
+`With a sigh, I trudge toward the building.
 \
 bg #000000,tcartain,800
 wave se_03
@@ -35,5 +50,8 @@ bg "bg/bg_06a",tshutter,800
 play "*3"
 `[line=3]Fourth period ends.@
 br
-`Lunchtime begins, and the whole school swells with noise.@ “Right, then.”@ Akiha will probably come to the courtyard.@ Knowing her, she likely had Kohaku prepare a lunch for her, but I’ll pick up something from the school store just in case.
+`Lunchtime begins, and the whole school swells with noise.@
+`“[line=4]Right, then.”@
+`Akiha will probably come to the courtyard.@
+`Knowing her, she likely had Kohaku prepare a lunch for her, but I’ll pick up something from the school store just in case.
 \

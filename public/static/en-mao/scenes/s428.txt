@@ -1,8 +1,17 @@
 playstop
 wavestop
 bg "bg/bg_06g",notrans,0
-`“…”@ The footsteps pass.@
-`[line=4]I have only one chance.@ The instant Akiha passes this classroom, I must enter the corridor and close on her.@ If the distance is too great, she will kill me as she killed SHIKI.@ “…”@ The footsteps recede.@ Another two meters—eight of Akiha’s steps.@ “…@Now.”@ Silently, suppressing every trace of my presence, I put my hand on the door.@ Click, click, go her hard-soled footsteps.
+`“[line=10]”@
+`The footsteps pass.@
+`[line=4]I have only one chance.@
+`The instant Akiha passes this classroom, I must enter the corridor and close on her.@
+`If the distance is too great, she will kill me as she killed SHIKI.@
+`“[line=10]”@
+`The footsteps recede.@
+`Another two meters.@ At Akiha’s stride, about eight steps.@
+`“Now.”@
+`Silently, suppressing every trace of my presence, I put my hand on the door.@
+`Clack, clack, go her hard-soled footsteps.
 \
 `One.@
 `    Two.@
@@ -14,40 +23,72 @@ bg "bg/bg_06g",notrans,0
 `                            Eight…!
 \
 !w2000
-`The footsteps stop.@ Akiha has not passed the classroom.@ She stands in the corridor with only this door between us.@
+`The footsteps stop.@
+`Akiha has not passed the classroom.@
+`She stands in the corridor with only this door between us.@
 wave se_01
 !w2000
 br
-`“No—”@ Time stops.@ A painful throb twists the inside of my skull.@
+`“N[line=9]”@
+`Time stops.@
+`A painful throb twists the inside of my skull.@
 br
 wave se_01
 !w2000
-`“…”@ She noticed.@ Did she notice me?
+`“[line=10]”@
+`She noticed me.@ Did she notice me?
 \
 wave se_01
 !w2000
-`What now?@ Unless this door opens, Akiha cannot enter the classroom.@ To see me, she must come inside.@
+`What now?@
+`Unless this door opens, Akiha cannot enter the classroom.@
+`To see me, she must come inside.@
 wave se_01
 br
-`Then as long as the door stays closed, Akiha cannot kill me.
+`Then[line=3]as long as the door stays closed, Akiha cannot kill me.
 \
 waveloop se_02
-`“…”@ That presents no problem.@ If Akiha means to open the door, let her.@ It will simply become a contest: whether she can open it and “see”@ me before I can “cut”@ her.@ “Haaah…”@ I breathe deeply.@ The disadvantage remains mine.@ Akiha need only look.@ I must see the “line”@ on her body and drive my knife along it.@ I have one more action to perform, so even within my range I am not necessarily—
+`“[line=9]”@
+`That is no problem.@
+`If Akiha means to open the door, let her.@ Then it becomes a simple contest: whether she can open it and “see”@ me before I can “cut”@ her.@
+`“[line=9]Haaah”@
+`I take a deep breath.@
+`Even so, the disadvantage remains mine.@
+`Akiha need only look.@
+`But I must see the “line”@ on her body and drive my knife along it.@
+`I have one more action to perform, so being within my range is no guarantee of an advantage[line=4]
 \
 wave se_08
-`“What?”@ Suddenly, a sound comes from the window.@
+`“[line=7]What?”@
+`Without warning.@
+`A sound comes from the window.@
 wave se_10
 bg #9c0120,notrans,0
 quakex 3,50
-`“No—”@ Thought stops.@ Sensation burns out of my limbs in an instant.@ My useless weight is lifted effortlessly into the air, then slammed against the wall.
+`“N[line=6]”@
+`Thought stops.@
+`All feeling burns out of my limbs in an instant.@
+`My deadweight body is hoisted effortlessly into the air, then slammed against the wall.
 \
 bg #000000,tshutter,400
-`“Hah—ah—!”@ My sight ends there.@ The moisture in my eyes evaporates instantly, leaving me blind.@ I know nothing of the outside world anymore, only myself: floating in the air, bound in Akiha’s hair and crucified against the wall, just as Kohaku was earlier.
+`“Hah[line=4]ah[line=4]!”@
+`My vision ends there.@
+`The moisture in my eyes evaporates in an instant, and I can see nothing.@
+`I know nothing at all of the world outside.@
+`Only myself.@
+`I hang in the air, bound in Akiha’s hair and crucified against the wall, just as Kohaku was moments ago.
 \
 play "*4"
-`“You let your guard down.@ It was a childish trick compared with a born assassin like you, but even I can hide my presence.@ While you were so absorbed in the corridor, I slipped in from the neighboring classroom.@ Let this teach you to watch the balcony next time.”@ She giggles.@ “Ah…@ ngh…”@ My throat tightens.@ My limbs feel severed, and every part of my body is swallowed into Akiha’s hair.
+`“You let your guard down.@ It was a childish trick compared with a born assassin like you, but even I can hide my presence.@
+`While you were so absorbed in the corridor, I slipped in from the neighboring classroom.@ Let this teach you to watch the balcony next time.”@
+`She giggles.@
+`“Ah[line=9]ngh”@
+`My throat tightens.@
+`My limbs feel severed, and every part of my body is swallowed into Akiha’s hair.
 \
-`“Oh, that was careless of me.@ There can be no next time for you.@ More importantly, forgive me, Brother.@ How shameful of me to help myself without warning.@ I consumed nearly all of you in my excitement, but you are still conscious, aren’t you?@ I will begin again properly, so please pardon my bad manners.”
+`“Oh, that was careless of me.@ There can be no next time for you.@
+`More importantly, forgive me, Brother.@ How shameful of me to help myself without warning.@
+`I consumed nearly all of you in my excitement, but you are still conscious, aren’t you?@ I will begin again properly, so please pardon my bad manners.”
 \
 br
 !w2000
@@ -57,14 +98,18 @@ br
 br
 br
 br
-`[line=4]Well then—thank you for the meal.@ Goodbye, Brother.
+`[line=4]Well then—thank you for the meal.@
+`Goodbye, Brother.
 \
 bg #ffffff,crossfade,800
-`“…”@ A scorching heat consumes my entire body: the red Hair Cage, burning away not only flesh but soul.@
+`“[line=10]”@
+`Scorching heat consumes my entire body.@
+`The red Hair Cage burns away not only flesh but soul.@
 br
 `I hear my heart give its final beat.@
 br
-`…@How pathetic.@ Though he understood so much, Shiki Nanaya met the same end as SHIKI Tohno.
+`How pathetic.@
+`Though he understood so much, Shiki Nanaya met the same end as SHIKI Tohno.
 \
 !w3000
 bg #000000,crossfade,400

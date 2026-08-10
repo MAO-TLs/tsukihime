@@ -4,57 +4,93 @@ wavestop
 bg #000000,crossfade,800
 bg "bg/bg_11b",crossfade,1500
 play "*3"
-`I hurried to the tea-ceremony room and arrived just as Ciel was reaching for the door.
+`I hurry to the tea-ceremony room.@
+`I arrive just as Ciel reaches for the door.
 \
 `“Ciel!”@
 ld c,"tachi/cel_t01a",lshutter,400
-`“Oh, Tohno.@ Are you going home now?”@ “No, I thought I’d stay and talk with you.@ You were about to have tea, right?@ I thought I might let you treat me to a cup.”@
+`“Oh, Tohno.@ Are you going home now?”@
+`“No, I thought I’d stay and talk with you.@ You were about to have tea, right?@ I thought I might let you treat me to a cup.”@
 ld c,"tachi/cel_t04",crossfade,400
-`“Actually, I’m leaving today.@ I have an errand, and the club has nearly exhausted this month’s budget.”@ “Oh.@ Right—the tea ceremony club buys those sweets with club funds.”@ Come to think of it, any club allowed to spend its budget on sweets was a magnificent institution.
+`“Actually, I am leaving today.@ I have an errand, and the club has nearly exhausted this month’s budget.”@
+`“[line=3]Oh.@ Right—the tea ceremony club buys those sweets with club funds.”@
+`Come to think of it, any club allowed to spend its budget on sweets is a magnificent institution.
 \
 ld c,"tachi/cel_t01a",crossfade,400
-`“So I’m afraid I can’t entertain you.@ Do you have any plans now?”@ “Me?@ No.@ They just disappeared.”@ “Then keep me company instead.@ Let’s walk to the school gates together.”@ “Gladly.”@
+`“In that case, I’m afraid I cannot keep you company.@ Tohno, do you have any plans after this?”@
+`“Me?@ No—they just disappeared.”@
+`“Then keep me company instead.@ Let us walk to the school gates together.”@
+`“Gladly.”@
 ld c,"tachi/cel_t04",crossfade,400
-`Ciel nodded with a smile and fell into step beside me.@ We would share the scant five-minute walk to the gates.
+`Ciel nods with a smile and falls into step beside me.@
+`We share the scant five-minute walk to the gates.
 \
 bg #000000,lcartain,800
 bg "bg/bg_01b",lcartain,800
-`With little of consequence said between us, we reached the front gate.@ “See you tomorrow, Ciel.”@ I raised one hand and started down the road opposite hers.
+`With little of consequence said between us, we reach the front gate.@
+`“See you tomorrow, Ciel.”@
+`I raise one hand and start down the road opposite hers.
 \
 ld c,"tachi/cel_t01a",crossfade,400
-`“Wait a moment.@ There was something I wanted to ask you.”@ “What is it?”@ “The person you mentioned yesterday—the one who looked so much like me.@ It’s been on my mind, and I’d like to hear more.”@ Her eyes lit up with curiosity.@ For my part, that incident belonged firmly among the things I preferred not to remember.
+`“Wait a moment.@ There was something I wanted to ask you.”@
+`“What?@ What did you want to ask?”@
+`“The person you mentioned yesterday—the one who looked so much like me.@ It has been on my mind, and I would like to hear more.”@
+`Her eyes light up with curiosity.@
+`For my part, that incident belongs firmly among the things I prefer not to remember.
 \
-`“Sorry.@ I don’t want to talk about it.@ I must have been seeing things, so can’t we leave it at that?”@ I looked away and offered the vague excuse.@ “All right.”@ Ciel abandoned the question without protest.
+`“Sorry, but I do not want to talk about it.@ I was seeing things, so can we leave it at that?”@
+`I look away and offer the vague excuse.@
+`“All right.”@
+`Ciel abandons the question without protest.
 \
 ld c,"tachi/cel_t07a",crossfade,400
-`“But you saw that person late at night, didn’t you?@ Tohno, I don’t think you should wander around so late.@ The killings in this city haven’t stopped.@ What if you went out at night and ran into the murderer?”@ “Ciel…@ are you worried because I’ve been going out at night?”@ “Yes.@ You’re too trusting.@ You seem like the sort who could be lured into danger without a second thought.”@ She really did seem concerned.@ “Mm…”@ That kind of consideration made me very happy.
+`“But you saw that person late at night, did you not?@
+`Tohno, I do not think you should wander around so late.@ The killings in this city have not stopped.@ It would be terrible if you went out at night and ran into the murderer, would it not?”@
+`“Ciel, were you worried about me going out at night?”@
+`“[line=3]Yes.@ You are too trusting.@ You seem like the sort who could be lured into danger without a second thought.”@
+`She really does seem concerned.@
+`“[line=5]Mm”@
+`That kind of consideration makes me very happy.
 \
 `“Thanks, Ciel.@ But I’ll be fine.@ The killer is gone now.”@
 ld c,"tachi/cel_t12",crossfade,400
-`“Gone?@ What do you mean?”@ Damn it.@ Nrvnqsr was a secret known only to Arcueid and me.@ I couldn’t tell Ciel—and even if I did, what good would such a story do?
+`“Gone?@ What do you mean?”@
+`Damn it; Nrvnqsr is a secret known only to Arcueid and me.@
+`I cannot tell Ciel, and even if I did, what good would such a story do?
 \
-`“No, you’re right.@ Going out in the middle of the night really is dangerous.”@
+`“No, you are right; going out in the middle of the night really is dangerous.”@
 ld c,"tachi/cel_t07a",crossfade,400
-`“In any case, please stop going out at night.@ Starting tonight.@ You’re supposed to be a responsible student.”@ “All right, all right.@ I don’t know about responsible, but I’ll take your advice and cut out the late-night adventures.”@ “…”@
+`“In any case, please stop going out at night.@ Starting tonight.@ You’re supposed to be a responsible student.”@
+`“All right, all right.@ I don’t know about responsible, but I’ll take your advice and cut out the late-night adventures.”@
+`“…”@
 br
-`Ciel stared at me.@
-`[line=3]She didn’t seem convinced.@ Did she really trust me that little?
+`Ciel stares at me.@
+`[line=3]Apparently she trusts me so little that she is not convinced.
 \
-`“Fine.@ Then let’s make it a promise.”@ I held out one hand.@ “I owe you a tremendous debt.@ I’ll do as you ask, Ciel.@ So let’s make it a promise.”@
+`“Fine.@ Then let’s make it a promise.”@
+`I hold out a hand.@
+`“I owe you a tremendous debt.@ I’ll do as you ask, Ciel.@ So let’s make it a promise.”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Um…@ you want to shake hands?”@ “Exactly.@ We’re a little old for pinky promises, so we’ll seal it with a handshake.”@ After a moment’s hesitation, Ciel took my offered hand.
+`“Um, you want to shake hands?”@
+`“Exactly.@ We are a little old for pinky promises, so we will seal it with a handshake.”@
+`“…”@
+`After a moment’s hesitation, Ciel takes my offered hand.
 \
 ld c,"tachi/cel_t03",crossfade,400
-`“All right.@ It’s a promise, Tohno.”@ She pumped our joined hands enthusiastically.@
+`“All right.@ It is a promise, Tohno.”@
+`She pumps our joined hands enthusiastically.@
 ld c,"tachi/cel_t02",crossfade,400
 `“Goodbye, then.@ I’ll see you at school tomorrow.”@
 cl c,lshutter,800
-`I watched Ciel recede into the sunset.@ Once she was out of sight, I started home myself.
+`I watch Ciel recede into the sunset.@
+`Once she is out of sight, I start home myself.
 \
 bg #000000,lcartain,1500
 playstop
 bg "bg/bg_32b",lcartain,1500
-`I climbed the hill and returned to the estate.@ It was not yet six.@ With an hour until dinner, I might as well kill time in my room—
+`I climb the hill and return to the estate.@
+`It is not yet six.@
+`With an hour until dinner, I might as well kill time in my room[line=3]
 \
 bg #000000,crossfade,800
 !w2000

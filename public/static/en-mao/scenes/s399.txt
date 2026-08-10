@@ -1,30 +1,47 @@
 phase "bg/bg_42a",l,his,07a,7
 !w3000
 bg #000000,notrans,0
-`I cannot wake.@ I remain submerged in a dark dream, with no sign that waking will ever come.@
+`I cannot wake.@
+`I remain submerged in a dark dream, with no sign that waking will ever come.@
 br
-`[line=3]A chill went through me.@ For no reason, with no evidence at all, I suddenly knew that I would remain in this dream forever.
+`[line=3]A chill went through me.@
+`There was no reason for it, no evidence at all.@
+`Yet I knew I would remain trapped in this dream forever.
 \
 !w5000
 `“Master Shiki, it is time to wake.@ If you do not get up, you will be late for school.”@
 bg "bg/bg_40a",notrans,0
 play "*2"
-`“—What?”@ Hisui stood before me.@ I was in my own room, and the weather outside was almost absurdly beautiful.@ “Hi…@sui?”@
+`“[line=9]What?”@
+`Hisui stood before me.@
+`I was in my own room, and the weather outside was almost absurdly beautiful.@
+`“Hi—sui?”@
 ld c,"tachi/his_t01",lshutter,400
-`“Good morning, Master Shiki.@ We are running later than usual today, so please come to the sitting room at once.”@ Hisui spoke in the same calm, even voice as always.
+`“Good morning, Master Shiki.@ We are running later than usual today, so please come to the sitting room at once.”@
+`Hisui spoke in the same calm, even voice as always.
 \
-`“Hah—”@ And with that, everything vanished.@ I wrapped my arms around myself—my waking self, my body with its heart beating unmistakably inside it.@ …@Relief flooded me.@ The nightmare that had held me moments ago had become exactly that: an ordinary nightmare, nothing more.@ “…@What a relief.@ If you hadn’t woken me, Hisui, I might never have come back.”
+`“Hah[line=7]”@
+`With that, everything vanished.@
+`I held myself—this waking self, this body with a heart unmistakably beating inside it.@
+`Relief washed over me.@
+`The nightmare from moments before became an ordinary nightmare, nothing more.@
+`“Thank goodness.@ If you hadn’t woken me, Hisui, I might never have awakened.”
 \
-`“Master Shiki…?@ If you are unwell, please tell me.”@ “No, that isn’t it.@ Good morning, Hisui.@ I’m so glad you’re here.”@
+`“Master Shiki…?@ If you are unwell, please tell me.”@
+`“No, that isn’t it.@ [line=3]Good morning, Hisui.@ I’m so glad you’re here.”@
 ld c,"tachi/his_t02",crossfade,400
-`“Oh—yes.@ Thank you, Master Shiki.”@ A faint blush touched Hisui’s cheeks as she bowed.@ “No, I’m the one who should be thanking—wait, it’s already seven thirty!@ Sorry, I’ll get up now, so go ahead to the sitting room!”@ “Very well.@ I shall wait for you there.”@
+`“Oh[line=4]yes.@ Thank you, Master Shiki.”@
+`A faint blush touched Hisui’s cheeks as she bowed.@
+`“No, that isn’t it.@ I’m the one who should be thanking you[line=5]wait, it’s already seven thirty!@ Sorry, I’ll get up now; go ahead to the sitting room!”@
+`“Very well; I shall wait for you there.”@
 cl c,lshutter,400
 `As Hisui left, I changed out of my pajamas and into my school uniform.
 \
 bg #000000,crossfade,800
 !w1000
 bg "bg/bg_32a",lcartain,800
-`I sprang out of bed, ate a little of the breakfast Kohaku had made, and reached the front door.@ The entire operation took less than ten minutes.@
+`I sprang out of bed, ate a little of the breakfast Kohaku had made, and reached the front door.@
+`The entire operation took less than ten minutes.@
 br
 `“I’m off.@ See you later, Hisui!”@
 ld c,"tachi/his_t01",lshutter,400
@@ -36,38 +53,67 @@ bg "bg/bg_24a",lshutter,400
 bg "bg/bg_03a",lshutter,400
 wave se_03
 !w2000
-`“…@Made it…”@ I paused to catch my breath.@ By “made it,”@ I meant only that I had beaten the closing of the school gates.@ I still had to sprint all the way to my classroom.
+`“Made it…”@
+`I paused to catch my breath.@
+`That only meant I had beaten the closing of the school gates; I still had to sprint all the way to my classroom.
 \
 bg "bg/bg_06a",lshutter,400
-`“…@Hah.”@ Our homeroom teacher had not arrived yet.@ I dropped into my seat and tried to bring my ragged breathing under control.@ …@The classroom was livelier than usual.@ Tomorrow was the school’s anniversary and therefore a holiday; perhaps everyone had already slipped into a Saturday mood.
+`“Hah…”@
+`Our homeroom teacher had not arrived yet.@
+`I dropped into my seat and tried to bring my ragged breathing under control.@
+`The classroom was livelier than usual.@
+`Tomorrow was the school’s anniversary and therefore a holiday; perhaps everyone had already slipped into a Saturday mood.
 \
 bg #000000,crossfade,800
 playstop
 !w2000
 bg "bg/bg_06b",crossfade,400
-`Classes ended.@ I had no reason to remain at school, so I decided to return to the mansion.
+`Classes ended.@
+`I had no reason to remain at school, so I decided to return to the mansion.
 \
 bg #000000,lcartain,800
 bg "bg/bg_23b",lcartain,800
-`“…@Last night’s dream.”@ I had dreamed of killing someone here.@ I had done what I could to keep myself from dreaming again, but perhaps there was no escaping myself.@ “—Damn.”@ I clenched my teeth.@ I hated how frightened I had become.@ It was only a dream.@ Dreaming anything so grotesque was certainly abnormal, but for now, at least, I still believed myself sane.
+`“Last night’s dream.”@
+`I had dreamed of killing someone here.@
+`I had done what I could to keep myself from dreaming again, but perhaps there was no escaping myself.@
+`“[line=5]Damn.”@
+`I clenched my teeth.@
+`I hated how frightened I had become.@
+`It was only a dream.@
+`Dreaming anything so grotesque was certainly abnormal, but for now, at least, I still believed myself sane.
 \
 bg "bg/bg_22b",lshutter,800
-`…@My father was his own man.@ I knew nothing about this Tohno blood.@ But while I could still call myself sane, I did not want to burden Akiha and the others.@ I would have to act as normally as possible, carry on as before, and somehow find a solution—
+`My father was his own man.@
+`I knew nothing about this Tohno blood.@
+`But while I could still call myself sane, I did not want to burden Akiha and the others.@
+`I would have to act as normally as possible, carry on as before, and somehow find a solution[line=3]
 \
 bg #000000,lcartain,800
 bg "bg/bg_33b",lshutter,800
 play "*3"
 ld c,"tachi/his_t01",lshutter,400
-`“Welcome home, Master Shiki.”@ The moment I opened the front door, Hisui greeted me with a formal bow.@ “I’m back.@ I’m going straight to my room, so you can return to your work.”@ “Very well.@ I shall resume cleaning the sitting room.@ Please call for me if you require anything.”@
+`“Welcome home, Master Shiki.”@
+`The moment I opened the front door, Hisui greeted me with a formal bow.@
+`“I’m back.@ I’m going straight to my room, so you can return to your work.”@
+`“Very well.@ I shall resume cleaning the sitting room; please call for me if you need anything.”@
 cl c,lshutter,400
-`“…@Hisui’s cleaning the sitting room…”@ Kohaku was nowhere in sight, but she was probably cleaning the back garden or out shopping.@ Akiha did not seem to be home yet either, so I decided to return to my room.
+`“Hisui’s cleaning the sitting room…”@
+`Kohaku was nowhere in sight, but she was probably cleaning the back garden or out shopping.@
+`Akiha did not seem to be home yet either, so I decided to return to my room.
 \
 bg "bg/bg_40b",lshutter,800
-`I put down my bag and changed into casual clothes.@ After spending nearly an hour in a daze, I suddenly heard an ominous growl.@ The source was nothing mysterious.@ It was, beyond dispute, my own stomach.
+`I put down my bag and changed into casual clothes.@
+`Nearly an hour passed as I sat in my room in a daze.@
+`Then I suddenly heard an ominous growl.@
+`The source was nothing mysterious.@
+`It was, beyond dispute, my own stomach.
 \
-`“…@Right.@ I haven’t had a proper meal all day.”@ I had been on the verge of being late that morning and had barely tasted the breakfast Kohaku prepared.@ I meant to eat lunch at school, but the memory of yesterday’s incident in the cafeteria killed my appetite, and in the end I ate nothing.
+`“Right.@ I haven’t had a proper meal all day.”@
+`I had been on the verge of being late that morning and had barely tasted the breakfast Kohaku prepared.@
+`I meant to eat lunch at school, but the memory of yesterday’s incident in the cafeteria killed my appetite, and in the end I ate nothing.
 \
-`“…@I wonder if someone could make me a little something before dinner…”@ I felt guilty about adding to anyone’s work, but hunger was hunger.@
+`“I wonder if someone could make me a little something before dinner…”@
+`I felt guilty about adding to anyone’s work, but hunger was hunger.@
 br
-`In that case, I should—
+`In that case, I should[line=3]
 \

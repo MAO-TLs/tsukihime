@@ -6,11 +6,16 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Merci!@ It’s time for Teach Me, Ciel!@, the feature for unlucky Tohno, who has met with a truly appalling dead end.@
+`Merci!@
+`It’s time for Teach Me, Ciel!@, the feature for unlucky Tohno,
+`who has met with a truly appalling dead end.@
 br
 `Let’s begin lesson two.
 \
-`I see.@ The cause is perfectly obvious.@ The one who got away was quite a catch—or rather, she’s precious to you, so talk it out with her until you reconcile.@ An enemy you can’t defeat alone will be easy prey for the power of your love.@ You certainly don’t need Arcueid’s help!
+`I see—the cause is perfectly obvious.@
+`The one who got away was quite a catch—or rather, she’s precious to you, so talk it out with her until you reconcile.@
+`An enemy you can’t defeat alone will be easy prey for the power of your love.@
+`You certainly don’t need Arcueid’s help!
 \
 ld l,"tachi/ark_t31a",lshutter,400
 `“What’s that supposed to mean?@ You’re the one holding Shiki back, Ciel!”@
@@ -21,9 +26,10 @@ ld l,"tachi/kemo_t05",lshutter,400
 `“Deer.”@
 br
 cl l,lshutter,400
-`“Mreow…@ the poor animal series only got used once after all.@ Meow, meow, meow…”
+`“Mreow—the poor animal series only got used once after all—meow, meow, meow…”
 \
-`Now, now, no talking during class.@ With that noisy creature safely kicked out, please continue enjoying the story.
+`Now, now, no talking during class.@
+`With that noisy creature safely kicked out, please continue enjoying the story.
 \
 bg #000000,crossfade,800
 playstop

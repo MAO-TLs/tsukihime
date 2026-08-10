@@ -2,20 +2,29 @@ monocro off
 play "*1"
 wavestop
 bg "bg/bg_28b",notrans,0
-`Only time moves on.@ A quiet night.@ Unlike two nights ago, there isn’t a cloud in the sky.@ Clear, brilliant moonlight washes over the nocturnal park and Arcueid’s white figure.
+`Only time moves on.@
+`A quiet night.@
+`Unlike two nights ago, there isn’t a cloud in the sky.@
+`Clear, brilliant moonlight washes over the nocturnal park and Arcueid’s white figure.
 \
-`“…@Moonlight…”@ If it had been this bright that night, I might even have seen the bandaged man's face…@ Wait—
+`“Moonlight.”@
+`If it had been this bright that night, I might even have seen the bandaged man’s face—wait—
 br
 `“Aaaaaaaaaah!”@
 br
 `I shoot up from the bench.
 \
 ld c,"tachi/ark_t12",lshutter,400
-`“Shiki!?@ What is it—did you spot one of the Dead?”@ Arcueid rushes over.@ “No, nothing like that.@ I just remembered something huge.”@ I have nerves of steel, apparently.@ I was attacked, and somehow managed to forget all about it until now.
+`“Shiki!?@ What is it—did you spot one of the Dead?”@
+`Arcueid rushes over.@
+`“No, nothing like that—I just remembered something huge.”@
+`I have nerves of steel, apparently.@
+`I was attacked, and somehow managed to forget all about it until now.
 \
 `“Arcueid.@ Two nights ago, some strange man attacked me.”@
 ld c,"tachi/ark_t13",crossfade,400
-`“What?@ What was strange about him?”@ “Well, the thing is—”@
+`“What?@ What was strange about him?”@
+`“Well, the thing is—”@
 cl c,crossfade,400
 br
 `I steady myself, then tell Arcueid everything that happened two nights ago in as much detail as I can.
@@ -23,55 +32,83 @@ br
 playstop
 bg #000000,lshutter,400
 bg "bg/bg_28b",lshutter,400
-`“…@And that's what happened.”@ When I'm through, I search Arcueid's face for a reaction.@
+`“And that’s what happened.”@
+`When I’m through, I search Arcueid’s face for a reaction.@
 ld c,"tachi/ark_t07",crossfade,400
-`Her eyes have been hard and keen from the moment I began.@ They never softened once.
+`Her eyes have been hard and keen from the moment I began; they never softened once.
 \
-`“So what do you think, Arcueid?@ Are the bandaged man and the one dressed like a priest enemies of yours?”@ “…@Yes.@ They're both my ‘enemies.@’ I don't know who the bandaged man is, but I can guess the identity of the woman in the cassock.”@ Arcueid narrows her eyes.@ She looks less displeased than nervously, intensely irritated.
+`“So what do you think, Arcueid?@ Are the bandaged man and the one dressed like a priest enemies of yours?”@
+`“Yes.@ They’re both my ‘enemies.@’ I don’t know who the bandaged man is, but I can guess the identity of the woman in the cassock.”@
+`Arcueid narrows her eyes.@
+`She looks less displeased than nervously, intensely irritated.
 \
 play "*9"
-`“The person who saved you may be someone I know.@ …@This is bad.@ That woman really could find our ‘enemy’ before I do.”@ Arcueid bites her lip in frustration.@ “Hold on.@ I don't remember telling you that person was a woman.”
+`“The person who saved you may be someone I know.@ This is bad.@ That woman really could find our ‘enemy’ before I do.”@
+`Arcueid bites her lip in frustration.@
+`“Hold on.@ I don’t remember telling you that person was a woman.”
 \
 ld c,"tachi/ark_t01b",crossfade,400
-`“No, it can only be her.@ She’s the sole executor authorized to hunt heretics alone, and the only one who uses Black Keys combining the Cremation Rite with the Ironclad Effect.”@ Arcueid’s irritation is bordering on hostility.@ Even when she spoke of Nrvnqsr, she never let this much emotion show.
+`“No, it can only be her.@ She’s the sole executor authorized to hunt heretics alone, and the only one who uses Black Keys combining the Cremation Rite with the Ironclad Effect.”@
+`Arcueid’s irritation is bordering on hostility.@
+`Even when she spoke of Nrvnqsr, she never let this much emotion show.
 \
-`“…@Arcueid.@ Is the person who saved me a vampire too…?”@
+`“Arcueid.@ Is the person who saved me a vampire too?”@
 ld c,"tachi/ark_t06",crossfade,400
-`“No, not exactly.@ But there is one more important thing I haven’t told you, Shiki.”
+`“No, not exactly—but there is one more important thing I haven’t told you, Shiki.”
 \
 ld c,"tachi/ark_t02",crossfade,400
-`“I think I explained this before.@ Vampires like the one infesting this city—ones who make humans their servants and expand their territory—do everything possible to conceal their existence.@ Even when they claim victims, they use every kind of magecraft to keep the people around them from noticing anything is wrong.@ Do you know why?”
+`“I think I explained this before—vampires like the one infesting this city, which make humans their servants and expand their territory, do everything possible to conceal their existence.@
+`Even when they claim victims, they use every kind of magecraft to keep the people around them from noticing anything is wrong.@
+`Do you know why?”
 \
-`“……@Humans aren’t stupid.@ If they knew a monster like that was living among them, they’d fight back.@ Humans may be weak, but we have the police and things like that.@ We might still be able to deal with it ourselves.”@ “Well, that’s part of it.@ But the police enforce human law.@ We don’t even take them into account.@ Still, you’re right that vampires erase their tracks to protect themselves.”
+`“Humans aren’t stupid.@ If they knew a monster like that was living among them, they’d fight back.@ Humans may be weak, but with the police and other institutions, we might still be able to deal with it ourselves.”@
+`“That’s part of it.@ But the police enforce human law, so we don’t even take them into account.@
+`Still, you’re right that vampires erase their tracks to protect themselves.”
 \
-`“Shiki, vampires have a natural enemy—a whole band of killers who now hold the upper hand in the balance of power.@ …@The same is true of other transcendent species, but revealing themselves is especially fatal for vampiric species.@ Even if one takes over a tiny mountain village cut off from civilization and builds a secret kingdom there, enough victims will inevitably draw those hunters.”
+`“Shiki.@ Vampires have a natural enemy—a whole band of killers who now hold the upper hand in the balance of power.@
+`The same is true of other transcendent species, but revealing themselves is especially fatal for vampiric species.@
+`Even if one takes over a tiny mountain village cut off from civilization and builds a secret kingdom there, enough victims will inevitably draw those hunters.
 \
-`“Vampires prey on humans in secret for one reason alone: self-preservation.@ They don't hide corpses to avoid public scandal.@ They do it because they're terrified their natural enemy will catch their scent.”@ “…@Wonderful.@ Now vampires have some other incomprehensible monster hunting them.”@
+`“Vampires prey on humans in secret for one reason alone: self-preservation.@ They hide corpses because they’re terrified their natural enemy will catch their scent.”@
+`“Wonderful.@ Now vampires have some other incomprehensible monster hunting them.”@
 br
 `Speaking as an ordinary human, I’d really prefer it if no more violations of common sense barged into my life.
 \
 ld c,"tachi/ark_t07",crossfade,400
-`“What are you talking about?@ That natural enemy is you humans.”@ “What—?@ We’re their natural enemy?”@
+`“What are you talking about?@ That natural enemy is you humans.”@
+`“What—?@ We’re their natural enemy?”@
 ld c,"tachi/ark_t06",crossfade,400
-`“Yes.@ Long ago, humans built organized systems around magecraft, occult learning, and ceremonial rites, then began eliminating nonhuman primates.@ The foremost example is Christianity—the Holy See’s vaunted order of exorcists.@ The old Catholic Church has always exterminated anything ‘nonhuman’ without mercy, but its hatred of vampires is deranged even by those standards.”
+`“Yes.@ Long ago, humans built organized systems around magecraft, occult learning, and ceremonial rites, then began eliminating nonhuman primates.@
+`The foremost example is Christianity—the Holy See’s vaunted order of exorcists.@ The old Catholic Church has always exterminated anything ‘nonhuman’ without mercy, but its hatred of vampires is deranged even by those standards.”
 \
-`“No religion in the world hates vampires more than Catholicism.@ They’re beyond obsessed.@ It’s so pathological that even I want nothing to do with them.”@ Arcueid sighs.
+`“No religion in the world hates vampires more than Catholicism.@
+`They’re beyond obsessed.@ It’s so pathological that even I want nothing to do with them.”@
+`Arcueid sighs.
 \
 ld c,"tachi/ark_t02",crossfade,400
-`“The person who saved you belongs to the faction that specializes in hunting heretics.@ They're called the Burial Agency.@ They resolve Christianity's contradictions through force rather than law—exorcists who operate like assassins and never appear in public.”@ “…”@ A priest who slays vampires.@ It fits the stereotype so perfectly that I have nothing to say.
+`“The person who saved you belongs to the faction that specializes in hunting heretics.@
+`They're called the Burial Agency.@ They resolve Christianity's contradictions through force rather than law—exorcists who operate like assassins and never appear in public.”@
+`“…”@
+`A priest who slays vampires.@
+`It fits the stereotype so perfectly that I have nothing to say.
 \
 `“But doesn’t that make them your allies?@ If the Burial Agency hunts vampires too, maybe you could search together.”@
 ld c,"tachi/ark_t04",crossfade,400
-`“No.@ To them, a vampire is a vampire.@ Any primate that isn’t human is ‘evil’ simply for existing.@ Whether it drinks human blood is irrelevant.@ That exorcist may have come to seal me away, not the vampire nesting in this city.”@
+`“No.@ To them, a vampire is a vampire.@ Any primate that isn’t human is ‘evil’ simply for existing.@ Whether it drinks human blood is irrelevant.@
+`That exorcist may have come to seal me away, not the vampire nesting in this city.”@
 cl c,lshutter,400
 playstop
 `With that irritated retort, Arcueid begins pacing again.
 \
-`“…………”@ This is getting complicated.@ Arcueid is being hunted both by her fellow vampires and by the people who hate vampires.
+`“…………”@
+`This is getting complicated.@
+`Arcueid is being hunted both by her fellow vampires and by the people who hate vampires.
 \
-`“……@What the hell.@ That leaves her all alone.”@ I murmur as I watch Arcueid circle endlessly around the park.@
+`“What the hell.@ That leaves her all alone.”@
+`I murmur as I watch Arcueid circle endlessly around the park.@
 br
-`Under the white moonlight, Arcueid looks as though she is waltzing alone.
+`Under the white moonlight.@
+`Arcueid looks as though she is waltzing alone.
 \
 bg #000000,lshutter,400
 playstop

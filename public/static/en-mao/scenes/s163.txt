@@ -2,25 +2,38 @@ monocro off
 play "*2"
 wavestop
 bg "bg/bg_40a",notrans,0
-`“…”@ I glanced at the clock.@ It was already past nine.@ I would be late for school now—and, if I was honest, spending the day with Arcueid sounded far more enjoyable anyway…
+`“…”@
+`I glanced at the clock.@
+`It was already past nine.@
+`I would be late for school now—and, if I was honest, spending the day with Arcueid sounded far more enjoyable anyway…
 \
 `“All right, I’ll spend today with you.@ But even if we go into town during the day, the Dead won’t be walking around, will they?”@
 ld c,"tachi/ark_t01b",crossfade,400
-`“That doesn’t matter.@ Daylight won’t stop us from taking a walk through town.”@ “…?@ Aren’t we going to hunt the vampire, since we missed our chance last night?”
+`“That doesn’t matter.@ Daylight won’t stop us from taking a walk through town.”@
+`“…?@ Aren’t we going to hunt the vampire, since we missed our chance last night?”
 \
-`“Of course we’ll search the city after dark.@ But helping me all day would be tiring for you, so I thought we could rest during the afternoon.”@ “I’d certainly prefer that.@ But if the two of us simply walk around town, isn’t that…”
+`“Of course we’ll search the city after dark.@ But helping me all day would be tiring for you, so I thought we could rest during the afternoon.”@
+`“I’d certainly prefer that.@ But if the two of us simply walk around town, isn’t that…”
 \
-`Wouldn’t most people call it a date?@ …@Arcueid was a vampire, so the idea probably hadn’t even occurred to her.@ She was merely demanding that I take her somewhere entertaining.@ But I still needed a moment to prepare myself.
+`Wouldn’t most people call it a date?@
+`Arcueid was a vampire, so the idea probably hadn’t occurred to her; she was merely demanding that I take her somewhere entertaining.@
+`But I still needed a moment to prepare myself.
 \
-`“…?@ What’s wrong, Shiki?@ Your face is red.”@ “Urgh.”@ I hurriedly covered my face and looked away from her.@
+`“…?@ What’s wrong, Shiki?@ Your face is red.”@
+`“Urgh.”@
+`I hurriedly covered my face and looked away from her.@
 cl c,crossfade,400
 br
-`…@We had been alone together many times before.@ But those had been emergencies.@ Before we were a man and a woman, we had been allies with a shared purpose.@ So however beautiful I found Arcueid, I had always avoided thinking of her that way.
+`We had been alone together many times before.@
+`But those had been emergencies; before we were a man and a woman, we had been allies with a shared purpose.@
+`So however beautiful I found Arcueid, I had always avoided thinking of her that way.
 \
-`But if we were alone without danger or purpose, I felt I might notice something I had no right to notice.@ That possibility made me hesitate.
+`But if we were alone without danger or purpose.@
+`I might notice something I had no right to notice, and that thought made me hesitate—
 \
 ld c,"tachi/ark_t11",crossfade,400
-`“Shiki?@ Are you going to school after all…?”@ “Of course not.@ I already said yes, so I’m coming with you.@ I don’t know what whim brought this on, but there can’t be any harm in walking around town.”@
+`“Shiki?@ Are you going to school after all…?”@
+`“Of course not.@ I already said yes, so I’m coming with you.@ I don’t know what whim brought this on, but there can’t be any harm in walking around town.”@
 ld c,"tachi/ark_t08",crossfade,400
 `“Then it’s settled.@ Let’s go.”@
 cl c,lshutter,400
@@ -28,40 +41,56 @@ cl c,lshutter,400
 \
 `“Wait.@ I’ll change in a minute, so stand there and look outside.”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“What?@ Did you call me?”@ “I did, but I didn’t!@ Just go outside and wait quietly.@ I’ll be right there.”@ “Fine.@ I’ll wait outside the mansion.@ I’ve waited long enough already, so don’t keep me there much longer, Shiki.”@
+`“Did you call me?”@
+`“I did, but I didn’t!@ Just go outside and wait quietly.@ I’ll be right there.”@
+`“Fine, I’ll wait outside the mansion.@ I’ve waited long enough already, so don’t keep me there much longer, Shiki.”@
 cl c,lshutter,400
 \
-`With a light tap, Arcueid sprang through the window as nimbly as a cat.@ One after another, the garden trees bent beneath her feet.@ Rather than touch the ground, she bounded out of the estate along their branches.@
+`With a light tap, Arcueid sprang through the window as nimbly as a cat.@
+`One after another, the garden trees bent beneath her feet.@
+`Rather than touch the ground, she bounded out of the estate along their branches.@
 br
-`…@With agility like that, sneaking into my room must have been effortless.
+`With agility like that, sneaking into my room must have been effortless.
 \
-`“…@This is no time to be impressed.@ I need to get outside without Hisui seeing me.”@ I changed from my pajamas into everyday clothes, opened the door a crack to make sure the hall was empty, then hurried out through the back entrance.
+`“This is no time to be impressed.@ I need to get outside without Hisui seeing me.”@
+`I changed from my pajamas into everyday clothes.@
+`I opened the door a crack to make sure the hall was empty, then hurried out through the back entrance.
 \
 bg #000000,lcartain,800
 playstop
 bg "bg/bg_32a",lcartain,800
 play "*3"
-`By good fortune, I made it outside unseen.@ Arcueid stood with her back to me, muttering something over and over to herself.@
+`By good fortune, I made it outside unseen.@
+`Arcueid stood with her back to me, muttering something over and over to herself.@
 ld c,"tachi/ark_t22",crossfade,400
 `“Sorry to keep you waiting.@ Come on, let’s get moving, Arcueid.@ If we stay near the mansion, Kohaku will find us.”@
 ld c,"tachi/ark_t14",crossfade,400
-`“What?@ Oh, yes.@ If we’re going, let’s hurry.”@ Unlike her crisp certainty before, Arcueid sounded distracted.
+`“What?@ Oh, yes—if we’re going, let’s hurry.”@
+`Unlike her crisp certainty before, Arcueid sounded distracted.
 \
-`“What’s wrong?@ This isn’t like you.@ Did something else happen while you were waiting?”@ “…@No.@ Nothing happened.”@ I had put particular weight on else, but her answer remained absentminded.@
+`“What’s wrong—this isn’t like you.@ Did something else happen while you were waiting?”@
+`“No, nothing happened.”@
+`I had put particular weight on else, but her answer remained absentminded.@
 br
 `[line=3]Somehow, that made me afraid she was plotting something.@
 br
-`“…@Does daylight make you ill?@ There’s no reason to force yourself to walk around town.@ If you’re suffering, we can call it off.”
+`“Does daylight make you ill?@ There’s no reason to force yourself to walk around town, so if you’re suffering, we can call it off.”
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“Mm, no.@ I feel perfectly well.@ Looking at this wall just reminded me of last night.”@ “…?@ You mean waiting for me in the park?”@
+`“No, I feel perfectly well.@ Looking at this wall just reminded me of last night.”@
+`“…?@ You mean waiting for me in the park?”@
 ld c,"tachi/ark_t04",crossfade,400
 `Arcueid nodded gravely.
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“Last night I cleared this wall at full speed and sneaked straight into your room…@ but now that I think about it, it seems strange.@ Why was I so angry?@ I’ve failed to keep promises plenty of times before.”@ Arcueid clasped her hands and frowned in thought, murmuring that she didn’t understand.
+`“Last night I cleared this wall at full speed and sneaked straight into your room, but now that I think about it, it seems strange.@
+`Why was I so angry?@ I’ve failed to keep promises plenty of times before.”@
+`Arcueid clasped her hands and frowned in thought, murmuring that she didn’t understand.
 \
 ld c,"tachi/ark_t02",crossfade,400
-`“Oh, I know.@ Maybe you can tell me, Shiki.@ You’re always calling me an idiot and lecturing me, so surely you can figure this out.”@ “Listen…”@ If Arcueid herself did not know, how could an outsider like me?@ But if I were to venture an answer anyway—
+`“Oh, I know.@ Maybe you can tell me, Shiki.@ You’re always calling me an idiot and lecturing me, so surely you can figure this out.”@
+`“Listen…”@
+`If Arcueid herself did not know, how could an outsider like me?@
+`But if I were to venture an answer anyway—
 br
 cl c,crossfade,400

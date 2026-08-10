@@ -6,22 +6,38 @@ br
 bg #000000,lcartain,800
 bg "bg/bg_42b",lcartain,800
 play "*3"
-`In the courtyard I found Kohaku holding a broom.@ Apparently finished with the rear garden, she was humming cheerfully as she swept the fallen leaves.
+`In the courtyard I found Kohaku holding a broom.@
+`Apparently finished with the rear garden, she was humming cheerfully as she swept the fallen leaves.
 \
 ld c,"tachi/koha_t06",lshutter,800
-`“Why, Shiki.@ What brings you into the courtyard at this hour?”@ “I was bored, so I thought I might help you.@ Have you already finished?”@ “Yes, I completed the rear garden a little while ago.@ I’ll need to begin preparing dinner soon, but until then I thought I would tidy the courtyard.”@ Industrious as ever, Kohaku had already gathered nearly all the leaves.
+`“Why, Shiki.@ What brings you into the courtyard at this hour?”@
+`“I was bored and thought I might help you, but have you already finished?”@
+`“Yes, I completed the rear garden a little while ago.@ I’ll need to begin preparing dinner soon, but until then I thought I would tidy the courtyard.”@
+`Industrious as ever, Kohaku had already gathered nearly all the leaves.
 \
-`“So much for being useful.@ You’re incredibly efficient at this.”@ “I’ve always been responsible for the grounds.@ The garden behind the mansion, and even the camphors and maples in the woods, are all under my care.”@ “The woods too, not just the flower beds?”@ Wait.@ In that case…@ “Kohaku, there’s a huge tree deep in those woods.@ Do you care for that one as well?”
+`“So much for being useful.@ You’re incredibly efficient at this, Kohaku.”@
+`“I’ve always been responsible for the grounds.@ The garden behind the mansion, and even the camphors and maples in the woods, are all under my care.”@
+`“The woods too, not just the flower beds?”@
+`Wait.@
+`In that case.@
+`“Kohaku.@ There’s a huge tree deep in those woods.@ Do you care for that one as well?”
 \
 ld c,"tachi/koha_t18",crossfade,400
-`“Of course not, Shiki.@ That tree has stood on the estate since long before my time.@ Something that enormous is beyond my ability to tend.”@ For some reason, Kohaku laughed as though the question had delighted her.
+`“Of course not, Shiki.@ That tree has stood on the estate since long before my time.@ Something that enormous is beyond my ability to tend.”@
+`For some reason, Kohaku laughed as though the question had delighted her.
 \
 ld c,"tachi/koha_t03",crossfade,400
-`“But it is an important tree.@ It rises above all the others, so you can spot it at once from the second-floor corridor, can’t you?@ When I was little, I used it as a landmark whenever I went searching for things.”@ “I see.@ I have one memory tied to that tree myself.”@ A memory that meant nothing now.@ The girl from that day—Hisui—had cared nothing for our promise.@ Then again, it had been eight years.@ Perhaps that was only natural.
+`“But it is an important tree.@ It rises above all the others, so you can spot it at once from the second-floor corridor, can’t you?@ When I was little, I used it as a landmark whenever I went searching for things.”@
+`“I see—I have one memory tied to that tree myself.”@
+`But now it had become meaningless.@
+`The girl from that day—Hisui—had thought nothing of our promise.@ But after eight years, perhaps that was only natural.
 \
 `“Oh, look at the time.@ Shiki, please come to the dining room when dinner is ready.”@
 cl c,crossfade,400
-`Kohaku hurried away, her footsteps pattering over the stones.@ She had probably finished the actual cooking preparations long ago and needed only to put everything together.@ “I suppose I’ll go back to my room.”@ After one last glance at the great tree deep in the woods, I left the courtyard.
+`Kohaku hurried away, her footsteps pattering over the stones.@
+`She had probably finished the actual cooking preparations long ago and needed only to put everything together.@
+`“I suppose I’ll go back to my room.”@
+`After one last glance at the great tree deep in the woods, I left the courtyard.
 \
 bg #000000,lcartain,800
 playstop

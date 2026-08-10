@@ -5,24 +5,32 @@ ld c,"tachi/osiete",lcartain,800
 !w1000
 cl c,lcartain,800
 ld r,"tachi/cel_t20",tshutter,800
-`Thank you for waiting!@ It’s Ciel’s question-and-answer corner, back by popular demand for remedial lesson number two!
+`Thank you for waiting!@
+`It’s Ciel’s question-and-answer corner.@
+`Back by popular demand: remedial lesson number two!
 \
-`…@Goodness, Akiha is practically a monster.@ She must have spent a very long time accumulating resentment toward Tohno, because she has certainly let herself go wild.@
+`Goodness, Akiha is practically a monster.@
+`She must have spent a very long time accumulating resentment toward Tohno, because she has certainly let herself go wild.@
 ld l,"tachi/ark_t31a",lshutter,400
 br
 `“Not true.@ That was nothing special at all, I tell you.”
 \
-`Yes, yes, no one asked the opinion of a nonhuman.@ The heroine who hasn’t appeared by so much as a micron may remain silent.@
+`Yes, yes, no one asked the opinion of a nonhuman.@
+`The heroine who hasn’t appeared by so much as a micron may remain silent.@
 br
 ld l,"tachi/ark_t30",lshutter,400
-`“…@Meow.@ So this is how it ends, I tell you.@ Want some ramen?”
+`“Meow—so this is how it ends, I tell you—want some ramen?”
 \
 cl l,lshutter,400
-`[line=4]Now, then.@ This time, Tohno’s carelessness was to blame.@ SHIKI had already demonstrated that this method would fail, yet you repeated it anyway.@ I’m marking this for resubmission, so return to the previous choice and try again.
+`[line=4]Now, then.@
+`This time, Tohno’s carelessness was to blame.@
+`SHIKI had already demonstrated that this method would fail, yet you repeated it anyway.@
+`I’m marking this for resubmission, so return to the previous choice and try again.
 \
 `[line=4]Once you clear this, the finale awaits.@
 br
-`This is also the last session of our class.@ Thank you all very much for listening!
+`This is also the last session of our class.@
+`Thank you all very much for listening!
 \
 bg #000000,crossfade,800
 playstop

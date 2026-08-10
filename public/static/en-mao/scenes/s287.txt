@@ -3,27 +3,37 @@ play "*1"
 wavestop
 bg "bg/bg_40c",notrans,0
 ld c,"tachi/his_t01",crossfade,400
-`“My sister was educated as a pharmacist through your father’s generosity.@ Before his death, she also advised him on matters of health.”@ Her face restored to its usual blankness, Hisui volunteers this information without being asked.
+`“My sister was educated as a pharmacist through Master Makihisa’s generosity.@
+`Before Master Makihisa’s death, she also advised Master Makihisa on matters of health.”@
+`Her face restored to its usual blankness, Hisui volunteers this information without being asked.
 \
 wave se_01
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`“Ghh…!”@ A sharp ache worries at my temples.@
+`“Ghh…!”@
+`A sharp ache worries at my temples.@
 br
-`Here I am in agony, and Hisui does not so much as move an eyebrow.@ Apparently this is her idea of nursing me.@
+`Here I am in agony, while Hisui does not so much as move an eyebrow, apparently intending to nurse me
 br
-`…@Though I suppose that is only natural.@ I am the one in pain, not Hisui.@ It would be even more tiresome if she put on a gloomy face and pretended to hurt on my behalf.
+`Though I suppose that is only natural.@
+`I am the one in pain, not Hisui.@
+`It would be even more tiresome if she put on a gloomy face and pretended to hurt on my behalf.
 \
 wave se_01
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`“Ghh—!”@ “Master Shiki, are you still in pain somewhere?”@ “Hisui, sorry, but…”@ “Yes?@ What is it?”@ “Get out.@ Looking at you is irritating, and I can't sleep with you standing there.”@
+`“Ghh[line=4]!”@
+`“Master Shiki, are you still in pain somewhere?”@
+`“Hisui—sorry, but…”@
+`“Yes, what is it?”@
+`“Get out.@ Looking at you is irritating, and I can’t sleep with you standing there.”@
 ld c,"tachi/his_t05",crossfade,400
-`“…@Very well.@ I shall excuse myself.@ Please call if you require anything.”@
+`“Very well.@ I shall excuse myself.@ Please call if you require anything.”@
 cl c,lshutter,800
 `Hisui leaves the room.@
 br
-`Somehow, that clears my head.@ The headache ebbs too.@ Now I should finally be able to sleep in peace.
+`Somehow, my head clears and the pain ebbs with it.@
+`Now I should finally be able to sleep in peace.
 \
 bg #000000,crossfade,1500
 !w1000
@@ -41,31 +51,47 @@ waveloop se_11
 `A pair of high, crisp knocks sounds, and the door opens.@
 br
 ld c,"tachi/aki_t12b",lshutter,800
-`“Excuse me, Brother.@ Are you awake?”@ “…@Yeah, I’m awake.@ What is it, Akiha?”@ “I heard you were resting with anemia, so I came to see how you were.”@ Akiha’s gaze settles on me where I lie in bed, laden with an almost ostentatious concern.@
+`“Excuse me, Brother.@ Are you awake?”@
+`“Yeah, I’m awake.@ What is it, Akiha?”@
+`“I heard you were resting with anemia, so I came to see how you were.”@
+`Akiha’s gaze settles on me where I lie in bed.@
+`It is heavy with obvious concern.@
 br
-`…@Honestly, it is annoying.
+`Honestly, it is annoying.
 \
 `“There’s nothing wrong with me.@ If I needed looking after, I wouldn’t be resting alone.@ Go back to your room, Akiha.”@
 ld c,"tachi/aki_t21b",crossfade,400
-`“Brother, what are you talking about?@ It’s already time for dinner.@ I came to call you.”
+`“Brother, what are you talking about?@
+`It’s already time for dinner.@ I came to call you.”
 \
-`…@Dinner?@ Oh.@ Is it that late already?@ But I am not hungry, nor do I feel the slightest urge to eat.@
+`Dinner…?@
+`Is it that late already?@
+`But I am not hungry, nor do I feel the slightest urge to eat.@
 br
 `“I have no appetite, so forget dinner.@ Just leave me alone today.@ I feel sick.”
 \
 ld c,"tachi/aki_t12b",crossfade,400
-`“…@Very well.@ Please rest tonight.@ But, Brother, if you intend to remain awake, turn on the light.@ Sitting in the dark will damage your eyes.”@ “No.@ It’s calmer this way.”@ “…”@
+`“…@Very well.@ Please rest tonight.@ But, Brother, if you intend to remain awake, turn on the light.@ Sitting in the dark will damage your eyes.”@
+`“No.@ It’s calmer this way.”@
+`“…”@
 cl c,lshutter,800
 `Akiha leaves at last, still looking as though there is something she wants to say.
 \
-`“…”@ God, I’m irritated.@ Hisui’s manner, Akiha’s worried eyes—why does everyone insist on treating me as though I might shatter at a touch?@
+`“…”@
+`God, I’m irritated.@
+`Hisui’s manner, Akiha’s worried eyes—why does everyone insist on treating me as though I might shatter at a touch?@
 br
-`This happens all the time.@ It isn’t as if I am grievously wounded, coughing up blood or drinking it.@ Why can’t they leave me alone?
+`This happens all the time.@
+`It isn’t as if I am grievously wounded, coughing up blood or drinking it—why can’t they leave me alone?
 \
 br
 `[line=4]Grrrk.@
 br
-`The sound of my own teeth grinding fills the dark.@ “…”@ Even I can tell my nerves are fraying.@ If I stay awake like this, I will sink into something ugly.@ I am not sleepy, but I will force myself to sleep somehow.
+`The sound of my own teeth grinding fills the dark.@
+`“…”@
+`Even I can tell my nerves are fraying.@
+`If I stay awake like this, I will sink into something ugly.@
+`I am not sleepy, but I will force myself to sleep somehow.
 \
 wavestop
 bg #000000,crossfade,1500
@@ -95,7 +121,8 @@ br
 br
 br
 br
-`I emerge onto the main avenue.@ The date changed perhaps two minutes ago.@
+`I emerge onto the main avenue.@
+`The date changed perhaps two minutes ago.@
 !w1000
 \
 br
@@ -104,7 +131,8 @@ br
 br
 br
 br
-`Midnight on Sunday.@ Not a single person walks the street.@
+`Midnight on Sunday.@
+`Not a single person walks the street.@
 !w1000
 \
 br
@@ -112,7 +140,8 @@ br
 br
 br
 br
-`Did I choose the wrong hour?@ Had I gone out an hour earlier, this would have taken far less trouble.@
+`Did I choose the wrong hour?@
+`Had I gone out an hour earlier, this would have taken far less trouble.@
 !w1000
 \
 br
@@ -121,7 +150,10 @@ br
 br
 br
 br
-`Drag, drag, drag.@ The dragging sound comes from the thing I am dragging.@ It is not the sound of my own feet.
+`Drag, drag, drag.@
+`The dragging sound comes from
+`the thing that drags along,
+`not from the way I walk.
 \
 br
 br
@@ -129,7 +161,8 @@ br
 br
 br
 br
-`No.@ The hour was right.@ Had I gone out an hour earlier, I could never have walked this way.
+`The hour was right.@
+`Had I gone out an hour earlier, I could never have walked this way.
 \
 br
 br
@@ -137,23 +170,41 @@ br
 br
 br
 br
-`Drag, drag.@ I walk with a fistful of the woman's hair.@ Long hair.@ It reminded me of Akiha's, so I chose her.@ Her face looks nothing like Akiha's.@ I only liked the hair.
+`Drag, drag.@
+`I walk with a fistful of the woman's hair.@
+`Long hair.@ It reminded me of Akiha's, so I chose her.@ Her face looks nothing like Akiha's.@ I only liked the hair.
 \
 bg #000000,crossfade,400
 bg "bg/bg_31b",crossfade,400
-`I release her hair.@ Still unconscious, the woman collapses onto the ground.@ I have not killed her.@ Since I skipped dinner, I wanted my meal served in the most appetizing way possible.@ I once heard that a corpse’s blood is cold and not especially good.
+`I release her hair.@
+`Still unconscious, the woman collapses onto the ground.@
+`I have not killed her.@
+`Since I skipped dinner, I wanted my meal served in the most appetizing way possible.@
+`I once heard that a corpse’s blood is cold and not especially good.
 \
-`The woman’s unpainted throat is not unappealing.@ Knife clenched in one hand, I lower my mouth toward it—
+`The woman’s unpainted throat is not unappealing.@
+`Knife clenched in one hand, I lower my mouth toward it—
 playstop
 bg #000000,notrans,0
 monocro off
-`That is the dream I wake from.@ “—!”@ Awareness sharpens as sleep releases me.@ My throat is terribly dry, and every hair on my body stands on end.
+`That is the dream I wake from.@
+`“[line=4]!”@
+`Awareness sharpens as sleep releases me.@
+`My throat is terribly dry, and every hair on my body stands on end.
 \
-`“What kind of…@ dream was that?”@ What is wrong with me?@ I cannot believe it: going into the city at night, knocking an unknown woman unconscious from behind, dragging her into an alley.
+`“What kind of[line=3]dream…”@
+`am I having?@
+`I cannot believe it.@
+`I went into the city at night, knocked an unknown woman unconscious from behind, and dragged her into an alley.
 \
-`It is deranged, frankly.@ A dream is one thing, but if I ever did that in reality, I would be truly insane.
+`It is deranged, frankly.@
+`A dream is one thing, but if I ever did that in reality, I would be truly insane.
 \
-`“Hah…@ hah, hah…”@ I steady my inexplicably ragged breathing.@ Pressing my fingers to my eyelids, I draw a deep breath.@ There is no chance of going back to sleep after that.@ I will turn on the light and read until morning.
+`“Haa[line=3]haa, haa[line=4]”@
+`I steady my inexplicably ragged breathing.@
+`Pressing my fingers to my eyelids, I draw a deep breath.@
+`There is no chance of going back to sleep after that.@
+`I will turn on the light and read until morning.
 \
 monocro #ff00ff
 bg "bg/ima_10b",crossfade,800
@@ -164,7 +215,7 @@ br
 br
 br
 br
-`Little by little, my eyes
+`My eyes, little by little…
 \
 monocro #0000ff
 bg "bg/bg_31b",crossfade,400
@@ -179,18 +230,33 @@ br
 \
 monocro off
 bg "bg/bg_31b",crossfade,400
-`“Wh—”@ My breath stops.@ This is not my room.@ It is an alley.@ A knife is in my hand.@ And before me lies an unknown woman, unconscious.
+`“[line=11]What?”@
+`My breath stops.@
+`This is not my room.@
+`An alley.@
+`A knife in my hand.@
+`Before me.@
+`An unknown woman lies unconscious.
 \
 wave se_01
-`“Haa…”@ What?@ What am I doing?@
+`“Haa…”@
+`What?@
+`What am I doing?@
 br
-`Wasn’t it a dream?@ Wasn’t everything until now a dream?
+`Wasn’t it a dream?@
+`Wasn’t everything until now a dream?
 \
 wave se_01
-`“…”@ It has to be a dream.@ I have never once wanted anything like this: to attack a strange woman, draw my knife along the many “lines”@ crossing her supple body, take her limbs apart and see the red, red blood.@ Never—not even once.@ Not even once?
+`“[line=10]”@
+`It has to be a dream.@
+`I have never once wanted anything like this.@
+`To attack a strange woman,
+`draw my knife along the many ‘lines’ crossing her supple body,
+`take her limbs apart and see the red, red blood—not even once[line=4]not even once?
 \
 wave se_01
-`Yes.@ I have never wanted it at all.@ And yet, helplessly, I find myself thinking that I have to do it.
+`I have never wanted it at all.@
+`And yet, helplessly, I find myself thinking that I have to do it.
 \
 wave se_01
 br
@@ -203,9 +269,11 @@ wave se_01
 `Take her apart.@
 wave se_01
 br
-`Then I will be free of every petty tie.@ I will become a creature no one can bind.@
+`Then I will be free of every petty tie.@
+`I will become a creature no one can bind.@
 br
-`Come to think of it, someone once said something very much like that.
+`Come to think of it.@
+`Someone once said something very much like that.
 \
 br
 br
@@ -217,68 +285,101 @@ br
 `[line=3]You’re no different.@ You’ll sink to being nothing but a murderer, just like me, Shiki Tohno.
 \
 wave se_01
-`“…@up.”@
+`“Shut up…”@
 br
-`[line=3]Admit it already, killer.@ That inverted impulse of yours is nothing less than your own desire—
+`[line=3]Admit it already, killer.@
+`That inverted impulse of yours is nothing less than your own desire—
 br
-`“Shut…@ up.”
+`“Shut—up.”
 \
 wave se_01
-`But what is this?@ What am I doing?@ Even now, awake and aware, why am I still trying to drive the knife into the woman’s throat?
+`But what is this?@
+`What am I doing?@
+`Why am I doing any of this?@
+`Even now, awake and aware, why am I still trying to drive the knife into the woman’s throat?
 \
 wave se_01
-`If I am doing this in reality rather than a dream, then I am insane.@ Who was it that thought exactly that only moments ago?
+`If I am doing this in reality rather than a dream, then I am insane.@
+`Who was it that thought exactly that only moments ago?
 \
 wave se_01
 `“Nn…”@
 br
-`The woman’s eyelids flutter.@ She is waking.@ Before that happens, I have to make certain I take her apart.@ I—
+`The woman’s eyelids flutter.@
+`She is waking.@
+`Before that happens.@
+`I have to make certain I take her apart before she wakes.@ I have to[line=3]
 \
 `“Ah.”@
 br
-`The knife moves.@ But it—
+`The knife moves.@
+`But then.@
 br
-`“…@Who are you?”@ I hear the woman’s voice.@ She notices the knife poised against her throat.
+`“Who are you…?”@
+`I hear the woman’s voice.@
+`She notices the knife poised against her throat.
 \
 br
-`“Eee—”@ “AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!”
+`“Eee—”@
+`“AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!”
 \
 bg #000000,lcartain,400
 bg "bg/bg_25b",lcartain,400
 waveloop se_02
-`My scream drowns out hers.@ I scream and scream like a broken siren, and when awareness returns, I am running.
+`My scream drowns out hers.@
+`I scream and keep screaming like a broken siren.@ When awareness returns, I am running.
 \
 bg #000000,lcartain,400
 bg "bg/bg_22c",lcartain,400
-`“Hah, hah, hah, hah—”@ My fingers tremble.@ My mind goes blank.@ Yet somehow, just barely, I ran before I drove the knife into that woman.@
+`“Hah, hah, hah, hah[line=3]”@
+`My fingers tremble.@
+`My mind goes blank.@
+`Yet somehow, just barely, I ran before I drove the knife into that woman.@
 br
-`But if she had screamed before I did—
+`But.@ If she had screamed before I did…@
 br
 `I would have gone on and—
 \
-`“Hah, hah…@ ha, hahahaha…!”@
+`“Hah, hah, ha, hahahaha…!”@
 br
-`I am afraid.@ Truly afraid.@ This is more terrifying than anything I have ever endured.
+`I am afraid.@
+`Truly afraid.@
+`This is more terrifying than anything I have ever endured.
 \
 bg #000000,lcartain,400
 bg "bg/bg_32d",lcartain,400
-`“Hah, hah, hah…!”@ It follows me.@ It hangs over my back.@ No matter how far I run, I cannot escape the terror that is me.
+`“Hah, hah, hah…!”@
+`It follows me.@
+`It hangs over my back.@
+`No matter how far I run, I cannot escape the terror that is me.
 \
 bg #000000,lcartain,400
 bg "bg/bg_33d",lcartain,800
 bg "bg/bg_40d",lcartain,800
-`“Hah, hah, haah!”@ I plunge into my room and try to lock the door.@ The latch only rattles; I cannot make it catch.
+`“Hah, hah, haah!”@
+`I plunge into my room and try to lock the door.@
+`The latch only rattles; I cannot make it catch.
 \
-`My fingertips.@ They skitter madly, unable to perform the simple task of sliding one little metal catch.
+`My fingertips.@
+`They skitter madly, unable to perform the simple task of sliding one little metal catch.
 \
-`“Hah, hah, hah!”@ I’m afraid.@ If I do not lock it quickly, something will enter the room.@ Something unknowable will come inside.
+`“Hah, hah, hah!”@
+`I’m afraid.@
+`If I do not lock it quickly, something will enter the room.@
+`Something unknowable will come inside.
 \
-`“Ghh…!”@ The lock.@ I have to lock it.@ I cannot let it into this room.@ I cannot let it out of this room.
+`“Ghh…!”@
+`The lock—I have to lock it.@
+`I cannot let it into this room.@
+`I cannot let it out of this room.
 \
-`But what?@ I do not know.@ Without knowing, I keep working the lock like a madman.
+`But what?@
+`I do not know.@
+`Without knowing, I keep working the lock like a madman.
 \
 wavestop
-`The latch rattles all night as I struggle with it.@ Hours pass, and still I cannot turn the lock.
+`The latch rattles all night as I struggle with it.@
+`Hours pass, and still I cannot turn the lock.
 \
 br
 br
@@ -286,7 +387,8 @@ br
 br
 br
 br
-`Then I understand.@ I went mad long ago.
+`Then I understand.@
+`I went mad long ago.
 \
 bg #000000,crossfade,800
 !w3000

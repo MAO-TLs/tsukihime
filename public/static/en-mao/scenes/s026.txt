@@ -2,44 +2,83 @@ bg #000000,lcartain,800
 play "*3"
 !w500
 bg "bg/bg_50",lcartain,800
-`As always, the cafeteria was packed, with a ten-minute line just to order.@ Arihiko and I took a table and watched students queue with meal tickets clenched in their fists.
+`As always, the cafeteria was packed, with a ten-minute line just to order.@
+`Arihiko and I sat at a table, watching students clutch their meal tickets as they waited in line.
 \
-`“So, Arihiko.@ Who’s this special guest?”@ “Uh…@ That’s strange.@ We were supposed to meet here.@ Wait a minute—I’ll go see what happened.”@ Arihiko abandoned his curry udon and dashed off.@ “…”@ I had mochi udon.@ Hopefully he’d be back before the noodles went soft.
+`“So, Arihiko.@ Who’s the special guest?”@
+`“Uh—strange; we were supposed to meet here.@ Wait here a minute and I’ll go see what happened.”@
+`Arihiko left his curry udon behind and ran off.@
+`“…”@
+`I was having mochi udon.@
+`I only hoped he would return before the noodles went soft.
 \
 bg #000000,lshutter,800
 !w500
 bg "bg/bg_50",lcartain,800
 ld c,"tachi/ari_t03",lshutter,800
-`“No good.@ She wandered off somewhere.”@ “Your guest was an upperclassman?”@ “Yeah.@ She’s pretty interesting.@ I’ve been working on her for days, and she finally agreed to have lunch with us.@ But apparently she’s running all over school today saying, ‘There’s someone I want to thank, so I have to find them.@’”@ “I see.@ Sounds like she keeps busy.”@ “Yeah.@ She’s kind of like a Choro-Q.”@ Looking disappointed, Arihiko snapped apart his disposable chopsticks.
+`“No luck—she seems to have gone somewhere.”@
+`“Your guest was an upperclassman?”@ “Yeah.@
+`She’s pretty interesting; I’ve been pursuing her for days, and she finally agreed to have lunch with me.@ But apparently she’s running all over school today saying, ‘There’s someone I want to thank, so I’m trying to find them’.”@
+`“[line=3]Huh…@ Sounds like a busy person.”@
+`“Yeah.@ She’s kind of like a Choro-Q.”@
+`Looking disappointed, Arihiko split his disposable chopsticks.
 \
-`“Well, nothing for it.@ Let’s eat.”@ “All right.@ Let’s eat.”@
+`“Well, nothing for it—let’s eat.”@ “All right.@
+`Let’s eat.”@
 cl c,crossfade,400
 `Together, we began noisily slurping our udon.@
 br
 !w1000
-`…@What was a Choro-Q, anyway?
+`What was a Choro-Q, anyway?
 \
 bg #000000,lshutter,400
 bg "bg/bg_50",lshutter,400
-`“So what’s the real story?”@
+`“So.@ What’s the real story?”@
 ld c,"tachi/ari_t04",crossfade,400
-`“Hmm?@ About what?”@ “Why you were in class first thing this morning.@ Arihiko Inui isn’t enough of a romantic to come to school merely because he woke up early.”@ I asked while eating my udon.@ Arihiko gave a bored grunt and sipped his curry broth.@ “You’re moving back home today, right?”@ “I am…@ Wait, did I tell you that?”@ “No.@ Our teacher did.”@ Arihiko continued eating without looking at me.
+`“Hmm?@ About what?”@
+`“Why you were in class first thing this morning.@ Arihiko Inui isn’t enough of a romantic to come to school merely because he woke up early.”@
+`I asked while eating my udon.@
+`Arihiko gave a bored grunt and sipped his curry broth.@
+`“You’re moving back home today, right?”@
+`“I am—but wait, did I tell you that?”@
+`“No.@ Our teacher did.”@
+`Arihiko continued eating without looking at me.
 \
-`“So I thought I’d come see whether you were feeling blue.”@ “…@I see.@ And your findings?”@ “The spectacle wasn’t entertaining enough to justify waking early.@ Bit of a disappointment.”@
+`“So I thought I’d come see whether you were feeling blue.”@ “I see.@ And your
+`findings?”@ “The spectacle wasn’t entertaining enough to justify waking early.@
+`Bit of a disappointment.”@
 cl c,crossfade,400
-`“Honestly, Arihiko.@ You have far too much time on your hands.”@ I bit through the white mochi at the heart of my bowl of udon.@ …@That was the kind of person Arihiko was.@ Today I was leaving the relatives who had taken me in and returning to my birth parents’ home.@ Arihiko must have heard about it somewhere, worried that I might be taking it badly, and come to school early to check on me.
+`“Honestly, Arihiko.@ You have far too much time on your hands.”@
+`I bit through the white mochi at the heart of my bowl of udon.@
+`That was the kind of person Arihiko was.@
+`Today I was leaving the relatives who had taken me in and returning to my birth parents’ home.@
+`Arihiko must have heard about it somewhere, worried that I might be taking it badly, and come to school early to check on me.
 \
-`“…@Arihiko, your appearance does you a serious disservice.@ Underneath it all, you’re a painfully sensitive and sentimental fellow.”@
+`“Arihiko, your appearance does you a serious disservice.@ Underneath it all, you’re a painfully sensitive and sentimental fellow.”@
 ld c,"tachi/ari_t02",crossfade,400
-`“Heh heh.@ If Mr.@ Perpetually Melancholy says so, I suppose it must be true.”@ Arihiko noisily slurped up more noodles.@
+`“Heh heh—if the perpetually melancholy Tohno says so, I suppose I must be the real thing.”@
+`Arihiko noisily slurped up more noodles.@
 ld c,"tachi/ari_t01",crossfade,400
-`“But seriously, how are you taking it?”@ “Taking what?”@ “You’ve lived with the Arimas since elementary school, haven’t you?@ I don’t know why, but it’s been eight years.@ Why would your father suddenly summon the son he disowned after all this time?”
+`“—So.@ How are you really taking it?”@
+`“Taking what?”@
+`“You’ve lived with the Arimas since elementary school, haven’t you?@ I don’t know why, but it’s been eight years.@ Why would your father suddenly summon the son he disowned after all this time?”
 \
-`“I wasn’t disowned.@ I was just sort of thrown out of the mansion.”@ “Tohno.@ If a family throws a child out for no particular reason, that stops being a tragedy and becomes a joke.@ Oh, it is party joke.@ But is too cold, so laugh…@ NO.”@ Arihiko spread his hands and shrugged theatrically.@ His most obvious trait was his refusal to become serious under any circumstances.@ “…@You’re right.@ If I was thrown out for no reason, all I can do is laugh.”
+`“I wasn’t disowned; I was just sort of thrown out of the estate.”@ “Tohno.@
+`If a family throws a child out for no particular reason, that stops being a tragedy and becomes a joke.@ Oh, it is party joke.@ But is too cold, so laugh—NO.”@ Arihiko spread his hands and shrugged theatrically.@
+`His most obvious trait was his refusal to become serious under any circumstances.@
+`“…@You’re
+`right.@ If I were thrown out for no reason, all I could do is laugh.”
 \
-`“Exactly.@ And didn’t they give you the grand line about never darkening their doorstep again?@ The rest of society calls that disowning someone.@ I’ve never asked before, but why did they disown you?”@ “…”@ I had no idea.@ I would have liked an answer myself.@ “Well, if you don’t want to talk about it, forget it.”@
+`“Exactly.@ And didn’t they give you the grand line about never darkening their doorstep again?@ The rest of society calls that disowning someone.@
+`I’ve never asked before, but why did they disown you?”@
+`“…”@
+`I had no idea.@
+`I would have liked an answer myself.@
+`“Well, if you don’t want to talk about it, forget it.”@
 cl c,crossfade,400
-`Arihiko raised his bowl in both hands and gulped down the hot curry broth.@ Lunch break was short.@ Following his example, I hurriedly finished my own udon.
+`Arihiko raised his bowl in both hands and gulped down the hot curry broth.@
+`Lunch break was short.@
+`Following his example, I hurriedly finished my own udon.
 \
 bg #000000,crossfade,800
 playstop
