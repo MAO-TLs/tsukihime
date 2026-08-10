@@ -1,6 +1,6 @@
 {
 	"name": "tsukiweb",
-	"version": "0.7.2",
+	"version": "0.7.3",
 	"private": true,
 	"type": "module",
 	"engines": {
@@ -13,7 +13,7 @@
 		"common:check": "tsc -p tsukiweb-common/tsconfig.json",
 		"common:update": "git submodule update --remote --merge tsukiweb-common && npm install",
 		"test:direct-audio": "node --test tests/direct-media-audio.test.ts tests/direct-media-manager.test.mjs",
-		"test:runtime": "node --test tests/direct-media-audio.test.ts tests/direct-media-manager.test.mjs tests/en-mao-scenes.test.mjs tests/publication-safety.test.mjs tests/reader-public-contract.test.mjs tests/text-layout.test.ts src/features/mao-reader/data.test.ts",
+		"test:runtime": "node --test tests/direct-media-audio.test.ts tests/direct-media-manager.test.mjs tests/en-mao-scenes.test.mjs tests/publication-safety.test.mjs tests/reader-public-contract.test.mjs tests/route-runtime.test.ts tests/text-layout.test.ts src/features/mao-reader/data.test.ts",
 		"build": "npm run common:check && tsc && vite build"
 	},
 	"dependencies": {

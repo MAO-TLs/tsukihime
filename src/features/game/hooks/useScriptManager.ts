@@ -6,6 +6,8 @@ import { onAutoPlayStop, UserActionsHandler } from "features/game/utils/window-a
 import { SCREEN, displayMode } from "app/utils/display";
 import { useAutoPlayWakeLock } from "features/game/hooks/useAutoPlayWakeLock";
 import { InGameLayersHandler } from "@tsukiweb/common/utils/InGameLayersHandler";
+import { syncAudioForScreen } from "engine/audio-screen";
+import { settings } from "engine/settings";
 
 type ScriptManager = {
 	script: ScriptPlayer
@@ -59,6 +61,12 @@ export const useScriptManager = ({script, history, layers, actionsHandler}: Scri
 		return () => {
 			script.removeEventListener('afterBlock', handleReplayEnd)
 			script.removeEventListener('autoPlayStop', onAutoPlayStop)
+			script.stop()
+			actionsHandler.onScriptChange(null)
+			audio.stopWave()
+			syncAudioForScreen(audio, settings.titleMusic, displayMode.screen)
+			if (window.script === script)
+				delete window.script
 		}
 	}, [script])
 	

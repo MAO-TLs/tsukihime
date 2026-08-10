@@ -176,18 +176,22 @@ test('the play menu exit returns to the Tsukihime release page', async () => {
 	assert.equal(maoStrings.title.exit, 'Exit')
 })
 
-test('release, script, and audit routes silence the game audio runtime', async () => {
-	const [routes, releasePage, audioSource] = await Promise.all([
+test('release, script, and audit routes do not own the game audio runtime', async () => {
+	const [routes, releasePage, audioSource, audioScreen] = await Promise.all([
 		fs.readFile(path.join(projectRoot, 'src/app/components/AnimatedRoutes.tsx'), 'utf8'),
 		fs.readFile(path.join(projectRoot, 'src/features/mao-site/TsukihimeReleasePage.tsx'), 'utf8'),
 		fs.readFile(path.join(projectRoot, 'src/engine/audio.ts'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/engine/audio-screen.ts'), 'utf8'),
 	])
 
 	assert.match(releasePage, /useScreenAutoNavigate\(SCREEN\.HOME\)/)
-	assert.match(routes, /useScreenAutoNavigate\(page === "audit" \? SCREEN\.AUDIT : SCREEN\.SCRIPT\)/)
-	assert.match(audioSource, /const silentPublicScreens = new Set<SCREEN>\(\[[\s\S]*?SCREEN\.HOME,[\s\S]*?SCREEN\.SCRIPT,[\s\S]*?SCREEN\.AUDIT,/)
-	assert.match(audioSource, /if \(silentPublicScreens\.has\(screen\)\) \{[\s\S]*?audio\.stopTrack\(\)[\s\S]*?audio\.stopWave\(\)/)
-	assert.match(audioSource, /waitLanguageLoad\(\)[\s\S]*?syncAudioForScreen\(displayMode\.screen\)/)
+	assert.doesNotMatch(routes, /useScreenAutoNavigate\(page/)
+	assert.match(routes, /const TitleMenuScreen = lazy\(\(\) => import\("app\/screens\/TitleMenuScreen"\)\)/)
+	assert.match(routes, /const Window = lazy\(\(\) => import\("app\/screens\/Window"\)\)/)
+	assert.match(routes, /const routeScreen = screenForPathname\(pathname\)/)
+	assert.match(audioSource, /import \{ syncAudioForScreen \} from "\.\/audio-screen"/)
+	assert.match(audioScreen, /audio\.stopWave\(\)[\s\S]*?isGameScreen\(screen\)[\s\S]*?audio\.playTrack\(titleTrack\)[\s\S]*?audio\.stopTrack\(\)/)
+	assert.match(audioSource, /waitLanguageLoad\(\)[\s\S]*?syncAudioForScreen\(audio, settings\.titleMusic, displayMode\.screen\)/)
 })
 
 test('reader query and hash navigation remain URL-addressable without dynamic dossier paths', async () => {

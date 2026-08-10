@@ -3,23 +3,27 @@ import { AnimatePresence, LazyMotion, domAnimation } from 'motion/react';
 import '@tsukiweb/common/styles/main.scss'
 import '../styles/App.scss'
 import '@tsukiweb/common/graphics/styles/graphics.scss'
-import ExtraLayout from "features/title-menu/components/ExtraLayout";
-import { useCallback, useEffect, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { Particles } from "@tsukiweb/common/ui-core";
-import ConfigScreen from "app/screens/ConfigScreen";
 import DisclaimerScreen from "app/screens/DisclaimerScreen";
-import EndingsScreen from "app/screens/EndingsScreen";
-import FlowchartScreen from "app/screens/FlowchartScreen";
-import GalleryScreen from "app/screens/GalleryScreen";
-import LoadScreen from "app/screens/LoadScreen";
-import SceneReplayScreen from "app/screens/SceneReplayScreen";
-import TitleMenuScreen from "app/screens/TitleMenuScreen";
-import Window from "app/screens/Window";
-import { SCREEN } from "app/utils/display";
+import { displayMode, screenForPathname, SCREEN } from "app/utils/display";
+import { appLocationString } from "app/utils/route-location";
 import {MaoReaderShell} from "features/mao-reader";
 import type {MaoReaderLocation, ReaderPage} from "features/mao-reader/types";
 import TsukihimeReleasePage from "features/mao-site/TsukihimeReleasePage";
-import {useScreenAutoNavigate} from "app/hooks";
+
+// Game modules own long-lived script, input, and audio singletons. Keeping them
+// behind route-level lazy boundaries means direct visits to the release page or
+// readers never initialize the game runtime.
+const ConfigScreen = lazy(() => import("app/screens/ConfigScreen"))
+const EndingsScreen = lazy(() => import("app/screens/EndingsScreen"))
+const ExtraLayout = lazy(() => import("features/title-menu/components/ExtraLayout"))
+const FlowchartScreen = lazy(() => import("app/screens/FlowchartScreen"))
+const GalleryScreen = lazy(() => import("app/screens/GalleryScreen"))
+const LoadScreen = lazy(() => import("app/screens/LoadScreen"))
+const SceneReplayScreen = lazy(() => import("app/screens/SceneReplayScreen"))
+const TitleMenuScreen = lazy(() => import("app/screens/TitleMenuScreen"))
+const Window = lazy(() => import("app/screens/Window"))
 
 const readerHash = (): string | undefined => {
 	const hash = window.location.hash.slice(1)
@@ -33,9 +37,9 @@ const readerHash = (): string | undefined => {
 }
 
 const MaoReaderRoute = ({page}: {page: ReaderPage}) => {
-	useScreenAutoNavigate(page === "audit" ? SCREEN.AUDIT : SCREEN.SCRIPT)
 	const [location, navigate] = useLocation()
 	const [, setHistoryRevision] = useState(0)
+	const lastReplacement = useRef<string | undefined>(undefined)
 	useEffect(() => {
 		const refresh = () => setHistoryRevision(value => value + 1)
 		window.addEventListener("popstate", refresh)
@@ -75,9 +79,15 @@ const MaoReaderRoute = ({page}: {page: ReaderPage}) => {
 		const search = params.size ? `?${params.toString()}` : ""
 		const hash = next.page === "script" && next.scope !== "all" && next.ref ? `#${encodeURIComponent(next.ref)}` : ""
 		const destination = `${base}${search}${hash}`
-		const current = `${window.location.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ""), "") || "/"}${window.location.search}${window.location.hash}`
-		if (current !== destination)
-			navigate(destination, {replace: true})
+		const current = appLocationString(window.location, import.meta.env.BASE_URL)
+		if (current === destination) {
+			lastReplacement.current = destination
+			return
+		}
+		if (lastReplacement.current === destination)
+			return
+		lastReplacement.current = destination
+		navigate(destination, {replace: true})
 	}, [navigate])
 
 	return (
@@ -100,6 +110,15 @@ const MaoReaderRoute = ({page}: {page: ReaderPage}) => {
 const AnimatedRoutes = () => {
 	const [location] = useLocation()
 	const pathname = location.split('?')[0]
+
+	// displayMode predates the public-site routes and drives the game singleton
+	// lifecycle. Keep it aligned with the actual router even when no game screen
+	// is mounted, so leaving /play or /window shuts the runtime down.
+	useEffect(() => {
+		const routeScreen = screenForPathname(pathname)
+		if (displayMode.screen !== routeScreen)
+			displayMode.screen = routeScreen
+	}, [pathname])
 	
 	// Show the original game disclaimer on first entry to the browser edition.
 	const [showDisclaimer, setShowDisclaimer] = useState(() => {
@@ -136,8 +155,9 @@ const AnimatedRoutes = () => {
 	return (
 		<LazyMotion features={domAnimation} strict>
 			{showParticles && <Particles />}
-			<AnimatePresence mode="wait">
-				<Switch location={pathname} key={keyPresence}>
+			<Suspense fallback={null}>
+				<AnimatePresence mode="wait">
+					<Switch location={pathname} key={keyPresence}>
 					<Route path={SCREEN.HOME}>
 						<TsukihimeReleasePage />
 					</Route>
@@ -176,8 +196,9 @@ const AnimatedRoutes = () => {
 					<Route>
 						<Redirect to="/" />
 					</Route>
-				</Switch>
-			</AnimatePresence>
+					</Switch>
+				</AnimatePresence>
+			</Suspense>
 			<AnimatePresence>
 				{showDisclaimer && <DisclaimerScreen onAccept={markDisclaimerAsSeen} />}
 			</AnimatePresence>

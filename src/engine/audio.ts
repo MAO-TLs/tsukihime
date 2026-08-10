@@ -4,10 +4,11 @@ import { observe } from "@tsukiweb/common/utils/Observer"
 import { asyncDelay } from "@tsukiweb/common/utils/timer"
 import { createCommands } from "@tsukiweb/common/audio/utils"
 import { waitLanguageLoad } from "translation/lang"
-import { displayMode, SCREEN } from "app/utils/display";
+import { displayMode } from "app/utils/display";
 import { GameAudioManager } from "@tsukiweb/common/audio/AudioManager";
 import { DirectMediaGameAudioManager } from "./DirectMediaGameAudioManager";
 import { originalMediaMode } from "translation/assets";
+import { syncAudioForScreen } from "./audio-screen";
 
 function getUrl(id: string): string {
   if (id.startsWith('"') && id.endsWith('"'))
@@ -26,36 +27,18 @@ export const audio = originalMediaMode === "direct-audio"
   ? new DirectMediaGameAudioManager(settings, getUrl)
   : new GameAudioManager(settings, getUrl)
 
-const silentPublicScreens = new Set<SCREEN>([
-  SCREEN.HOME,
-  SCREEN.SCRIPT,
-  SCREEN.AUDIT,
-])
-
-export function syncAudioForScreen(screen: SCREEN) {
-  const inGame = screen === SCREEN.WINDOW
-  audio.inGame = inGame
-  if (inGame)
-    return
-  if (silentPublicScreens.has(screen)) {
-    audio.stopTrack()
-    audio.stopWave()
-    return
-  }
-  audio.playTrack(settings.titleMusic)
-}
-
 //__________________________________observers___________________________________
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // update track source
 observe(settings, 'trackSource', audio.clearBuffers.bind(audio, true))
 
-observe(displayMode, 'screen', syncAudioForScreen)
+observe(displayMode, 'screen', (screen)=>
+  syncAudioForScreen(audio, settings.titleMusic, screen))
 
 waitLanguageLoad().then(async ()=> {
   await asyncDelay(100)
-  syncAudioForScreen(displayMode.screen)
+  syncAudioForScreen(audio, settings.titleMusic, displayMode.screen)
 });
 
 //___________________________________commands___________________________________

@@ -1,7 +1,7 @@
-import { useLayoutEffect } from "react"
+import { useLayoutEffect, useRef } from "react"
 import { useLocation } from "wouter"
 import { observe, unobserve } from "@tsukiweb/common/utils/Observer"
-import { displayMode, SCREEN } from "app/utils/display"
+import { displayMode, screenForPathname, SCREEN } from "app/utils/display"
 
 /**
  * Navigate to the correct screen when setting the `displayMode.screen` value.
@@ -10,7 +10,9 @@ import { displayMode, SCREEN } from "app/utils/display"
  * @param currentScreen label of the current screen this hook is used on
  */
 export function useScreenAutoNavigate(currentScreen: SCREEN) {
-	const [, setLocation] = useLocation()
+	const [location, setLocation] = useLocation()
+	const locationRef = useRef(location)
+	locationRef.current = location
 
 	useLayoutEffect(()=> {
 		if (displayMode.screen !== currentScreen) {
@@ -21,6 +23,8 @@ export function useScreenAutoNavigate(currentScreen: SCREEN) {
 			const state = displayMode.navigationState
 			displayMode.replaceNavigation = false
 			displayMode.navigationState = undefined
+			if (screenForPathname(locationRef.current) === screen)
+				return
 			setLocation(screen, { replace, state })
 		}
 		observe(displayMode, 'screen', handleNavigate, {
