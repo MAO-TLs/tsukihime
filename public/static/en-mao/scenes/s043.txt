@@ -52,7 +52,7 @@ ld c,"tachi/aki_t04b",crossfade,400
 ld c,"tachi/aki_t01b",crossfade,400
 `“Brother?”@
 `“Ah—no, I was thinking.@
-`Look.@ You say it hasn’t changed, but I still can’t relax here.@ The sitting room and lobby look familiar, but the corridors and bedrooms barely stir a memory.”@
+`Look.@ You say it hasn’t changed, but I still can’t relax here.@ The sitting room and foyer look familiar, but the corridors and bedrooms barely stir a memory.”@
 `“I see.@ Eight years is a long time.”@
 br
 `That was all there was to it.@
@@ -107,7 +107,7 @@ ld c,"tachi/aki_t01b",crossfade,400
 `I heard you kept collapsing from chronic anemia—”
 \
 `“I did collapse all the time during my first year out of the hospital.@
-`But I’m fine now.@ I still get anemic sometimes—about once a month—but I’m not so frail that you need to worry about me.”@
+`But I’m fine now.@ I still get light-headed sometimes—about once a month—but I’m not so frail that you need to worry about me.”@
 `I put on a brave face and thumped my chest over the scar.@
 `Akiha nodded gravely.
 \
@@ -135,7 +135,7 @@ ld l,"tachi/koha_t02",crossfade,400
 \
 `“That won’t be necessary.@ We weren’t discussing anything important.”@
 cl r,lshutter,800
-`Akiha rose smoothly, passed Kohaku, and strode briskly toward the lobby.@
+`Akiha rose smoothly, passed Kohaku, and strode briskly toward the foyer.@
 cl l,lshutter,800
 `Kohaku followed quietly behind her.@
 br
@@ -170,9 +170,9 @@ br
 `…@Now that she mentioned it, perhaps there had been one
 `“[line=3]But this is a Western-style mansion, not a hot-spring inn.@ Why build something so out of place here?”@
 ld c,"tachi/aki_t01b",crossfade,400
-`“Father had a rather piecemeal fondness for Japanese things.@ That is why the annex was built in Japanese style.”
+`“Father’s fondness for Japanese style was rather inconsistent.@ That is why the annex was built in Japanese style.”
 \
-`“So if you want a bath, use the one assigned to you.@ The second bath behind the lobby is yours.”@
+`“So if you want a bath, use the one assigned to you.@ The second bath behind the foyer is yours.”@
 `With that, Akiha left.@
 cl c,lshutter,400
 br
@@ -209,8 +209,8 @@ play "*1"
 `Right.@ If there was one thing I needed to know before bed, it was[line=3]
 `“Then tell me this: is the curfew really seven?”@
 `“Yes.@
-`To be precise, the main gate is locked at seven and every entrance to the estate at eight.@
-`After ten, the rules require everyone to refrain from moving about the estate.”
+`To be precise, the main gate is locked at seven and every entrance to the mansion at eight.@
+`After ten, the rules require everyone to refrain from moving about the mansion.”
 \
 `“We’re not even allowed to walk around inside?@ I’m not complaining, but isn’t that a little extreme?@ Akiha and I aren’t children anymore.”@
 `“Yes.@ But it is a rule, Master Shiki, and I must ask you to observe it.@ Surely Master Shiki knows how dangerous the nights have become?”@

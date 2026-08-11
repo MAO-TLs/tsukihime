@@ -9,8 +9,8 @@ ld c,"tachi/aki_t16a",crossfade,400
 `“Brother, it is lunchtime.”@
 `She states the spectacularly obvious.@
 `“Yes, it certainly is.@ Since it is lunchtime, we should probably eat.”@
-`I rustle through the plastic bag and take out the bread I bought.@
-`“It is the same as yesterday; is that all right?”@
+`I rustle through the plastic bag and take out the sandwiches I bought at the school store.@
+`“They are the same kind as yesterday; is that all right?”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“Yes, thank you.”
 \
@@ -23,7 +23,7 @@ ld l,"tachi/ari_t05",crossfade,400
 `“Whoa, you’re eating like royalty today.@ Something to celebrate?”@
 ld r,"tachi/cel_t12",crossfade,400
 `“Not really.@ Things are reaching a critical stage, though, so I have to eat plenty and keep my strength up or I’ll collapse.”@
-`“Ah, the autumn appetite.@ With you, I bet every calorie goes straight to your chest.”@
+`“Ah, so fall really does work up an appetite.@ With you, I bet every calorie goes straight to your chest.”@
 cl a,crossfade,400
 br
 `While Akiha and I struggle through an awkward lunch, Arihiko and Ciel have a remarkably cheerful one.
@@ -66,7 +66,7 @@ ld r,"tachi/cel_t01a",crossfade,400
 `“N-nothing; I was only handing her a drink.”@
 ld r,"tachi/cel_t12",crossfade,400
 `“Oh, I see.@ You both stopped moving, so it looked as though you were fighting over it.”@
-`“That is what you saw too?@ Me too; it looked like Tohno was desperately guarding the last drink from her.@
+`“Oh, you thought so too?@ So did I; it looked like Tohno was desperately guarding the last drink from her.@
 `I was thinking, Akiha says she is thirsty and he still will not hand it over—what kind of monster is this guy?”@
 `I suppose it might have looked that way.
 \
@@ -93,7 +93,7 @@ ld r,"tachi/cel_t01a",crossfade,400
 `“Well, Akiha can be rather prickly.@ If she were a little kinder, I’d have no complaints.”@
 ld l,"tachi/ari_t03",crossfade,400
 `“Really?@ She seems plenty kind to me.”@
-`“That is because she behaves in public.@ At home she is a different person; strict does not begin to cover it.@ At dinner she lectures me so relentlessly I hardly feel alive[line=3]”
+`“That is just how she acts in public.@ At home she is a different person; strict does not begin to cover it.@ At dinner she lectures me so relentlessly I hardly feel alive[line=3]”
 \
 cl a,crossfade,400
 ld c,"tachi/aki_t03a",crossfade,400

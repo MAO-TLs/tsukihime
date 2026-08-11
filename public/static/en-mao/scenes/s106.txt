@@ -158,7 +158,7 @@ ld c,"tachi/ark_t06",crossfade,400
 `Arcueid, still wearing that sour expression, turned away and ignored me.@
 `“Arcueid, hey!@ I’m asking what happened to the woman who was here!”@
 `“I don’t know.@ I didn’t see anybody.”@
-`She tossed her face aside and persisted in that transparent lie.
+`She turned her face away with a huff and persisted in that transparent lie.
 \
 `“You just said you weren’t the one who healed me.@ If it wasn’t you, then who else saved my life?”@
 ld c,"tachi/ark_t16",crossfade,400
@@ -180,7 +180,7 @@ cl a,crossfade,400
 `“Fine.@ I won’t ask anything else.@ Besides, this is where our relationship ends.”@
 ld c,"tachi/ark_t11",crossfade,400
 `“What[line=3]?”@
-`“It’s obvious.@ We defeated the vampire who was running wild through this city, so my share of the responsibility is over.@
+`“It’s obvious.@ We defeated the vampire who was running wild through this city, so I’ve done my part.@
 `I need to get home before Akiha decides on some horrible punishment.@ This seems like the right time to part ways, don’t you think, Arcueid?”@
 ld c,"tachi/ark_t03",crossfade,400
 `“Mm, I suppose you’re right.@ And it has gotten very late.”@
@@ -203,7 +203,7 @@ br
 `I raised one hand and began to walk away.@
 `“I mean…@ some terrible things happened, but it was fun too, in its way.@ So—take care of yourself.”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“You’re right.@ It’s late tonight, so you should go home.”@
+`“You’re right.@ It’s already late, so you should go home.”@
 ld c,"tachi/ark_t08",crossfade,400
 `“Good night.@ See you again, Shiki!”@
 cl a,lshutter,400
@@ -215,7 +215,7 @@ cl a,lshutter,400
 `I muttered it as if making excuses to myself.@
 `Yet it was true.@
 `So, once in a while.@
-`Seeing her once more by some accident might not be such a bad thing.
+`Running into her once more by chance might not be such a bad thing.
 \
 bg #000000,crossfade,1500
 playstop

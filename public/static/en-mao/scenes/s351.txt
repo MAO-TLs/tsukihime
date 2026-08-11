@@ -25,7 +25,7 @@ ld c,"tachi/his_t07",crossfade,400
 ld c,"tachi/his_t05",crossfade,400
 `“Ah[line=5]”
 \
-`“Go on ahead to Father’s room, Hisui.@ I’ll carry the books, and you can concentrate on arranging everything inside.@ Division of labor should make sense, right?”@
+`“Go on ahead to Father’s room, Hisui.@ I’ll carry the books, and you can concentrate on arranging everything inside.@ That way, we each do what we’re best at, right?”@
 ld c,"tachi/his_t04",crossfade,400
 `“[line=3]Very well, then I leave them in your care, Master Shiki.”@
 cl a,crossfade,400
@@ -79,7 +79,7 @@ br
 \
 wave se_01
 `Reading the family tree carefully, I find that every member of the Tohno family met an unnatural end.@
-`Death by madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@
+`Death after a descent into madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@
 `Not one of them died quietly of old age.@
 wave se_01
 bg #000000,crossfade,400
@@ -98,7 +98,7 @@ waveloop se_02
 ld c,"tachi/his_t08",lshutter,400
 `“Master Shiki…!”@
 `Hisui—Hisui runs toward me.@
-`[line=3]I catch the bookcase and somehow steady myself.
+`[line=3]I grab the bookcase and somehow steady myself.
 \
 ld c,"tachi/his_t25",crossfade,400
 playstop
@@ -126,7 +126,7 @@ bg "bg/bg_41",crossfade,400
 `If my body would only move, I would pin Hisui down this instant and[line=3]
 \
 bg #9c0120,notrans,0
-`The darkness of anemia vanishes, and my whole field of vision floods crimson.@
+`My vision, darkened by anemia moments ago, suddenly floods crimson.@
 `Hisui’s white throat.@
 `Last night’s dream, drenched in red.@
 br
@@ -210,7 +210,7 @@ br
 \
 `At that moment.@
 `The sight of Hisui’s throat aroused me.@
-`Just as in last night’s dream, I wanted to fasten my teeth into it.@
+`Just as in last night’s dream, I wanted to sink my teeth into it.@
 `Yet now the thought holds no appeal at all.@
 br
 `Last night’s dream and the person I became today.@
@@ -221,7 +221,7 @@ br
 `They say anyone bitten by a vampire becomes one in turn.@
 `“That’s absurd.@ I can walk around in broad daylight.”@
 `Yes, it’s impossible.@
-`Dizziness clouded my mind and showed me a hallucination, nothing more.@
+`It was nothing more than a hallucination brought on when dizziness clouded my mind.@
 `What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
 \
 `“Maybe Hisui is right and I’m just exhausted.”@
@@ -358,7 +358,7 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Unsatisfied with blood alone, one finger after another is bitten from the corpse’s hand.
+`Unsatisfied with blood alone, one finger after another is bitten off the corpse’s hand.
 \
 br
 br
@@ -369,7 +369,7 @@ br
 br
 `[line=4]The same thing as yesterday.
 \
-`Unsatisfied with fingers alone, one limb after another is bitten from the corpse.
+`Unsatisfied with fingers alone, one limb after another is bitten off the corpse.
 \
 br
 br
@@ -448,7 +448,7 @@ bg "bg/bg_40a",crossfade,800
 `I dreamed it again.@
 `A dream of drinking someone’s blood.@
 `I know it was a dream, yet it was hideously real.@
-`My hands still remember tearing flesh, and the raw smell of blood still clings inside my nose[line=3]
+`My hands still remember tearing flesh, and the raw smell of blood still lingers in my nostrils[line=3]
 \
 `“[line=3]What is happening to me?”@
 `I touch my throat.@

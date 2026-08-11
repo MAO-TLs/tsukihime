@@ -13,7 +13,7 @@ bg "bg/bg_33d",crossfade,400
 `I tried to climb the stairs, and my body creaked in protest.@
 `My legs wouldn’t rise.@ Walking on level ground was all I could manage.@
 `“What’s wrong with me?”@
-`There was no choice.@ I would return to the kitchen and ask Hisui for her shoulder[line=4]
+`There was no choice.@ I would return to the kitchen and ask Hisui to help me upstairs[line=4]
 \
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
@@ -40,7 +40,7 @@ wave se_01
 `I sensed someone nearby.@
 br
 `“[line=11]!”@
-`Still sprawled on the floor, I wrenched my gaze behind me.@
+`Still sprawled on the floor, I craned my neck to look behind me.@
 br
 `There.@
 `A human shape stood there, pale and insubstantial as a ghost.
@@ -50,7 +50,7 @@ waveloop se_02
 `Only then did I understand my situation.@
 `A body that wouldn’t move.@
 `A voice that wouldn’t come.@
-`A dark Western mansion without a light burning anywhere.@
+`A dark Western-style mansion without a light burning anywhere.@
 `And someone staring fixedly at their prey.@
 `With the stage set so perfectly, being murdered was practically mandatory.@
 `The scene belonged in a cheap horror film, and instead of nausea, laughter welled up inside me.
@@ -111,7 +111,7 @@ ld c,"tachi/koha_t02",lshutter,800
 \
 `“Morning, Kohaku.@ Were you the one who brought me here after I collapsed last night?”@
 ld c,"tachi/koha_t03",crossfade,400
-`“What, don’t you remember, Shiki?@ You were lying in the foyer when I called to you.@ You stood up by yourself, said you had slept well, and started walking.@ I lent you my shoulder, but you made it back here on your own.”@
+`“What, don’t you remember, Shiki?@ You were lying in the foyer when I called to you.@ You stood up by yourself, said you had slept well, and started walking.@ I let you lean on me, but you made it back here on your own.”@
 `“I see.@ I don’t remember any of that.@ Maybe I’ve been too tired lately.@ I keep losing track of what I’ve been doing.”@
 `“Oh.@ Then don’t you remember last night either?”@
 `“Probably not.@ My memory stops in the kitchen, when[line=5]”@
@@ -139,10 +139,10 @@ ld c,"tachi/koha_t03",crossfade,400
 quakey 2,300
 `“What[line=4]my body won’t move”@
 `It refused to move properly.@
-`I braced my arms to sit up, but no strength would enter them.
+`I braced my arms to sit up, but there was no strength in them.
 \
 ld c,"tachi/koha_t01a",crossfade,400
-`“You still seem unwell.@ Your temperature was around thirty-eight degrees this morning, and you’re still rather pale.@ I know you’ll be bored, but please stay in bed and rest today, Shiki.”@
+`“You still seem unwell.@ Your temperature was around thirty-eight degrees Celsius this morning, and you’re still rather pale.@ I know you’ll be bored, but please stay in bed and rest today, Shiki.”@
 cl c,lshutter,400
 `Kohaku laid a towel wrung out in cold water across my forehead.@
 `It was wonderfully cool.

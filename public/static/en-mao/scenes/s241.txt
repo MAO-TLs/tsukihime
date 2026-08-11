@@ -26,7 +26,7 @@ br
 br
 ld c,"tachi/aki_t01b",crossfade,400
 `“Brother?@ Are you going out at this hour?”@
-`I had no idea how long Akiha had been in the lobby when she addressed me with perfect composure.
+`I had no idea how long Akiha had been in the foyer when she addressed me with perfect composure.
 \
 `“Akiha—you’re back?”@
 `“Yes, only a few minutes ago.@
@@ -40,7 +40,7 @@ ld c,"tachi/aki_t12b",crossfade,400
 `“I’m sorry.@ A friend of mine is in trouble.@ I can’t just leave her alone.”@
 ld c,"tachi/aki_t23b",crossfade,400
 `“I see…@ You would go even if I tried to stop you, wouldn’t you, Brother?”@
-`“Yeah.@ But I won’t do anything dangerous.@ I’m only going to check on them.@ I’m sorry to cause trouble when I’ve barely returned home myself.”@
+`“Yeah.@ But I won’t do anything dangerous.@ I’m only going to check on them.@ I’m sorry to cause trouble when you’ve only just gotten home.”@
 `With that, I started toward the door.
 \
 cl a,crossfade,400
@@ -101,7 +101,7 @@ br
 \
 bg #000000,lcartain,800
 bg "bg/bg_27b",lcartain,400
-`I left the brilliant main street and headed toward the park.@
+`I left the brightly lit main street and headed toward the park.@
 `The recent murders had emptied the whole area.@
 `“……”@
 `I doubted Yumizuka would be here, but it was the only place left.
@@ -145,7 +145,7 @@ bg "bg/bg_29b",lcartain,800
 `Only a lonely meeting place drowned in darkness.@
 `And there—someone was crouching on the ground.@
 `Ragged breaths.@
-`Their face was deathly pale, their hands clawing desperately at their tortured throat.@
+`Their face was deathly pale, and they clawed at their throat in agony.@
 br
 `It was unmistakably Satsuki Yumizuka.
 \

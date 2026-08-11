@@ -54,14 +54,14 @@ bg "bg/bg_40a",crossfade,400
 bg #000000,lshutter,400
 !w1000
 bg "bg/bg_33a",lshutter,400
-`I wash my hands in the bath and return to the lobby.@
+`I wash my hands in the bathroom and return to the foyer.@
 ld c,"tachi/his_t01",lshutter,400
 `“Master Shiki?”@
 `Hisui calls out to me.
 \
 `“Morning, Hisui.@ I woke up early, so I went to wash my face.”@
 `Feeling vaguely guilty, I find myself making excuses.@
-`“Good morning.@ What would you like to do about dressing?@ I have laid out your clothes in your room.”@
+`“Good morning.@ Would you like to change now?@ I have laid out your clothes in your room.”@
 `Apparently Hisui has already been there.@ We must have passed each other on the stairs.
 \
 `“I’ll change in my room after breakfast, so leave them there.@ Sorry you came to wake me and found the room empty.”@
@@ -153,7 +153,7 @@ br
 `The teacups—the teacups—leap into the air.
 \
 `“Really?@ Akiha, there’s no virtue in pretending you’re fine.”@
-`“I am not pretending!@ Did you honestly believe I would disgrace myself by carrying last night’s alcohol into the following day?!”@
+`“I am not pretending!@ Did you honestly believe I would disgrace myself by still feeling the effects of last night’s alcohol today?!”@
 br
 `She strikes the table again.@
 `Once more, the teacups—the teacups—take flight.
@@ -278,7 +278,7 @@ br
 `Yet I could not deny it.@
 `Even now, sitting in a classroom without Yumizuka, I could barely summon her to mind.@
 `Ever since that night.@
-`Something inside Shiki Tohno had failed to fit together as reality—
+`Something inside Shiki Tohno was no longer meshing properly with reality—
 \
 bg #000000,crossfade,800
 !w2000
@@ -408,7 +408,7 @@ ld c,"tachi/koha_t14",crossfade,400
 `Kohaku froze.@
 `All levity vanished from her face as she looked at me.
 \
-`“I don’t know what it meant to her, but without that promise I think I would have turned bitter against the world—grown into someone thoroughly twisted.”@
+`“I don’t know what it meant to her, but without that promise I think I would have grown bitter toward the world—grown into someone thoroughly twisted.”@
 br
 `That was the day I had been cast aside as an unwanted child.@
 `She gave me her favorite possession and made me promise I would return it.@
@@ -601,7 +601,7 @@ br
 `I rose to step away from the bed.@
 `At that instant.@
 `“No…!”@
-`Akiha threw herself around me.
+`Akiha flung her arms around me.
 \
 bg "event/koha_e02",crossfade,800
 `“!”@
@@ -660,7 +660,7 @@ ld c,"tachi/koha_t01a",lshutter,400
 \
 `“What is that supposed to mean?@ Akiha has always looked perfectly healthy.”@
 `“Yes.@ But everyone in the Tohno family suffers from some such complaint.@
-`Whether it is a hereditary defect or something else, Miss Akiha, Shiki, and their father, Master Makihisa, have all been subject to physical attacks of one kind or another.@
+`Whether it is a hereditary defect or something else, Miss Akiha, Shiki, and their father, Master Makihisa, all have some kind of chronic condition that manifests in sudden physical episodes.@
 `Miss Akiha’s condition is among the milder cases.@ It cannot be dismissed, but unlike yours it poses no danger to her life, so please don’t look so frightened.”
 \
 `“How am I supposed to look?@ Akiha was in agony a few minutes ago.@
@@ -669,7 +669,7 @@ ld c,"tachi/koha_t02",crossfade,400
 `“Yes.@ Miss Akiha has always taken great care to keep it from you, Shiki.@
 `She gave us strict instructions not to tell Master Shiki either.”@
 `“But why?”@
-`“Miss Akiha did not want to distress you.@ So please, Shiki, do not repay Miss Akiha’s consideration by treating it lightly.”
+`“Miss Akiha did not want to distress you.@ So please, Shiki, do not disregard her efforts to spare you.”
 \
 `“…”@
 `I had no answer.@
@@ -1030,7 +1030,7 @@ textcolor #ffffff
 `A dry footstep rang out.@
 `The enemy was coming.@
 `Bad.@
-`If I entered its sight, I would be killed without any chance to resist.@
+`If I entered its field of vision, I would be killed without any chance to resist.@
 `“Hee—hee hee!”@
 `I fled down the corridor, hiding in the darkness from its gaze.
 \
@@ -1126,7 +1126,7 @@ textcolor #ffffff
 \
 `“…”@
 `Calm returned.@
-`If this was merely an amateur armed with a projectile, there was nothing to fear.@
+`If this was merely an amateur armed with a long-range weapon, there was nothing to fear.@
 `The enemy passed the classroom.@
 `The rest was simple.@ I would take that defenseless back.@
 `One missing leg made no difference.@
@@ -1545,7 +1545,7 @@ playstop
 !w2000
 bg "bg/bg_06a",lcartain,800
 `I reached the classroom with more time to spare than usual.@
-`Arihiko seemed to be late again, which meant I could greet homeroom in peace.@
+`Arihiko seemed to be late again, which meant I could wait for homeroom in peace.@
 `I sat amid the low classroom chatter and waited for our teacher.
 \
 bg #000000,crossfade,800

@@ -50,7 +50,7 @@ ld c,"tachi/cel_t02",crossfade,400
 ld c,"tachi/cel_t09",crossfade,400
 `“So—you hated staying in my room that much?”@
 `“No—that’s not it; my family is extremely strict, and this has nothing to do with disliking you[line=3]”@
-`I stumble over myself trying to explain.
+`I stumble over my words trying to explain.
 \
 `“It’s all right—you don’t have to make excuses.”@
 cl a,crossfade,400
@@ -165,7 +165,7 @@ ld c,"tachi/aki_t21",crossfade,400
 `school.”@
 `“…”@ So that was the story: I had become ill in the rain and stayed at Arihiko’s house.
 \
-`“I’m fine.@ I visit the hospital every month, and being driven everywhere would only make me weaker.@
+`“I’m fine.@ I see my doctor every month, and being driven everywhere would only make me weaker.@
 `You don’t need to be this nervous over me.@ Though I am glad you care.”@
 ld c,"tachi/aki_t16a",crossfade,400
 `“[line=2]That isn’t true.@ I’m not worried about you, Brother.”@
@@ -187,11 +187,11 @@ bg #000000,lcartain,800
 !w1000
 bg "bg/bg_48a",lcartain,800
 ld c,"tachi/his_t01",lshutter,400
-`“Have a safe journey.”@
+`“Have a pleasant day.”@
 `After her customary farewell, Hisui continued to watch me.@
 `“Master Shiki, what happened last night?”@
 `“Nothing.@ I was caught in the rain and had an anemic spell.@ I’ll be more careful.”@
-`“I am not reproaching you.@ Master Shiki merely appears to be forcing himself this morning.@ Please take great care along the way.”
+`“I am not reproaching you.@ Master Shiki merely appears to be pushing himself too hard this morning.@ Please take great care along the way.”
 \
 bg #000000,lcartain,800
 bg "bg/bg_32a",lcartain,800
@@ -340,7 +340,7 @@ br
 `I could ridicule the thought and ask what basis I had for such a delusion, but I knew better than anyone that I was only trying to reassure myself.@
 br
 `No reason, no basis, no proof.@
-`Shiki Tohno simply understood it as truth: if that woman caught him, she would kill him[line=5]
+`Shiki Tohno simply knew one thing for certain: if that woman caught him, she would kill him[line=5]
 \
 bg "bg/bg_31a",lcartain,800
 wave se_05
@@ -426,7 +426,7 @@ br
 \
 `“Came[line=3]back?”@
 `I repeated her words numbly.@
-`Did that mean a doctor had found her afterward, operated, and somehow restored her?
+`Did that mean she had received medical treatment afterward, undergone surgery, and somehow recovered?
 \
 `“[line=3]Don’t treat me like an idiot!@ No human being could come back after being cut to pieces[line=3]!”@
 `“Exactly.@ I’m not human.”@

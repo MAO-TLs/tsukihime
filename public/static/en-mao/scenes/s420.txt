@@ -121,7 +121,7 @@ br
 `[line=4]I fell to the ground.@
 br
 `I had never known a headache like it.@
-`For one earnest instant, I believed my skull had burst and killed me.
+`For one brief instant, I truly believed my skull had burst and killed me.
 \
 playstop
 !w2000
@@ -160,7 +160,7 @@ br
 bg #000000,lcartain,400
 bg "bg/bg_25b",lcartain,400
 `I hurried back to the main avenue.@
-`I ran to a public telephone and called the nearest emergency hospital.@
+`I ran to a public telephone and called the nearest hospital that handled emergencies.@
 `I invented a name, gave them the exact location of the alley and the victim’s condition, then hung up.@
 `Now I had to return to the mansion before the ambulance arrived, without letting anyone see me.
 \
@@ -225,7 +225,7 @@ ld c,"tachi/koha_t03",crossfade,400
 `“Huh.@ I don’t remember any of that.@ Maybe I’ve been too tired lately.@ I keep losing track of what I’ve been doing.”
 \
 `“Oh?@ Then don’t you remember last night either?”@
-`“Probably not.@ My memory stops when I returned to the mansion.”@
+`“Probably not.@ The last thing I remember is getting back to the mansion.”@
 ld c,"tachi/koha_t18",crossfade,400
 `“Ahaha, what a shame, Shiki.@ You spent the whole time apologizing to me.@
 `I kept asking what you were sorry for, but all you would say was that you were an idiot and a blockhead.@
@@ -250,10 +250,10 @@ ld c,"tachi/koha_t03",lshutter,400
 quakey 1,300
 `“What[line=4]my body won’t move”@
 `It refused to move properly.@
-`I braced my arms to sit up, but no strength would enter them.
+`I braced my arms to sit up, but there was no strength in them.
 \
 ld c,"tachi/koha_t01a",crossfade,400
-`“You still seem unwell.@ Your temperature was around thirty-eight degrees this morning, and you’re still rather pale.@ I know you’ll be bored, but please stay in bed and rest today, Shiki.”@
+`“You still seem unwell.@ Your temperature was around thirty-eight degrees Celsius this morning, and you’re still rather pale.@ I know you’ll be bored, but please stay in bed and rest today, Shiki.”@
 cl c,lshutter,400
 `Kohaku laid a towel wrung out in cold water across my forehead.@
 `It was wonderfully cool.
