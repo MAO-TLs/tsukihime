@@ -154,6 +154,20 @@ test('release, script, and audit share one compact mobile header geometry', asyn
 	assert.match(navigation, /href="https:\/\/github\.com\/MAO-TLs\/tsukihime">GitHub<\/a>/)
 })
 
+test('release, script, and audit restore normal document text selection', async () => {
+	const [gameStyles, siteStyles, readerStyles] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'tsukiweb-common/src/styles/main.scss'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-site/mao-site.scss'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/mao-reader.scss'), 'utf8'),
+	])
+
+	// The visual-novel shell deliberately suppresses selection. Public document
+	// hosts must take ownership back instead of inheriting that game behavior.
+	assert.match(gameStyles, /html, body \{[\s\S]*?user-select: none;/)
+	assert.match(siteStyles, /\.tsuki-release-page \{[\s\S]*?-webkit-user-select: text;[\s\S]*?user-select: text;/)
+	assert.match(readerStyles, /\.mao-reader-shell \{[\s\S]*?-webkit-user-select: text;[\s\S]*?user-select: text;/)
+})
+
 test('Tsukihime keeps WHITE ALBUM 2 publication typography through the app reset', async () => {
 	const [siteStyles, auditReader, readerStates] = await Promise.all([
 		fs.readFile(path.join(projectRoot, 'src/features/mao-site/mao-site.scss'), 'utf8'),

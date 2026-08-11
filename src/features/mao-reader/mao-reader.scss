@@ -21,6 +21,8 @@
 	color: var(--mao-ink);
 	font-family: var(--mao-template-sans);
 	font-size: 16px;
+	-webkit-user-select: text;
+	user-select: text;
 	isolation: isolate;
 	overscroll-behavior: contain;
 	text-rendering: optimizeLegibility;
