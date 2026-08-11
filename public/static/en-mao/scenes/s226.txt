@@ -6,7 +6,7 @@ bg "bg/bg_06a",notrans,0
 br
 `I was prone to dizzy spells even at the best of times; if I did not force myself to eat something, I might collapse.
 \
-`“Sorry, go ahead without me.@ I’m going to buy some bread.”@
+`“Sorry, go ahead without me.@ I’m going to buy a roll.”@
 `“Yeah?@ All right, don’t mind if I do.”@
 cl c,crossfade,400
 `I left the classroom while Arihiko cheerfully tore open his sandwich wrapper.
@@ -14,8 +14,8 @@ cl c,crossfade,400
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_06a",lcartain,800
-`I bought some bread and milk and returned.@
-`At my window-side desk, I found Arihiko and Ciel.@
+`I bought a roll and some milk and returned.@
+`At my desk by the window, I found Arihiko and Ciel.@
 ld l,"tachi/cel_t03",lshutter,800
 `“Oh, Tohno.@ Sorry to intrude.”@
 ld r,"tachi/ari_t02",lshutter,800
@@ -108,7 +108,7 @@ cl a,crossfade,400
 `The bread lodged in my throat.@
 `Arihiko was bad enough, but being interrogated beneath Ciel’s cold gaze as well gave the pair a terrifying intensity.@
 ld l,"tachi/cel_t04",crossfade,400
-`“There is still plenty of lunch break left, Tohno.@ Please, take all the time you need to tell us about life at your mansion.”@
+`“We still have plenty of time before lunch break ends, Tohno.@ Please, take all the time you need to tell us about life at your mansion.”@
 `Ciel advanced with a smile that permitted no refusal.@
 `“…”@
 br

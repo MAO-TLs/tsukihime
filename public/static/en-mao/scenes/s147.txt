@@ -56,7 +56,7 @@ ld c,"tachi/aki_t03a",crossfade,400
 \
 `“Friends close enough to go out together in the middle of the night, I see.@ I have no intention of dictating whom you become involved with in the future, but you are still a student, Brother, aren’t you?@
 ld c,"tachi/aki_t16a",crossfade,400
-`The eldest son of the Tohno family holding secret rendezvous night after night with some woman of unknown background—please put an end to such shameless behavior.”
+`The eldest son of the Tohno family having secret trysts night after night with some woman of unknown background—please put an end to such shameless behavior.”
 \
 cl c,crossfade,400
 `Partway through her speech, Akiha’s cheeks redden and she turns away.@
@@ -87,9 +87,9 @@ br
 ld c,"tachi/aki_t01a",crossfade,400
 `“If you cannot answer, shall I change the question?@ You have called her ‘that woman’ over and over; what is her name?”@
 `“Her name is Arcueid.”@
-`“I see.@ Then you did not meet her at school.@ There are no foreign exchange students at your high school.”@
+`“I see.@ Then you did not meet her at school.@ There are no international students at your high school.”@
 `“Urk.”@
-`Akiha is right; our school has no foreign exchange students.@
+`Akiha is right; our school has no international students.@
 `But how does she know even that?
 \
 ld c,"tachi/aki_t03a",crossfade,400
@@ -97,7 +97,7 @@ ld c,"tachi/aki_t03a",crossfade,400
 `“In town.@ It was a coincidence.”@
 `“A coincidence, was it?@ Then Arcueid must have approached you.”@
 `“Ah[line=3]no, I was the one who approached her…”@
-`Strictly speaking, I did not call out to her, but I created the occasion for us to meet.
+`Strictly speaking, I did not call out to her, but I was the one who made our meeting happen.
 \
 `“Why did you approach her?@ You say there’s nothing between you and Arcueid.@ Or was that what you wanted from the beginning?”@
 br
@@ -126,7 +126,7 @@ ld c,"tachi/aki_t12a",crossfade,400
 ld c,"tachi/aki_t14",crossfade,400
 `“Enough!@ Do whatever you please, Brother…!”@
 cl c,lshutter,400
-`Akiha stamps away into the lobby, every footfall sharp with anger.@
+`Akiha stamps away into the foyer, every footfall sharp with anger.@
 `“…?”@
 `I don’t understand any of this.
 \
@@ -135,7 +135,7 @@ ld c,"tachi/koha_t01a",lshutter,400
 `Kohaku sighs in disappointment and starts after her.@
 `“I feel so sorry for Miss Akiha.@ If you intend to bring home a lover, you should at least choose someone a little more ordinary.@ Then perhaps Miss Akiha could have accepted her.”@
 cl c,lshutter,800
-`Kohaku leaves for the lobby, hurrying after Akiha.
+`Kohaku heads into the foyer, hurrying after Akiha.
 \
 bg #000000,crossfade,1500
 !w2000

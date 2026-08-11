@@ -7,15 +7,15 @@ bg #000000,notrans,0
 bg "bg/bg_40a",crossfade,400
 play "*2"
 `Pale morning light wakes me.@
-`Perhaps it is an aftereffect of yesterday’s anemia; my body still feels a little heavy, but my spirits are clear.@
+`Perhaps yesterday’s fainting spell is still affecting me; my body still feels a little heavy, but I feel refreshed.@
 `How many days has it been?@
 `A morning with nothing to fear.@
-`Better yet, school is closed for Founding Day.@
+`Better yet, school is closed for its anniversary.@
 `There is no need to rush through my usual preparations, and I can savor the morning at my leisure.
 \
 `“Ah[line=3]”@
 `Only then do I notice.@
-`Someone is asleep with her body folded against the bed.@
+`Someone is asleep with her upper body resting on the bed.@
 `“Akiha?”@
 `She must have nursed me through the night; still seated in the chair, Akiha has laid her upper body across the bed and fallen asleep.
 \
@@ -183,10 +183,10 @@ wait 100
 bg "bg/bg_44a",notrans,0
 bg #ffffff,crossfade,400
 monocro off
-`The detached building shimmers in the fierce sunlight.@
+`The annex shimmers in the fierce sunlight.@
 `It is as if this one place has become a desert—hot, white, blurring before my eyes.@
 br
-`Something knocks softly inside.@
+`A dull thud.@
 `Inside the annex.@
 `Is someone…@
 `in there?
@@ -253,7 +253,7 @@ wait 100
 bg "bg/bg_40a",notrans,0
 `My head spins.@
 `But that does not matter.@
-`The detached house.@
+`The annex.@
 `If I go there, I will know whether it was a dream[line=3]
 \
 bg #000000,lcartain,400
@@ -264,11 +264,11 @@ bg "bg/bg_54a",lcartain,400
 ld c,"tachi/koha_t09",lshutter,800
 cl a,lshutter,800
 `“Kohaku…”@
-`She came walking from the direction of the detached house, then continued on toward the mansion.
+`She came walking from the direction of the annex, then continued on toward the mansion.
 \
 bg #000000,lcartain,400
 bg "bg/bg_44a",lcartain,400
-`The detached house is utterly still.@
+`The annex is utterly still.@
 `She won’t be there.@
 `Akiha can’t be here.@
 `She said she would be out all morning.@
@@ -340,7 +340,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“Yes.@ You know the courtyard where I collapsed?@ We used to play there long ago, but I feel there was one other child with us.@ Do you remember anyone?”@
 `“[line=3]There was no such child.@ You are mistaken, Brother.”@
 cl a,lshutter,400
-`With that categorical answer, Akiha left the detached house.
+`With that categorical answer, Akiha left the annex.
 \
 `“But, there was a third child, Akiha.@ A child adopted into this family ten years ago—do you really know nothing about them?”@
 `Left alone in the tatami room, I mutter to myself.@
@@ -358,7 +358,7 @@ bg "bg/bg_40c",rcartain,800
 `And I was dreaming of murder and drinking blood in exactly the same way.
 \
 `Eight years ago.@
-`The accident that left me mortally wounded, and the child who should have been there before it happened.@
+`The accident that nearly killed me, and the child who should have been there before it happened.@
 `What returned to me in the courtyard was unquestionably a memory from eight years ago.@
 `I had begun dreaming of murder, but there was nothing new in that.@ Apparently, I had witnessed something much like it long before.
 \
@@ -397,7 +397,7 @@ br
 `“Is that Akiha…?@ What is she doing, standing there in the middle of the courtyard?”@
 `Akiha stands in a daze beneath the largest tree.
 \
-`“Maybe she is taking a walk…@ it is past eleven, yet she is careless too.”@
+`“Maybe she is taking a walk…@ it is past eleven, and she can be so careless.”@
 `Come to think of it, Akiha also wandered outside at night on the first day I returned to the mansion.@
 `And if I cannot sleep anyway…@
 `Perhaps having Akiha beside me, as she was last night, will spare me the nightmare[line=3]
@@ -634,7 +634,7 @@ bg "bg/bg_40d",crossfade,400
 `“[line=4]”@
 `I cannot deny it.@
 `Every member of the Tohno family is abnormal somehow.@
-`Death by madness.@ Unnatural death.@ Disappearance.@ Insanity.@
+`Insanity ending in suicide.@ Unnatural death.@ Disappearance.@ Insanity.@
 `Akiha drinking Kohaku’s blood.@
 `Me dreaming of murder.@
 br
@@ -925,7 +925,7 @@ br
 `[line=3]The only certainty was that my body remained aroused.
 \
 `The feel of the stranger’s neck breaking in my hands,
-`the obscene reality of impaling Ciel’s arms and running my tongue over her body.@
+`the vivid sensation of impaling Ciel’s arms and running my tongue over her body.@
 `Even the heat of her breath against me remains in my senses.@
 `Dream or reality, it changes nothing.@
 `Either way, I killed a man and tried to rape her.
@@ -1104,7 +1104,7 @@ ld c,"tachi/cel_t12",crossfade,400
 `“[line=5]Ugh.”@
 `This is bad.@ I remembered far too much, far too vividly.@
 ld c,"tachi/cel_t01a",crossfade,400
-`“Tohno?@ You really have been acting strangely.@ Perhaps you should stop at the infirmary for medicine before going to class.”@
+`“Tohno?@ You really have been acting strangely.@ Perhaps you should stop by the nurse’s office for medicine before going to class.”@
 `Apparently worried, Ciel bent down to peer into my face.@
 cl a,crossfade,400
 `“Wait[line=3]Ciel.”@
@@ -1196,11 +1196,11 @@ ld c,"tachi/cel_t07a",crossfade,400
 `“[line=8]Why?”@
 `Why would she.@
 `“Why did you say nothing before, Ciel…!@ You knew I was killing people, did you not?@ Then why did you keep acting like we were[line=3]”@
-`I cannot understand why she kept treating me as an ordinary younger schoolmate, as though nothing were wrong.
+`I cannot understand why she kept treating me like an ordinary underclassman, as though nothing were wrong.
 \
 `“I am a murderer.@ Even after what I did to you last night, how can you still look at me like that, Ciel…!?”@
 ld c,"tachi/cel_t12",crossfade,400
-`“What do you mean?@ You and I are an ordinary senior and junior, so of course I look at you normally; for the record, I have never met you at night.”@
+`“What do you mean?@ I am your upperclassman and you are my underclassman, so of course I act normally around you; for the record, I have never met you at night.”@
 `Ciel declares it firmly, her chest held high.@
 `“[line=4]What?”@
 `Never met me at night[line=3]when yesterday we did not merely meet, but tried to kill each other…?
@@ -1323,7 +1323,7 @@ cl a,crossfade,400
 br
 `She is leaving the final decision to me.@
 `If I go to the school that night, everything will end.@
-`If I do not, we can return to what we have always been—an older and a younger schoolmate, one last choice[line=3]
+`If I do not, we can return to what we have always been—upperclassman and underclassman, one last choice[line=3]
 \
 `“……………”@
 `Unable to promise that I will go, I close my mouth.@

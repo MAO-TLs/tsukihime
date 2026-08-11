@@ -43,10 +43,10 @@ bg #000000,rshutter,800
 bg "bg/bg_54a",notrans,0
 bg #000000,tshutter,800
 bg "bg/bg_44a",notrans,0
-`The detached building shimmers in the fierce sunlight.@
+`The annex shimmers in the fierce sunlight.@
 `It is as if this one place has become a desert—hot, white, blurring before my eyes.@
 br
-`Something knocks softly inside.@
+`A dull thud.@
 `Inside the annex.@
 `Is someone…@
 `in there?
@@ -114,7 +114,7 @@ bg "event/aki_h13",crossfade,400
 `Smiling, Akiha drags her tongue up Kohaku’s breast.
 \
 `A shiver runs through Kohaku.@
-`Her shoulders tremble, and she bites her lips tightly shut.
+`Her shoulders tremble, and she bites down hard on her lip.
 \
 `“Please, Miss Akiha[line=3]you’re taking more than usual; you truly must[line=3]”@
 `“You needn’t worry.@ I won’t become like my brother.@ Drinking blood is no more than a pastime to me.@ I would never destroy myself with it as SHIKI has.@
@@ -145,7 +145,7 @@ bg "event/aki_h13",crossfade,400
 `“Miss Akiha.@ Why does Master SHIKI crave so much blood?@ If he needs only enough to live, mine should be sufficient, as it is for you.”@
 `“Yes.@ If survival were all he wanted, your blood would be more than enough; a resonator’s blood is richer and more delicious than ordinary human blood.@
 `But procreation and blood-drinking are different things.@
-`Quantity alone can never satisfy the thirst.@ Every human being tastes different.@ Once a creature learns to drink blood, it keeps feeding in search of flavors unlike those it has already known.”
+`Quantity alone can never satisfy the thirst.@ Every human being tastes different.@ Once a creature grows accustomed to drinking blood, it keeps feeding in search of flavors unlike those it has already known.”
 \
 `“Is there no end to it?”@
 `“No.@ But it is something like an indulgence, so a sufficiently strong will can resist it.@ Delicious blood is always readily available.@
@@ -281,7 +281,7 @@ br
 `Dozens dig in their claws, squealing as they swarm across my back.@
 `With every insect that enters, an indescribable impulse comes closer to consuming me.@
 `KILL HER.@
-`The command repeats inside my skull: kill every last part of Akiha Tohno.@
+`The command repeats inside my skull: kill Akiha Tohno and leave nothing behind.@
 br
 `Those insects could have only one name: murderous intent.
 \
@@ -594,8 +594,8 @@ br
 `Perhaps my face tightened without my noticing.@
 `“No—it’s nothing.@ So Akiha looked after me.”@
 ld c,"tachi/his_t03",crossfade,400
-`“Yes.@ Every hour she came to Master Shiki’s door, Master Shiki, and helped nurse you.@
-`I am unaccustomed to touching Master Shiki’s body, so I was grateful Miss Akiha came.”@
+`“Yes.@ She came to your room every hour to help nurse you, Master Shiki.@
+`I am unaccustomed to touching you, Master Shiki, so I was grateful Miss Akiha came.”@
 `“…”@
 `What an idiot I am.@
 `Akiha was that worried about me, and what was I thinking of her?
@@ -670,7 +670,7 @@ cl c,lshutter,400
 \
 `Akiha sits in a chair and begins peeling an apple with hands plainly new to the task.@
 `She scowls in concentration as she wields the knife, which occasionally comes perilously close to burying itself in the bed.@
-`Is this some kind of bridal training?@
+`Is she practicing to be a good wife or something?@
 `I would prefer her to practice dangerous arts like that in the kitchen.
 \
 `“…@Akiha, you don’t have to try so hard.”@
@@ -969,7 +969,7 @@ br
 `Now, far too late, I seem finally to have realized something so simple[line=4]
 \
 ld c,"tachi/koha_t03b",lshutter,400
-`“Now, an injection before the IV.@ Would you roll up your sleeve, Master Shiki?”@
+`“Now, an injection before the IV.@ Would you roll up your sleeve, Shiki?”@
 `“…”@
 `I roll it up to my elbow.@
 ld c,"tachi/koha_t02b",crossfade,400
@@ -1408,7 +1408,7 @@ play "*2"
 `“Come to think of it, I never dreamed when I lived with the Arimas.”@
 `In fact, dreams seemed to have been absent from my life since childhood.@
 `My doctor said I slept too deeply to dream.@
-`Perhaps the dreams I had kept having since returning to this mansion were less dreams than fragments of memory.
+`Perhaps the dreams I have been having since returning to this mansion are less dreams than fragments of memory.
 \
 `“Wait.@ Isn’t that still what you call a dream?”@
 `Well, scholars can wrestle with questions like that while Shiki Tohno, ordinary student, goes to school.@
@@ -1421,7 +1421,7 @@ bg "bg/bg_40a",crossfade,400
 `“[line=5]What?”@
 `My body will not move.@
 `“It won’t move—why!?”@
-`I clench my teeth and force strength into every muscle.@
+`I clench my teeth and tense every muscle.@
 `Only after straining until blood rushes to my head and dizziness washes over me do I manage to raise my upper body.@
 `“Ah[line=3]hot”@
 `My whole body is burning.@
@@ -1477,7 +1477,7 @@ play "*1"
 `The sun goes down.@
 `Unable to do anything but lie in bed, I stare through the window.@
 `“Damn it…”@
-`If this is going to happen, I should have settled matters with SHIKI last night.@
+`If it was going to come to this, I should have settled matters with SHIKI last night.@
 `Every moment I remain here means more victims for the vampire.@ For all I know, SHIKI drank someone’s blood after Akiha and I returned home.
 \
 `“[line=7]”@
@@ -1499,7 +1499,7 @@ ld c,"tachi/koha_t03b",lshutter,800
 `“Right…@ I suppose it has.”@
 cl c,lshutter,400
 `Awkwardly, I look away.@
-`I cannot face Kohaku properly now.@ SHIKI has left me little room for anything else, but the real problem is that I still have not devised an excuse for yesterday’s blunder.
+`I cannot speak honestly with Kohaku right now.@ SHIKI has left me little room for anything else, but the real problem is that I still have not devised an excuse for yesterday’s blunder.
 \
 ld c,"tachi/koha_t02b",lshutter,800
 `“Master Shiki?@ Why are you hanging your head?@ Are you still feeling poorly?”@
@@ -1559,7 +1559,7 @@ br
 `How he had turned you into a doll that could do nothing but smile.@
 br
 `“And I can’t leave SHIKI alone.@
-`As long as he keeps stirring up vampire attacks in the city, I can’t truly be Akiha’s brother, and…”@
+`As long as he keeps terrorizing the city with his vampire attacks, I can’t truly be Akiha’s brother, and…”@
 br
 `Nor can I return the ribbon to that girl, as I promised.
 \
@@ -1642,7 +1642,7 @@ br
 \
 bg #000000,lshutter,400
 `“Master Shiki[line=4]!?”@
-`I tear free of Kohaku’s call and bolt from the room.
+`I ignore Kohaku’s cry and bolt from the room.
 \
 bg "bg/bg_46b",lshutter,400
 `[line=4]Run.@
@@ -1729,12 +1729,12 @@ br
 `This body, ready even now to KILL Akiha.
 \
 `“You killed SHIKI five days ago.”@
-`Yes, Akiha said with a nod.@
+`Akiha nodded, confirming it.@
 `Five days ago—the night she collapsed.@
 `She had clung to me in tears, desperately rejecting something as she wept.
 \
 `“Then the vampire attacks after that weren’t SHIKI’s work.@ Were they yours?”@
-`Yes, Akiha said with another nod.@
+`Akiha nodded again, confirming it.@
 `The detached house in the forest.@
 `Akiha drinking Kohaku’s blood.@
 `SHIKI had already been gone, and Akiha had continued those vampiric acts.@
@@ -2021,7 +2021,7 @@ br
 \
 `“[line=4], [line=6], [line=5]”@
 `My breathing threatens to stop.@
-`Even a fever near forty degrees has never been this bad.@
+`Even a fever near forty degrees Celsius has never been this bad.@
 `My body will not move.@
 `Yet my heart alone has been running wild for some time.
 \
@@ -2057,7 +2057,7 @@ br
 `Thump.@ Thump.@ Thump.@ Thump.@
 br
 `Had Akiha swallowed SHIKI’s madness?@
-`If something drove SHIKI insane, Akiha may have unknowingly taken that cause into herself.@
+`If something drove SHIKI insane, Akiha may have unknowingly absorbed it too.@
 `If so.@
 `Then that thing was just like Makihisa Tohno—nothing but[line=4]
 \

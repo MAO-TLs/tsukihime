@@ -136,7 +136,7 @@ play "*8"
 `“What?”@
 br
 `The blood was gone.@
-`The pool had been vast enough to dye Ciel’s black habit scarlet, yet now it had vanished without a trace.
+`The pool had been vast enough to dye Ciel’s black cassock scarlet, yet now it had vanished without a trace.
 \
 ld c,"tachi/cel_t07b",crossfade,400
 `“…”@
@@ -216,8 +216,8 @@ br
 !w1000
 \
 `Beautiful.@
-`The flood of brilliant blood, enough to steal sight and thought, soaked slowly through her black habit.@
-`Beneath that habit.@
+`The flood of brilliant blood, enough to steal sight and thought, soaked slowly through her black cassock.@
+`Beneath that cassock.@
 `Across Ciel’s naked white body, the red must be tracing a lovely downward curve—
 \
 monocro off
@@ -290,7 +290,7 @@ bg "event/cel_e05b",crossfade,400
 bg "bg/bg_29b",crossfade,400
 `I couldn’t shake that sorrowful face.@
 `Ciel, who had always been so kind.@
-`The girl who was only supposed to be an older student at my school.@
+`The girl who was only supposed to be an upperclassman at my school.@
 `I never wanted to learn how impossibly far away she was.
 \
 br
@@ -489,7 +489,7 @@ br
 `“…”@
 `I put on my glasses and sat up.@
 `It was a little after eight.@
-`Ordinarily I would have finished breakfast long ago, but school was closed today for its anniversary.@
+`Ordinarily I would have finished breakfast long ago, but school was closed today to mark the anniversary of its founding.@
 br
 `“Hisui isn’t here…”@
 `Normally she would be waiting outside my door like a shadow, but today there was no sign of her.
@@ -505,7 +505,7 @@ bg "bg/bg_40a",crossfade,400
 `If I was worried about Ciel, I could visit her apartment.
 \
 `“All right.@ Whatever happens, breakfast first.”@
-`Nothing could begin until a person had eaten.@
+`You couldn’t get started until you’d eaten something.@
 `I hauled my newly awakened, sluggish mind and body toward the sitting room.
 \
 bg #000000,lcartain,800
@@ -541,7 +541,7 @@ bg "bg/bg_33a",lcartain,800
 br
 quakey 1,100
 `“Ow—!”@
-`My toes struck a chair with a clatter.@
+`I stubbed my toe on a chair with a clatter.@
 `“Oww—why is there a chair here?”@
 `Oh, right—it was the one Hisui had been moving.@
 `I was so used to the space being empty that I had walked my usual path and run straight into it.@
@@ -604,7 +604,7 @@ br
 ld c,"tachi/his_t08",notrans,0
 `“Master Shiki…!?”@
 wavestop
-`“Oh—Hisui.@ What are you doing, suddenly standing over there…?”@
+`“Oh—Hisui.@ What are you doing there all of a sudden…?”@
 `Even as I spoke, something startled me.@
 `My breathing was ragged.@
 `My lungs heaved and rasped.@
@@ -748,7 +748,7 @@ bg "bg/ima_03",crossfade,800
 bg #000000,lcartain,800
 bg "bg/bg_42a",lcartain,800
 `I entered the garden.@
-`Come to think of it, Akiha and the others and I used to play here constantly as children.@
+`Come to think of it, I used to play here with Akiha and the others all the time when we were children.@
 `Since returning to the mansion, I had been too busy even to take a walk around the grounds.@
 br
 `Rustle.@
@@ -865,7 +865,7 @@ br
 `And when I looked—
 br
 `there was my body,
-`murdered by a wound driven through its chest.
+`murdered by a thrust through the chest.
 \
 br
 br
@@ -936,7 +936,7 @@ ld l,"tachi/aki_t10",crossfade,400
 ld r,"tachi/his_t05",crossfade,400
 `“I am terribly sorry.”@
 ld l,"tachi/aki_t07",crossfade,400
-`“Sorry isn’t enough.@ You were assigned to my brother precisely to prevent this sort of thing, weren’t you?@ So what were you doing after forgetting that…?”
+`“Sorry isn’t enough.@ You were assigned to my brother precisely to prevent this sort of thing, weren’t you?@ How could you forget that and let this happen…?”
 \
 `Akiha’s anger was raw in a way I had never seen before.@
 `Hisui merely stood with her head bowed, silent beneath the reprimand.
@@ -965,7 +965,7 @@ ld c,"tachi/aki_t16a",crossfade,400
 `Hisui kept her head bowed and still wouldn’t look at me.
 \
 `“Don’t take it out on Hisui.@ I don’t know the whole story, but this is about me collapsing, right?@ Then it isn’t her fault.@ I fell over all by myself.”@
-`With a grunt, I forced enough strength into my arms to raise my upper body from the bed.@
+`With a grunt, I somehow managed to push myself upright in bed.@
 br
 `That alone left me unable to move so much as a finger.@
 `But with Hisui looking so crushed, I had to pretend I was fine, no matter how much it cost me.
@@ -1012,7 +1012,7 @@ ld c,"tachi/aki_t12a",crossfade,400
 `Still looking down, Hisui gave a small nod and left the room.
 \
 `Well, then.@
-`The moment I surrendered my weight to the bed, drowsiness returned.@ At this rate I would be asleep in less than a minute.@
+`The moment I let myself sink into the bed, drowsiness returned.@ At this rate I would be asleep in less than a minute.@
 br
 `[line=3]But first.
 \
@@ -1035,7 +1035,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“I will.”@
 bg #000000,crossfade,800
 `The instant I answered Akiha, sleep took me without warning.@
-`It came as abruptly as one of my familiar attacks of anemia.
+`It came as abruptly as one of my familiar fainting spells.
 \
 playstop
 !w3000

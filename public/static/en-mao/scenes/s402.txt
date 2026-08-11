@@ -59,7 +59,7 @@ ld c,"tachi/aki_t21b",crossfade,400
 ld c,"tachi/aki_t05b",crossfade,400
 `“There’s no reason to thank me.@ Families taking trips together is perfectly ordinary!”@
 cl c,lshutter,400
-`Akiha whips her face away.@
+`Akiha turns her face away.@
 br
 `No other subject of consequence arises, and our after-dinner tea winds down in mellow silence.
 \
@@ -238,7 +238,7 @@ br
 `Laughter echoes through the delirium.@
 `My head bobs frantically up and down like a wooden doll’s, clack-a-clackera.@
 `Laughing, laughing.@
-`Still laughing, I go on raping a young woman I cannot tell is Hisui or Kohaku.
+`Still laughing, I go on raping a young woman who could be either Hisui or Kohaku.
 \
 bg #000000,crossfade,800
 wavestop
@@ -274,7 +274,7 @@ wave se_01
 `At last there is nothing left to bring up, and the spasms in my throat subside.
 \
 bg "bg/bg_33a",lshutter,800
-`When I enter the lobby, Hisui is busy with some task.@
+`When I enter the entrance hall, Hisui is busy with some task.@
 `Perhaps the furniture is being rearranged; she is carrying in a chair I don’t recognize.@
 wave se_01
 bg #9c0120,crossfade,400
@@ -314,12 +314,12 @@ bg #000000,lcartain,800
 playstop
 bg "bg/bg_40a",rcartain,800
 `I return to my room, but there is nothing in particular I need to do.@
-`I have had more than enough of sleep.@
+`I have had enough of sleeping.@
 `After pondering the problem for a while, I decide to tour the mansion for the first time in eight years.
 \
 bg "bg/bg_33a",lcartain,800
 play "*1"
-`I go down to the lobby.@
+`I go down to the entrance hall.@
 `On a whim, I begin strolling through the mansion, looking for the memories I left here as a child.
 \
 bg "bg/bg_46a",lcartain,800
@@ -341,7 +341,7 @@ bg "bg/bg_48a",lcartain,800
 `Come to think of it, Akiha and I usually played in the garden.@
 `Unlike me, she obeyed Father, so she was allowed only thirty minutes a day.@
 `Even then, she mostly followed behind us and quietly did whatever she was told.@
-`But once a game began, she raced about with all her energy and fought us for victory in everything.
+`But once a game began, she raced about with all her energy and competed fiercely with us at everything.
 \
 `“…@So the foundations were there all along.”@
 `Perhaps she had simply hidden her real nature under five or six layers of good behavior whenever Father was watching.
@@ -523,7 +523,7 @@ ld l,"tachi/aki_t07b",lshutter,400
 `“What were you thinking, Hisui?@ You knew Shiki must never be allowed near that place…!”@
 ld r,"tachi/his_t05",lshutter,400
 `“I am terribly sorry.”@
-`“Sorry does not begin to answer for this.@ You were assigned to Brother precisely to prevent something like this, weren’t you?@ What in heaven’s name were you doing…!”@
+`“An apology will not make this right.@ You were assigned to Brother precisely to prevent something like this, weren’t you?@ What in heaven’s name were you doing…!”@
 `Akiha’s fury is naked in a way I have never seen before.@
 `Hisui keeps her head bowed and suffers the rebuke in silence.
 \
@@ -644,7 +644,7 @@ ld c,"tachi/his_t04",crossfade,400
 `“Then please rest.@ I will wait outside in the corridor and come at once if you call.”@
 `“What are you saying?@ I can’t leave the person nursing me out in the hall.@ Please, Hisui, stay here…”@
 br
-`[line=3]Damn it; I can’t keep my voice going.@
+`[line=3]Damn it; my voice won’t hold out.@
 br
 `The room reels, as though I am falling backward into a tank of water.@
 `My consciousness cuts out without warning.
@@ -992,7 +992,7 @@ cl c,lshutter,800
 \
 `“Do I really look that awful?”@
 ld r,"tachi/koha_t01a",lshutter,400
-`“Not at all.@ You look just as you always do, Shiki.@
+`“Not at all.@ You look just as you always do, Master Shiki.@
 ld r,"tachi/koha_t02",crossfade,400
 `Still, your body has plainly not recovered, so please rest for the day.@ I’ll telephone the school.”@
 ld l,"tachi/aki_t12a",lshutter,400
@@ -1012,7 +1012,7 @@ ld r,"tachi/koha_t03",crossfade,400
 `“Then I’ll go make the calls.”@
 cl a,lshutter,800
 `Kohaku leaves as well.@
-`Only Hisui, still hanging her head, and bedridden me remain.
+`Only Hisui, still hanging her head, and I, confined to bed, remain.
 \
 `“Hisui?”@
 ld c,"tachi/his_t17",lshutter,400
@@ -1025,7 +1025,7 @@ ld c,"tachi/his_t17",lshutter,400
 `She retreats into an even deeper silence.
 \
 `Then.@
-`Having made up her mind, Hisui suddenly raises her voice.@
+`Having made up her mind, Hisui suddenly speaks up.@
 ld c,"tachi/his_t23",crossfade,400
 `“Master Shiki, are you not angry with me?”@
 `“Huh?@ Angry about what?”@
@@ -1129,7 +1129,7 @@ ld c,"tachi/koha_t02",crossfade,400
 \
 `“Mmph[line=3]”@
 `The spoon is forced into my mouth, leaving me no choice but to chew.@
-`“How does it taste?@ The Arimas told me that plum porridge is one of your favorites, Master Shiki.”@
+`“How does it taste?@ The Arimas told me that rice porridge with pickled plum is one of your favorites, Master Shiki.”@
 `“Yes, it’s very good.”@
 ld c,"tachi/koha_t05",crossfade,400
 `“Wonderful.@ Then eat as much as you like.”@
@@ -1416,7 +1416,7 @@ bg "bg/bg_40a",crossfade,400
 \
 `“What the hell is happening to me?”@
 `I might as well have been a corpse.@
-`Or a robot with its power cut.@
+`Or a robot that had run out of power.@
 `Whatever the comparison, my body refused to move.@
 `Yet my mind was perfectly clear, and I felt no pain at all.
 \
@@ -1531,7 +1531,7 @@ cl c,lshutter,400
 bg #000000,lshutter,800
 bg "bg/bg_40a",lshutter,800
 `It was over.@
-`Yes, I had nearly died of embarrassment, but at this point there was no opposing Kohaku.@
+`Yes, I had nearly died of embarrassment, but at this point there was no resisting Kohaku.@
 `She already had to lend me her shoulder whenever I went to the bathroom.@
 `When she was caring for me so devotedly, acting ashamed of her help felt almost insulting.
 \
@@ -1683,9 +1683,9 @@ textcolor #ffffff
 `I forced my neck around to look behind me.@
 `No one.@
 `Not even a presence.@
-`Then was it a phantom sound?@
+`Then was it an auditory hallucination?@
 `No.@
-`This breathing was closer to a phantom sight.@ And yet it was real.
+`This breathing was closer to a visual hallucination.@ And yet it was real.
 \
 textcolor #ff0000
 br
@@ -1817,7 +1817,7 @@ bg "bg/bg_40a",notrans,0
 `“[line=3]What[line=4]was that[line=4]”@
 `I didn’t know.@
 `Nonsensical words had flooded my mind until I could no longer think.@
-`I had nearly lost even the ability to reason normally like this, becoming nothing[line=3]but a machine of a brain that repeated words over and over.
+`I had nearly lost even the ability to reason normally like this, becoming nothing[line=3]but a brain that repeated words over and over like a machine.
 \
 `“Ah.”@
 `Only then did I realize tears were streaming from my eyes.@
@@ -1858,7 +1858,7 @@ textcolor #ffffff
 bg "bg/bg_40e",crossfade,400
 br
 `“Stop[line=4]”@
-`It was flowing in.@ No, I was picking it up.@ I was receiving that thing’s common sense, pitched at a level wholly unlike ours.@
+`It was flowing in.@ No, I was picking it up.@ I was receiving that thing’s frame of reference, operating on a level wholly unlike ours.@
 br
 `Yes, we were beginning to join.@
 `Its fusion with me had started long ago.@
@@ -1940,7 +1940,7 @@ bg "bg/ima_13",notrans,0
 `Hot blood clinging to the throat.@
 br
 `[line=3]A chill seized me.@
-`I was tracing every one of those sensations with perfect fidelity.
+`Every one of those sensations was being reproduced within me with perfect fidelity.
 \
 `“Y-you—you—you again, Shikiiii!”@
 `The thing screamed.@
@@ -2386,7 +2386,7 @@ br
 br
 `“I can move.”@
 `I lifted my upper body from the bed.@
-`What had taken almost an hour moments ago I could now do without effort[line=3]no, exactly as I had before[line=3]my body had recovered.
+`What had taken almost an hour moments ago I could now do without effort[line=3]no, exactly as I had before[line=3]because my body had recovered.
 \
 `“Yes, I’m better!”@
 `Overcome with joy, I sprang out of bed.@
@@ -2436,7 +2436,7 @@ ld c,"tachi/his_t21b",crossfade,400
 `“If you have something to do, then hurry and do it.@ I can’t do anything myself, so changing the sheets or replacing the IV should be easy enough.”@
 `“Yes, at once.”@
 cl c,lshutter,800
-`Hisui silently changed the contents of the IV.@
+`Hisui silently replaced the IV bag.@
 `Apparently, replacing the sheets and nightclothes soiled with sweat and blood was Kohaku’s duty.
 \
 ld c,"tachi/his_t17",crossfade,400
@@ -2626,7 +2626,7 @@ cl c,lshutter,800
 `Hisui crossed the room to the bed.
 \
 `“Excuse me.”@
-`Her voice hesitant, Hisui lifted my body upright.@
+`Her voice hesitant, Hisui helped me sit up.@
 `“Huh[line=3]Hisui?”@
 ld c,"tachi/his_t13",lshutter,400
 `“Drink slowly, please.”@
@@ -2927,7 +2927,7 @@ wave se_10
 \
 ld c,"tachi/his_t24",crossfade,400
 `“Master Shiki[line=4]”@
-`Rather than anger at being pushed, Hisui looked at me with still greater concern.@
+`Instead of getting angry when I shoved her away, Hisui looked at me with still greater concern.@
 ld c,"tachi/his_t21b",crossfade,400
 `“I-I am terribly sorry; moving Master Shiki’s body without your permission was shameless of me[line=3]”@
 `“No[line=3]that’s not it.@ You have nothing to apologize for…!”@
@@ -3011,7 +3011,7 @@ br
 \
 quakey 2,100
 wave se_05
-`My raised body collapsed onto the bed.@
+`I collapsed back onto the bed.@
 `I had no strength.@
 `Yet the weakness wasn’t unpleasant.@
 `Unlike before, this helplessness had shape and substance.@
@@ -3116,7 +3116,7 @@ br
 `“I wish I had never learned what hope was.@ Then I could have lived without learning despair.@
 `But you would look so pleased with yourself, as if it were the easiest thing in the world, and tell me with your eyes that I ought to come outside.@
 `Every day, I waited desperately for the afternoon when Master Shiki would appear.@
-`Master Shiki was the only person against whom I could hurl my feelings—whatever those feelings happened to be.@ You never knew how I thought of Master Shiki every day, almost as if I were praying.”
+`Master Shiki was the only person I could unleash my feelings on—whatever those feelings happened to be.@ You never knew how I thought of Master Shiki every day, almost as if I were praying.”
 \
 cl c,crossfade,400
 `[line=3]I can barely hear Hisui now.@
@@ -3140,7 +3140,7 @@ br
 \
 `“Hisui, what’s happening to me…?@ My whole body’s burning, but I still can’t move at all…!”@
 ld c,"tachi/his_t19",crossfade,400
-`“[line=3]Yes.@ However much function Master Shiki’s body recovers, it is losing even more life force.@ The medicine you took can restore only this one small part of Master Shiki.”
+`“[line=3]Yes.@ However much function Master Shiki’s body regains, it is losing even more life force.@ The medicine you took can restore only this one small part of Master Shiki.”
 \
 cl c,lshutter,800
 playstop
@@ -3149,7 +3149,7 @@ playstop
 `Waiting there is a pillar of flesh that has long since risen—an embodiment of myself.@
 `“[line=5]!”@
 `My back arches with a shudder.@
-`Her fingers close around my swollen, feverish genitals, blue veins standing stark beneath the skin, and she pulls my trousers away.@
+`Her fingers close around my swollen, feverish genitals, blue veins standing stark beneath the skin, and she pulls my trousers off.@
 `“Ngh…!@ Stop fooling around, Hisui…!@ Why[line=3]when I’ve tried so desperately to keep you away, if this goes on, I[line=3]”@
 `I will no longer be able to restrain myself.
 \
@@ -3313,7 +3313,7 @@ br
 `That sight.@ It was telling me to lose my mind.@ Or so it seemed.
 \
 `“Mm, Master Shiki.”@
-`Perhaps daunted by the suffocating smell and quantity of fluid, Hisui draws her mouth slightly away.@
+`Perhaps daunted by the choking smell and sheer quantity of fluid, Hisui draws her mouth slightly away.@
 `A glistening trail.@
 `A thread stretches between her lips and my penis.
 \
@@ -3425,7 +3425,7 @@ bg "event/his_h02",crossfade,800
 `Trying to escape them, I drive my hips still farther forward.@ “Mmmmm[line=5]!”@
 `Her fingers seize me.@
 `Her hair tosses violently.@
-`She continues the painful service.
+`She goes on pleasuring me, visibly in pain.
 \
 bg "event/his_h01",crossfade,800
 `“Ngh, Hisui, more…!”@
@@ -3433,7 +3433,7 @@ bg "event/his_h01",crossfade,800
 `I hear a voice that could not possibly have escaped her.@
 `My penis pulses again and again.@
 `Hisui opens her mouth as wide as she can to take it.@
-`The sensation moves down and is sucked upward.
+`I feel her mouth move lower even as its suction draws me upward.
 \
 bg "event/his_h02",crossfade,800
 `“Mmm[line=4]ngh…!”@

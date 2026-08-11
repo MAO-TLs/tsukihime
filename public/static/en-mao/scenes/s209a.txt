@@ -32,7 +32,7 @@ cl a,lshutter,400
 \
 `“…”@
 `Perhaps the room had cast a spell on me.@
-`Yumizuka had been churning through my chest in circles, but now I could think about her calmly.
+`Thoughts of Yumizuka had been churning inside me, but now I could think about her calmly.
 \
 ld c,"tachi/cel_t01a",lshutter,400
 `“Thank you for waiting.@ Let’s have lunch.@ I actually wanted to ask you something, so eating here works out perfectly.”@
@@ -82,9 +82,9 @@ br
 ld c,"tachi/cel_t07a",crossfade,400
 `“May I ask one thing?”@
 `“Hm?@ If I can answer it, go ahead.”@
-`“Then I’ll ask.@ Did you dislike your former family?”@
+`“Then I’ll ask.@ Did you dislike the family you lived with before?”@
 br
-`My former family—she meant the Arimas, my foster parents.@
+`The family I had lived with before—she meant the Arimas, my foster parents.@
 br
 `A father and mother who weren’t truly mine.@
 `An unfamiliar house that should have belonged to strangers.@
@@ -109,9 +109,9 @@ br
 `In a sense, the Arimas and I had the ideal parent-child relationship.
 \
 `“[line=3]But it still wasn’t enough.”@
-`“No.@ I could never cross that final line.@ The thought that I wasn’t truly their family would not leave my head.@
+`“No.@ I could never cross that final line.@ I couldn’t shake the thought that I wasn’t really part of their family.@
 `I knew I should ignore it, but I couldn’t.@
-`Maybe it was some childhood trauma; by then it felt more like a curse.@ It was as if I were destined to remain a stranger to my family wherever I went.”
+`Maybe it was some early childhood experience; by then it felt more like a curse.@ It was as if I were destined to remain a stranger to my family wherever I went.”
 \
 ld c,"tachi/cel_t09",crossfade,400
 `Ciel fell silent.@
@@ -190,8 +190,8 @@ bg #000000,crossfade,800
 playstop
 !w1000
 bg "bg/bg_06a",tshutter,800
-`Lunch ended, and fifth-period classical literature began.@
-`Almost none of the lesson reached my ears.
+`Lunch ended, and fifth-period classical Japanese began.@
+`I barely heard a word of the lesson.
 \
 bg "event/stk_e03",crossfade,400
 br
@@ -237,7 +237,7 @@ bg "bg/bg_06a",crossfade,400
 `“Gh—”@
 br
 `It struck without warning.@
-`My vision slowly whitened, and my sense of balance began to reel.@
+`My vision slowly went white, and the world began to spin around me.@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_06a",crossfade,400
@@ -249,7 +249,7 @@ br
 \
 `“……@This is bad.”@
 `I knew this feeling.@
-`Sudden dizziness was the herald of anemia.@
+`Sudden dizziness meant I was about to faint.@
 `The blood pooled in the vessels of my brain seemed to clot into a black mass,
 `rocking my head and darkening everything I could see—as if darkness were being forced from my brain into my eyes.
 \
@@ -282,7 +282,7 @@ play "*1"
 `“Sorry.@ I made you wait around, Arihiko.”@
 ld c,"tachi/ari_t03",tshutter,800
 `“Yeah, yeah—I’m used to you dropping without warning.@ You take advantage of a guy waiting for you, sleep in the nurse’s office until the last possible minute, and expect royal treatment?”@
-`“Then you should’ve woken me.@ You didn’t have to wait until curfew.”@
+`“Then you should’ve woken me.@ You didn’t have to wait until the school closed.”@
 `“Shut up.@ If I’d dragged a sick man awake and you collapsed again, you’d only be more trouble.@ Come on, let’s go—it’s already seven, damn it.”@
 cl a,tshutter,800
 `Arihiko started down the corridor.

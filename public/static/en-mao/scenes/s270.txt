@@ -28,7 +28,7 @@ br
 `“So—”@
 `“If the next words are ‘please go home,’ I will slap you, Tohno.”@
 `“What?”@
-`“Tohno.@ We are presently not speaking to each other.@ We’re having a fight.@ Apparently I’m sulking as well, so a halfhearted apology won’t make me nice again.”
+`“Tohno.@ We’re not friends right now.@ We’re having a fight.@ Apparently I’m sulking as well, so it’ll take more than a halfhearted apology to make me come around.”
 \
 `“Ciel…?”@
 `“If you went home, we could make up, but I already know you won’t.@
@@ -79,7 +79,7 @@ ld l,"tachi/ark_t05b",lshutter,400
 ld r,"tachi/cel_t07b",crossfade,400
 `“I have none.@ He is simply so reckless that I have been giving him some instruction.”
 \
-`“Is that so?@ Are you planning to steal someone else’s partner?”@ “That might be pleasant.@ You still owe me for the considerable injury you dealt me.”@
+`“Is that so?@ Are you planning to steal someone else’s partner?”@ “That might not be a bad idea.@ You still owe me for how badly you hurt me last time.”@
 cl c,crossfade,400
 \
 `Ciel and Arcueid were one breath away from violence.@
@@ -165,7 +165,7 @@ bg #000000,lshutter,400
 `All I saw was a stream of white afterimages through the night.@
 `What astonished me was that Ciel refused to yield a single step before her.
 \
-`Ciel possessed none of Arcueid’s impossible speed or motion.@
+`Ciel did not move with anything like Arcueid’s impossible speed.@
 `Her feet remained firmly on the ground as she met and deflected every stroke of that arrow-fast assault.@
 br
 `From where I stood, they seemed evenly matched.@
@@ -179,7 +179,7 @@ bg "bg/bg_29b",lcartain,400
 quakey 4,375
 wave se_05
 `The battle was decided almost immediately.@
-`Ciel’s body floated lightly into the air, then struck the ground and rolled like a piece of refuse.
+`Ciel’s body was tossed into the air, then struck the ground and rolled like a piece of refuse.
 \
 ld c,"tachi/cel_t06b",lshutter,400
 `“Kh—”@

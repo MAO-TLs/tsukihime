@@ -69,7 +69,7 @@ bg #000000,lcartain,800
 bg "bg/bg_33a",lcartain,800
 ld c,"tachi/aki_t01a",crossfade,400
 `“Ah.”@
-`Akiha and I exclaim together as we run into each other in the lobby.@
+`Akiha and I exclaim together as we run into each other in the foyer.@
 `She has her bag, so she must already be leaving for school.@
 `For some reason, the moment I see her face, a rush of heat floods my body.
 \
@@ -104,10 +104,10 @@ br
 `Thump, thump.@
 `For the few seconds they rest against me, I cannot understand why my heart beats so violently.
 \
-`Lowering my eyes brings Akiha’s face close beneath mine.@
+`I lower my eyes and find Akiha’s face just inches away.@
 `Fine, strong brows that speak of her will.@
-`Clear black eyes, deep as the long black hair framing them.@
-`Whatever name she bears, those things are simply beautiful.@
+`Deep, clear black eyes and long hair of the same deep black.@
+`Those things are simply beautiful, quite apart from the name Akiha Tohno.@
 br
 `[line=3]My heart gives another heavy thud.@
 br
@@ -142,7 +142,7 @@ ld c,"tachi/koha_t02",crossfade,400
 `“Yes.@ I was wondering what you did to Miss Akiha.@ It has been ages since I saw Miss Akiha look so happy, and I simply had to know.”@
 `“No—I didn’t do anything to make Akiha happy.@ If anything, something happened that made me happy—”@
 `Come to think of it, Akiha was in an exceptionally good mood.@
-`She was smiling from the moment we met, and checking my temperature herself hardly fits my image of her.@
+`She was smiling from the moment we met, and taking my temperature herself was hardly like her.@
 `She could have left that to Kohaku, which made it seem a little strange.
 \
 `“Shiki?@ Have you thought of something?”@
@@ -160,7 +160,7 @@ ld c,"tachi/koha_t02",crossfade,400
 `“…@What was wrong?”@
 `“Miss Akiha has not changed in the slightest.@ I think you’re the one keeping yourself from understanding Miss Akiha.”@
 cl a,lshutter,400
-`Having delivered that loaded parting shot, Kohaku walks off toward the lobby.
+`Having delivered that loaded parting shot, Kohaku walks off toward the foyer.
 \
 bg #000000,lcartain,800
 !w1000
@@ -231,7 +231,7 @@ br
 `“TOHNO!”@
 `Arihiko barrels toward us in a cloud of dust.@
 `He does not slow down.@
-`Though we are standing directly in his path, he keeps coming and delivers a magnificent flying kick straight into me.
+`Though we are standing directly in his path, he keeps coming and lands a magnificent flying kick squarely on me.
 \
 wave se_05
 bg #ffffff,notrans,0
@@ -273,7 +273,7 @@ br
 ld c,"tachi/ari_t03",crossfade,400
 `“Aaaagh, so you really do!”@
 `Arihiko clutches his head and writhes in agony.@
-`It is such a joyous little performance that even if he owed me a million yen, I would still be tempted to deny knowing him.
+`It is such an entertaining little display that even if he owed me a million yen, I would still be tempted to deny knowing him.
 \
 `“Knock it off, Arihiko.@ Please.@ At this rate the entire school will be laughing at both of us.”@
 ld c,"tachi/ari_t04",crossfade,400
@@ -295,7 +295,7 @@ bg "bg/bg_06a",tshutter,800
 `Arihiko abruptly returns during the break after second period.@
 `“Indeed.@ Upon reflection, I discovered that I had no reason to go home.”@
 `With that pronouncement, he sits quietly at his desk.@
-`I leave him alone and wait vacantly for third period to begin.
+`I leave him alone and sit idly at my desk until third period begins.
 \
 `Even so, something feels strange about the classroom today.@
 br
@@ -428,7 +428,7 @@ bg "bg/bg_06a",rshutter,800
 `My body collapses onto the desk with a clatter.@
 `Damn it.@ I can’t move properly.@
 `Is it dizziness?@
-`Then this is normal.@ The usual.@ Nothing wrong.@ I’ll recover.@ I have to—class is still going.@ There, the English teacher is reading aloud in an irritated voice.@ Blackboard.@ Chalk.@ White dust.@ English.@ English.@ Chalk scraping down.@ Teacher.@ Teacher.@ Adult.@ Lectern.@ The lectern creaks and creaks.@ Desks.@ Thirty-six desks.@ Students.@ Students.@ Thirty-six students.@ Three days ago there were thirty-seven.@ Window.@ Sky.@ Schoolyard.@ Sun.@ Nobody there.@ Lonely.@ Cold.@ Afraid.@ Uneasy.@ Something.@ I want it.@ Want it.@ Want it—
+`Then this is normal.@ The usual.@ Nothing wrong.@ I’ll recover.@ I have to—class is still going.@ There, the English teacher is reading aloud in an irritated voice.@ Blackboard.@ Chalk.@ White dust.@ English.@ English.@ Chalk scraping.@ Teacher.@ Teacher.@ Adult.@ Platform.@ The platform creaks and creaks.@ Desks.@ Thirty-six desks.@ Students.@ Students.@ Thirty-six students.@ Three days ago there were thirty-seven.@ Window.@ Sky.@ Schoolyard.@ Sun.@ Nobody there.@ Lonely.@ Cold.@ Afraid.@ Uneasy.@ Something.@ I want it.@ Want it.@ Want it—
 \
 bg #ffffff,crossfade,800
 monocro off
@@ -441,7 +441,7 @@ wavestop
 \
 `“What happened, Tohno?@ If you’re unwell, you may rest.”@
 `“No.@ I’m fine—it has passed.”@
-`“Very well.@ But don’t push yourself.@ Your marks are excellent, so you can afford to miss a little class.@ Even with a slight handicap, I doubt you’ll have any trouble.”@
+`“Very well.@ But don’t push yourself.@ Your grades are excellent, so you can afford to miss a little class.@ Even with a slight handicap, I doubt you’ll have any trouble.”@
 `The English teacher’s phrasing could use a little more tact.@
 `I insist that I am fine, and the lesson resumes.
 \
@@ -457,7 +457,7 @@ play "*3"
 \
 ld c,"tachi/ari_t01",crossfade,400
 `“What, Tohno?@ You’re still here?”@
-`“Yeah, I’m not feeling well today.@ I can’t make it to the cafeteria, so could you buy lunch for me?@ Just get my usual from the school shop.”@
+`“Yeah, I’m not feeling well today.@ I can’t make it to the cafeteria, so could you buy lunch for me?@ Just get my usual from the school store.”@
 `“Sure, but are you certain?@ Your sister looked rather helpless in the cafeteria.”
 \
 `“Ah.”@
@@ -492,25 +492,25 @@ bg "bg/bg_04",rcartain,800
 `“There—this should be quieter.@ Sit on the bench and I’ll go buy us lunch.”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“Yes.@ I’m sorry to make you go to all this trouble, Brother.”@
-`“It’s fine—I’ll ask for the details later.@ Arihiko, I’m going to the school shop, so look after Akiha until I get back.”@
+`“It’s fine—I’ll ask for the details later.@ Arihiko, I’m going to the school store, so look after Akiha until I get back.”@
 cl a,crossfade,400
 ld c,"tachi/ari_t03",crossfade,400
-`“Wh-why would you rely on me at a time like this?!@ I’ll go to the shop.@ You stay here and keep your sister company!”
+`“Wh-why would you rely on me at a time like this?!@ I’ll go to the store.@ You stay here and keep your sister company!”
 \
 `“What’s wrong, Arihiko?@ Weren’t you going to call me Big Brother?@ I’m warning you, you’ll never get another opportunity like this.”@
 `I murmur into his ear.@
 `Not to be outdone, Arihiko joins the whispered conference.@
-`“I know, but putting me alone with her this suddenly would be madness.@ With most girls I’d prefer it, sure, but your sister is several leagues above my level.”
+`“I know, but suddenly leaving me alone with her would be madness.@ With most girls I’d prefer that, sure, but your sister is way out of my league.”
 \
 `“That doesn’t sound like you.@ Are you frightened of Akiha?”@
 ld c,"tachi/ari_t05",crossfade,400
-`“Absolutely.@ Frankly, I am terrified.@ She’s an unprecedented type, so I intend to devote the opening engagement entirely to reconnaissance, sir.”@
+`“Absolutely.@ Frankly, I am terrified.@ I’ve never encountered anyone of her type before, so I intend to devote the opening engagement entirely to reconnaissance, sir.”@
 br
 `How does this idiot manage to be funny in such strange ways?
 \
 `“Fine—then go secure lunch for all three of us.”@
 ld c,"tachi/ari_t01",crossfade,400
-`“Leave it to me.@ But what does your sister eat?@ I can’t present her with bread from the school shop—it would be sacrilege.”@
+`“Leave it to me.@ But what does your sister eat?@ I can’t present her with bread from the school store—it would be sacrilege.”@
 `“How should I know?@ She transferred here, so curry bread and coffee milk are good enough.”@
 `“Understood.@ I’ll be back in five minutes.”@
 cl a,lshutter,400

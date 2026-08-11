@@ -43,7 +43,7 @@ ld c,"tachi/cel_t12",crossfade,400
 `No one is here to supervise me, so as long as you tell nobody, it will be fine.”@
 `“…@And if I did tell someone about you?”@
 ld c,"tachi/cel_t04",crossfade,400
-`“Yes.@ Then I would simply do exactly what you imagine.”@
+`“Exactly what you’re imagining.@ I would do just that.”@
 `She gave me that horrifying answer with a smile.
 \
 ld c,"tachi/cel_t12",crossfade,400
@@ -65,7 +65,7 @@ ld c,"tachi/cel_t08",crossfade,400
 `Seeing you covered in blood made me so angry I nearly punished her on the spot.”
 \
 ld c,"tachi/cel_t10a",crossfade,400
-`“And you are hardly blameless, Tohno.@ Even if she gave you a weapon that could kill a vampire, what possessed you to fight one in the flesh?@ Does she have some kind of hold over you?”@
+`“And you are hardly blameless, Tohno.@ Even if she gave you a weapon that could kill a vampire, what possessed you to face one when you’re only human?@ Does she have some kind of hold over you?”@
 `She continued muttering, visibly exasperated.
 \
 `“Um, Ciel?@ What weapon can kill vampires?”@
@@ -74,15 +74,15 @@ ld c,"tachi/cel_t12",crossfade,400
 \
 ld c,"tachi/cel_t01a",crossfade,400
 `“You see, vampiric species recover from most wounds.@
-`Ordinary external causes—weapons, in plain language—cannot inflict damage faster than they restore themselves.@
-`To destroy one, you need either an external force vast enough to outpace that restoration or one that nullifies the restoration itself.@
+`Ordinary external forces—weapons, in plain language—cannot damage them faster than they can restore themselves.@
+`To destroy one, you need either an external force powerful enough to outpace that restoration or one that nullifies the restoration itself.@
 `“Their curse of restoration is not true healing, but a reversal of time that returns a damaged part to its former state.@ Mysteries capable of negating that curse are known as conceptual weapons.”
 \
 `“…”@
 `She cheerfully explained things I could barely understand.
 \
 `“In short, they are magical weapons.@
-`We generally attack vampires through the histories they possessed while human, so we seldom use them.@ But against a vampiric species that was never human, a conceptual weapon is our final resort.@
+`We generally attack vampires through the lives they led as humans, so we seldom use them.@ But against a vampiric species that was never human, a conceptual weapon is our final resort.@
 `Your knife is an anti-vampire weapon she brought with her, isn’t it?”@
 `“Ah…@ what?”
 \
@@ -102,7 +102,7 @@ br
 playstop
 ld c,"tachi/cel_t12",crossfade,400
 play "*1"
-`“Let us return to the point.@ Please listen seriously, Tohno.”@
+`“Let us return to the point.@ Please take this seriously, Tohno.”@
 `“Yes.@ And please keep it short.”@
 ld c,"tachi/cel_t07a",crossfade,400
 `“You already know that vampires are divided into True Ancestors and Dead Apostles.@
@@ -234,7 +234,7 @@ ld c,"tachi/cel_t09",crossfade,400
 `“…@Still, I finally understand.@ That vampire is our enemy, Ciel.”@
 ld c,"tachi/cel_t07a",crossfade,400
 play "*9"
-`“No.@ He is Arcueid Brunestud’s enemy and mine.@ You have no need to become involved with the ‘Serpent.@’Do not act with Arcueid again.@
+`“No.@ He is Arcueid Brunestud’s enemy and mine.@ You have no need to become involved with the ‘Serpent.@’Do not work with Arcueid again.@
 `One of us will destroy him.@ There is no reason for you to put yourself in danger.”
 \
 `“Danger?@ Just living in this city is dangerous now!@ You and Arcueid are both fighting to protect it, aren’t you?@
@@ -242,7 +242,7 @@ play "*9"
 `“No.@ She has no concern for this city.@ Her pursuit of the ‘Serpent’ is entirely personal.”
 \
 `“Tohno.@ Dead Apostles were once human.@
-`There are two ways for them to become a vampiric species.@
+`There are two ways for humans to become members of a vampiric species.@
 `They may have their blood drunk by a nonhuman being born vampiric—a True Ancestor—or
 `perfect magecraft and transform their own body into a perpetual motion machine.@
 `The ‘Serpent’ became a Dead Apostle after a True Ancestor drank his blood.@ Do you understand?@ He is the victim of a transcendent species that was never even human.”@
@@ -361,7 +361,7 @@ cl c,crossfade,400
 br
 `[line=3]And with that, Ciel had said her piece.@
 br
-`Maybe it was the dizziness that had been swimming through my head, but everything she’d said seemed to concern somebody else.
+`Maybe it was because my head had been swimming, but everything she’d said seemed to concern somebody else.
 \
 ld c,"tachi/cel_t07a",crossfade,400
 `“Tohno.@ Do you understand now just how dangerous she is?”@
@@ -479,7 +479,7 @@ cl c,lshutter,400
 bg #000000,lshutter,800
 bg "bg/bg_06a",lshutter,800
 ld c,"tachi/ari_t02",lshutter,400
-`“Here we are: two curry breads and one milk.@ Thank you for waiting.”@
+`“Here we are: two curry buns and some milk.@ Thank you for waiting.”@
 `“…”@
 br
 `Apparently, telling him anything but curry bread had produced the opposite effect.@

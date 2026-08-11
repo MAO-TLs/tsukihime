@@ -20,12 +20,12 @@ bg "bg/bg_48b",lcartain,400
 play "*3"
 `“We’ve been expecting you.”@
 `The door opened with a heavy click.@
-`Beyond it lay a familiar lobby and a girl in an old-fashioned house apron.
+`Beyond it were a familiar entrance hall and a girl in an old-fashioned house apron.
 \
 bg "bg/bg_33b",lcartain,800
 ld c,"tachi/koha_t03",lshutter,800
 `“Thank goodness.@ You were so late, I was afraid you’d lost your way.@ If you hadn’t arrived by sundown, I was going to come and find you.”@
-`The girl beamed at me, dressed in that anachronistic house apron.@
+`The girl beamed at me, dressed in that anachronistic apron with long sleeves.@
 `“Oh—no, I mean…”@
 `Her anachronistic outfit had taken me so completely aback that I could barely string two words together.
 \
@@ -47,7 +47,7 @@ ld c,"tachi/koha_t05",crossfade,400
 \
 `“Come in.@ You must be tired.@ Miss Akiha is waiting for you in the sitting room.”@
 cl c,lshutter,400
-`She set off briskly across the lobby toward the sitting room.@
+`She set off briskly across the entrance hall toward the sitting room.@
 br
 `Then, as though suddenly remembering something, she spun around, bowed, and gave me a radiant smile.
 \
@@ -94,7 +94,7 @@ br
 `The black-haired girl tilted her head.@
 `“Ah—no.”@
 `Pathetically, that was the best I could manage.@
-`I was working my brain to exhaustion trying to recognize the girl before me as Akiha, while she had apparently recognized her brother at once.
+`I was racking my brain trying to recognize the girl before me as Akiha, while she had apparently recognized her brother at once.
 \
 `“You don’t look well.@ Would you like to rest before we speak?”@
 `Akiha fixed me with a hard stare.@
@@ -170,7 +170,7 @@ ld c,"tachi/aki_t02",crossfade,400
 `Urgh.@
 `She was right; that did make me feel considerably better.
 \
-`“But you’ve only just become head of the family; if you start forcing through whims like some petty tyrant, won’t the relatives revolt?@ Even Father never defied them.”@
+`“But you’ve only just become head of the family; if you start forcing everyone to indulge your whims like some petty tyrant, won’t the relatives revolt?@ Even Father never defied them.”@
 ld c,"tachi/aki_t01a",crossfade,400
 `“Precisely.@ That is why Father sent you to the Arimas.@ But I have detested those people since I was a child, and I refuse to listen to another one of their lectures.”@
 `“You refuse?@ Akiha—”
@@ -211,15 +211,15 @@ cl a,crossfade,400
 `Hisui approached so silently that she might have been a shadow.
 \
 `“I will show you to your room, Master Shiki.”@
-`Hisui headed for the lobby.@
+`Hisui headed for the entrance hall.@
 `“Haaah…”@
 `Sighing, I followed her.
 \
 bg #000000,lcartain,800
 bg "bg/bg_33c",lcartain,800
-`We entered the lobby.@
-`The main house was divided into east and west wings, with the lobby at its center.@
-`The lobby was the body of a bird, and the two wings slanted away on either side; each wing alone was as large as a small hospital.@
+`We entered the entrance hall.@
+`The main house was divided into east and west wings, with the entrance hall at its center.@
+`The entrance hall was the body of a bird, and the two wings slanted away on either side; each wing alone was as large as a small hospital.@
 `The structure was symmetrical, and as I remembered it, both wings had identical floor plans.
 \
 `“Your room is this way, Master Shiki.”@

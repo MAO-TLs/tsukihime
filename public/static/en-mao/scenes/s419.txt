@@ -50,7 +50,7 @@ ld c,"tachi/aki_t09",lshutter,400
 ld c,"tachi/aki_t08a",crossfade,400
 `If you try to leave us again, I’ll have to kill you.”@
 cl c,lshutter,400
-`With a bright smile at her little joke, Akiha walks out into the lobby.
+`With a bright smile at her little joke, Akiha walks out into the foyer.
 \
 ld c,"tachi/koha_t03",lshutter,400
 `“Hisui.@ It’s time for Miss Akiha to leave for school, so go with her.@ I’ll prepare Shiki’s breakfast.”@
@@ -106,7 +106,7 @@ wait 100
 bg "bg/bg_50",notrans,0
 `Apparently the girl survived, for now.@
 `The report says she is in the hospital after having the blood drained from her body.@
-`Her consciousness is unknown.@ Her prospects for recovery are unknown.@
+`Whether she is conscious is unknown.@ Her prospects for recovery are unknown.@
 `Who attacked her and stole her blood is also unknown.@
 `But the photograph on the screen is unmistakably the girl from last night.@
 br
@@ -176,7 +176,7 @@ playstop
 !w2000
 bg "bg/bg_33a",lcartain,800
 waveloop se_11
-`Perhaps because it is only just after two in the afternoon, no one is waiting in the lobby.@
+`Perhaps because it is only just after two in the afternoon, no one is waiting in the foyer.@
 `“…”@
 `That suits me.@ I don’t want to see anyone.@
 `My eyes drift to the window.@
@@ -247,7 +247,7 @@ br
 \
 play "*6"
 wave se_01
-`When I study the family tree more closely, I find that every member of the Tohno family died abnormally.@
+`When I study the family tree more closely, I find that every member of the Tohno family met an unnatural end.@
 `Death by madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@
 `Not one of them reached the end of a natural life and died in peace.@
 wave se_01
@@ -397,7 +397,7 @@ br
 `The matter must still be settled in the eyes of society.@
 `SHIKI killed the Nanaya adoptee.@
 `I concealed the truth, but SHIKI is in no condition to appear in public.@ The wound I inflicted has yet to heal, and his very shape has transformed.@
-`He cannot be presented as Shiki Tohno, nor can the life he has become be described as human.@
+`He cannot be presented as Shiki Tohno, nor can the being he has become be described as human.@
 br
 `The Nanaya adoptee remains alive.@
 `As long as that thing survives, I intend to put it to use.@
@@ -426,9 +426,9 @@ br
 `Month ○, Day ×.@
 br
 `Akiha’s education as the next head begins.@
-`In the abilities required to govern the clan, she possesses more talent than she could ever need.@
+`As for the abilities required to govern the clan, Akiha possesses more than enough talent.@
 `If SHIKI is ‘immortality,’ then
-`Akiha is ‘plunder.@’(As brother and sister, both possess coalescence)It is regrettable.@ Had Akiha been born ten years earlier, I could have disposed of Nanaya without borrowing Kishima’s hand.
+`Akiha is ‘plunder.@’(As brother and sister, both possess coalescence)It is regrettable.@ Had Akiha been born ten years earlier, I could have disposed of Nanaya without enlisting Kishima’s aid.
 \
 `But caution is essential.@
 `Plunder is a double-edged gift.@ When she takes another’s heat, she may absorb their thoughts as well.@
@@ -487,7 +487,7 @@ br
 `I was only a substitute—a boy named Shiki filling the place of someone named SHIKI.
 \
 `“Ha—how pathetic.”@
-`I whisper the curse at myself and fling the journal away.@
+`I curse myself under my breath and fling the journal away.@
 `There is nothing else here I need to know.@
 `Staying any longer would only waste time.
 \
@@ -506,7 +506,7 @@ br
 `The dreams of murder are entirely my own doing.@
 `Which means what I have to do is finally clear.@
 br
-`[line=4]Voices come from the lobby.@
+`[line=4]Voices come from the foyer.@
 br
 `“Akiha must be home.”@
 `I rise from the bed.@
@@ -528,7 +528,7 @@ ld c,"tachi/aki_t04b",lshutter,400
 `Akiha is smiling, just as she was this morning.@
 `Seeing that smile makes me want to turn around and leave without a word.@
 `For all my doubts, I…@
-`Perhaps I felt that both my life as Shiki Tohno and Akiha Tohno as my sister were too precious to let go.@
+`Perhaps being Shiki Tohno and having Akiha Tohno as my sister were both too precious to let go.@
 br
 `[line=4]Even so.@
 `There is something I have to ask.
@@ -549,7 +549,7 @@ ld c,"tachi/aki_t11b",lshutter,400
 `“…”@
 `Akiha stares at me in silence.@
 `“You won’t answer?@ Then I’ll ask something else.@
-`Father—Makihisa Tohno—had two personalities, didn’t he?@ And it wasn’t only him.@ Many members of the Tohno family suffered from some kind of disorder.@ That was why I assumed my body was the same.@
+`Father—Makihisa Tohno—had two personalities, didn’t he?@ And it wasn’t only him.@ Many members of the Tohno family suffered from some kind of physical disorder.@ That was why I assumed I had one too.@
 `But I was wrong.@ My anemia is only the result of the accident eight years ago.@ Because I—”@
 `“I know.@ Because you were adopted into the Tohno family, weren’t you?”@
 cl c,lshutter,400
@@ -585,7 +585,7 @@ br
 \
 `“What?@ You say he killed me, but I’m alive.”@
 `“—Yes.@ By some miracle, you survived.@ You remember what followed, don’t you?@ You were taken to the hospital, and on the very day you returned to the mansion, you were sent to the Arima family.@
-`Father must have placed the suggestion in you then.@ Your wounds had not yet healed, and both your body and mind were terribly unstable.@ That made it easy for his suggestion to take root in you—deeply, completely.”
+`Father must have planted that suggestion in your mind then.@ Your wounds had not yet healed, and both your body and mind were terribly unstable.@ That made it easy for his suggestion to take root in you—deeply, completely.”
 \
 `“I see.@ Then that’s enough.@ If you already know, there’s nothing more to discuss.@
 `I’m not one of the Tohnos, am I?@
