@@ -151,6 +151,8 @@ test('release, script, and audit share one compact mobile header geometry', asyn
 	assert.match(siteStyles, /@media \(max-width: 480px\)[\s\S]*?\.mao-site-wordmark \{ max-width: 72px; line-height: 1\.15; \}[\s\S]*?\.mao-site-nav-links \{ gap: 11px; font-size: 11px; \}/)
 	assert.match(readerStyles, /@media \(max-width: 480px\)[\s\S]*?\.reader-page \.wordmark \{ max-width: 72px; line-height: 1\.15; \}[\s\S]*?\.reader-page \.nav-links \{ gap: 11px; font-size: 11px; \}/)
 	assert.match(readerStyles, /\.reader-page \{[\s\S]*?color-scheme: light;/)
+	assert.match(readerStyles, /\.reader-page \.audit-dossier-toggle \{[^}]*font-family: var\(--mono\);[^}]*font-size: 9px;[^}]*text-transform: uppercase;/)
+	assert.match(readerStyles, /\.reader-page \.audit-permalink \{[\s\S]*?font-family: var\(--mono\);[\s\S]*?font-size: 9px;[\s\S]*?text-transform: uppercase;/)
 	assert.match(navigation, /href="https:\/\/github\.com\/MAO-TLs\/tsukihime">GitHub<\/a>/)
 })
 

@@ -590,13 +590,29 @@
 .reader-page .audit-group > summary { display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 22px 30px; background: #f4f7fa; cursor: pointer; }
 .reader-page .audit-group > summary::marker { color: var(--ice-deep); }
 .reader-page .audit-group > summary > span { color: var(--ink); font-family: var(--serif); font-size: 24px; line-height: 1.2; }
-.reader-page .audit-group > summary > small { flex: 0 0 auto; color: var(--ink-soft); font-family: var(--mono); font-size: 9px; overflow-wrap: anywhere; }
+.reader-page .audit-group > summary > small { flex: 0 0 auto; color: var(--ink-soft); font-family: var(--mono); font-size: 9px; overflow-wrap: anywhere; text-transform: uppercase; }
 .reader-page .audit-dossier { scroll-margin-top: 24px; }
 .reader-page .audit-dossier + .audit-dossier { border-top: 1px solid var(--line); }
 .reader-page .audit-dossier > summary { display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 24px 30px; cursor: pointer; }
 .reader-page .audit-dossier[open] > summary { border-bottom: 1px solid var(--line); }
 .reader-page .audit-dossier > summary::marker { color: var(--ice-deep); }
 .reader-page .audit-dossier h3 { margin: 6px 0 0; font-family: var(--serif); font-size: clamp(25px, 3vw, 34px); font-weight: 400; line-height: 1.15; }
+.reader-page .audit-permalink {
+	display: inline-block;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: var(--ice-ink);
+	cursor: pointer;
+	font-family: var(--mono);
+	font-size: 9px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.reader-page .audit-dossier-toggle { flex: 0 0 auto; color: var(--ice-ink); font-family: var(--mono); font-size: 9px; text-transform: uppercase; }
+.reader-page .audit-dossier-toggle > span:last-child { display: none; }
+.reader-page .audit-dossier[open] .audit-dossier-toggle > span:first-child { display: none; }
+.reader-page .audit-dossier[open] .audit-dossier-toggle > span:last-child { display: inline; color: var(--ink-soft); }
 .reader-page .audit-dossier-body { padding: 24px 30px 30px; }
 .reader-page .audit-dossier-claim { max-width: 74ch; margin: 14px 0 24px; font-family: var(--serif); font-size: 18px; line-height: 1.55; }
 .reader-page .audit-dossier-definition { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin: 0; border: 1px solid var(--line); background: var(--line); }
@@ -622,10 +638,13 @@
 	text-decoration: none;
 }
 .reader-page .audit-example-finding { border-left: 3px solid var(--error); }
+.reader-page .audit-example-pattern_support { border-left: 3px solid var(--ice-deep); }
 .reader-page .audit-example-counterexample { border-left: 3px solid var(--blue); }
 .reader-page .audit-example-heading { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; }
 .reader-page .audit-example-heading > div { display: grid; gap: 4px; }
 .reader-page .audit-example-heading small { margin: 0; color: var(--ink-soft); font-family: var(--sans); font-size: 11px; line-height: 1.35; }
+.reader-page .audit-dossier-diagnostic { margin: 16px 0 0; padding: 15px 16px; border-left: 3px solid var(--ice-deep); background: var(--paper); color: var(--ink-soft); font-size: 13px; line-height: 1.65; }
+.reader-page .audit-dossier-diagnostic b { display: block; margin-bottom: 4px; color: var(--ice-ink); font-family: var(--mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .reader-page .audit-example code { color: var(--ice-ink); font-family: var(--mono); font-size: 9px; overflow-wrap: anywhere; }
 .reader-page .audit-example p { margin: 12px 0 0; font-family: var(--sans); font-size: 11px; line-height: 1.55; }
 .reader-page .audit-example p[lang="ja"] { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 13px; }
@@ -633,6 +652,11 @@
 .reader-page .audit-example b { display: block; margin-top: 14px; color: var(--ice-ink); font-size: 10px; }
 .reader-page .audit-example-visible-evidence + .audit-example-visible-evidence { margin-top: 14px; padding-top: 2px; border-top: 1px solid var(--line); }
 .reader-page .audit-example-link { display: block; margin: 0; padding: 0; border: 0; background: transparent; cursor: pointer; text-align: left; }
+.reader-page .audit-group > summary:focus-visible,
+.reader-page .audit-dossier > summary:focus-visible,
+.reader-page .audit-example:focus-visible,
+.reader-page .audit-permalink:focus-visible { outline: 3px solid rgba(164, 60, 67, .24); outline-offset: -3px; }
+.reader-page .audit-empty { margin: 0; padding: 44px 30px; color: var(--ink-soft); }
 
 @media (max-width: 900px) {
 	.reader-page .reader-controls {

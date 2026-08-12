@@ -95,7 +95,3 @@
 
 .audit-method-note { display: grid; gap: 12px; }
 .audit-dossier h3 > span { margin-right: 7px; color: var(--mao-template-ice-ink); font-family: var(--mao-template-mono); font-size: 10px; vertical-align: .35em; }
-.audit-permalink { padding: 0; border: 0; background: none; cursor: pointer; }
-.audit-dossier-toggle > span:last-child { display: none; }
-.audit-dossier[open] .audit-dossier-toggle > span:first-child { display: none; }
-.audit-dossier[open] .audit-dossier-toggle > span:last-child { display: inline; }
