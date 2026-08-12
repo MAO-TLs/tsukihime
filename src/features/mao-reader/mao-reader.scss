@@ -19,8 +19,12 @@
 	overflow-y: auto;
 	background: var(--mao-paper);
 	color: var(--mao-ink);
+	color-scheme: only light;
 	font-family: var(--mao-template-sans);
 	font-size: 16px;
+	font-synthesis: initial;
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
 	-webkit-user-select: text;
 	user-select: text;
 	isolation: isolate;

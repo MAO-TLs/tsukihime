@@ -171,14 +171,16 @@ test('release, script, and audit restore normal document text selection', async 
 })
 
 test('Tsukihime keeps WHITE ALBUM 2 publication typography through the app reset', async () => {
-	const [siteStyles, auditReader, readerStates] = await Promise.all([
+	const [siteStyles, readerHostStyles, auditReader, readerStates] = await Promise.all([
 		fs.readFile(path.join(projectRoot, 'src/features/mao-site/mao-site.scss'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/mao-reader.scss'), 'utf8'),
 		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/AuditReader.tsx'), 'utf8'),
 		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/ReaderStates.tsx'), 'utf8'),
 	])
 
 	assert.match(siteStyles, /\.mao-site-nav-links \{[\s\S]*?a \{ padding-block: 8px; font-weight: 600; \}/)
 	assert.match(siteStyles, /\.tsuki-release-page \.mao-site-eyebrow \{ margin: 0 0 18px; \}/)
+	assert.match(readerHostStyles, /\.mao-reader-shell \{[\s\S]*?color-scheme: only light;[\s\S]*?font-synthesis: initial;[\s\S]*?-webkit-font-smoothing: auto;[\s\S]*?-moz-osx-font-smoothing: auto;/)
 	assert.match(auditReader, /className="mao-reader-kicker eyebrow">Completed corpus review<\/p>/)
 	assert.match(auditReader, /className="mao-reader-kicker eyebrow">Work-wide dossiers<\/p>/)
 	assert.match(readerStates, /className="mao-reader-kicker eyebrow">Data unavailable<\/p>/)
