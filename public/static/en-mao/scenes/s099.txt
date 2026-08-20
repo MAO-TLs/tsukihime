@@ -4,16 +4,16 @@ waveloop se_02
 bg "bg/bg_29c",notrans,0
 `No—it’s too soon.@
 `Nrvnqsr has only just arrived.@
-`I need him to focus on Arcueid a little longer, or I will never manage a surprise attack.
+`I need him to focus[line=3]on Arcueid a little longer, or I will never manage a surprise attack.
 \
 ld c,"tachi/ark_t07",crossfade,400
-`“Don’t be mistaken, Nrvnqsr.@ There aren’t twenty-seven Dead Apostle Ancestors left in the world, but twenty-eight.@ Do none of you acknowledge the Serpent as one of your own?”@
+`“You have it wrong, Nrvnqsr.@ There are not twenty-seven Dead Apostle Ancestors left in the world, but twenty-eight.@ Do none of you acknowledge the Serpent as one of your own?”@
 cl c,crossfade,400
 ld c,"tachi/nero_t02a",crossfade,400
 `“Of course not.@ His ideals differ fundamentally from ours.@ He belongs to the vampiric species, yet his existence as such has no meaning.@ Most Dead Apostles therefore refuse to recognize him as a compatriot.”
 \
 ld c,"tachi/nero_t02c",crossfade,400
-`“—That said, he and I are old acquaintances.@ I flatter myself that I understand him more deeply than the other Dead Apostles do.”@
+`“[line=3]That said, he and I are old acquaintances.@ I believe I understand him more deeply than the other Dead Apostles do.”@
 cl c,crossfade,400
 ld c,"tachi/ark_t07",crossfade,400
 `“I see.@ Come to think of it, you differ from other members of the vampiric species just as the Serpent does.@ Perhaps heretics share common tastes.”

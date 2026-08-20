@@ -2,7 +2,7 @@ play "*1"
 wavestop
 bg "bg/bg_40c",notrans,0
 br
-`[line=4]I can’t…@ I just can’t leave her alone.@
+`[line=4]I can’t leave her alone.@
 br
 `I knew searching for Yumizuka was dangerous.@
 `Whatever her reasons, she had killed all those people.@
@@ -16,11 +16,11 @@ br
 bg #000000,lcartain,800
 bg "bg/bg_33d",lcartain,800
 br
-`Creak, creak.@
-`I crept down the stairs, which of course chose a night like this to groan, and made my way quietly to the front door.
+`The foyer lights were out.@
+`It was dark and desolate, but perfect for slipping away unnoticed.
 \
-`Creak.@ Creak.@
-`Naturally, the stairs chose tonight to complain beneath my feet.@ I descended and stole quietly toward the front door.@
+`Creak, creak.@
+`Naturally, the stairs chose a night like this to groan beneath me as I descended quietly toward the front door.@
 br
 `[line=3]And then.@
 br
@@ -28,7 +28,7 @@ ld c,"tachi/aki_t01b",crossfade,400
 `“Brother?@ Are you going out at this hour?”@
 `I had no idea how long Akiha had been in the foyer when she addressed me with perfect composure.
 \
-`“Akiha—you’re back?”@
+`“Akiha[line=3]you’re back?”@
 `“Yes, only a few minutes ago.@
 ld c,"tachi/aki_t12b",crossfade,400
 `But what about you, Brother?@ Judging by your clothes, you seem to be going somewhere.”@
@@ -44,7 +44,7 @@ ld c,"tachi/aki_t23b",crossfade,400
 `With that, I started toward the door.
 \
 cl a,crossfade,400
-`“Ah—”@
+`“Ah[line=4]”@
 `A small voice came from behind me.@
 `“Brother…”@
 `It was Akiha, but her voice was weak and utterly unlike the one she had used until now.@
@@ -53,14 +53,14 @@ cl a,crossfade,400
 `“Akiha…?”@
 ld c,"tachi/aki_t17b",crossfade,800
 `“You will come back, won’t you…?”@
-`“……”@
+`“[line=4]”@
 `Akiha’s frail, helpless face.@
-`All her usual poise was gone; she looked exactly like the crybaby she had been as a child.
+`All her usual poise was gone; she looked[line=3]truly like the crybaby she had been as a child.
 \
 `“Come on, I told you I’m only going out for a while.@ There’s no reason for you to look like that.”@
-`“I suppose not, but…”@
+`“I suppose not[line=3]but…”@
 `“It’ll be all right; I’ll be back soon.@ I’m sorry, Akiha—all I ever do is make trouble for you.”@
-`“Ah—Brother!”@
+`“Ah[line=4]Brother!”@
 bg #000000,lcartain,400
 `I pushed Akiha’s voice from my mind and left the mansion.
 \
@@ -88,16 +88,16 @@ bg "bg/bg_26a",rcartain,800
 `How long had it been?@
 `I had raced through back alleys and deserted streets, but found no sign of Yumizuka.@
 br
-`“Hah—hah—hah.”@
+`“Hah[line=3]hah[line=4]hah.”@
 br
 `I stopped to catch my breath and let my overheated body cool.@
 `It was almost midnight.@
 `Searching any longer might be pointless.
 \
-`“Where the hell did she go—?”@
+`“Where the hell did she go[line=3]?”@
 `I forced my faltering legs onward.@
 `There were still places I hadn’t checked.@
-`I could give up when my body truly refused to move—
+`I could give up when my body truly refused to move[line=3]
 \
 bg #000000,lcartain,800
 bg "bg/bg_27b",lcartain,400
@@ -108,7 +108,7 @@ bg "bg/bg_27b",lcartain,400
 \
 bg #000000,lcartain,800
 bg "bg/bg_28b",lcartain,800
-`“……”@
+`“[line=5]”@
 `No one else was in the park.@
 `Nothing stirred beneath the moon.@
 `For no reason I could name, the warmth drained from my body.@
@@ -116,17 +116,17 @@ wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_28b",crossfade,400
 br
-`“—!”@
+`“[line=3]Ngh.”@
 `The back of my neck tingled.@
 `A chill stole through me until my whole body fell deathly cold and even my fingertips began to numb.@
 wave se_01
-`“Hah…@ hah…”@
+`“Hah, hah…”@
 `While my body grew colder, my throat burned.@
 `It was parched dry.@
 `I slipped a hand into my pocket.@
-`More than anything, I wanted a blade in my hand.
+`More than anything, I wanted a blade in my hand[line=3]!
 \
-`“What—is this?”@
+`“What[line=3]is this?”@
 `My teeth ground together.@
 `A faint headache.@
 `My temperature falling.@
@@ -143,7 +143,7 @@ bg #000000,lcartain,800
 bg "bg/bg_29b",lcartain,800
 `No one was there.@
 `Only a lonely meeting place drowned in darkness.@
-`And there—someone was crouching on the ground.@
+`And there[line=3]someone was crouching on the ground.@
 `Ragged breaths.@
 `Their face was deathly pale, and they clawed at their throat in agony.@
 br
@@ -152,11 +152,11 @@ br
 bg #000000,lshutter,400
 bg "bg/bg_29b",lshutter,400
 play "*9"
-`“Yumizuka—!?”@
+`“Yumizuka[line=3]!?”@
 `Perhaps I was simply that relieved to have found her.@
 `Without a thought for what had happened the night before, I ran toward her.@
 ld c,"tachi/stk_t04",tshutter,400
-`“Wait—!”@
+`“Wait[line=3]!”@
 `Her voice alone stopped me in my tracks.
 \
 `“Please wait, Shiki…@ I’m happy you came looking for me, but I can’t have you near me right now.@ Please—don’t come any closer.”@
@@ -171,35 +171,35 @@ ld c,"tachi/stk_t03",crossfade,800
 `I couldn’t bring myself to go closer.@
 `I understood now that she was pushing herself this hard precisely to keep me away.
 \
-`“What happened to you, Yumizuka?@ Why haven’t you gone home?@ What was all that yesterday?@ Why did you do something so—”@
+`“What happened to you, Yumizuka?@ Why haven’t you gone home?@ What was all that yesterday?@ Why did you do something so[line=4]”@
 `“Hmm?@ Something so what?”@
-`“Damn it, I don’t understand!@ I truly don’t—it’s driving me crazy how little I understand, Yumizuka…!”@
+`“Damn it, I don’t understand!@ I truly don’t[line=2]it’s driving me crazy how little I understand, Yumizuka…!”@
 ld c,"tachi/stk_t10",crossfade,400
 `“You don’t understand?@ Yesterday was exactly what it looked like.@ I told you I killed those people, remember?”@
 `She answered without hesitation.@
 `As though mocking how desperately I wanted that one fact to be false.
 \
-`“Then…@ you’re the one behind the murders in the city…?”@
-`“I don’t really want to answer, but…@ yes.@ I suppose I am.”@
-`“What do you mean, you suppose?@ Why…?”@
+`“Then you’re the one behind the murders in the city?”@
+`“I don’t really want to answer, but yes.@ I suppose I am.”@
+`“Then why would that be the case?”@
 `“It means what it means.@ I killed those people, and I’m sure I’ll keep doing the same thing.@ There’s no point lying about it, is there?”
 \
-`“Yumi—zuka, you—”@
+`“Yumi[line=3]zuka, you—”@
 `“Would you stop calling me that?@ I call you Shiki, so it’s only fair that you call me Satsuki.”@
-`“Wh—”@
+`“Wh[line=4]”@
 `I swallowed hard.@
 `Yumizuka was still exactly as she had always been.@
-`With all the same gestures as before, she said something utterly horrifying.
+`With all the same gestures as before[line=3]she said something utterly horrifying.
 \
 `“When I think about it, I was such an idiot.@ For years I only watched you from afar, unable even to call you Shiki the way I do now.”@
-`“Yumi—zuka?”@
+`“Yumi[line=3]zuka?”@
 `“I was always watching you.@ Even before you rescued me from that warehouse, I had been watching you all along.@
 `The truth is, I’m a coward.@ I kept forcing myself to smile and agree with everyone around me so I could fit in, and before I knew it, people were treating me like some kind of idol.”
 \
 `“That was why I never enjoyed school much.@ But then, just after we started our second year of middle school, you spoke to me, and everything changed.”@
-`“I did…?”@
-`“You don’t remember.@ Of course you don’t.@ You’ve always been so natural, so completely yourself.@ Whatever you said that day was probably nothing at all to you.”@
-`“……”@
+`“Huh[line=3]?”@
+`“No, you don’t remember.@ You’ve always been so natural, so completely yourself.@ Whatever you said that day was probably nothing at all to you.”@
+`“[line=6]”@
 `What could I possibly say?@
 `She was right.@
 `I remembered nothing—neither what we had spoken about nor even the fact that I had ever spoken to her.
@@ -216,12 +216,12 @@ br
 \
 `“I was always watching you.@
 `I knew you would never notice me, but I kept watching.”@
-`“……”@
+`“[line=6]”@
 br
-`To be honest, it made me happy.@ But—
+`To be honest, it made me happy.@ But[line=3]
 br
 `“Tell me, Shiki.@ Do you like me?”@
 cl a,crossfade,400
-`What answer could I possibly give her now—?
+`What answer could I possibly give her now[line=3]?
 \
 playstop

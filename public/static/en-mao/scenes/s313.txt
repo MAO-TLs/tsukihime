@@ -2,24 +2,24 @@ playstop
 wavestop
 bg "bg/bg_29b",notrans,0
 ld c,"tachi/stk_t04",crossfade,400
-`“Ah—”@
+`“Ah[line=4]”@
 `Yumizuka’s body shuddered.@
-`Breathing painfully, she sank to her knees.@
+`Breathing painfully, she staggered and then[line=3]sank to her knees.@
 cl c,lshutter,400
 play "*6"
 `She made a wet, choking sound.@
 `Crouched on the ground, Yumizuka coughed violently and spat out a clot of blood.@
-`“Yumizuka!?”
+`“[line=3]Yumizuka!?”
 \
 `This time I rushed to her.@
 `“Yumizuka, are you all right, Yumizuka…!”@
 `I put a hand on her heaving shoulder.@
-`“Ah—”@
+`“Ah[line=4]”@
 `A chill ran through me.@
 `Even through her clothes, her body was unmistakably cold.
 \
 `“You idiot!@ You’re frozen through—what are you doing outside at night in this condition!?”@
-`“Shiki…”@
+`“[line=3]Shiki…”@
 `She called my name in a hollow voice.@
 `Then Yumizuka collapsed against me.@
 br
@@ -27,23 +27,23 @@ br
 `Her feverish breath touched my skin.
 \
 `“Yumizuka?”@
-`“It’s all right if you don’t love me, Shiki.@ I never understood you before either.”@
+`“It’s all right if you don’t feel the same about me, Shiki.@ I never understood you before either.”@
 br
 `Her voice strained past a rasping cough.
 \
 `“Enough—stop talking…!@ I’ll get you to a hospital right away…!”@
 `“But now I understand.@ I understand you and what you want perfectly.@
-`Because—”@
-`“What?”@
+`Because[line=4]”@
+`“What[line=4]?”@
 `Yumizuka’s arms tightened.@
 `They pinned my shoulders with tremendous force.@
-`“Because now I’ve become the same as you—!”@
+`“Because now I’ve become the same as you[line=3]!”@
 br
 `She said it.@
 `Yumizuka sank her teeth into my neck.
 \
 bg #9c0120,crossfade,1500
-`“Ah—”@
+`“Ah[line=6]”@
 `My consciousness.@ My consciousness receded.@
 `Yumizuka’s fangs burrowed into my neck.
 \
@@ -54,9 +54,9 @@ bg #9c0120,crossfade,1500
 `My consciousness wasn’t fading.@
 `It was simply being destroyed.@
 br
-`“Ah.”@
+`“[line=7]Ah.”@
 `I couldn’t think.@
-`I knew I would die if this continued, and still, nothing—
+`I knew I would die if this continued, and still, nothing[line=4]
 \
 wave se_01
 bg #000000,crossfade,800
@@ -75,19 +75,19 @@ wave se_01
 `And yet.@
 `Somewhere beyond the reach of reason, all the blood in my body surged to a boil.@
 br
-`“Yumizuka—!”@
+`“Yumizuka[line=6]!”@
 `My arms thrust her away by pure reflex.
 \
 bg "event/stk_e02",lshutter,400
 `Yumizuka landed hard on her backside.@
-`“What did you…?”@
+`“What did you[line=4]?”@
 `I tried to stand.@
 `But I couldn’t.@
 `My whole body was exhausted; I could barely move a single arm.@
 br
 `Yumizuka sat there in a daze, as if drunk.
 \
-`“Ah…”@
+`“Ah[line=7]”@
 `I couldn’t see her face clearly.@
 `My mind swam, blurring everything.@
 `My body would not obey me.@
@@ -95,19 +95,19 @@ br
 br
 `Blood pulsed steadily from my neck.@
 `The marks where Yumizuka’s teeth had pierced me.@
-`Through the two deep holes, something black seemed to be pouring into my body—
+`Through the two deep holes, something black seemed to be pouring into my body[line=3]
 \
 wave se_01
-`“Ah—gh, aaaaaagh…!”@
+`“Ah[line=3]gh, aaaaaagh…!”@
 `Pain—as though someone were pulling my spine out of my body.@
 wave se_01
-`“Hah—aghhh…!”@
+`“Hah[line=4]aghhh…!”@
 `I clawed at the ground in agony.@
 `But there was no help anywhere.@
 `Yumizuka had drained me until I could no longer move, and now it felt as if she had injected a black snake into my body.@
-`Helpless, I could only let the crawling darkness violate me from within.@
+`Helpless, I could only let the crawling darkness ravage me at will from within.@
 br
-`“Hah—ah—!”@
+`“Hah[line=4]ah, ah[line=4]!”@
 br
 `I tore at the earth.@
 `Yumizuka watched me through eyes glazed with ecstasy.
@@ -117,12 +117,12 @@ br
 `Don’t worry, Shiki—I would never kill you.@ I made sure to put my blood inside you, so you won’t crumble like that failure yesterday and soon you’ll have eyes only for me.”@
 `Yumizuka whispered happily.
 \
-`“What are you talking about, Yumi—zuka?”@
-`“It means you’re going to become like me.”@
-`“You’ll drink human blood instead of eating ordinary food, and because you can’t walk beneath the sun, you’ll live at night as a different creature.”@
+`“What are you[line=3]talking about, Yumi—zuka[line=2]”@
+`“I mean you’re going to become like me.@
+`You’ll drink human blood instead of eating ordinary food, and because you can’t walk beneath the sun, you’ll live at night as a different creature.”@
 br
 `What was that supposed to mean…@
-`Absurd—that sounded just like—
+`Absurd—that sounded just like[line=3]
 \
 `“Yes, like a vampire.@ I didn’t understand how I had become this way either.@
 `Two nights ago, I went downtown to see if the rumor about you wandering around at night was true, and the next thing I knew, I was lying in an alley.@
@@ -143,16 +143,16 @@ br
 `I drink human blood for the same reason you eat other animals.@
 `So I decided not to think too deeply about it.”
 \
-`“You—”@
+`“B-but[line=5]”@
 `What was she saying?@
 `That needing to kill humans to survive made it acceptable?@
-`I could never—
+`I could never[line=3]
 \
 `“But now I think I’ve finally become a proper vampire.@
 `Tonight’s meal was rather fun.@
 `Until now I only drank because I was cold and hurting, but I’m learning how it works, and it’s becoming interesting.@
 `You understand, don’t you, Shiki?@ You’re a much finer killer than I am.”@
-`“What…?”@
+`“Wh[line=4]at?”@
 `What was she saying?@
 `What was Yumizuka saying?
 \
@@ -161,7 +161,7 @@ br
 \
 `“But I understand now.@ I’ve become the same thing you are.@
 `Tell me, Shiki.@ Don’t you want to kill someone regardless of whether you love or hate them?”@
-`“Don’t screw with me.”@
+`“Don’t screw[line=3]with me.”@
 `I had never once felt anything like that.
 \
 `“I’m not screwing with you!@ I never understood that fragile air about you.@ Not until I got this body…!@
@@ -177,7 +177,7 @@ br
 bg #9c0120,crossfade,400
 monocro #ff0000
 bg "bg/bg_31b",crossfade,400
-`“—Ah.”@
+`“[line=5]Ah.”@
 `It had only happened in a dream.@
 `But I couldn’t say it had never happened.@
 br
@@ -217,7 +217,7 @@ textcolor #ffffff
 `This blood.@
 `This foreign thing coursing endlessly through me.@
 `I couldn’t see it.@
-`But with these eyes, even something like that—
+`But with these eyes, even something like that[line=3]
 \
 wave se_01
 bg #9c0120,notrans,0
@@ -264,7 +264,7 @@ ld c,"tachi/stk_t10",crossfade,400
 `Freedom returned to my limbs, and at last I stood.
 \
 ld c,"tachi/stk_t07",crossfade,400
-`“—Thank goodness.@ Now we can be together forever, Shiki.”@
+`“[line=3]Thank goodness.@ Now we can be together forever, Shiki.”@
 `“……”@
 ld c,"tachi/stk_t10",crossfade,400
 `“Come here.@ Stand beside me, take my hand, and put me at ease.”@
@@ -343,14 +343,14 @@ br
 `Thump, thump.@
 `My pulse keeps pounding, each beat like an order I give myself: kill, kill.
 \
-`“Shiki, you—”@
-`“No, Yumizuka—”@
+`“Shiki, you[line=3]”@
+`“No, Yumizuka[line=4]”@
 `I stared her down through my labored breathing.@
 ld c,"tachi/stk_t11",crossfade,400
-`“Why!?@ Why isn’t my blood working…!?”@
+`“Why[line=3]!?@ Why isn’t my blood working…!?”@
 `“I killed your blood.@ So I won’t become one of you.”@
 ld c,"tachi/stk_t09",crossfade,400
-`“Wha—”@
+`“Wha[line=3]”@
 `She stared at me in shock.
 \
 wave se_01
@@ -365,21 +365,21 @@ br
 `Kill
 \
 textcolor #ffffff
-`“Go away, Yumizuka.@ I don’t know why, but when you’re here, I—”@
+`“Go away, Yumizuka.@ I don’t know why, but when you’re here, I[line=3]”@
 br
 wave se_01
 textcolor #ff0000
 `Kill
 textcolor #ffffff
 br
-`“I—”@
+`“I[line=4]”@
 br
 wave se_01
 textcolor #ff0000
 `Kill
 textcolor #ffffff
 br
-`“I don’t want to kill anyone—”
+`“I don’t want to kill anyone[line=4]”
 \
 wave se_01
 bg #9c0120,crossfade,400
@@ -401,7 +401,7 @@ ld c,"tachi/stk_t02",crossfade,400
 `Shiki Tohno’s body, severed from Shiki Tohno’s will, licks its lips and reverses its grip on the knife.
 \
 `“I see.@ So you do want to fight, Shiki.”@
-`“……”@
+`“[line=11]”@
 `No sound emerges.@
 `No thought moves to form an answer.@
 `Even my vision falls away to nothing.
@@ -441,7 +441,7 @@ bg #000000,notrans,0
 \
 bg "bg/bg_29c",crossfade,400
 play "*8"
-`“Wha—”@
+`“Wha[line=7]”@
 `The nightmare was still unfolding.@
 `Without even realizing it.@
 `I had killed Satsuki Yumizuka.@
@@ -456,9 +456,9 @@ br
 `Two sets of ragged breaths.@
 `Mine and Yumizuka’s.@
 br
-`“What have I done—”@
+`“I[line=6]what have I done?”@
 `I never meant to kill her.@
-`I had not even meant to hurt her; so why—!?
+`I had not even meant to hurt her; so why[line=4]!?
 \
 `“Shiki…”@
 `Yumizuka whispers into my ear.@
@@ -475,7 +475,7 @@ br
 br
 `[line=7]Thump.@
 br
-`“I’m sorry.@ They say nothing cures a fool but death, but it seems even dying couldn’t cure me—”@
+`“I’m sorry.@ They say nothing cures a fool but death, but it seems even dying couldn’t cure me[line=3]”@
 br
 `[line=7]Thump.@
 br
@@ -502,15 +502,15 @@ textcolor #ff0000
 `That is enough
 \
 textcolor #ffffff
-`“Haaah—”@
+`“Haaah[line=7]”@
 `I can’t catch my breath.@
 `Knife in hand, I feel everything in my stomach rising into my throat.@
-`“Ah—hah—hah.”@
+`“Ah[line=4]hah[line=3]hah[line=3]”@
 `Why?@
 `I regret killing her.@ I feel the guilt of it.@
-`But right now, more than either of those things, I cannot endure this sensation.
+`But right now, more than either of those things[line=3]I cannot endure this sensation.
 \
-`“Hah—hah—hah.”@
+`“Hah[line=3]hah[line=3]hah[line=3]”@
 `What a shock.@
 `If this pain is pleasure, then no greater pleasure can exist anywhere in the world.@
 `My blood seethes through my whole body, pounding hard enough to convince me of that.
@@ -524,17 +524,17 @@ br
 br
 `[line=5]The girl who had called murder fun had said it with such pride.
 \
-`“No.”@
+`“[line=3]No.”@
 `That wasn’t true.@
 `I couldn’t accept it.@
 `If I did, I would never be sane again.@
-`“I’m not like you.@ I’m different, Yumizuka.”@
+`“[line=4]I’m not like you.@ I’m different, Yumizuka.”@
 `There was no strength in my denial.@
 bg #9c0120,crossfade,400
 bg "bg/bg_29b",crossfade,400
 br
 `My vision warps.@
-`If I stay here any longer, something in me will break.@
+`Here[line=3]if I stay any longer, something in me will break.@
 br
 `I have to go back.@
 `Back to my own world, to the ordinary life of Shiki Tohno, before this poison infects me.
@@ -545,7 +545,7 @@ br
 br
 br
 br
-`“—Kh.”@
+`“[line=6]Kh.”@
 `I swallow the spike of pain in my skull and stagger away.
 \
 bg #000000,crossfade,800

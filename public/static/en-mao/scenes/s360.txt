@@ -63,13 +63,13 @@ ld c,"tachi/aki_t02",crossfade,400
 `That explains why you have been so listless lately, and what happened this morning.@ I do not know what is troubling you, but is this secret truly so difficult to share?”@
 `“[line=4]”@
 `I am stunned.@
-`Akiha noticed that I was suffering alone.@
+`Akiha has noticed that I have been suffering alone.@
 `“Akiha, you knew?”@
 ld c,"tachi/aki_t21",crossfade,400
 `“Of course.@ We are brother and sister, so I can at least tell when you are unhappy.@ Yet you keep everything to yourself and refuse even to speak to us.”
 \
-`“Wh[line=3]I cannot tell you something like that[line=3]”@
-`I can never do that.@
+`“Wh[line=3]Ask for help with something like that[line=3]”@
+`I could never do that.@
 br
 `Every night, I dream of murder.@
 `I can no longer tell whether the dreams are real, and actual victims are discovered exactly as I dream them.@
@@ -106,7 +106,7 @@ ld c,"tachi/aki_t07",crossfade,400
 cl c,lshutter,400
 `With that furious retort, Akiha runs up the hill.
 \
-`[line=3]I could not follow her.@
+`[line=3]I cannot follow her.@
 br
 `Even if I run after her and catch her, I still cannot reveal what torments me.@
 `In the end.@
@@ -120,8 +120,8 @@ bg "bg/bg_40c",tshutter,800
 `This time, I doubt her anger will fade in a day or two.@
 br
 `“Maybe that’s more convenient.”@
-`[line=3]I could not go on fearing my dreams.@
-`I had refused to speak to Ciel, and rejected Akiha’s plea that I confide in her, because I had decided to solve this alone.
+`[line=3]I cannot go on fearing my dreams.@
+`I refused to speak to Ciel and rejected Akiha’s plea that I confide in her because I decided to solve this alone.
 \
 `“A way to prove that I[line=3]Shiki Tohno[line=3]am not a murderer.”@
 `I can think of only one.
@@ -213,7 +213,7 @@ bg #ffffff,crossfade,400
 monocro #ff0000
 bg "bg/bg_31b",crossfade,400
 waveloop se_02
-`Tonight’s prey lay sprawled before me.@
+`Tonight’s prey lies sprawled before me.@
 br
 `“Hah, hah, hah, hah.”@
 br

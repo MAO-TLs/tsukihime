@@ -1,7 +1,7 @@
 playstop
 wavestop
 bg "bg/bg_34a",notrans,0
-`Kohaku is making a feast for four, so by any reasonable measure she has the hardest job.@
+`Of the four of us, Kohaku must have the hardest job: making the entire feast.@
 `I’m not sure what use I’ll be in a kitchen, but I’ll go see her anyway.@
 br
 bg #000000,lshutter,400
@@ -12,7 +12,7 @@ bg "bg/bg_35",lshutter,400
 ld c,"tachi/koha_t02",lshutter,400
 `“Did you need something, Shiki?”@
 `Kohaku pops her head out.@
-`“I came to see if I could help, but—”@
+`“I came to see if I could help, but[line=4]”@
 `I have the distinct feeling this is a world into which amateurs like me should never trespass.@
 ld c,"tachi/koha_t01a",crossfade,400
 `“Oh, that would be wonderful.@ To tell you the truth, I was thinking of coming to ask for your help, Shiki.”@
@@ -45,13 +45,13 @@ cl c,lshutter,400
 `Kohaku’s off-key humming fills the kitchen.
 \
 `…@
-`…@
 `……@
+`…………@
 `Perhaps Kohaku is too absorbed in cooking to talk much.@
 `I’m enjoying peeling the shrimp myself, and keep happily stripping shell after shell.@
 bg #000000,crossfade,400
 bg "event/his_e01",crossfade,400
-`“……”@
+`“[line=6]”@
 `But this feels nostalgic.@
 `Before the accident sent me away from the mansion, Kohaku, Akiha, and I played at keeping house like this several times.
 \
@@ -75,7 +75,7 @@ ld c,"tachi/koha_t18",crossfade,400
 \
 ld c,"tachi/koha_t02",crossfade,400
 `“I’d be delighted if that were true, but both of us were born a little out of step with what most people consider normal.@
-`Hisui’s sense of taste is so strange that she may believe she’s made something delicious while Miss Akiha and I find the result remarkably mysterious.”@
+`Hisui’s sense of taste is so strange that she may believe she’s made something delicious while Miss Akiha and I find the flavor positively inscrutable.”@
 `So that is why Hisui never cooks.@
 `Hisui’s oddity is her sense of taste, but what is Kohaku’s?
 \
@@ -92,7 +92,7 @@ play "*9"
 `“Remember the time we slipped through the gates and went outside?@
 `We couldn’t find our way back, so in the end you called the mansion and had one of the servants come collect us.”@
 ld c,"tachi/koha_t03",crossfade,400
-`“Master Makihisa gave you a terrible scolding afterward.@ All of us had gone out to play, but somehow by the end it was as though only you had gone, Shiki.@ We were always getting into mischief, yet it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@
+`“Master Makihisa gave you a terrible scolding afterward.@ Though all of us had gone out to play, somehow you ended up taking all the blame, Shiki.@ We were always getting into mischief, yet it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@
 br
 `Kohaku laughs softly, speaking almost to herself as she savors the memory.
 \
@@ -134,7 +134,7 @@ ld c,"tachi/koha_t07",crossfade,400
 `“It must hurt with a cut that deep!”
 \
 `“Not at all.@ Things like this don’t hurt if you believe they don’t.@ You convince yourself that this finger isn’t part of your body, but belongs to a doll or something.@ Then you stop feeling pain, don’t you?”@
-`“Wha—”@
+`“Wha[line=4]”@
 `Kohaku delivers this serene pronouncement with a smile.@
 `Thinking that way might help her endure the pain, but it cannot diminish the pain itself.
 \

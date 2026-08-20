@@ -7,7 +7,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“Don’t ‘what is it’ me!@ Why did you transfer to my school?@ There’s nothing for you to gain by transferring to a second-rate college preparatory high school like ours!”
 \
 ld c,"tachi/aki_t03a",crossfade,400
-`“With all due respect, Brother.@ I’m free to attend any school I please.@ I see no reason I owe you an explanation.”@
+`“With all due respect, Brother.@ I’m free to attend any school I please.@ I see no reason I owe you an explanation, Brother.”@
 `“Don’t be ridiculous.@ I’m your older brother.@ I can’t stand by and let you do something that’s bad for you.@
 `Frankly, transferring to my school can only hurt your prospects.@ Father isn’t here anymore, so the least I can do is look after you properly…!”
 \
@@ -16,24 +16,24 @@ ld c,"tachi/aki_t16a",crossfade,400
 `“You’re the one being unfair.@ What were you thinking, transferring without telling me?@
 `Until you give me a proper reason, I refuse to approve of it!”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“Ah…”@
+`“Ah[line=5]”@
 `“And if your reason is stupid, I’ll send you straight back to your old school.@ Come on, Akiha.@ Tell me why you transferred.”@
 cl a,crossfade,400
-`Akiha lowers her head and falls silent.@
-`A moment later, she straightens proudly and raises her face.
+`Akiha lowered her head and fell silent.@
+`A moment later, she straightened with her usual poise and lifted her chin.
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“Is it so wrong that I’m worried about you?”@
+`“Is it so wrong that I’m worried about you, Brother?”@
 br
 `[line=7]What?@
 br
-`“W-wait.@ You were worried about me, so why would—?”@
+`“W-wait.@ You were worried about me, so why[line=3]?”@
 `Why would you transfer schools over something like that?
 \
 ld c,"tachi/aki_t03a",crossfade,400
 `“Because your recent conduct has become impossible to ignore, Brother.@ To keep you from disgracing the Tohno name, I decided to supervise you personally.”@
 `Akiha delivered the verdict without hesitation.@
-`“Urk…”@
+`“Urk[line=5]”@
 `Accused of bad conduct, I could only concede the point.@
 `My life had been a complete wreck lately, and I had caused nothing but trouble for Akiha and the others.
 \
@@ -45,7 +45,7 @@ ld c,"tachi/aki_t05a",crossfade,400
 \
 `“Fine, do whatever you want.@ But don’t come crying to me if you regret it later.”@
 ld c,"tachi/aki_t06",crossfade,400
-`“Perfectly acceptable.@ I never wanted you worrying about me anyway, Brother.”@
+`“Fine.@ I never wanted you worrying about me anyway, Brother.”@
 `Akiha thrust out her chest and sulked with all the dignity of a child declaring, So there.
 \
 cl a,crossfade,400

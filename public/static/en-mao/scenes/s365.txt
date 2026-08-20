@@ -238,9 +238,9 @@ ld c,"tachi/aki_t17a",crossfade,400
 `“Ah[line=3]Brother.”@
 `“Mm?@ Are you feeling sick after all?@ I can take you to the infirmary.”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“No, I feel perfectly healthy.@ I am not in a bad mood either.@ There is simply a reason I have been so absent-minded this morning.”
+`“No, I am perfectly healthy.@ Nor do I feel unwell.@ There is simply a reason I have been so absent-minded this morning.”
 \
-`“…?@ What reason?”@
+`“…?@ What do you mean by ‘absent-minded’?”@
 ld c,"tachi/aki_t19",crossfade,400
 `“Brother, do you remember the promise we made as children?”@
 `The question comes from nowhere.@
@@ -310,9 +310,9 @@ cl a,crossfade,400
 \
 `“[line=3]Arihiko.@ Have you seen that upperclassman today?”@
 ld c,"tachi/ari_t04",crossfade,400
-`“Huh?@ Who?”@
+`“Huh?@ Which upperclassman are you talking about?”@
 `“The only upperclassman we both know is Ciel.”@
-`“Who’s Ciel?@ Did our school have a foreign exchange student?”@
+`“Who is Ciel?@ Did our school have a foreign exchange student?”@
 br
 `[line=4]My mouth fell open in disbelief.@
 br
@@ -345,15 +345,15 @@ br
 \
 `[line=3]The magic came undone so easily.@
 br
-`She said that with such a sad look, didn’t she?@
+`She said that with such a sad look, did she not?@
 `Arihiko does not remember.@ No one else will remember either.@
 `She was never a student at this school.@
-`She had slipped inside to watch a person named Shiki Tohno.@
-`Once I discovered who she was, she had no choice but to disappear.
+`She had only slipped into the school to keep watch on me.@
+`Once I discovered her true identity, she had no choice but to disappear.
 \
 `“[line=6]”@
 `My chest hurts.@
-`In exchange for proving I was no murderer, Ciel had vanished like a mirage[line=3]gone.
+`In exchange for proving that I was no murderer, has Ciel vanished like a mirage[line=3]?
 \
 bg #000000,crossfade,800
 playstop
@@ -371,7 +371,7 @@ ld c,"tachi/ari_t01",crossfade,400
 `“Got it.@ I’m off, then.”@
 `“Try not to stay out all night.”@
 ld c,"tachi/ari_t02",crossfade,400
-`“Hah, if you are worrying about me, I must really be finished.”
+`“Hah, if Tohno is worrying about me, I must really be doomed.”
 \
 cl a,lshutter,400
 `Arihiko leaves, and soon the other students disappear as well.@
@@ -449,13 +449,13 @@ ld c,"tachi/aki_t12a",crossfade,400
 `Then a thought occurs to me.@
 `Arihiko, the other students[line=3]even the teachers had forgotten her, but did Akiha remember?
 \
-`“Akiha.@ What do you think of her?”@
+`“Akiha.@ What do you think of the upperclassman?”@
 ld c,"tachi/aki_t03a",crossfade,400
-`“I don’t know whom you mean by ‘her,’ but you must be referring to Ciel.@ In that case, my opinion has not changed.@ I don’t want you associating with that woman.”@
+`“I cannot tell whom you mean by ‘the upperclassman,’ but you must be referring to Ciel.@ In that case, my opinion has not changed.@ I simply do not want you associating with her.”@
 `“[line=6]”@
 `My voice catches.@
 `Akiha remembers Ciel.@
-`Everyone else had forgotten Ciel, so why[line=2]
+`Everyone else had forgotten her, so why[line=2]
 \
 `“Akiha, you[line=4]”@
 `“Brother?@ Why are you looking at me like that?”@
@@ -469,7 +469,7 @@ cl a,crossfade,400
 `“Akiha.@ Did you know what she really was from the beginning?”@
 `“[line=8]”@
 `Akiha does not answer.@
-`Her silence is answer enough.
+`I take her silence as a yes.
 \
 `“Akiha, answer me!@ Did you hate her all this time because you knew from the beginning that she was here to hunt vampires…?!”@
 ld c,"tachi/aki_t17a",crossfade,400
@@ -482,8 +482,8 @@ cl a,crossfade,400
 \
 !w2500
 ld c,"tachi/aki_t01a",crossfade,400
-`“Yes, Brother.@ I knew from the beginning that there was something different about her.@ I noticed she was planting suggestions in everyone she met, so I never trusted her.”@
-`“Planting suggestions…?@ Ciel was doing that?”
+`“Yes, Brother.@ I knew from the beginning that there was something different about her.@ I realized she was using suggestion on people she had only just met, so I never trusted her.”@
+`“Suggestion…?@ Ciel was using it on people she had only just met…?”
 \
 `“Yes.@ That is why no one even found a name like Ciel strange, remember?@ The suggestion did not work on me, so I could tell there was something wrong about her.”@
 `Akiha says it almost defensively.@
@@ -520,7 +520,7 @@ cl a,crossfade,400
 `“[line=3]Say something.@ Why are you silent, Akiha…!?”@
 `The silence is unbearable, and I find myself shouting at her.@
 `After a brief stillness.@
-`Akiha walks to the window with all her customary grace, as though nothing happened.@
+`Akiha walks to the window with all her customary grace, as though nothing had happened.@
 `Her long hair shines translucent in the crimson sunset.@
 `That red hair streams behind her as she turns to face me.
 \
@@ -575,7 +575,7 @@ bg "event/aki_e08",lshutter,400
 `Akiha’s brows snap upward.@
 `This is no guilty flinch or attempt to hide something; it is anger.
 \
-`“I see.@ Hisui really is hopeless.@ I warned her again and again not to let you find out, Brother.”@
+`“I see.@ Honestly, Hisui.@ I warned her again and again not to let you find out, Brother.”@
 `Akiha sighs.
 \
 `“Akiha.@ There was a third child.@ Even I remember him, however faintly.@ You can tell me now.@ Why did he—why did he die?”@
@@ -632,7 +632,7 @@ br
 \
 `“…”@
 `Is there no escaping it?@
-`There can be no doubt that Akiha is something inhuman, or that there was a third child and he died.@
+`There can be no doubt that Akiha is something ‘other,’ or that there was a third child and that he died.@
 br
 `Akiha says I killed the third child.@
 `And I myself remember seeing a child drenched in blood in the courtyard.
@@ -665,7 +665,7 @@ br
 `I’m too happy; I run and laugh.@
 `Because this means[line=3]I can go on protecting Akiha forever.@
 `For once, I can even thank the vampire whose consciousness merged with mine.@
-`If that monster hadn’t been spying on Akiha, I might have gone on believing something terrible[line=3]
+`If that vampire had not been watching Akiha, I might have gone on believing something terrible[line=3]
 \
 `“[line=5]”@
 `No, wait.@
@@ -679,7 +679,7 @@ wave se_01
 `Patiently, from concealment.@
 `With the furtive malice of a hunter stalking prey, as if it had marked Akiha as its next victim.
 \
-`“No[line=5]”@
+`“Wha[line=5]”@
 `Ice races down my spine.@
 `But there is no time to stand still.@
 `“Akiha[line=4]!”@

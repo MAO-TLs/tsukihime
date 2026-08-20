@@ -55,7 +55,7 @@ ld c,"tachi/cel_t07a",crossfade,400
 \
 ld c,"tachi/cel_t01a",crossfade,400
 `“Yes.@ I watched you erase ‘Chaos.@’ By the time I reached you, it was already dead.”@
-`“—”@
+`“[line=7]”@
 br
 `I was stunned.@ Then Ciel knew about my eyes—
 br
@@ -82,7 +82,7 @@ ld c,"tachi/cel_t01a",crossfade,400
 `She cheerfully explained things I could barely understand.
 \
 `“In short, they are magical weapons.@
-`We generally attack vampires through the lives they led as humans, so we seldom use them.@ But against a vampiric species that was never human, a conceptual weapon is our final resort.@
+`We generally attack vampires through the lives they led as humans, so we seldom use them.@ But against a vampiric species that was never human, a conceptual weapon is our last resort.@
 `Your knife is an anti-vampire weapon she brought with her, isn’t it?”@
 `“Ah…@ what?”
 \
@@ -91,8 +91,8 @@ ld c,"tachi/cel_t12",crossfade,400
 `Her private muttering continued.
 \
 `I could not follow her reasoning, but apparently she knew nothing about my eyes.@
-`“Excuse me, Ciel.@ What happened to the explanation about vampires?”@
-`“—”@
+`“[line=3]Excuse me, Ciel.@ What happened to the explanation about vampires?”@
+`“[line=12]”@
 `Her monologue stopped dead.@
 ld c,"tachi/cel_t05",crossfade,400
 `Perhaps to hide her embarrassment, she offered me a small, restrained smile.@
@@ -122,7 +122,7 @@ ld c,"tachi/cel_t04",crossfade,400
 `“Exactly.”@
 ld c,"tachi/cel_t12",crossfade,400
 `“The point is simple.@
-`The vampire called the ‘Serpent’ has made reincarnation his own.@
+`The vampire called the ‘Serpent’ has mastered reincarnation.@
 `That is what I mean when I say he returns to life after being killed.”
 \
 `“Reincarnation…@ So when he dies, he starts over as a baby?”@
@@ -150,16 +150,16 @@ ld c,"tachi/cel_t07a",crossfade,400
 `The ‘Serpent’ became a Dead Apostle roughly eight hundred years ago.@
 `Since then, he has reincarnated seventeen times.@ Arcueid Brunestud has killed every single incarnation.”
 \
-`“Arcueid has…?”@
+`“Arcueid…?”@
 ld c,"tachi/cel_t09",crossfade,400
-`“Yes.@ The ‘Serpent’ is a special vampire to her.@ …@He is special to me as well.”@
-`“…@But he just comes back whenever he dies, right?@ Then killing him over and over doesn’t accomplish anything.”
+`“Yes.@ The ‘Serpent’ holds special significance for her.@ He holds special significance for me as well.”@
+`“But he just comes back whenever he dies, right?@ Then[line=3]no matter how many times you kill him, it’s meaningless.”
 \
-`“No, it does not.@
+`“[line=4]That’s true.@
 `She kills the ‘Serpent’; he reincarnates; she kills him again.@
 `They have repeated that cycle for centuries.@
-`…@If Arcueid possessed the power to erase not his body but the very meaning of his existence, none of this would have happened.”@
-`She lowered her head slightly.@ I thought I heard her teeth grind.@
+`If only Arcueid had the power to erase not his body but his very meaning, none of this would have happened.”@
+`She lowered her head slightly, seeming to grind her teeth.@
 br
 `…@I did not know why, but like Arcueid,
 `she seemed to bear some personal hatred for this ‘Serpent.@’
@@ -168,7 +168,7 @@ br
 `So that was the enemy shared by Arcueid and Ciel.@
 `“Ciel.@ What sort of person is this Serpent?”
 \
-`“He is fundamentally male, though the sex of each incarnation depends upon the body he takes.@
+`“He is technically male, though the sex of each incarnation depends on the body he takes.@
 `What makes this Dead Apostle so troublesome is that every incarnation is almost impossible to find.@
 `He is born as a perfectly ordinary baby, with parents of his own.”
 \
@@ -248,7 +248,7 @@ play "*9"
 `The ‘Serpent’ became a Dead Apostle after a True Ancestor drank his blood.@ Do you understand?@ He is the victim of a transcendent species that was never even human.”@
 br
 `She stared into my eyes.@
-`Her empty gaze told me what she meant to say next.
+`Her emotionless gaze told me what she meant to say next.
 \
 `“No.@ You don’t mean that True Ancestor was—”@
 `“Arcueid Brunestud.@ Royalty among the True Ancestors, who committed a single mistake eight hundred years ago.@
@@ -298,9 +298,9 @@ br
 br
 br
 `Nature—the world—possessed a will.@ That was why it still endured, why it strove to preserve its beauty.@
-`The question was not whether humanity could sense it.@
+`The problem was not that I could not sense it.@
 br
-`The question was why nature’s idea of beauty should resemble our own.
+`The problem was that nature and humanity shared the same standard of beauty.
 \
 monocro off
 bg "bg/bg_05a",notrans,0
@@ -349,8 +349,8 @@ ld c,"tachi/cel_t07a",crossfade,400
 `I don’t know why she is presently so weak, but once her power returns, she will no longer need your help.@
 `When that happens, do you truly believe she will let you walk away unharmed?”
 \
-`“Of course she’ll let me go.@
-`She has no reason to do anything to me.”
+`“Of course she’ll let me go, right?@
+`She has no reason[line=3]no reason to do anything to me.”
 \
 `“She is a vampire—but unlike the Dead Apostles, she does not need human blood to survive.@
 `Understand this, Tohno: if the True Ancestors had never drunk human blood, vampires would never have existed.@
@@ -361,13 +361,13 @@ cl c,crossfade,400
 br
 `[line=3]And with that, Ciel had said her piece.@
 br
-`Maybe it was because my head had been swimming, but everything she’d said seemed to concern somebody else.
+`I[line=3]maybe it was because my head had been swimming, but everything she’d said seemed to concern somebody else.
 \
 ld c,"tachi/cel_t07a",crossfade,400
 `“Tohno.@ Do you understand now just how dangerous she is?”@
-`“Yeah.@ I mean, I understand the words, more or less.”@
+`“Yeah, more or less, if I take it at face value.”@
 `“Then please don’t help her anymore.”@
-`“That’s—”@
+`“That’s[line=3]”@
 br
 `I couldn’t do that.@
 `What Ciel was saying didn’t sit right with me.@
@@ -375,14 +375,14 @@ br
 `She didn’t know what a good person Arcueid really was.
 \
 ld c,"tachi/cel_t10a",crossfade,400
-`“Tohno.”@
+`“[line=3]Tohno.”@
 `Ciel made a low, frustrated sound.@
 `But no matter what kind of face she made, I couldn’t lie to myself.
 \
 `“Sorry, Ciel.@ I’ve got my reasons, and I want to help her.@
 `Sure, part of it is that I don’t know what she’d do if I refused.@ But it’s also true that I can’t just abandon her.”@
 ld c,"tachi/cel_t09",crossfade,400
-`“Don’t be ridiculous.@ You’re an ordinary boy, Tohno.@ You shouldn’t be doing anything this dangerous.”
+`“Don’t be ridiculous.@ You’re an ordinary boy, Tohno.@ That’s why[line=3]you shouldn’t be doing anything this dangerous.”
 \
 `“Yeah, I’m grateful you feel that way.@
 `But if there was something I could protect, I wanted to protect it.@ This city, and the school where I can spend quiet days with you.@
@@ -393,22 +393,22 @@ ld c,"tachi/cel_t09",crossfade,400
 ld c,"tachi/cel_t10a",crossfade,400
 `“Arcueid herself is the danger!@ Please, open your eyes!@
 `She isn’t human.@ She’s a monster beyond even the Dead Apostles, one who might drink human blood on a whim at any moment…!”@
-`“What—”
+`“What[line=5]”
 \
 br
-`…@I knew.@
+`I knew.@
 `I knew Ciel was genuinely worried about me.@
-`But that was one thing I could never forgive her for saying.
+`But[line=4]that was one thing I could never forgive her for saying.
 \
-`“Stop it, Ciel.@ She isn’t a monster.@ You’ve never even had a real conversation with her, so don’t call her that.”@
+`“[line=3]Stop it, Ciel.@ She isn’t a monster.@ You’ve never even had a real conversation with her, so don’t call her that.”@
 ld c,"tachi/cel_t09",crossfade,400
-`“…@You’re right about that.@
+`“You’re right about that.@
 `But she is a vampire.@ Please, at least understand that…!”@
 `“That’s what I’m telling you—you’re wrong…!@
-`Listen, Ciel.@ Arcueid doesn’t drink blood.@
+`Listen, Ciel—Arcueid doesn’t drink blood.@
 `She told me so herself, and I don’t believe she was lying.@
 `I don’t know what the other True Ancestors are like, but Arcueid is different.@
-`She, at least, would never—”
+`She, at least, would never[line=3]”
 \
 ld c,"tachi/cel_t07a",crossfade,400
 `“Would never what?@
@@ -419,23 +419,23 @@ ld c,"tachi/cel_t07a",crossfade,400
 \
 br
 `Ciel’s voice rose almost to a shout.@
-`…@I knew.@
+`I knew.@
 `I understood perfectly well that she was right.@
-`And that was precisely why her voice became unbearable.
+`And that was precisely why[line=3]her voice became unbearable.
 \
-`“…@Shut…@ up.”@
+`“Shut—up.”@
 `“Shiki…?”@
-`“Just shut up!@ Arcueid doesn’t treat me like a tool…!@
-`You don’t know her—you don’t know anything about her, and all you can see is a monster.@ You have no right to say that…!”@
+`“[line=3]Just shut up!@ Arcueid doesn’t treat me like a tool…!@
+`You don’t know her[line=3]you don’t know anything about her, and all you can see is a monster; you have no right to say that…!”@
 `“Please calm down.@
-`You’re right that I don’t know her well.@ But there’s still a chance she may be deceiving you—”
+`You’re right that I don’t know her well.@ But there’s still a chance she may be deceiving you[line=3]”
 \
 `“Shut up!@ You’re the one who deceived me!”@
 `“…@Ah.”@
 cl c,crossfade,400
-`Oh no.@
-`Why had I—
-`Why had I lashed out with something so cruel?
+`Oh[line=3]no.@
+`Why had I?@
+`Why had I gotten so worked up that I said something[line=3]so cruel?
 \
 `“Ciel, what I just said…”@
 `I couldn’t make myself say I’d gone too far.@
@@ -452,8 +452,8 @@ ld c,"tachi/cel_t04",crossfade,400
 `It had to be false, yet no matter how I searched it, all I could see was a genuine smile.
 \
 `“I’m sorry I took up so much of your time.@
-`Well, then…@ I’ll disappear now.”@
-`“What?”@
+`Well, then[line=3]I’ll disappear now.”@
+`“[line=4]What?”@
 cl c,crossfade,800
 br
 `The wind rushed past.@
@@ -502,7 +502,7 @@ br
 \
 ld c,"tachi/ari_t01",crossfade,400
 `“What’s this, Tohno?@ You went behind my back, confessed to her, and got rejected?”@
-`“I wish that were all it was.”@
+`“[line=3]I wish that were all it was.”@
 cl c,crossfade,400
 br
 `Even being told she was sorry or that it was goodbye would have left some room for hope.@
@@ -515,11 +515,11 @@ bg #000000,crossfade,400
 !w1000
 bg "bg/bg_06b",crossfade,800
 `After school.@
-`Since it was Wednesday, the instant homeroom ended my classmates scattered from the classroom like startled spiders.@
+`Since it was Wednesday, the instant homeroom ended my classmates scattered from the classroom like a brood of spiders.@
 br
 `It was Wednesday, and I still couldn’t summon the will to do anything.@
 `Even if I went to the tea-ceremony club, Ciel wouldn’t be there.@
-`“…”@
+`“[line=5]”@
 `With all the life of a corpse, I set out alone for the mansion.
 \
 bg #000000,lcartain,1500
@@ -549,7 +549,7 @@ wave se_01
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40c",notrans,0
-`“Ngh—”@
+`“Ngh[line=3]”@
 `A faint headache.@
 `I’d been getting more of them lately.@
 `The anemia had always brought dizziness before.@ Had it turned into pain because I’d begun taking off my glasses and seeing ‘death’ again?@
@@ -565,7 +565,7 @@ play "*9"
 `I stepped outside.@
 `The streets around the mansion saw little traffic even at the best of times, and the serial killings had stilled them further.@ It wasn’t even ten, yet the loneliness belonged to one in the morning.
 \
-`“Haa…”@
+`“[line=4]Haa.”@
 `October was entering its final days, and the wind had begun to carry a slight chill.@
 `With the idle melancholy of knowing autumn would soon be over, I started down the empty road.
 \
@@ -580,15 +580,15 @@ br
 ld c,"tachi/cel_t07b",crossfade,400
 `“Where are you going at this hour?”@
 `Ciel asked in a sulky voice without looking at me.@
-`“Ci—el.”@
+`“Ci—el[line=4]”@
 `My feet stopped dead.@
 `Like Ciel, I couldn’t bring myself to look her in the face.@
 br
 `After what had happened that morning, I was too ashamed to face her.
 \
 `“After everything I said, you’re still going to her, Tohno.”@
-`“…@I can’t help it.@ I can’t leave Arcueid alone, and I can’t ignore the vampire nesting in this city.”@
-`“Yes.@ Your reasoning is perfectly sound.”@
+`“I can’t help it.@ I can’t leave Arcueid alone, and I can’t ignore the vampire nesting in this city.”@
+`“[line=3]Yes.@ Your reasoning is perfectly sound.”@
 cl c,crossfade,400
 `Ciel fell silent.@
 `I walked past her where she leaned against the wall.
@@ -630,7 +630,7 @@ br
 `I had to turn around and settle this plainly.
 \
 `I wheeled around.@
-`“Listen, Ciel.”@
+`“[line=3]Listen, Ciel.”@
 ld c,"tachi/cel_t07b",lshutter,400
 `“Yes?”@
 `“…@Your house isn’t this way, is it?”@
@@ -646,7 +646,7 @@ ld c,"tachi/cel_t01b",crossfade,400
 `Ciel tried to send me on my way with a beaming smile.@
 `But now I had a very, very bad feeling.
 \
-`“…”@
+`“[line=6]”@
 `I drew a slow breath.@
 ld c,"tachi/cel_t07b",crossfade,400
 `“What’s the matter—aren’t you going?”@
@@ -656,10 +656,10 @@ ld c,"tachi/cel_t07b",crossfade,400
 bg #000000,lcartain,800
 bg "bg/bg_27b",lcartain,800
 br
-`“Hah, hah, hah—”@
+`“Hah, hah, hah[line=3]”@
 br
 `This far.@
-`After running flat out this far, there was no chance she could still be—
+`After running flat out this far, there was no chance she could still be[line=3]
 br
 ld c,"tachi/cel_t07b",lshutter,400
 `“You’ll hurt yourself if you rush like that, Tohno.”@
@@ -672,8 +672,8 @@ ld c,"tachi/cel_t07b",lshutter,400
 `“Because I’d worry if you went alone.”@
 `Once again, she delivered the answer with absolute finality.
 \
-`“Uh…@ well…”@
+`“Uh, well.”@
 `When she put it that firmly, I had no idea how to answer.@
-`But answer or not, this was where I had to—
+`But answer or not, this was[line=3]
 br
 cl c,crossfade,400

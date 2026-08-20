@@ -14,8 +14,8 @@ cl c,crossfade,400
 bg #000000,lcartain,800
 !w1000
 bg "bg/bg_06a",lcartain,800
-`I bought a roll and some milk and returned.@
-`At my desk by the window, I found Arihiko and Ciel.@
+`I buy a roll and some milk and return.@
+`At my desk by the window, I find Arihiko and Ciel.@
 ld l,"tachi/cel_t03",lshutter,800
 `“Oh, Tohno.@ Sorry to intrude.”@
 ld r,"tachi/ari_t02",lshutter,800
@@ -23,8 +23,8 @@ ld r,"tachi/ari_t02",lshutter,800
 `Ciel’s mere presence seemed to have put Arihiko in high spirits; he turned to me with a grin, seeking agreement.@
 `For once, I happened to share his opinion.
 \
-`“It does help having you here.@ Sitting face-to-face with this specimen over lunch is never good for me.”@
-`I answered lightly and sat down.@
+`“It does help having you here.@ Sitting face-to-face with this specimen over lunch is bad for me in all sorts of ways.”@
+`I answer lightly and sit down.@
 cl a,crossfade,800
 `Ciel had a generously sized lunch box open before her; Arihiko had already polished off his sandwich.
 \
@@ -32,8 +32,8 @@ cl a,crossfade,800
 `I put my hands together over the food and bit into the bread.@
 `I had no appetite, but managed to wash it down with milk by sheer force.@
 br
-`Ciel and Arihiko, both finished with lunch, were absorbed in some gruesome topic.@
-`Murder, mutilation, random attacks—they had been tossing around such words without the least concern for someone struggling to keep his food down.
+`Ciel and Arihiko, both finished with lunch, are absorbed in some gruesome topic.@
+`Murder, mutilation, random attacks—they have been tossing around such words without the least concern for someone forcing down a meal.
 \
 ld r,"tachi/ari_t01",crossfade,400
 `“Huh, so they still haven’t found the missing people?”@
@@ -56,14 +56,14 @@ br
 `“[line=3]Ciel.@ What exactly was reported this morning?”@
 ld l,"tachi/cel_t01a",crossfade,400
 `“The news said that a woman[line=3]a girl our age, actually, went shopping last night and never came home.@ Apparently her family lives near the park.”@
-`“I see.@ Near the park, then.”@
+`“I see.@ Near the park.”@
 br
 `The moment I said it, the contents of my stomach surged toward my throat.
 \
 `[line=3]Last night.@
 br
-`A girl I did not know had happened by pure chance to pass through the park, only to disappear before violence beyond all reason.@
-`Missing was more apt than dead for a ravenous feeding that left not so much as a strand of hair.
+`A girl I did not know had, by pure chance, passed through the park last night—and vanished in the face of violence so senseless it defied reason.@
+`Missing was a more fitting word than dead: that ravenous feeding had not left so much as a single strand of hair.
 \
 ld r,"tachi/ari_t03",crossfade,400
 `“That makes nine missing people, or was it ten?@ Hell of a pace for a single month.”@
@@ -73,7 +73,7 @@ ld l,"tachi/cel_t12",crossfade,400
 \
 ld l,"tachi/cel_t01a",crossfade,400
 `“By the way, didn’t you see the news either, Tohno?@ Are you bad at mornings too?”@
-`“I don’t know.@ I wouldn’t say I’m bad at mornings, but I don’t seem particularly good at them either.@ That’s beside the point, though; I probably won’t be watching the news for a while.@ We don’t have a television at home.”@
+`“I don’t know.@ I wouldn’t say I’m bad at mornings, but I don’t seem particularly good at them either.@ That’s beside the point; I probably won’t be watching the news for a while.@ We don’t have a television at home.”@
 cl a,notrans,0
 `Ciel and Arihiko froze in perfect unison.
 \
@@ -84,7 +84,7 @@ ld r,"tachi/ari_t03",crossfade,400
 \
 `“I’m telling you, there really isn’t one.@ My father used to declare that he had no use for such a shoddy brainwashing device.@
 `There’s just one little set in Kohaku’s room, and I can hardly visit a woman’s bedroom first thing in the morning.”@
-`That left newspapers as my only source of news.
+`That leaves newspapers as my only source of news.
 \
 ld l,"tachi/cel_t07a",crossfade,400
 `“What exactly do you mean by ‘a woman,’ Tohno?”@
@@ -100,7 +100,7 @@ ld l,"tachi/cel_t12",crossfade,400
 `It wouldn’t make any difference whether Kohaku was a woman or a man.”
 \
 `“Really?@ Kohaku sounded awfully familiar on your lips, didn’t it, Inui?”@
-`“Exactly; you practically glowed when you said her name.@ I’ve been meaning to ask, Tohno, just what kind of life are you living in that place?”@
+`“Exactly—you practically glowed when you said her name.@ I’ve been meaning to ask, Tohno: just what kind of life are you living in that place?”@
 cl a,crossfade,400
 `Their sharp glares curdled into long, suspicious stares.
 \
@@ -108,8 +108,8 @@ cl a,crossfade,400
 `The bread lodged in my throat.@
 `Arihiko was bad enough, but being interrogated beneath Ciel’s cold gaze as well gave the pair a terrifying intensity.@
 ld l,"tachi/cel_t04",crossfade,400
-`“We still have plenty of time before lunch break ends, Tohno.@ Please, take all the time you need to tell us about life at your mansion.”@
-`Ciel advanced with a smile that permitted no refusal.@
+`“We still have plenty of time before lunch ends, Tohno.@ Please, take all the time you need to tell us about life at your mansion.”@
+`Ciel advances with a smile that permits no refusal.@
 `“…”@
 br
 `The mere thought of enduring this for another twenty minutes made me dizzy.

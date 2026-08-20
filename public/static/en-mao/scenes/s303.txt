@@ -1,21 +1,21 @@
 wavestop
 bg "bg/bg_34a",notrans,0
 playstop
-`No, I couldn't celebrate.@
-`I felt bad after Kohaku had gone out of her way for me, but until I could forget what had happened with Yumizuka, I couldn't possibly be in the mood.@
+`No—I couldn't celebrate.@
+`I felt bad after Kohaku had gone out of her way for me, but while I still remembered what had happened with Yumizuka, I could not possibly be in the mood.@
 bg "bg/ima_13",crossfade,400
-`These past two days, I had seen so much of other people’s blood.@
+`Over the past two days, I had seen so much of other people's blood.@
 `Someone like me had no right to be welcomed by Kohaku, Akiha, and Hisui.
 \
 bg "bg/bg_34a",crossfade,400
-`“I’m sorry.@ I’m glad you offered, but I’m really not in the mood right now—”@
+`“I’m sorry.@ I’m glad you offered, but I’m really not in the mood right now[line=4]”@
 br
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_34a",crossfade,400
 `[line=3]THUMP.@
 br
-`“What…?”@
+`“Wh[line=4]at?”@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_34a",crossfade,400
@@ -29,18 +29,18 @@ bg "bg/bg_34a",crossfade,400
 br
 `[line=3]THUMP.@
 br
-`the room began to spin.
+`The room began to spin.
 \
 bg #000000,crossfade,400
 bg "bg/bg_34a",crossfade,400
 bg #000000,crossfade,1500
-`“Brother!”@
+`“Brother[line=3]!”@
 `I heard Akiha call out.@
-`But her voice couldn't arrest the darkness swallowing my mind.@
+`But that did nothing to stop my fading consciousness.@
 `“Stay with me, Brother…!”@
 `Her voice receded into the distance.@
 `God, I disgusted myself.@
-`Merely remembering Yumizuka was enough to make Shiki Tohno lose consciousness—
+`Merely remembering Yumizuka was enough to make Shiki Tohno lose consciousness[line=4]
 \
 bg #ffffff,crossfade,800
 play "*8"
@@ -76,41 +76,41 @@ br
 `I had neither loved nor hated her,
 `yet I felt that I must never forget her smile.@
 `More than anything.@
-`As long as the scar on my throat continued to ache, forgetting would be impossible—
+`As long as the scar on my throat continued to ache, forgetting would be impossible[line=4]
 \
 playstop
 bg #ffffff,crossfade,800
 !w1000
 play "*1"
 bg "bg/bg_40c",crossfade,800
-`“Ah…”@
+`“Ah[line=5]”@
 `When I came to, I was lying in my own room.@
 `I was in bed, and Akiha was sitting before me.@
 br
 `“Akiha?”@
 ld c,"tachi/aki_t21b",crossfade,800
-`“You're awake?@ Honestly, why must you suddenly collapse from anemia like that?”@
+`“You're awake?@ Honestly, why must you suddenly collapse from anemia like that, Brother?”@
 `“I see—so I did pass out.”@
 ld c,"tachi/aki_t12b",crossfade,400
 `“Yes.@ You slept for seven hours, Brother.”@
-`“I see.@ I haven't been sleeping much lately; perhaps it all caught up with me.”
+`“[line=3]I see.@ I haven't been sleeping much lately; perhaps it all caught up with me.”
 \
 cl c,crossfade,400
 `I said that and stared at the ceiling.@
-`My head was still swimming, and I didn't feel like talking.@
-`Yet Akiha seemed perfectly content with the silence as she simply sat beside me and monitored my condition.
+`My head was still swimming, and I didn't feel like talking to Akiha.@
+`Yet the silence did not seem to bother her; she simply sat there, quietly watching over me.
 \
 `“Akiha?”@
 ld c,"tachi/aki_t12b",crossfade,400
 `“Yes?@ What is it, Brother?”@
-`“Well, you must be bored sitting there.@ I'm fine now.@ You can go back to your room.”@
+`“[line=3]Well.@ You must be bored sitting there.@ I'm fine now, so you can go back to your room if you want.”@
 ld c,"tachi/aki_t01b",crossfade,400
 `“Are you telling me I'm in the way?”@
 `“No, I only thought you might be bored.”@
 ld c,"tachi/aki_t04b",crossfade,400
-`“I am bored, but I can endure it.@ I'm here because I choose to be, so you needn't feel guilty.”@
+`“I am bored, but I can endure it.@ I'm here because I choose to be, Brother, so you needn't feel guilty.”@
 `“Mm.”@
-`In that case, I supposed it was all right.
+`In that case[line=3]I supposed it was all right.
 \
 cl c,crossfade,400
 `Time passed.@
@@ -140,13 +140,13 @@ ld c,"tachi/aki_t01b",crossfade,400
 `“Yes.@ I was thinking that there’s still a little of the old Akiha left in you.@ It’s nothing important, but realizing it made me happy.”@
 `Without effort or artifice, I smiled at her so gently that I surprised myself.@
 ld c,"tachi/aki_t16b",crossfade,400
-`“That’s very nice, but you haven’t changed at all.@ You might at least correct this habit of making everyone fuss over you.”@
-`Akiha turned away and delivered the insult.@
+`“That's very nice, Brother, but you haven't changed at all.@ You might at least correct this habit of making everyone fuss over you.”@
+`Akiha turned away and delivered the barb.@
 `Now that I understood she was only hiding her embarrassment, it made me happier still.
 \
 ld c,"tachi/aki_t21b",crossfade,400
 `“Honestly, why have you been grinning like that?@ If you have so much energy, perhaps I no longer need to watch over you.”@
-`“It's not that.@ I was only remembering something from long ago, when you were in a tatami room—”@
+`“It's not that.@ I was only remembering something from long ago, when you were in a tatami room[line=3]”@
 br
 `[line=4]A tatami room?@
 `What was that memory?@
@@ -159,12 +159,12 @@ ld c,"tachi/aki_t01b",crossfade,400
 `“No.@ There are no Japanese-style rooms in the mansion.”@
 `“Right.@ Never mind—the thought simply struck me as odd.@ Don't worry about it.”@
 ld c,"tachi/aki_t13b",crossfade,400
-`“I see.@ Does the absence of a Japanese room trouble you so much?”@
-`“A little—this place is enormous.@ You'd think there might be one somewhere.”@
+`“I see.@ You find it strange that there aren't any Japanese-style rooms, Brother?”@
+`“A little.@ In a mansion this large, you'd think there might be at least one.”@
 ld c,"tachi/aki_t01b",crossfade,400
-`“We have not just one room, but an entire Japanese-style annex.”@
-`“What—?”@
-`[line=3]Of course, now I remembered.@
+`“There is more than a room; there is an entire Japanese-style annex.”@
+`“What[line=3]?”@
+`[line=3]Ah, of course.@
 `There was a Japanese house deep among the trees in the garden.
 \
 ld c,"tachi/aki_t25",crossfade,400
@@ -212,14 +212,14 @@ br
 `“……”@
 `A little girl had cried and cried in that dark tatami room.@ Feverish and dazed, I bit my tongue in frustration.@
 `Why was she crying?@
-`If it were up to me.@
-`If it were up to me, I would never, ever make akiha cry.@
+`If it were me.@
+`If it were me, I would never, ever make akiha cry.@
 br
 `I'm sorry.@
 `I'm sorry, big brother shiki.@
 br
 `Her tears were simply beautiful.@
-`Perhaps that was when I had sworn to become a true brother to akiha—
+`Perhaps that was when I had sworn to become a true brother to akiha[line=3]
 \
 bg #000000,crossfade,800
 playstop
@@ -252,7 +252,7 @@ wave se_01
 bg #9c0120,crossfade,400
 bg "bg/bg_40a",notrans,0
 play "*2"
-`“Nn…”@
+`“Nn[line=5]”@
 `A sharp stab of pain woke me.
 \
 `“Morning already?”@
@@ -261,7 +261,7 @@ play "*2"
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_40a",crossfade,400
-`“Ow—”@
+`“Ow[line=3]”@
 `Another pulse of pain went through me.@
 `It wasn't in my head or chest, but along the side of my neck.@
 `“That's strange—my neck has never hurt before.”@
@@ -284,12 +284,12 @@ ld c,"tachi/his_t01",crossfade,400
 `Apparently my sudden collapse yesterday was still troubling her.
 \
 `“I'm fine—there's nothing wrong with me.@ I only collapsed because I'd been pushing myself too hard, and it won't happen again.”@
-`Yumizuka—the vampire—was gone.@
+`Yumizuka[line=3]that vampire was gone.@
 `There would be no more wandering the streets after midnight as I had these past several days.@
 ld c,"tachi/his_t07",crossfade,400
-`“If you say so, Master Shiki…”@
+`“If you say so, Master Shiki[line=3]”@
 `Hisui looked unusually anxious, as though something else still concerned her.@
-`“I appreciate you worrying about me, but—”@
+`“[line=4]Well, I appreciate you worrying about me.”@
 `I sprang briskly out of bed.
 \
 `“As you can see, I’m full of energy.@ I’ll change and come to the sitting room in a minute, so go on ahead.”@
@@ -305,26 +305,26 @@ cl c,lshutter,800
 bg #000000,lcartain,800
 bg "bg/bg_33a",lcartain,800
 ld c,"tachi/aki_t01a",crossfade,400
-`“Ah,”@ we both said
-`I had run into Akiha in the foyer.@
-`She was already holding her schoolbag, apparently ready to leave.@
-`For some reason, the moment I saw her face, a rush of heat went through my body.
+`We both said, “Ah.”@
+`We ran into each other in the foyer.@
+`Akiha already had her schoolbag in hand, apparently ready to leave.@
+`For some reason, the moment I saw her face, heat rushed through my body.
 \
 ld c,"tachi/aki_t09",crossfade,400
 `“Good morning, Brother.”@
-`“Y-yes.@ Morning, Akiha.”@
+`“[line=3]Ah, yes.@ Good morning, Akiha.”@
 `My heart gave a painful thud.@
 ld c,"tachi/aki_t08a",crossfade,400
-`“My, did something happen today?@ Being twenty minutes early is hardly like you.”@
+`“My, did something happen today?@ Being twenty minutes early is hardly like you, Brother.”@
 `“No, I only had an unpleasant dream.@ It was just a whim, so don't worry about it.”@
 br
 `I had no idea what I was saying.@
 `Perhaps because of that dream, the face of Akiha as a child kept flickering over the face before me, and I could no longer look her in the eye.
 \
 ld c,"tachi/aki_t13a",crossfade,400
-`“Brother?@ Your face is red.@
-`Do you have a fever?”@
-`“No, I don't think it's that—”@ “……?”@
+`“Brother?@ Your face is red; do you have a fever?”@
+`“No, I don't think it's that[line=3]”@
+`“……?”@
 cl a,crossfade,400
 `Unable to meet Akiha’s eyes, I looked away.@
 `She knit her brows suspiciously and stepped close to me.
@@ -332,7 +332,7 @@ cl a,crossfade,400
 ld c,"tachi/aki_t01a",crossfade,400
 `“Excuse me.”@
 `Akiha laid a hand against my forehead.@
-`“Ah—”@
+`“Ah[line=4]”@
 `My heart slammed in my chest.@
 br
 `[line=3]Akiha’s palm hadn’t changed at all.@
@@ -350,8 +350,8 @@ br
 br
 `I could easily imagine how scarlet my face must have become.
 \
-`“Akiha—wait.”@
-`I needed her to move away.@
+`“Akiha[line=3]wait.”@
+`If she didn't move away, I was in trouble.@
 ld c,"tachi/aki_t09",crossfade,400
 `“You don't seem to have a fever.”@
 `Akiha removed her hand and stepped back a little.@
@@ -377,10 +377,10 @@ ld c,"tachi/koha_t01a",crossfade,400
 \
 ld c,"tachi/koha_t02",crossfade,400
 `“Yes.@ I was wondering what you did to Miss Akiha.@ It has been ages since I saw Miss Akiha look so happy, and I simply had to know.”@
-`“No—I didn’t do anything to make Akiha happy.@ If anything, something happened that made me happy—”@
-`Come to think of it, Akiha was in an exceptionally good mood.@
-`She was smiling from the moment we met, and taking my temperature herself was hardly like her.@
-`She could have left that to Kohaku, which made it seem a little strange.
+`“No—I didn't do anything to make Akiha happy.@ If anything, something happened that made me happy[line=4]”@
+`Come to think of it, Akiha had been in an exceptionally good mood.@
+`She had been smiling from the moment we met, and taking my temperature herself was hardly like her.@
+`She could have left that to Kohaku; something about it was a little strange.
 \
 `“Shiki?@ Have you thought of something?”@
 `“Sorry, no.@ She was certainly cheerful today, but I doubt it was because of me.@
@@ -444,18 +444,18 @@ ld c,"tachi/cel_t01a",crossfade,400
 ld c,"tachi/cel_t07a",crossfade,400
 `Ciel stared intently at my face; did I have something stuck to it?
 \
-`“Ciel?”@
+`“Um[line=3]Ciel?”@
 `“Did something happen over the holiday, Tohno?”@
-`“Nothing in particular—why?”@
+`“Nothing in particular—why do you ask?”@
 ld c,"tachi/cel_t12",crossfade,400
 `“No reason.@ I was only teasing you, so forget I said anything.”@
 `“?”@
 `I could only stare at her in confusion.@
 cl a,crossfade,400
 br
-`[line=4]And then.@
+`[line=4]Then.@
 br
-`a familiar face came tearing out of the school building at tremendous speed.
+`A familiar face came tearing out of the school building at tremendous speed.
 \
 `“That's Inui.”@
 `Ciel observed calmly.@
@@ -504,20 +504,20 @@ br
 br
 br
 br
-`[line=7]Wait—what?
+`[line=7]Wait, what?
 \
 `“Hold on.@ How do you know I have a sister?”@
 ld c,"tachi/ari_t03",crossfade,400
-`“Waaaah—you really do?”@
+`“Waaaah—you really do have one!”@
 `Arihiko clutched his head and writhed in anguish.@
-`It was such a delightful performance that even if he owed me a million yen, I would still have denied knowing him.
+`It was such a magnificent performance that even if I had lent him a million yen, I would still have claimed not to know him.
 \
 `“Stop it, Arihiko.@ Please.@ At this rate, the whole school will be laughing at us.”@
 ld c,"tachi/ari_t04",crossfade,400
 `“Like I care!”@
 `Arihiko glared at me through gritted teeth.@
 ld c,"tachi/ari_t05",crossfade,400
-`“You traitor—one of these days, I'll make you call me big brother!”@
+`“You traitor—I'll be calling you Brother before long!”@
 cl a,lshutter,400
 `Arihiko ran off after delivering that incomprehensible threat.@
 `He went not toward the school building, but straight back out through the gates.
@@ -530,11 +530,11 @@ bg #000000,lcartain,800
 !w1000
 bg "bg/bg_06a",tshutter,800
 `During the break after second period, Arihiko abruptly returned.@
-`“Indeed.@ Upon reflection, I realized there was no reason for me to go home.”@
-`Having declared that, he sat quietly at his desk.@
+`“Indeed.@ Upon reflection, I realized that I had no reason to go home.”@
+`With that declaration, he sat quietly at his desk.@
 `I ignored him and waited drowsily for third period to begin.
 \
-`Still, something felt odd about the classroom today.@
+`Still[line=3]something felt odd about the classroom today.@
 br
 `At every break, nearly all the boys streamed out in a mob, then returned wearing blissful smiles.@
 `“?”@
@@ -556,7 +556,7 @@ ld c,"tachi/cel_t05",crossfade,400
 `“Oh, how relaxed you are.@ I suppose you have no reason to go look, Tohno.”@
 `“…?”@
 br
-`I didn’t understand, but apparently TOHNO HAD NO REASON TO GO LOOK.
+`I didn't understand, but apparently TOHNO HAD NO NEED TO GO SEE HER.
 \
 `“What does that mean?@ Go look at what?”@
 ld c,"tachi/cel_t03",crossfade,400
@@ -565,12 +565,12 @@ ld c,"tachi/cel_t03",crossfade,400
 `She's remarkably popular.”@
 `A transfer student—so that was who all the boys had been going to see?
 \
-`“I see.@ From the way you describe her, she must be pretty.”@
+`“[line=4]I see.@ From the way you describe her, she must be pretty.”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“I haven't seen her, but everyone has been talking about it since morning.@ A girl transferred into the first year from a famous young ladies' academy.”@
+`“I haven't seen her, but everyone has been talking about her since morning.@ Apparently a first-year transferred from a famous young ladies' academy.”@
 `“At this time of year?@ She must have had an unusual reason.”@
 `“So it is unusual.@ What a waste, though—Asagami Girls' Academy is one of the finest schools in the country, isn't it?”@
-`“What a coincidence.@ My sister is a first-year there—”
+`“What a coincidence.@ My sister is a first-year there[line=3]”
 \
 `[line=4]Wait.@
 br
@@ -599,7 +599,7 @@ br
 `Miss Akiha went in early because she had some paperwork to take care of.
 \
 bg "bg/bg_06a",rshutter,400
-`“No way.”@
+`“[line=6]No way.”@
 `I was stunned.@
 `Stunned, but there was no other possible explanation.@
 ld c,"tachi/cel_t07a",crossfade,400
@@ -621,11 +621,11 @@ ld c,"tachi/ari_t01",crossfade,400
 `“Arihiko.@ Tell me the name of this transfer student.”@
 ld c,"tachi/ari_t02",crossfade,400
 `“Oh, don't make me say it when you already know.@
-`Her name is Akiha Tohno.@ Wonder of wonders, she happens to be your little sister.@
+`Yes, her name is Akiha Tohno.@ As it happens, she's your little sister.@
 ld c,"tachi/ari_t01",crossfade,400
-`Honestly, you even kept me in the dark.@ With a catch like that, the secret was bound to get out; this time, I really have to question our friendship.”@
-`“No—there was never any such fantasy between us, but—right, I see.”@
-`I answer weakly and return to my desk.
+`And you even kept her secret from me.@ With a girl like that, of course word got out; this time I really do have to question our friendship.”@
+`“No—there was never any such fantasy between us; still, I see.”@
+`I answered weakly and returned to my desk.
 \
 cl a,lshutter,800
 ld c,"tachi/cel_t07a",lshutter,800
@@ -637,7 +637,7 @@ cl a,lshutter,400
 `Ciel skipped lightly out of the classroom.
 \
 `Akiha had transferred to my school.@
-`“What the hell is she thinking?”@
+`“[line=3]What the hell is she thinking?”@
 `I muttered in a daze and collapsed limply into my chair.
 \
 bg #000000,bshutter,800
@@ -647,25 +647,25 @@ bg "bg/bg_06a",tshutter,800
 `The fluent English washed over me without sinking in.@
 `My thoughts were so consumed by Akiha's transfer that the English sounded like nothing but irritating noise.
 \
-`“……”@
+`“[line=6]”@
 `Honestly, Akiha was impossible.@
 `If she meant to transfer here, she could at least have warned me.@
-`Besides, what possible advantage could there be in attending my school—
+`Besides, what possible advantage could there be in attending my school[line=3]
 br
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_06a",crossfade,400
 waveloop se_02
-`“Ah—”@
+`“Ah[line=5]”@
 `Pain stabbed through me.@
 `It came from the side of my neck.
 \
 monocro #ff0000
 bg "bg/bg_06a",rshutter,800
 `My body pitched onto the desk with a clatter.@
-`Damn.@ I couldn’t make it move properly.@
+`Damn.@ I couldn't make it move properly.@
 `Was this dizziness?@
-`Then it was the same as always.@ Normal.@ I’d recover at once.@ Class was in session.@ I had to recover.@ The English teacher was reading impatiently.@ Blackboard.@ Chalk.@ White dust.@ English.@ English.@ The scrape of chalk.@ Teacher.@ Teacher.@ Adult.@ Platform.@ The platform creaking.@ Desks.@ Thirty-six desks.@ Students.@ Students.@ Thirty-six students.@ There had been thirty-seven three days ago.@ Window.@ Sky.@ Schoolyard.@ Sun.@ Nobody there.@ Lonely.@ Cold.@ Afraid.@ Uneasy.@ Something.@ I want something.@ Want it.@ Want it—
+`Then it was the same as always.@ Normal.@ I would recover at once.@ Class was in session.@ I had to recover.@ The English teacher was reading impatiently.@ Blackboard.@ Chalk.@ White dust.@ English.@ English.@ The scrape of chalk.@ Teacher.@ Teacher.@ Adult.@ Platform.@ The platform creaking.@ Desks.@ Thirty-six desks.@ Students.@ Students.@ Thirty-six students.@ There had been thirty-seven three days ago.@ Window.@ Sky.@ Schoolyard.@ Sun.@ Nobody there.@ Lonely.@ Cold.@ Afraid.@ Uneasy.@ Something.@ I want something.@ Want it.@ Want it[line=4]
 \
 bg #ffffff,crossfade,800
 monocro off
@@ -688,7 +688,7 @@ wave se_03
 bg "bg/bg_06a",bcartain,800
 play "*3"
 `At lunchtime the classroom erupted into motion.@
-`“Haaah…”@
+`“[line=4]Haaah.”@
 `A sigh escaped me.@
 `I had felt feverish since morning, and now my whole body was so heavy that perhaps I truly had caught a cold.
 \
@@ -697,7 +697,7 @@ ld c,"tachi/ari_t01",crossfade,400
 `“Yeah, I'm not feeling well today.@ I can't make it to the cafeteria, so could you buy lunch for me?@ My usual order from the school store is fine.”@
 `“Sure, but what about your sister?@ She looked rather lost in the cafeteria.”
 \
-`“Ah.”@
+`“[line=4]Ah.”@
 `Of course—she had always attended a refined young ladies' academy and wouldn't know the first thing about an ordinary school cafeteria.@
 `I could picture her perfectly, stranded in the middle of it with no idea what to do.@
 br
@@ -710,17 +710,17 @@ br
 bg #000000,lshutter,800
 bg "bg/bg_50",lshutter,800
 `Akiha stood frozen in the center of the crowded cafeteria.@
-`She was alone and plainly unable to decide what she was meant to do.@
-`“Honestly.@ What is she doing?”@
+`Alone, and plainly unable to decide what she was meant to do.@
+`“[line=3]Honestly.@ What is she doing?”@
 `I hurried toward her.
 \
 `“Akiha.”@
 ld c,"tachi/aki_t19",crossfade,400
 `“Brother.”@
-`For one instant, Akiha looked ready to cry.@
-`Pain tightened my chest.@
-`“Come on.@ This way—you hate crowds like this, don't you?”@
-`“Yes.”@
+`For one instant.@
+`Akiha looked ready to cry, and pain tightened my chest.@
+`“[line=3]Come on, this way.@ You hate crowds like this, don't you?”@
+`“Ah[line=4]yes.”@
 cl a,crossfade,400
 `Unable to bear that near-tearful face for even another second, I seized Akiha by the arm and pulled her out of the cafeteria.
 \
@@ -728,40 +728,40 @@ bg #000000,lcartain,800
 bg "bg/bg_04",rcartain,800
 `“It's quieter here.@ Sit on the bench while I go buy you lunch.”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Yes.@ I'm sorry you had to come all this way, Brother.”@
-`“It's fine; I'll ask what happened later.@ Arihiko, I'm going to the school store, so look after Akiha until I'm back.”@
+`“Yes.@ I'm sorry for the trouble, Brother.”@
+`“[line=3]It's fine; I'll ask what happened later.@ Arihiko, I'm going to the school store, so look after Akiha until I'm back.”@
 cl a,crossfade,400
 ld c,"tachi/ari_t03",crossfade,400
 `“Gah!@ Wh-why would you rely on me at a time like this?@ I'll go to the store, so you stay and keep your sister company.”
 \
-`“What’s wrong, Arihiko?@ Weren’t you going to call me Big Brother?@ I’m warning you, you’ll never get another chance like this.”@
-`I murmur into his ear.@
-`Not to be outdone, Arihiko joins the whispered conference.@
-`“I know, but suddenly leaving me alone with her would be madness.@ With most girls I’d prefer that, sure, but your sister is way out of my league.”
+`“What's wrong, Arihiko?@ Weren't you going to call me Brother?@ I'm warning you, you'll never get another chance like this.”@
+`I murmured it into his ear.@
+`Not to be outdone, Arihiko joined the whispered conference.@
+`“I know, but suddenly leaving me alone with her would be madness.@ With most girls I'd prefer that, sure, but your sister is far too formidable.”
 \
 `“That's unlike you.@ Are you afraid of Akiha?”@
 ld c,"tachi/ari_t05",crossfade,400
-`“Yes.@ In perfect honesty, I am terrified.@ I have never encountered anyone of her type before, and therefore I hereby propose that the opening engagement be devoted entirely to reconnaissance.”@
+`“Yes.@ To speak frankly, I'm terrified.@ I have never encountered her type before; in our first engagement, I intend to devote myself entirely to reconnaissance.”@
 br
 `Why was this idiot funniest at the strangest possible moments?
 \
 `“Fine, bring back lunch for all three of us.”@
 ld c,"tachi/ari_t01",crossfade,400
-`“Leave it to me.@ Wait—what does your sister eat?@ I can’t present her with mere bread from the school store.”@
+`“Leave it to me.@ Wait—what does your sister eat?@ I can't present her with mere bread from the school store.”@
 `“How should I know?@ If she transferred here, curry bread and coffee milk are good enough.”@
-`“Understood.@ Five minutes.”@
+`“[line=4]Understood.@ Five minutes.”@
 cl a,lshutter,400
 `Arihiko sprinted back toward the school building.
 \
 ld c,"tachi/aki_t13a",crossfade,400
 `“You and that person seem very close, Brother.”@
 `Huh?@
-`Akiha's former frailty had vanished, and she was completely back to normal.
+`The frailty Akiha had shown moments ago was gone; she was completely back to normal.
 \
-`“Yes.@ He's one of the few people I truly get along with.@
-`But never mind him—Akiha!”@ “Please don't shout.@ Everyone around us is staring.”@
-`“Wh—”@
+`“Yes, he's one of the few people I truly get along with.@ But never mind him—Akiha!”@
+`“Please don't shout like that.@ You're startling everyone around us.”@
+`“What[line=3]?”@
 ld c,"tachi/aki_t21",crossfade,400
 `“Answer my question first.@ What exactly is that person to you, Brother?”@
-`We had been stuck with each other since middle school, nothing more—but that wasn't the point.@
+`We had been stuck with each other since middle school, nothing more[line=3]but that wasn't the point.@
 cl a,crossfade,400

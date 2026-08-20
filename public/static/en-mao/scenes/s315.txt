@@ -5,17 +5,17 @@ wavestop
 bg "bg/bg_33d",crossfade,800
 waveloop se_11
 `The door creaks open.@
-`I have made it back to the mansion, though my body is leaden and my thoughts barely move.@
+`I make it back to the mansion, my body leaden and my thoughts barely moving.@
 `My footsteps scrape and drag.@
-`In the moonlight, my long shadow looks like the ghost of some exhausted man.
+`In the moonlight, my lengthened shadow looks like a worn-out ghost.
 \
-`“Ngh—!”@
+`“Ngh[line=11]!”@
 `My left arm throbs where Yumizuka tore it open.@
 `The bleeding stopped long ago.@ A grinding ache remains, but the wound itself cannot be very deep.@
-`“……”@
+`“[line=11]”@
 `I make for the stairs.@
 `I do not know the first thing about treating a wound.@
-`All I want is to reach my room one second sooner and sink into dreamless sleep—
+`All I want is to reach my room one second sooner and sink into dreamless sleep[line=5]
 \
 bg #000000,crossfade,800
 wavestop
@@ -41,9 +41,9 @@ play "*2"
 `[line=3]No.@
 `Maybe there had been no saving Yumizuka after what she became.@
 `She had stopped being alive long before.@
-`I can understand that much: all I did was turn a corpse that could still walk around like anyone else into a corpse that behaved properly.@
+`I can understand that much: all I did was turn a corpse that could still move like anyone else back into a proper corpse.@
 br
-`And yet—
+`And yet[line=3]
 br
 wave se_04
 `“Excuse me, Master Shiki.”@
@@ -51,19 +51,19 @@ wave se_04
 \
 ld c,"tachi/his_t01",lcartain,800
 `“Good morning, Master Shiki.@ How are you feeling today?”@
-`“Mm—I think all that sleep helped, because I don’t feel bad.”@
+`“Mm—all that sleep must have helped, since I feel fine.”@
 `“I see.@ I am relieved to hear it.”@
 `With her expression perfectly still, she hardly looks relieved.
 \
 `“……”@
-`But I found relief.@
-`Only one night had passed since it happened.@ Somewhere inside, I had resigned myself to never escaping that mad world.@
+`Even so, I feel relieved.@
+`Only one night has passed since it happened.@ Somewhere inside, I had resigned myself to never escaping that mad world.@
 `“Thank you, Hisui.@ Knowing you, you probably checked on me again and again this morning, didn’t you?@ I appreciate your concern.”@
 ld c,"tachi/his_t03",crossfade,400
-`“No.@ It is my duty to attend to you, Master Shiki.”@
+`“[line=4]No.@ It is my duty to attend to you, Master Shiki.”@
 `Something in Hisui’s expression looks almost pleased.
 \
-`That tiny change in her face brings me a little relief.@
+`That tiny change in her face makes me feel a little less lost.@
 `I slept here in my own bed, and Hisui came to wake me as she always does.@
 `Something so small is enough to make me feel that I have truly returned to an ordinary life.
 \
@@ -78,7 +78,7 @@ ld c,"tachi/his_t04",crossfade,400
 `“Through my own failings, Miss Akiha learned about last night.”@
 `“Last night—what do you mean?”@
 `“That you went out, Master Shiki.”@
-`“Urk—”@
+`“Urk[line=4]”@
 `I look away without meaning to.@
 `I thought I had covered my tracks, but Hisui saw through me after all.
 \
@@ -88,7 +88,7 @@ ld c,"tachi/his_t01",crossfade,400
 `“I see.@ Well, I can hardly complain if she gives me an earful.@ I’m the one who broke curfew.”
 \
 `“On that subject, should I expect this to happen again?@ I cannot prevent you from leaving, Master Shiki, but if nights like the last one continue, I will be obliged to inform Miss Akiha.”@
-`“—No, nothing like yesterday will happen again.@ It all ended yesterday.@ There won’t be any more phone calls.”
+`“[line=4]No, nothing like yesterday will happen again.@ It all ended yesterday.@ There won’t be any more phone calls.”
 \
 `[line=3]Yes.@ It really is over.@
 `Only after saying it aloud does the ending become real.@
@@ -99,7 +99,7 @@ ld c,"tachi/his_t07",crossfade,400
 `“……”@
 `Hisui watches me with pain in her eyes.@
 `Do I really look so awful that even Hisui has to make that face?@
-`“Well, it’s getting late, so I should get up.@ Hisui, is Akiha home today?@ She’s always busy—does she have lessons even on holidays?”@
+`“Well, it’s getting late, so I should get up.@ Hisui, is Akiha home today?@ She’s always busy[line=3]does she have lessons even on holidays?”@
 ld c,"tachi/his_t01",crossfade,400
 `“Miss Akiha has an engagement today despite the holiday, but she will remain at the mansion.”@
 `“……?”@
@@ -118,7 +118,7 @@ ld c,"tachi/his_t01",lshutter,800
 `“Yes?@ What is it, Master Shiki?”@
 `“I forgot to say it.@ Thanks for coming to wake me.@ And though it’s late—good morning, Hisui.”@
 ld c,"tachi/his_t03",crossfade,400
-`“Yes.@ I hope you have a pleasant day, Master Shiki.”@
+`“[line=3]Yes.@ I hope you have a pleasant day, Master Shiki.”@
 cl c,lshutter,800
 `Well, then.@
 `I had better dress quickly and head for the sitting room myself.

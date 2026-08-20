@@ -1,26 +1,26 @@
 bg "bg/bg_06a",lcartain,800
 play "*3"
-`I reached the classroom a few minutes earlier than usual.@ “Whew.”@
+`I reached the classroom a few minutes earlier than usual.@ “[line=3]Whew.”@
 `After a small, steadying breath, I walked toward my desk beside the window.@
 br
 `Then.@
 `“Good morning, Tohno.”@
 `An unfamiliar voice greeted me.@
-`“Huh?”@
+`“[line=3]Huh?”@
 `I turned around in confusion.@
 ld c,"tachi/stk_t01",lshutter,400
 `“Our teacher was looking for you earlier.@ He said he needed to talk about something concerning your home.”
 \
 `“Oh.@ Maybe it’s about the move.”@
-`I thought I had completed the change-of-address forms yesterday.@
-`Had something been missing?@
-`“…”@ The girl from my class made no move to leave.@ She only stood there, watching my face.@
-`“Um…@ Good morning, Yumizuka.”@
+`I thought I had completed the change-of-address forms yesterday, but perhaps I had missed something.@
+`“[line=5]”@
+`The girl from my class made no move to leave; she only stood there, watching my face.@
+`“Um—good morning, Yumizuka.”@
 `“Good morning, Tohno.@ You really did remember my name.”@
 br
 `She let out a relieved breath, and a faint smile touched her face.@ Her name was Satsuki Yumizuka.
 \
-`“Of course I remember my classmates’ names.@ We just haven’t talked much before.”@
+`“Of course I remember my classmates’ names.@ We just haven’t talked much before, Yumizuka.”@
 ld c,"tachi/stk_t03",crossfade,400
 `“That’s true.@ I suppose that’s why I was a little nervous about speaking to you.”@
 `Yumizuka smiled again.@
@@ -37,8 +37,8 @@ br
 `I might know the name Satsuki Yumizuka, but there was no reason she should remember an unremarkable classmate called Shiki Tohno.@ Yet somehow, inconveniently, she seemed to know exactly who I was.
 \
 ld c,"tachi/stk_t01",crossfade,400
-`“Tohno, could I ask you something?”@
-`“If it’s anything I can answer, go right ahead.”@ “Okay…@ Sorry if it’s personal.@ You mentioned moving just now.@ Are you going somewhere far away…?”@
+`“Tohno.@ Could I ask you something?”@
+`“If it’s anything I can answer, go right ahead.”@ “Okay—I’m sorry if it’s personal, but you mentioned moving.@ Are you going somewhere far away?”@
 `Yumizuka’s voice faded uncertainly at the end.@
 `Her clasped hands kept fidgeting.
 \
@@ -49,10 +49,10 @@ ld c,"tachi/stk_t01",crossfade,400
 `“…?”@
 `How strange.@ Why should a move of mine produce such a reaction from her?
 \
-`“But if you’re changing homes, does that mean you’re leaving the Arimas’ house?”@ “Yeah.@ I’ll miss it, but I can’t impose on them forever—”@
+`“But if you’re changing homes, does that mean you’re leaving the Arimas’ house?”@ “Yeah—I’ll miss it, but I can’t impose on them forever[line=3]”@
 br
-`…@Wait.@
-`How did Yumizuka know that?@ I thought nobody at this school except him knew that Shiki Tohno was living with the Arimas, but—
+`…@Wait?@
+`How did Yumizuka know that?@ I thought nobody at this school except him knew that Shiki Tohno was living with the Arimas, but[line=3]
 \
 `“Heeey, Tohno!”@
 `A voice boomed from the classroom door without the slightest concern for who heard him.@
@@ -64,12 +64,12 @@ ld c,"tachi/ari_t01",lshutter,400
 `Her reply was listless, and she promptly lowered her head.@
 `Well, Yumizuka was hardly the sort who could answer cheerfully when someone like him barreled straight at her.
 \
-`“Still, picking up girls first thing in the morning?@ What brought this on?@ I thought you weren’t that interested in women, Tohno.”@
+`“Picking up girls first thing in the morning—what brought this on?@ I thought you weren’t all that interested in girls, Tohno.”@
 `Arihiko announced this delightful thought at the top of his lungs.@
 `“Idiot, don’t say things that sound so bad.@ I’m a perfectly normal boy with a perfectly normal interest in girls.”@
 ld c,"tachi/ari_t02",crossfade,400
-`“Oh, good, good!@ Though these days the ladies find unusual tastes more interesting than normal ones.@
-`They’ll be interested, mind you—nothing ever comes of it!”@
+`“Oh, good, good!@ Though girls these days find weird kinks more interesting than normal ones.@
+`They’re interested, sure—nothing ever comes of it!”@
 `Arihiko’s bottomlessly cheerful laughter rang across the early-morning classroom.
 \
 `…@Haaah.@
@@ -271,9 +271,9 @@ bg "bg/bg_10a",notrans,0
 `“You’re—Ciel, right?”@
 `I ventured the name cautiously.@
 ld c,"tachi/cel_t04",crossfade,400
-`“Yes.@ I’m glad you remembered.@ You always seem so absentminded that I thought you might have forgotten.”@
+`“Yes, I’m glad you remembered.@ You always seem so absentminded I thought you might have forgotten.”@
 `I didn’t consider myself absentminded, but I had, in fact, forgotten her.@
-`There was little I could say.@ “Until later, then.@ I’ll see you again at lunch.”@ Ciel bowed once more.@
+`“Until later, then.@ I’ll see you again at lunch.”@ Ciel bowed once more.@
 `I watched her go, a little dazed, then continued down the hall with a lingering sense that something didn’t add up.
 \
 bg #000000,lcartain,1500

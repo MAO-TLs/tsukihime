@@ -2,13 +2,13 @@ monocro off
 wavestop
 playstop
 bg "bg/bg_06b",crossfade,1500
-`Classes end, and twilight steals swiftly into the room.@
-`The sun is sinking beyond the far horizon.@
+`Classes end, and twilight rapidly settles over the classroom.@
+`The sun sinks beyond the horizon.@
 `No one else is here.@
-`I’m probably the only person strange enough to linger in an empty classroom with nothing in particular to do.@
+`I must be the only eccentric enough to linger in an empty classroom with nothing to do.@
 br
 `“[line=5]”@
-`The classroom deepens toward crimson.@
+`The classroom slowly fills with crimson.@
 br
 bg #000000,crossfade,800
 bg "bg/ima_07",crossfade,800
@@ -29,7 +29,7 @@ wave se_01
 br
 `“It[line=5]hurts.”@
 br
-`The old wound in my chest gives a vicious throb.
+`The old scar in my chest gives a sharp throb.
 \
 bg #000000,crossfade,400
 bg "bg/ima_07",crossfade,400
@@ -84,12 +84,12 @@ ld c,"tachi/cel_t07a",crossfade,1500
 play "*3"
 `“Oh[line=4]Ciel.”@
 `She enters the classroom with a grave look on her face.@
-`“I came because I heard what sounded like desks falling over; did you do this, Tohno?”@
+`“I came because I heard desks crashing; did you do this, Tohno?”@
 `“[line=4]What?”@
-`I look behind me.@
-`Desks and chairs lie scattered everywhere, flung down with unmistakable violence.
+`I turn around.@
+`Desks and chairs lie scattered everywhere, unmistakably flung down in violence.
 \
-`“Oh, yeah, I suppose I did.@ I got angry for no reason, and then[line=3]”@
+`“Oh—yeah, it looks that way.@ I got worked up for no reason, and then[line=3]”@
 `Did I really make this mess?@
 ld c,"tachi/cel_t10a",crossfade,400
 `“Honestly, you know better than that.@ I don’t know what happened, but you mustn’t take your anger out on things.”@
@@ -102,8 +102,8 @@ br
 ld c,"tachi/cel_t08",crossfade,400
 `“Goodness.@ You’ve been acting very strangely, Tohno.@ First I find you standing in the rain in a daze, and now you’re knocking over desks and staring into space.”@
 `“Yeah[line=3]I know; I’ve been tired lately, and I haven’t been myself.”@
-`I draw a long, deep breath.@
-`Maybe it’s because I’ve seen her face.@
+`I take a long, deep breath.@
+`Maybe it is because I got to see her face.@
 `Whatever the reason, the headache and that senseless fury have vanished without a trace.
 \
 `“Sorry for causing you trouble again.@ I’m heading home now, so I’ll see you tomorrow.”@
@@ -126,15 +126,15 @@ br
 \
 ld c,"tachi/cel_t01a",lshutter,400
 `“Thank you for waiting.@ Now, let’s be off!”@
-`She is so full of light.@
-`Just looking at her seems to clear away every gloomy thought I had a moment ago.@
+`She looks genuinely radiant.@
+`Simply watching her clears away the gloom that held me moments ago.@
 `When someone this kind has invited me along, keeping a miserable face would be downright ungrateful.
 \
 `“All right, let’s go.@ But at that pace we’ll reach the gate in no time.”@
 ld c,"tachi/cel_t02",crossfade,400
 `“Oh, you’re right.@ We’d better go as slowly as possible, or it would be a waste.”@
-`She sets off at a tiny, deliberate pace.@
-`I follow her out of the classroom and into the dusk.
+`She begins walking in tiny, measured steps.@
+`Following behind her, I leave the sunset classroom.
 \
 bg #000000,lcartain,1500
 playstop

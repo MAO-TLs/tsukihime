@@ -7,7 +7,7 @@ play "*1"
 br
 `“Here’s my question, then.@ What sort of vampire is this ‘enemy’ of yours?@ If you followed it all the way here, you must have met it before.”@
 ld c,"tachi/ark_t10",crossfade,400
-`“Well—that is…”@
+`“That’s[line=3]I mean[line=3]”@
 `Arcueid looked away.
 \
 `“What’s wrong?@ You only just promised not to keep secrets from me.”@
@@ -15,19 +15,19 @@ ld c,"tachi/ark_t14",crossfade,400
 `“I know, but promise you won’t be angry.@
 `I only learned recently that a vampire was hiding in this city.@ I came as soon as I discovered my ‘enemy’ was here in this country, but I haven’t encountered the main body yet.@
 `So, honestly, I have no idea what this particular ‘enemy’ is like.”@
-`“Yet with Nrvnqsr, you seemed to recognize him from a single crow?”
+`“You have no idea[line=3]even though with Nrvnqsr, you seemed to recognize him from a single crow?”
 \
 `“Nrvnqsr was famous, and the nature of his existence never changed.@
 `The ‘enemy’ I’m hunting isn’t that powerful a vampire, but it can take so many forms that this time I can’t even guess what it specializes in or what sort of person it has become.@
-`I’m sorry, Shiki, but that truly is all I can tell you.”@
+`I’m sorry, Shiki[line=3]but that truly is all I can tell you.”@
 br
 `I knew Arcueid wasn’t lying.@ I knew that, yet I still felt that she was hiding something essential.@
-`Something like—
+`Something like[line=3]
 \
-`“Fine—if even you don’t know, there’s nothing to be done.@
-`But surely you at least know this ‘enemy’s’ name.”@
+`“Fine; if even you don’t know, there’s nothing to be done.@
+`But[line=3]surely you at least know this ‘enemy’s’ name.”@
 cl c,crossfade,400
-`“Its name.”@
+`“Its na[line=3]me.”@
 `“Yes, its name.”@
 `Arcueid lowered her head and fell silent.@
 `I thought some circumstance prevented her from telling me, and she was struggling over what to do.@
@@ -35,7 +35,7 @@ br
 `That was what I thought.
 \
 ld c,"tachi/ark_t05c",crossfade,400
-`“His name.”@
+`“[line=4]His name.”@
 `A shiver ran through me.@
 `It felt as though everything in the restaurant had frozen solid in an instant.@
 br
@@ -43,24 +43,24 @@ br
 `Arcueid wasn’t struggling at all.@
 br
 `“His name is Michael.@ Michael Roa Valdamjong.@
-`One of the Dead Apostles who began as a human and became a vampire, called Ouroboros.”@
+`One of the Dead Apostles who began as humans and became vampires, he is called Ouroboros.”@
 `Arcueid’s lips moved while her head remained bowed.@
-`There was nothing in her voice but hatred so raw it might have coughed up blood.@
+`There was only hatred there, each word forced out as though she were coughing up blood.@
 cl c,crossfade,400
 \
-`“Arcueid, you…”@
-`“……”@
+`“Arcueid, you[line=3]”@
+`“[line=5]”@
 `Her shoulders trembled.@
 `She was barely containing an emotion that wanted to tear its way out of her.@
-`“…@I’m sorry.@ It was a stupid question.@
-`Forget I asked.”@
-`Arcueid gave the faintest shake of her head, as if to say she could never forget.@
+`“Sorry.@ I should not have asked such a stupid question.@ Just forget I said anything.”@
+`Arcueid gave the faintest shake of her head.@
+`As if to say she could never forget.@
 br
-`For a while, time passed in silence.
+`For a while, neither of us spoke.
 \
-`“I’m sorry.”@
+`“[line=5]I’m sorry.”@
 `The words came softly from Arcueid, still sitting with her head bowed.@
-`“Mm.”@
+`“[line=3]Mm.”@
 `I nodded without thinking, and just as naturally, the two of us rose from our seats.
 \
 bg #000000,lcartain,800

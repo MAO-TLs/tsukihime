@@ -11,14 +11,14 @@ bg "event/aki_h13",notrans,0
 wait 100
 bg "bg/bg_40c",notrans,0
 ld c,"tachi/aki_t15b",lshutter,400
-`“Brother, what have you been doing…!@ You’re white as a sheet, you should be lying in bed[line=3]!”@
+`“Brother, what have you been doing…!@ You are white as a sheet; you should be lying in bed[line=3]!”@
 cl c,crossfade,400
 br
 wave se_01
 `[line=4]Thump.@
 br
 ld c,"tachi/koha_t03",lshutter,400
-`“She’s right, Shiki.@ You haven’t eaten since lunch, and you missed your evening IV.@ You’ll never recover this way.”@
+`“She’s right, Master Shiki.@ You haven’t eaten since lunch, and you never had your evening IV.@ You’ll never recover this way.”@
 cl c,crossfade,400
 br
 wave se_01
@@ -29,7 +29,7 @@ ld c,"tachi/aki_t02b",crossfade,400
 cl c,crossfade,400
 br
 wave se_01
-`[line=4]Thump.@
+`[line=4]thum—p.@
 br
 `Akiha reaches for my arm as she says it.@
 `Just as she said in the annex.@
@@ -54,7 +54,7 @@ ld c,"tachi/aki_t11b",crossfade,400
 `“Just get out…!@ I’m not some murderer, I’m still a normal human being…!”
 \
 ld c,"tachi/aki_t15b",crossfade,400
-`“A murderer, Brother[line=4]have you really been dragged that far under?”@
+`“Calling yourself a murderer, Brother[line=4]has it already dragged you down this far?”@
 `Akiha murmurs in a daze.@
 `Of her own accord, she backs toward the door.@
 ld c,"tachi/aki_t11b",crossfade,400
@@ -64,8 +64,8 @@ ld c,"tachi/aki_t11b",crossfade,400
 `Akiha frowns for a single instant, then retreats into the hall.
 \
 ld c,"tachi/aki_t10b",crossfade,400
-`“Brother.@ Tonight I’ll do as you ask, but tomorrow you will do as I say.@
-`Leaving you alone for one day is dangerous enough; after two, you could die of exhaustion.@ So please hold on for just one more day.”@
+`“Brother.@ Tonight I will do as you ask, but tomorrow you will do as I say.@
+`Even one more day alone is dangerous; after two, you could die of exhaustion.@ So please hold on for only one more day.”@
 cl c,lshutter,800
 `The door slams shut.
 \

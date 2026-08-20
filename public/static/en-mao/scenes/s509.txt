@@ -2,10 +2,10 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_45e",crossfade,400
-`…@I can’t.@
+`I can’t.@
 `There is no way I could do that.@
 `Akiha hasn’t done anything wrong.@
-`She’s innocent—so why should I be the one to condemn her to such a senseless end?
+`She’s innocent—so why[line=4]why should she have to meet such a senseless end?
 \
 play "*9"
 `“…”@
@@ -52,7 +52,7 @@ play "*2"
 `A world made only of the scent of grass and the whisper of trees.@
 `Perhaps the woods around the mansion lived by another calendar; winter was nearly here, yet the air still held the last traces of autumn.
 \
-`“—”@
+`“[line=9]”@
 `I lay on the ground gazing up at the blue sky.@ The sun had already climbed to the center of the sky.@
 `Apparently I had fallen asleep.@
 `After breakfast I had wandered into the woods, then made the mistake of lying down in the grass.@
@@ -85,8 +85,8 @@ ld c,"tachi/his_t17",crossfade,400
 `Hisui lowered her eyes, plainly wanting to say more.@
 `…@I knew what she wanted to tell me.@ Even if she put it into words, though, I would have no answer.
 \
-`“I’d better go, then.@ When an hour has passed, tell Kohaku.”@
-`“Ah—”@
+`“I’d better go, then.@ When an hour has passed, call for Kohaku.”@
+`“Ah[line=5]”@
 `I turned my back on Hisui and headed for the detached house where Akiha waited.
 \
 bg #000000,crossfade,800
@@ -163,7 +163,7 @@ bg "bg/bg_45b",bshutter,800
 `And then Akiha became a doll again.@
 `I wiped the trail of blood from her mouth and changed her stained robe.@
 `She offered no resistance.@ She merely accepted whatever I did to her.@
-`[line=3]There.@
+`[line=3]Within her.@
 `Not a trace remained of the proud, resolute Akiha she had once been.
 \
 `“—”@
@@ -197,7 +197,7 @@ bg "bg/ima_03",lshutter,800
 \
 `[line=3]I would hold her hand and wait for as long as it took.@
 br
-`Even if Akiha’s eyes saw nothing, I would smile for her until the very end of this world.@
+`Even if Akiha’s eyes saw nothing, I would keep smiling to the very end, here in this world.@
 br
 `So that someday, when Akiha opened her eyes,
 `I could welcome her with the same ordinary “Hey”@ as always—as though nothing had happened at all.

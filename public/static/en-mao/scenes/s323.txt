@@ -47,12 +47,12 @@ ld c,"tachi/aki_t26",lshutter,400
 cl c,lshutter,400
 ld c,"tachi/koha_t05b",lshutter,400
 `“I’ll carry Miss Akiha, so please take Hisui, Shiki.”@
-`“What—wait, Kohaku.@ I can’t touch Hisui.@ The last time I merely touched her, she slapped me.”@
+`“What[line=3]wait, Kohaku.@ I can’t touch Hisui.@ The last time I merely touched her, she slapped me.”@
 ld c,"tachi/koha_t03b",crossfade,400
-`“Oh, that’s right.@ Hisui is exceptionally averse to physical contact, and merely holding hands with a man can make her vomit, so I suppose having you carry her may be a problem, Shiki.”@
+`“[line=3]Oh, that’s right: Hisui is a terrible clean freak.@ Even holding hands with a man can make her vomit, so I suppose having you carry her may be a problem, Shiki.”@
 `“Holding hands makes her vomit?”@
-`That cannot be dismissed as mere fastidiousness.@
-`I thought something was strange eight years ago, but what happened to Hisui—
+`That is more than being a clean freak.@
+`I thought something was strange eight years ago, but what happened to Hisui[line=3]
 \
 `“She’s asleep, so it will be fine.@ Come along, Miss Akiha—I’m taking you to your room.”@
 cl c,lshutter,800
@@ -72,7 +72,7 @@ br
 `“I’m sorry.@ You can be angry with me later.”@
 `I lift the sleeping Hisui into my arms.@
 br
-`“Ah—”@
+`“Ah[line=6]”@
 `That alone sends my heart pounding.
 \
 `“She’s light.”@
@@ -87,9 +87,9 @@ playstop
 bg "bg/bg_46c",lcartain,800
 play "*1"
 `I reach for the knob of Hisui’s door—and freeze.@
-`“You’ve got to be joking.”@
+`“[line=4]You’ve got to be joking.”@
 `It is locked.@
-`“The key must be in her pocket.”@
+`“The key must be[line=3]in Hisui’s pocket, perhaps.”@
 `This is bad.@ It would only mean putting my hand in her pocket, but that is still bad.@
 `I have no idea what would become of my self-control.@
 `“There’s no helping it, is there?”@
@@ -103,26 +103,26 @@ br
 br
 br
 br
-`[line=2]And that is how I return to my own
-`room with Hisui still in my arms.
+`[line=2]And so,
+`I returned to my own room with Hisui still in my arms.
 \
 `“There we go.”@
 `I lay Hisui on the bed.@
 `She must truly have forced herself to drink, because she shows no sign of waking.@
-`“…@Now what am I supposed to do?”
+`“…@Now what am I supposed to do[line=3]?”
 \
 quakey 1,250
 wave se_05
-`“Huh…?”@
+`“Huh[line=3]?”@
 `Perhaps setting her down made the tension leave me, and I crumple onto the carpet.@
-`“Mmm…”@
+`“Mmm[line=3]－”@
 `It seems the alcohol has finally caught up with me too.@
 bg #000000,crossfade,400
 bg "bg/bg_40c",crossfade,400
 `A pleasant dizziness rolls through me.@
 `“Fine.”@
 `It isn’t as though I intend to do anything.@
-`No one can object if I simply fall asleep here on the carpet—
+`No one can object if I simply fall asleep here on the carpet[line=3]
 \
 bg #000000,crossfade,800
 playstop
@@ -134,7 +134,7 @@ br
 br
 br
 br
-`[line=3]There was a familiar scent.
+`[line=3]A familiar scent.
 \
 `An old tatami room.@
 `A dark room.
@@ -156,11 +156,11 @@ br
 \
 `Knock, knock.@
 `“[line=3]Who is it?”@
-`“It’s me.”@
+`“It's me.”@
 `She had come again.@
 `A girl about my age was knocking on the door.@
-`“Shiki, come play.@ If you stay in there, you’ll grow mold.”@
-`“No.@ I don’t wanna go outside.”@
+`“Shiki, come play.@ If you stay in there, you'll grow mold.”@
+`“No.@ I don't wanna go outside.”@
 `Hugging my knees, I stayed curled into a tiny ball in the unlit corner.
 \
 bg "bg/ima_06",crossfade,400
@@ -174,7 +174,7 @@ br
 br
 `“That’s not true.@ Everyone wants to like you, Shiki.”@
 br
-`I know.@ But I can’t believe it.@ Because my father was like that, and then—
+`I know.@ But I can't believe it.@ Because my father believed that too, and then[line=3]
 \
 br
 br
@@ -192,7 +192,7 @@ br
 br
 `Even if it’s boring, I think it’s nicer than being scared.
 \
-`“That isn’t nice at all.@ Honestly, you’re hopeless.@ Fine, then—you can trust me, Shiki.”@
+`“That isn’t fun at all.@ Honestly, you’re hopeless.@ Fine, then—you can trust me, Shiki.”@
 br
 `What does that mean, I can trust you?@ That’s backwards—aren’t I supposed to be the one who says I might trust you?@
 br
@@ -204,7 +204,7 @@ br
 br
 `Is it fun outside?@
 br
-`“Yes!@ It’ll be much, much more fun than being alone—”@
+`“Yes!@ It'll be much, much more fun than being alone[line=5]”@
 bg #ffffff,crossfade,800
 br
 br
@@ -217,7 +217,7 @@ br
 br
 br
 `Looking back.@
-`I think that was the very first sight Shiki Tohno ever saw—
+`I think that was the very first sight Shiki Tohno ever saw[line=4]
 \
 bg #000000,crossfade,800
 playstop
@@ -232,12 +232,12 @@ br
 `I wake from the dream.@
 `I had a terribly vague dream I could not make sense of.@
 `There had been a familiar scent.@
-`Tatami, perhaps.
+`Tatami[line=3]perhaps.
 \
 `“Huh…?”@
-`Strange—I am fully awake, yet a sweet scent still lingers.@
+`Strange[line=3]I am fully awake, yet a pleasant scent still lingers.@
 br
-`“Mm—Shiki.”@
+`“Mm[line=3]Shiki.”@
 `A voice murmurs beside my ear.@
 `“What?”@
 `Sensing someone very close, I force my drowsy eyes open.
@@ -247,9 +247,9 @@ play "*2"
 `“—!”@
 `I choke back my cry with everything I have.@
 `Somehow, Hisui is asleep in my bed.@
-`And not merely that—she is right here, leaning against my body, her sleeping face utterly defenseless.
+`And not merely that[line=3]she is right here, leaning against my body, her sleeping face utterly defenseless.
 \
-`“Ah—”@
+`“Ah[line=4]”@
 `Tension strangles my voice.@
 `Every trace of sleep vanishes in an instant.@
 `“What is going on?”@
@@ -272,7 +272,7 @@ play "*2"
 `But that is impossible, and I need her to wake soon.
 \
 `“Hisui.@ Hey, Hisui.”@
-`Calling her does nothing.@
+`She shows no sign of waking when I call.@
 `“Come on, it’s morning.@ Isn’t it about time you woke up?”@
 `I take her by the shoulders and gently shake her.
 \
@@ -287,24 +287,24 @@ bg "bg/bg_40a",lshutter,800
 `She rubs her eyes and spends several seconds peering around the room.@
 `At last, she grasps that she is in my bedroom—and that I am right in front of her.
 \
-`“Eek—!”@
+`“Eek[line=4]!”@
 `Hisui bolts out of bed.@
 ld c,"tachi/his_t28",crossfade,400
-`“M-Master Shiki, why am I—”@
-`“Well—I’m not sure how to explain it, but do you remember last night?”@
-`“Last night?”@
+`“M-Master Shiki, why am I[line=4]”@
+`“Well, I’m not sure how to explain it, but do you remember last night?”@
+`“L-last night[line=3]?”@
 cl c,lshutter,800
 `Hisui falls silent, thinking hard.@
-`Then.@ All at once, her cheeks flush crimson.
+`And then.@ In that instant, her cheeks flush crimson.
 \
 `“Remember now?”@
 ld c,"tachi/his_t02",lshutter,400
-`“Yes—I’m sorry to have caused you so much trouble, Master Shiki.”@
+`“Yes[line=3]I’m sorry to have caused you so much trouble, Master Shiki.”@
 `Still blushing, Hisui looks me squarely in the eye.@
 `“No, I’m the one who should apologize.@ I took you to your room, but the door was locked, so I couldn’t get in.@
 `I thought I’d let you sleep here while I went to fetch Kohaku, but I suppose the alcohol had caught up with me too, because I seem to have fallen asleep.”@
 `Yes—I do remember something like that.@
-`But that’s strange—last night, I’m sure—
+`But that’s strange—last night, I’m sure[line=3]
 \
 `“That’s odd—I know I fell asleep on the carpet at first, but somehow I ended up on the bed.@
 `B-but I didn’t do anything to you, Hisui!@ I only woke up a moment ago myself!”@
@@ -317,8 +317,8 @@ ld c,"tachi/his_t02",lshutter,400
 `Without a word, Hisui glances over her clothes and gives a small nod.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“It appears you are telling the truth.@ My clothes are undisturbed, so you are innocent, Master Shiki.”@
-`“Thank God—”@
+`“It seems so.@ My clothes are undisturbed, so you are innocent, Master Shiki.”@
+`“Thank goodness[line=4]”@
 `I let out a deep breath, relief washing over me.@
 ld c,"tachi/his_t26",crossfade,400
 `“Besides, I believe I was the one who got Master Shiki into bed.@
@@ -337,7 +337,7 @@ ld c,"tachi/his_t22",crossfade,400
 \
 `“A-anyway, let’s keep this between us.@ Akiha would be furious, and there’s no telling how badly Kohaku would tease us.”@
 ld c,"tachi/his_t04",crossfade,400
-`“Yes.@ If you are willing to overlook it, Master Shiki, that would be a great relief to me as well.”@
+`“[line=3]Yes.@ If you are willing to overlook it, Master Shiki, that would be a great relief to me as well.”@
 `“I’m sorry, Hisui.@ If I’d kept my wits about me, none of this would have happened.”@
 `I bow my head and apologize.@
 `Nothing happened in the end, but I did bring a girl into my room and fall asleep beside her.@
@@ -357,19 +357,19 @@ cl c,lshutter,800
 `Her murmur is gentler than anything I have ever heard from her.
 \
 ld c,"tachi/his_t03",lshutter,400
-`“Very well—we shall consider this entirely Master Shiki’s fault.@ One day I will ask him to make amends, so please do not forget before then.”@
-`“Hi—Hisui?”@
+`“Very well: I shall accept that you were at fault this time, Master Shiki.@ Someday I will ask you to make amends, so please remember until then.”@
+`“Hi[line=3]Hisui?”@
 `“Now, if you’ll excuse me.@ You should hurry to the sitting room as well, Master Shiki, or you will be late.”@
 cl c,lshutter,400
 `Hisui bows formally and leaves the room.
 \
-`“[line=4]”@
+`“[line=5]”@
 `I remain on the bed, mouth hanging open.@
-`“—She smiled.”@
+`“⋯⋯She smiled.”@
 `That is all she did, yet it feels as though time itself has stopped.@
-`“[line=4]”@
+`“[line=7]”@
 `This is bad.@ Somehow, this is very bad.@
-`She only smiled at me—so why has it left me in such a daze—
+`She only smiled at me, yet why has it left me so dazed[line=3]
 \
 bg #000000,crossfade,800
 bg "bg/bg_34a",lcartain,800
@@ -408,7 +408,7 @@ ld c,"tachi/aki_t16a",crossfade,400
 `“Where did that come from?@ How did we suddenly get onto my private life?”@
 ld c,"tachi/aki_t21",crossfade,400
 `“You looked as though you were having a wonderful time.@ You certainly didn’t look that way last night.”@
-`“Urk—”@
+`“Urk[line=3]”@
 `True, last night I had been more appalled than amused.
 \
 `“Shiki, breakfast is ready!”@
@@ -434,10 +434,10 @@ cl c,lshutter,400
 \
 ld c,"tachi/koha_t02",lshutter,400
 `“Well, well.@ Did something happen last night, Shiki?”@
-`“Wha—don’t just appear out of nowhere and say things like that, Kohaku!”@
+`“Wha[line=3]don’t just appear out of nowhere and say things like that, Kohaku!”@
 ld c,"tachi/koha_t05",crossfade,400
 `“Oh my—judging by that blush, something did happen.”@
-`“No—nothing happened.@ You can ask Hisui yourself, if you like.”@
+`“Eh[line=3]no, nothing happened.@ You can ask Hisui yourself if you like.”@
 ld c,"tachi/koha_t01a",crossfade,400
 `“Really?@ I could have sworn you and Hisui seemed closer than before.”@
 cl c,lshutter,400
@@ -454,7 +454,7 @@ bg #000000,lshutter,400
 bg "bg/bg_32a",lshutter,400
 `“I’m coming straight home today, so I should be back around four.@ Oh, and you don’t need to stand here waiting to greet me.”@
 ld c,"tachi/his_t01",lshutter,400
-`“Understood.@ Please take care on your way, Master Shiki.”@
+`“Understood.@ Please take care, Master Shiki.”@
 `“Thanks.@ I’m off, Hisui.”@
 ld c,"tachi/his_t16",crossfade,800
 cl c,lshutter,800

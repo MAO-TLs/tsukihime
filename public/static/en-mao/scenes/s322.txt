@@ -5,11 +5,11 @@ play "*3"
 bg "bg/bg_34c",rshutter,800
 `[line=5]And so.@
 br
-`Before an hour had passed, Hisui fell asleep, and still smiling, Kohaku dragged her off to bed.
+`Before an hour had passed, Hisui fell asleep, and still smiling, Kohaku dragged her away to her room.
 \
 `“……”@
 `My own thoughts are swimming from alcohol I’m not used to.@
-`To make matters worse, Akiha beside me is still drinking away with perfect vigor.@
+`To make matters worse, Akiha beside me is still drinking cheerfully.@
 `“Akiha.@ I never knew you could hold your liquor.”@
 ld c,"tachi/aki_t26",crossfade,400
 `“Really?@ I’m not drinking it neat, so this seems perfectly ordinary.”@
@@ -26,7 +26,7 @@ ld c,"tachi/aki_t03b",crossfade,400
 `“That’s a rather brutal argument.@ Alcohol failing to cheer me up does not mean there are no other options.”@
 ld c,"tachi/aki_t18b",crossfade,400
 `“What choice do I have when you refuse to tell us anything?@ If you would only tell me what happened last night, I wouldn’t have to resort to alcohol.”@
-`“……”@
+`“[line=5]”@
 `So that was it.@
 `Like Kohaku, Akiha had been worried about me.
 \
@@ -70,10 +70,10 @@ br
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_42b",crossfade,400
-`“Guh—”@
+`“Guh[line=6]”@
 `The world spins.@
 `It must be the unfamiliar alcohol and the pain in my chest.@
-`Over something so trivial, I am already beginning to lose consciousness—
+`Over something so trivial, I am already beginning to lose consciousness[line=4]
 \
 bg #ffffff,crossfade,800
 !w2000
@@ -90,20 +90,20 @@ br
 br
 `I feel as though Satsuki whispered those words in my ear.@
 `What hypocrisy.@
-`In this dream I myself am dreaming, I dream up the words I most want to hear.
+`In this dream I myself am dreaming, I dream up exactly the words I want to hear.
 \
 `If I could forget, it would be so easy.@
 `But I cannot.@
 `I neither loved nor hated her,
 `yet I feel that I must not forget her smile.@
 `And more than anything.@
-`As long as the scar on my neck still aches, forgetting is impossible—
+`As long as the scar on my neck still aches, forgetting is impossible[line=4]
 \
 playstop
 !w1000
 bg "bg/bg_40c",crossfade,800
 play "*1"
-`“Ah…”@
+`“Ah[line=5]”@
 `When I come to, I find myself lying in my own bed.@
 `Akiha is sitting before me.@
 `“Akiha?”@
@@ -112,7 +112,7 @@ ld c,"tachi/aki_t17b",crossfade,400
 `“So I really did fall over.”@
 ld c,"tachi/aki_t12b",crossfade,400
 `“Yes, but I’m glad you woke so quickly.@ I’m sorry.@ This happened because I pressed you to drink.”@
-`“No, that had nothing to do with it.@ I collapsed for reasons of my own.”
+`“No, that had nothing to do with it.@ I fainted for reasons of my own, that’s all.”
 \
 cl a,crossfade,400
 `I turn my eyes to the ceiling.@
@@ -122,14 +122,14 @@ cl a,crossfade,400
 `“Akiha?”@
 ld c,"tachi/aki_t01b",crossfade,400
 `“Yes?@ What is it, Brother?”@
-`“Well…@ you must be bored sitting there.@ I’m all right, so you can go back to your room.”@
+`“[line=3]Well.@ You must be bored sitting there.@ I’m all right, so you can go back to your room.”@
 ld c,"tachi/aki_t12b",crossfade,400
 `“Are you saying I am in the way?”@
 `“No, I only thought you might be bored.”@
 ld c,"tachi/aki_t04b",crossfade,400
 `“I am bored, but I can endure it.@ I am here because I choose to be, so you needn’t feel guilty, Brother.”@
 br
-`In that case, I suppose it’s fine.
+`In that case[line=3]I suppose it’s fine.
 \
 `Time passes.@
 `It is after ten at night.@
@@ -165,7 +165,7 @@ ld c,"tachi/aki_t16b",crossfade,400
 ld c,"tachi/aki_t13b",crossfade,400
 `“Honestly, why have you been grinning like that?@ If you have so much energy, perhaps you no longer require my care.”@
 `“That isn’t it—I was only remembering the past.@
-`There was a room with tatami, and you—”
+`There was a room with tatami, and you[line=3]”
 \
 cl a,crossfade,400
 wave se_01
@@ -187,7 +187,7 @@ ld c,"tachi/aki_t13b",crossfade,400
 `“A little.@ In a mansion this large, you’d think there might be at least one.”@
 ld c,"tachi/aki_t01b",crossfade,400
 `“There is considerably more than one—the entire Japanese-style annex consists of tatami rooms.”@
-`“What—?”@
+`“What[line=3]?”@
 `[line=3]Of course.@
 `There was a traditional house beyond the trees in the garden.
 \
@@ -238,7 +238,7 @@ br
 `I’m sorry, Brother Shiki.@
 br
 `Her tears were simply beautiful.@
-`Perhaps that was when I had sworn to become a true brother to Akiha—
+`Perhaps that was when I had sworn to become a true brother to Akiha[line=3]
 \
 bg #000000,crossfade,1500
 monocro off

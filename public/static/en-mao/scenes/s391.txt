@@ -2,9 +2,9 @@ phase "bg/bg_47",l,his,06a,6
 bg "bg/bg_40a",tshutter,400
 waveloop se_02
 quakey 2,10
-`“Aaaaaah!”@
+`“Ah[line=7]!”@
 br
-`Ahhhhhhh—
+`Ah[line=7]
 br
 `“Hah[line=4]hah[line=4]”@
 `It’s morning.@
@@ -28,7 +28,7 @@ bg "bg/bg_40a",notrans,0
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`“Hot…”@
+`“Ah, hot.”@
 `My throat is burning.@
 `My whole body feels leaden, and a single sensation clings to both hands.@
 `The crunch of a human neck breaking.
@@ -41,7 +41,7 @@ bg "bg/bg_40a",notrans,0
 `The city at night,
 `the neck snapping in my hands,
 `the sticky blood clinging to my throat,
-`the face of the woman I butchered—
+`the face of the woman I butchered[line=5]
 \
 bg #9c0120,notrans,0
 wait 100
@@ -69,17 +69,17 @@ bg "bg/bg_40a",notrans,0
 !w1000
 wavestop
 play "*2"
-`Hisui announced herself and entered the room.@
+`Hisui announces herself and enters the room.@
 ld c,"tachi/his_t01",lshutter,400
 `“Good morning, Master Shiki.@ You’re already awake this morning.”@
 `“Yeah.@ Morning, Hisui.”@
 `The sliding stops.@
-`Her voice arrests the sickening illusion that I am sliding away at an angle from where I stand.
+`Her voice arrests the sickening illusion that the floor is slipping sideways beneath me.
 \
 !w2000
 ld c,"tachi/his_t04",crossfade,400
 `“Master Shiki?”@
-`“What is it, Hisui?”@
+`“What[line=5]is it, Hisui?”@
 `“That is what I should be asking you.@ Are you unwell?@ You have not said a word since I came in.”@
 `“No, I was just admiring you.@ I know, I have to get to school.@ I’ll be in the sitting room in a minute, so could you go on ahead?”@
 ld c,"tachi/his_t07",crossfade,400
@@ -95,15 +95,15 @@ ld c,"tachi/his_t01",crossfade,400
 cl c,lshutter,400
 `I climb out of bed and pass Hisui, who still looks as though she wants to object.@
 ld c,"tachi/his_t07",lshutter,400
-`As I leave the room.@
-`The anxious gaze she fixes on my back hurts more than it should.
+`As I leave.@
+`Hisui’s anxious gaze follows me, and it hurts a little.
 \
 bg #000000,crossfade,800
 `I go to the washroom and examine myself in the mirror.@
 `“I don’t look pale.@ Why did Hisui seem so worried?”@
 `I splash cold water over my face.@
 br
-`[line=3]The memory of last night’s dream certainly makes me nauseous enough to lose all desire to go to school.@
+`[line=3]Remembering last night’s dream makes me sick, and drains away any desire to go to school.@
 br
 `But staying home because of it would feel like admitting something, and that frightens me.
 \
@@ -123,7 +123,7 @@ ld r,"tachi/aki_t21",crossfade,400
 `“Excuse me?@ What do you mean, ‘you too’?”@
 `“Exactly what it sounds like.@ You’re always telling me to get up earlier, then acting astonished when I do; ‘you too’ is plenty for someone like that.”@
 ld r,"tachi/aki_t03a",crossfade,400
-`“Hmph.@ You get up early once and act as proud as if you’d taken an ogre’s head.”@
+`“[line=4]Hmph.@ You get up early once and act as proud as if you’d taken an ogre’s head.”@
 `“An ogre’s head, Akiha[line=3]”
 \
 br
@@ -157,10 +157,10 @@ cl r,lshutter,400
 \
 ld c,"tachi/aki_t12a",lshutter,400
 `“Is something troubling you, Brother?@ If it concerns life in this house, perhaps I can help if you tell me.”@
-`“No, it isn’t that I’m having trouble settling in, but…”@
+`“No, it isn’t that I’m having trouble settling in, but[line=3]”@
 cl c,lshutter,800
-`Maybe so.@
+`Maybe.@
 `Perhaps talking it over with Akiha as a hypothetical would help clear my head.@
 br
-`So I should—
+`So[line=3]
 \

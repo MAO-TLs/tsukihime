@@ -1,11 +1,11 @@
 playstop
 wavestop
 bg "bg/bg_40d",notrans,0
-`[line=3]I will walk the city at night and find the culprit behind the random street killings.@
+`[line=3]Walk the city at night and find the culprit behind the random murders.@
 br
-`Then I can prove the dreams were only dreams.@
-`Because if I find the real killer.@
-`Every murder in the city must have been committed by that person.@
+`Then I should be able to prove that what I saw was truly a dream.@
+`Because if I find the actual killer.@
+`Then every incident in the city must be that killer’s work.@
 br
 `“All right.”@
 `For protection, I slip the knife into my pocket and set out.
@@ -16,12 +16,12 @@ bg "bg/bg_25b",lcartain,800
 play "*6"
 `[line=5]I go out into the city at night.@
 br
-`I have no way to track a random assailant, a killer.@
-`All I can do is wander in search of someone suspicious, or[line=3]offer myself as bait and hope the killer chooses me.@
+`There is no method for finding a random attacker—a murderer.@
+`All I can do is wander the city looking for someone suspicious[line=3]or make bait of myself and have the killer choose me.@
 br
 `“…”@
-`After what happened with Yumizuka, perhaps my sense of danger has gone numb.@
-`Faced with a mere human murderer, I can stroll the streets without much tension at all.
+`Has what happened with Yumizuka numbed my sense of danger?@
+`If my opponent is no more than a human murderer, I can wander the night streets without any particular tension.
 \
 bg #000000,crossfade,400
 bg "bg/bg_27b",lcartain,400
@@ -62,14 +62,14 @@ br
 br
 br
 br
-`[line=6]I am beginning to get angry.@
+`[line=6]I am growing irritated.@
 br
-`Why will no one suitable show himself?
+`Why will no one who looks right appear?
 \
 `Not him.@
 `Not him.@
 `Not him.@
-`My hand, buried in my pocket, can no longer restrain itself from closing around the knife.
+`The hand thrust into my pocket can endure no longer; it grips the knife’s hilt.
 \
 `Not him.@
 `Not him.@
@@ -80,38 +80,38 @@ br
 `Not him[line=8]
 \
 `“[line=5]What”@
-`For an instant I see a man with bloodshot eyes.@
+`For an instant, I see the face of a man with bloodshot eyes.@
 `It is nothing.@
-`Only my own face reflected in a shop window.@
+`My own face, reflected in a shop window.@
 `“[line=8]”@
-`What[line=5]foolishness.@
+`How[line=5]foolish.@
 `Clutching a knife.@
-`Panting wildly.@
-`Without realizing it, I am doing exactly what the killer in my dream did.
+`Panting.@
+`Without knowing it, I am doing exactly what the killer in my dream did.
 \
 `“No[line=6]!”@
-`No.@ This is not what I wanted.@
-`“Damn it, what am I doing…!”@
-`Truly, what am I doing?@
-`If I had not recognized my own face, I truly might have[line=3]chosen any passerby at all.@
+`No.@ This is not what I wanted to do.@
+`“Damn it—what am I doing—!”@
+`What am I doing, really?@
+`If I had not recognized my own face, I might truly have[line=3]taken any passerby at all.@
 br
-`I might have decided they were the killer and drawn my knife on them.@
+`Declared them the killer and held my knife on them; I might have.@
 bg #000000,lcartain,400
 `“[line=9]!”@
 `I run.@
-`I cannot stay here.@
-`This method will prove nothing.@
-`I[line=3]something is terribly wrong with me[line=3]
+`I cannot remain here.@
+`This method will tell me nothing.@
+`I[line=3]something has gone wrong with me[line=3]
 \
 playstop
 bg "bg/bg_40d",lshutter,800
 `Hah[line=4]hah[line=4]hah[line=4]
 br
 `I flee back to my room and collapse onto the bed.@
-`“Ngh…!”@
-`In the end, I solved nothing.@
-`Sleep comes creeping over me.@
-`All I can do is struggle to sink so deeply that no dream can reach me.
+`“Ngh…………!”@
+`In the end, I resolve nothing.@
+`Sleep comes.@
+`The only thing left for me is to try to sleep so deeply that even dreams cannot reach me.
 \
 bg #000000,crossfade,800
 !w3000
@@ -119,9 +119,9 @@ waveloop se_11
 bg "bg/bg_26a",notrans,0
 `“Hah[line=3]hah[line=4]hah”
 \
-`I feel someone watching me.@
+`I feel as though someone is watching me.@
 `I.@
-`I sweep the passersby with my rolling, bloodshot eyes, judging each one.
+`With rolling, bloodshot eyes, I inspect the people passing by.
 \
 br
 br
@@ -129,12 +129,12 @@ br
 br
 br
 br
-`[line=3]Perhaps it is the hour.@
-`Compared with last night, the streets are utterly deserted.
+`[line=3]Perhaps because of the hour.@
+`Compared with last night, no one is on the streets at all.
 \
-`…@Someone is watching me.@
-`I cannot find her.@
-`Tonight again, the person I want is nowhere to be found.@
+`Someone is watching me.@
+`I cannot find them.@
+`Tonight again, the person I seek cannot be found.@
 br
 br
 br
@@ -145,12 +145,12 @@ textcolor #ff0000
 textcolor #ffffff
 `“Hah[line=3]hah[line=3]hah[line=4]”
 \
-`I will try somewhere else.@
+`I will change places.@
 `No more city tonight.
 \
 bg "bg/bg_24c",crossfade,400
-`Crossing from roof to roof, I reach a tangled neighborhood.@
-`From the tallest house, I survey the road below.
+`Crossing from roof to roof, I emerge above a tangled neighborhood.@
+`From the roof of one house taller than all the rest, I survey the road.
 \
 br
 br
@@ -163,11 +163,11 @@ textcolor #ff0000
 `DON’T LOOK
 \
 textcolor #ffffff
-`“[line=4]There she is.”@
+`“[line=4]There.”@
 `Someone walks the street alone.@
 `A woman.@
-`This time, surely,
-`let it be AKIHA.
+`This time, surely
+`I hope it is AKIHA.
 \
 textcolor #ff0000
 br
@@ -180,28 +180,28 @@ br
 `DON’T LOOK AT ME
 \
 textcolor #ffffff
-`No, it does not even have to be her.@
+`No; it does not particularly matter if it is not her.@
 `Once more.@
-`I want to taste that feeling once more[line=4]
+`I want to taste that FEELING once more[line=4]
 \
 bg #000000,notrans,0
 wave se_13
 bg "bg/ima_12b",lshutter,400
 `I kill her from behind, taking care to damage the body as little as possible.@
-`Gripping her hair, I drag AKIHA’s body away.@
+`Gripping her hair, I drag AKIHA’s BODY away.@
 bg "bg/bg_22c",lshutter,800
 `“Hah[line=4]hah[line=4]hah”@
 `I bite into AKIHA’s neck and suck her blood.@
 br
 `[line=3]Boring.@
-`Tonight was not nearly as much fun as last night.@
-`With hair this short, she cannot be AKIHA after all.
+`Tonight was not as interesting as last night.@
+`With hair this short, she is not AKIHA after all.
 \
-`“…@Boring!”@
+`“Boring—!”@
 `It makes me furious.@
-`Even tearing the corpse to pieces brings no relief.@
-`A counterfeit.@
-`Counterfeits make me angry.
+`Even tearing the corpse apart does nothing to clear my head.@
+`COUNTERFEIT.@
+`Counterfeits make me furious.
 \
 textcolor #ff0000
 br
@@ -216,15 +216,15 @@ br
 textcolor #ffffff
 `“Hah[line=4]hah[line=4]hah[line=4]”@
 br
-`I have wasted too much strength.@
+`I have wasted extra strength.@
 `Dawn will come soon.@
-`When morning arrives, Shiki will wake.@
+`When morning comes, Shiki will wake.@
 br
-`“I’m tired tonight.@ We’ll do it again tomorrow.”@
-`Yes, that sounds good.@ Let’s do that.
+`“I’m tired tonight.@ Let’s do it again tomorrow.”@
+`Yes, that is good.@ Let’s do that.
 \
-`Come on.@
-`Before morning comes, I must make it back to the school without anyone noticing[line=4]
+`Now.@
+`Before morning comes, I must return to the school today without anyone noticing[line=4]
 \
 bg #000000,crossfade,800
 wavestop

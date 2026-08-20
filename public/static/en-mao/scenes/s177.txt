@@ -7,7 +7,7 @@ bg "bg/bg_28b",notrans,0
 `Unlike two nights ago, there isn’t a cloud in the sky.@
 `Clear, brilliant moonlight washes over the nocturnal park and Arcueid’s white figure.
 \
-`“Moonlight.”@
+`“Moonlight, huh…”@
 `If it had been this bright that night, I might even have seen the bandaged man’s face—wait—
 br
 `“Aaaaaaaaaah!”@
@@ -17,14 +17,14 @@ br
 ld c,"tachi/ark_t12",lshutter,400
 `“Shiki!?@ What is it—did you spot one of the Dead?”@
 `Arcueid rushes over.@
-`“No, nothing like that—I just remembered something huge.”@
-`I have nerves of steel, apparently.@
-`I was attacked, and somehow managed to forget all about it until now.
+`“No, nothing like that[line=3]I just remembered something terrible.”@
+`I must have nerves of steel.@
+`I was attacked, yet somehow I had forgotten all about it until this moment.
 \
 `“Arcueid.@ Two nights ago, some strange man attacked me.”@
 ld c,"tachi/ark_t13",crossfade,400
-`“What?@ What was strange about him?”@
-`“Well, the thing is—”@
+`“What?@ What sort of strange man?”@
+`“Well, the thing is[line=4]”@
 cl c,crossfade,400
 br
 `I steady myself, then tell Arcueid everything that happened two nights ago in as much detail as I can.
@@ -32,15 +32,15 @@ br
 playstop
 bg #000000,lshutter,400
 bg "bg/bg_28b",lshutter,400
-`“And that’s what happened.”@
+`“And that’s what happened[line=5]”@
 `When I’m through, I search Arcueid’s face for a reaction.@
 ld c,"tachi/ark_t07",crossfade,400
-`Her eyes have been hard and keen from the moment I began; they never softened once.
+`Her eyes had remained sharp from the moment I began and had never once softened.
 \
-`“So what do you think, Arcueid?@ Are the bandaged man and the one dressed like a priest enemies of yours?”@
-`“Yes.@ They’re both my ‘enemies.@’ I don’t know who the bandaged man is, but I can guess the identity of the woman in the cassock.”@
-`Arcueid narrows her eyes.@
-`She looks less sulky than taut with nervous irritation.
+`“Well, Arcueid?@ Are the bandaged man and the one dressed like a priest enemies of yours?”@
+`“Yes.@ They’re both my ‘enemies.@’ I don’t know who the bandaged man was, but I have a good idea who the woman in the cassock might be.”@
+`Arcueid narrowed her eyes.@
+`She looked less sulky than taut with nervous irritation.
 \
 play "*9"
 `“The person who saved you may be someone I know.@ This is bad.@ That woman really could find our ‘enemy’ before I do.”@
@@ -54,16 +54,16 @@ ld c,"tachi/ark_t01b",crossfade,400
 \
 `“Arcueid.@ Is the person who saved me a vampire too?”@
 ld c,"tachi/ark_t06",crossfade,400
-`“No, not exactly—but there is one more important thing I haven’t told you, Shiki.”
+`“No, not exactly[line=3]but there is one more important thing I haven’t told you, Shiki.”
 \
 ld c,"tachi/ark_t02",crossfade,400
 `“I think I explained this before—vampires like the one infesting this city, which make humans their servants and expand their territory, do everything possible to conceal their existence.@
 `Even when they claim victims, they use every kind of magecraft to keep the people around them from noticing anything is wrong.@
 `Do you know why?”
 \
-`“Humans aren’t stupid.@ If they knew a monster like that was living among them, they’d fight back.@ Humans may be weak, but with the police and other institutions, we might still be able to deal with it ourselves.”@
-`“That’s part of it.@ But the police enforce human law, so we don’t even take them into account.@
-`Still, you’re right that vampires erase their tracks to protect themselves.”
+`“Humans are not stupid.@ If they discovered a monster like that living among them, they would fight back.@ Humans may be weak, but with the police and everything, we might be able to deal with it ourselves.”@
+`“[line=3]That is part of it, I suppose, but the police are an institution of human law.@ Creatures like us do not take them into account.@
+`Still, you are right that vampires erase their traces to protect themselves.”
 \
 `“Shiki.@ Vampires have a natural enemy—a whole band of killers who now have the upper hand.@
 `The same is true of other transcendent species, but revealing themselves is especially fatal for vampiric species.@
@@ -72,18 +72,18 @@ ld c,"tachi/ark_t02",crossfade,400
 `“Vampires prey on humans in secret for one reason alone: self-preservation.@ They hide corpses because they’re terrified their natural enemy will catch their scent.”@
 `“Wonderful.@ Now vampires have some other incomprehensible monster hunting them.”@
 br
-`Speaking as an ordinary human, I’d really prefer it if nothing else that defied common sense barged into my life.
+`Speaking as an ordinary human, I’d really prefer nothing else that defied common sense to come barging into my life.
 \
 ld c,"tachi/ark_t07",crossfade,400
 `“What are you talking about?@ That natural enemy is you humans.”@
-`“What—?@ We’re their natural enemy?”@
+`“What[line=4]?@ We’re their natural enemy?”@
 ld c,"tachi/ark_t06",crossfade,400
 `“Yes.@ Long ago, humans built organized systems around magecraft, occult learning, and ceremonial rites, then began eliminating nonhuman primates.@
-`The foremost example is Christianity—the Holy See’s vaunted order of exorcists.@ The Catholic Church has always exterminated anything ‘nonhuman’ without mercy, but its hatred of vampires is deranged even by those standards.”
+`The foremost example is Christianity[line=3]the Holy See’s vaunted order of exorcists.@ The Catholic Church has always exterminated anything ‘nonhuman’ without mercy, but its hatred of vampires is deranged even by those standards.”
 \
-`“No religion in the world hates vampires more than Catholicism.@
-`They’re beyond obsessed.@ It’s so pathological that even I want nothing to do with them.”@
-`Arcueid sighs.
+`“There isn’t a religion anywhere in the world more hostile to vampires than Catholicism.@
+`It’s beyond obsession.@ Their hatred is so pathological that even I want nothing to do with them.”@
+`Arcueid sighed.
 \
 ld c,"tachi/ark_t02",crossfade,400
 `“The person who saved you belongs to the faction that specializes in hunting heretics.@
@@ -94,7 +94,7 @@ ld c,"tachi/ark_t02",crossfade,400
 \
 `“But doesn’t that make them your allies?@ If the Burial Agency hunts vampires too, maybe you could search together.”@
 ld c,"tachi/ark_t04",crossfade,400
-`“No.@ To them, a vampire is a vampire.@ Any primate that isn’t human is ‘evil’ simply for existing.@ Whether it drinks human blood is irrelevant.@
+`“[line=3]No.@ To them, a vampire is a vampire.@ Any primate that isn’t human is ‘evil’ simply for existing.@ Whether it drinks human blood is irrelevant.@
 `That exorcist may have come to seal me away, not the vampire nesting in this city.”@
 cl c,lshutter,400
 playstop

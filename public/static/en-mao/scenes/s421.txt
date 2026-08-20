@@ -4,7 +4,7 @@ bg "bg/bg_33d",notrans,0
 `[line=4]I should go back to my room.@
 br
 `Hisui’s words churned endlessly inside my head.@
-`My body was heavy enough already; now invisible chains forged from those words made every movement stiff and awkward.@
+`My body was heavy enough already; the unseen spell of those words bound it in chains and made every movement stiff and awkward.@
 play "*6"
 wave se_01
 bg #000000,crossfade,400
@@ -18,9 +18,9 @@ bg "bg/bg_33d",crossfade,400
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
 quakey 2,300
-`“What…?”@
+`“Wh[line=6]at?”@
 `I turned toward the kitchen and collapsed onto the carpet.@
-`“Wait[line=3]just”@
+`“Wait[line=5]just”@
 `I couldn’t even raise my voice.@
 `Dragging myself by my arms, I crawled a short distance before my strength deserted me.
 \
@@ -46,25 +46,25 @@ br
 `A human shape stood there, pale and insubstantial as a ghost.
 \
 waveloop se_02
-`“…”@
+`“[line=10]”@
 `Only then did I understand my situation.@
 `A body that wouldn’t move.@
 `A voice that wouldn’t come.@
-`A dark Western-style mansion without a light burning anywhere.@
+`A dark old mansion without a light anywhere.@
 `And someone staring fixedly at their prey.@
-`With the stage set so perfectly, being murdered was practically mandatory.@
+`With the stage set so perfectly, murder seemed the only possible outcome.@
 `The scene belonged in a cheap horror film, and instead of nausea, laughter welled up inside me.
 \
 bg #9c0120,crossfade,400
 bg "bg/ima_10b",crossfade,400
-`“Ha[line=4]ha, ha”@
+`“Ha, haha”@
 `The figure drew near without making a sound.@
 `Perhaps it was the tension of impending death; the world began spinning faster still.@
 bg #9c0120,crossfade,400
 bg "bg/ima_10b",crossfade,400
-`“…”@
+`“[line=9]”@
 `The presence stopped.@
-`The figure looked down at me, then turned toward my defenseless back[line=4]
+`The figure looked down at me, then, toward my defenseless back[line=4]
 playstop
 br
 `“Shiki, you’ll catch cold if you sleep in a place like this.”@
@@ -91,11 +91,11 @@ bg "bg/bg_40a",crossfade,400
 play "*2"
 `When I opened my eyes to strong sunlight, I was in my own room.@
 `I was wearing pajamas and lying in bed.@
-`“That’s right[line=5]yesterday”@
+`“[line=9]That’s right, yesterday”@
 `I had collapsed in the foyer.@
-`Hisui had passed me, and Kohaku had come afterward.@
+`Hisui had gone past without noticing me, and Kohaku had come when she heard the noise.@
 `“Then Akiha must have been the one who went out.”@
-`Probably.@ Knowing Akiha’s sense of responsibility, she had gone looking for SHIKI.@
+`Probably.@ Knowing Akiha’s sense of responsibility, she had gone looking for SHIKI in the city at night.@
 `“Idiot.@ I told her to leave SHIKI to me…”
 \
 wave se_04
@@ -105,11 +105,11 @@ wave se_04
 ld c,"tachi/koha_t02",lshutter,800
 `“Oh, good morning, Shiki.@ How are you feeling?”@
 `Kohaku approached with her usual smile.@
-`“…”@
+`“[line=7]”@
 `Last night’s conversation with Hisui came rushing back.@
-`I shoved it into a distant corner of my mind and returned as normal a smile as I could manage.
+`I forced it into a distant corner of my mind and managed a smile as ordinary as I could make it.
 \
-`“Morning, Kohaku.@ Were you the one who brought me here after I collapsed last night?”@
+`“Morning, Kohaku.@ Um[line=3]were you the one who brought me here after I collapsed last night?”@
 ld c,"tachi/koha_t03",crossfade,400
 `“What, don’t you remember, Shiki?@ You were lying in the foyer when I called to you.@ You stood up by yourself, said you had slept well, and started walking.@ I let you lean on me, but you made it back here on your own.”@
 `“I see.@ I don’t remember any of that.@ Maybe I’ve been too tired lately.@ I keep losing track of what I’ve been doing.”@
@@ -127,10 +127,10 @@ cl c,crossfade,400
 `“Anyway, thank you.@ If I’d slept in the foyer all night, I’d have caught a cold, and school[line=3]”@
 `Wait.@ Unless my eyes deceived me, the clock was well past ten.
 \
-`“School!@ Kohaku, school!”@
+`“Ah[line=3]!@ K-Kohaku, school!”@
 ld c,"tachi/koha_t03",crossfade,400
 `“Yes.@ Your school is closed today for its anniversary.”@
-`“…”@
+`“[line=8]”@
 `I see.@ Come to think of it, there was such a day.@
 `I had been so distracted at school lately that even that had slipped my mind.
 \
@@ -154,12 +154,12 @@ cl c,lshutter,400
 ld c,"tachi/koha_t03",lshutter,400
 `“I’ll bring you some rice porridge right away.@ You must behave yourself today, Shiki.”@
 cl c,lshutter,400
-`“Wait—Kohaku.”@
+`“Ah[line=3]Kohaku.”@
 ld c,"tachi/koha_t03",lshutter,400
 `“Yes?@ What is it, Shiki?”@
 `Kohaku was still Kohaku.@
 `That smile, bright enough to restore the spirits of anyone who saw it, had not changed.@
-`I could not believe it was merely an act.
+`I[line=3]could not believe her smile was nothing but an act.
 \
 `“No, it’s nothing.@ I’m looking forward to the porridge.”@
 ld c,"tachi/koha_t05",crossfade,400

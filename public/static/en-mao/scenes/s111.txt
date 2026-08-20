@@ -4,8 +4,8 @@ wavestop
 bg "bg/bg_33a",notrans,0
 `[line=3]I’ll try telling her the truth.@
 br
-`I hate lying to Akiha, and if I explain everything with complete sincerity, perhaps she will understand.@
-`The odds are roughly the same as winning the lottery, but still.@
+`I hate lying to Akiha, but if I explain everything with all the sincerity I possess, perhaps she will understand.@
+`The odds are about the same as winning the lottery.@
 br
 `“[line=3]All right, here goes.”@
 `I fill my lungs and open the sitting-room door.
@@ -16,16 +16,16 @@ ld c,"tachi/aki_t02",lshutter,800
 `「[line=3]おはよう兄さん」
 `Akiha fixes me with a glare that all but declares, I am furious.@
 `“Hey.@ Good morning, Akiha!”@
-`Once a man has resigned himself to disaster, nothing can frighten him.@
-`I return her bullying stare with the brightest greeting I can muster.
+`A man with nothing left to lose is strong.@
+`I meet Akiha's bullying stare with the brightest greeting I can muster.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“[line=4]”@
 `Perhaps my cheerfulness catches her off guard, because Akiha merely stares.@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Brother, enough greetings.@ Sit down, please.@ I have something to discuss with you.”@
-`“All right, but keep it brief.”@
-`Meek as a lamb, I lower myself onto the sofa opposite her.
+`“Brother, enough greetings; sit down, please.@ I have something to discuss with you.”@
+`“All right.@ But keep it brief.”@
+`Meekly and obediently, I lower myself onto the sofa opposite her.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“Then let us begin.@ Would you tell me where you were the day before yesterday and yesterday?”@
@@ -36,19 +36,19 @@ ld c,"tachi/aki_t01a",crossfade,400
 \
 `“About that, Akiha.”@
 `“Yes, Brother?”@
-`“For the last two days, I was exterminating a vampire.@ You know about the serial murders in town, right?@ The killer turned out to be a vampire, so I joined forces with a ‘good vampire’ I happened to meet and fought the ‘bad vampire.@’”@
+`“For the last two days, I was exterminating a vampire.@ You know about the serial murders in town, right?@ The killer was a vampire, so I helped a ‘good vampire’ I happened to meet fight the ‘bad vampire’”@
 br
 `[line=5]There: a remarkably concise explanation.
 \
 ld c,"tachi/aki_t15a",crossfade,400
 `“Wh[line=7]”@
-`Akiha freezes dead still.@
+`Akiha freezes solid.@
 `A reasonable first reaction, I suppose.@
 `Right now, her mind must be seething with the conviction that I am making a fool of her, and at any moment she will
 bg #000000,notrans,0
 ld c,"tachi/aki_t07",crossfade,400
 `“Are you making fun of me, Brother?!”@
-`Yes, she is bound to shout something like that[line=3]
+`she is bound to shout[line=3]
 bg "bg/bg_34a",notrans,0
 \
 ld c,"tachi/aki_t10",crossfade,400
@@ -71,8 +71,8 @@ ld c,"tachi/aki_t02",crossfade,400
 cl c,crossfade,400
 `Akiha stares at me, looking less angry now than deeply uneasy.
 \
-`Her gaze is so painfully earnest that
-`“Mm”@
+`Her gaze is so earnest that
+`“Mm.”@
 `is all I can manage as I give her an uncertain nod.
 \
 cl c,crossfade,400

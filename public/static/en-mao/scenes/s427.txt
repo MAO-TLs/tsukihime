@@ -1,9 +1,9 @@
 playstop
 wavestop
 bg "bg/bg_11d",notrans,0
-`[line=3]It is still too early to settle the outcome.@
+`[line=3]It is still too early to decide the outcome.@
 br
-`To make the kill certain, I first need to strip the enemy bare.
+`To kill with certainty, I must first strip the enemy bare.
 \
 play "*6"
 ld c,"tachi/aki_t28",crossfade,400
@@ -15,24 +15,24 @@ ld c,"tachi/aki_t28",crossfade,400
 \
 `“At the speed you moved before, I might have lost you even in this narrow corridor.@
 `But from here, that is impossible.@ I can see you clearly enough to tell the color of your eyes.”@
-`“[line=7]”@
+`“[line=9]”@
 `So if I charge, she can finish me before I reach her.@
 `But[line=3]that applies only if I approach her.
 \
 ld c,"tachi/aki_t27",crossfade,400
 `“…”@
 `Akiha’s eyes narrow.@
-`Is she annoyed that someone whose life is already in her hands remains calm?@ Or has that alone made her hesitate?@
-`Either way, just as SHIKI thought, she still understands nothing about a fight to the death.
+`Does it offend her that the life already in her hands remains calm?@ Or has that alone made her hesitate?@
+`Either way[line=3]just as SHIKI believed, that thing still understands nothing of a fight to the death.
 \
 `“[line=3]You’re planning something, aren’t you, Brother?”@
 `She asks the obvious.@
-`I have no obligation to answer.@
-`“[line=8]Is she an idiot?”@
-`I mutter, switching hands.@
-`I transfer it from my dominant right hand to my left.@
-`I know Akiha’s range now.@
-`All that remains[line=3]
+`I am under no obligation to answer.@
+`“[line=8]Is she stupid?”@
+`I mutter and switch the knife to my other hand.@
+`From my dominant right hand to my left.@
+`I have grasped Akiha’s range.@
+`Now[line=3]
 \
 `“[line=3]Pathetic.@ What are you frightened of now?”@
 ld c,"tachi/aki_t29",crossfade,400
@@ -41,8 +41,8 @@ ld c,"tachi/aki_t29",crossfade,400
 `[line=3]I am already tired of looking at your face.”@
 `“[line=9]!”
 \
-`The air around Akiha shimmers.@
-`With a rush.@ Her killing intent takes shape as red hair.@
+`The air around Akiha wavers.@
+`With a rush.@ Akiha’s murderous intent gives the red hair form.@
 ld c,"tachi/aki_t31",lshutter,400
 `Akiha fixes me with her stare, and almost simultaneously the surrounding air becomes red hair and coils around both my arms.
 \
@@ -60,33 +60,33 @@ ld c,"tachi/aki_t29",lshutter,400
 \
 cl c,lshutter,400
 `“Tch[line=5]”@
-`My left arm is utterly numb.@
-`There is no visible injury, but neither response nor sensation remains.@
-`“I see[line=4]so that is how the binding takes control.”
+`My left arm is utterly without sensation.@
+`There is no visible wound, but neither response nor feeling remains.@
+`“I see[line=4]so that is how your strings work.”
 \
 monocro #ff0000
 bg "bg/bg_11d",lshutter,400
-`I spring farther back.@
-`[line=3]The red hair follows.@
-`It no longer acts with the same instant force, but it clings unerringly to my limbs.
+`I spring still farther back.@
+`[line=3]The red hair pursues me.@
+`It lacks the earlier immediacy, but winds itself unfailingly around my limbs.
 \
-`To say it follows is inaccurate.@
+`No; pursues is not the right word.@
 `There is no escaping this red hair.@
-`The instant Akiha sees me, it is already entwined around me.@ To imagine dodging or evading it is a mistake.@
-`If it is there, it is there; if it is not, it is not.@
-`Like the air against my skin, the red hair is already wrapped around me.
+`To be seen by Akiha is already to be entangled.@ Imagining an act such as dodging or evading it is the mistake.@
+`If it is, then it is; if it is not, then it is not.@
+`Like the air touching my skin, the red hair is already wrapped around me.
 \
-`Therefore the attack cannot be escaped.@
-`My only option is[line=3]to sever its conduit, the red hair, before Akiha can take anything from me.@
-`When she sees her target clearly, the act of taking must be instantaneous.@
-`When her view is indistinct, however, there is a slight delay.@ During that interval, I cut the hair before anything vital can be stolen and thus avoid a mortal wound.
+`Therefore, I cannot escape that attack.@
+`If anything can be done, it is only this[line=3]sever the pipeline, the red hair, before Akiha takes something from me.@
+`When Akiha sees her target directly, the act of taking must occur in an instant.@
+`When the target is indistinct in her sight, however, a slight time lag enters the act.@ Within that interval, before anything decisive is taken, I somehow cut the red hair and evade a mortal wound.
 \
 `That is all I am doing.@
 `Even if I can see the extension of that image of red hair, invisible even to Akiha herself, her ability remains overwhelmingly powerful.
 \
 monocro off
 bg "bg/bg_11d",lshutter,400
-`[line=3]Perhaps to display her confidence, Akiha refuses to run and pursues me at a brisk walk.@
+`[line=3]Perhaps as a display of composure, Akiha does not run; she comes after me at a rapid walk.@
 br
 `“[line=8]”@
 `I ceaselessly cut the hair from my hands, legs, and torso.@
@@ -94,9 +94,9 @@ br
 `There is no pain.@ There is no blood.@ Yet even through my clothes I can tell the burn has stripped away an entire layer of flesh.
 \
 `“[line=8]Tch”@
-`Worst of all, nauseating cold seeps into my body through the exposed flesh.@
-`It keeps me from devoting myself entirely to escape.@
-`Still facing Akiha, I retreat more and more slowly until at last my feet stop.
+`What is worst is the nauseating cold entering my body through the side of the exposed flesh.@
+`It prevents me from giving myself completely to escape.@
+`Still facing Akiha, I retreat more and more slowly; at last, I stop.
 \
 `[line=3]And so I enter Akiha’s range.@
 br
@@ -108,8 +108,8 @@ ld c,"tachi/aki_t11c",lshutter,800
 ld c,"tachi/aki_t28",crossfade,400
 `“This is the end, Brother.@ Aren’t you excited?@ I’m going to torment you to death, not a morsel left and not a drop wasted[line=3]!”@
 br
-`[line=4]That is exactly what I mean, Akiha.@
-`Opening your mouth was a needless indulgence.
+`[line=4]Exactly.@
+`That is why opening your mouth was one indulgence too many, Akiha.
 \
 bg "bg/bg_07b",lshutter,400
 `[line=6]Bang.@
@@ -117,9 +117,9 @@ bg "bg/bg_07b",lshutter,400
 br
 `“Impossible[line=3]!?”@
 br
-`Akiha’s voice comes from above.@
-`Because I had done nothing but retreat in a straight line, she could not react when I suddenly moved sideways.@
-`Of course, I had deliberately lured her toward the stairs, so it was hardly an accident.
+`Akiha’s voice reaches me from above.@
+`Until now I had done nothing but retreat in a straight line; she must have been unable to respond to the sudden lateral movement.@
+`Of course, I had lured Akiha here with the approaching stairway in mind, so it was not an accident.
 \
 `“Why, you…!@ Skittering around like that…!”@
 `Akiha leans over the stairwell to find me on the floor below.@
@@ -130,11 +130,11 @@ playstop
 bg #000000,tshutter,400
 bg "bg/bg_07b",bshutter,400
 `“Ngh…”@
-`Dropping two floors in quick succession makes my knees scream.@
+`Dropping two floors at once makes my knees scream.@
 `I ignore them and hurry into the corridor.@
-`Behind me comes the clang of Akiha racing down the stairs.@
+`Clang, clang—the sound of Akiha racing down the stairs follows.@
 `“[line=6]A window”@
-`This is the second floor.@ I can still jump from here to the ground.
+`This is the second floor.@ From here, I could at least jump through a window to the ground.
 \
 `“[line=6]”@
 `But that would only repeat SHIKI’s mistake.@
@@ -143,29 +143,29 @@ bg "bg/bg_07b",bshutter,400
 bg #000000,lshutter,400
 bg "bg/bg_10f",lshutter,400
 `I enter the corridor.@
-`Red hair lies spread across the entire second floor.@ It looks like some vast network of arteries.@
+`Red hair is laid everywhere across the second floor too.@ Like an artery, or something of the kind.@
 quakey 2,50
 `“[line=5]!?”@
-`Sensation vanishes from my leg and I collapse.@
+`Feeling disappears from my leg, and I collapse onto the floor.@
 `“Damn[line=5]”@
-`Hair is wound around my left ankle.@
-`[line=3]Did she glimpse only my foot as I descended the stairs?@
-`I am outside her sight now, so the pain is not instantly fatal, but[line=4]
+`Hair is wound around my left foot.@
+`[line=3]Did she see only the foot as I came down the stairs?@
+`I am outside Akiha’s sight now, so it is not the pain of instant death, but[line=4]
 \
-`“Damn, she’s nastier than I expected.”@
+`“Damn—she’s nastier than I expected.”@
 `I sever the hair.@
-`My left leg is now[line=3]in almost the same condition as my left arm.@
+`My left leg is now[line=3]in much the same state as my left arm.@
 `“[line=6]”@
-`The footsteps draw closer.@
-`Before Akiha reaches the corridor, I throw myself into a classroom.
+`The footsteps approach.@
+`Before Akiha descends into the corridor, I leap into a classroom.
 \
 bg #000000,lshutter,400
 bg "bg/bg_06g",lshutter,400
 `“[line=6], [line=7], [line=4]”@
-`Holding my breath, I lean against the wall facing the corridor.@
-`This is bad.@
-`Half my body is already nearly dead.@
-`Even knowing what I was doing, I never expected to reproduce the dream this faithfully.@
+`I kill my breath and lean against the wall facing the corridor.@
+`What a mess.@
+`Half my body is already all but dead.@
+`I knew what I was doing, but never thought I would reproduce that dream this far.@
 br
 wave se_09
 `Click, click, click, click.@
@@ -174,30 +174,30 @@ br
 \
 `“[line=8]”@
 `In the dream, SHIKI was killed after this.@
-`SHIKI’s judgment was not wrong.@ He merely failed to understand Akiha’s power.@
+`SHIKI’s judgment was not mistaken.@ He simply failed to grasp the enemy Akiha’s ability correctly.@
 `The smell of scorched air.@
-`Heat like midsummer.@
-`A body vanishing amid burning agony.@
-`From those facts, SHIKI assumed Akiha was setting her enemies alight.
+`Heat like high summer.@
+`A body erased with burning agony.@
+`From those facts, SHIKI concluded that Akiha was setting her enemies alight.
 \
-`But the truth is the opposite.@
-`Akiha steals heat from whatever her red hair binds, freezing and vaporizing it in an instant so that it only appears to vanish.@
-`If it were ignition, there would be nothing I could do once I caught fire.@ Cutting the hair would not help; I could hardly cut my own burning body apart.
+`But the reality is its opposite.@
+`Akiha steals ‘heat’ from the target caught in her red hair, freezes and vaporizes it in an instant, and merely makes it appear to vanish as a result.@
+`If it were ignition, once I had been set alight there would be nothing I could do.@ Cutting the red hair would mean nothing; I could hardly cut apart my own burning body.
 \
-`But[line=3]this is merely plunder through absorption.@
-`Even if the red hair envelops my entire body, I need only cut it before I am drained dry and kill Akiha herself.@
-`While Akiha lives, her target seems to burn.@ Once she dies, those flames vanish like an illusion.
+`But[line=3]that thing is only plunder by absorption.@
+`Even if the red hair envelops my whole body, there is no problem if I sever it before everything is taken and finish Akiha herself.@
+`While Akiha lives, she burns her target.@ But that flame is an illusion that vanishes when Akiha dies.
 \
 wave se_09
 `Click, click, click, click.
 \
 `“[line=6]”@
-`I offered my left arm knowing it would burn.@ I had even prepared to cut it off at the shoulder afterward, but that proved unnecessary.@
-`As long as I stop Akiha herself, her power cannot kill me.@
-`Since she is no true wielder of flame, an ambush meant to kill us both ceases to be mutual destruction if she dies first.
+`I had offered my left arm prepared to let it burn.@ After it burned, I was ready even to cut it away at the shoulder, but there was no need.@
+`Akiha’s ability cannot kill me once its owner has been stopped.@
+`Since Akiha is not a true wielder of flame, an ambush intended as mutual destruction ceases to be mutual if the enemy dies first.
 \
 `“[line=8]”@
-`Click.@
-`I hear Akiha’s footstep through the wall at my back.@
-`There is no mistake[line=3]she has not noticed me and is about to pass the classroom.
+`Clack.@
+`Akiha’s footstep reaches me through the wall at my back.@
+`There is no mistake[line=3]Akiha has not noticed me and is about to pass this classroom.
 \

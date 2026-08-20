@@ -19,7 +19,7 @@ ld c,"tachi/his_t01",lshutter,400
 \
 ld c,"tachi/his_t08",crossfade,400
 `“Master Shiki.@ Surely you are not about to suggest helping me with my duties.”@
-`“—Uh.”@
+`“[line=7]Uh.”@
 `She struck before I could.
 \
 `“What’s wrong with letting me help?@ Nobody can clean a mansion this big alone, so at least let me do something.”@
@@ -27,14 +27,14 @@ ld c,"tachi/his_t01b",crossfade,400
 `“Forgive me, Master Shiki, but there is not enough work to require your assistance.@ In fact, today is somewhat easier because my sister is absent.”@
 `“What?@ Cleaning is easier when Kohaku isn’t here?”@
 ld c,"tachi/his_t26",crossfade,400
-`“No, that was not what I meant…”@
+`“Ah[line=3]no, that isn’t what I meant…”@
 cl c,lshutter,400
 `Apparently realizing that she let something slip, Hisui lowers her head and mumbles an explanation.@
 `This is such a rare sight that I can barely keep from grinning.
 \
 ld c,"tachi/his_t04",lshutter,400
-`“Master Shiki.@ About what I just said, please do not tell my sister…”@
-`Hisui mumbles the request under her breath.@
+`“Master Shiki.@ About what I just said—to my sister…”@
+`Hisui mumbles for me to keep it quiet.@
 `“Oh, so Kohaku isn’t supposed to hear that?@ I understand.”@
 `Which means, naturally, that I absolutely must tell her.@
 ld c,"tachi/his_t13",crossfade,400
@@ -62,7 +62,7 @@ cl c,lshutter,400
 ld c,"tachi/his_t09",lshutter,400
 `“Yes, Master Shiki?”@
 `Even angry, she answers when addressed, which makes Hisui a better person than I am.@
-`“About what you said—oh, you don’t have to answer if you’d rather not.@
+`“About what you said[line=3]oh, you don’t have to answer if you’d rather not.@
 `Kohaku is always cleaning the courtyard, but she hardly ever cleans inside the mansion.@ Does that have something to do with what you meant?”@
 ld c,"tachi/his_t05",crossfade,400
 `“Yes, there is a connection, but…”
@@ -72,14 +72,14 @@ ld c,"tachi/his_t04",crossfade,400
 `“Clumsiness?@ But Kohaku is good with her hands.@ Her cooking is wonderful, and she knows pharmacology too, doesn’t she?”@
 ld c,"tachi/his_t05",crossfade,400
 `“People have their strengths and weaknesses.@ My sister cheerfully handles any cleaning that doesn’t require much finesse, but when it comes to caring for delicate furnishings, she is catastrophically clumsy.”@
-`“Clumsy?@ Hisui, I never expected you to put it so bluntly.”@
+`“[line=3]Clumsy?@ Hisui, I never expected you to put it so bluntly.”@
 `That is nothing like the Hisui I thought I knew.
 \
 ld c,"tachi/his_t13",crossfade,400
-`“No.@ You can afford to be charitable because you do not know the facts, Master Shiki.@ The number of objects my sister has destroyed under the pretense of cleaning is far beyond ten or twenty.@
+`“No.@ You can afford to be charitable because you do not know the facts, Master Shiki.@ The number of objects my sister has destroyed in the name of cleaning is far beyond ten or twenty.@
 `She possesses the rare gift of making a room messier the more earnestly she cleans it.”@
-`Hisui speaks with enough force to make a fist.@
-`Apparently she has suffered quite extensively from Kohaku’s fabled clumsiness.
+`Hisui speaks with such vehemence that she looks ready to clench a fist.@
+`Apparently she has suffered more than her share from Kohaku’s blunders.
 \
 `“I see.@ That’s rather unexpected.”@
 ld c,"tachi/his_t05",crossfade,400
@@ -89,7 +89,7 @@ ld c,"tachi/his_t05",crossfade,400
 \
 ld c,"tachi/his_t23",crossfade,400
 `“So please do not suggest that my sister clean indoors, Master Shiki.@
-`Without that one failing, she is an exemplary—”@
+`Without that one failing, she is an exemplary[line=3]”@
 cl c,lshutter,400
 ld r,"tachi/koha_t02",lshutter,400
 `“Yes?@ Did someone call me?”@
@@ -98,7 +98,7 @@ ld r,"tachi/koha_t02",lshutter,400
 `Speak of the devil: Kohaku has arrived from the direction of the kitchen.
 \
 ld l,"tachi/his_t04",lshutter,400
-`“Kohaku—do you need something?”@
+`“Kohaku[line=3]do you need something?”@
 ld r,"tachi/koha_t03",crossfade,400
 `“I’m short-handed, so I came to ask Shiki for help.”@
 `Kohaku smiles at me as I stand there frozen.@
@@ -110,14 +110,14 @@ ld l,"tachi/his_t01",crossfade,400
 \
 ld r,"tachi/koha_t01a",crossfade,400
 `“Oh, really?@ Then you’re free at the moment, Shiki?”@
-`“—I suppose I am.@ If you need another pair of hands, I’ll help.@ But are you sure I can manage?@ I’ve never cooked before.”@
+`“[line=3]I suppose I am.@ If you need another pair of hands, I’ll help.@ But are you sure I can manage?@ I’ve never cooked before.”@
 ld r,"tachi/koha_t05",crossfade,400
 `“Don’t worry; there are plenty of jobs anyone can do.@ Come along, then—time to put you to work.”@
 cl r,lshutter,400
 `Kohaku takes me firmly by the hand and pulls me away.
 \
 ld l,"tachi/his_t04",crossfade,400
-`“……”@
+`“[line=7]”@
 `Hisui watches us go without a word.
 \
 bg #000000,crossfade,800
@@ -140,15 +140,15 @@ cl c,lshutter,400
 `Kohaku’s off-key humming fills the kitchen.
 \
 `…@
-`…@
-`…@
-`…@
-`…@
+`……@
+`………@
+`…………@
+`……………@
 `Perhaps Kohaku is too absorbed in cooking to talk much.@
 `I’m enjoying peeling the shrimp myself, and keep happily stripping shell after shell.@
 bg #000000,crossfade,400
 bg "event/his_e01",crossfade,400
-`“……”@
+`“[line=6]”@
 `But this feels nostalgic.@
 `Before the accident sent me away from the mansion, Kohaku, Akiha, and I played at keeping house like this several times.
 \
@@ -186,7 +186,7 @@ br
 `We couldn’t find our way back, so in the end you called the mansion and had one of the servants come collect us.”
 \
 ld c,"tachi/koha_t03",crossfade,400
-`“Master Makihisa gave you a terrible scolding afterward.@ All of us had gone out to play, but somehow by the end it was as though only you had gone, Shiki.@ No matter how harshly he scolded you, you insisted the fault was yours.@
+`“Master Makihisa gave you a terrible scolding afterward.@ Though all of us had gone out to play, somehow you ended up taking all the blame, Shiki.@ No matter how harshly he scolded you, you insisted the fault was yours.@
 `Those days were wonderful.@ We got into all kinds of mischief, but it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@
 `Kohaku laughs softly, speaking almost to herself as she savors the memory.
 \
@@ -229,7 +229,7 @@ ld c,"tachi/koha_t07",lshutter,400
 `“That doesn’t mean you can ignore it!@ A cut that deep must hurt…!”@
 `“Not at all.@ Things like this don’t hurt if you believe they don’t.@ You convince yourself that this finger isn’t part of your body, but belongs to a doll or something.@ Then you stop feeling pain, don’t you?”
 \
-`“Wha—”@
+`“Wha[line=4]”@
 `Kohaku delivers this serene pronouncement with a smile.@
 `Thinking that way might help her endure the pain, but it cannot diminish the pain itself.
 \

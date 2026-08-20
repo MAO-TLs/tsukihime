@@ -57,8 +57,8 @@ ld c,"tachi/cel_t04",crossfade,400
 `“…@I see—then there’s no reason to make you keep me company.@ Sorry for disturbing you.@
 `I’ll eat in the classroom, so please relax.”@
 ld c,"tachi/cel_t09",crossfade,400
-`“What—don’t I get the bread?”@
-`Ciel murmurs, looking genuinely crushed.
+`“Wait[line=3]you’re not giving me the bread?”@
+`Ciel murmured, looking genuinely heartbroken.
 \
 `“But[line=3]you’re already full, aren’t you, Ciel?”@
 ld c,"tachi/cel_t12",crossfade,400
@@ -78,7 +78,7 @@ bg #000000,lshutter,800
 bg "event/cel_e02a",lshutter,800
 `Ciel eats one bun and I eat two, after which we settle down to tea.@
 `Kneeling on the tatami, I sip in companionable silence with her.@
-`If only this weren’t a school lunch break, it would be perfect—but life never works out quite that neatly.
+`If this were anything but a school lunch break, it would be perfect—but life never works out so neatly.
 \
 `“How is your new home, Tohno?@ Something rather serious seemed to be happening there this morning.”@
 `“Hard to say.@ The house itself is magnificent, and the only trouble last night was a pack of noisy wild dogs.@
@@ -97,8 +97,8 @@ br
 `“That’s true, but surely we’ll be safe if we stay indoors at night.@ Eight people have died now, haven’t they?@ With so many victims, the police must catch the killer soon.”@
 `“[line=3]Honestly.@ Tohno, you have no sense of danger at all.@ The news has been saying exactly that since the third victim, and the killer is still free!”
 \
-`“Mm…@ you’re right.@ The news keeps flashing ridiculous captions about a ‘modern-day vampire,’ so it never felt like something close
-`to home.@ I’m sorry—that was careless, and since I live in this city, I should be more cautious.”@
+`“Mm—you are right.@ Those ridiculous ‘modern-day vampire’ captions made it feel like something that had nothing to do with me.@
+`I am sorry; that was careless.@ I live in this city too, so I should know better than to let my guard down.”@
 `“Yes.@ As long as you understand.”@
 `Ciel smiles, satisfied.
 \

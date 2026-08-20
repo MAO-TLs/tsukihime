@@ -37,9 +37,9 @@ play "*3"
 \
 `“Ciel, Arihiko told me you were angry with me.@ Why?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Eh[line=2]no, I was not angry with you exactly.@ It was less about you than what was behind you, or rather, well, perhaps I was angry at how insensitive you were.”@
-`“Hold on, Ciel.@ You are difficult enough to follow on an ordinary day, but today is a new record.@ It is fine to be angry at my insensitivity, but what is this ‘perhaps’ business?@
-`Ciel, do you not understand yourself?”
+`“Eh[line=2]no, I was not angry with you, exactly.@ It was less you than something behind you, or rather, well, perhaps I was angry at how insensitive you were.”@
+`“Wait, Ciel.@ You are hard enough to follow on an ordinary day, but this is a new record.@ I understand being angry at me for my insensitivity, but what is this ‘perhaps’ about?@
+`Do you not even know what you are feeling?”
 \
 ld c,"tachi/cel_t09",crossfade,400
 `“Well.@ I am not entirely sure.@ I do not pay very much attention to myself.”@
@@ -72,8 +72,8 @@ br
 `That leaves me with nothing but the sausage roll.@
 ld c,"tachi/cel_t04",crossfade,400
 br
-`Delighted, Ciel takes the curry bread with a cry of “Yay!”@
-`Is this woman a child?
+`Ciel takes the curry bread with a delighted cry of “Yay!”@
+`Is she a child?
 \
 ld c,"tachi/cel_t05",crossfade,400
 `“Then I will share my hamburger patty with you.”@
@@ -111,7 +111,7 @@ br
 `“Oh.@ If you are that firm about it, I suppose there is no persuading you.”@
 `“Right.@ For eight years, I have never once[line=4]”@
 br
-`I had never taken them off in front of anyone, true.@
+`I had never taken them off in front of anyone—until now.@
 playstop
 `“[line=4]”@
 `I see.@ That is no longer true.@

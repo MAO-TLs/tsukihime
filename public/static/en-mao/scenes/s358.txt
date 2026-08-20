@@ -40,22 +40,22 @@ ld c,"tachi/aki_t16a",crossfade,400
 `“[line=5]Oh.”@
 cl a,crossfade,400
 br
-`I had forgotten.@
-`The strawberry milk I had bought for her was still sleeping at the bottom of the bag.
+`I forgot.@
+`The strawberry milk I bought for her is still asleep in the plastic bag.
 \
 `“Sorry, I forgot.@ Here.”@
 `I hold out the carton.@
 `Akiha takes it.@
 ld c,"tachi/aki_t19",crossfade,400
 `“Ah[line=4]”@
-`Perhaps the carton is too small; Akiha’s fingers settle over mine.
+`Perhaps the carton is too small; Akiha’s fingers overlap mine.
 \
 `[line=3]Thump.@
 br
-`That was all.@
-`Such a tiny thing, and yet my fingertips burned.@
-`I should have let go at once, but my hand would not move.@
-`When I looked at Akiha, she was frozen too.
+`That is all.@
+`Such a tiny thing, yet somehow my fingertips burn.@
+`I need only let go, but my hand refuses to move.@
+`When I look at Akiha, she is frozen too.
 \
 cl a,crossfade,400
 ld l,"tachi/ari_t01",crossfade,400
@@ -74,8 +74,8 @@ cl a,crossfade,400
 `“No, it wasn’t like that.@ We both drifted off for a second.@ Right, Akiha?”@
 ld c,"tachi/aki_t16a",crossfade,400
 `“……”@
-`Akiha remained dazed.@
-`That expression was so unlike the Akiha I knew that it made my heart jump.
+`Akiha only stares blankly.@
+`The look on her face is so unlike the Akiha I know that my heart gives a start.
 \
 cl a,crossfade,400
 ld c,"tachi/ari_t01",crossfade,400
@@ -132,8 +132,8 @@ play "*1"
 ld c,"tachi/cel_t03",crossfade,400
 `“Yes.@ Last night’s was apparently the tenth victim.@
 `The body had been drained of blood as before, but this time several other parts were missing as well.”@
-`Ciel explained it in her usual tone.@
-`But I was seized by a violent vertigo, as though the world beneath me had tilted.
+`Ciel explains it in her usual tone.@
+`But I am seized by a violent vertigo, as though the world I inhabit has suddenly tilted.
 \
 ld c,"tachi/cel_t12",crossfade,400
 `“The body had no arms or legs.@ They believe a human mouth bit them off, but that is strange; a human mouth could not”@
@@ -150,7 +150,7 @@ br
 `Ciel, you can smile because you do not know, but that is[line=3]
 \
 ld r,"tachi/aki_t04a",crossfade,400
-`“Heh.”@
+`“Hehe.”@
 ld l,"tachi/cel_t12",crossfade,400
 `“Akiha.@ Did I say something amusing?”@
 ld r,"tachi/aki_t08a",crossfade,400
@@ -177,21 +177,21 @@ ld r,"tachi/aki_t11a",crossfade,400
 `“So by ‘vampire,’ you mean a deranged human being—someone who no longer recognizes as taboo what should be forbidden.”
 \
 ld l,"tachi/cel_t07a",crossfade,400
-`“Yes.@ It needn’t be called a vampire.@ When someone leaves the rules of society behind, the people within society cease to regard them as human simply because their nature is incomprehensible.@
-`That is the common sense of society defending itself.”@
+`“Yes.@ It need not be called a vampire.@ When someone leaves society’s rules behind, the people within society cease to regard them as human simply because their nature is incomprehensible.@
+`That is how society’s common sense defends itself, Akiha.”@
 ld r,"tachi/aki_t04a",crossfade,400
 `“That was very instructive.@ But it creates a difficulty.@ Under your interpretation, the vampire is not committing a crime.@
 `The vampire feels no trace of guilt for what they do, correct?@ Then one cannot punish them for something that is not a crime to them.”
 \
 ld l,"tachi/cel_t04",crossfade,400
-`“Exactly.@ That is why the people who belong to society cannot punish those who have strayed outside it.@
-`To punish a being that does not recognize its crime, one must appeal not to individual ethics but to the law of the species as a whole.”@
+`“Exactly.@ That is why the people who belong to society cannot punish those who have strayed beyond it.@
+`To punish a being that does not recognize its crime, one must appeal not to individual ethics but to the fundamental principle of the species as a whole.”@
 ld r,"tachi/aki_t01a",crossfade,400
-`“The law of the entire species?”
+`“The fundamental principle of the species as a whole?”
 \
 ld l,"tachi/cel_t03",crossfade,400
-`“Yes.@ The oldest law: one’s own species must prosper over all others.@ Anything that obstructs that prosperity is, by that fact alone, a crime.@
-`Even if a vampire sees no sin in murder, to humanity as a whole the vampire’s very existence is the crime.”
+`“Yes.@ The first and most fundamental principle: one’s own species must prosper over all others.@ Anything that obstructs that prosperity is, by that fact alone, a crime.@
+`Even if a vampire sees no sin in murder, to humanity as a whole the crime is not the act itself, but the vampire’s very existence.”
 \
 cl a,crossfade,400
 br
@@ -209,7 +209,7 @@ br
 \
 playstop
 wave se_03
-`The bell rang, announcing the end of lunch.@
+`The bell rings, announcing the end of lunch.@
 ld l,"tachi/aki_t01a",crossfade,400
 `“[line=2]I am sorry for bringing up such a dull subject.”@
 ld r,"tachi/ari_t01",crossfade,400

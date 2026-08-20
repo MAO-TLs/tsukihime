@@ -5,17 +5,17 @@ wait 100
 bg "bg/bg_40a",notrans,0
 play "*1"
 `“[line=4]What nonsense”@
-`No, I am only tired.@
+`No, I am merely tired.@
 `I still have not shaken what happened with Yumizuka.@
 `I have not become a vampire.@ I should still be an ordinary human being.@
 br
 bg "bg/ima_13b",notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`And yet, there I was—roaming the streets every night in search of blood.@
+`And yet another me roams the streets every night in search of blood.@
 br
 `Then, perhaps.@
-`Without my even realizing it, I had already gone too far to return[line=4]
+`Without my even realizing it, I have already gone too far to return[line=4]
 \
 wave se_04
 ld c,"tachi/his_t12",lshutter,400
@@ -44,10 +44,10 @@ ld c,"tachi/his_t04",crossfade,400
 `“Of course not.@ Thank you for going to the trouble.”
 \
 cl a,crossfade,400
-`I swallowed the medicine with the water she offered.@
-`Whatever I thought of the medicine, the water was a blessing.@
-`Just as Hisui had said, my whole body felt feverish and my throat was parched.@
-`Plain water had never tasted so good.
+`I swallow the medicine with the water she offers.@
+`Whatever I think of the medicine, the water is a blessing.@
+`Just as Hisui said, my whole body feels feverish and my throat is parched.@
+`Plain water has never tasted so good.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“If you feel well enough, please come to the dining room.@ If not, I ask that you remain home today.”@
@@ -57,8 +57,8 @@ ld c,"tachi/his_t17",crossfade,400
 `“I said I am fine.@ Besides, school is closed tomorrow.@ If I can rest then, I can push myself today, can I not?”@
 ld c,"tachi/his_t05",crossfade,400
 `“…”@
-`Hisui lowered her head, plainly wanting to say something.@
-`Did I really look that bad?
+`Hisui lowers her head, plainly wanting to say something.@
+`Do I really look that bad?
 \
 `“Hisui, tell me something.@ Was I really having that bad a nightmare?”@
 ld c,"tachi/his_t17",crossfade,400
@@ -81,8 +81,8 @@ cl a,crossfade,400
 `“[line=7]”@
 `Wh[line=3]what does that mean?@
 `I went outside?@
-`Impossible.@ I was asleep here and even had a dream.@
-`I dreamed something so vivid[line=3]so real.
+`Impossible.@ I was asleep here, even dreaming.@
+`Dreaming something so vivid[line=3]so real.
 \
 `“Ah[line=6]”@
 `But that is strange.@
@@ -94,7 +94,7 @@ ld c,"tachi/his_t01",crossfade,400
 ld c,"tachi/his_t16",crossfade,400
 `“Very well.@ I shall await you in the dining room.”@
 cl a,crossfade,400
-`Hisui closed the door behind her and left.@
+`Hisui closes the door behind her and leaves.@
 br
 `“Yes, I am fine.@ Nothing is wrong.@ I am fine[line=3]”@
 `I repeat the words as though trying to convince myself.

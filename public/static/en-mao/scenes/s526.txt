@@ -17,9 +17,9 @@ br
 `What kind of ending is this?!
 \
 ld l,"tachi/ark_t30",crossfade,800
-`“[line=4]sneak, sneak”@
+`“—sneak, sneak”@
 br
-`You there!@ Stop, you thieving cat—!@
+`You there!@ Stop, you thieving cat[line=4]!@
 bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_06a",notrans,0
@@ -44,9 +44,9 @@ ld r,"tachi/cel_t20",lshutter,400
 `That one is the True Ending!
 \
 `Oh, and one other thing.@
-`Ciel and Arcueid’s routes form one side of the story.@
-`The other side unfolds completely differently—the Tohno family routes, represented by Akiha.@
-`The conditions for branching there can be rather obscure, so here is a hint.
+`Ciel and Arcueid’s routes make up the Near Side of the story.@
+`Beyond them is an entirely different Far Side—the Tohno family routes, with Akiha at their center.@
+`The way into them can be hard to find, so here is a hint.
 \
 `On day one, do not go out of your way to meet Ciel.@
 br

@@ -10,9 +10,9 @@ play "*3"
 bg "bg/bg_34c",lcartain,400
 `When I entered the sitting room, I found Kohaku there.@
 ld c,"tachi/koha_t02",crossfade,400
-`“Oh, Master Shiki, what brings you here?@ Dinner is still a while away.”@
-`“I didn’t come to eat, just to relax.@ Mind if I stay?”@
-`“Of course, make yourself comfortable.@ Now, let me see…”
+`“Oh, Shiki—what brings you here?@ Dinner is still a while away.”@
+`“I didn’t come to eat; I came to relax.@ Mind if I intrude?”@
+`“Not at all; please make yourself comfortable.@ Now, let me see……”
 \
 cl a,crossfade,400
 ld c,"tachi/his_t23",tshutter,800
@@ -28,7 +28,7 @@ ld c,"tachi/his_t02",crossfade,400
 \
 cl a,crossfade,400
 ld l,"tachi/koha_t01a",crossfade,400
-`“Perfect timing.@ Hisui, would you bring Master Shiki something to drink?”@
+`“Perfect timing.@ Hisui, would you bring Shiki something to drink?”@
 ld r,"tachi/his_t01",crossfade,400
 `“Certainly.@ What would you care for, Master Shiki?”@
 `“Just tea, I think.@ Dinner’s soon, and I only came to talk with everyone, so please don’t go to any trouble.”@
@@ -37,7 +37,7 @@ ld r,"tachi/his_t01",crossfade,400
 cl a,crossfade,400
 bg #000000,tshutter,800
 bg "bg/bg_34c",bshutter,800
-`Hisui brought tea for the three of us, and a pleasantly lazy silence settled over the room.@
+`Hisui brings tea for the three of us, and a pleasantly idle time passes without much conversation.@
 br
 `“That reminds me, Hisui.@ Weren’t you saying something about the annex earlier?”@
 ld c,"tachi/his_t01",crossfade,400
@@ -46,8 +46,8 @@ ld c,"tachi/his_t01",crossfade,400
 \
 cl a,crossfade,400
 ld c,"tachi/koha_t02b",crossfade,400
-`“Nothing of the kind.@ The annex was allotted to the servants, so there is simply no reason for Master Shiki to visit it.”@
-`“The servants lived there?”@
+`“Nothing of the kind.@ The annex was assigned to the servants, so there is simply no reason for Shiki to go there.”@
+`“The servants’ house……?”@
 ld c,"tachi/koha_t03b",crossfade,400
 `“Yes.@ Hisui and I are the only ones left now, but until fairly recently more than ten servants worked here.@ The main house could not accommodate everyone, so the annex was built as servants’ quarters.”
 \
@@ -61,11 +61,11 @@ cl a,crossfade,400
 `Fortunately Akiha was nowhere in sight, and Kohaku breathed a sigh of relief.
 \
 ld c,"tachi/koha_t04b",crossfade,400
-`“Master Shiki!”@
-`“Y-Yes?”@
-`“What I just told you is a secret.”@
-`Kohaku seized my hand tightly.@
-`“Yes[line=3]I won’t tell Akiha.”@
+`“Shiki!”@
+`“Yes—what is it?”@
+`“—What I just told you is a secret.”@
+`Kohaku seizes my hand tightly.@
+`“Right[line=3]I won’t tell Akiha.”@
 ld c,"tachi/koha_t03b",crossfade,400
 `“Thank you.”@
 `Kohaku pressed a hand to her chest in relief.@
@@ -73,21 +73,21 @@ ld c,"tachi/koha_t03b",crossfade,400
 \
 cl a,crossfade,400
 `[line=4]But why?@
-`The annex had once housed the servants.@
-`And Akiha hated the thought of me entering it.
+`The annex had once been the servants’ house.@
+`And Akiha hated the thought of my going inside.
 \
 `“Kohaku.@ When did they stop using the annex?”@
 ld l,"tachi/koha_t11",crossfade,400
 `“Well, Hisui?”@
 ld r,"tachi/his_t01b",crossfade,400
-`“……”@
-`Hisui silently shook her head.@
-`Apparently even that was forbidden territory.@
-`“Why?@ Is it really something you have to keep secret?”
+`“………………”@
+`Hisui silently shakes her head.@
+`Apparently even that is something they must not discuss.@
+`“Why?@ Is it really important enough to keep secret?”
 \
 ld r,"tachi/his_t01",crossfade,400
-`“[line=3]Yes.@ Discussing the annex would be detrimental to your health, Master Shiki.”@
-`Her answer was so final that the subject died there.
+`“[line=3]Yes.@ Discussion of the annex would have an adverse effect upon Master Shiki’s health.”@
+`The answer is so final that the subject ends there.
 \
 bg #000000,lcartain,800
 playstop

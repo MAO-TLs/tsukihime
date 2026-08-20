@@ -4,7 +4,7 @@ waveloop se_02
 bg "event/ark_e05b",lshutter,800
 `Arcueid reached for me.@
 `Her arms pinned my body down.@
-`“Ar—”@
+`“Ar[line=3]”@
 `I tried to speak her name, and my breath stopped.
 \
 `Bloodshot eyes.@
@@ -21,13 +21,13 @@ br
 `Her fangs sank slowly into my neck.@
 `There was nothing left inside my head but fear.
 \
-`“Ee—!”@
+`“Ee[line=4]!”@
 `A scream tore out of me.@
 `The moment I heard my own voice and thought how pathetic it sounded—
 br
 `though it may truly have been only my imagination—
 br
-`I thought Arcueid stopped dead.
+`It seemed to me that Arcueid had stopped dead right there.
 \
 wavestop
 bg #000000,lshutter,400
@@ -36,7 +36,7 @@ wave se_10
 `a violent blast rang out in front of me, and Arcueid was hurled sideways through the air.
 \
 bg "bg/bg_29b",lshutter,400
-`“Wh—?”@
+`“Wh[line=4]?”@
 `As if a car had struck her broadside, Arcueid flew several meters.@
 `Apparently unhurt, she sprang back to her feet at once.
 \
@@ -56,12 +56,12 @@ bg "event/cel_e04",crossfade,400
 `I looked up at the moon.@
 `There—as though some former night were repeating itself—stood a figure in clerical robes.@
 br
-`“Ci…@el—”@
+`“Ci…@el[line=4]”@
 `There could be no mistake.@
 `However I looked at her, the figure was Ciel herself.@
 `She did not spare a glance for me below.@ Her eyes remained fixed on Arcueid, kneeling in the distance.
 \
-`“No matter how many vampires of your own kind you destroy, you remain a member of the vampiric species.@
+`“No matter how many vampires of your own kind you destroy, that does not change what you are.@
 `…@I don’t know why you drew him into this, but did you truly never imagine it would end this way?”@
 br
 `Ciel’s voice was nothing like the one I knew.@
@@ -72,21 +72,21 @@ bg "bg/bg_29b",lshutter,400
 `Without the faintest footfall, Ciel descended from the streetlamp to the ground.@
 ld l,"tachi/cel_t06b",lshutter,400
 `“Ordinarily, this would be none of my concern.@ But I cannot stand by while you murder an innocent civilian.@
-`A confrontation with you was not part of my plans—but if necessary, we can settle our mutual grudges here and now.”@
+`A confrontation with you was not part of my plans[line=3]but if necessary, we can settle our mutual grudges here and now.”@
 ld r,"tachi/ark_t15",crossfade,400
-`“—Don’t be ridiculous.@ I have no intention of wasting my time on you.@ Besides—”@
+`“[line=2]Don’t be ridiculous.@ I have no intention of wasting my time on you.@ Besides[line=3]”@
 `Arcueid glared at Ciel with naked hatred.
 \
 `“I never meant to kill Shiki.”@
-`“—That carries no credibility whatsoever.@ You know what you just did.@ Nor can you have failed to hear the sound he made when he saw you.”@
+`“[line=3]That carries no credibility whatsoever.@ You know what you just did.@ Nor can you have failed to hear the sound he made when he saw you.”@
 ld r,"tachi/ark_t05c",crossfade,400
-`“—”@ “Hate me if you like.@
-`But those murderous eyes were turned upon him.@
-`Shall we ask him how that felt?”@
-`For the first time, Ciel glanced my way.
+`“[line=5]”@
+`“Hate me if you like.@ But you turned those murderous eyes on him.@ Shall we ask him what that felt like?”@
+`A quick glance.@
+`For the first time, Ciel looked my way.
 \
 ld r,"tachi/ark_t10",crossfade,400
-`“—”@
+`“[line=7]”@
 `Arcueid looked away in pain.@
 `Silence settled over the park.@
 cl a,crossfade,400
@@ -96,26 +96,26 @@ br
 \
 ld c,"tachi/cel_t07b",crossfade,400
 `“Stand back, vampire.@ You never had any right to be at his side.”@
-`“Wh—?”@
+`“Wh[line=4]?”@
 br
 `That was absolutely wrong.@
 `I had no idea who Ciel truly was or what had just happened to Arcueid, but of that one thing I was certain.@
-`Because I wanted to be at Arcueid’s side.
+`Because[line=4]I was the one who wanted to be at Arcueid’s side[line=3]
 \
 `“That’s not true…!@ What’s with you, Ciel?@ You appear out of nowhere in those bizarre clothes and start talking as if you understand everything…!@
 `Arcueid may be a vampire, but she has never drunk anyone’s blood!@ What just happened must have been some kind of joke.@ This right you keep talking about—it doesn’t—”@
 ld c,"tachi/cel_t06b",crossfade,400
-`“Be quiet, Tohno.@ Never drunk blood, you say?@ It is true that no victim has been attributed to her for roughly eight hundred years.@ However—”
+`“Be quiet, Tohno.@ Never drunk blood, you say?@ It is true that no victim has been attributed to her for roughly eight hundred years.@ However[line=3]”
 \
 `“Shut up!@ I don’t care about stories that make no sense…!@
 `Listen, if you try to interfere with Arcueid, I won’t forgive you—even if it’s you.@
-`I’m helping her because I choose to.@ You have no right to tell me I shouldn’t!”@
+`I[line=3]I’m helping Arcueid because I choose to.@ You have no right to tell me otherwise[line=2]!”@
 ld c,"tachi/cel_t07b",crossfade,400
 `“—Tohno, you…”@
 `A faint trace of emotion entered Ciel’s voice.
 \
-`“—Very well.@ If that is your own decision, Tohno, then I cannot accuse her of having no right to remain beside you.@
-`But—”@
+`“[line=3]Very well.@ If that is your own decision, Tohno, then I cannot accuse her of having no right to remain beside you.@
+`But[line=3]”@
 cl c,crossfade,400
 `Ciel turned her eyes upon Arcueid.@
 `Arcueid kept her head bowed, looking at neither Ciel nor me.
@@ -129,13 +129,13 @@ br
 `Once, she began to raise her face toward me.@ Then—almost as if dissolving into the darkness—she fled the park.@
 cl r,lshutter,400
 \
-`“Wh—what the hell?@ Why are you running, Arcueid…?”@
+`“Wh[line=3]what the hell?@ Why are you running, Arcueid…?”@
 `I broke into a run after her.@
 br
 quakey 1,100
 `My body lurched to a stop.@
 br
-`“—!?”@
+`“[line=4]!?”@
 `My foot would not leave the ground.@
 `Ciel approached at an unhurried pace.
 \
@@ -144,10 +144,10 @@ ld c,"tachi/cel_t07b",crossfade,400
 `“I won’t let you follow her.@ I have no intention of allowing her to murder you.”@
 br
 `Ciel held several slender, rodlike blades.@
-`One of them was buried in the ground at my feet—driven straight through the shadow of Shiki Tohno.
+`One of them was buried in the ground at my feet[line=3]driven straight through the shadow of Shiki Tohno.
 \
 `“You cannot move until that is removed.@ However hard you struggle, your own shadow is struggling even harder to keep you here.”@
-`“—Quit screwing around!@ I’m going to lose her!”@
+`“[line=3]Quit screwing around!@ I’m going to lose her!”@
 `I seized the blade at my feet.@
 `No matter how I pulled, it refused to budge.
 \
@@ -158,13 +158,13 @@ br
 `She met my eyes squarely, then sighed with weary exasperation.
 \
 ld c,"tachi/cel_t10b",crossfade,400
-`“Honestly—why do you insist on doing such reckless things, Tohno?”@
-`“—Huh?@ Ciel…?”@
+`“Honestly[line=3]why do you insist on doing such reckless things, Tohno?”@
+`“[line=3]Huh?@ Ciel…?”@
 ld c,"tachi/cel_t01b",crossfade,400
 `“I understand.@ I don’t hate her either.@ But for now, this is best for both of you.@ I will remove the blade in a little while, so please listen to me until then.”
 \
 `Ciel looked up at me almost timidly.@
-`She seemed no different from the girl I had encountered so casually at school.@
+`She was no different from the Ciel I had met so casually at school.@
 br
 `[line=3]Perhaps that was why.@
 `I still understood nothing about the situation, but at least my mind began to settle.
@@ -176,12 +176,12 @@ ld c,"tachi/cel_t07b",crossfade,400
 `Ciel bowed deeply.@
 `…@The clothes were strange and the objects in her hands dangerous, but she was still Ciel.
 \
-`“—It’s fine.@ I’m not angry, so don’t apologize like that.@ You’ve already saved me once, and I have questions of my own.”@
+`“[line=3]It’s fine.@ I’m not angry, so don’t apologize like that.@ You’ve already saved me once, and I have questions of my own.”@
 ld c,"tachi/cel_t01b",crossfade,400
-`“—That is a relief.@ …@But what did you want to ask me?”@
+`“[line=3]That is a relief.@ But what did you want to ask me?”@
 `“Come on.@ Obviously, I want to know who you really are.@
 `You’re dressed like that, you blasted Arcueid away without blinking, and I’m the only person at school who even remembers you.”@
-`“Oh,”@ Ciel replied, sounding oddly deflated.
+`Ciel answered with a deflated sigh.
 \
 `“Then let me ask you first.@ What do you think I am, Tohno?”@
 `“…@I only know what Arcueid told me, but I thought you might belong to something called the Church.”@
@@ -196,7 +196,7 @@ ld c,"tachi/cel_t06b",crossfade,400
 `“You seem to be helping her, but do you know what she is hunting?”@
 `“Yeah.@ …@She said it was an old kind of vampire that drinks human blood to expand its territory.”
 \
-`“Then you know vampires fall into two broad categories.@ I assume she also told you that their ageless immortality is incomplete—”@
+`“Then you know vampires fall into two broad categories.@ I assume she also told you that their ageless immortality is incomplete[line=3]”@
 `“She did.@ They need human blood to maintain their bodies.@ But as long as they keep drinking it, they can live without growing old, right?”
 \
 `“Yes.@ But that cannot truly be called ageless immortality.@ Some of them cannot maintain themselves on blood alone, and others are disposed of by people like us.@
@@ -234,7 +234,7 @@ ld c,"tachi/cel_t07b",crossfade,400
 `To escape death is itself to die.@
 `That absolute contradiction cannot be resolved.”
 \
-`“—That’s true.@ Everyone has a death.@ Anything without one would have to be—”@
+`“[line=3]That’s true.@ Everyone has a death.@ Anything without one would have to be[line=3]”@
 `something that had never existed in the first place.@
 `Even Arcueid possessed death by day.@
 `Nothing in this world could truly be undying.
@@ -245,13 +245,13 @@ ld c,"tachi/cel_t01b",crossfade,400
 `If the present self dies yet can preserve itself intact and begin again as a new human being, then it has outrun death.@
 `…@Though since the self was never annihilated, it did not truly die and therefore cannot be said to have passed beyond death.”
 \
-`“Reincarnation—so after he dies, he starts over as a baby?”@
+`“Reincarnation[line=3]so after he dies, he starts over as a baby?”@
 ld c,"tachi/cel_t07b",crossfade,400
 `“Precisely.@ While still alive, he chooses the body that will become his next self.@ The moment that child is born, every piece of information constituting ‘him’ is transplanted into it.@
 `His information remains dormant until the child reaches adulthood—or at least develops an independent intelligence.@
 `Once the child possesses an intellect fit to inherit ‘him,’ it becomes the vampire he was.”
 \
-`“—Wait.@ What does that mean?@ Does he perform some kind of operation while the baby is still inside its mother?”
+`“[line=3]Wait.@ What does that mean?@ Does he perform some kind of operation while the baby is still inside its mother?”
 \
 `“No, this is not a medical procedure.@ The instant he is destroyed, he reincarnates into the womb he selected beforehand as his next host.”
 \
@@ -262,7 +262,7 @@ ld c,"tachi/cel_t07b",crossfade,400
 `“…@Sorry, Ciel, but I still don’t see what any of this has to do with you being at my school.”@
 `“It has everything to do with it.@ That reincarnating vampire is somewhere in your school.”
 \
-`“—What?!”@
+`“[line=6]What?!”@
 ld c,"tachi/cel_t07b",crossfade,400
 `“The vampire I am pursuing and the vampire Arcueid is pursuing are one and the same.@
 `…@Though I expect she only ever called him her ‘enemy’ when speaking to you.”
@@ -278,13 +278,13 @@ ld c,"tachi/cel_t07b",crossfade,400
 `She has destroyed every one of those incarnations.”@
 `“…@Every one?@ But if he is reborn whenever he dies, what’s the point?”
 \
-`“—Quite.@
+`“[line=4]Quite.@
 `She kills him, he reincarnates, and she kills him again.@ The cycle has continued for ages.@
 `If she—if Arcueid—possessed the power to destroy not merely his body but the meaning of his existence, it would never have come to this.”@
 cl c,crossfade,400
-`Ciel lowered her face slightly and seemed to grind her teeth.@
-`…@I did not know why,
-`but like Arcueid, she appeared to harbor some private hatred for this enemy.
+`Ciel lowered her head slightly and seemed to grind her teeth.@
+`I did not know why.@
+`But like Arcueid, Ciel seemed to bear some grudge against this ‘enemy.@’
 \
 `“…@Ciel.@ What kind of vampire is he?”@
 ld c,"tachi/cel_t07b",crossfade,400
@@ -301,9 +301,9 @@ ld c,"tachi/cel_t07b",crossfade,400
 \
 `“In short, when he dies, he is reborn in another body.@ Once that body develops an intellect, he recovers the personality of his previous life and becomes his vampiric self once more.”@
 br
-`“—”@
-`I didn’t know why,
-`but listening to this story frightened me terribly.
+`“[line=8]”@
+`What was it?@
+`This story was terribly[line=3]frightening just to hear.
 \
 `“…@That doesn’t make sense.@ I may not understand all of this, but something is wrong.@
 `Becoming a vampire isn’t automatically what turns a person into a monster, is it?@
@@ -311,7 +311,7 @@ br
 \
 ld c,"tachi/cel_t07b",crossfade,400
 `“No.@ It is the soul that reincarnates, not merely the personality.@ Once a True Ancestor drinks a human being’s blood, both body and soul are contaminated.@
-`He passes all the information of that soul into his ‘next self,’ so once he awakens, the body also becomes vampiric.@ However—”@ “However what?”
+`He passes all the information of that soul into his ‘next self,’ so once he awakens, the body also becomes vampiric.@ However[line=2]”@ “However what?”
 \
 `“As you said, that alone would leave him weak.@
 `So he chooses his next reincarnation host while he is still alive.@
@@ -325,11 +325,11 @@ ld c,"tachi/cel_t07b",crossfade,400
 cl c,crossfade,400
 \
 playstop
-`“—”@
+`“[line=7]”@
 `Something was wrong.@
-`There was something terribly wrong with this story.@
+`There was something wrong with this story.@
 br
-`What was wrong was obvious—why tell any of this to someone like me in the first place, Ciel?
+`What was wrong[line=3]what made no sense in the first place was why you would tell someone like me any of this, Ciel[line=4]
 \
 `“…@His name.”@
 ld c,"tachi/cel_t07b",crossfade,400
@@ -343,8 +343,8 @@ br
 `“Very well.@ Among the Dead Apostles, he is called the Serpent of Akasha.@
 `A serpent symbolizes infinity and the eternal cycle.@ Shedding one body for another made it an appropriate epithet.@
 `The Church, on the other hand, records him as the Infinite Reincarnator.@ His human name was Michael Roa Valdamjong.@ In practice, we simply call him Roa.”@
-`“Ro…@a—”@
-`I had never heard the name.@ …@Of course I hadn’t.@ I had never met anyone like that.
+`“Ro, a[line=3]”@
+`I had never heard the name.@ Of course I hadn’t.@ I had never met anyone like that.
 \
 `“…@So you came to our school because you discovered that this Roa was there?”@
 ld c,"tachi/cel_t01b",crossfade,400
@@ -362,8 +362,8 @@ ld c,"tachi/cel_t07b",crossfade,400
 play "*9"
 `“…@As I explained, Roa selects his next reincarnation host for both physical potential and pedigree.@
 `Once I knew he was in this city, I needed only investigate the families that met those conditions.@ The answer followed naturally.”@
-`“—”@
-`“There is only one ancient family in this entire region that satisfies Roa’s requirements.@ I needn’t say any more, do I, Tohno—Shiki?”@
+`“[line=6]”@
+`“There is only one ancient family in this entire region that satisfies Roa’s requirements.@ I needn’t say any more, do I, Tohno[line=3]Shiki?”@
 cl c,crossfade,400
 \
 br
@@ -380,7 +380,7 @@ br
 br
 `“Ha.”@
 br
-`“Ha ha ha…@ ha.”@
+`“Ha ha ha, ha.”@
 br
 `The dry laughter was coming from me.
 \
@@ -394,7 +394,7 @@ ld c,"tachi/cel_t07b",crossfade,400
 `“…@But this much is certain.@ Something other runs in the blood of the Tohno family.@
 `They possess power, status, and the superhuman potential Roa requires.@
 `The power you used to defeat the Dead earlier was itself inhuman.@
-`Therefore—there can be no mistake.@ Shiki Tohno is Roa’s host in this incarnation.”@
+`Therefore[line=3]there can be no mistake.@ Shiki Tohno is Roa’s host in this incarnation.”@
 br
 `[line=3]I don’t understand.@
 `I don’t understand a single thing she is saying.
@@ -411,12 +411,12 @@ br
 `Ciel pulled the blade out of the shadow at my feet.
 \
 playstop
-`“Ah—”@
+`“Ah[line=3]”@
 `“That is everything I needed to tell you.@ What you do now is for you to decide.”@
-`“Decide?@ According to what you just said, I’m—”@
+`“Decide?@ According to what you just said, I’m[line=3]”@
 ld c,"tachi/cel_t01b",crossfade,400
 `“…@To tell you the truth, I don’t know either.@ You are an utterly ordinary student, the sort one might meet anywhere.@ I’m sure my intuition has simply failed me.@
-`Because—you are someone who should never belong in the world where I live.”@
+`Because[line=3]you are someone who should never belong in the world where I live.”@
 cl c,crossfade,400
 \
 `With a sad little smile, Ciel hopped far away from me.@
@@ -427,16 +427,16 @@ cl c,crossfade,400
 `If I did not run after her now, I felt that I would truly never see her again.@
 ld c,"tachi/cel_t07b",crossfade,400
 `“You intend to follow her, Tohno?”@
-`Ciel’s voice had returned to the one she used while
-`cornering Arcueid—flat and nearly empty of emotion.
+`Ciel’s voice had returned to the one she used while cornering Arcueid.@
+`A flat voice, almost entirely without emotion.
 \
-`“—Yeah.@ I understand that you belong to the Church and that Arcueid is your enemy.@
+`“[line=3]Yeah.@ I understand that you belong to the Church and that Arcueid is your enemy.@
 `But a lot has happened, and right now she and I are partners.@ I have to find her.@ Who knows what she’ll do if I leave her alone?”@
 `I gave Ciel a joking smile, said goodbye, and turned my back.
 \
-`“—Wait.@ If you follow her, she will only kill you.@ You must never see Arcueid Brunestud again.”@
-`“Kill me?@ You may not believe it, but Arcueid really doesn’t drink blood.@ She’s actually a decent person.”@
-`“…@I know.@ It is true that she has never drunk human blood.@ But that is over now.@ Once a True Ancestor succumbs to the vampiric impulse, there is nothing left but the fall.”@
+`“[line=3]Wait.@ If you follow her, she will only kill you.@ You must never see Arcueid Brunestud again.”@
+`“Kill me[line=3]?@ You may not believe it, but Arcueid really doesn’t drink blood.@ She’s actually a decent person.”@
+`“…@I know.@ It is true that she has never drunk human blood.@ But that is over now.@ Once a True Ancestor yields to the vampiric impulse, she can only fall.”@
 br
 `I stopped dead.
 \
@@ -447,8 +447,8 @@ br
 \
 `“But those born as vampires are different.@
 `…@However vampiric they may be, Dead Apostles were originally human beings like us.@ Perhaps they can still be called human.@
-`But can something born as a member of a vampiric species truly be called human?”@
-`“Wh-what are you talking about?@ I asked you about Arcueid.”
+`But can something born a vampire truly be called human?”@
+`“Wh[line=3]what are you talking about, Ciel?@ I asked you about Arcueid.”
 \
 `“This is about her.@
 `You cannot tell me the thought never occurred to you.@
@@ -464,11 +464,11 @@ br
 `Like mirrors, they reflected only my own badly shaken face.
 \
 `“Listen carefully, Tohno.@ True Ancestors can survive without human blood.@
-`Yet whether through some flaw in their evolution, or simply because no perfect being can exist, there comes a time when they begin to desire human blood as naturally as breathing.”
+`Yet whether through some flaw in their evolution, or simply because no perfect being can exist, there comes a time when they simply begin to crave human blood.
 \
 `“…@A human whose blood they drink ceases to be human at that instant.@
 `As life-forms, True Ancestors exist on an entirely different scale from humans.@ The moment a human’s blood mingles with a True Ancestor’s, the vast disparity between them makes it impossible for the human to remain human.@
-`Just as a small wave disappears into a greater one at the slightest touch, the person becomes an extension of the True Ancestor—put plainly, a puppet.”
+`Just as a small wave disappears into a greater one at the slightest touch, the person becomes an extension of the True Ancestor[line=2]put plainly, a puppet.”
 \
 `“The problem is that their vampiric impulse has no cause.@
 `With no cause, there is no way to stop it.@
@@ -488,12 +488,12 @@ br
 `Suppose she had always devoted seven of them to suppressing her desire for blood.@
 `But if some event robbed her of five, then even by turning all her remaining strength inward, she could oppose that desire with only five.@
 br
-`Then what would that missing strength
-`strip away from Arcueid herself?
+`Then those two missing measures.@
+`What would their absence take from Arcueid herself[line=3]
 \
 `“…@What happens to a True Ancestor who can no longer suppress the impulse?”@
 ld c,"tachi/cel_t07b",crossfade,400
-`“Naturally, they drink human blood.@ Nothing remains after that.@ Once a True Ancestor yields to the impulse, the only direction left is downward.@
+`“Naturally, they drink human blood.@ Nothing remains after that.@ Once a True Ancestor yields to the impulse, there is nothing left for them but to fall.@
 `I am told that once they learn the taste of blood, the pain of the impulse doubles.@ They can never resist it again.”
 \
 `“Those who fall that far are feared as demon lords.@
@@ -510,7 +510,7 @@ play "*8"
 `“……@That’s a lie.”@
 `That’s a lie.@
 `Because she—
-`she said it herself.@ She was afraid to drink blood—
+`she said it herself.@ She was afraid to drink blood[line=3]
 br
 `“Oh.”@ …@Yes.@
 `Of course she’s afraid.@
@@ -524,19 +524,19 @@ ld c,"tachi/cel_t07b",crossfade,400
 \
 `“But she has no such servant.@ …@No, until now she never needed one.@
 `Even among the True Ancestors, she was exceptional; her own will was enough to contain the vampiric impulse.”@
-`“Then there isn’t a problem after all.@ Once her wounds heal—once she gets her old strength back—she’ll be able to control it again, won’t she…?”
+`“[line=3]Then there isn’t a problem after all.@ Once her wounds heal—once she gets her old strength back—she’ll be able to control it again, won’t she…?”
 \
-`“……@No.@ The end will come even then, Tohno.@
-`The vampiric impulse is endless.@ It never disappears.@ Every craving they suppress leaves sediment behind, until at last the vessel overflows.@
-`The longer they live, the greater the impulse inside them grows.@
-`And when their own power can no longer contain it—when the impulse becomes stronger than they are—their kin put them to death.@
-`That is the only lifespan possessed by beings who do not age.”
+`“……@No.@ She will reach her limit even then, Tohno.@
+`The vampiric impulse has no end.@ It never disappears.@ Each craving they suppress leaves sediment behind, until at last the vessel overflows.@
+`The longer they live, the greater the impulse within them grows.@
+`And when their own power can no longer contain it[line=3]when the impulse inside them exceeds that power—their kin put them to death.@
+`That is what passes for a lifespan among beings who have none.”
 \
-`“But Arcueid will be all right.@ She’s weak now because of what I did, but give her a few days and she’ll—”@ “……@Perhaps.@
+`“[line=2]But Arcueid will be all right.@ She’s weak now because of what I did, but give her a few days and she’ll[line=3]”@ “……@Perhaps.@
 `But she was already approaching her limit.@
 `She may have spent less than a handful of years awake, but that does not change how long she has existed.@
 `The hunger that has festered inside her for centuries will soon tear its way out.@ Nothing can guarantee that it has not chosen this very moment.@
-`Arcueid’s life—cannot be saved.”
+`Arcueid is already beyond saving[line=3]”
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_29b",crossfade,400
@@ -548,22 +548,22 @@ br
 `For the first time, it wasn’t anemia that made the world disappear.@
 `It was something another person had said.@ The dizziness swallowed everything before my eyes.
 \
-`“……”@
+`“[line=5]”@
 `So what did that mean?@
 `Did she know she was already doomed, yet still come all the way here to hunt vampires?@
 br
 `[line=3]That made no sense.@
-`No matter how I looked at it, it made no sense at all.
+`No matter how I looked at it[line=3]it made no sense at all.
 \
 `“……@Everything you’ve told me is a lie.@
 `Someone who knew she was finished wouldn’t come here to kill vampires for our sake.”@
 ld c,"tachi/cel_t07b",crossfade,400
 `“She does not dispose of vampires for our sake.@ She does it because that is her role.”@
-`“Her role—?@ Who decided that?”
+`“Her role[line=3]?@ Who decided that?”
 \
 `“The other True Ancestors, I imagine.@
 `Arcueid was born in the twelfth century, when Dead Apostles and fallen True Ancestors were more numerous than ever.@
-`The True Ancestors could ignore neither their fallen kin nor the Dead Apostles those kin multiplied without restraint.@
+`The True Ancestors could ignore neither their fallen kin nor the Dead Apostles those fallen Ancestors created without restraint.@
 `And so they created the purest of their kind, a creature who needed nothing beyond the act of killing, and made her their executioner.@
 `That creature was Arcueid.@
 `They say she was like a nuclear missile without a will of its own: once released from the castle, whatever vampire had been designated as her target was certain to be annihilated.”
@@ -586,11 +586,11 @@ bg "bg/bg_29b",crossfade,400
 br
 br
 `[line=5]What?@
-`Wait.@ She never speaks?@
-`That doesn’t make any sense.
+`Wait.@
+`She never speaks[line=3]that doesn’t make any sense.
 \
 `“She never does anything unnecessary.@
-`That is how she has lived for centuries, ever since she was born in that old castle in the mountains—unchanging, forever.”
+`That is how she has lived for centuries, ever since she was born in that old castle in the mountains[line=3]unchanging, forever.”
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_29b",crossfade,400
@@ -652,7 +652,7 @@ br
 `merely being alive
 `seemed pitiful.
 \
-`“I’m told she had neither words of her own nor a moment she could call her own.@ The True Ancestors must have treated her the way one maintains a weapon.@
+`“I’m told she had neither words of her own nor a moment she could call her own.@ [line=2]The True Ancestors must have treated her the way one maintains a weapon.@
 `Weapons have no need for superfluous functions.@ There is no point teaching one to bake bread or wash clothes.@
 `If you were going to add anything at all, you would give it a function more appropriate to a weapon, wouldn’t you?”
 \
@@ -691,7 +691,7 @@ br
 br
 br
 `…@What a cruel mistake.@
-`Those ordinary little things truly delighted her—more deeply,
+`Those ordinary little things truly delighted her[line=3]more deeply,
 `perhaps, than she herself could ever understand.
 \
 br
@@ -711,9 +711,9 @@ br
 `Her quiet voice, confiding in me as though her own incomprehensible happiness frightened her.
 \
 `“Arcueid has existed for an age, yet understands what it means to live far less than we do.@
-`The total time she was allowed to spend awake
-`and acting for herself is astonishingly brief.@
-`Almost her entire life was sleep—and I imagine it was a sleep as black as darkness.”
+`The total span in which she was allowed to act was astonishingly brief.@
+`Almost her entire life was spent asleep.@
+`And I imagine it was a sleep as black as darkness.”
 \
 br
 br
@@ -761,16 +761,16 @@ br
 `Killing vampires wasn’t what had made her happy.
 \
 bg #ffffff,crossfade,800
-`“…”@
+`“[line=4]”@
 br
 `I hadn’t seen anything.@
 br
-`“……@Lie.”@
+`“[line=4]lie.”@
 br
 `Her words.@ The joy in her face.@
-`If only I had looked a little more closely—I would have understood.
+`If only I had looked a little more closely[line=3]I would have understood.
 \
-`“……@A lie.”@
+`“[line=5]a lie.”@
 br
 `I had never noticed how utterly alone she had always been.@
 br
@@ -786,45 +786,45 @@ br
 br
 `To think those meaningless little things had been irreplaceable happiness to her.
 \
-`“……@It’s a lie.”@
+`“[line=5]It’s a lie.”@
 br
-`And the most wretched part was this—she herself had never felt even the faintest pity for how she had lived.@
+`And the most wretched part was this[line=3]she herself had never felt even the faintest pity for how she had lived.@
 br
-`No one should have to endure loneliness so cruel—so absurd.
+`How could there be loneliness so cruel[line=2]so farcical?
 \
-`“It’s all a lie.”@
+`“[line=5]It’s all a lie.”@
 br
-`…@I didn’t care about the complicated details anymore.@
-`If only I could give her enough that she no longer had to call ordinary things happiness—so she could take them for granted,
-`certain they would always be there—how wonderful that would be…
+`The complicated details did not matter anymore.@
+`If only I could make those things so ordinary to her that she no longer had to call them happiness, but could take them for granted as things she could have whenever she wanted.@
+`How wonderful that would be[line=4]
 \
 !w2000
 bg "bg/bg_29b",crossfade,1500
 ld c,"tachi/cel_t07b",crossfade,400
-`“Tohno…?”@
+`“Tohno[line=4]?”@
 `Her voice snapped the world back into focus.@
 `“What’s wrong?@ You suddenly went blank.@ Were you listening to me?”@
-`“No—sorry.@ I don’t remember.@ Sometimes it sounded like you were speaking, and sometimes it sounded like someone else.”@
+`“No[line=3]sorry.@ I don’t remember.@ Sometimes it sounded like you were speaking, and sometimes it sounded like someone else.”@
 `Ciel gave a doubtful sigh and nodded.
 \
-`“Well, what I’m saying is that she—”@ “That’s enough.@
+`“Well, what I’m saying is that she[line=4]”@ “That’s enough.@
 `I don’t care what Arcueid has done or what she is.@
 `I can’t leave her alone any longer, so I’m going.”@
 cl c,crossfade,400
-`I turned my back on her and headed into the city’s night streets.
+`I turned my back on her and walked out into the night.
 \
-`“Tohno.@ Once a True Ancestor loses control of the vampiric impulse, there is no recovery.@ If she appears before you again, it will be because she has come to drink your blood.”@
+`“[line=3]Tohno.@ Once a True Ancestor loses control of the vampiric impulse, there is no recovery.@ If she appears before you again, it will be because she has come to drink your blood.”@
 br
 `I was sure that, for her, those words were the truth.@
 `But her truth was not mine.
 \
 `“That’s not true.@ Arcueid still hasn’t drunk anyone’s blood.”@
 `“If I hadn’t stopped her, she would have drunk yours.”@
-`“……@No.@ She stopped.@ Arcueid was all right.@ So—even if you hadn’t knocked her away, nothing would have changed.”
+`“……@No.@ She stopped.@ Arcueid was all right.@ So[line=2]even if you hadn’t knocked her away, nothing would have changed.”
 \
 br
 br
-`Yes.@ I knew it.@
+`Yes, I was certain.@
 `Arcueid’s fangs had stopped.
 \
 `“……@So you mean to stand by her no matter what, Shiki?”@
@@ -832,7 +832,7 @@ br
 `She made no reply.@
 `I thought I heard only a sigh.
 \
-`“We may find ourselves fighting one another.”@
+`“[line=3]We may find ourselves fighting one another.”@
 `“Maybe.@ But I’m not going to apologize.”@ “……”@
 `No answer came.@
 `Her presence simply receded, followed by the sound of departing footsteps.@
@@ -843,17 +843,17 @@ playstop
 bg "bg/bg_25b",lcartain,1500
 `[line=3]The main avenue was deserted.@
 `Not only was Arcueid nowhere to be seen, there wasn’t another pedestrian in sight.@
-`“Damn…”@
+`“Damn[line=6]”@
 `It was exactly like last night.@
 `I had no way to find her.@
 `Even now, when I wanted so desperately to see her, I had no way at all.@
 br
 `[line=3]She.@
-`She had been suffering so badly, and there was nothing, nothing I could do to help her—
+`She had been suffering so badly, and there was nothing, nothing I could do to help her[line=4]
 \
-`“Damn it!”@
+`“[line=4]Damn it!”@
 `The frustration was driving me out of my mind.@
-`Somehow—I had to find her somehow, or Shiki Tohno would never be able to take another step forward—
+`Somehow[line=3]somehow I had to find her, or Shiki Tohno would never be able to take another step forward[line=3]
 bg #000000,lcartain,1500
 bg "bg/bg_52",lcartain,1500
 bg "bg/bg_24c",lcartain,1500
@@ -864,13 +864,13 @@ bg "bg/bg_29b",crossfade,800
 `“Hah…@ hah…@ hah…”@
 `I had run all over the city without finding Arcueid.@
 `My body was spent, my breathing hopelessly ragged.@
-`“Hah…@ hah…@ hah…”@
+`“Hah…@ hah…@ hah[line=3]”@
 `The wound in my chest throbbed with every tortured beat of my heart.@
-`Never had I hated this broken-down body more.
+`Never[line=3]had I hated this broken-down body more.
 \
 `“Hah…@ hah…@ ha…@ ah…”@
 `…@I couldn’t find her.@
 `Running blindly through the city would never lead me to her.@
 `“…@Hah…@ ah…”@
-`If there was any place where I might find her, it would be—
+`If there was any place where I might find her, it would be[line=3]
 \

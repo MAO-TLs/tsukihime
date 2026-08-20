@@ -29,7 +29,7 @@ br
 `Something was odd.@ I’d always assumed retaliation was a law the whole world shared.@
 `By that logic, this woman ought to be trying to kill me[line=3]
 \
-`“[line=2]Why are you staring at me?@ You came here for revenge, didn’t you?@ Then—”@
+`“[line=2]Why are you staring at me?@ You came here for revenge, didn’t you?@ Then[line=2]”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Yes, killing someone who killed you is the usual rule.@
 `If that’s what you want, I could oblige, but I think I’ll pass for now.@ It would be inefficient.”@
@@ -39,19 +39,19 @@ ld c,"tachi/ark_t01a",crossfade,400
 `“Well, do you regret it?”@
 `“[line=4]What?”@
 `I could only stare.@
-`The woman had said something so wildly out of place.
+`The woman had said something[line=3]something so wildly out of place.
 \
 `“I’m asking whether you feel any remorse for killing me.@
 `If you do, I thought I might forgive you.@
 `You don’t seem very good at lying, for a human.”@
-`“Remorse—you mean me?”@
+`“Remorse[line=3]you mean me?”@
 `“Yes.@ If you tell me you’re sorry, that will be enough for me.”
 \
 br
 `[line=3]I couldn’t believe it.@
 br
 `Not because she was talking about forgiving the person who had killed her.@
-`What I couldn’t believe was how gentle her voice sounded.
+`What I couldn’t believe was that[line=3]her voice sounded terribly gentle.
 \
 ld c,"tachi/ark_t16",crossfade,400
 `“Honestly!@ I’m asking you seriously, so the least you can do is answer.@ Come on, hurry up.@ We can’t go any further until you tell me clearly whether you’re sorry.”@
@@ -65,13 +65,13 @@ br
 br
 `Without mercy, without reason, solely to satisfy myself.@
 br
-`“…@I regret the killing itself, but more than anything, I took your life with my own hands.@ So—”
+`“[line=3]I regret the killing itself.@ But more than anything, I took your life with my own hands.@ So—”
 \
 `No—the claim that it was fine because she had come back to life was a lie.@
 `Shiki Tohno had killed the woman before him.@
 `It was the ultimate theft—the most absolute act of violence imaginable.@
 br
-`“So I had simply assumed you had every right to take revenge—that you had come here to do exactly that.”@
+`“So[line=3]I had simply assumed you had every right to take revenge[line=2]that you had come here to do exactly that.”@
 br
 `I kept my head bowed.@
 `I murmured it to no one in particular.
@@ -113,10 +113,10 @@ ld c,"tachi/ark_t04",crossfade,400
 \
 `“[line=3]I’m not sure I follow, but…@ you’re saying you want to kill the vampire murdering people in this city?”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Exactly.@ But before I could, some murderer I’d never even met attacked me out of nowhere and killed me.@
+`“Exactly—but before I could, some murderer I’d never even met attacked me out of nowhere and killed me.@
 `That was a nightmare.@ He caught me completely off guard and cut me into seventeen pieces before I could even fight back.”@
 `“U[line=4]gh”@
-`So when she said murderer, she meant me.
+`So that was it.@ When she said murderer, she meant me.
 \
 ld c,"tachi/ark_t06",crossfade,400
 `“Yes.@ Until I finished restoring myself, I genuinely intended to kill you.@ No one had ever humiliated me like that, and the restoration consumed more than eighty percent of my strength.”@
@@ -135,28 +135,28 @@ ld c,"tachi/ark_t06",crossfade,400
 `“I don’t understand.@ If you hated me that much, why say you’ll forgive me?”
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Put simply, I suppose enough time passed for me to calm down.@
+`“[line=3]Put simply, I suppose enough time passed for me to calm down.@
 `I’ve lost most of my strength, so using you as a shield seemed more efficient than killing you.”@
-`“…@Wait.@ Didn’t you just say something extremely disturbing?”@
-`“Did I?”@
+`“Wait.@ Didn’t you just say something extremely disturbing?”@
+`“What?@ Did I say something?”@
 `“You said you were going to use me as a shield.”
 \
 ld c,"tachi/ark_t04",crossfade,400
 `“Of course.@ Forgiving you only settled my personal feelings.@ The murder itself still has to be atoned for through action, not sentiment, doesn’t it?”@
-`“You say ‘doesn’t it’ as though that settles everything.”
+`“[line=3]You say ‘doesn’t it’ as though that settles everything.”
 \
 ld c,"tachi/ark_t16",crossfade,400
 `“I can’t tell whether you’re straightforward or contrary.@ But I’ll repeat myself: you killed me.@
 `You probably can’t imagine it, but returning to life takes a considerable amount of strength.@
 `An ordinary killing would have been nothing, but the way you dismembered me was unlike anything I had ever seen; the wounds wouldn’t knit back together, so I had to rebuild my entire body.@
-`As a result, reviving consumed nearly all my strength—”
+`As a result, reviving consumed nearly all my strength[line=3]”
 \
 `The woman was so angry she seemed to be giving off fumes.@
 `Apparently, talking about it had revived an anger she had managed to forget.
 \
 `“The point is, I’m weak right now!@ I should recover in two nights, but if my enemy attacks before then, I’ll be in danger.@
 `So until I recover, you’re going to be my shield.”@
-`“What do you mean, I’m going to—you can’t decide that on your own.”@
+`“[line=3]What do you mean, I’m going to—you can’t decide that on your own.”@
 `“What?@ You’re the reason I’m like this, so it’s the least you can do.”@
 ld c,"tachi/ark_t06",crossfade,400
 `“Or were you never sorry after all?”@
@@ -168,7 +168,7 @@ cl c,crossfade,400
 `Forget remorse—looking at me that way was simply unfair.@
 `Someone who called herself a vampire had no right to look at me with such innocent eyes[line=3]
 br
-`“I, um…”@
+`“[line=3]I, um…”@
 `Unable to answer, I let my gaze wander upward.
 \
 playstop
@@ -254,11 +254,11 @@ wave se_05
 `“[line=5]!”@
 `I hit the ground with a tremendous bang and landed hard on my backside.@
 bg "bg/bg_31a",notrans,0
-`“You…@ you—!@ What the hell was that for?”@
-`“Look in front of you!”@
+`“You—you—!@ What the hell was that for?”@ “Look in front of you!”@
 `The woman shouted.@
 `When I looked[line=3]the black dog, deprived of its target, had carried its leap all the way to the wall.@
-`It clung there like a lizard, then sprang again and rebounded toward me with a tap.@
+`It clung there like a lizard, then sprang again.@
+`With a tap, it rebounded from the wall toward me.@
 `Its path was a bolt of black lightning.
 \
 ld c,"tachi/kemo_t02",notrans,0
@@ -280,7 +280,7 @@ br
 br
 `The black dog shot straight upward with a cry.@
 `Nothing had struck it; it simply flew high into the air of its own accord.@
-`Flung several meters overhead, it gave another absurdly cute yelp and fell toward the concrete.@
+`Then[line=4]flung several meters overhead, it gave another absurdly cute yelp and fell toward the concrete.@
 `No—that wasn’t quite right.@
 br
 `It was smashed violently into the concrete.
@@ -314,7 +314,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 `It seems I truly will need you as a shield.”@
 `She said it with a smile as if it were nothing.
 \
-`“D-don’t be an idiot!@ You saw what happened—what could I possibly do?@ You’d be far better off alone than with me!”@
+`“[line=3]D-don’t be an idiot!@ You saw what happened—what could I possibly do?@ You’d be far better off alone than with me!”@
 `“Not anymore.@ I used my remaining strength to save you just now, so now I’m completely drained.”@
 `“Wha[line=3]”@
 `What was that supposed to mean?@
@@ -323,7 +323,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 `“I can’t.@ I don’t have the power to drive away something like that.@ Sorry, but I wouldn’t even make a useful shield.”@
 ld c,"tachi/ark_t02",crossfade,400
 `“[line=4]That’s a lie.@ You killed me.@ Why would someone capable of that tell such a lie?”@
-`“Killed you?@ That was[line=3]”@
+`“Killed you—that was[line=3]”@
 br
 `That had happened when I didn’t even understand myself.@
 br

@@ -3,10 +3,10 @@ wavestop
 bg "bg/bg_40a",notrans,0
 `“Hah[line=3]hah[line=4]hah[line=4]”@
 `I do not move.@
-`Something is happening now.@
-`I am afraid that moving carelessly would[line=3]feel like admitting there is something abnormal about me.@
-`Is my mind numb?@
-`I let myself believe[line=3]that if I stay like this, the storm will eventually pass, a convenient fantasy[line=4]
+`Now, something.@
+`If I move carelessly[line=3]it will feel like admitting that something is wrong with me, and I am afraid.@
+`Has my mind gone numb?@
+`If I stay like this[line=3]perhaps the storm will pass someday; I let myself think that convenient thought[line=4]
 \
 wave se_01
 bg #000000,crossfade,400
@@ -18,8 +18,8 @@ bg #000000,crossfade,800
 `“Ah[line=5]”@
 `my head hurts
 bg #9c0120,crossfade,800
-`“I’m tired[line=3]that’s all, just tired.”@
-`I tell myself that
+`“I’m tired[line=3]I’m only tired”@
+`I tell myself
 wave se_01
 bg #000000,crossfade,1500
 `For now, I sink into the bed.
@@ -28,42 +28,42 @@ bg #000000,crossfade,1500
 bg "bg/bg_40c",crossfade,400
 !w3000
 wave se_04
-`“Master Shiki, have you returned?”@
-`That voice—so like Hisui’s—wakes me.@
+`“Master Shiki, have you come home?”@
+`That voice—so like Hisui’s—pulls me awake.@
 `“Master Shiki, pardon me.”@
 `Someone enters the room.@
-`But it hurts too much…@
+`But the pain.@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_40c",crossfade,400
 `I can barely make out the figure.
 \
 `“My apologies.@ I failed to notice that Master Shiki had returned, and so I was late to receive you.”@
-`“It’s fine[line=3]just leave me alone for now.”@
+`“It’s all right[line=3]just leave me alone for now.”@
 `“Master Shiki.@ Are you unwell?”@
 `“[line=3]Ah.@ I don’t really”@
-`I cannot say it.@ I cannot finish the word know.@
-`“Sorry.@ I feel sick.@ I just want to sleep; is there any medicine?@ Something for this headache would help.”@
-`“Yes, I will bring some at once.”
+`I cannot get it all the way out.@ I don’t know.@
+`“Sorry.@ I feel sick.@ I want to sleep like this.@ Do we have any medicine?”@
+`“Yes; I shall bring some at once.”
 \
 !w2000
 ld c,"tachi/his_t18",crossfade,400
-`“Thank you for waiting.@ Please take this.”@
-`“Thank you.@ I’m always sorry to trouble you.”@
-`Through blurred eyes, I take the water and the sachets of powdered medicine Hisui has brought.@
-`For some reason there are two.@
-`I pay it no mind, empty both into my mouth, and wash them down.@
+`“Thank you for waiting.@ Please take these.”@
+`“Thanks.@ I’m always causing trouble.”@
+`Through blurred eyes, I take the water and the packets of powdered medicine Hisui has brought.@
+`For some reason, there are two.@
+`I ignore that, empty both into my mouth, and drink the water.@
 ld c,"tachi/his_t29",crossfade,400
-`Perhaps the medicine is fast-acting; before long, drowsiness mercifully comes over me.
+`Perhaps the medicine acts quickly; before long, sleepiness comes for me.
 \
-`“Then I am going to sleep.@ Until tomorrow, no one[line=4]”@
+`“Then I’m going to sleep.@ Until tomorrow, no one[line=4]”@
 `“Of course.@ No one will disturb you, Master Shiki.”@
-`After a soft little laugh, I sense Hisui leaving.@
+`A small, secret laugh, and then I sense Hisui leave.@
 bg #000000,crossfade,400
-`My consciousness swims out of focus.@
+`My consciousness sways out of focus.@
 br
-`[line=3]Time to sleep.@
-`My head hurts so badly[line=3]I no longer care whether I have a nightmare or not[line=3]
+`[line=3]Now, sleep.@
+`My head hurts[line=3]whether I dream badly or not no longer matters[line=3]
 \
 !w4000
 phase "bg/cmo_14",l,his,07b,7
@@ -72,16 +72,16 @@ bg "bg/bg_25b",tshutter,800
 play "*6"
 `[line=3]I am in the city at night.@
 br
-`Somehow, my feet have carried me here.@
-`Is this a dream?@ If it is, why am I here?@
+`Somehow, my feet have brought me here.@
+`Is this a dream?@ If it is a dream, why does it exist?@
 `“[line=7]”@
-`No—the reason is obvious.@
-`I have come out into the night for the killer[line=3]to find the killer, to hunt the killer.
+`No; the reason is obvious.@
+`I have come into the night for the killer[line=3]to find the killer, to search for the killer.
 \
 bg #000000,crossfade,400
 bg "bg/bg_27b",crossfade,400
-`I wander without direction.@
-`What time can it possibly be by now?@
+`I wander without purpose.@
+`What hour can it possibly be approaching?@
 br
 bg #000000,crossfade,400
 bg "bg/bg_26a",crossfade,400
@@ -96,68 +96,68 @@ bg "bg/bg_24c",crossfade,400
 bg "bg/bg_25b",crossfade,400
 `“[line=9]”@
 `My feet are heavy.@
-`Everything around me has lost its sense of reality.@
-`The air lies comatose.@
-`Time itself is decaying.@
-`The presence of human beings has grown terrifyingly sluggish.@
+`Something in everything around me is terribly deficient in reality.@
+`The air is comatose.@
+`Time is decaying.@
+`The presence of human beings is frighteningly dull.@
 br
 bg "bg/bg_30b",crossfade,400
-`Yet the smell alone is real.@
-`A scent stings my nostrils.@
-`It drifts from farther in.
+`And yet the smell alone is real.@
+`A fragrance needles my nostrils.@
+`It drifts from deeper inside.
 \
 bg #000000,crossfade,400
 monocro #ff0000
 bg "bg/bg_31b",notrans,0
 br
-`[line=4]That is where the journey ends.@
+`[line=4]There lies the end of the road.@
 br
 `Just as in yesterday’s dream, the body of a stranger lies discarded in the alley.
 \
-`Female.@ Her face has been scraped away from chin to nose, so there is no telling whether she was beautiful.@
-`The blood oozing from her is too viscous to resemble liquid; it looks more like red gelatin.@
-`Her entrails bloom from her belly like the arms of an octopus—pink, plump, glistening, seemingly still lukewarm.@ Dead organs.@
+`Female.@ Her face has been scraped away from chin to nose; whether she was beautiful is no longer knowable.@
+`The blood flowing from her is viscous, more like red gelatin than liquid.@
+`Her organs bloom from her abdomen like octopus arms.@ Pink, plump, glossy, seemingly lukewarm dead organs.@
 br
 `Before that corpse.@
-`A black—utterly black—figure crouches and weeps.
+`A black—utterly black—figure crouches, weeping.
 \
 `“[line=7]Who are you?”@
-`We speak at the same instant.@
-`I demand his identity as the figure turns and demands mine.@
+`The words leave us together.@
+`I ask the figure; the figure turns and asks me.@
 `“I am[line=4]”@
-`Which of us had answered that he was the killer?@
+`Which of us answers: the killer?@
 br
 bg #000000,crossfade,400
-`After all, it is only a dream.@
-`Carried away by the moment, and with the faintest trace of envy, I boast that I am the killer.
+`In any case, it is only something happening in a dream.@
+`Carried slightly away, with the faintest envy, I proclaim that I am the killer.
 \
 playstop
 bg "bg/bg_31b",crossfade,400
 waveloop se_02
 `“What[line=9]?”@
-`The figure tilts his head in puzzlement.@
-`Still crouching beside the corpse, the man looks from me to himself and appears to think it over.@
-`That hesitation.@
-`That hollow moment decides everything.@
+`The figure cocks his head, puzzled.@
+`Still crouching before the corpse, the man looks from me to himself and appears to think.@
+`That excess.@
+`That vacancy decides it.@
 `“[line=8]Khh”@
-`Laughter leaks from my throat.@
-`He is a counterfeit.@
-`He stands bewildered before a corpse while I feel nothing at all.@
-`Ask which of us looks more like a killer, and the answer has already been settled.
+`Laughter spills from my throat.@
+`The man is a counterfeit.@
+`A man bewildered before a corpse, and I, who feel nothing.@
+`Ask which is more like a killer; the answer has already been decided.
 \
-`“What are you?”@
-`The man asks, his voice shaking.@
-`Smothering my laughter, I drive my knife into his chest with all the casual ease of offering a handshake.@
+`“What—are you?”@
+`The man speaks in a frightened voice.@
+`Stifling my laughter, I put the knife into his chest as naturally as offering my hand.@
 br
 `[line=9]What?@
 br
-`What an idiotic sound.@
-`Even as he is being murdered, he remains too sluggish to move.@ The thought that this thing called itself a KILLER makes me sick.
+`The voice is comically vacant.@
+`He is being murdered and remains too slow even to move.@ The thought that this thing called itself a KILLER makes me nauseous.
 \
 bg "bg/ima_12",lshutter,400
-`Vomiting, I cut him apart.@
-`He tumbles to pieces like a doll made of paper.@
-`The spray of his blood drenches me scarlet from head to toe, as though someone had emptied a bucket over me.@
+`Vomiting, I dismember him.@
+`The man collapses in pieces like a paper doll.@
+`His blood dyes me red from head to foot as though a whole bucket had been thrown over me.@
 br
 `Drip, drip, drip, drip.@
 br
@@ -166,9 +166,9 @@ br
 bg "bg/bg_31b",crossfade,400
 `I draw one long, deep breath.@
 br
-`A fresh corpse lies before me.@
-`The knife in my hand trails steam.@
-`The killer is dead, and peace has returned to the city.
+`A new corpse before me.@
+`In my hand, a knife wreathed in steam.@
+`The killer is dead, and the city has regained its former peace.
 \
 br
 br
@@ -176,28 +176,28 @@ br
 br
 br
 br
-`[line=3]And yet I have been left behind.
+`[line=3]And yet I am left behind.
 \
-`The city is itself again, but I alone remain broken, abandoned here.@
+`The city has returned to itself, but I alone remain wrong; left behind.@
 br
-`The KILLER is still alive.@
+`The KILLER still exists—still lives.@
 br
 `“I should go home.”@
 `Yes, I have to go home.@
-`Even if I am the only one still wrong, I must return to the mansion.@
-`Nothing has really changed.@
-`By day I will live properly as Shiki Tohno; by night I will repeat the nightmare.
+`Even if I alone remain wrong, I have to return to the mansion.@
+`This is no different from before.@
+`I will live properly as Shiki Tohno, and when night comes, repeat the nightmare.
 \
 br
-`[line=3]It is nothing worth making a fuss over.@
+`[line=3]It is nothing in particular.@
 br
-`The dream did not become reality; I simply stopped waking up from it.@
+`It is not that the dream became reality; I merely stopped waking from it.@
 monocro off
 bg "bg/ima_18",crossfade,400
 br
-`I think I hear a little girl stifling a laugh.@
+`I think I hear a little girl stifling her laughter.@
 `By now, even that is trivial.@
-`All I need do is hurry home to sleep, then wait for tomorrow night and the hour when I may dream again[line=4]
+`I need only hurry home and sleep, then wait for tomorrow night—for the hour when I may dream again[line=4]
 \
 bg #000000,crossfade,800
 wavestop

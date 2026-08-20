@@ -1,23 +1,23 @@
 play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
-`No, I couldn't celebrate.@
-`I felt bad after Kohaku had gone out of her way for me, but until I could forget what had happened with Yumizuka, I couldn't possibly be in the mood.@
+`No—I couldn't celebrate.@
+`I felt bad after Kohaku had gone out of her way for me, but while I still remembered what had happened with Yumizuka, I could not possibly be in the mood.@
 br
 bg "bg/ima_13",crossfade,400
-`These past two days, I had seen so much of other people’s blood.@
+`Over the past two days, I had seen so much of other people's blood.@
 `Someone like me had no right to be welcomed by Kohaku, Akiha, and Hisui.
 \
 bg "bg/bg_34a",crossfade,400
 playstop
-`“Sorry.@ I’m glad you offered, but I’m really not in the mood right now—”@
+`“I'm sorry.@ I'm glad you offered, but I'm really not in the mood right now[line=4]”@
 br
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_34a",crossfade,400
 `[line=3]THUMP.@
 br
-`“What…?”@
+`“Wh[line=4]at?”@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_34a",crossfade,400
@@ -30,15 +30,15 @@ bg "bg/bg_34a",crossfade,400
 br
 `[line=3]THUMP.@
 br
-`the room began to spin.
+`The room began to spin.
 \
 bg #000000,crossfade,400
 bg "bg/bg_34a",crossfade,400
 bg #000000,crossfade,800
-`“Master Shiki…?”@
+`“Master Shiki[line=3]?”@
 `Hisui called to me softly.@
-`Neither Akiha nor Kohaku had noticed the sudden dizziness—apparently even I hadn’t recognized it until it struck—yet Hisui had.@
-`But her voice could do nothing to arrest the darkness swallowing my mind.@
+`Neither Akiha nor Kohaku had noticed the sudden dizziness—apparently even I had not recognized it until it struck—yet Hisui had.@
+`But her voice could do nothing to stop the darkness swallowing my mind.@
 br
 `My body struck the floor.@
 `I fell like a puppet whose strings had been cut.
@@ -46,12 +46,12 @@ br
 `“Master Shiki, please stay with me, Master Shiki…!”@
 `Hisui's voice receded into the distance.@
 `God, I disgusted myself.@
-`Merely remembering Yumizuka was enough to make Shiki Tohno lose consciousness—
+`Merely remembering Yumizuka was enough to make Shiki Tohno lose consciousness[line=4]
 \
 !w2500
 bg "bg/bg_40c",crossfade,800
 play "*1"
-`“Ah…”@
+`“Ah[line=5]”@
 `When I came to, I was lying in my own room.@
 `I was in bed, and Akiha was sitting before me.@
 br
@@ -62,20 +62,20 @@ ld c,"tachi/aki_t01b",crossfade,800
 `“I see—I collapsed from anemia again.”@
 ld c,"tachi/aki_t04b",crossfade,400
 `“Yes.@ You slept for almost seven hours, Brother.”@
-`“I see.@ Perhaps all the sleep I've missed lately caught up with me.@ Sorry.@ I've caused you trouble again.”
+`“[line=3]I see.@ Perhaps all the sleep I've missed lately caught up with me.@ Sorry.@ I've caused you trouble again.”
 \
 ld c,"tachi/aki_t01b",crossfade,400
-`“Don't be absurd, Brother.@ Your poor health is hardly your fault.@ You are my brother, so of course I will nurse you.@ If anything is troublesome, it is hearing you call yourself a burden.”@
+`“What are you saying, Brother?@ Brother's poor health is hardly Brother's fault.@ Brother is my brother, so of course I will nurse you.@ If anything is troublesome, it is hearing you call yourself a burden.”@
 `“All right.@ Then I won't thank you.@ This is only natural between siblings.”@
 `“If you can say that much, you must be fine.”@
 `Akiha took my temperature.@
 `It was 37.@6 degrees—barely a degree above normal.
 \
 ld c,"tachi/aki_t16b",crossfade,400
-`“I'm not entirely satisfied, but your color is good, so I think you'll be safe alone.@ I'll return to my room.”@
+`“I'm not entirely satisfied, but your color is good, so I think you'll be safe on your own, Brother.@ I'll return to my room.”@
 `“Hm?@ But what is it, Akiha?”@
 ld c,"tachi/aki_t04b",crossfade,400
-`“Never mind me.@ Be sure to thank Hisui, who has been caring for you without a break since you collapsed.”@
+`“Never mind me.@ Be sure to thank Hisui; she has been caring for you without a break ever since you collapsed, Brother.”@
 cl c,lshutter,800
 `Akiha told me to take care and left the room.
 \
@@ -89,7 +89,7 @@ bg "bg/bg_40c",crossfade,400
 `“I'm still not quite myself.”@
 `I drew a long breath.@
 `Somehow my entire day off had vanished.@
-`Still, if Hisui had spent the whole day beside me, perhaps it hadn't been wasted after all—
+`Still, if Hisui had spent the whole day beside me, perhaps it had not been wasted after all[line=4]
 \
 bg #000000,crossfade,800
 playstop
@@ -101,7 +101,7 @@ br
 br
 br
 br
-`[line=3]There was a familiar scent.
+`[line=3]A familiar scent.
 \
 `An old tatami room.@
 `A dark room.
@@ -123,11 +123,11 @@ br
 \
 `Knock, knock.@
 `“[line=3]Who is it?”@
-`“It’s me.”@
+`“It's me.”@
 `She had come again.@
 `A girl about my age was knocking on the door.@
-`“Shiki, come play.@ If you stay in there, you’ll grow mold.”@
-`“No.@ I don’t wanna go outside.”@
+`“Shiki, come play.@ If you stay in there, you'll grow mold.”@
+`“No.@ I don't wanna go outside.”@
 `Hugging my knees, I stayed curled into a tiny ball in the unlit corner.
 \
 bg "bg/ima_06",crossfade,400
@@ -141,7 +141,7 @@ br
 br
 `“That’s not true.@ Everyone wants to like you, Shiki.”@
 br
-`I know.@ But I can’t believe it.@ Because my father was like that, and then—
+`I know.@ But I can't believe it.@ Because my father believed that too, and then[line=3]
 \
 br
 br
@@ -159,7 +159,7 @@ br
 br
 `Even if it’s boring, I think it’s nicer than being scared.
 \
-`“That isn’t nice at all.@ Honestly, you’re hopeless.@ Fine, then—you can trust me, Shiki.”@
+`“That isn’t fun at all.@ Honestly, you’re hopeless.@ Fine, then—you can trust me, Shiki.”@
 br
 `What does that mean, I can trust you?@ That’s backwards—aren’t I supposed to be the one who says I might trust you?@
 br
@@ -171,7 +171,7 @@ br
 br
 `Is it fun outside?@
 br
-`“Yes!@ It’ll be much, much more fun than being alone—”
+`“Yes!@ It'll be much, much more fun than being alone[line=5]”
 \
 bg #ffffff,crossfade,1500
 playstop
@@ -186,7 +186,7 @@ play "*2"
 `I surfaced from the dream.@
 `I had dreamed something confused and terribly vague.@
 `There had been a familiar scent.@
-`The smell of tatami, perhaps.
+`The smell of tatami[line=3]perhaps.
 \
 `“Master Shiki, are you awake?”@
 `Then came a knock.@ Hisui's voice sounded through the door at the same time.@
@@ -201,12 +201,12 @@ ld c,"tachi/his_t01",crossfade,400
 `Apparently my sudden collapse yesterday was still troubling her.
 \
 `“I'm fine—there's nothing wrong with me.@ I only collapsed because I'd been pushing myself too hard, and it won't happen again.”@
-`Yumizuka—the vampire—was gone.@
+`Yumizuka[line=3]that vampire was gone.@
 `There would be no more wandering the streets after midnight as I had these past several days.@
 ld c,"tachi/his_t07",crossfade,400
-`“If you say so, Master Shiki…”@
+`“If you say so, Master Shiki[line=3]”@
 `Hisui looked unusually anxious, as though something else still concerned her.@
-`“I appreciate you worrying about me, but—”@
+`“[line=4]Well, I appreciate you worrying about me.”@
 `I sprang briskly out of bed.
 \
 `“As you can see, I’m full of energy.@ I’ll change and come to the sitting room in a minute, so go on ahead.”@
@@ -234,9 +234,9 @@ ld c,"tachi/aki_t04a",lshutter,800
 `Akiha closed her eyes with a displeased frown.
 \
 cl c,crossfade,400
-`“Right.”@
-`Only then did I realize I still hadn’t thanked Hisui.@
-`“…@Hisui, I know it’s late, but thank you for yesterday.@ I’m sorry someone as unreliable as me keeps creating work for you.”@
+`“[line=4]I see.”@
+`Only then did I realize I still hadn't thanked Hisui.@
+`“Hisui.@ I know it's late, but thank you for yesterday.@ I'm sorry someone as unreliable as me keeps causing you trouble.”@
 ld c,"tachi/his_t04",crossfade,400
 `“Master Shiki, I must apologize for failing to consider your health.”@
 `Hisui bowed deeply.@
@@ -248,7 +248,7 @@ ld c,"tachi/his_t17",crossfade,400
 `She presumably meant yesterday’s welcome party.@
 `Kohaku had suggested the whole thing, and Hisui had merely agreed.
 \
-`“No, that isn’t what I mean—”@
+`“No, that isn't what I mean[line=3]”@
 ld c,"tachi/aki_t04a",crossfade,400
 `“Brother, any further argument will only go in circles.@ If Hisui chooses to see it that way, let her.”@
 `Akiha rose from the sofa.@

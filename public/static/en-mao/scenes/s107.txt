@@ -10,26 +10,26 @@ play "*9"
 `My spine creaked.@
 `An image of cold coursed through my blood.@
 `Alone in the darkness, I grew dizzy.@
-`The moon blazed—bright enough to derange the heart.
+`The moon blazed, dazzling enough to make the heart sick.
 \
 `…@Strangely,
-`the cold that should have choked me carried an even stronger air of nostalgia.
+`the cold that should have choked me felt more familiar than anything else.
 \
 playstop
 bg #ffffff,crossfade,800
-`“Master Shiki.”@
+`“[line=3]Master Shiki.”@
 `Hisui’s voice reached me through the morning light.@
 br
-`“Master Shiki, it is time.@ Please wake up.”@
+`“[line=3]Master Shiki, it is time.@ Please wake up.”@
 `Hisui’s level voice drew me steadily into consciousness.
 \
 bg "bg/bg_40e",crossfade,800
 `“[line=6]”@
 br
-`The moment I woke, something hateful intruded on my vision.@
-`A headache like a gunshot stabbed through my temple.@
-`“Ah—”@
-`My newly awakened mind lost its footing all at once.@ Before vertigo could take hold, I snatched the glasses from beside my pillow.
+`The instant I opened my eyes, something awful came into view.@
+`A sharp headache flared in my temple like a gunshot wound.@
+`“Ah[line=4]”@
+`My newly awakened consciousness abruptly lost its footing.@ Before vertigo could take hold, I snatched up the glasses beside my pillow.
 \
 bg "bg/bg_40a",crossfade,800
 play "*2"
@@ -45,7 +45,7 @@ ld c,"tachi/his_t04",crossfade,400
 `“Maybe, but I’m really grateful.@ Waking to your voice feels so much warmer than an alarm clock.”@
 br
 `I rose from bed.@
-`It was not yet seven—about ten minutes earlier than usual.
+`It was not yet seven[line=3]about ten minutes earlier than usual.
 \
 `“Breakfast, right?@ I’ll be down in a minute, so go on ahead.”@
 `“Very well.@ I shall await you in the sitting room.”@
@@ -57,7 +57,7 @@ cl c,lshutter,800
 \
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
-`The sitting room held the same familiar tableau: Akiha seated on the sofa, Hisui waiting beside the wall.@
+`As always, Akiha sat on the sofa while Hisui waited beside the wall.@
 br
 ld c,"tachi/aki_t04a",lshutter,800
 `“Good morning, Brother.@ Did you sleep well last night?”@
@@ -68,10 +68,10 @@ ld c,"tachi/aki_t04a",lshutter,800
 ld c,"tachi/aki_t12a",crossfade,400
 `“No, this is my usual hour, but—Brother?”@
 `Akiha looked straight at me as though she could see into my mind.@
-`“Ah—do I have something on my face, Akiha?”
+`“Ah[line=3]do I have something on my face, Akiha?”
 \
 ld c,"tachi/aki_t17a",crossfade,400
-`“No, that isn’t it, but are you truly all right, Brother?@ You’re still pale, and if you feel unwell, perhaps you should stay home today—”@
+`“No, that isn’t it, but are you truly all right, Brother?@ You’re still pale, and if you feel unwell, perhaps you should stay home today[line=3]”@
 br
 `[line=3]Oh, so that was it.@
 `Relieved that she hadn’t discovered what I had done last night, I let out the breath I had been holding.
@@ -99,7 +99,7 @@ ld l,"tachi/aki_t03a",crossfade,400
 `You had been asleep since yesterday, yet this morning you still rose at your usual hour instead of waking early.@
 `Aren’t you taking advantage of the fact that Hisui never complains?”
 \
-`“What—you make it sound as if I’m causing Hisui trouble!”@
+`“What[line=3]you make it sound as if I’m causing Hisui trouble!”@
 ld l,"tachi/aki_t18a",crossfade,400
 `“It doesn’t merely sound that way.@ You are causing her trouble, aren’t you, Hisui?”@
 `“…”@
@@ -153,8 +153,8 @@ ld c,"tachi/his_t05",crossfade,400
 `Yet there was something anxious in her face.
 \
 `“Hisui?@ Are you feeling ill?”@
-`“No—it isn’t me; Master Shiki looks pale, and I’m not sure whether I should allow Master Shiki to leave in that condition.”@
-`She says it reluctantly.
+`“No[line=3]it isn’t me; Master Shiki looks pale, and I’m not sure whether I should allow Master Shiki to leave in that condition.”@
+`She said it reluctantly.
 \
 `“I’ll be fine.@ I’m not feeling great, but my body is only a little heavy.@ Honestly, after yesterday, you and Akiha have both become such worriers.”@
 `“Perhaps.@ Nothing would please me more than for this to be only our imagination.”
@@ -165,10 +165,10 @@ ld c,"tachi/his_t05",crossfade,400
 \
 `“I’m off.@ By the time I come home, I’ll be perfectly well, so try not to worry while you wait.”@
 ld c,"tachi/his_t07",crossfade,400
-`“Ah—Master Shiki—”
+`“Ah[line=3]Master Shiki[line=4]”
 \
 bg "bg/ima_03",lcartain,800
-`I left Hisui behind and departed the mansion.@
+`I left the mansion despite Hisui’s attempt to stop me.@
 `The sight of her watching me to the very end, worry plain on her face, made an unusually strong impression on me.
 \
 playstop
@@ -182,26 +182,26 @@ bg #000000,lcartain,800
 bg "bg/bg_01a",lcartain,800
 `Seven fifty in the morning.@
 `The main gate was crowded with arriving students.@
-`“Ah.”@
+`“[line=4]Ah.”@
 `Among the students passing through it, I recognized someone from behind.
 \
 `“Ciel…”@
 `It should have been an utterly ordinary morning scene.@
-`Except for what I had seen that night—
+`Except for what I had seen that night[line=3]
 bg #000000,lshutter,400
 monocro #ffff00
 bg "event/cel_e04",crossfade,400
 monocro off
 bg "bg/bg_01a",lshutter,400
 `Without that, it truly would have been nothing more than a chance encounter on an ordinary morning.@
-`“…”@
+`“[line=5]”@
 `Not knowing what I even meant to do, I hurried after Ciel.
 \
 bg "bg/bg_03a",lcartain,800
 `“Ciel!”@
-`I called out and stopped her.@
+`I called out to stop her.@
 ld c,"tachi/cel_t01a",lshutter,800
-`“Oh, good morning, Tohno.@ Fancy meeting you in the schoolyard.”@
+`“Oh, good morning, Tohno.@ It’s unusual to run into you in the schoolyard.”@
 `“Yeah.@ I saw you up ahead and ran after you.@ There’s something I wanted to ask.”@
 `I stole a glance at her face.@
 `“Of course—what is it?”@
@@ -210,11 +210,11 @@ ld c,"tachi/cel_t01a",lshutter,800
 `“…@Ciel, were you near my house the night before last?@ Wearing something like a black coat, with your skirt whipping around in the wind?”@
 ld c,"tachi/cel_t12",crossfade,400
 `“…?@ What are you talking about?”@
-`“You know…!@ And—right, the lace-up boots looked fantastic on you.@ You looked so striking I couldn’t help staring.”
+`“You know…!@ And[line=2]right, the lace-up boots looked fantastic on you.@ You looked so striking I couldn’t help staring.”
 \
 ld c,"tachi/cel_t05",crossfade,400
-`“What?”@ Ciel tilted her head.@
-`After frowning in utter bewilderment, she gave me a flat denial.
+`“Pardon?”@ Ciel tilted her head.@
+`She frowned as though she had no idea what I meant, then denied it flatly.
 \
 ld c,"tachi/cel_t08",crossfade,400
 `“Let me understand this: you think I was near your house the night before last, dressed that way?”@
@@ -225,15 +225,15 @@ br
 `[line=3]Ciel was genuinely angry.@
 `There was no hint that she was feigning ignorance or telling a lie.
 \
-`“No, that isn’t what I meant—it’s just that yesterday I saw someone in the park who looked like you, so—”@
+`“No[line=3]that isn’t what I meant, it’s just that yesterday I saw someone in the park who looked like you, so[line=3]”@
 `Ciel sighed.@
 ld c,"tachi/cel_t01a",crossfade,400
-`“Tohno, it wasn’t me.@ I have no taste for dressing that way.”@
-`“Ah—right, I understand.@ I only wanted to ask.”
+`“Tohno, that was not me.@ I don’t go in for dressing that way.”@
+`“Ah[line=3]yes, I understand.@ I only wanted to ask.”
 \
 `Now that she had said it, she was obviously right.@
 `I could find no connection at all between Ciel and the figure from last night.@
-`Ciel was an ordinary person, and if she had been there, she would have seen me wielding a knife in a fight to the death against that mysterious bandaged man.@
+`Ciel was an ordinary person, and if she had been there[line=3]she would have seen me wielding a knife in a fight to the death against that mysterious bandaged man.@
 `No one who had witnessed something so horrific could stand here speaking to me as normally as ever.
 \
 `“Sorry, forget I said anything.@ It must have been someone who happened to look like you.”@
@@ -248,7 +248,7 @@ ld c,"tachi/cel_t09",crossfade,400
 br
 wave se_03
 `Then the warning bell rang, leaving ten minutes until homeroom.@
-`“Oh, hell, I’m going to be late.@ See you later, Ciel!”
+`“[line=3]Crap, I’m going to be late.@ See you later, Ciel!”
 \
 bg #000000,lcartain,800
 bg "bg/bg_06a",lcartain,800

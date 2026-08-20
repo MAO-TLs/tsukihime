@@ -2,12 +2,12 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_40f",notrans,0
-`…@The door opens.@
-`Too late.@ Even if I order her away now, she’ll already have entered the room.@
+`The door opens.@
+`Too late.@ Even if I order her away now, she will already have entered the room.@
 br
-`[line=4]Even so, I cannot eat.@
-`The very act would awaken something brutally male inside me and
-`shatter what little remains of the person called Shiki Tohno.
+`[line=4]Even so.@
+`I cannot bring myself to eat.@
+`The act would rouse something violently male within me, shattering what little remains of Shiki Tohno.
 \
 `“…@Hah…@ hah…@ hah…”@
 br
@@ -16,15 +16,15 @@ br
 `I have to hold this thing down.
 \
 ld c,"tachi/koha_t02b",lshutter,800
-`“Master Shiki, I’m coming in now…@ Oh.@ What happened in here?”@
+`“Shiki, I’m coming in now—what happened in here?”@
 `Still smiling, she stares in surprise at the room, slashed to ribbons from wall to wall.
 \
 `“…@Hah…@ hah…@ hah…”@
 br
 `That sweet face, innocent of fear.@
-`That defenseless body, utterly unwary of me.@ Red hair—and skin so warm and vividly alive that it looks intoxicatingly delicious.
+`That defenseless body, utterly unwary of me.@ Red hair[line=3]and skin so vividly alive, so intoxicatingly delicious.
 \
-`“Master Shiki…?@ Something’s wrong.@ What could have happened to leave you like this?”@
+`“Shiki…?@ Something is wrong—what could have happened to make it like this?”@
 `Still smiling, she approaches me where I lie curled on the bed.@
 cl c,lshutter,800
 \
@@ -35,7 +35,7 @@ wave se_01
 `No.@
 `[line=14]Hurry.@
 wave se_01
-`        That's not it.@
+`        No.@
 `[line=11]Hurry.@
 wave se_01
 `                Stop.@
@@ -44,21 +44,21 @@ wave se_01
 `                    Shut up.@
 `[line=6]Hurry.@
 wave se_01
-`                            I don't want to.@
+`                            I don’t want to.@
 `[line=2]Hurry.@
 wave se_01
 `I—
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`“R—run.”@
+`“R[line=3]run.”@
 `I muster the last scrap of reason left in me and somehow force out that single word.
 \
 ld c,"tachi/koha_t02b",crossfade,400
-`“What?@ I’m sorry, I couldn’t hear you.@
-`Would you say it again, Master Shiki?”@
-`It has the opposite effect.@
-`Reassured, Kohaku bends toward the me / the ME curled upon the bed—
+`“What?@ I’m sorry, I couldn’t hear you; would you say that again, Shiki?”@
+`Yet it has the opposite effect.@
+`Completely reassured, Kohaku bends toward
+`me / this other me, curled upon the bed—
 !w1000
 `toward my body / my carcass—
 !w1000
@@ -75,39 +75,39 @@ waveloop se_02
 `Something sparks behind my skull.
 \
 bg #000000,lshutter,800
-`“Aah—!”@
+`“Aah[line=4]!”@
 `Something like a scream reaches me.@
 `My hand is clamped around Kohaku’s throat.
 \
-`“Hah—ha…@ hah—”@ My breathing is ragged.@
-`What.@
-`Am I.@ Trying.@ To do.
+`“Hah[line=3]ha, ah, hah[line=4]”@
+`My breathing is ragged.@
+`I.@ What am I.@ Trying to.@ Do.
 \
-`“Shi…@ ki…”@
+`“Shi[line=3]ki”@
 `Kohaku’s voice dwindles.@
 `I tighten my arm anyway.@
-`Her neck gives a dry creak.@
-`“St…@
-`op—!”@
+`Creak.@
+`The bones in her neck groan.@
+`“St-stop[line=3]!”@
 `A scraping sound.@
 `Kohaku has dug her nails into my arm.@
 bg "bg/ima_13",crossfade,800
 `With death a breath away, she must be desperate.@
 `Even through my clothes, Kohaku’s nails tear open the skin and gouge flesh from my arm.
 \
-`“O—ow.”@
+`“Ow[line=4]”@
 `It hurts.@
 `A dull little pain beside what Kohaku must feel as I strangle her.@
 `But blood is running.@
 `It spills from the torn skin, down my arm, onto the hand crushing her throat.
 \
-`“Ha—ha.”@
+`“Ha[line=4]ha.”@
 `Everything turns scarlet.@
 `Red blood streams down the throat of Kohaku, who no longer struggles.@
 `I can barely feel her beneath my hand.@
 `Yet somehow, the fact that she will die in a few seconds—
 \
-`“Haha—ha.”@
+`“Haha[line=4]ha.”@
 `It is funny beyond words, and laughter rises in me.@ I haven’t been choking Kohaku for even a minute.@
 `She won’t die of suffocation.@
 `She will die here, by my hand—
@@ -115,8 +115,8 @@ bg "bg/ima_13",crossfade,800
 `“Ha…@ haha…@ ha.”@
 `For no reason.@ Without warning.
 \
-`“Hahaha—ha, ha, ha.”@
-`Put to use as a certain kind of tool.
+`“Hahaha[line=3]ha, ha, ha.”@
+`As nothing more than a tool.
 \
 `“Ahahahahahahahahaha!”@
 `Her neck will break, and she will simply die.
@@ -124,49 +124,49 @@ bg "bg/ima_13",crossfade,800
 bg #000000,crossfade,800
 bg "bg/bg_40c",crossfade,800
 wavestop
-`Then, in an instant,
-`the fever vanishes—as though a possessing spirit has left me.@
+`That instant.@
+`The fever vanishes as though a possessing spirit has left me.@
 br
 `Kohaku’s body is before me, her face dark red.@
-`My hand is still crushing her throat—
+`My hand is still crushing her throat[line=4]
 br
-`“—!”@
+`“[line=6]!”@
 `I snatch my hand away.
 \
-`Without a sound—
+`Soundlessly.@
 br
 `Kohaku’s body rolls onto the floor.
 \
-`“Kh…@ hah—”@
-`Eyes still closed, Kohaku coughs in agony.@
-`“Koha…@ ku.”@
-`…@She’s alive.@ Another moment—one more moment like that—and I would have killed her with my own hands—
+`“Ugh[line=4]”@
+`Eyes still closed, Kohaku coughs in agony.@ “Koha[line=3]ku.”@
+`She is alive.@
+`Another moment.@ One more moment like that and I would have killed her with my own hands[line=3]
 \
 eroskip 2
-`“Uh…@
-`ngh…@
-`ah…”@ …@She’s crying.@
+`“Uh—ngh—ah.”@
+`She is crying.@
 `Kohaku lies where she fell, unable even to move, and cries.@
-`Then I see it: a white fluid smeared thickly across her kimono.@
+`Then I see.@
+`White fluid is smeared thickly across her kimono.@
 br
 `It is my semen.@
-`Did ejaculating free me from the impulse that had been boiling inside me?
+`Did ejaculating[line=3]free me from the impulse that had been boiling inside me?
 \
-`“—Hah.”@
-`I can’t believe it.@
-`While one hand strangled Kohaku, the other—was I taking incomparable pleasure in killing?@
+`“[line=5]Hah.”@
+`I cannot believe it.@
+`With one hand around Kohaku’s throat and the other[line=3]had killing truly given me such incomparable pleasure?@
 br
 `[line=4]Thump.@
 br
 `It isn’t over.@
 `My penis is still erect, and more than that, I am still utterly parched.
 \
-`I’m still thirsty.@
-`Even after doing something so horrible to Kohaku, it hasn’t ended at all.@
-`Already the guilt is draining away, leaving me ready to seize Kohaku’s throat again—
+`I’m thirsty.@
+`Even after[line=3]even after doing something so horrible to Kohaku, it still has not ended.@
+`Even now the guilt is fading, and at any moment, Kohaku’s throat.@
 br
-`That white throat.@
-`To sink my teeth into it—
+`Her white throat.@
+`To sink my teeth into it.
 \
 br
 br
@@ -179,25 +179,25 @@ br
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`“—Haha.”@
+`“[line=4]Haha.”@
 `Broken.@
 br
 `“Aha…@ ahaha.”@
 `I’m broken.@ Truly broken now.@
 br
 `I’m finished.@
-`I can’t trust myself to stay sane any longer.
+`Beyond this[line=3]I can’t trust myself to stay sane any longer.
 \
-`“Ahaha…@ hahaha…@
-`ha.”@
+`“Ahaha, hahaha, ha.”@
 `Outside.@
-`I have to get outside.@ If I stay, I’ll kill Kohaku.@
-`If I remain on this estate, I’ll turn on Akiha and Hisui too.@ I have to disappear before that impulse returns.
+`I have to get outside.@
+`If I stay, I will kill Kohaku.@
+`If I remain on this estate, I will turn on Akiha and Hisui too.@ I have to disappear before that impulse returns.
 \
 `“Ahahahahahahahaha!”@
 br
 `Somewhere with no one.@
-`I have to go somewhere empty, or I’ll go mad again—
+`I have to go somewhere empty, or I’ll go mad again[line=4]
 \
 bg #000000,crossfade,1500
 !w1000

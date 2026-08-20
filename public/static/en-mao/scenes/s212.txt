@@ -15,7 +15,7 @@ bg "bg/bg_06b",lshutter,800
 `The final homeroom period ended.@
 `I was practically the only person left in the classroom; everyone else had gone to their clubs, while those with none to attend had raced from the school as though they had terribly important places to be.@
 br
-`“Well, then.”@
+`“[line=4]Well, then.”@
 br
 `I couldn’t stay there forever either.@
 `I hurriedly stuffed my things into my bag and left.
@@ -28,7 +28,7 @@ bg "bg/bg_23b",lcartain,800
 bg #000000,lcartain,800
 bg "bg/bg_22b",lcartain,800
 `“…”@
-`I stop without warning when I reach the hill.@
+`I stopped without warning when I reached the hill.@
 `At this same time yesterday.@
 `This was where Yumizuka and I had parted as though it were the most ordinary thing in the world.
 \
@@ -40,9 +40,9 @@ bg "bg/bg_22b",lcartain,800
 bg #000000,lcartain,800
 bg "bg/bg_32b",lcartain,800
 play "*1"
-`I climb the rest of the hill, follow the wall around the estate, and reach the main gate.@
+`I climbed the rest of the hill, followed the wall around the estate, and reached the main gate.@
 `“Honestly, this Western-style mansion could hardly look more out of place.”@
-`Looming at the very end of a residential district, it creates the illusion that this one patch of ground has somehow ceased to be Japan.@
+`Looming at the very end of a residential district, it created the illusion that this one patch of ground had somehow ceased to be Japan.@
 `And as if that were not enough[line=4]
 ld c,"tachi/his_t16",lshutter,800
 `“Welcome home, Master Shiki.”@
@@ -52,15 +52,15 @@ ld c,"tachi/his_t01",crossfade,400
 \
 `“I’m home, Hisui.@ This may sound strange, but have you been waiting here the whole time?”@
 `“No—not the whole time; only about thirty minutes.@ Is something wrong?”@
-`Hisui answers as though this were perfectly natural.@
-`That is a little more devotion than I know what to do with.
+`Hisui answered as though this were perfectly natural.@
+`That was a little more devotion than I knew what to do with.
 \
-`“No, I really am glad to have someone welcome me home.@ You just don’t have to go this far.@ That uniform attracts attention, and it’s a little embarrassing for me too.”@
-`Besides, it was autumn.@ Standing outdoors would only grow colder from here.@
-`“…”@
+`“[line=3]No, I really am glad to be welcomed home; you just don’t have to go this far.@ That uniform draws attention, and it embarrasses me too.”@
+`Besides, it was autumn.@ Soon it would be cold standing outside.@
+`“………………………”@
 `Hisui said nothing.@
 `Perhaps there was foreign blood in her; her deep-blue eyes had the lifeless clarity of glass as they regarded me without emotion.@
-`At last, after a long silence—
+`At last, after a long silence.
 \
 ld c,"tachi/his_t01b",crossfade,400
 `“Understood.@ Beginning tomorrow, I shall welcome you in the lobby.”@
@@ -75,7 +75,7 @@ bg "bg/bg_48b",lshutter,800
 `I flinched backward before I could stop myself.@
 ld c,"tachi/his_t08",crossfade,400
 `“Is something wrong, Master Shiki?”@
-`“Ah, no—it’s nothing.”@
+`“Ah, no[line=4]it’s nothing.”@
 `“…”@
 cl c,lshutter,800
 `Without a word, Hisui opened the front door.@
@@ -105,10 +105,10 @@ ld c,"tachi/his_t01",lshutter,400
 `I’ll need your help with things like laundry and meals, obviously, but you don’t have to devote the rest of your time to Shiki Tohno.@
 `It’s just you and Kohaku looking after this enormous estate, isn’t it?@ So do the bare minimum for me and make life as easy on yourself as you can!”@
 ld c,"tachi/his_t01",crossfade,400
-`“—”@ Hisui’s expression did not change.@
+`“[line=5]”@
+`Hisui’s expression did not change.@
 `She neither answered nor nodded.@
-`I only thought I saw her
-`close her eyes once.
+`I thought I saw her close her eyes just once.
 \
 `“Understood.@ But your concern is more than enough, Master Shiki.”@
 cl c,lshutter,800
@@ -152,5 +152,5 @@ bg "bg/bg_40b",lshutter,800
 playstop
 `I took off my uniform and changed into ordinary clothes.@
 `It was only just five.@
-`Sitting here in a daze until dinner seemed like a waste, so perhaps I should—
+`Sitting here in a daze until dinner seemed like a waste, so perhaps I should[line=4]
 \

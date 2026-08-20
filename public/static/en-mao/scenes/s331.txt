@@ -25,7 +25,7 @@ bg "bg/bg_11b",lcartain,400
 `“Tohno!”@
 `The instant I stepped into the corridor, someone called my name.@
 ld c,"tachi/cel_t03",lshutter,400
-`“Thank goodness you’re still here.@ Were you about to leave?”@
+`“Thank goodness you’re still here, Tohno.@ Were you about to leave?”@
 `“More or less.@ I’ve got nothing else to do, so I thought I’d be good and go straight home.@ Are you leaving too?”@
 `“Yes.@ No one needs me for anything today, so I thought I might do some shopping on the way.”@
 `“I see.@ Near the station?”@
@@ -35,7 +35,7 @@ ld c,"tachi/cel_t02",crossfade,400
 \
 `“Wait—by ‘here,’ you mean[line=3]here?”@
 ld c,"tachi/cel_t04",crossfade,400
-`She answered yes with a radiant smile.@
+`Ciel’s radiant smile said yes.@
 `“What exactly are they selling here?”@
 ld c,"tachi/cel_t02",crossfade,400
 `“This.”@
@@ -44,16 +44,16 @@ ld c,"tachi/cel_t02",crossfade,400
 \
 `“By ‘this,’ do you mean me?”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“Yes.@ You were still here, so I’ve decided to buy some of your time.@ That means you’re coming home with me.”@
+`“Yes.@ Since you’re still here, Tohno, I’ve decided to buy some of your time.@ Which means you’re walking home with me, Tohno.”@
 `She seized my arm and began towing me away.@
-`“W-wait!@ I’m flattered, but your house is in the opposite direction from mine; did you come all this way just so we could walk together as far as the schoolyard?”@
+`“W-wait[line=3]I’m flattered, but your house is in the opposite direction from mine.@ Did you come all this way just so we could walk together as far as the schoolyard?”@
 `“No, I’m shopping near the station today, so we’ll be going the same way for a while.”@
-`“Oh, then we can walk together—but what are you shopping for?”
+`“Oh, then we can walk together[line=3]wait, what are you shopping for?”
 \
 ld c,"tachi/cel_t12",crossfade,400
 `“Um, it’s getting cold, so I thought I’d buy a heater now, before I need one.”@
 `“A heater—maybe it’s a little early, but autumn will be over before we know it.@
-`So what are you buying?@ A heat pump?”@
+`So what are you buying?@ An air conditioner?”@
 ld c,"tachi/cel_t08",crossfade,400
 `“An ordinary high school student can’t afford a heat pump.@ So I thought I might purchase that inexpensive, convenient triumph of traditional Japanese craftsmanship: good old Kotatsu.”@
 `I had no idea the kotatsu was a traditional Japanese craft.@
@@ -64,7 +64,7 @@ ld c,"tachi/cel_t12",crossfade,400
 `“That isn’t true.@ We’re only walking home together, and I’d like a little company while I choose one.”@
 `“…@Then once you’ve bought it, you’ll say, ‘Oh, Tohno, I could never carry anything so heavy!@’”@
 ld c,"tachi/cel_t10a",crossfade,400
-`“Hmph.@ I would never make such an impertinent request.@ If I wanted your help, I’d phrase it much more delicately.”@
+`“Hmph, Tohno.@ I would never make such an impertinent request.@ If I wanted your help, I’d phrase it much more delicately.”@
 `“Naturally.@ Either way, I’d refuse.”
 \
 ld c,"tachi/cel_t04",crossfade,400
@@ -86,7 +86,7 @@ ld c,"tachi/cel_t08",crossfade,400
 ld c,"tachi/cel_t05",crossfade,400
 `“[line=3]All right.@ If you insist, I’ll depend on you today.”@
 `“As much as you like.”@
-`I thumped my arm to advertise its magnificent strength.@
+`I thumped my arm to show off how strong I was.@
 `Ciel laughed softly, then started walking.@
 ld c,"tachi/cel_t03",crossfade,400
 `“Before we go, may I ask one thing?”@
@@ -111,7 +111,7 @@ ld c,"tachi/cel_t09",crossfade,400
 \
 bg "bg/bg_01b",lshutter,800
 `We reached the school gate.@
-`“What…?”@
+`“What[line=4]?”@
 `At that same instant, my eyes met those of the last person I expected to see.@
 ld l,"tachi/aki_t21",lshutter,800
 `“Honestly, Brother.@ You leave school remarkably late.”@
@@ -124,7 +124,7 @@ ld r,"tachi/cel_t01a",crossfade,400
 ld l,"tachi/aki_t01a",crossfade,400
 `One glance told Akiha that Ciel and I had been leaving together.@
 `She surveyed us both with open accusation.@
-`“Akiha, what are you doing here?”@
+`“Akiha[line=3]what are you doing here?”@
 `“I came so we could walk home together.”@
 `Her reply arrived on an icy glare.@
 `“Tohno, is this your sister?”@
@@ -136,7 +136,7 @@ br
 \
 `“Ciel, this is my sister, Akiha.@ She transferred to our school today.”@
 `Akiha bowed to her in greeting.@
-`“I see.@ Hello, I’m Ciel, a friend of your brother’s.”@
+`“I see.@ Hello, I’m Ciel, a friend of Tohno’s.”@
 ld l,"tachi/aki_t11a",crossfade,400
 ld r,"tachi/cel_t07a",crossfade,400
 `What is this?@
@@ -152,8 +152,8 @@ cl r,lshutter,800
 `With a brief goodbye, Ciel walked away in the opposite direction.
 \
 `“[line=3]Ah”@
-`Before I can stop her, Ciel patters away.@
+`Before I could stop her, Ciel pattered away.@
 `“Let’s go home, Brother.@ It will be dark soon.”@
-`Akiha says it with perfect composure, as though nothing has happened.
+`Akiha said it with perfect composure, as though nothing had happened.
 \
 bg #000000,lcartain,800

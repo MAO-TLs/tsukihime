@@ -26,9 +26,9 @@ bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
 play "*2"
 `The sitting room is empty.@
-`A single teacup sits forlornly on the table.@ It is probably the one Akiha was using moments ago.@
+`A single teacup sits forlornly on the table.@ Probably Akiha’s, left behind moments ago.@
 `“[line=6]”@
-`Burdened by guilt toward Akiha, I enter without a word.@
+`My guilt keeps me silent as I enter.@
 br
 `[line=6]And then.@
 br
@@ -42,7 +42,7 @@ ld c,"tachi/koha_t04b",bshutter,400
 `“Sorry.@ I woke up feeling awful and thought I might as well be late”@
 `“I am not talking about school!@ I am asking why you did not come down and say so much as one word to Miss Akiha!”@
 `Kohaku knits her brows into an indignant scowl.@
-`“Well[line=3]I just did not feel able to face Akiha this morning, and[line=3]”
+`“Well, I just did not feel able to face Akiha this morning, and[line=3]”
 \
 `“What do you mean, you just did not feel able?@ Miss Akiha waited until the last possible moment!@ You never said a word to Miss Akiha, then came down only after Miss Akiha had left”@
 `“Ugh…”@
@@ -51,14 +51,14 @@ ld c,"tachi/koha_t04b",bshutter,400
 `“I know.@ It is not because I hate her.@ I simply could not face talking to her as if everything were normal this morning”
 \
 `“No, you do not understand at all!@ Master Shiki, you have no idea how Miss Akiha has felt, waiting all these years!”@
-`“What do you mean, all this time—you mean this morning?”@
+`“What do you mean, all this time[line=2]you mean this morning?”@
 `“Nothing of the sort!@ Miss Akiha told me never to mention it, but I simply cannot keep quiet any longer!”@
 ld c,"tachi/koha_t08",crossfade,400
 `“Listen carefully, Master Shiki.@ Miss Akiha can have breakfast with you now, but before she transferred schools it was an enormous ordeal.@
 `Master Shiki, do you even know where Miss Akiha’s old school was?”
 \
 cl c,crossfade,400
-`Akiha’s girls’ academy was in the next prefecture, if I remembered right.@
+`Akiha’s girls’ academy is in the next prefecture, if I remember right.@
 br
 `“[line=3]The next prefecture…?”@
 br

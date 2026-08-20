@@ -8,8 +8,8 @@ ld c,"tachi/ari_t01",lshutter,400
 `Arihiko’s presence opposite me had become so routine that there was no point complaining anymore.
 \
 `“Still, there’s something bleak about two grown men sitting face-to-face over lunch.@ This table needs a little feminine grace.”@
-`“Then ask that group to let you join them.@ I won’t stop you.”@ “Fool.@
-`Grace means one delicate flower blooming alone.@ A whole huddle like that is no good.@ It’s not beautiful; it’s commonplace enough to look poisonous.”@
+`“Right.@ Then ask that group to let you join them.@ I won’t stop you.”@
+`“Fool.@ Grace is one delicate flower blooming alone.@ A whole huddle like that is no good—it’s not beautiful; it’s so commonplace it looks poisonous.”@
 `Arihiko made a remark that might have gotten him pelted with stones if the girls had heard.@
 `Fortunately, none of the girls in class had heard his venomous remarks yet.
 \
@@ -20,21 +20,21 @@ ld c,"tachi/ari_t04",crossfade,400
 `“That’s a secret.@ I’d rather not create more rivals.”@
 cl c,crossfade,400
 `Arihiko chuckled, his smile nakedly ambitious.@
-`I almost admired how openly he wore the emotions I could never express.
+`I almost admired how openly he displayed something I seemed to lack.
 \
 br
 `[line=4]And then.@
 br
 `Someone I had met only a little while ago came through the classroom door and headed toward us.@
 `“Oh.”@
-`Carrying a boxed lunch, the approaching figure was impossible to mistake—
+`Carrying a boxed lunch, the approaching figure was impossible to mistake[line=3]
 ld c,"tachi/cel_t01a",lshutter,400
 `“Hello, Tohno.@ I came to join you for lunch—is that all right?”@
-`“Wh—oh, of course, but—”@
+`“Wh[line=3]oh, of course, but[line=3]”@
 `Still smiling, Ciel fetched a chair and sat down as if it were the most natural thing in the world.
 \
 `“Ciel, were you hurt after all?”@
-`“No, I wasn’t hurt at all?”@
+`“No, I wasn’t hurt at all, though.”@
 `That answer, delivered with a smile, left me at a loss.@
 `“You told me to come by at lunch, so I thought I ought to.”@
 `“Well—I did say that.”@
@@ -56,7 +56,7 @@ ld l,"tachi/cel_t04",crossfade,400
 `“Really?@ What a coincidence that you and Inui are friends.”@
 `“Exactly!@ This bastard looks quiet and innocent, yet somehow he became friendly with you behind my back; naturally, I’m wondering how!”@
 `Arihiko laughed at Ciel while glaring daggers at me.@
-`Was this what people meant by a man of many talents?
+`Was this what they meant by a dazzling feat of multitasking?
 \
 bg #000000,tshutter,400
 bg "bg/bg_06a",bshutter,400
@@ -92,8 +92,8 @@ ld c,"tachi/cel_t10a",lshutter,400
 `Why did everyone hear the word moving and immediately think transferring?@
 `“I’m not transferring.@ I’m only changing where I live today, so I had to submit a change-of-address form.”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Then…@ are you going to live
-`alone?”@ “That’s not it either; I’m just returning to my own home—an absurdly grand place on top of the hill, so the whole thing still doesn’t feel real.”
+`“Then you’re going to live alone?”@
+`“That’s not it either.@ I’m just returning to my own home—that absurdly grand place on top of the hill, so the whole thing still doesn’t feel real.”
 \
 `“…@Could that be the Tohno estate?”@
 `Ciel asked timidly, as though afraid of prying.@
@@ -173,31 +173,31 @@ bg "bg/bg_11a",lcartain,800
 `“So, what did you want to ask?”@
 ld c,"tachi/stk_t01",crossfade,400
 `“Sorry if I’m wrong, but…@ have you been walking around the entertainment district at night lately?”@
-`“What—?”@
+`“What[line=3]?”@
 `The entertainment district…?@
 `I hardly went there even in daylight, much less at night.@
 `Her question was so completely foreign to my experience that it made me curious.@
 `“…@How late at night are we talking?”@
 `“From what I heard, sometime after midnight.”
 \
-`…@After
-`midnight—then there was no chance at all.@ I sometimes went shopping in the entertainment district after dark, but I had never once been out there in the
-`middle of the night.@ “It definitely wasn’t me.@ The Arimas are old-fashioned, and my curfew is seven; if I miss it, they won’t let me in no matter how much I beg.@ I’d rather not sleep in the street, so even if my parents dropped dead, I’d still be home by seven.”@
+`Midnight—then there was no chance at all.@
+`I sometimes went shopping in the entertainment district at night, but I had never once gone into town after midnight.@
+`“It definitely wasn’t me.@ The Arimas are old-fashioned, and my curfew is seven.@ If I miss it, they won’t let me in no matter how much I beg.@ I’d rather not sleep in the street, so even if my parents dropped dead, I’d still be home by seven.”@
 `I denied it outright.@
 `Yumizuka smiled, visibly relieved.
 \
 ld c,"tachi/stk_t03",crossfade,400
-`“Yes, I know—the Arimas head some tea-ceremony school, don’t they?@ So they’re strict with you too.”@ “Strict isn’t the word; they enjoy tormenting me.@
-`But wait—how do you know so much about them, Yumizuka?@ Are you one of their students?”@
-`“No, I don’t know the first thing about tea ceremony.@ A friend of mine studies there and told me how strict they are.”@ “I see…@
-`But how did you know I lived with the Arimas?@ I haven’t told anyone since we started high school.”
+`“Yes, I know.@ The Arimas head some school of tea ceremony, don’t they?@ So they’re strict with you too.”@
+`“Strict isn’t the word; they enjoy tormenting me, but how do you know so much about them, Yumizuka?@ Are you one of their students?”@
+`“No, I don’t know the first thing about tea ceremony.@ A friend of mine studies there.@ She only told me how strict they are.”@
+`“I see—but how did you know I lived with the Arimas?@ I haven’t told anyone since we started high school.”
 \
 ld c,"tachi/stk_t01",crossfade,400
 `“You’ve forgotten we went to the same middle school, haven’t you?”@
 `Yumizuka said with a soft laugh.@
 `“What[line=4]?”@
-`…@The same middle school
-`I had no memory of her, so I couldn’t say one way or the other; but if that was true, she might well know I had been sent to live with the Arimas.@
+`The same middle school…?@
+`I had no memory of her, but if that was true[line=3]she might well know I had been sent to live with the Arimas.@
 `“Yumizuka, were you perhaps[line=3]”@
 `“As long as it wasn’t you, that’s all I wanted to know.@ Sorry I interrupted your lunch.”@
 cl a,lshutter,400
@@ -220,7 +220,7 @@ ld c,"tachi/ari_t04",crossfade,400
 cl a,crossfade,400
 ld c,"tachi/cel_t05",crossfade,400
 `“Oh, I knew it.@ That girl was your girlfriend, wasn’t she?”@
-`“Wh—what are you talking about?@ Yumizuka and I have hardly even spoken, so of course she isn’t!”
+`“Wh[line=3]what are you talking about?@ Yumizuka and I have hardly even spoken, so of course she isn’t!”
 \
 ld c,"tachi/cel_t02",crossfade,400
 `“No, no—you can’t hide it.@ You looked so close that I was almost jealous.”@

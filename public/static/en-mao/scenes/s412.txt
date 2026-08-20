@@ -25,7 +25,7 @@ wavestop
 bg #9c0120,crossfade,400
 bg #000000,notrans,0
 wave se_06
-`A dull thud of flesh being pierced reaches me, unmistakable.
+`I hear the unmistakable thud of flesh being pierced.
 \
 bg "event/his_e06",lshutter,800
 waveloop se_02
@@ -44,8 +44,8 @@ waveloop se_02
 `“[line=8]”@
 `No sound comes out.@
 `My mind goes blank.@
-`And that.@
-`SHIKI, whose arm has gone through Akiha’s chest, is just the same.
+`The same.@
+`SHIKI, his arm driven through Akiha’s chest, is frozen just the same.
 \
 `“[line=4]Ugh”@
 `SHIKI pulls his arm free with a wet slide.@
@@ -61,9 +61,9 @@ ld c,"tachi/hal_t05",lshutter,400
 \
 `“Aaaaah, ah, aaaaaaaaaaaaaah!”@
 br
-`SHIKI kept whipping his arm through the air.@
+`SHIKI whips his arm through the air.@
 br
-`“Aaaah, Aki, Akiha, Akiha is[line=3]Akiha?”@
+`“Aaaah, Aki, Akiha, Akiha is—Akiha?”@
 br
 `SHIKI stops dead.@
 `He stares at Akiha’s blood-drenched body, then at his own crimson arm[line=3]and bolts away as though fleeing something terrible.
@@ -82,7 +82,7 @@ br
 `[line=5]That does not matter.@
 `None of it matters at all.
 \
-`“Akiha[line=3]Akiha[line=4]!”@
+`“Akiha—Akiha[line=4]!”@
 `With no thought in my head, I run to her.@
 `Kohaku stands vacant and motionless, her amber eyes as empty of will as polished gemstones.@
 br
@@ -93,15 +93,15 @@ bg "event/his_e07a",crossfade,800
 play "*7"
 `Akiha lies helpless on the floor, her eyes terribly peaceful.@
 `“Akiha…!”@
-`I cannot even tell her to hold on[line=3]…@
-`My glasses[line=3]even with my glasses[line=3]I can see them.
+`Tell her to hold on[line=3]I cannot even say the words.@
+`My glasses[line=3]even through my glasses, I can see them.
 \
 `“Akiha[line=3]Akiha!”@
-`No other words come to mind.@
-`Still wearing that tranquil gaze, Akiha[line=4]looks faintly toward me.@
-`“Brother—why are you, in a place, like this?”@
-`With a wet cough.@
-`Red blood spills from Akiha’s mouth.
+`No other words come.@
+`Still wearing that peaceful look, Akiha[line=4]turns faintly toward me.@
+`“Brother—why are you, here, of all places?”@
+`She gives a wet cough.@
+`Blood spills from Akiha’s mouth.
 \
 `“[line=6]!”@
 `I can see them.@
@@ -111,9 +111,9 @@ play "*7"
 \
 `“Damn it[line=3]why…!”@
 br
-`Even so—even though I should have understood death better than anyone—I refused to accept it.@
+`Even so[line=3]even though I should understand death better than anyone, I refuse to accept it.@
 br
-`“Do not move…!@ I will treat it at once…!”@
+`“Don’t move…!@ I’ll take care of it right now”@
 br
 `I take off my jacket and lay it over Akiha’s chest.@
 `Then I bind it around her, trying somehow to close the wound.
@@ -128,14 +128,14 @@ br
 `Dreamily.@
 `Akiha speaks as though she cannot even see me fighting to hold her wound closed.
 \
-`“Brother, why are you here?@ I cannot rest until I know.@ You know how angry I get when there is something I do not understand, do you not?”@
+`“Brother, why are you, here?@ I worry, and I cannot rest.@ You know how angry I get, when there is something I do not understand, don’t you?”@
 `“[line=7]!”@
-`Oh, that was right; I nod.
+`Oh, that was true; I nod.
 \
 `The wound keeps bleeding.@ My jacket is already saturated, useless even as a compress.@
 `Damn[line=3]this cheap rag.@ Why does it soak through so quickly?@
 `It makes me furious.@
-`The worthless jacket, my worthless hands[line=3]neither can close a single wound, truly, truly, what am I[line=3]
+`The worthless jacket, my worthless hands, neither can close a single wound; truly, truly, what am I[line=3]
 \
 `“Idiot.@ What do you mean, why?@ This is my school; there is nothing strange about my turning up here by accident, even this late”@
 br
@@ -147,21 +147,21 @@ br
 `Akiha shows no sign of pain.@
 `Her warmth merely fades.@
 `Like pure white ice melting soundlessly beneath the sun.@
-`Whether she fails to understand what is happening to her body or understands it perfectly, Akiha speaks as though bored by an ordinary breakfast conversation.
+`Whether she fails to understand what is happening to her body or understands it perfectly[line=3]Akiha speaks as though bored by an ordinary breakfast conversation.
 \
-`“So.@ You heard that, did you?”@
+`“So.@ You heard what we said?”@
 `“[line=3]Yeah.@ Sorry, but I heard”@
-`“I see.@ So you know.@ Of all people, the one person I never wanted to know[line=3]how stupid”@
-`“Stop talking…!@ Just lie still.@ Please[line=3]please”@
+`“I see.@ So, you know; of all people, the last person I wanted to find out.@ How stupid”@
+`“Don’t talk…!@ Just lie still.@ Please, please”@
 `I use the sleeves as ties and cinch the jacket tight around her body.@
 `I know it is futile.@
 `But if I stop, I will lose my mind.
 \
-`“[line=3]I am sorry.@ I lied to you all this time, Brother.@ So many things, for so long, I kept from you”@
-`“I do not care.@ None of that matters anymore.@ So[line=3]”@
+`“[line=3]I’m sorry.@ I deceived you all this time, Brother.@ So many things, for so long, I kept from you”@
+`“I don’t care.@ None of that matters anymore.@ So[line=3]”@
 `“Brother[line=3]you are not my brother”@
 `“I was a terrible woman.”@
-`“I wanted you beside me always, so I told that silly lie”
+`“I wanted you beside me, always, so I told that silly lie”
 \
 br
 br
@@ -182,15 +182,15 @@ br
 br
 br
 `The blood will not stop.@
-`Me.@ I might go mad right here.
+`I.@ I think I may go mad right here.
 \
 `“I knew.@ I knew all of that.@ So you do not need to worry”@
 `Holding Akiha’s hand, I tell her so.@
 br
-`Akiha lets out one faint, deep breath.@
-`Akiha laughs, amused[line=3]“Oh, is that all?”@
+`After one faint, deep breath.@
+`Akiha laughs as though something has amused her: “Oh.”@
 br
-`“So you knew, Brother[line=3]then there was never any need to hold myself back”
+`“So you knew, Brother; then there was no reason to hold myself back”
 \
 br
 br
@@ -221,7 +221,7 @@ br
 \
 `“Akiha[line=5]!!!”@
 `I shake Akiha’s body again and again.@
-`Even though I understand better than anyone that nothing can come of it.
+`Even though I understand better than anyone that shaking her[line=3]that none of this can change anything.
 \
 bg "bg/bg_11c",crossfade,800
 playstop
@@ -239,8 +239,8 @@ cl c,crossfade,400
 br
 `[line=4]The school building is terribly quiet.@
 br
-`Hisui and I have stopped entirely, wordless and motionless.@
-`Only Kohaku starts moving again.@
+`Hisui and I are frozen, without words, without movement.@
+`Only[line=3]Kohaku’s mechanism starts up again.@
 ld c,"tachi/koha_t01c",lshutter,1500
 `“Where do you suppose Master SHIKI went?”@
 cl c,crossfade,800
@@ -250,20 +250,20 @@ br
 `At that name, my mind snaps awake.
 \
 ld c,"tachi/his_t08",crossfade,400
-`“Sister, this is no time for that[line=3]”@
+`“Sister, this is no time[line=3]”@
 `“No[line=3]Kohaku is right”@
-`I rise.@
-`Thank God[line=3]thank God I brought the knife.
+`I stand.@
+`Good[line=3]I am so glad I brought the knife.
 \
 ld c,"tachi/his_t28",crossfade,400
 `“P-please stop, Master Shiki…!@ You need not do anything so dangerous; with wounds like those, SHIKI cannot last much longer…!”@
-`“No.@ Akiha came this far because she could not leave SHIKI[line=3]that murderer[line=3]at large any longer”@
+`“No.@ Akiha came this far because she could no longer leave SHIKI[line=3]could no longer leave that murderer at large”@
 `“For Akiha’s sake, I cannot leave him at large either”@
 cl c,lshutter,400
 `With that, I shove Hisui aside.
 \
 `It is a lie.@
-`Fine motives mean nothing to me now[line=5]
+`I do not care about any such lofty justification now[line=5]
 br
 `“I’m settling this with him here and now.”@
 br
@@ -281,7 +281,7 @@ play "*9"
 bg "bg/ima_02",lcartain,800
 `The rooftop.@
 `The moon overhead.@
-`A beast crouches on the concrete earth, panting harshly.
+`A beast crouches on the concrete ground, panting harshly.
 \
 `“[line=5]SHIKI”@
 `I remove my glasses.@
@@ -320,33 +320,33 @@ bg "event/hal_e01",crossfade,800
 `“You are so loud”@
 `SHIKI shrieks between whistling breaths.
 \
-`“You are always so loud!@ What grudge do you have against me, why are you always getting in my way?!”@
+`“You are always so loud!@ What do you have against me—why are you always getting in my way?!”@
 `SHIKI raves, swaying unsteadily on his feet.@ I[line=3]
 br
 `“You[line=3]what are you”@
 br
 `[line=3]I have no idea what he means.
 \
-`“You are the one who needs to shut up!”@
-`“Listen, leave me alone, stop looking inside me, stop taking my dreams and using them however you like…………!!”@
-`“You are always controlling me and that is why I can never stop being afraid!”@
+`“You are the one who will not shut up!”@
+`“Listen, leave me alone; stop looking inside me, stop taking my dreams and using them however you like…………!!”@
+`“You are always controlling me, and that is why I can never stop being afraid!”@
 `SHIKI tears at his hair.
 \
 `“What[line=4]”@
-`I had never considered it.@
-`Whenever I dream, I relive SHIKI’s actions as though they were my own.@
-`But that.@
-`Not once had I wondered what the person whose actions I was reliving[line=3]what SHIKI himself[line=3]might feel about it.
+`It had never occurred to me.@
+`Whenever I dream, I trace SHIKI’s actions as though they were my own.@
+`But never.@
+`Not once had I wondered what that felt like to the person being traced, to SHIKI himself.
 \
-`“Get out.@ Get out of me.@ Get out of my house, get out of my name!@ You are in the way, in the way, I said you are in the way[line=3]I AM!!!!”@
+`“Get out.@ Get out of me.@ Get out of my house, get out of my name!@ You are in the way, in the way, I said; I am the one who is in the way!!!!”@
 `SHIKI thrashes like a child.@
 `“Tch.@ That makes two of us”@
 `I raise my knife.@
-`I did not come here to understand him.@
+`I never intended to understand him.@
 br
-`I came here to kill him or be killed.
+`I came here[line=3]to kill him or be killed.
 \
-`“Fine, let us kill each other!@ Anyone who treats ME like I am in the way is my enemy!@ I will kill every last one of you!@ You, you, Akiha, Kohaku[line=3]all of you!@ I will tear you apart just like my bastard of a father who said he would lock me underground until I died…!”@
+`“Fine, let us kill each other!@ Anyone who treats me as an obstacle is my enemy!@ I will kill every last one of you!@ You, you, Akiha, Kohaku, every one of you!@ I will tear you apart just like my father, who said he would lock me underground until I died…!”@
 `SHIKI howls like a lunatic.@
 `He truly is hideous.
 \
@@ -362,7 +362,7 @@ bg "bg/ima_18",crossfade,400
 `[line=3]After his fight with Akiha, SHIKI’s body was already ruined.@
 br
 `So it is easy.@
-`SHIKI seems to think he is running, though he moves more slowly than a man walking; I slip past his arm and cut the line running from the crown of his head down through his belly.@
+`SHIKI seems to think he is running[line=3]though he moves more slowly than a man walking; I slip past his arm and cut the line running from the crown of his head down through his belly.@
 br
 `“Ghk.”@
 `With a heavy thud.@
@@ -371,9 +371,9 @@ br
 `“See, easy.@ The lines on your body are far too clear”@
 `SHIKI’s death looks like a massive iron pillar driven into him through the skull.@
 br
-`“That is why.@ That is what I mean when I call you hideous”@
+`“That is what I mean.@ That is what makes you hideous”@
 br
-`“Ha[line=3]haha, ha”@
+`“Ha—haha, ha”@
 `SHIKI only laughs.@
 `Nothing resembling intelligence remains in him.
 \
@@ -381,7 +381,7 @@ br
 `He laughs his way toward death.@
 `The arm draped over me slides slowly down.@
 `SHIKI is dying.@
-`Before the end, he rolls his eyes toward me and tilts his head in innocent confusion.
+`Before the end, he swivels his eyes toward me and tilts his head in innocent confusion.
 \
 br
 br
@@ -395,8 +395,8 @@ br
 wave se_01
 `“What?”@
 `“Who are you”@
-`“W-what are you asking now?@ I am Shiki Tohno, the man you have been hunting all this time”@
-`“Oh.@ I see, so you were Shiki”@
+`“W-what are you asking me now?@ I am Shiki Tohno, the man you have been hunting all this time”@
+`“Oh.@ So you were Shiki”@
 br
 `SHIKI slides from me and crumples to the ground.@
 br
@@ -469,7 +469,7 @@ bg "bg/bg_53",crossfade,400
 \
 `Conversations between Kohaku and Hisui differed ever so slightly from my childhood memories.@
 br
-`SHIKI’s festering resentment toward Makihisa.@
+`SHIKI’s misdirected grudge against Makihisa.@
 br
 `Father had wanted SHIKI back in the mansion as soon as possible, yet SHIKI hated him for supposedly intending to keep him in the underground cell forever.@
 br
@@ -494,7 +494,7 @@ bg "bg/cmo_20",crossfade,800
 `When I reached the meeting place, she was already waiting.
 \
 ld c,"tachi/koha_t03b",lshutter,800
-`“Beautiful weather, is it not, Master Shiki?”@
+`“Lovely weather, isn’t it, Master Shiki?”@
 `I nod.@
 `She smiles warmly at me.@
 br
@@ -503,9 +503,9 @@ br
 `I nod again.@
 `Her smile never wavers.@
 cl c,lshutter,800
-`That smile, unbroken in every circumstance.@
-`Hisui, for all her habitual blankness, was actually a girl whose feelings changed constantly.@
-`Hisui looked like a heartless doll on the surface, but her heart had never been a doll’s.
+`That smile, never once broken, whatever happened.@
+`Hisui, for all her usual blankness, was in truth a girl whose feelings changed from moment to moment.@
+`She looked like a heartless doll, but her heart had never been a doll’s.
 \
 `But[line=3]what of the girl before me?@
 `Kohaku, who always, always smiled.@
@@ -532,9 +532,9 @@ ld c,"tachi/koha_t03b",crossfade,400
 `“So everything, every last thing, went exactly according to your plan, Kohaku…?!”@
 `Still smiling, she nods.@
 ld c,"tachi/koha_t19",lshutter,400
-`“That is right.@ Every one of those things was something I thought it would be nice to see happen, Master Shiki”@
+`“Yes.@ I simply thought it would be nice if those things happened, Master Shiki”@
 `Her smile remains intact.@
-`A chill passes through me, and without realizing it I take one step back.
+`A chill passes through me, and without realizing it I step back.
 \
 `“Why[line=3]what did you do all of that for”@
 `“Oh.@ Really, Master Shiki, you already know.@ There can only be one or two reasons to do something like this”@
@@ -542,14 +542,14 @@ ld c,"tachi/koha_t19",lshutter,400
 ld c,"tachi/koha_t03b",crossfade,800
 `“Oh, that is probably it.@ For revenge, I decided the Tohno family would have to die”
 \
-`“Revenge[line=3]because Makihisa Tohno killed your parents, the way he killed mine?”@
+`“Revenge, because Makihisa Tohno killed your parents the way he killed mine?”@
 `“Of course not.@ Hisui and I were orphans from the beginning.@ We cannot even picture our parents’ faces”@
 `“Then why?!”@
 `“Who knows.@ I no longer understand what I felt then.@ I do remember the reason, though”@
 `“What reason”
 \
-`“One reason, for example, might be that Master Makihisa raped me”@
-`“Hisui and I were apparently taken in for that purpose.@ As Master Makihisa ceased to be human, he needed us as resonators to keep him human”@
+`“Well, one reason might be that Master Makihisa raped me”@
+`“Hisui and I were apparently taken in for that very purpose.@ As Master Makihisa ceased to be human, he needed us as resonators to keep him human”@
 `“Hisui did the same for you, did she not, Master Shiki?@ Intercourse is the most effective way to share one’s strength”@
 `“[line=6]!”@
 br
@@ -557,24 +557,24 @@ br
 `But then, that meant[line=3]
 \
 ld c,"tachi/koha_t05b",crossfade,800
-`“Master Makihisa was desperate.@ He probably could not spare a thought for my age”@
+`“Master Makihisa was desperate.@ I doubt he had enough composure left to care how young I was”@
 `“The reason he chose me first was simple.@ I had always been quiet and meek, so he must have thought I would struggle less than the more spirited Hisui”@
 `Even so.@ Her smile does not break.
 \
 ld c,"tachi/koha_t03b",crossfade,800
 `“Master Makihisa was not especially wicked.@ The Tohno blood merely made him violent from time to time”@
-`“So he kept me ready in his room for such times and used me as an outlet for his arousal.”@
-`“By ordinary standards it is apparently called sexual abuse.@ I do not remember much of it.@ Being used by Master Makihisa was part of my daily routine, and remembering every occasion would have broken my mind, would it not?”
+`“So he kept me ready in his room for those occasions and used me as an outlet for his arousal.”@
+`“Ordinary society apparently calls it sexual abuse.@ I remember very little.@ Being used by Master Makihisa was part of my daily routine, and remembering every single time would have broken my mind, wouldn’t it?”
 \
-`“Oh, but I remember the first time Master Makihisa assaulted me very well.”@
+`“Oh, but I remember the first time Master Makihisa assaulted me very clearly”@
 ld c,"tachi/koha_t05b",crossfade,800
-`“It was my eighth birthday.@
-`Master Makihisa told me he had a present, and even though I was quiet, I followed Master Makihisa to his room trembling with excitement”@
+`“It was my eighteenth birthday.@
+`Master Makihisa told me he had a present, and quiet as I was, I followed him to Master Makihisa’s room full of excitement”@
 `She laughs happily, exactly as she always does.
 \
 ld c,"tachi/koha_t03b",crossfade,800
 `“What Master Makihisa did grew more extreme by the day.@ But that could not be helped.”@
-`“I was still a child, so my ability as a resonator was still immature.@ Hisui would have had to supply the missing half.”@
+`“I had only just come of age, so my ability as a resonator was still immature.@ Hisui would have had to supply the missing half.”@
 `“But I was her big sister, and somehow I thought I should not let anyone make her cry”
 \
 `“So I accepted everything Master Makihisa asked of me.@ Just once, I begged him to leave Hisui alone because I could satisfy him by myself.”@
@@ -590,8 +590,8 @@ ld c,"tachi/koha_t19",crossfade,800
 `“Master Makihisa’s breath no longer disgusted me; Master Makihisa’s arms became nothing but warm meat; even when he strangled me or kicked me in the stomach, it seemed to be happening to someone else, and each day became a little easier”
 \
 ld c,"tachi/koha_t03b",crossfade,800
-`“Master Shiki.@ I wanted Hisui, at least, to remain clean.@ I decided I would endure any violation for that, but it was difficult”@
-`“It was not Master Makihisa’s violations that were difficult.@ It was Master Shiki I could not understand.@ You frightened me”@
+`“Master Shiki.@ I wanted Hisui, at least, to remain clean.@ I had decided I would endure any violation for that”@
+`“But the difficult part was not Master Makihisa’s violations.@ It was Master Shiki.@ I could not understand you; you frightened me”@
 br
 `“Me?”@
 br
@@ -619,7 +619,7 @@ ld c,"tachi/koha_t03b",crossfade,400
 `“Several days later, Master Shiki returned to the mansion and arrangements were made to send him to the Arima family”@
 `“It was completely secret, and I learned that Master Shiki was leaving only from something Master Makihisa let slip”@
 `“There was no time to warn Miss Akiha or Hisui.”@
-`“I realized I would part from the boy I had watched for years without ever speaking to him, and my legs somehow moved; for the first time in years I ran through the corridors and caught Master Shiki, but then found I had nothing to say; so I gave Master Shiki the ribbon, the only possession that had ever belonged to me”
+`“I realized I would part from the young man I had watched for years without ever speaking to him[line=3]and the instant I did, my legs moved on their own; for the first time in years, I ran through the halls and caught Master Shiki, but then found I had nothing to say, so I gave Master Shiki the ribbon, the only thing that had ever belonged to me”
 \
 `“After that, the Tohno relatives decided Master SHIKI should be put to death”@
 `“Master Makihisa could not bring himself to kill his own son, so he secretly imprisoned him underground.@ He told me Master SHIKI would return to normal after a while and asked me to care for him until then.”@
@@ -638,25 +638,25 @@ ld c,"tachi/koha_t03b",crossfade,400
 \
 ld c,"tachi/koha_t19",crossfade,400
 `“I think that severed the last of my emotions”@
-`“I thought desperately.@ How could I break free?”@
+`“I thought desperately.@ How could I escape this life?”@
 `“Then the answer came very easily”@
-`“In short, the entire Tohno family had to disappear.@ If not only Master Makihisa but Master SHIKI could do nothing except hurt me, what other choice was there?”@
+`“The entire Tohno family simply had to disappear.@ If Master Makihisa and Master SHIKI could do nothing but hurt me, what other choice was there?”@
 `“When I realized that, I laughed for the first time in years.”@
-`“I found myself genuinely hilarious for taking so long to notice something so simple.”
+`“I found it so absurd that something so obvious had taken me so long to see.”
 \
-`“From then on, I could finally move by myself”@
-`“The difficult part had been finding a reason I was allowed to move.@ A doll cannot move alone.@ It needs strings or a spring before it can behave like a person.”@
+`“From then on, I could finally move on my own”@
+`“The hardest part had been finding a reason I was allowed to move.@ A doll cannot move by itself.@ It needs strings or a spring before it can behave like a human being.”@
 `“Once I found that reason, everything became very easy.”@
-`“I only had to turn Master SHIKI against Master Makihisa and feed the mistrust between them.”@
-`“When Master SHIKI said he wanted to drink blood, I let him drink mine and merely told him he had done nothing wrong while accepting him exactly as he was”
+`“All I had to do was turn Master SHIKI against Master Makihisa and fan their mistrust of one another.”@
+`“When Master SHIKI said he wanted to drink blood, I let Master SHIKI drink mine and merely told Master SHIKI he had done nothing wrong, accepting him exactly as he was”
 \
 `“When Master SHIKI began swinging between mania and depression, I even prepared a special medicine for him.@
 ld c,"tachi/koha_t15",crossfade,400
-`“Actually, Master Shiki, it was the same medicine I served you.@ You have seen the morning glories in the rear garden, have you not?@ They are thorn apples, and they contain three psychoactive compounds.”@
+`“Actually, Master Shiki, it was the same medicine I served you.@ You have seen those ‘morning glories’ in the rear garden, have you not?@ They are Datura, and contain three psychoactive compounds.”@
 ld c,"tachi/koha_t03b",crossfade,400
-`“Put simply, it is a drug.@ A medicine that induces delirium.”@
-`“A convenient medicine that renders the patient unconscious, makes them follow my instructions, and leaves them with no memory when they wake.”@
-`“I was trained to become Master Makihisa’s personal physician, so I know quite a lot about such things”
+`“Put simply, it is a drug.@ It induces delirium.”@
+`“A very convenient medicine: it makes the patient lose consciousness, obey my instructions, then wake with no memory of it.”@
+`“I was trained to serve as Master Makihisa’s personal physician, so I know quite a lot about such things”
 \
 `“With all that assistance, Master SHIKI went mad in exactly the way that suited me”@
 `“Everything after that was easier still.”@
@@ -664,11 +664,11 @@ ld c,"tachi/koha_t03b",crossfade,400
 `“From then on, Miss Akiha felt guilty toward me, which made her much easier to manage.”
 \
 ld c,"tachi/koha_t19",crossfade,400
-`“I admit, I had not expected Miss Akiha to confront Master Makihisa immediately.@ Under pressure from Miss Akiha, Master Makihisa released me at once.”@
-`“I had believed I would remain his prisoner until Master SHIKI killed Master Makihisa, but in fact I gained my freedom four years early.”@
-`“After returning to life as an ordinary servant, I decided to exchange roles with Hisui, who had fallen silent”@
+`“I admit, I had not expected Miss Akiha to confront Master Makihisa immediately.@ Miss Akiha’s accusations made Master Makihisa release me at once.”@
+`“I had thought I would remain his prisoner until Master SHIKI killed Master Makihisa, but instead I gained my freedom four years early.”@
+`“Once I returned to life as an ordinary servant, I decided to exchange roles with Hisui, who had fallen silent”@
 ld c,"tachi/koha_t03b",crossfade,400
-`Oh, but please do not worry; even afterward, I was still the one who attended to both Master Makihisa and Master SHIKI.@ Hisui has remained clean all this time.”
+`Oh, but please don’t worry; even afterward, I was still the one who attended to both Master Makihisa and Master SHIKI.@ Hisui has remained clean all this time.”
 \
 cl c,crossfade,400
 `With one last bright smile, she finishes her story.@
@@ -680,13 +680,13 @@ br
 \
 ld c,"tachi/koha_t03b",crossfade,400
 `“But, Master Shiki.@
-`I did not hate Miss Akiha, nor Master SHIKI.@ It is also true that I never wanted to do any of this.”@
+`I never hated Miss Akiha or Master SHIKI.@ It is also true that I never wanted any of this.”@
 `“[line=6]”@
-`What could she mean now, after everything.
+`After everything, how could she say that now?
 \
-`“But there was nothing else for me to do.@ I could not live without that purpose.@ A doll cannot move of its own will.@ Unless something pulls its strings, it cannot behave like a human being”@
+`“But there was nothing else for me to do.@ I could not live without a purpose like that.@ A doll cannot move by its own will.@ Unless something pulls its strings, it cannot behave like a human being”@
 `“Even so[line=3]”@
-`That could never absolve her.
+`That could never be forgiven.
 \
 `“I never once truly wanted everything to go according to my plan.@ But it is strange.@ Everyone takes my words to heart.@
 `A few foolish whispers from a child barely ten years old are enough to set them in motion.@ Chance is frightening.”@
@@ -737,7 +737,7 @@ playstop
 `Silk whispers against silk.@
 `She grips the long, cloth-wrapped object and turns it toward her own breast.@
 br
-`Sunlight flashed from a naked blade.@
+`Sunlight flashes from the naked blade.@
 br
 `“Ko[line=4]!”@
 `I run.@
@@ -869,11 +869,11 @@ br
 `[line=3]That is wrong.@
 `I clasp her hand and shake my head.
 \
-`“You are wrong…!@ You are human, Kohaku.@ You cannot turn yourself into a doll…!@ You are alive, a living human being…!@ Your blood is red, is it not?!”@
+`“You are wrong…!@ You are human, Kohaku.@ You cannot turn yourself into a doll…!@ You are alive, a living human being…!@ You can see the proof right here: even now, the blood you spill is red!”@
 `“Oh.@ That is true, is it not?”@
 `She laughs, her eyes still closed.
 \
-`“Right?@ You love Akiha, always look out for Hisui, and are an ordinary woman who laughed with me over stupid things”@
+`“Right?@ You love Akiha, you always look out for Hisui, and you laughed with me over stupid things—you are an ordinary woman”@
 `“So[line=3]”@
 br
 `Even if her wishes brought about an ending in which Akiha died and SHIKI went mad.@
@@ -881,7 +881,7 @@ br
 `“[line=3]Kohaku did not have to die”@
 `I tighten my grip on her hand and force the words from the deepest part of me.
 \
-`“Hehe.@ Master Shiki, you really are the boy I thought you were.@ I finally got to talk to you”@
+`“Hehe.@ Master Shiki, you really are just the young man I always thought you were.@ I finally got to talk to you”@
 br
 `Thump.@
 `Louder than before, as if it saved all its strength for one final beat.@
@@ -896,7 +896,7 @@ br
 `Blood wells from her mouth with a soft cough.@
 br
 `[line=4]“It hurts.”@
-`She whispers it softly.
+`She whispers.
 \
 br
 br

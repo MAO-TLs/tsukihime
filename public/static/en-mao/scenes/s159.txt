@@ -14,9 +14,9 @@ br
 br
 `A hot summer day.@
 br
-`A blue sky and huge, huge thunderheads.@
-`The whole world quivering in the baking heat,
-`and the endless, dizzying scream of cicadas.@
+`A blue sky and enormous, enormous thunderheads.@
+`The landscape wavering in the scorching heat
+`The cry of cicadas loud enough to make you faint.@
 br
 `The cicadas’ cry.
 \
@@ -47,15 +47,15 @@ br
 br
 br
 br
-`Waaah, waaah
+`Waaah waaah
 !w500
-`Waaah, waaah
+`Waaah waaah
 !w500
-`Waaah, waaah
+`Waaah waaah
 !w500
 br
 `Akiha is crying.@
-`Quiet little Akiha, who always followed right behind me, is crying and crying.
+`Quiet little Akiha, who always followed right behind me, is weeping and weeping.
 \
 bg "bg/cmo_06",crossfade,800
 br
@@ -68,12 +68,12 @@ br
 `My hands are red with the fallen child’s blood.
 \
 br
-`“Akiha—!”@
+`“Akiha[line=5]!”@
 br
 `The grown-ups are coming.@
 `They discover the carnage and come running, horror on their faces.@
 br
-`“What a terrible thing—”@
+`“What a terrible thing[line=5]”@
 br
 `The grown-ups take Akiha away.@
 `The fallen child stays dead.@
@@ -83,10 +83,10 @@ br
 br
 `They leave me all alone, staring up at the summer sky.@
 br
-`“Did you kill the child—?”@
+`“Did you kill the child[line=4]?”@
 br
 `The grown-ups are shouting.@
-`They shout the name of the boy who killed the child.@
+`They shout my name—the name of the one who killed the child.@
 `They scream those two little sounds as if they have all gone mad.
 \
 br
@@ -113,17 +113,17 @@ br
 `The fact that he could see the “lines,”@ just as I could.@
 `Then swords pierced his entire body, flames consumed him, and he vanished with a dying scream.
 \
-`“—”@
+`“[line=4]”@
 `Everything after that was little more than a haze.@
 `A figure standing atop a streetlight.@
-`The figure who saved me had seemed somehow like Ciel—
+`The figure who saved me had seemed somehow like Ciel[line=3]
 \
 bg "bg/bg_40a",crossfade,400
 `“Ridiculous.@ That couldn’t possibly have happened.”@
 `My mind finally cleared.@
 `I put on my glasses and sat up.@
 `It was a little after eight.@
-`Ordinarily I would have finished breakfast long ago, but school was closed today for its anniversary.
+`Ordinarily I would have finished breakfast long ago, but school was closed today for its founding anniversary.
 \
 `“Hisui’s…@ not here.”@
 `Usually she waited outside my door as silently as a shadow.@
@@ -182,7 +182,7 @@ bg "bg/bg_34a",lcartain,800
 `When I returned to the sitting room after breakfast, Hisui was standing there all alone.@
 ld c,"tachi/his_t01",crossfade,400
 `“Ah, that was delicious.@ Thank you for making such a good breakfast every morning.”@
-`I pressed my palms together and offered a solemn prayer of gratitude.
+`Thank you, thank you, I thought, pressing my palms together for a moment of silent prayer.
 \
 `“Preparing meals is my sister’s responsibility.@ If you wish to offer praise, please give it to her rather than me.”@
 `“I know, but—are your duties and Kohaku’s divided that strictly?@ Say I’m the only one with a day off, like today.@ Couldn’t you make breakfast instead of her?”@
@@ -216,9 +216,9 @@ cl c,crossfade,400
 `Before I reached it, however, Hisui walked past me into the foyer.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki.”@
+`“[line=3]Master Shiki.”@
 `“Hm?”@
-`“Impertinent though it may be, I will do my utmost to accommodate Master Shiki’s request.”@
+`“I realize this may be impertinent, but I will do my utmost to accommodate Master Shiki’s request.”@
 `“What?”@
 `Hisui looked straight into my eyes.
 \
@@ -282,7 +282,7 @@ bg "bg/bg_46a",lshutter,400
 `Once I began looking closely, I found my name and Akiha’s everywhere.
 \
 `The sprawling mansion.@
-`As a child it had seemed like a castle; now it felt no larger than a respectable haunted house.@
+`As a child it had seemed like a castle; now it seemed no bigger than some old haunted house.@
 `Time had passed, and we had grown up.@
 `Akiha and I were no longer the little Shiki Tohno and Akiha Tohno we had once been.
 \
@@ -356,7 +356,7 @@ br
 br
 br
 br
-`[line=7]I don’t…@ think…@ I do.@
+`[line=7]I had the strangest feeling there had never been any such place.@
 !w1500
 \
 `“…”@
@@ -382,19 +382,19 @@ br
 br
 br
 `The cry of cicadas.@
-`Summer sunlight so fierce it seemed to melt the world—
+`Summer sunlight so fierce it seemed to melt the world[line=6]
 \
 wave se_01
 bg #ffffff,crossfade,400
 bg "bg/bg_53",crossfade,400
 `“What…?”@
-`Summer…@ sunlight?
+`Summer sunlight[line=3]?
 \
 wave se_01
 bg #ffffff,crossfade,400
 bg "bg/bg_53",crossfade,400
-`“Ah—ow…”@
-`The old wound in my chest began to ache.@
+`“It[line=4]hurts…”@
+`The old wound in my chest aches.@
 !w500
 `As though / cut open.@
 !w500
@@ -410,7 +410,7 @@ br
 br
 `Oh.@
 br
-`[line=4]Somewhere, cicadas are screaming.@
+`[line=4]Somewhere, cicadas are singing.@
 br
 `Even though it is already autumn.@
 br
@@ -424,14 +424,14 @@ br
 br
 `A thunderhead towers in the distant sky.@
 !w500
-`I can see the hollow song of cicadas.@
+`I can see the voice of an empty cicada shell.@
 !w500
 `Empty cicada shells lie at my feet.@
 !w500
 `A shell.@ The empty shell of someone.
 \
 wave se_01
-`“—…”@
+`“[line=4]…”@
 br
 `The wound tears open.@
 !w500
@@ -469,7 +469,7 @@ br
 \
 bg #ffffff,crossfade,1500
 bg "bg/bg_53",notrans,0
-`“Ah—gh.”@
+`“Ah[line=4]gh.”@
 `My chest hurts.@
 `I’m going to be sick.@
 `The wound closed long ago, so why does it hurt this much?@
@@ -479,7 +479,7 @@ bg "bg/ima_13",crossfade,800
 `The old wound opens, and a RED stain pours out.
 \
 br
-`[line=3]So that’s it.@
+`[line=3]How awful.@
 `My wound never healed at all.
 \
 br
@@ -521,7 +521,7 @@ bg "bg/bg_40c",crossfade,800
 br
 br
 br
-`…@Voices drift toward me.
+`I can hear voices.
 \
 `“Miss Akiha, should we not summon a doctor?”@
 `“Don’t be absurd, Hisui.@
@@ -531,9 +531,9 @@ br
 `this is SHIKI’s room.@
 `it seems i am asleep on the bed.@
 br
-`I tried to sit up and greet them, but my body would not obey.@
-`The pain in my chest was gone, yet every limb felt made of lead.@
-`Only my eyes and mouth seemed willing to move.
+`I try to sit up and call hello, but my body will not obey.@
+`The pain in my chest is gone, yet my limbs feel heavy as lead.@
+`Only my eyes and mouth seem capable of moving properly.
 \
 ld r,"tachi/aki_t07b",crossfade,400
 `“What were you thinking, Hisui?@ You knew you were never to let my brother go near that place…!”@
@@ -544,8 +544,8 @@ ld l,"tachi/his_t05",crossfade,400
 `Akiha was openly furious, with an intensity I had never seen from her.@
 `Hisui endured the rebuke with her head bowed, saying nothing.@
 br
-`…@I had no idea how things had come to this.@
-`But I could at least tell that Hisui was being blamed because of me.
+`I don’t understand what brought them to this.@
+`But I can at least tell that Hisui is being blamed because of me.
 \
 `“Answer me, Hisui.@ Where were you and what were you doing today?”@
 `Hisui did not answer.@
@@ -556,7 +556,7 @@ br
 `…@Even in my condition, I could see that Akiha was about to strike her.@
 `Hisui must have known as well, yet she kept her head bowed, silently prepared to accept it.
 \
-`“Hold on, Akiha.”@
+`“[line=3]Hold on, Akiha.”@
 ld c,"tachi/aki_t15b",crossfade,400
 `“Brother—you’re awake?”@
 `“Yeah, you were making so much noise you woke me up.”@
@@ -587,7 +587,7 @@ ld c,"tachi/aki_t12b",crossfade,400
 `I won’t ask where you go every night anymore.@ So please, just for tonight, take care of yourself…!”@
 `“I’m fine.@ This happens all the time.@ You remember how I used to collapse twice a day in middle school, don’t you, Akiha?”@
 ld c,"tachi/aki_t23b",crossfade,400
-`“That is precisely why I’m worried.@ Brother…@ please.@ Just for tonight, listen to me.”
+`“That is precisely why I’m worried.@ [line=3]Brother.@ Please, just for tonight, listen to me.”
 \
 `Akiha held my gaze, utterly serious.@
 br

@@ -5,7 +5,7 @@ bg #000000,lcartain,1500
 bg "bg/bg_25a",lcartain,800
 play "*3"
 `We went downtown first.@
-`All that remained was to leave the main avenue and find a deserted alley, but—
+`All that remained was to leave the main avenue and find a deserted alley, but[line=3]
 \
 ld c,"tachi/ark_t01a",lshutter,800
 `“What is it, Shiki?@ Something wrong?”@
@@ -31,19 +31,19 @@ bg "bg/bg_31a",lcartain,1500
 br
 `[line=3]And so we arrived in an alley.
 \
-`“Sorry for the wait.@ There’s no one around here, so you can relax—”@
+`“Sorry for the wait.@ There’s no one around here, so you can relax[line=3]”@
 ld c,"tachi/ark_t06",crossfade,400
 `“……”@
-`Huh?@
+`Huh[line=3]?@
 `Was it my imagination, or had murderous intent entered Arcueid’s stare?
 \
 `“Arcueid…?@ You don’t like it here?”@
 `“……”@
 `Apparently she hated it so much she wouldn’t even speak to me.
 \
-`“That’s strange—you’re a vampire, so I thought you’d prefer somewhere like this to a crowd—”@
+`“That’s strange; you’re a vampire, so I thought you’d prefer somewhere like this to a crowd[line=4]”@
 ld c,"tachi/ark_t07",crossfade,400
-`“—!”@
+`“[line=9]!”@
 `Arcueid’s eyes flashed.@
 `This was bad.@ I might never have seen her this angry before.@
 cl c,crossfade,800
@@ -51,19 +51,19 @@ cl c,crossfade,800
 `Arcueid heaved a long sigh and raised her face.@
 ld c,"tachi/ark_t09",crossfade,400
 `“Tell me, Shiki.@ What kind of joke is this?”@
-`“Ah—uh.”@
+`“Ah[line=4]uh.”@
 `Terrifying.@ Nothing in the world could have been more frightening than Arcueid’s smile.
 \
-`“I’m terribly sorry.@ This was entirely my mistake.”@
+`“No, um…@I am sorry; this was entirely my mistake.”@
 `I pressed my palms together and begged.@
 `Arcueid kept smiling.
 \
 ld c,"tachi/ark_t08",crossfade,400
-`“You’re right—there’s nothing to do in a place like this, and the only entertainment would be reenacting our first meeting.”@
+`“You’re right; there’s nothing to do in a place like this, and the only thing we could do is have our first meeting all over again, Shiki.”@
 br
-`Our first meeting—that meant—
+`When we first met, you mean[line=3]
 br
-`“It might turn out a little differently this time.@ Wouldn’t that be fun, Shiki?”
+`“It might unfold a little differently this time.@ That could be fun, couldn’t it, Shiki?”
 \
 br
 br

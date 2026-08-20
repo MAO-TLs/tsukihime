@@ -8,16 +8,16 @@ bg "bg/bg_06a",lcartain,800
 ld c,"tachi/ari_t01",lshutter,400
 `「おう、おはようさん。今朝はまた、随分と顔色が悪いね」
 `“Honestly.@ Everyone takes one look at me and says the same thing.@ Do I look that awful?”@
-`“Huh?@ Now that you mention it, you look normal.@ Maybe it’s because you seem so completely miserable.”@
+`“Huh[line=3]?@ Now that you mention it, you look normal.@ Maybe it’s because you seem so completely miserable.”@
 `“Miserable.”@
 `He was right.@
 `Ciel had said goodbye, my body felt like a sack of mud, and both mind and body were down for the count.
 \
-`“Arihiko.@ Have you seen Ciel today?”@
+`“[line=3]Arihiko.@ Have you seen that upperclassman today?”@
 ld c,"tachi/ari_t03",crossfade,400
-`“Huh?@ Who?”@
+`“Huh?@ Which upperclassman are you talking about?”@
 `“The only upperclassman we both know is Ciel.”@
-`“Who’s Ciel?@ Did our school have a foreign exchange student?”@
+`“Who is Ciel?@ Did our school have a foreign exchange student?”@
 br
 `[line=4]My mouth fell open in disbelief.@
 br
@@ -43,11 +43,11 @@ br
 bg #000000,lshutter,400
 bg "bg/ima_03",lshutter,400
 `Ciel had truly vanished.@
-`She had not simply left me; the very existence of a person named Ciel had disappeared without a trace.@
+`She had not simply left me; Ciel herself had disappeared without leaving a single trace.@
 `Arihiko didn’t remember her.@ No one else would either.@
 `That was what her goodbye had meant.
 \
-`“…”@
+`“[line=8]”@
 `The teacher moving a stick of white chalk across the blackboard looked like an image playing on a screen.@
 `It was as if reality no longer felt real.@
 `When class ended and the break began, she would never come through the door.@
@@ -56,10 +56,10 @@ bg "bg/ima_03",lshutter,400
 `Some part of me had clung to one last thread of hope.@ Now that too was gone.@
 br
 `I had lost Ciel completely.@
-`I still hadn’t done anything—hadn’t told her anything.@
+`I still hadn’t done anything[line=3]hadn’t told her anything.@
 `We had once eaten lunch beneath a blue sky as clear as today’s.@
 br
-`How precious it had been.@ How dear a dream—
+`How precious it had been.@ What a cherished dream it was[line=4]
 \
 bg #000000,crossfade,1500
 !w1000
@@ -69,5 +69,5 @@ br
 `[line=3]Apparently lunch break had begun some time ago.@
 `“……”@
 `I had no desire to do anything.@
-`My body felt leaden, so perhaps I should simply—
+`My body felt leaden, so perhaps I should simply[line=3]
 \

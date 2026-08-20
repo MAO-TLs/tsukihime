@@ -1,9 +1,9 @@
 play "*2"
 wavestop
 bg "bg/bg_40a",notrans,0
-`Since I’ve managed to wake early for once, there’s no reason to waste the time.@
-`I’m also worried about what happened at dinner yesterday[line=3]how Akiha went deathly pale and shut herself in her room.@
-`If she’s feeling better, she should be in the sitting room.
+`Since I managed to wake early for once, there is no reason to waste the time.@
+`I am also worried about what happened at dinner yesterday[line=3]how Akiha went deathly pale and shut herself in her room.@
+`If she is feeling better, she should be in the sitting room.
 \
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
@@ -27,7 +27,7 @@ ld c,"tachi/aki_t16a",crossfade,400
 `“No, I’m the one who should apologize for shouting.@ When an attack takes hold, I lose sight of everything around me and become terribly coarse.”@
 `Remembering last night, Akiha looks away in embarrassment.@
 `“I’m sorry, Brother.@ You had to see me behave so disgracefully.”@
-`“It wasn’t disgraceful.@ Everyone loses their composure when they’re ill, so you don’t need to torment yourself over it.”@
+`“It wasn’t disgraceful.@ Everyone loses their composure when they’re ill, so don’t torment yourself over it.”@
 ld c,"tachi/aki_t13a",crossfade,400
 `“If you say so, Brother, I suppose that helps a little.”@
 `Last night must still be weighing heavily on her; she can’t seem to settle.
@@ -41,15 +41,15 @@ ld c,"tachi/aki_t04a",crossfade,400
 `“Yes.@ Now that I’ve changed schools, my mornings are less hurried.@ I hope we can do this every day from now on.”@
 cl c,crossfade,400
 br
-`[line=3]Come to think of it, she’s right.@
-`Now that we attend the same school, all I have to do is wake ten minutes earlier and there will be plenty of time to eat breakfast with her.
+`[line=3]Come to think of it, she is right.@
+`Now that we attend the same school, all I have to do is get up ten minutes earlier and there will be plenty of time to eat breakfast with her.
 \
 bg #000000,tshutter,800
 !w1000
 bg "bg/bg_34a",bshutter,400
 `Breakfast over, I return to the sitting room.@
 `It is seven twenty.@ If we want an easy walk to school, we need to leave now.@
-`Apparently ready already, Akiha sits on the sofa watching the clock.@
+`Already prepared, Akiha sits on the sofa watching the clock.@
 br
 `Then again, Akiha has always traveled to school by car.@ Perhaps she intends to do the same here.
 \
@@ -82,7 +82,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 \
 `“What is it?@ See something odd?”@
 ld c,"tachi/aki_t16a",crossfade,400
-`“Oh[line=3]no, nothing.@ Yesterday I arrived before the other students, so this is my first time seeing the school like this.”@
+`“Oh[line=3]no, nothing.@ Yesterday I arrived before the other students, so this is my first time seeing everyone come to school like this.”@
 cl c,crossfade,400
 br
 `I see.@ She attended boarding schools from childhood, so the sight of a crowd of students arriving for the day is unfamiliar to her.
@@ -98,10 +98,10 @@ cl c,crossfade,400
 `Akiha lowers her face, suddenly awkward.
 \
 `“…?”@
-`I don’t really understand what she means.@
+`I do not really understand what she means.@
 `But standing frozen at the gate is drawing far too much attention.@
 `Every student who passes has been staring at Akiha, enough to make even me self-conscious.@
-`“Come on; let’s get inside.”@
+`“Come on—let’s get inside.”@
 `I take her hand and lead her through the gate.@
 bg "bg/bg_03a",lshutter,800
 `We head toward the entrance hall.@
@@ -131,7 +131,7 @@ ld c,"tachi/cel_t04",crossfade,400
 `“Oh, there’s no need for me to say anything now.@ You already look perfectly happy, Tohno.”@
 `“[line=3]What?”@
 ld c,"tachi/cel_t03",crossfade,400
-`“If you go to class wearing that expression, Inui will never let you hear the end of it.@ Well then, Tohno, I’ll come bother you again at lunch.”@
+`“If you go to class wearing that expression, Inui will never let you hear the end of it.@ Well then, Tohno, I’ll come and bother you again at lunch.”@
 cl a,lshutter,400
 `She walks toward the entrance, laughing softly to herself.
 \

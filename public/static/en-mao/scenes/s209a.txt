@@ -10,7 +10,7 @@ ld c,"tachi/cel_t01a",crossfade,400
 `“Yes—no one else will be here, and it’s a calming place.”@
 `“Sure, but—Ciel, isn’t it locked?”@
 `“It is.@ Ordinarily only members of the tea ceremony club may enter, so other students can’t use it.”@
-`As she speaks, Ciel produces a key from her pocket.
+`As she spoke, Ciel produced a key from her pocket.
 \
 `“Oh, so you’re in the tea ceremony club?”@
 ld c,"tachi/cel_t04",crossfade,400
@@ -24,7 +24,7 @@ bg "bg/bg_09a",lshutter,400
 \
 ld c,"tachi/cel_t01a",crossfade,400
 `“As I said, I’m the only member of the club.@ The advantage is that I can use this room whenever I please—after school, during breaks, any time at all.”@
-`Laughing, Ciel sets out a floor cushion for me.@
+`Laughing, Ciel set out a floor cushion for me.@
 `“I’ll make tea, so wait there, Tohno.”@
 cl a,lshutter,400
 `Ciel began preparing the tea by the sink.@
@@ -37,11 +37,11 @@ cl a,lshutter,400
 ld c,"tachi/cel_t01a",lshutter,400
 `“Thank you for waiting.@ Let’s have lunch.@ I actually wanted to ask you something, so eating here works out perfectly.”@
 `“Right.@ You wanted to ask me something?”@
-`Puzzled, I drink the tea she offers.@
-`Entering a Japanese-style room straightens my back by reflex and brings a hush over my mind.
+`Puzzled, I drank the tea she offered.@
+`Entering a Japanese-style room straightened my back by reflex and brought a hush over my mind.
 \
 `I had never participated myself, but the Arima family headed a school of tea ceremony.@ Perhaps growing up in that household was why I found rooms like this more restful than Western ones.@
-`Ciel was watching me with a vaguely troubled expression.
+`Ciel watched me with a vaguely troubled expression.
 \
 `“What is it, Ciel?@ You look a little troubled.”@
 ld c,"tachi/cel_t08",crossfade,400
@@ -60,12 +60,12 @@ ld c,"tachi/cel_t01a",crossfade,400
 `She smiles and admits that perhaps she is.
 \
 `“You said you’d moved into your own home.@ What did you mean by that?”@
-`she asked with open curiosity.@
+`Ciel asked with open curiosity.@
 `Given how little she knew, our conversation yesterday must indeed have sounded hopelessly fragmentary.
 \
-`“In short, I’m a boy who was disowned by his own family.@
-`Apparently, when I was nine, I was caught in a traffic accident and badly injured.@
-`The wounds themselves eventually healed, but afterward I kept collapsing from anemia and throwing up whatever I ate.@ So I was sent to recuperate with relatives of ours, the Arimas.”@
+`“[line=3]Well.@ In short, I’m a boy who was disowned by his family.@
+`Apparently I was caught in a traffic accident when I was nine and badly injured.@
+`The wound itself somehow healed, but afterward I kept fainting from anemia and throwing up whatever I ate, so they sent me to recuperate with relatives of ours, the Arimas.”@
 ld c,"tachi/cel_t08",crossfade,400
 `“Then the Arimas have effectively been your parents since you were nine?”
 \
@@ -84,19 +84,19 @@ ld c,"tachi/cel_t07a",crossfade,400
 `“Hm?@ If I can answer it, go ahead.”@
 `“Then I’ll ask.@ Did you dislike the family you lived with before?”@
 br
-`The family I had lived with before—she meant the Arimas, my foster parents.@
+`The family I had lived with before[line=3]the Arimas, my foster parents.@
 br
 `A father and mother who weren’t truly mine.@
 `An unfamiliar house that should have belonged to strangers.@
-`But none of that mattered—
+`But none of that mattered[line=3]
 \
 `“No, I loved them.@ They never cared in the slightest that we weren’t related; they were so warm that I felt ashamed whenever I brooded alone.@
 `And I didn’t think it was such a bad thing, being someone who could believe in that kind of unconditional love.”
 \
 br
 `[line=3]These people love me.@
-`So I have to hurry—as fast as I possibly
-`can—and become a real part of their family—
+`So I have to hurry, as fast as I possibly can,
+`and become a real part of their family[line=3]
 br
 `I had repeated those words to myself ever since I was small.@
 `Ever since a time so long ago it scarcely felt real.@
@@ -104,9 +104,9 @@ br
 \
 `“Arihiko was right: I never had a single complaint about life with the Arimas.@
 `They were good to me, and I think I returned their affection.@
-`Of course, we all understood that we were playing at being a family.@ But even that little performance was never painful.”@
+`Of course we both knew we were only playing at being a family, but even that pretense was never painful.”@
 `No—if anything, I had probably been happy.@
-`In a sense, the Arimas and I had the ideal parent-child relationship.
+`In one sense, at least.@ I think the Arimas and I had been an ideal family.
 \
 `“[line=3]But it still wasn’t enough.”@
 `“No.@ I could never cross that final line.@ I couldn’t shake the thought that I wasn’t really part of their family.@
@@ -122,22 +122,22 @@ ld c,"tachi/cel_t01a",crossfade,400
 `With that, Ciel began eating her lunch.
 \
 cl a,crossfade,400
-`Following her example, I take a bite from the bread I bought.@
-`Talking to Ciel seems to restore some of my appetite.@
-`Even so, I cannot finish half of it.
+`Following her example, I took a bite from the bread I had bought.@
+`Talking to Ciel seemed to restore some of my appetite.@
+`Even so, I could not finish half of it.
 \
 playstop
 !w1000
 ld c,"tachi/cel_t07a",crossfade,400
 `“So, Tohno.@ Is something troubling you?”@
-`“What?@ Where did that come from?@ Nothing’s troubling me.”@
+`“What[line=3]why ask me that?@ I’m not worried about anything.”@
 `“I see.@ Then you’ve simply lost your appetite because you’re ill.”@
-`Ciel stares intently at me.@
-`There is something deep in her gaze.@
-`With her looking at me like that, it is hard to keep quiet.
+`Ciel stared intently at me.@
+`There was something deep in her gaze.@
+`With her looking at me like that, it was hard to keep quiet.
 \
 `“Nothing is troubling me, but—what do you think about the recent attacks?”@
-`I cannot stop thinking about the classmate who did not return home last night, and the question slips out.
+`I could not stop thinking about the classmate who had not returned home the night before, and the question slipped out.
 \
 `“You mean that business with the so-called vampire?”@
 `“[line=3]Yeah.@ There have already been eight victims, right?@ I haven’t watched the news lately, so do you know much?”@
@@ -157,7 +157,7 @@ ld c,"tachi/cel_t04",crossfade,400
 \
 `“You mean the story that anyone bitten by a vampire becomes one too?”@
 `“Yes.@ In that case, no corpse would remain.@ If a vampire were responsible, there would be no bodies to discover.”@
-`“That makes sense, but vampire is only a nickname.@ You don’t actually believe they exist, do you?”
+`“[line=3]I see; that makes sense, but vampire is only a nickname.@ You don’t actually believe they exist, do you?”
 \
 ld c,"tachi/cel_t05",crossfade,400
 `“Of course not.@ If a body is left behind, then it wasn’t a vampire, was it?”@
@@ -168,7 +168,7 @@ ld c,"tachi/cel_t01a",crossfade,400
 `Some people can become one and some cannot.@ Those who can are never discovered as corpses after an attack, because they are still alive somewhere.@
 `Those who cannot simply die, and so they are found.”
 \
-`“No—that’s…”@
+`“No[line=5]that’s…”@
 `Ciel was still smiling.@
 `I knew that meant she was only joking, yet for some reason I couldn’t laugh it off.
 \
@@ -184,7 +184,7 @@ ld c,"tachi/cel_t04",crossfade,400
 ld c,"tachi/cel_t01a",crossfade,400
 `“Tohno.@ Jokes aside, the city is dangerous at night these days.@
 `However healthy a young man you may be, don’t go wandering around after dark.”@
-`Her warning is playful enough that I cannot tell how seriously she means it.
+`Her warning was playful enough that I could not tell how seriously she meant it.
 \
 bg #000000,crossfade,800
 playstop
@@ -229,12 +229,12 @@ bg "bg/bg_06a",notrans,0
 `“[line=4]”@
 `Perhaps it was because the memory of our parting was colored red.@
 `Without warning.@
-`An image of Satsuki Yumizuka drenched in scarlet blood rises behind my eyelids.
+`An image of Satsuki Yumizuka drenched in scarlet blood rose behind my eyelids.
 \
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_06a",crossfade,400
-`“Gh—”@
+`“Gh[line=5]”@
 br
 `It struck without warning.@
 `My vision slowly went white, and the world began to spin around me.@
@@ -247,11 +247,11 @@ br
 `The room pitched.@
 `Something congealed at the back of my skull, and consciousness grew leaden.
 \
-`“……@This is bad.”@
+`“Bad………………”@
 `I knew this feeling.@
-`Sudden dizziness meant I was about to faint.@
-`The blood pooled in the vessels of my brain seemed to clot into a black mass,
-`rocking my head and darkening everything I could see—as if darkness were being forced from my brain into my eyes.
+`Sudden dizziness was the warning before an anemic spell.@
+`Blood pooled in the vessels of my brain, clotted into a black mass, rocked my head, and blotted out everything I could see.@
+`It felt as though darkness were being forced from my brain into my eyes.
 \
 wave se_01
 bg #000000,crossfade,400
@@ -266,20 +266,20 @@ br
 br
 `Even that soon became useless.@
 `No strength remained in my fingers.@
-`All that was left was to topple toward the floor—
+`All that was left was to topple toward the floor[line=3]
 \
 `Amid it all, I remembered what she had said.@
 br
 `『Help me if I’m ever in trouble, Tohno』
 br
 `[line=3]So I can’t do what you asked.@
-`I’m not as capable as you think I am—
+`I’m not as capable as you think I am[line=4]
 \
 !w3000
 bg "bg/bg_10c",tshutter,800
 play "*1"
 !w1000
-`“Sorry.@ I made you wait around, Arihiko.”@
+`“[line=3]Sorry.@ I made you wait, Arihiko.”@
 ld c,"tachi/ari_t03",tshutter,800
 `“Yeah, yeah—I’m used to you dropping without warning.@ You take advantage of a guy waiting for you, sleep in the nurse’s office until the last possible minute, and expect royal treatment?”@
 `“Then you should’ve woken me.@ You didn’t have to wait until the school closed.”@
@@ -287,12 +287,12 @@ ld c,"tachi/ari_t03",tshutter,800
 cl a,tshutter,800
 `Arihiko started down the corridor.
 \
-`After I collapsed from anemia, I had apparently been put to bed in the nurse’s office.@
-`At six-thirty, when the school closed, Arihiko’s fist had awakened me.@
-`Now we were walking through the empty halls.@ “What are you doing?@
-`Hurry up, Tohno.”@
-`“Sorry, coming.”@
-`I shook my still-faintly swimming head and followed him.
+`After that.@
+`I had apparently collapsed from anemia and been put to bed in the nurse’s office.@
+`At six-thirty, when the school closed, Arihiko’s fist woke me, and now we were walking through the empty halls.@
+`“What are you doing?@ Hurry up, Tohno.”@
+`“[line=3]Sorry, coming.”@
+`I shook my still-swimming head and followed him.
 \
 bg #000000,lshutter,800
 bg "bg/bg_01c",lshutter,800
@@ -300,7 +300,7 @@ ld c,"tachi/ari_t04",crossfade,400
 `“All right, you can make it home alone from here.@ See you tomorrow.”@
 `“Thanks.@ Sorry I’m always putting you through this, Arihiko.”@
 ld c,"tachi/ari_t02",crossfade,400
-`“Forget it.@ You can success-pay me double later.”@
+`“Forget it.@ Pay me back double once you make it big.”@
 cl a,lshutter,800
 `Arihiko’s answer scarcely qualified as language.@
 `Smiling despite myself, I set off for home.
@@ -313,8 +313,8 @@ bg "bg/bg_24c",lcartain,800
 `The only person I could see was a woman walking far ahead.
 \
 `“Blond hair.”@
-`The distant woman appears to be foreign.@
-`Hair so golden I can distinguish it even from here sways with every step.@
+`The distant woman appeared to be foreign.@
+`Hair so golden I could distinguish it even from here swayed with every step.@
 playstop
 ld c,"tachi/ark_t22",crossfade,800
 br
@@ -333,7 +333,7 @@ wave se_01
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_24c",crossfade,400
-`“What—”@
+`“What[line=6]”@
 br
 `My heart suddenly slammed against my ribs.@
 `My throat dried for no reason.@
@@ -343,20 +343,20 @@ wave se_01
 bg "bg/ima_13",crossfade,400
 bg "bg/bg_24c",crossfade,400
 `“Ah[line=5]gh”@
-`Pain lances through my head.@
-`Unlike the anemia at noon, this pain sharpens consciousness instead of carrying it away.
+`Pain lanced through my head.@
+`Unlike the anemia at noon, this pain sharpened consciousness instead of carrying it away.
 \
 wave se_01
-`“H—ah.”@
+`“H[line=5]ah.”@
 `My breath rasped wildly in my throat.@
 ld c,"tachi/ark_t22",crossfade,800
-`That back.@
-`Merely looking at the golden-haired woman sent inexplicable pulses of pain through my skull.
+`That[line=3]back.@
+`Merely looking at the golden-haired woman made my skull[line=2]throb with inexplicable pain.
 \
 wave se_01
 `“Hah[line=3]hah, hah[line=4]”@
-`My thoughts dissolve into mist.@
-`I will follow that woman, and then[line=3]
+`My thoughts dissolved into mist.@
+`I was[line=3]going to follow that woman, and then[line=3]
 br
 `“And then…?”@
 `What in the world did I intend to do?@
@@ -365,22 +365,22 @@ cl a,lshutter,400
 \
 wave se_01
 `“I have to follow.”@
-`The conviction comes without the slightest reason.@
-`My feet begin carrying me toward the apartments.@
+`The conviction came without the slightest reason.@
+`My feet began carrying me toward the apartments.@
 br
-`But before I can.@
+`But before that.@
 br
 ld c,"tachi/stk_t10",lshutter,400
 cl a,lshutter,400
 `“[line=5]!”@
 `For a single instant.@
-`I catch sight of Satsuki Yumizuka at the edge of my vision.
+`I caught sight of Satsuki Yumizuka at the edge of my vision.
 \
-`“Yumizuka…?”@
+`“Yumizuka[line=5]?”@
 `The haze vanished from my mind.@
 `It had only been an instant, but that was unquestionably Yumizuka.@
 `Was she heading into the city?@
-`“What is she doing out at this hour…?”@
+`“What was she doing out at this hour…!?”@
 `My anger swept aside every thought of her being missing or having run away.@
 `A girl walking alone through the city at night was far too careless.
 \
@@ -389,17 +389,17 @@ bg "bg/bg_25b",lcartain,800
 `Yumizuka drifted unsteadily through the crowd.@
 `She was too far away to see clearly; I might have been mistaken.@
 `Even so, I ran to catch her and call her back.@
-`“Wait, Yumizuka!”@
+`“Wait, Yumizuka[line=3]!”@
 `I shouted as I chased her.@
 ld c,"tachi/stk_t10",lshutter,800
-`“—”@ Perhaps she heard me,
-`because Yumizuka glanced over her shoulder.
+`“[line=6]”@
+`Perhaps she heard me, because Yumizuka glanced over her shoulder.
 \
 bg #000000,crossfade,400
 bg "bg/bg_25b",crossfade,400
 `There was nothing remarkable about her face.@
 `The girl ahead was unquestionably Satsuki Yumizuka, and she wore no frightening expression.@
-`“—Ah.”@
+`“[line=4]Ah.”@
 `Yet a chill crawled through me.@
 br
 `[line=3]Thump.@
@@ -409,49 +409,49 @@ br
 `As when I saw the blond woman, pain clamped around my skull like a vise.
 \
 `“What is this—something’s wrong.”@
-`My whole body burns.@
-`I reel as though delirious with a vicious fever.@
+`My whole body burned.@
+`I reeled as though delirious with a vicious fever.@
 br
 `While I stood there, Yumizuka began walking again.
 \
 bg #000000,lshutter,800
 bg "bg/bg_26a",lshutter,800
 `“W-wait, Yumizuka[line=3]!”@
-`I call as I run.@
-`She never looks back, only continues her wavering walk.@
+`I called as I ran.@
+`She never looked back, only continued her wavering walk.@
 `“D-damn it, can’t you hear me, Yumizuka[line=3]!”@
-`I drive my feverish body onward.@
-`But no matter how hard I run, I cannot catch her.@
+`I drove my feverish body onward.@
+`But no matter how hard I ran, I could not catch her.@
 br
 `However fast I ran, I could not overtake a girl who was merely walking.
 \
-`“—”@ Something was wrong.@
+`“[line=6]”@
+`Something was wrong.@
 `I knew that much, but I couldn’t tell what.@
-`All I could do was keep chasing Satsuki Yumizuka without
-`the faintest idea what I would do if I caught her.@
+`All I could do was keep chasing Satsuki Yumizuka without the faintest idea what I would do if I caught her.@
 br
 bg #000000,notrans,0
 `[line=4]Then.@
 br
-`Yumizuka’s back suddenly vanishes.@
-`Until that moment I could not gain on her, but at least I could see Satsuki Yumizuka ahead; now she is nowhere.
+`Yumizuka’s back suddenly vanished.@
+`Until that moment I had been unable to gain on her, but at least I could see Satsuki Yumizuka ahead; now she was nowhere.
 \
 bg "bg/bg_26a",bshutter,800
-`“Damn it—what the hell is happening?”@
-`I stop and try to catch my breath.@
-`My chest heaves.@
-`I had not realized it until then, but I seem to have been running for an extraordinarily long time.@
+`“Damn it—what the hell was happening?”@
+`I stopped and tried to catch my breath.@
+`My chest heaved.@
+`I had not realized it until then, but I seemed to have been running for an extraordinarily long time.@
 br
-`“What time is it?”@
-`Hands braced on my knees, I look toward a shop window.@
-`The clock is approaching midnight.
+`“What time was it?”@
+`Hands braced on my knees, I looked toward a shop window.@
+`The clock read[line=3]almost midnight.
 \
-`“No way.@ Have I really been running that long?”@
+`“[line=4]No way.@ Had I really been running that long?”@
 `I felt nothing of the sort, but the clock could hardly be wrong.@
 `Looking around, I saw that most of the shops in the district had already closed.
 \
 `“[line=3]I should go home.”@
-`I am still worried about Yumizuka, but searching any longer seems hopeless.@
+`I was still worried about Yumizuka, but searching any longer seemed hopeless.@
 `What could she have been thinking, refusing even to turn around after I chased her and called to her for nearly four hours?@
 br
 `I drew one long breath and started back toward the mansion.

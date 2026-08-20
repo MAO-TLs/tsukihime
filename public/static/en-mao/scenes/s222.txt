@@ -3,8 +3,8 @@ play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
 ld c,"tachi/aki_t02",crossfade,400
-`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother.@ You must show some awareness of your position.”@
-`“[line=3]What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you’re worried about the family, find some suitable man to marry into it.”@
+`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother, and I need you to show a little more awareness of your position.”@
+`“[line=3]Hmph.@ What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you care about the family, find a suitable man to marry into it.”@
 ld c,"tachi/aki_t13a",crossfade,400
 `“[line=5]”@
 `What?@
@@ -19,19 +19,19 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“Attacked[line=3]oh, you mean those serial murders.”
 \
 `The serial murders with nine victims, if I remember correctly.@
-`Every corpse was drained of blood, prompting lurid talk of a modern-day vampire[line=2]
+`Every corpse had been drained of blood, prompting lurid talk of a modern-day vampire[line=2]
 `“Oh, you don’t need to worry about that.@ It won’t happen again.”@
 `“[line=4]What?”@
 `“I mean the vampire is gone.@ The killer has already been caught.”@
 `“Has he…?@ Brother, how could you possibly know that?”@
 `“I only happened to see it, but I’m certain there won’t be another murder like that.”@
 cl c,crossfade,400
-`Yes—at least no one else will die at Nrvnqsr’s hands.@
+`Yes, at least no one else will die at Nrvnqsr’s hands.@
 `Too much happened during those two days with Arcueid for me to say what was right and what was wrong.@
-`But that one fact[line=3]I can hold my head high and call it a good thing.
+`But that one fact[line=3]that, at least, is something I can hold my head high and call good.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Brother[line=3]?@ Why do you suddenly look so pleased?”@
+`“[line=3]Brother?@ Why do you suddenly look so pleased?”@
 `Akiha peers at me, puzzled.@
 `“It’s nothing.@ I’ve only just realized that it’s finally over.”@
 `Before I know it, I am smiling as I answer.
@@ -39,7 +39,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 bg #000000,lshutter,800
 bg "bg/bg_34a",lshutter,800
 `It is a little past seven.@
-`“Breakfast is ready, Master Shiki!”@
+`“Shiki, breakfast is ready!”@
 `Kohaku’s cheerful voice carries from the dining room.@
 `“I’m going to eat, then.@ You should be leaving soon too, Akiha.@ Don’t wait on my account.”@
 ld c,"tachi/aki_t09",crossfade,400
@@ -51,7 +51,7 @@ cl a,crossfade,400
 playstop
 bg #000000,crossfade,1500
 `I have no appetite whatsoever.@
-`Anyone would lose it if their white rice looked as though it had been sprinkled with red blood.@
+`Anyone would lose it if white rice looked as though it had been sprinkled with red blood.@
 `“[line=4]”@
 `I shake my head hard.@
 `It is an illusion, of course; the breakfast Kohaku prepared is as splendid as ever.@
@@ -66,7 +66,7 @@ play "*3"
 `“Did you forget something, Brother?”@
 `“No, it’s nothing.@ Just something minor.”@
 ld r,"tachi/koha_t01a",lshutter,400
-`“Master Shiki has no appetite this morning.@ He couldn’t keep his food down, so I had him take some medicine instead.”@
+`“Shiki has no appetite this morning.@ He brought the food back up when he tried to eat, so I had him take only his medicine.”@
 ld l,"tachi/aki_t13a",crossfade,400
 `“What[line=4]?”@
 `“It was only a vitamin supplement.@ I just had a bad dream this morning.@ I’ll feel better once I settle down, so I’ll eat at school.”@
@@ -99,14 +99,14 @@ bg "bg/bg_24a",lcartain,1500
 `I will probably never see her again.@
 `Her purpose seems to have been hunting vampires, and with Nrvnqsr gone, she has no reason to remain in this city.@
 br
-`[line=3]Still, something lingers in my chest.@
-`Regret, perhaps, or reluctance to let go.@
-`She brought me nothing but trouble, certainly, but I still enjoyed being with her.
+`[line=3]Something lingers in my chest.@
+`Regret, lingering attachment—things like that.@
+`She brought me nothing but trouble, but even so—well, being with her was fun.
 \
 `“…”@
 `I know there must be something wrong with me.@
 `After all that danger, some part of me is still trying to summon Arcueid’s face from memory.@
-`It is almost as if I have an unrequited crush on her.@
+`It is almost as if I have an unrequited love for her.@
 `Even though Shiki Tohno wants no part of anything so dangerous ever again.
 \
 bg "bg/bg_01a",lcartain,1500

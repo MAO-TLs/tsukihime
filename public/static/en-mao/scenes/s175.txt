@@ -12,7 +12,7 @@ ld c,"tachi/ark_t03",crossfade,400
 `“They’re not strange—I know next to nothing about you.@ It’s only natural that I’d want to learn a little more.”
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Oh, I suppose I understand that.@ All right, then—I don’t mind.”@
+`“Oh, I suppose I agree.@ [line=3]Yes, if that’s what you mean, I don’t mind.”@
 ld c,"tachi/ark_t03",crossfade,400
 `“But I don’t have hobbies or a past to talk about.@ I’ve never measured myself or kept records of my age or height the way you humans do.”@
 `“What kind of answer is that?@ Aren’t you curious about yourself?”
@@ -22,35 +22,35 @@ ld c,"tachi/ark_t01b",crossfade,400
 `“You must still have some story from before you came to this city.@ That’s the kind of thing I want to hear.”
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“Before I came here—that would be about eight years ago, I suppose.@
+`“Before I came here, about eight years ago, I suppose.@
 `I was in another country then, hunting a vampire.@
-`One had nested in a small French town and turned the whole place into a city of the dead.@ It took me about two days to find my ‘enemy’ and dispose of the female Dead Apostle who ruled the town, but—”@
+`One had nested in a small French town and turned the whole place into a city of the dead.@ It took me about two days to find my ‘enemy’ and dispose of the female Dead Apostle who ruled the town, but[line=3]”@
 cl c,crossfade,400
 `Perhaps she had remembered something unpleasant, for Arcueid frowned and broke off.
 \
 `“Eight years ago…@ What have you been doing between then and now?”@
 ld c,"tachi/ark_t01b",crossfade,400
 `“What else?@ I returned to the castle and slept.@ My purpose is to hunt Dead Apostles, so with no reason to exist apart from that, I naturally sleep until one begins acting openly again.”@
-`“What—”@
+`“What[line=5]”@
 `Did she mean she literally spent all that time asleep?@
-`More importantly—
+`More importantly[line=3]
 \
 `“Wait.@ When you say castle, you mean an actual castle, don’t you?@ You don’t seriously live in some fairy-tale palace like Cinderella Castle?”@
 ld c,"tachi/ark_t11",crossfade,400
 `“Cinderella Castle?”@
 `Arcueid tilted her head, plainly at a loss.
 \
-`“No—that was a bad comparison.@ What I mean is, are you a p-princess?”@
+`“Ah[line=3]no, that was a bad comparison.@ What I mean is, are you a p-princess?”@
 ld c,"tachi/ark_t03",crossfade,400
 `“Yes, apparently that’s what I am.@ Long ago, they wouldn’t even let me cut my hair, and they used to scold me and tell me to behave like royalty.”@
-`“……”@
+`“[line=8]”@
 `I had no words.@
 `Come to think of it, Nrvnqsr had called her a princess too.@
-`Even so—
+`Even so[line=3]
 \
 `“A princess.”@
 `I stole a glance at Arcueid.@
-`She was beautiful enough to stop your breath, certainly, but this unruly creature as a princess—the image didn’t fit at all.
+`She was beautiful enough to stop your breath, certainly, but the image of someone this unruly as a princess did not fit at all.
 \
 `“Well, the selfishness is certainly princess-like.”@
 `I heaved a long sigh.@
@@ -58,7 +58,7 @@ ld c,"tachi/ark_t16",crossfade,400
 `“What is that supposed to mean—you made me tell you, and now you’re treating me like this!”@
 `The princess glared at me, thoroughly offended.@
 cl c,crossfade,400
-`Arcueid didn’t seem to think of herself as a princess either, so it would be best for everyone if I forgot the whole thing.
+`Arcueid did not seem to think of herself as a princess either, so I decided to forget the whole thing completely.
 \
 bg #000000,lshutter,800
 bg "bg/bg_56",lshutter,800

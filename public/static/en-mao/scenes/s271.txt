@@ -11,7 +11,7 @@ br
 `That—I could not.@
 `I could never allow it.
 \
-`“Stop, you goddamn idiot…!”@
+`“[line=3]Stop, you goddamn idiot…!”@
 br
 bg #000000,lshutter,400
 bg "bg/bg_29b",lshutter,400
@@ -25,11 +25,11 @@ ld c,"tachi/ark_t13",lshutter,400
 \
 ld c,"tachi/ark_t12",crossfade,400
 `“Why?@ Why are you protecting her…!?”@
-`“I told you.@ Ciel matters to me.@ Even if it’s you—I won’t forgive you if you hurt her again.”@
+`“I told you.@ Ciel matters to me.@ Even if it’s you[line=3]I won’t forgive you if you hurt her again.”@
 `I closed my hand tightly around the knife in my pocket and glared at Arcueid.
 \
 ld c,"tachi/ark_t07",crossfade,400
-`“Shiki, you—”@
+`“Shiki, you[line=3]”@
 `Murder returned to Arcueid’s eyes.@
 `“Move.@ I’ll still forgive you if you move now.@
 `Hurry.@ Stop protecting her, and don’t point that knife at me.”@
@@ -40,23 +40,23 @@ waveloop se_02
 br
 `I swallowed.@
 `Instinct screamed that unless I moved now, something irreversible would happen.@
-`Even so—
+`Even so[line=3]
 \
 `“No.@ I won’t move until you promise you won’t hurt her.”@
 ld c,"tachi/ark_t05a",crossfade,400
-`“Move, Shiki!”@
+`“[line=3]Move, Shiki!”@
 `“You back down, Arcueid…!@ You told me you don’t kill humans.@
 `Or was that only a lie to put me at ease…?”
 \
 ld c,"tachi/ark_t05b",crossfade,400
-`“Yes.@ I do not kill humans.@
+`“[line=4]Yes.@ I do not kill humans.@
 `But I respect those who fall far outside human limits.@ I recognize them as equals, and I have no objection to killing an equal.@
 `People like you—or that woman behind you.”@
 br
 `One step.@
 `Arcueid advanced.
 \
-`“So—you’re pointing a knife at me again, Shiki.”@
+`“So[line=3]you’re pointing a knife at me again, Shiki.”@
 br
 `Another step.@
 `Arcueid approached without the slightest caution.
@@ -69,13 +69,13 @@ br
 \
 bg #9c0120,crossfade,400
 br
-`“Ah…”@
+`“[line=4]Ah.”@
 `Tension so absolute I thought my heart had stopped.@
 `A chill like my entire spine being ripped from my body.@
 `Despair beyond anything Nrvnqsr had inspired—the crushing sensation that everything in existence except me had turned its gaze upon me.@
 br
 `I could do nothing.@
-`So this was what it meant to make an enemy of Arcueid—
+`So this was[line=3]what it meant to make an enemy of Arcueid[line=3]
 \
 bg "bg/bg_29b",crossfade,400
 ld c,"tachi/ark_t23b",crossfade,400
@@ -86,38 +86,38 @@ br
 \
 `Arcueid was already close enough to kill me instantly.@
 `If her arm moved, it would sever my neck before my knife could reach her.@
-`Even so—this was wrong.
+`Even so[line=3]this was wrong.
 \
 wavestop
 `“Why?@ I don’t understand, Arcueid.@ Why do you become so cruel only when it comes to Ciel?@
 `Your sense of ordinary morality was missing a few pieces, sure, but you weren’t someone who talked so easily about killing people…!”@
 cl c,crossfade,800
-`“Shiki…”@
+`“Shiki[line=4]”@
 `Arcueid’s murderous intent ebbed.@
 `Unsteadily, she drifted back from Ciel and me.
 \
 ld c,"tachi/ark_t07",crossfade,400
 `“Fine.@ If you’re taking that woman’s side, then I’m done with you.”@
 cl c,lshutter,400
-`“Arcueid?”@
+`“Ah[line=3]Arcueid?”@
 `“You had better watch yourself, Shiki.@
 `That woman you protected is not the decent human being you think she is.”@
-`“What are you—what are you talking about?”
+`“What are you[line=3]what are you talking about?”
 \
 `“Hmph, go ahead and let her deceive you and suck your blood.@
 `Goodbye!@ And don’t come crying to me afterward, because I won’t listen!”@
 `Arcueid left the park without looking back.@
 `Only Ciel and I remained, Ciel wounded and crumpled on the ground.
 \
-`“What was she talking about—”@
+`“[line=4]What was she talking about[line=4]?”@
 `What a ridiculous thing to say.@
 `Ciel, drinking my blood…?@
 br
-`“What a stupid lie.”@
+`“[line=3]What a stupid lie.”@
 br
-`That would make it sound as though.@
+`That would be as good as saying.@
 br
-`“Ciel were some kind of vampire.”@
+`“[line=3]Ciel was some kind of vampire.”@
 `I murmured it—and despite myself, I laughed.
 \
 `There wasn’t one chance in ten thousand that it could be true.@
@@ -128,21 +128,21 @@ br
 `Besides, Ciel belonged to that organization called the Church.@
 `A vampire in an institution devoted to hunting vampires would be a contradiction.
 \
-`“Wait, forget that—Ciel!”@
+`“[line=3]Wait, forget that—Ciel!”@
 `I turned to check her condition.@
 `She had spilled enough blood to stain the ground, so if I didn’t take her to a hospital immediately—
 \
 play "*8"
 `“What?”@
 br
-`The blood was gone.@
+`The blood[line=3]was gone.@
 `The pool had been vast enough to dye Ciel’s black cassock scarlet, yet now it had vanished without a trace.
 \
 ld c,"tachi/cel_t07b",crossfade,400
-`“…”@
+`“[line=4]”@
 `Ciel was rising as though nothing had happened.@ All that remained before me was her unharmed body.
 \
-`“Ciel—how did…?”@
+`“Ciel[line=2]how did…?”@
 `“Tohno.@ Why did you protect me?@ You must have known she truly meant to kill you.”@
 `Ciel’s eyes held no emotion.@
 `My question meant nothing to her.@ Her eyes were as vacant as a doll’s, seeing neither it nor even my presence.
@@ -150,31 +150,31 @@ ld c,"tachi/cel_t07b",crossfade,400
 `“Why?@ Anyone would’ve protected you when you were about to be killed.”@
 `“Even at the cost of your own death?@ Tohno, devotion does not mean throwing away your life.@
 `To treat your own life as worthless in order to save another is neither devotion nor sacrifice, but mere self-love.@
-`Why must you always—why are you so—”@
+`Why must you always[line=3]why are you so[line=4]”@
 br
 `Ciel’s voice was stern.@
-`She was giving me a serious warning.
+`It was a stern warning, meant for me.
 \
 `“You did that merely to spare yourself regret, and now you are satisfied with yourself.@
 `To be perfectly honest, it is an intolerable nuisance.@
 `Your desire to live rightly may be admirable, but do not involve me in your selfish righteousness.”@
-`“What—what the hell is that supposed to mean?@ I just didn’t want you to die…!@
-`You call that a nuisance?@ Are you saying you would’ve preferred Arcueid to kill you!?”
+`“What[line=3]what the hell is that supposed to mean?@ I just didn’t want you to die…!@
+`You call that a nuisance?@ Are you saying you would’ve preferred Arcueid to kill you[line=3]!?”
 \
 `“Yes.@ It is my life, so you have no right to interfere with what I do with it.@
 `Surviving because a vampire took pity on me would be too humiliating.”@
-`“—!”@
+`“[line=5]!”@
 `Rage surged through me.@
 `Partly because she had rejected me after I protected her.@
-`But more than anything—
+`But more than anything[line=3]
 \
-`“Don’t give me that…!@ What do you think your life is worth, Ciel?@
+`“Don’t give me that…!@ Your own life[line=2]what do you think it means to you, Ciel?@
 `Listen to me: once you’re dead, that’s the end!@
 `No matter how horrible or humiliating it gets, you have to stay alive!@
 `If you aren’t alive—if you aren’t alive, there’s nothing.@
 `So what if it’s humiliating?@ That’s infinitely better than losing the ability to feel anything at all…!”
 \
-`“Of course.@ You are the person who nearly died once, eight years ago.@ That is why such a simple answer is enough to satisfy you.”@
+`“[line=3]Of course.@ You nearly died once, eight years ago.@ That is why[line=3]such a simple answer is enough to satisfy you.”@
 `Ciel’s eyes remained empty.@
 `She spoke with eyes that seemed unable to see me—or even herself.
 \
@@ -185,7 +185,7 @@ br
 `“What—why are you saying something like that too?”@
 `“Arcueid was right; I cannot properly be called human.@
 `You saw it yourself, didn’t you?@ All the blood I spilled vanished as though it had never existed.”@
-`“But that—”
+`“But that[line=4]”
 \
 `“It’s all right.@ I’m a monster.@
 `I am not one of the vampiric species, but neither do I possess an ordinary human body.”@
@@ -218,7 +218,7 @@ br
 `Beautiful.@
 `The flood of brilliant blood, enough to steal sight and thought, soaked slowly through her black cassock.@
 `Beneath that cassock.@
-`Across Ciel’s naked white body, the red must be tracing a lovely downward curve—
+`Across Ciel’s naked white body, the red must be tracing exquisite slopes[line=3]
 \
 monocro off
 bg "event/cel_e05a",notrans,0
@@ -242,11 +242,11 @@ br
 br
 br
 `[line=3]It was.@
-`An impossible interval of time—less like resurrection or healing than a literal rewinding.
+`A bizarre span of time—less like resurrection or healing than a literal rewinding.
 \
 `“…”@
 `I had no words.@
-`After witnessing that, I was not deranged enough to insist that Ciel was still perfectly normal.
+`After witnessing that[line=3]I was not deranged enough to insist that Ciel was still perfectly normal.
 \
 `“Yes, as you can see.@ If I could have, I would have kept this from you, Tohno.”@
 `Ciel smiled, but there was something lonely in it.@
@@ -258,14 +258,14 @@ br
 `I deceived you.@ I can hardly blame you for being angry.”@
 `“…”@
 `But I couldn’t condemn her.@
-`If it were up to me, something like this would have stayed hidden forever.@
+`Something like this[line=3]if it were up to me, I would have wanted her to keep it hidden forever.@
 `I wanted her to go on being the Ciel I knew.
 \
-`“But I don’t regret this morning.@
-`You told me you’d treasured the time we shared.@ You said that if you could, you wanted to preserve it.”@
-`“Ciel…”@
-`Because it had been.@
-`A time so peaceful I truly wished it could last forever.
+`But I don’t regret what happened this morning.@
+`You said the memories we shared had been happy ones and that you would have protected them if you could.@ That made me happy.@
+`“Ciel[line=3]”@
+`Because they had been.@
+`Days so peaceful I truly wished they could last forever.
 \
 br
 `“Goodbye.”@
@@ -274,7 +274,7 @@ br
 bg #000000,crossfade,800
 bg "bg/bg_29b",crossfade,800
 `With one last familiar smile, Ciel vanished from before my eyes.@
-`“…”@
+`“[line=6]”@
 `My thoughts churned into a shapeless mess.@
 br
 `I couldn’t go after her.@
@@ -301,13 +301,13 @@ br
 `I didn’t need to wonder what it meant.@
 `I had learned what she was and hurt her, yet she had still come to see me.@
 `But now even that was over.@
-`I never wanted to feel this certain—this utterly certain—that we would never meet again.
+`I never wanted to realize this so clearly[line=3]that we would never meet again.
 \
 wave se_01
-`“That can’t be true.”@
+`“[line=4]That can’t be true.”@
 `My mind refused to work.@
 `I was simply in shock.@
-`So profoundly shocked that I no longer knew what had shocked me.@
+`So shocked that I no longer knew what had shocked me.@
 br
 `With my memories wavering and my legs ready to buckle, I somehow left the park.
 \
@@ -360,16 +360,16 @@ bg "bg/cmo_05",crossfade,800
 br
 `A hot summer day.@
 br
-`Blue sky and enormous, enormous thunderheads.@
-`The landscape shimmering in the scorching air
-`The dizzying shriek of cicadas.@
+`A blue sky and enormous, enormous thunderheads.@
+`The landscape wavering in the scorching heat
+`The cry of cicadas loud enough to make you faint.@
 br
-`Cicadas.
+`The cicadas’ cry.
 \
 br
-`Reeee, ree-ree
-`Reeee, ree-ree
-`Reeee, ree-ree
+`Miiin, min-min
+`Miiin, min-min
+`Miiin, min-min
 br
 `[line=4]so loud I wanted to die.
 \
@@ -426,15 +426,15 @@ br
 `Beneath a moon clear as glass.@
 `There stood a solitary woman in white.
 \
-`She knew no language.@
-`She did not understand the meaning of her own existence.@
-`She was treated as nothing more than an instrument of slaughter.@
+`Knowing not even language.@
+`Understanding not even the meaning of her own existence.@
+`Treated as nothing more than an instrument of slaughter.@
 br
 `Though drenched in fresh blood, the white woman bore no wound.@
 `The scarlet soaking her dress belonged only to her enemies.
 \
 `The only time allowed her was this handful of hours after she returned steeped in blood.@
-`Beyond them waited nothing but a sleep from which she could never wake herself.@
+`Beyond them waited nothing but a sleep from which she could not wake by her own power.@
 `Unaware even of that fate, the white woman merely gazed up at the moon with distant eyes.
 \
 br
@@ -446,7 +446,7 @@ br
 `An illusion?@
 `Most likely.@
 `But it didn’t matter.@
-`The one truth was that her image had been burned forever into my eyes—
+`The one truth was that her image had burned itself forever into my retina[line=3]
 \
 playstop
 bg #ffffff,crossfade,1500
@@ -454,29 +454,29 @@ bg "bg/bg_40a",crossfade,1500
 play "*2"
 `I woke with the feeling that I had been dreaming of something long ago and dear to me.@
 br
-`“Ah—”@
+`“Ah[line=4]”@
 `My throat dragged in a huge breath as though I hadn’t been breathing at all.@
 `That snapped me fully awake.
 \
 `“…”@
 `I was in my room.@
-`Afterward—after Ciel said goodbye in the park—had I somehow made my way back here?
+`After that[line=3]after Ciel said goodbye to me in the park, had I somehow made my way back to this room?
 \
 bg "event/cel_e05b",crossfade,800
 bg "bg/bg_40a",crossfade,800
-`“Ciel—”@
+`“[line=3]Ciel[line=3]”@
 `I couldn’t forget her face.@
 `Why hadn’t I said anything
 `I had been drawn to Arcueid even after learning she was a vampire.@
-`So even if Ciel had been one too, there was no reason for me to recoil like that.@
+`So even if Ciel had been one too, there was no reason for me to have been so shocked.@
 br
 `If only I had laughed.@
 `If I had brushed it aside as though it were a joke, perhaps Ciel would have given me her usual smile.
 \
-`“No.@ I really did—”@
+`“No.@ I really did[line=3]”@
 `I wanted Ciel to remain the Ciel I knew.@
-`Those dull yet peaceful, happy hours with her at school mattered enormously to me.@
-`“Ngh…”@
+`Those dull yet peaceful, happy hours with her at school truly mattered to me.@
+`“Ngh[line=4]”@
 `But they were over.@
 `She would never come back to school as my upperclassman again.
 \
@@ -486,7 +486,7 @@ br
 `I had broken with Arcueid and fallen out with Ciel.@
 `No—there was little chance I would ever see Ciel again.
 \
-`“…”@
+`“[line=7]”@
 `I put on my glasses and sat up.@
 `It was a little after eight.@
 `Ordinarily I would have finished breakfast long ago, but school was closed today to mark the anniversary of its founding.@
@@ -504,9 +504,9 @@ bg "bg/bg_40a",crossfade,400
 `I didn’t know what I should do, but there were plenty of things I could do.@
 `If I was worried about Ciel, I could visit her apartment.
 \
-`“All right.@ Whatever happens, breakfast first.”@
+`“[line=2]Right.@ Whatever else happens, breakfast comes first.”@
 `You couldn’t get started until you’d eaten something.@
-`I hauled my newly awakened, sluggish mind and body toward the sitting room.
+`I forced my sleep-heavy body and brain into motion and headed for the sitting room.
 \
 bg #000000,lcartain,800
 bg "bg/bg_33a",lcartain,800
@@ -540,7 +540,7 @@ bg "bg/bg_33a",lcartain,800
 `Even if I meant to visit Ciel’s apartment, I should go upstairs and change first.@
 br
 quakey 1,100
-`“Ow—!”@
+`“Ow[line=4]!”@
 `I stubbed my toe on a chair with a clatter.@
 `“Oww—why is there a chair here?”@
 `Oh, right—it was the one Hisui had been moving.@
@@ -553,8 +553,8 @@ wave se_01
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_33a",notrans,0
-`[line=3]Still, what was Hisui thinking?@ There was no point putting a chair here.@
-`Who left a chair right in the middle of a walkway?@
+`[line=3]Still, Hisui was partly to blame.@ There was no reason to leave a chair here.@
+`What could she have been thinking, putting it right in the middle of the walkway?@
 br
 wave se_01
 bg #9c0120,notrans,0
@@ -569,12 +569,12 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_33a",notrans,0
 br
-`[line=3]A rotten omen.@
-`I was about to go see Ciel, so why did this have to get in my way now?@
+`[line=3]Now the whole thing felt ruined.@
+`I was about to go see Ciel—why did it have to get in my way now?@
 br
 `This chair was in the way.@
 `Why was it here?@
-`I wished it weren’t here.@ If it hadn’t been, I never would have tripped over it.
+`I wished it weren’t here.@ If it hadn’t been, I never would have tripped.
 \
 wave se_01
 bg #9c0120,notrans,0
@@ -588,8 +588,8 @@ br
 `Throb, throb.@
 `Throb, throb, throb.@
 br
-`“You—”@
-`What a loathsome thing, always in the way.
+`“[line=7]You.”@
+`What an infuriating thing.
 \
 wave se_01
 bg #9c0120,notrans,0
@@ -604,7 +604,7 @@ br
 ld c,"tachi/his_t08",notrans,0
 `“Master Shiki…!?”@
 wavestop
-`“Oh—Hisui.@ What are you doing there all of a sudden…?”@
+`“Oh[line=3]Hisui.@ What are you doing there all of a sudden…?”@
 `Even as I spoke, something startled me.@
 `My breathing was ragged.@
 `My lungs heaved and rasped.@
@@ -613,40 +613,40 @@ wavestop
 `“Why am I so out of breath?”@
 `I stood there panting.@
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki—what are you saying?”@
-`“What do you mean?@ What’s wrong, Hisui—you look terrified, did something happen?”@
+`“Master Shiki[line=3]what are you saying?”@
+`“What do you mean[line=3]Hisui, what’s wrong?@ You look so frightened; did something happen?”@
 `“Master Shiki, do you truly not know what you were doing?”@
-`“What I was doing—I wasn’t doing anything—”@
+`“As for what I was doing, I wasn’t doing anything[line=3]”@
 cl c,crossfade,400
 bg #9c0120,crossfade,400
 !w3000
 bg "bg/bg_33a",crossfade,400
 \
-`“Ngh—”@
+`“Ngh[line=3]”@
 `Another headache.@
 `I shook my head as though I could fling it away—and noticed what lay at my feet.@
 br
 `There it was.@
 `The wreckage of the chair, reduced beyond all recognition.
 \
-`“What?”@
+`“[line=6]What?”@
 br
 `Thump.@
 `My heart began to hammer.
 \
-`“Did I do this?”@
+`“[line=3]Did I[line=3]do this?”@
 ld c,"tachi/his_t01",crossfade,400
-`“Yes.@ Master Shiki lifted the chair and smashed it against the floor again and again.”@
-`“But—”
+`“[line=3]Yes.@ Master Shiki lifted the chair and smashed it against the floor again and again.”@
+`“Wha[line=5]”
 \
 `Why?@ Why would I do something like that?@
 `Yes, I had struck my foot against it and thought it hurt, but still.@
 br
-`why had something so trivial made me destroy it in a childish fit of petty rage…?
+`Why had something so trivial made me[line=3]made me smash things like a child surrendering to some petty rage?
 \
 ld c,"tachi/his_t04",crossfade,400
 `“Master Shiki, are you unwell?@ If you are ill, I can summon a doctor.”@
-`“No.@ It’s nothing.@ It’s nothing.@ I’m sorry, Hisui—I’m sorry; something is wrong with me.”@
+`“No.@ It’s nothing.@ It’s nothing.@ I’m sorry, Hisui[line=4]I’m sorry; something is wrong with me.”@
 br
 `I backed away from Hisui.@
 `Away from the broken chair my own hands had torn apart.
@@ -676,10 +676,10 @@ bg "bg/bg_40a",notrans,0
 br
 `Perhaps this pain had caused the senseless violence downstairs.@
 `Had seeing so much ‘death’ over the past several days broken something in my head?@
-`Whatever the cause, I had to calm down.@
+`Whatever the cause[line=3]I had to calm down now.@
 `As long as I kept my glasses on, the headache shouldn’t grow any worse.
 \
-`“What am I doing—I need to go see Ciel right away.”@
+`“What am I doing—I have to go see Ciel right away…”@
 br
 `But in this state, I would only hurt her again.@
 `I had to calm down.@
@@ -700,7 +700,7 @@ waveloop se_11
 br
 `Tick.@ Tick.@ Tick.@ Tick.@ Tick.@ Tick.@ Tick.@
 br
-`The clock.
+`The hands of the clock.
 \
 br
 `Tick.@ Tick.@ Tick.@ Tick.@ Tick.@ Tick.@ Tick.@
@@ -727,7 +727,7 @@ br
 `[line=3]It stopped.@
 `With a crash, the clock stopped.
 \
-`“It’s quiet now.”@
+`“[line=3]It’s quiet now.”@
 `Good.@
 `Now I could go see Ciel.
 \
@@ -768,7 +768,7 @@ bg "bg/bg_54a",crossfade,400
 `Whatever her purpose, she disappeared among the trees.
 \
 `“?”@
-`My curiosity piqued, I followed her a little way.@
+`My curiosity was piqued, so I followed her a little way.@
 br
 `[line=4]And then.@
 br
@@ -785,7 +785,7 @@ br
 `“Was that clearing always there—if it was, it would have made the perfect playground.”@
 `At least, I had no memory of ever playing with Akiha in a clearing in the woods.@
 br
-`[line=4]I don’t think there was.@
+`[line=4]I feel as though there wasn’t.@
 br
 `“…”@
 `After a moment’s hesitation, I stepped into the clearing.
@@ -795,7 +795,7 @@ bg "bg/bg_53",lcartain,800
 `There was nothing remarkable in the clearing.@
 `Hisui, who had entered ahead of me, was nowhere to be seen.
 \
-`“What—it’s only an empty lot.”@
+`“What[line=3]it’s only an empty lot.”@
 `I walked toward the center.@
 `The clearing really was nothing more than an ordinary vacant lot.@
 `A bare stretch of perfectly leveled earth
@@ -805,39 +805,39 @@ bg #ffffff,crossfade,400
 bg "bg/bg_53",crossfade,400
 waveloop se_02
 `The cries of cicadas.@
-`The fierce summer sunlight, hot enough to melt me—
+`The fierce summer sunlight, hot enough to melt me[line=6]
 \
 bg #ffffff,crossfade,400
 bg "bg/bg_53",crossfade,400
 `“What…?”@
-`Summer sunlight—?@
+`Summer sunlight[line=3]?@
 bg #ffffff,crossfade,400
 bg "bg/bg_53",crossfade,400
 br
 `“Ah[line=4]ow…”@
-`The wound in my chest hurt.@
-`As if / stabbed deep.@
+`The wound in my chest aches.@
+`As if / pierced deep.@
 `This pain / as if / a kitchen knife had been driven into my chest.
 \
 bg #ffffff,crossfade,800
 br
 `Reeee, ree-ree
 `Reeee, ree-ree
-`Reeee, ree-ree—
+`Reeee, ree-ree[line=5]
 br
-`[line=4]Somewhere, cicadas were screaming.@
+`[line=4]Somewhere, cicadas are singing.@
 br
-`Even though it was autumn now.@
+`Even though it is already autumn.@
 br
-`[line=4]Summer sunlight so white it seemed the world might melt.
+`[line=4]Summer sunlight so white it might melt everything away.
 \
 bg "bg/cmo_05",crossfade,800
-`Thunderheads in the distant sky.@
-`What I could see was the cry of an empty cicada shell.@
-`Cicada husks beneath my feet.@
-`A husk.@ Someone’s empty husk.@
+`Far away, thunderheads climb the sky.@
+`What I can see is the voice of an empty cicada shell.@
+`At my feet lies a cast-off husk.@
+`A husk.@ What someone left behind.@
 br
-`“…”@
+`“[line=4]”@
 br
 `[line=3]God, it grated on me.@
 `I had finally calmed down, and now everything was becoming intolerable again.
@@ -855,14 +855,14 @@ br
 !w750
 br
 `But what was the truth?@
-`Could Shiki Tohno really go on laughing with Ciel as he always had, even if she were a vampire—
+`Could Shiki Tohno really go on laughing with Ciel as he always had, even if she were a vampire[line=3]
 \
 bg "bg/cmo_06",crossfade,800
 br
-`The shadow of someone crouching there.@
-`The footsteps of a little girl drawing closer.@
-`Thunderheads in the distant sky.@ The blue sky of an empty cicada shell.@
-`And when I looked—
+`…@The shadow of someone huddled on the ground
+`A little girl’s footsteps drawing nearer.@
+`A thunderhead in the distant sky.@ The blue sky of a world left hollow.@
+`And when I realized—
 br
 `there was my body,
 `murdered by a thrust through the chest.
@@ -880,16 +880,16 @@ bg #ffffff,crossfade,1500
 bg "bg/bg_53",notrans,0
 wavestop
 play "*4"
-`“Ah—gh…”@
+`“Ah[line=4]gh…”@
 `My chest hurt.@
 `I felt sick.@
 `The wound had closed years ago, so why did it hurt this badly?
 \
 bg #9c0120,crossfade,800
 `My chest is broken.@
-`The old wound splits open, and a RED stain spills out.@
+`The old wound gapes, and a CRIMSON stain pours out.@
 br
-`[line=3]Oh.@
+`[line=3]How awful.@
 `My wound never healed at all.
 \
 br
@@ -911,38 +911,38 @@ br
 `My consciousness sank.@
 `The wound hurt.@
 br
-`I heard my body strike the ground with a dull thud.
+`I hear my own body strike the ground with a heavy thud.
 \
 !w3000
 playstop
 bg "bg/bg_40c",crossfade,1500
 play "*9"
 br
-`I could hear voices.@
+`I can hear voices.@
 br
 `“Miss Akiha, shouldn’t we call a doctor?”@
 `“Don’t be ridiculous, Hisui.@ We can’t call one—Brother’s wound isn’t an ordinary injury…!”
 \
 `……@akiha and hisui are talking
-`this is SHIKI’s room.@
+`this is shiki’s room.@
 `it seems i am asleep on the bed.@
 br
-`I tried to greet them and sit up, but my body refused to cooperate.@
-`My chest no longer hurt, yet the rest of me weighed as much as lead.@
-`Only my eyes and mouth seemed capable of moving properly.
+`I try to call out a greeting and sit up, but my body refuses to cooperate.@
+`My chest no longer hurts, yet the rest of me weighs as much as lead.@
+`Only my eyes and mouth seem capable of moving properly.
 \
 ld l,"tachi/aki_t10",crossfade,400
 `“What were you thinking, Hisui?@ You knew you were never supposed to let Shiki near that place…!”@
 ld r,"tachi/his_t05",crossfade,400
-`“I am terribly sorry.”@
+`“I am—so sorry”@
 ld l,"tachi/aki_t07",crossfade,400
-`“Sorry isn’t enough.@ You were assigned to my brother precisely to prevent this sort of thing, weren’t you?@ How could you forget that and let this happen…?”
+`“Sorry isn’t enough; you were assigned to my brother precisely to prevent this sort of thing, weren’t you?@ Did you forget that?@ What were you doing all day…!?”
 \
 `Akiha’s anger was raw in a way I had never seen before.@
 `Hisui merely stood with her head bowed, silent beneath the reprimand.
 \
-`I had no idea why the two of them had come to this.@
-`But I could at least tell that Hisui was being blamed because of me.
+`I don’t understand what brought them to this.@
+`But I can at least tell that Hisui is being blamed because of me.
 \
 ld l,"tachi/aki_t11a",crossfade,400
 `“Answer me, Hisui.@ Where were you, and what were you doing all day?”@
@@ -952,32 +952,32 @@ br
 `Akiha bit down on her lip and took one step toward her.@
 cl a,crossfade,400
 \
-`Even I could see that Akiha meant to strike her.@
-`Hisui must have known it too, yet she kept her head lowered and silently prepared to accept the blow.
+`…@Even I could plainly see that Akiha was about to strike her;
+`Hisui must have known as well, yet she kept her head bowed, silently prepared to accept it.
 \
-`“Wait, Akiha.”@
+`“[line=3]Hold on, Akiha.”@
 ld c,"tachi/aki_t15a",crossfade,400
-`“Brother—you’re awake!?”@
-`“Yeah—you were making so much noise you woke me up.”@
+`“Brother[line=2]you’re awake?”@
+`“Yeah, you were making so much noise you woke me up.”@
 `“Ah…”@
 ld c,"tachi/aki_t16a",crossfade,400
-`Akiha looked away, suddenly awkward.@
-`Hisui kept her head bowed and still wouldn’t look at me.
+`Akiha looked away in embarrassment.@
+`Hisui kept her head bowed and would not look at me at all.
 \
-`“Don’t take it out on Hisui.@ I don’t know the whole story, but this is about me collapsing, right?@ Then it isn’t her fault.@ I fell over all by myself.”@
+`“Don’t take it out on Hisui.@ I don’t know the whole story, but this is about me collapsing, right?@ Then it isn’t her fault.@ I just collapsed on my own.”@
 `With a grunt, I somehow managed to push myself upright in bed.@
 br
 `That alone left me unable to move so much as a finger.@
-`But with Hisui looking so crushed, I had to pretend I was fine, no matter how much it cost me.
+`But with Hisui looking so crushed, I had to pretend I was fine even if I had to force myself.
 \
-`“Honestly, don’t start fighting over me.@ You look so grown-up, but you’re still a kid after all.”@
+`“Honestly, don’t quarrel over someone like me.@ You may look grown-up now, but you’re still a child.”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“But you’ve been unconscious ever since then!@ You’ve never been comatose for more than ten hours before.@ If you had never woken up, what was I supposed to do…?”@
+`“But[line=4]you’ve been unconscious ever since then!@ You’ve never been comatose for more than ten hours before.@ If[line=3]you had never woken up, what was I supposed to do…?”@
 `“Don’t say something so ominous.@ This was only anemia.@ Wait—what?@ It’s already past ten at night?”@
 `“Yes.@ You’ve been unconscious since noon.”@
 `Akiha’s answer was subdued.
 \
-`“……”@
+`“[line=6]”@
 `All the strength drained from my body.@
 `Had I really been asleep here the entire time?@
 `I hadn’t even made it to Ciel’s apartment; I had done nothing but lie here in a stupor.
@@ -988,7 +988,7 @@ br
 `I stared vaguely at the ceiling and let those old memories surface.
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“You’ve only been back a week, Brother.@ All sorts of strain must have accumulated.”@ “Yeah.@ Today made that painfully clear.”@ “Exactly.@ So please stay in bed and rest tonight, Brother.@ Your health is more fragile than most people’s.@ Unless you occasionally spend a whole day doing nothing, you’ll exhaust yourself.”@
+`“You’ve only been back a week, Brother.@ All sorts of strain must have accumulated.”@ “[line=2]Yeah.@ Today made that painfully clear.”@ “Exactly.@ So please stay in bed and rest tonight, Brother.@ Your health is more fragile than most people’s.@ Unless you occasionally spend a whole day doing nothing, you’ll exhaust yourself.”@
 `Akiha held me with a grave, unwavering gaze.
 \
 `“……”@
@@ -1003,10 +1003,10 @@ ld c,"tachi/aki_t17a",crossfade,400
 `“You promise?@ You won’t sneak out of your room later?”@
 `“What’s that supposed to mean?@ Do you trust me that little?”@
 `Of course she didn’t.@
-`I had abandoned her and gone out often enough already.
+`I had left Akiha behind and gone out often enough already.
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“Hisui, go tell Kohaku that my brother has awakened.@ Brother, would you like dinner?”@
+`“Hisui, go tell Kohaku that Brother is awake.@ Brother, would you like dinner?”@
 `“Oh, right.@ No—tell Kohaku I’m sorry, but I don’t think I could eat.@ I’m going to sleep through the night.”@
 `“Understood.@ Hisui, please tell her that.”@
 `Still looking down, Hisui gave a small nod and left the room.
@@ -1016,13 +1016,13 @@ ld c,"tachi/aki_t12a",crossfade,400
 br
 `[line=3]But first.
 \
-`“Akiha.@ Was that place always in our garden?”@
+`“Akiha.@ Has that place always been in our garden?”@
 ld c,"tachi/aki_t01a",crossfade,400
 `“Yes.@ We often played there when we were children.”@
 `“I see.@ I barely remember it.”@
-`She was right.@ I truly had forgotten.
+`Ah.@ I truly had forgotten.
 \
-`“One other thing.@ This will sound strange, but when we were children, was there another child besides you and me?”@
+`“One other thing.@ This will sound strange, but when we were children, besides you and me[line=3]was there one other child?”@
 `“What?”@
 `Akiha tilted her head, plainly unable to guess what I meant.@
 `Of course.@ There could never have been such a child.@

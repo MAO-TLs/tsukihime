@@ -36,7 +36,7 @@ wait 100
 bg "bg/bg_50",notrans,0
 `Then the victim’s face appears.@
 br
-`The woman with the long hair is unmistakably the same woman I killed in my dream.
+`The woman with the long hair is unmistakably the same woman I remember killing in the dream.
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_50",crossfade,400
@@ -47,15 +47,15 @@ wavestop
 `“Why?”@
 `It was a dream.@ I know it was a dream.@
 `Yet the same person has been murdered in the same place, in exactly the same way.@
-`“…@But the vampire is gone.”@
+`“But the vampire is already gone.”@
 `I killed Yumizuka with my own hands.@
 `There should never have been another vampire murder.
 \
 `“I[line=4]killed her?”@
-`Yes, I killed her.@
-`Just as I drove the knife into Yumizuka with my own hand.@
+`Yes—I killed her.@
+`Just as I had stabbed Yumizuka with my own hand.@
 `Panting for breath, last night,
-`that woman I had never seen[line=7]
+`that unknown woman[line=7]
 \
 wave se_01
 bg #000000,notrans,0
@@ -81,7 +81,7 @@ bg "bg/bg_31a",crossfade,400
 `[line=3]I reach the place from my dream.@
 br
 `Several police officers stand nearby, and tape seals off the alley.@
-`“It’s the same.”@
+`“[line=7]It’s the same.”@
 `I came through this place in the dream.@
 br
 `[line=3]No—that wasn’t a dream.@
@@ -146,7 +146,7 @@ br
 br
 br
 `Night comes every day
-`Sooner or later, we’re bound to find the one we want[line=3]aren’t we?
+`Sooner or later, we’re bound to find the one we want—aren’t we?
 \
 textcolor #ffffff
 ld c,"tachi/aki_t01c",notrans,0
@@ -155,20 +155,20 @@ bg "bg/bg_40a",notrans,0
 wavestop
 `“Shut up[line=5]!”@
 `I wrench myself upright.@
-`“Hah[line=3]hah[line=3]hah”@
+`“Hah, hah, hah.”@
 `My breathing comes hard and fast.@
 br
 `Just now.@
 `I could have sworn I wanted Akiha.
 \
-`“Hah[line=3]hah”@
+`“Hah, hah.”@
 `I feel ready to vomit.@
-`I don’t want anything like that, not in the slightest, yet whenever I try to sleep, these twisted thoughts seep into my mind.@
+`I do not want anything like that, not in the slightest, yet whenever I try to sleep, twisted thoughts seep into my mind.@
 `It is as if some other, unknown self lives inside my head.
 \
 `“Ah.”@
 `Come to think of it, Akiha said something similar.@
-`She said Father suffered from severe mood swings and sometimes seemed like a completely different person.@ Isn’t that rather like what is happening to me now?@
-`Since Father and I are related, it would hardly be strange if I had inherited the same condition.@
+`She said Father had violent mood swings.@ At times he seemed like a completely different person[line=3]was that not rather like what is happening to me now?@
+`Father and I are related, so it would hardly be strange if I had inherited the same condition.@
 `“Father’s room is still just as he left it…”
 \

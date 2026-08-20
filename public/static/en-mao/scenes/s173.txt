@@ -6,16 +6,16 @@ bg "bg/bg_56",notrans,0
 \
 `“Then let me ask you something.@ Arcueid, two nights ago I was attacked by a very strange man.”@
 `“Huh?@ What kind of man?”@
-`“Well…”@
+`“Well, that’s[line=4]”@
 `I steadied myself and described what had happened that night in as much detail as I could.
 \
 bg #000000,lshutter,800
 bg "bg/bg_56",lshutter,800
 play "*9"
-`“And that’s what happened.”@
+`“And that’s what happened[line=5]”@
 `When I finished, I studied Arcueid’s face for a reaction.@
 ld c,"tachi/ark_t07",crossfade,400
-`From the moment I began, her eyes had stayed sharp and never once softened.
+`Her eyes had remained sharp from the moment I began and had never once softened.
 \
 `“Well, Arcueid?@ Are the bandaged man and the one dressed like a priest enemies of yours?”@
 `“Yes.@ They’re both my ‘enemies.@’ I don’t know who the bandaged man was, but I have a good idea who the woman in the cassock might be.”@
@@ -31,15 +31,15 @@ ld c,"tachi/ark_t07",crossfade,400
 `Even when she spoke of Nrvnqsr, I had never seen her display this much emotion.
 \
 `“Arcueid.@ Was the person who saved me a vampire too…?”@
-`“No—not exactly, but there is one more important thing I haven’t told you, Shiki.”
+`“No, not exactly, but[line=3]let’s see, there is one more important thing I haven’t told you, Shiki.”
 \
 ld c,"tachi/ark_t03",crossfade,400
 `“I think I explained this before, but vampires like the one nesting in this city—vampires who make humans their servants and expand their territory—take enormous pains to conceal their existence.@
 `Even when they claim victims, they use all kinds of magecraft to keep the people around them from noticing anything wrong.@
 `Do you know why?”
 \
-`“Humans aren’t stupid.@ If they discovered a monster like that living among them, they’d fight back.@ Humans may be weak, but with the police and everything, we might be able to deal with it ourselves.”@
-`“That is part of it, I suppose, but the police are an institution of human law.@ Creatures like us don’t take them into account.@
+`“Humans are not stupid.@ If they discovered a monster like that living among them, they would fight back.@ Humans may be weak, but with the police and everything, we might be able to deal with it ourselves.”@
+`“[line=3]That is part of it, I suppose, but the police are an institution of human law.@ Creatures like us do not take them into account.@
 `Still, you are right that vampires erase their traces to protect themselves.”
 \
 ld c,"tachi/ark_t06",crossfade,400
@@ -55,9 +55,9 @@ br
 \
 ld c,"tachi/ark_t16",crossfade,400
 `“What are you talking about?@ Their natural enemy is humanity.”@
-`“What?@ We are the natural enemy?”@
-`“Yes.@ Long ago, humans built organizations upon magecraft, mysticism, and ceremonial rites, then began exterminating every primate that wasn’t human.@
-`The foremost example is Christianity—the exorcist order of which the Holy See is so proud.@ The Catholic Church has always ruthlessly purged ‘things that are not human,’ but even by those standards, its hatred of vampires is deranged.”
+`“[line=4]?@ You mean us?”@
+`“Yes.@ Long ago, humans built organizations upon magecraft, mysticism, and ceremonial rites, then began exterminating every primate that was not human.@
+`Foremost among them is Christianity[line=3]the Holy See’s vaunted order of exorcists.@ The Catholic Church has always ruthlessly purged ‘things that are not human,’ but even by those standards, its hatred of vampires is deranged.”
 \
 ld c,"tachi/ark_t07",crossfade,400
 `“There isn’t a religion anywhere in the world more hostile to vampires than Catholicism.@
@@ -71,15 +71,15 @@ ld c,"tachi/ark_t07",crossfade,400
 `The image fit so perfectly that I had nothing to say.
 \
 `“But doesn’t that make them allies?@ If the Burial Agency hunts vampires too, we might be able to search together.”@
-`“Absolutely not.@ To them, any vampire will do.@
+`“[line=3]Absolutely not.@ To them, any vampire will do.@
 `Every nonhuman primate is ‘evil’ simply for being nonhuman.@ Whether it drinks human blood is irrelevant.@
 `That exorcist may have come not for the vampire nesting in this city, but to seal me.”
 \
 `“……”@
 `This was becoming hopelessly complicated.@
-`Arcueid’s target was hunted by fellow vampires and by people who hated all vampires.@
+`Arcueid’s enemy was hunted by his fellow vampires and by the people who hated vampires.@
 `“What?@ That leaves you completely alone.”@
-`“Yes—that’s what it means to belong to the vampiric species.@
+`“Yes—that is what it means to belong to the vampiric species.@
 `I told you when we faced Nrvnqsr: even members of the same kind differ so radically in nature that every vampire is alone in the end.”@
 cl c,crossfade,400
 `Arcueid took another bite of her hamburger.

@@ -5,7 +5,7 @@ bg "bg/bg_11a",bshutter,800
 `I go up to the fourth floor.@
 `Akiha is in Class 1-1.@ I stop a girl in the hall and ask her to call Akiha out.@
 `“Tohno, your brother is here!”@
-`By chance, I chose a girl with a wonderfully direct approach.
+`By chance, the girl I stop uses the most direct method imaginable to call her.
 \
 ld c,"tachi/aki_t21",lshutter,400
 `“Did you want something, Brother?”@
@@ -33,8 +33,8 @@ ld c,"tachi/aki_t16a",crossfade,400
 bg #000000,lshutter,400
 `“[line=3]Wait, Brother!”@
 br
-`Akiha called after me, but by then I was too embarrassed to stop or even look back.@
-`I ran all the way to my own classroom.
+`Akiha calls after me, but by then I am too embarrassed to stop or even look back.@
+`I run all the way to my own classroom.
 \
 !w1000
 play "*3"
@@ -50,8 +50,8 @@ ld c,"tachi/ari_t01",lshutter,400
 \
 bg #000000,lcartain,800
 bg "bg/bg_04",lcartain,800
-`Akiha had not arrived yet.@
-`Since Ciel would be joining us anyway, we decided to claim a patch of lawn instead of a bench.
+`Akiha has not arrived yet.@
+`Since Ciel will be joining us anyway, we decide to claim a patch of lawn instead of a bench.
 \
 bg #000000,tshutter,400
 bg "bg/bg_04",bshutter,400
@@ -60,19 +60,19 @@ ld l,"tachi/cel_t03",lshutter,800
 ld r,"tachi/ari_t01",crossfade,400
 `“Yeah, she ought to be here any minute[line=3]hey, Tohno, did something happen between you and Akiha?”@
 cl a,crossfade,400
-`Arihiko drove an elbow into my ribs.@
-`Why did his intuition only work at the most useless times?@
+`Arihiko drives an elbow into my ribs.@
+`Why does his intuition only work at the most useless times?@
 `“There she is.@ Akiha, over here!”@
-`He waved both arms wildly.@
-`Looking uncertain, Akiha crossed the lawn toward us.
+`He waves both arms wildly.@
+`Looking uncertain, Akiha crosses the lawn toward us.
 \
 ld l,"tachi/aki_t12a",lshutter,800
 `“I’m sorry I’m late.@ Some girls in my class invited me to eat with them, and it took a while to decline.”@
 ld r,"tachi/ari_t01",crossfade,400
 `“No problem, we only just arrived.@ Come sit here.”@
 cl a,crossfade,400
-`Arihiko slapped the grass beside him.@
-`After a moment’s hesitation, Akiha sat down next to me.
+`Arihiko slaps the grass beside him.@
+`After a moment’s hesitation, Akiha sits down next to me.
 \
 ld c,"tachi/aki_t16a",crossfade,400
 `“………………….”@

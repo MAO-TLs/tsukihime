@@ -3,38 +3,38 @@ playstop
 wavestop
 bg "bg/bg_32b",lcartain,800
 play "*1"
-`At the top of the hill, I follow the road around the mansion.@
-`When I finally reach the main gate, I see Hisui standing there alone.@
+`At the top of the hill, I walk around the mansion.@
+`After a while I reach the main gate, where Hisui stands alone.@
 br
-`“What is Hisui doing?”@
-`Puzzled, I approach the gate.@
-`She notices me and bows.
+`“What?@ What is Hisui doing?”@
+`Tilting my head, I approach the gate.@
+`Hisui notices me and bows.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“Welcome home, Master Shiki.”@
 `“[line=3]Ah, right[line=3]I’m home, Hisui.”@
-`Her ceremonious greeting flusters me, but I manage an answer.@
-`“Um[line=3]were you waiting here for me to come back?”@
-`“Yes.@ It is a servant’s duty to welcome home the master of the house.”@
-`Hisui says it as though it were obvious, without so much as raising an eyebrow.
+`Her reverent welcome flusters me, but I somehow answer.@
+`“Um[line=3]were you waiting here for me to come home?”@
+`“Yes.@ It is a servant’s duty to welcome home the master.”@
+`Hisui says it as a matter of course, without moving an eyebrow.
 \
-`“Listen, Hisui.@ I’m honestly glad you want to welcome me home, but you don’t have to wait outside.@
-`I’ll come back on my own.@ Just say something whenever you happen to notice I’m here.”@
+`“Listen, Hisui.@ I’m honestly glad to be welcomed, but you don’t need to wait outside.@
+`I’ll come home on my own; just call out whenever you happen to notice I’m back.”@
 ld c,"tachi/his_t05",crossfade,400
 `“[line=5]”@
-`A faint shadow crosses Hisui’s face.@
+`Hisui’s face clouds slightly.@
 `Maybe.@
-`She may have waited here like this all through Saturday and Sunday too.
+`Perhaps she stood here waiting all through Saturday and Sunday too.
 \
 `“[line=2]Hisui, listen[line=2]”@
 ld c,"tachi/his_t01",crossfade,400
 `“Understood.@ Beginning tomorrow, I shall await Master Shiki’s return in the foyer.”@
-`Hisui bows and opens the gate.@
+`Hisui bows and opens the mansion gate.@
 `With one hand still on it, she turns her back to me.
 \
-`“……@Haaah.”@
-`She does not seem inclined to talk.@
-`Once I pass through, Hisui closes the gate, walks to the front door, and silently opens it before leading me into the foyer.
+`“Haaah.”@
+`She hardly seems in the mood to talk.@
+`After I pass through, Hisui closes the gate, walks to the front door, opens it without a word, and leads me to the foyer.
 \
 bg #000000,lcartain,800
 bg "bg/bg_40b",lcartain,800
@@ -42,19 +42,19 @@ bg "bg/bg_40b",lcartain,800
 `Akiha is still at her lessons, Kohaku is preparing dinner, and Hisui has the mansion to clean.@
 br
 `“[line=3]Damn, I have nothing to do.”@
-`No, I’m a student; I have plenty I should be doing—studying, reviewing, memorizing.@
-`I just do not feel like doing any of it.
+`No, I am a student; there is plenty I have to do—study, review, memorize.@
+`I simply feel like doing absolutely none of it.
 \
-`Arcueid’s face flits through my mind.@
-`Maybe this is the letdown after two frantic days, for better or worse.@
-`For a while, doing nothing at all seems more restful than trying to occupy myself.
+`Arcueid’s face flickers across my mind.@
+`Perhaps it is the aftermath of two hectic days, for better or worse.@
+`For a while, I feel that simply sitting there in a daze would be more restful than doing anything at all.
 \
 bg #000000,crossfade,800
 !w1500
 bg "bg/bg_40c",crossfade,800
-`After eating alone in the cavernous dining room, I have Kohaku tend my wounds and return to my room.@
-`Akiha still has not come home.@ Apparently her lesson ran late, so she decided to eat out.@
-`It is well past ten.@
-`A little early, perhaps, but I am exhausted, so I think I will turn in for the night[line=3]
+`After finishing dinner alone in the cavernous dining room, I have Kohaku tend my wounds and return to my room.@
+`Akiha has not returned even by dinner.@ Apparently her lesson ran late, so she will eat out.@
+`The clock is well past ten.@
+`It is a little early, but my body is tired; tonight, I will go to sleep early[line=3]
 \
 playstop

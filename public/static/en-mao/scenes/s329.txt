@@ -31,7 +31,7 @@ cl a,crossfade,400
 `Munch, munch.@
 `Munch, munch, munch.@
 br
-`“…”@
+`“[line=5]”@
 `Now that lunch is over, I should head back to class.
 \
 ld c,"tachi/aki_t13a",crossfade,400
@@ -44,15 +44,15 @@ ld c,"tachi/aki_t13a",crossfade,400
 br
 `“Could you show me how to eat it?”@
 br
-`“…”@
+`“[line=6]”@
 `She gazes up at me, shy and fidgeting.@
-`Faced with that[line=3]what else can I do?
+`And with her looking at me like that[line=3]well, I.
 \
 cl a,crossfade,400
 ld c,"tachi/ari_t01",crossfade,400
 `“What do you mean, show you how to eat?@ You just open the wrapper and eat it.@ There’s nothing hard about that.@ Right, Tohno?”@
 `“Arihiko, could you run to the cafeteria and bring us some napkins or something?”@
-`“What?@ Me?”@
+`“[line=3]What?@ Me?”@
 `I answer with a silent nod.@
 ld c,"tachi/ari_t03",crossfade,400
 `“Fine, but you owe me.”@
@@ -61,13 +61,13 @@ cl a,lshutter,400
 \
 `“Here, give it to me.@ You tear the wrapper open here, like this, then just bite into it.@ Don’t expect too much from the taste.@ It’s worlds apart from Kohaku’s cooking.”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Um—Brother, are you serious?”@
+`“Um[line=3]Brother, are you serious?”@
 `“I wouldn’t lie to you.@ Or is that it?@ After transferring here, are you going to tell me you’re too refined to eat anything from our school shop?@
 `I’d hate to lose all respect for you, Akiha.”
 \
 ld c,"tachi/aki_t17a",crossfade,400
 `“No, it isn’t that, but this bread is enormous—surely I can’t eat it in one bite…?”@
-`“Nobody told you to swallow it whole.@ You take little bites.@ It’ll make a mess around your mouth, but Arihiko is bringing napkins, so you can wipe it off.”@
+`“Nobody told you to eat it in one bite.@ You take little bites.@ It’ll make a mess around your mouth, but Arihiko is bringing napkins, so you can wipe it off.”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“All right.@ Thank you, Brother.”@
 cl a,crossfade,400
@@ -135,5 +135,5 @@ bg #000000,lcartain,800
 !w1000
 bg "bg/bg_06b",rcartain,800
 `At last, that eventful day came to an end.@
-`Now, what should I do—
+`Now, what should I do[line=3]
 \

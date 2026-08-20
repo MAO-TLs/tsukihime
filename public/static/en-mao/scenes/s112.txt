@@ -3,8 +3,8 @@ play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
 ld c,"tachi/aki_t01a",crossfade,400
-`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother.@ You must show some awareness of your position.”@
-`“[line=3]What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you’re worried about the family, find some suitable man to marry into it.”@
+`“Very well.@ I won’t question you any further about this.@ But please refrain from doing anything like it again.@ You are the eldest son of the Tohno family, Brother, and I need you to show a little more awareness of your position.”@
+`“[line=3]Hmph.@ What does that have to do with anything?@ You’re already the Tohno heir, so what I do shouldn’t matter.@ If you care about the family, find a suitable man to marry into it.”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“[line=5]”@
 `What?@
@@ -21,7 +21,7 @@ ld c,"tachi/aki_t06",crossfade,400
 `“Attacked[line=3]oh, you mean those serial murders.”@
 br
 `The serial murders with nine victims, if I remember correctly.@
-`Every corpse was drained of blood, prompting lurid talk of a modern-day vampire—
+`Every corpse had been drained of blood, prompting lurid talk of a modern-day vampire[line=2]
 \
 `“Oh, you don’t need to worry about that.@ It won’t happen again.”@
 ld c,"tachi/aki_t01a",crossfade,400
@@ -31,12 +31,12 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“I only happened to see it, but I’m certain there won’t be another murder like that.”@
 cl c,crossfade,400
 \
-`Yes—at least no one else will die at Nrvnqsr’s hands.@
+`Yes, at least no one else will die at Nrvnqsr’s hands.@
 `Too much happened during those two days with Arcueid for me to say what was right and what was wrong.@
-`But that one fact[line=3]I can hold my head high and call it a good thing.
+`But that one fact[line=3]that, at least, is something I can hold my head high and call good.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Brother?@ Why do you suddenly look so pleased?”@
+`“[line=3]Brother?@ Why do you suddenly look so pleased?”@
 `Akiha peers at me, puzzled.@
 `“It’s nothing.@ I’ve only just realized that it’s finally over.”@
 `Before I know it, I am smiling as I answer.
@@ -71,13 +71,13 @@ bg "bg/bg_24a",lcartain,400
 `I will probably never see her again.@
 `Her purpose seems to have been hunting vampires, and with Nrvnqsr gone, she has no reason to remain in this city.@
 br
-`[line=3]Still, something lingers in my chest.@
+`[line=3]Something lingers in my chest.@
 br
-`Regret, perhaps, or reluctance to let go.@
-`She brought me nothing but trouble, certainly, but I still enjoyed being with her.
+`Regret, lingering attachment—things like that.@
+`She brought me nothing but trouble, but even so—well, being with her was fun.
 \
 `“What am I, an idiot?”@
-`She nearly got me killed, and I’m standing here feeling wistful?@
+`She nearly got me killed, and I am standing here feeling wistful?@
 `Last night’s wounds still gnaw at my body.@
 `Remember how close you came to being fed to Nrvnqsr’s beasts.@ Shiki Tohno wants no part of anything like that ever again.@
 wave se_03
@@ -92,10 +92,10 @@ bg "bg/bg_06a",lcartain,800
 `I rush into the classroom.@
 `Homeroom is still five minutes away, and the room remains full of noise.@
 br
-`“Whew.”@
+`“[line=3]Whew.”@
 `I catch my breath and head for my desk.@
 `At this rate, I probably never needed to run.@
-`“Well, look who finally decided to show up.”@
+`“Hey, skipper.”@
 `“…”@
 `A familiar and thoroughly unwelcome voice calls from behind me.
 \
@@ -113,8 +113,8 @@ ld c,"tachi/ari_t01",crossfade,800
 `“Huh.@ First Yumizuka, now you—both of you have been acting up lately.”@
 `“[line=2]I won’t deny that, but did something happen to Yumizuka?”
 \
-`“Hm?@ Oh, she’s been absent for days.@ Maybe playing model student for so long finally left her one tile from a breakdown.@ But I bet she already discarded her winning tile, so now she can’t go out.”@
-`“…”@
+`“Hm?@ Oh, she’s been absent for days.@ Maybe playing model student for so long finally left her one tile from a breakdown.@ But I bet she discarded the tile she needs, so now she’s stuck in furiten and can’t go out.”@
+`“……………”@
 `Arihiko’s metaphors occupy a world entirely their own.
 \
 wave se_03
@@ -141,7 +141,7 @@ ld c,"tachi/cel_t07a",crossfade,400
 `Without warning, Ciel studies my face in deadly earnest.@
 cl c,lshutter,800
 br
-`Whatever has come over her, she moves in until her body is pressed close against mine.
+`Whatever has come over her, Ciel moves in until she is pressed close against me.
 \
 `“W-wait[line=2]Ciel?”@
 `Her body is right there.@
@@ -150,7 +150,7 @@ br
 ld c,"tachi/cel_t07a",crossfade,400
 `“[line=5]”@
 `Ciel says nothing.@
-`She merely nestles close[line=3]and starts sniffing me.
+`She merely presses close[line=3]and starts sniffing me.
 \
 `“[line=4]What?”@
 `What on earth is she doing?@
@@ -161,12 +161,12 @@ ld c,"tachi/cel_t07a",lshutter,400
 `“Did something happen to you, Tohno?”@
 `She asks with absolute seriousness.@
 `I have no idea what she means.@
-`“Something[line=3]like what?”@
+`“Something—like what?”@
 ld c,"tachi/cel_t08",crossfade,400
 `“I don’t know.@ That’s why I’m asking.”@
 `She peers up at me and somehow looks almost angry.
 \
-`“Nothing happened—I’m the same as always.@ Why—do I seem strange today?”@
+`“Nothing[line=2]I’m the same as always.@ Why, do I seem strange today?”@
 ld c,"tachi/cel_t09",crossfade,400
 `“I can’t explain it either.@ It was only a feeling, so perhaps I imagined it.”@
 `“…?”@

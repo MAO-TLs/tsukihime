@@ -14,7 +14,7 @@ ld c,"tachi/aki_t04b",crossfade,400
 `“Then take a seat.@ Will black tea do?”@
 `“Anything is fine, as long as it tastes good.”@
 `I would have preferred green tea, but kept that selfish thought to myself.@
-`Akiha lifted the pot and filled the other cup with clear, ruby-colored tea.
+`Akiha lifted the pot and poured clear, ruby-red tea into the other cup.
 \
 `“Thanks.”@
 `I sat on the sofa and raised the cup to my lips.@
@@ -24,12 +24,12 @@ ld c,"tachi/aki_t04b",crossfade,400
 ld c,"tachi/aki_t01b",crossfade,400
 `“Brother?@ Why have you gone silent?@ I thought you wanted to talk.”@
 `Akiha watched me steadily.@
-`She seemed less like my little sister than a well-bred stranger, and the air around her discouraged anything casual.
+`She looked less like my little sister than some young lady I had never met, and not at all like someone I could speak to casually.
 \
 `“I was wondering what you’ve been doing for the past eight years.”@
 ld c,"tachi/aki_t03b",crossfade,400
-`“Surely that requires no explanation.@ Once you were gone, Father’s attention had only one remaining target: me.”@
-`Akiha shot me a look loaded with reproach.@
+`“Surely that goes without saying.@ Once you were gone, Father simply focused all his attention on me.”@
+`Akiha shot me a look that all but voiced the complaint.@
 `Apparently asking about those eight years was taboo after all.
 \
 ld c,"tachi/aki_t18b",crossfade,400
@@ -81,7 +81,7 @@ br
 \
 `“I know it is late to say this after eight years of silence, but I never stopped wondering whether you were all right here alone.@
 `I came back because I was worried about you.”@
-`I looked away from Akiha and put the feeling into honest words.
+`I looked slightly away from Akiha and admitted how I truly felt.
 \
 ld c,"tachi/aki_t16b",crossfade,400
 `“Ah—yes, um—thank—”@
@@ -91,14 +91,14 @@ br
 `I remembered only the meek Akiha of childhood, so the composed young woman before me seemed like someone else entirely, enough to leave me flustered.
 \
 ld c,"tachi/aki_t01b",crossfade,400
-`“[line=3]I see; please forgive your useless little sister for failing to meet your expectations.”@ The look in Akiha’s eyes was frightening.@
-`Damn…@
-`I had said too much again.
+`“[line=3]I see.@ Forgive your useless little sister for failing to live up to your expectations.”@
+`The look in Akiha’s eyes was frightening.@
+`Damn—I had put my foot in it again.
 \
 ld c,"tachi/aki_t03b",crossfade,400
 `“And you, Brother.@ How was life with the Arimas?”@
-`Akiha continued, her expression still severe— …@How
-`could a simple conversation with my little sister feel this tense?
+`Akiha continued with the same frightening look on her face.@
+`How could a conversation with my own little sister feel this tense?
 \
 `“Brother.@ Are you listening?”@
 `“I am.@ You asked about life with the Arimas.@ It was perfectly ordinary, and I never had any real trouble.@ Honestly, their way of life suited me better than this one.”@
@@ -118,8 +118,8 @@ ld c,"tachi/aki_t01b",crossfade,400
 \
 `“…@It’s just a minor aftereffect of the accident; something went a little wrong with my eyes.@ But my eyesight itself is fine, so it’s nothing serious.”@
 ld c,"tachi/aki_t12b",crossfade,400
-`“I see.@ I was surprised when we met earlier.@ I had no idea you wore glasses.”@ “Really?@
-`You seemed remarkably calm for someone so surprised.”@
+`“[line=3]I see.@ I was surprised when we met earlier.@ I had no idea you wore glasses.”@
+`“Really?@ You seemed remarkably calm for someone so surprised.”@
 ld c,"tachi/aki_t03b",crossfade,400
 `“[line=2]Naturally.@ I could hardly disgrace myself when meeting you again after eight years.”@
 `Akiha huffed and knitted her brows in displeasure.
@@ -143,7 +143,7 @@ br
 `Akiha and Kohaku seemed to be heading for the baths, so perhaps I should return to my room.
 \
 `“[line=3]Wait.@ Is Akiha planning to bathe with Kohaku…?”@
-`There was no question of planning; they were unquestionably going together.@
+`Whatever her plans, they were obviously going in together.@
 `Would Kohaku wash her back?@
 `Well, they were both women, so there was nothing wrong with it, but still…
 \
@@ -152,10 +152,10 @@ ld c,"tachi/aki_t18b",crossfade,400
 `“[line=4]!”@
 `A-Akiha could not possibly have chosen a better moment to return.@
 ld c,"tachi/aki_t03b",crossfade,400
-`“But do not, under any circumstances, make Hisui do anything foolish.@ Unlike Kohaku, she does not understand jokes.”@
+`“And whatever you do, don’t force Hisui into any of your foolish ideas.@ Unlike Kohaku, she does not understand jokes.”@
 br
 `Akiha gave me a reproachful look that seemed to see straight through my indecent thoughts.@
-`…@Still, that was astonishing
+`Still, that was astonishing.@
 `Were there hidden microphones somewhere in this estate?
 \
 `“[line=3]Why are you back?@ Weren’t you going to bathe with Kohaku?”@
@@ -167,10 +167,10 @@ br
 `Akiha frowned in exasperation.
 \
 `“There was an open-air bath in the courtyard.@ Have you forgotten even that, Brother?”@
-`…@Now that she mentioned it, perhaps there had been one
+`Now that she mentioned it, perhaps there had been one.@
 `“[line=3]But this is a Western-style mansion, not a hot-spring inn.@ Why build something so out of place here?”@
 ld c,"tachi/aki_t01b",crossfade,400
-`“Father’s fondness for Japanese style was rather inconsistent.@ That is why the annex was built in Japanese style.”
+`“Father had a halfhearted fondness for Japanese things.@ That is why the annex was built in the Japanese style.”
 \
 `“So if you want a bath, use the one assigned to you.@ The second bath behind the foyer is yours.”@
 `With that, Akiha left.@
@@ -201,7 +201,7 @@ play "*1"
 `“Good evening.@ And thank you, Hisui—you made the bed for me, didn’t you?”@
 `Hisui nodded quietly.@
 `“Ngh.”@
-`This sort of thing really did not suit me.@
+`I still could not get used to being treated this way.@
 `“So, um—what is it?@ Another message?”@
 `“Not from me.@ Miss Akiha instructed me to answer any questions Master Shiki might have.”
 \
@@ -229,11 +229,11 @@ br
 `Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@
 `I had no desire—at least not yet—to be waited on by a girl about my own age.
 \
-`“…@If you’re assigned to Master Shiki, does that make you
-`my personal servant?”@ “Yes.@
-`Ask anything of me.”@ “All right, I understand.@ From the way Akiha spoke, she would never let me dismiss you, so
-`I’ll accept your help, but[line=3]”@
-`“Do you have some special request?”@ “Nothing special.@ Just stop calling me Master Shiki; honestly, it sends a chill down my spine.”
+`“When you say you’re assigned to me, does that make you my personal servant?”@
+`“Yes.@ Ask anything of me.”@
+`“All right, I understand.@ From the way Akiha spoke, she would never let me dismiss you, so I’ll accept your help, but[line=3]”@
+`“Is there some special request?”@
+`“Nothing special.@ I only want you to stop calling me Master Shiki.@ Honestly, it sends a chill down my spine.”
 \
 `“But you are my master, Master Shiki.”@
 `“That’s exactly what I don’t like.@ Until yesterday I was living a perfectly ordinary life.@ The last thing I want now is a girl my age treating me like some lord of the manor.”@
@@ -293,8 +293,8 @@ ld c,"tachi/his_t04",crossfade,400
 `Still, I thought her gaze softened a little.
 \
 ld c,"tachi/his_t23",crossfade,400
-`“[line=3]You have no reason to apologize, Master Shiki.@ The fault was mine.”@
-`“I suppose you’re right, but somehow—”@ I scratched my head.@
+`“[line=3]Master Shiki has nothing to apologize for.@ I was the one at fault.”@
+`“Well, maybe—I just felt like I should.”@ I scratched my head.@
 ld c,"tachi/his_t01",crossfade,400
 `Hisui studied my face, then lowered her eyes for a fleeting moment.@
 `“What did you need, Master Shiki?”@
@@ -313,13 +313,13 @@ ld c,"tachi/his_t01",crossfade,400
 cl c,lshutter,400
 `With that, Hisui bowed and left the room.
 \
-`“Violin lessons.”@
-`What was that about?@
-`It wasn’t as though she were some pampered young lady, so why bother with something so[line=3]
+`“Violin practice.”@
+`What was that supposed to mean?@
+`It was not as if she were some well-bred young lady, so why bother with anything so tiresome[line=3]
 br
-`“Oh—right; she is a pampered young lady.”@
+`“Oh, right—she was one.”@
 br
-`Right—come to think of it, Shiki Tohno’s little sister was Akiha Tohno, a young lady born and bred.
+`Come to think of it, Shiki Tohno’s little sister was Akiha Tohno—a well-bred young lady to the core.
 \
 `In my memories, Akiha was my quiet little sister, one year younger, always trailing behind me with anxious eyes.@
 `As a child she had been frail and timid, too shy even to say what she wanted, forever frightened that her father, Makihisa Tohno, might scold her.@

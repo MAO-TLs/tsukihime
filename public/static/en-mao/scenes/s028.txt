@@ -17,10 +17,10 @@ br
 `I surveyed the packed cafeteria.@
 `Nothing should have been free at this hour, but I checked the tables anyway.
 \
-`“…@Oh.”@
+`“Oh.”@
 `I was less surprised than exasperated.@
-`One table had not two but three or four empty seats,
-`even though two students were sitting there.@
+`One table had not two but three or four empty seats.@
+`Two students sat there.@
 `One of them seemed to notice me looking around.@
 ld c,"tachi/ari_t05",lshutter,400
 `“Heeey, Tohno!”@
@@ -39,14 +39,14 @@ ld l,"tachi/cel_t01a",lshutter,400
 `We pointed stupidly at one another, each confirming the other’s identity.
 \
 ld r,"tachi/ari_t01",lshutter,400
-`“Hey, Toh—wait, what?@ You know him?”@
+`“Hey, Tohno[line=3]wait, what?@ You know him?”@
 ld l,"tachi/cel_t03",crossfade,400
 `“Yes, we’ve already met once today.@ We ran smack into each other in the corridor, didn’t we, Tohno?”@
 `“Ah—yes, sorry about that.”@
 `I bowed my head in apology.@
 ld l,"tachi/cel_t04",crossfade,400
 `“No, I’m sorry; I was daydreaming.@ You’re very conscientious, Tohno.”@
-`“Conscientious—I wouldn’t say that—”@ Still smiling, she nodded with evident satisfaction.@
+`“Conscientious—hardly,”@ I began, but she only smiled and nodded with evident satisfaction.@
 `There really was something singular about her.
 \
 ld l,"tachi/cel_t01a",crossfade,400
@@ -90,10 +90,10 @@ ld l,"tachi/cel_t10a",crossfade,400
 \
 `“Ciel, I’m not transferring.@ I’m only changing where I live today, so I had to submit a change-of-address form.”@
 ld l,"tachi/cel_t08",crossfade,400
-`“Then…@ are you going to live
-`alone?”@ “That’s not it either.@
-`I’m merely returning to my own home.@ It’s that absurdly grand place on top of the hill,
-`so the whole thing still doesn’t feel real.”@ “Could that be the Tohno estate?”
+`“Then you’re going to live alone?”@
+`“That’s not it either.@ I’m only returning to my own home.@
+`It’s that absurdly grand place on top of the hill, so the whole thing still doesn’t feel real.”@
+`“I see.@ Could that be the Tohno estate?”
 \
 `Ciel asked timidly, as though afraid of prying.@
 `To the people of this town, the Tohno family’s Western-style house on the hill must have seemed like something apart.@
@@ -116,12 +116,12 @@ ld l,"tachi/cel_t12",crossfade,400
 `“Inui, does Tohno stay at your house that often?”
 \
 ld r,"tachi/ari_t01",crossfade,400
-`“He sure does.@ Tohno is so careful not to impose on the Arimas that he can’t relax at home during long school breaks, so he runs away; ever since they took him in, the bastard’s been walking on eggshells around them.@ Since I conveniently have a spare room, he comes rolling into my place instead.@
-`Worse, he’s got a pretty face, so my sister adores him.@ He even has the nerve to show up empty-handed!”@ Outrageous, Arihiko proclaimed, shaking a clenched
-`fist.@
+`“He sure does.@ Tohno’s so careful not to impose on the Arimas that he can’t relax at home during long school breaks, so he runs away.@ Ever since they took him in, the bastard’s been walking on eggshells around them.@
+`Since I conveniently have a spare room, he comes rolling into my place instead.@ Worse, he’s got a pretty face, so my sister adores him—he even has the nerve to show up empty-handed!”@
+`Arihiko shook his fist as if this were unforgivable.@
 ld l,"tachi/cel_t07a",crossfade,400
 `“The Arimas took you in, Tohno?”@
-`“Ah—”@
+`“Ah[line=4]”@
 `Arihiko caught himself and covered his mouth.
 \
 ld r,"tachi/ari_t03",crossfade,400
@@ -149,7 +149,7 @@ ld c,"tachi/cel_t08",crossfade,400
 `Arihiko had known me since middle school, but burdening her with such complicated family business could only be awkward.@
 `In fact, she was fidgeting as though deeply uncomfortable.
 \
-`“Listen, I—”@
+`“Ciel, listen[line=3]”@
 ld c,"tachi/cel_t01a",crossfade,400
 `“Um, I’ve finished my lunch, so I’ll be going now.@ I’m very sorry.”@
 cl c,lshutter,800

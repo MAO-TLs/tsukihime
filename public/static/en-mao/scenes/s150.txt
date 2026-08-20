@@ -28,9 +28,9 @@ bg #000000,lcartain,800
 bg "bg/bg_05a",lcartain,800
 ld c,"tachi/ark_t04",crossfade,400
 `“Why did you suddenly drag me into a place like this?@ There’s nothing interesting here at all.”@
-`Arcueid appears dissatisfied with our surroundings, but schools are not generally designed to be exciting buildings.@
+`Arcueid seems disappointed by our surroundings, but schools are not especially interesting places to begin with.@
 br
-`“[line=3]You are asking me that, Arcueid?”@
+`“[line=3]That is my line, Arcueid.”@
 `I release her arm and thrust an accusing finger beneath her nose.
 \
 ld c,"tachi/ark_t12",crossfade,400
@@ -49,12 +49,12 @@ ld c,"tachi/ark_t17",crossfade,400
 `“Yes, thank you.”@
 br
 `My heart gives a heavy thump.@
-`Arcueid apologizing so meekly is disarming[line=3]or rather, she seems terribly cute.
+`Arcueid apologizing so meekly is disarming[line=2]or rather, she seems[line=2]terribly cute.
 \
 ld c,"tachi/ark_t11",crossfade,400
 `“But this is partly your fault, Shiki.@ I watched you from the courtyard forever, and you never noticed me.@
-`I could not work out how to get inside, so I nearly ran straight up to where you were.”@
-`“Ran straight up to my classroom on the third floor?”@
+`I could not work out how to get inside, so I nearly climbed straight up to where you were.”@
+`“Climbed straight up to my classroom on the third floor?”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Yes; there are balconies, so footholds would not be a problem and it looked easy to jump.”@
 `“[line=6]”@
@@ -120,7 +120,7 @@ cl c,crossfade,800
 \
 `“[line=3]Ciel!”@
 `I call to her and walk over.@
-`She remains motionless, watching me approach.@
+`Ciel remains motionless, watching me approach.@
 `“What are you doing out here?”@
 ld c,"tachi/cel_t01a",crossfade,400
 `“I might ask you the same thing, Tohno.@ Lunch has only just begun, yet you were already in the rear courtyard, so you skipped fourth period, did you not?”@
@@ -137,7 +137,7 @@ cl c,crossfade,400
 \
 `“Ciel?@ You seem a little down; is something wrong?”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“No, nothing is wrong.@ It is true that good things end before you know it, Tohno.”@
+`“No, nothing is wrong.@ It is true that enjoyable things really do end quickly, Tohno.”@
 cl c,lshutter,800
 `She gives me the loveliest smile I have ever seen from her.@
 `Then she returns to the school building alone.

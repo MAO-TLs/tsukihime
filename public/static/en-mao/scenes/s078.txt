@@ -12,22 +12,22 @@ ld c,"tachi/ark_t03",crossfade,400
 `She didn’t understand.@ She didn’t understand that she herself was recklessness incarnate.@
 `If I let her draw me in any deeper, she would drag me somewhere I could never come back from.
 \
-`I had no choice.@ I would wait for an opening, then somehow make a run for it.
+`There was only one choice[line=4]wait for an opening and somehow make a run for it.
 \
 playstop
-`“…@All right.@ I’ll at least hear you out.”@
+`“…@All right, I’ll hear you out for now.”@
 `Bracing one hand against the wall, I managed to stand on my own.@
 `To reach the main road, I had to take that narrow passage.@
 `Luckily, I was closer to it than she was.@
 `If I pretended to talk and then bolted, I ought to make it to the main road.
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Oh, that’s right.@ We don’t even know each other’s names yet.@ I suppose asking you to help me before we introduce ourselves is doing things in the wrong order.”@
+`“Oh, right.@ We don’t even know each other’s names yet, so asking you to help before we introduce ourselves would be doing things backward, wouldn’t it?”@
 `The woman nodded to herself, satisfied.
 \
 `“Exactly.@ So tell me a little more, and then maybe I’ll consider helping you.”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Really?@ Then where should I start?@ Do you want to hear about the vampire causing all the trouble in town, or should I explain what we’re going to do from here?”@
+`“Really?@ Then where should I start[line=3]with the vampire causing all the trouble in town?@ Or should I explain what we’re doing from here?”@
 cl c,crossfade,400
 `The woman hummed thoughtfully, giving the question her full attention.@
 br
@@ -37,16 +37,16 @@ bg #000000,lshutter,400
 `[line=3]I ran flat out.@
 `Catching her off guard, I tore down the passage toward the main road without pausing for breath.@
 br
-`“Huh?”@
+`“Huh[line=3]?”@
 br
 `Her voice came from behind me.@
 `Too late.@
-`I was going to get away for sure—!
+`I was going to get away for sure[line=4]!
 \
 bg "bg/bg_31a",notrans,0
 wave se_05
 quakey 2,100
-`“Huh?”@
+`“[line=4]Huh?”@
 `How strange.@
 `I had taken only a few steps when I somehow pitched straight into the ground.
 \
@@ -54,26 +54,26 @@ play "*3"
 ld c,"tachi/ark_t11",lshutter,800
 `“What are you doing?”@
 `The woman came over wearing a look that was less concerned than exasperated.@
-`“…@Nothing.@ I just felt like running for a second.”@
+`“…@Nothing—I just felt like running for a second.”@
 `Apparently she hadn’t realized I was trying to escape.@
 `I struggled upright, doing my best to act as if nothing had happened.
 \
-`Except—
+`Except…@
 wave se_05
 quakey 2,100
 `“Ngh…!”@
-`Pain—!@ The joints in my legs hurt so badly there was no chance of standing—!
+`Pain[line=3]!@ The joints in my legs hurt so badly there was no chance of standing!
 \
 ld c,"tachi/ark_t03",crossfade,400
 `“Oh, I guess that shove was too hard.@ Sorry—if I’d held back a little more, I don’t think your legs would have ended up like that.”@
-`“You ‘don’t think’—you…”@
+`“You ‘don’t think’[line=4]you…”@
 `I wanted to ask what gave her the right to shove anyone, but if she hadn’t, that black dog would have torn out my throat and I would already be dead.
 \
-`“…@No, forget it.@ I’m grateful, so it’s fine.”@
+`“Forget it—I’m grateful, so it’s fine.”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“That’s a relief.@ But why did you suddenly start running?@
-`You said you’d talk to me.”@
-`“Well, that was—”@ There was no possible way I could admit it had only been an excuse.
+`“That’s a relief.@ But why did you suddenly start running?@ You said you’d talk to me.”@
+`“Well, that was[line=3]”@
+`I could never admit it had only been an excuse.
 \
 ld c,"tachi/ark_t06",crossfade,400
 `“Hmm…”@
@@ -84,7 +84,7 @@ ld c,"tachi/ark_t04",crossfade,400
 `“Listen.@ What you said before meant you were going to help me, didn’t it?”@
 `“…”@
 `I couldn’t answer.@
-`All I had said was that I would listen.@ I had never said I would help.@
+`All I had said was that I would listen; I had never said I would help.@
 br
 `[line=3]I didn’t want to lie.@
 br
@@ -93,8 +93,8 @@ br
 ld c,"tachi/ark_t06",crossfade,400
 `“One thing first.@ I already have a fair idea what kind of person you are, so you’d better not give me some halfhearted answer.@
 `If you run away now, I’ll simply have to visit your house next.”@
-`“What—?”@
-`Did that mean that even if I escaped, she would come to the mansion after me?!
+`“What[line=5]?”@
+`Did that mean[line=3]even if I escaped, she would come to the mansion after me?!
 \
 `“…”@
 `She had me.@
@@ -102,35 +102,35 @@ ld c,"tachi/ark_t06",crossfade,400
 br
 `“Damn…”@
 `What the hell?@
-`Had there never been a choice in the first place—?
+`There had never been any choice at all[line=4]
 \
 ld c,"tachi/ark_t03",crossfade,400
 `“Well, either way is fine with me.@ A vampire’s familiar has already spotted you, so you’re almost certain to become a target now.@ If you go your own way instead of staying with me, you might at least make a useful diversion.”@
-`“Wait…@ You can’t mean…”@
+`“You can’t mean that.”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“I do.@ That familiar took you and me for allies.”
 \
-`“—”@ So even if I refused to help her,
-`things like that could still attack me.@
+`“[line=7]”@
+`So even if I refused to help her, things like that could still attack me.@
 ld c,"tachi/ark_t06",crossfade,400
 `“Well?@ Will you help me and stand guard while I sleep, or would you rather drive off familiars like that all by yourself?”@
 `If both choices led to the same place, all I could do was nod.@
 br
-`“You…@ con artist.”@
+`“You[line=4]con artist.”@
 `With a sigh, I nodded my agreement.
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Good.@ Then we have a deal.”@
+`“Good, then we have a deal.”@
 `As if her murderous air had never existed, she spoke lightly and held out her hand.
 \
 `“Now we can finally introduce ourselves.@
-`I’m Arcueid—my full name is long, so just Arcueid is fine.@ I’m a vampire classified as a True Ancestor.@ And who are you?”@
+`I’m Arcueid[line=3]my full name is long, so Arcueid is fine.@ I’m a vampire classified as a True Ancestor; who are you?”@
 br
 `It was the strangest introduction I had ever heard, and I let out a long, heavy sigh.@
 `A sigh of resignation—or maybe proof that I had accepted this ridiculous situation.
 \
 `“Shiki Tohno.@ Unfortunately, I’m only a student.@ I’m warning you now: I really won’t be much use.”@
-`I took the woman’s hand—Arcueid’s hand—and stood.@ She studied me intently, then offered her hand again for a proper shake.@
+`I took the woman’s hand[line=3]Arcueid’s hand—and stood.@ She studied me intently, then offered her hand again for a proper shake.@
 ld c,"tachi/ark_t09",crossfade,400
 br
 `“I’ll be counting on you, Shiki.@
@@ -139,7 +139,7 @@ br
 \
 `The world must contain every imaginable kind of responsibility, but I was probably the first and last person ever obliged to help someone he had murdered.
 \
-`“Damn it.@ Do whatever you want with me.”@
+`“Damn—do whatever you want with me.”@
 `There was no other choice.@
 `Reluctantly, I extended my left hand and shook hands with the pale woman who claimed to be a vampire.
 \

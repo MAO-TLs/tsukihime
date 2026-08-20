@@ -162,7 +162,7 @@ wave se_05
 br
 `“Ah[line=3]”@
 `SHIKI’s voice is empty, as though his soul has fallen out.@
-`“Akiha[line=3]”@
+`“Aki, ha[line=3]”@
 `His claws tear a great gash across Akiha’s back.@
 br
 `He did not aim for her.@
@@ -194,7 +194,7 @@ bg "bg/bg_33c",bshutter,800
 `Their artificial glare stings my eyes and jars my vacant mind awake.@
 `“[line=6]”@
 `I look around.@
-`There is nothing on the carpet before me but a red trail of blood.@
+`There is nothing on the carpet before me but a red bloodstain.@
 `Akiha’s fallen body is gone, and so is SHIKI’s corpse with its severed line.
 \
 `“What[line=5]?”@
@@ -214,11 +214,11 @@ play "*1"
 `“Hisui[line=3]where have you been all this time?”@
 ld c,"tachi/his_t17",crossfade,400
 `“I explained that a moment ago.@ When my sister and I arrived, we found Master Shiki there with Miss Akiha lying wounded.@
-`We called to you several times, but Master Shiki was in no condition to speak.”@
+`We called to Master Shiki several times, but Master Shiki was in no condition to speak.”@
 `So I had stood there in a stupor before the wounded Akiha.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Miss Akiha needed immediate first aid, so my sister and I treated her and restored power to the estate[line=3]but should we have waited for Master Shiki’s instructions?”@
+`“Miss Akiha needed immediate first aid, so my sister and I treated Miss Akiha and restored power to the estate[line=3]but should we have waited for Master Shiki’s instructions?”@
 `“[line=3]No.@ You did the right thing.@ I was only standing there without saying anything, was I not?”@
 `“Yes.@ It has been almost an hour since we arrived, and Master Shiki has done nothing but stand in place.”@
 `“I see.”@
@@ -230,7 +230,7 @@ ld c,"tachi/his_t01",crossfade,400
 \
 ld c,"tachi/his_t17",crossfade,400
 `“[line=3]Master Shiki, what happened here?@ When I awoke, the estate had lost power and I was lying unconscious in my sister’s room.@
-`It seems someone drugged both of us, and when we made our way to the lobby, we found you and Miss Akiha.@
+`It seems someone drugged both of us, and when we made our way to the lobby, we found Master Shiki and Miss Akiha.@
 `My sister said Miss Akiha’s injury looked like a laceration from the claws of some large animal, but that[line=2]”
 \
 `“What[line=2]?”@
@@ -255,11 +255,11 @@ ld c,"tachi/his_t01",crossfade,400
 ld c,"tachi/his_t17",crossfade,400
 `“Please wait, Master Shiki.@ Are you going to Miss Akiha’s bedroom?”@
 `“Of course; I have to apologize to her and talk to her[line=2]”@
-`“My sister is still treating her.@ I do not think Miss Akiha would be pleased if you went in now.”@
+`“My sister is still treating her.@ I do not think Miss Akiha would be pleased if Master Shiki went in now.”@
 `“Th-that may be true, but…”
 \
 ld c,"tachi/his_t09",crossfade,400
-`“Master Shiki, please return to your room.@ Once Miss Akiha’s treatment is complete, if she herself asks to see Master Shiki, I will come and fetch you.”@
+`“Master Shiki, please return to your room.@ Once Miss Akiha’s treatment is complete, if Miss Akiha herself asks to see Master Shiki, I will come and fetch you.”@
 cl a,crossfade,400
 `With that, Hisui climbs the stairs.@
 `She is probably going to Akiha’s room to help Kohaku.
@@ -300,7 +300,7 @@ br
 wave se_04
 !w1000
 ld c,"tachi/koha_t03",lshutter,800
-`“Master Shiki?@ May I come in?”@
+`“Shiki?@ May I come in?”@
 `“Kohaku.@ Is Akiha all right now?”@
 ld c,"tachi/koha_t01a",crossfade,400
 `“Yes, we have finished treating her for now.@ She will need complete bed rest and may not walk properly for several weeks, but her life is not in danger.”@
@@ -309,7 +309,7 @@ ld c,"tachi/koha_t01a",crossfade,400
 `If the wound she took for me had placed her life in danger, I would never have known how to face her again.
 \
 ld c,"tachi/koha_t03",crossfade,400
-`“Master Shiki, Hisui told me you wish to speak with Miss Akiha.@ Is that right?”@
+`“Shiki, Hisui told me you wish to speak with Miss Akiha.@ Is that right?”@
 `“Yes.@ If she feels too ill, I will not, but if possible I want to see her and talk.”@
 ld c,"tachi/koha_t01a",crossfade,400
 `“In that case, please go ahead.@ But don’t discuss anything too complicated.@ Miss Akiha has already pushed herself much too far, and I don’t want her placed under any emotional strain.”
@@ -389,12 +389,12 @@ br
 `Then I cannot unsettle her by telling her now.@
 `If the lie can still hold, I have to preserve it.
 \
-`“…@Brother, eight years ago SHIKI nearly killed you.@ His Tohno blood was not considered particularly strong, but without warning he became something closer to the Tohno side.@
-`The Tohno blood comes from ancient creatures and makes instinct take precedence over reason.@ Once that blood flooded SHIKI’s body, he attacked you simply because you happened to be there.”@
+`“…@Brother, eight years ago SHIKI nearly killed you.@ His Tohno blood was not considered particularly strong, but without warning he became more Tohno than human.@
+`The Tohno blood comes from ancient creatures and makes instinct take precedence over reason.@ Once it flooded SHIKI’s body, he attacked you simply because you happened to be there.”@
 `SHIKI told me that much himself.@
 `The scar on my chest came from him, not from any accident.
 \
-`“Every member of the Tohno family manifests a different ability.@ Some become man-eaters like SHIKI; others, like Father, suffer an aberration of the mind alone.@
+`“The Tohno blood affects every member of the family differently.@ Some become man-eaters like SHIKI; others, like Father, suffer only in the mind.@
 `SHIKI attacked you and stole your blood, your very life.@ Father punished him, but because he had taken your life into himself, he barely survived.”
 \
 `“I do not understand.@ What does it mean that he stole my life?”@
@@ -402,7 +402,7 @@ br
 `I only know that your life was what kept him barely alive.@ You and SHIKI are like two separate people sustained by a single heart.@
 `That is why[line=3]your minds synchronize so easily.@ By the same principle, I suppose you might synchronize with me as well.@ But you and SHIKI were very close, so something in each of you must have drawn the other.”
 \
-`“Do not say that.@ I could never share anything with someone like him[line=3]someone who hurt you.”@
+`“Do not say that.@ There is nothing that could draw me to someone like him[line=3]someone who hurt you.”@
 `“…”@
 `Akiha watches my face with a pained expression.@
 `Her slender body.@
@@ -477,7 +477,7 @@ br
 `She only nods in silence, looking unbearably lonely.
 \
 `“You are right, Brother.@ I am not normal.@ These attacks are different from your anemia.@ They are the inherited suffering of the Tohno family.@ Anyone who can no longer endure them becomes something closer to the Tohno side, as SHIKI did.”@
-`“[line=3]Wh”@
+`“Wh[line=3]”@
 `“I told you that the Tohno family is abnormal, did I not?@ My blood is especially strong, even by our standards.@ As my body matured, that tendency grew stronger day by day.@
 `It has already passed beyond anything I can control.@ That is why every night is like this.”@
 `Akiha explains it calmly, without resentment toward anyone.
@@ -556,12 +556,12 @@ bg #000000,crossfade,800
 !w3000
 wave se_04
 bg "bg/bg_37",crossfade,800
-`“Master Shiki, are you awake?”@
+`“Shiki, are you awake?”@
 `I hear Kohaku’s voice.@
 `When I look at the clock, it is already three in the morning.
 \
 `“I am awake.@ Are you here to look after Akiha, Kohaku?”@
-`“I need to take her temperature.@ Master Shiki, I am sorry, but…”@
+`“I need to take her temperature.@ Shiki, I am sorry, but…”@
 `“Oh, of course.@ I will leave right away.”@
 `I rise from the chair.@
 `Before leaving, I look once more at Akiha’s sleeping face.@
@@ -575,6 +575,6 @@ playstop
 `SHIKI’s survival hardly matters.@
 `Only one thing troubles me.@
 `I watched Akiha sleep for hours.@
-`Her hair never returned to its original black.
+`Her hair never returned to the black it had been before.
 \
 !w3000

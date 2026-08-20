@@ -7,7 +7,7 @@ br
 \
 `Perhaps she drinks regularly, because Akiha tosses back glass after glass without disturbing her composure.@ She might as well be drinking water.@
 `Kohaku keeps her glass filled and drinks at a leisurely pace alongside her.@
-`Neither looks any different, so apparently neither of them shows it when she drinks.
+`Neither looks any different; apparently the drink does not show on either of them.
 \
 `Hisui, meanwhile, took a single sip, tottered over to the sofa, and has been nodding off there ever since.
 \
@@ -24,7 +24,7 @@ br
 ld c,"tachi/his_t11",lshutter,800
 `“…………”@
 `Hisui still cradles the glass from the toast as though it were precious, gazing dreamily into space.@
-`Whenever I look away and back again, the level inside has fallen by the slightest amount.@ It seems she is enjoying herself after her own fashion.
+`Whenever I look away and back again, the level in her glass has fallen by the slightest amount.@ It seems she is enjoying herself after her own fashion.
 \
 cl c,lshutter,400
 `I help myself to another snack.@
@@ -38,7 +38,7 @@ ld c,"tachi/aki_t21b",lshutter,400
 `“Brother.@ You’ve done nothing but eat, and you hardly seem to be drinking at all.”@
 `Whatever has displeased her, Akiha narrows her eyes and glares at me.
 \
-`“Listen.@ I don’t care if you get drunk, but don’t pressure everyone else to keep up with you.@ I’ve never been good with alcohol, so if you want a drinking companion, ask Kohaku—”@
+`“Listen.@ I don’t care if you get drunk, but don’t pressure everyone else to keep up with you.@ I’ve never been good with alcohol, so if you want a drinking companion, ask Kohaku[line=4]”@
 `I lift a finger to point at her, then stop.@
 `Kohaku is gone.@ Apparently she has gone back to the kitchen to find more alcohol.
 \
@@ -66,12 +66,12 @@ ld c,"tachi/aki_t11b",crossfade,400
 \
 `“Akiha, I’ll say it again.@ You are drunk.”@
 ld c,"tachi/aki_t07b",crossfade,400
-`“Oh, honestly!@ How many times must I tell you that I’m not drunk?”@
+`“Oh, honestly[line=4]!@ How many times must I tell you that I’m not drunk?”@
 cl c,lshutter,400
 `She shouts—and promptly reels.@
 `If the sound of her own voice is enough to make her dizzy, surely that proves my point.
 \
-`“You’re hopeless.@ Come on, don’t just stand there—sit down.@ If there’s something you want to discuss, I promise I’ll listen.”@
+`“You’re hopeless.@ Come on, don’t just stand there—sit down.@ If there’s something you want to say, I’ll hear you out.”@
 `I pat the sofa beside me.@
 ld c,"tachi/aki_t13b",lshutter,400
 `“Oh, yes—I’ll sit.”@
@@ -111,7 +111,7 @@ ld c,"tachi/aki_t04b",lshutter,400
 `I take the glass and sink back into the sofa.@ Then I tip my face toward the ceiling.@
 `Slowly, but without once lowering it from my lips, I finish everything Akiha poured for me.
 \
-`“Phew.@ Satisfied now, my lady?”@
+`“[line=3]Phew.@ Satisfied now, my lady?”@
 `I set the empty glass on the table.@
 ld c,"tachi/aki_t08b",crossfade,400
 `“Yes, that was pleasant to watch.@ You lose points for lacking momentum, but overall I’ll give you a passing mark.”@
@@ -126,14 +126,14 @@ br
 `With the glass raised to her lips, Akiha looks startlingly mature.@
 `Her eyes close and her chin lifts.@
 `Her pale throat moves as she swallows, a gesture so sensuous that I forget for a moment how drunk she is.@
-`“Haa…”@
+`“[line=5]Haa.”@
 `Akiha releases a deep breath.@ Her glass is empty.@
 `I hear her murmur, almost like a sigh, “Delicious.”
 \
 `“…………”@
 ld c,"tachi/aki_t08b",lshutter,400
 `“Hm?@ What is it, Brother?@ Is there something on my face?”@
-`“Ah—no, it’s nothing like that.”@
+`“Ah[line=4]no, it’s nothing like that.”@
 `As I answer, I pick up my glass for no reason at all.@
 ld c,"tachi/aki_t04b",crossfade,400
 `“Ready for another, then.@ This time we shall increase the proportion of alcohol.”@
@@ -146,7 +146,7 @@ cl c,lshutter,400
 `It was not much alcohol, but perhaps drinking it so quickly was a mistake.@
 `My head abruptly pitches sideways, and I collapse against the sofa.
 \
-`“Brother?@ Are you all right?”@
+`“Brother[line=3]?@ Are you all right?”@
 `“Yeah, I’m fine.@ It just hit me for a second, but I’m not drunk.@ I’ll stay like this for a while, so forget about me and enjoy yourself.”@
 `I rest my back against the sofa and stare hazily at the ceiling.@
 `Letting every muscle go slack feels wonderful.
@@ -155,14 +155,14 @@ cl c,lshutter,400
 `Akiha’s voice is subdued.@
 `“It was hard, but I feel good—you looked as though you were enjoying every drop, and I let that carry me away.@ It worked out in the end.@
 `Keep drinking, Akiha.@ Once I recover, I’ll join you again.”@
-`“All right.@ Then I shall take you at your word and wait until you feel better.”@
+`“[line=3]All right.@ Then I shall take you at your word and wait until you feel better, Brother.”@
 `Liquid burbles into a glass.@
 `Beside me, where I lie defeated, Akiha continues to drink with obvious delight.
 \
 `“…………”@
-`Strange.@ Nothing remarkable is happening, yet I can feel myself relaxing completely.
+`Strange.@ Nothing remarkable is happening, yet I feel myself sinking[line=3]into peace.
 \
-`“All right.”@
+`“⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯All right.”@
 `After a long rest, I push myself upright.
 \
 ld c,"tachi/aki_t01b",lshutter,400
@@ -181,7 +181,7 @@ cl c,crossfade,400
 ld c,"tachi/aki_t26",lshutter,400
 `“Brother…@you’re being kind tonight.”@
 `The words come suddenly.@ Akiha’s voice is low.@
-`“What?@ Me, kind?”@
+`“[line=4]What?@ Me, kind?”@
 `“Yes.@ You are usually such a cold person.@ You almost never let your guard down with me the way you have tonight.”@
 `“Am I?@ I’ve never thought about it—am I really cold?”
 \
@@ -194,10 +194,10 @@ ld c,"tachi/aki_t26",lshutter,400
 `Akiha continues her quiet monologue with her head bowed.@
 `Her glass sits empty and unfilled.@ Only her subdued voice moves through the room.
 \
-`“Sometimes I wonder whether you are utterly indifferent—and whether, underneath it all, you are terribly lonely.@ I know it is a foolish thought, but I can’t help having it.@
+`“Sometimes I wonder whether you are utterly indifferent—and whether, underneath it all, you are terribly lonely.@ I[line=3]I know it is a foolish thought, but I can’t help having it.@
 `No one can come first in your heart.@ Perhaps you lost the person who once did, a very long time ago.@
 `When I was little, I thought it was enough if you cared for me at all.@ Since there was no one you could place first, I told myself that was enough.@
-`But now—”
+`But now, I[line=4]”
 \
 cl c,lshutter,400
 ld c,"tachi/koha_t02b",lshutter,400
@@ -254,7 +254,7 @@ play "*1"
 `At some point Hisui wakes, and we drift into idle conversation.@
 `Perhaps because of the alcohol, I remember little of what we say.@
 `It is warm and utterly meaningless.@
-`Unaccustomed to such warmth, I feel as if I am being gently smothered in soft silk batting—a precarious, uneasy comfort.@
+`Unaccustomed to such warmth, I feel as though soft silk were slowly tightening around me—a precarious, uneasy comfort.@
 `Perhaps that is why.@
 `Part of me wishes the evening would last a little longer, while another part longs to be alone.
 \
@@ -291,15 +291,15 @@ br
 `“Are you listening?@ As long as you stay with me, I need nothing else.@ And yet you always, always…”@
 `Her eyes hold mine without wavering.@
 `Her cheeks are flushed, her gaze wet and luminous.@
-`Somehow, she looks dangerously alluring.@
+`Somehow, she looks[line=4]dangerously alluring.@
 br
 `Perhaps the alcohol has gone to my head as well.@
-`Akiha is my sister, and yet somehow—
+`Akiha is my sister, and yet somehow[line=4]
 \
-`“Aki—ha.”@
-`“Mm—Brother, I feel strange—”@
+`“⋯⋯⋯⋯Aki—ha.”@
+`“Mm⋯Brother, I feel⋯strange.”@
 `Even her dazed murmur sounds as though it belongs to someone else.@
-`And I begin to—
+`And I, just like that[line=4]
 \
 cl c,lshutter,800
 ld c,"tachi/koha_t02b",lshutter,400
@@ -325,9 +325,9 @@ cl c,lshutter,400
 `With that.@
 `Akiha topples sideways onto me.
 \
-`“W-wait, Akiha!@ What happened all of a—”@
+`“W-wait, Akiha!@ What happened all of a[line=4]”@
 `There is no mystery to solve.@
-`“Hey.”@
+`“⋯⋯⋯⋯Hey.”@
 `She does not react when I call to her.@
 `Akiha is fast asleep, breathing softly with an expression of perfect bliss.
 \
@@ -358,16 +358,16 @@ br
 `But none of that matters now.@
 `It is enough to watch her sleeping against me in complete trust.@
 `Akiha is my sister.@
-`One of the reasons I returned to this mansion was to protect her—
+`One of the reasons I returned to this mansion was to protect her[line=4]
 \
 ld c,"tachi/his_t01",lshutter,400
 `“Master Shiki.@ Will Miss Akiha not catch cold if she remains there?”@
-`“What—?@ Oh, right—it may only be October, but we shouldn’t take chances.@ Sorry, but could you—”@
+`“What[line=3]?@ Oh, right; it may only be October, but we shouldn’t take chances.@ Sorry, but could you[line=3]”@
 ld c,"tachi/his_t16",crossfade,800
 `“Certainly—I will take Miss Akiha to her room.”@
 cl c,lshutter,400
 `Hisui supports Akiha and leads her out of the sitting room.@
-`That leaves only Kohaku and me—but—
+`That leaves only Kohaku and me[line=3]
 \
 ld c,"tachi/koha_t02b",lshutter,400
 `“Now that Miss Akiha has retired, perhaps we should bring the evening to a close.@ I will clear everything away, so you should return to your room as well, Shiki.”@
@@ -389,7 +389,7 @@ br
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_42c",notrans,0
-`“Ugh.@ I really overdid it tonight.”@
+`“[line=3]Ugh.@ I really overdid it tonight.”@
 `The headache from the alcohol brings on one of my usual dizzy spells.@
 `At this rate, I may be in for a terrible nightmare.@
 `Still, I knew the risk when I drank.@
@@ -398,7 +398,7 @@ bg "bg/bg_42c",notrans,0
 \
 `I sit in one of the courtyard chairs and let out a long breath.@
 br
-`“Mmh.”@
+`“[line=7]Mmh.”@
 br
 `The night wind brushes my skin like a length of chilled gauze.@
 `Not a sound disturbs the courtyard.@
@@ -419,7 +419,7 @@ br
 br
 `all of it long since worn away or brought crashing down, stripped of every last scrap of value.
 \
-`“[line=4]”@
+`“[line=10]”@
 `As these aimless thoughts drift through my mind, my eyelids grow heavier and heavier.@
 br
 bg #000000,crossfade,1500
@@ -438,7 +438,7 @@ ld c,"tachi/koha_t12",lshutter,400
 \
 `“I let myself get carried away as well.@ I arranged all this without considering your health.@ You were suffering, weren’t you, Shiki?”@
 `Kohaku remains at a distance, too apologetic to come closer.@
-`This apologetic distance is nothing like the Kohaku who is always smiling.@
+`Somehow, this is nothing like the Kohaku who is always smiling.@
 `I chose to drink, so Kohaku has no reason to feel guilty about it.
 \
 `“Honestly.@ That isn’t like you, Kohaku.”@
@@ -476,7 +476,7 @@ br
 `Another brief silence passes.
 \
 `“Thank you, Kohaku.@ I had a wonderful time tonight.”@
-`Still seated, I tell her exactly what I feel.@
+`Still seated, I tell her from the bottom of my heart.@
 `“What brought this on?@ Tonight was hardly anything worth thanking me for.”@
 `“Maybe not, but I really did enjoy it.@ Thinking about it, this was the first time I’d ever let loose with my family.@ I suppose I’d always wanted something like this.”@
 br
@@ -487,7 +487,7 @@ br
 `For the briefest instant, her face goes blank as a Noh mask; then she looks up in her usual manner.
 \
 `“But, Shiki.@ As long as you remain in this mansion, you will never have the kind of family you long for.@
-`Every one of the Tohno relatives resents Master Shiki.@ Miss Akiha is the only person on his side.@
+`Every one of the Tohno relatives resents Master Shiki.@ Miss Akiha is the only person on your side.@
 `Life here will therefore become very painful for you.”@
 `Kohaku is right.@
 `Eight years ago, my father and the family council came close to disowning me, so I have no reason to think their opinion will have improved since then.
@@ -503,24 +503,24 @@ br
 `Her delight makes me self-conscious too.@ The feeling is warm, embarrassing, and strangely pleasant.
 \
 `“But that is strange, Shiki.@ You think only of Miss Akiha and spare no thought for yourself.”@
-`“What?”@
+`“[line=6]What?”@
 `“Your own life cannot have been a happy one.@ After the Tohno family cast you out, you must have suffered many painful things.@
 `You finally found a place in the Arima household, only to return here.@
 `The Tohno family’s selfish circumstances tore you away once again from the ordinary family you had always longed for.”
 \
 `“…………”@
-`There is no answer I can give.@
+`There was[line=3]no answer I could give to that.@
 `Three mornings ago.@ I remember Keiko’s face at the Arima family’s front door.@
 `I never wanted to see that indomitable woman smile with such sorrow.@
-`Kohaku is right—just when that family had finally become another half of me, I severed it with my own hands—
+`Kohaku is right[line=3]just when that family had finally become another half of me, I severed it with my own hands[line=3]
 \
 `“You see, Shiki?@ It isn’t as though you never thought about it.”@
-`“[line=4]”@
+`“[line=6]”@
 `No.@ That is something I must not think about.@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_42c",crossfade,400
-`“Kohaku—why would you say something like that now—”@
+`“Kohaku, why would you say something like that[line=3]”@
 `Why bring it up now?@
 `I had wanted Kohaku, Akiha, and Hisui to believe only one thing: that I returned to this mansion because I wanted to.
 \
@@ -532,11 +532,11 @@ bg "event/koha_e01b",crossfade,800
 `“You already know, Shiki.@ You would have been happier living with the Arima family.”@
 br
 `[line=4]That.@
-`But why would she—
+`But why would she[line=4]
 br
 `“Why?@ Why did you come back to this mansion after all these years, Shiki?@ Being here can only make you unhappy.”@
 br
-`[line=3]Why does she look as though she is about to cry—
+`[line=3]Why does she[line=3]look as though she is about to cry[line=4]
 \
 `“…………”@
 `I have no answer.@
@@ -553,7 +553,7 @@ ld c,"tachi/koha_t03b",lshutter,400
 `“Then that is why you came back, Shiki.”@
 `Kohaku nods, apparently satisfied.@
 `[line=3]But it is a lie.@
-`There was one other reason—an event that mattered even more to me than Akiha.
+`There was one other reason[line=3]an event that mattered even more to me than Akiha.
 \
 `“Shiki?@ What is it?”@
 `“No, that wasn’t the whole truth.@ There’s one more important reason.”@
@@ -561,7 +561,7 @@ ld c,"tachi/koha_t03b",lshutter,400
 `“I’m not sure.@ It isn’t exactly secret, but it’s a precious memory I don’t like sharing.@
 `When I left this place, I borrowed something.@ I came home because I wanted to return it properly.”@
 ld c,"tachi/koha_t14",crossfade,400
-`“[line=4]”@
+`“[line=10]”@
 `Though Hisui herself did not remember any of it.
 \
 `I rise from the chair.@
@@ -592,7 +592,7 @@ br
 `Just the words, “Give it back, okay?”@
 br
 `But to the child I was then, those words mattered.@
-`I have simply treasured them ever since.@
+`I have simply[line=3]treasured them ever since.@
 `Though Hisui, the very person who made me that promise, had forgotten it.
 \
 `“It can’t be helped.@ It was a promise between children.”@
@@ -608,12 +608,12 @@ bg #000000,crossfade,800
 !w4000
 wave se_01
 bg "bg/bg_40d",lshutter,400
-`[line=3]I sit up at the sensation of burning heat.@
+`[line=3]I wake to burning heat and sit up.@
 br
 `Scalding.@ My throat is on fire.@ When I touch it, my fingers come away bloody.@
 `I must have scratched it raw again and again because the burning was unbearable.
 \
-`“[line=4]”@
+`“[line=5]”@
 `Scalding.@
 `So hot the facts refuse to fit together.@
 `Someone else’s presence fouls the room.@
@@ -651,13 +651,13 @@ br
 bg #000000,crossfade,400
 bg "bg/bg_30b",crossfade,400
 `I enter the dark.@
-`My heart’s labor drives me forward without mercy.@
+`My hammering heart drives me onward without mercy.@
 `Further and further.@
 `Thump　　　　　　　　　thump,!w1000THUMP　　　　　　　　　THUMP.@
 `A heartbeat so loud it thins my very existence.@
-`My heart has doubled into twins, pounding and pounding; my single body burns because it cannot contain them.@
+`My heart has multiplied into twins, pounding and pounding; my single body burns because it cannot contain them.@
 br
-`Now I must grant her the ending she desires.
+`Now I must grant her the ending she desires...
 \
 bg #9c0120,crossfade,400
 bg #000000,crossfade,400
@@ -674,14 +674,14 @@ br
 `[line=3]And then, before me,
 `lies the corpse of someone I have never seen.
 \
-`“One, two, three.”@
+`“[line=5]One, two, three.”@
 `I count aloud, checking with my index finger.@
 `My index finger is bright red.@
 `No.@
 `Both my hands are red, as though slathered in crimson paint.@
 `Naturally, there is no paint anywhere nearby.@
 `There are only three human corpses resembling badly made spaghetti—served, of course, with meat sauce.@
-`On the ground lies my knife, engraved with the words Nanatsu-Yoru.
+`On the ground lies my[line=3]knife, engraved with Nanatsu-Yoru.
 \
 `“So that means…”@
 br
@@ -696,14 +696,14 @@ br
 `My business here is finished, so I may as well hurry home to the mansion.
 \
 wave se_09
-`“Tch.@ Someone’s coming.”@
+`“[line=7]Tch.@ Someone’s coming.”@
 `A person approaches through the passage.@
 `What a nuisance.@
 `The place is already overflowing with spaghetti, and now I will have to splash fresh meat sauce over everything.
 \
 `Footsteps draw closer—click, click, click.@
 `The figure that had been nothing but darkness takes shape.@
-`“[line=4]”@
+`“[line=6]”@
 `I tighten my grip on the knife.@
 `The stranger enters the alley.
 \
@@ -720,11 +720,10 @@ br
 \
 playstop
 bg "bg/bg_31b",lshutter,400
-`“Well, that’s a surprise.”@
-`Our voices speak in unison through the dark.@
+`⟪[line=5]Well, that’s a surprise.@⟫Our voices speak in unison through the dark.@
 `I put away my knife, and my enemy does the same.@
 br
-`“I come back and immediately meet one of my own kind.@ Never thought I’d see another murderer.”@
+`“I come back and immediately meet one of my own kind.@ I’ve never met another murderer before.”@
 br
 `The man laughs.@
 `There is no mockery in the smile.@ It is pure delight, like a boxer who has starved himself down to weight and entered the ring to find the finest opponent of his life.@
@@ -732,7 +731,7 @@ br
 `Most likely.@
 `I am wearing the same smile.
 \
-`“Hmph.”@
+`“[line=4]Hmph.”@
 `The man snorts and turns his back on me.@
 `He walks toward the main road.@
 br
@@ -752,7 +751,7 @@ bg "bg/bg_52",lcartain,400
 `I catch the coffee and the change.@
 `The man sits beside me and takes a sip from his can.@
 br
-`What is it with today—this kind of thing keeps happening to me.
+`Today has been nothing but this sort of thing.
 \
 `“Ugh.@ Cigarettes and coffee aren’t much good, are they?@ Why do adults put this stuff in their mouths?”@
 `“They’re training their endurance.@ Adulthood is difficult in all sorts of ways.”@
@@ -792,10 +791,10 @@ bg "bg/bg_52",lshutter,800
 `“Wait.@ Does that mean you could kill the five senses?”@
 `It makes no sense at all.
 \
-`“No.@ I can’t kill something so vague that it can only be described as an abstraction.”@
+`“No.@ I can’t kill something so vague it can only be expressed in abstractions.”@
 `“Bullshit.@ To kill sight, destroy the eyes; to kill hearing, destroy the ears.@ Even I could do that.@
 `But you’re different.@ You can kill a thing without crushing it.@ If you can see those lines, then what you’re killing isn’t the object—it’s the meaning.@
-`So you ought to be able to scrape away things beyond the five senses too—whatever people call a sixth sense for convenience, souls, emotions, things like that.”
+`So you ought to be able to scrape away things beyond the five senses too[line=4]whatever people call a sixth sense for convenience, souls, emotions, things like that.”
 \
 `“Huh.”@
 `He may be right.@
@@ -806,7 +805,7 @@ br
 `The mirage I saw once as a child.@
 `The possessing spirit called something like kurenai sekishu.
 \
-`“But that sounds difficult.@ If I started seeing things like that, I don’t think I could remain capable of rational thought.”@
+`“But that sounds difficult.@ If I started seeing things like that, I don’t think I’d be able to think straight.”@
 `“Naturally.@ You’d be trying to perform God’s calculations with nothing but a human brain.@ Anyone normal would end up a vegetable.”@
 `With that, the man stands and returns to the vending machine.
 \
@@ -819,7 +818,7 @@ br
 `“Been a long time since I talked to a human being.”@
 !w750
 br
-`That is the peculiar thing he chooses to say.
+`That is what he says.
 \
 `“That’s an odd remark.@ Have you been living on a deserted island?”@
 `“Still am.@ This deserted island right here.@ Apparently I’m out of step with society.@ They say anyone who kills for no reason can’t be sane.@
@@ -832,7 +831,7 @@ br
 `“Exactly what I said.@ You mentioned it yourself.@
 `It’s like a majority vote.@ The minority who disagree with everyone else are discarded as ‘useless.@’It doesn’t matter which side is right.@ Anyone who fails to fit with the majority gets shut out, right or wrong.@ There can be no universal standard for being out of step.”
 \
-`“Hmph.@ So what—murderers like us aren’t villains?”@
+`“[line=5]Hmph.@ So what—murderers like us aren’t villains?”@
 `“Who knows.@ I don’t know anything about good or evil.@ I only mean that, logically, we aren’t the ones out of step.@
 `Take boxers, for example.@ It doesn’t have to be boxing, but that makes the idea easy to explain.”
 \
@@ -843,7 +842,7 @@ br
 `“That’s all.@
 `They fight, but they aren’t supposed to finish the other person off.@ Accidents happen, of course, and sometimes somebody dies.@ Yet when that happens, it generally isn’t treated as murder.@ Isn’t that incredible?”@
 br
-`“You mean they’re allowed to kill?”@
+`“[line=3]You mean they’re allowed to kill?”@
 br
 `“No, no.@ They aren’t allowed to kill.@ But they are allowed to kill.@ Quite a contradiction, isn’t it?@ And there’s more.@ Apparently a boxer’s fists can be treated as deadly weapons, so boxers aren’t supposed to get into street fights.”
 \
@@ -853,7 +852,7 @@ br
 `The world is the thing that has strayed from common sense.”
 \
 `Not that I bear any hostility toward boxing.@
-`Of all the professions in the world, few demand such merciless devotion to a personal goal.@
+`Of all the professions in the world, few demand such complete self-denial in pursuit of a single goal.@
 `A boxer rejects every temptation and forges his own body.@
 `Human beings are fascinated by strength they can readily understand.@ That is why contests will never disappear.@
 `Among all competitors, those who choose a sport built on hurting others are possessed by something special.
@@ -877,10 +876,10 @@ br
 `“I don’t know.@ Feels like there was, but I can’t remember.@ How about you?”
 \
 `“Everyone wants something.@ I had simply never found anything that could consume me.@
-`The kind of fever in which you lose yourself—tonight may have been my first.”@
+`The kind of fever in which you lose yourself[line=3]tonight may have been my first.”@
 `“Ha!@ Then when all is said and done, you’re a murderer too.”@
 `“I don’t know.@ There still isn’t enough evidence to be certain.@ What about you?@ Is killing people enjoyable?”@
-`“Are you stupid?@ If it were fun, I’d never stop doing it.@ There’s no reason behind this.@ Once I begin, I become absorbed.@ That’s all.”
+`“[line=4]Are you stupid?@ If it were fun, I’d never stop doing it.@ There’s no reason behind this.@ Once I begin, I become absorbed.@ That’s all.”
 \
 `I see.@
 `That, at least, I can partly understand.@
@@ -889,18 +888,18 @@ br
 `Apparently, that is the distinction between being out of step and being ordinary.
 \
 `“Hey.@ Were you the sort of child who took radios apart?”@
-`“Raydio?@ Never cut up a man by that name.”@
-`“All right, thank you for that appalling joke.@ For the record, mine was a joke too.@ Living things and machines are opposites.@ People like us might actually make fairly good doctors.”@
+`“Ray Dio…?@ No, I’ve never cut up a guy by that name.”@
+`“[line=3]All right, thank you for that awful joke.@ Mine was a joke too, by the way.@ Living things and machines are opposites.@ People like us might actually make fairly good doctors.”@
 `“A doctor, huh?@ I hate drugs.@ When they inject you, you can feel yourself thinning away.@ It’s as if you’ve been reduced to somebody else’s puppet.”
 \
 `Perhaps that is how it feels.@
-`I already have my own doctor, so medicine has been an everyday matter for me for years.
+`I already have my own doctor, so medicine has been an everyday fact of life for me for years.
 \
-`“Ah, well.@ That really was fun.”@
+`“[line=5]Ah, well.@ That really was fun.”@
 `The man rises.@
 br
-`Then he looks down at me with eyes emptied of all emotion.@
-`“Now then.@ There isn’t room for two of us in one city.@ Put two lions in a cage this small and neither can even claim a territory.”@
+`Then he looks down at me[line=4]with eyes emptied of all emotion.@
+`“[line=3]Now then.@ There isn’t room for two of us in one city.@ Put two lions in a cage this small and neither can even claim a territory.”@
 `His hand moves toward his knife.@
 `His killing intent is cold and inorganic.@
 `He genuinely means to fight me to the death.
@@ -910,21 +909,21 @@ br
 `“Why not?”@
 `“As living creatures go, you’re stronger than I am.”@
 br
-`[line=4]But if what we are measuring is the ability to kill.@
+`[line=4]But in a fight to the death.@
 br
 `“I’m better than you.”
 \
-`“[line=4]”@
+`“[line=6], [line=6]”@
 `His teeth grind together.@
-`A twisted smile forms on his face, and then—
-`“Ha—ha, ah—hahahahaha!”@
-`He bursts into thunderous laughter.
+`A twisted smile forms on his face, and then
+`“Ha—aha, ah-hahahahaha!”@
+`he bursts into thunderous laughter.
 \
 `“What?@ Was it really that funny, murderer?”@
 `He keeps giggling in short, nervous bursts.@
 `Just as I decide to leave him to it, the laughter stops dead and he looks at me.@
 br
-`“Yes.@ You’re right.”@
+`“[line=4]Yes.@ You’re right.”@
 br
 `With that, the man turns and walks away alone.
 \
@@ -934,7 +933,7 @@ br
 `Well, here’s hoping we never meet again.”@
 `He raises one hand and departs.
 \
-`“[line=4]”@
+`“[line=8]”@
 `Hearing that we will never meet again leaves me faintly disappointed.@
 `Roughly ten empty coffee cans lie at my feet.@
 `Evidently he will never repay what he owes me.
@@ -948,10 +947,10 @@ bg "bg/bg_47",lshutter,400
 bg "bg/bg_48d",lshutter,400
 bg "bg/bg_33d",lshutter,400
 bg "bg/bg_40d",lshutter,400
-`[line=4]And now I am back in my room.@
+`[line=4]Well, I’m back in my room.@
 br
 `Dawn will come soon.@
-`As I was told, I will forget everything and go to sleep—
+`As I was told, I will forget everything and go to sleep[line=4]
 \
 bg #000000,crossfade,800
 !w3000

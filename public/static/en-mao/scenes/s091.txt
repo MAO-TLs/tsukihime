@@ -2,11 +2,11 @@ monocro off
 play "*6"
 wavestop
 bg "bg/bg_19d",notrans,0
-`“—All right.”@
+`“[line=6]All right.”@
 `There was never any question what I had to do.@
 `I drew the knife from my pocket and walked to the door.@
 ld c,"tachi/ark_t06",crossfade,400
-`“—Shiki?”@
+`“[line=4]Shiki?”@
 `“I’m going to look outside.@ Don’t leave this room until I get back.”@
 `I tore myself away from Arcueid’s questioning gaze and stepped into the hall.
 \
@@ -27,9 +27,9 @@ br
 br
 `The murmur from the floors below sounded like waves upon the sea.@
 br
-`Noise everywhere, yet strangely desolate—a sound that left me terribly alone.
+`Noise everywhere, yet[line=3]a desolate clamor that made me feel terribly alone.
 \
-`“Tch.”@
+`“[line=5]Tch.”@
 `My fingers stiffened around the knife.@
 `A chill shivered across the back of my neck.@
 `Something stirred near my temple.@
@@ -37,14 +37,14 @@ br
 br
 `I endured it and kept walking through the corridor’s soft, tidal murmur.
 \
-`“……”@
+`“[line=6]”@
 `It hurts.@
 `My eyes hurt.@
 `My head grows heavy, while the floor seems to drift beneath me as if I might collapse.@
 br
 `I know this feeling.@ It’s what comes just before I faint from anemia.
 \
-`“Ah—ghh…!”@
+`“Ah[line=3]ghh…!”@
 br
 `It hurt.@
 `When I could bear it no longer, I took off my glasses.
@@ -67,15 +67,15 @@ bg "bg/bg_20b",crossfade,800
 !w1500
 `Ninth floor.
 \
-`“Damn it, what’s taking so long?”@
+`“[line=3]Damn it, what’s taking so long?”@
 `The elevator was moving unbearably slowly.@
-`A shapeless premonition pressed against my back—something fatal, something beyond repair, was happening even now—
+`A shapeless premonition pressed against my back[line=3]something fatal, something beyond repair, was happening even now[line=3]
 br
 `Tenth floor.@
 br
 `Only one floor remained before the elevator reached me.
 \
-`“Hurry.”@
+`“[line=5]Hurry.”@
 `My breath caught.@
 `Only then did I realize it.@ The clamor from below had long since vanished.@
 br
@@ -87,14 +87,14 @@ bg "bg/bg_20b",crossfade,400
 `The narrow iron box was so spotlessly clean it chilled me.
 \
 bg "bg/ima_10b",lcartain,800
-`“……”@
+`“[line=6]”@
 `I stepped in and pressed the button for the tenth floor.@
 `With a heavy mechanical groan, the elevator descended.@
 `A single floor felt impossibly distant.@
 `The indicator light reached ten.@
-`“Finally—”@
+`“Finally[line=3]”@
 br
-`At that instant—
+`At that instant[line=3]
 bg #000000,notrans,0
 playstop
 `The entire world plunged into darkness.
@@ -108,9 +108,9 @@ br
 `Within it.@
 `The only things I could trust were the faintly glowing lines of death.
 \
-`“Why?”@
+`“Wh[line=3]y?”@
 `My breath seized.@
-`Something rustled around me, like insects crawling in every direction.
+`Something[line=3]rustled around me, like insects crawling in every direction.
 \
 br
 br
@@ -122,7 +122,7 @@ br
 br
 `Rustle-rustle-rustle-rustle…!
 \
-`“—!”@
+`“[line=5]!”@
 `A scream rose in my throat, but I forced it down.@
 `“Look carefully first.”@
 `Just as my teacher had taught me long ago.@
@@ -140,7 +140,7 @@ br
 br
 br
 br
-`Rustle, rustle, scritchscritchscritch—
+`Rustle, rustle, scritchscritchscritch[line=6]
 \
 `“Eek…”@
 `I clenched the knife and went rigid.@
@@ -148,21 +148,21 @@ br
 `Something was truly there.@
 `It felt as though hundreds of enormous cockroaches—or things like them—were clinging to the outside of the car.
 \
-`“I can’t stay here.”@
+`“[line=3]I can’t stay here.”@
 `The indicator had stopped at ten.@
 `If I could only open the doors, the tenth-floor corridor would lie beyond them.@
-`“I’ll cut them.”@
+`“[line=4]I’ll cut them.”@
 `I muttered the words.@
 `I drove the knife into the one visible line and severed the elevator doors.
 \
 monocro #0f00f0
 bg "bg/bg_20b",lshutter,800
 `“Tch…!?”@
-`The instant the doors opened, a dense, oppressive stench enveloped me.@
+`The instant the doors opened, something[line=4]a dense, oppressive stench—closed around me.@
 `The foul smell saturated the entire tenth floor.@
-`It was so thick that merely breathing seemed to clog my windpipe.
+`Somehow[line=3]the stench was so thick that merely breathing seemed to clog my windpipe.
 \
-`“……”@
+`“[line=5]”@
 `One step would carry me into the tenth-floor corridor.@
 `Far away, an emergency-exit sign glowed, casting a dim pool of light.@
 `Everything else had been painted solid black.@
@@ -203,12 +203,12 @@ br
 `There was a reason.@ If I moved, I felt certain I would see something too terrible to name.
 \
 `“Hah—hah.”@
-`Still, I had to get back upstairs.@
+`Still[line=3]I had to get back upstairs.@
 `Remaining on this floor was even worse.@
 br
 `Every second I stood still felt as though it shaved a year from my life, while death hurtled toward me with impossible speed.
 \
-`“Hah—hah—hah.”@
+`“Hah, hah, hah[line=3]hah.”@
 `Fortunately, the illuminated exit sign showed me where the stairs were.@
 `At the far end of the corridor.@
 `If I could reach that green light, I could climb back upstairs.@
@@ -225,10 +225,10 @@ br
 \
 `Then.@ A sound came from beneath my foot.
 \
-`“……”@
+`“[line=5]”@
 `The corridor seemed to be flooded.@
 `Hard objects knocked against my feet as I walked.@
-`“……”@
+`“[line=5]”@
 `Still I made no sound.@
 `Enduring the stench that wrapped my entire body, I pressed on toward the exit sign.@
 `Only a few meters remained.@
@@ -241,7 +241,7 @@ br
 `A dry crack.@
 `The harsh panting of beasts.
 \
-`“Wha—”@
+`“Wha[line=5]”@
 `Beneath the green emergency light.@
 `All manner of animals swarmed over something shaped like a human being.@
 br
@@ -255,7 +255,7 @@ br
 `Scrape.@
 `A sound came from the elevator that had brought me down.
 \
-`“Hah—”@
+`“Hah[line=5]”@
 `I looked back.@
 `Perhaps my eyes had adjusted to the darkness.@
 `Or perhaps the glow of the emergency light had shown me what the corridor I had crossed had become.
@@ -266,7 +266,7 @@ bg "bg/bg_20b",crossfade,400
 `Human arms and legs floated in it.@
 `The flooded floor.@ The hard things that had knocked against my feet.@
 `Those were what I had been walking through.@
-`“……”@
+`“[line=6]”@
 `My mind went white.@
 `Only the floor was red.@
 `The walls and ceiling were plastered with black things.
@@ -275,13 +275,13 @@ bg "bg/bg_20b",crossfade,400
 `They were black to begin with.@
 `They had no fixed shape, clinging like liquid to every wall and every inch of ceiling.@
 `I knew they were animals only because of their eyes.@
-`Bright, predatory eyes of countless shapes, all fixed upon me—the one living human left—
+`Bright, predatory eyes of countless shapes, all fixed upon me—the one living human left[line=5]
 \
 `“Eek…”@
 `I smothered the scream.@
-`The beasts stared without moving, holding their breath as if waiting to pounce the moment I made a sound.@
-`“Hah…@
-`hah…”@
+`The beasts stared without moving.@
+`They held their breath as if waiting to pounce the moment I made a sound.@
+`“Hah[line=4]hah.”@
 `I somehow brought my ragged breathing under control.@
 `I could feel with sickening certainty that one cry would bring them all down upon me.@
 `The things on the walls did not share a single kind of eye.@
@@ -304,18 +304,18 @@ br
 `Grind, grind, gr-ind—
 \
 `The sounds beneath the emergency light dwindled.@
-`The beasts were probably finishing the last corpse.@
+`Probably[line=3]the beasts were finishing the last corpse.@
 `“……”@
 `My breath caught.@
 `The skittering began to draw nearer.@
-`It seemed they had found their next quarry: Shiki Tohno.
+`It seemed[line=3]they had found their next quarry: Shiki Tohno.
 \
 `“Ah…”@
 `Still my feet would not move.@
 `This place belonged so completely to another world that my mind could no longer function.@
 br
 `[line=3]I had made a mistake.@
-`I should never, under any circumstances, have come to this floor—
+`I should never, under any circumstances, have come to this floor[line=4]
 \
 monocro off
 bg #000000,notrans,0
@@ -325,9 +325,9 @@ br
 br
 `Click, click, click.@
 `Then I heard a strangely familiar sound.@
-`Ordinary human footsteps, utterly unremarkable—the commonplace sound of the world I had inhabited only moments ago—
+`Ordinary human footsteps, utterly unremarkable—the commonplace sound of the world I had inhabited only moments ago[line=3]
 \
-`“Aaaaaah—!”@
+`“Aaaaaah[line=5]!”@
 `My numbed mind sent strength into my frozen legs.@
 `I ran.@
 `Splashing scarlet blood across the corridor, I raced for the emergency light.@
@@ -338,6 +338,6 @@ br
 `At my movement, the black things covering every wall and ceiling gathered into a wave and surged after me.@
 `“Nngh!”@
 `I sprinted for the stairs with all my strength.@
-`But the black wave was many times faster than I was, and in an instant, my body was—
+`But the black wave was many times faster than I was, and in an instant, my body was[line=3]
 \
 wavestop

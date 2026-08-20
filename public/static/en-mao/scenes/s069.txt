@@ -7,7 +7,7 @@ play "*2"
 `The rain seemed to have stopped; its steady drumming was gone.@
 `The sky outside remained overcast, and the sunlight through the window was dim.@
 br
-`“Haaah…”@
+`“H[line=4]ah.”@
 br
 `With a long sigh, I sat up in bed.@
 `I had slept poorly.@
@@ -17,7 +17,7 @@ br
 `Reason and memory were badly designed for moments like this.@
 `They insisted on preserving the very things I most wanted to forget.
 \
-`“It was only a dream—how long am I going to let it torment me?”@
+`“It was only a dream[line=3]how long was I going to let it torment me?”@
 `Yes, only a dream.@
 `I needed to forget it, and quickly.@
 br
@@ -30,8 +30,8 @@ br
 ld c,"tachi/his_t01",lshutter,400
 `「[line=3]失礼します」
 ld c,"tachi/his_t04",crossfade,400
-`“Master[line=3]Shiki, you are awake?”@ “Yeah.@
-`I’d been asleep since yesterday evening, so I woke up early.@ What about you, Hisui?@ Is something happening this early?”
+`“Master[line=3]Shiki.@ You are awake?”@
+`“Yeah; I’d been asleep since yesterday evening, so I woke up early.@ What about you, Hisui?@ Is something happening this early?”
 \
 ld c,"tachi/his_t05",crossfade,400
 `“…”@
@@ -51,15 +51,15 @@ cl c,lshutter,800
 `Hisui walks soundlessly away.@
 `Then, abruptly, she turns back.@
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki—if time permits, I could prepare a bath for you.”@ “A bath?@
-`This early?”@
+`“Master Shiki.@ If time permits, I could prepare a bath for you.”@
+`“A bath this early?”@
 `“Yes.@ Master Shiki is extremely dirty.@ I believe he should wash before leaving for school.”@
-`As expressionless as ever, Hisui delivers this judgment in a perfectly even voice.
+`As expressionless as ever, Hisui delivered this judgment in a perfectly even voice.
 \
 `Now that she mentioned it, I was filthy.@
 `I had apparently collapsed in a park yesterday, so that was hardly surprising.@
 br
-`“[line=3]All right.@ Sorry, but would you prepare it?@ At this hour I’ll still have plenty of time to reach school.”@
+`“[line=3]All right; sorry, but would you prepare it?@ I still have plenty of time before school.”@
 `“Certainly.@ Please come to the bathroom in approximately twenty minutes.”
 \
 cl c,crossfade,800
@@ -76,13 +76,13 @@ br
 `If one day of life in an unfamiliar mansion was enough to produce that, I dreaded what the future held.
 \
 `“Haaah.@ I really need to pull myself together.”@
-`I pour cold water over my head once more and begin washing.@
-`“Ow[line=3]”@
-`The towel merely touches my throat, and pain lances through it.@
+`I poured cold water over my head once more and began washing.@
+`“Ow………!”@
+`The towel merely touched my throat, and pain lanced through it.@
 `“What is this?”@
-`I examine my neck in the mirror.@
+`I examined my neck in the mirror.@
 `Why?@
-`My throat is red and badly swollen.@
+`My throat was red and badly swollen.@
 `As though repeated vomiting had torn it raw.
 \
 bg "bg/bg_40a",lcartain,1500
@@ -107,7 +107,7 @@ ld c,"tachi/koha_t05",crossfade,400
 ld c,"tachi/koha_t01a",crossfade,400
 `“Please wait a moment.@ I’ll start preparing breakfast now.”@
 cl c,crossfade,400
-`“What—?”@
+`“What[line=3]?”@
 `Breakfast.@
 `Meaning, in other words, something I would have to eat.@
 bg #9c0120,crossfade,400
@@ -118,9 +118,9 @@ br
 \
 ld c,"tachi/koha_t01a",crossfade,400
 `“The same Western-style breakfast as yesterday will be fine, won’t it?”@
-`“Yeah, either kind is fine.@ Right—breakfast.@ The bath felt so good I forgot.”@
+`“[line=2]Yeah.@ Either kind is fine.@ Right, breakfast.@ The bath felt so good I forgot.”@
 `“Really?@ You didn’t eat last night either, so Hisui and I wondered if your growling stomach had awakened you.”@
-`“Sorry, wrong answer.@ I’ve always eaten very little.@ Even as a child, I often skipped a meal or two.”
+`“Afraid not.@ I’ve always eaten very little, and even as a child I often skipped a meal or two.”
 \
 `“I see.@ Now that you mention it, you do have a fine, lean body.@ Are you perhaps a vegetarian?”@
 `“I’m not sure.@ I suppose I mostly ate vegetables at the Arimas’.”@
@@ -135,13 +135,13 @@ br
 `Then a hand abruptly clamps around my arm.@
 ld c,"tachi/koha_t04",crossfade,400
 `“Shiki!”@
-`“What?”@
+`“[line=3]What?”@
 `It was unbelievable.@
 `Kohaku was angry.
 \
 `“How can you say that?@ Haven’t you looked in a mirror this morning?”@
-`“I did, in the bathroom…”@ “No, you didn’t!@
-`If you had looked at your face even once, you could never say such a thing.”@
+`“I did, in the bathroom…”@
+`“That’s a lie!@ If you had looked at your face even once, you could never say such a thing!”@
 `Kohaku was genuinely furious.@
 `Come to think of it, my face in the bathroom mirror had looked beyond pale—almost gray.
 \
@@ -172,8 +172,8 @@ cl c,notrans,0
 `“…”@
 `The silence is awkward.@
 ld c,"tachi/aki_t01a",crossfade,400
-`“Brother, about last night—is it true that you collapsed in the park?”@ “Apparently.@
-`I don’t remember much myself.@ But if Kohaku and Hisui say so, I suppose it must be true.”
+`“Brother, about last night.@ Is it true that you collapsed in the park?”@
+`“Apparently.@ I don’t remember much myself, but if Kohaku and Hisui say so, I suppose it must be true.”
 \
 ld c,"tachi/aki_t03a",crossfade,400
 `“Please don’t speak as though it happened to someone else.@ You’re in poor health, Brother.@ If you sense danger, call the estate and I’ll send someone to collect you at once.”@

@@ -5,16 +5,16 @@ wavestop
 bg "bg/bg_33d",crossfade,800
 waveloop se_11
 `The door creaks open.@
-`I have made it back to the mansion, though my body is leaden and my thoughts barely move.@
+`I make it back to the mansion, my body leaden and my thoughts barely moving.@
 `My footsteps scrape and drag.@
-`In the moonlight, my long shadow looks like the ghost of some exhausted man.
+`In the moonlight, my lengthened shadow looks like a worn-out ghost.
 \
-`“Ngh—!”@
+`“Ngh[line=11]!”@
 `My left arm throbs where Yumizuka tore it open.@
 `The bleeding stopped long ago.@ A grinding ache remains, but the wound itself cannot be very deep.@
-`“……”@
+`“[line=11]”@
 `I make for the stairs.@
-`I do not know the first thing about treating a wound.@ All I want is to reach my room one second sooner and fall asl—
+`I do not know the first thing about treating a wound.@ All I want is to reach my room one second sooner and fall aslee[line=3]
 br
 `“Huh…?@ Bro—ther?”@
 br
@@ -23,26 +23,26 @@ br
 \
 `“Akiha?”@
 `I raise my head.@
-`There she stands, having just come down the stairs.@
+`There[line=3]Akiha stands, having just come down the stairs.@
 ld c,"tachi/aki_t23b",lshutter,400
 `“Ah.”@
 `Akiha says nothing.@
 `Some part of me notices that something is wrong with her, but I cannot bring myself to care.@
 `I stagger onward.@
 `My room is where I need to go.@
-`To reach it, I have to pass the dazed Akiha and climb the stairs—
+`To reach it, I have to pass the dazed Akiha and climb the stairs[line=3]
 \
 ld c,"tachi/aki_t17b",crossfade,400
 `“W-wait, Brother!@ Where have you been at this hour of the night?”@
-`“……”@
+`“[line=7]”@
 `Who knows.@ For that matter, what is Akiha herself doing here so late?@
 `She was creeping down the stairs without a sound, almost as if she had been about to slip outside.
 \
 `“It’s none of your business, Akiha.@ I’m going to my room, so get out of my way.”@
-`“You say I’m in your way, but I was only—”@
+`“You say I’m in your way, but I was only[line=3]”@
 `Halfway through, Akiha catches her breath.@
 ld c,"tachi/aki_t11b",crossfade,400
-`“Brother, your body—”@
+`“Brother, your body[line=3]”@
 `The shock drains from Akiha’s eyes, leaving them suddenly still.
 \
 `“Your left arm is wounded.@ And now that I look, your clothes are filthy in places.”@
@@ -52,7 +52,7 @@ ld c,"tachi/aki_t03b",crossfade,400
 `“……”@
 `Unable to answer, I turn my eyes away from her.@
 cl c,lshutter,400
-`I could never explain what happened tonight; more than that, I did not want to tell anyone what passed between Yumizuka and me.
+`I could never explain what happened tonight; more than anything[line=3]I did not want to tell anyone what passed between Yumizuka and me.
 \
 `“Nothing.@ Some drunk picked a fight with me while I was walking through town.@ That’s all.”@
 `I give her the barest answer and walk past.@
@@ -64,7 +64,7 @@ ld c,"tachi/aki_t12b",lshutter,400
 `“……”@
 `With a face like that, she only makes it harder for me to tell her the truth.
 \
-`“……”@
+`“[line=5]”@
 `“……”@
 `Akiha and I remain there in silence.@
 `Several minutes pass before she sighs and lets her shoulders fall in surrender.@
@@ -93,13 +93,13 @@ br
 ld c,"tachi/aki_t04b",lshutter,400
 `“There, all done.@ That uniform is ruined.@ I’ll have a new one prepared by tomorrow.”@
 `“……”@
-`My reason is still numb.@
+`My mind is still numb.@
 `Akiha really does ask nothing.@
 `She could have left this to Kohaku or Hisui.@ Yet she treats me herself with painstaking care, even smiling as she works.@
 `That gentleness—so unlike the Akiha I have known these last three days—reminds me of the girl she used to be.
 \
 ld c,"tachi/aki_t21b",crossfade,400
-`“Brother?@ The treatment is over, so please go back to your room.@ You said you would rather sleep than waste time with someone like me, didn’t you?”@
+`“Brother?@ The treatment is over, so please go back to your room.@ You said you would rather sleep than keep someone like me company, didn’t you?”@
 `Apparently still nursing a grudge over what I said earlier, Akiha delivers this with an aggrieved look.@
 `“……”@
 `Even with my mind barely working, I understand how worried she has been.@
@@ -107,44 +107,44 @@ ld c,"tachi/aki_t21b",crossfade,400
 `Maybe I really am out of my mind.@ The feeling comes out more honestly than it ever would otherwise.
 \
 ld c,"tachi/aki_t24",crossfade,400
-`“What—”@
+`“What[line=4]”@
 `Akiha’s face flushes, and she immediately draws away from me.@
 ld c,"tachi/aki_t16b",crossfade,400
-`“Is that so?@ I-it was hardly anything worth thanking me for.@ You would help me if I were hurt, wouldn’t you?”@
+`“[line=4]Is that so?@ I-it was hardly anything worth thanking me for.@ You would help me if I were hurt, wouldn’t you?”@
 `“Of course I would.@ But I’m still glad you did this.”@
 `I say it haltingly, and only then do I understand.@
-`I may be too numb to feel much of anything right now, but I truly am glad that it was Akiha who cared for me—not Kohaku, not Hisui, but Akiha.
+`I may be too numb to feel much of anything right now, but I truly am glad that it was Akiha who cared for me[line=3]not Kohaku, not Hisui, but Akiha.
 \
 ld c,"tachi/aki_t24",crossfade,400
-`“D-don’t say such idiotic things—go back to your room at once!@ Unless there is somewhere else you’ve been hurt?”@
+`“D-don’t say such idiotic things[line=3]go back to your room at once!@ Unless there is somewhere else you’ve been hurt?”@
 `Akiha averts her eyes as she speaks.@
 cl c,lshutter,800
-`“What?@ Brother, there’s blood on your shoulder—”
+`“What?@ Brother, there’s blood on your shoulder[line=4]”
 \
 `Akiha lays a hand on my shoulder.@
 `My shirt slips aside.@
 `My shoulder and the side of my neck lie bare.@
 `The marks of Yumizuka’s bite remain there, crusted with dried blood.
 \
-`“Brother, this is—”@
+`“Brother, this is[line=8]”@
 `For one instant.@
 `The air freezes.
 \
 `“……”@
 `Two fang marks pierce the side of my neck.@
 `Unable to explain how they came to be there, I say nothing.@
-`“……”@
-`Still holding her breath, Akiha slowly lets her body lean toward mine.@
+`“[line=7]”@
+`Still holding her breath, Akiha slowly leans her weight into me.@
 `“Brother, this is still bleeding.”@
-`Her voice is painfully unsteady.@
+`Her words come painfully halting.@
 `The hand on my shoulder tightens.@
-`Her falling body stops a hair’s breadth from touching mine.
+`She stops with her body just short of touching mine.
 \
-`“What should I do—we have to stop the bleeding, don’t we?”@
+`“What should I do—we have to stop the bleeding, don’t we[line=4]?”@
 `Akiha sounds delirious with fever.@
-`“Akiha?”@
-`A nameless sense that something is wrong seizes me, and I call her name.@
-`“Mm—”@
+`“[line=5]Akiha?”@
+`A sense of wrongness I cannot name seizes me, and I call to her.@
+`“Mm[line=6]”@
 `She does not answer.@
 `Instead, something glides along my skin.@
 `Warmth spreads across the side of my neck.
@@ -160,14 +160,14 @@ br
 `My numb mind cannot quite comprehend what is happening.@
 `Lips touch me with timid care.@
 `A red tongue, almost frightened, laps away the trail of blood.@
-`A shiver runs through her.@ Akiha’s warmth presses near as trembling fingers cling to me.
+`A faint trembling.@ Akiha’s warmth clings to me through shaking fingers.
 \
-`“Ah—!”@
+`“Ah[line=8]!”@
 `Akiha is licking the blood from my neck.@
 `It should mean nothing.@
 `Nothing more than something a child might do to stop the bleeding.@
 `Yet the sensation is so sweet that I cannot speak.@
-`Perhaps Akiha feels the same; without any reason at all, she fits her teeth against the fang marks in my neck.
+`Perhaps Akiha feels it too, because for no reason at all[line=3]she fits her teeth against the fang marks in my neck.
 \
 !w3000
 `[line=4]Then, without warning.@
@@ -179,20 +179,20 @@ br
 `Something clatters in the lobby.
 \
 ld c,"tachi/aki_t24",lshutter,400
-`“—!”@
+`“[line=7]!”@
 `Akiha tears herself away.@
-`“I-I’m sorry, Brother!”@
+`“I[line=4]I’m sorry, Brother[line=4]!”@
 cl c,lshutter,400
 `Her face blazing red, Akiha runs away.
 \
-`“What—”@
+`“Wh[line=8]at?”@
 `Left alone in the sitting room, I touch the wound on my neck.@
 `A faint trace of Akiha’s warmth still lingers there.@
 `“You didn’t have to run away.”@
 `I murmur through the fog in my head, then shake my head.@
 `Licking a wound was something we often did as children.@ Whenever Akiha or Hisui got hurt, I would do it without a second thought.@
 `But that was only possible through a child’s innocence.@
-`Now that we have grown into a man and a woman, there is no way we could tend each other like that.
+`Now that we are grown—a man and a woman—there is no way we could tend each other like that.
 \
 `“What got into Akiha?@ She was acting strange.”@
 `Though I am hardly one to talk.@
@@ -203,15 +203,15 @@ bg #000000,crossfade,800
 bg "bg/bg_40d",lcartain,800
 `At last I return to my room.@
 `I make it as far as the bed and collapse.@
-`“Mm……”@
+`“[line=6]Mm.”@
 `Sleep shears away my consciousness.@
 `It seems my body was exhausted, not my reason.@
 `To repair itself, it begins shutting down at once.@
-`Before it can.@ I breathe out and trail my fingers once more along my neck.
+`Before that happens.@ I let out a breath and run my fingers once more along my neck.
 \
 `“Ah.”@
 `I am a little surprised.@
-`Akiha’s lips have stopped the bleeding from the two punctures.
+`There is no longer any blood seeping from the two punctures.@ Akiha’s lips have stopped it[line=4]
 \
 bg #000000,crossfade,800
 playstop
@@ -237,9 +237,9 @@ play "*2"
 `[line=3]No.@
 `Maybe there had been no saving Yumizuka after what she became.@
 `She had stopped being alive long before.@
-`I can understand that much: all I did was turn a corpse that could still walk around like anyone else into a corpse that behaved properly.@
+`I can understand that much: all I did was turn a corpse that could still move like anyone else back into a proper corpse.@
 br
-`And yet—
+`And yet[line=3]
 br
 wave se_04
 `“Excuse me, Master Shiki.”@
@@ -247,19 +247,19 @@ wave se_04
 \
 ld c,"tachi/his_t01",lcartain,800
 `“Good morning, Master Shiki.@ How are you feeling today?”@
-`“Mm—I think all that sleep helped, because I don’t feel bad.”@
+`“Mm—all that sleep must have helped, since I feel fine.”@
 `“I see.@ I am relieved to hear it.”@
 `With her expression perfectly still, she hardly looks relieved.
 \
 `“……”@
-`But I found relief.@
-`Only one night had passed since it happened.@ Somewhere inside, I had resigned myself to never escaping that mad world.@
+`Even so, I feel relieved.@
+`Only one night has passed since it happened.@ Somewhere inside, I had resigned myself to never escaping that mad world.@
 `“Thank you, Hisui.@ Knowing you, you probably checked on me again and again this morning, didn’t you?@ I appreciate your concern.”@
 ld c,"tachi/his_t03",crossfade,400
-`“No.@ It is my duty to attend to you, Master Shiki.”@
+`“[line=4]No.@ It is my duty to attend to you, Master Shiki.”@
 `Something in Hisui’s expression looks almost pleased.
 \
-`That tiny change in her face brings me a little relief.@
+`That tiny change in her face makes me feel a little less lost.@
 `I slept here in my own bed, and Hisui came to wake me as she always does.@
 `Something so small is enough to make me feel that I have truly returned to an ordinary life.
 \
@@ -274,7 +274,7 @@ ld c,"tachi/his_t04",crossfade,400
 `“Through my own failings, Miss Akiha learned about last night.”@
 `“Last night—what do you mean?”@
 `“That you went out, Master Shiki.”@
-`“……”@
+`“[line=4]”@
 `I look away without meaning to.@
 `I thought I had covered my tracks, but Hisui saw through me after all.
 \
@@ -286,7 +286,7 @@ ld c,"tachi/his_t01",crossfade,400
 `After I came home in a stupor, she was the one who treated my wound.
 \
 `“Master Shiki?@ On that subject, should I expect this to happen again?@ I cannot prevent Master Shiki from leaving, but if nights like the last one continue, I will be obliged to inform Miss Akiha.”@
-`“—No, nothing like yesterday will happen again.@ It all ended yesterday.@ There won’t be any more phone calls.”
+`“[line=4]No, nothing like yesterday will happen again.@ It all ended yesterday.@ There won’t be any more phone calls.”
 \
 `[line=3]Yes.@ It really is over.@
 `Only after saying it aloud does the ending become real.@
@@ -297,7 +297,7 @@ ld c,"tachi/his_t07",crossfade,400
 `“……”@
 `Hisui watches me with pain in her eyes.@
 `Do I really look so awful that even Hisui has to make that face?@
-`“Well, it’s getting late, so I should get up.@ Hisui, is Akiha home today?@ She’s always busy—does she have lessons even on holidays?”@
+`“Well, it’s getting late, so I should get up.@ Hisui, is Akiha home today?@ She’s always busy[line=3]does she have lessons even on holidays?”@
 ld c,"tachi/his_t01",crossfade,400
 `“Miss Akiha has an engagement today despite the holiday, but she will remain at the mansion.”@
 `“……?”@
@@ -316,7 +316,7 @@ ld c,"tachi/his_t01",lshutter,800
 `“Yes?@ What is it, Master Shiki?”@
 `“I forgot to say it.@ Thanks for coming to wake me.@ And though it’s late—good morning, Hisui.”@
 ld c,"tachi/his_t03",crossfade,400
-`“Yes.@ I hope you have a pleasant day, Master Shiki.”@
+`“[line=3]Yes.@ I hope you have a pleasant day, Master Shiki.”@
 cl c,lshutter,800
 `Well, then.@
 `I had better dress quickly and head for the sitting room myself.

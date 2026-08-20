@@ -2,7 +2,7 @@ phase "bg/ima_02",l,cel,12a,12
 bg "bg/bg_18a",crossfade,400
 `Without Ciel, the room feels larger.@
 `It is barely past seven in the morning.@
-`Perhaps because of last night’s exertions, my body is still clamoring for sleep.
+`My body still wants to sleep, probably because of last night’s exertions.
 \
 `Monday.@
 `Ordinarily I would have to leave for school soon, but Ciel sternly ordered me not to step outside this room.@
@@ -32,7 +32,7 @@ br
 `I seek eternity.@
 `Once, I sought eternity for no reason at all.@
 br
-`What a pure and stainless will that was.
+`How pure that will had been, how utterly untainted.
 \
 `I have changed.@
 `I have changed.@
@@ -43,27 +43,27 @@ br
 `That woman.@
 `It is because of that woman.@
 br
-`Because of her—I am no longer pure.
+`Because of her[line=4]I am no longer pure.
 \
 `Yet what am I to do?@
 `Human beings lack the strength to live for a thousand years.@
 `Neither body nor mind can withstand such erosion.@
-`Even an immortal body gained as one of the vampiric species cannot halt the aging of the mind.
+`Even an immortal body gained as a vampire cannot halt the aging of the mind.
 \
 `Aging can be prevented.@ But that is stasis.@ A mind held in stasis has no value.@
-`I must continue to exist without compromising the purity of the self I am.@
+`I must continue to exist without compromising the purity of who I am.@
 br
-`Otherwise—I shall never reach that woman.
+`Otherwise[line=3]I shall never reach that woman.
 \
 `Then reincarnation remains the answer.@
-`I shall be born anew from the beginning, become myself, and die once more.@
+`I shall be born anew from nothing, become myself, and die once more.@
 `Within that cycle, I can continue to exist without diluting the purity of what I am.@
 br
 `My only regret is that my former purity has already been lost.@
 `Like all the other rabble, I have begun to desire continued existence as the self I am now.
 \
 `For the first time, I learned hatred.@
-`That hatred too is a corruption that could never have arisen without that woman.
+`That too was a corruption that could never have arisen without that woman.
 \
 bg #ffffff,crossfade,800
 bg "bg/bg_18a",crossfade,800
@@ -73,7 +73,7 @@ wave se_01
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_18a",notrans,0
-`“That woman?”@
+`“That[line=2]woman?”@
 br
 `[line=3]Throb.@
 br
@@ -82,7 +82,7 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_18a",notrans,0
 bg "bg/bg_18e",crossfade,1500
-`“It—hurts.”@
+`“It[line=4]hurts.”@
 br
 `[line=8]Throb.
 \
@@ -96,9 +96,9 @@ br
 \
 br
 quakex 4,100
-`“Gah—!”@
+`“Gah[line=3]!”@
 br
-`[line=3]What was that headache?@
+`[line=3]What was that just now—that headache?@
 br
 `This—this isn’t normal!
 \
@@ -106,17 +106,17 @@ bg #000000,notrans,0
 wait 100
 bg "bg/bg_18a",notrans,0
 bg "bg/bg_18e",crossfade,1500
-`“Ah—gh—!”@
+`“Ah, gh…!”@
 `I clutch my head in both hands.@
 `It hurts.@ Nothing like the pain before.@
-`My head.@ It feels as though someone is striking it with a hammer over and over.
+`My head.@ Pain like someone hammering my skull over and over.
 \
 quakey 2,100
-`“Ghh—gah—!”@
-`Stop—stop
-`If this keeps going, my head will split apart.@
+`“Ghh[line=4]gah…!”@
+`Stop, stop it
+`Any more—if this keeps going, my skull will split.@
 br
-`My skull is breaking—
+`My skull, breaking, apart[line=5]
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_18e",notrans,0
@@ -126,7 +126,7 @@ bg #000000,notrans,0
 wait 100
 bg "bg/bg_18e",notrans,0
 quakey 2,100
-`“Gii—!”@
+`“Ghk[line=4]!”@
 `My body convulses.@
 `It hurts.@ Why won’t it stop?
 \
@@ -135,21 +135,21 @@ bg #000000,notrans,0
 wait 100
 bg "bg/bg_18e",notrans,0
 quakey 3,100
-`“Hh[line=2]”@
+`“Hh[line=5]”@
 `The pain is so unbearable that I smash my head against the table.@
 br
 `A drop falls.@
 `The glass tabletop has shattered.@
 `Blood runs from my forehead.@
 `But this doesn’t hurt at all.@
-`Compared with the headache that comes without cause, this is nothing—
+`That is nothing beside the headache that comes when I do nothing[line=3]
 \
 !w1000
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_18e",notrans,0
 quakey 3,100
-`“It—hurts.”@
+`“[line=7]Hurts.”@
 `I can’t endure it.@
 `I can’t even lose consciousness.@
 `Every few seconds?@ Minutes?@ Or hours?
@@ -159,7 +159,7 @@ bg #000000,notrans,0
 wait 100
 bg "bg/bg_18e",notrans,0
 quakey 2,100
-`“—Help…”@
+`“[line=3]Help…”@
 `It hurts.@
 `Desperate to do something, I stab the knife into my palm again and again.@
 `No use.@ It doesn’t hurt at all.
@@ -169,7 +169,7 @@ bg #000000,notrans,0
 wait 100
 bg "bg/bg_18e",notrans,0
 quakey 3,100
-`“—”@
+`“[line=7]”@
 `Ciel—Ciel still hasn’t returned.@ The clock says it isn’t even noon.@
 `Only one hour has passed since I woke.
 \
@@ -185,24 +185,24 @@ waveloop se_02
 !w5000
 monocro #0000ff
 bg "bg/bg_18e",crossfade,1500
-`“—”@
+`“[line=9]”@
 `Throb, throb, throb.@
 `I no longer know how many hours I have endured this pain.@ I passed my limit long ago.@
 `If I bear it any longer, I’ll die before Ciel returns.@
 br
-`“[line=4]Hah.”@
-`This room gives me headaches.@
+`“[line=7]Hah.”@
+`Staying in this room brings the pain.@
 `Outside.@
 `If I don’t get outside, I’ll go mad.
 \
-`“I…@ can’t.”@
-`Ciel told me not to leave this room.@
-`But if I stay—before Roa ever takes me over, I will die.
+`“No[line=4]”@
+`Ciel told me.@ I must not leave this room.@
+`But[line=3]if I stay here, I’ll die before Roa ever takes me over.
 \
-`“I said—I can’t—”@
+`“I said no[line=3]I said…”@
 `Yet my unsteady feet carry me toward the front door.@
 br
-`Then, for no reason at all.@
+`All at once, for no reason.@
 br
 `I am seized by the need to see the golden moon.
 \
@@ -227,7 +227,7 @@ br
 `Perhaps its light has blessed me.@
 `The crushing headache is gone, leaving my thoughts dim and shapeless, as though I were asleep.@
 br
-`Beneath the moon,
+`Beneath the moon.@
 `I walk as though something is drawing me onward.
 \
 bg #000000,lcartain,1500
@@ -235,7 +235,7 @@ bg "bg/bg_27b",lcartain,1500
 `A park at night.@
 `In a world where everything else swims out of focus, one figure alone stands perfectly clear.@
 br
-`“—”@
+`“[line=6]”@
 `Somehow.@
 `The me who isn’t me must have wanted this to happen.
 \
@@ -257,22 +257,22 @@ br
 \
 play "*9"
 ld c,"tachi/ark_t01a",crossfade,400
-`“It’s been a while.@
-`Beautiful moon tonight, Shiki.”@ “Arcueid…@ I thought you’d gone home.”@
+`“It’s been a while.@ Beautiful moon tonight, Shiki.”@
+`“[line=2]Arcueid…@ I thought you’d gone home.”@
 ld c,"tachi/ark_t05b",crossfade,400
 `“No.@ I still haven’t accomplished what I came here to do.@ I can hardly go home now, can I?”@
 br
-`[line=3]Without the slightest ceremony,
+`[line=3]Casually.@
 `Arcueid fixed her crimson eyes on me.
 \
-`“—!”@
+`“[line=5]!”@
 `My breath stops.@
 `The alien pressure is beyond anything I felt facing Ciel.@
-`This is what it means to have Arcueid for an enemy.@
-`“—”@
+`This[line=3]is what it means to have Arcueid for an enemy.@
+`“[line=6]”@
 `I can’t breathe.@
 `I can’t move my throat.@
-`One unnecessary twitch, and my head will be torn from my shoulders.
+`One unnecessary twitch[line=3]and my head will be torn from my shoulders.
 \
 `“Poor, foolish Shiki.@ None of this would have happened if you hadn’t taken that woman’s side.”@
 `Arcueid’s eyes narrow with the faintest pity—and the delight of a child discovering the most marvelous new toy.@
@@ -286,10 +286,10 @@ ld c,"tachi/ark_t05c",crossfade,400
 `The certainty that my entire spine is about to be ripped out jolts me fully awake.@
 br
 `[line=3]Arcueid is standing before me, intent on killing me.@
-`The distance—seven meters, maybe.@
+`The distance[line=3]seven meters, maybe.@
 `Damn it—a hundred meters wouldn’t be safe against her, and I have only seven.
 \
-`“What kind of stupid nonsense are you talking about?”@ I check that the knife is still in my pocket and play dumb.@
+`“[line=3]What kind of stupid nonsense are you talking about?”@ I check that the knife is still in my pocket and play dumb.@
 `“It won’t work.@ Roa was a man I turned into a Dead Apostle myself.@ I can easily feel where the power he stole from me is still beating.”@
 br
 `[line=3]Oh.@
@@ -310,7 +310,7 @@ br
 `The vampire called Roa is struggling to awaken.
 \
 `“But there’s no mistaking Roa’s presence inside you.@ He must have transferred himself into you back then.@ I don’t know how it happened, though.”@
-`“—”@
+`“[line=7]”@
 `It hurts.@
 `Each time Arcueid speaks his name, his memories thrash through my brain.
 \
@@ -322,7 +322,7 @@ br
 br
 `Throb.@
 br
-`Throooooob—
+`Throooooob[line=6]
 \
 bg #ffffff,crossfade,800
 bg "event/ark_e06a",crossfade,400
@@ -333,8 +333,8 @@ br
 `That image alone remained branded upon the soul of a man who had long since withered into nothing but memory.
 \
 br
-`I couldn’t understand.@
-`A True Ancestor who had never even been told the meaning of her own existence, she had been used as nothing more than a weapon to hunt fallen True Ancestors.
+`I do not understand.@
+`A True Ancestor who had never even been taught the meaning of her own existence, she had been used as nothing more than a weapon to hunt her fallen kind.
 \
 br
 `She did not bear so much as a scratch.@
@@ -359,34 +359,34 @@ br
 `[line=4]Michael Roa Valdamjong fell in love with the girl in white[line=4]
 \
 bg #000000,crossfade,800
-`“—”@
+`“[line=8]”@
 `For the first time.@
 `I saw not an impulse, but the heart of the man Roa had been.@
 `His one surviving emotion.@
 `The person he once was had died long ago, yet this eternal memory remained, branded too deeply ever to fade.
 \
-`“…@I see.”@
-`Was that why he hated Arcueid so much?@
+`“I see.”@
+`Was that[line=3]why he hated Arcueid so much?@
 `The woman who had robbed him of his purity.@
-`Himself, losing his heart in a single instant to a girl he had seen only once.@
+`And himself.@ For surrendering his heart in a single instant to someone he had seen only once.@
 br
 `The hateful True Ancestor who had corrupted his once-pure self.@
-`Did he hate her very existence—everything about the white vampire princess?
+`That very existence.@ Did he hate everything about the white vampire princess?
 \
-`“…@What a terrible mistake.”@
+`“What a terrible mistake.”@
 `How terribly, terribly wrong.@
 `Roa’s hatred drove him through reincarnation after reincarnation, waiting each time for Arcueid to come after him.
 \
 `He had done anything to make that happen.@
 `He deceived Arcueid—deceived a girl who did not even know she belonged to a vampiric species—and tricked her into drinking his blood.@
 br
-`Once he had become her Dead Apostle, he used the power of Arcueid herself to slaughter every True Ancestor clinging to life, then settled down to wait for her.
+`Once he became her Dead Apostle, he used Arcueid’s own power to slaughter the few scattered True Ancestors who still survived, then waited patiently for her.
 \
 `How could he never have understood?@
-`That hatred had reincarnated dozens of times, always waiting for another chance to torment Arcueid.@
-`It wasn’t hatred at all.@
-`Roa had been too pure even to recognize his own feelings.@
-`To care for another person so desperately that it drives you mad.@ That can look very much like hate.
+`That hatred which made him reincarnate dozens of times, waiting through every life for another chance to torment Arcueid.@
+`It was not hatred at all.@
+`Roa had been too pure even to understand his own feelings.@
+`To care so desperately for another person that you lose yourself.@ That can look terribly like hate.
 \
 `If only someone had given it a name—love.@
 `Then Roa might never have made such a terrible mistake[line=3]
@@ -400,45 +400,45 @@ ld c,"tachi/ark_t06",crossfade,400
 `“How composed you are.@ I’m standing right in front of you, and you don’t even run.@
 `Or have you finally resigned yourself to it, Shiki?”@
 `“Resigned myself to what?@ I’m not losing to someone like Roa.@
-`Once tomorrow comes, I know—”@
+`Once tomorrow comes, I know[line=3]”@
 `Ciel will return.@
 `Until then.@
 `I cannot let Arcueid kill me here.
 \
-`“Hmm—I’m surprised you can still put on a brave face.@ I thought Roa had swallowed more than half of you already—but I see.@ So that’s what’s happening.”@
+`“Hmm[line=3]I’m surprised you can still put on a brave face.@ I thought Roa had swallowed more than half of you already[line=3]but I see.@ So that’s what’s happening.”@
 br
 `There is a spring in Arcueid’s voice.@
 `I don’t know what pleases her.@
 `But some trace of humanity still remains in her.@
-`If I can reach it, perhaps there is still a chance I can escape—
+`If I can reach it, perhaps there is still a chance I can escape[line=3]
 \
 `“I don’t know what you think you’ve figured out, but I’ll settle things with Roa myself.@
 `I won’t lose to him.@ If you want Roa dead, then I’ll make absolutely sure he’s finished.@
-`So just—”@
+`So just[line=3]”@
 ld c,"tachi/ark_t02",crossfade,400
 `“If you’re about to tell me to go home, don’t bother.@ You’re counting on those people from the Church, aren’t you?@ I refuse to let them seal Roa away.@
 `Shiki, I need to destroy Roa so I can reclaim my power.@
 `So you see.@ There’s no point unless I personally dispose of the human carrying him.”
 \
-`“Fine.@ So no matter what, you’re—”@
+`“[line=4]Fine.@ So no matter what, you’re[line=3]”@
 br
 `Going to kill me, Arcueid.@
 ld c,"tachi/ark_t01b",crossfade,400
-`“But Shiki, Roa’s presence inside you is very weak.@
+`“But listen, Shiki.@ Roa’s presence inside you is very weak.@
 `He probably has to begin again as an infant to preserve his old will inside a new body.@ He managed to transfer into you somehow, but that was the limit.@ All he can do now is remain inside you as your dark side.”@
-`“…@What?”@
+`“What?”@
 br
 `Did that mean almost nothing of Roa’s own will was left?
 \
-`“Arcueid, does that mean—”@
+`“Arcueid, does that mean[line=3]”@
 `“Yes.@ Then there’s no need to kill you.@ All I need is for the power Roa stole to answer to me again.”@
-`“—?”@
+`“[line=4]?”@
 `No need to kill me, she said.@
 `Then why had she come?@
-`Why was she looking at me with such terribly serious eyes?
+`Why was she looking at me with such[line=3]terribly serious eyes?
 \
 `“I don’t understand.@ What are you trying to say, Arcueid?”@
-`“I’m telling you to become my servant.”@ “Wha—”@
+`“I’m telling you to become my servant.”@ “Wha[line=5]”@
 br
 `[line=3]She didn’t seem to be joking.@
 `When she and Ciel had faced each other before, Arcueid herself had called the idea a particularly nasty joke.
@@ -453,8 +453,8 @@ br
 `Roa.@ The thing inside me hated what Arcueid had said.@
 `Whether that impulse was joy twisted inside out, or jealousy of me as Shiki Tohno, I couldn’t tell.
 \
-`“If you become my servant, I’ll stop Roa from consuming you.@ He’ll take you over otherwise, so I shouldn’t think there’s much to consider.”@
-`“…@Easy for you to say.@ How exactly are you going to stop the Roa inside me?”@
+`“If you become my servant, I’ll stop Roa from consuming you.@ He’ll take you over otherwise, so there’s hardly anything to consider.”@
+`“Easy for you to say.@ How exactly are you going to stop the Roa inside me?”@
 `“Oh, the only person who can truly stop Roa is probably you, Shiki.@
 `But your way would kill you too.@
 `My way simply makes you stronger.@ If your heart becomes stronger than Roa’s, it won’t matter how violently he struggles, will it?”
@@ -464,35 +464,35 @@ br
 `Don’t be deceived.@ That woman means to turn you into a puppet.
 \
 wavestop
-`“Haaah…”@
+`“[line=5]Haaah.”@
 br
 `I drew one deep breath.@
 `I had no intention of trusting Roa.@
 `But even I understood.@ The Arcueid before me was not quite the one I had known.@
 `Her method might indeed suppress him.@
 br
-`But a heart strong enough to endure this agony would be a heart numbed beyond feeling anything at all.
+`But[line=3]a heart strong enough to endure this agony would be a heart numbed beyond feeling anything at all.
 \
 `I took off my glasses.@
 `I drew the knife from my pocket.@
 `I opened the blade, raised it level with my eyes, and held it in a two-handed guard.
 \
 ld c,"tachi/ark_t05c",crossfade,400
-`“Shiki—”@
+`“Shiki[line=4]”@
 `“No.@ Sorry, but I’m not becoming yours.”@
 `Because Ciel was coming back.
 \
 ld c,"tachi/ark_t01a",crossfade,400
 `“I see.@ Then I suppose I’ll have to use force.”@
 br
-`Her heel struck the ground with a hard click.@
+`A hard footstep clicked against the ground.@
 br
 `“You did kill me once.@ I’ve been thinking I ought to return the favor.”@
 cl c,notrans,0
-`A white shape hurtled at me on a gale of displaced air.@
+`A white shadow rushed at me, trailing a violent gust.@
 br
-`[line=4]In that instant,
-`the fight had already begun.
+`[line=4]In that instant.@
+`The fight had already begun.
 \
 playstop
 bg #000000,lshutter,400
@@ -501,7 +501,7 @@ wave se_12
 `Krrrng!@
 `Arcueid’s claws collided with my knife.@
 br
-`Beneath the golden moon, even the sight of Arcueid charging as my enemy was beautiful.
+`Beneath the golden moon, Arcueid was beautiful even as she charged me as an enemy.
 \
 wave se_12
 `Krrrng!@
@@ -517,39 +517,39 @@ wave se_12
 wave se_12
 `Krrrng!@
 `Another parry, and another.@
-`My body moved while my mind did nothing.@
+`My body moved.@ It was as though I wasn’t thinking at all.@
 `My arms, my legs—this whole body—deflected Arcueid’s claws on its own, obeying a single command: I don’t want to die.
 \
-`“Damn…”@
+`“Damn[line=5]”@
 `My mouth twisted in bitter amusement.@
 `I hated to admit it, but my body had strayed far beyond anything human.@
 `At night, Shiki Tohno could probably leap from the third floor of the school building as easily as the man once called SHIKI.
 \
-`Krrr— But that was my limit.@
-`I had known from the beginning.@
-`I could never defeat Arcueid.@
+`Krrr.@
+`But that was my limit.@
+`I had known from the beginning[line=3]I could never defeat Arcueid.@
 `For one thing, I couldn’t see the lines, my only weapon.@
 br
-`I had no way to harm her.@
-`Arcueid had once told me that at night she became a form
-`of life from which every cause of death disappeared.
+`I had no way to hurt her.@
+`Arcueid had once told me.@
+`At night, she became a life from which every cause of death disappeared.
 \
 `Clang!@
 `My knife was flung aside.@
 `A single sweep of Arcueid’s arm sent me flying.
 \
 bg #000000,lshutter,400
-`“Guh—!”@
+`“Guh[line=4]!”@
 `I managed to land on my feet and raised the knife.@
 `However fiercely I stared, I couldn’t see a single line on Arcueid’s body.@
-`“Damn it, what a ridiculous monster she is…!”@
+`“Damn it—she’s completely absurd…!”@
 br
 `[line=4]That was exactly right.@
-`Here in the night, without the sun’s blessing,
-`it was far too reckless to challenge the princess of the moon.
+`Here in the night, without the sun’s blessing.@
+`It was far too reckless to challenge the princess of the moon.
 \
 bg "bg/bg_29b",lshutter,800
-`“Hah—ah…”@
+`“Hah[line=4]ah…”@
 `My throat burned.@
 `My heart felt ready to burst.@
 `Only now did I realize that her crimson eyes had held me under such crushing pressure from the instant we met that I had scarcely been allowed to breathe.
@@ -560,8 +560,8 @@ ld c,"tachi/ark_t01a",lshutter,400
 `I was suffocating badly enough for my heart to stop, and she looked perfectly pleased with herself.
 \
 ld c,"tachi/ark_t06",crossfade,400
-`“Honestly.@ You’re impossibly stubborn.@ If you have that much strength, you should have killed Roa yourself already.”@
-`“Wh-what are you talking about?”@
+`“[line=3]Honestly.@ You’re impossibly stubborn.@ If you have that much strength, you should have killed Roa yourself already.”@
+`“Wh[line=3]what are you talking about?”@
 `I dragged air through my rasping throat.@
 `“Killing Roa means killing myself, doesn’t it?”@
 `Though I supposed choosing suicide as a way to fight, rather than escape, might indeed take a strong heart.
@@ -574,8 +574,8 @@ ld c,"tachi/ark_t06",crossfade,400
 `Your power could destroy a soul without harming its body.@ Of course, a body without a soul would stop at once, so ordinarily that would be no different from suicide.
 \
 `“But you aren’t ordinary right now, are you?@ There are two souls in one body.@
-`The weaker one always loses, though, and as you are now, you and Roa are probably evenly matched.@ There’s a very good chance you would both disappear.”@
-`“Wait—what?@ What does that…”@
+`Well[line=2]the weaker one always loses, and as you are now, you and Roa are probably evenly matched.@ There’s a very good chance you would both disappear.”@
+`“Wait[line=4]what?@ What does that…”@
 ld c,"tachi/ark_t09",crossfade,400
 `“Nope.@ Not gonna wait for you.”@
 cl c,notrans,0
@@ -583,7 +583,7 @@ cl c,notrans,0
 quakey 4,375
 bg #000000,crossfade,400
 wave se_05
-`“Guh—!”@
+`“Guh[line=4]!”@
 `The back of my skull struck the ground with a crack.@
 `Arcueid’s weight bore down on both shoulders.@
 `She had taken me down.@
@@ -592,28 +592,28 @@ wave se_05
 play "*8"
 bg "event/ark_e04b",crossfade,400
 wave se_01
-`“—”@
+`“[line=6]”@
 `Arcueid stared at me without speaking.@
 `Her weight pressed into my shoulders.@
 `She could do anything she liked to me now, yet she remained perfectly still, almost as though she were hesitating.@
 wave se_01
-`“—”@
+`“[line=6]”@
 `I caught my breath.@
 `But perhaps that silence had been hers, not mine.
 \
 wave se_01
-`“……”@
+`“[line=6]”@
 `We were so close—almost close enough to embrace.@
-`From here, perhaps I could see it.
+`From here[line=3]perhaps I could see it.
 \
 wave se_01
 `[line=6]I stared hard at Arcueid’s body.@
 br
 `Something creaked deep in my skull.@
-`This was no ordinary headache; it sounded as though a crack were truly opening through my brain.
+`This was no ordinary headache[line=3]it sounded as though a crack were truly opening through my brain.
 \
 wave se_01
-`“—!”@
+`“[line=6]!”@
 `Still nothing.@
 `I could read no trace of death in Arcueid herself.@
 `In daylight, perhaps—but at night she was a life infinitely close to perfection, a being without the very concept of death.
@@ -623,17 +623,17 @@ wave se_01
 `“Roa has grown so faint that I can safely ignore him.@ That was why I could have let you go.”
 \
 wave se_01
-`“Then don’t hold back—let me go.@ Forget about me and hurry home so your daddy won’t worry.”@
+`“Then don’t hold back[line=3]let me go.@ Forget about me and hurry home so your daddy won’t worry.”@
 `“But the power was mine to begin with.@ Of course I would want it back.@ More importantly, I like you.”@
 br
-`Her weight ground harder
-`into my shoulders.
+`A grinding pressure.@
+`Her weight bore down harder on my shoulders.
 \
 wave se_01
-`“Rather than kill you and absorb Roa, I want to take Shiki into myself exactly as you are.”@
+`“Rather than kill you and take Roa into myself, I want to take you in as you are, Shiki.”@
 br
 `I won’t kill you.@
-`Her red eyes pleaded the words.
+`The plea shone in her red eyes.
 \
 wave se_01
 `“I can hardly believe it, but it seems I like you.@ So I’ll save you.@ I won’t drink your blood, and I’ll never do anything you hate.”@

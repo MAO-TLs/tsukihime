@@ -13,9 +13,9 @@ br
 `The door opened and Kohaku poked her head out.
 \
 ld c,"tachi/koha_t03b",lshutter,400
-`“Oh, Master Shiki!@ What brings you here at this hour?”@
-`“Um, well[line=3]I thought maybe I could watch television with you.”@
-`“What?”@
+`“Oh, Master Shiki.@ What brings you here at this hour?”@
+`“Um, well[line=3]I thought perhaps I could watch television with you.”@
+`“Huh?”@
 `Kohaku stared at me, blinking in astonishment.
 \
 `“Well, there aren’t any televisions anywhere else in the house, and watching after-dinner television was part of my routine until yesterday.@ Without it I can’t quite settle down, so—”@
@@ -25,8 +25,8 @@ ld c,"tachi/koha_t03b",lshutter,400
 br
 `Just look at Kohaku: she was still staring, appalled by my behavior—or perhaps not.@
 br
-`“Ahaha, of course!@ Master Shiki was living at the Arima estate until yesterday.@ Being dropped into this estate all at once must have felt terribly oppressive.”@
-`Kohaku beamed at me.
+`“Ahaha, of course.@ Master Shiki was living at the Arima estate until yesterday.@ Being thrust into this mansion all at once must have made the atmosphere hard to bear.”@
+`Kohaku gave me a cheerful smile.
 \
 `“Did you happen to tell Miss Akiha or Hisui about this?”@
 `“About coming to your room?”@
@@ -49,9 +49,9 @@ bg "bg/bg_39",lcartain,800
 `Perhaps it was rather messy for a girl’s room.@ Almost none of them were what one might call cute; most looked as if they had no practical use whatsoever.@
 `The place felt less like a girl’s bedroom than the study of an unusually tidy scholar.
 \
-`There were miscellaneous objects everywhere.@
+`All manner of objects lay scattered about.@
 `Half buried among them, I found the television.@
-`Its remote lay on the table.@ Had Kohaku been watching it before I arrived?
+`The remote was on the table.@ Had Kohaku been watching television before I arrived?
 \
 ld c,"tachi/koha_t02b",lshutter,400
 `“Here we are.@ Tea is all right, isn’t it, Master Shiki?”@
@@ -84,7 +84,7 @@ ld c,"tachi/koha_t03b",crossfade,400
 `As usual, the newscaster was reporting the day’s events with gestures just a little too dramatic.
 \
 `“Oh dear.@ Another random street killing?”@
-`Though I was sitting beside her, Kohaku murmured to herself without the least self-consciousness.@
+`Kohaku spoke to herself as though I were not sitting beside her.@
 br
 `The news was covering the string of random street killings.@
 `The attacks had begun in the neighboring city, but lately they were concentrated here.
@@ -103,15 +103,15 @@ ld c,"tachi/koha_t02b",crossfade,400
 `“You’re right.@ If no evidence is ever left behind, perhaps these are not random attacks at all.@ It seems more likely the culprit has followed a careful plan from the very beginning.”@
 `“I see.@ Then did those nine girls have something in common?@ Were they friends, or acquaintances?”
 \
-`“Hmm, probably not.@ If there were a connection, the police would have noticed.@
-`In the end, it is an utterly incomprehensible case, with neither motive nor link between the victims.”@
+`“Hmm, probably not.@ The police would have noticed if there were any connection.@
+`In the end, it is a completely baffling case, with neither motive nor link between the victims.”@
 br
 `Kohaku discussed the grisly subject with a smile.@
 `She did not seem particularly interested in the case.
 \
 `“Kohaku, this is happening in our city, and you’re a young woman too.@ Doesn’t it frighten you at least a little?”@
-`“I’ll be perfectly safe.@ The attacker only appears after midnight.@ If I don’t go out at night, we’ll never meet.”@
-`Her reasoning was beautifully simple.@
+`“I’ll be perfectly safe.@ The attacker only appears after midnight.@ If I stay indoors at night, I’ll never encounter the attacker.”@
+`Kohaku’s reasoning was beautifully simple.@
 `The murders felt too immediate for such detachment, but perhaps that was what every tragedy on the news became to people watching from home.
 \
 bg #000000,crossfade,800
@@ -154,7 +154,7 @@ play "*1"
 `“Good evening.@ And thank you, Hisui—you made the bed for me, didn’t you?”@
 `Hisui nodded quietly.@
 `“Ngh.”@
-`This sort of thing really did not suit me.@
+`I still could not get used to being treated this way.@
 `“So, um—what is it?@ Another message?”@
 `“Not from me.@ Miss Akiha instructed me to answer any questions Master Shiki might have.”
 \
@@ -182,11 +182,11 @@ br
 `Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@
 `I had no desire—at least not yet—to be waited on by a girl about my own age.
 \
-`“…@If you’re assigned to Master Shiki, does that make you
-`my personal servant?”@ “Yes.@
-`Ask anything of me.”@ “All right, I understand.@ From the way Akiha spoke, she would never let me dismiss you, so
-`I’ll accept your help, but[line=3]”@
-`“Do you have some special request?”@ “Nothing special.@ Just stop calling me Master Shiki; honestly, it sends a chill down my spine.”
+`“When you say you’re assigned to me, does that make you my personal servant?”@
+`“Yes.@ Ask anything of me.”@
+`“All right, I understand.@ From the way Akiha spoke, she would never let me dismiss you, so I’ll accept your help, but[line=3]”@
+`“Is there some special request?”@
+`“Nothing special.@ I only want you to stop calling me Master Shiki.@ Honestly, it sends a chill down my spine.”
 \
 `“But you are my master, Master Shiki.”@
 `“That’s exactly what I don’t like.@ Until yesterday I was living a perfectly ordinary life.@ The last thing I want now is a girl my age treating me like some lord of the manor.”@
@@ -246,8 +246,8 @@ ld c,"tachi/his_t04",crossfade,400
 `Still, I thought her gaze softened a little.
 \
 ld c,"tachi/his_t23",crossfade,400
-`“[line=3]You have no reason to apologize, Master Shiki.@ The fault was mine.”@
-`“I suppose you’re right, but somehow—”@ I scratched my head.@
+`“[line=3]Master Shiki has nothing to apologize for.@ I was the one at fault.”@
+`“Well, maybe—I just felt like I should.”@ I scratched my head.@
 ld c,"tachi/his_t01",crossfade,400
 `Hisui studied my face, then lowered her eyes for a fleeting moment.@
 `“What did you need, Master Shiki?”@
@@ -266,13 +266,13 @@ ld c,"tachi/his_t01",crossfade,400
 cl c,lshutter,400
 `With that, Hisui bowed and left the room.
 \
-`“Violin lessons.”@
-`What was that about?@
-`It wasn’t as though she were some pampered young lady, so why bother with something so[line=3]
+`“Violin practice.”@
+`What was that supposed to mean?@
+`It was not as if she were some well-bred young lady, so why bother with anything so tiresome[line=3]
 br
-`“Oh—right; she is a pampered young lady.”@
+`“Oh, right—she was one.”@
 br
-`Right—come to think of it, Shiki Tohno’s little sister was Akiha Tohno, a young lady born and bred.
+`Come to think of it, Shiki Tohno’s little sister was Akiha Tohno—a well-bred young lady to the core.
 \
 `In my memories, Akiha was my quiet little sister, one year younger, always trailing behind me with anxious eyes.@
 `As a child she had been frail and timid, too shy even to say what she wanted, forever frightened that her father, Makihisa Tohno, might scold her.@

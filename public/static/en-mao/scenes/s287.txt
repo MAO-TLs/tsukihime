@@ -24,11 +24,11 @@ bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
 `“Ghh[line=4]!”@
 `“Master Shiki, are you still in pain somewhere?”@
-`“Hisui—sorry, but…”@
+`“Hisui[line=3]sorry, but…”@
 `“Yes, what is it?”@
 `“Get out.@ Looking at you is irritating, and I can’t sleep with you standing there.”@
 ld c,"tachi/his_t05",crossfade,400
-`“Very well.@ I shall excuse myself.@ Please call if you require anything.”@
+`“[line=4]Very well.@ I shall excuse myself.@ Please call if you require anything.”@
 cl c,lshutter,800
 `Hisui leaves the room.@
 br
@@ -51,17 +51,17 @@ waveloop se_11
 `A pair of high, crisp knocks sounds, and the door opens.@
 br
 ld c,"tachi/aki_t12b",lshutter,800
-`“Excuse me, Brother.@ Are you awake?”@
+`“[line=3]Excuse me, Brother.@ Are you awake?”@
 `“Yeah, I’m awake.@ What is it, Akiha?”@
 `“I heard you were resting because of your anemia, so I came to see how you were.”@
 `Akiha’s gaze settles on me where I lie in bed.@
 `It is heavy with obvious concern.@
 br
-`Honestly, it is annoying.
+`Honestly, it’s getting on my nerves.
 \
 `“There’s nothing wrong with me.@ If I needed looking after, I wouldn’t be resting alone.@ Go back to your room, Akiha.”@
 ld c,"tachi/aki_t21b",crossfade,400
-`“Brother, what are you talking about?@
+`“[line=3]Brother, what are you talking about?@
 `It’s already time for dinner.@ I came to call you.”
 \
 `Dinner…?@
@@ -72,7 +72,7 @@ br
 \
 ld c,"tachi/aki_t12b",crossfade,400
 `“…@Very well.@ Please rest tonight.@ But, Brother, if you intend to remain awake, turn on the light.@ Sitting in the dark will damage your eyes.”@
-`“No.@ It’s calmer this way.”@
+`“[line=3]No.@ It’s calmer this way.”@
 `“…”@
 cl c,lshutter,800
 `Akiha leaves at last, still looking as though there is something she wants to say.
@@ -122,7 +122,7 @@ br
 br
 br
 `I emerge onto the main avenue.@
-`The date changed perhaps two minutes ago.@
+`The date turned over just two minutes ago.@
 !w1000
 \
 br
@@ -183,7 +183,7 @@ bg "bg/bg_31b",crossfade,400
 `I once heard that a corpse’s blood is cold and not especially good.
 \
 `The woman wears no makeup, and her bare throat is not unappealing.@
-`Knife clenched in one hand, I lower my mouth toward it—
+`Knife clenched in one hand, I lower my mouth toward it[line=3]
 playstop
 bg #000000,notrans,0
 monocro off
@@ -230,7 +230,7 @@ br
 \
 monocro off
 bg "bg/bg_31b",crossfade,400
-`“[line=11]What?”@
+`“[line=11]Wha”@
 `My breath stops.@
 `This is not my room.@
 `An alley.@
@@ -239,7 +239,7 @@ bg "bg/bg_31b",crossfade,400
 `An unknown woman lies unconscious.
 \
 wave se_01
-`“Haa…”@
+`“Haa[line=10]”@
 `What?@
 `What am I doing?@
 br
@@ -256,7 +256,7 @@ wave se_01
 \
 wave se_01
 `I have never wanted it at all.@
-`And yet, helplessly, I find myself thinking that I have to do it.
+`And yet, helplessly[line=3]I find myself thinking that I have to do it.
 \
 wave se_01
 br
@@ -269,8 +269,8 @@ wave se_01
 `Take her apart.@
 wave se_01
 br
-`Then I will be free of every petty tie.@
-`I will become a creature no one can bind.@
+`Then I.@
+`Freed from every petty tie, I can become a creature no one can bind.@
 br
 `Come to think of it.@
 `Someone once said something very much like that.
@@ -288,7 +288,7 @@ wave se_01
 `“Shut up…”@
 br
 `[line=3]Admit it already, killer.@
-`That urge of yours to invert is nothing less than your own desire—
+`That inversion impulse of yours is unmistakably your own desire[line=3]
 br
 `“Shut—up.”
 \
@@ -303,7 +303,7 @@ wave se_01
 `Who was it that thought exactly that only moments ago?
 \
 wave se_01
-`“Nn…”@
+`“[line=4]Nn.”@
 br
 `The woman’s eyelids flutter.@
 `She is waking.@
@@ -320,38 +320,38 @@ br
 `She notices the knife poised against her throat.
 \
 br
-`“Eee—”@
-`“AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!”
+`“Eee[line=4]”@
+`“AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!”
 \
 bg #000000,lcartain,400
 bg "bg/bg_25b",lcartain,400
 waveloop se_02
 `My scream drowns out hers.@
-`I scream and keep screaming like a broken siren.@ When awareness returns, I am running.
+`I scream and scream like a broken siren.@ By the time I come to myself, I am running.
 \
 bg #000000,lcartain,400
 bg "bg/bg_22c",lcartain,400
 `“Hah, hah, hah, hah[line=3]”@
 `My fingers tremble.@
-`My mind goes blank.@
-`Yet somehow, just barely, I ran before I drove the knife into that woman.@
+`My mind is blank.@
+`Even so, somehow, I manage to run before plunging the knife into that woman.@
 br
 `But.@ If she had screamed before I did…@
 br
-`I would have gone on and—
+`I would have gone on and[line=4]
 \
 `“Hah, hah, ha, hahahaha…!”@
 br
-`I am afraid.@
-`Truly afraid.@
-`This is more terrifying than anything I have ever endured.
+`I’m afraid.@
+`I’m so afraid.@
+`This is more frightening than any fear I have ever known.
 \
 bg #000000,lcartain,400
 bg "bg/bg_32d",lcartain,400
 `“Hah, hah, hah…!”@
 `It follows me.@
 `It hangs over my back.@
-`No matter how far I run, I cannot escape the terror that is me.
+`No matter how far I run[line=3]I cannot escape the terror that is me.
 \
 bg #000000,lcartain,400
 bg "bg/bg_33d",lcartain,800

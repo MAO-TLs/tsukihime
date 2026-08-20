@@ -194,7 +194,7 @@ br
 `The figure in black carries something like a sword, so this is far beyond a mere fight.@
 br
 `The figure raises the blade and springs at Arcueid.@
-`She bats aside the thrust aimed at her chest, then gives her attacker’s breast the lightest tap.@
+`She bats aside the thrust aimed at her chest, then touches her attacker lightly on the chest.@
 br
 `The next instant.@
 `The blade-wielding figure goes flying like a soccer ball.
@@ -325,7 +325,7 @@ play "*1"
 \
 ld c,"tachi/ark_t16",crossfade,400
 `“I am laying this out step by step for your sake, so answer me properly.@
-`Listen.@ Even when vampires claim victims, they use all kinds of magecraft to hide the evidence.@ They keep the surrounding world[line=2]the ordinary society where people like you live[line=2]from finding the bodies or realizing anything is wrong.@
+`Listen.@ Even when vampires claim victims, they use all kinds of magecraft to hide the evidence from the surrounding world[line=2]from the ordinary society where people like you live.@ No one finds the bodies or realizes anything is wrong.@
 `Do you understand why?”
 \
 `“Because humans are not stupid.@ If they knew monsters like that lived among them, they would fight back.@
@@ -385,7 +385,7 @@ monocro #0000ff
 bg "bg/bg_29b",crossfade,400
 `“[line=3]That is a lie.@ It has to be, Arcueid.@ Ciel is a third-year at my school.@ How could she possibly belong to some organization called the Church…?”@
 ld c,"tachi/ark_t16",crossfade,400
-`“Wait.@ Shiki, you know her?”@
+`“Hmph.@ Shiki, you know her?”@
 `Arcueid closes in on me as though this were unforgivable.@
 cl c,lshutter,800
 `“Of course I know her.@ She is a third-year at my school, and I have known her since my first[line=2]”@
@@ -418,7 +418,7 @@ monocro #0000ff
 bg "bg/bg_29b",crossfade,400
 `“Arcueid[line=3]who is Ciel really…?”@
 ld c,"tachi/ark_t02",crossfade,400
-`“I told you, she’s a member of the Burial Agency.@ She may have joined only eight years ago, but her talent must have been unrivaled.@ Now she is an Executor holding the Seventh seat—a perfect number.”@
+`“I told you, she’s a member of the Burial Agency.@ She joined only eight years ago, but her talent must have been unrivaled.@ Now she is an Executor holding the Seventh seat—a perfect number.”@
 cl a,crossfade,400
 `“[line=4]”@
 `I do not understand what Arcueid is saying.@
@@ -582,7 +582,7 @@ ld c,"tachi/ark_t11",crossfade,400
 `“That is strange.@ I know I sent a dream demon to you.”@
 `“Wait.@ What is a dream demon?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Basically, it is a familiar that shows people the dreams they desire.@ Since you are a man, Shiki, I sent you a succubus; you had a nice dream, did you not?”@
+`“Basically, it is a familiar that shows its target the dreams they desire; since you are a man, Shiki, I sent you a succubus.@ You had a nice dream, right?”@
 br
 `“Oh[line=5]”@
 br

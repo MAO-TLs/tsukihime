@@ -25,7 +25,7 @@ waveloop se_02
 `For no reason at all, I think it.@
 `If I don’t go to her now, I will never again see Ciel while I am still in my right mind.
 \
-`“If you have an appointment, I’ll go and cancel it for you, Master Shiki, so please return to your room—”@
+`“If you have an appointment, I’ll go and cancel it for you, Master Shiki, so please return to your room[line=2]”@
 `“Shut up—I said get out of my way…!”@ “Ah[line=4]”@
 `I shove Kohaku roughly aside and run for the door.
 \
@@ -36,9 +36,9 @@ br
 bg #000000,lcartain,800
 bg "bg/bg_22a",lcartain,800
 `I run.@
-`I run to keep the promise I made to Ciel,
-`as though fleeing some nameless,
-`incomprehensible thing, driving my body onward at the brink of collapse.
+`I run to catch up with the promise I made to Ciel,
+`as though fleeing some unknowable thing,
+`driving my body onward at the brink of collapse.
 \
 bg #000000,lcartain,1500
 bg "bg/bg_25a",lcartain,800
@@ -61,9 +61,9 @@ bg "bg/bg_25a",notrans,0
 `My thoughts are fogging.@
 `Is it the nausea and dizziness?@
 `Somehow, I feel as though I am no longer myself.@
-`“[line=6]Ciel.”@
+`“[line=6]Ci—el.”@
 `I scan the crowd.@
-`Where is she[line=4]?@
+`Ciel[line=4]where is she?@
 bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_25a",notrans,0
@@ -86,7 +86,7 @@ ld c,"tachi/cel_t01c",lshutter,800
 `“Oh, Tohno.@ I’m surprised—you actually made it on time?”@
 `“Ciel…?”@
 br
-`[line=3]It’s the first time I’ve seen her.@ Ciel, in ordinary clothes.@
+`[line=3]The first time I’ve seen them.@ Ciel’s street clothes.@
 br
 `“Um, I was a little mean earlier.@ I’m sorry I made you run until you were this exhausted.”@
 br
@@ -99,12 +99,12 @@ bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_25a",notrans,0
 wavestop
-`“Tohno—!?”@
+`“Tohno[line=3]!?”@
 bg #ffffff,crossfade,800
 br
 `God, I feel sick.@
 `But I'm glad I came.@
-`I got to see Ciel in ordinary clothes, so I have to endure a little dizziness and have fun with both of them today—
+`I got to see Ciel in ordinary clothes, so I have to endure a little dizziness and have fun with both of them today[line=5]
 \
 !w3000
 play "*1"
@@ -112,7 +112,7 @@ bg "bg/bg_40c",crossfade,1500
 br
 `[line=4]When I come to, I find myself lying in bed.
 \
-`“What…?”@
+`“Hu[line=3]h?”@
 `I turn my head and look around.@
 `This is my room, and beyond the window it is night.@
 `Hisui is here; she has been keeping watch over me while I slept.
@@ -124,7 +124,7 @@ ld c,"tachi/his_t01",crossfade,400
 \
 `“Master Shiki, you collapsed outside.@
 `Master Shiki’s school friends contacted the mansion and brought Master Shiki home at once.”@
-`“—I see.@ So in the end…”@
+`“[line=4]I see.@ So in the end…”@
 `I shoved Kohaku aside only to lose consciousness anyway.
 \
 `“I’m such an idiot.@ I don’t know how I’ll face Kohaku.”@

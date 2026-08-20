@@ -12,13 +12,13 @@ ld r,"tachi/cel_t20",tshutter,800
 br
 `I see.@
 `So you’ve made it to lesson five.@
-`Quite a few Tohnos probably fall into this one.@
+`I imagine quite a few players fall into this one.@
 `Divine punishment, I suppose.@
 `Repent your poor judgment in ever getting involved with that woman.
 \
 ld l,"tachi/ark_t31a",lshutter,400
 ld l,"tachi/ark_t31b",lshutter,400
-`“Why?@ You’re hardly one to talk, Ciel.@ You came here from the very beginning because you wanted [REDACTED]—”
+`“Why?@ You’re hardly one to talk, Ciel.@ You came here from the very beginning because you wanted [REDACTED][line=4]”
 \
 bg "bg/ima_14",lshutter,400
 wave se_12
@@ -44,9 +44,8 @@ ld l,"tachi/ark_t30",lshutter,400
 br
 `[line=3]Rejected.@
 `Or so I’d like to say, but so many people have asked that I’ll answer.@
-`The Japanese title behind Blackout Moon uses three readings
-`kura from kuramu, to black out; yami from yamu, to fall ill; and tsuki, moon.@
-`Together they form Kurayamizuki.@ It is a pun on kurayami, darkness, and tsuki, moon.
+`Kura comes from kuramu, ‘to black out’; yami from yamu, ‘to fall ill’; and tsuki means ‘moon’Put the three together and you get Kurayamizuki.@
+`It is a play on kurayami, ‘darkness.@’ Add tsuki, ‘moon,’ and the result is a ‘darkness moon.@’
 \
 br
 `“Huh, that’s weird.”@

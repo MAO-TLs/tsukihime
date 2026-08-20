@@ -1,10 +1,10 @@
 play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
-`[line=3]No—I cannot frighten Akiha and the others for no reason.@
-`This—the matter of that dream—is something I have to resolve alone.
+`[line=3]No, I can’t needlessly alarm Akiha and the others.@
+`This[line=3]this dream is a problem I have to solve alone.
 \
-`“School has just been keeping me busy lately.@ The school festival is in November, and we have the sports festival before that.”@
+`“[line=3]School has been keeping me busy lately.@ The school festival is in November, and we have the sports festival before that.”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“I see.@ If it’s a school problem, then I suppose I really can’t offer much advice.”@
 cl c,crossfade,400
@@ -12,9 +12,9 @@ cl c,crossfade,400
 `Lying to her and hiding behind an excuse honestly makes me feel wretched.
 \
 ld c,"tachi/koha_t02",lshutter,800
-`“Here you are, Master Shiki—sorry to keep you waiting.”@
+`“Here you are, Shiki—sorry to keep you waiting!”@
 `Kohaku arrives with a glass on her tray.@
-`“Thanks.”@
+`“Thanks, I’ll have some.”@
 `I slip in the straw and drink the lemon soda she prepared.@
 `Somehow, the conversation dies there.@
 `Kohaku is the only cheerful person in the morning sitting room, and in the end we finish breakfast much as usual.
@@ -25,13 +25,13 @@ bg "bg/bg_48a",lcartain,400
 `The silence from the sitting room seems to have followed us, leaving the air awkward and uncomfortable.@
 ld c,"tachi/his_t01",lshutter,400
 `“Have a safe day, Master Shiki.”@
-`“Right[line=3]I’m off, but[line=3]Hisui”@
-`“Yes[line=3]what is it, Master Shiki?”@
+`“Right, I’m off, but—Hisui.”@
+`“Yes, what is it, Master Shiki?”@
 `Hisui looks directly into my eyes.@
 br
 `[line=3]Why is it?@
 br
-`Faced with eyes so utterly trusting, I feel horribly unclean and cannot settle down.
+`Before those eyes, trusting me without reservation, I feel horribly corrupt and cannot settle down.
 \
 `“Never mind.@ Just be careful while I’m gone.”@
 cl c,crossfade,400
@@ -60,9 +60,9 @@ br
 `For an instant, an ugly image flashes before me.
 \
 waveloop se_02
-`“Something on television…?”@
-`A memory of a television screen flashes through my mind.@
-`The school records the morning news and plays it here at lunchtime, and something in the broadcast must have caught my eye.@
+`“Something on the television…”@
+`I stare at the enormous television enthroned at the back of the cafeteria.@
+`Our school records the morning news and plays it here at lunch; perhaps something in the broadcast caught my eye.@
 wave se_01
 `“[line=4]No.”@
 `The report leaves me stunned.@
@@ -74,7 +74,7 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_50",notrans,0
 `Then the victim’s face appears.@
-`The woman with the long hair is unmistakably the same woman I killed in my dream.@
+`The woman with the long hair is unmistakably the same woman I remember killing in the dream.@
 bg #9c0120,crossfade,400
 bg "bg/bg_50",crossfade,400
 `“[line=6]”@
@@ -89,9 +89,9 @@ bg "bg/bg_50",crossfade,400
 br
 `“I[line=4]killed her?”@
 br
-`I stab her.@
-`I stab her, again and again.@
-`Panting for breath, last night, that woman I had never seen[line=3]
+`Yes—I killed her.@
+`Just as I had stabbed Yumizuka with my own hand.@
+`Panting for breath, last night, that unknown woman[line=3]
 \
 bg #000000,notrans,0
 br
@@ -117,9 +117,9 @@ bg "bg/bg_30a",lcartain,400
 `[line=3]I reach the place from my dream.@
 br
 `Several police officers stand nearby, and tape seals off the alley.@
-`“It’s the same.”@
+`“[line=3]It’s the same.”@
 `I came through this place in the dream.@
-`[line=3]No—that wasn’t a dream.@
+`[line=3]No, that wasn’t a dream.@
 `I can’t hide from it by calling it one anymore.@
 `“…”@
 `If I stay, the police will only start watching me.@
@@ -180,7 +180,7 @@ br
 br
 br
 `Night comes every day
-`Sooner or later, we’re bound to find the one we want[line=3]aren’t we?
+`Sooner or later, we’re bound to find the one we want—aren’t we?
 \
 textcolor #ffffff
 ld c,"tachi/aki_t09",notrans,0
@@ -189,11 +189,11 @@ bg "bg/bg_40a",notrans,0
 wavestop
 `“Shut up[line=5]!”@
 `I wrench myself upright.@
-`“Hah[line=3]hah[line=3]hah”@
+`“Hah, hah, hah.”@
 `My breathing comes hard and fast.@
 `Just now.@
 `I wanted Akiha.@
-`“Damn it[line=4]what is this”@
+`“Damn it[line=4]what is this?”@
 `I do not know what is happening to me.@
 `The only certainty is my terror that if I see Akiha or Hisui now, I have no idea what I might do.
 \

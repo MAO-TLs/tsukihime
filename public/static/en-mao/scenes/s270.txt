@@ -2,17 +2,17 @@ monocro off
 play "*9"
 wavestop
 bg "bg/bg_27b",notrans,0
-`“…”@
+`“[line=7]”@
 `So that was her answer.@
 `She was right: it was none of my business.@
-`It wasn’t—but—
+`It wasn’t—but[line=3]
 \
 `“Oh, to hell with it—you still can’t go!@ Arcueid is in the park!@
 `You know how much she hates you, don’t you?@ I can’t just let the two of you meet like this!”@
 ld c,"tachi/cel_t01b",crossfade,400
 `“Oh?@ Are you worried about me?”@ “Of course I am!@ I don’t want to see you and Arcueid fighting, so please just turn around and go home!”
 \
-`“I see.@ So it isn’t me you’re worried about but her, is it, Tohno?”@
+`“[line=2]Haa.@ So it isn’t me you’re worried about but her, is it, Tohno?”@
 br
 `Ciel gazed off into the night sky, completely ignoring my argument.@
 br
@@ -25,7 +25,7 @@ br
 `That was unquestionably the face of someone nursing a grudge.
 \
 `“All right, what I said this morning was completely out of line.@ I’m sorry for saying it.”@
-`“So—”@
+`“So[line=3]”@
 `“If the next words are ‘please go home,’ I will slap you, Tohno.”@
 `“What?”@
 `“Tohno.@ We’re not friends right now.@ We’re having a fight.@ Apparently I’m sulking as well, so it’ll take more than a halfhearted apology to make me come around.”
@@ -41,7 +41,7 @@ ld c,"tachi/cel_t07b",crossfade,400
 cl c,lshutter,800
 br
 `Her shoes struck the pavement in brisk, hard taps as she entered the park.@
-`“W-wait, Ciel!”
+`“W-wait[line=3]Ciel!”
 \
 bg #000000,lcartain,800
 playstop
@@ -51,8 +51,8 @@ bg "bg/bg_28b",lcartain,800
 \
 `“Wait—why are you getting so worked up over this, Ciel?”@
 ld c,"tachi/cel_t07b",lshutter,400
-`“I am not getting worked up.@ You should worry that she’ll get the wrong idea if she sees you with me.”@
-`“The wrong idea about what?”@
+`“[line=3]I am not getting worked up.@ You should worry that she’ll get the wrong idea if she sees you with me.”@
+`“The wrong idea[line=3]about what?”@
 `“You like her, don’t you?@ In that case, being seen with her enemy would put you in a rather awkward position.”
 \
 `“It isn’t as if I like her—”@
@@ -64,14 +64,14 @@ ld c,"tachi/cel_t01b",crossfade,400
 `“You truly can’t lie, even to yourself.@ You’re so painfully honest that I don’t know what to do with you.”@
 `Ciel’s masklike face finally cracked, releasing a weary sigh and the emotion beneath it.
 \
-`“But we really should part here.@ We are in the middle of a quarrel, after all, and if Arcueid saw us together—”@
+`“But we really should part here.@ We are in the middle of a quarrel, after all, and if Arcueid saw us together[line=3]”@
 br
 `“Oh?@ And what would happen if I did see you, Ciel?”@
 play "*6"
 br
-`“—!”@
+`“[line=4]!”@
 cl c,crossfade,400
-`At the voice behind us, we both turned.@ There stood Arcueid—looking, for some reason, spectacularly displeased.
+`At the voice behind us, we both turned.@ There stood Arcueid[line=3]looking, for some reason, spectacularly displeased.
 \
 ld l,"tachi/ark_t05b",lshutter,400
 `“What a surprise.@ I heard Shiki’s voice and came over, never expecting to find you with him.@
@@ -93,30 +93,30 @@ ld l,"tachi/ark_t05a",crossfade,400
 `“Stay out of this, Shiki!”@
 ld r,"tachi/cel_t06b",crossfade,400
 `“Please stay out of this, Tohno!”@
-`“…”@
+`“[line=7]”@
 `That had been a mistake.@
 `Anything I said would only make matters worse.
 \
 ld l,"tachi/ark_t05a",crossfade,400
-`“Fine.@ Shiki apparently cares about you, so I’ll let you go.@
+`“[line=2]Fine.@ Shiki apparently cares about you, so I’ll let you go.@
 `I won’t touch you, so leave now.”@
 `“I am surprised.@ Is he truly so important to you?@
 `I thought Arcueid Brunestud took no interest in anything beyond killing vampires.”
 \
 ld l,"tachi/ark_t05c",crossfade,400
-`“…”@
+`“[line=6]”@
 `“Humans should be easy for you to bend to your will.@
 `If you require his help, why not make him your thrall instead, Arcueid?”@
 ld l,"tachi/ark_t10",crossfade,400
-`“That isn’t even a good joke.@ Shiki is my partner.@
+`“[line=3]That isn’t even a good joke.@ Shiki is my partner.@
 `He said he would help me without any of that.”@
 `Arcueid looked away, suddenly uncomfortable.@
 `Every trace of the murderous tension that had filled her a moment ago was gone.
 \
-`“Arcueid.@ Don’t tell me…”@
+`“[line=3]Arcueid.@ Don’t tell me…”@
 ld l,"tachi/ark_t07",crossfade,400
 ld r,"tachi/cel_t07b",crossfade,400
-`“You truly do crave his blood.”@
+`“You truly do[line=3]crave his blood.”@
 `There was a hard metallic click.@
 `It came from Ciel’s direction.
 \
@@ -132,7 +132,7 @@ ld r,"tachi/cel_t06b",crossfade,400
 `I will dispose of her here, before she can claim a victim.”
 \
 ld l,"tachi/ark_t05c",crossfade,400
-`“I’ve listened quietly while you said whatever you pleased, Ciel.@
+`“[line=3]I’ve listened quietly while you said whatever you pleased, Ciel.@
 `Fine—if you want to die, I’ll grant your wish.@ One rarely gets to kill the same human twice.”@
 `Murder kindled in Arcueid’s eyes.@
 `Ciel held her swords ready and met that gaze without flinching.
@@ -148,8 +148,8 @@ br
 `Bracing myself against the pressure in the air, I drew breath from deep in my belly and shouted.@
 ld l,"tachi/ark_t07",crossfade,400
 ld r,"tachi/cel_t07b",crossfade,400
-`“…”@
-`“…”@
+`“[line=4]”@
+`“[line=4]”@
 `For one instant, both of them stopped breathing.@
 cl a,lshutter,400
 \
@@ -173,7 +173,7 @@ br
 \
 `However extraordinary Ciel was, her strength could not continue rising forever.@
 `Arcueid, on the other hand, seemed to possess no limit at all.@
-`Ciel had driven her back at first, only for Arcueid to match her and now surpass her with ease—
+`Ciel had driven her back at first, only for Arcueid to match her and now surpass her with ease[line=3]
 \
 bg "bg/bg_29b",lcartain,400
 quakey 4,375
@@ -182,7 +182,7 @@ wave se_05
 `Ciel’s body was tossed into the air, then struck the ground and rolled like a piece of refuse.
 \
 ld c,"tachi/cel_t06b",lshutter,400
-`“Kh—”@
+`“Kh[line=3]”@
 `Ciel groaned and forced herself upright.@
 `But even that was futile.@
 wave se_10
@@ -193,14 +193,14 @@ wave se_05
 `Slowly.@ Red blood spread across the park’s brick path.
 \
 wave se_01
-`“Ci—el?”@
+`“Ci[line=3]el?”@
 `No answer.@
 `Ciel lay unconscious.@
-`Arcueid rushed toward her without mercy, her eyes cold enough to cut her throat.
+`Then[line=4]Arcueid rushed toward her without mercy, her eyes cold enough to cut her throat.
 \
-`“Ah…”@
+`“[line=6]Ah.”@
 `My voice would not come.@
 `Arcueid unquestionably meant to “kill”@ Ciel,
 `and Ciel no longer had the power to stop her.@
-`“…”
+`“[line=6]”
 \

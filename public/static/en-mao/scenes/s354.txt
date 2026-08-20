@@ -12,7 +12,7 @@ ld c,"tachi/aki_t09",crossfade,400
 `As soon as I enter the sitting room, Akiha welcomes me with a smile.@
 `“Yeah.@ Morning, Akiha.”@
 ld c,"tachi/aki_t17a",crossfade,400
-`“Good morning, Akiha…@ wait, what is wrong, Brother?@ You look utterly drained”@
+`“Good morning, Akiha— Wait, what is wrong, Brother?@ You look utterly drained”@
 `“Just a bad dream.@ You are in a fine mood today.@ Did something good happen?”
 \
 ld c,"tachi/aki_t08a",crossfade,400
@@ -38,7 +38,7 @@ ld c,"tachi/aki_t15a",crossfade,400
 `Akiha rises from the sofa with a clatter.@
 ld c,"tachi/aki_t11a",crossfade,400
 `“Brother.@ Do you truly mean that?”@
-`“Nothing.@ I only said what I thought.”@
+`“…@Not really; I only said what I was thinking.”@
 cl a,crossfade,400
 `A sharp grinding sound.@
 `Akiha keeps her head bowed, her shoulders trembling.
@@ -48,7 +48,7 @@ ld c,"tachi/aki_t06",crossfade,400
 `“Yes, I know!@ I have no desire to be late because I waited for you, Brother!”@
 `“Right.@ Then go on ahead.@ I am not in any state to deal with anyone right now”@
 ld c,"tachi/aki_t14",crossfade,400
-`“—!”@
+`“[line=4]!”@
 !w750
 cl c,lshutter,800
 `Akiha strides out of the room.
@@ -62,14 +62,14 @@ ld c,"tachi/koha_t04",lshutter,400
 `“I know.@ I never meant to push Akiha away like that”
 \
 `“No, you do not understand at all!@ Master Shiki, you have no idea how Miss Akiha has felt, waiting all this time!”@
-`“Waiting?@ You mean this morning?”@
+`“Waiting?@ You mean[line=3]this morning?”@
 `“Nothing of the sort!@ Miss Akiha told me never to mention it, but I simply cannot keep quiet any longer!”
 \
 `“Listen carefully, Master Shiki.@ Miss Akiha can have breakfast with you now, but before she transferred schools it was an enormous ordeal.@
 `Master Shiki, do you even know where Miss Akiha’s old school was?”@
 cl a,crossfade,400
 br
-`Akiha’s girls’ academy was in the next prefecture, if I remembered right.@
+`Akiha’s girls’ academy is in the next prefecture, if I remember right.@
 br
 `“[line=3]The next prefecture…?”@
 `Wait a second.@
@@ -84,7 +84,7 @@ ld c,"tachi/koha_t03",crossfade,400
 ld c,"tachi/koha_t04",crossfade,400
 `“But Master Shiki, you overslept every morning and never once joined her.@ Miss Akiha would say, ‘It is enough if I see Brother’s face in the morning,’ and refused to let us wake you.”@ “Wh[line=6]”@
 ld c,"tachi/koha_t02",crossfade,400
-`“Do you understand a little better now?@ Then please, at the very least, apologize to Miss Akiha for what you just said.”@
+`“[line=3]Do you understand a little better now?@ Then please, at the very least, apologize to Miss Akiha for what you just said.”@
 `“[line=6]”@
 `I had meant to do that from the beginning.
 \
@@ -116,7 +116,7 @@ br
 br
 ld c,"tachi/cel_t04",lshutter,800
 `“Good morning.@ Cutting it close today, are you not, Tohno?”@
-`“…@Ciel”@
+`“Uh, Ciel”@
 ld c,"tachi/cel_t03",crossfade,400
 `“And Akiha is not with you.@ Did you sleep in?”@
 `“Something like that.@ Akiha and I had what you might call an argument over something stupid”

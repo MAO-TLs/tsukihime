@@ -5,7 +5,7 @@ bg "bg/cmo_05b",crossfade,400
 `A hot summer day.@
 br
 `A blue sky and enormous, enormous thunderheads.@
-`The landscape wavering in the scorching heat.@
+`The landscape wavering in the scorching heat
 `The cry of cicadas loud enough to make you faint.@
 br
 `The cicadas’ cry.@
@@ -37,26 +37,26 @@ br
 br
 br
 !w500
-`Waaah…@ waaah…@
+`Waaah waaah
 !w750
-`Waaah…@ waaah…@
+`Waaah waaah
 !w1000
-`Waaah…@ waaah…
+`Waaah waaah
 \
-`…@Akiha is crying.@
+`Akiha is crying.@
 `A child lies at her feet.@
 `The child’s white shirt is bright red, and the child does not move at all.@
 br
 `I look down at the child.@
 `My hands are red, just like the child lying there.@
-`No.@ That’s wrong.@
+`No—that’s wrong.@
 `My hands are red with the fallen child’s blood.
 \
-`“Akiha—!”@
+`“Akiha[line=5]!”@
 br
 `The grown-ups are coming.@
 br
-`“What a terrible thing—”@
+`“What a terrible thing[line=5]”@
 br
 `The grown-ups take Akiha away.@
 `The child on the ground stays dead.@
@@ -64,7 +64,7 @@ br
 \
 bg #ffffff,crossfade,400
 bg "bg/cmo_05",crossfade,400
-`“Did you kill the child—?”@
+`“Did you kill the child[line=4]?”@
 br
 `The grown-ups are screaming.@
 `Screaming my name—the name of the one who killed the child.@
@@ -94,17 +94,17 @@ ld c,"tachi/his_t16",crossfade,400
 `Hisui bowed deeply.@
 `Autumn sunlight streamed through the window, and this was unmistakably my own room.
 \
-`“Hi…@sui.”@
+`“Hi[line=4]sui.”@
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki, are you feeling unwell?”@
-`“No—it isn’t that.”@
+`“No[line=3]it isn’t that.”@
 `I had simply dreamed of something achingly familiar.@
 `But I could no longer remember what it was.@
 `“What was it—I can’t quite remember.”@
 `“?”@
 `Hisui tilted her head a fraction.@
 `Of course—there was no point asking her.@
-`What kind of dream had that been?@
+`What kind of dream had that been[line=3]?@
 `A white so bright it could blind me, slashed by red spreading in violent stains.
 \
 br
@@ -116,9 +116,9 @@ br
 `[line=7]Something.@
 `SOMETHING—an ominous dream.
 \
-`“…@Shi…@ki…”@
+`“Shiki…”@
 `“Yes, Master Shiki?”@
-`“…@It’s nothing.@ Sorry.@ I’m getting up, so go on ahead to the dining room.”@
+`“Nothing.@ Sorry—I’m getting up, so go on ahead to the dining room.”@
 cl a,lshutter,800
 `Hisui nodded and walked toward the door.@
 `Click, click, click.@
@@ -130,16 +130,16 @@ ld c,"tachi/his_t08",lshutter,800
 `What time did you return last night?”@
 `“Yesterday—I came home late.”@
 `“You said you would be home by four in the afternoon; I see your plans changed.”@
-`“Ah—”@
+`“Ah[line=5]”@
 `I remembered.@
 `Yesterday morning, I had told Hisui I would be back that afternoon.
 \
-`“Sorry.@ Something came up, and I couldn’t make it home yesterday.@ I’ll do better from now on, so let me off this once.”@
+`“Sorry.@ Something came up, and I couldn’t get home when I said I would yesterday.@ I’ll make sure it doesn’t happen again, so let me off this once.”@
 ld c,"tachi/his_t01",crossfade,400
-`“…@No, Master Shiki, you needn’t apologize.@ It is our duty to accommodate our master’s schedule.@
+`“…@No, Master Shiki, you needn’t apologize; it is our duty to accommodate our master’s schedule.@
 ld c,"tachi/his_t09",crossfade,400
 `Still, in future, please at least send word.@ Whatever the circumstances, you should be able to contact us.”@
-`“You’re right.@ I’m sorry; from today on, I’ll keep my promises.”@
+`“You’re right.@ I’m sorry; from today on, I’ll keep my promises[line=3]”@
 ld c,"tachi/his_t16",crossfade,400
 `“Very well.@ Excuse me.”
 \
@@ -148,10 +148,10 @@ cl a,lshutter,400
 `She was always so expressionless.@ When she did get angry,
 `she seemed furious—as if I had done something truly terrible.
 \
-`“Well, time to get up.”@
+`“[line=4]Time to get up.”@
 `I threw back the sheets and sat up.@
 br
-`[line=3]The instant I moved—
+`[line=3]The instant I moved.@
 br
 waveloop se_02
 bg #9c0120,notrans,0
@@ -159,37 +159,37 @@ wait 100
 bg "bg/bg_40a",notrans,0
 `A violent stab of pain tore through my body.@
 `“Ngh…!”@
-`It wasn’t coming from the wound in my shoulder.@
+`Pain[line=3]not from the wound in my shoulder.@
 `It echoed from somewhere deeper, throbbing in time with my heartbeat.
 \
-`“Ah—gh—”@ I clutched the sheets
-`and somehow endured it.@
+`“Ah[line=3]gh[line=3]”@
+`I clutched the sheets and somehow endured it.@
 wavestop
-`“Hah…”@
+`“Hah[line=3]ah.”@
 `It passed.@
 `Apparently it had only been a sudden attack; nothing seemed physically wrong.@
-`“…@The scar…@ on my chest.”@
+`“The scar on my chest…”@
 `I touched it through my clothes.@
 `A large scar lay there, and though the wound had healed completely, it still hurt like this from time to time.@
 `According to the doctor, pain in the mind could make an old injury hurt again even after the body had healed.
 \
 `Usually the scar hurt after I saw a traffic accident or the corpse of an animal.@
 `Images of blood and death must call up the accident from eight years ago.@
-`“…@Was it last night?”@
+`“Was it because of last night?”@
 `A red alley.@
 `Yumizuka’s smile as she spoke to me there as casually as ever.
 \
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`“Ngh—!”@
+`“Ngh[line=4]!”@
 `My chest hurt.@
-`I couldn’t get Yumizuka out of my head,
-`but I had no idea what to do—or even what I ought to do.@
+`I couldn’t get Yumizuka out of my head.@
+`But I had no idea what to do—or even what I ought to do.@
 `All I could manage was to go through the motions of Shiki Tohno’s ordinary day.@
-`“Damn it.”@
-`Cursing myself, I got out of bed,
-`changed from my pajamas into my school uniform, and headed for the sitting room.
+`“Damn[line=3]”@
+`Cursing myself, I got out of bed.@
+`I changed from my pajamas into my school uniform and headed for the sitting room.
 \
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
@@ -200,10 +200,10 @@ ld c,"tachi/aki_t01a",crossfade,400
 `Still seated on the sofa, Akiha studied my face as she greeted me.@
 `“Morning.@ Sorry about yesterday.”@
 `I returned the greeting and started toward the dining room.@
-`There was no time to sit and talk with Akiha—and I myself was in no state to talk to anyone.
+`There was no time to sit and talk with Akiha[line=3]and I myself was in no state to talk to anyone.
 \
-`“Brother, I’d like to speak with you.@ Do you have a moment?”@
-`“…@All right, but I’m short on time, so make it quick.”@
+`“Brother, I need to speak with you[line=3]do you have a moment?”@
+`“All right, but I’m short on time, so make it quick.”@
 `I sat on the sofa opposite her.@
 ld c,"tachi/aki_t02",crossfade,400
 `“This is about last night.@ Brother, what were you doing?”@
@@ -215,26 +215,26 @@ ld c,"tachi/aki_t03a",crossfade,400
 `“Only walking around town?@ That is serious.@ You’re still a minor, Brother, so please don’t wander the streets at night—especially when the city has become so dangerous.”@
 cl a,crossfade,400
 wave se_01
-`“Ah—”@ Dangerous.@
-`The attacker stalking the city at night.@
+`“Ah[line=7]”@
+`Dangerous[line=3]the attacker stalking the city at night.@
 `Why?@
 `Why hadn’t I realized?@
 `A killer who murdered people and drained their blood.@
-`That description fit yesterday’s Yumizuka perfectly—
+`That description fit yesterday’s Yumizuka perfectly[line=4]
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“…@I shouldn’t have to remind you, but your health can’t bear this kind of strain, Brother.@
+`“I shouldn’t have to remind you, but your health can’t bear this kind of strain, Brother.@
 `I can’t simply watch you come home looking as exhausted as you did last night.@
 `If something is troubling you, please tell me.@ I may not be much help, but if I’m enough…”@
 br
-`[line=5]I didn’t want to think it,
-`but Yumizuka—Yumizuka might be the murderer terrorizing this city.
+`[line=5]I didn’t want to think it.@
+`But Yumizuka.@ Yumizuka might be the murderer terrorizing this city.
 \
 ld c,"tachi/aki_t03a",crossfade,400
 `“Brother?@ Are you listening to me?”@
-`“What—?@ Yes.@
-`I’m lis…@tening.”@
-`I could hear Akiha’s voice, but all my mind could do was replay the sight of Yumizuka the night before.@
+`“What[line=4]no, yes, I’m listening.”@
+`I could hear Akiha’s voice.@
+`But all my mind could do was replay the sight of Yumizuka the night before.@
 ld c,"tachi/aki_t02",crossfade,400
 `Akiha stared at me in silence.
 \
@@ -242,7 +242,7 @@ ld c,"tachi/aki_t02",crossfade,400
 `“Yes.@ It has nothing to do with you.”@
 `I could think of nothing but Yumizuka.@
 `Desperate to be alone, I gave her that cruel answer.@
-`“So you intend to do exactly as you please, regardless of anyone else, Brother?”@
+`“[line=3]So you intend to do exactly as you please, regardless of anyone else, Brother?”@
 `“…”@
 `“Very well.@ Do as you like.@ If that is your position, Brother, then I shall do as I please as well.”
 \
@@ -251,13 +251,13 @@ cl c,lshutter,400
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki.@ Are you certain that was wise?”@
 `“What do you mean?”@
-`“I believe Miss Akiha is deeply worried for Master Shiki.@ She is not someone who puts her feelings into words, so they may be difficult for Master Shiki to see…”@
+`“I believe Miss Akiha is deeply worried for Master Shiki.@ She is not someone who puts her feelings into words, so they may be difficult for Master Shiki to see[line=3]”@
 `“I know.@ But my head is too full right now.@ I know I’ve hurt her.”@
 `“…”
 \
 cl a,crossfade,400
 `Hisui fell silent.@
-`“Master Shiki!@ Breakfast is ready!”@
+`“Master Shiki—breakfast is ready!”@
 `Kohaku called from the dining room.@
 `I rose and went in.
 \
@@ -266,7 +266,7 @@ bg #000000,lshutter,800
 bg "bg/bg_32a",lcartain,800
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki, when do you expect to return today?”@
-`“Well, it’s Saturday, so…@ No, probably this evening.@ There’s something I need to look for.”@
+`“Well, it’s Saturday, so…@ no, probably this evening; there’s something I need to look for.”@
 ld c,"tachi/his_t16",crossfade,400
 `“Understood.@ Please take care.”@
 `She bowed deeply.@

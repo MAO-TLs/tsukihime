@@ -2,7 +2,7 @@ monocro off
 wavestop
 bg "bg/bg_31a",notrans,0
 play "*9"
-`“I…”@
+`“I[line=3]”@
 br
 `I couldn’t bring myself to say no.@
 `After all, I had killed her.@
@@ -13,35 +13,35 @@ br
 \
 ld c,"tachi/ark_t01b",crossfade,400
 `“Well?@ Can’t you, as a human, bring yourself to help a vampire?”@
-`“That would be the natural answer, I suppose.”@
+`“[line=4]Well, that would be the natural answer.”@
 ld c,"tachi/ark_t17",crossfade,400
-`“—”@ Oh, don’t look at me like that.@
-`For some reason, guilt kept me from refusing her when she looked at me that way.@
-`“But I’m involved already.@
-`If I turn my back now, I’ll never sleep well again.”@
+`“[line=4]”@
+`Oh, don’t look at me like that.@
+`For some reason.@ Guilt kept me from refusing her when she looked at me that way.@
+`“But I’m involved already.@ If I turn my back now, I’ll never sleep well again.”@
 br
 `[line=3]Oh, hell.@ I was absolutely going to regret this.
 \
 `“All right.@ I can probably manage that much; besides, the enemy you’re after is the one committing these street murders, isn’t he?@
 `As someone who lives in this town, I’d be tempting fate if I didn’t at least help you.”@
 ld c,"tachi/ark_t01b",crossfade,400
-`“What?@
-`You mean—”@ “I refuse to be your shield, but I’ll keep watch for you.”@
+`“What[line=2]?@ You mean[line=3]”@
+`“I refuse to be your shield, but I’ll keep watch for you.”@
 `The instant I said it aloud, I became thoroughly disgusted with my own stupidity.@
 br
-`I was disgusted—but then—
+`I was disgusted, but[line=4]
 \
 ld c,"tachi/ark_t12",crossfade,400
-`“—”@
-`That look on her face.@ The moment I saw how genuinely astonished she was, how should I put it—
+`“[line=6]”@
+`That look on her face.@ The moment I saw how genuinely astonished she was, how should I put it[line=4]
 br
 `“Wow, you really mean it?@ You know I’m an actual vampire, right?”@
-`“After all the threats you made, isn’t it a little late to ask me that?”
+`“Listen.@ After all the threats you made, isn’t it a little late to ask me that?”
 \
 ld c,"tachi/ark_t14",crossfade,400
-`“Ah…@ yes, I suppose it is, but—”@
+`“Ah, yes—I suppose it is, but[line=3]”@
 ld c,"tachi/ark_t08",crossfade,400
-`“Oh, never mind!@ You’re helping me, so I should be grateful!”@
+`“[line=3]Well, never mind!@ You’re helping me, so I should be grateful!”@
 `Looking oddly delighted, the woman approached where I sat against the wall.
 \
 ld c,"tachi/ark_t09",crossfade,800
@@ -49,7 +49,7 @@ ld c,"tachi/ark_t09",crossfade,800
 `She crouched and reached out a hand to help me up.@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Now we can finally introduce ourselves.@
-`I’m Arcueid—my full name is long, so just Arcueid is fine.@ I’m a vampire classified as a True Ancestor.@ And who are you?”@
+`I’m Arcueid[line=3]my full name is long, so Arcueid is enough.@ I’m a vampire classified as a True Ancestor; who are you?”@
 cl c,crossfade,400
 br
 `It was the strangest introduction I had ever heard, and I let out a long, heavy sigh.@
@@ -57,7 +57,7 @@ br
 \
 `“Shiki Tohno.@ Unfortunately, I’m only a student.@ I’m warning you now: I really won’t be much use.”@
 br
-`I took the woman’s hand—Arcueid’s hand—and stood.@
+`I took the woman’s hand[line=3]Arcueid’s hand—and stood.@
 br
 `She studied me intently, then offered her hand again for a proper shake.
 \
@@ -71,7 +71,7 @@ cl c,crossfade,400
 br
 `The world must contain every imaginable kind of responsibility, but I was probably the first and last person ever obliged to help someone he had murdered.@
 br
-`“Damn it.@ I really have lost my mind.”@
+`“Damn, I really have lost my mind.”@
 `But what other choice did I have?@
 br
 `Reluctantly, I extended my left hand and shook hands with the pale woman who claimed to be a vampire.

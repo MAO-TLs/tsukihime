@@ -124,7 +124,7 @@ br
 br
 br
 br
-`“I cannot kill another human being[line=3]”
+`“I cannot kill anyone[line=3]”
 \
 `The words leave my mouth, and tears begin to fall.@
 `I am not grieving for anything or anyone.@
@@ -142,8 +142,8 @@ play "*8"
 \
 `“Eh[line=3]Ciel?”@
 ld c,"tachi/cel_t14",crossfade,400
-`“Now you believe it, don’t you?@ You are not a murderer.@ What you just said is the truth of who you are.@
-`So all of this is only a dream.@ You are still yourself.@ You are genuine, considerate, and kind enough to cry over something like this.@ You are the ordinary boy I admired, the sort you could find anywhere.”@
+`“Now you understand, do you not?@ You are not a murderer.@ What you just said is the truth of who you are.@
+`So this is only a dream.@ You are still yourself.@ You are open and considerate, and gentle enough to cry over something like this.@ You are the ordinary boy I admired, the kind one could find anywhere.”@
 br
 `As she speaks, she puts away the dagger.@
 `Her murderous intent has vanished, and she is once again the familiar, gentle Ciel I knew.
@@ -220,7 +220,7 @@ ld c,"tachi/cel_t07c",crossfade,400
 `“Wait.@ You have fought this vampire several times, have you not?”@
 `“Twice.@ It escaped the first time, and the second ended more or less in a draw.”@
 `“Right?@ Then you have seen its face.@ Should you not have known from the beginning that I was not the vampire?”@
-`“No.@ Unfortunately, that is not conclusive.@ Some of the vampiric kind can alter their physique at will, so appearance alone cannot identify them.”@
+`“No.@ Unfortunately, that is not conclusive.@ Some members of the vampiric species can alter their physique at will, so appearance alone cannot identify them.”@
 `“I see.@ That makes things difficult.”
 \
 `“But at least one thing is finally clear.@ We took the long way around, but this vampire is the one behind all those random street killings, isn’t it?”@
@@ -237,11 +237,11 @@ ld c,"tachi/cel_t07c",crossfade,400
 `“No; by the time I arrived, you were already annihilating her.@
 `I am sorry.@ I knew you were suffering then, but I still could not help you.”
 \
-`“[line=4]No, that is all right.@ I want to believe that what happened with Yumizuka was the best ending she could have had.@
-`But of course.@ She was not born a vampire.@ That vampire attacked her and turned her into what she became[line=3]”@
+`“[line=4]No, that is all right.@ I want to believe that what happened with Yumizuka was the best outcome possible.@
+`But of course.@ She was not a vampire from the beginning.@ That vampire attacked her and made her what she became[line=3]”@
 `“That is probably true.@
-`Still, I doubt there are many people like her.@ Ordinarily, it takes many years before someone can function as a vampire.@
-`Since she became active almost immediately, Satsuki Yumizuka must have possessed exceptional spiritual aptitude from birth.”
+`Still, I doubt there is anyone else like her.@ Ordinarily, it takes many years before someone can function as a vampire.@
+`The fact that she did so immediately suggests Satsuki Yumizuka was born with exceptional spiritual aptitude.”
 \
 `“Huh?@ What does ‘spiritual aptitude’ mean?”@
 `“It is said to be the range of brain functions fixed while a human is still forming in the womb[line=3]or something like that.@ People with abilities like yours use organs in the brain that never awaken in ordinary people.@
@@ -252,9 +252,9 @@ br
 \
 `“You called me someone with an ability.@ Do you know about my eyes…?”@
 ld c,"tachi/cel_t14",crossfade,400
-`“Your eyes?@ No, I don’t know what sort of eyes you possess, but I do know that you have an unusual ability.@
+`“Your eyes?@ No, I do not know what kind of eyes you have, but I do know that you possess an unusual ability.@
 `Your bloodline is special.@ Unlike the magecraft I acquired through training, your ‘ability’ was yours from birth.@
-`That is what people call psychic powers.@ An ordinary person has only one circuit open in the brain, but you must have another as well—one that people like us cannot even perceive.”
+`That is what people call psychic power.@ An ordinary person has only one circuit open in the brain, but you must have another—one that people like us cannot perceive.”
 \
 `“A special bloodline means the Tohno bloodline itself is special?”@
 `“Yes, the Tohno bloodline is very old.@
@@ -270,7 +270,7 @@ ld c,"tachi/cel_t07c",crossfade,400
 `“Tohno, you brought it up a moment ago.@ You asked why your consciousness was becoming mixed with the vampire’s.”@
 `“Ah, yes, I did ask.”@
 `“I believe that also relates to your ability.@
-`Your brain has more channels than an ordinary person’s.@ When you fall asleep and your sense of self grows faint, that breadth draws you toward the consciousness of a vampire connected to you—one whose brain is easy for yours to reach.”
+`Your brain’s circuitry is broader than an ordinary person’s.@ When you fall asleep and your sense of self grows faint, that breadth draws you toward the consciousness of a vampire connected to you—one whose brain is easy for yours to reach.”
 \
 `“What…?@ What do you mean, a brain that’s easy to reach?@ You don’t mean our brains are physically similar, do you?”@
 `“That is exactly what I mean.@
@@ -289,7 +289,7 @@ ld c,"tachi/cel_t07c",crossfade,400
 `“I know.@ But in your case, you do not need one.@
 `If one consciousness can engulf and assimilate another, their brains must already be built to similar specifications.@ Since your brain has additional channels, the other person need not be your identical twin.@
 `Shared ancestry and a similar body would probably be enough for their consciousness to draw yours in.@
-`A sibling with the same mother and father would qualify.@ As an exceptional case, even strangers who share part of their bodies through an organ transplant might influence one another.”
+`A sibling with the same mother and father would qualify.@ As an exceptional case, even complete strangers might be pulled into one another if an organ transplant left them sharing part of the same ‘body’.”
 \
 cl a,crossfade,400
 `[line=3]A blood relative would be enough?@
@@ -307,9 +307,9 @@ cl a,crossfade,400
 `Every piece of it falls horribly into place.
 \
 ld c,"tachi/cel_t07c",crossfade,400
-`“At first, I suspected you too.@ But the more time I spent with you, the more certain I became that it was not you.@
-`Yet that certainty might have been nothing but my own selfish wish.@ So tonight was a gamble for me as well.@
-`If you had tried to kill me without hesitation, I would have had no choice but to accept that you were the vampire.@ But you proved that you were not.”
+`“At first, I suspected you too.@ But as I came to know you, I began to think it was not you.@
+`Yet that may have been no more than my own selfish wish.@ So tonight was a gamble for me as well.@
+`If you had tried to kill me without hesitation, I would have had no choice but to accept that you were the vampire.@ But, just as I hoped, you turned out not to be.”
 \
 `“[line=3]No.@ What just happened was, well[line=3]”@
 `“Tohno, everyone in the Tohno bloodline carries the blood of something inhuman.@ Some seem to have been completely harmless.@ But the records say there was only one such person in each generation.”@
@@ -327,8 +327,8 @@ br
 `But the memory comes back anyway.@
 `The image of Akiha Tohno in the detached house, drinking Kohaku’s blood.
 \
-`“Akiha is different.@ I’m the one with a strange power.”@
-`“[line=2]Maybe.@ Even to me, Akiha does not seem to have fully awakened.@ On the contamination scale, she is still classed as ‘able to return’ if treated.”@
+`“Akiha is different.@ I am the one with the strange power.”@
+`“[line=2]Perhaps.@ Even to me, Akiha does not seem fully awakened.@ By the contamination standard, she is still ‘returnable’ for now.”@
 `“No.@ Akiha is different…!@ I am the only one who is abnormal like this.@
 `She waited years for me to come home; she even saw me off properly today…!”
 \
@@ -338,7 +338,7 @@ cl a,crossfade,400
 `“[line=5]!”@
 `Unable to answer, I bite my lip.@
 `I do not know.@
-`If Akiha really is the vampire, what am I supposed to do?@
+`If Akiha really is one, what am I supposed to do?@
 `Pretend I never saw anything—or fight Ciel to protect Akiha?@
 !w3000
 `It is no use.@
@@ -359,7 +359,7 @@ bg "bg/bg_01c",lcartain,800
 `Perhaps she has already reached her conclusion, because she says nothing more.
 \
 ld c,"tachi/cel_t07c",crossfade,400
-`“[line=3]I will not ask what you intend to do now.@ We part here.”@
+`“[line=3]I will not ask what you intend to do now.@ This is where we say goodbye.”@
 `Her eyes empty of emotion, she offers me one hand.@
 `“…”@
 `I take it without a word.@

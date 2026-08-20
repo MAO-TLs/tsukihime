@@ -31,8 +31,8 @@ ld c,"tachi/ark_t01b",crossfade,400
 ld c,"tachi/ark_t02",crossfade,400
 `“Of course I did.@ That’s exactly why I learn these things—to be able to manage situations like this.@
 ld c,"tachi/ark_t01b",crossfade,400
-`But that’s all knowledge can do.@ Experience surpasses theory.@ You can learn a hundred million words and still possess nothing until you’ve actually lived them.”@
-`Arcueid sighed, her face forlorn.
+`But that is all it does.@ Experience surpasses theory.@ You can know hundreds of millions of words, but until you try something for yourself, you have not gained a thing.”@
+`Arcueid sighed, looking forlorn.
 \
 `“Does it really work that way—couldn’t you just as easily say that theory makes up for what you haven’t experienced?”@
 `“Only someone who knows nothing but theory would say that.@ Which describes me perfectly, until very recently.”@
@@ -41,8 +41,8 @@ ld c,"tachi/ark_t01b",crossfade,400
 \
 `“I don’t know—maybe some people can fill the gaps in experience with theory, while others can overturn theory through experience.@ There are all kinds of people.@ You can’t expect everyone to work the same way you do.”@
 ld c,"tachi/ark_t12",crossfade,400
-`“Wow—Shiki’s saying something serious.”@
-`“Now listen here, Arcueid.@ You started the serious conversation, and I’m making the effort to meet you halfway.@ Don’t wreck the mood.”@
+`“Wow, Shiki is saying something serious.”@
+`“Now listen, Arcueid.@ I’m only going along with this because you were the one who started talking seriously.@ Don’t derail your own conversation.”@
 br
 `I mean, you almost never talk about yourself, and now that you finally are…
 \
@@ -56,8 +56,8 @@ ld c,"tachi/ark_t08",crossfade,400
 ld c,"tachi/ark_t01a",crossfade,400
 `“What you said did make me think, though.@ My view of things is so narrow.@ Once I decide how something must be, I stop seeing everything else.@
 `I decide that I need no one but myself.@
-`That only I can be right—that’s the only way I know how to think.@
-`[line=3]But you’re right.@ There are so many different hearts in the world, and plenty of people can do things I could never do as naturally as breathing.”@
+`That only I can be right—that is the only way I know how to think.@
+`[line=3]But you are right.@ There are many different hearts in the world, and plenty of people can do as a matter of course what I could never do.”@
 `For some reason, Arcueid offered this self-reproach in an unusually gentle voice.
 \
 ld c,"tachi/ark_t08",crossfade,400
@@ -93,9 +93,9 @@ br
 `With a stubborn little growl, Arcueid returned to her hamburger.@
 cl c,crossfade,400
 \
-`Conscious of my gaze now, she ate more normally than before, tolerably so at least.@
+`Maybe because she was conscious of me watching, this time she ate a little more normally, well within tolerable limits.@
 `Still, what was I supposed to make of a vampire eating a hamburger?@
-`Living things had to eat and take in nutrients, or they couldn’t stay alive.@
+`Living things had to eat and take in nutrients, or they could not stay alive.@
 `Arcueid had flatly declared that she never drank blood.@
 `Did that mean she lived on ordinary food, the same as the rest of us…?
 \
@@ -104,7 +104,7 @@ ld c,"tachi/ark_t04",crossfade,400
 `“What do you want, bully?”@
 `“I said I’m done complaining.@ Something just occurred to me—can I ask you about it?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“All right—what is it?”@
+`“All right[line=3]what is it?”@
 `“You’re a vampire, right?@ So I was wondering whether blood is the only thing you could really call food.”@
 ld c,"tachi/ark_t13",crossfade,400
 `Arcueid stared at me, eyes wide.@
@@ -123,7 +123,7 @@ cl c,crossfade,400
 `So that was it.@
 `She truly didn’t need to drink blood at all.
 \
-`“I see—”@
+`“I see[line=4]”@
 `Thank God.@ Thank God Arcueid wasn’t the kind of creature who killed humans for food.@
 `Honestly, if she’d simply told me from the start, ‘I’m a vampire who doesn’t drink blood,’ I would have agreed to help her without all that resistance—wait.@
 br
@@ -131,72 +131,72 @@ br
 \
 ld c,"tachi/ark_t01b",crossfade,400
 `“Of course I am.@ You couldn’t stand going a whole day without eating, could you?@
-`For a True Ancestor—a member of the vampiric species like me—blood is simply the finest food there is for satisfying that appetite.@
+`Since I’m a True Ancestor[line=2]for me, blood is simply the finest food there is for satisfying that appetite.@
 `But if all I need is to keep moving and quiet the urge, things like this make an adequate substitute.”@
 ld c,"tachi/ark_t06",crossfade,400
-`“Dead Apostles—vampires who began as humans before becoming one of the vampiric species—are different.@ They absolutely require the blood of others to sustain their own existence.”
+`“Dead Apostles are another matter[line=2]vampires who began as humans and crossed over into the vampiric species.@ They absolutely require the blood of others to sustain their own existence.”
 \
 `“…@So blood is simply the best thing for satisfying your hunger.@
 `But you said you hated drinking it.@
 `Is it like humans disliking certain foods—that you just don’t like the taste?”@
 `I delivered my brilliant deduction with all the satisfaction of solving a mystery that had plagued me for ages.@
 br
-`However.@
-`I had only been indulging another baseless assumption.
+`But.@
+`It seemed that was only another assumption I had made for my own convenience.
 \
 playstop
 ld c,"tachi/ark_t17",crossfade,400
 `“I don’t know.@ I’ve never tasted blood.”@
-`“What?”@
+`“[line=3]What?”@
 ld c,"tachi/ark_t10",crossfade,400
-`“I told you I’m not yet a full-fledged member of the vampiric species.@ I don’t know the taste of blood.@ I still don’t know what it’s like.@
-`All I know is that to drink someone’s blood is to stop recognizing them as a person.”@
+`“I told you I’m not yet a full-fledged vampire.@ I don’t know the taste of blood.@ I still don’t know what it’s like.@
+`All I know is[line=3]to drink someone’s blood is to stop recognizing them as a person.”@
 `Arcueid turned her eyes away and refused even to look at me.
 \
 play "*9"
 `“Tell me, Shiki.@ Suppose birds and fish were as intelligent as you and lived just as long.@ Could you still eat them?@ Could you tell yourself that food is food, no matter how intelligent it may be, and eat them anyway?”@
-`“No, I—”@
-`Could I?@
-`I didn’t know.@ But if that were the case, I would probably choose something else—something without intelligence.
+`“[line=6]No, that would…”@
+`Could I[line=3]?@
+`I didn’t know.@ But if that were the case, I would probably choose something else, something without intelligence.
 \
 ld c,"tachi/ark_t01b",crossfade,400
-`“There—that’s what I mean.@ That’s why I hate blood.@ Though perhaps you’re right, and it is a kind of preference.@
+`“There, that’s what I mean.@ That’s why I hate blood.@ Though perhaps you’re right, and it is a kind of preference.@
 `I’d rather not even see blood if I can help it.@
-`Yes, if humans possessed neither intelligence nor values equal to my own, perhaps I would drink their blood without hesitation.@
+`But[line=3]yes, if humans possessed neither intelligence nor values equal to my own, perhaps I would drink their blood without hesitation.@
 `Taking another life to preserve your own is simply the law of nature.”@
 `Right?@ Arcueid asked, actually seeking my agreement.@
-`But hearing that from Arcueid—of all people—I could only deny it.@
+`But hearing that from Arcueid[line=2]of all people, I could only deny it.@
 `I didn’t want to agree.
 \
 `“Maybe that’s true, but humans and you are alike enough as things stand.@ So stop with the hypotheticals.@ I don’t much care for them.”@
 ld c,"tachi/ark_t08",crossfade,400
-`“Really?@ I like ‘what if.@’ You never know how it will turn out, but for that moment, it feels as though salvation might still be possible.”@
+`“Really?@ I like ifs.@ You never know how they will turn out, but for that moment, it feels as though there might still be some salvation.”@
 cl c,crossfade,400
 br
-`What if—so that was how she saw it.@
-`If she drank blood like any other vampire, would I still be sitting here across from her, talking like this?
+`An ‘if’……@a hypothetical, huh
+`Then if[line=3]she drank blood like any other vampire, would I still be sitting here across from her, talking like this?
 \
 ld c,"tachi/ark_t01a",crossfade,400
 `“Why the long face, Shiki?@ Do you need the bathroom?”@
-`“…@Here I am wrestling with a serious moral question, and that is where your mind goes?”@
+`“…@Here I am thinking seriously, and that is where your mind goes?”@
 `I sighed.@
 `No matter how seriously I considered it, whether she drank blood or not seemed to be a trivial distinction to Arcueid.
 \
-`“Right—it has nothing to do with me anyway.”@
+`“Right[line=3]it has nothing to do with me anyway.”@
 ld c,"tachi/ark_t16",crossfade,400
 `“Honestly, you’ve been muttering to yourself this whole time.@ Keeping secrets isn’t very manly, Shiki!”@
 `Arcueid growled like a cat again.
 \
 `“I’m not keeping any secrets.@ You’re the one who’s full of them.@ You’re always saying things I can’t understand and enjoying my confusion.”@
 ld c,"tachi/ark_t14",crossfade,400
-`“I’m not enjoying it.”@
+`“It is not as though I enjoy it[line=2]”@
 `Her ill temper vanished, and Arcueid went meek in an instant.@
 `She had the look of someone flinching because the accusation had struck home.
 \
 `“So you really did enjoy watching me tie myself in knots.@ I can’t decide whether you’re a prankster or simply secretive.@
 `Well, we’re different kinds of creature anyway, so I suppose it doesn’t matter.”@
 `“Th-that’s not true…!@ I do tell you things, Shiki.@ Maybe it only seems as though I keep secrets because you hardly ever ask me anything…?”@
-`“So if I ask, you’ll tell me anything.”@
+`“I see[line=3]so if I ask, you’ll tell me anything.”@
 ld c,"tachi/ark_t09",crossfade,400
 `“Yes.@ We’re a team, after all.”
 \

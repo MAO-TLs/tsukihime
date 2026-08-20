@@ -18,9 +18,9 @@ br
 bg #9c0120,crossfade,400
 bg "bg/bg_48d",crossfade,400
 waveloop se_02
-`“What…?”@
+`“What[line=5]?”@
 `Thud.@
-`Without warning, my heart gave a painful throb.@
+`Without warning, something creaked inside my chest.@
 br
 `Thump.@
 `THUMP.@
@@ -36,7 +36,7 @@ br
 bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_32d",notrans,0
-`“Akiha—what is she doing out this late[line=3]”@
+`“Akiha[line=4]what is she doing out this late[line=3]”@
 `Dizziness washed over me.@
 `I began trying to think it through, then stopped.@
 `None of that mattered now.@ I had to follow her.
@@ -81,7 +81,7 @@ bg #000000,lcartain,800
 bg "bg/bg_27b",lcartain,800
 wave se_01
 br
-`[line=3]And then.@ I lost sight of Akiha.@
+`[line=3]And then.@ Akiha was gone.@
 `Where had she disappeared?
 \
 bg #000000,lcartain,800
@@ -91,10 +91,10 @@ bg "bg/bg_25b",lcartain,800
 wave se_01
 `I breathed out heavily.@
 `My heart was still overheating.@
-`“…”@
+`“[line=7]”@
 `Something was wrong.@
 `This wasn’t a dream.@
-`It wasn’t a dream—so why was I stalking Akiha through the night with my blood singing like this?@
+`It wasn’t a dream—so why[line=3]was I following Akiha through the night with my blood racing like this?@
 wave se_01
 `It was almost as though I wanted to kill her.
 \
@@ -106,14 +106,14 @@ wavestop
 `Akiha approached, looking restlessly from side to side.@
 `She seemed to be searching for something.@
 br
-`“It doesn’t seem to be here.”@
+`“No one seems to be here.”@
 br
 `I heard her murmur to herself.@
 `If I could make out a whisper, she had come dangerously close.@
 `I peered from my hiding place onto the avenue.
 \
 ld c,"tachi/aki_t27",lshutter,400
-`“…”@
+`“[line=3]”@
 `Pain split my head.@
 `Something inside it cracked.@
 bg #000000,notrans,0
@@ -138,7 +138,7 @@ br
 `“What the hell am I doing?”@
 `My own behavior left me appalled.
 \
-`“What is that[line=4]?”@
+`“What is that[line=6]?”@
 `A foul odor caught in my nose.@
 `An odor I had never known before.@ One I had tasted again and again in my dreams.@
 `“From that alley…?”@
@@ -152,7 +152,7 @@ waveloop se_11
 br
 `A stranger lay crumpled in the alley.@
 `Blood ran from the person’s neck, but they were still breathing.@
-`“…”@
+`“[line=9]”@
 `My vision flooded red.@
 `This was no dream.@
 `Perhaps because I had witnessed murder so many times, my thoughts remained perfectly calm.
@@ -168,22 +168,22 @@ bg #000000,lcartain,800
 bg "bg/bg_48d",lcartain,800
 bg #000000,lcartain,400
 bg "bg/bg_33d",lcartain,400
-`“Hah[line=3]hah[line=3]hah[line=6]”@
+`“Hah, hah, hah[line=6]”@
 `Only after running the whole way without rest could I finally stop.@
-`I had done nothing wrong, yet involvement felt dangerous, and I believed I had taken the best course available to me.@
+`I had done nothing wrong, but getting involved felt dangerous; at least, I thought I had done the best I could.@
 `The person in the alley had still been breathing,
-`the blood loss hadn’t looked severe, so their life probably wasn’t in danger.
+`and the blood loss hadn’t looked severe, so their life probably wasn’t in danger.
 \
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
-`“Ah…”@
-`The flat-out sprint from the city had taken its toll.@ I hadn’t even slowed on the murderous uphill road, and now there was nowhere near enough oxygen in my body.
+`“Ah[line=5]”@
+`The flat-out sprint from the city had taken its toll.@ I hadn’t even paused on that brutal uphill climb, and now there was nowhere near enough oxygen in my body.
 \
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
-`“This is bad…”@
+`“B[line=3]bad”@
 `A savage wave of dizziness struck.@
 `My consciousness felt as though it were being scraped away, vanishing piece by piece from inside my skull.@
 `This was no ordinary faint spell.@
@@ -214,14 +214,14 @@ wave se_04
 ld c,"tachi/koha_t02",lshutter,400
 `“Oh, good morning, Shiki.@ How are you feeling?”@
 `Kohaku approached with her usual smile.@
-`“…”@
+`“[line=7]”@
 `Last night’s conversation with Hisui came rushing back.@
-`I shoved it into a distant corner of my mind and returned as normal a smile as I could manage.
+`I forced it into a distant corner of my mind and managed a smile as ordinary as I could make it.
 \
-`“Morning, Kohaku.@ Were you the one who carried me here?”@
+`“Morning, Kohaku.@ Um[line=3]were you the one who carried me here?”@
 ld c,"tachi/koha_t03",crossfade,400
 `“What, don’t you remember, Shiki?@ You were moaning in your sleep on the stairs.@
-`When I called to you, you stood up all by yourself and said, ‘Ah, what a wonderful nap!@’ Then you started walking.”@
+`When I called to you, you stood up all by yourself, said, ‘Ah, what a wonderful nap!@’ and started walking; I lent you my shoulder, but you made it back here on your own.”@
 `“Huh.@ I don’t remember any of that.@ Maybe I’ve been too tired lately.@ I keep losing track of what I’ve been doing.”
 \
 `“Oh?@ Then don’t you remember last night either?”@
@@ -238,10 +238,10 @@ ld c,"tachi/koha_t02",crossfade,400
 cl c,lshutter,400
 `“Anyway, thank you.@ If I’d slept on the stairs all night, I’d have caught a cold, and school[line=3]”@
 `Wait.@ Unless my eyes deceived me, the clock was well past ten.@
-`“School!@ Kohaku, school!”@
+`“Ah[line=3]!@ K-Kohaku, school!”@
 ld c,"tachi/koha_t03",lshutter,400
 `“Yes.@ Your school is closed today for its anniversary.”@
-`“…”@
+`“[line=8]”@
 `I see.@ Come to think of it, there was such a day.@
 `I had been so distracted at school lately that even that had slipped my mind.
 \
@@ -265,12 +265,12 @@ cl c,lshutter,400
 ld c,"tachi/koha_t03",lshutter,400
 `“I’ll bring you some rice porridge right away.@ You must behave yourself today, Shiki.”@
 cl c,lshutter,400
-`“Wait—Kohaku.”@
+`“Ah[line=3]Kohaku.”@
 ld c,"tachi/koha_t03",lshutter,400
 `“Yes?@ What is it, Shiki?”@
 `Kohaku was still Kohaku.@
 `That smile, bright enough to restore the spirits of anyone who saw it, had not changed.@
-`I could not believe it was merely an act.
+`I[line=3]could not believe her smile was nothing but an act.
 \
 `“No, it’s nothing.@ I’m looking forward to the porridge.”@
 ld c,"tachi/koha_t05",crossfade,400

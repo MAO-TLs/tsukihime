@@ -15,11 +15,11 @@ bg "bg/bg_33b",lcartain,400
 bg #000000,lcartain,800
 bg "bg/bg_42b",lcartain,800
 bg #000000,lcartain,800
-`[line=3]The sun had set completely, leaving the grounds dark as midnight.@
-`I walked through a garden so densely wooded it was almost a forest.@
-`I barely remembered where the annex stood, yet as soon as I entered the trees, my feet began carrying me toward it on their own.@
-`Perhaps my body remembered what my mind had nearly forgotten.@
-`In any case, I reached the annex without taking a single wrong turn.
+`[line=3]The sun has set completely, leaving the grounds dark as midnight.@
+`I walk through a garden so densely wooded it is more forest than grove.@
+`I barely remember where the annex stands, yet the moment I enter the trees, my feet begin making for it on their own.@
+`Perhaps my body remembers what my mind has almost forgotten.@
+`In any case, I reach the annex without losing my way once.
 \
 bg "bg/bg_44b",lcartain,800
 `“[line=7]”@
@@ -28,20 +28,20 @@ br
 `The entrance was unlocked when I tried it.@
 br
 bg #000000,lcartain,800
-`Naturally, the interior was dark.@
-`The smells of tatami and paper screens greeted me, and despite the absolute blackness, I felt at ease.
+`Naturally, it is dark inside.@
+`The smell of tatami and paper screens; though the darkness is absolute, it puts me at ease.
 \
 bg "bg/bg_45c",lcartain,800
 `“[line=5]Ah”@
 `The moment I entered the room, a shiver ran down my back.
 \
 `“[line=5]I know this place.”@
-`As a child, I must have come here to play because the main house had no rooms like it.@
+`As a child, perhaps I came here to play because Japanese rooms were a novelty absent from the main house.@
 `“[line=6]”@
-`But something was wrong.@
-`My skin prickled with the same strange unease I had felt when first shown to my bedroom after returning to the mansion.@
-`“Maybe it’s because the Arima house had rooms like this.”@
-`I felt as though I had lived here all my life.@
+`But this is strange.@
+`My skin senses the same unease I felt when I returned to the mansion and was shown to my room.@
+`“Maybe it’s because the Arima house had Japanese rooms.”@
+`Somehow, I feel as though I have always lived here.@
 br
 `Or perhaps[line=3]
 \
@@ -84,21 +84,21 @@ wait 100
 bg "bg/bg_45c",notrans,0
 wave se_01
 `“Ow[line=4]”@
-`Pain stabbed through the back of my neck.@
-`Perhaps another fainting spell was coming on; my body felt heavy as lead.@
-`“This is bad; I need to get back to my room.”@
-`I shook my head and was about to leave before I collapsed for real.@
+`Pain stabs through the back of my neck.@
+`Perhaps a fainting spell is coming; even my body feels heavy as lead.@
+`“This is bad—I need to get back to my room.”@
+`I shake my head lightly and decide to leave before I truly collapse; and then.@
 play "*1"
 ld c,"tachi/koha_t02b",lshutter,400
-`“Why, Master Shiki.@ What are you doing in a place like this?”@
-`Kohaku suddenly walked in.
+`“Why, Shiki.@ What are you doing in a place like this?”@
+`Kohaku suddenly enters.
 \
 `“[line=5]!”@
 `I frantically looked around for some escape.@
 `There was nowhere to hide, and she had already found me in any case.@
 ld c,"tachi/koha_t04b",crossfade,400
-`“You know you aren’t allowed in here.@ Miss Akiha gave us strict instructions that Master Shiki, in particular, must never enter.”@
-`“I know.@ She told me today, but, well[line=3]”@
+`“You mustn’t come in here.@ Miss Akiha told us that Shiki, in particular, was never to be allowed inside.”@
+`“I know; she told me today.@ But, well[line=3]”@
 ld c,"tachi/koha_t15",crossfade,400
 `“You couldn’t help being curious, could you?@ Very well, I’ll overlook it this once, but please don’t come here again.@ This building is quite old, and parts of it are dangerous.”
 \
@@ -106,18 +106,18 @@ ld c,"tachi/koha_t15",crossfade,400
 `It sounded odd, but it made a certain amount of sense.@
 `“Sorry.@ But Kohaku, what was this building used for?@ Everyone says it’s abandoned now, so it must have been used for something before.”@
 ld c,"tachi/koha_t03b",crossfade,400
-`“It was originally the servants’ residence.@ Until you were sent to live with the Arima family, more than a dozen servants worked at the mansion.@
+`“It was originally the servants’ residence.@ Until Shiki was sent to the Arima family, more than a dozen servants worked at the mansion.@
 `There was no room for so many people in the main house, so Master Makihisa had this annex built.”@
-`“I see.@ So it was servants’ quarters.”
+`“I see.@ So it was the servants’ residence.”
 \
 `Once she explained it, the arrangement seemed obvious.@
 `An estate this large would naturally have needed something of the sort.@
 `But why.@
 `Why was Akiha so determined to keep me out[line=3]?
 \
-`“Master Shiki, we should return to the main house before Miss Akiha notices.”@
+`“Shiki, we should return to the main house before Miss Akiha notices.”@
 `“Ah[line=3]right, sorry.”@
-`I pushed the faint misgiving aside and went back with Kohaku.
+`I brush aside the faint doubt and return to the mansion with Kohaku.
 \
 bg #000000,lcartain,800
 playstop

@@ -6,7 +6,7 @@ bg #000000,crossfade,800
 bg "bg/bg_28b",crossfade,800
 `The park at night.@
 `Everything in my vision was indistinct except for a single, sharply defined figure.@
-`“……”@
+`“[line=6]”@
 `Somehow, the me who was not me seemed to have wanted this to happen.@
 br
 `The moonlight was fierce,
@@ -15,17 +15,17 @@ br
 \
 ld c,"tachi/ark_t01a",crossfade,400
 `“It’s been a while.@
-`Beautiful moon tonight, Shiki.”@ “Arcueid…@ I thought you’d gone home.”@
+`Beautiful moon tonight, Shiki.”@ “[line=2]Arcueid…@ I thought you’d gone home.”@
 ld c,"tachi/ark_t05c",crossfade,400
 `“No.@ I still haven’t accomplished what I came here to do.@ I can hardly go home now, can I?”@
 br
 `[line=3]Without the slightest ceremony,
 `Arcueid fixed her crimson eyes on me.
 \
-`“—!”@
+`“[line=5]!”@
 `My breath stopped.@
-`The alien pressure she exerted was beyond comparison with what I had felt facing Ciel.@
-`“Arcueid…@ what are you—”@
+`The pressure was inhuman—nothing like what I had felt facing Ciel.@
+`“Arcueid…@ what are you[line=3]”@
 `The rest of the question never became words.
 \
 wave se_01
@@ -38,18 +38,18 @@ bg "bg/bg_28b",crossfade,400
 ld c,"tachi/ark_t05c",crossfade,400
 `“……@Well.@ You haven’t run.@ Does that mean you’re prepared?”@
 `Her red eyes stared at me as though I were an enemy she despised.@
-`“Ah…”@
+`“Ah[line=6]”@
 `I couldn’t breathe.@
 `My throat refused to move.@
-`If I made any unnecessary move, my head would be torn from my neck in the next instant.
+`If I made any unnecessary move[line=3]my head would be torn from my neck in the next instant.
 \
 `“I’m going to kill you now.@ Any last words?”@
 wave se_01
-`“……”@
+`“[line=9]”@
 `Terror had taken even my voice.@
-`If I could have spoken, I would only have asked why she was trying so earnestly to kill me.
+`If I could have spoken, I would have asked only one thing[line=3]why was she truly trying to kill me?
 \
-`“What?@ No—I don’t believe it.@ Shiki, you still haven’t realized?”@
+`“What?@ No[line=3]I don’t believe it.@ Shiki, you still haven’t realized?”@
 cl c,lshutter,400
 `Arcueid gave a soft, amused smile and stepped closer.@
 br
@@ -74,30 +74,30 @@ play "*4"
 `Something split inside my head.@
 `It was a final fracture—catastrophic, hopeless, breaking something already beyond repair.
 \
-`“Wh—”@ A sound escaped me.@
+`“Wh[line=5]”@ A sound escaped me.@
 `What?@
 `What was she
 `talking about?@
 ld c,"tachi/ark_t01a",crossfade,400
 `“So, Shiki?@ How does it feel to have Roa inside you?”@
-`The white vampire princess spoke with a friendliness that chilled the blood, her voice laden with indescribable bloodlust.@
-`“I—I…”@
+`The white vampire princess spoke with a familiarity that made my skin crawl and a murderous intent beyond description.@
+`“I[line=4]I…”@
 `I knew no one called Roa.@
 `Inside me was only a destructive impulse I couldn’t understand—the urge that had tried to kill Kohaku for no reason and found pleasure in the thought.@
-`Only that—
+`Only that[line=4]
 \
-`“Ah…”@
+`“Ah[line=4]”@
 `Then that was it.@
 `That sudden, black impulse.@
 `Was that what they called Roa?
 \
-`“N-no.@ That can’t be true.”@
+`“[line=3]N-no.@ That can’t be true.”@
 ld c,"tachi/ark_t05a",crossfade,400
 `“There’s no use pretending.@ Roa was originally a man I turned into a Dead Apostle.@
 `I can easily feel where the power stolen from me is still beating.”@
-`“That’s…@ a lie.”@
+`“[line=3]That’s a lie.”@
 `The words plunged me into despair as soon as I spoke them.@
-`They could not deceive even me.
+`Those words[line=3]could not deceive even me.
 \
 `“I don’t know why it happened.@ I’ve gone through this seventeen times, but this is the first time I’ve ever seen anything like it.”@
 `Arcueid made no attempt to come closer.@
@@ -112,7 +112,7 @@ wait 100
 bg "bg/bg_28b",notrans,0
 `[line=3]Thump.@
 `Was that my own instinct, sounding the alarm at mortal danger?@
-`Or was it the impulse called Roa, raging inside my brain?
+`Or was it[line=3]the impulse called Roa, raging inside my brain?
 \
 `“…@Ar…@ cueid.”@
 `I slipped a hand into my pocket.@
@@ -128,13 +128,13 @@ ld c,"tachi/ark_t05d",crossfade,400
 `Throb.@
 `Inside my skull, the vampire called Roa was struggling to awaken.
 \
-`“……”@
+`“[line=7]”@
 `…@It hurt.@
 `Every time Arcueid spoke his name, his memories thrashed inside my brain.@
 br
 `Throb.@
 `Throb.@
-`Thro-o-ob.@
+`Thro[line=6]b
 !w1000
 \
 bg #ffffff,crossfade,800
@@ -145,7 +145,7 @@ ld c,"tachi/ark_t06",crossfade,400
 `“…@Why would I run?@ I’ve got no reason to…@ run from you.”@
 `Clutching my throbbing head, I somehow managed to answer her.
 \
-`“Well, well.@ I’m surprised you can still bluff.@ I thought Roa had swallowed more than half of you by now—but I see.@ So that’s how it is.”@
+`“[line=3]Well, well.@ I’m surprised you can still bluff.@ I thought Roa had swallowed more than half of you by now[line=3]but I see.@ So that’s how it is.”@
 `Arcueid’s voice was almost buoyant.@
 `…@I had no idea what delighted her, but some trace of humanity remained in her.@
 ld c,"tachi/ark_t01a",crossfade,400
@@ -177,18 +177,18 @@ br
 `“……@Then…”@
 `Did that mean Roa’s own will was almost entirely gone?
 \
-`“Arcueid, are you saying—”@
+`“Arcueid, are you saying[line=3]”@
 ld c,"tachi/ark_t05a",crossfade,400
-`“Yes.@ If that is all he has become, there is no need to kill you.@ I only need the power Roa stole from me to serve beneath me once more.”@
-`“……?”@
+`“Yes.@ If that is all he has become, there is no need to kill you.@ I only need the power Roa stole from me to move at my command again.”@
+`“[line=4]?”@
 `No need to kill me, she said.@
 `Then why had she come?@
-`Why was she looking at me with such grave, unwavering eyes?
+`Why was she looking at me with such[line=3]such grave, unwavering eyes?
 \
 `“……@I don’t understand.@ What are you trying to say, Arcueid?”@
 ld c,"tachi/ark_t05b",crossfade,400
 `“I’m telling you to become my servant.”@
-`“……@What?”@
+`“[line=8]What?”@
 cl c,crossfade,400
 `[line=3]She did not appear to be joking.@
 `Yet when she and Ciel had faced each other, Arcueid herself had called the idea a tasteless joke.
@@ -222,7 +222,7 @@ cl c,crossfade,400
 br
 `Besides, I still had Ciel.@
 `If I went to school tomorrow and asked her for help,
-`she would surely find some answer.
+`she would surely[line=3]find some answer.
 \
 `“……!”@
 `I clenched my teeth and forced the headache down.@
@@ -231,7 +231,7 @@ br
 `and raised it in both hands before my eyes.
 \
 ld c,"tachi/ark_t07",crossfade,400
-`“Shiki…”@ “No.@
+`“[line=4]Shiki…”@ “No.@
 `Sorry, but I’m not going to belong to you.”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“I see.@ Then I suppose I’ll have to use force.”@
@@ -253,7 +253,7 @@ wave se_12
 `Krrrng!@
 `Arcueid’s claws collided with my knife.@
 br
-`Beneath the golden moon, even the sight of Arcueid charging as my enemy was beautiful.
+`Beneath the golden moon, Arcueid was beautiful even as she charged me as an enemy.
 \
 wave se_12
 `Krrrng!@
@@ -272,14 +272,14 @@ wave se_12
 `My body moved while my mind did nothing.@
 `My arms, my legs—this whole body—deflected Arcueid’s claws on its own, obeying a single command: I don’t want to die.
 \
-`“Damn…”@
+`“Damn[line=5]”@
 `My mouth twisted in bitter amusement.@
 `I hated to admit it, but my body had strayed far beyond anything human.@
 `At night, Shiki Tohno could probably leap from the third floor of the school building as easily as the man once called SHIKI.
 \
-`Krrr— But that was my limit.@
-`I had known from the beginning.@
-`I could never defeat Arcueid.@
+`Krrr.@
+`But that was my limit.@
+`I had known from the beginning[line=3]I could never defeat Arcueid.@
 `For one thing, I couldn’t see the lines, my only weapon.@
 br
 `I had no way to harm her.@
@@ -291,7 +291,7 @@ br
 `A single sweep of Arcueid’s arm sent me flying.
 \
 bg #000000,lshutter,400
-`“Guh—!”@
+`“Guh[line=4]!”@
 `I somehow landed on my feet and raised the knife.@
 `No matter how hard I stared, not a single “line”@ appeared on Arcueid’s body.@
 `“Damn it, she’s impossible…!”@
@@ -300,7 +300,7 @@ bg #000000,lshutter,400
 `challenging the princess of the moon was sheer madness.
 \
 bg "bg/bg_29b",lshutter,800
-`“Hah—ah…”@
+`“Hah[line=4]ah…”@
 `My throat burned.@
 `My heart felt ready to burst.@
 `Only now did I realize that her crimson eyes had held me under such crushing pressure from the instant we met that I had scarcely been allowed to breathe.
@@ -310,9 +310,9 @@ ld c,"tachi/ark_t01a",lshutter,400
 `Arcueid wasn’t even winded.@
 `I was close to cardiac arrest from lack of air, and there she stood without a care in the world.
 \
-`“Damn you…@ You’re the one who needs to cool your head…”@
+`“Damn you[line=4]you’re the one who needs to cool your head[line=4]”@
 `I edged away from Arcueid as I struggled to steady my breathing.@
-`…@She wasn’t remotely serious.@ She lacked the oppressive aura of Nrvnqsr or Roa, yet never had I felt so nakedly the gulf between her existence and mine.
+`She wasn’t remotely serious.@ She lacked the oppressive aura of Nrvnqsr or Roa, yet never, until now[line=3]had I felt so nakedly the gulf between her existence and mine.
 \
 ld c,"tachi/ark_t03",crossfade,400
 `“Honestly, Shiki.@ It seems you won’t understand until you’ve been killed at least once.”@
@@ -322,7 +322,7 @@ cl c,notrans,0
 quakey 3,100
 bg #000000,notrans,0
 wave se_05
-`“Guh—!”@
+`“Guh[line=4]!”@
 `Something struck the back of my skull with a boom.
 \
 `[line=4]Before I could blink,
@@ -333,24 +333,24 @@ wave se_05
 \
 bg "event/ark_e04b",crossfade,400
 waveloop se_02
-`“……”@
+`“[line=6]”@
 `Arcueid glared down in silence.@
 `Her weight pressed into my shoulders.@
 `She could do anything she wished to me, yet she had stopped, almost as though she were hesitating.@
-`“……”@
+`“[line=6]”@
 `I caught my breath.@
 `Or perhaps that breathless pause belonged to Arcueid.
 \
-`“……”@
+`“[line=6]”@
 `We were so close—almost close enough to embrace.@
-`From here, perhaps I could see it.
+`From here[line=3]perhaps I could see it.
 \
 `[line=6]I stared hard at Arcueid’s body.@
 br
 `Something creaked deep in my skull.@
-`This was no ordinary headache; it sounded as though a crack were truly opening through my brain.
+`This was no ordinary headache[line=3]it sounded as though a crack were truly opening through my brain.
 \
-`“—!”@
+`“[line=6]!”@
 `Still nothing.@
 `I could read no trace of death in Arcueid herself.@
 `In daylight, perhaps—but at night she was a life infinitely close to perfection, a being without the very concept of death.
@@ -358,13 +358,13 @@ br
 `“Arcueid, what will you do about Roa?@ You say you won’t kill me, but Roa will live for as long as I do.”@
 `“Roa has grown so faint that I can safely ignore him.@ That was why I could have let you go.”
 \
-`“Then don’t hold back—let me go.@ Forget about me and hurry home so your daddy won’t worry.”@
+`“Then don’t hold back[line=3]let me go.@ Forget about me and hurry home so your daddy won’t worry.”@
 `“But the power was mine to begin with.@ Of course I would want it back.@ More importantly, I like you.”@
 br
 `Her weight ground harder
 `into my shoulders.
 \
-`“Rather than kill you and absorb Roa, I want to take Shiki into myself exactly as you are.”@
+`“Rather than kill you and take Roa into myself, I want to take you in as you are, Shiki.”@
 br
 `I won’t kill you.@
 `Her red eyes pleaded the words.
@@ -379,19 +379,19 @@ br
 `“……@Shiki.@
 `Or do you hate me?”@
 `Her eyes met mine without wavering.@
-`Pinned beneath her, I stared into her face—earnestly, fiercely enough to burn out my brain.
+`Pinned beneath her, I stared into her face[line=3]earnestly, fiercely enough to burn out my brain.
 \
 `“—I don’t hate you, Arcueid.”@
 `“Really?”@
 `She asked, delighted.@
 br
 `…@My forehead burned.@
-`Through the sound of my brain boiling, I finally—
+`Through the sound of my brain boiling, I finally[line=3]
 br
 `—saw one solitary “line,”@ one that would make her easy to kill.
 \
 `“But even so, I’m not becoming your puppet!”@
-`“—!”@
+`“[line=7]!”@
 `Arcueid’s eyes flared with rage.@
 `But before that could matter,
 `I had already cut the “line”@ across her throat.
@@ -400,14 +400,14 @@ bg "bg/ima_12",lshutter,400
 !w1000
 wavestop
 bg "bg/bg_29b",crossfade,400
-`“Ah—”@
+`“Ah[line=5]”@
 `Bright blood spilled from her throat, and Arcueid collapsed.@
 `I wriggled out from under her and put distance between us while I still could.
 \
-`“Hah—ah”@
+`“Hah[line=4]ah”@
 `I was already panting.@
 `I wasn’t wounded, but I could never run properly like this.@
-`Knowing Arcueid, she would heal a cut like that in moments and come after me again—
+`Knowing Arcueid, she would heal a cut like that in moments and come after me again[line=3]
 br
 `“Ar—cueid?”@
 `She did not move.@
@@ -422,7 +422,7 @@ br
 br
 `[line=5]No.@ Had I—had I killed her?
 \
-`“No—Arcueid, that can’t be—”@
+`“No[line=3]Arcueid, that can’t be[line=3]”@
 `I stopped in my tracks; I turned to rush back to her body and sucked in a breath.
 \
 wave se_01
@@ -474,7 +474,7 @@ br
 br
 br
 br
-`“K i l l…”@
+`“K i l l m e.”@
 br
 \
 br
@@ -504,11 +504,11 @@ br
 br
 `Hahaha, ahahaha—
 br
-`Ahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha—!!!!
+`Ahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha[line=5]!!!!
 \
 bg "bg/ima_01",crossfade,800
 monocro off
-`“Ar—cueid.”@
+`“Ar[line=3]cueid.”@
 `Her eyes saw nothing.@
 `She tried to rise on one hand, only to collapse each time.@
 br
@@ -520,11 +520,11 @@ br
 br
 `“W-wait.”@
 br
-`“…”@
+`“[line=7]”@
 `I couldn’t move.@
-`Arcueid’s voice, her form, her will—all of it poured irresistibly into my mind.@
+`Arcueid’s voice, her form, her will[line=3]all of it poured irresistibly into my mind.@
 br
-`The will that was me was swept away.@ Dissolved.@ Toyed with.@
+`The will that was me was swept away.@ Dissolved.@ Flung helplessly about.@
 `The world spun round and round.@
 br
 `Amid the spinning, an image of her entered me.
@@ -552,14 +552,14 @@ br
 br
 `Yes.@
 br
-`That instant when I tore off his limbs, split open his ribs and twisted out his entrails, crushed the throat that begged for mercy, bit his eyes to pulp, split his skull open, and spread his brains across the ground like butter—!
+`That instant when I tore off his limbs, split open his ribs and twisted out his entrails, crushed the throat that begged for mercy, bit his eyes to pulp, split his skull open, and spread his brains across the ground like butter[line=5]!
 \
 textcolor #ffffff
 bg "bg/bg_27b",crossfade,400
 `“Wait for me; I’ll kill you very soon…!”@
 `Laughing and laughing like a madwoman, Arcueid writhed in a sea of her own blood.
 \
-`“……”@
+`“[line=4]”@
 `I couldn’t move.@
 `This was bad.@
 `Even Roa had gone rigid.@
@@ -567,11 +567,11 @@ bg "bg/bg_27b",crossfade,400
 `I had to run.@
 `Anywhere—anywhere at all.@ If I didn’t get away now, I would die.
 \
-`“Ah…@
-`ah—”@ Wet, splashing sounds.@
-`Arcueid laughed madly in the lake of her own blood.@
-`“Ahh…@
-`ah—”@ Blood spilled from her throat.@
+`“Ah, ah[line=5]”@
+`Wet, splashing sounds.@
+`Arcueid laughed madly in a sea of her own blood.@
+`“Ahh, ah[line=4]”@
+`Blood spilled from her throat.@
 `A mortal slash across her throat.@
 `Was the pain so terrible?@
 `To dull it, she bit and tore at her own stomach and arms.@
@@ -586,20 +586,20 @@ bg #000000,lcartain,800
 wavestop
 !w2000
 bg "bg/bg_01c",lcartain,1500
-`“Hah…@ hah, hah…”@
+`“Hah[line=3]hah, hah[line=4]”@
 `When I came to myself, I had run all the way here.@
-`“Hah…@ ah, ah…”@
+`“Hah[line=4]ah, ah.”@
 `I couldn’t catch my breath.@
 `My body was so exhausted it could not take another step.@
-`“Ah…@ ha…@ ah…”@
+`“Ah[line=3]ha, ah.”@
 `Still I forced my legs onward.@
 `She would find me if I stayed here.@
 `I had to get inside a building and hide until morning or she would kill me.@
-`Even while I rested, she had to be searching for me—
+`Even while I rested, she had to be searching for me[line=3]
 br
 \
 `I removed my glasses and cut through the lock on the school gate with my knife.@
-`“Ah…@ ngh.”@
+`“Ah[line=4]ngh.”@
 `I opened the gate and slipped onto the grounds.
 \
 bg "bg/bg_02a",crossfade,800
@@ -617,39 +617,39 @@ bg "bg/bg_02a",crossfade,400
 `Roa, supposedly living inside me.@
 `…@And the white vampire princess laughing like a lunatic.
 \
-`“—Guh.”@
+`“[line=4]Guh.”@
 `Bile surged up my throat, filling my mouth with bitterness.@
 `I had eaten nothing all day,
 `so there was nothing to vomit but sour stomach acid.
 \
-`“Hah…@ ah.”@
-`Still on my knees, I let my forehead strike the ground.@
-`“How…@
-`did it come to this?”@
+`“Hah[line=5]ah.”@
+`Still on my knees, I slammed my forehead into the ground.@
+`“How did it come to this?”@
 `I breathed out something close to surrender and abandoned the effort to rise.@
-`…@If she found me, so be it.@
-`There was no escape anyway—not from Arcueid, nor from the Roa inside me.@
+`If she found me, so be it.@
+`There was no escape.@
+`Not from Arcueid, nor from the Roa supposedly inside me.@
 br
-`In that case, it would be easier to remain here and quietly wait for the end.
+`In that case, it would be easier[line=3]to remain here and quietly wait for the end.
 \
 !w3000
 wave se_09
 monocro #0000ff
 bg "bg/bg_02a",crossfade,400
-`“……?”@
+`“[line=3]?”@
 `The light around me dimmed.@
 `Click, click—approaching footsteps.@
 `On all fours with my head hanging, I hadn’t noticed someone coming toward me.@
 br
-`Under the moonlight, that person’s shadow had fallen across me where I crouched on all fours.@
-`Was that why it had grown dark?
+`Under the moonlight, someone’s shadow fell across me where I knelt on all fours.@
+`So that was why it had grown dark.
 \
 `“Playing at confession, Tohno?”@
 br
 `It was Ciel’s
 `voice—cold as ice.@
 br
-`“Is that…@ you?”@
+`“Ciel[line=4]?”@
 `I raised my head in a daze.@
 `I had no idea why she was here.@
 `I only needed something—anything—to cling to, and lifted my face as though appealing to the night sky.@
@@ -673,22 +673,22 @@ br
 \
 `A black cross tattooed on her bare arm.@
 `Eyes as cold as if she were looking at a total stranger.@
-`…@And a crude, naked weapon whose mere appearance sent a chill through me—something grotesquely ill-suited to her.
+`…@And a crude, bare weapon whose mere appearance sent a chill through me—something grotesquely ill-suited to her.
 \
-`“—Ah.”@
+`“[line=7]Ah.”@
 `…@I know it.@
-`Somewhere inside my head, I know what that weapon is.@ It is called the Seventh Holy Scripture, one of the apocryphal texts forbidden to outsiders.@
+`Somewhere inside my head, I know what that weapon is.@ It is called[line=3]the Seventh Holy Scripture, one of the apocryphal texts forbidden to outsiders.@
 br
-`“Ci—el?”@
+`“Ci[line=3]el?”@
 `“So you really were Roa, Tohno.”@
 `With the same cold eyes,
 `she spoke in the same cold voice.
 \
-`“—”@
+`“[line=4]”@
 `A shudder ran down my spine.@
 `For no reason—no, because instinct and reason were screaming danger with one voice—I sprang away from her.@
 br
-`“……”@
+`“[line=6]”@
 `Her lips stayed tightly closed.@ Carrying that ominous weapon, she took one step toward me.@
 `…@There was not the slightest opening in her guard.
 \
@@ -697,22 +697,22 @@ br
 br
 `…@Even though no such knowledge existed anywhere in my memories.
 \
-`“Why…?@ Why are you acting like this too—?”@
+`“[line=3]Why…?@ Why are you acting like this too[line=3]?”@
 br
 play "*8"
 `“I understand.@ Roa’s consciousness is surfacing, isn’t it?@ Then it’s already too late.”@
 `Scrape.@
 `She took another casual step toward me.@
 br
-`She looked exactly like—
+`She looked exactly like[line=3]
 \
-`“—Something’s wrong, Ciel.”@
-`“You look as if—as if you’re trying to kill me.”@
-`“—”@
+`“[line=3]Something’s wrong, Ciel.@
+`That makes it sound as if[line=3]as if you’re trying to kill me.”@
+`“[line=5]”@
 `She did not answer.@
 `She watched me as though her only concern was where to strike for a certain kill.
 \
-`“—Ci…@el.”@
+`“[line=3]Ci…@el.”@
 `She was serious.@
 `She truly meant to kill me.@
 br
@@ -720,28 +720,28 @@ br
 `My nerves sensed that death was moments away and began to buckle.@
 `My spinal cord shrieked with electric pain; the back of my neck seized tighter and tighter.@
 br
-`But more than the fear of death—
+`But more than the fear of death[line=3]
 `I simply could not believe she was saying these things to me.
 \
-`“—Why?”@
+`“[line=4]Why?”@
 `I didn’t understand.@
 `“You said you would stay for me.”@
-`“—”@
+`“[line=6]”@
 `Abruptly.@
 `Ciel stopped dead.@
 br
 `Still staring straight at me, she gave a tiny laugh.
 \
 `“Your trusting nature deserves to be declared a national treasure.@ Trusting people is admirable, but if you had stopped to think a little more calmly, you might have escaped.”@
-`“What…?”@
+`“What[line=3]?”@
 `“Did you never once wonder why I had infiltrated this school?@
 `I certainly wasn’t doing it because I enjoyed playing student.”
 \
-`“Ci—el?”@
-`“You know my purpose is to destroy the Serpent—Roa.@
+`“Ci[line=6]el?”@
+`“You know my purpose is to destroy the Serpent[line=3]Roa.@
 `I came to this school because I learned Roa’s reincarnation vessel was here.@ But I had no conclusive proof, so I needed to observe the vessel for a time.”
 \
-`“Wait.@ What are you—?”@
+`“Wait.@ What are you[line=3]?”@
 `What was she talking about?@
 `I didn’t understand.@
 `I couldn’t understand a word of it.@
@@ -749,19 +749,19 @@ br
 \
 `“—I explained this before, Tohno.@ Roa chooses his reincarnation host according to certain conditions.@
 `That means one need only find a family that satisfies them.@ Once those conditions are known, identifying his reincarnation vessel is easy.@
-`Whether a family carries an ancient supernatural gift can be discovered with very little investigation.@ In this city, only one lineage qualified as a possible host for Roa.@
-`So—I knew who Roa was from the very beginning.”
+`Whether a family had inherited an ancient supernatural bloodline was easy to discover.@ In this city, only one lineage could have served as Roa’s reincarnation host.@
+`So[line=3]I knew who Roa was from the very beginning.”
 \
-`“—Wh…”@
+`“[line=5]Wh…”@
 `That made no sense.@
 `If she had known from the beginning, she should have killed that person at once, or captured them…@
 `From the beginning?@
 `She had known who it was…?
 \
 `“Exactly.@ Surely you’ve realized it by now.@
-`I infiltrated this school from the beginning in order to capture you, Tohno.”@
+`I came to this school for one purpose, Tohno: to capture you.”@
 br
-`“—”@
+`“[line=14]”@
 `Wait.@
 `I needed her to wait—just for a moment.
 \
@@ -769,7 +769,7 @@ br
 `—I watched you from a distance to avoid stirring the Roa inside you, and eventually concluded you were not his reincarnation host.@
 `Roa’s host, however, had to be the eldest son of the Tohno family—that fact was beyond dispute.@ Which meant that you, Tohno, were the discrepancy.”@
 `Ciel recited it all dispassionately.@
-`I—could say nothing.
+`I[line=3]could say nothing.
 \
 `“My investigation showed that you suffered a grave injury eight years ago and were sent to live with relatives.@
 `What happened afterward accords with what the real SHIKI Tohno said two nights ago.@
@@ -779,28 +779,28 @@ br
 `Calmly, in a voice without feeling.@
 `This was a Ciel I did not know.@
 `Or was this the truth?@
-`Was this the real Ciel, and had all the kindness she had shown me until now been nothing but—
+`Was this the real Ciel, and had all the kindness she had shown me until now been nothing but[line=4]
 \
 `“Roa’s memories must have flowed into you through SHIKI on several occasions.@
-`Roa is a vampire who remade something as intangible as the soul.@ To him, the two of you sharing a single life made an ideal dual existence.”
+`Roa is a vampire fashioned from that intangible thing we call a soul.@ To him, the two of you sharing a single life made an ideal dual existence.”
 \
-`“That is why[line=3]even when SHIKI’s body was destroyed, Roa had no need to seek his next reincarnation host.@ In this age, he still had you as a refuge.”@
+`“So[line=3]even when SHIKI’s body was destroyed, Roa had no need to seek his next reincarnation host.@ In this age, he still had you as a refuge.”@
 `Cold.@
 `She hated me, glaring as though I were her bitterest enemy.
 \
 `“But that ends tonight.@ I had no time to prepare when it all happened so suddenly that night, but tonight is different.@
 `In a sense, I was fortunate.@ Had Arcueid destroyed Roa then and there, he would only have reincarnated again.”@
 `—I couldn’t.@ Believe it.@
-`That—none of that—
-`“—It’s a lie.”
+`That[line=3]none of that—
+`“[line=4]It’s a lie.”
 \
-`“Go ahead.@ Deny it and keep playing dumb right where you are.@ It will make my work easier.@ Although—”@
+`“Go ahead.@ Deny it and keep playing dumb right where you are.@ It will make my work easier.@ Although[line=3]”@
 br
 `The weapon answered with a metallic click.@
 br
 `“Even if you do decide to fight, you’ll still be easy to dispose of, Roa.”
 \
-`“—”@
+`“[line=7]”@
 `The mockery in her voice made me understand.@
 `…@She had not told a single lie.@
 `…@Her eyes were not looking at me.@
@@ -822,18 +822,18 @@ br
 `But it had never been for my sake.@
 `She remained to hunt the Roa who still lived—and I had gone seeking salvation from the woman hunting me.
 \
-`“—Ha.”@
+`“[line=4]Ha.”@
 bg #ffffff,crossfade,400
 monocro #ffffff
 bg "event/cel_e01",crossfade,400
 `Then that, too.@
 br
-`“Ha ha—”@
+`“Ha ha[line=3]”@
 bg "event/cel_e02a",crossfade,400
 br
 `That time as well.@
 br
-`“Ha ha—ha.”@
+`“Ha ha[line=4]ha.”@
 bg "event/cel_e03a",crossfade,400
 br
 `That night, when she saved me.@
@@ -846,21 +846,21 @@ bg #000000,crossfade,400
 \
 monocro off
 bg "bg/bg_02a",crossfade,400
-`“Ha ha—ha.”@
-`…@That’s right, Shiki.@ It was nothing.@ Memories like these couldn’t possibly mean a thing.
+`“Ha ha[line=4]ha.”@
+`…@That’s right, Shiki.@ It was nothing.@ Memories like these[line=3]couldn’t possibly mean a thing.
 \
 `I had merely believed that I loved her.@
 `That she loved me.@
-`…@What a joke.@
-`It had been no more than an illusion manufactured for a performance.@
+`What a joke.@
+`It had all been an illusion conjured by an act.@
 br
 `[line=4]All of it.@
-`Nothing but a fairy tale built out of lies—
+`Nothing but a fairy tale built out of lies[line=2]
 \
-`“—All right.@ I understand.@ But tell me, Ciel.@
-`How did you know Roa was still alive?@ How did you know that someone called Shiki Tohno was his reincarnation host?”@
+`“[line=3]Now it makes sense.@ But listen, Ciel.@
+`How did you know Roa was still alive?@ How did you know Shiki Tohno was his reincarnation host?”@
 ld c,"tachi/cel_t06c",crossfade,800
-`“Of course I knew.@ It concerns me personally, after all.”@ Ciel gave that incomprehensible answer with complete nonchalance.
+`“Of course I know.@ Because I’m talking about myself.”@ Ciel gave that incomprehensible answer with complete nonchalance.
 \
 bg #000000,lshutter,400
 playstop
@@ -874,13 +874,13 @@ bg "bg/bg_02a",lshutter,400
 br
 `If I were shot with it, my soul itself would scatter into mist.
 \
-`“—”@
+`“[line=6]”@
 `The bayonet sprang up.@
 `Its point swept toward me.@
 `Slowly, for some reason.@
-`She—Ciel—should have been able to drive it through me before I even realized I had been stabbed.
+`She[line=3]Ciel should have been able to drive it through me before I even realized I had been stabbed.
 \
-`“Ah—”@ There was
+`“Ah[line=4]”@ There was
 `no time to think.@
 br
 `[line=3]I pitched forward on instinct.@
@@ -890,21 +890,21 @@ bg #ffffff,notrans,0
 wait 100
 bg "bg/bg_02a",notrans,0
 wave se_12
-`“Hyah—!”@
+`“Hyah[line=4]!”@
 `The bayonet drove past my cheek with a heavy rush.@
 `It truly was slow.@
-`I slipped past the thrust, came out beside her, and kept moving—
+`I slipped past the thrust, came out beside her, and kept moving[line=4]
 \
 bg "bg/ima_14",lshutter,400
 wave se_06
-`“—!”@
+`“[line=4]!”@
 `Just as I tried to sprint past, her movements changed completely.@
 `With such speed that her body seemed to vanish, she swept that enormous weapon sideways.
 \
-`The air boomed—and somehow I found myself standing several meters away from her.@
+`The air boomed[line=3]and somehow I found myself standing several meters away from her.@
 bg "bg/bg_02a",crossfade,400
 ld c,"tachi/cel_t06c",crossfade,400
-`“……”@
+`“[line=7]”@
 `Ciel clicked her tongue and glared at me.@
 cl c,crossfade,400
 \
@@ -917,15 +917,15 @@ dec %flushcount
 if (%flushcount>=0) skip -5
 `“Ow…!”@
 `My left arm hurt.@
-`“What the hell—?!”@
+`“What the hell[line=4]?!”@
 `I stared.@
 `From the elbow down, my forearm was spectacularly broken.@
 `This was no simple fracture; my arm was bent into a sharp peak.
 \
 ld c,"tachi/cel_t06c",crossfade,400
-`“You saved your neck and lost only an arm.@
-`Had you done nothing, that blow would have ended your pain.”@
-`“Wh—”@ I didn’t understand it myself, but blocking her last strike had apparently destroyed my arm.
+`“[line=3]You saved your neck and lost only an arm.@ Had you done nothing, that blow would have ended your pain.”@
+`“Wh[line=4]”@
+`I didn’t understand it myself, but blocking her last strike had apparently destroyed my arm.
 \
 `“Aren’t you going to draw your knife?”@
 `She regarded me with boredom.@
@@ -947,20 +947,20 @@ if (%flushcount>=0) skip -5
 `That alone opened a white gap in my consciousness.
 \
 ld c,"tachi/cel_t06c",crossfade,400
-`“……”@
+`“[line=5]”@
 `She watched me with cold, indifferent eyes.@
-`“You—”@
+`“You[line=3]”@
 `She had broken my arm, and this was how she looked at me?@
 `Did she understand how much it hurt?@
 `Mocking me.@
 `Mocking me.@
-`Mocking me—!
+`Mocking me[line=5]!
 \
-`“If that’s how you want it—”@
+`“If that’s how you want it[line=4]”@
 br
 `I closed my hand around the knife in my pocket.@
 br
-`“Then I’m not going to just stand here and—”@
+`“Then I’m not going to just stand here and[line=4]”@
 br
 `My fingers found the hard metal.@
 br
@@ -969,7 +969,7 @@ br
 `The blade sprang
 `out with a snap.
 \
-`“Are you an idiot?”@
+`“[line=3]Are you an idiot?”@
 cl c,lshutter,400
 `In that instant,
 `her body exploded.
@@ -977,7 +977,7 @@ cl c,lshutter,400
 bg #000000,lshutter,400
 br
 `[line=4]No—that wasn’t it.@
-`She had dropped almost flat to the ground, scuttling as low as a lizard, and crossed the distance to me in a single instant.@
+`She had dropped almost flat to the ground[line=3]scuttling as low as a lizard, and crossed the distance to me in a single instant.@
 br
 `More than six meters vanished in the time it took to blink.
 \
@@ -992,15 +992,15 @@ bg "bg/bg_02a",lshutter,400
 wave se_05
 wave se_10
 quakey 4,100
-`“Gah—ah.”@
+`“Gah[line=5]ah.”@
 `Breath—my breath leaks out.@
 `Pain—was there pain?@ Yes, I could still feel it.@
 br
-`“Hah—uh.”@
+`“Hah[line=5]uh.”@
 `My consciousness—was it intact?@ Good, more or less.@
 br
 `“A-aaaaah…!”@
-`My body—what had happened to my body?
+`My body[line=4]what had happened to my body?
 \
 bg "bg/ima_13",lshutter,400
 `A thick, wet gushing.@
@@ -1014,11 +1014,11 @@ bg "bg/bg_02a",lshutter,400
 `It hurt.@
 `It hurt beyond anything the word pain could describe.@
 br
-`“Hah—aaah—nghhhh—!”@
+`“Hah—aaah—nghhhh[line=6]!”@
 `But I was alive.@
 `Somehow, I was still alive.
 \
-`My body was once again some distance from her.@
+`My body.@ My body was once again some distance from her.@
 `A faint odor of gunpowder clung to my shoulder.@
 br
 `“Ah…@ ah, ah.”@
@@ -1030,11 +1030,11 @@ ld c,"tachi/cel_t06c",crossfade,400
 br
 `The weapon clacked.@
 `A fresh blade replaced the one at its point.@
-`The blade that had just been fired into me fell away, then fluttered apart into the pages of a book.
+`The blade that had just been fired into me fell away, then[line=3]fluttered apart into the pages of a book.
 \
 `“Th—That’s nonsense.”@
 `Yet that impossible weapon terrified me.@
-`A mere touch from it would be fatal to this body.@
+`That thing[line=3]a mere touch from it would be fatal to this body.@
 `Death.@
 `I would die.@
 `She was unquestionably going to kill me.
@@ -1054,7 +1054,7 @@ br
 `She readied the weapon with another metallic click.@
 `Twice.@
 `Surviving it twice had been nothing short of a miracle.@
-`The next time, without question—
+`The next time, without question[line=4]
 \
 wave se_01
 bg #9c0120,crossfade,400
@@ -1065,29 +1065,29 @@ waveloop se_02
 br
 `Death.@
 `Whatever shape it took, it was ugly, filthy, and revolting.@
-`I liked myself—that was why I did not want it to happen to me.
+`I liked myself[line=3]that was why I did not want it to happen to me.
 \
 `Was that why I was afraid?@
 `I didn’t know.@
-`Come to think of it, though I had seen so much “death,”@ I had never once thought about what death itself meant.
+`Come to think of it[line=3]though I had seen so much “death,”@ I had never once thought about what death itself meant.
 \
 `No—none of that mattered now.@
-`“Hah, hah, hah—”@
+`“Hah, hah, hah[line=5]”@
 `I had to run.@
 `I did not want to die, so I had to run now.@
 br
 ld c,"tachi/cel_t07c",crossfade,400
-`“Aren’t you going to remove your glasses?”@
+`“[line=2]Aren’t you going to remove your glasses?”@
 `Her voice was flat and artificial.@
 `Those words.@ Their meaning struck me all at once.@
 `Removing my glasses meant seeing her “lines.”@
-`And if I did that, I might kill her—
+`And if I did that, I might kill her[line=4]
 \
-`“Wh-what are you saying, Ciel…?!”@
+`“Wh[line=2]what are you saying, Ciel…?!”@
 ld c,"tachi/cel_t06c",crossfade,400
-`“……”@
+`“[line=7]”@
 `A chill.@
-`Her bloodlust seemed to set the air itself ablaze.
+`Her murderous intent seemed to set the air itself ablaze.
 \
 `“I’ve had enough of this.@ Please, just die.”@
 cl c,crossfade,400
@@ -1098,8 +1098,8 @@ br
 `I knew she would rush me again, yet even seeing her move was nearly beyond me.
 \
 `[line=3]I could think of nothing but escape.@
-`If I didn’t want to die, running was the only choice left.@
-`Nearly ten meters separated us.@ At a full sprint, I might at least reach the school building.@ Inside, with walls and corridors instead of this empty field, I might have a chance—!@
+`If I didn’t want to die[line=3]running was the only choice left.@
+`Nearly ten meters separated us.@ At a full sprint, I might at least reach the school building.@ Inside, with walls and corridors instead of this empty field, I might have a chance[line=3]!@
 bg #000000,lcartain,400
 bg "bg/bg_03c",lcartain,400
 quakey 3,100
@@ -1107,19 +1107,19 @@ wave se_01
 bg #000000,notrans,0
 wave se_07
 br
-`“—!”@ Something was stuck in my back.@
-`Something had…@
-`pierced me.@ “It…@
-`hurts.”@
-`My body toppled forward.@
-`Just a little farther.@
-`I had almost reached the building.
+`“[line=6]”@
+`My back.@
+`Something is[line=3]buried in my back.@
+`“It[line=4]hurts.”@
+`My body pitches forward and hits the ground.@
+`I was so close.@
+`Just a little farther and I would have made it inside.
 \
-`“Guh—!”@
+`“Guh[line=5]!”@
 `I pushed myself up with one hand.@
 `The object in my back was one of the nail-like swords she had used before.
 \
-`“You…@ bastard…!”@
+`“You[line=4]bastard…!”@
 `Perhaps pain had ceased to mean anything, because I pulled the sword out.@
 `It had passed clean through me, so in my fury I dragged it the rest of the way out through my chest.@
 `“Good…”@
@@ -1132,7 +1132,7 @@ br
 \
 `“Do you still not understand?@ How quickly do you think you crossed the distance from the athletic field to here?@ Why are you still alive after suffering wounds that should have been fatal?”
 \
-`“No—”@ My consciousness whitened.@
+`“No[line=7]”@ My consciousness whitened.@
 `Don’t be fooled.@
 `Don’t be fooled.@
 `That woman has deceived you all along.@
@@ -1141,15 +1141,15 @@ br
 `Ignore her.@
 `Reject it.@
 `Even if she speaks the truth,
-`this body has no choice now but to cast it aside—
+`this body has no choice now but to cast it aside[line=3]
 \
-`“Stop…”@
+`“[line=4]Stop…”@
 `“There is nowhere left for you to run.@
 `You have only two choices: fight or be killed.@ If you cannot fight, then all that remains is death.”@
 `Click by measured click.@
 `She approached.
 \
-`“—!”@
+`“[line=7]!”@
 `My body sprang.@
 `My back, shoulder, and arm were nearly dead, yet it leapt as if such injuries were trivial.@
 br
@@ -1160,16 +1160,16 @@ bg #000000,lcartain,400
 !w1000
 bg "bg/bg_11c",lcartain,400
 play "*9"
-`“Hah, hah, hah, hah—”@ I ran.@
+`“Hah, hah, hah, hah[line=5]”@ I ran.@
 `Without thought,
 `wanting only to escape from something, I kept running.
 \
-`“Hah, hah, hah, hah—”@
+`“Hah, hah, hah, hah[line=5]”@
 `At last I reached my limit.@
 `Maybe I had run out of breath; maybe my wounds had finally robbed my limbs of movement.@
 `There was little difference between them now.
 \
-`“Hah—hah—hah—”@
+`“Hah, hah, hah[line=6]”@
 `I reached the end of the corridor.@
 `I struck the wall where the path ended and collapsed.@
 `Flat on my back, I tried to force strength into my limbs, then realized how absurd that was.
@@ -1178,7 +1178,7 @@ play "*9"
 `I sat slumped on the floor with my legs loosely crossed and rested my back against the wall.@
 `I drew up my knees, tipped my face back, and took a deep breath.
 \
-`“—The moon.”@
+`“[line=5]The moon.”@
 `Moonlight shone through the window above me.@
 `Perhaps it was exhaustion.@
 `Everything I could see looked hollow, blurred beneath a veil of mist.@
@@ -1200,10 +1200,10 @@ br
 bg #000000,crossfade,400
 bg "bg/ima_01",crossfade,400
 `The moon hung utterly alone in the night sky.@
-`“……”@
+`“[line=4]”@
 `How strange.@
 `Why had I never noticed before?@
-`Tonight was so—
+`Tonight was so[line=3]
 \
 bg "bg/bg_11c",crossfade,400
 `…@In the end, what had I ever been?@
@@ -1216,7 +1216,7 @@ br
 `I met the woman who taught me how to live, and because of her I had managed a normal life.@
 `Even now, I could say without doubt that meeting her had been right.
 \
-`“……@But it seems I was someone who never should have been allowed to live.”@
+`“…@But, Teacher, it seems I was someone who never should have been allowed to live.”@
 `Perhaps I ought to end my life while enough of me remained to believe that.@
 `But I couldn’t.@
 `I could not kill myself.@
@@ -1249,7 +1249,7 @@ br
 `If you don’t want to die, cut her apart.@
 `Cut apart the one who deceived you.@
 `Cut apart the one trying to kill you.@
-`Forget why—cut apart anyone who stands in my way.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART, CUT HER APART, CUT HER APART, CUT HER APART, CUT HER APART, CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT—APART—CUT—APART—CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT—!
+`Whatever the reason[line=3]cut apart anyone who stands in my way.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART.@ CUT HER APART, CUT HER APART, CUT HER APART, CUT HER APART, CUT HER APART, CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT—APART—CUT—APART—CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT CUT[line=5]!
 \
 `“SHUT UUUUUUP!!!!”@
 br
@@ -1273,32 +1273,32 @@ br
 br
 `…@I could no longer think clearly.@
 `My nerves had long since worn through and were beginning to burn out.@
-`Arcueid had attacked me, and I had cut her head off.@ I had somehow escaped, only to find Ciel waiting for me.
+`Arcueid had attacked me, and I had cut her throat.@ I had somehow escaped, only to find Ciel waiting for me.
 \
-`“Ha…@ haha, ha.”@
+`“Ha, haha, ha.”@
 `It was almost astonishing.@
 `This was too much, even for a joke.@
 `Every escape led me into a still worse nightmare.@
-`When had I wandered onto a road so utterly without salvation?@
+`When had I[line=3]wandered onto a road so utterly without salvation[line=3]
 !w750
 wave se_01
 monocro #0000ff
 bg "bg/bg_11c",notrans,0
 quakey 2,100
-`“Ah—guh…!”@
+`“Ah[line=3]guh…!”@
 `A headache like a knife driven through my skull.
 \
 monocro #ff0000
 bg "bg/bg_11c",notrans,0
 wave se_01
 quakey 2,100
-`“Hah…@ ah…”@
+`“Hah…@ ah[line=5]”@
 `I couldn’t breathe properly.@
 `My vision pitched and swayed.@
 `…@This really seemed to be the end of me.@
 `My thoughts were dissolving into chaos again.@
 `Yet I did not want to die.@
-`And if I wanted to live, there was only one thing left to do.@
+`And if I wanted to live[line=3]there was only one thing left to do.@
 br
 `The approaching footsteps grew louder.@
 `Her shadow stretched toward me.@
@@ -1327,22 +1327,22 @@ br
 `And with every step, someone’s voice rings through my skull.@
 `CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APART
 \
-`“—!”@
+`“[line=4]!”@
 br
-`CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER—
+`CUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER APART CUT HER APARTCUT HER APART CUT HER APART CUT HER APART CUT HER[line=4]
 br
 `“Shut up.”@
 `I seize hold of my own will and silence the voice in my head.
 \
 `“This is my decision.”@
 !w750
-`Cut—
+`Cut[line=4]
 `“You don’t get to tell me what to do.”@
 !w750
-`her—
+`her[line=4]
 `“If you don’t want Ciel to kill you—”@
 !w750
-`up— “then keep your mouth shut until this is over,
+`up[line=4] “then keep your mouth shut until this is over,
 `Roa.”@
 !w750
 `[line=5]
@@ -1354,7 +1354,7 @@ br
 \
 ld c,"tachi/cel_t15",crossfade,400
 play "*7"
-`“So you’ve finally decided to fight.”@
+`“[line=3]So you’ve finally decided to fight.”@
 `For some reason, she sounds relieved.
 \
 `“Good.@ Now neither of us will be guilty.@
@@ -1363,38 +1363,38 @@ play "*7"
 `She is speaking of a world I cannot understand.
 \
 `“I see.@ Then can the survivor ever atone for that punishment?”@
-`“Yes.@ A punishment is an act of restitution that can be carried out.@ Nothing that truly deserves the name can be beyond atonement.@
-`Sin alone refuses to disappear.@
-`So—neither of us wishes to shoulder any more sin now, do we?”@
-`With that, she advances one step.
+`“Yes.@ A punishment is an act of restitution that can be carried out.@ Nothing that truly deserves the name can be beyond atonement.@ Only sin refuses to disappear.@
+`That is why[line=3]neither of us wants to shoulder any more of it now, do we?”@
+`She says it.@
+`Then she takes a step toward me.
 \
-`“Then killing you here wouldn’t be a sin?”@
+`“[line=2]Then killing you here wouldn’t be a sin?”@
 `“Correct.@ I am going to kill you.@ So you are free to kill me.@ We stand on equal terms.”@
 `Another step.
 \
-`“—”@
+`“[line=8]”@
 `No—that isn’t right.@
 `She is trying to kill me, and I am trying to kill her in defense of my own life.@
-`But if that leaves me innocent—what does it make Ciel?@
+`But if that leaves me innocent[line=3]what does it make Ciel?@
 `She came here with a murderous intent that was hers alone from the very beginning.@
 br
-`Which means—
+`Which means[line=3]
 \
 `“Goodbye.@ Let us bring this ridiculous play to an end.”@
 `Her final step.@
 cl c,lshutter,800
 `She levels her bayonet, its point aimed straight at my heart.@
 br
-`Before she can strike,
-`I pitch forward almost carelessly and aim for the “point”@ in her right lung.
+`Before that.@
+`I pitch forward almost carelessly and aim for the point of death in her right lung.
 \
 bg #000000,lshutter,800
 `[line=3]I never thought I could kill her.@
 br
 `By all rights, her bayonet should pierce my heart before I can step within reach of her.@
 `That is why I’m so shocked.@
-`I slip past the weapon with absurd ease, then pierce her “point”@ with a light tap of my knife as if it were nothing.@
-`“Ci…@el.”@
+`I slip past the weapon with absurd ease, then pierce her point of death with a light tap of my knife as if it were nothing.@
+`“[line=4]Ciel”@
 `It looks as though she accepted my knife on purpose.
 \
 `“I made you…@ kill me.”@
@@ -1413,25 +1413,25 @@ br
 wave se_10
 bg "bg/bg_11c",crossfade,800
 quakey 1,100
-`“—Ghh.”@
+`“[line=6]Ghh.”@
 `Blood surges backward from my ruined heart.@
 `I vomit the blood welling into my throat and crumple onto the corridor floor.@
 br
 `Before my eyes.@
-`Her body lies there—she died only moments before I will.
+`Her body lies where she fell, having died only moments before me.
 \
-`“How could you…”@
+`“[line=4]How could you…”@
 `You knew?@
-`“You…@ fool.”@
-`Did you know from the start that if either of us bore any guilt, it belonged to you alone?
+`“[line=4]You…@ fool.”@
+`Did you know from the start[line=3]that if either of us bore any guilt, it belonged to you alone?
 \
-`“Hah—ah.”@
+`“Hah[line=4]ah.”@
 `Feeling drains from my limbs.@
 `My consciousness follows.@
 `With the blood supply cut off, it cannot last more than a few seconds.@
 `At the instant her bayonet struck me, I saw something within myself like an ancient book, scattering its pages as it vanished.@
 br
-`Perhaps.@ Then that was Roa dispersing into nothing.
+`Perhaps.@ That was the thing called Roa dispersing into nothing.
 \
 `“…”@
 `Nothing comes to mind.@
@@ -1439,9 +1439,9 @@ br
 `Did she believe that would serve as some small punishment?@
 br
 `[line=3]Absurd.@
-`It means nothing.@ Nothing at all.@
+`Such a thing[line=3]means nothing.@ Nothing at all.@
 br
-`“Even so…”@
+`“[line=3]Even so”@
 `It hurts that she died without ever apologizing to me.
 \
 `If she had only said she was sorry, perhaps it would have brought her some small measure of peace.@ But she could not even permit herself that.@
@@ -1449,16 +1449,16 @@ br
 br
 `That resolve of hers—and the knowledge that I drove her to it—makes me furious.
 \
-`“So that was it…”@
+`“So that was it[line=4]”@
 `I loved her after all.@
 `Right to the end.@
 `She mattered so much that even on the threshold of death, my heart still aches for her.
 \
-`“—”@
+`“[line=5]”@
 `I cough lightly, bringing up a mouthful of blood.
 \
 `And that is the end.@
-`I gaze vaguely up at the moon, my thoughts adrift, and before I know it I am falling…@ asle—
+`I gaze vaguely up at the moon, my thoughts adrift, and before I know it I am falling…@ asle[line=4]
 \
 !w3000
 playstop

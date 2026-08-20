@@ -8,7 +8,7 @@ play "*7"
 bg "event/aki_e01",crossfade,800
 bg "event/stk_e01a",crossfade,800
 br
-`“Ah—”@
+`“Ah[line=7]”@
 `The end—was it really all right to let it end?
 \
 bg #000000,crossfade,400
@@ -24,20 +24,20 @@ br
 `[line=3]Akiha Tohno,
 `left alone all those years in that enormous mansion.
 \
-`“……”@
+`“[line=7]”@
 `A short while ago, I had turned my knife on Yumizuka, telling myself that death could be a salvation.@
 `And now, still telling myself that death could be a salvation, I was throwing away my own life.@
 br
 `But then.@
 `Whom would that save?@
-`At least, it could never save the person I, Shiki Tohno, cared for most—
+`At least, it could never save the person who mattered most to Shiki Tohno[line=3]
 \
-`“Akiha.”@
+`“Aki[line=3]ha.”@
 br
 `I couldn’t die.@
 `Whatever happened, I could not die now.
 \
-`“Yumizuka—”@
+`“Yumizuka[line=3]”@
 `The knife moved.@
 `The line across her chest.@
 `The line upon the heart of the girl who trusted me absolutely and clung to me as her final salvation.
@@ -52,27 +52,27 @@ br
 \
 bg #000000,lshutter,400
 bg "event/stk_e01b",lshutter,400
-`“Shiki?”@
+`“[line=3]Shiki?”@
 `Satsuki’s lips drew away.@
 `The strength in her body rapidly dwindled to nothing.@
 br
-`“—I’m sorry.@ I can’t save you, Yumizuka.”@
+`“[line=3]I’m sorry.@ I can’t save you, Yumizuka.”@
 br
 `This was the only way I could save her.@
 `If she could not escape that pain.@
-`Then the least I could do was let her meet the end without pain.
+`At least[line=3]I could let her meet the end without pain.
 \
 bg "event/stk_e01c",crossfade,800
-`“I see—so you still won’t come with me, Tohno.”@
+`“I see[line=4]so you still won’t come with me, Tohno.”@
 `Her voice was terribly gentle.@
 `Just as it had been when we walked home at sunset two days ago.@
 `“But I was happy.@ We weren’t together long, but you chose me.@ Yes, if it ends like this, dying might not be so bad.@
-`All that pain is gone, and even the fear disappeared like magic—”@
+`All that pain is gone, and even the fear disappeared like magic[line=3]”@
 `Something rough brushed against my legs.@
 `I looked down.@
 `Yumizuka’s legs had already turned to ash up to the knees.
 \
-`“—And I feel a little warmer now.@
+`“[line=3]And I feel a little warmer now.@
 `Hee hee, do you suppose this is your body heat, Tohno?”@
 `Yumizuka sounded delighted.@
 br
@@ -91,19 +91,19 @@ br
 `Why did she speak so gently, so happily?@
 `Why wouldn’t she even blame me?
 \
-`“—I’m sorry.@ I’m powerless and despicable.”@
+`“[line=3]I’m sorry.@ I[line=3]I’m powerless, and I’m the worst.”@
 `My eyes burned.@
 `A haze spread through the back of my mind and blurred my sight.@
-`“Ahaha.@ You’re crying, Tohno.”@
-`“You’re so kind.@ I did so many terrible things, yet you’re still crying for me.”@
-`“Yes, that was what I loved most about you.”@
-`“I’ve watched only you ever since middle school, so I knew even the things no one else did.”
+`“Ahaha.@ You’re crying, Tohno.@
+`You’re so kind.@ I did so many terrible things, yet you’re still crying for me.@
+`Yes, that was what I loved most about you.@
+`I’ve watched only you ever since middle school, so I knew even the things no one else did[line=3]I saw right through you.”
 \
 `Her voice was proud, and the rough sensation continued.@
 `Nothing remained of her body below the waist.
 \
 `“I wanted to talk to you so much more.@ Just normally, like any ordinary classmate.@ So I really don’t want to die now.”@
-`“……”@
+`“[line=6]”@
 `I could say nothing.@
 `I had no words left to offer her.
 \
@@ -123,8 +123,8 @@ bg "event/stk_e01d",crossfade,400
 \
 `“Ah, I don’t think I can speak much longer.@
 `My house is this way.@ I suppose it’s time to say goodbye.”@
-`“Yumi—zuka!”@
-`“Mm, goodbye, Tohno.@ Thank you—and I’m sorry.”@
+`“Yumi[line=2]zuka!”@
+`“Mm, goodbye, Tohno.@ Thank you[line=3]and I’m sorry.”@
 br
 bg #000000,tshutter,800
 `A soft rush.@
@@ -134,29 +134,29 @@ br
 \
 bg "bg/bg_31b",bshutter,800
 `Yumizuka vanished as simply as though she had been an illusion.@
-`“……”@
+`“[line=6]”@
 `Only the vertigo remained.
 \
 `I had killed her.@
-`I wanted to save her and meant, in the end, to grant the salvation she asked for, yet when it came down to it, I killed her to save myself.@
+`I wanted to save her[line=3]in the end I had even meant to save her the way she asked[line=3]yet when the moment came, I killed her to save myself.@
 br
-`“Ah—ah.”@
+`“Ah[line=4]ah.”@
 `Even so.@
 `If only she had called me a liar as she vanished.@
-`Then I could have surrendered completely to being the villain; so why—
+`Then I could have surrendered completely to being the villain; so why[line=3]
 \
 `Thank you.@ I’m sorry.@
 `She had no reason to thank me.@ She had nothing to apologize for.@
-`“I—killed you.”@
+`“I[line=2]killed you.”@
 `Yet she thanked me all the same.@
 `That was why.@
 `I had truly wanted to save her.
 \
-`“……”@
+`“[line=5]”@
 `My numb body rose without my asking it to.@
 `I could think of nothing.@
 `Perhaps the heart and body really were separate things.@
-`Dragging myself along with graceless, scraping steps, I left the alley behind—
+`Dragging myself along with graceless, scraping steps, I left the alley behind[line=4]
 \
 bg #000000,lcartain,1500
 playstop
@@ -165,15 +165,15 @@ bg "bg/bg_33d",lcartain,800
 `The door creaked open.@
 `Dragging myself along despite my wounds, I finally made it back to the mansion.@
 ld c,"tachi/aki_t19c",crossfade,800
-`“—Ah.”@
+`“[line=6]Ah.”@
 `Akiha was in the foyer.@
 `Had she been waiting there all this time?@
 `I could no longer understand anything.
 \
 ld c,"tachi/aki_t23b",crossfade,400
-`“Where have you been, Brother?@ Do you have any idea what time it—”@
+`“Where have you been, Brother?@ Do you have any idea what time it[line=3]”@
 ld c,"tachi/aki_t15b",crossfade,400
-`“B-Brother, your body—”@
+`“B-Brother, your body[line=3]”@
 `Akiha was shocked.@
 `Why?@
 `I no longer wanted to think about what had startled her.
@@ -184,13 +184,13 @@ ld c,"tachi/aki_t17b",crossfade,400
 `I gave no answer.@ No—I couldn’t.@
 `I couldn’t even understand what Akiha was saying.@
 ld c,"tachi/aki_t23b",crossfade,400
-`“……”@
+`“[line=6]”@
 `Akiha caught her breath, then strode straight toward me.
 \
 `“We have to tend to your wounds.@ Can you walk, Brother?”@
 `“……”@
 `Yes.@ I was still alive, so surely I could manage that much.@
-`“Come to the sitting room so I can treat you.@ And since a bath is impossible, I’ll have to wipe you down with hot towels.”@
+`“Come to the sitting room so I can treat you.@ And a bath[line=2]no, that’s impossible, so I’ll have to wipe you down with hot towels.”@
 cl a,lshutter,800
 `Akiha hurried away, her footsteps pattering into the distance.
 \
@@ -213,16 +213,16 @@ br
 \
 play "*9"
 bg "event/aki_e02",crossfade,800
-`“Brother—!?”@
+`“Brother[line=2]!?”@
 `I pulled her into my arms and held her tight.@
 `I could not bear to be alone.@
 `I needed to feel another person’s warmth.
 \
-`“Akiha.”@
+`“Aki[line=3]ha.”@
 `I clung to her without thought.@
 `Akiha said nothing.@
 `Ordinarily she would have pushed me away at once, yet now she did not pull away from me as I trembled.@
-`It would have been enough simply to stay like this.
+`If only we could stay this way[line=3]simply remain as we were.
 \
 `“I’m the worst.”@
 `That was my confession.@
@@ -237,9 +237,9 @@ bg #000000,tshutter,400
 bg "bg/bg_40d",tshutter,400
 ld c,"tachi/aki_t11b",crossfade,800
 `“…@Brother, I don’t know what happened to you.@ I’m sure it isn’t something I should ask about.”@
-`“……”@
+`“[line=4]”@
 `“And there is no answer I can give you.@ Your problem is one you must resolve yourself.@
-`So please—don’t come seeking comfort from me over something like this.”
+`So please[line=3]don’t come seeking comfort from me over something like this.”
 \
 `Akiha was entirely right.@
 `Her rebuke was so painfully accurate that at last I regained control of myself.
@@ -251,24 +251,24 @@ cl a,lshutter,800
 `Without answering, Akiha walked to the door.@
 `She was about to leave when she came to an abrupt stop.
 \
-`“—I won’t ask what happened.@
+`“[line=4]I won’t ask what happened.@
 ld c,"tachi/aki_t12b",lshutter,400
 `But when I watched you leave earlier, Brother, I was terrified.@ I had the strangest feeling that you would never come back.@ It was the same dread I felt eight years ago.”@
-`“……”@
+`“[line=7]”@
 ld c,"tachi/aki_t25",crossfade,400
 `“But you did come back.@
 `You said there was someone you couldn’t save.@ Yet at least you saved me from that dreadful premonition.”
 \
-`“—So welcome home, Brother.@
+`“[line=3]So welcome home, Brother.@
 `Akiha is happier than you can imagine just because you came home.@ Please remember that, if only a little.”@
 ld c,"tachi/aki_t09b",crossfade,400
 `Her face coloring with embarrassment, Akiha gave me a small bow.
 \
-`“Akiha—”@
+`“Akiha[line=6]”@
 `“That is all I wished to say.@
 ld c,"tachi/aki_t16b",crossfade,400
 `To put it another way for my slow-witted brother: never leave your adorable little sister all alone again.”@
-`“Ha—haha.@ All right, I understand—but Akiha, you shouldn’t call yourself adorable.”@
+`“Ha, haha[line=3]I see; I understand.@ But Akiha, you shouldn’t call yourself adorable.”@
 `At last I managed to answer her.@
 `It was such a small thing, yet Akiha smiled with unmistakable pride.
 \
@@ -277,13 +277,13 @@ ld c,"tachi/aki_t04b",crossfade,400
 `If you’re still wearing that face when morning comes, you’ll answer to me.”@
 cl a,lshutter,800
 `Akiha left.@
-`I looked over my wounded body, then collapsed onto the bed.
+`I[line=3]looked over my wounded body, then collapsed onto the bed.
 \
-`“Haaah—”@
-`A deep breath.@
-`I breathed out deeply, as though severing myself from something.
+`“Haaah[line=5]”@
+`Deeply.@
+`I let out a long sigh, as though saying farewell to something.
 \
-`“I’m sorry, Yumizuka.@ But I still think I mustn’t regret it.”@
+`“I’m sorry, Yumizuka.@ But I still think I[line=3]mustn’t regret it.”@
 `What happened between us would remain an unforgivable scar for the rest of my life.@
 `Even so, I would believe that what I had done was right.@
 `I accepted that it was a sin, and if punishment came one day, I would submit to it.@
@@ -299,7 +299,7 @@ br
 br
 `I was glad to be alive.@
 `At least I had a home to return to.@
-`And an irreplaceable member of my family was there, waiting for me—
+`And someone irreplaceable, my own flesh and blood, was there waiting for me[line=4]
 \
 bg #000000,crossfade,800
 playstop

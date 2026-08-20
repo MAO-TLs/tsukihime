@@ -16,8 +16,8 @@ bg "bg/bg_06b",lshutter,400
 playstop
 monocro #ff0000
 ld c,"tachi/aki_t01a",crossfade,400
-`“…”@
-`A little.@ I feel dizzy.@
+`“[line=7]”@
+`For a moment.@ Vertigo.@
 `The classroom is steeped in crimson evening light.@
 `A girl with faintly red, waist-length hair is packing her things to leave.@
 br
@@ -29,21 +29,21 @@ monocro off
 play "*3"
 ld c,"tachi/aki_t01a",crossfade,400
 `“Brother?”@
-`“…”@
+`“[line=6]”@
 `Her voice dispels the dizziness.@
 `“You’re[line=3]Akiha, right?”@
 ld c,"tachi/aki_t04a",crossfade,400
 `“Brother?@ Are you feeling ill again?”@
 `Akiha speaks in her usual manner.@
-`A proper look shows me that her hair is black and that she is unmistakably my sister, Akiha Tohno.
+`Now that I look, her hair is black, and the girl is unmistakably my sister, Akiha Tohno.
 \
 `“No, it’s nothing.@ More importantly, you’re heading home now, right?@ If you don’t have anything else to do, want to go together?”@
 ld c,"tachi/aki_t09",crossfade,400
 `“Yes, all right.@ If you’d like the company, let’s go together.”@
-`For whatever reason, Akiha gives me an extraordinarily gentle smile.@
+`For some reason, Akiha gives me an extraordinarily gentle smile.@
 `My heart gives one hard thump.@
-`Maybe it’s the lingering vertigo, or maybe the very sight of Akiha at my school feels too unnatural.@
-`Whatever the cause, my heart is racing far harder than it should.
+`Maybe it’s the lingering vertigo, or maybe the very fact that Akiha is here at my school feels unnatural.@
+`Either way, my heart is racing far harder than it should.
 \
 bg #000000,lcartain,800
 bg "bg/bg_01b",lcartain,800
@@ -53,7 +53,7 @@ ld c,"tachi/cel_t03",lshutter,800
 `“Ah, there you are at last, Tohno.”@
 `“Oh, hello.@ What are you doing standing around here in a daze?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Honestly, I wasn’t in a daze.@ I thought you’d be coming, so I was waiting for you, but…”@
+`“Honestly, I wasn’t standing around in a daze.@ I was waiting because I thought you’d come, Tohno[line=3]”@
 cl a,crossfade,400
 `Her eyes move to Akiha beside me.@
 `Apparently one glance is enough for her to deduce the remarkable fact that Akiha and I are going home together.
@@ -64,15 +64,15 @@ ld l,"tachi/cel_t03",crossfade,400
 ld r,"tachi/aki_t01a",crossfade,400
 `“…”@
 `Akiha says nothing.@
-`She doesn’t need to; both of them are plainly demanding with their eyes that I introduce the other girl.@
+`Without a word, each girl’s eyes plainly demand that I introduce the other.@
 br
 `[line=4]I sigh.@
 `This promises to become exhausting.
 \
 `“This is my sister, Akiha.@ Apparently she transferred to our school today.”@
-`Akiha bows to her in greeting.@
+`Akiha bows to Ciel in greeting.@
 ld l,"tachi/cel_t01a",crossfade,400
-`“I see.@ Hello, I’m Ciel, a friend of your brother’s.”@
+`“I see.@ Hello, I’m Ciel, a friend of Tohno’s.”@
 ld l,"tachi/cel_t07a",crossfade,400
 ld r,"tachi/aki_t11a",crossfade,400
 `What is this?@
@@ -81,9 +81,9 @@ ld r,"tachi/aki_t11a",crossfade,400
 cl a,crossfade,400
 `“You made it sound as if you were waiting for me—did something happen?”@
 ld c,"tachi/cel_t03",crossfade,400
-`“There was somewhere I wanted you to come with me, but…”@
+`“Yes, I wanted Tohno to come somewhere with me, but[line=3]”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“It’s gotten too late today, so we’ll leave it for another time.@ Goodbye, Tohno.@ I’ll see you tomorrow too, Akiha.”@
+`“[line=3]It’s too late now, so we’ll leave it for another time.@ Goodbye, Tohno.@ I’ll see you tomorrow too, Akiha.”@
 `With a brief farewell, Ciel walks away in the opposite direction.
 \
 cl a,lshutter,400

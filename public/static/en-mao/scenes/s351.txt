@@ -11,9 +11,9 @@ bg "bg/bg_33b",lcartain,400
 ld c,"tachi/his_t01",crossfade,400
 `“Ah[line=3]welcome home, Master Shiki.@ I am about to put Master Makihisa’s room in order.”@
 `Dozens of books lie at Hisui’s feet.@
-`A single book weighs next to nothing, but stack ten together and the weight mounts quickly.@
+`One book weighs almost nothing, but ten together are another matter.@
 `There must be well over fifty here.@
-`There is no possible way Hisui’s slender arms can manage them all.
+`Hisui’s slender arms could never carry them all unaided.
 \
 `“Father’s room[line=3]that was on the first floor of the west wing, wasn’t it?”@
 `With a grunt, I gather up a stack of books.@
@@ -21,7 +21,7 @@ ld c,"tachi/his_t07",crossfade,400
 `“Please don’t, Master Shiki.@ This is my work, so please rest in your room.”@
 `“It’s fine.@ Sitting around will only make me stiff, and though this barely begins to repay everything you do for me, at least let me help.”@
 `“But[line=4]”@
-`“These really are heavy.@ What was Akiha thinking, leaving this kind of lifting to you?”@
+`“These are heavy.@ What was Akiha thinking, leaving all this lifting to you?”@
 ld c,"tachi/his_t05",crossfade,400
 `“Ah[line=5]”
 \
@@ -31,7 +31,7 @@ ld c,"tachi/his_t04",crossfade,400
 cl a,crossfade,400
 `Looking apologetic, Hisui climbs the stairs.@
 `[line=3]Now, then.@
-`That leaves me to haul this mountain of books up to the second floor.
+`That leaves me to carry all these books up to the second floor.
 \
 bg #000000,lshutter,800
 bg "bg/bg_41",rshutter,800
@@ -67,10 +67,10 @@ br
 `Beneath Makihisa Tohno are the names SHIKI Tohno and Akiha Tohno.@
 `They are there, but[line=3]
 \
-`“No way.@ Father adopted a child ten years ago.@ Oh, but the child died of an illness soon afterward.”@
+`“No way.@ Father adopted a child ten years ago.@ But the child died of an illness not long afterward.”@
 `Ten years ago, I would have been in first grade.@
-`No wonder I can’t remember something that old.@
-`“The heads of our family don’t seem to live very long.@ Father died of illness before fifty, and the one before him died in an accident at thirty.@ God, the one before that killed himself at eighteen.”@
+`No wonder I cannot remember something that old.@
+`“The heads of our family do not seem to live very long.@ Father died of illness before fifty, and the head before him died in an accident at thirty.@ God, the one before that killed himself at eighteen.”@
 playstop
 play "*6"
 br
@@ -85,15 +85,15 @@ wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_41",crossfade,400
 `“What…”@
-`There is no other word for this history but cursed.@
-`Most of the deaths are attributed to madness.@ They ended their own lives.
+`There is only one word for this family history: cursed.@
+`Most of those deaths are attributed to madness.@ They ended their own lives.
 \
 bg #000000,crossfade,1500
 bg "bg/bg_41",crossfade,800
 waveloop se_02
 `“Ah[line=4]”@
-`The light drains out of my sight.@
-`It feels as though blood is pooling and swaying at the back of my skull.@
+`The light drains from my sight.@
+`It feels as though blood is pooling, swaying at the back of my skull.@
 `Strength leaves my limbs, and I suffer the illusion that I can no longer breathe.@
 ld c,"tachi/his_t08",lshutter,400
 `“Master Shiki…!”@
@@ -173,7 +173,7 @@ quakex 2,100
 `“Ah[line=3]”@
 br
 `A heavy crash.@
-`Hisui rebounds against the bookcase, her face twisting in pain.@
+`Hisui strikes the bookcase, her face twisting in pain.@
 br
 `“Ah[line=3]”@
 `The sight of her face brings me to my senses.@
@@ -203,7 +203,7 @@ bg "bg/bg_40c",lcartain,800
 play "*1"
 `[line=3]After dinner, I return to my room.@
 br
-`I fall onto the bed and see Hisui’s face again.@
+`I fall onto the bed, and Hisui’s face rises in my mind.@
 `“[line=4]”@
 `I don’t understand.@
 `I don’t know why that feeling came over me, or why I did such a thing.
@@ -218,10 +218,10 @@ br
 \
 `“[line=4]”@
 `I touch my throat.@
-`They say anyone bitten by a vampire becomes one in turn.@
+`They say that anyone bitten by a vampire becomes one in turn.@
 `“That’s absurd.@ I can walk around in broad daylight.”@
-`Yes, it’s impossible.@
-`It was nothing more than a hallucination brought on when dizziness clouded my mind.@
+`Yes, it is impossible.@
+`It was only a hallucination brought on when dizziness clouded my mind.@
 `What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
 \
 `“Maybe Hisui is right and I’m just exhausted.”@
@@ -261,7 +261,7 @@ br
 br
 br
 br
-`[line=4]Once the body has been roused,
+`[line=4]Once the body has awakened,
 `          sleep cannot quiet it.
 \
 wave se_01
@@ -285,8 +285,8 @@ bg "bg/bg_24c",notrans,0
 wait 100
 bg #000000,notrans,0
 bg "bg/bg_26a",crossfade,800
-`Apparently I’ve gone out into the sleeping city.@
-`Eyes bloodshot, I seem to be waiting for someone to pass by.
+`It seems someone has gone out into the city at night.@
+`With bloodshot eyes, they appear to be waiting for someone to pass.
 \
 wave se_01
 br
@@ -306,7 +306,7 @@ br
 br
 br
 br
-`My face appears suddenly in a darkened window.@
+`My face appears suddenly, reflected in a darkened window.@
 `Its bloodshot eyes look anything but sane.
 \
 wave se_01
@@ -382,7 +382,7 @@ br
 \
 `Then.@
 `An interruption.@
-`The corpse is cast aside, and I leap away.@
+`The corpse is cast aside, and the figure leaps away.@
 `Someone.@ Someone is watching.
 \
 br
@@ -396,8 +396,8 @@ br
 \
 bg "bg/ima_02",tshutter,400
 `Something like an enormous nail comes hurtling through the air.@
-`I leap aside to avoid it.@
-`I race up the face of a building and bound from rooftop to rooftop.
+`The figure leaps aside to avoid it.@
+`It races up the face of a building and bounds from rooftop to rooftop.
 \
 br
 br
@@ -444,7 +444,7 @@ bg "bg/bg_40a",crossfade,800
 `I wake from the dark dream.@
 `“My room.”@
 `There can be no doubt that I am in my own room.@
-`I am lying in bed, greeting the morning.@
+`I have spent the night here in bed and awakened to morning.@
 `I dreamed it again.@
 `A dream of drinking someone’s blood.@
 `I know it was a dream, yet it was hideously real.@
@@ -456,7 +456,7 @@ bg "bg/bg_40a",crossfade,800
 `I am still an ordinary human being.@
 `I have never wanted to drink anyone’s blood, and sunlight does not repel me.@
 `“[line=4]Ah.”@
-`No.@ Yesterday was different.@ I[line=3]
+`No.@ Yesterday was different.@ I—
 `When I saw Hisui’s throat, what did I think?@
 `[line=3]A white throat.@
 `From the bottom of my heart, I wanted the red blood that would flow from it[line=4]

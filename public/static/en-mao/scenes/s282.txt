@@ -11,7 +11,7 @@ bg "bg/bg_09b",notrans,0
 \
 bg #9c0120,crossfade,800
 monocro off
-`“Ngh—ah—aaauuugh…!”@
+`“Ngh[line=3]ah[line=2]aaauuugh…!”@
 `Consciousness blinked out.@
 `The pain drove my fingernails into the tatami.@
 `They rasped across it, tearing the weave.@
@@ -28,7 +28,7 @@ br
 `“Ngh—ghaaah…!”@
 `I couldn’t bear it.@
 `If this pain was going to last even one second more.@
-`I wished someone would just kill me!
+`I wished someone would just kill me[line=4]!
 \
 br
 br
@@ -52,7 +52,7 @@ bg "bg/bg_09c",crossfade,1500
 `Nothing felt heavy.@
 `I could not even feel that I was alive.
 \
-`“…”@
+`“[line=4]”@
 `I tried to speak, but my throat would not move.@
 !w750
 `There was nothing.@
@@ -69,14 +69,14 @@ br
 `My body did not twitch.@
 `Nothing bound me, nor did it feel as though I had been paralyzed.@
 br
-`The closest comparison I could find was this.@
-`I had died long ago, and through some mistake my consciousness had been left behind in the corpse.
+`If I had to compare it to something.@
+`It felt as though I had died long ago, and through some mistake only my consciousness remained inside the corpse.
 \
-`“…”@
+`“[line=6]”@
 `Of all five senses, only my sight still faintly lived.@
-`The tea-ceremony room was dark.@
+`The tea ceremony room was dark.@
 `At some point, night had fallen completely outside.@
-`“…”@
+`“[line=3]”@
 `Unable to turn my head, I darted my eyes frantically about.
 \
 `“[line=3]Well.@ I thought you had vanished entirely, but you’re surprisingly tenacious, Shiki.”
@@ -88,20 +88,20 @@ br
 `Something unknown stood waiting.
 \
 ld c,"tachi/roa_t04a",crossfade,400
-`“…”@
+`“[line=4]”@
 `Who was he?@
-`I had never seen him before.@ I knew that—and yet I felt as if I had known him all my life.
+`I had never seen him before.@ I knew that[line=3]and yet I felt as if I had known him all my life.
 \
 waveloop se_02
 `“What a cruel welcome, Shiki.@
 `You were looking for me, so I went to all the trouble of coming here—don’t you remember me?”@
 `The man gave a low, delighted chuckle and fixed me with a dark, blood-red stare.
 \
-`“…”@
+`“[line=5]”@
 `The only part of me still functioning—my mind—froze solid.@
-`No one had told me yet.@
-`Nothing had been established.@
-`Even so, I knew with absolute certainty that this was the vampire—the Serpent Ciel and Arcueid had been hunting.
+`No one had told me clearly yet.@
+`Nothing was clear yet, and still[line=3]I knew this was a vampire.@
+`I knew beyond doubt that this was the ‘serpent’ Ciel and Arcueid had cornered.
 \
 ld c,"tachi/roa_t05a",crossfade,400
 `“No, that is not so.@ I am indeed a member of the vampiric species known as the reincarnating Serpent of Akasha.@
@@ -112,16 +112,16 @@ ld c,"tachi/roa_t04a",crossfade,400
 `[line=5]?@
 `SHIKI?@
 `Eight years?@
-`What in the world—
+`What in the world[line=4]
 \
 `“[line=3]Have you truly forgotten, Shiki?@
-`Was Father’s suggestion really so perfect, or did dying once damage everything you remembered from before?@
-`Damn it—either way, this ruins everything!@
+`Was Father’s suggestion really that perfect, or[line=3]did dying once damage all your earlier memories?@
+`Damn it, either way, this ruins everything!@
 `Do you understand!?@ Eight years—I waited eight years!@ I waited all this time for the moment I could take everything from you, the one who killed me, and now the man at the heart of it is nothing but an empty shell…!”
 \
-`“…”@
+`“[line=5]”@
 `What was he talking about?@
-`I killed him?
+`I[line=3]killed him?
 \
 `“Yes!@ If you’ve forgotten, then remember.@ The three of us were always together, weren’t we?@
 `At the Tohno mansion.@ You, Akiha, and I used to run all over the garden.@ Right up until that day eight years ago, before I became this!”
@@ -131,18 +131,18 @@ bg "bg/cmo_06",notrans,0
 wait 100
 bg "bg/bg_09c",notrans,0
 `[line=3]I couldn’t remember clearly.@
-`And yet—I did feel as though there had been someone else when I was a child.
+`And yet[line=3]I did feel as though there had been someone else when I was a child.
 \
 ld c,"tachi/roa_t04a",crossfade,400
-`“You can’t remember?@
-`After you and I were such good friends.”@
-`His face tightened, clouding with what looked like genuine bitterness.
+`“Can’t you remember?@ We were such good friends.”@
+`His expression twisted.@
+`He looked genuinely bitter.
 \
-`“So I was the only one who suffered.@ That’s cruel, Shiki.@
+`“[line=3]So I was the only one who suffered.@ That’s cruel, Shiki.@
 `Father kept me locked away all those years.@ Even then, you were the one person I could feel.@
 `Of course you were—after all, I’ve been using your ‘life.@’ You and I are joined through our souls instead of our blood.”
 \
-`“That’s why I wanted to give you the most hideous end imaginable.”@
+`“That’s why I wanted to give you[line=3]the most hideous end imaginable.”@
 `He called it a shame.
 \
 `“To put it simply, Shiki.@ I’m your older brother.@ You and Akiha were both heartless enough to forget me.”@
@@ -153,7 +153,7 @@ bg #000000,crossfade,1500
 `“[line=3]If you have forgotten, there is nothing more to say.@
 `To torment and kill Shiki Tohno—that is the purpose of this body, SHIKI Tohno.@
 `I have indulged it until now, but it is time to bring down the curtain.@
-`Sharing one life between two bodies forever is rather inefficient.”
+`I too[line=3]find one life shared between two bodies forever rather inefficient.”
 \
 `The voice drew closer.@
 `He was going to kill me.@

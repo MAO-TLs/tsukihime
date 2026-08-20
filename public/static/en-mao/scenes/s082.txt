@@ -12,17 +12,17 @@ monocro #ff00ff
 ld c,"tachi/ark_t07",crossfade,400
 `“Shiki.@ Is the person who made these still in this city?”@
 `“Who knows?@ I don’t think so.@ It was eight years ago, and apparently she was only here for a week.”@
-`“I see.@ Good—one less adversary to worry about.@ Though if the Blue were involved, retreat would probably be the wisest choice.”@
+`“[line=4]I see.@ Good—one less adversary to worry about.@ Though if the Blue were involved, retreat would probably be the wisest choice.”@
 `Arcueid fell gravely silent.
 \
-`“Arcueid, do you know my teacher—I mean, the person who made those glasses?”@
-`“…@I do.@ She’s one of the four Magicians still alive today.@ Those glasses are an extraordinary artifact too.@ Even with all my strength, I couldn’t possibly break them.”@
+`“Arcueid.@ Do you know my teacher[line=2]I mean, the person who made those glasses?”@
+`“I know her.@ She’s one of the four Magicians still alive today.@ Those glasses are an extraordinary artifact.@ Even with all my strength, I couldn’t possibly break them.”@
 `Arcueid grew more serious still.
 \
 `“So you were planning to break them.”@
 ld c,"tachi/ark_t12",crossfade,400
-`“What?”@
-`“Did I say that aloud?”@
+`“[line=4]What?@
+`Did I say that aloud?”@
 `“So you really were planning to break them.”@
 `I demanded them back and snatched the glasses from her.@
 monocro off
@@ -31,7 +31,7 @@ bg "bg/bg_19d",crossfade,400
 `“Honestly.@ You’re the one who said I couldn’t stay sane without these glasses.@ Or were you hoping I’d lose my mind?”@
 ld c,"tachi/ark_t11",crossfade,400
 `“It wasn’t anything like that.@ I just didn’t like how much you seemed to treasure them.”@
-`“Arcueid, you…”@
+`“[line=4]Arcueid, you…”@
 cl c,crossfade,800
 br
 `Someone, please tell me how this girl’s mind worked.@

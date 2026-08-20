@@ -30,7 +30,7 @@ ld l,"tachi/aki_t04a",crossfade,400
 ld r,"tachi/koha_t02",crossfade,400
 `“Ah.@ A full-blown bow-wow panic.”@
 br
-`There is something ever so slightly off about Kohaku.
+`Something about Kohaku feels just slightly out of step.
 \
 `“Well, in plain language, yes.”@
 ld l,"tachi/aki_t03a",crossfade,400
@@ -119,10 +119,10 @@ ld c,"tachi/koha_t01a",crossfade,400
 `If this piece of junk is all Father left me, he must have disliked me even more than I thought.
 \
 `“[line=3]No, Shiki.@ This is a fruit knife.”@
-`Kohaku lifts the iron rod from the box.@ “You know those spring-loaded
-`knives?@ This one seems to work the same way—ready, there!”@ A snap, and a blade about ten centimeters long leaps from the handle.@
-`She’s right.@
-`It is a knife.
+`Kohaku lifts the iron rod from the box.@
+`“You know those spring-loaded knives?@ This seems to work the same way.@ Ready—and there!”@
+`With a snap, a blade about ten centimeters long shoots out of the handle.@
+`I see; it really is a knife.
 \
 `“It seems very old, but it’s sturdily made.@ There’s a date engraved on the back.”@
 `Kohaku retracts the blade and hands me the knife.@
@@ -202,7 +202,7 @@ play "*1"
 bg "bg/bg_23a",rcartain,800
 `[line=3]I walk along unfamiliar streets.@
 `Until now I always commuted from the Arima house, so this is my first journey to school by this route.@
-`Nothing has changed but the road, yet I feel as fresh and nervous as a transfer student.
+`Nothing but the road has changed, yet I feel fresh, almost like a transfer student.
 \
 `“[line=4]Not many students from our school around here.”@
 `Apparently few families in this neighborhood send their children there.@
@@ -232,8 +232,8 @@ bg "bg/bg_01a",lcartain,800
 bg #000000,lcartain,800
 bg "bg/bg_06a",lcartain,800
 play "*3"
-`With homeroom only minutes away, the classroom buzzes noisily.@
-`My classmates are scattered everywhere, talking until the teacher arrives, and for those brief few minutes the room has the happy disorder of a festival.@
+`With homeroom only minutes away, the classroom is a low roar.@
+`My classmates are scattered everywhere, talking until the teacher arrives, and for those few minutes the room has all the noisy disorder of a festival.@
 br
 `I stroll through the chaos and reach my seat by the window.
 \
@@ -247,16 +247,16 @@ ld r,"tachi/cel_t01a",rshutter,400
 `[line=3]he has someone with him whom I never expected to see here.
 \
 `“Ciel[line=3]what are you doing in our classroom?”@
-`Dumbstruck, I point at her as though I’ve seen a ghost.@
+`Dumbstruck, I point at her as though I have seen a ghost.@
 `“Is it really so strange?@ I only stopped by to see whether you were here.”@
-`“Of course it’s strange.@ Upperclassmen don’t normally visit younger students’ classrooms, and whatever else is wrong with it, the distance between them is the biggest problem.”@
+`“Of course it is strange[line=3]upperclassmen do not normally visit younger students’ classrooms.@ There are plenty of problems with it, but above all, the classrooms are too far apart.”@
 `Ciel nods with perfect seriousness, as though this explains everything.
 \
 ld r,"tachi/cel_t03",crossfade,400
-`“That part is no problem.@ I may not look it, but I’m a very fast runner.@ I can reach my classroom downstairs in under a minute.”@
+`“That part is no problem.@ I may not look it, but I am a very fast runner.@ I can reach my classroom downstairs in under a minute.”@
 `She makes the declaration with her chest proudly thrust out.@
 `“…”@
-`Apparently there is little point trying to teach this woman about social propriety.
+`Apparently there is little point asking this woman to worry about appearances.
 \
 `“You nag too much, Tohno.@ She came because she wanted to, so what’s the harm?”@
 `Arihiko has planted himself squarely on my desk and is chatting merrily with Ciel.@
@@ -264,8 +264,8 @@ ld r,"tachi/cel_t03",crossfade,400
 `Suddenly exhausted, I sink into my chair with a sigh.
 \
 ld r,"tachi/cel_t12",crossfade,400
-`“Inui, Tohno seems rather cross this morning.”@
-`“Yeah—his new home probably doesn’t agree with him, so he’s throwing a tantrum.@ Most things don’t bother Tohno, but when he meets something he can’t make sense of, he has this nasty habit of going berserk.”
+`“Inui, Tohno seems to be in a bad mood this morning.”@
+`“Yeah—his new home probably does not agree with him, so he is throwing a tantrum.@ Most things do not bother Tohno, but when he meets something he cannot make sense of, he has this nasty habit of going berserk.”
 \
 `“Really?@ Tohno doesn’t strike me as someone who gets angry.”@
 `“Don’t be fooled.@ He’s usually quiet, but whenever he meets something he can’t understand, he snaps[line=3]completely.”@
@@ -330,7 +330,7 @@ ld r,"tachi/cel_t03",crossfade,400
 `“?”@
 `Arihiko and I look at each other, equally baffled.@
 ld r,"tachi/cel_t02",crossfade,400
-`“How enviable—a friend you can understand without either of you needing to pretend or make an effort.@ I’ve always admired that.”@
+`“I envy you.@ Having a friend you can understand without either of you making an effort is something I have always wanted.”@
 `Ciel gives an impressed little sigh.
 \
 ld l,"tachi/ari_t03",notrans,0
@@ -366,8 +366,8 @@ ld c,"tachi/ari_t04",crossfade,400
 `“This is not stupid.@ It is a question of enormous importance: when did you and Ciel become close enough that she comes all this way to see you?”@
 `Arihiko fixes me with an intensely serious stare.
 \
-`“How should I know?@ We only started talking recently, and today was probably a whim.@ Besides, you seemed awfully friendly with her yourself.”@ “Not really.@
-`It took me seven full days just to make her remember my name.”
+`“How should I know?@ We only started talking recently, and today was probably a whim.@ Besides, you seemed awfully friendly with her yourself.”@
+`“Not really.@ It took me seven full days just to make her remember my name.”
 \
 `“That’s unusual.@ I thought your policy was that any girl who didn’t fall for you in one day was too much trouble.”@
 `“That applies to ordinary women, but Ciel is different.@ I’ve kept this secret, but the truth is[line=4]”@

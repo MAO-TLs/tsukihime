@@ -2,8 +2,8 @@ monocro off
 play "*3"
 bg "bg/bg_03a",notrans,0
 wave se_03
-`Then the warning bell rings, ten minutes before the gates close.@
-`“Damn, I’ll be late.@ See you later!”@
+`Then the warning bell rings, ten minutes before the gate closes.@
+`“[line=3]Damn, I’ll be late.@ See you later, Ciel!”@
 ld c,"tachi/cel_t04",crossfade,400
 `“All right, I’ll visit at lunch.”
 \
@@ -13,50 +13,50 @@ play "*3"
 `I race into the classroom.@
 `With five minutes left before homeroom, it is still humming with chatter.@
 br
-`“Whew.”@
+`“[line=3]Whew.”@
 `I catch my breath and head for my desk.@
-`Judging from the atmosphere, there was no need to run.@
-`“Yo, truant.”@
+`At this rate, I probably never needed to run.@
+`“Hey, skipper.”@
 `“…”@
-`An all-too-familiar and thoroughly unwelcome voice addresses me from behind.
+`A familiar and thoroughly unwelcome voice calls from behind me.
 \
 ld c,"tachi/ari_t01",lshutter,400
-`“What happened, Tohno?@ Nobody told me you were skipping school.@ That’s a problem—you’ve got to report in properly when you ditch class for a day of fun!”@
-`Arihiko delivers this idiocy with a delighted grin.@
-`“Listen.@ Why should I have to report every absence to you?”@
-`“Obviously.@ If Tohno isn’t here, Ciel won’t come to our class either, so I need advance warning to make other arrangements.”@
-`What could possibly be such a problem for this man?
+`“What happened, Tohno?@ Nobody told me you were skipping school.@ That’s a problem—you have to report properly when you’re ditching class for a day of fun!”@
+`Arihiko disgorges this idiocy with an extraordinarily happy face.@
+`“Listen.@ Why do I have to report every absence to you?”@
+`“Obviously.@ If Tohno doesn’t come, Ciel won’t come to our classroom either; I need warning so I can make arrangements.”@
+`What, exactly, is the problem for this man?
 \
-`“Seriously, what happened Saturday?@ You’ve been anemic since middle school, but you never missed class.@
-`Sure, you’ve pulled that trick where you arrive and immediately go home a few times.”@
-`“This was nearly the same.@ I made it as far as the intersection, started feeling sick, and turned back.”@
+`“Seriously, what happened Saturday?@ You’ve been anemic since middle school, but school is the one thing you never missed.@
+`Sure, a few times you pulled off the advanced technique of going home the moment you arrived.”@
+`“This was much the same.@ I made it as far as the intersection, felt sick, and turned back.”@
 ld c,"tachi/ari_t04",crossfade,400
-`“Huh.@ First Yumizuka, now you—both of you have been acting up lately.”@
-`“[line=2]Well, I won’t deny I’ve been acting up, but did something happen to Yumizuka?”
+`“Huh.@ First Yumizuka, now you—haven’t you both been behaving badly lately?”@
+`“[line=2]Well, I can’t deny the bad behavior, but did something happen to Yumizuka?”
 \
 ld c,"tachi/ari_t01",crossfade,400
-`“Hm?@ Oh, she’s been absent for days.@ Maybe the model-student act finally left her one tile from winning.@ Bet she’d already thrown away her winning tile, though, so she couldn’t go out.”@
-`“…”@
-`Arihiko’s analogies are uniquely his own.
+`“Hm?@ Oh, she’s been absent for days.@ Maybe playing model student for so long finally left her one tile from a breakdown.@ But I bet she discarded the tile she needs, so now she’s stuck in furiten and can’t go out.”@
+`“……………”@
+`Arihiko’s metaphors occupy a world entirely their own.
 \
 wave se_03
-`[line=3]While we are talking, the bell sounds for homeroom.@
+`[line=3]While we talk, the bell announcing homeroom begins to ring.@
 br
-`“Oops, I’d better get back.@ Study hard enough to make up for skipping Saturday.”@
+`“Whoops, that’s it for me.@ Study seriously enough to make up for skipping Saturday.”@
 cl c,lshutter,400
 `Arihiko scurries back to his desk.
 \
 bg #000000,lshutter,800
 bg "bg/bg_06a",lshutter,800
 wave se_03
-`Fourth period ends, and the room suddenly erupts into activity.@
-`Some students sprint for the cafeteria, girls push desks together and open lunch boxes—and, for good measure, Arihiko Inui approaches with a sandwich in hand.@
+`Fourth period ends, and the classroom abruptly comes alive.@
+`Students dash to the cafeteria; girls push desks together and open lunch boxes; and, incidentally, Arihiko Inui arrives with a sandwich in hand.@
 br
 ld c,"tachi/ari_t02",lshutter,400
 `“Hey, Tohno, let’s eat.”@
 `“[line=3]”
 \
 `What should I do?@
-`I have had no appetite since morning.@ I do not feel especially hungry, so perhaps there is no need to force down lunch.@
-`If I eat only to vomit again, that will be a nuisance; in that case[line=3].
+`I have had no appetite since morning.@ I am not especially hungry, so perhaps there is no need to force myself to eat lunch.@
+`If I eat and only vomit again, that will be trouble.@ So[line=3]
 \

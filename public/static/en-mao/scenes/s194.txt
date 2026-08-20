@@ -1,19 +1,19 @@
 phase "bg/cmo_14",l,ark,11a,11
 bg "bg/bg_40a",crossfade,1500
 `Hisui’s voice wakes me.@
-`Afterward—after returning to the mansion—I must have shut myself in my room and fallen asleep.
+`After that[line=3]after returning to the mansion, I must have shut myself in my room and fallen asleep.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki, are you feeling unwell?”@
-`“—No.@ I’m fine.”@
+`“[line=4]No.@ I’m fine.”@
 `I answer and get out of bed.@
 br
-`Even I can hardly believe it.@
+`Even I find it absurd.@
 `I don’t want to say a word, yet my body insists on going through life as usual.
 \
 `“Breakfast, right?@ I’ll be there in a minute.”@
 ld c,"tachi/his_t04",crossfade,400
-`“Very well.@ We shall be waiting.”@
+`“Yes.@ We will be waiting.”@
 `Hisui leaves with something unspoken on her face.@
 `I dress and make my way to the sitting room.
 \
@@ -27,7 +27,7 @@ bg "bg/bg_34a",lcartain,1500
 \
 ld c,"tachi/aki_t17a",crossfade,400
 `“…@Brother?@ You do realize there is school today, don’t you?”@
-`“Mm—?@ Oh.@ Right.@ I have to go to school.”@
+`“Mm[line=3]?@ Oh.@ Right.@ I have to go to school.”@
 `I had forgotten.@
 `With nothing left for me to do, I had vaguely imagined that I would go on living like an empty shell forever.
 \
@@ -49,24 +49,24 @@ br
 `On impulse, I look through the window at the rear courtyard.@
 `Naturally, no one is there.
 \
-`“[line=4]”@
+`“[line=6]”@
 `[line=3]What am I doing?@
 `Sitting obediently in a classroom.@
 `Not even searching for her, simply returning to life as an ordinary student.
 \
-`“[line=4]”@
+`“[line=5]”@
 `But I have neither a method nor a lead for finding Arcueid.@
 `If she chose to disappear, there is almost no chance I could ever track her down.@
 br
 `So it’s true.@
-`I have lost Arcueid.
+`I have lost Arcueid[line=3].
 \
 br
 `Crack.@
 br
 `“…………”@
-`The sound came from my desk.@
-`It’s nothing.@
+`A sound comes from my desk.@
+`It is nothing.@
 `I merely gripped my mechanical pencil too hard and snapped it again.
 \
 bg #000000,lshutter,800
@@ -77,13 +77,13 @@ wave se_03
 br
 `“Tohno, come here a moment.”@
 `The mathematics teacher calls from the lectern.@
-`“—Yes?@ What is it?”@
+`“[line=3]Yes?@ What is it?”@
 `I answer and walk to the front.
 \
 `“Tohno, I hear there have been some concerns about your conduct lately.@ We’ve received reports that you’ve been wandering around town late at night.@ Do you know anything about that?”@
 `“…@I do.@ I had business in town after midnight these past few days.”@
-`“—I see.”@
-`The mathematics teacher—who is also our homeroom teacher—frowns, then looks almost apologetic.
+`“[line=3]I see.”@
+`The mathematics teacher[line=3]who is also our homeroom teacher[line=3]frowns, then looks almost apologetic.
 \
 `“I know you aren’t the sort of student who stays out carousing, but the matter came up at the staff meeting.@ The teachers responsible for student discipline want a word with you.@
 `Go to the discipline office after school.@ Consider it bad luck and bear with them.”@
@@ -97,15 +97,15 @@ bg "bg/bg_08a",lcartain,1500
 `…@Come to think of it, every teacher on the discipline committee coaches an athletic club.@
 `Perhaps they intend to keep me waiting until their practices end.
 \
-`“[line=4]”@
+`“[line=5]”@
 `I sit down and wait dutifully.@
 `“…@Ghk.”@
 `I bite hard into my lip.@
 `I know this is no time to be doing something like this.@
 `I know, but this is the only thing I can do.
 \
-`Beyond the window, the world is dyed in the scarlet of sunset.@
-`Calls from students practicing on the athletic field and the murmur of those going home reach me like distant ripples.@
+`Beyond the window, everything is stained sunset-red.@
+`The calls of students practicing on the athletic field and the murmur of those going home drift in like ripples.@
 `Amid it all, this one room is silent, as though cut away from the rest of the school.
 \
 `It makes me furious.@
@@ -131,5 +131,5 @@ bg "bg/bg_08b",crossfade,800
 \
 `I have been thinking all this time.@
 `About what I ought to do, and what matters most.@
-`From here on, I will—
+`From here on, I will[line=3]
 \

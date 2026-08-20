@@ -12,7 +12,7 @@ br
 `Human or not, Arcueid had placed her faith in Shiki Tohno.@
 `She had smiled and said she would forgive a crime no one should ever forgive.@
 br
-`If she could do that, I would be ashamed if I couldn’t at least offer up my own life with a smile.
+`If she could do that, then[line=4]I would be ashamed if I couldn’t at least offer up my own life with a smile.
 \
 `“All right!”@
 `I sprang from the bench and broke into a run without looking back.
@@ -24,11 +24,11 @@ bg "bg/bg_19c",lcartain,800
 br
 `“……”@
 `I crept inside on silent feet.@
-`If Arcueid was still asleep, then there shouldn’t be a problem…@ except…
+`If Arcueid was still asleep, there shouldn’t be a problem—except…
 \
 play "*3"
 ld c,"tachi/ark_t16",lshutter,400
-`“Shiki!”@
+`“[line=3]Shiki!”@
 `“Ah…”@
 `Right on cue, she was wide awake and absolutely furious.@
 `“Where have you been?@ If you’re going out, you have to tell me first!”@
@@ -39,7 +39,7 @@ ld c,"tachi/ark_t04",crossfade,400
 `“Honestly, I woke up when the sun went down and you were gone.@
 `I thought you were in the bathroom, but you never came out; then I checked the lobby in case you’d gone to eat, and you weren’t there either.@
 `Where in the world were you?”@
-`“Uh—just outside the hotel for a while.”@
+`“Uh[line=3]just outside the hotel for a while.”@
 ld c,"tachi/ark_t02",crossfade,400
 `“Are you serious?@ Now that a familiar has found you, you aren’t safe either.@
 `What did you plan to do if you wandered outside and that black dog attacked you again?”@
@@ -51,33 +51,33 @@ ld c,"tachi/ark_t02",crossfade,400
 `She had been worried that I would go wandering alone and put myself in danger—and that was what made her furious.@
 br
 playstop
-`“……”@
+`“[line=6]”@
 `I was ashamed.@
-`I had truly come within an inch of trampling all over her trust.
+`I had truly come within an inch of[line=3]trampling all over her trust.
 \
 play "*1"
 `“Shiki, are you even listening to me?”@
 `“Yeah, I am.@ You’re right; it was my fault.@ I’m sorry I left without telling you.”@
 `I bowed my head in sincere apology.@
 br
-`And then—
+`And[line=3]
 br
 ld c,"tachi/ark_t14",crossfade,400
-`“W-wait—you don’t have to apologize so seriously—
+`“W-wait[line=3]you don’t have to apologize so seriously, though[line=3]
 ld c,"tachi/ark_t04",crossfade,400
 `A-anyway, you’re far too careless, Shiki.@ Our enemy is a vampire, so you have to stay on your guard.”@
 `“You’re just as careless as I am.@
 `I’ve already killed you once, and you still made me your lookout while you slept.@ You’re out of your mind.@ How did you know I wouldn’t do the same thing again?”
 \
 ld c,"tachi/ark_t12",crossfade,400
-`“Ah—”@
+`“Ah[line=4]”@
 `Arcueid’s eyes went wide as though the thought had only just occurred to her.
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“Now that you mention it, you’re right.@ I wonder why…@ Somewhere along the way, while we were talking in the alley, I simply came to trust you completely.”@
+`“Now that you mention it, you’re right.@[line=3]I wonder why.@ Somewhere along the way, while we were talking in the alley, I simply came to trust you completely.”@
 `“…”@
 `It wasn’t an unpleasant thing to hear.@
-`“All right.@ If you trust me, I’ll make a proper effort.@ Do I just keep watch from now on?”@
+`“All right; if you trust me, I’ll make a proper effort.@ Do I just keep watch from now on?”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Yes, until sunrise.@ I won’t leave the room, so if it seems anyone has come onto this floor, be on your guard.”@
 `Be on my guard—if another black dog like the one that morning appeared, no amount of caution would help.
@@ -90,24 +90,24 @@ ld c,"tachi/ark_t01a",crossfade,400
 `“Discovered by your enemy?”@
 `“Yes.@ If I were at full strength, that would save me the trouble of searching, but as I am now, an attack could erase me instead.@ Until my strength returns, I have no choice but to stay hidden.”
 \
-`Arcueid’s enemy was the serial killer terrorizing the city—in other words, a vampire.@
+`Arcueid’s enemy was the serial killer terrorizing the city[line=3]in other words, a vampire.@
 br
 `“…@Arcueid, there’s something I want to ask you.@ Will you answer?”@
 `“I don’t mind talking, but why are you suddenly so solemn?”@
-`“Because I still haven’t asked the most important question.@ What are you actually trying to accomplish?”
+`“[line=3]Because I still haven’t asked the most important question.@ What are you actually trying to accomplish?”
 \
 ld c,"tachi/ark_t03",crossfade,400
 `“Me?@ I’m hunting a vampire.@ Killing vampires is my role.”@
 `“You have mentioned that.@ But Arcueid—you’re a vampire too, aren’t you?”@
 ld c,"tachi/ark_t06",crossfade,400
-`“What?@ You still don’t believe me, Shiki?”
+`“What, you still don’t believe me, Shiki?”
 \
 `“Unfortunately, I believe you more than enough, so don’t worry.@
 `What I’m asking is why a vampire would talk so casually about killing another vampire.”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Oh?@ You don’t like your own kind killing one another?”@
+`“You don’t like your own kind killing one another?”@
 br
-`Like or dislike had nothing to do with it.@ I wasn’t fond of killing in the first place.@ Still, a vampire killing a vampire simply felt wrong.
+`Like or dislike had nothing to do with it; I wasn’t fond of killing in the first place.@ Still, a vampire killing a vampire simply felt wrong.
 \
 `“I just can’t picture it.@ Vampires drink human blood, right?@ Then their victims should be humans, not other vampires.”@
 ld c,"tachi/ark_t02",crossfade,400
@@ -118,21 +118,21 @@ ld c,"tachi/ark_t02",crossfade,400
 `“…@Then is the vampire you’re chasing somehow different from you?”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Yes.@ The one I’m chasing is a human vampire, much like the creatures in your legends.@
-`It drinks human blood, commands those it kills as the Dead, and expands its power through them.@ That is the kind of vampire I’m hunting.@
+`It drinks human blood, commands those it kills as the Dead, and expands its power through them[line=3]that is the kind of vampire I’m hunting.@
 `The one hiding in this city is that old-fashioned type.”@
 br
 `[line=3]That kind of vampire—apparently there was more than one kind.
 \
 `“…@Don’t tell me you expected me to act as your shield while you killed that thing.”@
 ld c,"tachi/ark_t03",crossfade,400
-`“That was the idea at first.@ But I changed my mind while we were talking.@
+`“[line=3]That was the idea at first.@ But I changed my mind while we were talking.@
 ld c,"tachi/ark_t01a",crossfade,400
-`You see, Shiki, I was certain you belonged to the Church.@
-`I expected you would already know where the enemy was hiding.@ But you turned out to be completely ordinary.@
+`You see, Shiki.@ I was certain you belonged to the Church.@
+`I expected you would already know where the enemy was hiding, but you turned out to be completely ordinary.@
 `You don’t know the location of its coffin—or anything about vampires at all.”
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“…@Of course.@ They would never send an exorcist to an atheistic country in the Far East.@ I suppose I was the foolish one.”@
+`“Of course they would never send an exorcist to an atheistic country in the Far East.@ I suppose I was the foolish one.”@
 `Arcueid muttered to herself.@
 `The conversation had wandered off without me, leaving me thoroughly behind.
 \
@@ -160,14 +160,14 @@ ld c,"tachi/ark_t02",crossfade,400
 br
 `Arcueid shot me a cold sidelong glance.@ Presumably that last part was aimed at me, the passing murderer.
 \
-`“…@All right.@ I think I understand now.@ A particularly nasty monster is hiding in this city, and you came to destroy it.@
-`But while you were searching because you couldn’t find its lair, I…@ did what I did.@ Now you’re hiding until you recover.@ Is that the situation?”@
+`“All right, I think I understand now.@ A particularly nasty monster is hiding in this city, and you came to destroy it.@
+`But while you were searching for its lair, you were[line=3]attacked by me; now you’re hiding until you recover—is that the situation?”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Put simply, yes.”
 \
-`“Then on to the real question.@
+`“[line=3]Then on to the real question.@
 `You say vampire as if it explains everything, but the word still doesn’t feel real to me.@
-`I know you aren’t human.@ That much is obvious.@ But being told you’re a vampire doesn’t make the idea any easier to grasp.”
+`I know you aren’t human; that much is obvious.@ But being told you’re a vampire doesn’t make the idea any easier to grasp.”
 \
 ld c,"tachi/ark_t03",crossfade,400
 `“That’s true.@ I’m rather different from the vampires you humans imagine.”@
@@ -177,13 +177,13 @@ ld c,"tachi/ark_t03",crossfade,400
 `“Perhaps I should teach you at least a little.”
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Very well.@ Lesson one will be Vampires, Part One.”@
+`“Very well—lesson one will be Vampires, Part One.”@
 `“…@Fine, but what’s with the Part One?”@
 `“You’re a complete beginner, so we have to start with the fundamentals.@ I’m teaching you from the very beginning.”@
-`“Whatever.@ Just keep it brief.”
+`“[line=3]Whatever.@ Just keep it brief.”
 \
 ld c,"tachi/ark_t14",crossfade,400
-`“Um…@ I’ll try.”@
+`“Um, I’ll try.”@
 br
 `Arcueid really didn’t seem used to conversation.@
 `Still, we had all the time in the world; I decided not to complain and simply listen.
@@ -203,7 +203,7 @@ cl c,crossfade,400
 `At some point, her enemy had quietly become our enemy.@
 `Given the situation, she wasn’t wrong, so I let it pass.@
 br
-`“…@So this ‘apostle’ thing—you said they weren’t vampires to begin with.@ What does that mean?”
+`“So this ‘apostle’ thing—you said they weren’t vampires to begin with.@ What does that mean?”
 \
 ld c,"tachi/ark_t02",crossfade,400
 `“Dead Apostles were originally human.@ Some attained agelessness after taking magecraft to its limits; others became thralls after a True Ancestor drank their blood.@
@@ -216,16 +216,16 @@ br
 `Something about this explanation felt terribly contradictory, as though its very structure were missing a major piece.
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Shiki, how much do you know about vampire legends?”@
+`“Shiki.@ How much do you know about vampire legends?”@
 `“Only the usual things.@ Drinking the blood of virgins, paralyzing people with a look, turning into mist or wolves—that sort of thing.”
 \
 `“Yes, that’s mostly right.@
 `Virgin blood is ideal because the pure cells and blood of someone who has never exchanged bodily fluids with another person are best suited to replenish a vampire’s decaying genes.
 \
 ld c,"tachi/ark_t02",crossfade,400
-`Dead Apostles—the vampiric species that were not born that way—possess only an imperfect immortality.@
-`They no longer age, so old age cannot kill them.@ But unless they constantly replenish the energy that sustains that immortality, they will disappear.@ No living thing can function without nourishment, can it?@ It is no different for them.@
-`Vampires simply have no natural lifespan as long as they continue feeding.”
+`Dead Apostles[line=3]vampiric beings who were turned rather than born that way—possess only an imperfect immortality.@
+`They have stopped aging, so old age will not kill them.@ But unless they constantly replenish the energy that sustains them, they will disappear.@ No living thing can function without nourishment, can it?@ Vampires are no different.@
+`They simply have no natural lifespan, provided they continue to feed.”
 \
 `“Dead Apostles drink blood because their survival depends on it.@
 `They began as human beings, and the human body was never meant to be immortal.@
@@ -244,14 +244,14 @@ ld c,"tachi/ark_t02",crossfade,400
 ld c,"tachi/ark_t03",crossfade,400
 `“Turning into mist is usually a case of preparing a duplicate beforehand and transferring your awareness into it.@ Once the duplicate has served its purpose, you cut off the magical energy controlling its body, and it naturally crumbles back into dust.
 \
-`Transforming into a wolf—or some other animal—is a by-product of repairing a damaged body with familiars.@
-`The longer a vampire has lived, the less ordinary living creatures can provide what its damaged body needs for repairs.@
+`Transforming into a wolf[line=3]or some other animal—is a by-product of repairing a damaged body with familiars.@
+`The longer a vampire has lived, the less capable ordinary life is of repairing its damaged body.@
 `Humans are physically weak as animals, so it is more efficient to absorb wild beasts that are naturally stronger than we are.@
 `Vampires who have rebuilt their bodies with beasts can restore those beasts to their original forms when needed and command them as familiars.”
 \
 `“Um, I’ve heard there’s a thousand-year-old vampire whose entire body is made of familiars.@ Supposedly it carries six hundred and sixty-six beasts inside itself.”@
 cl c,crossfade,400
-`“……”@
+`“[line=5]”@
 `Arcueid’s lecture was getting a little out of hand.@
 `Frankly, this wasn’t a world someone like me could keep up with.
 \
@@ -267,24 +267,24 @@ ld c,"tachi/ark_t02",crossfade,400
 `“Is that so?@ Then tell me, Shiki.@ How did you kill me?”@
 `“What?”
 \
-`“I’m asking what method you used.@ I’ve already developed an immunity to secret arts based on runes or Kabbalah, so those wouldn’t affect me.@ The only forms of magecraft I’ve never encountered—and therefore have no resistance to—are this country’s ancient Shinto rites and certain treasures from South America.
+`“I’m asking what method you used.@ I’ve already developed an immunity to secret arts based on runes or Kabbalah, so they won’t work on me; the only forms of magecraft I’ve never encountered are this country’s ancient Shinto rites and certain treasures from South America[line=3]”
 \
 ld c,"tachi/ark_t07",crossfade,400
 `No, not even those could have ‘killed’ me that completely.@
 `Answer me, Shiki.@ What sort of ancient mystery did you use to leave me unable to recover?”@
 `“What do you mean by an ‘ancient mystery’?”@
 ld c,"tachi/ark_t16",crossfade,400
-`“A catalyst steeped in history and human thought!@ This country has sacred regalia too, doesn’t it?@ Usually they are Conceptual Weapons for use against nature—staves, swords, jewels, or masks—but Shiki, are you certain you’re not involved with that world?”
+`“A catalyst steeped in history and human thought!@ This country has sacred regalia too, doesn’t it?@ Usually they are Conceptual Weapons for use against nature—staves, swords, jewels, or masks[line=2]but tell me, Shiki, are you certain you’re not involved with that world?”
 \
 `“What do you mean, ‘that world’?@ I told you I’m just a student and don’t know anything about it.”@
 `“That’s a lie.@ An ordinary human who isn’t even a mage couldn’t possibly hurt me.@ Shiki, you’re hiding something from me, aren’t you?”@
-`Arcueid glared at me like an indignant cat.@ But no matter how she looked at me, I had nothing to hide—or rather, I did.
+`Arcueid glared at me like an indignant cat.@ But no matter how she looked at me, I had nothing to hide[line=4]ah, there was one thing.
 \
 `“Actually, there is one thing, though I have no idea whether it has anything to do with this.”@
 `Arcueid continued to glare at me.@
 `It seemed I wasn’t going to get away with keeping quiet.
 \
-`“All right, I’ll tell you…@ I’m not sure how to explain it, but I can see lines where things can be cut.”@
+`“All right, I’ll tell you, though I’m not sure how to put this: I can see lines along which things can be cut.”@
 ld c,"tachi/ark_t13",crossfade,400
 `“What?”@
 `Oh—she was dumbfounded.@
@@ -295,38 +295,38 @@ ld c,"tachi/ark_t06",crossfade,400
 `But Arcueid’s question was perfectly serious.@
 `Only someone as abnormal as she was could defy my expectations in the best possible way.
 \
-`“I mean I can see lines where things will come apart.@
+`“I mean I can see lines where things can be cut.@
 `Living creatures, the ground—anything I can touch, really.@
-`They look like black lines, and if I run a blade along one, the thing comes apart cleanly…@
-`Does that mean something?@ Cutting iron with a knife is useful, sure, but I can’t cut wherever I please.@
-`I can only cut along the lines I see.@ Even when I cut you—well, any knife will cut a woman’s skin, right?”
+`They look like black lines, and if I run a blade along one, the thing comes apart cleanly—but does that mean something?@
+`Cutting iron with a knife is useful, sure, but I can’t cut wherever I please.@
+`I can only cut along the lines I see, and even when I cut you[line=3]well, any knife will cut a woman’s skin, right?”
 \
 ld c,"tachi/ark_t05b",crossfade,400
-`“……”@
-`Arcueid’s eyes grew grave—became the murderous eyes she had shown me only once before.@
+`“[line=6]”@
+`Arcueid’s eyes grew grave[line=3]sharpening into the murderous gaze she had shown me only once before.@
 `A single piercing glare.@
 `She stared at me so fiercely that it seemed she could stop my breath by looking alone.
 \
-`“I see.@ I thought the Mystic Eyes of Death Perception existed only in fairy tales, but apparently freaks like you do turn up somewhere in the world.”@
-`“Wh-what’s that supposed to mean?@ I’m not going to stand here and be called a freak by a vampire!”@
-`“A freak is a freak.@ Not even one of us possesses Mystic Eyes capable of seeing the death of things.”@
+`“[line=4]I see.@ I thought the Mystic Eyes of Death Perception existed only in fairy tales, but apparently they do exist.@ Mutant monsters like you.”@
+`“Wh[line=2]what’s that supposed to mean?@ I’m not taking that from a vampire!”@
+`“A monster is a monster.@ Not even one of us possesses Mystic Eyes capable of seeing the death of things.”@
 `“The…@ death of things…?”@
 `Arcueid nodded without losing the look she might give an enemy.
 \
 `“Shiki.@ I think the circuit in your eyes has been opened.@ Were you born with them?”@
 `“No, they’ve been like this for years, but I wasn’t born with them.”@
 `“Hmm.@ Then you’ve died at least once before, haven’t you?”@
-`“What—”@
+`“What[line=4]”@
 `It was true that eight years ago I had been in an accident that nearly killed me.
 \
-`“I knew it.@ You must have had the latent ability already, but that was probably what awakened it.@ The Mystic Eyes of Death Perception…@ Yes.@ Eyes like those could unquestionably kill even me.”@
+`“I knew it.@ You must have had the latent ability already, but that accident probably awakened it.@ The Mystic Eyes of Death Perception—yes.@ With those eyes, you could unquestionably kill even me.”@
 cl c,crossfade,400
 `Arcueid let out a quiet breath, and the terrible look left her eyes.
 \
-`“Arcueid…@ do you know what these lines are?”@
+`“Arcueid, do you know what these lines are?”@
 ld c,"tachi/ark_t06",crossfade,400
 `“Not as intimately as you do, but I understand the theory.@ What you see is the outcome of all things—the places where they are most vulnerable to death.@ Put more simply, it is the appointed end of every existence: death itself.”@
-`“……”
+`“[line=4]”
 \
 `I remembered.@
 `Back then, my teacher—the woman who had given me these glasses—had told me something much like this.@
@@ -335,12 +335,11 @@ ld c,"tachi/ark_t06",crossfade,400
 `Nothing so sinister as death.
 \
 `“What are you talking about?@ They’re only lines that let me cut things.”@
-`“That’s precisely why the lines are ‘death.@’ Listen, Shiki.@
-`Everything that exists must end.@ The timing differs from one thing to another, but nothing is without an end.@ Death doesn’t arrive from outside.@
-`It is contained within a thing from the instant of its birth, waiting for the day it manifests.@
-`Cause and effect.@ You’ve heard of causality, haven’t you?
+`“That’s precisely why the lines are ‘death.@’Listen, Shiki.@ Everything that exists must end.@ The timing differs from one thing to another, but nothing is without an end.@
+`Death doesn’t arrive from outside; it is contained within a thing from the instant of its birth, waiting for the day it manifests.@
+`That is cause and effect.@ You’ve heard of causality, haven’t you?
 \
-`Anything that comes into being must end, and the time of that ending is fixed from the start.@ That is a thing’s appointed death.@
+`Anything that comes into being must end.@ The time of that ending is fixed from the start.@ That is what we call a thing’s appointed death.@
 `Since it has always been there, seeing it isn’t impossible—provided you possess a faculty capable of comprehending the concept, and a brain and eyes tuned to the same circuit.
 \
 `That is the true nature of the lines you see.@
@@ -349,27 +348,27 @@ ld c,"tachi/ark_t06",crossfade,400
 ld c,"tachi/ark_t07",crossfade,400
 `“Oh, but that doesn’t quite add up…@ I can’t see them myself, so I can’t be certain, but are lines really all you see, Shiki?@ I would expect points rather than lines.”
 \
-`“Ah—”@
+`“[line=3]Ah.”@
 `That’s right.@
 `The first time I saw Arcueid.@
 `The moment I no longer felt like myself.@
-`When I took off my glasses, I saw the usual black scrawls—and black points like the sources from which they flowed.
+`When I took off my glasses, I saw the usual black scrawls and[line=3]black points like the sources from which they flowed.
 \
-`“There were points.@ Only that one time, but I definitely saw them—several black points across your body, with the black lines running from one to another.”@
+`“I did see them.@ Only that once, but[line=3]I really did see black points.@ There were several across your body, with the black lines running from one to another.”@
 `Like veins.@
 ld c,"tachi/ark_t01b",crossfade,400
 `“I see…@ The lines where things are vulnerable to death, and death itself.@ I’m amazed you’ve survived this long in that condition.@ You must have a remarkably peaceful mind, Shiki.”@
 `Arcueid spoke with perfect composure.@
-`I understood enough of what she meant.@ I simply refused to accept any of it.
+`I understood enough of what she meant, but I refused to accept any of it.
 \
-`“What the hell is that supposed to mean?@ There’s no such thing, much less any way to see it…!”@
+`“[line=3]What the hell is that supposed to mean?@ There’s no such thing, much less any way to see it…!”@
 `“But you do see it.@
 `Ordinarily, a living creature dies when its head is cut off.@ The severing causes its functions to cease.@
 `By that logic, a creature whose neck cannot be severed cannot die.@ That describes me, incidentally, so treat it as an exception.
 \
 ld c,"tachi/ark_t06",crossfade,400
 `But your power bypasses the cause.@ Even against something that nullifies every external influence, you kill it first.@ Only afterward does the victim enter the state of being dead.@
-`With you, severing doesn’t cause the thing to stop.@ You stop the thing, and the severing occurs as a consequence.
+`With you, severing doesn’t cause the thing to stop; you stop it, and the severing occurs as a consequence.
 \
 ld c,"tachi/ark_t02",crossfade,400
 `If that doesn’t make you a monster, what would?@
@@ -378,7 +377,7 @@ ld c,"tachi/ark_t02",crossfade,400
 `They can kill absolutely anything.”@
 cl c,crossfade,400
 \
-`“……”@
+`“[line=7]”@
 `There were no words.@
 `If Arcueid was right—if that was what these eyes saw.@
 `Then the black lines I had always seen were the appointed deaths of all things.@
@@ -395,7 +394,7 @@ bg "bg/ima_18",crossfade,400
 `The faint moonlight through the window was our only illumination.
 \
 `“Come on, take this seriously.@ Oh—are those glasses keeping you from seeing them?”@
-`“You’re sure about this?”@
+`“[line=5]You’re sure about this?”@
 `I removed my glasses, intending only to look.@
 `At once, black lines writhed across the entire room.
 \
@@ -406,17 +405,17 @@ br
 `Among them…@
 `the lines on Arcueid’s body were so terribly faint that I had to concentrate to see them at all.
 \
-`“Ah—”@
+`“Ah[line=3]”@
 `“If you hadn’t done this to me, you probably wouldn’t be able to see them at all, but I think you can now.@
 `At night I normally have no appointed death, though a faint one appears during the day.@
 `That is why you could kill me then, but reviving afterward cost me so much power that now, even at night, I have an appointed death.@
 `[line=3]In other words, I’m no longer immortal, so tell me, Shiki: can you cut the lines on my body?”
 \
-`“……”@
+`“[line=4]”@
 `I wondered.@
 `There were lines, so I thought I could cut them; but I doubted I could slice her apart as cleanly as I had then, in less than a second.
 \
-`“It would be hard.@ The lines keep fading in and out.@ I couldn’t do it unless you were asleep or something.”@
+`“It would be hard; the lines keep fading in and out.@ I couldn’t do it unless you were asleep or something.”@
 `“Exactly.@ That is your greatest weakness.@ However clearly you see ‘death,’ it still takes your own hand to trace the line.@
 `I may be weakened, but not so badly that you could ever catch me.”
 \
@@ -425,7 +424,7 @@ br
 `If I can’t catch it, I can’t touch its body.@
 `So even with these lines in sight, I can’t kill anything that can move.
 \
-`“Ow—”@
+`“[line=3]Ow.”@
 `Pain lanced through my head.@
 `Seeing the lines had given me headaches since I was a child.@
 `I put my glasses back on, returning the world to normal.
@@ -444,7 +443,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 `As she spoke, Arcueid came closer.
 \
 `“Hey.@ Let me see them.”@
-`“No.@ They mean too much to me, so I’m not handing them over.”@
+`“[line=3]No.@ They mean too much to me, so I’m not handing them over.”@
 `“I won’t break them.@ I really only want to look—what’s wrong with that?”@
 cl c,crossfade,800
 `Arcueid inched closer and closer, looking perfectly capable of taking them by force.@
@@ -452,7 +451,7 @@ br
 `Suspicious…@
 `Her volunteering that she ‘wouldn’t break them’ was deeply suspicious.
 \
-`“No, you can’t even look.@ I learned how absurdly strong you are back in that alley.@ One careless squeeze and you could crush them.”@
+`“No, you can’t even look.@ I learned how absurdly strong you are back in that alley.@ One careless squeeze and you could crush them[line=3]”@
 ld c,"tachi/ark_t16",crossfade,400
 `“Hey!@ What do you mean, absurdly strong?@ Under normal circumstances, you’re stronger than I am, Shiki.@ I don’t just go around breaking things for no reason.”@
 `Even as she said it, Arcueid reached out to wrest the glasses from me.@
@@ -467,9 +466,9 @@ ld c,"tachi/ark_t06",crossfade,400
 `Besides, you’re the one who said I couldn’t stay sane without them.@ Or are you saying you want me to lose my mind?”
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“What—?@ N-no, of course I don’t.”@
+`“What[line=3]?@ N-no, of course I don’t.”@
 `Arcueid made an ostentatious show of looking away.@
 cl c,crossfade,800
-`“Arcueid, listen.@
+`“Arcueid[line=3]listen.@
 `I don’t know what you’re plotting, but without these glasses I won’t be in any condition to help you.@ If I had to see those lines every hour of the day, the headaches would split my skull before I had time to go mad.”
 \

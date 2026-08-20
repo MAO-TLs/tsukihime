@@ -888,17 +888,20 @@ test("every runtime selection has one complete English choice table", () => {
 	)
 })
 
-test("inline waits remain commands and retain the v1.1 heartbeat cadence", () => {
+test("inline waits remain commands and retain the source heartbeat cadence", () => {
 	const sceneFiles = fs.readdirSync(EN_SCENES).filter(name => name.endsWith(".txt"))
 	const corpus = sceneFiles
 		.map(name => fs.readFileSync(path.join(EN_SCENES, name), "utf8"))
 		.join("\n")
 	assert.doesNotMatch(corpus, /!@w\d+/)
 
-	const heartbeat = fs.readFileSync(path.join(EN_SCENES, "s422.txt"), "utf8")
-	assert.match(
-		heartbeat,
-		/`Thump\n`Thump!w1000[\s\S]*`Thump\n`Thump!w1000[\s\S]*`Thump\n`Thump!w750[\s\S]*`Thump!w750[\s\S]*`Thump!w500[\s\S]*`Thump!w500[\s\S]*`Thump!w250[\s\S]*`Thump!w250[\s\S]*`Thump!w250/,
+	const heartbeatLines = corpus
+		.split("\n")
+		.filter(line => line.includes("!w1000") && line.includes("!w250"))
+	assert.equal(heartbeatLines.length, 1)
+	assert.deepEqual(
+		[...heartbeatLines[0].matchAll(/!w(\d+)/g)].map(match => Number(match[1])),
+		[1000, 1000, 750, 750, 750, 500, 500, 500, 250, 250, 250],
 	)
 })
 
