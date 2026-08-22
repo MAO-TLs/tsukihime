@@ -297,6 +297,9 @@
 }
 .reader-page .script-meta p { margin: 0; color: var(--ink-soft); font-size: 12px; }
 .reader-page .script-lines { border: 1px solid var(--line); background: var(--white); }
+.reader-page .compact .script-line .line-cell,
+.reader-page .compact .concordance-hit .line-cell { padding-block: 12px 14px; }
+.reader-page .compact .line-ref { padding-block: 14px; }
 .reader-page .script-line {
 	display: grid;
 	grid-template-columns: 70px minmax(0, 1fr) minmax(0, 1fr);

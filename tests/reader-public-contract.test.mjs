@@ -156,6 +156,17 @@ test('release, script, and audit share one compact mobile header geometry', asyn
 	assert.match(navigation, /href="https:\/\/github\.com\/MAO-TLs\/tsukihime">GitHub<\/a>/)
 })
 
+test('the script browser always uses compact line spacing without a toggle', async () => {
+	const [reader, readerStyles] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/ScriptReader.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/mao-reader-template.css'), 'utf8'),
+	])
+
+	assert.match(reader, /className="mao-reader-content reader-shell shell compact"/)
+	assert.doesNotMatch(reader, /Compact line spacing|compactMode/)
+	assert.match(readerStyles, /\.reader-page \.compact \.script-line \.line-cell/)
+})
+
 test('release, script, and audit restore normal document text selection', async () => {
 	const [gameStyles, siteStyles, readerStyles] = await Promise.all([
 		fs.readFile(path.join(projectRoot, 'tsukiweb-common/src/styles/main.scss'), 'utf8'),

@@ -451,7 +451,7 @@ export default function ScriptReader({
 		: `${localLines.length.toLocaleString()} lines`
 
 	return (
-		<section className="mao-reader-content reader-shell shell" ref={scrollRoot}>
+		<section className="mao-reader-content reader-shell shell compact" ref={scrollRoot}>
 			<div className="reader-controls" id="reader-controls" aria-label="Script controls">
 				<div className="control">
 					<label htmlFor="mao-section">Section</label>
