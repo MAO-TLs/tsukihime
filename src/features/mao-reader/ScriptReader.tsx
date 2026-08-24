@@ -195,7 +195,7 @@ function ScriptLine({
 				<div className="line-cell line-en line-todokanai">
 					<div className="line-cell-heading">
 						<span className="speaker">{line.speakerEnglish}</span>
-						<span className="edition-label">mirror moon</span>
+						<span className="edition-label">Mirror Moon</span>
 					</div>
 					<p>
 						{line.mirrorMoon
@@ -251,9 +251,20 @@ function GlobalResult({
 				<button type="button" onClick={() => onOpen(entry)}><strong>Open in script →</strong></button>
 			</header>
 			<div className="concordance-hit-grid">
-				<section className="line-cell line-ja" lang="ja"><span className="edition-label">Japanese</span><p>{stripInlineWaitCommands(entry.japanese)}</p></section>
-				<section className="line-cell line-en"><span className="edition-label">MAO English</span><p>{stripInlineWaitCommands(entry.maoEnglish)}</p></section>
-				{showMirrorMoon && <section className="line-cell line-en line-todokanai"><span className="edition-label">mirror moon</span><p>{entry.mirrorMoon ? stripInlineWaitCommands(entry.mirrorMoon) : <span className="comparison-missing">Not aligned</span>}</p></section>}
+				<section className="line-cell line-ja" lang="ja">
+					{showMirrorMoon && <div className="line-cell-heading"><span className="edition-label">Japanese</span></div>}
+					<p>{stripInlineWaitCommands(entry.japanese)}</p>
+				</section>
+				<section className="line-cell line-en">
+					{showMirrorMoon && <div className="line-cell-heading"><span className="edition-label">MAO English</span></div>}
+					<p>{stripInlineWaitCommands(entry.maoEnglish)}</p>
+				</section>
+				{showMirrorMoon && (
+					<section className="line-cell line-en line-todokanai">
+						<div className="line-cell-heading"><span className="edition-label">Mirror Moon</span></div>
+						<p>{entry.mirrorMoon ? stripInlineWaitCommands(entry.mirrorMoon) : <span className="comparison-missing">Not aligned</span>}</p>
+					</section>
+				)}
 			</div>
 		</article>
 	)

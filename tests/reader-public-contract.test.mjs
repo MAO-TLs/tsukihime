@@ -167,6 +167,20 @@ test('the script browser always uses compact line spacing without a toggle', asy
 	assert.match(readerStyles, /\.reader-page \.compact \.script-line \.line-cell/)
 })
 
+test('reader edition labels follow the shared two-column and comparison contract', async () => {
+	const [reader, readerStyles] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/ScriptReader.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/mao-reader-template.css'), 'utf8'),
+	])
+
+	assert.match(reader, /showMirrorMoon && <span className="edition-label" lang="en">Japanese<\/span>/)
+	assert.match(reader, /showMirrorMoon && <span className="edition-label">MAO English<\/span>/)
+	assert.match(reader, /<span className="edition-label">Mirror Moon<\/span>/)
+	assert.doesNotMatch(reader, /<span className="edition-label">mirror moon<\/span>/)
+	assert.doesNotMatch(reader, /Japanese source|MAO English v\d/i)
+	assert.match(readerStyles, /\.reader-page \.edition-label \{[\s\S]*?margin-left: auto;/)
+})
+
 test('release, script, and audit restore normal document text selection', async () => {
 	const [gameStyles, siteStyles, readerStyles] = await Promise.all([
 		fs.readFile(path.join(projectRoot, 'tsukiweb-common/src/styles/main.scss'), 'utf8'),
