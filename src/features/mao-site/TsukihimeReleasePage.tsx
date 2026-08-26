@@ -34,7 +34,7 @@ export default function TsukihimeReleasePage() {
 									Play online <span aria-hidden="true">→</span>
 								</Link>
 								<Link className="mao-site-button mao-template-button mao-site-button-secondary" href={SCREEN.SCRIPT}>
-									Read the script <span aria-hidden="true">→</span>
+									Script <span aria-hidden="true">→</span>
 								</Link>
 							</div>
 							<p className="tsuki-release-compatibility">
@@ -67,10 +67,7 @@ export default function TsukihimeReleasePage() {
 							<span>Play</span><div><h3>Play online</h3><p>Full Tsukiweb presentation</p></div>
 						</Link>
 						<Link className="tsuki-release-card" href={SCREEN.SCRIPT}>
-							<span>Script</span><div><h3>Japanese / English</h3><p>14,620 aligned passages</p></div>
-						</Link>
-						<Link className="tsuki-release-card" href={SCREEN.SCRIPT}>
-							<span>Compare</span><div><h3>mirror moon comparison</h3><p>Line-by-line display controls</p></div>
+							<span>Script</span><div><h3>Script</h3><p>14,620 aligned Japanese/English lines</p></div>
 						</Link>
 						<Link className="tsuki-release-card" href={SCREEN.AUDIT}>
 							<span>Audit</span><div><h3>Translation audit</h3><p>23 work-wide dossiers</p></div>

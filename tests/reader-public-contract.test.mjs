@@ -154,6 +154,22 @@ test('release, script, and audit share one compact mobile header geometry', asyn
 	assert.match(readerStyles, /\.reader-page \.audit-dossier-toggle \{[^}]*font-family: var\(--mono\);[^}]*font-size: 9px;[^}]*text-transform: uppercase;/)
 	assert.match(readerStyles, /\.reader-page \.audit-permalink \{[\s\S]*?font-family: var\(--mono\);[\s\S]*?font-size: 9px;[\s\S]*?text-transform: uppercase;/)
 	assert.match(navigation, /href="https:\/\/github\.com\/MAO-TLs\/tsukihime">GitHub<\/a>/)
+	assert.match(navigation, />\s*Script\s*<\/Link>/)
+	assert.doesNotMatch(navigation, /Read the script/)
+})
+
+test('the release page presents three distinct destinations', async () => {
+	const [releasePage, siteStyles] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'src/features/mao-site/TsukihimeReleasePage.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-site/mao-site.scss'), 'utf8'),
+	])
+
+	assert.equal((releasePage.match(/className="tsuki-release-card"/g) ?? []).length, 3)
+	assert.match(releasePage, /<span>Play<\/span>/)
+	assert.match(releasePage, /<span>Script<\/span>/)
+	assert.match(releasePage, /<span>Audit<\/span>/)
+	assert.doesNotMatch(releasePage, /<span>Compare<\/span>/)
+	assert.match(siteStyles, /\.tsuki-release-card-grid \{[\s\S]*?grid-template-columns: repeat\(3, 1fr\);/)
 })
 
 test('the script browser always uses compact line spacing without a toggle', async () => {

@@ -23,7 +23,7 @@ export default function MaoSiteNav({currentPage}: MaoSiteNavProps) {
 					Play online
 				</Link>
 				<Link href={SCREEN.SCRIPT} aria-current={currentPage === "script" ? "page" : undefined}>
-					Read the script
+					Script
 				</Link>
 				<Link href={SCREEN.AUDIT} aria-current={currentPage === "audit" ? "page" : undefined}>
 					Audit

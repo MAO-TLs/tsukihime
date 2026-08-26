@@ -230,7 +230,7 @@
 
 .tsuki-release-card-grid {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 1px;
 	margin-top: 64px;
 	border: 1px solid var(--tsuki-line);
