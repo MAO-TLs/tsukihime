@@ -334,3 +334,18 @@ test('reader query and hash navigation remain URL-addressable without dynamic do
 	assert.equal(auditUrl.hash, '')
 	assert.equal(auditUrl.pathname.includes('/dossier/'), false)
 })
+
+test('reader controls use the shared BLACK SHEEP TOWN search-bar contract', async () => {
+	const [source, css] = await Promise.all([
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/ScriptReader.tsx'), 'utf8'),
+		fs.readFile(path.join(projectRoot, 'src/features/mao-reader/mao-reader-template.css'), 'utf8'),
+	])
+
+	assert.match(source, /<label htmlFor="mao-script">Script<\/label>/)
+	assert.match(source, /<span>Current script<\/span>/)
+	assert.match(source, /<span>All scripts<\/span>/)
+	assert.match(source, /<label htmlFor="mao-search">Search<\/label>/)
+	assert.match(source, /English, Japanese, speaker, ref…/)
+	assert.doesNotMatch(source, /<label htmlFor="mao-section">Section<\/label>/)
+	assert.match(css, /grid-template-columns:\s*1\.2fr 1\.15fr 1\.55fr auto;/)
+})

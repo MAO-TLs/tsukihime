@@ -311,9 +311,6 @@ export default function ScriptReader({
 	])
 	const previousInitialLocationKey = useRef(initialLocationKey)
 
-	const scriptsInSection = useMemo(() => manifest.scripts
-		.filter(script => script.sectionId === sectionId)
-		.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id)), [manifest, sectionId])
 	const summary = manifest.scripts.find(script => script.id === scriptId) ?? firstScript
 	const neighbors = scriptNeighbors(manifest, summary)
 	const scriptResource = useAsyncResource(
@@ -465,27 +462,17 @@ export default function ScriptReader({
 		<section className="mao-reader-content reader-shell shell compact" ref={scrollRoot}>
 			<div className="reader-controls" id="reader-controls" aria-label="Script controls">
 				<div className="control">
-					<label htmlFor="mao-section">Section</label>
-					<select id="mao-section" value={sectionId} disabled={scope === "all"} onChange={event => {
-						const nextSection = event.target.value
-						const nextScript = manifest.scripts
-							.filter(script => script.sectionId === nextSection)
-							.sort((a, b) => a.order - b.order)[0]
-						setSectionId(nextSection)
-						if (nextScript)
-							selectScript(nextScript.id)
-					}}>
-						{manifest.sections.map(section => <option key={section.id} value={section.id}>{section.label}</option>)}
-					</select>
-				</div>
-
-				<div className="control">
 					<label htmlFor="mao-script">Script</label>
 					<div className="script-picker">
 						<button type="button" disabled={scope === "all" || !neighbors.previous} onClick={() => neighbors.previous && selectScript(neighbors.previous.id)} aria-label="Previous script">←</button>
 						<select id="mao-script" value={scriptId} disabled={scope === "all"} onChange={event => selectScript(event.target.value)}>
-							{scriptsInSection.map(script => (
-								<option key={script.id} value={script.id}>{script.label} · {script.lineCount.toLocaleString()} lines</option>
+							{manifest.sections.map(section => (
+								<optgroup key={section.id} label={section.label}>
+									{manifest.scripts
+										.filter(script => script.sectionId === section.id)
+										.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
+										.map(script => <option key={script.id} value={script.id}>{script.label} · {script.lineCount.toLocaleString()} lines</option>)}
+								</optgroup>
 							))}
 						</select>
 						<button type="button" disabled={scope === "all" || !neighbors.next} onClick={() => neighbors.next && selectScript(neighbors.next.id)} aria-label="Next script">→</button>
@@ -497,7 +484,7 @@ export default function ScriptReader({
 					<div className="scope-options">
 						<label>
 							<input type="radio" name="search-scope" value="script" checked={scope === "script"} onChange={() => { setScope("script"); setGlobalResultLimit(GLOBAL_RESULT_BATCH) }} />
-							<span>This script</span>
+							<span>Current script</span>
 						</label>
 						<label>
 							<input type="radio" name="search-scope" value="all" checked={scope === "all"} onChange={() => { setScope("all"); setGlobalResultLimit(GLOBAL_RESULT_BATCH) }} />
@@ -507,13 +494,13 @@ export default function ScriptReader({
 				</fieldset>
 
 				<div className="control">
-					<label htmlFor="mao-search">Search {scope === "all" ? `all ${manifest.lineCount.toLocaleString()} lines` : "this script"}</label>
+					<label htmlFor="mao-search">Search</label>
 					<input
 						id="mao-search"
 						type="search"
 						value={query}
 						onChange={event => setQuery(event.target.value)}
-						placeholder="English, 日本語, speaker, or exact ref"
+						placeholder="English, Japanese, speaker, ref…"
 						aria-describedby="search-status"
 					/>
 				</div>
