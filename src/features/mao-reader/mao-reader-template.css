@@ -622,8 +622,7 @@
 .reader-page .audit-dossier-definition { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin: 0; border: 1px solid var(--line); background: var(--line); }
 .reader-page .audit-dossier-definition > div { padding: 16px; background: var(--white); }
 .reader-page .audit-dossier-definition dt,
-.reader-page .audit-example-heading > span,
-.reader-page .audit-example-heading span {
+.reader-page .audit-example-heading > span {
 	color: var(--ink-soft);
 	font-family: var(--mono);
 	font-size: 8px;
@@ -651,7 +650,7 @@
 .reader-page .audit-dossier-diagnostic b { display: block; margin-bottom: 4px; color: var(--ice-ink); font-family: var(--mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .reader-page .audit-example code { color: var(--ice-ink); font-family: var(--mono); font-size: 9px; overflow-wrap: anywhere; }
 .reader-page .audit-example p { margin: 12px 0 0; font-family: var(--sans); font-size: 11px; line-height: 1.55; }
-.reader-page .audit-example p[lang="ja"] { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 13px; }
+.reader-page .audit-example p[lang="ja"] { font-size: 13px; }
 .reader-page .audit-example small { display: block; margin-top: 14px; color: var(--ink-soft); font-size: 10px; line-height: 1.55; }
 .reader-page .audit-example b { display: block; margin-top: 14px; color: var(--ice-ink); font-size: 10px; }
 .reader-page .audit-example-visible-evidence + .audit-example-visible-evidence { margin-top: 14px; padding-top: 2px; border-top: 1px solid var(--line); }
@@ -705,6 +704,7 @@
 	.reader-page .audit-stat-grid > div:nth-child(3) { border-top: 1px solid var(--line); border-left: 0; }
 	.reader-page .audit-stat-grid > div { padding-right: 20px; padding-left: 20px; }
 	.reader-page .audit-example-list { grid-template-columns: 1fr; }
+	.reader-page .audit-example-heading { align-items: flex-start; flex-direction: column; gap: 5px; }
 	.reader-page .concordance-route-filter { grid-template-columns: 1fr; }
 	.reader-page .concordance-route-filter button + button { border-top: 1px solid var(--line); border-left: 0; }
 	.reader-page .concordance-hit-link { grid-template-columns: 1fr; gap: 6px; }
