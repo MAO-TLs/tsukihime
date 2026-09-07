@@ -209,7 +209,7 @@
 	strong { font-family: var(--tsuki-serif); font-size: 20px; font-weight: 400; line-height: 1.25; }
 }
 
-.mao-site-section { padding-block: 112px; }
+.mao-site-section { padding-block: 56px; }
 .mao-site-section-heading { max-width: 720px; }
 .mao-site-section-heading h2 {
 	margin: 0;
@@ -263,7 +263,7 @@
 }
 
 .tsuki-play-section { border-top: 1px solid var(--tsuki-line); background: #fff; }
-.tsuki-play-section > .mao-site-section { padding-top: 80px; }
+.tsuki-play-section > .mao-site-section { padding-top: 40px; }
 .tsuki-play-heading {
 	display: grid;
 	grid-template-columns: 1.2fr .8fr;
@@ -339,8 +339,8 @@
 	.mao-site-button { width: 100%; }
 	.tsuki-release-grid, .tsuki-release-card-grid { grid-template-columns: 1fr; }
 	.tsuki-release-grid > div { min-height: 96px; border-right: 1px solid rgba(255,255,255,.12); border-bottom: 1px solid rgba(255,255,255,.12); }
-	.mao-site-section { padding-block: 76px; }
-	.tsuki-play-section > .mao-site-section { padding-top: 60px; }
+	.mao-site-section { padding-block: 38px; }
+	.tsuki-play-section > .mao-site-section { padding-top: 30px; }
 	.mao-site-section-heading h2 { font-size: 40px; }
 	.tsuki-release-card { min-height: 132px; padding: 28px 22px; }
 	.tsuki-play-link { grid-template-columns: 44px 1fr; gap: 12px; }
