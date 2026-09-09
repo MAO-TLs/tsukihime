@@ -354,3 +354,9 @@
 	.mao-site-wordmark { max-width: 72px; line-height: 1.15; }
 	.mao-site-nav-links { gap: 11px; font-size: 11px; }
 }
+
+/* Shared title sizing across the four MAO releases. */
+.tsuki-release-hero h1 { font-size: clamp(76px, 9.2vw, 138px); }
+@media (max-width: 640px) {
+  .tsuki-release-hero h1 { font-size: clamp(44px, 14vw, 82px); }
+}
