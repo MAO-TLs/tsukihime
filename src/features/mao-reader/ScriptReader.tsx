@@ -462,11 +462,20 @@ export default function ScriptReader({
 		<section className="mao-reader-content reader-shell shell compact" ref={scrollRoot}>
 			<div className="reader-controls" id="reader-controls" aria-label="Script controls">
 				<div className="control">
+					<label htmlFor="mao-route">Route</label>
+					<select id="mao-route" value={sectionId} disabled={scope === "all"} onChange={event => {
+						const first = manifest.scripts.filter(script => script.sectionId === event.target.value).sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))[0]
+						if (first) selectScript(first.id)
+					}}>
+						{manifest.sections.map(section => <option key={section.id} value={section.id}>{section.label}</option>)}
+					</select>
+				</div>
+				<div className="control">
 					<label htmlFor="mao-script">Script</label>
 					<div className="script-picker">
 						<button type="button" disabled={scope === "all" || !neighbors.previous} onClick={() => neighbors.previous && selectScript(neighbors.previous.id)} aria-label="Previous script">←</button>
 						<select id="mao-script" value={scriptId} disabled={scope === "all"} onChange={event => selectScript(event.target.value)}>
-							{manifest.sections.map(section => (
+							{manifest.sections.filter(section => section.id === sectionId).map(section => (
 								<optgroup key={section.id} label={section.label}>
 									{manifest.scripts
 										.filter(script => script.sectionId === section.id)
