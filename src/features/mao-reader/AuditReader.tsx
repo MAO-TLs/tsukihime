@@ -179,10 +179,10 @@ function DossierDisclosure({
 			<summary>
 				<div>
 					<p className="audit-dossier-count">
-						{dossier.examples.length} confirmed example{dossier.examples.length === 1 ? "" : "s"}
+						{dossier.examples.length} cited confirmed example{dossier.examples.length === 1 ? "" : "s"}
 						{dossier.counterexamples.length > 0 && ` · ${dossier.counterexamples.length} counterexample${dossier.counterexamples.length === 1 ? "" : "s"}`}
 					</p>
-					<h3><span>{dossier.id}</span> {dossier.heading}</h3>
+					<h3>{dossier.heading}</h3>
 				</div>
 				<span className="audit-dossier-toggle" aria-hidden>
 					<span>Open dossier</span>
@@ -321,9 +321,12 @@ export default function AuditReader({
 						<div><strong>{uniqueCounterexampleCount.toLocaleString()}</strong><span>Unique counterexamples</span></div>
 					</div>
 					<div className="audit-method-note">
-						<p>{methodology?.summary ?? DEFAULT_SUMMARY}</p>
-						<p>{methodology?.boundary ?? DEFAULT_BOUNDARY}</p>
-						{methodology?.disputes && <p>{methodology.disputes}</p>}
+						<p>The audit evaluates mirror moon’s English independently against the Japanese. It was not used to create or revise the MAO translation. Red markers in the script browser identify confirmed local errors; dossiers describe recurring patterns without treating them as universal rules.</p>
+						<details><summary>Methodology and limits</summary>
+							<p>{methodology?.summary ?? DEFAULT_SUMMARY}</p>
+							<p>{methodology?.boundary ?? DEFAULT_BOUNDARY}</p>
+							{methodology?.disputes && <p>{methodology.disputes}</p>}
+						</details>
 					</div>
 				</section>
 
@@ -331,6 +334,7 @@ export default function AuditReader({
 					<header className="audit-dossiers-heading">
 						<p className="mao-reader-kicker eyebrow">Work-wide dossiers</p>
 						<h2 id="mao-audit-dossiers-title">Recurring failure patterns</h2>
+						<p className="audit-method-note">Dossier counts describe selected evidence, not all findings of that kind across the corpus. A passage may support more than one dossier.</p>
 						<p className="audit-dossiers-evidence-count">
 							{collection.dossiers.length.toLocaleString()} dossiers · {findingMembershipCount.toLocaleString()} cited findings · {uniqueEvidenceRefCount.toLocaleString()} unique source passages · {counterexampleMembershipCount.toLocaleString()} counterexample citations
 						</p>

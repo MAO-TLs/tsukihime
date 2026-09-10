@@ -186,7 +186,7 @@ export default function MaoReaderShell({
 					<p className="mao-reader-intro__eyebrow eyebrow">{page === "audit" ? "Source-only editorial audit" : `Script Version ${translationVersion}`}</p>
 					<h1>{page === "audit" ? "mirror moon audit" : "Script browser"}</h1>
 					<p>{page === "audit"
-						? "Every published finding was checked against the Japanese and its scene context. Borderline calls were withheld, and counterexamples are recorded wherever they set a useful limit on a work-wide claim."
+						? "Published findings are checked against the Japanese and its scene context. The dossiers collect recurring patterns, with explicit limits on each claim."
 						: `Search all 14,620 aligned passages or read any of the 62 scripts beside the ${translationVersion} MAO English translation. The earlier mirror moon English and its adjudicated source errors can be displayed for comparison.`}</p>
 				</div>
 			</header>
