@@ -49,7 +49,7 @@ export default function TsukihimeReleasePage() {
 					<div className="mao-site-shell mao-template-shell tsuki-release-grid">
 						<div><span>Version</span><strong>v1.2.1</strong></div>
 						<div><span>Script coverage</span><strong>Full game</strong></div>
-						<div><span>Lines</span><strong>14,620</strong></div>
+						<div><span>Passages</span><strong>14,620</strong></div>
 						<div><span>Status</span><strong>Complete</strong></div>
 					</div>
 				</section>
@@ -67,7 +67,7 @@ export default function TsukihimeReleasePage() {
 							<span>Play</span><div><h3>Play online</h3><p>Full Tsukiweb presentation</p></div>
 						</Link>
 						<Link className="tsuki-release-card" href={SCREEN.SCRIPT}>
-							<span>Script</span><div><h3>Script</h3><p>14,620 aligned Japanese/English lines</p></div>
+							<span>Script</span><div><h3>Script</h3><p>14,620 aligned Japanese/English passages</p></div>
 						</Link>
 						<Link className="tsuki-release-card" href={SCREEN.AUDIT}>
 							<span>Audit</span><div><h3>Translation audit</h3><p>23 work-wide dossiers</p></div>

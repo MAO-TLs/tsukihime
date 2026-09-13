@@ -17,6 +17,18 @@ const auditRoot = path.join(projectRoot, 'public/static/mao-audit')
 
 const sha256 = bytes => crypto.createHash('sha256').update(bytes).digest('hex')
 
+test('release and reader describe Tsukihime corpus units as passages', async () => {
+	const release = await fs.readFile(path.join(projectRoot, 'src/features/mao-site/TsukihimeReleasePage.tsx'), 'utf8')
+	const reader = await fs.readFile(path.join(projectRoot, 'src/features/mao-reader/ScriptReader.tsx'), 'utf8')
+	assert.match(release, /<span>Passages<\/span><strong>14,620<\/strong>/)
+	assert.match(release, /14,620 aligned Japanese\/English passages/)
+	assert.match(reader, /source passages/)
+	assert.match(reader, /matching passage\$\{/)
+	assert.match(reader, /No passages in this script match the query/)
+	assert.match(reader, /aria-label=\{`Passage /)
+	assert.doesNotMatch(reader, /matching lines|source lines|lines available in this script|No lines/)
+})
+
 async function loadJson(relativePath) {
 	return JSON.parse(await fs.readFile(path.join(auditRoot, relativePath), 'utf8'))
 }

@@ -112,7 +112,7 @@ function LineError({error, lineRef, relatedDossiers = [], onClose}: {
 			)}
 			<p className="todokanai-error-explanation"><strong>{error.title}</strong><br />{error.reason}</p>
 			<div className="todokanai-error-actions">
-				<a href={`#${encodeURIComponent(lineRef)}`}>Open this line in context →</a>
+				<a href={`#${encodeURIComponent(lineRef)}`}>Open this passage in context →</a>
 				{relatedDossiers.map(dossier => <a key={dossier.id} href={`${import.meta.env.BASE_URL}audit/?dossier=${encodeURIComponent(dossier.id)}`}>{dossier.label} <span aria-hidden>→</span></a>)}
 			</div>
 		</aside>
@@ -172,7 +172,7 @@ function ScriptLine({
 			tabIndex={-1}
 			className={`script-line${showMirrorMoon ? " script-line-comparison" : ""}${hasError && showErrors ? " script-line-error" : ""}${isTarget ? " script-line-target" : ""}`}
 		>
-			<a className="line-ref" href={`#${encodeURIComponent(line.ref)}`} aria-label={`Line ${line.ordinal}`} onClick={() => onTarget(line.ref)}>
+			<a className="line-ref" href={`#${encodeURIComponent(line.ref)}`} aria-label={`Passage ${line.ordinal}`} onClick={() => onTarget(line.ref)}>
 				{line.ordinal}
 			</a>
 			<div className="line-cell line-ja" lang="ja">
@@ -454,9 +454,9 @@ export default function ScriptReader({
 		: 0
 	const resultStatus = scope === "all"
 		? deferredQuery
-			? `${filteredGlobalMatches.length.toLocaleString()} matching line${filteredGlobalMatches.length === 1 ? "" : "s"}`
-			: `${manifest.lineCount.toLocaleString()} lines across ${manifest.scriptCount.toLocaleString()} scripts`
-		: `${localLines.length.toLocaleString()} lines`
+			? `${filteredGlobalMatches.length.toLocaleString()} matching passage${filteredGlobalMatches.length === 1 ? "" : "s"}`
+			: `${manifest.lineCount.toLocaleString()} passages across ${manifest.scriptCount.toLocaleString()} scripts`
+		: `${localLines.length.toLocaleString()} passages`
 
 	return (
 		<section className="mao-reader-content reader-shell shell compact" ref={scrollRoot}>
@@ -480,7 +480,7 @@ export default function ScriptReader({
 									{manifest.scripts
 										.filter(script => script.sectionId === section.id)
 										.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
-										.map(script => <option key={script.id} value={script.id}>{script.label} · {script.lineCount.toLocaleString()} lines</option>)}
+										.map(script => <option key={script.id} value={script.id}>{script.label} · {script.lineCount.toLocaleString()} passages</option>)}
 								</optgroup>
 							))}
 						</select>
@@ -525,7 +525,7 @@ export default function ScriptReader({
 							}
 						}} />
 						<span>Display mirror moon for comparison</span>
-						<small>{mirrorAvailable.toLocaleString()} of {summary.lineCount.toLocaleString()} lines available in this script</small>
+						<small>{mirrorAvailable.toLocaleString()} of {summary.lineCount.toLocaleString()} passages available in this script</small>
 					</label>
 					{showMirrorMoon && <div className="comparison-errors-row">
 						<label className="comparison-toggle comparison-toggle-errors">
@@ -543,9 +543,9 @@ export default function ScriptReader({
 				<section className="concordance" aria-live="polite">
 					<div className="script-meta concordance-meta">
 						<div><p className="eyebrow">All {manifest.scriptCount} scripts</p><h2>Corpus concordance</h2></div>
-						{globalResource.status === "ready" && deferredQuery && <p>{filteredGlobalMatches.length.toLocaleString()} matching lines</p>}
+						{globalResource.status === "ready" && deferredQuery && <p>{filteredGlobalMatches.length.toLocaleString()} matching passages</p>}
 					</div>
-					{!deferredQuery && <div className="concordance-prompt"><p className="eyebrow">Full-corpus search</p><h2>Search all {manifest.lineCount.toLocaleString()} lines</h2><p>Enter a Japanese or English phrase, speaker name, script number, or exact reference to search the complete corpus.</p></div>}
+					{!deferredQuery && <div className="concordance-prompt"><p className="eyebrow">Full-corpus search</p><h2>Search all {manifest.lineCount.toLocaleString()} passages</h2><p>Enter a Japanese or English phrase, speaker name, script number, or exact reference to search the complete corpus.</p></div>}
 					{globalResource.status === "loading" && <ReaderLoading label="Searching the complete corpus…" />}
 					{globalResource.status === "error" && <ReaderError error={globalResource.error} />}
 					{globalResource.status === "ready" && deferredQuery && (
@@ -571,8 +571,8 @@ export default function ScriptReader({
 									onOpen={item => { setScope("script"); selectScript(item.scriptId, item.ref) }}
 								/>
 							))}</div>
-							{filteredGlobalMatches.length > globalResultLimit && <button className="concordance-more" type="button" onClick={() => setGlobalResultLimit(limit => limit + GLOBAL_RESULT_BATCH)}>Show next <span>{Math.min(GLOBAL_RESULT_BATCH, filteredGlobalMatches.length - globalResultLimit).toLocaleString()} lines</span></button>}
-							{!filteredGlobalMatches.length && <p className="mao-empty">No lines match this query in the selected section.</p>}
+							{filteredGlobalMatches.length > globalResultLimit && <button className="concordance-more" type="button" onClick={() => setGlobalResultLimit(limit => limit + GLOBAL_RESULT_BATCH)}>Show next <span>{Math.min(GLOBAL_RESULT_BATCH, filteredGlobalMatches.length - globalResultLimit).toLocaleString()} passages</span></button>}
+							{!filteredGlobalMatches.length && <p className="mao-empty">No passages match this query in the selected section.</p>}
 						</>
 					)}
 				</section>
@@ -580,7 +580,7 @@ export default function ScriptReader({
 				<>
 					<div className="script-meta">
 						<h2>{summary.title}</h2>
-						<p>{summary.lineCount.toLocaleString()} source lines</p>
+						<p>{summary.lineCount.toLocaleString()} source passages</p>
 					</div>
 					{scriptResource.status === "loading" && <ReaderLoading label="Opening the script…" />}
 					{scriptResource.status === "error" && <ReaderError error={scriptResource.error} />}
@@ -597,7 +597,7 @@ export default function ScriptReader({
 							onToggleError={errorKey => setActiveErrorKey(current => current === errorKey ? undefined : errorKey)}
 						/>
 					))}</div>}
-					{scriptResource.status === "ready" && !localLines.length && <p className="mao-empty">No lines in this script match the query.</p>}
+					{scriptResource.status === "ready" && !localLines.length && <p className="mao-empty">No passages in this script match the query.</p>}
 					<a className="back-to-controls" href="#reader-controls">Back to controls ↑</a>
 				</>
 			)}
