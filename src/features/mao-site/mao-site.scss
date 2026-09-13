@@ -304,7 +304,7 @@
 
 .tsuki-credits-section { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; }
 .tsuki-credits-section dl { margin: 0; border-top: 1px solid var(--tsuki-line); }
-.tsuki-credits-section dl > div { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--tsuki-line); }
+.tsuki-credits-section dl > div { display: grid; align-items: center; grid-template-columns: 1fr 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--tsuki-line); }
 .tsuki-credits-section dt { color: var(--tsuki-ink-soft); font-size: 12px; font-weight: 700; text-transform: uppercase; }
 .tsuki-credits-section dd { margin: 0; font-family: var(--tsuki-serif); font-size: 18px; }
 .tsuki-credits-section dd a { border-bottom: 1px solid currentColor; }
