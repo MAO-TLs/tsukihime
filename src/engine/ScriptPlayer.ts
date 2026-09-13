@@ -187,7 +187,10 @@ export class ScriptPlayer extends ScriptPlayerBase<LabelName, CharId, PageBaseCo
         return { phase: this.phase, textBox: this.textBox }
     }
     
-    override blockContent() { return {} }
+    // Backport tsukiweb-common ce10019: Object.entries(Map) loses all points.
+    override blockContent() {
+        return { points: Object.fromEntries(this.points.entries()) }
+    }
 
     static override defaultPageContext() {
         return {

@@ -5881,7 +5881,8 @@ bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 `Akiha is waiting on the sofa, while Hisui stands against the wall.
 
 ; 中央<昼>=秋葉:楽02（腕組、ちょっと不機嫌そう）<左シャッター(中)>
-ld c,":a;image\tachi\aki_t02.jpg",%type_lshutter_mid「―――おはよう兄さん」
+ld c,":a;image\tachi\aki_t02.jpg",%type_lshutter_mid
+`“―――Good morning, Brother.”
 `Akiha fixes me with a glare that all but declares, I am furious.
 `“Hey. Good morning, Akiha!”
 `A man with nothing left to lose is strong.
@@ -16810,7 +16811,8 @@ wave se3
 
 `“Excuse me.”
 ; 中央<昼>=翡翠:楽01（無表情な楽）<左シャッター(中)>
-ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid　ふかぶかとおじぎをして翡翠が入ってくる。
+ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
+`Hisui enters with a deep bow.
 `“Oh, morning, Hisui.”
 `“Good morning, Master Shiki.”
 `Hisui prepares my clothes with her customary composure.
@@ -17014,7 +17016,8 @@ wave se3
 
 `“Excuse me.”
 ; 中央<昼>=翡翠:楽01（無表情な楽）<左シャッター(中)>
-ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid　ふかぶかとおじぎをして翡翠が入ってくる。
+ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
+`Hisui enters with a deep bow.
 `“Oh, morning, Hisui.”
 `“Good morning, Master Shiki.”
 `Hisui prepares my clothes with her customary composure.
@@ -17781,7 +17784,8 @@ bg "image\bg\bg_04.jpg",%type_lcartain_mid
 
 
 ; 中央<昼>=アルクェイド:喜01（基本的笑顔）<左シャッター(速)>
-ld c,":a;image\tachi\ark_t08.jpg",%type_lshutter_fst「あ、来た来た。そんな全力で走ってくるなんて、志貴ったら元気なんだ」
+ld c,":a;image\tachi\ark_t08.jpg",%type_lshutter_fst
+`“Oh, here you are! Running all the way like that—you certainly have plenty of energy, Shiki.”
 `“―――――”
 `I can only stare with my mouth hanging open.
 `The instant I reach the courtyard, Arcueid cheerfully begins sharing her impressions.\
@@ -18012,7 +18016,8 @@ br
 
 `There, behind the school
 ; 左<昼>=アルクェイド:睨み03（02のさらにキツイ感じ）<左シャッター(中)>
-ld l,":a;image\tachi\ark_t07.jpg",%type_lshutter_mid　遠目からでもやけに殺気だって見えるアルクェイドと、
+ld l,":a;image\tachi\ark_t07.jpg",%type_lshutter_mid
+`stands Arcueid, looking positively murderous even from a distance, and beside her
 ; 右<昼>=シエル:睨み02（まじめな顔）<左シャッター(中)>
 ld r,":a;image\tachi\cel_t07a.jpg",%type_lshutter_mid
 `is Ciel, an upperclassman of mine, with the rotten luck to have Arcueid picking a fight with her.
@@ -24534,7 +24539,8 @@ bg "image\bg\bg_06a.jpg",%type_lcartain_slw
 `Homeroom is barely five minutes away.
 `With nothing else to do, I stare blankly across the schoolyard.
 ; 中央<昼>=有彦:通常<左シャッター(速)>
-ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst「このさぼり魔。昨日も学校を休むなんて、いったい何をしているんだろうね、遠野くんは」
+ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
+`“You slacker. Skipping school again yesterday—just what have you been up to, Mr. Tohno?”
 `“……”
 `A leaden sigh escapes me.
 `Ordinarily I might humor him, but today I don’t have the strength for Arihiko.\
@@ -24812,7 +24818,8 @@ br
 `A vague impression that I have forgotten something. Nothing more.\
 
 ; 中央<昼>=翡翠:楽01（無表情な楽）<左シャッター(中)>
-ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid「志貴さま？　お目覚めになられましたか？」
+ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
+`“Master Shiki? Are you awake?”
 `“Yeah, I’m awake. Morning, Hisui.”
 `“Good morning, Master Shiki.”
 `Hisui approached the bed with her usual unreadable expression.\
@@ -31727,7 +31734,8 @@ br
 `So did his spotless white coat.\
 
 `“Shiki, do you understand what I’m saying?”
-`“No… Why am I in a hospital?” “You don’t remember.
+`“No… Why am I in a hospital?”
+`“You don’t remember.
 `You were involved in a car accident while you were walking down the street.
 `A shard of glass went into your chest. It wasn’t the sort of wound anyone should have survived.”
 `Still smiling, the man in white said something that didn’t sound like a doctor at all.\
@@ -37816,7 +37824,8 @@ bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 `Akiha is waiting on the sofa, while Hisui stands against the wall.
 
 ; 中央<昼>=秋葉:楽02（腕組、ちょっと不機嫌そう）<左シャッター(中)>
-ld c,":a;image\tachi\aki_t02.jpg",%type_lshutter_mid「―――おはよう兄さん」
+ld c,":a;image\tachi\aki_t02.jpg",%type_lshutter_mid
+`“―――Good morning, Brother.”
 `Akiha fixes me with a glare that all but declares, I am furious.
 `“Hey. Good morning, Akiha!”
 `A man with nothing left to lose is strong.
@@ -49032,7 +49041,8 @@ bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 `Noticing me, she approached in her usual quiet, measured steps.\
 
 ; 中央<昼>=翡翠:楽01（無表情な楽）<左シャッター(速)>
-ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst「おはようございます、志貴さま」
+ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
+`“Good morning, Master Shiki.”
 `“Morning. Sorry I woke up at such an awkward hour.”
 `“I am the one who must apologize for not being at your side when you awoke.”
 `Hisui bowed without a sound.
@@ -49971,7 +49981,8 @@ bg "image\bg\bg_06a.jpg",%type_lcartain_mid
 `I went to my window seat and set down my bag.\
 
 ; 中央<昼>=有彦:通常<左シャッター(速)>
-ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst「おう、おはようさん。今朝はまた、随分と顔色が悪いね」
+ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
+`“Hey, morning. You’re looking awfully pale again today.”
 `“Honestly. Everyone takes one look at me and says the same thing. Do I look that awful?”
 `“Huh―――? Now that you mention it, you look normal. Maybe it’s because you seem so completely miserable.”
 `“Miserable.”
@@ -53367,7 +53378,8 @@ ld c,":a;image\tachi\koha_t02.jpg",%type_lshutter_fst
 ; 屋敷廊下（朝）<左カーテン(中)>
 bg "image\bg\bg_46a.jpg",%type_lcartain_fst
 ; 中央<昼>=翡翠:楽01（無表情な楽）<左シャッター(速)>
-ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst「志貴さま？　お帰りになられたのですか？」
+ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
+`“Master Shiki? Have you returned?”
 `“I just got back. I’m heading straight out again, so don’t make lunch for me!”\
 
 ; 志貴の部屋（朝）<左カーテン(速)>
@@ -68029,7 +68041,8 @@ wave se3
 play "*3"
 
 ; 中央<昼>=有彦:通常<左シャッター(速)>
-ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst「よっ、目が覚めたか。よしよし、昨日はろくに話にならなかった分、今日は少しだけマトモっぽいじゃんか」
+ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
+`“Hey, you’re awake. Good, good. Could barely get a word out of you yesterday, but you seem a little more like yourself today.”
 `Still speaking cheerfully, Arihiko came over to the bedside.\
 
 `“Arihiko… what are you doing here?”
@@ -138442,7 +138455,8 @@ br
 `────And there.
 `“Heeey. Cutting it close, Tohno.”
 ; 左<昼>=有彦:通常<左シャッター(速)>
-ld l,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst　この微笑ましい朝の教室に相応しくない人物が一人、ニヤニヤ笑いをうかべて待っていた。
+ld l,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
+`Someone who has no place in this pleasant morning classroom is waiting for me with a smirk.
 `And worse still───
 `“Oh, good morning, Tohno.”
 ; 右<昼>=シエル:楽01（基本的楽）<右シャッター(速)>
@@ -142372,7 +142386,8 @@ br
 `Who could possibly be here this early?\
 
 ; 中央<昼>=翡翠:楽01（無表情な楽）<左シャッター(速)>
-ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst「―――失礼します」
+ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
+`“―――Excuse me.”
 ; 中央<昼>=翡翠:てれ02（もじもじしている）<クロスフェード(速)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 

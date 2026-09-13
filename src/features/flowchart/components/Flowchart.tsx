@@ -1,4 +1,5 @@
 
+import "../styles/flowchart.scss"
 import { memo, useLayoutEffect, useRef } from "react"
 import { FcNode, GameFlowchart } from "features/flowchart/utils/flowchart"
 import { SceneName } from "app/utils/types"

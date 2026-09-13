@@ -2,6 +2,7 @@ import assert from "node:assert/strict"
 import fs from "node:fs"
 import path from "node:path"
 import test from "node:test"
+import {restoreCommandTails} from "../tools/restore-command-tails.mjs"
 import {
 	CommandToken,
 	ConditionToken,
@@ -11,6 +12,42 @@ import {
 import {parseScript} from "../tsukiweb-common/tools/convert-scripts/parsers/nscriptr.ts"
 
 const ROOT = new URL("..", import.meta.url).pathname
+
+test("English scenes contain no untranslated Japanese", () => {
+    const leaks = []
+    for (const name of sceneNames(EN_SCENES)) {
+        fs.readFileSync(path.join(EN_SCENES, name), "utf8").split("\n").forEach((line, i) => {
+            if (line.startsWith("`") && /[\u3040-\u30ff\u4e00-\u9fff]/.test(line))
+                leaks.push(name + ":" + (i + 1))
+        })
+    }
+    assert.deepEqual(leaks, [])
+})
+
+test("command tails are restored before conversion and unknown tails fail closed", () => {
+    const rows = JSON.parse(fs.readFileSync(path.join(ROOT, "tools/command-tail-restorations.json"), "utf8"))
+    for (const row of rows) {
+        const command = 'ld c,"tachi/his_t01",%type_lshutter_mid'
+        const restored = restoreCommandTails(command + row.japanese)
+        assert.equal(restored, command + "\n`" + row.english)
+        assert.equal(restoreCommandTails(restored), restored)
+        const shipped = fs.readFileSync(path.join(EN_SCENES, row.scene + ".txt"), "utf8")
+        assert.ok(shipped.includes("`" + row.english.replace(/―――/g, "[line=3]") +
+            (row.scene === "s151" ? "" : "@")), row.scene)
+    }
+    assert.throws(() => restoreCommandTails('ld c,"test",%effect未知の台詞'), /Untranslated/)
+    assert.equal(restoreCommandTails('ld c,"test",%effect;日本語の注釈'), 'ld c,"test",%effect;日本語の注釈')
+})
+
+test("the reported speaker change has its own line in game and reader data", () => {
+    const scene = fs.readFileSync(path.join(EN_SCENES, "s020.txt"), "utf8")
+    assert.ok(scene.includes("hospital?”@\n`“You don’t remember."))
+    for (const file of ["scripts/script-016.json", "search-index.json"]) {
+        const data = JSON.parse(fs.readFileSync(path.join(ROOT, "public/static/mao-audit", file), "utf8"))
+        const row = (data.lines ?? data.entries).find(row => row.ref === "tsuki:mm-audit:03234")
+        assert.ok(row.maoEnglish.includes("hospital?”\n“You don’t remember."), file)
+    }
+})
 const JP_SCENES = path.join(ROOT, "public/static/jp/scenes")
 const EN_SCENES = path.join(ROOT, "public/static/en-mao/scenes")
 const LOGIC = path.join(ROOT, "public/static/logic.txt")
