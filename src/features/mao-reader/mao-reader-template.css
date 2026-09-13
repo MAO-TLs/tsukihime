@@ -718,8 +718,3 @@
 	.reader-page .line-ref { padding-inline: 7px; }
 	.reader-page .line-cell { padding: 19px 18px 22px; }
 }
-
-@media (max-width: 480px) {
-	.reader-page .wordmark { max-width: 72px; line-height: 1.15; }
-	.reader-page .nav-links { gap: 11px; font-size: 11px; }
-}

@@ -350,9 +350,15 @@
 	.mao-site-footer-inner { gap: 30px; }
 }
 
-@media (max-width: 480px) {
-	.mao-site-wordmark { max-width: 72px; line-height: 1.15; }
-	.mao-site-nav-links { gap: 11px; font-size: 11px; }
+@media (max-width: 640px) {
+	.mao-site-nav.nav { flex-wrap: wrap; gap: 4px 20px; padding-block: 16px; }
+	.mao-site-nav.nav .wordmark { max-width: none; white-space: nowrap; flex-shrink: 0; line-height: 1.5; }
+	.mao-site-nav.nav .nav-links { flex-wrap: wrap; gap: 4px 16px; font-size: 12px; }
+	.mao-site-nav.nav .nav-links a { white-space: nowrap; }
+}
+@media (max-width: 380px) {
+	.mao-site-nav.nav .wordmark { font-size: 10px; letter-spacing: .08em; }
+	.mao-site-nav.nav .nav-links { gap: 4px 12px; font-size: 11px; }
 }
 
 /* Shared title sizing across the four MAO releases. */
