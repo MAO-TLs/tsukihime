@@ -4,7 +4,7 @@ import '@tsukiweb/common/styles/main.scss'
 import '../styles/App.scss'
 import '@tsukiweb/common/graphics/styles/graphics.scss'
 import { lazy, Suspense, useCallback, useEffect, useRef, useState } from "react";
-import { Particles } from "@tsukiweb/common/ui-core";
+import Particles from "./Particles";
 import DisclaimerScreen from "app/screens/DisclaimerScreen";
 import { displayMode, screenForPathname, SCREEN } from "app/utils/display";
 import { appLocationString } from "app/utils/route-location";
@@ -17,7 +17,7 @@ import TsukihimeReleasePage from "features/mao-site/TsukihimeReleasePage";
 // readers never initialize the game runtime.
 const ConfigScreen = lazy(() => import("app/screens/ConfigScreen"))
 const EndingsScreen = lazy(() => import("app/screens/EndingsScreen"))
-const ExtraLayout = lazy(() => import("features/title-menu/components/ExtraLayout"))
+const ExtraShell = lazy(() => import("app/layouts/ExtraShell"))
 const FlowchartScreen = lazy(() => import("app/screens/FlowchartScreen"))
 const GalleryScreen = lazy(() => import("app/screens/GalleryScreen"))
 const LoadScreen = lazy(() => import("app/screens/LoadScreen"))
@@ -172,16 +172,16 @@ const AnimatedRoutes = () => {
 					</Route>
 
 					<Route path={SCREEN.GALLERY}>
-						<ExtraLayout><GalleryScreen /></ExtraLayout>
+						<ExtraShell><GalleryScreen /></ExtraShell>
 					</Route>
 					<Route path={SCREEN.ENDINGS}>
-						<ExtraLayout><EndingsScreen /></ExtraLayout>
+						<ExtraShell><EndingsScreen /></ExtraShell>
 					</Route>
 					<Route path={`${SCREEN.SCENES}/:sceneId`}>
-						<ExtraLayout><SceneReplayScreen /></ExtraLayout>
+						<ExtraShell><SceneReplayScreen /></ExtraShell>
 					</Route>
 					<Route path={SCREEN.SCENES}>
-						<ExtraLayout><FlowchartScreen /></ExtraLayout>
+						<ExtraShell><FlowchartScreen /></ExtraShell>
 					</Route>
 					<Route path={SCREEN.WINDOW}>
 						<Window />

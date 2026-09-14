@@ -5,11 +5,12 @@ import * as m from "motion/react-m"
 import { AnimatePresence, Variants } from 'motion/react'
 import { useStrings } from 'translation/lang'
 import { APP_INFO } from 'app/utils/constants'
-import { useNavBackRef, useQueryParam } from '@tsukiweb/common/hooks'
+import { useQueryParam } from '@tsukiweb/common/hooks'
 import GalleryTab from 'features/plus-disc/components/GalleryTab';
 import ScenesTab from 'features/plus-disc/components/ScenesTab';
 import { SCREEN } from 'app/utils/display';
 import { useScreenAutoNavigate } from 'app/hooks';
+import { Fragment } from 'react';
 
 const container: Variants = {
 	hidden: { opacity: 0 },
@@ -20,17 +21,13 @@ const container: Variants = {
 		}
 	}
 }
-function back() {
-	(document.querySelector('#extra-plus-disc') as HTMLElement)?.focus()
-}
-
 const PlusDiscScreen = () => {
 	useScreenAutoNavigate(SCREEN.PLUS_DISC)
 	const strings = useStrings()
 	const [selectedTab, setSelectedTab] = useQueryParam<"scenes" | "gallery">("tab", "scenes")
 
 	return (
-		<main className="page" id="plus-disc" ref={useNavBackRef(back)}>
+		<div id="plus-disc">
 			<div className="header">
 				<img
 					src={Cover}
@@ -38,15 +35,15 @@ const PlusDiscScreen = () => {
 					className="cover"
 				/>
 				<div className='desc'>
-					<a href={APP_INFO.PLUS_DISC_VNDB} target="_blank">
-						VNDB
-					</a>
 					<p>
-						{strings.plus_disc.desc.map((line, index) => (
-							<span key={index}>
+						{strings.plus_disc.desc.map((line, index) =>
+							<Fragment key={index}>
 								{line}<br />
-							</span>
-						))}
+							</Fragment>
+						)}
+						<a href={APP_INFO.PLUS_DISC_VNDB} target="_blank">
+							VNDB
+						</a>
 					</p>
 				</div>
 			</div>
@@ -80,7 +77,7 @@ const PlusDiscScreen = () => {
 					)}
 				</m.div>
 			</AnimatePresence>
-		</main>
+		</div>
 	)
 }
 

@@ -1,4 +1,5 @@
 import { GameAudioManager } from "@tsukiweb/common/audio/AudioManager"
+import { AssetsCache } from "@tsukiweb/common/utils/AssetsCache"
 import type { Settings as CommonSettings } from "@tsukiweb/common/utils/settings"
 import {
 	DirectMediaAudioNode,
@@ -37,7 +38,7 @@ export class DirectMediaGameAudioManager<
 		options: DirectMediaGameAudioManagerOptions = {},
 	) {
 		// The inherited nodes remain available for synthesized UI sounds only.
-		super(settings, idToUrl, false)
+		super(settings, new AssetsCache<{audio: AudioBuffer | undefined}>(), "audio", false)
 		this.directIdToUrl = idToUrl
 		this.visibilityTarget = options.visibilityTarget ?? document
 		this.directTrackNode = new DirectMediaAudioNode(options)
@@ -195,8 +196,7 @@ export class DirectMediaGameAudioManager<
 			return stopped
 	}
 
-	override clearBuffers(restartTrack = false) {
-		super.clearBuffers(false)
+	clearBuffers(restartTrack = false) {
 		if (restartTrack && this.directTrackId)
 			void this.playTrack(this.directTrackId, true)
 	}

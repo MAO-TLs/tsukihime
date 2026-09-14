@@ -1,9 +1,12 @@
+@use '@tsukiweb/common/ui-core/styles/_mixins.scss' as *;
+
 #extra {
+	@include page-container;
 	display: grid;
 	grid-template-columns: 210px 1fr;
 	grid-template-areas: "extra-menu extra-content";
 	padding: 0;
-	column-gap: .5em;
+	isolation: isolate;
 
 	.rightOrnament, .leftOrnament {
 		position: absolute;
@@ -25,15 +28,12 @@
 	}
 
 	.page-title {
-		padding-inline: 0;
-		font-size: 2.8em;
-		font-weight: 600;
+		margin-top: var(--page-padding);
 	}
 
 	.extra-menu {
 		grid-area: extra-menu;
 		display: flex;
-		padding: var(--page-padding);
 		padding-right: 0;
 		flex-direction: column;
 		position: relative;
@@ -58,22 +58,22 @@
 			flex: 1;
 			margin-top: 1.8em;
 			margin-bottom: 1em;
+			padding-left: calc(var(--page-padding) + env(safe-area-inset-left, 0));
 			display: flex;
 			flex-direction: column;
 
 			.menu-item {
-				text-align: start;
 				font-size: 1.5em;
 				font-weight: 500;
 				letter-spacing: 1px;
 				width: fit-content;
-				padding-block: .6em;
+				margin-block: .6em;
+				text-align: left;
 			}
 		}
-		.back-button {
-			margin-bottom: .5em;
+		.back-action {
 			padding: .5rem;
-			padding-left: 0;
+			padding-bottom: 1.5rem;
 		}
 	}
 
@@ -81,6 +81,7 @@
 		grid-area: extra-content;
 		min-width: 0;
 		min-height: 0;
+		display: grid;
 	}
 
 	@media screen and (orientation: portrait) and (max-width: 979px) {
@@ -107,8 +108,7 @@
 				width: 100%;
 				min-width: 0;
 				margin: 0;
-				padding-top: .5em;
-				padding-inline: 2rem;
+				padding-inline: var(--page-padding);
 				font-size: 0.8em;
 				gap: 1.8em;
 				mask-image: linear-gradient(to right, black 95%, transparent 100%);
@@ -126,22 +126,24 @@
 					white-space: nowrap;
 				}
 			}
-			.back-button {
-				padding-left: 2rem;
+			.back-action {
+				margin-left: 0;
+				padding-top: 0;
 			}
 		}
 	}
 
 	@media screen and (orientation: landscape) and (max-height: 600px) {
 		grid-template-columns: minmax(160px, min-content) 1fr;
-		column-gap: 0;
 		.extra-menu {
 			font-size: .8em;
 			overflow-y: auto;
-			padding-left: calc(var(--page-padding) + env(safe-area-inset-left, 0));
 
 			&::before {
 				left: calc(-1rem - env(safe-area-inset-left, 0));
+			}
+			.menus {
+				margin-top: 0;
 			}
 		}
 	}

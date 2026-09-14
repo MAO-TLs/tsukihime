@@ -62,6 +62,8 @@ test('raw comparator and unrelated language trees stay quarantined', () => {
 	for (const relativePath of [
 		'static/en-mm/game.json',
 		'static/en-mm/fullscript_en-mm.txt',
+		'static/en-mao/sources/tachi/osiete.png',
+		'static/jp/sources/fullscript_jp.txt',
 		'static/fr-fan/game.json',
 		'static/zh-yueji_yeren_hanhua_zu/lang.json',
 	]) {

@@ -1,4 +1,8 @@
 #flowchart {
+	height: 100%;
+	width: 100%;
+	min-height: 0;
+	display: flex;
 	mask-image: linear-gradient(90deg, transparent 0%, black calc(var(--page-padding) / 2));
 
 	.flowchart-container {
@@ -6,21 +10,48 @@
 	}
 }
 
+@media (pointer: coarse) {
+	.flowchart-container,
+	#flowchart-progress {
+		scrollbar-gutter: auto;
+		scrollbar-width: none;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+}
+
 .flowchart-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	min-height: 0;
+	container-type: inline-size;
 	isolation: isolate;
 	padding-top: 4em;
 	padding-bottom: max(160px, 10vh);
-	align-items: start;
+	align-items: flex-start;
 	overflow: auto;
+	overflow-anchor: none;
 	overscroll-behavior: contain;
 	touch-action: pan-x pan-y;
 	--active-connection: #0d96e0;
 	--inactive-connection: #888;
 
+	.panzoom-stage {
+		box-sizing: content-box;
+		flex: none;
+		height: max-content;
+		touch-action: pan-x pan-y;
+		width: max-content;
+	}
+
 	.flowchart {
+		display: block;
 		flex: none;
 		direction: ltr;
-		transform: translateZ(0);
 		contain: paint;
 		touch-action: pan-x pan-y;
 		vector-effect: non-scaling-stroke;
@@ -55,7 +86,7 @@
 		}
 		&.unlocked:not(.disabled) {
 			stroke: var(--active-connection);
-			outline: none;
+			outline-color: transparent;
 			cursor: pointer;
 
 			&.blur > image {

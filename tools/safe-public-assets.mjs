@@ -29,6 +29,8 @@ export function isExcludedPublicPath(relativePath) {
 	const parts = pathParts(relativePath)
 	if (parts.length === 0)
 		return false
+	if (parts[0] === 'static' && parts[2] === 'sources')
+		return true
 	if (parts[0] === 'res')
 		return true
 	if (parts[0] === 'static' && parts[1] === 'en-mm')

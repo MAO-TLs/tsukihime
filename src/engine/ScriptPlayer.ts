@@ -1,14 +1,15 @@
 import { ScriptPlayerBase } from "@tsukiweb/common/script/ScriptPlayer"
-import { CharId, LabelName, RouteDayName, RouteName } from "app/utils/types";
-import { creditsScript, fetchBlockLines, isScene, nextLabel } from "engine/utils";
-import { settings } from "engine/settings";
-import { phaseTexts } from "translation/assets";
-import { closeBB } from "@tsukiweb/common/utils/Bbcode";
-import { getGameVariable, setGameVariable } from "engine/variables";
-import { deepAssign, TSForceType } from "@tsukiweb/common/utils/utils";
-import { CommandRecord, NumVarName, VarName, VarType } from "@tsukiweb/common/script/types";
-import { History } from "./history";
-import { extractInstructions } from "@tsukiweb/common/script/utils";
+import { CharId, LabelName, RouteDayName, RouteName } from "app/utils/types"
+import { isScene } from "engine/utils"
+import { settings } from "engine/settings"
+import { assets, imageSrc, phaseTexts, originalMediaMode } from "translation/assets"
+import { closeBB } from "@tsukiweb/common/utils/Bbcode"
+import { getGameVariable, setGameVariable } from "engine/variables"
+import { deepAssign, TSForceType } from "@tsukiweb/common/utils/utils"
+import { CommandRecord, NumVarName, VarName, VarType } from "@tsukiweb/common/script/types"
+import { History } from "./history"
+import { extractInstructions } from "@tsukiweb/common/script/utils"
+import { creditsScript, fetchBlockLines } from "./script-loader"
 
 //#endregion ###################################################################
 //#region                             TYPES
@@ -169,13 +170,10 @@ export class ScriptPlayer extends ScriptPlayerBase<LabelName, CharId, PageBaseCo
 //##############################################################################
 
     override isLinePageBreak(line: string, index: number, sceneLines: string[],
-                    label: LabelName, playing: boolean): boolean {
-        if (super.isLinePageBreak(line, index, sceneLines, label, playing))
+                    label: LabelName): boolean {
+        if (super.isLinePageBreak(line, index, sceneLines, label))
             return true
         if (line.startsWith('phase')) {
-            if (playing) // count all phases as page while playing game
-                return true
-            // when counting pages outside of gameplay,
             // avoid counting 2 pages for conditional phases which have 2 'phase'
             if (!sceneLines[index+1].startsWith('skip'))
                 return true
@@ -187,10 +185,7 @@ export class ScriptPlayer extends ScriptPlayerBase<LabelName, CharId, PageBaseCo
         return { phase: this.phase, textBox: this.textBox }
     }
     
-    // Backport tsukiweb-common ce10019: Object.entries(Map) loses all points.
-    override blockContent() {
-        return { points: Object.fromEntries(this.points.entries()) }
-    }
+    override blockContent() { return {} }
 
     static override defaultPageContext() {
         return {
@@ -223,10 +218,19 @@ export class ScriptPlayer extends ScriptPlayerBase<LabelName, CharId, PageBaseCo
     }
     
     protected override nextLabel(label: LabelName): LabelName | null {
-        const result = nextLabel(label)
-        if (result == "endofplay")
-            return null
-        return result
+        if (/^s\d+a?$/.test(label))
+            return `skip${label.substring(1)}` as LabelName
+        if (label == "openning")
+            return "s20"
+        return null
+    }
+    protected override preloadAssets(list: Set<string>): void {
+        // The external media host rate-limits bursts. Load graphics when their
+        // commands execute and stream audio on demand, as in the previous build.
+        if (originalMediaMode === "direct-audio") return
+        for (const asset of list) {
+            assets.load(undefined, asset)
+        }
     }
 
 //#endregion

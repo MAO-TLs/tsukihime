@@ -2,7 +2,7 @@ import { GamepadEventGenerator, GamepadEvents } from "@tsukiweb/common/input/gam
 import {EventActions as EA, EventFilter} from "@tsukiweb/common/input/eventActions";
 
 // XBOX controller button mapping
-enum Gamepad {
+export enum Gamepad {
     A = 0,
     B = 1,
     X = 2,
@@ -22,16 +22,23 @@ enum Gamepad {
     Home = 16
 }
 
+export const inGameGestures = [
+    {layers: ['text'], direction: 'up', action: 'graphics'},
+    {layers: ['text'], direction: 'left', action: 'menu'},
+    {layers: ['text'], direction: 'down', action: 'history'},
+    {layers: ['graphics'], direction: 'up', action: 'bg_move', args: ['down']},
+    {layers: ['graphics'], direction: 'down', action: 'bg_move', args: ['up']},
+    {layers: ['menu'], direction: 'right', action: 'menu'},
+] as const
+
 //TODO: fast forward (RB)
 export const inGameControls: Record<string, EventFilter[]> = {
     "next":    [
         {type: 'keydown', key: "Enter"},
-        {type: 'keydown', key: "Control"    , repeat: true},
-        {type: 'keydown', key: "Meta"       , repeat: true},
         {type: 'keydown', key: "ArrowDown"  , repeat: false, ctrlKey: false},
+        {type: 'keydown', key: "Control"    , repeat: true},
         {type: GamepadEvents.BTN_PRESSED, buttonId: Gamepad.A},
-        {type: GamepadEvents.BTN_PRESSED, buttonId: Gamepad.DPadDown},
-        {type: GamepadEvents.BTN_PRESSED, buttonId: Gamepad.DPadRight}],
+        {type: GamepadEvents.BTN_PRESSED, buttonId: Gamepad.DPadDown}],
     "back":    [
         // nav "out" fallbacks to "back".
         // Duplicates bindings were removed from "back".

@@ -7,9 +7,8 @@ import { DivProps } from "@tsukiweb/common/types"
 import { Bbcode, BBTypeWriter } from "@tsukiweb/common/utils/Bbcode"
 import { preprocessText } from "@tsukiweb/common/utils/utils"
 import { useAutoScroll, useEventState, useMousePointer } from "@tsukiweb/common/hooks"
-import { EndLineIndicator, FfwIndicator } from "@tsukiweb/common/ui-core"
+import { AdvTextFrame, EndLineIndicator, FfwIndicator } from "@tsukiweb/common/ui-core"
 import { settings } from "engine/settings";
-import AdvTextFrame from "../shared/AdvTextFrame";
 import { reserveAlignedContinuation } from "features/game/utils/text-layout";
 
 type Glyph = "line"|"page"

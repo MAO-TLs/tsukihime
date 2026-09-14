@@ -1,15 +1,13 @@
 import { Router } from "wouter";
 import AnimatedRoutes from '../../app/components/AnimatedRoutes';
 import { getLocale } from "../../translation/lang";
-import { ErrorBoundary } from "react-error-boundary";
-import AppLayout from "app/components/AppLayout";
+import AppEffects from "app/components/AppEffects";
 import { Slide, ToastContainer } from "react-toastify";
 import { CommonProvider } from "@tsukiweb/common/context";
 import { imageSrc } from "translation/assets";
 import { useObserved, useObserver } from "@tsukiweb/common/utils/Observer";
 import { settings } from "engine/settings";
 import cg from "features/gallery/utils/gallery";
-import PageCrash from "app/screens/CrashScreen";
 
 const ROUTER_BASE = import.meta.env.BASE_URL.replace(/\/$/, "") || "/"
 
@@ -24,7 +22,7 @@ const LocaleSetter = () => {
 function App() {
 	useObserved(settings, 'eroBlur')
 	return (
-		<ErrorBoundary FallbackComponent={PageCrash}>
+		<>
 			<LocaleSetter />
 			
 			<CommonProvider config={{
@@ -34,9 +32,9 @@ function App() {
 				}
 			}}>
 				<Router base={ROUTER_BASE}>
-					<AppLayout>
+					<AppEffects>
 						<AnimatedRoutes />
-					</AppLayout>
+					</AppEffects>
 
 					<ToastContainer
 						transition={Slide}
@@ -48,7 +46,7 @@ function App() {
 						theme="dark" />
 				</Router>
 			</CommonProvider>
-		</ErrorBoundary>
+		</>
 	)
 }
 

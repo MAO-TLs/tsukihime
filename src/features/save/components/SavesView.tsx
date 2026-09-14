@@ -1,21 +1,18 @@
-import { ChangeEvent, MouseEvent, useCallback, useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import SaveListItem from "./SaveListItem"
 import SaveDetails from "./SaveDetails"
-import { MdAddCircleOutline, MdUploadFile, MdWarning } from "react-icons/md"
+import { MdAddCircleOutline, MdWarning } from "react-icons/md"
 import { dialog } from "@tsukiweb/common/ui-core/components/ModalPrompt"
 import classNames from "classnames"
 import { useVirtualizer } from "@tanstack/react-virtual"
-import { toast } from "react-toastify"
 import { history } from "engine/history"
-import { requestFilesFromUser } from "@tsukiweb/common/utils/utils"
 import { computeSaveHash, exportGameData, settings } from "engine/settings"
 import { useObserver } from "@tsukiweb/common/utils/Observer"
-import { Button, TitleMenuButton, PageSection, PageTitle } from "@tsukiweb/common/ui-core"
-import { audio } from "engine/audio"
+import { Button, PageLayout, PageSection } from "@tsukiweb/common/ui-core"
 import { QUICK_SAVE_ID, SaveState, compareSaveStates, savesManager } from "engine/savestates";
 import { useStrings } from "translation/lang";
-import { SAVE_EXT } from "app/utils/constants";
 import { SCREEN, displayMode } from "app/utils/display";
+import PageBackButton from "app/components/PageBackButton";
 
 
 const SAVE_ACTION_ID = 1
@@ -24,11 +21,11 @@ type Props = {
 	variant: "save"|"load",
 	onBack: (saveLoaded: boolean)=>void,
 }
-const SavesLayout = ({variant, onBack}: Props) => {
+const SavesView = ({variant, onBack}: Props) => {
 	const strings = useStrings()
 	const [saves, setSaves] = useState<Array<SaveState>>([])
 	const [focusedId, setFocusedSave] = useState<number>()
-	const parentRef = useRef<HTMLDivElement>(null)
+	const parentRef = useRef<HTMLElement>(null)
 	const focusedIdRef = useRef(focusedId)
 
 	useEffect(() => { focusedIdRef.current = focusedId }, [focusedId])
@@ -49,21 +46,6 @@ const SavesLayout = ({variant, onBack}: Props) => {
 		const ss = history.createSaveState()
 		if (name) ss.name = name
 		savesManager.add(ss)
-	}
-
-	async function importSaves(event: ChangeEvent|MouseEvent) {
-		let files = (event.target as HTMLInputElement)?.files
-			?? await requestFilesFromUser({multiple: true, accept: `.${SAVE_EXT}`})
-		
-		if (!files) return
-		if (files instanceof File) files = [files]
-
-		try {
-			await savesManager.importSaveFiles(files)
-			toast.success(strings.game["toast-load"])
-		} catch(error) {
-			toast.error(strings.game["toast-load-fail"])
-		}
 	}
 
 	async function onSaveSelect(id: number) {
@@ -119,10 +101,27 @@ const SavesLayout = ({variant, onBack}: Props) => {
 	})
 
 	return (
-		<main id="saves-layout">
-			<PageTitle>{title}</PageTitle>
+		<PageLayout
+			id="saves-layout"
+			variant="master-detail"
+			title={title}
+			onBack={() => onBack(false)}
+			secondary={
+				<SaveDetails
+					id={focusedId}
+					saveState={focusedSave}
+					deleteSave={handleDeleteSave}
+				/>
+			}
+			actions={
+				<>
+					<PageBackButton onClick={() => onBack(false)} />
+					<ExportWarning />
+				</>
+			}
+		>
 			<PageSection className="saves" ref={parentRef}>
-				{variant === "save" ?
+				{variant === "save" &&
 					<Button
 						onClick={createSave.bind(null, undefined)}
 						className={classNames("create", {active: focusedId === SAVE_ACTION_ID})}
@@ -130,15 +129,6 @@ const SavesLayout = ({variant, onBack}: Props) => {
 						nav-auto={1}
 					>
 						<MdAddCircleOutline aria-hidden /> {strings.saves.create}
-					</Button>
-				:
-					<Button
-						onClick={importSaves}
-						className={classNames("import", {active: focusedId === SAVE_ACTION_ID})}
-						{...focusHandlers(SAVE_ACTION_ID)}
-						nav-auto={1}
-					>
-						<MdUploadFile aria-hidden /> {strings.saves.import}
 					</Button>
 				}
 
@@ -150,36 +140,18 @@ const SavesLayout = ({variant, onBack}: Props) => {
 					saves={saves}
 				/>
 			</PageSection>
-
-			<SaveDetails
-				id={focusedId}
-				saveState={focusedSave}
-				deleteSave={handleDeleteSave}
-			/>
-			
-			<div className="save-buttons">
-				<TitleMenuButton
-					audio={audio}
-					onClick={onBack.bind(null, false)}
-					className="back-button"
-					nav-auto={1}>
-					{`<<`} {strings.back}
-				</TitleMenuButton>
-				
-				<ExportWarning />
-			</div>
-		</main>
+		</PageLayout>
 	)
 }
 
-export default SavesLayout
+export default SavesView
 
 
 type SavesListProps = {
 	onSaveSelect: (id: number)=>void,
 	focusedId?: number,
 	setFocusedSave: (id: number)=>void,
-	parentRef: React.RefObject<HTMLDivElement | null>,
+	parentRef: React.RefObject<HTMLElement | null>,
 	saves: Array<SaveState>,
 }
 const SavesList = ({onSaveSelect, focusedId, setFocusedSave, parentRef, saves}: SavesListProps) => {

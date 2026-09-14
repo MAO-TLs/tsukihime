@@ -95,7 +95,7 @@
       "The default font is served with the project.",
       "To select a different font, input its name. It will be loaded from %0 if available, else from your device."
     ],
-    "flowchart-badges": "Display badges in the flowchart",
+    "display-badges": "Display affection points and flags",
     "data": "Data storage",
     "data-export": "Export",
     "data-import": "Import",
@@ -104,18 +104,22 @@
     "data-erase-confirm": "All clean. Close tab.",
     "controls": {
       "next": "Next",
-      "history": "Show/hide History",
-      "flowchart": "Show/hide Flowchart",
-      "back": "Close current view / Display menu",
+      "graphics": "Show / hide text",
+      "back": "Back, Show / Hide menu",
       "bg_move": "Move background image",
       "auto_play": "Auto-play",
       "page_nav": "Navigate to next / previous page",
+      "history": "Open History",
+      "flowchart": "Open Flowchart",
       "load": "Open load panel",
       "save": "Open save panel",
       "q_save": "Quick-save",
       "q_load": "Quick-load",
       "config": "Open config panel",
-      "_hold": "[i](Hold)"
+      "_hold": "hold",
+      "_layer-text": "when text is displayed",
+      "_layer-graphics": "in graphics mode",
+      "_layer-menu": "when menu is opened"
     }
   },
   "endings": {
@@ -128,7 +132,8 @@
     "title-load": "Load",
     "title-save": "Save",
     "create": "New save",
-    "import": "Import save",
+    "empty": "No save data found.",
+    "import": "Import a save file?",
     "export": "Export",
     "delete": "Delete",
     "delete-warning": "Confirm deletion?",
@@ -139,16 +144,14 @@
   },
   "game": {
     "skip-viewed": "You have already seen this scene.",
-    "skip-hscene": "This scene contains adult content.",
     "skip-hcontent": "This passage contains adult content.",
     "skip-prompt": "Do you want to skip it?",
     "toast-qsave": "Progress has been saved",
     "toast-qload": "Progress restored",
-    "toast-load": "Progress restored",
-    "toast-save-fail": "Could not save progress",
-    "toast-load-fail": "Could not restore progress",
-    "toast-autoplay-stop": "Auto-play stopped",
-    "toast-ffw-stop": "Fast-Forward stopped"
+    "toast-load-success": "Your data has been loaded",
+    "toast-load-fail": "Failed to load data",
+    "toast-save-fail": "Failed to save data",
+    "toast-autoplay-stop": "Auto-play stopped"
   },
   "menu": {
     "graphics": "Graphics",
@@ -195,8 +198,8 @@
 
   "images": {
     "words": {
-      "fin": "#ffffff$c`[center][noline][color=black][font=serif]Fin`",
       "end": "#ffffff$b`[right][noline][color=black][font=serif]END`",
+      "fin": "#ffffff$c`[center][noline][color=black][font=serif]Fin`",
       "pd_fin": "#000000$b`[right][noline][font=serif]Fin`",
       "pd_genshi": "#000000$b`[right][noline][font=serif][u]Short Story/Alliance of Illusionary Eyes`",
       "pd_tea": "#000000$t`[left][noline][noline][font=serif][u]Moon Tea`",

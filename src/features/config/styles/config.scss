@@ -1,26 +1,12 @@
 @use '@tsukiweb/common/styles/partials/_components.scss';
+@use '@tsukiweb/common/ui-core/styles/_mixins.scss' as *;
 
 #config-layout {
-	.back-button {
-		margin: .5rem;
-		padding: .5rem;
-		padding-bottom: calc(.5rem + var(--safe-area-max-inset-bottom));
-	}
-
-	@media screen and (orientation: landscape) and (max-height: 680px) {
-		--page-padding: 0;
-		.page-title {
-			padding: .8rem;
-			padding-bottom: 0;
-		}
+	@include mobile-landscape {
 		.page-section {
 			border: 0;
 			padding-inline: 1rem;
 		}
-	}
-
-	.tabs {
-		padding-inline: var(--page-padding);
 	}
 	
 	.sub {
@@ -180,17 +166,51 @@
 
 	.key-map {
 		.config-actions {
-			margin-top: .3em;
 			display: flex;
-			flex-direction: column;
-			gap: 4px;
+			flex-wrap: wrap;
+			column-gap: 8px;
+			row-gap: 6px;
+			align-self: center;
+			align-items: center;
 		}
-		.key-item {
-			color: var(--color-link);
-			font-weight: 600;
-			.info {
-				color: var(--text-muted);
+		.shortcut {
+			display: flex;
+			align-items: center;
+			gap: 6px;
+			background: rgb(0 0 0 / 50%);
+			border-radius: 3px;
+		}
+		.keyboard .key {
+			border: 2px solid rgb(83 93 130);
+			gap: 6px;
+		}
+		.gamepad {
+			border-radius: 2em;
+			.key {
+				gap: 6px;
 			}
+		}
+		.key {
+			padding: 6px 12px;
+			font-size: .95em;
+			height: 36px;
+			min-width: 36px;
+			letter-spacing: .5px;
+			border-radius: inherit;
+			text-transform: uppercase;
+			white-space: nowrap;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			svg {
+				font-size: 1.4em;
+			}
+		}
+		.info {
+			color: var(--text-muted);
+			text-transform: none;
+			font-size: .9em;
+			padding-right: 8px;
 		}
 	}
 
@@ -221,7 +241,7 @@
 			}
 
 			&:focus {
-				outline: none;
+				outline-color: transparent;
 				border-color: var(--color-link);
 				box-shadow: 0 0 0 2px rgba(0, 165, 255, 0.2);
 			}
@@ -250,7 +270,7 @@
 		}
 	}
 
-	@media screen and (orientation: landscape) and (max-height: 680px) {
+	@include mobile-landscape {
 		.tabs {
 			flex-direction: column;
 

@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { useEffect, useRef } from "react"
 import { ScriptPlayer } from "engine/ScriptPlayer"
 import { history } from 'engine/history';
 import { audio, commands } from "engine/audio";
@@ -24,8 +24,10 @@ type ReplayNavigationState = {
 
 export const useScriptManager = ({script, history, layers, actionsHandler}: ScriptManager) => {
 	useAutoPlayWakeLock(script)
+	const activeScript = useRef<ScriptPlayer | null>(null)
 
 	useEffect(()=> {
+		activeScript.current = script
 		if (history.empty) displayMode.screen = SCREEN.TITLE
 
 		actionsHandler.onScriptChange(script)
@@ -61,7 +63,13 @@ export const useScriptManager = ({script, history, layers, actionsHandler}: Scri
 		return () => {
 			script.removeEventListener('afterBlock', handleReplayEnd)
 			script.removeEventListener('autoPlayStop', onAutoPlayStop)
-			script.stop()
+			activeScript.current = null
+			script.pause()
+			// StrictMode replays effect setup immediately. Stop is irreversible,
+			// so only dispose after confirming this player was actually detached.
+			queueMicrotask(() => {
+				if (activeScript.current !== script) script.stop()
+			})
 			actionsHandler.onScriptChange(null)
 			audio.stopWave()
 			syncAudioForScreen(audio, settings.titleMusic, displayMode.screen)
