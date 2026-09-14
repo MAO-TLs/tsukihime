@@ -96,7 +96,6 @@ export default function HighlightedText({
 					key={`interactive-${highlight.id}-${start}`}
 					aria-describedby={tooltipId}
 					aria-expanded={Boolean(highlight.active)}
-					title={`${highlight.label}: ${highlight.description}`}
 					onClick={() => onToggleHighlight?.(highlight.id)}
 				>
 					{stripInlineWaitCommands(text.slice(start, end))}

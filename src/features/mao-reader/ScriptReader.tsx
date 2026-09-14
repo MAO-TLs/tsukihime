@@ -235,22 +235,34 @@ function GlobalResult({
 	script,
 	sectionLabel,
 	showMirrorMoon,
+	showErrors,
+	repository,
+	activeErrorKey,
+	onToggleError,
+	dossiersByFinding,
 	onOpen,
 }: {
 	entry: MaoSearchEntry
 	script?: MaoScriptSummary
 	sectionLabel?: string
 	showMirrorMoon: boolean
+	showErrors: boolean
+	repository: MaoAuditRepository
+	activeErrorKey?: string
+	onToggleError: (key: string) => void
+	dossiersByFinding: Map<string, Array<{id: string; label: string}>>
 	onOpen: (entry: MaoSearchEntry) => void
 }) {
+	const resource = useAsyncResource(signal => repository.loadScript(entry.scriptId, signal), [repository, entry.scriptId], showMirrorMoon && showErrors)
+	const line = resource.status === "ready" ? resource.data.lines.find(line => line.ref === entry.ref) : undefined
 	return (
-		<article className={`concordance-hit${showMirrorMoon ? " concordance-hit-comparison" : ""}`}>
+		<article className={`concordance-hit${showMirrorMoon ? " concordance-hit-comparison" : ""}${showMirrorMoon && showErrors && line?.mirrorMoonErrors.length ? " concordance-hit-error" : ""}`}>
 			<header className="concordance-hit-link">
 				<span>{sectionLabel ?? entry.sectionId} · {script?.title ?? (entry.scriptLabel || entry.scriptId)}</span>
 				<code>{entry.ref}</code>
 				<button type="button" onClick={() => onOpen(entry)}><strong>Open in script →</strong></button>
 			</header>
-			<div className="concordance-hit-grid">
+			{showMirrorMoon && showErrors && line ? <ScriptLine line={line} showMirrorMoon showErrors isTarget={false} activeErrorKey={activeErrorKey} dossiersByFinding={dossiersByFinding} onTarget={() => onOpen(entry)} onToggleError={onToggleError} /> : <div className="concordance-hit-grid">
 				<section className="line-cell line-ja" lang="ja">
 					{showMirrorMoon && <div className="line-cell-heading"><span className="edition-label">Japanese</span></div>}
 					<p>{stripInlineWaitCommands(entry.japanese)}</p>
@@ -265,7 +277,8 @@ function GlobalResult({
 						<p>{entry.mirrorMoon ? stripInlineWaitCommands(entry.mirrorMoon) : <span className="comparison-missing">Not aligned</span>}</p>
 					</section>
 				)}
-			</div>
+			</div>}
+			{resource.status === "error" && <ReaderError error={resource.error} />}
 		</article>
 	)
 }
@@ -568,6 +581,11 @@ export default function ScriptReader({
 									script={manifest.scripts.find(script => script.id === entry.scriptId)}
 									sectionLabel={manifest.sections.find(section => section.id === entry.sectionId)?.label}
 									showMirrorMoon={showMirrorMoon}
+									showErrors={showErrors}
+									repository={repository}
+									activeErrorKey={activeErrorKey}
+									dossiersByFinding={dossiersByFinding}
+									onToggleError={key => setActiveErrorKey(current => current === key ? undefined : key)}
 									onOpen={item => { setScope("script"); selectScript(item.scriptId, item.ref) }}
 								/>
 							))}</div>
