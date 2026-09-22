@@ -13,6 +13,25 @@ import {parseScript} from "../tsukiweb-common/tools/convert-scripts/parsers/nscr
 
 const ROOT = new URL("..", import.meta.url).pathname
 
+test("MAO scene text contains only supported BBCode tags", () => {
+	const renderer = fs.readFileSync(path.join(ROOT, "tsukiweb-common/src/utils/Bbcode.tsx"), "utf8")
+	const dictionary = renderer.split("const defaultBBcodeDict:")[1].split("//#endregion")[0]
+	const supported = new Set([...dictionary.matchAll(/'([^']*)'\s*:/g)].map(match => match[1]))
+	assert.ok(supported.has("line") && supported.has("ruby"))
+	for (const file of fs.readdirSync(path.join(ROOT, "public/static/en-mao/scenes"))) {
+		if (!file.endsWith(".txt")) continue
+		const text = fs.readFileSync(path.join(ROOT, "public/static/en-mao/scenes", file), "utf8")
+		for (const line of text.split("\n").filter(line => line.startsWith("`"))) {
+			for (const match of line.matchAll(/\[(\/?\w*)(?:=([^\/\]]|\/(?!\]))+)?\/?\]/g)) {
+				assert.ok(supported.has(match[1].replace(/^\//, "")), `${file}: unsupported tag ${match[0]}`)
+			}
+		}
+	}
+	// Literal editorial brackets must not be parsed as a REDACTED formatting tag.
+	const lesson = fs.readFileSync(path.join(ROOT, "public/static/en-mao/scenes/s516.txt"), "utf8")
+	assert.ok(lesson.includes("［REDACTED］[line=4]"))
+})
+
 test("English scenes contain no untranslated Japanese", () => {
     const leaks = []
     for (const name of sceneNames(EN_SCENES)) {
