@@ -4,119 +4,110 @@ bg "bg/bg_29b",notrans,0
 play "*3"
 `“Huh?”@
 `What does she mean, last night?@
-`I can’t make sense of anything Arcueid says.@
-`Then again, I’m the dimwit who keeps misunderstanding her and chasing every wrong idea that enters my head.@
-`Someone like me could hardly understand a thing Arcueid says[line=3]wait, what?@
+`I cannot follow Arcueid at all.@ Then again, I was fool enough to misunderstand everything she said and spend the night chasing the wrong idea.@ Why would I understand her now[line=3]wait.@
 br
 `Did Arcueid just ask who appeared last night[line=3]?
 \
-`“Arcueid.@ What do you mean by ‘last night’?”@
+`“…@Arcueid.@ What do you mean by last night?”@
 ld c,"tachi/ark_t11",crossfade,400
-`“That is strange.@ I know I sent a dream demon to you.”@
-`“Wait.@ A dream what?”@
+`“Huh?@ That’s odd.@ I sent you a dream demon.”@
+`“Wait.@ What is a dream demon?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Basically, it is a familiar that shows its target the dreams they desire; since you are a man, Shiki, I sent you a succubus.@ You had a nice dream, right?”@
+`“Um, basically it’s a familiar that shows you the dreams you want.@ You’re a man, Shiki, so I sent you a succubus.@ You had a good dream, didn’t you?”@
 cl c,crossfade,400
 `“Oh[line=5]”@
 br
-`That was supposed to be a nice dream?@
+`A good dream, she says, but that was[line=3]
 bg #ffffff,crossfade,400
 monocro #ffff00
 bg "event/ark_h02",crossfade,400
 monocro off
 bg "bg/bg_29b",crossfade,400
-`The memory of a dream so vivid it felt real rushes back, and heat floods my face.
+`The dream comes back to me, vivid enough to pass for reality.@ My face grows hot.
 \
-`“Th-that was your doing[line=3]!”@
-`Arcueid breaks into a wicked grin.@
-`[line=3]Damn it.@
-`If I had kept quiet, the subject would have died on its own; instead, I went and admitted it myself[line=3]
+`“Th-that was your doing[line=3]!?”@
+`Arcueid grins.@
+`[line=3]Damn it.@ If I had kept quiet, we might have moved on.@ Instead I admitted it myself.
 \
 ld c,"tachi/ark_t08",crossfade,400
-`“Oh, so it did reach you.@ Tell me, who was in it?@ Your little sister?”@
-`“A-Akiha?!@ Of course it was not Akiha!@ What kind of lunatic do you think I am; I am not sick enough to go after my own sister!”@
-`“Hmm.@ If it was not your sister, was it one of the maids at the estate?”@
+`“Oh, so she did get to you.@ Tell me—who was in the dream?@ Your sister?”@
+`“A-Akiha!?@ Of course not!@ What do you take me for?@ I’m not deranged enough to go after my own sister!”@
+`“Hmm.@ Then one of the maids at the mansion?”@
 cl c,notrans,0
-`Arcueid peers up at me from below, looking thoroughly amused.
+`Arcueid looks up at me, clearly enjoying herself.
 \
-`“Urgh[line=4]”@
-`That look resembles the Arcueid from my dream.@
+`“Ugh[line=4]”@
+`That look is just like the Arcueid in my dream.@
 br
-`“N-none of your business.@ Just drop it.”@
-`I turn away and try to shut her down.@
-`She only follows, pestering me with an endless chorus of “Come on.”
+`“N-none of your business.@ Leave me alone.”@
+`I avert my eyes and brush Arcueid off.@ Even so, she keeps pestering me with a persistent “Hey, hey.”
 \
 ld c,"tachi/ark_t08",crossfade,400
-`“Tell me, Shiki.@ You can at least tell me who you were with in that nice dream.”@
-`She questions me with the naked curiosity of a child.@
-`Every time I look away, she darts around into my line of sight and starts pleading again.@
+`“Tell me, Shiki.@ You can at least tell me who you shared that good dream with.”@
+`She asks with a child’s curiosity, darting back into my line of sight whenever I try to look away.@
 br
-`This is torture.@
+`…@This is torture.@
 `It is yesterday all over again.
 \
-`I slap a palm over my face.@
+`I cover my face with my palm.@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Come on, Shiki; do not just stand there—tell me.”@
-`She gazes up at me through her lashes.@
+`“Shiki, don’t just stand there.@ Tell me.”@
+`She peers up at me.@
 br
-`[line=3]I cannot do this, God.@
-`I have reached my limit.@
+`[line=3]God, please.@ I can’t take any more.@
 br
-`“You.”@
+`“…@You.”@
 `The word comes out soft and hesitant.
 \
-`“[line=3]Me?@ What about me?”@
-`“Don’t make me say it twice!@ You were the one in the dream!”@
+`“[line=3]Huh?@ What about me?”@
+`“Don’t make me say it twice.@ I said you were the one in the dream!”@
 `I shout without looking at her.@
-`Arcueid stares blankly.@
+`Arcueid stares back, baffled.@
 play "*1"
 ld c,"tachi/ark_t12",crossfade,400
-`“Me, as in me?”@
-`“Yes.@ For some absurd reason, you appeared, and then[line=4]”@
+`“Me?@ You mean…@ me?”@
+`“Yeah.@ God knows why, but you showed up, and then[line=4]”@
 `I can’t bring myself to say the rest.
 \
 ld c,"tachi/ark_t10",crossfade,400
 `“Ah[line=4]”@
-`At last, Arcueid looks away too, every bit as awkward as I feel.@
+`At last, looking just as awkward, Arcueid averts her eyes.@
 cl c,crossfade,400
 br
-`“…”@
-`“…”@
-`Neither of us knows what to say.@
-`A hideously uncomfortable silence stretches between us.
+`“……………”@
+`“……………”@
+`Neither of us knows what to say.@ The silence that follows is unbearably awkward.
 \
 `…@
 `……@
 `………@
 `…………@
-`………………@ Ahem
-`Unable to bear it any longer, I force out a theatrical cough.@
+`……………@Ahem.@
+`I can’t bear the silence any longer, so I force a cough.@
 br
-`“…@Anyway, dream demon or whatever—why the hell did you do that?@ Are you still holding a grudge because I killed you?”
+`“…@Anyway, whatever a dream demon is, why did you send one to me?@ Are you still angry because I killed you?”
 \
 ld c,"tachi/ark_t16",crossfade,400
-`“Of course not.@ I sent it as a reward for defeating Nrvnqsr.@ I am grateful to you, Shiki, and I wanted to give you something you would enjoy.”@
-`“A reward[line=3]?@ I can do without that kind of reward; what goes through the minds of vampires, pulling a tasteless stunt like this?”@
-`I shrug in exasperation.@
-`For some reason, that only makes Arcueid glare at me more fiercely.@
+`“Of course not.@ It was a thank-you for helping me defeat Nrvnqsr.@ I’m grateful to you, Shiki.@ I thought you’d like it.”@
+`“A thank-you[line=3]?@ I’d rather do without that kind.@ What were you thinking, pulling a stunt like that?@ Are all vampires this tasteless?”@
+`I shrug.@ Arcueid only glares at me harder.@
 ld c,"tachi/ark_t06",crossfade,400
-`“You are so mean, Shiki.@ Fine, I am not human anyway—so there.”@
+`“You’re mean, Shiki.@ Fine.@ I’m not human anyway, so there.”@
 cl c,lshutter,400
-`She turns away in a huff and marches off.
+`She turns away with a huff and strides off.
 \
 playstop
 `“Hey, wait.@ Where are you going?”@
-`“None of your business, Shiki.@ Don’t follow me.”@
-`Apparently truly furious, Arcueid walks on without even looking back.
+`“That’s none of your business.@ Don’t follow me.”@
+`Arcueid walks on without looking back.@ She really is angry.
 \
-`“…”@
+`“…………”@
 `Where is she going?@
-`“…”@
-`Maybe I went too far.@
-`Whatever the result and however bizarre the method, Arcueid had meant it as a kind gesture, and belated guilt begins to gnaw at me for not appreciating the thought behind it.
+`“…………”@
+`Maybe I went too far.@ Whatever I thought of the result, she meant the gift kindly.@ Now I feel guilty for rejecting the feeling behind it.
 \
 `“[line=5]”@
-`Damn it, why is Arcueid so impossible to leave alone?@
+`Damn it.@ Why can’t I leave Arcueid alone?@
 br
 `“Oh, come on[line=3]I said wait!”
 \

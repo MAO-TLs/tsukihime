@@ -67,16 +67,16 @@ br
 `The bandaged man seems to grin.@
 wavestop
 play "*4"
-`“How sad, Shiki.@ You do not even remember the man you killed?”@
+`“That’s cold, Shiki.@ You don’t even remember the man you killed?”@
 `He takes one audible step toward me.@
 `“[line=4]!”@
-`I retreat, gathering Akiha against me with one arm.
+`I draw back, holding Akiha against me with one arm.
 \
-`“Do you not understand, Shiki?@ I am the man you killed.”@
+`“Still don’t get it, Shiki?@ I’m the man you killed.”@
 `“What are you[line=4]”@
-`The mere sound of his voice grates on my nerves.@
-`I hate him.@ All the hatred I have felt since entering the estate seems to condense and pour itself into this one man.@
-`This hatred.@ Is the instinct that tells me to eliminate him what they call a murderous impulse?
+`The sound of his voice alone sets my teeth on edge.@
+`I hate him.@ The hatred that began when I entered the estate seems to gather and pour into this one man.@
+`This hatred[line=3]this instinct to erase him.@ Is this what it means to want to kill?
 \
 `My heart hammers.@
 `Somewhere beyond my awareness, my body is screaming.@
@@ -87,32 +87,30 @@ br
 br
 `Still holding Akiha with one arm, I raise the knife in the other.
 \
-`A stifled laugh.@
-`The man laughs with wholehearted delight, keeping his voice low.@
-`“Do not bother.@ I am you.@ No one can kill himself.”@
+`The man stifles a laugh, but he sounds delighted.@
+`“Don’t bother.@ I’m you.@ Nobody can kill himself.”@
 `“What[line=3]did you say…?”@
-`“I am taking Akiha back.@ She was mine to begin with.”@
-`Another step.@
-`The man comes closer.
+`“I’m taking Akiha back.@ She was mine to begin with.”@
+`He takes another step toward me.
 \
 `“Stop[line=3]!”@
-`“I will not.@ I came to reclaim everything you stole from me: my name, my place, my power.@ All of it once belonged to me.”@
-`He slowly spreads his arms and makes the declaration with pride.
+`“Like hell I will.@ I came to take back what you stole: my name, my place, my power.@ It was all mine.”@
+`He spreads his arms slowly, making the declaration with pride.
 \
-`“What are you saying?@ What[line=3]what are you?”@
-`“You still do not know?@ Honestly, you are truly heartless.@ Eight years ago.@ You and I were such good friends.”@
+`“What are you talking about?@ What[line=3]what are you?”@
+`“You still don’t know?@ You really are a cold bastard.@ Eight years ago, you and I were best friends.”@
 `“What[line=3]”@
 br
 `Eight years ago?@
 `We were such good friends[line=3]?
 \
-`“Well, I suppose it is no surprise that you do not remember.@ Knowing that old man, he must have been thorough with the suggestion that made you forget everything.”@
+`“I suppose I can’t blame you for forgetting.@ Knowing that old man, he made damn sure his suggestion would wipe everything away.”@
 bg #ffffff,notrans,0
 wait 100
 bg "bg/cmo_05",notrans,0
 wait 100
 bg "bg/bg_36d",notrans,0
-`“And you[line=3]you must have wanted to forget those hateful memories yourself, Shiki.”@
+`“And you wanted to forget it yourself, didn’t you, Shiki?@ Those rotten memories.”@
 br
 `The man laughs.@
 `My vision sways.@
@@ -122,22 +120,22 @@ br
 `That was when the three of us played together at the Tohno estate for the last time.@
 `That was[line=4]when a blood-soaked boy lay in the courtyard[line=4]
 \
-`“But that ends now.@ It has been painful, has it not, Shiki?@ Wait there; I will put you out of your misery soon.”@
+`“But that’s over.@ It’s been painful, hasn’t it, Shiki?@ Wait there.@ I’ll put you out of your misery.”@
 `The man slowly unwinds the bandages from his face.@
 `The face beneath them is[line=5]
 br
 `“You…”@
 ld c,"tachi/hal_t01",crossfade,800
-`“It has been a long time, Shiki Tohno.@ No, that was never your real name, was it?”@
-`The face emerging from beneath the bandages.@
-`It is not[line=4]the blood-soaked boy from that day.
+`“Long time no see, Shiki Tohno.@ Though that was never your real name, was it?”@
+`The face emerging from beneath the bandages[line=3]
+`It is not the blood-soaked boy from that day.
 \
 `“Tohno[line=3]SHIKI.”@
 `Of course.@ How could I have forgotten?@
 `The boy who used to be with Akiha.@ The third child had certainly borne that name.
 \
-`“Yes.@ It has been a very long time, Shiki Nanaya.@ At last[line=3]it seems you remember that you are the impostor.”@
-`The man[line=3]SHIKI pulls his lips into a smile of unalloyed delight.
+`“Yeah.@ It’s been a long time, Shiki Nanaya.@ Looks like you finally remember you’re the fake.”@
+`The man[line=3]SHIKI[line=3]pulls his lips into a smile of wholehearted delight.
 \
 wave se_01
 bg #9c0120,notrans,0
@@ -221,42 +219,41 @@ br
 `I drop Akiha onto the floor despite having just lifted her, panting helplessly as I clutch the knife against myself.
 \
 ld c,"tachi/hal_t03",crossfade,400
-`“[line=3]In shock?@ Of course you are.@ After all these years believing yourself to be Shiki Tohno, discovering you are an impostor must be quite a blow!”@
+`“[line=3]In shock?@ Of course you are.@ You spent all these years thinking you were Shiki Tohno.@ Finding out you’re a fake must hit hard…!”@
 `SHIKI laughs.@
 ld c,"tachi/hal_t02",crossfade,400
-`“But that is nothing compared to what I have endured.@
-`Listen, Shiki.@ You killed me, the man who thought you his best friend; you stole even the name Shiki Tohno, and then Akiha[line=3]even my Akiha was taken from me…!@ Do you understand that humiliation?”@
-`“Killed[line=3]?@ I killed you[line=3]”
+`“But that’s nothing next to what I went through.@
+`I thought you were my best friend, Shiki.@ You killed me, took even my name, and stole Akiha[line=3]my Akiha[line=3]from me!@ Do you have any idea what that feels like?”@
+`“Killed[line=3]?@ I killed you[line=3]?”
 \
 ld c,"tachi/hal_t01",crossfade,400
-`“Yes.@ Granted, I killed you first, but in the end you killed me.@
-`Do you still not remember, Shiki?@ That day eight years ago, my own blood overcame me and I killed you.@ Look at the scar on your chest.@ I drove this arm straight through you, did I not?”@
-`“The scar on my chest[line=4]”@
-`That was from an accident.@
-`That was what I had always been told[line=5].
+`“Yeah.@ I killed you first, I’ll grant you that.@ But you killed me in the end.@
+`Still can’t remember?@ Eight years ago, my blood got the better of me and I killed you.@ Look at the scar on your chest.@ I drove this arm right through you.”@
+`“The scar[line=4]”@
+`The scar I’d been told came from an accident[line=5]
 \
-`“That is right.@ Though afterward, the old man nearly killed me too.@
-`Even though I had finally awakened to my Tohno blood, I was locked in an underground cell and left in darkness for eight years.@
-`[line=3]That bastard said he would let me out if he could turn my body human again after it had become more Tohno than human…!@ Since it would be inconvenient for Shiki Tohno to remain absent until then, he turned you, his adopted son, into Shiki Tohno in my place.”
+`“That’s right.@ The old man nearly killed me afterward, too.@
+`I’d finally awakened to the Tohno blood in me, and he locked me underground for eight years.@ Eight years in the dark.@
+`[line=3]That bastard said he’d let me out if he could turn my body human again!@ And since it would have been inconvenient for Shiki Tohno to disappear until then, he made you, his adopted son, Shiki Tohno in my place.”
 \
 `“[line=8]”@
 `In other words.@
 `The adopted child from ten years ago was none other than me.
 \
 ld c,"tachi/hal_t02",crossfade,400
-`“Do you understand, Shiki?@ I was killed by you.@
-`I am alive.@ Yet here you stand as Shiki Tohno.@
-`There is nowhere left for me to return to.@
-`You stole the name Shiki Tohno, my place in this family, my beloved sister, even my reason for being.@
-`I, SHIKI Tohno, was killed by you—the Shiki Tohno you became.”@
+`“Do you get it, Shiki?@ You killed me.@
+`I’m alive, but you’re the one living as Shiki Tohno.@
+`There’s nowhere left for me to go back to.@
+`You took my name, my place, my beloved sister[line=3]even the reason I exist.@
+`You, the Shiki Tohno they made, killed me: SHIKI Tohno.”@
 br
 `One step.@
 `Eyes bright with murderous intent, SHIKI advances.
 \
 ld c,"tachi/hal_t03",crossfade,400
-`“Come now[line=3]that ends our talk.@ Shiki, you should have died eight years ago.@ You have had long enough.@ Is it not time we returned to our proper relationship?”@
-`“[line=4]Our proper relationship[line=4]?”@
-`“Exactly.@ I will return to being Shiki Tohno, and you[line=3]will return to being dead!”
+`“There.@ That’s the whole story.@ You were supposed to die eight years ago, Shiki.@ You’ve had long enough.@ It’s time to put things back the way they belong.”@
+`“[line=4]Back the way they belong[line=4]?”@
+`“I take back the name Shiki Tohno.@ And you[line=3]you go back to being dead!”
 \
 cl c,lcartain,400
 bg #ffffff,notrans,0

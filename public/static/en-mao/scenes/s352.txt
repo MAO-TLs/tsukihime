@@ -25,7 +25,7 @@ ld c,"tachi/koha_t09",lshutter,800
 `“Shiki?@ What brings you all the way out here?”@
 `“Well[line=3]I came to help you, but am I getting in the way?”@
 ld c,"tachi/koha_t18",crossfade,400
-`“The thought is very sweet, Shiki, but I didn’t come here to work.@ Miss Akiha asked me to check the power in the detached house.”@
+`“The thought is very sweet, Shiki, but I didn’t come here to work.@ Miss Akiha asked me to check the power in the annex.”@
 `“The power?@ This place is still usable?”
 \
 ld c,"tachi/koha_t03",crossfade,400
@@ -35,13 +35,13 @@ ld c,"tachi/koha_t01a",crossfade,400
 `“Perhaps Miss Akiha still feels attached to it.@ This was once the home of a child Master Makihisa adopted.”@
 br
 `[line=4]What?@
-`A child Makihisa—my father—once adopted?
+`A child Makihisa—my father—adopted years ago?
 \
 `“Wait, Kohaku.@ What do you mean Father adopted a child?”@
 ld c,"tachi/koha_t02",crossfade,400
-`“Oh, don’t you remember?@ About ten years ago, Master Makihisa took in a child whose parents had died in an accident.@ Master Makihisa adopted the child.”@
-`“Did[line=3]that really happen?”@
-`“Yes.@ Sadly, the child died about two years later.@ It was only a minor accident, apparently, but the servants employed here then often said it proved the Tohno family was cursed.”
+`“Oh, don’t you remember?@ There was a child Master Makihisa took in about ten years ago.@ Apparently the child’s parents had died in an accident, so he adopted the child.”@
+`“Did[line=3]that…@happen?”@
+`“Yes.@ Though the child died about two years later.@ It was apparently a minor accident, but the servants working here then often said the Tohno family really was cursed after all.”
 \
 playstop
 wave se_01
@@ -49,14 +49,14 @@ bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
 `[line=5]Wait.@
 br
-`Something about Kohaku’s words frightens me.@
-`Merely hearing them makes my sight buckle.@
-`As though this tatami room were made of candy, everything melts around me into a viscous, unstable blur.
+`Something about Kohaku’s words…@frightens me.@
+`Just hearing them makes my vision warp.@
+`Everything feels unstable, as though this room were made of candy, melting into a thick, shapeless mass.
 \
-`“K-Kohaku.”@
-`Adopted ten years ago.@ Dead in an accident two years later.@
+`“K-Kohaku…”@
+`A child adopted ten years ago.@ A child said to have died in an accident two years later.@
 `That means.@
-`Eight years ago[line=4]the year of my accident, the year I was hospitalized.
+`Eight years ago[line=4]isn’t that the year I had my accident and was hospitalized?
 \
 play "*6"
 bg "bg/cmo_05",notrans,0
@@ -66,26 +66,26 @@ br
 `[line=6]The accident.@
 br
 `What kind of accident was it?@
-`One that injured me so badly.@
-`One that killed that adopted child.
+`One that left me badly injured.@
+`One that killed that adopted child, whoever they were.
 \
 br
-`A sweltering summer day.@
+`A hot summer day.@
 br
-`[line=6]I can’t remember.@
+`[line=6]I can’t remember clearly.@
 br
 `Only that my arms seemed to be covered in red blood[line=4]
 \
 bg "bg/bg_45b",crossfade,400
-`“Kohaku…@ What do you mean, cursed?”@
+`“Kohaku…@ what do you mean by ‘cursed’?”@
 ld c,"tachi/koha_t18",crossfade,400
 `“Oh, it’s nothing so dramatic.@ Members of the Tohno family have simply tended to die young, generation after generation.@
 `Whether by accident, suicide, or illness, none lived out a natural span; that is all that gave rise to the rumor of a curse.”
 \
 `“[line=3]Suicide, what do you mean?”@
 ld c,"tachi/koha_t03",crossfade,400
-`“They say members of the Tohno family—mostly the men—often developed mental illnesses in childhood.@ More than ten went on to kill themselves as adults.@
-`It is only gossip, of course, but supposedly one man even committed murder before the war.”
+`“Yes.@ Apparently more than ten members of the Tohno family suffered from mental illness from childhood and took their own lives as adults.@ They say it was more common among the men.@
+`It is only gossip, but I’ve heard that someone in the family committed murder before the war.”
 \
 bg #000000,crossfade,400
 bg "bg/bg_45b",crossfade,400
@@ -107,20 +107,17 @@ bg #000000,crossfade,400
 \
 bg "bg/bg_45b",crossfade,400
 ld c,"tachi/koha_t01a",crossfade,400
-`“Yes.@ For the final two years of Master Makihisa’s life, I was entrusted with managing Master Makihisa’s condition.@
-`After Master Makihisa sent you to live with the Arima family, he fell into a severe depression and had to take medicine to steady his mind.”@
+`“Yes.@ I looked after Master Makihisa’s condition for the last two years of his life.@
+`…@Around the time you were sent to the Arima family, he began to grow terribly depressed.@ He had to take medicine to steady his mind.”@
 `“Medicine to steady his mind[line=3]was Father really that unwell, Kohaku?”@
-`“Yes.@ At night he would wander the grounds; it was not unusual for him to kill dogs or cats he had bought that day, or to injure himself.”
+`“…@Yes.@ He began wandering the grounds at night.@ It was not unusual for him to kill dogs or cats he had bought that day, or to injure himself.”
 \
 wave se_01
-`[line=4]Wha.@
-`What was that?@
-`That was practically madness.@
-`As mad as I am in the dream.@
+`[line=4]Wh…@ what the hell was that?@
+`He was practically insane.@ Out of his mind, like me in those dreams.@
 wave se_01
 br
-`Or perhaps.@
-`Am I the one who has gone mad, just like Father?
+`Or perhaps—am I the one who’s lost his mind, like Father?
 \
 bg #000000,crossfade,800
 !w500
@@ -137,15 +134,15 @@ ld c,"tachi/koha_t09",lshutter,400
 `As she speaks, Kohaku offers me her shoulder.@
 `With her support, I rise.
 \
-`“I’m all right, so[line=3]”@
-`I struggle to pull my thoughts together.@
+`“…@Yes…@I’m all right, so[line=3]”@
+`I somehow pull my thoughts together.@
 `But the dizziness won’t pass.@
 bg #9c0120,crossfade,400
 bg "bg/bg_45b",crossfade,400
 br
-`Red and black pulse across my vision.@
+`Red and black flicker across my vision.@
 `White.@
-`Kohaku’s nape comes into view, looking terribly warm.@
+`The back of…@Kohaku’s neck comes into view.@ It looks so warm.@
 br
 `“[line=5]Ah.”@
 `How alluring.@
@@ -167,7 +164,7 @@ bg "bg/ima_13",notrans,0
 wait 100
 bg #000000,notrans,0
 bg "bg/bg_45b",crossfade,400
-`“Damn[line=5]!”@
+`“Ngh[line=5]!”@
 `Unable to bear it, I flee from Kohaku.
 \
 wavestop
@@ -175,7 +172,7 @@ ld c,"tachi/koha_t01a",crossfade,400
 `“Shiki?”@
 `“No[line=3]I’m fine[line=3]I’m fine, so leave me alone.”@
 ld c,"tachi/koha_t04",crossfade,400
-`“I can’t do that.@ If you collapse here, Miss Akiha will scold me.@ Besides, you’re clearly suffering.”@
+`“I can’t do that.@ If you collapse here, Miss Akiha will scold me.@ Besides, you look as though you’re in pain.”@
 cl c,crossfade,400
 `With that, Kohaku comes closer.
 \
@@ -208,7 +205,7 @@ br
 br
 `[line=3]Why?@
 br
-`Why are you getting in my way.@
+`Why are you getting in my way?@
 wave se_01
 `      Why is it that
 `      nothing will go the way I want…!
@@ -219,14 +216,14 @@ bg "bg/bg_45b",notrans,0
 wave se_10
 quakex 2,100
 `“Eek[line=3]!”@
-`A heavy crash.@
-`Kohaku strikes the wall, her face twisting in pain.@
+`A dull thud.@
+`Kohaku is knocked against the wall, her face contorted in pain.@
 br
 `“Ah[line=7]”@
 br
-`The sight of her face brings me to my senses.@
-`The dizziness ebbs almost at once.@
-`What remains has nothing to do with vertigo; it is only guilt.
+`…@The sight of her face brings me to my senses.@
+`The dizziness quickly fades.@
+`What remains is not dizziness or anything else.@ Just guilt.
 \
 `“[line=2]I’m sorry.@ What did I[line=2]”@
 ld c,"tachi/koha_t03",crossfade,800
@@ -235,7 +232,8 @@ br
 `A smile.@
 `She smiles as she always does.@
 br
-`“Your color has returned, so you seem to be all right now.@ Shall we continue our conversation?”@ “No[line=2]not today.@ I’m sorry, Kohaku.@ There’s something wrong with me.”
+`“Your color is better, and you seem to be all right now.@ Shall we talk a little longer?”@
+`“No[line=2]not today.@ I’m sorry, Kohaku.@ There’s something wrong with me.”
 \
 `“Do you think so?@ You’re a man, Shiki; a little roughness hardly means there’s something wrong with you.@ If anything, you’re usually too gentle.”@
 `Kohaku says it without losing her smile.@
@@ -244,9 +242,9 @@ br
 `She trusts me completely.@
 `And only moments ago, what was I about to do to her[line=3]?
 \
-`“I’ll take your advice and go back to my room.@ I’m sorry about what happened.”@
+`“…@I’ll go back to my room, as you say.@ I’m sorry about before.”@
 `With that, I flee.@
-`Nearly crushed beneath my self-loathing, I leave the annex.
+`I leave the annex, almost crushed by self-loathing.
 \
 bg #000000,lcartain,800
 !w2000
@@ -259,13 +257,12 @@ br
 `I don’t understand.@
 `I don’t know why that feeling came over me, or why I did such a thing.
 \
-`At that moment.@
-`The sight of Kohaku’s throat aroused me.@
+`Back then, the sight of Kohaku’s throat aroused me.@
 `Just as in last night’s dream, I wanted to sink my teeth into it.@
-`Yet now the thought holds no appeal at all.@
+`Yet now no such thought even crosses my mind.@
 br
-`Last night’s dream and the person I became today.@
-`It feels as though someone who is not me lives inside me.
+`Last night’s dream.@ The way I was just now.@
+`A feeling as though there is a self inside me that is not myself.
 \
 `“[line=4]”@
 `I touch my throat.@
@@ -273,7 +270,7 @@ br
 `“That’s absurd.@ I can walk around in broad daylight.”@
 `Yes, it is impossible.@
 `It was only a hallucination brought on when dizziness clouded my mind.@
-`What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
+`I think what happened with Yumizuka is burned into my memory, and the anemia simply brings it back.
 \
 `“Maybe Kohaku is right and I’m just exhausted.”@
 `Perhaps so.@
@@ -312,8 +309,8 @@ br
 br
 br
 br
-`[line=4]Once the body has awakened,
-`          sleep cannot quiet it.
+`[line=4]Once the body is stirred up,
+`          sleep alone cannot calm it.
 \
 wave se_01
 !w750
@@ -357,8 +354,8 @@ br
 br
 br
 br
-`My face appears suddenly, reflected in a darkened window.@
-`Its bloodshot eyes look anything but sane.
+`Suddenly, I catch sight of a face reflected in a window.@
+`The eyes are bloodshot.@ It looks anything but sane.
 \
 wave se_01
 br
@@ -396,9 +393,9 @@ wait 100
 bg "bg/ima_12b",notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse is dragged away, and teeth close on its throat.@
+`The corpse is brought inside.@ The sound of teeth sinking into its throat.@
 `I hear wet sucking.@
-`Blood is swallowed straight from the neck, flesh torn away with it, until the thirst subsides.
+`Drinking blood from the throat, as though biting through flesh and all.@ Quenching the thirst.
 \
 br
 br
@@ -433,8 +430,8 @@ br
 \
 `Then.@
 `An interruption.@
-`The corpse is cast aside, and the figure leaps away.@
-`Someone.@ Someone is watching.
+`The corpse is thrown aside.@ A leap.@
+`Someone.@ Someone seems to be watching.
 \
 br
 br
@@ -443,12 +440,12 @@ br
 br
 br
 br
-`[line=4]So tonight is different.
+`[line=4]Is this different from yesterday?
 \
 bg "bg/ima_02",tshutter,400
-`Something like an enormous nail comes hurtling through the air.@
-`The figure leaps aside to avoid it.@
-`It races up the face of a building and bounds from rooftop to rooftop.
+`Something like an enormous nail flies through the air.@
+`A leap to avoid it.@
+`Up the side of a building, from rooftop to rooftop.
 \
 br
 br
@@ -493,13 +490,13 @@ br
 `“Ah[line=4]”@
 `I wake from the dark dream.
 \
-`“My room.”@
-`There can be no doubt that I am in my own room.@
-`I have spent the night here in bed and awakened to morning.@
-`I dreamed it again.@
+`“…@My room.”@
+`There is no mistaking it.@ I am in my own room.@
+`Lying in bed as morning comes.@
+`…@I had that dream again.@
 `A dream of drinking someone’s blood.@
-`I know it was a dream, yet it was hideously real.@
-`My hands still remember tearing flesh, and the raw smell of blood still lingers in my nostrils[line=3]
+`I know it is a dream, yet it feels terribly real.@
+`The feeling of tearing flesh still lingers in my hands, the raw smell of blood in my nose[line=3]
 \
 `“[line=3]What is happening to me?”@
 `I touch my throat.@
@@ -507,7 +504,7 @@ br
 `I am still an ordinary human being.@
 `I have never wanted to drink anyone’s blood, and sunlight does not repel me.@
 `“[line=4]Ah.”@
-`No.@ Yesterday was different.@ I—
+`No.@ Yesterday, I—
 `When I saw Kohaku’s throat, what did I think?@
 br
 `[line=3]A white throat.@

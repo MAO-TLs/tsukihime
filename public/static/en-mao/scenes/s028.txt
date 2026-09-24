@@ -36,7 +36,7 @@ bg "bg/bg_50",lshutter,400
 `“Oh—Ciel.”@
 ld l,"tachi/cel_t01a",lshutter,400
 `“Oh—it’s Tohno.”@
-`We pointed stupidly at one another, each confirming the other’s identity.
+`We pointed at each other like idiots, confirming the obvious.
 \
 ld r,"tachi/ari_t01",lshutter,400
 `“Hey, Tohno[line=3]wait, what?@ You know him?”@
@@ -45,13 +45,14 @@ ld l,"tachi/cel_t03",crossfade,400
 `“Ah—yes, sorry about that.”@
 `I bowed my head in apology.@
 ld l,"tachi/cel_t04",crossfade,400
-`“No, I’m sorry; I was daydreaming.@ You’re very conscientious, Tohno.”@
-`“Conscientious—hardly,”@ I began, but she only smiled and nodded with evident satisfaction.@
-`There really was something singular about her.
+`“No, I’m sorry.@ I wasn’t paying attention.@ You’re very conscientious, Tohno.”@
+`“Conscientious?@ I’m not really…”@
+`She smiled and nodded, looking pleased.@
+`She really did have a manner all her own.
 \
 ld l,"tachi/cel_t01a",crossfade,400
 `“Still, what a surprise.@ I didn’t know you and Inui were acquainted.@ Are you in the same class?”@
-`“Exactly—acquainted doesn’t begin to cover it.@ Tohno and I have been in the same class since our first year, and we’ve been inseparable since middle school—we’re the best of friends!”@
+`“That’s right!@ Acquainted?@ We’ve been in the same class since first year, and we’ve been stuck with each other since middle school.@ Best friends!”@
 `My best friend slammed the table to emphasize the point.@
 `Was it my imagination, or was he even more worked up than usual?
 \
@@ -70,7 +71,7 @@ ld r,"tachi/ari_t01",crossfade,400
 `“By the way, you said you collided with Tohno earlier—what happened?”@
 ld l,"tachi/cel_t01a",crossfade,400
 `“We ran into each other during the break.@ I wasn’t hurt, but Tohno struck his head.”@
-`“Huh.@ I can’t imagine Tohno making a blunder like that.@ He may look half asleep, but underneath he’s incredibly dependable; I guess he’s bad at leaning on people and hates causing anyone trouble.”
+`“Huh.@ Doesn’t sound like Tohno to mess up like that.@ He looks half asleep, but he’s got his head screwed on.@ Doesn’t know how to let people take care of him, I guess.@ Hates putting anyone out.”
 \
 ld l,"tachi/cel_t04",crossfade,400
 `“Oh, I can see that.@ When we collided, he only worried about me, and he apologized again just now.”@
@@ -80,7 +81,7 @@ ld r,"tachi/ari_t04",crossfade,400
 `“…@No.@ I was running to the office with some change-of-address paperwork, and I went crashing into her on the way.”@
 ld r,"tachi/ari_t01",crossfade,400
 `“[line=3]I see.@ Either way, it was your fault.@ Even our Tohno’s feeling the strain of moving, then.”@
-`Arihiko folded his arms and nodded as if that settled it.
+`Satisfied with his conclusion, Arihiko folded his arms and nodded.
 \
 `[line=4]Then.@
 br
@@ -96,7 +97,7 @@ ld l,"tachi/cel_t08",crossfade,400
 `“I see.@ Could that be the Tohno estate?”
 \
 `Ciel asked timidly, as though afraid of prying.@
-`To the people of this town, the Tohno family’s Western-style house on the hill must have seemed like something apart.@
+`To the people of this town, the Tohno family’s Western-style house on the hill must have seemed a place apart.@
 `I hadn’t returned for eight years myself, but in my memory the Tohno estate was absurdly large.
 \
 `“That’s right.@ I know I’ll be out of place there, but the move is already settled, so there’s no use arguing.”@
@@ -108,7 +109,7 @@ ld r,"tachi/ari_t01",crossfade,400
 `“Maybe.@ I haven’t gone back yet, so I can’t really say.@ At least I know I can always escape to your place.”
 \
 ld r,"tachi/ari_t03",crossfade,400
-`“Hey.@ I don’t approve of you staying at my house whenever something unpleasant happens.@ I like that laid-back, unassuming nature of yours, but I’ve always hated the way you bend over backward not to impose!”@
+`“Hey.@ You can’t come camping at my place every time something bothers you.@ I like how you take everything easy, but you’re too damn afraid of putting people out.@ Always have been!”@
 `Arihiko struck the table.@
 `“…”@
 `He was entirely right, which left me nothing to say.@
@@ -125,7 +126,9 @@ ld l,"tachi/cel_t07a",crossfade,400
 `Arihiko caught himself and covered his mouth.
 \
 ld r,"tachi/ari_t03",crossfade,400
-`“Sorry.@ That wasn’t mine to blurt out.”@ “It’s fine.@ It isn’t anything shameful.”@ Without looking at him, I kept eating my mochi udon.@
+`“Sorry.@ That wasn’t mine to blurt out.”@
+`“It’s fine.@ It isn’t anything shameful.”@
+`Without looking at him, I kept eating my mochi udon.@
 ld r,"tachi/ari_t01",crossfade,400
 `“Right.@ Yeah, of course.@ After all they did for you, you’d be tempting fate if you complained.”@
 `Arihiko nodded, satisfied.@
@@ -145,9 +148,9 @@ cl a,crossfade,400
 `“It’s all right.@ Sorry we made you listen to such a dreary story.”@
 ld c,"tachi/cel_t08",crossfade,400
 `“No, not at all.@ I’m the one who asked something strange—I’m sorry.”@
-`She tried to sound bright.@
-`Arihiko had known me since middle school, but burdening her with such complicated family business could only be awkward.@
-`In fact, she was fidgeting as though deeply uncomfortable.
+`She was trying hard to sound cheerful.@
+`Arihiko had known me since middle school.@ Ciel was another matter; she probably wished we hadn’t dragged her into all this.@
+`She certainly looked uncomfortable, shifting in her seat.
 \
 `“Ciel, listen[line=3]”@
 ld c,"tachi/cel_t01a",crossfade,400
@@ -159,11 +162,12 @@ br
 \
 `“Sorry.@ You two were having lunch together, and I barged in.”@
 ld c,"tachi/ari_t01",crossfade,400
-`“Forget it.@ That was my fault, so you’ve got nothing to apologize for.@ I feel worse for her.”@ Arihiko slurped his udon.@
+`“Forget it.@ That was my fault, so you’ve got nothing to apologize for.@ I feel worse for her.”@
+`Arihiko slurped his udon.@
 `It seemed to have gone completely cold while we talked to Ciel.@
 `“The timing works out, anyway.@ I had something private to ask you, so I’m lucky she left first.”
 \
-`“What is it—why so serious?@ And if you want money, I haven’t got any.@ As of today, I begin my new life as an impoverished youth.”@
+`“What is it—why so serious?@ And if you want money, I haven’t got any.@ From today on, I’m just a poor boy trying to get by.”@
 `“[line=3]That’s not it.@ What I want to know is how you’re actually taking all this.”@
 `“Taking what?”@
 ld c,"tachi/ari_t04",crossfade,400
@@ -171,10 +175,10 @@ ld c,"tachi/ari_t04",crossfade,400
 `…@I see.@
 `Apparently, in his own way, Arihiko had been worried about Shiki Tohno.
 \
-`“No.@ I wasn’t disowned; I was just sort of thrown out of the estate, so this isn’t something you need to worry about.”@
-`“Listen, Tohno.@ If a family throws a child out for no particular reason, that stops being a tragedy and becomes a joke.@ Oh, it is party joke.@ But is too cold, so laugh—NO.”@
+`“No, I wasn’t disowned.@ They just sort of kicked me out of the mansion.@ You don’t need to worry about it.”@
+`“Listen, Tohno.@ A family that throws out a kid for no reason?@ That’s a joke, not a tragedy.@ Oh, it’s a party joke!@ Too cold to get a laugh, though.”@
 `Arihiko spread his hands and shrugged theatrically.@
-`“Maybe.@ If I were thrown out for no reason, I suppose all I could do is laugh.”
+`“Maybe.@ If they threw me out for no reason, I guess I’d have to laugh.”
 \
 `“Exactly.@ And they even gave you the grand line about never darkening their doorstep again.@ The rest of society calls that disowning someone.@
 `I’ve never asked before, but why did they disown you?”@

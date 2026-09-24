@@ -40,7 +40,8 @@ ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki.@ Forgive me, but did you happen to check the time after waking?”@
 `“What[line=2]?@ But it’s still morn[line=3]”@
 br
-`It was already well past noon.
+`It was already well past noon.@
+`So much for morning.
 \
 `“What[line=3]?@ W-why does the clock say it’s already noon?”@
 `“I believe it is you, rather than the clock, who somehow arrived at noon, Master Shiki.@
@@ -54,7 +55,7 @@ br
 ld c,"tachi/his_t08",crossfade,400
 `“It is your day off, so you may rise whenever you please, Master Shiki, but[line=3]you did not go out again last night, did you, Master Shiki?”
 \
-`“What[line=3]no, I didn't, but never mind that; what's Akiha doing?@
+`“What[line=3]no, nothing like that, I mean…@ Anyway, what’s Akiha doing?@
 `I thought she had been awake late last night too[line=4]”@
 `“Miss Akiha rose at her usual time.”@
 `Hisui still looked displeased, but she answered my transparent attempt to change the subject.
@@ -89,7 +90,7 @@ cl a,lshutter,800
 `I had betrayed Satsuki to protect those things.@
 `That was why[line=3]at the very least, I had to protect them to the end, or everything I had done would become a lie.
 \
-`“[line=5]Sophistry, perhaps.”@
+`“[line=5]Am I just making excuses?”@
 `Even so, I would have to keep deceiving myself and carry on.@
 `Hisui was waiting.@
 `I had to dress quickly and return to the sitting room—to the ordinary life that was still there[line=4]
@@ -145,7 +146,7 @@ cl a,crossfade,400
 ld c,"tachi/aki_t24",crossfade,400
 `“Ah[line=4]”@
 `“……?”@
-`Akiha's fury vanished as she abruptly fell silent.
+`Akiha abruptly fell silent.@ Where had all that fury gone?
 \
 `“Look, Akiha.@ I don’t deliberately sleep past seven every morning.@
 `I’d like to wake earlier, but my body simply won’t cooperate.@
@@ -156,8 +157,8 @@ ld c,"tachi/aki_t13b",crossfade,400
 `Of course, I had forgotten the most obvious thing imaginable.
 \
 cl a,crossfade,400
-`“You're right—since Hisui comes to wake me every morning anyway, I can just have her do it.@
-`Hisui, from now on, could you wake me at about six-thirty?”@
+`“You’re right—since Hisui comes to wake me every morning anyway, I can just have her do it.@
+`Hisui, it would help if you could wake me around six-thirty from now on…”@
 `I glanced back at her.@
 `Hisui fixed me with an unblinking glare.
 \
@@ -175,15 +176,15 @@ ld l,"tachi/aki_t21b",crossfade,400
 `“Hisui.@ Why can’t you wake my brother?”@
 ld r,"tachi/his_t01",crossfade,400
 `“I cannot accept a duty I cannot perform.@
-`I doubt I can wake Master Shiki by my own efforts.”@
-`“[line=3]Why not?”@
+`I don’t think I can wake Master Shiki at will.”@
+`“[line=3]You can’t?@ Why?”@
 `I broke into their conversation without thinking.@
 `Hisui turned that level glare on me again.
 \
 ld r,"tachi/his_t08",crossfade,400
 `“Because I have failed every day for the past three days.@
 `Master Shiki, do you remember how many times I called to you yesterday?”@
-`“But I always wake up when I hear your voice[line=3]”@
+`“Remember how many times?@ But I always wake up to your voice, Hisui[line=3]”@
 ld r,"tachi/his_t01",crossfade,400
 `“Then you retain no memory of all the times I called before that.@ [line=3]Miss Akiha, that is the problem.”@
 ld l,"tachi/aki_t18b",crossfade,400
@@ -191,12 +192,12 @@ ld l,"tachi/aki_t18b",crossfade,400
 `In a single instant, my position had become indefensible.
 \
 ld l,"tachi/aki_t03b",crossfade,400
-`“In other words, no matter how often Hisui tries, you won’t even respond until the time you have decided to wake[line=3]is that right, Hisui?”@
+`“In other words, no matter how often Hisui tries, you won’t even respond until you feel like waking up[line=3]is that right, Hisui?”@
 ld r,"tachi/his_t01b",crossfade,400
 `Hisui nodded silently.@
 `“………………”@
 `I nodded too.@
-`So she had been trying to wake me properly all along.@
+`So she really had been trying to wake me early all along.@
 `If I do say so myself, sleeping this soundly might qualify as a supernatural talent.
 \
 ld l,"tachi/aki_t18b",crossfade,400
@@ -213,7 +214,7 @@ ld l,"tachi/aki_t01b",crossfade,400
 `“Hey.@ By the way, Hisui.”@
 `“Yes, what is it?”@
 ld l,"tachi/aki_t13b",crossfade,400
-`“Does he truly never wake?@ He doesn’t react at all when you call him?”@
+`“Does he really not wake up?@ He doesn’t react at all when you call him?”@
 ld r,"tachi/his_t26",crossfade,400
 `“[line=3]Yes.@ Master Shiki sleeps so quietly, like a statue, that it is quite easy to tell.”@
 br
@@ -226,7 +227,7 @@ ld r,"tachi/his_t21",crossfade,400
 `I had never seen anyone sleep so still; the first time, I thought he might be dead, and[line=3]”
 \
 ld r,"tachi/his_t20",crossfade,400
-`“It is not that he is difficult to wake; it feels terribly rude to disturb him, so I cannot bring myself to shake him forcefully.@
+`“It is not that he is difficult to wake; it feels terribly rude to disturb him, so I cannot bring myself to insist.@
 `When Master Shiki wakes on his own, warmth returns to his pale cheeks, and I know at once that he is waking, but[line=3]”@
 `Hisui kept her eyes lowered as she described my sleeping face.
 \
@@ -242,16 +243,16 @@ cl a,crossfade,400
 \
 ld c,"tachi/koha_t01a",lshutter,800
 `“Thank you for waiting!@ Shiki, your breakfast is ready.”@
-`A savior arrived on a tide of good cheer.@
+`Our savior arrived with a cheerful call.@
 `“Thanks.@ I’ll go eat, then.”@
 `“Please take your time.”@
-`Urged onward by Kohaku’s smile, I escaped alone to the dining room.
+`Urged onward by Kohaku’s smile, I went to the dining room alone.
 \
 bg #000000,lshutter,800
 !w1000
 bg "bg/bg_34a",rshutter,800
 `When I returned after lunch, Akiha and Hisui were still in the sitting room.@
-`Ignoring them and going straight upstairs would have been awkward, so I sat on the sofa opposite Akiha.
+`Ignoring them and going straight back to my room would have been awkward, so I sat on the sofa opposite Akiha.
 \
 ld l,"tachi/koha_t02b",crossfade,400
 `“Here you are—tea is what you prefer, isn't it, Shiki?”@
@@ -261,7 +262,7 @@ ld l,"tachi/koha_t02b",crossfade,400
 `Perhaps she was trying to put me at ease; Kohaku attended to every little detail.
 \
 `“That’s discouraging.@ I thought I’d finally grown used to this house, but do I still look tense?”@
-`“A little—your shoulders are still rather stiff.@ You may never feel as much at home as you did when you were young, but you can relax a bit more.”
+`“A little—your shoulders are still rather stiff.@ It may not be like the old days, but I think you can relax a little more.”
 \
 ld r,"tachi/aki_t18b",crossfade,400
 `“Kohaku, don't coddle him.@
@@ -275,7 +276,7 @@ cl a,crossfade,400
 `“Huh.”@
 `That surprised me a little.@
 `When Akiha spoke to Kohaku, some of her usual austere composure fell away.@
-`Perhaps it was because they were close in age, but the two of them might genuinely be very good friends.
+`Perhaps it was because they were close in age, but the two of them might be very close.
 \
 `“……”@
 `I glanced over at Hisui.@
@@ -288,12 +289,12 @@ ld c,"tachi/his_t01",crossfade,400
 `“No, nothing.@ I was only thinking how quiet you are.”@
 `“[line=3]Yes.@ Master Makihisa taught me to be so.”@
 cl a,crossfade,400
-`Hisui delivered the answer with absolute certainty.@
-`Too much certainty, really; it left the conversation nowhere to go.
+`Hisui’s answer was firm and final.@
+`A little too final; it left the conversation nowhere to go.
 \
 `“……”@
-`I fell silent in awkward defeat.@
-`Kohaku and Akiha were still deep in conversation.@
+`Feeling awkward, I fell silent.@
+`Kohaku and Akiha still seemed deep in conversation.@
 ld c,"tachi/his_t01",crossfade,400
 `“[line=3]Master Shiki, may I ask you something?”@
 `“Uh[line=3]sure, what is it?”@
@@ -323,19 +324,19 @@ cl a,crossfade,400
 `The vampire murders.@ A killer who had roamed the night streets and murdered indiscriminately.@
 `The classmate I had killed with my own hands last night.
 \
-`“It’s all right, Kohaku.@ There are no vampires in the streets at night.@ Those murders will never happen again.”@
+`“No, it’s all right, Kohaku.@ There are no vampires out on the streets at night.@ …@That won’t happen again.”@
 `Because Satsuki Yumizuka was no longer in this world.@
 ld l,"tachi/koha_t02b",crossfade,400
 `“Really?@ Is that true, Miss Akiha?”@
 ld r,"tachi/aki_t12b",crossfade,400
 `“How should I know?@ He is the one making such a categorical claim, so presumably he has some basis for it.@
 ld r,"tachi/aki_t01b",crossfade,400
-`“Come to think of it, I heard a student at your school fell victim to the murders.@ Wasn’t Class Two-Three your class?”@
+`Come to think of it, I heard a student at your school fell victim to the murders.@ Wasn’t Class Two-Three your class?”@
 `“What?@ Nobody in my class was a victim.”
 \
 ld l,"tachi/koha_t03b",crossfade,400
-`“Oh, you didn’t see the news this morning.@ Apparently blood belonging to a girl named Satsuki Yumizuka was found the night before last in an alley off the main avenue.@
-`The blood itself appears to have been there for about three days, but from the volume lost at the scene, the authorities say there can be little doubt that she is dead.”
+`“Oh, you didn’t see the news this morning.@ Apparently blood belonging to someone named Satsuki Yumizuka was found the night before last in an alley off the main avenue.@
+`The blood itself appears to have been there for about three days, but from the volume lost at the scene, they say there can be little doubt that the victim is dead.”
 \
 cl a,crossfade,400
 `“[line=7]”@
@@ -350,8 +351,8 @@ ld c,"tachi/aki_t23b",crossfade,400
 bg "event/stk_e03",notrans,0
 wait 100
 bg "bg/bg_34a",notrans,0
-`Her death was no longer something that existed only inside me.@
-`It had already been accepted as a fact of the world, and that was unbearably sad.
+`Her death.@
+`It wasn’t only something inside me anymore.@ The world had already accepted it as real, and that hurt terribly.
 \
 `“……”@
 `I had sworn not to regret it, yet every thought of her cast a shadow over me.@
@@ -362,7 +363,7 @@ ld c,"tachi/koha_t03b",crossfade,400
 `“Everyone, let’s hold a welcome party tonight!”@
 `Kohaku announced without the slightest warning.@
 `“[line=4]Pardon?”@
-`Akiha, Hisui, and I all tilted our heads in unison.
+`Akiha and I tilted our heads—even Hisui did.
 \
 ld c,"tachi/koha_t15",crossfade,400
 `“A welcome party for Shiki!@ We’re all together, and we haven’t even celebrated his return home yet.@
@@ -370,8 +371,8 @@ ld c,"tachi/koha_t15",crossfade,400
 `Kohaku turned a brilliant smile on me, inviting my agreement.@
 cl a,crossfade,400
 `“……”@
-`So much for hiding it.@
-`I must truly have looked miserable.
+`Oh, man.@
+`I must really have looked miserable.
 \
 ld l,"tachi/koha_t03b",crossfade,400
 `“Would that be all right, Miss Akiha?@ If you give me permission, I’ll start now and make a proper feast.”@

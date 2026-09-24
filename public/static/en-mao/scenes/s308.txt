@@ -253,7 +253,7 @@ ld l,"tachi/ark_t05a",crossfade,400
 ld l,"tachi/ark_t13",crossfade,400
 ld r,"tachi/cel_t07b",crossfade,400
 `Both voices rose at once: “[line=5]What?”@
-`“If words won’t stop you, what else can I do?@ If you start trying to kill each other, I’ll stop you—even if I have to kill you both.”@
+`“If words won’t stop you, what else can I do?@ If you start trying to kill each other, I’ll stop you—even if I have to kill you to do it.”@
 `I clenched the knife and stared into the world until my brain seemed ready to burn away.
 \
 bg #9c0120,crossfade,400
@@ -551,6 +551,7 @@ br
 \
 wave se_01
 textcolor #ffffff
+`#ffffff
 `“Tohno, stay with me[line=5]please…!”@
 br
 `Ciel’s voice.@ Her arms held my body tightly, yet I could no longer feel them.@
@@ -579,6 +580,7 @@ br
 `In the end, only one will can kill another.
 \
 textcolor #ffffff
+`#ffffff
 `“Stop[line=3]please, stop!@ You don’t even know whether Arcueid is telling the truth, so why[line=5]?”
 \
 textcolor #0000ff
@@ -784,14 +786,14 @@ cl c,crossfade,400
 `“What are you sulking about now?@ You can’t barge in here and then expect me to guess why you’re upset.@ If you have something to say, take your own advice and say it clearly.”@
 `I hissed the words under my breath.@
 br
-`[line=3]And then.@
+`[line=3]Then.@
 br
 ld c,"tachi/ark_t14",crossfade,400
 `“But you haven’t played with me at all lately.@ So I thought maybe I’d make a little trouble for you.”@
 `Arcueid mumbled.
 \
 `“I told you, students have final exams.@ I’ll be busy until they’re over.@ Once they are, I’ll spend an entire day with you, so could you please go outside for now?”@
-`“Really?@ Before you spend a day with Ciel?”@
+`“Really?@ Will you spend that day with me before Ciel?”@
 `“I-I’ll do my best.”@
 ld c,"tachi/ark_t08",crossfade,400
 `“Yes!@ You promised, so I’ll wait outside…!”@
@@ -803,7 +805,7 @@ ld c,"tachi/his_t01",lshutter,800
 `Hisui entered as Arcueid departed.@
 `“Master Shiki…?@ I thought I heard voices; did something happen?”@
 `“W[line=4]well, I was just reciting a rather long monologue to myself…”@
-`Call it My Poetry Collection.@ No, that was too embarrassing.@
+`Call it My Poetry Collection.@ …@Okay, that sounded pretty lame.@
 ld c,"tachi/his_t17",crossfade,400
 `“…”@
 `She stared at me in silence.@

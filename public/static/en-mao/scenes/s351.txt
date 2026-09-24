@@ -11,15 +11,15 @@ bg "bg/bg_33b",lcartain,400
 ld c,"tachi/his_t01",crossfade,400
 `“Ah[line=3]welcome home, Master Shiki.@ I am about to put Master Makihisa’s room in order.”@
 `Dozens of books lie at Hisui’s feet.@
-`One book weighs almost nothing, but ten together are another matter.@
-`There must be well over fifty here.@
-`Hisui’s slender arms could never carry them all unaided.
+`A single book is light enough, but put ten together and suddenly they’re heavy.@
+`There are well over fifty here.@
+`I can’t imagine Hisui managing them with those slender arms.
 \
 `“Father’s room[line=3]that was on the first floor of the west wing, wasn’t it?”@
 `With a grunt, I gather up a stack of books.@
 ld c,"tachi/his_t07",crossfade,400
 `“Please don’t, Master Shiki.@ This is my work, so please rest in your room.”@
-`“It’s fine.@ Sitting around will only make me stiff, and though this barely begins to repay everything you do for me, at least let me help.”@
+`“It’s fine.@ Sitting around will only make me stiff.@ This is hardly enough to thank you for everything you do for me, but let me help.”@
 `“But[line=4]”@
 `“These are heavy.@ What was Akiha thinking, leaving all this lifting to you?”@
 ld c,"tachi/his_t05",crossfade,400
@@ -27,7 +27,7 @@ ld c,"tachi/his_t05",crossfade,400
 \
 `“Go on ahead to Father’s room, Hisui.@ I’ll carry the books, and you can concentrate on arranging everything inside.@ That way, we each do what we’re best at, right?”@
 ld c,"tachi/his_t04",crossfade,400
-`“[line=3]Very well, then I leave them in your care, Master Shiki.”@
+`“[line=3]Yes.@ Thank you, Master Shiki.”@
 cl a,crossfade,400
 `Looking apologetic, Hisui climbs the stairs.@
 `[line=3]Now, then.@
@@ -37,7 +37,7 @@ bg #000000,lshutter,800
 bg "bg/bg_41",rshutter,800
 `“So[line=3]this was Father’s room.@ Hisui, do you mind if I look through some of the books?”@
 ld c,"tachi/his_t04",crossfade,400
-`“I believe you may examine anything that is not locked.”@
+`“Yes, I think it should be all right as long as it isn’t locked.”@
 cl a,crossfade,400
 `Hisui shelves the books I carried in.@
 `Apparently sorting them by subject, she moves briskly back and forth across the room.
@@ -53,12 +53,12 @@ cl a,crossfade,400
 `A letter opener lies on Father’s desk.@
 `Everything I need is conveniently at hand.@
 `“……”@
-`I lower my glasses just enough to see the desk.@
+`I slide my glasses down a little and look at the desk.@
 `“[line=5]There.”@
 `Silently, I sever the lock.
 \
-`“[line=3]It’s only paper.”@
-`The drawer contains a bundle of yellowed sheets.@
+`“[line=3]What?@ There’s nothing but paper in here.”@
+`The drawer contains a bundle of old papers.@
 `I pick one up for a closer look.@
 br
 `“Wait[line=3]this is our family tree.”@
@@ -75,12 +75,12 @@ playstop
 play "*6"
 br
 `[line=4]No, wait.@
-`This is too strange.
+`This is far too strange.
 \
 wave se_01
-`Reading the family tree carefully, I find that every member of the Tohno family met an unnatural end.@
-`Death after a descent into madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@
-`Not one of them died quietly of old age.@
+`I read the family tree carefully.@ Every member of the Tohno family came to an unnatural end.@
+`Death by madness.@ Accident.@ Murder.@ Disappearance.@ Stillbirth.@
+`…@Not one died peacefully of old age.@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_41",crossfade,400
@@ -92,9 +92,9 @@ bg #000000,crossfade,1500
 bg "bg/bg_41",crossfade,800
 waveloop se_02
 `“Ah[line=4]”@
-`The light drains from my sight.@
-`It feels as though blood is pooling, swaying at the back of my skull.@
-`Strength leaves my limbs, and I suffer the illusion that I can no longer breathe.@
+`The light fades from my vision.@
+`A dizzy feeling, as though blood is pooling at the back of my head.@
+`My limbs lose their strength, and it feels as though I can no longer breathe.@
 ld c,"tachi/his_t08",lshutter,400
 `“Master Shiki…!”@
 `Hisui—Hisui runs toward me.@
@@ -102,24 +102,24 @@ ld c,"tachi/his_t08",lshutter,400
 \
 ld c,"tachi/his_t25",crossfade,400
 playstop
-`“Master Shiki!@ Please stay conscious, Master Shiki…!”@
-`Hisui’s voice is full of concern.@
+`“Master Shiki!@ Please stay with me, Master Shiki…!”@
+`Hisui’s voice sounds worried.@
 `But her hands never touch me.@
-`“I’m all right[line=3]I just felt a little sick.”@
+`“I’m fine[line=3]I only felt a little sick.”@
 ld c,"tachi/his_t12",crossfade,400
-`“Please don’t strain yourself, Master Shiki…!@ Sit down.@ You’re white as a sheet—there is no reason to force yourself to remain standing…!”@
-`That’s unusual.@
-`Hisui is pleading with me in earnest.
+`“Please don’t strain yourself, Master Shiki…!@ Please sit in the chair.@ You’re so pale—surely you don’t need to force yourself to keep standing…!?”@
+`…@That’s unusual.@
+`Hisui is calling to me desperately.
 \
-`“I’m all right, so[line=3]”@
-`I struggle to pull my thoughts together.@
+`“…@Yes…@I’m all right, so[line=3]”@
+`I somehow pull my thoughts together.@
 `But the dizziness won’t pass.@
 br
 bg #000000,crossfade,400
 bg "bg/bg_41",crossfade,400
-`Red and black pulse across my vision.@
+`Red and black flicker across my vision.@
 `White.@
-`Hisui’s nape comes into view, looking terribly warm.
+`Hisui’s nape comes into view, looking unbearably warm.
 \
 `“[line=5]Ah.”@
 `How alluring.@
@@ -135,14 +135,14 @@ br
 \
 bg "bg/bg_41",notrans,0
 wavestop
-`“Damn[line=5]!”@
+`“Ghh[line=5]!”@
 `Unable to bear it, I flee from Hisui.@
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki?”@
+`“Master Shiki…?”@
 `“No[line=3]I’m fine[line=3]I’m fine, so leave me alone.”@
 ld c,"tachi/his_t17",crossfade,400
-`“I cannot.@ Master Shiki does not understand the state he is in.@ I cannot leave someone in such[line=3]such a condition alone.”@
-`And Hisui comes closer.
+`“I cannot.@ You do not understand your own condition, Master Shiki.@ I cannot leave someone in such[line=3]such a state alone.”@
+`Hisui comes closer.
 \
 cl a,crossfade,400
 `[line=3]This is bad.@
@@ -151,7 +151,7 @@ cl a,crossfade,400
 \
 `“Just leave me alone, Hisui…!”@
 ld c,"tachi/his_t17",crossfade,400
-`“I cannot obey.@ Master Shiki, please calm yourself.”@
+`“I cannot do that.@ Please calm down, Master Shiki.”@
 br
 waveloop se_02
 bg #000000,crossfade,400
@@ -163,22 +163,22 @@ bg "bg/bg_41",crossfade,400
 `Why won’t this woman do as I say?@
 br
 bg #000000,crossfade,400
-`[line=3]Why are you getting in my way.@
+`[line=3]Why are you getting in my way?@
 `      Why won’t anything go the way I want…!
 \
 bg "bg/bg_41",crossfade,400
 `“Shut up…!@ Don’t you understand me when I tell you to stay away, Hisui?”@
 wave se_05
 quakex 2,100
-`“Ah[line=3]”@
+`“Ah—”@
 br
-`A heavy crash.@
-`Hisui strikes the bookcase, her face twisting in pain.@
+`A dull thud.@
+`Hisui is knocked against the bookcase, her face contorted in pain.@
 br
 `“Ah[line=3]”@
-`The sight of her face brings me to my senses.@
-`The dizziness ebbs almost at once.@
-`What remains has nothing to do with vertigo; it is only guilt.
+`…@The sight of her face brings me to my senses.@
+`The dizziness quickly fades.@
+`What remains is not dizziness or anything else.@ Just guilt.
 \
 `“[line=2]I’m sorry.@ What did I[line=2]”@
 ld c,"tachi/his_t21",crossfade,400
@@ -186,16 +186,16 @@ ld c,"tachi/his_t21",crossfade,400
 `Hisui keeps her head bowed.@
 `“[line=3]Hisui, I[line=3]I’m sorry, I don’t even know why I did that[line=3]”@
 ld c,"tachi/his_t26",crossfade,400
-`“I apologize.@ I disobeyed Master Shiki’s instruction and caused you distress, Master Shiki.”@
-`“No, I’m the one who should apologize.@ I did something terrible to you.”
+`“I am sorry.@ I failed to do as you asked and upset you, Master Shiki.”@
+`“…@No, I’m the one who should apologize.@ I did something terrible to you.”
 \
 ld c,"tachi/his_t21",crossfade,400
-`“Please return to your room, Master Shiki.@ Master Shiki is exhausted.@ I believe rest will soon restore you to yourself.”@
+`“…@Please return to your room, Master Shiki.@ You are tired.@ I think you will soon be yourself again if you rest.”@
 `“[line=6]”@
-`Hisui still won’t look up.@
-`“All right, I’ll go back.@ I’m sorry, Hisui.”@
+`Hisui keeps her head lowered.@
+`“…@All right, I’ll go back.@ I’m sorry, Hisui.”@
 `She gives no answer.@
-`Nearly crushed beneath my self-loathing, I leave the room.
+`I leave the room, almost crushed by self-loathing.
 \
 bg #000000,lcartain,800
 !w2000
@@ -208,13 +208,12 @@ br
 `I don’t understand.@
 `I don’t know why that feeling came over me, or why I did such a thing.
 \
-`At that moment.@
-`The sight of Hisui’s throat aroused me.@
+`Back then, the sight of Hisui’s throat aroused me.@
 `Just as in last night’s dream, I wanted to sink my teeth into it.@
-`Yet now the thought holds no appeal at all.@
+`Yet now no such thought even crosses my mind.@
 br
-`Last night’s dream and the person I became today.@
-`It feels as though someone who is not me lives inside me.
+`Last night’s dream.@ The way I was just now.@
+`A feeling as though there is a self inside me that is not myself.
 \
 `“[line=4]”@
 `I touch my throat.@
@@ -222,7 +221,7 @@ br
 `“That’s absurd.@ I can walk around in broad daylight.”@
 `Yes, it is impossible.@
 `It was only a hallucination brought on when dizziness clouded my mind.@
-`What happened with Yumizuka was burned into my memory, and the anemia merely brought it back.
+`I think what happened with Yumizuka is burned into my memory, and the anemia simply brings it back.
 \
 `“Maybe Hisui is right and I’m just exhausted.”@
 `Perhaps so.@
@@ -261,8 +260,8 @@ br
 br
 br
 br
-`[line=4]Once the body has awakened,
-`          sleep cannot quiet it.
+`[line=4]Once the body is stirred up,
+`          sleep alone cannot calm it.
 \
 wave se_01
 !w750
@@ -306,8 +305,8 @@ br
 br
 br
 br
-`My face appears suddenly, reflected in a darkened window.@
-`Its bloodshot eyes look anything but sane.
+`Suddenly, I catch sight of a face reflected in a window.@
+`The eyes are bloodshot.@ It looks anything but sane.
 \
 wave se_01
 br
@@ -345,9 +344,9 @@ wait 100
 bg "bg/ima_12b",notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse is dragged away, and teeth close on its throat.@
+`The corpse is brought inside.@ The sound of teeth sinking into its throat.@
 `I hear wet sucking.@
-`Blood is swallowed straight from the neck, flesh torn away with it, until the thirst subsides.
+`Drinking blood from the throat, as though biting through flesh and all.@ Quenching the thirst.
 \
 br
 br
@@ -382,8 +381,8 @@ br
 \
 `Then.@
 `An interruption.@
-`The corpse is cast aside, and the figure leaps away.@
-`Someone.@ Someone is watching.
+`The corpse is thrown aside.@ A leap.@
+`Someone.@ Someone seems to be watching.
 \
 br
 br
@@ -392,12 +391,12 @@ br
 br
 br
 br
-`[line=4]So tonight is different.
+`[line=4]Is this different from yesterday?
 \
 bg "bg/ima_02",tshutter,400
-`Something like an enormous nail comes hurtling through the air.@
-`The figure leaps aside to avoid it.@
-`It races up the face of a building and bounds from rooftop to rooftop.
+`Something like an enormous nail flies through the air.@
+`A leap to avoid it.@
+`Up the side of a building, from rooftop to rooftop.
 \
 br
 br
@@ -442,13 +441,13 @@ br
 bg "bg/bg_40a",crossfade,800
 `“Ah[line=4]”@
 `I wake from the dark dream.@
-`“My room.”@
-`There can be no doubt that I am in my own room.@
-`I have spent the night here in bed and awakened to morning.@
-`I dreamed it again.@
+`“…@My room.”@
+`There is no mistaking it.@ I am in my own room.@
+`Lying in bed as morning comes.@
+`…@I had that dream again.@
 `A dream of drinking someone’s blood.@
-`I know it was a dream, yet it was hideously real.@
-`My hands still remember tearing flesh, and the raw smell of blood still lingers in my nostrils[line=3]
+`I know it is a dream, yet it feels terribly real.@
+`The feeling of tearing flesh still lingers in my hands, the raw smell of blood in my nose[line=3]
 \
 `“[line=3]What is happening to me?”@
 `I touch my throat.@
@@ -456,8 +455,8 @@ bg "bg/bg_40a",crossfade,800
 `I am still an ordinary human being.@
 `I have never wanted to drink anyone’s blood, and sunlight does not repel me.@
 `“[line=4]Ah.”@
-`No.@ Yesterday was different.@ I—
+`No.@ Yesterday, I—
 `When I saw Hisui’s throat, what did I think?@
 `[line=3]A white throat.@
-`From the bottom of my heart, I wanted the red blood that would flow from it[line=4]
+`From the bottom of my heart, I wanted the red blood flowing from it[line=4]
 \

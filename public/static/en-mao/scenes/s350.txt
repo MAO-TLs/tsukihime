@@ -5,7 +5,7 @@ wavestop
 bg "bg/bg_06b",tshutter,800
 play "*1"
 `Classes are over.@
-`I should go meet Akiha outside the first-year classrooms.@
+`I’ll go to the first-year classrooms to meet Akiha.@
 br
 bg "bg/bg_10b",lcartain,400
 `The moment I step into the corridor, however, I run straight into her.
@@ -31,15 +31,15 @@ ld c,"tachi/aki_t01a",crossfade,400
 ld c,"tachi/aki_t21",crossfade,400
 `“It means I cannot control how I feel.@ It is much like the way you disliked Father, so please do not concern yourself with it.”
 \
-`“[line=3]Now listen, Akiha.@ I may have found Father difficult, but I never hated him.”@
+`“[line=3]Listen, Akiha.@ I just never felt comfortable around Father.@ It’s not that I disliked him.”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“I don’t hate her either.@ Admittedly, I went too far today.@ I regret it, so please overlook what happened at lunch.”@
-`“I see.@ Then I suppose it’s all right.”
+`“It’s not that I dislike her, either.@ …@Well, I did say too much today.@ I know that, and I regret it, so please overlook what happened at lunch.”@
+`“…@I see.@ Then I suppose it’s all right.”
 \
 cl a,crossfade,400
-`Then I suppose there is nothing to worry about.@
-`Ciel joins us for lunch more often than not, so it would be a problem if she and Akiha remained at each other’s throats.@
-`If Akiha means what she says, perhaps Arihiko and I will no longer have to watch them nervously from tomorrow on[line=3]
+`…@Well, then I suppose it will be all right.@
+`Ciel joins us for lunch more often than not, so it would be a problem if she and Akiha remained on bad terms.@
+`Given what Akiha says, it looks as though Arihiko and I won’t have to sit there on edge from tomorrow on[line=3]
 \
 bg #000000,lcartain,800
 !w1000
@@ -48,6 +48,6 @@ bg "bg/bg_40b",rcartain,800
 `“[line=4]Whew.”@
 `I toss my bag onto the desk and sit on the bed.@
 `Now what?@
-`Akiha had another lesson and left by car almost as soon as we got home.@
-`Come to think of it, Kohaku and Hisui both looked busy as they crossed the garden.
+`Apparently Akiha has a lesson.@ She went off somewhere by car as soon as we got home.@
+`…@Come to think of it, Kohaku and Hisui both looked busy, walking around the garden.
 \

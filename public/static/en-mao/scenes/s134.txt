@@ -5,51 +5,51 @@ bg "bg/bg_11a",notrans,0
 ld c,"tachi/cel_t07a",crossfade,400
 `“[line=5]Ah.”@
 `With her looking straight at me, I cannot help remembering[line=3]last night’s dream.@
-`“Tohno, what is wrong?@ Your face is red.”@
-`“N-nothing.@ I had a bad dream this morning.@ I am not feeling very well.”@
-`At least I have not lied and called the dream itself unpleasant; honest to a fault, that is me.
+`“Tohno?@ What’s wrong?@ Your face is red.”@
+`“N-nothing.@ I had a bad dream this morning.@ I’m not feeling very well.”@
+`At least I did not lie and call the dream itself unpleasant.@ Honest to a fault, that’s me.
 \
-`“Tohno?”@
-`Her expression grave, she continues to stare.@
-`“Ciel?”@
+`“…@Tohno?”@
+`Her expression grave, Ciel continues to stare.@
+`“…@Ciel…?”@
 `I falter.@ It feels as though she can read my mind, which only brings the dream back more vividly.@
 ld c,"tachi/cel_t12",crossfade,400
 `“You just said you had a bad dream.@ What exactly did you mean?”@
-`“It doesn’t mean anything, and it’s none of your business!@ Forget my dreams—I asked what you were doing here.”
+`“It doesn’t mean anything, and it’s none of your business!@ Forget my dreams.@ I asked what you were doing here.”
 \
 ld c,"tachi/cel_t08",crossfade,400
-`“It is my business!@ You did not sleep properly last night, did you?”@
+`“It is my business!@ You didn’t sleep properly last night, did you?”@
 `“[line=4]What?”@
-`She is right[line=3]certainly, she is.@
-`“Ciel, how did you know that?”@
+`Well, that is[line=3]certainly true.@
+`“…@Ciel, how did you know?”@
 ld c,"tachi/cel_t12",crossfade,400
-`“Because your face is bright red.@ I do not know what illness you have, but you clearly are not well.”@
-`“Ah[line=3]that is what you meant.”@
+`“Because your face is bright red.@ I don’t know what illness you have, but you clearly aren’t well.”@
+`“Ah[line=3]that’s what you meant.”@
 `For an instant, my heart lurches.@
-`She had somehow known I did not sleep last night; impossible though it is, I almost thought[line=3]
+`She had somehow known I didn’t sleep last night.@ Impossible though it was, I almost thought[line=3]
 \
 ld c,"tachi/cel_t07a",crossfade,400
-`“Never mind that.@ Tell me what happened in your dream.”@
-`She has not given up and asks me again.@
-`“Honestly, it was nothing important.@ You just appeared in it for a little while…@ that is all.”@
+`“Never mind that.@ Tell me about your dream.@ What did you see?”@
+`…@She has not given up.@
+`“…@Honestly, it was nothing important.@ You just…@appeared in it for a little while.@ That’s all.”@
 br
 `I mumble the answer under my breath.@
 br
-`The instant I do.@
+`And the instant I do[line=3]
 ld c,"tachi/cel_t10d",crossfade,400
-`“I-I was in it?”@
-`For once, her anger is impossible to miss.
+`“I-I was in it?!”@
+`For once, Ciel’s anger is impossible to miss.
 \
 `“Um, Ciel?”@
 ld c,"tachi/cel_t09b",crossfade,400
 `“……………………”@
-`She darts one step away, then stares up at me from beneath her lashes.@
+`Ciel darts one step away, then stares up at me from beneath her lashes.@
 `“……………”@
 cl c,lshutter,800
-`After looking as though she desperately wants to say something, she gives me a quick bow and runs away.
+`After looking as though she desperately wants to say something, Ciel gives me a quick bow and runs away.
 \
-`“……?”@
-`I tilt my head.@
+`“………?”@
+`Puzzled, I tilt my head.@
 `A moment later, the warning bell for homeroom rings.
 \
 bg #000000,crossfade,800

@@ -7,9 +7,9 @@ ld c,"tachi/ari_t01",lshutter,400
 `“Honestly, Tohno, you still eat like a bird.”@
 `Arihiko’s presence opposite me had become so routine that there was no point complaining anymore.
 \
-`“Still, there’s something bleak about two grown men sitting face-to-face over lunch.@ This table needs a little feminine grace.”@
-`“Right.@ Then ask that group to let you join them.@ I won’t stop you.”@
-`“Fool.@ Grace is one delicate flower blooming alone.@ A whole huddle like that is no good—it’s not beautiful; it’s so commonplace it looks poisonous.”@
+`“Still, there’s something bleak about two grown men sitting face-to-face over lunch.@ This table could use a flower.”@
+`“Right.@ If you want flowers, ask that group to let you join them.@ I won’t stop you.”@
+`“Fool.@ The whole point is one delicate flower blooming on its own.@ A bunch like that?@ No good.@ Nothing beautiful about it.@ Common as weeds, and poisonous with it.”@
 `Arihiko made a remark that might have gotten him pelted with stones if the girls had heard.@
 `Fortunately, none of the girls in class had heard his venomous remarks yet.
 \
@@ -19,8 +19,8 @@ ld c,"tachi/ari_t04",crossfade,400
 `“…@Who is this beautiful flower?”@
 `“That’s a secret.@ I’d rather not create more rivals.”@
 cl c,crossfade,400
-`Arihiko chuckled, his smile nakedly ambitious.@
-`I almost admired how openly he displayed something I seemed to lack.
+`Arihiko chuckled, ambition written all over his face.@
+`He never hid what he was feeling.@ I couldn’t do that, and I admired him a little for it.
 \
 br
 `[line=4]And then.@
@@ -34,7 +34,7 @@ ld c,"tachi/cel_t01a",lshutter,400
 `Still smiling, Ciel fetched a chair and sat down as if it were the most natural thing in the world.
 \
 `“Ciel, were you hurt after all?”@
-`“No, I wasn’t hurt at all, though.”@
+`“No, I’m not hurt.@ Why?”@
 `That answer, delivered with a smile, left me at a loss.@
 `“You told me to come by at lunch, so I thought I ought to.”@
 `“Well—I did say that.”@
@@ -55,7 +55,7 @@ ld r,"tachi/ari_t05",crossfade,400
 ld l,"tachi/cel_t04",crossfade,400
 `“Really?@ What a coincidence that you and Inui are friends.”@
 `“Exactly!@ This bastard looks quiet and innocent, yet somehow he became friendly with you behind my back; naturally, I’m wondering how!”@
-`Arihiko laughed at Ciel while glaring daggers at me.@
+`Arihiko beamed at Ciel and glared daggers at me.@
 `Was this what they meant by a dazzling feat of multitasking?
 \
 bg #000000,tshutter,400
@@ -74,8 +74,8 @@ ld r,"tachi/ari_t01",crossfade,400
 `“So you got worried and came to check on him?”@
 `“Yes, more or less.”@
 cl a,crossfade,400
-`Ciel spoke briskly and precisely; it was a pleasure to listen to.@
-`Listening was more interesting than joining in, so I stayed quiet—until Arihiko turned on me.
+`Ciel had a brisk, lively way of talking that was a pleasure to listen to.@
+`I was enjoying listening more than I would have enjoyed joining in, so I kept quiet—until Arihiko turned on me.
 \
 ld c,"tachi/ari_t04",crossfade,400
 `“What happened, Tohno?@ Did you have another one of your fainting spells?”@
@@ -97,7 +97,7 @@ ld c,"tachi/cel_t08",crossfade,400
 \
 `“…@Could that be the Tohno estate?”@
 `Ciel asked timidly, as though afraid of prying.@
-`To the people of this town, the Tohno family’s Western-style house on the hill must have seemed like something apart.@
+`To the people of this town, the Tohno family’s Western-style house on the hill must have seemed a place apart.@
 `I hadn’t returned for eight years myself, but in my memory the Tohno estate was absurdly large.
 \
 `“That’s right.@ I know I’ll be out of place there, but the move is already settled, so there’s no use arguing.”@
@@ -110,7 +110,7 @@ ld c,"tachi/ari_t04",crossfade,400
 \
 cl c,crossfade,400
 ld r,"tachi/ari_t03",crossfade,400
-`“Hey.@ I don’t approve of you staying at my house whenever something unpleasant happens.@ I like that laid-back, unassuming nature of yours, but I’ve always hated the way you bend over backward not to impose!”@
+`“Hey.@ You can’t come camping at my place every time something bothers you.@ I like how you take everything easy, but you’re too damn afraid of putting people out.@ Always have been!”@
 `Arihiko struck the table.@
 `“…”@
 `He was entirely right, which left me nothing to say.@
@@ -128,7 +128,7 @@ ld r,"tachi/ari_t04",crossfade,400
 ld r,"tachi/ari_t03",crossfade,400
 `“Sorry.@ That wasn’t mine to blurt out.”@
 `“It’s fine.@ It isn’t anything shameful.”@
-`Without looking at him, I kept eating my pastry.
+`Without looking at him, I kept eating my bun.
 \
 ld r,"tachi/ari_t02",crossfade,400
 `“Right.@ Yeah, of course.@ After all they did for you, you’d be tempting fate if you complained.”@
@@ -194,7 +194,7 @@ ld c,"tachi/stk_t03",crossfade,400
 \
 ld c,"tachi/stk_t01",crossfade,400
 `“You’ve forgotten we went to the same middle school, haven’t you?”@
-`Yumizuka said with a soft laugh.@
+`Yumizuka laughed softly.@
 `“What[line=4]?”@
 `The same middle school…?@
 `I had no memory of her, but if that was true[line=3]she might well know I had been sent to live with the Arimas.@
@@ -206,7 +206,7 @@ cl a,lshutter,400
 bg "bg/bg_06a",lcartain,800
 ld c,"tachi/ari_t01",crossfade,400
 `“Hey.@ All done?”@
-`“Yeah—it sounds like someone mistook me for somebody else; but listen, Arihiko—”@
+`“Yeah.@ Sounds like they got the wrong person.@ But listen, Arihiko—”@
 `“Yes.@ Yumizuka went to our middle school.@ And before you ask, the three of us were classmates in our second and third years there, and now again in our second year of high school—three years altogether.”@
 `“[line=4]Wh—”@
 `He had plainly known what I was about to ask; his answer came with a look of exasperation.@
@@ -229,7 +229,7 @@ ld c,"tachi/cel_t02",crossfade,400
 cl a,crossfade,400
 ld l,"tachi/cel_t02",crossfade,400
 ld r,"tachi/ari_t01",crossfade,400
-`“Don’t ask me.@ I haven’t the faintest idea what you and Yumizuka get up to.@ All I know is that I saw the two of you having a very cheerful talk this morning too.”@
+`“Don’t ask me.@ I don’t know what you two get up to.@ All I know is you were having a pretty good time talking this morning, too.”@
 ld l,"tachi/cel_t11",crossfade,400
 `“Oh my—a secret rendezvous at school first thing in the morning; how daring of you!”@
 `Ciel’s imagination spiraled further into nonsense.
@@ -249,7 +249,7 @@ cl l,crossfade,400
 ld r,"tachi/ari_t04",crossfade,400
 `“Tohno.@ Stay away from Yumizuka.”@
 `The words came quietly.@
-`Arihiko’s face was more serious than I had ever seen it.@
+`Arihiko looked unusually serious.@
 `“Why should I stay away from her?”@
 `“Yeah.@ Yumizuka may not look it, but she’s shy and utterly devoted.@ She’s a terrible match for an oblivious idiot like you.@ Girls like her are dangerous once things get serious.”@
 cl r,crossfade,400

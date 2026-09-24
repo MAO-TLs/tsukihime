@@ -78,7 +78,7 @@ ld c,"tachi/his_t09",crossfade,400
 `“Very well.@ Please excuse me.”
 \
 cl c,lshutter,800
-`“It was unusual to see Hisui angry.”@
+`“Hisui was angry.@ That’s unusual.”@
 `She was always so expressionless that when she did get angry, she seemed furious.@
 `As though I had committed some dreadful offense.@
 `“[line=4]Well, time to get up.”@
@@ -99,11 +99,11 @@ ld c,"tachi/aki_t01a",lshutter,800
 `“Speak with me?@ Sure.”@
 `I sat on the sofa opposite her.@
 ld c,"tachi/aki_t02",crossfade,400
-`“Then I’ll be direct: what were you doing yesterday?@ According to Hisui, you returned after midnight.@
+`“Then I’ll be direct: what were you doing yesterday?@ According to Hisui, you came home very late last night.@
 `Brother, you know the curfew in this house is eight o’clock.”@
 `Akiha’s gaze did not waver.
 \
-`“I’m sorry I broke curfew.@ One of my classmates seemed to be in serious trouble, so I went looking for her.@ But all I did was walk around town.@ I apologize for being late, but it wasn’t anything dramatic.”@
+`“I’m sorry I broke curfew.@ One of my classmates seemed to be in serious trouble, so I went looking for them.@ But all I did was walk around town.@ I’m sorry I was late, but it wasn’t a big deal.”@
 ld c,"tachi/aki_t03a",crossfade,400
 `“Walking around town at night is serious.@ You’re still a minor, Brother, so please don’t go out into the city at night.@ Things have been dangerous lately.”@
 `“I know I’m underage, but I wasn’t doing anything dangerous.@ I don’t drink or anything like that, so don’t worry.”@
@@ -113,7 +113,7 @@ ld c,"tachi/aki_t02",crossfade,400
 `“Don’t be ridiculous.@ You can say that after you manage one full week without collapsing from anemia.@
 `I should not have to remind you that your body cannot endure much strain, Brother.@ What would you do if you wandered around imagining yourself perfectly healthy and suddenly fainted?”@
 `“Ah[line=5]yes, that’s true.”@
-`She really was worried about me.@
+`She seemed to be worried about me.@
 `Realizing that, I began to regret how selfishly I had behaved the night before[line=4]
 \
 ld c,"tachi/aki_t21",crossfade,400
@@ -128,7 +128,7 @@ cl c,lshutter,800
 \
 `“A penalty, Akiha…?”@
 `It had to be a joke, but she sounded completely serious; Akiha could be impossible to read.@
-`“Master Shiki, breakfast is ready!”@
+`“Shiki, breakfast is ready!”@
 `Kohaku called from the dining room.@
 `I rose and went in.
 \
@@ -159,7 +159,7 @@ ld c,"tachi/ari_t01",lshutter,400
 `A familiar face scuttled in sideways like a crab.@
 `“Yes, I am.@ If you already know that, don’t get in my way, Arihiko.”@
 `“Heh-heh.@ No point looking for Sats.@ She’s staying home today.”@
-`Arihiko gave me a knowing, unpleasant little grin.@ I disliked the distinct impression that he had seen through absolutely everything.
+`Arihiko gave me a knowing, unpleasant little grin.@ It felt as though he’d seen right through me.@ Not good.
 \
 `“Why are you calling her Sats?”@
 `“Sats is Sats.@ The police took our dear Yumizuka into protective custody last night, and now she’s stuck at home for the day.@ Takada was talking about it a minute ago while eating chocolate.”@
@@ -170,10 +170,10 @@ ld c,"tachi/ari_t01",lshutter,400
 `I glanced sidelong at the classmate sitting beside me.
 \
 `Takada was crunching chocolate as usual.@ At Christmas, I was told, he dressed as Santa Claus, filled his sack with chocolate, and munched his way down the street.@
-`For a background character, he had a remarkably memorable gimmick.
+`For a bit player, he had a pretty sweet gimmick.
 \
 `“No, never mind.@ Takada isn’t the type to start baseless rumors.@ It must be true.”@
-`“Probably.@ A few girls say they’ve seen her, and Kunifuji went straight to Yumizuka’s house first thing this morning.@ Though I suppose the hard part starts now for her.”@
+`“Probably.@ A few girls say they’ve seen her, and apparently Kunifuji went to Yumizuka’s house first thing this morning.@ Though I suppose the hard part starts now for her.”@
 cl c,lshutter,800
 `Arihiko returned to his desk with an unusually grave expression.@
 br
@@ -188,7 +188,7 @@ bg #000000,tshutter,800
 bg "bg/bg_06a",bshutter,800
 `Mr.@ Kunifuji never came.@
 `Lessons began without homeroom, and the short Saturday schedule ended uneventfully.@
-`My classmates hurried out—club members to lunch, everyone else home to make the most of the afternoon.
+`My classmates hurried out.@ Those with club activities were probably off to eat lunch; the others would head straight home to make the most of Saturday afternoon.
 \
 `“[line=8]Well”@
 `I had no reason to linger either.@
@@ -203,18 +203,18 @@ br
 \
 bg #000000,tcartain,800
 play "*1"
-`[line=3]On reflection, one possibility came readily to mind.@
+`[line=3]Now that I thought about it, I had an idea why.@
 `Running around town at night in my school uniform was bound to get back to the administration.@
 `The school might be second-rate, but it was still academically ambitious and strict about its rules.@
-`After a severe reprimand, I was sent to the discipline office to write a formal apology.
+`After a severe reprimand, I was sent to the discipline office to write about what I’d done wrong.
 \
 bg "bg/bg_08b",tshutter,800
-`“The sun has gone down, Mr Kunifuji”@
+`“It’s already dark, Mr.@ Kunifuji.”@
 `I muttered to the empty discipline office.@
 `My homeroom teacher had promised to collect my essay in an hour, then vanished without a word.@
 `It was after six-thirty.@
 `At this rate Akiha would spend another evening needling me.@
-`“[line=4]Hah.@ I’m going home now, whether you like it or not.”@
+`“[line=4]Hah.@ I’ll be going home now, sir.”@
 `Disgusted with myself for addressing an absent teacher so politely, I rose.
 \
 bg #000000,lcartain,800
@@ -245,7 +245,7 @@ ld c,"tachi/stk_t10",lshutter,800
 `For no reason I could name, a cold so fierce it seemed ready to snap my spine went through me.
 \
 `“So that was you next door.@ The walls here are thin; you can get a sense of what’s happening in the other room.@
-`Maybe I should have savored it more—your warmth, your breathing, while you were still alive.”@
+`Maybe I should have enjoyed your warmth and breathing a little more.@ While you’re still alive.”@
 `Yumizuka’s eyes met mine.@
 wave se_01
 bg #000000,crossfade,400
@@ -270,7 +270,7 @@ ld c,"tachi/stk_t03",crossfade,400
 `“No, silly—I don’t mean come shopping with me.@ I mean be my boyfriend.”@
 `Yumizuka giggled delightedly.@
 `“What[line=6]”@
-`For me, it was too sudden.@ My mind stopped working.
+`Her sudden confession left me unable to think.
 \
 `“Wait.@ Yumizuka, that’s[line=4]”@
 `I was happy, but.@
@@ -321,7 +321,7 @@ br
 br
 `I didn’t care.@
 `If she[line=3]if Yumizuka wanted it, what was wrong with that?@
-`We were lovers now; a kiss was perfectly ordinary[line=3]I thought.
+`We were going out now; a kiss was perfectly ordinary[line=3]I thought.
 \
 `“All right.@ Don’t move, Yumizuka.”@
 ld c,"tachi/stk_t02",crossfade,400
@@ -332,7 +332,7 @@ cl c,lshutter,800
 `On the way.@
 `I saw several girls lying hidden in the narrow valleys between desks.@
 `Blood ran from every throat.@
-`Yet no matter how I tried[line=3]I could not make myself care about them.
+`Yet somehow[line=3]I could not bring myself to care about them.
 \
 `[line=4]Yumizuka did not move.@
 br
@@ -367,7 +367,7 @@ br
 `I forced strength into my limbs and crawled.@
 `But even that was cut short.@ Her voice made it impossible.@
 `“No—you can’t escape anymore, and I won’t let you.@
-`Now, where should I begin spreading my world?@ Right here, perhaps.@ You’ll help me, won’t you, Shiki?@ You broke your promise to save me when I was in trouble, so from now on you’ll indulge every selfish wish I have.”@
+`Now, perhaps I’ll start expanding my world from here.@ You’ll help me, won’t you, Shiki?@ You broke your promise to save me when I was in trouble, so from now on you’ll indulge every selfish wish I have.”@
 `Her muffled laughter followed.
 \
 bg #9c0120,crossfade,800

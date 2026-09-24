@@ -4,7 +4,7 @@ bg "bg/bg_29b",notrans,0
 ld c,"tachi/stk_t04",crossfade,400
 `“Ah[line=4]”@
 `Yumizuka’s body shuddered.@
-`Breathing painfully, she staggered and then[line=3]sank to her knees.@
+`Breathing painfully, she[line=3]sank to her knees.@
 cl c,lshutter,400
 play "*6"
 `She made a wet, choking sound.@
@@ -50,7 +50,7 @@ bg #9c0120,crossfade,1500
 `“[line=7]”@
 `She was drinking me.@
 `It felt as if everything inside my body were turning to liquid and being drawn upward.@
-`With no strength, I could think of nothing.@
+`I had no strength.@ I couldn’t think.@
 `My consciousness wasn’t fading.@
 `It was simply being destroyed.@
 br
@@ -68,7 +68,7 @@ br
 br
 br
 textcolor #ff0000
-`KILL THAT WOMAN
+`#ff0000KILL THAT WOMAN
 \
 textcolor #ffffff
 wave se_01
@@ -95,11 +95,11 @@ br
 br
 `Blood pulsed steadily from my neck.@
 `The marks where Yumizuka’s teeth had pierced me.@
-`Through the two deep holes, something black seemed to be pouring into my body[line=3]
+`Through the two deep holes, something black was pouring into my body[line=3]
 \
 wave se_01
 `“Ah[line=3]gh, aaaaaagh…!”@
-`Pain—as though someone were pulling my spine out of my body.@
+`My spine.@ The pain was like having my spine pulled out.@
 wave se_01
 `“Hah[line=4]aghhh…!”@
 `I clawed at the ground in agony.@
@@ -133,7 +133,7 @@ br
 \
 `“I didn’t understand the theory, but what I had to do was simple.@
 `I was cold and lonely.@
-`I didn’t want to disappear, so I drank the blood of the first person I found.@
+`I didn’t want to disappear, so I drank the blood of someone I picked at random.@
 `And it was delicious!@ The pain faded, and I felt as though I could do anything.”
 \
 `“It tasted so good that before I knew it, I had drunk every drop.@
@@ -145,7 +145,7 @@ br
 \
 `“B-but[line=5]”@
 `What was she saying?@
-`That needing to kill humans to survive made it acceptable?@
+`Was it all right to kill people simply because she had to do it to survive?@
 `I could never[line=3]
 \
 `“But now I think I’ve finally become a proper vampire.@
@@ -179,7 +179,7 @@ monocro #ff0000
 bg "bg/bg_31b",crossfade,400
 `“[line=5]Ah.”@
 `It had only happened in a dream.@
-`But I couldn’t say it had never happened.@
+`But I couldn’t…@ say it had never…@ happened.@
 br
 `“See?@ That’s a pure murderous impulse, untouched by emotion.@ The fragile place inside you that I tried so hard—and failed—to understand.”
 \
@@ -195,7 +195,7 @@ ld c,"tachi/stk_t03",crossfade,400
 `Yumizuka got to her feet as she explained, looking thoroughly pleased with herself.
 \
 cl c,lshutter,800
-`“I see…@ so this is your blood.”@
+`“So…@ this…@ is your blood, Yumizuka…”@
 `The black substance still released its poison inside me.@
 `I could hardly believe that less than a mouthful could bring me so close to madness.
 \
@@ -214,6 +214,7 @@ br
 `Then—
 \
 textcolor #ffffff
+`#ffffff
 `This blood.@
 `This foreign thing coursing endlessly through me.@
 `I couldn’t see it.@
@@ -234,6 +235,7 @@ br
 `First—
 \
 textcolor #ffffff
+`#ffffff
 `My glasses had fallen off while I writhed on the ground.@
 `Lines.@ In my own body, I could see a point that seemed to belong to the foreign thing.
 \
@@ -267,12 +269,12 @@ ld c,"tachi/stk_t07",crossfade,400
 `“[line=3]Thank goodness.@ Now we can be together forever, Shiki.”@
 `“……”@
 ld c,"tachi/stk_t10",crossfade,400
-`“Come here.@ Stand beside me, take my hand, and put me at ease.”@
+`“Come here.@ Stand beside me, take my hand, and make me feel safe.”@
 `She held out her hand.@
 br
 `[line=4]Thump.@
 br
-`My heart struck one deafening beat, and my feet moved on their own.@
+`My heart struck one louder beat, and my feet moved on their own.@
 `But not toward her—back.
 \
 ld c,"tachi/stk_t09",crossfade,400
@@ -313,6 +315,7 @@ br
 `Kill
 \
 textcolor #ffffff
+`#ffffff
 `“Hah—hah—hah.”@
 `That feeling.@
 `Those thoughts—mine, yet as alien as a stranger’s.@
@@ -328,7 +331,7 @@ br
 br
 br
 br
-`[line=7]My mind goes dim.@!w2000
+`[line=7]My mind / grows / dim.@!w2000
 \
 `“What’s wrong…?@ Why won’t you do what I say…?”@
 br
@@ -337,7 +340,8 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_29c",notrans,0
 textcolor #ff0000
-`Kill
+`#ff0000Kill
+`#ffffff
 textcolor #ffffff
 br
 `Thump, thump.@
@@ -345,13 +349,13 @@ br
 \
 `“Shiki, you[line=3]”@
 `“No, Yumizuka[line=4]”@
-`I stared her down through my labored breathing.@
+`I stare at her, struggling for breath.@
 ld c,"tachi/stk_t11",crossfade,400
 `“Why[line=3]!?@ Why isn’t my blood working…!?”@
 `“I killed your blood.@ So I won’t become one of you.”@
 ld c,"tachi/stk_t09",crossfade,400
 `“Wha[line=3]”@
-`She stared at me in shock.
+`She stares at me in shock.
 \
 wave se_01
 textcolor #ff0000
@@ -365,18 +369,21 @@ br
 `Kill
 \
 textcolor #ffffff
+`#ffffff
 `“Go away, Yumizuka.@ I don’t know why, but when you’re here, I[line=3]”@
 br
 wave se_01
 textcolor #ff0000
-`Kill
+`#ff0000Kill
+`#ffffff
 textcolor #ffffff
 br
 `“I[line=4]”@
 br
 wave se_01
 textcolor #ff0000
-`Kill
+`#ff0000Kill
+`#ffffff
 textcolor #ffffff
 br
 `“I don’t want to kill anyone[line=4]”
@@ -391,7 +398,7 @@ br
 br
 br
 br
-`[line=8]My consciousness turns inside out.@!w2000
+`[line=8]My consciousness / turns / inside out.@!w2000
 \
 playstop
 bg "bg/bg_29c",crossfade,400
@@ -412,6 +419,7 @@ wave se_01
 textcolor #ff0000
 br
 `I know nothing of that
+`#ffffff
 textcolor #ffffff
 br
 `“Fine.@ If you won’t behave, I’ll kill you first.@ There’ll still be plenty of time to give you my blood afterward…!”@
@@ -421,6 +429,7 @@ br
 `Bold words from a worthless failure
 \
 textcolor #ffffff
+`#ffffff
 `Only the voice remains.@
 `There is no will behind it.@
 `Yumizuka is trying to kill this body, and this body is simply trying to kill her in return.
@@ -430,21 +439,21 @@ wave se_06
 bg "bg/ima_14",crossfade,400
 !w1000
 bg #000000,notrans,0
-`A soft, yielding sensation.@
-`My right arm hangs heavy with the knife; my limp left arm burns.@
+`A dull impact.@
+`My right arm, holding the knife, is heavy; my limp left arm burns.@
 `The heat comes from flowing blood.@
 `Yumizuka’s claws have ripped through cloth and skin and opened my arm.@
 `Perhaps that bleeding cooled the blood boiling inside me.@
 `My heart’s violent pounding begins to subside.@
 `But when awareness returns.@
-`I find myself embracing Yumizuka, my knife buried through her heart.
+`I find my knife driven through Yumizuka’s heart, my body against hers as though I were embracing her.
 \
 bg "bg/bg_29c",crossfade,400
 play "*8"
 `“Wha[line=7]”@
-`The nightmare was still unfolding.@
+`The nightmare is still unfolding.@
 `Without even realizing it.@
-`I had killed Satsuki Yumizuka.@
+`I have killed Satsuki Yumizuka.@
 br
 `“Why…?”@
 `Yumizuka’s body sags against me, cold.@
@@ -461,14 +470,14 @@ br
 `I had not even meant to hurt her; so why[line=4]!?
 \
 `“Shiki…”@
-`Yumizuka whispers into my ear.@
-`Surely it is a curse meant for me.@
+`I hear Yumizuka’s voice at my ear.@
+`Surely she is condemning me.@
 `I promised to save her.@ Then I killed her without even understanding why.@
 br
-`“I’m h-happy.”@
+`“I’m…@ happy.”@
 br
 `And yet.@
-`Yumizuka said it as peacefully as though she were lost in a dream.
+`Yumizuka says it as peacefully as though she were lost in a dream.
 \
 `“Why?”@
 `“Because this is the first time you’ve really looked at me.@ That makes me happy.@ It means I was your first, Shiki.”@
@@ -490,18 +499,20 @@ br
 bg "bg/bg_29b",crossfade,400
 playstop
 br
-`[line=5]What had just happened?@
+`[line=5]What just happened?@
 br
 textcolor #ff0000
-`That’s right
+`#ff0000That’s right
+`#ffffff
 textcolor #ffffff
 br
-`[line=5]I couldn’t understand it.@
+`[line=5]I can’t…@ understand it.@
 br
 textcolor #ff0000
-`That is enough
+`#ff0000That is good
 \
 textcolor #ffffff
+`#ffffff
 `“Haaah[line=7]”@
 `I can’t catch my breath.@
 `Knife in hand, I feel everything in my stomach rising into my throat.@
@@ -525,11 +536,11 @@ br
 `[line=5]The girl who had called murder fun had said it with such pride.
 \
 `“[line=3]No.”@
-`That wasn’t true.@
-`I couldn’t accept it.@
-`If I did, I would never be sane again.@
+`That isn’t true.@
+`I can’t accept it.@
+`If I do, I won’t be able to stay sane.@
 `“[line=4]I’m not like you.@ I’m different, Yumizuka.”@
-`There was no strength in my denial.@
+`There is no strength in my denial.@
 bg #9c0120,crossfade,400
 bg "bg/bg_29b",crossfade,400
 br

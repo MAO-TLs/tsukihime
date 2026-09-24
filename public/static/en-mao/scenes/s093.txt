@@ -97,8 +97,8 @@ play "*4"
 ld c,"tachi/kemo_t02",crossfade,400
 `“H[line=5]ah!”@
 br
-`A black dog charged.@
-`Countless lines covered its body, and on its forehead I could see a point of death.@
+`A black dog charges.@
+`Countless lines cover its body, and on its forehead I can see a point of death.@
 br
 `[line=4]Without hesitation.@
 br
@@ -130,19 +130,19 @@ bg #ffffff,crossfade,1500
 `That is wrong.@
 `Something this trivial cannot kill me; I refuse to die.@
 br
-`I would not flinch at a little carnage like this.
+`I don’t flinch at a little carnage like this.
 \
 br
 `[line=4]A hot summer day.@
 br
-`Long ago—or was eight years ago really so long?@
-`I had witnessed something far worse than this[line=4]
+`Long ago—or was it eight whole years ago?@
+`Hadn’t I witnessed something far worse than this[line=4]
 \
 bg #000000,crossfade,400
 waveloop se_02
 ld c,"tachi/kemo_t02",crossfade,400
 br
-`The blade struck home.@
+`Stab.@
 br
 `I drive the knife into the forehead of the black dog clamped onto my neck.@
 `My arm moves a fraction of a second before its jaws can bite through my throat.
@@ -162,7 +162,7 @@ br
 `Well[line=3]yes, normally.
 \
 `But the black dog was dead.@
-`Death meant stillness.@ The instant I killed it, every faculty it possessed ceased to function.@
+`Death meant stopping.@ The instant I killed it, every faculty it possessed ceased to function.@
 cl c,crossfade,400
 `The second black dog dropped to the floor.@
 `It slumped into a viscous black stain, spreading darkness across the hotel corridor.
@@ -172,13 +172,13 @@ cl c,crossfade,400
 `I let my back strike the wall and stared up at the ceiling.@
 bg #9c0120,crossfade,400
 `[line=3]My head hurt.@
-`The world had come apart at the seams, black points of death showing everywhere.@
-`My whole body was ice-cold, while reason alone burned in a fever.
+`The world had become a patchwork of seams, with black points of death visible everywhere.@
+`My whole body was frozen, while reason alone burned in a delirious fever.
 \
 `“[line=3]Ngh.”@
 `The corpses of two black dogs lay beside me.@
 `One arm was drenched in blood; the other held a red knife.@
-`And, while I was taking inventory, the floors below held more human corpses than I could count.@
+`And, for good measure, the floors below held more human corpses than I could count.@
 br
 `“[line=4]Hah, haha, hahaha.”@
 br
@@ -187,7 +187,7 @@ br
 `Nothing like this could possibly be real.@
 `How long had I been dreaming this nightmare with my eyes wide open[line=3]?
 \
-`Ding.@
+`Ding-dong.@
 br
 `“Huh[line=4]?”@
 br
@@ -208,7 +208,7 @@ bg "bg/bg_20b",crossfade,400
 br
 `“That man[line=4]”@
 `Yes, I had seen him before.@
-`I was certain of it.
+`I was sure I must have seen him somewhere.
 \
 `“[line=7]”@
 `Without a word, the man came toward me.@
@@ -219,18 +219,18 @@ br
 `He gave no reaction at all.@
 `He simply kept walking, as though I did not exist.
 \
-`He drew closer.@
-`Only one meter remained[line=3]and only then did he seem to notice me.@
+`He came closer.@
+`At last, when he was barely a meter away, he seemed to notice me.@
 ld c,"tachi/nero_t03",crossfade,400
 `Those bloodshot eyes.@
 `The instant I met that gaze—something wholly removed from human eyes—my body ceased to obey me.
 \
-`“I was certain they had all been slaughtered; had one survived?”@
+`“I thought I had killed them all.@ So one remains.”@
 `The man swept his gaze across the two black dogs lying in the corridor.@
 `“[line=2]Filth.@ If you cannot dispose of a single scrap of meat, you are unfit to be my flesh.”@
 cl a,crossfade,400
 `He muttered in distaste and raised one arm.@
-`His coat lifted like a great black cape.@
+`His coat lifted like a cape.@
 br
 `[line=3]This was insane.@
 `With a wet, whipping sound, the black dogs vanished into the man’s coat.
@@ -257,13 +257,11 @@ br
 `His eyes were not on me at all.
 \
 `“Devour.”@
-`One sleeve of the coat rose with effortless grace.@
-`Beneath it churned chaotic darkness.@
-`Something enormous emerged from within.@
+`One sleeve of the coat lifted smoothly.@
+`From the chaotic darkness beneath it, something enormous emerged.@
 br
-`A roar.@
-`Two arcs of rushing air snapped shut.@
-`What emerged from beneath the man’s coat was the maw of a crocodile large enough to swallow a human whole.
+`With a roar, two slicing gusts snapped together.@
+`What emerged from beneath the man’s coat was a crocodile’s maw big enough to swallow a person whole.
 \
 `“Ah[line=7]”@
 br
@@ -284,11 +282,11 @@ playstop
 `“Hah[line=3]hah[line=4]hah.”@
 `My throat was ruined.@
 `Breathing had given way to coughing blood.@
-`My heart had become a pump forcing my own blood out through my throat.@
+`The pump of my heart forced my own blood out through my throat.@
 br
 `“Ghh[line=4]aa, ah.”@
-`My thoughts / split apart.@
-`Pain cuts my will / to pieces.@
+`Thought / splits apart.@
+`Pain  tears  my will  to / pieces.@
 br
 `I looked down.@
 `The entire right half of my abdomen was gone.
@@ -300,10 +298,10 @@ bg #ffffff,crossfade,800
 `A voice reached me.@
 `But not very clearly.@
 br
-`“That thing makes a poor watchdog, if it belongs to you.”@
+`“A poor watchdog, that one, for someone like you.”@
 `A man’s voice.@
 br
-`“[line=3]I can’t believe it.@ A vampire even named Chaos, stooping to take part in this pathetic little game.@ It is like some third-rate nightmare, Nrvnqsr Chaos.”@
+`“[line=3]I can’t believe it.@ A vampire known as Chaos, taking part in this pathetic little game.@ It is like some third-rate nightmare, Nrvnqsr Chaos.”@
 `Arcueid’s voice.
 \
 `“The feeling is mutual.@ Never did I imagine I would be made the officiant of so absurd a festival as the capture of a surviving True Ancestor.@
@@ -312,7 +310,7 @@ br
 \
 `“Yet what am I looking at?@
 `I was told the executor before me failed to lay so much as a scratch on you; how am I to account for that?@
-`Your present scale of existence is far too frail.@
+`Your existence has dwindled to a pitiful scale.@
 `This decay that leaves you beneath even a common revenant[line=3]were you attacked by agents of the Church before I arrived, Arcueid Brunestud?”@
 `I could not hear Arcueid answer[line=3]
 \
@@ -325,14 +323,14 @@ br
 `“……?”@
 `I could not understand.@
 `There was only[line=3]heat.@
-`My consciousness dimmed, then broke apart[line=4]
+`My consciousness grew hazy and faded out[line=4]
 \
 bg #9c0120,crossfade,1500
 bg "bg/bg_20b",notrans,0
 ld c,"tachi/ark_t01a",crossfade,1500
 play "*9"
 `“Oh, you’re awake.”@
-`“Arcueid?”@
+`“Ar…@cueid…?”@
 `I forced my closing eyes open.@
 `Arcueid was in front of me, and we seemed to be in the hotel corridor.@
 `“How do you feel?@ The wound should be closed for now, but does it still hurt?”@
@@ -353,7 +351,7 @@ ld c,"tachi/ark_t03",crossfade,400
 `“What's all this 'wh-wh-what' about?”@
 `“Wh-what is this…?”@
 `I pointed at the thing quivering where half my abdomen should have been.@
-`It did not hurt, and I could even feel strength returning—but I desperately hoped I was only imagining that I had seen something very much like it moments ago—
+`It did not hurt, and I even thought I could feel strength returning—but I desperately hoped I was only imagining that I had seen something very much like it moments ago—
 \
 ld c,"tachi/ark_t01a",crossfade,400
 `“Oh, that?@ It’s one of the familiars that reinforces Nrvnqsr’s body.@ You killed a familiar just before he got you, remember?@ There was still life in it, so I made it stand in for the missing part of your body.”@
@@ -373,7 +371,7 @@ ld c,"tachi/ark_t04",crossfade,400
 ld c,"tachi/ark_t01a",crossfade,400
 `“Oh, don’t worry about that.@ Once a familiar is severed from its master, it is only a piece of meat.@
 `It hasn’t settled on a shape yet, but before long it will take on the form recorded in your body and become a proper replacement.@
-`It will even be sturdier than the original.@ If you learned magecraft, you might be able to turn it back into a crocodile whenever you wanted.”@
+`It will even be sturdier than the original.@ If you learned magecraft, you might be able to turn it back into a crocodile.”@
 `Arcueid sounded less pleased for me than frankly envious.
 \
 ld c,"tachi/ark_t08",crossfade,400

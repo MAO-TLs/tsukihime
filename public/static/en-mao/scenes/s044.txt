@@ -3,7 +3,7 @@ playstop
 `“Nngh[line=5]”@
 `I rolled my shoulders, trying to loosen the knots dinner had left in them.@
 `I stretched with all my might, then let myself fall backward onto the bed.@
-`“Good grief.@ Dinner by itself was hard labor.”@
+`“God, even dinner is hard work here.”@
 `Not because the knives and forks were heavy, of course; Akiha’s stare was the real burden.
 \
 wave se_04
@@ -15,7 +15,7 @@ wave se_04
 \
 ld c,"tachi/his_t01",crossfade,400
 play "*1"
-`“I have come to make the bed.@ I’m afraid it will not be much to look at, so would you mind waiting in the sitting room?”@
+`“I have come to make the bed.@ I am afraid it is not very pleasant to watch.@ Would you mind waiting in the sitting room?”@
 `“There’s nothing unsightly about it.@ I’ll stay quietly out of your way in the corner, so just pretend I’m not here.”@
 `I sprang off the bed and retreated to the edge of the room.@
 `“……”@
@@ -29,7 +29,7 @@ play "*1"
 `Apparently she had been trained far too well as a servant.
 \
 `“Please, talk while you work.@ Otherwise I start feeling guilty for getting in your way.”@
-`“[line=3]If that is Master Shiki’s wish, then please excuse my discourtesy.”@
+`“[line=3]If you wish, Master Shiki.@ Please excuse my discourtesy.”@
 cl c,lshutter,400
 `Hisui calmly returned to making the bed.
 \
@@ -40,7 +40,7 @@ bg "event/his_e08",lshutter,800
 `After ten, the rules require everyone to refrain from moving about the mansion.”
 \
 `“We’re not even allowed to walk around inside?@ I’m not complaining, but isn’t that a little extreme?@ Akiha and I aren’t children anymore.”@
-`“Yes.@ But it is a rule, Master Shiki, and I must ask you to observe it.@ Surely Master Shiki knows how dangerous the nights have become?”@
+`“Yes.@ But it is a rule, Master Shiki, and I must ask you to observe it.@ Surely you know how dangerous it has become at night?”@
 br
 `Oh—that vampire panic Arihiko had mentioned.@
 `With a string of murders taking place in the city, I supposed there was no such thing as being too careful, but still…
@@ -52,12 +52,12 @@ ld c,"tachi/his_t01",crossfade,400
 `“Um, let me see[line=4]”@
 `There was plenty I wanted to ask, but I knew absolutely nothing about Hisui or Kohaku.
 \
-`“There is one more thing—it is not particularly relevant, but may I ask?”@
+`“It’s not really related, but can I ask?”@
 `“Of course.”@
 `“What exactly do you and Kohaku do here?”@
 `“I am assigned to you, Master Shiki, while my sister Kohaku attends Miss Akiha.@
 `When neither of you is home, we are entrusted with managing the estate; is something wrong?”@
-`“So attending her really does mean exactly that—”
+`“So that’s what you mean by looking after us…”
 \
 `My shoulders sagged.@
 `Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@
@@ -83,7 +83,7 @@ ld c,"tachi/his_t23",crossfade,400
 \
 `“[line=3]Anyway, that’s how I feel, so please don’t be so formal with me.@ I’d appreciate it if you told your sister the same thing.”@
 ld c,"tachi/his_t16",crossfade,400
-`“Yes.@ If that is what Master Shiki wishes.”@
+`“Yes, Master Shiki.@ If that is what you wish.”@
 `Hisui bowed, her face utterly blank.@
 br
 `She had missed the point so completely it was almost impressive.@
@@ -112,8 +112,8 @@ ld c,"tachi/his_t10",lshutter,400
 ld c,"tachi/his_t28",crossfade,400
 `“Ah……”@
 ld c,"tachi/his_t26",crossfade,400
-`“I am terribly sorry…”@
-`Tension threaded Hisui’s voice.@
+`“I am…@ terribly sorry…”@
+`Hisui’s voice was tense.@
 `“I am not accustomed to being touched.@ Please forgive me.”@
 `Her shoulders trembled faintly.@
 `Somehow, I felt as though I had done something truly awful.
@@ -127,7 +127,7 @@ ld c,"tachi/his_t04",crossfade,400
 `Still, I thought her gaze softened a little.
 \
 ld c,"tachi/his_t23",crossfade,400
-`“[line=3]Master Shiki has nothing to apologize for.@ I was the one at fault.”@
+`“[line=3]You have nothing to apologize for, Master Shiki.@ I was the one at fault.”@
 `“Well, maybe—I just felt like I should.”@ I scratched my head.@
 ld c,"tachi/his_t01",crossfade,400
 `Hisui studied my face, then lowered her eyes for a fleeting moment.@
@@ -141,7 +141,7 @@ ld c,"tachi/his_t01",crossfade,400
 `“Yes.@ However, it is rare for her to return as early as she did today.@ Miss Akiha has lessons until dinnertime, so she ordinarily arrives just before seven.”
 \
 `“Lessons[line=3]what kind?”@
-`“Today was Thursday, so she had violin practice.”@
+`“Today is Thursday, so she had violin practice.”@
 `“[line=4]What—”@
 `“She returns before dinner on weekdays, so if you wish to speak with Miss Akiha, please ask my sister after the meal.”@
 cl c,lshutter,400
@@ -151,7 +151,7 @@ cl c,lshutter,400
 `What was that supposed to mean?@
 `It was not as if she were some well-bred young lady, so why bother with anything so tiresome[line=3]
 br
-`“Oh, right—she was one.”@
+`“Oh, right.@ She is.”@
 br
 `Come to think of it, Shiki Tohno’s little sister was Akiha Tohno—a well-bred young lady to the core.
 \

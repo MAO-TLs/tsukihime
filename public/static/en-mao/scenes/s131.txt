@@ -2,15 +2,15 @@ monocro off
 play "*3"
 wavestop
 bg "bg/bg_06a",notrans,0
-`She wanders up and down the hall, apparently searching for someone.@
-`On closer inspection, our classroom does not seem to be her destination after all.
+`Ciel wanders up and down the hall, apparently searching for someone.@
+`…@On closer inspection, our classroom does not seem to be her destination after all.
 \
-`“She is as impossible to read as ever.@ What is she doing out there?”@
+`“…@She’s as impossible to read as ever.@ What is she doing out there?”@
 `I sit and watch.@
-`She stares intently at students passing through the corridor, then folds her arms and sinks into thought.
+`Ciel stares intently at students passing through the corridor, then folds her arms and sinks into thought.
 \
 `“Maybe she lost something.”@
-`It is odd for a third-year to lose something in the second-year corridor, but given how freely she roams the school, it is hardly impossible.@
+`…@It would be strange for a third-year to lose something in the second-year corridor, but given how freely she roams the school, it is hardly impossible.@
 br
 `[line=4]Wait.@
 `She has just walked into our classroom.@
@@ -20,17 +20,17 @@ ld c,"tachi/cel_t10a",lshutter,400
 `“Tohno!”@
 `“!”@
 `She shouts at me without warning.@
-`“Wh-what is it?@ I have not done anything bad enough to wind up on your radar.”@
+`“Wh-what is it?@ I haven’t done anything so bad you’d have to come after me.”@
 `“No excuses!@ Just come with me!”
 \
 bg #000000,lcartain,800
 bg "bg/bg_11a",lcartain,800
 `She seizes my arm and hauls me into the hall.@
-`“H-hey, what is this all of a sudden?@ Were you not looking for something?”@
+`“H-hey, what’s this all of a sudden?@ Weren’t you looking for something?!”@
 ld c,"tachi/cel_t10a",crossfade,400
 `“Stand right there and do not move.”@
 cl c,lshutter,800
 `“…!”@
-`Swept up by her intensity, I snap to attention.@ Then, just as she did the day before, she leans in and begins sniffing me.@
-`“Um, Ciel?”
+`Swept up by her intensity, I snap to attention.@ Then, just as she did yesterday, she leans in and begins sniffing me.@
+`“…@Um, Ciel…?”
 \

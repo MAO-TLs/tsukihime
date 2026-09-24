@@ -4,8 +4,8 @@ wavestop
 bg "bg/bg_15c",crossfade,800
 ld c,"tachi/ark_t01a",crossfade,400
 waveloop se_11
-`“Then it’s settled.@ Don’t worry—with your skill, Shiki, killing him will probably be almost disappointingly easy.”@
-`Wearing a gentle expression, Arcueid says something profoundly bloodthirsty.@
+`“Then it’s settled.@ Don’t worry—with your skill, Shiki, killing him will be almost disappointingly easy.”@
+`Wearing a gentle expression, Arcueid says something thoroughly alarming.@
 `I doubt it will go that smoothly, but there is no backing out now.
 \
 `“The question is how we do this.@ At the hotel, one look into his eyes left me unable to move, so I think the best I can manage is to approach from behind without being seen and somehow drive him off.”@
@@ -25,7 +25,7 @@ ld c,"tachi/ark_t05b",crossfade,400
 `“[line=2]I know that much.@ I only agreed to help because he’s a monster.”
 \
 `“No, you don’t understand.@ Cut his arms and legs?@ Don’t be absurd—that’s suicide.@ If you have time to cut his limbs, cut his life first.@
-`No one else could do it, but you can.@ Understand?@ Do not give Nrvnqsr any chance to strike back.@
+`Others might not be able to, but you can.@ Understand?@ Do not give Nrvnqsr any chance to strike back.@
 `His offensive power so vastly exceeds yours that if your first blow fails, you have no chance at all.”
 \
 `Arcueid’s eyes permit no argument.@
@@ -45,21 +45,21 @@ br
 ld c,"tachi/ark_t07",crossfade,400
 `“……”@
 `Arcueid does not answer.@
-`If she has no objection, I suppose she has accepted it for now.
+`She says nothing, so I suppose she accepts it for now.
 \
-`“[line=3]Where do we wait for him?@ If we stay in this apartment building, innocent people may die like they did at the hotel.@ Shouldn’t we move somewhere else?”@
+`“[line=3]Where do we wait for him?@ If we stay in this apartment building, people who have nothing to do with this may die like they did at the hotel.@ Shouldn’t we move somewhere else?”@
 `“[line=3]The park should do.@ No one will be there after midnight.@ Still[line=3]if someone does happen to pass by, that person was simply very unlucky.”@
 ld c,"tachi/ark_t22",crossfade,400
 `With that, Arcueid turns her back on me.
 \
-`“What is it?@ If you have something to say, say it.@ I’ve agreed to help, so I’ll try whatever mad plan you have.”@
+`“What is it?@ If you have something to say, say it.@ I’ve agreed to help, so I’m willing to try something a little crazy.”@
 `“It’s no use.@ In the end, you still haven’t said the word ‘kill’ even once.@ When the final moment comes, you’ll hesitate.@ And then you’ll die without even putting up a fight.”@
 `“[line=3]That won’t happen.@ He is a monster who has devoured more than a hundred people.@ Why would I hesitate to kill him?”@
 `“[line=7]”@
 `Arcueid gives a small sigh.
 \
-`“[line=3]If I put you under my spell, you could finish Nrvnqsr for certain, so I wonder why.@
-`This is the first time I’ve ever wanted to do that, and the first time I’ve ever hated the thought of doing it.@ What a contradiction.”@
+`“[line=3]If I put you under my spell, we could be sure of finishing Nrvnqsr off.@
+`Why is it that the first time I’ve wanted to do that is also the first time I’ve hated the thought of it?@ What a contradiction.”@
 `Muttering something I cannot understand, Arcueid pivots to face me again.@
 ld c,"tachi/ark_t01a",crossfade,400
 `“I’ll trust you, Shiki.@ We’ll drive Nrvnqsr away together.”@
@@ -72,7 +72,7 @@ bg #000000,crossfade,1500
 `The plan itself could hardly be simpler.@
 `Shortly before midnight, Arcueid will leave the apartment first and head for the park.@
 br
-`Nrvnqsr’s familiar[line=3]a blue crow, according to Arcueid[line=3]will follow her, so after giving it time to clear the area, I will leave as well and make my way to the park.
+`Nrvnqsr’s familiar[line=3]a blue crow, according to Arcueid[line=3]will follow her, so after a little while, I will leave as well and make my way to the park.
 \
 `Then I need only hide in bushes with a clear view of Arcueid and wait.@ While she holds Nrvnqsr’s attention, I will approach from behind and sever his Line of Death[line=4]
 \
@@ -114,7 +114,7 @@ br
 `At this rate, I cannot trust my legs to move when Nrvnqsr finally does.
 \
 `“Arcueid, aren’t you afraid?”@
-`I watch the white woman gazing dreamily at the moon.@
+`I watch the white figure gazing dreamily at the moon.@
 `She betrays no unease at all.@
 `Then her moonlit face turns smoothly back toward the earth.@
 `At that same instant.@
@@ -146,9 +146,9 @@ cl c,crossfade,400
 \
 waveloop se_02
 `“[line=5]Hah.”@
-`My breathing grows louder.@
+`My breaths grow deeper.@
 `Arcueid has Nrvnqsr’s attention.@
-`There will be no better chance.@
+`Now is my only chance.@
 `By my own choice, I remove my glasses.
 \
 bg "bg/bg_29c",crossfade,1500

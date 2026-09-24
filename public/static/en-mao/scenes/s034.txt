@@ -2,8 +2,8 @@ play "*3"
 bg "bg/bg_09b",notrans,0
 ld c,"tachi/cel_t08",crossfade,400
 `“What?@ Oh, I was just surprised that you seemed more at ease with all this than I am.”@
-`“Not really.@ My family was always strict, so I’m simply used to it.@ More importantly, didn’t you have something you wanted to discuss?”@
-`“I did.@ I wanted to continue our conversation from lunch.”@
+`“Not really.@ My family was always strict, so I’m simply used to it.@ Anyway, wasn’t there something you wanted to talk about?”@
+`“Yes.@ I wanted to continue our conversation from lunch.”@
 `“The conversation about my family?”@
 `Ciel nodded.
 \
@@ -19,8 +19,8 @@ playstop
 ld c,"tachi/cel_t01a",crossfade,400
 play "*2"
 `“Then let’s pick up where we left off.@ You said you were moving into your own home—what exactly did you mean?”@
-`Her question was full of interest.@
-`To someone who knew none of the circumstances, our exchange at lunch must indeed have sounded hopelessly fragmentary.
+`She sounded curious.@
+`She didn’t know the circumstances; what we’d said at lunch couldn’t have given her much to go on.
 \
 `“[line=3]Well.@ In short, I’m a boy who was disowned by his family.@
 `Apparently I was caught in a traffic accident when I was nine and badly injured.@
@@ -49,23 +49,22 @@ br
 `And I thought there was something good in being able to trust such blind, unquestioning affection.”@
 br
 `[line=3]These people love me.@
-`So I have to hurry,
-`As soon as I can, I have to become a real member of their family[line=3]
+`So I have to hurry.@ As soon as I can,
+`I have to become a real member of this family[line=3]
 \
-`I had repeated those words to myself ever since I was small.@
-`Ever since a time so long ago it scarcely felt real.@
-`Again and again, until the years made me dizzy, I had sworn the same vow[line=3]
+`I had been telling myself that since I was little.@
+`For so long.@
+`Over and over, for so long it made my head swim, I had sworn it to myself[line=3]
 \
-`“Arihiko was right—I didn’t resent a single thing about living with the Arimas.@
+`“Arihiko was right—I had nothing to complain about at the Arimas’.@
 `They treated me well, and I think I returned their affection.@
 `Of course we both knew we were playing at being a family, but even that little performance never caused me pain.”@
 `No—if anything, I had been happy.@
 `In one sense, at least.@ I think the Arimas and I had the ideal parent-child relationship.
 \
 `“[line=3]But it still wasn’t enough.”@
-`“No—I could never cross that final boundary.@ I couldn’t drive the words ‘you aren’t truly family’ out of my head.@ I knew I ought to ignore them, but I simply couldn’t.@
-`Maybe it comes from something that happened when I was little; I don’t know.@
-`At this point it feels like a curse.@ Wherever I went, I felt as though my family and I would always be strangers.”@
+`“No.@ I still couldn’t cross that line.@ ‘I’m not really one of them.@’ I couldn’t get those words out of my head.@ I know I should ignore them, but I can’t.@
+`Something from when I was little, maybe.@ I don’t know.@ Whatever it is, it’s a curse now.@ Wherever I go, I feel like I’ll always be a stranger in my own family.”@
 ld c,"tachi/cel_t09",crossfade,400
 `She said nothing.@
 `She looked away and hunched her shoulders as if apologizing.
@@ -77,7 +76,7 @@ ld c,"tachi/cel_t03",crossfade,400
 ld c,"tachi/cel_t02",crossfade,400
 `“It did surprise me a little, though.@ I had always thought you were such an easygoing boy.”
 \
-`“Mm, I am easygoing most of the time.@ I made ‘enjoy the present whenever possible’ my motto.@ Isn’t it better to look forward to what comes next than to dwell on what’s already over?”@
+`“Mm, I am easygoing most of the time.@ I try to enjoy the present as much as I can.@ That’s my motto.@ You’re happier looking forward to things than dwelling on what’s already over, aren’t you?”@
 `Admittedly, I had stolen that philosophy wholesale from Arihiko.@
 ld c,"tachi/cel_t04",crossfade,400
 `“Looking forward to what comes next…@ That sounds lovely.”@

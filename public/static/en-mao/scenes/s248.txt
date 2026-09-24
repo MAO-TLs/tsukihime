@@ -4,27 +4,27 @@ wavestop
 bg "bg/bg_11a",notrans,0
 `“I’ve got curry bread.”@
 br
-`I try the brute-force approach.
+`I try bribery.
 \
-`“Tohno, do you really think I am someone you can lure with food?!”@
+`“Tohno, do you really think you can lure me out with food!?”@
 `Ciel shouts through the door.@
-`Apparently, something cheap enough to leave change from a hundred yen will not tempt her
+`…@Apparently, curry bread cheap enough to leave change from a hundred yen will not do it.@
 `“……………”@
-`Damn; forcing my way inside would only make her angrier.@ Perhaps I have no choice but to retreat for today.@
+`Now what?@ If I force my way in, she will only get angrier.@ Maybe I should give up for today.@
 br
-`[line=3]Just then.
+`[line=3]Then.
 \
 ld c,"tachi/cel_t12",lcartain,400
-`“Well, I suppose I can take that off your hands.”@
-`The door rattles open, and there she is.@
+`“Well, I’ll take it anyway.”@
+`The door slides open, and Ciel appears.@
 `“C-Ciel[line=2]?”@
 ld c,"tachi/cel_t08b",crossfade,400
-`“On second thought, I have no right to take my frustration out on you.@ It would be terribly rude to turn away a visitor who came all this way.”@
-`Her face bright red, she mutters one excuse after another.
+`“Now that I think about it, I have no reason to take this out on you, Tohno.@ It would be rude to turn away a guest who came all this way.”@
+`Her cheeks red, she mutters what sound like excuses.
 \
 `“So, does that mean I can come in and have lunch with you?”@
 ld c,"tachi/cel_t03",crossfade,400
-`“Um, you may take it that way if you like.@ Since you are evidently so fond of Japanese-style rooms, please come inside.”@
+`“…@Um, you may take it that way.@ Since you like sitting in Japanese-style rooms so much, come on in.”@
 cl a,crossfade,400
 `Ciel retreats into the tea-ceremony room.@
 `I follow her inside.
@@ -33,90 +33,81 @@ bg #000000,lcartain,800
 bg "bg/bg_09a",lcartain,800
 play "*3"
 `We eat lunch together.@
-`From what Arihiko told me and the way she acted earlier, she ought to be in a foul mood, but now there’s no sign of it.
+`After what Arihiko said and the way Ciel acted earlier, I expected her to be in a foul mood.@ Somehow, she is not.
 \
 `“Ciel, Arihiko told me you were angry with me.@ Why?”@
 ld c,"tachi/cel_t08",crossfade,400
-`“Eh[line=2]no, I was not angry with you, exactly.@ It was less you than something behind you, or rather, well, perhaps I was angry at how insensitive you were.”@
-`“Wait, Ciel.@ You are hard enough to follow on an ordinary day, but this is a new record.@ I understand being angry at me for my insensitivity, but what is this ‘perhaps’ about?@
-`Do you not even know what you are feeling?”
+`“Ah[line=2]no.@ I wasn’t angry with you, exactly.@ More with what was behind you—or perhaps with how insensitive you were.”@
+`“Wait.@ You’re hard enough to follow on a normal day, Ciel.@ What’s with the ‘perhaps’?@ Don’t you know what you’re angry about?”
 \
 ld c,"tachi/cel_t09",crossfade,400
-`“Well.@ I am not entirely sure.@ I do not pay very much attention to myself.”@
-`She says it almost apologetically.@
-`“[line=3]I suppose I do not like myself very much.”@
-`“Ciel?”@
-`She falls silent and refuses to look at me.@
-`After a brief silence, she suddenly fixes me with a fierce stare.
+`“Well…@ I’m not entirely sure.@ I don’t pay much attention to myself.”@
+`She sounds almost apologetic.@
+`“[line=3]Perhaps I just don’t like myself very much.”@
+`“Ciel…?”@
+`She falls silent and avoids my eyes.@ After a moment, she looks at me sharply.
 \
 ld c,"tachi/cel_t07a",crossfade,400
-`“Never mind that, Tohno.”@
-`“Yes.”@
-`I sit up straight and meet her eyes.@
-`I can tell she is about to say something desperately serious.@
+`“More importantly, Tohno.”@
+`“…@Yes?”@
+`I sit up straight and meet her gaze.@ Whatever she is about to say, it seems terribly serious.@
 br
 `“Um, what is it, Ciel?”
 \
 ld c,"tachi/cel_t12",crossfade,400
-`“May I have the curry bread?”@
+`“Give me the curry bread.”@
 br
-`“W-what brought that on?!@ You just said food couldn’t tempt you!”@
+`“W-what?@ You just said I couldn’t bribe you with food!”@
 ld c,"tachi/cel_t10a",crossfade,400
-`“That is an entirely separate matter!@ Tohno, do you mean to go back on your word now?!”@
+`“That’s different!@ Are you going back on your word now, Tohno!?”@
 br
-`Ciel is genuinely angry.@
-`I was only joking, but apparently she considered our exchange a solemn bargain.
+`…@She really is angry.@
+`I was joking, but to her the curry bread was apparently part of a serious bargain.
 \
-`“Yes, yes.@ I understand; please accept your tribute, Your Excellency.”@
-`I thrust the curry bread at her.@
-`That leaves me with nothing but the sausage roll.@
+`“…@All right, all right.@ Your curry bread, Your Excellency.”@
+`I hand it over.@ That leaves me with only the sausage bread.@
 ld c,"tachi/cel_t04",crossfade,400
 br
-`Ciel takes the curry bread with a delighted cry of “Yay!”@
-`Is she a child?
+`“Yay!”@ Ciel takes the curry bread with undisguised delight.@
+`…@Is she a child?
 \
 ld c,"tachi/cel_t05",crossfade,400
-`“Then I will share my hamburger patty with you.”@
-`With a cheerful offer, she splits the patty in her lunch box and hands me one half-moon patty.@
-`“…”@
-`As barter goes, the exchange rate seems badly skewed.
+`“Then I’ll share my hamburger patty with you.”@
+`She cuts the patty in her lunch box in two and gives me a semicircle of meat.@
+`“…………”@
+`That seems like a very uneven trade.
 \
 bg #000000,lshutter,800
 bg "event/cel_e02a",lshutter,800
-`Once we finish eating, we sip our tea and let the time drift by.@
-`It is a warm, peaceful lull.@
+`When lunch is done, we sit and sip our tea.@ The time passes quietly.@
 br
-`She doesn’t seem self-conscious around me, and I’m not particularly self-conscious around her either.@
+`She does not seem conscious of me in any special way, and I feel the same.@
 br
-`We simply relax.@
-`We spend the rest of lunch as casually as if she were another male friend.
+`We spend the rest of the break together, as comfortable as I would be with a male friend.
 \
 `“Say, Tohno.”@
-`“Yes?@ What is it, Ciel?”@
-`“I have wondered about this for a while; your glasses do not have prescription lenses, do they?”@
-`“Wow.@ Exactly right.@ They are just for show.”@
+`“What is it, Ciel?”@
+`“I’ve been meaning to ask—there’s no prescription in those glasses, is there?”@
+`“…@You got it exactly.@ They’re just for show.”@
 br
 `Ciel nods triumphantly, plainly pleased to have guessed right.
 \
-`“Tohno, I have a favor to ask.@ Would that be all right?”@
-`She gazes expectantly into my eyes.@ Or rather, she is staring at my glasses.@
-`“Just once, would you take them off for me?”@
+`“Tohno, may I ask you a favor?”@
+`She looks at me expectantly.@ No—at my glasses.@
+`“Would you take them off, just once?”@
 `“[line=9]”@
-`That is a problem.@
-`Taking off my glasses means seeing the ‘lines’; more than anything[line=3]I do not want to see the ‘death’ of anyone close to me.
+`That would be a problem.@ Without them, I see the “lines.”@ And more than that, I do not want to see the “death”@ of someone close to me.
 \
-`“I am afraid not.@ I have never taken these glasses off in front of anyone.@ It is part of a vow I made, so your request is denied.”@
-`I answer without hesitation.@
-`She hangs her head, visibly disappointed.@
-`“Oh.@ If you are that firm about it, I suppose there is no persuading you.”@
-`“Right.@ For eight years, I have never once[line=4]”@
+`“I’m sorry, but no.@ I’ve never taken them off in front of anyone.@ It’s a kind of promise to myself, so I have to refuse.”@
+`My answer is firm.@ Ciel looks disappointed.@
+`“I see.@ If you’re that certain, I suppose I can’t change your mind.”@
+`“No.@ For eight years, I’ve never once[line=4]”@
 br
-`I had never taken them off in front of anyone—until now.@
+`…@I had never taken them off in front of anyone.@ Until now.@
 playstop
 `“[line=4]”@
-`I see.@ That is no longer true.@
-`With these eyes.@
-`Because I have seen the death of so many things.
+`Of course.@ That is no longer true.@
+`With these eyes, I have seen the deaths of so many things.
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_09a",crossfade,400
@@ -135,14 +126,14 @@ bg "bg/bg_09a",crossfade,1500
 ld c,"tachi/cel_t07a",crossfade,1500
 `“Ah[line=3]yes, what is it, Ciel?”@
 ld c,"tachi/cel_t10a",crossfade,400
-`“Do not ask me that.@ You suddenly went blank and startled me.@ Lunch break is almost over.”@
-`“Oh, you are right.@ Strange, I thought we still had about ten minutes.”@
+`“What do you mean, ‘what’?@ You went quiet all of a sudden.@ You startled me.@ Break is almost over.”@
+`“…@Oh.@ It is.@ I thought we had ten minutes left.”@
 cl a,crossfade,400
 ld c,"tachi/cel_t12",crossfade,400
-`“We did have ten minutes.@ You spent them aaaaall staring into space.”@
+`“We did.@ You spent the whole ten minutes staring into space.”@
 cl a,crossfade,400
-`She begins putting away both our teacups.@
-`“Has it really been ten minutes…?”@
-`Still faintly puzzled, I help her clean up and leave the tea ceremony room.
+`Ciel starts putting away our teacups.@
+`“…@Was it really ten minutes?”@
+`Still puzzled, I help her tidy up and leave the tea room.
 \
 bg #000000,crossfade,1500

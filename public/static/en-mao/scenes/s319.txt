@@ -7,10 +7,10 @@ bg "bg/bg_34a",notrans,0
 bg #000000,lshutter,400
 bg "bg/bg_33a",lshutter,400
 play "*3"
-`I find Hisui as soon as I enter the lobby.@
+`I find Hisui as soon as I enter the foyer.@
 `A feather duster, polishing cloths, and other supplies lie at her feet, presumably for tending the furnishings.@
 br
-`“Hisui, have you got a minute?”@
+`“Hisui, got a minute?”@
 ld c,"tachi/his_t01",lshutter,400
 `“Master Shiki?@ I thought you had returned to your room.”@
 `“No, I’m not going back.@ I can’t relax while you and Kohaku are both working yourselves ragged.”@
@@ -38,30 +38,30 @@ ld c,"tachi/his_t04",lshutter,400
 `“Oh, so Kohaku isn’t supposed to hear that?@ I understand.”@
 `Which means, naturally, that I absolutely must tell her.@
 ld c,"tachi/his_t13",crossfade,400
-`“…@Master Shiki, I believe you should cultivate a manner that does not reveal your thoughts quite so plainly.”@
+`“…@Master Shiki, I think you ought to be a little less obvious about what you’re thinking.”@
 `“Hm?@ I’m not thinking anything.”
 \
 `“……”@
 `Hisui stares straight through me.@
-`Was what she said an even greater taboo with Kohaku than I realized?@
+`Is this an even sorer subject for Kohaku than I thought?@
 `“All right, I won’t tell her, so stop glaring at me.”@
 ld c,"tachi/his_t22",crossfade,400
-`“Now I remember, Master Shiki.@ Even as a child, you played pranks without the slightest cause.@ Why must Master Shiki turn contrary on a whim like this?”@
+`“Now I remember, Master Shiki.@ Even as a child, you played pranks without the slightest cause.@ Why must you suddenly turn contrary like this?”@
 `“There’s no grand reason.@ I just wanted to see what you looked like flustered.”
 \
 ld c,"tachi/his_t08",crossfade,400
 `“……”@
 `Damn.@ Why do I always blurt out exactly what I’m thinking?@
 ld c,"tachi/his_t09",crossfade,400
-`“Master Shiki, I have work to do.@ If you have so much time to spare, please assist my sister instead.@ As Master Shiki himself observed, I am busy and cannot entertain Master Shiki.”@
+`“Master Shiki, I have work to do.@ If you have so much time to spare, please assist my sister instead.@ As you yourself observed, I am busy and cannot entertain you.”@
 cl c,lshutter,400
 `Hisui turns away sharply and begins polishing around a vase.@
 `I came here to help, but somehow I’ve only managed to make her angry.
 \
 `“Um, Hisui?”@
 ld c,"tachi/his_t09",lshutter,400
-`“Yes, Master Shiki?”@
-`Even angry, she answers when addressed, which makes Hisui a better person than I am.@
+`“Yes, what is it?”@
+`I have to admire Hisui for answering so dutifully even now.@
 `“About what you said[line=3]oh, you don’t have to answer if you’d rather not.@
 `Kohaku is always cleaning the courtyard, but she hardly ever cleans inside the mansion.@ Does that have something to do with what you meant?”@
 ld c,"tachi/his_t05",crossfade,400
@@ -123,7 +123,7 @@ ld l,"tachi/his_t04",crossfade,400
 bg #000000,crossfade,800
 bg "bg/bg_35",lcartain,800
 `The mansion’s kitchen is smaller than I expected.@
-`Apparently they used the main kitchens back when the house was fully staffed, but now that only Akiha, Hisui, Kohaku, and I live here, this smaller room has been remodeled for daily use.
+`Apparently they used the main kitchens back when more people lived here, but now that only Akiha, Hisui, Kohaku, and I live here, this smaller room has been remodeled for daily use.
 \
 ld c,"tachi/koha_t02",lshutter,400
 `“First, wash your hands properly and put on an apron.”@
@@ -164,7 +164,7 @@ ld c,"tachi/koha_t01a",lshutter,400
 `“Have you taken a liking to peeling shrimp, Shiki?”@
 `“Hm?@ Not especially, but what makes you ask?”@
 ld c,"tachi/koha_t05",crossfade,400
-`“You look as though you’re having such fun.@ Whenever Hisui peels shrimp, her brows pinch closer and closer until they make a perfect little frown.”@
+`“You look as though you’re having such fun.@ Whenever Hisui peels shrimp, her brows creep closer and closer together until they droop at the outer ends.”@
 `“Really?@ I wouldn’t have guessed; she looks like she’d work through something like this without a word.”
 \
 ld c,"tachi/koha_t02",crossfade,400
@@ -187,7 +187,7 @@ br
 \
 ld c,"tachi/koha_t03",crossfade,400
 `“Master Makihisa gave you a terrible scolding afterward.@ Though all of us had gone out to play, somehow you ended up taking all the blame, Shiki.@ No matter how harshly he scolded you, you insisted the fault was yours.@
-`Those days were wonderful.@ We got into all kinds of mischief, but it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@
+`That brings back memories.@ We got into all kinds of mischief, but it became almost a daily ritual for Miss Akiha and me to be rescued by you.”@
 `Kohaku laughs softly, speaking almost to herself as she savors the memory.
 \
 `“I don’t know.@ Talking about those days like this makes me feel as though I really have come home.”@
@@ -222,7 +222,7 @@ ld c,"tachi/koha_t07",lshutter,400
 `I can’t believe her.@
 `Even I can see it is a deep cut, yet she remains perfectly unhurried.
 \
-`“How embarrassing.@ Imagine making a blunder while doing the one thing I’m good at.”@
+`“How embarrassing.@ Imagine making a blunder while cooking, of all things.”@
 `Kohaku laughs as cheerfully as ever.@
 `“This isn’t funny—you need to treat that immediately!”@
 `“I’ll be fine.@ It isn’t going to kill me.”@

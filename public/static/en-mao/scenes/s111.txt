@@ -16,8 +16,8 @@ ld c,"tachi/aki_t02",lshutter,800
 `“[line=3]Good morning, Brother.”@
 `Akiha fixes me with a glare that all but declares, I am furious.@
 `“Hey.@ Good morning, Akiha!”@
-`A man with nothing left to lose is strong.@
-`I meet Akiha's bullying stare with the brightest greeting I can muster.
+`Once you decide to brazen it out, you’re hard to intimidate.@
+`I meet Akiha’s bullying stare with the brightest greeting I can muster.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“[line=4]”@
@@ -25,10 +25,10 @@ ld c,"tachi/aki_t01a",crossfade,400
 ld c,"tachi/aki_t12a",crossfade,400
 `“Brother, enough greetings; sit down, please.@ I have something to discuss with you.”@
 `“All right.@ But keep it brief.”@
-`Meekly and obediently, I lower myself onto the sofa opposite her.
+`Quietly, obediently, I lower myself onto the sofa opposite her.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Then let us begin.@ Would you tell me where you were the day before yesterday and yesterday?”@
+`“Then let us begin, Brother.@ Would you tell me about yesterday and the day before?”@
 `“[line=5]Mm.”@
 `Just as I expected.@
 `After staying away from home for two days, no excuse could possibly save me.@
@@ -36,7 +36,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 \
 `“About that, Akiha.”@
 `“Yes, Brother?”@
-`“For the last two days, I was exterminating a vampire.@ You know about the serial murders in town, right?@ The killer was a vampire, so I helped a ‘good vampire’ I happened to meet fight the ‘bad vampire’”@
+`“For the last two days, I was exterminating a vampire.@ You know about the serial murders in town, right?@ The killer was a vampire, so I helped a ‘good vampire’ I happened to meet fight the ‘bad vampire.@’”@
 br
 `[line=5]There: a remarkably concise explanation.
 \
@@ -44,11 +44,11 @@ ld c,"tachi/aki_t15a",crossfade,400
 `“Wh[line=7]”@
 `Akiha freezes solid.@
 `A reasonable first reaction, I suppose.@
-`Right now, her mind must be seething with the conviction that I am making a fool of her, and at any moment she will
+`Right now, her mind must be seething with the conviction that I am making a fool of her, and at any moment[line=3]
 bg #000000,notrans,0
 ld c,"tachi/aki_t07",crossfade,400
 `“Are you making fun of me, Brother?!”@
-`she is bound to shout[line=3]
+`[line=3]she is bound to shout something like that.@
 bg "bg/bg_34a",notrans,0
 \
 ld c,"tachi/aki_t10",crossfade,400

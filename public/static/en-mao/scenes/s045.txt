@@ -23,7 +23,7 @@ ld c,"tachi/koha_t03b",lshutter,400
 \
 `Trying to invite myself into a woman’s room on the pretext of watching television—what on earth was wrong with me?@
 br
-`Just look at Kohaku: she was still staring, appalled by my behavior—or perhaps not.@
+`Look at Kohaku.@ She was still blinking, appalled at what I’d said[line=3]no, she wasn’t.@
 br
 `“Ahaha, of course.@ Until yesterday, you were still living at the Arima estate, Master Shiki.@ Being dropped into this house so suddenly must have felt oppressive.”@
 `Kohaku beamed at me.
@@ -33,7 +33,7 @@ br
 `Kohaku nodded.@
 `“No, I told no one; why do you ask?”
 \
-`“No, no—if you had, I would have had to send Master Shiki away.”@
+`“No, no—if you had, I would have had to send you away, Master Shiki.”@
 `Still smiling, Kohaku peered up and down the corridor.@
 `“Fortunately, there’s no one in sight.@ Quickly now—come in before we’re caught.”@
 `Her hand closed firmly around my arm.@
@@ -60,25 +60,25 @@ ld c,"tachi/koha_t02b",lshutter,400
 `Kohaku said it with a radiant smile.
 \
 ld c,"tachi/koha_t03b",crossfade,400
-`“You came for television, didn’t you?@ What does Master Shiki usually watch at this hour?”@
+`“You came for television, didn’t you?@ What do you usually watch at this hour, Master Shiki?”@
 `“Nothing in particular; mostly the news, I suppose.@ I’m a sucker for whatever is current, especially fashionable nonsense.”@
-`“Really?@ Master Shiki seems so composed that I imagined you spent your evenings reading.”@
+`“Really?@ You seem so composed.@ I imagined you would spend your evenings reading.”@
 `“Ahaha, I’m not nearly that refined, and I don’t think I’m particularly composed either.@ Maybe the glasses just give people that impression.”
 \
 ld c,"tachi/koha_t12",crossfade,400
-`“[line=2]Oh, that’s right—Master Shiki wears glasses now.@ Miss Akiha never mentioned that Master Shiki wore glasses, so I was quite surprised when I came to meet you.”@
-`Of course.@ I had not seen Akiha in person since I began wearing them.
+`“[line=2]Oh, that’s right.@ You wear glasses now, Master Shiki.@ Miss Akiha never mentioned them, so I was quite surprised when I came to meet you.”@
+`Of course.@ Until today, Akiha hadn’t seen me since I started wearing them.
 \
 `“They’re only nonprescription glasses.@ Something is wrong with my eyes, but not my eyesight; I can probably see better than most people.@ I didn’t ruin my vision by studying too hard, either.@ Ah—did I just shatter your image of me as an intellectual?”
 \
 ld c,"tachi/koha_t15",crossfade,400
-`“Not at all.@ I enjoy television more than books myself.@ I’m glad Master Shiki turned out to be just as lively as I imagined.”@
+`“Not at all.@ I enjoy television more than books myself.@ I’m glad you’re just as lively as I imagined, Master Shiki.”@
 `“Oh—well, thanks.”@
 `That was embarrassing.@
 `Kohaku’s open, unguarded smile struck me head-on and left me flustered.
 \
 ld c,"tachi/koha_t03b",crossfade,400
-`“Oh, I’m sorry.@ Master Shiki came to watch the news, didn’t he?”@
+`“Oh, I’m sorry.@ You came to watch the news, didn’t you, Master Shiki?”@
 `Kohaku switched on the television.@
 `It was already nine.@
 `As usual, the newscaster was reporting the day’s events with gestures just a little too dramatic.
@@ -110,9 +110,9 @@ br
 `She did not seem particularly interested in the case.
 \
 `“Kohaku, this is happening in our city, and you’re a young woman too.@ Doesn’t it frighten you at least a little?”@
-`“I’ll be perfectly safe.@ The attacker only appears after midnight.@ If I stay indoors at night, I’ll never encounter the attacker.”@
+`“I’ll be perfectly safe.@ The attacker only appears after midnight.@ If I stay indoors at night, we’ll never meet.”@
 `Kohaku’s reasoning was beautifully simple.@
-`The murders felt too immediate for such detachment, but perhaps that was what every tragedy on the news became to people watching from home.
+`It all felt a little too real to dismiss so easily.@ But perhaps that was how it was with things you only heard about on the news.
 \
 bg #000000,crossfade,800
 bg "bg/bg_46c",crossfade,800
@@ -122,14 +122,14 @@ ld c,"tachi/koha_t15",notrans,0
 `Kohaku peered up and down the corridor.
 \
 ld c,"tachi/koha_t12",crossfade,400
-`“I would walk you back, but Hisui will be waiting in Master Shiki’s room, so I’ll say good night here.”@
+`“I would walk you back, but Hisui will be waiting in your room, so I’ll say good night here.”@
 `“All right.@ Good night, Kohaku.”@
 cl c,lshutter,800
 `“……”@
 `I had not known everyone in the estate retired at ten.@
 `Apparently an unspoken rule forbade anyone from leaving their room after that hour.
 \
-`“Even with Father gone, the estate was as rigid as ever.”@
+`“Even with Dad gone, this place is as stiff as ever.”@
 `Well, I supposed that was only natural.@
 `The unfamiliar atmosphere of the estate had worn me out anyway, so I might as well return quietly to my room.
 \
@@ -156,9 +156,9 @@ play "*1"
 `“Ngh.”@
 `I still could not get used to being treated this way.@
 `“So, um—what is it?@ Another message?”@
-`“Not from me.@ Miss Akiha instructed me to answer any questions Master Shiki might have.”
+`“No, I have no message.@ Miss Akiha asked me to answer any questions you might have.”
 \
-`“I see.@ There is plenty I want to ask, but I can learn most of it as I settle in.”@
+`“I see.@ There’s plenty I want to ask, but I’ll pick most of it up as I go.”@
 `Right.@ If there was one thing I needed to know before bed, it was[line=3]
 `“Then tell me this: is the curfew really seven?”@
 `“Yes.@
@@ -166,17 +166,17 @@ play "*1"
 `After ten, the rules require everyone to refrain from moving about the mansion.”
 \
 `“We’re not even allowed to walk around inside?@ I’m not complaining, but isn’t that a little extreme?@ Akiha and I aren’t children anymore.”@
-`“Yes.@ But it is a rule, Master Shiki, and I must ask you to observe it.@ Surely Master Shiki knows how dangerous the nights have become?”@
+`“Yes.@ But it is a rule, Master Shiki, and I must ask you to observe it.@ Surely you know how dangerous it has become at night?”@
 br
 `Oh—that vampire panic Arihiko had mentioned.@
 `With a string of murders taking place in the city, I supposed there was no such thing as being too careful.
 \
-`“There is one more thing—it is not particularly relevant, but may I ask?”@
+`“There’s something else.@ It’s not really related, but can I ask?”@
 `“Of course.”@
 `“What exactly do you and Kohaku do here?”@
 `“I am assigned to you, Master Shiki, while my sister Kohaku attends Miss Akiha.@
 `When neither of you is home, we are entrusted with managing the estate; is something wrong?”@
-`“So attending her really does mean exactly that—”
+`“So that’s what you mean by looking after us…”
 \
 `My shoulders sagged.@
 `Akiha had spoken as though this were perfectly natural, but I was still an ordinary high-school student.@
@@ -202,7 +202,7 @@ ld c,"tachi/his_t23",crossfade,400
 \
 `“[line=3]Anyway, that’s how I feel, so please don’t be so formal with me.@ I’d appreciate it if you told your sister the same thing.”@
 ld c,"tachi/his_t16",crossfade,400
-`“Yes.@ If that is what Master Shiki wishes.”@
+`“Yes, Master Shiki.@ If that is what you wish.”@
 `Hisui bowed, her face utterly blank.@
 br
 `She had missed the point so completely it was almost impressive.@
@@ -231,8 +231,8 @@ ld c,"tachi/his_t10",lshutter,400
 ld c,"tachi/his_t28",crossfade,400
 `“Ah……”@
 ld c,"tachi/his_t26",crossfade,400
-`“I am terribly sorry…”@
-`Tension threaded Hisui’s voice.@
+`“I am…@ terribly sorry…”@
+`Hisui’s voice was tense.@
 `“I am not accustomed to being touched.@ Please forgive me.”@
 `Her shoulders trembled faintly.@
 `Somehow, I felt as though I had done something truly awful.
@@ -246,7 +246,7 @@ ld c,"tachi/his_t04",crossfade,400
 `Still, I thought her gaze softened a little.
 \
 ld c,"tachi/his_t23",crossfade,400
-`“[line=3]Master Shiki has nothing to apologize for.@ I was the one at fault.”@
+`“[line=3]You have nothing to apologize for, Master Shiki.@ I was the one at fault.”@
 `“Well, maybe—I just felt like I should.”@ I scratched my head.@
 ld c,"tachi/his_t01",crossfade,400
 `Hisui studied my face, then lowered her eyes for a fleeting moment.@
@@ -260,7 +260,7 @@ ld c,"tachi/his_t01",crossfade,400
 `“Yes.@ However, it is rare for her to return as early as she did today.@ Miss Akiha has lessons until dinnertime, so she ordinarily arrives just before seven.”
 \
 `“Lessons[line=3]what kind?”@
-`“Today was Thursday, so she had violin practice.”@
+`“Today is Thursday, so she had violin practice.”@
 `“[line=4]What—”@
 `“She returns before dinner on weekdays, so if you wish to speak with Miss Akiha, please ask my sister after the meal.”@
 cl c,lshutter,400
@@ -270,7 +270,7 @@ cl c,lshutter,400
 `What was that supposed to mean?@
 `It was not as if she were some well-bred young lady, so why bother with anything so tiresome[line=3]
 br
-`“Oh, right—she was one.”@
+`“Oh, right.@ She is.”@
 br
 `Come to think of it, Shiki Tohno’s little sister was Akiha Tohno—a well-bred young lady to the core.
 \

@@ -16,7 +16,7 @@ cl l,crossfade,400
 \
 `“Fine, forget Akiha.@ Kohaku, you heard all that noise last night, didn’t you?”@
 ld r,"tachi/koha_t01a",crossfade,400
-`“[line=3]Well, I’m not sure.@ The wind was strong, but the only irregularity on my late-night rounds was you asleep on your bed in your school uniform.”@
+`“[line=3]Well, I’m not sure.@ I think it was windy, but the only thing out of the ordinary on my rounds last night was finding you asleep in your uniform.”@
 `“Oh, that.@ I’ll be more careful from now on.”
 \
 ld l,"tachi/aki_t04a",crossfade,400
@@ -38,7 +38,7 @@ ld l,"tachi/aki_t03a",crossfade,400
 \
 `“No, I’m afraid not.@ I don’t believe anything like that happened last night.”@
 ld l,"tachi/aki_t08a",crossfade,400
-`“Then that settles it.@ The only remaining possibility is that Brother dreamed of dogs barking at him.”@
+`“Then that settles it.@ Perhaps you dreamed that the dogs were barking at you, Brother.”@
 `“Urgh…”@
 br
 `Admittedly, once she suggests it was a dream, I can’t say it’s impossible.
@@ -54,10 +54,10 @@ cl a,lshutter,800
 `Kohaku follows, presumably to see her to the front door.
 \
 `“…”@
-`It may be time to accept the obvious.@
-`After everything that has happened since last night,
-`there can be only one conclusion:
-`Akiha absolutely detests me.
+`It’s about time I came to a conclusion.@
+`After everything that has happened since last night, it hardly needs any thought.@
+`Apparently,
+`Akiha can’t stand me.
 \
 bg #000000,lcartain,800
 bg "bg/bg_33a",lcartain,800
@@ -65,10 +65,10 @@ bg "bg/bg_33a",lcartain,800
 `Hisui is waiting there with my schoolbag.@
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki, are you certain you have enough time?”@
-`“Sure.@ If I run, I can make school in under twenty minutes—even with a detour, I have plenty of time.”@
+`“Sure.@ I can get to school in under twenty minutes if I run.@ It’s seven-thirty now, right?@ I could even take a detour and still make it.”@
 `Apparently satisfied, Hisui gives one small nod.
 \
-`“Then I shall see you to the gate.”@
+`“Then I shall see you out.”@
 `“Oh—sure, thanks.”@
 `Having a servant assigned especially to me is still painfully embarrassing.
 \
@@ -91,7 +91,7 @@ ld c,"tachi/koha_t03",lshutter,400
 `It weighs very little.
 \
 `“[line=3]Kohaku, I’ve never seen this before.”@
-`“Yes.@ I’m told it was among Master Shiki’s father’s effects.@ Apparently his will instructed that it be left to you.”@
+`“I’m told it belonged to your late father, Master Shiki.@ Apparently he left instructions for you to have it.”@
 `“That man left something to me?”@
 `It doesn’t feel real.@
 `Why would the father who cast me out of this estate eight years ago leave me a keepsake?
@@ -138,14 +138,14 @@ ld l,"tachi/his_t01",notrans,0
 \
 `“You startled me, Hisui…@ That was mean; you didn’t have to sneak up behind me when I would’ve shown it to you if you asked.”@
 ld l,"tachi/his_t02",crossfade,400
-`“Ah—”@
+`“Ah[line=5]”@
 br
 `A faint blush instantly rises in Hisui’s cheeks.
 \
 `“M-my apologies.@ I couldn’t help myself—the dagger was so beautiful.”@
 `“Beautiful?@ I don’t know about that.@ It looks more battered than anything.”@
 ld l,"tachi/his_t01",crossfade,400
-`“[line=4]It is nothing of the kind.@ Its exquisite temper line marks it as an ancient blade with a distinguished history.”@
+`“[line=4]Not at all.@ It has a beautiful temper line.@ I believe it is an old blade of distinguished origin.”@
 `“Really?@ It still looks like junk to me…”
 \
 `Hisui insists so firmly that I begin to believe her.@
@@ -156,7 +156,7 @@ ld r,"tachi/koha_t02",notrans,0
 `“Maybe.@ Not many people bother naming their knives, though.”@
 `Whatever else it may be, the thing is clearly an antique.@
 `“Still, never turn down something free—that’s my creed.”@
-`I fold the blade away and slip the knife into my trouser pocket.
+`I retract the blade and slip the knife into my trouser pocket.
 \
 cl r,crossfade,400
 `“Master Shiki.@ Are you certain you have time…?”@
@@ -171,19 +171,19 @@ bg "bg/bg_32a",lcartain,800
 \
 `“…@What’s that noise over on the right side of the estate?”@
 ld c,"tachi/his_t01",crossfade,400
-`“Bloodstains were discovered on the road east of the estate early this morning.”@
+`“Apparently bloodstains were found on the road east of the estate early this morning.”@
 `“[line=3]Bloodstains…?@ You mean traces of blood?”@
-`“Yes.@ There was blood on the estate wall as well.@ While Master Shiki slept, the police also came to ask about last night.”@
+`“Yes.@ There was blood on the estate wall as well.@ While you were asleep, Master Shiki, the police came to ask about last night.”@
 `“Does that mean somebody died…?”@
 `“No—the only thing found was blood.”
 \
 cl c,crossfade,400
 `“[line=6]”@
 `East of the estate[line=3]the place where I saw the man in the black coat last night.@
-`Bloodstains…@ traces of blood
+`Bloodstains…@ traces of blood.@
 `Bloodstains[line=3]traces of red.@
 `Come to think of it, yes.@
-`I do remember seeing something red[line=4].
+`I have a feeling I saw something red[line=4].
 \
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki?”@
@@ -249,11 +249,11 @@ ld r,"tachi/cel_t01a",rshutter,400
 `“Ciel[line=3]what are you doing in our classroom?”@
 `Dumbstruck, I point at her as though I have seen a ghost.@
 `“Is it really so strange?@ I only stopped by to see whether you were here.”@
-`“Of course it is strange[line=3]upperclassmen do not normally visit younger students’ classrooms.@ There are plenty of problems with it, but above all, the classrooms are too far apart.”@
+`“Of course it’s strange[line=3]students in your year don’t usually come to our classrooms.@ There are all sorts of reasons, but for one thing, it’s too far.”@
 `Ciel nods with perfect seriousness, as though this explains everything.
 \
 ld r,"tachi/cel_t03",crossfade,400
-`“That part is no problem.@ I may not look it, but I am a very fast runner.@ I can reach my classroom downstairs in under a minute.”@
+`“That’s no problem.@ I may not look it, but I can run quite fast.@ I can get back to my classroom downstairs in under a minute.”@
 `She makes the declaration with her chest proudly thrust out.@
 `“…”@
 `Apparently there is little point asking this woman to worry about appearances.
@@ -265,7 +265,7 @@ ld r,"tachi/cel_t03",crossfade,400
 \
 ld r,"tachi/cel_t12",crossfade,400
 `“Inui, Tohno seems to be in a bad mood this morning.”@
-`“Yeah—his new home probably does not agree with him, so he is throwing a tantrum.@ Most things do not bother Tohno, but when he meets something he cannot make sense of, he has this nasty habit of going berserk.”
+`“Yeah, life at the new place probably doesn’t agree with him, so he’s throwing a tantrum.@ Most things don’t bother Tohno, but he has this nasty habit of going berserk over things he can’t make sense of.”
 \
 `“Really?@ Tohno doesn’t strike me as someone who gets angry.”@
 `“Don’t be fooled.@ He’s usually quiet, but whenever he meets something he can’t understand, he snaps[line=3]completely.”@
@@ -287,7 +287,7 @@ ld c,"tachi/ari_t03",crossfade,400
 `“How could you, Tohno!@ Eavesdropping on the sweet nothings between me and Ciel is sick!”@
 `Arihiko points at me while making his own dramatic doom-doom-doom sound effects.@
 `“[line=3]Arihiko.@ Are you trying to pick a fight?”@
-`Please say yes.@ At the moment, I’ll buy one at any price.@
+`Please say yes.@ Whatever it costs me, I’ll take you up on it.@
 `Arihiko shakes his head violently.
 \
 ld c,"tachi/ari_t01",crossfade,400
@@ -302,14 +302,14 @@ ld c,"tachi/ari_t02",crossfade,400
 \
 `“…@Arihiko—were you actually trying to cheer me up?”@
 `“Idiot, don’t ask such embarrassing questions.@
-`The virtue lies in doing this sort of thing without making a show of it!”@
+`The whole point is to do it without making a big deal of it!”@
 `He pounds my back even harder.@
 `We’ve known each other for years, and I still can’t quite grasp what sort of person he is.
 \
 ld c,"tachi/ari_t01",crossfade,400
 `“So how’s the new place?@ You look seriously stressed out.”@
 `“Hard to say.@ I had a horrible dream last night, and this morning the whole household looked at me as if I’d lost my mind.”@
-`“[line=3]Hmm.@ I see; what a grim ordeal.”@
+`“[line=3]Hmm.@ That’s rough.”@
 `Arihiko nods gravely.
 \
 cl c,crossfade,400
@@ -330,7 +330,7 @@ ld r,"tachi/cel_t03",crossfade,400
 `“?”@
 `Arihiko and I look at each other, equally baffled.@
 ld r,"tachi/cel_t02",crossfade,400
-`“I envy you.@ Having a friend you can understand without either of you making an effort is something I have always wanted.”@
+`“I envy you.@ I’d love to have a friend I could understand like that, without either of us having to try.”@
 `Ciel gives an impressed little sigh.
 \
 ld l,"tachi/ari_t03",notrans,0
@@ -370,7 +370,7 @@ ld c,"tachi/ari_t04",crossfade,400
 `“Not really.@ It took me seven full days just to make her remember my name.”
 \
 `“That’s unusual.@ I thought your policy was that any girl who didn’t fall for you in one day was too much trouble.”@
-`“That applies to ordinary women, but Ciel is different.@ I’ve kept this secret, but the truth is[line=4]”@
+`“Other girls, sure.@ Ciel’s different.@ I’ve kept this a secret, but the truth is[line=4]”@
 `“You have a weakness for older girls who look good in glasses.”@
 `Arihiko’s cheeks redden.
 \

@@ -62,7 +62,7 @@ br
 `“Absolutely not!”@
 `Clutching the hammer, the girl in glasses shook her head vigorously.
 \
-`“If class starts while this is still here, I know I won’t be able to concentrate.@ The whole lesson will turn to gibberish, and the teachers are bound to yell at me for staring out the window!”@
+`“If class starts with all this still here, I know I won’t be able to concentrate.@ I won’t understand a word, and the teachers will be shouting, ‘You there!@ Stop staring out the window!@’”@
 `Still gripping the hammer, she delivered this speech with passionate conviction.@
 `“Well—yes, they would scold you for staring out the window.”@
 `“Exactly.@ So I have to finish now.”@
@@ -151,7 +151,7 @@ play "*3"
 \
 `I slipped inside under cover of the crowd milling through the room.@
 `My desk was in the back corner beside the window, so if I crept carefully, no one would notice me.@
-`If I slipped in this way, then when attendance was taken for second period, everyone would exclaim, “Whoa—when did Tohno get here?!”@
+`If I slipped in this way, then when they called the roll for second period, there would be a cry of “Hey—when did Tohno get here?!”@
 `It would blow a tiny gust of eccentricity through the otherwise dull lesson.@
 br
 `[line=3]That plan, however, was apparently not to be.
@@ -180,9 +180,9 @@ ld c,"tachi/ari_t01",crossfade,400
 `Arihiko was, above all else, loud.@
 `Before I knew it, the whole class was looking our way, and people all around were calling, “Hey, morning, Tohno.”
 \
-`“…@Arihiko, be quiet.@ You’ve ruined my plan to slip in unnoticed and casually attend the next lesson.@
-`And why are we rivals in the first place?@ If you want someone strong to fight, there are plenty of better candidates.@ Stop pestering me.”@
-`Then again, I had lent him nearly ten thousand yen since middle school, so perhaps he qualified as an enemy after all.@
+`“…@Arihiko, shut up.@ I was trying to slip in quietly and sit through the next class like nothing had happened.@ You’ve ruined it.@
+`And since when are we rivals?@ There are plenty of other people who can fight; go bother one of them.”@
+`Then again, I’d lent him nearly ten thousand yen since middle school, so I suppose enemy wasn’t entirely wrong.@
 ld c,"tachi/ari_t04",crossfade,400
 `“Why are you only ever cold to me, Tohno?@ With everyone else, you’re a saint.@ It’s unfair.”
 \
@@ -194,7 +194,7 @@ ld c,"tachi/ari_t04",crossfade,400
 `“More importantly, Arihiko, you’re a nocturnal animal who normally appears in time for second period.@ Seeing you here this early isn’t merely unusual—it’s deeply unnatural.@ What happened?”@
 ld c,"tachi/ari_t01",crossfade,400
 `“Fair point.@ I was thinking the same thing.@ School isn’t someplace you come for first period just because you happened to wake up early.”@
-`“…@I’m not going to tell you how to live, so I won’t argue.@ I only asked why you were awake.”@
+`“…@I’m not going to tell you how to live, so I won’t argue.@ I only asked why you were up early.”@
 `“Things have been dangerous lately, so I’ve decided to behave myself and sleep at night.@ You’ve heard about the string of random attacks, haven’t you?”
 \
 cl c,crossfade,400
@@ -216,7 +216,8 @@ ld l,"tachi/ari_t02",crossfade,400
 ld r,"tachi/stk_t01",lshutter,400
 `“That’s not it, Inui.@ Every victim had suffered severe blood loss.”@
 `“Right, right.@ That headline called the killer a modern-day vampire.”@
-`“You know a lot about it, Yumizuka.”@ “Not really.@
+`“You know a lot about it, Yumizuka.”@
+`“Not really.@
 `It’s happening in our own town.@ Anyone who watches the news would remember, whether they wanted to or not.”@
 `I hadn’t realized.@
 `I thought the murders had been taking place in the neighboring town, but at some point they had moved into ours.

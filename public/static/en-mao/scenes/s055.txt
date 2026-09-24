@@ -10,14 +10,14 @@ ld c,"tachi/koha_t03",crossfade,400
 `“Did you sleep well?@ It was your first night in an unfamiliar estate, so I was worried something might not suit you.”@
 `“Nothing’s given me any trouble so far.@ I did live here once, after all—and now I have you looking after me so thoughtfully.”@
 ld c,"tachi/koha_t05",crossfade,400
-`“My, how smooth of you, Shiki.”@
-`“What?@ I only said what I was thinking…@ Smooth at what, exactly?”@
+`“My, you’re good with words, Shiki.”@
+`“Huh?@ I only said what I thought…@ Good at what?”@
 `Kohaku merely keeps smiling at me.@
 cl c,crossfade,400
 `Looking at me so directly, she makes me self-conscious, and I turn away.
 \
 br
-`[line=3]That was when.@
+`[line=3]Then.@
 br
 ld c,"tachi/aki_t02",crossfade,400
 `I notice another pair of eyes that has been silently fixed on me all this time.@
@@ -38,21 +38,21 @@ ld r,"tachi/koha_t02",crossfade,400
 ld l,"tachi/aki_t03a",crossfade,400
 `“He hasn’t eaten because he rose too late.@ If his morning is rushed, he has no one but himself to blame.”@
 `Akiha gives a disdainful little sniff.@
-`Apparently she resented both my arriving at this hour and my failure to greet her.
+`Apparently I’ve annoyed her twice over: first by coming down late, then by failing to greet her.
 \
-`“…@Kohaku, did you make breakfast for me?”@
+`“…@Kohaku, is my breakfast ready?”@
 ld r,"tachi/koha_t03",crossfade,400
 `“Yes, it’s waiting in the dining room.@ Please take your time and enjoy it.”@
 ld l,"tachi/aki_t18a",crossfade,400
 `“Don’t be absurd, Kohaku; he can hardly take his time at this hour.@ Brother has no time left for breakfast.”
 \
 `“Listen, Akiha, it’s only just past seven.@ School is barely more than thirty minutes away, so I can easily spare ten minutes.”@
-`“So you plan to spend only ten minutes on breakfast.@ You are not a starving dog; I would rather you ate like a civilized human being.”@
+`“So you plan to spend only ten minutes on breakfast.@ You’re not a hungry dog.@ I would like you to take your time over breakfast.”@
 `“[line=5]”@
 `There are thorns in every word she says.
 \
 cl a,crossfade,400
 `“A dog, Akiha[line=3]”@
-`Then I remembered.@
-`There had been the business with the dogs last night.
+`Then I remember.@
+`The dogs.@ Last night.
 \

@@ -2,35 +2,34 @@ monocro off
 play "*3"
 wavestop
 bg "bg/bg_06a",notrans,0
-`The only reason I can imagine for Ciel to be angry is what happened this morning.@
-`She did not look angry, but if she is, perhaps I should not keep pestering her.
+`The only reason I can think of for Ciel to be angry is what happened this morning.@
+`…@She did not look angry, but if she is, perhaps I should not keep going to see her.
 \
-`“All right…@ I will be good and eat in the cafeteria today.”@
-`“That is the spirit.@ Now move it.@ The cafeteria only has half as many seats as it has customers.”@
-`Arihiko grabs my arm and forcibly drags me away.
+`“…@All right.@ I’ll just go to the cafeteria today.”@
+`“That’s the way.@ Come on, hurry up.@ There are only enough seats for half the people who eat there.”@
+`Arihiko drags me along by the arm.
 \
 bg #000000,lcartain,800
 bg "bg/bg_50",lcartain,800
-`Arihiko and I sit together for lunch.@
-`Our cafeteria has a television, and for reasons poised delicately between educational and appalling, it plays a recording of that morning’s news.@
-`The current story concerns a drunken customer stabbing a convenience-store clerk to death—exactly the sort of report that makes you avoid convenience stores for the next three days.
+`Arihiko and I eat lunch side by side.@
+`There is a television in our school cafeteria.@ Every day it plays a recording of the morning news, a practice that sits somewhere between educational and appalling.@
+`Right now, a drunken customer has stabbed a convenience-store clerk to death.@ I doubt I will feel like going into a convenience store for the next three days.
 \
 ld c,"tachi/ari_t04",crossfade,400
-`“Dangerous world out there.@ First some lunatic starts killing strangers, then a drunk goes and stabs somebody.@
-`A guy can’t even go out at night in peace anymore.”@
-`Arihiko seems to be watching the news with surprising seriousness.
+`“Scary world, huh?@ There’s a killer going after strangers, and now some drunk’s stabbed somebody.@ A guy can’t even go out at night in peace.”@
+`Arihiko seems to be watching the news pretty seriously.
 \
-`“It’s dangerous, sure.@ But the random killings are over, so I’d say things are back to normal.”@
+`“…@It’s dangerous, sure.@ But the random killings are over, so I’d say things are back to normal.”@
 `“Really?@ They catch the guy?”@
 `“No, I don’t think anyone caught him.”@
 br
 `[line=3]But Nrvnqsr is no longer in this world.@
 br
-`So no cheap headline about a MODERN-DAY VAMPIRE will appear on that screen, and no nameless victim will be murdered for no reason again.
+`There will be no more cheap “modern-day vampire”@ headlines on the television.@ No more strangers murdered for no reason.
 \
-`“The point is, those ridiculous murders are over, and there will be no more victims.@ This city is finally back to the way it was.”@
-`“Huh, I did not know that.@ Guess I really ought to watch the news.”@
-`Frowning as if wrestling with a difficult problem, Arihiko studies the television intently.
+`“Anyway, that ridiculous business is over.@ No more victims.@ The city can finally go back to the way it was.”@
+`“Huh.@ I had no idea.@ Maybe I should watch the news more often.”@
+`Arihiko frowns in concentration and studies the screen.
 \
 bg #000000,lcartain,800
 playstop

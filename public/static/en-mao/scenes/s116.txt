@@ -3,58 +3,57 @@ playstop
 wavestop
 bg "bg/bg_32b",lcartain,800
 play "*1"
-`At the top of the hill, I walk around the mansion.@
-`After a while I reach the main gate, where Hisui stands alone.@
+`I crest the hill and walk around the mansion.@
+`After a while I reach the main gate and see Hisui standing there alone.@
 br
-`“What?@ What is Hisui doing?”@
-`Tilting my head, I approach the gate.@
-`Hisui notices me and bows.
+`“…@What’s Hisui doing?”@
+`I tilt my head and head toward the gate.@ Hisui notices me and bows.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“Welcome home, Master Shiki.”@
 `“[line=3]Ah, right[line=3]I’m home, Hisui.”@
-`Her reverent welcome flusters me, but I somehow answer.@
+`Her formal welcome flusters me, but I somehow answer.@
 `“Um[line=3]were you waiting here for me to come home?”@
 `“Yes.@ It is a servant’s duty to welcome home the master.”@
-`Hisui says it as a matter of course, without moving an eyebrow.
+`Hisui says it as a matter of course, without a flicker of expression.
 \
-`“Listen, Hisui.@ I’m honestly glad to be welcomed, but you don’t need to wait outside.@
-`I’ll come home on my own; just call out whenever you happen to notice I’m back.”@
+`“Well, Hisui, I’m glad you’re here to welcome me home, but you don’t have to go out of your way to wait outside.@
+`I’ll come home on my own.@ You can just say hello when you notice I’m back.”@
 ld c,"tachi/his_t05",crossfade,400
 `“[line=5]”@
 `Hisui’s face clouds slightly.@
 `Maybe.@
-`Perhaps she stood here waiting all through Saturday and Sunday too.
+`Perhaps she stood here waiting for me all through Saturday and Sunday too.
 \
 `“[line=2]Hisui, listen[line=2]”@
 ld c,"tachi/his_t01",crossfade,400
-`“Understood.@ Beginning tomorrow, I shall await Master Shiki’s return in the foyer.”@
-`Hisui bows and opens the mansion gate.@
-`With one hand still on it, she turns her back to me.
+`“I understand.@ From tomorrow on, I will wait for you in the foyer, Master Shiki.”@
+`Hisui bows and opens the gate.@
+`Her hand remains on it, her back toward me.
 \
 `“Haaah.”@
-`She hardly seems in the mood to talk.@
-`After I pass through, Hisui closes the gate, walks to the front door, opens it without a word, and leads me to the foyer.
+`Somehow, this does not feel like the moment to speak to her.@
+`Once I pass through, Hisui closes the gate, walks to the front door, and silently opens it before leading me into the foyer.
 \
 bg #000000,lcartain,800
 bg "bg/bg_40b",lcartain,800
 `I return to my room.@
-`Akiha is still at her lessons, Kohaku is preparing dinner, and Hisui has the mansion to clean.@
+`I’m told Akiha has not yet returned from her lessons, Kohaku is preparing dinner, and Hisui has the mansion to clean.@
 br
 `“[line=3]Damn, I have nothing to do.”@
-`No, I am a student; there is plenty I have to do—study, review, memorize.@
-`I simply feel like doing absolutely none of it.
+`No, I’m a student; I have plenty I should be doing—studying, reviewing, memorizing.@
+`I just don’t feel like doing any of it.
 \
-`Arcueid’s face flickers across my mind.@
-`Perhaps it is the aftermath of two hectic days, for better or worse.@
-`For a while, I feel that simply sitting there in a daze would be more restful than doing anything at all.
+`Arcueid’s face crosses my mind.@
+`Maybe it is the letdown after two hectic days, for better or worse.@
+`For a while, I feel more at ease sitting in a daze than doing anything at all.
 \
 bg #000000,crossfade,800
 !w1500
 bg "bg/bg_40c",crossfade,800
-`After finishing dinner alone in the cavernous dining room, I have Kohaku tend my wounds and return to my room.@
-`Akiha has not returned even by dinner.@ Apparently her lesson ran late, so she will eat out.@
+`After dinner alone in the cavernous dining room, I have Kohaku tend my wound and return to my room.@
+`Akiha wasn’t back by dinnertime.@ Her lesson ran late, and apparently she ended up eating out.@
 `The clock is well past ten.@
-`It is a little early, but my body is tired; tonight, I will go to sleep early[line=3]
+`It is a little early, but I’m tired.@ Tonight, I’ll turn in[line=3]
 \
 playstop

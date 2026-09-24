@@ -9,13 +9,13 @@ ld l,"tachi/aki_t13a",crossfade,400
 `“You certainly did take your time, Brother.”@
 cl a,crossfade,400
 br
-`[line=3]For some unfathomable reason, Arihiko had reached the courtyard before me and had apparently been keeping Akiha company.
+`[line=3]Somehow, Arihiko has reached the courtyard before me and seems to have been keeping Akiha company.
 \
-`“So this is where you’ve been hiding all morning, Arihiko.”@
+`“…@I was wondering where you’d been all morning.@ So here you are, Arihiko.”@
 ld c,"tachi/ari_t05",crossfade,400
-`“Damn right!@ Camping out here since fourth period finally paid off!”@
-`Arihiko throws out his chest in triumph.@
-`When a man is this blissfully pleased with himself, even the first syllable of a complaint refuses to come.
+`“Yeah!@ All that waiting here since fourth period paid off!”@
+`Arihiko boasts, puffing out his chest.@
+`…@He looks so pleased with himself that I can’t even begin to complain.
 \
 cl a,crossfade,400
 `“So, Akiha.@ What are you doing for lunch?@ Did Kohaku pack something for you?”@
@@ -23,13 +23,13 @@ ld c,"tachi/aki_t13a",crossfade,400
 `“A packed lunch?”@
 `“Never mind.@ My mistake for asking such a commonplace question.”@
 cl a,crossfade,400
-`From the things I bought, I offer her the comparatively respectable sandwich and a carton of strawberry milk.
+`I pick out a relatively decent sandwich from what I bought and offer it to her with a carton of strawberry milk.
 \
-`“Here, today’s lunch.@ It’s safer than yesterday’s, so you can eat without fear.”@
+`“Here’s your lunch.@ It’s better than yesterday’s, so you can eat without worrying.”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“All right…”@
-`Akiha gingerly accepts the sandwich and strawberry milk.@
-`I am beginning to worry that she may never adapt to the food at this school.
+`“…@All right.”@
+`Akiha gingerly takes the sandwich and strawberry milk.@
+`…@I wonder, a little uneasily, whether she’ll ever get used to lunch at our school.
 \
 cl a,crossfade,400
 ld c,"tachi/ari_t05",crossfade,400
@@ -48,19 +48,19 @@ cl a,crossfade,400
 ld c,"tachi/aki_t15a",crossfade,400
 cl a,crossfade,800
 `“[line=4]!”@
-`I—I nearly jumped out of my skin.@
-`What kind of face is Akiha making?@
-`“Wh-what’s wrong, Akiha?@ Did you find a caterpillar?”@
+`Th-that startled me.@
+`What’s with that look on Akiha’s face?@
+`“Wh-what’s wrong, Akiha?@ Is there a caterpillar or something?”@
 ld l,"tachi/aki_t16a",crossfade,400
-`“Nothing.@ I was merely thinking how remarkably close you and Mister Inui seem to be.”
+`“…@Nothing.@ I was just thinking how close you and Mr.@ Inui are, Brother.”
 \
 ld r,"tachi/ari_t02",crossfade,400
 `“Ahahaha!@ Come on, Akiha, that’s giving us way too much credit.@ Tohno and I may be friends, but we’re the kind where ‘friend’ is spelled ‘mortal enemy’!”@
 ld l,"tachi/aki_t21",crossfade,400
-`As Arihiko roars with laughter beside her, Akiha fixes me with a look that seems to have something to say.@
+`Beside Arihiko, who is roaring with laughter, Akiha looks at me as though she has something to say.@
 cl a,crossfade,400
 br
-`[line=4]And then.@
+`[line=4]Then.@
 br
 ld c,"tachi/cel_t03",lshutter,800
 `“Ah, so this is where you all were.”@
@@ -71,7 +71,7 @@ ld c,"tachi/ari_t05",crossfade,400
 `“Hey, it’s Ciel!@ Jackpot, Tohno—three sevens today!”@
 `“….”@
 cl a,crossfade,400
-`Sorry, Arihiko, but I can’t celebrate quite that innocently.@
+`…@Sorry, Arihiko, but I can’t be quite so happy about it.@
 `Because, well[line=3]
 ld c,"tachi/aki_t10",lshutter,800
 br
@@ -87,11 +87,11 @@ ld l,"tachi/aki_t03a",crossfade,400
 `Akiha’s refusal is absolute.
 \
 cl a,crossfade,400
-`The courtyard has gone cold.@
-`Granted, it is late October and hardly warm to begin with, but this is a different sort of cold.@
-`Arihiko, who has seen only Akiha’s polished young-lady façade, stands petrified with his mouth hanging open.@
-`“Hah.”@
-`Still, as her brother, I ought to reprimand her for that.
+`…@The air in the courtyard is cold.@
+`It’s late October, so of course it isn’t warm.@ But still, it’s cold.@
+`Arihiko has only ever seen Akiha’s ladylike side.@ He freezes with his mouth open.@
+`“…@Hah.”@
+`Still, as her brother, I ought to say something about that remark.
 \
 `“Akiha, what was that?@ Even as a joke, it was terribly rude.”@
 ld l,"tachi/aki_t11a",crossfade,400
@@ -116,16 +116,16 @@ ld r,"tachi/cel_t12",crossfade,400
 cl a,crossfade,400
 br
 `Sparks crackle between them.@
-`To borrow an antique phrase, it is the clash of tiger and dragon.
+`A clash of dragon and tiger, as the old saying goes—or something like that.
 \
 bg #000000,lshutter,400
 bg "bg/bg_04",rshutter,400
-`In the end, we start lunch gathered around Ciel and Akiha, whose self-professed incompatibility is already catastrophic.@
+`…@In the end, lunch begins with Ciel and Akiha, who are—in their own words—disastrously incompatible.@
 ld c,"tachi/cel_t03",crossfade,400
-`“Still, I never knew Tohno had a sister so close to his own age.@ I had always assumed he was an only child.”@
-`“Wait.@ Didn’t I tell you I had a sister?”@
+`“Still, I never knew you had a sister so close to your age, Tohno.@ I was sure you were an only child.”@
+`“…@Huh?@ Didn’t I tell you I had a sister?”@
 ld c,"tachi/cel_t12",crossfade,400
-`“You did.@ You said one younger sister remained at the Tohno estate.”@
+`“Yes, you did.@ You said your younger sister was the only one left at the Tohno house, didn’t you?”@
 cl a,crossfade,400
 `What?@
 `Then she did know about Akiha already.
@@ -142,8 +142,8 @@ ld r,"tachi/cel_t04",crossfade,400
 ld l,"tachi/aki_t01a",crossfade,400
 `“Yes; I dislike this school’s uniform, so I continue to wear my old one.”@
 br
-`Akiha delivers that outrageous statement as casually as the weather.@
-`So that was it: I thought her new uniform simply wasn’t ready, but she had never intended to wear it at all.
+`Akiha says this outrageous thing as though it were nothing.@
+`…@So that’s it.@ I thought her uniform simply wasn’t ready yet.@ She never intended to wear our school’s uniform in the first place.
 \
 ld r,"tachi/cel_t03",crossfade,400
 `“Well.@ You seem rather spirited, so I think this school’s uniform might suit you better.@ What do you think, Tohno?”@

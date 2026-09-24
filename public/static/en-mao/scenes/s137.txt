@@ -8,89 +8,87 @@ bg "bg/bg_32c",crossfade,800
 \
 bg #000000,lshutter,800
 bg "bg/bg_48c",lshutter,800
-`Hm?@
-`Voices are coming from the sitting room.@ That’s odd when it’s almost time for dinner.@
-`Kohaku should be in the kitchen, and Hisui isn’t exactly the sort to sit chatting with Akiha.@
+`…@Hm?@
+`I hear voices from the sitting room.@ That is strange; it is almost dinnertime.@
+`Kohaku should be in the kitchen, and Hisui is hardly one to sit and chat with Akiha.@
 br
-`“Maybe Kohaku and Akiha are having tea.”@ That must be it.@
-`I push open the front door.
+`“…@Maybe Kohaku and Akiha are having tea.”@
+`That is probably it.@ I push open the front door.
 \
 bg "bg/bg_33c",lcartain,800
 ld c,"tachi/his_t01",notrans,0
 `Hisui is standing in the foyer.@
 `“I’m late, but I’m home.”@
-`“…”@
-`Hisui fixes me with a blank stare.@
-`She does not give her usual “welcome home.”@ Somehow, she looks displeased.
+`“………………”@
+`She fixes me with an unreadable stare.@ There is no usual “Welcome home,”@ and she somehow looks annoyed.
 \
 `“Did something happen?@ Maybe it’s my imagination, but you look angry.”@
 ld c,"tachi/his_t08",crossfade,400
-`“You have a visitor, Master Shiki.@ The guest has been waiting in the sitting room for some time, so please go at once.”@
-`“A visitor for me?”@
+`“…@You have a visitor, Master Shiki.@ Your guest has been waiting in the sitting room for some time, so please go in at once.”@
+`“A visitor?@ For me?”@
 `Hisui nods.
 \
-`“Who could it be when no one ever comes here to see me[line=4]”@
+`“Who would come here to see me?@ I can’t think of a single[line=3]”@
 br
-`Wait.@
-`I have an extremely bad feeling about this.@
+`No.@ Wait.@
+`I have a terrible feeling about this.@
 br
-`“Hisui…@ what does this visitor look like?”@
-`“She is a beautiful woman with golden hair.”@
-`Hisui’s answer could not be more direct.@
-`Without another word, I sprint for the sitting room.
+`“Hisui.@ What does she look like…?”@
+`“A beautiful woman with golden hair.”@
+`Hisui answers without a moment’s hesitation.@
+`I run for the sitting room without a word.
 \
 bg #000000,lcartain,400
 bg "bg/bg_34b",lcartain,400
 play "*3"
 `[line=4]Too late.@
-`Apparently, the situation was already well past the point where it could be explained away.
+`Things have already gone too far for me to explain my way out.
 \
 bg "event/ark_e08",tshutter,800
 `“[line=4]Welcome home, Brother.”@
-`“Oh, there you are; took you long enough.”@
-`The two greet me in utterly opposite tones.@
+`“Oh, there you are!@ Took you long enough.”@
+`Their greetings could hardly sound more different.@
 `“……………………”@
-`This cannot be happening.@
-`Of all people, Arcueid and Akiha are sitting face-to-face in our sitting room, locked in a standoff.
+`Of all people.@ Arcueid and Akiha are sitting across from each other in our sitting room.
 \
-`Arcueid looks perfectly at ease, and so does Akiha.@
-`But while Arcueid’s composure is natural—or simply oblivious—Akiha’s is an obvious mask for open hostility.@
-`Akiha cuts me a sidelong glance.
+`Arcueid looks perfectly at ease.@ So does Akiha.@
+`But Arcueid is at ease because she simply is; Akiha’s calm is all too plainly a cover for her hostility.@
+`Akiha glances sideways at me.
 \
-`“What is the matter, Brother?@ Do not stand there; please come and sit with us.”@
+`“What is the matter, Brother?@ Don’t stand there.@ Come and sit down.”@
 br
-`Ugh, if I go over there, I have the distinct feeling she will calmly stick a knife into me.@
+`Ugh.@ If I go over there, I have a feeling she will stab me on the spot.@
 br
-`“No, I am fine.@ More importantly, Akiha, she is, well[line=4]”@
-`Well[line=4]how am I supposed to explain her?@
-`Calling her a classmate will not work, and saying we met downtown would only pour gasoline on the fire.
+`“No, I’m fine.@ More importantly, Akiha, she’s, well[line=4]”@
+`How am I supposed to explain her?@
+`I cannot call her a classmate, and saying I met her in town would only make things worse.
 \
 `“She is what?”@
 `“Well, you see, um[line=4]”@
 br
-`Damn it, anything I say now will probably be useless, but I still have to invent some convincing excuse and smooth this over.@
-`I have to[line=4]but before that, what on earth did Arcueid tell them when she arrived?@
+`Damn it.@ Nothing I say will help now, but I have to come up with some excuse.@
+`I have to[line=4]but what did Arcueid tell them when she showed up?@
 br
 `“Um[line=3]what did she say when she came here?”@
-`Pointing at Arcueid, I promptly dig my own grave.
+`I point at Arcueid and promptly dig my own grave.
 \
 `“Hm?”@
-`Arcueid tilts her head in puzzlement.@
-`“Is she not a friend of yours, Brother?@ That is what she told me.”@
-`“Yes[line=3]well, I suppose you could call us friends.”@
-`“I see.@ Then I would be delighted if you introduced us.@ I could hardly turn away a friend of my brother’s.”@
-`“Ah[line=3]well, about that, Akiha…”@
-`I mumble incoherently.@
-`Evidently tired of keeping quiet, Arcueid barges into our private exchange without the slightest invitation.
+`Arcueid tilts her head, puzzled.@
+`“…@Isn’t she a friend of yours, Brother?@ That is what she told me.”@
+`“Ah[line=3]yes.@ You could call us friends.”@
+`“I see.@ Then I hope you’ll introduce us.@ I could hardly turn away a friend of yours.”@
+`“Well[line=3]you see, Akiha…”@
+`I mumble my way toward an answer.@
+`Arcueid, apparently tired of holding her tongue, barges into the conversation between brother and sister without asking.
 \
-`“Please don’t trouble yourself.@ I only came to ask Shiki out, so we’ll be leaving right away.@ Isn’t that right, Shiki?”@
-`The room tilts around me.@
+`“Don’t trouble yourself.@ I only came to ask Shiki out, and we’ll be leaving right away.@ Isn’t that right, Shiki?”@
+`I feel faint.@
 br
 `[line=3]This is bad.@
-`If I let her keep talking, Shiki Tohno’s life as he knows it is over.
+`If I let her say another word, Shiki Tohno is finished.
 \
-`“Hahahahaha!”@
-`Laughing with desperate abandon, I rush to Arcueid and seize her arm.@
+`“Ha ha…@ ha ha ha ha!”@
+`I laugh in desperation, rush over to Arcueid, and grab her arm.@
 bg "bg/bg_34b",lshutter,800
 ld l,"tachi/ark_t06",crossfade,400
 `“Hey, Shiki, what are you doing?”@
@@ -101,70 +99,68 @@ cl l,lshutter,400
 bg #000000,lcartain,400
 bg "bg/bg_33c",lcartain,400
 ld c,"tachi/his_t01",notrans,0
-`Hisui is still in the foyer.@
-`Her gaze turns colder than ever as I come running toward her, towing Arcueid behind me.@
+`Hisui is in the foyer.@
+`As I run past with Arcueid in tow, she gives me a colder look than ever.@
 br
 `“Are you going out, Master Shiki?”@
-`“[line=3]Yes.@ I will be back late; I am truly sorry to ask, but could you leave the gates open?”@
+`“[line=3]Yeah.@ I’ll be back late.@ I’m really sorry, but could you leave the gate open?”@
 `“[line=3]Certainly.”@
-`Hisui gives me an exquisitely formal bow as I race past her and flee the estate.
+`Hisui gives a stiffly polite bow as I rush past her and flee the mansion.
 \
 bg #000000,lcartain,400
 bg "bg/bg_32c",lcartain,400
 ld c,"tachi/ark_t11",crossfade,400
-`“Ow!@ What do you think you’re doing, dragging me outside like that?”@
-`“That’s my line!@ What the hell were you thinking, walking straight up to my front door?@ You’ve lost your mind!@
-`Are you trying to destroy my entire life, you stupid woman?”@
-`Grinding my teeth, I glare at Arcueid.@
+`“Ow!@ What was that for?@ Why drag me outside all of a sudden?”@
+`“That’s my line…!@ What were you thinking, coming straight to my house?@ Have you lost your mind?@
+`Are you trying to ruin my life, you stupid woman…!?”@
+`I glare at Arcueid through clenched teeth.@
 ld c,"tachi/ark_t13",crossfade,400
-`“St[line=3]stupid woman, are you calling me stupid?!”
+`“S-stupid woman?@ Are you calling me stupid!?”
 \
-`“I am calling an idiot an idiot, so what else could I mean, idiot?@ If you have an argument, let us hear it!”@
-`“Wh[line=3]uh?”@
-`I am well and truly furious.@
-`I have not been this angry in years, and now that I am, I will not be satisfied until I tell her exactly what I think, no matter who she is.
+`“If I call an idiot an idiot, what else could I mean, idiot?@ Go on—if you’ve got an answer, let’s hear it!”@
+`“Wh[line=3]ah?”@
+`I have not been this angry in a long time.@ Now that I am, I have to tell her exactly what I think, whoever she is.
 \
 ld c,"tachi/ark_t16",crossfade,400
-`“All I did was come to see you, so why are you this angry?@ I did nothing to deserve it!”@
-`“Wait, you only came to see me?@ Arcueid, are you serious?”@
+`“What?@ I only came to see you!@ I haven’t done anything that bad!”@
+`“…@Wait.@ You only came to see me?@ Are you serious, Arcueid?”@
 ld c,"tachi/ark_t14",crossfade,400
-`“I did not say anything strange.@ I even kept quiet about your eyes and about myself when I talked to your sister.”@
-`“Of course you did.@ If you had mentioned any of that, we would not be standing here talking.@ I would have thrown you off the estate on the spot.”
+`“I didn’t say anything strange.@ I even kept quiet about your eyes and about myself when I talked to your sister.”@
+`“Of course you did.@ If you’d told her that too, I wouldn’t be standing here talking to you.@ I’d have thrown you out of the house on the spot.”
 \
 ld c,"tachi/ark_t11",crossfade,400
-`“I do not get it…@ then why are you so angry?”@
-`“Because you never think anything through!@
-`Listen, you stand out just by being there.@ While we are at it, you need to realize that your very presence causes trouble…!”@
-`There, I have finally said everything I wanted to say.@
-`With it all out of my system, my head clears, though Arcueid, having endured the entire tirade, is naturally no happier.@
-`She glares at me with a catlike pout.
+`“…@I don’t get it.@ Then why are you so angry?”@
+`“Because you never think things through!@
+`Listen.@ People notice you the moment you walk into a room.@ You need to understand how much trouble that can cause…!”@
+`There.@ I have said everything I wanted to.@
+`I feel better for it, but Arcueid has had to stand there and take it.@ She glares at me with a sulky, catlike look.
 \
 ld c,"tachi/ark_t16",crossfade,400
-`“[line=3]You are the one saying whatever you please.@ And why would I stand out just by being there?@ I look no different from a human.”@
-`“Because beautiful women stand out wherever they are.@ Whether you are human has nothing to do with it.”@
-`I answer without hesitation.@
+`“[line=3]You can’t just say whatever you want.@ Why should I stand out?@ I look just like a human being.”@
+`“Because beautiful women stand out.@ What does being human have to do with it?”@
+`I say it flatly.@
 cl c,crossfade,400
 br
-`Perhaps because the answer comes so readily, Arcueid accepts it just as readily.
+`Perhaps because I answer so readily, Arcueid seems to accept it just as readily.
 \
-`“[line=3]Anyway, I went too far.@ I have never been caught in crossfire like that before, and I panicked.”@
+`“[line=3]Well, I said too much.@ I’ve never been caught in a mess like that before, and I lost my head.”@
 ld c,"tachi/ark_t14",crossfade,400
-`“It is fine.@ It sounds like I was the one at fault.”@
-`Arcueid nods with disconcerting meekness.@
-`I feel guilty for finding even that suspicious.@
-`But why did she come to my house in the first place?
+`“…@It’s all right.@ I guess I was the one in the wrong.”@
+`Arcueid nods with surprising meekness.@
+`I feel guilty for wondering if there is something behind it.@
+`…@But why did she come to my house?
 \
-`“By the way, why did you come to my house?@ I suppose the timing worked out, since I needed to talk to you too.”@
+`“So why did you come to my house?@ …@I needed to talk to you too, so the timing worked out, but still.”@
 ld c,"tachi/ark_t11",crossfade,400
-`“Oh, you did?@ I only came by to see how you were doing.”@
-`“I see…@ next time, please come see me somewhere inconspicuous.@ Try not to let anyone find you.”@
-`All at once, I feel exhausted.
+`“Did you?@ I just wanted to see how you were doing.”@
+`“…@I see.@ Please, next time come see me somewhere less conspicuous.@ Somewhere no one will find you.”@
+`…@I feel suddenly exhausted.
 \
-`“[line=3]Anyway, I need to talk to you about something serious.@ I cannot talk freely here, so can we go somewhere else?”@
+`“[line=3]Anyway, there’s something serious I need to talk to you about.@ Can we go somewhere quieter?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“All right, but[line=3]what do you want to talk about?”@
-`“You will see.@ It should be empty soon, so the park might be best.”@
-`I tell her to come along and start walking.@
+`“Sure, but what is it?”@
+`“You’ll see.@ …@The park ought to be empty by now.”@
+`I call for her to follow and start walking.@
 cl c,lshutter,800
 `Arcueid tilts her head, then obediently follows.
 \

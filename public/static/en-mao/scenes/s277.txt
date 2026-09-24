@@ -6,24 +6,23 @@ bg "bg/bg_06a",lcartain,800
 `I went to my window seat and set down my bag.
 \
 ld c,"tachi/ari_t01",lshutter,400
-`“Hey, morning. You’re looking awfully pale again today.”@
-`“Honestly.@ Everyone takes one look at me and says the same thing.@ Do I look that awful?”@
+`“Hey, morning.@ You’re looking awfully pale again today.”@
+`“Honestly.@ Everyone takes one look at me and says the same thing.@ Do I look that pale?”@
 `“Huh[line=3]?@ Now that you mention it, you look normal.@ Maybe it’s because you seem so completely miserable.”@
 `“Miserable.”@
 `He was right.@
 `Ciel had said goodbye, my body felt like a sack of mud, and both mind and body were down for the count.
 \
-`“[line=3]Arihiko.@ Have you seen that upperclassman today?”@
+`“[line=3]Arihiko, have you seen Ciel today?”@
 ld c,"tachi/ari_t03",crossfade,400
 `“Huh?@ Which upperclassman are you talking about?”@
 `“The only upperclassman we both know is Ciel.”@
 `“Who is Ciel?@ Did our school have a foreign exchange student?”@
 br
-`[line=4]My mouth fell open in disbelief.@
+`[line=4]My jaw dropped.@
 br
-`“Arihiko—you…”@
-`I managed that much in broken fragments.@
-`But the rest refused to come.
+`“…@Arihiko, you…”@
+`I managed to force out that much in broken fragments, but the rest refused to come.
 \
 ld c,"tachi/ari_t01",crossfade,400
 `“What is it, Tohno?@ If you have something to say, spit it out.@ I’ll listen to anything except a request for money.”@
@@ -59,7 +58,7 @@ br
 `I still hadn’t done anything[line=3]hadn’t told her anything.@
 `We had once eaten lunch beneath a blue sky as clear as today’s.@
 br
-`How precious it had been.@ What a cherished dream it was[line=4]
+`How precious it all was.@ How dear that dream had been[line=4]
 \
 bg #000000,crossfade,1500
 !w1000

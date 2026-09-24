@@ -20,20 +20,20 @@ wave se_04
 \
 bg "bg/bg_36a",lshutter,800
 `“Uh[line=3]”@
-`I had expected something like this, but the room was almost comically predictable.
+`I thought I knew what to expect, but…@ well, it’s exactly what I expected.
 \
 ld c,"tachi/aki_t16b",crossfade,400
 `“What is it, Brother?@ Did you need something special?”@
 `“No, nothing like that.@ I just felt like talking to you.@ If you’re busy, I can come back later, so don’t hesitate to say so.”@
 ld c,"tachi/aki_t08b",crossfade,400
-`“I am busy, but this can wait, so I can certainly make time to talk with you, Brother.”@
+`“Well, I am busy, but, um…@ it can wait.@ I can make time to talk to you, Brother.”@
 `Akiha hurriedly gathers up the notebooks spread across her desk.
 \
 `“Oh, you were doing schoolwork.@ Then I’ll come back later.@ I can’t interrupt your studies.”@
 ld c,"tachi/aki_t04b",crossfade,800
 `“No, I was only about to start, so I can leave it until tonight.@
 `Please, Brother, sit wherever you like.@ I’ll go make some tea.”@
-`“If you’re sure, forget the tea.@ We ought to save our appetites today, don’t you think?”@
+`“If you’re sure.@ But there’s no need for tea.@ We ought to save our appetites today, don’t you think?”@
 ld c,"tachi/aki_t16b",crossfade,400
 `“Y-yes, that’s true.@ Let’s do that.”
 \
@@ -74,7 +74,7 @@ ld c,"tachi/aki_t18b",crossfade,400
 `Kohaku told you the same thing, didn’t she?@ This is your home, so you’re allowed to relax.”@
 `“Mm, I’m sure I’ll settle in eventually.@ It’s just[line=4]”@
 `“Just what?”@
-`“I don’t know—it doesn’t feel very nostalgic.@ I remember living in the mansion, but none of it quite matches the picture in my head, and that keeps throwing me.@
+`“I don’t know—it doesn’t feel very familiar.@ I remember living in the mansion, but none of it quite matches the picture in my head, and that keeps throwing me.@
 `I suppose that’s only natural after eight years away.”
 \
 ld c,"tachi/aki_t23b",crossfade,400
@@ -127,7 +127,7 @@ ld c,"tachi/aki_t12b",crossfade,800
 `“[line=3]No, I’m all right.@ I’m not as bad as you, but I’ve always been prone to dizzy spells.@
 `I simply remembered the accident eight years ago.@ Your wound was so deep and there was so much blood[line=3]it made me feel sick, that’s all.”
 \
-`“I see.@ If that’s all, fine—but don’t force yourself.@ The moment you feel ill, tell someone.”@
+`“I see.@ If that’s all, fine—but don’t force yourself.@ The moment you feel ill, tell me.”@
 ld c,"tachi/aki_t04b",crossfade,400
 `“Yes, I will whether you tell me to or not.@ Unlike yours, my dizzy spells are purely psychological.”@
 `Apparently recovered, Akiha answers with her usual crisp certainty.
@@ -159,7 +159,7 @@ br
 `[line=3]as though she were apologizing.
 \
 ld c,"tachi/aki_t04b",crossfade,400
-`“Then I’ll see you in the dining room.@ You may do whatever you like today without fear of being scolded.”@
+`“Then I’ll see you in the dining room.@ I won’t get angry today, whatever you do.”@
 `“Now that is good news.@ Kohaku went to all the trouble of making a feast, so just for today, I was hoping to forget table manners existed.”@
 cl a,crossfade,400
 `After answering, I leave Akiha’s room.

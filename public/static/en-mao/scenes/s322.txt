@@ -23,7 +23,7 @@ ld c,"tachi/aki_t13b",crossfade,400
 \
 ld c,"tachi/aki_t03b",crossfade,400
 `“What are you talking about?@ You don’t look better at all; you were miserable sober, and you’re miserable drunk.@ What else are we supposed to try?”@
-`“That’s a rather brutal argument.@ Alcohol failing to cheer me up does not mean there are no other options.”@
+`“That’s a rather brutal argument.@ Just because drinking doesn’t cheer me up doesn’t mean we’re out of options.”@
 ld c,"tachi/aki_t18b",crossfade,400
 `“What choice do I have when you refuse to tell us anything?@ If you would only tell me what happened last night, I wouldn’t have to resort to alcohol.”@
 `“[line=5]”@
@@ -84,7 +84,7 @@ bg #ffffff,crossfade,800
 `Those words were probably meant for me because I had stayed beside her to the end.@
 br
 `I’m sorry.@
-`Perhaps those words were meant for the me who would spend the future regretting it.
+`Perhaps those words were for me, for the regret I would have to live with.
 \
 `So it’s all right to forget.@
 br
@@ -94,7 +94,7 @@ br
 \
 `If I could forget, it would be so easy.@
 `But I cannot.@
-`I neither loved nor hated her,
+`I had neither liked nor disliked her,
 `yet I feel that I must not forget her smile.@
 `And more than anything.@
 `As long as the scar on my neck still aches, forgetting is impossible[line=4]
@@ -108,8 +108,8 @@ play "*1"
 `Akiha is sitting before me.@
 `“Akiha?”@
 ld c,"tachi/aki_t17b",crossfade,400
-`“You’re awake?@ Honestly, Brother, why must you suddenly collapse from anemia?”@
-`“So I really did fall over.”@
+`“You’re awake?@ Honestly, Brother, why did you have to faint from anemia all of a sudden?”@
+`“So I really did pass out.”@
 ld c,"tachi/aki_t12b",crossfade,400
 `“Yes, but I’m glad you woke so quickly.@ I’m sorry.@ This happened because I pressed you to drink.”@
 `“No, that had nothing to do with it.@ I fainted for reasons of my own, that’s all.”
@@ -122,10 +122,10 @@ cl a,crossfade,400
 `“Akiha?”@
 ld c,"tachi/aki_t01b",crossfade,400
 `“Yes?@ What is it, Brother?”@
-`“[line=3]Well.@ You must be bored sitting there.@ I’m all right, so you can go back to your room.”@
+`“[line=3]Well.@ You must be bored sitting there.@ I’m fine now, so you can go back to your room if you want.”@
 ld c,"tachi/aki_t12b",crossfade,400
-`“Are you saying I am in the way?”@
-`“No, I only thought you might be bored.”@
+`“Are you saying I’m in the way?”@
+`“No, I just thought you might be bored.”@
 ld c,"tachi/aki_t04b",crossfade,400
 `“I am bored, but I can endure it.@ I am here because I choose to be, so you needn’t feel guilty, Brother.”@
 br
@@ -139,24 +139,24 @@ br
 bg #000000,crossfade,800
 monocro #ffff00
 bg "bg/bg_45b",crossfade,800
-`Then I remembered.@
-`It had been more than eight years ago.@
-`Once, when I had been terribly ill with a cold, Akiha had come to visit me.
+`Then I remember.@
+`It was more than eight years ago, I think.@
+`Once, when a cold or something had taken a turn for the worse, Akiha had come to visit me.
 \
-`It had been a vicious cold, so bad that every breath hurt.@
+`It had been a vicious cold, so bad I could hardly breathe.@
 `A black-haired girl had sat at my bedside, holding my hand.@
 `Tatami and paper screens.@
-`The cold hush of winter.@
+`The chill of winter.@
 `Little Akiha in the dark room, watching me as though she might cry.
 \
 bg #000000,crossfade,800
 monocro off
 bg "bg/bg_40c",crossfade,400
-`“That’s a relief.”@
+`“That’s a little reassuring.”@
 ld c,"tachi/aki_t01b",crossfade,400
-`“Hm?@ Did you say something, Brother?”@
-`“Yes.@ I was thinking that a little of the old Akiha still remains.@ It’s nothing important, but it made me happy.”@
-`The smile I give her comes so naturally and so gently that it surprises even me.
+`“What?@ Did you say something, Brother?”@
+`“Yes.@ I was thinking that there’s still a little of the old Akiha left in you.@ It’s nothing important, but realizing it made me happy.”@
+`Quite naturally, I smiled at her so gently that I surprised myself.
 \
 ld c,"tachi/aki_t16b",crossfade,400
 `“That is all very well, but you haven’t changed in the slightest, Brother.@ You might at least correct your habit of making other people fuss over you.”@
@@ -181,10 +181,10 @@ br
 `“Akiha.@ Does this mansion have any rooms with tatami?”@
 ld c,"tachi/aki_t01b",crossfade,400
 `“No.@ There are no Japanese-style rooms in the mansion.”@
-`“I thought not.@ Never mind.@ I was only wondering about something.”@
+`“Right.@ Never mind.@ I was just wondering.@ Don’t worry about it.”@
 ld c,"tachi/aki_t13b",crossfade,400
-`“I see.@ Does the absence of a Japanese-style room strike you as strange, Brother?”@
-`“A little.@ In a mansion this large, you’d think there might be at least one.”@
+`“Hm.@ Does it strike you as strange that we have no Japanese-style rooms, Brother?”@
+`“Well, this place is huge.@ I thought there might be at least one.”@
 ld c,"tachi/aki_t01b",crossfade,400
 `“There is considerably more than one—the entire Japanese-style annex consists of tatami rooms.”@
 `“What[line=3]?”@
@@ -192,13 +192,13 @@ ld c,"tachi/aki_t01b",crossfade,400
 `There was a traditional house beyond the trees in the garden.
 \
 ld c,"tachi/aki_t16b",crossfade,400
-`“You really have recovered.@ I seem to be in the way now, so I’ll return to my room.”@
+`“…@You really are feeling better now.@ I seem to be in your way, so I’ll go back to my room.”@
 cl a,crossfade,400
 `Akiha rises from the chair and turns to leave.
 \
-`“Thanks, Akiha.@ I’m sorry I kept you here for hours.”@
+`“Thanks, Akiha.@ Sorry I made you keep me company for hours.”@
 ld c,"tachi/aki_t04b",crossfade,400
-`“Please don’t concern yourself.@ Beginning tomorrow, our days will follow much the same rhythm.”@
+`“Please don’t concern yourself.@ Starting tomorrow, our daily schedules will be much the same.”@
 cl a,lcartain,800
 `“…?”@
 `Leaving me with that baffling remark, Akiha walks out.
@@ -209,15 +209,14 @@ bg "bg/bg_40d",rcartain,800
 `[line=4]I switch off the light and settle into bed.@
 br
 `Akiha’s care has left me deeply at peace.@
-`I should be able to fall at once into the first gentle sleep I have had in days.@
+`I should soon drift into the first peaceful dream I’ve had in days.@
 br
-`I breathed out slowly and closed my eyes.
+`I let out a deep breath and slowly close my eyes.
 \
 bg #000000,crossfade,800
 monocro #ffff00
 bg "bg/bg_45b",crossfade,800
-`Just before sleep takes me.@
-`I remember with perfect clarity my younger self being nursed by little Akiha.
+`Before I fall asleep, I vividly remember little Akiha looking after me when I was sick.
 \
 `A dark Japanese-style room where no one else came to visit.@
 `Perhaps slipping past Makihisa’s notice, Akiha crept inside, took my hand, and wept.@

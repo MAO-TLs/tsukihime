@@ -8,13 +8,13 @@ bg #000000,tshutter,800
 !w2000
 bg "bg/bg_34a",bshutter,800
 ld c,"tachi/koha_t02",crossfade,400
-`“Oh, good morning, Master Shiki.@ Breakfast is ready whenever you are.”@
+`“Oh, good morning, Shiki.@ Breakfast is ready whenever you are.”@
 `The moment Kohaku sees me, she greets me with her usual smile.@
 `“Morning.@ Thanks, as always.”@
 `I return the greeting, then glance toward the sofa.@
 cl a,crossfade,400
 ld c,"tachi/aki_t21",crossfade,400
-`Akiha is there, plainly ready with a list of complaints.
+`Akiha is there, looking as though she has something to complain about.
 \
 `“Morning, Akiha.@ You’re up early again.”@
 ld c,"tachi/aki_t03a",crossfade,400
@@ -29,7 +29,7 @@ ld c,"tachi/aki_t06",crossfade,400
 `“That depends entirely on the circumstances.@ My attacks pass quickly, so please don’t take every word I say quite so literally.”@
 cl a,crossfade,400
 `Her argument makes no sense whatsoever.@
-`She must have woken in a foul mood and decided that any excuse to complain about me will do.
+`She seems to be in a bad mood this morning.@ Maybe she just wants to find something to complain to me about.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki.@ Unless you finish breakfast soon, you will be late for school.”@
@@ -41,7 +41,7 @@ bg "bg/bg_34a",rshutter,800
 `Would it be too convenient to think she has been waiting for me?@
 `“Akiha, are you going to school by car?”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“Listen, Brother.@ Arriving at your school in a chauffeured car would be an appalling display.@ Even I understand that much.”@
+`“Listen, Brother.@ Arriving at your school by car would look like showing off.@ Even I understand that much.”@
 `I see.@ So she really was waiting, then.
 \
 `“Then let’s go.@ We’ll have to run a little at this hour, but we have no choice.”@
@@ -93,7 +93,7 @@ cl a,crossfade,400
 `I still don’t quite understand, but perhaps she wanted us to take our time walking to school.
 \
 ld c,"tachi/aki_t16a",crossfade,400
-`“Still, you surprised me.@ I’m a fast runner, but I couldn’t keep up with you.@ You’re remarkably quick for someone who doesn’t play sports.”@
+`“Still, you surprised me.@ I’m a fast runner, but I couldn’t keep up with you.@ You’re remarkably quick for someone who doesn’t belong to a sports club.”@
 `“My health keeps me from joining a club, but I do exercise.@ Believe it or not, I’m fairly athletic.”@
 ld c,"tachi/aki_t04a",crossfade,400
 `“Yes.@ Hisui told me as much, but I never imagined you were this fast.@
@@ -108,7 +108,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“Well, Brother, the first-year classrooms are upstairs.@ I suppose this is goodbye until after school.”@
 `“What are you talking about?@ Lunch comes first; I’ll wait in the courtyard, so don’t be late.”@
 ld c,"tachi/aki_t09",crossfade,400
-`“Ah[line=5]yes; I’ll be there.”
+`“Ah[line=5]yes; I’ll be waiting.”
 \
 cl a,crossfade,400
 `Akiha gives an unexpectedly sweet little bow and hurries toward the entrance.@

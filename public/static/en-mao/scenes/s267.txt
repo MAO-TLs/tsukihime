@@ -125,7 +125,7 @@ ld c,"tachi/cel_t12",crossfade,400
 `The vampire called the ‘Serpent’ has mastered reincarnation.@
 `That is what I mean when I say he returns to life after being killed.”
 \
-`“Reincarnation…@ So when he dies, he starts over as a baby?”@
+`“Reincarnation[line=3]so when he dies, he starts over as a baby…?”@
 ld c,"tachi/cel_t07a",crossfade,400
 `“Yes.@ While still alive, the ‘Serpent’ selects the body that will become his next incarnation, and at the child’s birth, he implants the entirety of himself within it.@
 `That information remains dormant until the child reaches adulthood, or at least develops a mature sense of self.@
@@ -173,14 +173,14 @@ br
 `He is born as a perfectly ordinary baby, with parents of his own.”
 \
 `“The ‘Serpent’s’ body and mind do not transform into those of a vampire until he reaches an age at which he can act freely.@
-`Before that, he displays no trace of vampirism at all.@ Once he awakens, however, he exploits every human relationship his host has built and disappears seamlessly into society.@
+`Before that, he displays no trace of vampirism at all.@ Once he awakens, however, he uses every human relationship he has built to blend into society.@
 `I am told that by the time the Church discovered him, an entire city had usually already become a city of the dead.”
 \
 `…@I see.@
 `Suppose I had been chosen as the Serpent’s next incarnation.@ Even after awakening, I would continue living under the guise of Shiki Tohno.@
 `Unless I made a spectacular mistake, I could go on drinking human blood without anyone around me noticing.@
 br
-`[line=4]That was…
+`[line=4]That…
 \
 `“It’s terrifying.@ Of course, the people around him are in danger too.@
 `The person chosen as his next incarnation disappears when they grow up, don’t they?@
@@ -216,7 +216,7 @@ ld c,"tachi/cel_t07a",crossfade,400
 \
 `“…@That vampire plans remarkably far ahead.”@
 ld c,"tachi/cel_t12",crossfade,400
-`“Yes.@ He is a serpent, after all.@ Patient, obsessive, and very particular.”@
+`“Yes.@ He is a serpent, after all.@ Tenacious and fussy about the details.”@
 `“…”@
 `Something about it.@
 `This story was unpleasant to hear.
@@ -470,7 +470,8 @@ wave se_03
 \
 ld c,"tachi/ari_t01",lshutter,400
 `“Where are we eating today, Tohno?”@
-`“Anywhere.@ Cafeteria or classroom—I don’t care.”@ “Then let’s get some bread and eat here.@ Ciel might come by if we stay put.@ I’m heading to the school store; want anything?”@
+`“Anywhere.@ Cafeteria or classroom—I don’t care.”@
+`“Then let’s get some bread and eat here.@ Ciel might come by if we stay put.@ I’m heading to the school store; want anything?”@
 `“Anything but curry bread.@ Oh, and milk.”@
 `“Got it.”@
 cl c,lshutter,400
@@ -537,7 +538,7 @@ bg "bg/bg_40c",crossfade,1500
 br
 `[line=3]Don’t be ridiculous.@
 `You’re an ordinary boy, Tohno.@
-`You shouldn’t be doing anything this dangerous.
+`That’s why you shouldn’t do anything this dangerous.
 \
 `“…”@
 `All Ciel had done was worry about me.@
@@ -563,7 +564,7 @@ bg #000000,lcartain,800
 bg "bg/bg_32c",lcartain,800
 play "*9"
 `I stepped outside.@
-`The streets around the mansion saw little traffic even at the best of times, and the serial killings had stilled them further.@ It wasn’t even ten, yet the loneliness belonged to one in the morning.
+`The streets around the mansion saw little traffic even at the best of times, and the serial killings had stilled them further.@ It wasn’t even ten, yet the night already had the lonely stillness of one in the morning.
 \
 `“[line=4]Haa.”@
 `October was entering its final days, and the wind had begun to carry a slight chill.@

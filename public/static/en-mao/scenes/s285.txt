@@ -11,7 +11,7 @@ waveloop se_02
 `The headache pierces me like a blade.@
 `Enduring it, I somehow force myself forward.
 \
-`“You mustn’t, Master Shiki!@ If you go out in that condition, Miss Akiha will scold us!”@
+`“You mustn’t, Shiki!@ If you go out in that condition, Miss Akiha will scold us!”@
 `Kohaku[line=3]blocks my way outside.
 \
 `“[line=4]”@
@@ -25,12 +25,13 @@ waveloop se_02
 `For no reason at all, I think it.@
 `If I don’t go to her now, I will never again see Ciel while I am still in my right mind.
 \
-`“If you have an appointment, I’ll go and cancel it for you, Master Shiki, so please return to your room[line=2]”@
-`“Shut up—I said get out of my way…!”@ “Ah[line=4]”@
+`“If you have an appointment, I’ll go and cancel it for you, Shiki, so please return to your room[line=2]”@
+`“Shut up—I said get out of my way…!”@
+`“Ah[line=4]”@
 `I shove Kohaku roughly aside and run for the door.
 \
 bg "bg/bg_48a",lcartain,800
-`“You mustn’t, Master Shiki…!”@
+`“You mustn’t, Shiki…!”@
 `I outrun Kohaku’s voice, fighting back nausea as I go.@
 br
 bg #000000,lcartain,800
@@ -71,10 +72,10 @@ bg "bg/bg_25a",notrans,0
 \
 `[line=5]Can’t find her.@
 `With this many people.@
-`Can’t find her[line=4].@
-`With all this clutter.@
+`                    .@ Can’t find her[line=4]
+`                         With all this clutter.@
 `Nothing.@
-`As if any of it had meaning
+`                                  As if any of it had meaning
 !w1000
 `The dizziness—
 !w2000
@@ -86,7 +87,7 @@ ld c,"tachi/cel_t01c",lshutter,800
 `“Oh, Tohno.@ I’m surprised—you actually made it on time?”@
 `“Ciel…?”@
 br
-`[line=3]The first time I’ve seen them.@ Ciel’s street clothes.@
+`[line=3]The first time I’ve seen Ciel in street clothes.@
 br
 `“Um, I was a little mean earlier.@ I’m sorry I made you run until you were this exhausted.”@
 br

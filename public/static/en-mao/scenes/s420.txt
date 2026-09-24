@@ -49,7 +49,7 @@ play "*6"
 `I stifled the breath threatening to spill from me and followed Akiha.@
 `Thump, thump.@
 `The racing beat felt wonderful.@
-`I kept to the shadows, careful not to let her notice me.
+`I followed quietly, careful not to let her notice me.
 \
 `Thump, thump, thump.@
 `Of all nights, why had I left my knife behind tonight?@ The thought filled me with regret.
@@ -106,16 +106,16 @@ wavestop
 `Akiha approached, looking restlessly from side to side.@
 `She seemed to be searching for something.@
 br
-`“No one seems to be here.”@
+`“Doesn’t seem to be here.”@
 br
 `I heard her murmur to herself.@
-`If I could make out a whisper, she had come dangerously close.@
+`If I could hear her talking to herself, she must have come close.@
 `I peered from my hiding place onto the avenue.
 \
 ld c,"tachi/aki_t27",lshutter,400
 `“[line=3]”@
 `Pain split my head.@
-`Something inside it cracked.@
+`There was a cracking sound.@
 bg #000000,notrans,0
 br
 `[line=4]I fell to the ground.@
@@ -130,7 +130,7 @@ bg "bg/bg_25b",crossfade,400
 `I shook my head and forced myself up.@
 `I couldn’t tell how long I had lain there, but the night had grown even deeper and stiller.@
 br
-`[line=3]Wait a moment.@
+`[line=3]Wait a second.@
 br
 `“W-why am I all the way out here?”@
 `Somehow I had reached the main avenue.@
@@ -140,7 +140,7 @@ br
 \
 `“What is that[line=6]?”@
 `A foul odor caught in my nose.@
-`An odor I had never known before.@ One I had tasted again and again in my dreams.@
+`An odor I had never known until these past few days, when I had tasted it again and again in my dreams.@
 `“From that alley…?”@
 `Dread seized me, and I ran toward it.
 \
@@ -171,14 +171,14 @@ bg "bg/bg_33d",lcartain,400
 `“Hah, hah, hah[line=6]”@
 `Only after running the whole way without rest could I finally stop.@
 `I had done nothing wrong, but getting involved felt dangerous; at least, I thought I had done the best I could.@
-`The person in the alley had still been breathing,
-`and the blood loss hadn’t looked severe, so their life probably wasn’t in danger.
+`The person in the alley had still been breathing.@
+`The blood loss hadn’t looked severe, so their life probably wasn’t in danger.
 \
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_33d",crossfade,400
 `“Ah[line=5]”@
-`The flat-out sprint from the city had taken its toll.@ I hadn’t even paused on that brutal uphill climb, and now there was nowhere near enough oxygen in my body.
+`The flat-out sprint from the city must have taken its toll.@ I hadn’t even paused on that brutal uphill climb, and now there was nowhere near enough oxygen in my body.
 \
 wave se_01
 bg #000000,crossfade,400
@@ -221,7 +221,7 @@ ld c,"tachi/koha_t02",lshutter,400
 `“Morning, Kohaku.@ Um[line=3]were you the one who carried me here?”@
 ld c,"tachi/koha_t03",crossfade,400
 `“What, don’t you remember, Shiki?@ You were moaning in your sleep on the stairs.@
-`When I called to you, you stood up all by yourself, said, ‘Ah, what a wonderful nap!@’ and started walking; I lent you my shoulder, but you made it back here on your own.”@
+`When I called to you, you stood up all by yourself, said you had slept well and started walking; I lent you my shoulder, but you made it back here on your own.”@
 `“Huh.@ I don’t remember any of that.@ Maybe I’ve been too tired lately.@ I keep losing track of what I’ve been doing.”
 \
 `“Oh?@ Then don’t you remember last night either?”@
@@ -248,7 +248,7 @@ ld c,"tachi/koha_t03",lshutter,400
 `“Well, I should still get up.@ If Akiha hears I slept this late[line=3]”@
 `I pushed myself upright.@
 quakey 1,300
-`“What[line=4]my body won’t move”@
+`“What[line=4]my body won’t…”@
 `It refused to move properly.@
 `I braced my arms to sit up, but there was no strength in them.
 \
@@ -258,8 +258,8 @@ cl c,lshutter,400
 `Kohaku laid a towel wrung out in cold water across my forehead.@
 `It was wonderfully cool.
 \
-`“Hmm, your fever has come down for now.@ You’ve mostly stopped sweating, and the color is returning to your face, so you should be feeling much better by tonight.”@
-`Kohaku briskly produced a thermometer, an ice pillow, and one instrument after another.@
+`“Hmm, your fever has come down for now.@ You seem to have mostly stopped sweating, and the color is returning to your face, so you should be feeling much better by tonight.”@
+`Kohaku briskly produced a thermometer and an ice pillow.@
 `By the end, she even made me open my mouth so she could examine my tongue.
 \
 ld c,"tachi/koha_t03",lshutter,400
@@ -269,7 +269,7 @@ cl c,lshutter,400
 ld c,"tachi/koha_t03",lshutter,400
 `“Yes?@ What is it, Shiki?”@
 `Kohaku was still Kohaku.@
-`That smile, bright enough to restore the spirits of anyone who saw it, had not changed.@
+`That smile had not changed; just looking at it almost lifted my own spirits.@
 `I[line=3]could not believe her smile was nothing but an act.
 \
 `“No, it’s nothing.@ I’m looking forward to the porridge.”@
@@ -291,7 +291,7 @@ play "*1"
 `I was adopted.@
 `Akiha had said it didn’t matter.@
 `Hisui and Kohaku.@
-`And somewhere outside, the murderer still roamed free.
+`And somewhere outside, the killer still roamed free.
 \
 `Kohaku said the morning news had reported no new deaths.@
 `Last night’s victim must have survived, but as long as SHIKI remained at large, there would be more.@

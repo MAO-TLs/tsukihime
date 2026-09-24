@@ -6,7 +6,7 @@ bg "bg/cmo_05b",crossfade,400
 br
 `A blue sky and enormous, enormous thunderheads.@
 `The landscape wavering in the scorching heat
-`The cry of cicadas loud enough to make you faint.@
+`The cry of cicadas, loud enough to make me faint.@
 br
 `The cicadas’ cry.@
 br
@@ -20,9 +20,9 @@ br
 br
 `[line=5]So loud it makes me want to die.
 \
-`The square is littered with cicada husks.@
-`The sun feels close enough to touch,
-`and the square slowly scorches beneath it.@
+`The clearing is littered with cicada shells.@
+`The sun seems close enough to touch,
+`and the clearing slowly bakes beneath it.@
 br
 `A hot midsummer day.@
 br
@@ -68,7 +68,7 @@ bg "bg/cmo_05",crossfade,400
 br
 `The grown-ups are screaming.@
 `Screaming my name—the name of the one who killed the child.@
-`Screaming those two little syllables as if they have all gone mad.
+`Screaming those two syllables as if they have all gone mad.
 \
 playstop
 br
@@ -83,7 +83,7 @@ bg #ffffff,crossfade,1500
 !w500
 play "*2"
 bg "bg/bg_40a",crossfade,1500
-`“Master Shiki, if you sleep any longer, you will be late getting up.@ Please wake up.”@
+`“Master Shiki, it is almost time for you to be up.@ Please wake up.”@
 br
 `A voice calling my name drew me out of the depths of the dream.
 \
@@ -105,7 +105,7 @@ ld c,"tachi/his_t01",crossfade,400
 `Hisui tilted her head a fraction.@
 `Of course—there was no point asking her.@
 `What kind of dream had that been[line=3]?@
-`A white so bright it could blind me, slashed by red spreading in violent stains.
+`A white so bright it could blind me, and splashes of red pouring out.
 \
 br
 br
@@ -114,9 +114,9 @@ br
 br
 br
 `[line=7]Something.@
-`SOMETHING—an ominous dream.
+`SOMETHING.@ SOME OMINOUS DREAM.
 \
-`“Shiki…”@
+`“Shi…@ ki…”@
 `“Yes, Master Shiki?”@
 `“Nothing.@ Sorry—I’m getting up, so go on ahead to the dining room.”@
 cl a,lshutter,800
@@ -144,7 +144,7 @@ ld c,"tachi/his_t16",crossfade,400
 `“Very well.@ Excuse me.”
 \
 cl a,lshutter,400
-`“It was unusual to see Hisui angry…”@
+`“Hisui was actually angry…”@
 `She was always so expressionless.@ When she did get angry,
 `she seemed furious—as if I had done something truly terrible.
 \
@@ -175,7 +175,7 @@ wavestop
 \
 `Usually the scar hurt after I saw a traffic accident or the corpse of an animal.@
 `Images of blood and death must call up the accident from eight years ago.@
-`“Was it because of last night?”@
+`“Maybe it’s because of last night…”@
 `A red alley.@
 `Yumizuka’s smile as she spoke to me there as casually as ever.
 \
@@ -208,11 +208,11 @@ ld c,"tachi/aki_t01a",crossfade,400
 ld c,"tachi/aki_t02",crossfade,400
 `“This is about last night.@ Brother, what were you doing?”@
 `Akiha questioned me with an unwavering gaze.@
-`“Nothing.@ I was only walking around town.@ I’m sorry I came home late, but it’s hardly a catastrophe.”@
+`“Nothing.@ I was only walking around town.@ I’m sorry I came home late, but it’s not such a big deal.”@
 `I didn’t want to lie to her, so I made my answer as vague as possible.
 \
 ld c,"tachi/aki_t03a",crossfade,400
-`“Only walking around town?@ That is serious.@ You’re still a minor, Brother, so please don’t wander the streets at night—especially when the city has become so dangerous.”@
+`“Only walking around town?@ That is a big deal.@ You’re still a minor, Brother, so please don’t wander the streets at night—especially when the city has become so dangerous.”@
 cl a,crossfade,400
 wave se_01
 `“Ah[line=7]”@
@@ -223,9 +223,9 @@ wave se_01
 `That description fit yesterday’s Yumizuka perfectly[line=4]
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“I shouldn’t have to remind you, but your health can’t bear this kind of strain, Brother.@
-`I can’t simply watch you come home looking as exhausted as you did last night.@
-`If something is troubling you, please tell me.@ I may not be much help, but if I’m enough…”@
+`“I shouldn’t have to tell you this, Brother, but you can’t push yourself so hard.@
+`When you come home looking so…@ so exhausted, as you did last night, I don’t know what to do.@
+`If something is troubling you, please tell me.@ I may not be much help, but if you’d be willing to talk to me…”@
 br
 `[line=5]I didn’t want to think it.@
 `But Yumizuka.@ Yumizuka might be the murderer terrorizing this city.
@@ -241,7 +241,7 @@ ld c,"tachi/aki_t02",crossfade,400
 `“You truly refuse to tell me what happened, Brother?”@
 `“Yes.@ It has nothing to do with you.”@
 `I could think of nothing but Yumizuka.@
-`Desperate to be alone, I gave her that cruel answer.@
+`I wanted to be alone, and that was what I said.@
 `“[line=3]So you intend to do exactly as you please, regardless of anyone else, Brother?”@
 `“…”@
 `“Very well.@ Do as you like.@ If that is your position, Brother, then I shall do as I please as well.”
@@ -251,13 +251,13 @@ cl c,lshutter,400
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki.@ Are you certain that was wise?”@
 `“What do you mean?”@
-`“I believe Miss Akiha is deeply worried for Master Shiki.@ She is not someone who puts her feelings into words, so they may be difficult for Master Shiki to see[line=3]”@
-`“I know.@ But my head is too full right now.@ I know I’ve hurt her.”@
+`“I believe Miss Akiha is deeply worried about you, Master Shiki.@ She rarely puts her feelings into words, so it may be difficult for you to see[line=3]”@
+`“I know.@ But my head is too full right now.@ I feel bad about how I treated her.”@
 `“…”
 \
 cl a,crossfade,400
 `Hisui fell silent.@
-`“Master Shiki—breakfast is ready!”@
+`“Shiki—breakfast is ready!”@
 `Kohaku called from the dining room.@
 `I rose and went in.
 \

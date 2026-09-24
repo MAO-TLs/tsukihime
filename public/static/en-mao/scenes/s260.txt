@@ -2,11 +2,11 @@ phase "bg/bg_29b",l,cel,07a,7
 bg #ffffff,crossfade,1500
 br
 `I am dreaming.@
-`A vague and meaningless dream, like sugar scorched to amber.@
+`A vague, meaningless dream like burnt candy.@
 br
 bg "event/ark_e01",crossfade,400
 bg #ffffff,crossfade,400
-`Do I love her?@
+`Do I have feelings for her?@
 br
 bg "event/ark_e02",crossfade,400
 bg #ffffff,crossfade,400
@@ -15,7 +15,7 @@ bg #ffffff,crossfade,400
 bg "event/cel_e02a",crossfade,400
 bg #ffffff,crossfade,400
 br
-`Do I love her?@
+`Do I have feelings for her?@
 br
 bg "event/cel_e03a",crossfade,400
 bg #ffffff,crossfade,400
@@ -60,7 +60,7 @@ ld c,"tachi/his_t01",crossfade,400
 `“Maybe, but I’m really grateful.@ Waking to your voice feels so much warmer than an alarm clock.”@
 br
 `I rose from bed.@
-`It was not yet seven—about ten minutes earlier than usual.@
+`It was not yet seven[line=3]about ten minutes earlier than usual.@
 br
 `“…@Breakfast, right?@ I’ll be down in a minute.@ Go on ahead.”
 \
@@ -132,9 +132,9 @@ bg "bg/bg_40a",notrans,0
 br
 `…@It even drove whatever I had been thinking about from my mind.@
 br
-`Looking back, eight years had passed since the accident.@ Shiki Tohno had spent all of them bargaining with this defective body.@
+`Looking back, eight years had passed since the accident.@ Shiki Tohno had spent them all trying to live with this broken-down body.@
 `Sudden attacks of vertigo.@ Headaches.@ Anemia.@
-`I couldn’t count how many things they had forced me to surrender.
+`I couldn’t count how many things they had forced me to give up.
 \
 `The doctors called my survival a miracle.@
 `Did that mean I was supposed to endure a little pain because being alive at all was miraculous?@
@@ -159,16 +159,16 @@ bg "bg/bg_40a",notrans,0
 br
 `……@What?@
 br
-`Why do I— How much longer will you—
+`I…@　　　　　　　　You…@
 wave se_01
 !w1000
 wave se_01
-`think— keep thinking—
+`Why do I…@　　　　How long will you…@
 wave se_01
 !w1000
 wave se_01
 br
-`things like that?
+`　　　　keep thinking such things?
 \
 wave se_01
 bg #000000,crossfade,800

@@ -47,7 +47,7 @@ export default function TsukihimeReleasePage() {
 
 				<section className="tsuki-release-strip" aria-label="Release information">
 					<div className="mao-site-shell mao-template-shell tsuki-release-grid">
-						<div><span>Version</span><strong>v1.2.1</strong></div>
+						<div><span>Version</span><strong>v2.0.0</strong></div>
 						<div><span>Script coverage</span><strong>Full game</strong></div>
 						<div><span>Passages</span><strong>14,620</strong></div>
 						<div><span>Status</span><strong>Complete</strong></div>
@@ -108,7 +108,7 @@ export default function TsukihimeReleasePage() {
 					</div>
 					<dl>
 						<div><dt>Project Lead</dt><dd>MAO</dd></div>
-						<div><dt>Translator</dt><dd>GPT-5.6 Sol</dd></div>
+						<div><dt>Translator</dt><dd>GPT-6 Astra</dd></div>
 						<div><dt>Special Thanks</dt><dd>gambs</dd></div>
 						<div><dt>Browser Engine</dt><dd><a href={APP_INFO.GITHUB_URL}>Tsukiweb</a></dd></div>
 					</dl>

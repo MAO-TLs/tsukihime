@@ -2,10 +2,10 @@ monocro off
 play "*3"
 wavestop
 bg "bg/bg_06a",notrans,0
-`[line=3]Still, I can’t simply stand up and walk out in the middle of class.@
+`[line=3]But I can’t just walk out in the middle of class.@
 br
-`“Please.”@
-`I press my palms together and pray she can make it through the next twenty minutes without causing some ridiculous disaster.
+`“Please…”@
+`I press my palms together and pray she won’t cause some ridiculous trouble before class ends in twenty minutes.
 \
 bg #000000,crossfade,800
 !w1000
@@ -23,22 +23,21 @@ bg "bg/bg_11a",lcartain,800
 \
 bg #000000,lcartain,800
 bg "bg/bg_04",lcartain,800
-`“Hah, hah, hah, hah[line=4]!”@
-`I burst into the courtyard from the covered walkway leading to the cafeteria.@
-`Luckily, no other students have come outside yet.@
-`All that remains is to grab Arcueid from behind the school.@
+`“Hah, hah, hah, hah[line=4]”@
+`I come out into the courtyard by the covered walkway to the cafeteria.@ No other students are outside yet.@
+`All I have to do is grab Arcueid in the back courtyard.@ Except[line=3]
 bg "bg/bg_05a",lcartain,800
 br
-`“This is the worst.”@
-`The words escape me the moment I reach the back courtyard.
+`“…@The worst.”@
+`That’s all I can say when I reach the back courtyard.
 \
 `There, behind the school
 ld l,"tachi/ark_t07",lshutter,800
 `stands Arcueid, looking positively murderous even from a distance, and beside her
 ld r,"tachi/cel_t07a",lshutter,800
-`is Ciel, an upperclassman of mine, with the rotten luck to have Arcueid picking a fight with her.@
+`Ciel is standing there, and Arcueid has already picked a fight with her.@
 br
-`Ciel must have come to warn off the unidentified foreign woman trespassing behind the school; now Arcueid has her pinned beneath a murderous glare.
+`Maybe Ciel came to warn off the strange foreign woman on school grounds.@ Whatever happened, Arcueid is glaring at her.
 \
 `“Arcueid…!”@
 `I call out, and they both turn toward me.@
@@ -48,55 +47,53 @@ ld r,"tachi/cel_t06a",crossfade,400
 `“[line=7]”@
 cl a,crossfade,800
 \
-`Thank God.@ My interruption takes the edge off Arcueid’s bloodlust.@
-`Ciel glances at her, then walks off by a different route from the one I took.@
-`“Ah, Ciel.”@
-`Arcueid’s glare must have upset her badly.@
-`Ciel, of all people, leaving without a word is no small thing.
+`Thank goodness.@ When I call out, some of the killing intent leaves Arcueid’s face.@
+`Ciel glances at her, then walks away in the opposite direction from where I came.@
+`“Ah…@ Ciel.”@
+`Arcueid’s glare must have upset her badly.@ Ciel leaving without a word is serious.
 \
 `“Arcueid, you…!”@
 `I hurry over to her.@
 ld c,"tachi/ark_t16",crossfade,400
-`“Honestly, Shiki, you took forever!”@
-`She shouts the instant I reach her.
+`“Honestly, Shiki!@ What took you so long?”@
+`She starts shouting the moment I get near.
 \
-`“You say I took forever?”@
-`“Well, you did!@ We looked straight at each other, and then you never came down.@ If you’d gotten here sooner, that woman wouldn’t have found me!”@
-`Does she mean Ciel?
+`“What do you mean, so long?”@
+`“We made eye contact, and you still didn’t come down!@ If you’d come sooner, that woman wouldn’t have found me!”@
+`She must mean Ciel.
 \
-`“I couldn’t help it; I have a life of my own.@ Unlike you, I’m an ordinary student.@ More importantly, what are you doing at my school?”@
+`“I was in class.@ Unlike you, I’m an ordinary student.@ Anyway, what are you doing at my school?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“I sensed something around here, and while searching the area I caught your scent.@ That was how I realized this was your school.”@
-`“Right.@ So you came wandering in without any actual reason?”@
-`I grimace and wonder whether she is a dog.
+`“I sensed something nearby.@ While I was looking around, I caught your scent and realized this was your school.”@
+`“Right.@ So you came in for no particular reason?”@
+`I grimace.@ Is she a dog?
 \
 ld c,"tachi/ark_t04",crossfade,400
-`“How rude; I had a perfectly good reason to investigate.@ Compared with everywhere else, this place has far too little trace of the Dead.@ I wanted to see for myself what it was like.”@
-`“But if there is no trace of the Dead here, does that not mean the school is irrelevant?@ It is empty at night.@ If the Dead were hunting prey, they would go into town rather than come here.”
+`“That’s rude.@ I had a reason.@ There’s hardly any trace of the Dead here compared with everywhere else, so I came to see the place for myself.”@
+`“But if there’s no trace of them, doesn’t that mean the school has nothing to do with it?@ Nobody’s here at night.@ If the Dead wanted prey, they’d hunt in town.”
 \
 ld c,"tachi/ark_t10",crossfade,400
 `“Well, when you put it that way…”@
-`“There is nothing wrong here.@ I may not be able to sense the Dead, but I do have eyes that see death.@
-`Even with my glasses on, I would notice if one of them were walking around.”@
+`“There’s nothing wrong here.@ I can’t sense the Dead the way you can, but I have eyes that see death.@ If one of them were walking around, I’d notice something strange, even with my glasses on.”@
 ld c,"tachi/ark_t06",crossfade,400
-`“All right.@ If you say so, then perhaps there is nothing wrong here.”@
-`“Not perhaps; there really is not.”@
+`“All right.@ If you say so, maybe there’s nothing wrong here.”@
+`“There isn’t.@ Really.”@
 `Arcueid still looks unconvinced.
 \
-`“Anyway, if you stay here, someone will find you.@
-`I’ll keep my promise, so go home and rest.@ We may run into the real enemy as early as tonight.”@
+`“Someone will spot you if you stay.@
+`I’ll keep my promise, so go home and rest.@ We might find the real enemy tonight.”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Hmm.@ You’re talking as though you want to drive me away, Shiki.”@
-`Arcueid’s gaze drifts aside in obvious displeasure.
+`“Hmm.@ You sound as if you’re trying to get rid of me, Shiki.”@
+`Arcueid looks away, plainly annoyed.
 \
-`“You are imagining it.@ So please, hurry up and leave.@ Otherwise, this will put me in an even more complicated position.”@
-`I push her insistently from behind.@
-`“…”@
+`“You’re imagining it.@ Now hurry up and leave.@ If anyone finds you here, things will only get more complicated for me.”@
+`I push her toward the exit.@
+`“………………”@
 cl c,lshutter,800
 `Arcueid leaves without a word, though to the very end her eyes seem to say there is something she wants to tell me.
 \
-`“Great.@ Next time I see Ciel, I’ll have to apologize for Arcueid.”@
-`Muttering to myself, I leave the back courtyard too.
+`“I’ll have to apologize for Arcueid next time I see Ciel.”@
+`I say it to myself and leave the back courtyard.
 \
 bg #000000,lcartain,800
 !w1000

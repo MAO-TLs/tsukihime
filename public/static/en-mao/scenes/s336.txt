@@ -1,12 +1,12 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`Something about Akiha’s warning still bothered me.@
-`She had told me never, under any circumstances, to enter the annex.@
-`That only made me more curious, and besides[line=3]if it contained the mansion’s only Japanese-style rooms, I wanted to see them.@
+`Something about Akiha’s warning still bothers me.@
+`She told me never, under any circumstances, to enter the annex.@
+`That only makes me more curious, and besides[line=3]if it contains the mansion’s only Japanese-style rooms, I want to see them.@
 br
 `“If nobody catches me, it should be fine.”@
-`After apologizing silently to Akiha, I crept toward the exit.
+`After apologizing silently to Akiha, I creep toward the exit.
 \
 playstop
 waveloop se_11
@@ -23,9 +23,9 @@ bg #000000,lcartain,800
 \
 bg "bg/bg_44b",lcartain,800
 `“[line=7]”@
-`I could not tell how many years the annex had stood unused, but parts of it had visibly fallen into decay.@
+`I can’t tell how many years the annex has stood unused, but parts of it have fallen into decay.@
 br
-`The entrance was unlocked when I tried it.@
+`I try the front door.@ It is unlocked.@
 br
 bg #000000,lcartain,800
 `Naturally, it is dark inside.@
@@ -33,7 +33,7 @@ bg #000000,lcartain,800
 \
 bg "bg/bg_45c",lcartain,800
 `“[line=5]Ah”@
-`The moment I entered the room, a shiver ran down my back.
+`The moment I enter the room, a shiver runs down my back.
 \
 `“[line=5]I know this place.”@
 `As a child, perhaps I came here to play because Japanese rooms were a novelty absent from the main house.@
@@ -51,7 +51,7 @@ br
 br
 br
 br
-`Come to think of it, long ago
+`Come to think of it, long ago,
 \
 bg #000000,crossfade,400
 bg "bg/bg_45c",crossfade,400
@@ -62,7 +62,7 @@ br
 br
 br
 br
-`When I played in the garden, there had been
+`when I played in the garden,
 \
 bg #000000,crossfade,400
 bg "bg/cmo_06",notrans,0
@@ -77,7 +77,7 @@ br
 br
 br
 br
-`Someone besides Akiha and me
+`I don’t think it was only Akiha and me—
 \
 bg #9c0120,notrans,0
 wait 100
@@ -94,26 +94,26 @@ ld c,"tachi/koha_t02b",lshutter,400
 `Kohaku suddenly enters.
 \
 `“[line=5]!”@
-`I frantically looked around for some escape.@
-`There was nowhere to hide, and she had already found me in any case.@
+`What do I do?@ I look around.@
+`There is nowhere to hide, and she has already found me in any case.@
 ld c,"tachi/koha_t04b",crossfade,400
-`“You mustn’t come in here.@ Miss Akiha told us that Shiki, in particular, was never to be allowed inside.”@
+`“You mustn’t come in here.@ Miss Akiha told us that you, in particular, were never to be allowed inside.”@
 `“I know; she told me today.@ But, well[line=3]”@
 ld c,"tachi/koha_t15",crossfade,400
 `“You couldn’t help being curious, could you?@ Very well, I’ll overlook it this once, but please don’t come here again.@ This building is quite old, and parts of it are dangerous.”
 \
-`The building was old and therefore dangerous.@
-`It sounded odd, but it made a certain amount of sense.@
-`“Sorry.@ But Kohaku, what was this building used for?@ Everyone says it’s abandoned now, so it must have been used for something before.”@
+`The building is old and therefore dangerous.@
+`It sounds odd, but it makes a certain amount of sense.@
+`“Sorry.@ But Kohaku, what was this building used for?@ You say it isn’t used now, but was it used in the past?”@
 ld c,"tachi/koha_t03b",crossfade,400
-`“It was originally the servants’ residence.@ Until Shiki was sent to the Arima family, more than a dozen servants worked at the mansion.@
+`“It was originally the servants’ residence.@ Until you were sent to the Arima family, a dozen or so servants worked at the mansion.@
 `There was no room for so many people in the main house, so Master Makihisa had this annex built.”@
 `“I see.@ So it was the servants’ residence.”
 \
-`Once she explained it, the arrangement seemed obvious.@
+`Now that she explains it, the arrangement makes sense.@
 `An estate this large would naturally have needed something of the sort.@
 `But why.@
-`Why was Akiha so determined to keep me out[line=3]?
+`Why is Akiha so determined to keep me out[line=3]?
 \
 `“Shiki, we should return to the main house before Miss Akiha notices.”@
 `“Ah[line=3]right, sorry.”@

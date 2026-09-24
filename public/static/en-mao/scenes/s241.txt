@@ -20,9 +20,9 @@ br
 `It was dark and desolate, but perfect for slipping away unnoticed.
 \
 `Creak, creak.@
-`Naturally, the stairs chose a night like this to groan beneath me as I descended quietly toward the front door.@
+`Of course the stairs had to creak now.@ I went down and made my way quietly to the front door.@
 br
-`[line=3]And then.@
+`[line=3]Then.@
 br
 ld c,"tachi/aki_t01b",crossfade,400
 `“Brother?@ Are you going out at this hour?”@
@@ -37,10 +37,10 @@ ld c,"tachi/aki_t12b",crossfade,400
 `Only anxiety.
 \
 `“You came home with terrible injuries last night, and now you’re going out again, Brother.”@
-`“I’m sorry.@ A friend of mine is in trouble.@ I can’t just leave her alone.”@
+`“I’m sorry.@ A friend of mine is in trouble.@ I can’t…@ just leave them.”@
 ld c,"tachi/aki_t23b",crossfade,400
 `“I see…@ You would go even if I tried to stop you, wouldn’t you, Brother?”@
-`“Yeah.@ But I won’t do anything dangerous.@ I’m only going to check on them.@ I’m sorry to cause trouble when you’ve only just gotten home.”@
+`“Yeah.@ But I won’t do anything dangerous.@ I’m only going to check on them.@ I’ve only just come home, and already I’m causing trouble.@ I’m sorry.”@
 `With that, I started toward the door.
 \
 cl a,crossfade,400
@@ -54,7 +54,7 @@ cl a,crossfade,400
 ld c,"tachi/aki_t17b",crossfade,800
 `“You will come back, won’t you…?”@
 `“[line=4]”@
-`Akiha’s frail, helpless face.@
+`Akiha looked so vulnerable.@
 `All her usual poise was gone; she looked[line=3]truly like the crybaby she had been as a child.
 \
 `“Come on, I told you I’m only going out for a while.@ There’s no reason for you to look like that.”@
@@ -109,16 +109,16 @@ bg "bg/bg_27b",lcartain,400
 bg #000000,lcartain,800
 bg "bg/bg_28b",lcartain,800
 `“[line=5]”@
-`No one else was in the park.@
-`Nothing stirred beneath the moon.@
-`For no reason I could name, the warmth drained from my body.@
+`The park was deserted.@
+`Not a sound disturbed the moonlight.@
+`For no reason I could name, I felt my whole body grow colder.@
 wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_28b",crossfade,400
 br
 `“[line=3]Ngh.”@
-`The back of my neck tingled.@
-`A chill stole through me until my whole body fell deathly cold and even my fingertips began to numb.@
+`The back of my neck went numb.@
+`A chill settled deep inside me, as though even my fingertips were going numb.@
 wave se_01
 `“Hah, hah…”@
 `While my body grew colder, my throat burned.@
@@ -127,7 +127,7 @@ wave se_01
 `More than anything, I wanted a blade in my hand[line=3]!
 \
 `“What[line=3]is this?”@
-`My teeth ground together.@
+`A tightening pain.@
 `A faint headache.@
 `My temperature falling.@
 `My reason cooling into ice.@
@@ -135,14 +135,14 @@ wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_28b",crossfade,400
 `Something was wrong.@
-`This park.@ Something evil was churning all around it.@
+`It felt as if something foul was churning through this part of the park.@
 `“There was more to the park back there, wasn’t there?”@
 `I shook off the headache and pressed deeper inside.
 \
 bg #000000,lcartain,800
 bg "bg/bg_29b",lcartain,800
 `No one was there.@
-`Only a lonely meeting place drowned in darkness.@
+`A dark, lonely meeting place.@
 `And there[line=3]someone was crouching on the ground.@
 `Ragged breaths.@
 `Their face was deathly pale, and they clawed at their throat in agony.@
@@ -160,10 +160,9 @@ ld c,"tachi/stk_t04",tshutter,400
 `Her voice alone stopped me in my tracks.
 \
 `“Please wait, Shiki…@ I’m happy you came looking for me, but I can’t have you near me right now.@ Please—don’t come any closer.”@
-`Every breath was agony.@
-`Her body trembled as though it might collapse, yet still Yumizuka told me to stay away.
+`She spoke through labored breaths, trembling as though she might collapse at any moment.
 \
-`“Don’t be stupid; you look half dead—how am I supposed to leave you like this…?”@
+`“Don’t be stupid.@ You’re so pale—how am I supposed to leave you like this…?”@
 ld c,"tachi/stk_t03",crossfade,800
 `“No, I’m all right—now that you’re here, Shiki, I feel better already.”@
 `Yumizuka forced herself upright and smiled.@
@@ -173,15 +172,15 @@ ld c,"tachi/stk_t03",crossfade,800
 \
 `“What happened to you, Yumizuka?@ Why haven’t you gone home?@ What was all that yesterday?@ Why did you do something so[line=4]”@
 `“Hmm?@ Something so what?”@
-`“Damn it, I don’t understand!@ I truly don’t[line=2]it’s driving me crazy how little I understand, Yumizuka…!”@
+`“…@Damn it, I don’t understand!@ I really don’t[line=2]and it’s so frustrating, Yumizuka…!”@
 ld c,"tachi/stk_t10",crossfade,400
 `“You don’t understand?@ Yesterday was exactly what it looked like.@ I told you I killed those people, remember?”@
 `She answered without hesitation.@
 `As though mocking how desperately I wanted that one fact to be false.
 \
-`“Then you’re the one behind the murders in the city?”@
-`“I don’t really want to answer, but yes.@ I suppose I am.”@
-`“Then why would that be the case?”@
+`“Then…@ the murders in town were your doing, Yumizuka…?”@
+`“I don’t really want to answer.@ But…@ yes, that’s what it means.”@
+`“What do you mean, ‘that’s what it means’—why…?”@
 `“It means what it means.@ I killed those people, and I’m sure I’ll keep doing the same thing.@ There’s no point lying about it, is there?”
 \
 `“Yumi[line=3]zuka, you—”@
@@ -205,14 +204,14 @@ ld c,"tachi/stk_t10",crossfade,400
 `I remembered nothing—neither what we had spoken about nor even the fact that I had ever spoken to her.
 \
 ld c,"tachi/stk_t03",crossfade,400
-`“It’s all right; you don’t have to look like that.@ Even back then, you spent all your time with Arihiko and never seemed interested in any of your other classmates.”@
+`“It’s all right; you don’t have to look like that.@ Even back then, you spent all your time with Inui and never seemed interested in any of your other classmates.”@
 ld c,"tachi/stk_t10",crossfade,400
 `“But I didn’t mind.@ Just knowing I was in the same classroom as you made me so happy.@
-`My great ambition was to work up the courage to speak to you properly and hear you call me Yumizuka one day—looking back, I wasted so much time.”@
+`All I wanted was to talk to you properly one day and have you call me Yumizuka.@ Looking back, I missed out on so much.”@
 br
 `She spoke wistfully.@
 `A very long time ago.@
-`As though remembering something from the impossibly distant past.
+`…@As though remembering something from a very, very distant past.
 \
 `“I was always watching you.@
 `I knew you would never notice me, but I kept watching.”@

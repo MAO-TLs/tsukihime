@@ -1,20 +1,20 @@
 play "*3"
 wavestop
 bg "bg/bg_40b",notrans,0
-`I would impose on Kohaku and ask her to make me a light snack.
+`I’ll impose on Kohaku and ask her to make me a little something.
 \
 bg #000000,lcartain,400
 bg "bg/bg_42b",lcartain,400
 ld c,"tachi/koha_t06",lshutter,400
-`“Oh, Master Shiki.@ I didn’t realize you were home.”@
-`Kohaku stopped sweeping and gave me a small bow.@
+`“Oh, Shiki.@ I didn’t realize you were home.”@
+`Kohaku stops sweeping and gives me a small bow.@
 `“I’m back.@ Sorry to bother you the moment I get home, Kohaku, but…”@
 ld c,"tachi/koha_t03",crossfade,400
 `“Yes?@ Is there something special you need?”@
 `“Well, embarrassing as this is…”@
-`Before I could ask her to make something because I was hungry.@
+`Before I can say I’m hungry and ask her to make me something[line=2]
 br
-`My stomach unleashed a long growl that echoed across the courtyard.
+`My stomach lets out a long growl that echoes across the courtyard.
 \
 ld c,"tachi/koha_t09",crossfade,400
 `“[line=6]”@
@@ -26,26 +26,26 @@ ld c,"tachi/koha_t09",crossfade,400
 `Kohaku regards me in silence, then seems to remember something and gives a quiet laugh.
 \
 ld c,"tachi/koha_t05",crossfade,400
-`“In that case, I’ll make something light.@ Master Shiki, is there anything in particular you would like?”@
+`“In that case, I’ll make something light.@ Shiki, is there anything in particular you would like?”@
 `“Anything in particular?”@
-`Now that she asked, I realized I had only a vague sense of hunger, with no clear image of what I wanted to eat.
+`Now that she asks, I realize I’m simply a little hungry.@ I haven’t thought of anything in particular I want to eat.
 \
 `“Hmm—could you make pancakes or something?”@
 `For no reason I can name, golden pancakes drizzled with honey appear in my mind.@
 ld c,"tachi/koha_t03",crossfade,400
-`“Pancakes…?@ Master Shiki, I had heard that you disliked sweets.”@
-`Kohaku tilted her head in surprise.@
+`“Pancakes…?@ Shiki, I had heard that you disliked sweets.”@
+`Kohaku tilts her head, looking surprised.@
 `“Ah[line=3]no, I avoid too much sugar, but I don’t dislike it.@ I ate Japanese sweets fairly often when I lived with the Arimas.”
 \
 `“Oh, did you?@ You should have told me sooner!@
-`I’ve always wondered what to prepare for Master Shiki at teatime, but now I can make the same things for Master Shiki and Miss Akiha.”@
+`I’ve been wondering what to prepare for you at teatime.@ Now I can make you the same things as Miss Akiha.”@
 `Kohaku’s voice dances with delight.@
 `But if I receive the same thing as Akiha, does that mean those exquisite little strawberry cakes that look far too beautiful to eat?
 \
-`“But why pancakes, Master Shiki?@ If you asked, I could prepare something much more elaborate.”@
+`“But why pancakes, Shiki?@ If you asked, I could prepare something much more elaborate.”@
 `“No particular reason.@ They don’t seem like the kind of food you have to eat carefully.”@
 ld c,"tachi/koha_t18",crossfade,400
-`“Ha ha, Master Shiki, you sound just like Hisui.@
+`“Ha ha, Shiki, you sound just like Hisui.@
 ld c,"tachi/koha_t01a",crossfade,400
 `Keep this to yourself, but I think she likes pancakes too.@ Whenever I notice her cooking in the kitchen, that is usually what she’s making.”
 \
@@ -54,10 +54,10 @@ ld c,"tachi/koha_t01a",crossfade,400
 `“I thought so too.@ When I asked, she said it was because I had told her pancakes were the easiest thing to make.@
 `But apparently she still hasn’t gotten them to taste the way she wants.”@
 `“—?”@
-`Um.@ Wasn’t that less a love of pancakes than a determined campaign to master them?
+`Um.@ Doesn’t that mean she’s just practicing how to make pancakes, rather than being particularly fond of them?
 \
 ld c,"tachi/koha_t06",crossfade,400
-`“Oh, forgive me, Master Shiki.@ I’ll begin at once, so please wait in the sitting room.”@
+`“Oh, forgive me, Shiki.@ I’ll begin at once, so please wait in the sitting room.”@
 cl c,lshutter,800
 `Broom in hand, Kohaku hurries toward the back door.@
 `“[line=5]Oh well.”@

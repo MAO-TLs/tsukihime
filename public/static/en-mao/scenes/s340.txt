@@ -12,7 +12,7 @@ bg #000000,lcartain,800
 bg "bg/bg_42c",lcartain,800
 bg #000000,lcartain,800
 bg "bg/bg_54c",lcartain,800
-`[line=3]Not even moonlight reached the trees in the garden.@
+`[line=3]Not even moonlight reaches the trees in the garden.@
 br
 `I walk through a garden so overgrown it is closer to a forest.@
 `I cannot clearly remember where the annex stands, yet the moment I enter the trees, my feet begin carrying me toward it on their own.@
@@ -23,21 +23,21 @@ br
 bg #000000,tcartain,800
 bg "bg/bg_44b",bcartain,800
 `“[line=7]”@
-`I could not tell how many years had passed since it fell out of use, but the annex had begun to decay here and there.@
-`When I tried the front door, I found it unlocked.@
+`How many years has it been since anyone used the annex?@ Parts of it are falling into decay.@
+`I try the front door.@ It is unlocked.@
 br
 bg #000000,lcartain,800
 `Naturally, it is dark inside.@
 `The smell of tatami and paper screens; though the darkness is absolute, it puts me at ease.
 \
 bg "bg/bg_45c",lshutter,800
-`“[line=5]Ah”@
-`The instant I entered the Japanese-style room, a chill ran down my spine.@
-`“[line=5]I know this place”@
-`Perhaps, as a child, I had come to play here because the main house had no rooms like this one.@
+`“[line=5]Ah.”@
+`The instant I enter the Japanese-style room, a shiver runs down my back.@
+`“[line=5]I know this place.”@
+`Perhaps I came to play here as a child because rooms like this were a novelty; there were none in the main house.@
 `“[line=6]”@
-`But something was wrong.@
-`My skin prickled with the same unease I had felt when I returned to the mansion and was shown to my room.
+`But something is strange.@
+`I feel it on my skin: the same unease I felt when I returned to the mansion and was shown to my room.
 \
 `“Maybe it’s because the Arima house had rooms like this.”@
 `I feel as though I have lived here all my life.@
@@ -49,7 +49,7 @@ br
 br
 br
 br
-`Come to think of it, long ago―
+`Come to think of it, long ago,
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_45c",crossfade,400
@@ -59,7 +59,7 @@ br
 br
 br
 br
-`when I played in the garden, I don’t think―
+`when I played in the garden,
 \
 bg "bg/cmo_05",notrans,0
 wait 100
@@ -72,7 +72,7 @@ br
 br
 br
 br
-`Akiha and I were the only ones there―
+`I don’t think it was only Akiha and me—
 \
 bg #9c0120,notrans,0
 wait 100
@@ -86,12 +86,12 @@ bg "bg/bg_45c",notrans,0
 bg #000000,lcartain,1500
 !w1000
 bg "bg/bg_40d",rcartain,800
-`“Hah[line=4]ah”@
-`Somehow, I made it back.@
-`If I collapsed in the annex after being forbidden to enter it, Akiha’s wrath would be terrifying.@
-`“[line=4]Nn”@
-`The room tilted.@
-`Without even changing my clothes, I fell onto the bed.
+`“Hah[line=4]ah.”@
+`Somehow, I make it back to my room.@
+`If I collapsed in the annex after being forbidden to enter it, I would never hear the end of it from Akiha.@
+`“[line=4]Nn.”@
+`Dizziness washes over me.@
+`I fall onto the bed without even changing my clothes.
 \
 bg #000000,crossfade,1500
 monocro #ff0000
@@ -160,10 +160,10 @@ br
 br
 br
 br
-`[line=6]Everything burned.
+`[line=6]It was hot.
 \
-`Suddenly, a face appears in a pane of glass.@
-`Its bloodshot eyes look anything but sane.
+`Suddenly, I catch sight of a face reflected in a window.@
+`The eyes are bloodshot.@ It looks anything but sane.
 \
 wave se_01
 br
@@ -175,9 +175,9 @@ br
 br
 `[line=6]There was nothing but the heat.
 \
-`A victim, found.@
-`A chokehold from behind, and it is over.@
-`A woman I have never seen before seems to die just like that.
+`Prey has been found, it seems.@
+`A grip around her throat from behind, and it’s over.@
+`The woman is a stranger.@ She seems to die just like that.
 \
 wave se_01
 br
@@ -200,9 +200,9 @@ wait 100
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse must have been dragged somewhere, then bitten at the throat.@
-`Wet, sucking sounds.@
-`Blood is drunk from the neck, teeth shearing through flesh with it, slaking that terrible thirst.
+`Was the body taken inside, its throat bitten into?@
+`Wet, sucking sounds reach me.@
+`Blood is sucked from the throat, as though the flesh itself were being bitten away, slaking that thirst.
 \
 wave se_01
 br
@@ -214,9 +214,9 @@ br
 br
 `[line=3]I don’t understand.
 \
-`Panting.@
-`So much.@
-`Is the act truly that exciting?@
+`Ragged panting.@
+`It must be.@
+`It must be that exciting.@
 `Fingers plunge into the corpse’s chest.@
 `The sound of flesh pulping, the sound of bones breaking.@
 `The sound of a heart being torn out with bare hands.

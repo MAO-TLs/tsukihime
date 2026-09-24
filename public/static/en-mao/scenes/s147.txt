@@ -2,23 +2,23 @@ monocro off
 play "*2"
 wavestop
 bg "bg/bg_34a",notrans,0
-`Still, Akiha's presence is more oppressive than ever.@
-`She is like a flame burning inside ice; one wrong word and I am liable to be flattened by the counterattack.@
-`I should sit quietly and show her that I am properly contrite.@
+`Akiha is more intimidating than ever.@
+`A frozen flame—that's what she feels like.@ One wrong word, and she'll hit back hard.@
+`I'd better keep quiet and look properly repentant.@
 br
-`“[line=3]Good morning, Akiha.@ You are up early again.”@
-`I greet her quietly, keeping my voice as gentle as possible.
+`“[line=3]Morning, Akiha.@ Up early again?”@
+`I greet her softly, as gently as I can.
 \
 ld c,"tachi/aki_t04a",crossfade,400
-`“Yes.@ What happened last night left me too upset to sleep a wink.”@
-`She says this appalling thing with an actual smile on her lips.@
+`“Yes.@ After what happened last night, I couldn’t sleep a wink.”@
+`She says something dreadful with a smile on her lips.@
 br
-`This is truly bad.@
-`Anyone who can smile like that while seething with rage cannot possibly be sane.
+`This is bad.@
+`Akiha can smile like that while she’s furious.@ She can’t be in her right mind.
 \
-`“I see.@ That is a shame; do take care of yourself.”@
-`Discretion is the better part of valor.@
-`I need to find the right excuse and get out of this sitting room.
+`“Oh.@ That’s awful.@ You should…@ take care of yourself.”@
+`A wise man keeps his distance from danger.@
+`I need an excuse to get out of the sitting room.
 \
 `“Well, I’ve got breakfast waiting, so I’d better get to the dining room.”@
 `And with that, I attempt a strategic retreat.@
@@ -27,9 +27,9 @@ ld c,"tachi/aki_t11a",crossfade,400
 `Akiha's voice cracks like a whip and stops me in my tracks.@
 `Of course she was not going to let me escape.
 \
-`“Yes, ma'am.@ What is it, Akiha?”@
-`The ma'am is my way of raising a white flag.@
-`Akiha does not so much as twitch an eyebrow.
+`“Yes, Miss Akiha.@ What is it?”@
+`Adding “Miss”@ is my way of raising the white flag.@
+`Akiha doesn’t even twitch an eyebrow.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“We need to speak before breakfast.@ Sit on the sofa, please.”@
@@ -39,8 +39,8 @@ ld c,"tachi/aki_t01a",crossfade,400
 `Her smile seems to say, You can do this, and gives me a tiny measure of courage.@
 `I take one bracing sip and meet Akiha's eyes.
 \
-`“So what did you want to discuss, Akiha?”@
-`“What exactly is your relationship with the woman who was here last night?”@
+`“So what did you want to talk about, Akiha?”@
+`“That woman from last night—what is she to you?”@
 br
 `[line=3]Ghk!@
 br
@@ -49,10 +49,10 @@ br
 `That caught me so off guard I almost sprayed tea across the room.
 \
 ld c,"tachi/aki_t03a",crossfade,400
-`“Brother, are you listening to me?”@
-`“I am.@ I can hear you perfectly well.”@
-`“Then answer me.@ What is that woman to you?”@
-`“That is difficult to answer; we are helping each other, or perhaps we are friends[line=3]”
+`“Brother, are you listening?”@
+`“Yeah.@ Loud and clear.”@
+`“Then answer me.@ Who is that woman to you?”@
+`“That’s hard to say.@ We’re helping each other, or maybe we’re friends[line=3]”
 \
 `“Friends close enough to go out together in the middle of the night, I see.@ I have no intention of dictating whom you become involved with in the future, but you are still a student, Brother, aren’t you?@
 ld c,"tachi/aki_t16a",crossfade,400
@@ -63,7 +63,7 @@ cl c,crossfade,400
 br
 `[line=3]So Akiha thinks Arcueid and I are lovers.
 \
-`“Hold on, Akiha, there is nothing between us.@ I am only helping her find something.@ Once that is done, we will never see each other again.@ That is all there is between us.”@
+`“Wait, Akiha.@ There’s nothing going on between us.@ I’m just helping her find something.@ Once that’s done, we won’t see each other again.”@
 ld c,"tachi/aki_t18a",crossfade,400
 `“Really?@ You seemed remarkably close, yet you are telling me I imagined it, Brother?”@
 `Akiha's gaze is cold.@
@@ -78,7 +78,7 @@ ld c,"tachi/aki_t18a",crossfade,400
 `Akiha glares sideways at me.@
 `She seems utterly convinced that Arcueid and I are dating.
 \
-`“Listen, Akiha, that is enough.@ You have got this all wrong.@ The whole reason she and I met was[line=3]”@
+`“Akiha, enough.@ You have it all wrong.@ The reason I met her in the first place was[line=3]”@
 br
 `I nearly say that I killed her, then clamp my mouth shut.@
 `The truth is far too absurd to tell.@
@@ -107,9 +107,9 @@ br
 br
 `I have no choice but to force an end to this conversation.
 \
-`“Oh, enough; there is nothing between us!@
-`Besides, whatever I do is none of your business.@ You have no right to complain about whom I choose to date.”@
-`I thrust an accusing finger at her and deliver the verdict.@
+`“Oh, enough!@ There’s nothing going on between us!@
+`And what I do is none of your business.@ You don’t get to complain about whom I date.”@
+`I point straight at Akiha.@
 cl c,crossfade,400
 `Akiha scowls, then[line=4]rises soundlessly to her feet.@
 `“[line=4]?”@
@@ -117,10 +117,10 @@ cl c,crossfade,400
 `I expected her to shout back, but instead she looks away, oddly self-conscious.
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“I do not want to say any of this either.@ There is simply something about that woman I cannot stand.@
-`If it were anyone else, I would accept it and give up.@ But if you have truly fallen for her, then I feel like an utter fool.”@
-`Why?@
-`Akiha bites her lip and says it, looking bitterly frustrated.
+`“I don’t want to say any of this either.@ There’s just something about that woman that feels wrong.@
+`If it were anyone else, I could accept it.@ But if you’ve really fallen for her, it makes me feel like a fool.”@
+`Why, I wonder?@
+`Akiha says it with a frustrated bite of her lip.
 \
 `“I keep telling you she and I are not like that, so what has gotten into you, Akiha?@ You are acting strange.”@
 ld c,"tachi/aki_t14",crossfade,400
@@ -131,9 +131,9 @@ cl c,lshutter,400
 `I don’t understand any of this.
 \
 ld c,"tachi/koha_t01a",lshutter,400
-`“Honestly.@ Master Shiki, that was cruel.”@
-`Kohaku sighs in disappointment and starts after her.@
-`“I feel so sorry for Miss Akiha.@ If you intend to bring home a lover, you should at least choose someone a little more ordinary.@ Then perhaps Miss Akiha could have accepted her.”@
+`“Really, Shiki.@ That was cruel.”@
+`Kohaku sighs and starts after Akiha.@
+`“I feel so sorry for Miss Akiha.@ If you’re going to bring a lover home, at least choose someone a little more ordinary.@ Then perhaps she could accept it.”@
 cl c,lshutter,800
 `Kohaku heads into the foyer, hurrying after Akiha.
 \

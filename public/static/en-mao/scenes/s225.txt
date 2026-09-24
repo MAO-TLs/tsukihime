@@ -2,8 +2,8 @@ monocro off
 play "*3"
 bg "bg/bg_03a",notrans,0
 wave se_03
-`Then the warning bell rings, ten minutes before the gate closes.@
-`“[line=3]Damn, I’ll be late.@ See you later, Ciel!”@
+`The warning bell rings: ten minutes until the school gates close.@
+`“[line=3]Crap, I’m going to be late.@ See you later, Ciel!”@
 ld c,"tachi/cel_t04",crossfade,400
 `“All right, I’ll visit at lunch.”
 \
@@ -21,28 +21,28 @@ br
 `A familiar and thoroughly unwelcome voice calls from behind me.
 \
 ld c,"tachi/ari_t01",lshutter,400
-`“What happened, Tohno?@ Nobody told me you were skipping school.@ That’s a problem—you have to report properly when you’re ditching class for a day of fun!”@
-`Arihiko disgorges this idiocy with an extraordinarily happy face.@
+`“What happened, Tohno?@ Nobody told me you were skipping school.@ That’s a problem—you’re supposed to let me know when you’re ditching class for a day of fun!”@
+`Arihiko spouts this nonsense with a ridiculously happy grin.@
 `“Listen.@ Why do I have to report every absence to you?”@
-`“Obviously.@ If Tohno doesn’t come, Ciel won’t come to our classroom either; I need warning so I can make arrangements.”@
-`What, exactly, is the problem for this man?
+`“Obviously.@ If you don’t come, Ciel won’t come to our classroom either.@ I need warning so I can make arrangements.”@
+`What exactly is his problem?
 \
 `“Seriously, what happened Saturday?@ You’ve been anemic since middle school, but school is the one thing you never missed.@
-`Sure, a few times you pulled off the advanced technique of going home the moment you arrived.”@
+`Sure, a few times you pulled that stunt where you went home the moment you arrived.”@
 `“This was much the same.@ I made it as far as the intersection, felt sick, and turned back.”@
 ld c,"tachi/ari_t04",crossfade,400
-`“Huh.@ First Yumizuka, now you—haven’t you both been behaving badly lately?”@
-`“[line=2]Well, I can’t deny the bad behavior, but did something happen to Yumizuka?”
+`“Huh.@ First Yumizuka, now you—haven’t you both been acting up lately?”@
+`“[line=2]Well, I won’t deny that, but did something happen to Yumizuka?”
 \
 ld c,"tachi/ari_t01",crossfade,400
-`“Hm?@ Oh, she’s been absent for days.@ Maybe playing model student for so long finally left her one tile from a breakdown.@ But I bet she discarded the tile she needs, so now she’s stuck in furiten and can’t go out.”@
+`“Hm?@ Oh, she’s been absent for days.@ Maybe playing model student for so long finally left her one tile from a breakdown.@ But I bet she’s stuck in furiten and can’t go out.”@
 `“……………”@
 `Arihiko’s metaphors occupy a world entirely their own.
 \
 wave se_03
 `[line=3]While we talk, the bell announcing homeroom begins to ring.@
 br
-`“Whoops, that’s it for me.@ Study seriously enough to make up for skipping Saturday.”@
+`“Oops—I’ll leave you to it, then.@ Make up for skipping Saturday by applying yourself to your studies.”@
 cl c,lshutter,400
 `Arihiko scurries back to his desk.
 \

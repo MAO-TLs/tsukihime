@@ -106,8 +106,9 @@ ld c,"tachi/cel_t08",crossfade,400
 `“But you’re really staying, right?@ You won’t suddenly leave again like yesterday?”
 \
 ld c,"tachi/cel_t01a",crossfade,400
-`“Yes.@ Now that it’s come to this, I’ll see it through with you.”@ “Yeeeees!”@
-`I release her hand and somehow restrain the force surging through my whole body.@
+`“Yes.@ Now that it’s come to this, I’ll see it through with you.”@
+`“Yeeeees!”@
+`I let go of her hand and barely keep myself from jumping for joy.@
 `I feel like running lap after lap around the athletic field.@
 `I’m as giddy as if I’d won first prize in the lottery.
 \
@@ -280,8 +281,8 @@ ld r,"tachi/cel_t12",crossfade,400
 `“?”@
 `Ciel and I glance at each other.
 \
-`“Listen, you two.@ Why would you waste a precious Saturday afternoon like that?@
-`Forget the tea room—the whole city is full of better places to have fun!”@
+`“Listen, you two.@ Why waste the afternoon we get off on Saturday like that?@
+`If you’re thinking of the tea room, there are tons of better places to have fun out there!”@
 `With a grand flourish, Arihiko points out the window.@
 ld r,"tachi/cel_t01a",crossfade,400
 `“Um—where exactly?”@
@@ -366,11 +367,12 @@ bg #000000,lcartain,800
 playstop
 bg "bg/bg_33a",lcartain,800
 ld c,"tachi/koha_t02",lshutter,400
-`“My, you’re home early today, Master Shiki.”@ “I’m back, Kohaku.@ I’m in a hurry, so I’ll see you later!”
+`“My, you’re home early today, Shiki.”@
+`“I’m back, Kohaku.@ I’m in a hurry, so I’ll see you later!”
 \
 bg "bg/bg_46a",lcartain,400
 ld c,"tachi/his_t01",lshutter,400
-`“Master Shiki? Have you returned?”@
+`“Master Shiki?@ Have you returned?”@
 `“I just got back.@ I’m heading straight out again, so don’t make lunch for me!”
 \
 bg "bg/bg_40a",lcartain,400
@@ -439,7 +441,7 @@ br
 `There is nothing but the headache.
 \
 `“Hisui, calm down.@ The fall only left him bruised, so there’s no need to call a doctor.@
-`What matters is that Master Shiki is burning up.@ The fever probably made him miss his footing, so prepare his bed at once.”@
+`What matters is that Shiki is burning up.@ The fever probably made him miss his footing, so prepare his bed at once.”@
 `“Understood.@ Kohaku, should we tell Miss Akiha…?”
 \
 `“If nothing worse comes of it, there’s no need to alarm her.@ I have some fever medicine in my room, so bring that too, please.”@
@@ -451,17 +453,17 @@ bg #ffffff,crossfade,400
 bg "bg/bg_33a",crossfade,800
 ld c,"tachi/koha_t03",crossfade,800
 waveloop se_02
-`“Master Shiki, are you awake?”@
+`“Shiki, are you awake?”@
 `“Kohaku…?”@
-`“Yes, Master Shiki.@ You just took quite a spectacular fall down the stairs.@ Fortunately, you seem to have escaped with nothing worse than a bruise on your back, but you do have a fever.”@
-`“It looked as though you were going out, but you must stay in bed today.”@
+`“Yes, Shiki.@ You just took quite a spectacular fall down the stairs.@ Fortunately, you seem to have escaped with nothing worse than a bruise on your back, but you do have a fever.@
+`It looked as though you were going out, but you must stay in bed today.”@
 br
 `Kohaku puts a hand on my shoulder and somehow helps me to my feet.
 \
 `“No[line=2]I’m fine, so there’s no need for bed.@ I’m probably just winded from running all the way home.”@
 ld c,"tachi/koha_t04",crossfade,400
-`“Absolutely not!@ Your face is so pale you look ready to vomit.”@
-`“Your doctor specifically entrusted me with looking after your health, Master Shiki.@ I cannot let you put yourself in danger like this.”@
+`“Absolutely not!@ Your face is so pale you look ready to vomit.@
+`Your doctor specifically entrusted me with looking after your health, Shiki.@ I cannot let you put yourself in danger like this.”@
 `“But I promised[line=3]”@
 `“I’ll contact them and cancel for you.@ If you insist on being reckless, I’ll have to bring out the injections!”@
 br
@@ -470,7 +472,7 @@ br
 bg #9c0120,crossfade,400
 bg "bg/bg_33a",crossfade,400
 br
-`[line=3]Throb.@
+`[line=3]throb.@
 br
 `My head aches.@
 `I[line=3]

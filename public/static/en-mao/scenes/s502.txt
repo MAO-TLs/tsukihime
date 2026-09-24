@@ -21,7 +21,7 @@ ld c,"tachi/stk_t01",lshutter,800
 ld c,"tachi/stk_t07",crossfade,400
 `“Oh, so that’s what you were talking about this morning.”@
 `Understanding dawned, and Yumizuka clapped her hands together.@
-`Flattery aside, little gestures like that really were charming.
+`Honestly, little gestures like that were charming.
 \
 `“That’s right.@ You already know, so there’s no point hiding it from you.@ As of today, I’m leaving the Arimas, who took me in, and moving back to my birth family’s home.”@
 ld c,"tachi/stk_t13",crossfade,400
@@ -52,7 +52,7 @@ cl a,crossfade,400
 `“…”@
 `I couldn’t simply leave her there, so I waited and watched her closely.@
 br
-`[line=3]And then.
+`[line=3]Just then[line=3]
 \
 ld c,"tachi/stk_t07",crossfade,400
 `“U-um!”@
@@ -63,8 +63,8 @@ ld c,"tachi/stk_t07",crossfade,400
 `Yumizuka’s eyes went round.@
 `She stood frozen for several moments, then—
 ld c,"tachi/stk_t03",crossfade,400
-`“Y-yes[line=3]of course; if we’re going the same way, there’s nothing strange about walking together for part of the way!”@
-`Her voice had become remarkably buoyant as she hurried to my side.
+`“Y-yes[line=3]right!@ We’re going the same way, so of course we can walk together!”@
+`She came up beside me, her voice suddenly bright.
 \
 `“Perfect timing.@ I don’t know these streets very well, so would you show me the way?”@
 ld c,"tachi/stk_t07",crossfade,400
@@ -83,8 +83,7 @@ ld c,"tachi/stk_t03",crossfade,400
 `In the middle of our conversation, Yumizuka suddenly smiled.@ It was as if something had just occurred to her.@
 `“What was that for?@ Did I say something funny?”@
 `“No.@ I was only thinking that starting tomorrow, you and I will take the same route to school.”@
-`She looked genuinely delighted.@
-`Her smile was so artless that merely seeing it made me happy too.
+`She smiled with such open delight that I couldn’t help feeling happy too.
 \
 cl a,crossfade,400
 `I hadn’t noticed it until now.@
@@ -139,49 +138,49 @@ bg "bg/ima_06",bshutter,800
 `[line=3]Is somebody in there?@
 br
 `When I called out, several girls answered from inside.@
-`They had been putting their club equipment away when a cold wind made them shut the door, and then it would not open again; they had already been trapped for two hours.@
-`Nothing they tried would budge the door, so they begged me to find a teacher and get them out.
+`They told me they had shut the door to keep the cold wind out while they put their club equipment away.@ Then it wouldn’t open again.@ They had been trapped for two hours.@
+`Nothing they tried would budge it.@ Could I get a teacher to help?
 \
 `But all the teachers had gone home, and even if I called one back, the girls would remain trapped for another hour.@
 `The cold that day was vicious.@
-`It was strange that snow had not begun to fall, and making girls who had already spent two hours shut in there in nothing but their gym clothes wait another hour seemed cruel.
+`It was a wonder it wasn’t snowing.@ They had spent two hours in there in their gym clothes; I couldn’t make them wait another hour.
 \
-`After a moment’s hesitation, I looked around to make sure no one was watching, then removed my glasses and cut one of the ‘lines’ I could see across the door.@
+`After a moment’s hesitation, I looked around to make sure no one else was nearby, then removed my glasses and cut one of the ‘lines’ I could see across the door.@
 `The door opened, and five or so girls burst out, their eyes scarlet from crying[line=4]
 \
 bg #000000,crossfade,800
 monocro off
 bg "bg/bg_23b",crossfade,400
-`“Now that you mention it, I do remember.”@
-`“But how do you know so much about it?@ The badminton captain even threatened me afterward, saying I had to keep quiet or it could cost them their club.”@
+`“Now that you mention it, I do remember.@
+`But how do you know so much about it?@ The badminton captain even threatened me afterward, saying I had to keep quiet or it could cost them their club.”@
 `“Honestly!@ You really had no interest in who was trapped inside, did you?@ Listen.@ I was in the badminton club then.”@
 br
 `Yumizuka sounded almost sulky.@
 `Um[line=3]so that meant…
 \
 bg "event/stk_e03",crossfade,800
-`“[line=2]I remember it perfectly.”@
-`“Looking back, we were only locked in a shed, but at the time it was dark and freezing, and we were terrified.@
+`“[line=2]I remember it perfectly.@
+`Looking back, we were only locked in a shed, but at the time it was dark and freezing, and we were terrified.@
 `We honestly thought we might freeze to death in there.@ We were starving too—really, we were on the verge of collapsing.”@
 `“I see.@ That sounds awful.”@
 `I still couldn’t quite imagine it, and my answer came out halfhearted.@
 `Yumizuka paid no attention and continued as though the memory remained brilliantly vivid.
 \
-`“While we were all shivering, you came along.@ In your usual calm, unruffled voice, you asked, ‘Is anyone in there?@’ as though it were nothing.@ Remember how our captain lost her temper and shouted that it should have been obvious?”@
+`“While we were all shivering, you came along.@ In your usual calm, unruffled voice, you asked, ‘Is somebody in there?@’ as though it were nothing.@ Remember our captain losing her temper?@ ‘Can’t you tell?!@’”@
 `“That I remember.@ She hurled a bat at the door with a huge bang.@ It scared the life out of me.”@
 `Yumizuka laughed and agreed.
 \
-`“But when you told us all the teachers had left, we despaired.@ We couldn’t stand another minute, and suddenly we thought we might be trapped there until morning.@
-`Just when we had abandoned all hope, someone tapped on the door.@ Then you said you might be able to open it if we promised to keep it secret.”@
-`“Right.@ Then there was another tremendous bang.@
-`Your captain was furious.@ She screamed that if it were that easy, we would not have been in that mess.”
+`“But when you said all the teachers had gone, we lost hope.@ We couldn’t stand another minute, and now we might be stuck there until morning.@
+`While we were in there bemoaning our fate, there was a knock at the door.@ And you said, ‘If you keep it a secret, I might be able to get it open.@’”@
+`“Right.@ Then there was another huge bang.@
+`‘If it were that easy, we wouldn’t be stuck in here!@’ She sounded ready to kill me.”
 \
 `“Ahaha.@ The captain felt responsible for getting us trapped and was too frantic to think straight, but then the door opened at once.@ Everyone decided her bat must have done it and rushed outside cheering.@
 `I saw you, though, standing beside the door with that absent look on your face.”
 \
 `Yumizuka regarded me warmly.@
 `But that kind of look only made me uncomfortable.@
-`What I had done meant nothing to me, so I couldn’t feel that I deserved her gratitude.
+`It had been easy for me.@ I didn’t feel I had done anything to deserve all that gratitude.
 \
 `“I was crying so hard that day.@ My eyelids were swollen, and my whole face was a mess.@ What do you think you said when you saw me?”@
 `“I have no idea.@ What did I say?”@
@@ -219,7 +218,7 @@ ld c,"tachi/stk_t03",crossfade,400
 `I wasn’t capable of everything Yumizuka imagined.@
 `Even so, with her smiling at me like that, I didn’t want to betray her trust.
 \
-`“All right.@ If it’s within my power, I’ll help.”@
+`“All right.@ I’ll help if I can.”@
 `“Thank you, Tohno.@ I know it’s terribly late to say it.@ But what you said that day made me happy.”@
 cl a,crossfade,400
 `With that, Yumizuka stopped dead.@

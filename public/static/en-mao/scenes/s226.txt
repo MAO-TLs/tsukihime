@@ -4,12 +4,12 @@ wavestop
 bg "bg/bg_06a",notrans,0
 `[line=3]Still, going without any nourishment at all would be a bad idea.@
 br
-`I was prone to dizzy spells even at the best of times; if I did not force myself to eat something, I might collapse.
+`I’m prone to dizzy spells even at the best of times.@ If I don’t force myself to eat something, I’ll collapse.
 \
 `“Sorry, go ahead without me.@ I’m going to buy a roll.”@
 `“Yeah?@ All right, don’t mind if I do.”@
 cl c,crossfade,400
-`I left the classroom while Arihiko cheerfully tore open his sandwich wrapper.
+`I leave the classroom while Arihiko cheerfully tears open his sandwich wrapper.
 \
 bg #000000,lcartain,800
 !w1000
@@ -20,17 +20,17 @@ ld l,"tachi/cel_t03",lshutter,800
 `“Oh, Tohno.@ Sorry to intrude.”@
 ld r,"tachi/ari_t02",lshutter,800
 `“Hey, don’t worry about it.@ We’re happy just to have you here.@ Right, Tohno?”@
-`Ciel’s mere presence seemed to have put Arihiko in high spirits; he turned to me with a grin, seeking agreement.@
-`For once, I happened to share his opinion.
+`Perhaps having Ciel here is enough to put Arihiko in a good mood.@ He cheerfully asks me to agree.@
+`For once, I do.
 \
 `“It does help having you here.@ Sitting face-to-face with this specimen over lunch is bad for me in all sorts of ways.”@
 `I answer lightly and sit down.@
 cl a,crossfade,800
-`Ciel had a generously sized lunch box open before her; Arihiko had already polished off his sandwich.
+`Ciel has already finished her generous packed lunch, and Arihiko his sandwich.
 \
 `“Well, then.”@
-`I put my hands together over the food and bit into the bread.@
-`I had no appetite, but managed to wash it down with milk by sheer force.@
+`I put my hands together over the food and bite into the bread.@
+`I have no appetite, but manage to wash it down with milk by sheer force.@
 br
 `Ciel and Arihiko, both finished with lunch, are absorbed in some gruesome topic.@
 `Murder, mutilation, random attacks—they have been tossing around such words without the least concern for someone forcing down a meal.
@@ -45,20 +45,20 @@ ld l,"tachi/cel_t12",crossfade,400
 ld r,"tachi/ari_t02",crossfade,400
 `“No problem there.@ I happen to be a frightening person myself.”@
 ld l,"tachi/cel_t04",crossfade,400
-`“I see.@ Now that you mention it, Inui, you do look rather like a disreputable broker.”@
-`The two laughed together.@
+`“I see.@ Now that you mention it, Inui, you do look rather like a shady dealer.”@
+`The two laugh together.@
 br
-`Ciel probably meant it, though Arihiko had intended the whole thing as a joke.@
-`His laughter continued, but the corners of his eyes had begun to twitch.
+`Ciel probably means it, though Arihiko was probably only joking.@
+`He keeps laughing, but the corners of his eyes are twitching a little.
 \
-`In any case, I could not ignore what they had just said.
+`In any case, I can’t ignore what they have just said.
 \
 `“[line=3]Ciel.@ What exactly was reported this morning?”@
 ld l,"tachi/cel_t01a",crossfade,400
 `“The news said that a woman[line=3]a girl our age, actually, went shopping last night and never came home.@ Apparently her family lives near the park.”@
 `“I see.@ Near the park.”@
 br
-`The moment I said it, the contents of my stomach surged toward my throat.
+`The moment I say it, I nearly throw up.
 \
 `[line=3]Last night.@
 br
@@ -75,7 +75,7 @@ ld l,"tachi/cel_t01a",crossfade,400
 `“By the way, didn’t you see the news either, Tohno?@ Are you bad at mornings too?”@
 `“I don’t know.@ I wouldn’t say I’m bad at mornings, but I don’t seem particularly good at them either.@ That’s beside the point; I probably won’t be watching the news for a while.@ We don’t have a television at home.”@
 cl a,notrans,0
-`Ciel and Arihiko froze in perfect unison.
+`Ciel and Arihiko freeze.
 \
 ld l,"tachi/cel_t08",crossfade,400
 `“No television[line=3]but your home is that mansion, isn’t it?”@
@@ -90,8 +90,8 @@ ld l,"tachi/cel_t07a",crossfade,400
 `“What exactly do you mean by ‘a woman,’ Tohno?”@
 ld r,"tachi/ari_t04",crossfade,400
 `“Yeah, Tohno, we can’t just let that remark pass.”@
-`Both of them glared.@
-`I covered my mouth, realizing my mistake, but it was far too late.
+`They both glare at me.@
+`I cover my mouth, realizing my mistake, but it’s far too late.
 \
 `“No, wait[line=3]I only meant that one of our servants is a woman named Kohaku, that’s all.”@
 ld l,"tachi/cel_t12",crossfade,400
@@ -99,20 +99,20 @@ ld l,"tachi/cel_t12",crossfade,400
 `“That’s not what it’s like!@ No one else at the mansion can handle the housework, so she works for us.@
 `It wouldn’t make any difference whether Kohaku was a woman or a man.”
 \
-`“Really?@ Kohaku sounded awfully familiar on your lips, didn’t it, Inui?”@
+`“Really?@ That sounded like an awfully familiar way to address her, didn’t it, Inui?”@
 `“Exactly—you practically glowed when you said her name.@ I’ve been meaning to ask, Tohno: just what kind of life are you living in that place?”@
 cl a,crossfade,400
-`Their sharp glares curdled into long, suspicious stares.
+`Their sharp glares curdle into long, suspicious stares.
 \
 `“Urk.”@
-`The bread lodged in my throat.@
-`Arihiko was bad enough, but being interrogated beneath Ciel’s cold gaze as well gave the pair a terrifying intensity.@
+`The bread sticks in my throat.@
+`Arihiko is bad enough, but with Ciel giving me that cold, questioning stare too, the effect is terrifying.@
 ld l,"tachi/cel_t04",crossfade,400
 `“We still have plenty of time before lunch ends, Tohno.@ Please, take all the time you need to tell us about life at your mansion.”@
 `Ciel advances with a smile that permits no refusal.@
 `“…”@
 br
-`The mere thought of enduring this for another twenty minutes made me dizzy.
+`The mere thought of enduring this for nearly twenty more minutes makes me dizzy.
 \
 bg #000000,lcartain,1500
 !w1000

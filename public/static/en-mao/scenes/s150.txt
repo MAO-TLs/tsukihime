@@ -3,26 +3,24 @@ play "*3"
 wavestop
 bg "bg/bg_06a",notrans,0
 `[line=3]Right.@
-`Disaster is best stopped before it can begin.@
-`I need to drag her out of the rear courtyard before she creates some ludicrous catastrophe.@
+`Best to nip trouble in the bud.@ I need to get Arcueid out of the courtyard before she causes some ridiculous scene.@
 bg "bg/bg_06a",lshutter,800
 br
 `“Sir, I’m feeling anemic, so I’m going to the nurse’s office!”@
 br
-`I shoot up my hand, obtain permission from the Contemporary Society teacher before he can object, and bolt from the classroom.
+`I raise my hand and tell the modern society teacher where I’m going before he can object.@ Then I bolt from the classroom.
 \
 bg #000000,lcartain,800
 bg "bg/bg_04",lcartain,800
 ld c,"tachi/ark_t08",lshutter,400
-`“Oh, here you are! Running all the way like that—you certainly have plenty of energy, Shiki.”@
+`“Oh, here you are!@ Running all the way like that—you certainly have plenty of energy, Shiki.”@
 `“[line=5]”@
-`I can only stare with my mouth hanging open.@
-`The instant I reach the courtyard, Arcueid cheerfully begins sharing her impressions.
+`I can only gape.@ The moment I reach the courtyard, Arcueid cheerfully offers her opinion of the place.
 \
-`“It is smaller than I expected.@ When you said school, I imagined somewhere much bigger[line=3]eep!”@
-`I seize Arcueid by the arm.@
-`“[line=4]You, come with me.”@
-`Then I flee with her in tow, running until we reach somewhere hidden from view.
+`“It’s smaller than I thought.@ When you said ‘school,’ I imagined somewhere much bigger[line=3]ah!”@
+`I grab her arm.@
+`“[line=4]Come with me.”@
+`I hurry her away to somewhere out of sight.
 \
 bg #000000,lcartain,800
 bg "bg/bg_05a",lcartain,800
@@ -30,37 +28,37 @@ ld c,"tachi/ark_t04",crossfade,400
 `“Why did you suddenly drag me into a place like this?@ There’s nothing interesting here at all.”@
 `Arcueid seems disappointed by our surroundings, but schools are not especially interesting places to begin with.@
 br
-`“[line=3]That is my line, Arcueid.”@
-`I release her arm and thrust an accusing finger beneath her nose.
+`“[line=3]I should be asking you that, Arcueid.”@
+`I let go of her arm and point a finger at her nose.
 \
 ld c,"tachi/ark_t12",crossfade,400
-`“Huh?@ What do you mean?”@
-`“I mean, why are you wandering around in broad daylight and why did you come to my school?@ Your body has not recovered yet, so why can you not sit quietly and behave yourself?”@
+`“Huh?@ Asking me what?”@
+`“What are you doing out in broad daylight, and why are you at my school?@ You haven’t even recovered.@ Can’t you stay put for once?”@
 ld c,"tachi/ark_t14",crossfade,400
-`“Because you said you would help me.@ I thought I should look for clues during the day so I would not waste your time[line=3]”
+`“Well, you said you’d help me, so I thought I’d look for clues while it was still daylight.@ I didn’t want to make you waste your time[line=3]”
 \
-`“You do not need to worry about that!@ I promised to help, so no matter how pointless the work is, we will do it together, and you should stop trying to spare me the trouble.@
-`Honestly, you are already weak, yet you came out in daylight; do you enjoy making me worry?”@
-`“Ah[line=3]yes, I am sorry.”@
-`“Well, as long as you understand[line=3]wait, Arcueid?”
+`“Don’t worry about that!@ I said I’d help you, and even if the work is pointless, we’ll do it together.@ You don’t have to spare me.@
+`You’re still weak, and you come out in daylight anyway.@ Do you enjoy making me worry?”@
+`“Ah[line=3]I’m sorry.”@
+`“Well, as long as you understand[line=3]wait.@ Arcueid?”
 \
 ld c,"tachi/ark_t17",crossfade,400
-`“I said I am sorry for making you worry.”@
-`“Yes, thank you.”@
+`“I’m sorry I made you worry.”@
+`“Uh…@ yeah.@ Thanks.”@
 br
-`My heart gives a heavy thump.@
-`Arcueid apologizing so meekly is disarming[line=2]or rather, she seems[line=2]terribly cute.
+`My heart gives a sudden thump.@
+`Arcueid apologizing so readily takes me by surprise.@ And, well…@ it’s awfully cute.
 \
 ld c,"tachi/ark_t11",crossfade,400
-`“But this is partly your fault, Shiki.@ I watched you from the courtyard forever, and you never noticed me.@
-`I could not work out how to get inside, so I nearly climbed straight up to where you were.”@
-`“Climbed straight up to my classroom on the third floor?”@
+`“You’re partly to blame, Shiki.@ I stood in the courtyard watching you for ages, and you never noticed me.@
+`I couldn’t work out how to get inside.@ I almost jumped straight up to where you were.”@
+`“Jumped?@ To our classroom on the third floor?”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“Yes; there are balconies, so footholds would not be a problem and it looked easy to jump.”@
+`“Sure.@ There’s a balcony and plenty of footholds.@ It looked easy to jump.”@
 `“[line=6]”@
 cl c,crossfade,400
-`I take back everything I just thought.@
-`She has not changed; common sense still means nothing to her.
+`I take it back.@
+`She has no more common sense than ever.
 \
 `“…@Thank God.@
 `If you’d done that, class would have been the least of my problems.”@
@@ -69,20 +67,20 @@ cl c,crossfade,400
 \
 `“[line=3]So.@ Why did you come to my school?@ You said something about looking for clues.”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“I sensed something around here, and while searching the area I caught your scent.@ That was how I realized this was your school.”@
-`“Right.@ So you came wandering in without any actual reason?”@
-`I grimace and wonder whether she is a dog.
+`“I sensed something nearby.@ While I was looking around, I caught your scent and realized this was your school.”@
+`“Right.@ So you came in for no particular reason?”@
+`I grimace.@ Is she a dog?
 \
 ld c,"tachi/ark_t04",crossfade,400
-`“How rude; I had a perfectly good reason to investigate.@ Compared with everywhere else, this place has far too little trace of the Dead.@ I wanted to see for myself what it was like.”@
-`“But if there is no trace of the Dead here, does that not mean the school is irrelevant?@ It is empty at night.@ If the Dead were hunting prey, they would go into town rather than come here.”@
+`“That’s rude.@ I had a reason.@ There’s hardly any trace of the Dead here compared with everywhere else, so I came to see the place for myself.”@
+`“But if there’s no trace of them, doesn’t that mean the school has nothing to do with it?@ Nobody’s here at night.@ If the Dead wanted prey, they’d hunt in town.”@
 ld c,"tachi/ark_t10",crossfade,400
 `“Well, when you put it that way…”
 \
-`“There is nothing wrong here.@ I cannot sense the Dead.@ But I do have eyes that see death.@ If one of them were walking around, I would notice something was wrong even with my glasses on.”@
+`“There’s nothing wrong here.@ I can’t sense the Dead the way you can, but I have eyes that see death.@ If one of them were walking around, I’d notice something strange, even with my glasses on.”@
 ld c,"tachi/ark_t06",crossfade,400
-`“All right.@ If you say so, then perhaps there is nothing wrong here.”@
-`“Not perhaps; there really is not.”@
+`“All right.@ If you say so, maybe there’s nothing wrong here.”@
+`“There isn’t.@ Really.”@
 `Arcueid still looks unconvinced.
 \
 wave se_03
@@ -92,15 +90,15 @@ br
 `“[line=3]Damn, it is lunchtime already.”@
 `The grove behind the school may be deserted, but during lunch someone could easily wander through.
 \
-`“Anyway, if you stay here, someone will find you.@
-`I’ll keep my promise, so go home and rest.@ We may run into the real enemy as early as tonight.”@
+`“Someone will spot you if you stay.@
+`I’ll keep my promise, so go home and rest.@ We might find the real enemy tonight.”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Hmm.@ You’re talking as though you want to drive me away, Shiki.”@
-`Arcueid’s gaze drifts aside in obvious displeasure.
+`“Hmm.@ You sound as if you’re trying to get rid of me, Shiki.”@
+`Arcueid looks away, plainly annoyed.
 \
-`“You are imagining it.@ So please, hurry up and leave.@ Otherwise, this will put me in an even more complicated position.”@
-`I push her insistently from behind.@
-`“…”@
+`“You’re imagining it.@ Now hurry up and leave.@ If anyone finds you here, things will only get more complicated for me.”@
+`I push her toward the exit.@
+`“………………”@
 cl c,crossfade,800
 `Arcueid leaves without a word, though to the very end her eyes seem to say there is something she wants to tell me.
 \
@@ -112,21 +110,18 @@ br
 `Someone is watching me.@
 br
 ld c,"tachi/cel_t06a",crossfade,800
-`“Ciel?”@
-`There is no mistaking her.@
-`But[line=3]what is that look in her eyes?@
-`She is staring at me so coldly that I almost doubt it is really Ciel.@
+`“Ciel…?”@
+`It’s her, all right.@
+`But what’s with that look?@ Her eyes are so frightening I almost wonder if she’s really Ciel.@
 cl c,crossfade,800
 \
-`“[line=3]Ciel!”@
-`I call to her and walk over.@
-`Ciel remains motionless, watching me approach.@
+`“Ciel!”@
+`I call out and walk toward her.@ She stands still, watching me the whole time.@
 `“What are you doing out here?”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“I might ask you the same thing, Tohno.@ Lunch has only just begun, yet you were already in the rear courtyard, so you skipped fourth period, did you not?”@
-`“Of course not.@ I just got a little head start leaving the classroom.”@
-`Ciel answers with a listless sigh.@
-`Her smile is the same as ever, but she plainly finds my presence here at this hour suspicious.
+`“I could ask you the same thing, Tohno.@ Lunch has barely started, and you’re already in the courtyard.@ Did you skip fourth period?”@
+`“No way.@ I just got a head start leaving class.”@
+`She gives a listless reply.@ The smile is the one I know, but she seems suspicious of what I’m doing here.
 \
 `“Forget that—have you eaten lunch yet?@ If not, want to eat together?”@
 `I try the safest possible diversion.@
@@ -137,9 +132,8 @@ cl c,crossfade,400
 \
 `“Ciel?@ You seem a little down; is something wrong?”@
 ld c,"tachi/cel_t01a",crossfade,400
-`“No, nothing is wrong.@ It is true that enjoyable things really do end quickly, Tohno.”@
+`“No, nothing’s wrong.@ It really is true, isn’t it, Tohno?@ Fun things end so quickly.”@
 cl c,lshutter,800
-`She gives me the loveliest smile I have ever seen from her.@
-`Then she returns to the school building alone.
+`She gives me her brightest smile yet, then goes back into the school building alone.
 \
 bg #000000,crossfade,1500

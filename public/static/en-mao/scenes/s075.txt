@@ -18,15 +18,15 @@ br
 `“Okay, I’ve calmed down.@ If you have something to say, I’ll listen.@ Complain, curse me—say whatever you want.”@
 ld c,"tachi/ark_t11",crossfade,400
 `“Oh, I have plenty to say, but you’re a strange one.”@
-`“I’ve simply decided to face it.@ I’ve developed a reasonable tolerance for the unbelievable.”@
+`“I’m past worrying.@ I’ve had some practice dealing with the unexpected.”@
 `Still, not even I could keep up with a case like this.
 \
 ld c,"tachi/ark_t03",crossfade,400
 `“Hmm…”@
-`The woman studied me from every angle.@
+`The woman stared at me.@
 `There was no hostility in her gaze.@
 br
-`Something was odd.@ I’d always assumed retaliation was a law the whole world shared.@
+`Something was odd.@ Hit someone and they hit back—that had to be a universal rule.@
 `By that logic, this woman ought to be trying to kill me[line=3]
 \
 `“[line=2]Why are you staring at me?@ You came here for revenge, didn’t you?@ Then[line=2]”@
@@ -39,7 +39,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 `“Well, do you regret it?”@
 `“[line=4]What?”@
 `I could only stare.@
-`The woman had said something[line=3]something so wildly out of place.
+`There was something about her voice[line=3]something wildly out of place.
 \
 `“I’m asking whether you feel any remorse for killing me.@
 `If you do, I thought I might forgive you.@
@@ -87,13 +87,13 @@ ld c,"tachi/ark_t01a",crossfade,400
 `What on earth did she mean by help?
 \
 `“Hey.@ What do you mean, help?”@
-`“It’s simple.@ You’re going to help me dispose of the vampire entrenched in this city.”@
+`“Simple.@ I want you to help me get rid of the vampire that’s settled in this city.”@
 br
 `“[line=4]?”@
 `Now I understood even less.@
 br
 `“A vampire—but you’re[line=3]”@
-`“No, no, that’s different.@ I am a vampire, but the one rooted in this city is another creature altogether.@
+`“No, no, that’s different.@ I am a vampire, but the vampire that’s settled here is something else altogether.@
 `You live here, don’t you?@ Then you know about the recent murders.”@
 `“That case, where so many people died—wait.”
 \
@@ -114,7 +114,7 @@ ld c,"tachi/ark_t04",crossfade,400
 `“[line=3]I’m not sure I follow, but…@ you’re saying you want to kill the vampire murdering people in this city?”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Exactly—but before I could, some murderer I’d never even met attacked me out of nowhere and killed me.@
-`That was a nightmare.@ He caught me completely off guard and cut me into seventeen pieces before I could even fight back.”@
+`That really got me.@ He caught me completely off guard and cut me into seventeen pieces before I could even fight back.”@
 `“U[line=4]gh”@
 `So that was it.@ When she said murderer, she meant me.
 \
@@ -122,11 +122,11 @@ ld c,"tachi/ark_t06",crossfade,400
 `“Yes.@ Until I finished restoring myself, I genuinely intended to kill you.@ No one had ever humiliated me like that, and the restoration consumed more than eighty percent of my strength.”@
 ld c,"tachi/ark_t07",crossfade,400
 `“But more than anything, it hurt so incredibly much.@
-`The pain was so intense I thought I would lose my mind, then it was so intense it shocked me sane again.@
+`It hurt so much I nearly lost my mind.@ And it hurt so much it brought me back to my senses.@
 `Can you imagine how it felt to spend an entire night trapped in that cycle?”@
 br
 `“……”@
-`I didn’t.@
+`I couldn’t.@
 `More to the point, I didn’t want to.
 \
 ld c,"tachi/ark_t06",crossfade,400
@@ -189,10 +189,9 @@ br
 `Wasn’t that the ominous creature I had seen two nights ago[line=3]
 \
 ld c,"tachi/ark_t07",crossfade,400
-`“[line=3]This is bad”@
-`The woman murmured.@
+`“[line=3]This is bad,”@ the woman murmured.@
 br
-`The crow watched us without blinking.@
+`The crow stared at us.@
 br
 `“Honestly!@ You took so long that we’ve been found.”@
 `The woman was looking toward the mouth of the alley.@
@@ -212,7 +211,7 @@ ld c,"tachi/kemo_t01",crossfade,400
 \
 `It needed no verbal threat.@
 `Most people tense up at the mere sight of a predator like that.@
-`It is an instinctive awe at the hopeless superiority of another creature’s physical ability.
+`It’s awe at a fellow creature whose strength and speed are so far beyond our own.
 \
 bg "bg/bg_31a",crossfade,800
 `“A black dog?”@
@@ -254,8 +253,8 @@ wave se_05
 `“[line=5]!”@
 `I hit the ground with a tremendous bang and landed hard on my backside.@
 bg "bg/bg_31a",notrans,0
-`“You—you—!@ What the hell was that for?”@ “Look in front of you!”@
-`The woman shouted.@
+`“You—you—!@ What the hell was that for?”@
+`“Look out!”@ she shouted.@
 `When I looked[line=3]the black dog, deprived of its target, had carried its leap all the way to the wall.@
 `It clung there like a lizard, then sprang again.@
 `With a tap, it rebounded from the wall toward me.@
@@ -264,14 +263,14 @@ bg "bg/bg_31a",notrans,0
 ld c,"tachi/kemo_t02",notrans,0
 `“[line=3]!”@
 `It was too fast to react to.@
-`The black dog opened a mouth slick with fangs and saliva and lunged for my throat once more[line=4]
+`The black dog opened its fanged, drooling mouth and lunged for my throat once more[line=4]
 `“Urgh…!”
 \
 bg #000000,notrans,0
 `I closed my eyes without thinking.@
 `I felt the black dog’s fangs sink into my throat.@
 `But at that instant.@
-`With a yelp, the black dog pulled its fangs away from my throat.
+`A yelp—and the black dog’s fangs left my throat.
 \
 bg "bg/bg_31a",notrans,0
 `“Wha[line=3]?”@
@@ -279,7 +278,7 @@ br
 `[line=3]That was impossible.@
 br
 `The black dog shot straight upward with a cry.@
-`Nothing had struck it; it simply flew high into the air of its own accord.@
+`There was nothing there.@ Yet it was flying up into the air all by itself.@
 `Then[line=4]flung several meters overhead, it gave another absurdly cute yelp and fell toward the concrete.@
 `No—that wasn’t quite right.@
 br
@@ -304,7 +303,7 @@ play "*1"
 ld c,"tachi/ark_t03",crossfade,400
 `“Hmm.@ You don’t appear to be injured, so there’s no problem.”@
 `She muttered something to herself.@
-`I[line=3]only now did a chill run through me at the memory of the dog’s fangs against my throat.
+`I[line=3]only now did a chill run through me at the memory of the dog’s fangs sinking into my throat.
 \
 `“Hey[line=3]what was that?”@
 `“A familiar belonging to the enemy vampire.@ You took so long to make up your mind that it found us.”@
@@ -330,7 +329,7 @@ br
 `“[line=3]No.@ It’s impossible.@ I’m an ordinary human being.@ I can’t help you.”
 \
 ld c,"tachi/ark_t04",crossfade,400
-`“I see.@ Then you can simply stand guard while I sleep.@ Surely even you can manage that?”@
+`“I see.@ Then you can simply stand guard while I sleep.@ That should be all right, shouldn’t it?”@
 `“That’s[line=3]”@
 cl c,notrans,0
 br

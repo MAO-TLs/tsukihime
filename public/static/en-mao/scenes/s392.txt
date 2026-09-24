@@ -7,11 +7,11 @@ bg "bg/bg_34a",notrans,0
 `“Then let me ask you: say someone did something even though they knew they should not.@ Could that be caused by stress?”@
 ld c,"tachi/aki_t01a",lshutter,400
 `“Something the person knows they should not do?@ Is it chronic, or does it happen all at once?”@
-`“I would say it happens suddenly.@ The person himself hardly seems aware of it.”
+`“I would say it happens suddenly.@ They hardly seem aware of it themselves.”
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“If the person acts without realizing it, then his own will cannot stop the thing he knows he should not do?”@
-`“[line=3]Right: he cannot stop.@ Even the thought of stopping disappears.”@
+`“If the person acts without realizing it, then they can’t stop themselves from doing what they know they shouldn’t?”@
+`“[line=3]Right.@ They can’t stop.@ They don’t even think of stopping.”@
 ld c,"tachi/aki_t11a",crossfade,400
 `“Then I can only conclude that, for a time, the person’s character has been reversed.”@
 `“Reversed—turned inside out?”@
@@ -28,7 +28,7 @@ br
 `“I don’t remember very well.@ Do you, Hisui?”@
 `I look toward Hisui, standing by the wall.@
 br
-`[line=3]And then.@
+`[line=3]Then.@
 ld l,"tachi/his_t17",lshutter,400
 `Hisui is staring down as though enduring something, almost as if she cannot hear my voice.
 \
@@ -37,7 +37,7 @@ ld l,"tachi/koha_t02",lshutter,400
 `“Miss Akiha, please don’t make it sound so extreme.@ Master Makihisa simply had severe mood swings, that’s all.”@
 `Kohaku arrives with glasses on a silver tray.
 \
-`“That won’t do, Miss Akiha.@ You mustn’t speak badly of the dead.@ After all, Master Makihisa was Miss Akiha’s father.”@
+`“That won’t do, Miss Akiha.@ You mustn’t speak badly of the dead.@ After all, Master Makihisa was your father.”@
 ld r,"tachi/aki_t06",lshutter,400
 `“I-I know that…!@ I don’t need you to tell me…!”@
 cl r,lshutter,400
@@ -67,7 +67,7 @@ ld c,"tachi/his_t17",crossfade,400
 \
 `“I see.@ I won’t force you.@ Tell me someday, if the chance comes.”@
 ld c,"tachi/his_t08",crossfade,400
-`“[line=3]No.@ That has nothing to do with Master Shiki.@
+`“[line=3]No.@ That has nothing to do with you.@
 ld c,"tachi/his_t09",crossfade,400
 `“Master Shiki.@ If you intend to go on living in this house, never speak of Master Makihisa again.”@
 cl c,lshutter,400

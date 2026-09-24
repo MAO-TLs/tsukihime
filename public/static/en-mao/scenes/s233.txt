@@ -2,58 +2,57 @@ monocro off
 playstop
 wavestop
 bg "bg/bg_32b",lcartain,800
-`I crest the hill and follow the road around the estate.@
-`By the time I reach the front gate, I can see Hisui standing there alone.@
+`I crest the hill and walk around the mansion.@
+`After a while I reach the main gate and see Hisui standing there alone.@
 br
-`“…@What’s Hisui doing out there?”@
-`I head toward the gate, puzzled.@
-`Hisui notices me and bows.
+`“…@What’s Hisui doing?”@
+`I tilt my head and head toward the gate.@ Hisui notices me and bows.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“Welcome home, Master Shiki.”@
 `“[line=3]Ah, right[line=3]I’m home, Hisui.”@
-`Her ceremonious greeting flusters me, but I manage an answer.@
-`“Um[line=3]were you waiting here for me to come back?”@
-`“Yes.@ It is a servant’s duty to welcome home the master of the house.”@
-`Hisui says it as though it were obvious, without so much as raising an eyebrow.
+`Her formal welcome flusters me, but I somehow answer.@
+`“Um[line=3]were you waiting here for me to come home?”@
+`“Yes.@ It is a servant’s duty to welcome home the master.”@
+`Hisui says it as a matter of course, without a flicker of expression.
 \
-`“Listen, Hisui.@ I’m honestly glad you want to welcome me home, but you don’t have to wait outside.@
-`I will come back on my own, so just say something whenever you happen to notice I am here.”@
+`“Well, Hisui, I’m glad you’re here to welcome me home, but you don’t have to go out of your way to wait outside.@
+`I’ll come home on my own.@ You can just say hello when you notice I’m back.”@
 ld c,"tachi/his_t05",crossfade,400
 `“[line=5]”@
-`A faint shadow crosses Hisui’s face.@
+`Hisui’s face clouds slightly.@
 `Maybe.@
-`She may have waited here like this all through Saturday and Sunday too.
+`Perhaps she stood here waiting for me all through Saturday and Sunday too.
 \
 `“[line=2]Hisui, listen[line=2]”@
 ld c,"tachi/his_t01",crossfade,400
-`“Understood.@ Beginning tomorrow, I shall await Master Shiki’s return in the foyer.”@
+`“I understand.@ From tomorrow on, I will wait for you in the foyer, Master Shiki.”@
 `Hisui bows and opens the gate.@
-`With one hand still on it, she turns her back to me.
+`Her hand remains on it, her back toward me.
 \
 `“Haaah.”@
-`She does not seem inclined to talk.@
+`Somehow, this does not feel like the moment to speak to her.@
 `Once I pass through, Hisui closes the gate, walks to the front door, and silently opens it before leading me into the foyer.
 \
 bg #000000,lcartain,800
 bg "bg/bg_40b",lcartain,800
 `I return to my room.@
-`Akiha is still at her lessons, Kohaku is preparing dinner, and Hisui has the house to clean.@
+`I’m told Akiha has not yet returned from her lessons, Kohaku is preparing dinner, and Hisui has the mansion to clean.@
 br
 `“[line=3]Damn, I have nothing to do.”@
 `No, I’m a student; I have plenty I should be doing—studying, reviewing, memorizing.@
-`I just do not feel like doing any of it.
+`I just don’t feel like doing any of it.
 \
-`Arcueid’s face flits through my mind.@
-`Maybe this is the letdown after two frantic days, for better or worse.@
-`For a while, doing nothing at all seems more restful than trying to occupy myself.
+`Arcueid’s face crosses my mind.@
+`Maybe it is the letdown after two hectic days, for better or worse.@
+`For a while, I feel more at ease sitting in a daze than doing anything at all.
 \
 bg #000000,crossfade,800
 !w2000
 playstop
 bg "bg/bg_40c",crossfade,800
-`After eating alone in the cavernous dining room, I have Kohaku tend my wounds and return to my room.@
-`Akiha still has not come home.@ Apparently her lesson ran late, so she decided to eat out.@
-`It is well past ten.@
-`A little early, perhaps, but I am exhausted, so I think I will turn in for the night[line=3]
+`After dinner alone in the cavernous dining room, I have Kohaku tend my wound and return to my room.@
+`Akiha wasn’t back by dinnertime.@ Her lesson ran late, and apparently she ended up eating out.@
+`The clock is well past ten.@
+`It is a little early, but I’m tired.@ Tonight, I’ll turn in[line=3]
 \

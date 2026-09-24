@@ -152,7 +152,7 @@ br
 ld c,"tachi/ark_t07",crossfade,400
 `Arcueid’s expression hardened.
 \
-`“…@I don’t believe you.@ How could you forget something that important?”@
+`“…@Unbelievable.@ How could you forget something that important?”@
 `“…@Ugh.”@
 `It wasn’t my fault.@ Even stranger things had happened to me today.
 \
@@ -167,8 +167,8 @@ br
 bg #000000,lshutter,400
 playstop
 bg "bg/bg_29b",lshutter,400
-`“…@And that’s what happened.”@
-`Once I had finished, I searched Arcueid’s face for a reaction.@
+`“…@And that’s how it happened[line=5]”@
+`When I finished, I searched Arcueid’s face for a reaction.@
 ld c,"tachi/ark_t05b",crossfade,400
 `Her eyes had remained sharp from the moment I began and had never once softened.
 \
@@ -251,7 +251,7 @@ ld c,"tachi/ark_t05b",crossfade,400
 \
 ld c,"tachi/ark_t02",crossfade,400
 `“What?@ Don’t be absurd.@ They’re only natural enemies of Dead Apostles.@ They and I are fundamentally incompatible; there wouldn’t even be anything one could call a battle.@
-`But if that person is who I think she is, she’ll certainly be ethically armed with the Seventh Holy Scripture.@ In that case, there’s a real danger she could beat me to my target.”@
+`But if that person is who I think she is, she’ll certainly be armed with the Seventh Holy Scripture.@ In that case, there’s a real danger she could beat me to my target.”@
 cl c,crossfade,400
 `“…@Beat you to it?”@
 `I still didn’t understand what Arcueid meant.@

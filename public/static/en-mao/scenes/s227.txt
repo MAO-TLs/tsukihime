@@ -32,7 +32,7 @@ br
 br
 ld l,"tachi/cel_t04",lshutter,400
 `“Mind if I join you?”@
-`Ciel arrived carrying what appeared to be a packed lunch.
+`Ciel arrives carrying what appears to be a packed lunch.
 \
 ld r,"tachi/ari_t01",crossfade,400
 `“Huh?@ Don’t you usually eat in the cafeteria?”@
@@ -46,15 +46,15 @@ ld l,"tachi/cel_t08",crossfade,400
 \
 ld l,"tachi/cel_t02",crossfade,400
 `“What[line=3]?@ Oh, yes; actually, I’m terrible at getting up early.”@
-`Ciel sat as stiffly as a student being scolded by a teacher.@
+`Ciel assumes the solemn air of a student being scolded by a teacher.@
 ld l,"tachi/cel_t01a",crossfade,400
 `“My family owned a bakery, so our days began incredibly early.@
 `But I was hopeless at getting up.@ Ever since I was little, my father was forever scolding me for it.”
 \
 `A bakery, of all things!@
 ld r,"tachi/ari_t04",crossfade,400
-`Arihiko and I exchanged looks.@
-`He too must have imagined Ciel with a brick oven in her room, kneading flour with those white fingers and baking bread.
+`Arihiko and I exchange a look.@
+`He must be imagining it too: Ciel kneading dough with her pale fingers and baking bread in an oven in her room.
 \
 ld l,"tachi/cel_t03",crossfade,400
 `“The war between my father and me lasted about ten years, but at last he gave up and said he would rather do the work of two people than try to train me.@
@@ -64,13 +64,13 @@ br
 br
 `“Wow, really?@ That’s surprising for someone who always seems so capable.”@
 ld l,"tachi/cel_t02",crossfade,400
-`“That’s because I work hard not to make mistakes when you’re around, Tohno.@ The truth is, I’m rather clumsy about most things.”
+`“That’s because I work hard not to make mistakes when you’re around, Tohno.@ The truth is, I tend to do things the hard way.”
 \
 `She might be right.@
 `After all, we first became acquainted because I could not leave an older student to repair a tree brace in the courtyard all by herself.@
-`Someone who knew how to manage life efficiently would never do a thankless job like that.
+`Someone who knew how to make life easy for themselves wouldn’t do a job with nothing to gain from it.
 \
-`“I see.@ [line=3]But I like people who are a little awkward.@ I can relax around them.”@
+`“I see.@ [line=3]But I prefer people who do things the hard way.@ I can relax around them.”@
 `Beside me, Arihiko nods solemnly.@
 `“So because mornings defeat you, you usually eat in the cafeteria.”@
 ld l,"tachi/cel_t03",crossfade,400
@@ -84,8 +84,8 @@ ld r,"tachi/ari_t02",crossfade,400
 `“Exactly.@ Dating a man like this would only wear you out, so watch yourself.”@
 ld l,"tachi/cel_t04",crossfade,400
 br
-`Ciel murmured her agreement as she opened her lunch box.@
-`The round container was divided evenly between rice and side dishes.@ Entirely conventional, though the portions did appear generous.
+`Ciel murmurs her agreement as she opens her lunch box.@
+`The round container holds half rice, half side dishes.@ An ordinary enough lunch, though there seems to be plenty of it.
 \
 ld l,"tachi/cel_t01a",crossfade,400
 `“Well, time to eat.@ May I borrow the chair from the next desk?”@
@@ -93,9 +93,9 @@ ld l,"tachi/cel_t01a",crossfade,400
 `Takada, who occupies the desk beside mine, is a good-natured young man with a well-padded frame.@
 `Occasionally, I borrow money from him without setting a date for repayment.@
 cl a,crossfade,400
-`Ciel set the lunch box on her lap rather than my desk and began to eat.@
-`Just off to one side, Arihiko stood opening the wrapper on a second roll.@
-`I watched them from the corner of my eye, then stared aimlessly out the window.
+`Ciel sets the lunch box on her lap rather than my desk and begins to eat.@
+`Just off to one side, Arihiko stands opening the wrapper on a second roll.@
+`I glance at them, then stare aimlessly out the window.
 \
 ld l,"tachi/cel_t12",crossfade,400
 `“Oh?@ Aren’t you eating lunch, Tohno?”@
@@ -108,12 +108,12 @@ ld l,"tachi/cel_t02",crossfade,400
 `It’s embarrassing that I get hungry again so quickly even though I already eat more than an ordinary girl.”
 \
 ld r,"tachi/ari_t01",crossfade,400
-`“Nothing embarrassing about it.@ You’re better developed than the other girls.@ A larger chest has to burn more fuel.”@
+`“Nothing embarrassing about it.@ You are better developed than the other girls.@ A larger chest has to burn more fuel.”@
 `Arihiko’s argument is perfectly sound.@
-`For our part, we hope she will eat even more and continue to develop without restraint.@
+`For our part, we would rather she eat even more and develop to her fullest potential.@
 ld l,"tachi/cel_t11",crossfade,400
-`Ciel wore an expression I could not quite read as embarrassment or pleasure.@
-`She was probably pleased.
+`I can’t quite tell whether Ciel looks embarrassed or bashful.@
+`Well…@ she’s probably pleased.
 \
 ld l,"tachi/cel_t01a",crossfade,400
 `“But are you sure you’ll be all right without lunch?”@
@@ -124,12 +124,12 @@ ld l,"tachi/cel_t08",crossfade,400
 \
 ld l,"tachi/cel_t12",crossfade,400
 `“I see.@ So men think about dieting too.”@
-`Ciel looks up at me from beneath her lashes, thinks for a moment, then closes her lunch box
+`Ciel looks up at me from beneath her lashes, thinks for a moment, then closes her lunch box.@
 ld l,"tachi/cel_t08",crossfade,400
 `“Um, I just remembered something I have to do; please excuse me.”@
 `She packs everything away with brisk efficiency and vanishes like the wind.@
 cl l,lshutter,400
 `“[line=3]Mm, adorable.”@
-`Arihiko murmurs while staring longingly at the door through which Ciel departed
+`Arihiko murmurs while staring longingly at the door through which Ciel departed.
 \
 bg #000000,crossfade,1500

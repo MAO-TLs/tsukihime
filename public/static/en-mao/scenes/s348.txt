@@ -1,12 +1,12 @@
 play "*3"
 wavestop
 bg "bg/bg_04",notrans,0
-`“I don’t know.@ I think Akiha looks best as she is.@ Her hair is beautiful, and I don’t think bright-colored clothes would suit it.”@
+`“I don’t know.@ I like Akiha the way she is.@ Her hair is beautiful, so I don’t think clothes in very bright colors would suit her.”@
 ld c,"tachi/ari_t01",crossfade,400
-`“Well, look at that—Tohno complimenting a girl’s appearance!@ Is this a historic first?”@
-`“Oh, shut up; I’m only saying what I think.@ A sailor uniform suits Akiha, and a blazer wouldn’t.”@
+`“Wow, that’s rare—Tohno complimenting a girl’s looks.@ Actually, isn’t that a first?”@
+`“Oh, shut up.@ I’m just saying what I think.@ A sailor uniform suits Akiha better.@ All I said was that I wouldn’t like her in a blazer.”@
 ld c,"tachi/ari_t05",crossfade,400
-`Arihiko grins knowingly and hums in amusement.
+`“Hmm,”@ Arihiko says, grinning.
 \
 `“[line=4]Ah.”@
 `Damn it.@ Arihiko baited me into that.@
@@ -19,11 +19,11 @@ ld c,"tachi/ari_t01",crossfade,400
 quakex 2,150
 cl a,lshutter,400
 ld c,"tachi/cel_t04",lshutter,400
-`“Oh, I’m sorry, Inui.@ My arm slipped.”@
-`Ciel smiles sweetly after driving an elbow at a sharp angle into Arihiko’s ribs.@
+`“Oh, I’m sorry, Inui.@ My hand slipped.”@
+`Ciel drives her elbow sharply into Arihiko’s side, then smiles sweetly.@
 br
-`Hah.@
-`I still have nearly ten minutes of this stomach-destroying ordeal to survive.
+`…@Sigh.@
+`Do I really have to spend nearly ten more minutes like this?@ I’m going to get an ulcer…
 \
 playstop
 bg #000000,crossfade,800

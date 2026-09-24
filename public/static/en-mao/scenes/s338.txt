@@ -1,8 +1,7 @@
 bg #000000,notrans,0
 wavestop
 play "*1"
-`Dinner is the usual quiet affair, Akiha and I alone.@
-`Kohaku stands behind Akiha, Hisui behind me; neither speaks—the customary dinner.
+`Dinner is as quiet as ever: Akiha and I eat while Kohaku stands behind her and Hisui behind me, neither speaking a word.
 \
 `“…”@
 `Only tonight, Akiha is behaving strangely.@
@@ -21,9 +20,9 @@ br
 `[line=4]Then.@
 wave se_05
 br
-`Something falls in the foyer.@
-`“[line=3]Akiha!?”@
-`With nothing but that premonition, I race toward the foyer.
+`Something falls with a crash in the foyer.@
+`“[line=3]Akiha?!”@
+`With nothing but a premonition, I run for the foyer.
 \
 bg "bg/bg_33c",lshutter,800
 ld c,"tachi/aki_t20b",crossfade,400
@@ -32,16 +31,15 @@ ld c,"tachi/aki_t20b",crossfade,400
 `Her breathing is ragged; even from a distance, I hear every rasp.@
 `Her face is deathly pale; beads of sweat stand on her forehead and arms.@
 br
-`One glance is enough to tell me this is no ordinary illness.
+`One glance is enough to tell me something is seriously wrong.
 \
 `“Akiha!”@
-`“Don’t come any closer……!”@
+`“Don’t come near me…!”@
 `“—!”@
-`I stop.@
-`Still leaning against the stairs, Akiha rejects me fiercely.
+`I stop short.@ Still leaning against the stairs, Akiha turns me away with startling vehemence.
 \
 `“What[line=3]what do you mean, don’t come closer?@ I don’t know what happened, but I can’t abandon you when you’re suffering like this.”@
-`“[line=3]It doesn’t matter; Brother—only you—don’t come near me.”@
+`“[line=3]Just stay away.@ Anyone but you, Brother.”@
 `Hah, hah, goes her breath.@
 wave se_01
 `“What[line=4]”@
@@ -51,10 +49,10 @@ wave se_01
 `Even for an instant, I thought she looked terribly like Satsuki Yumizuka.
 \
 `“Akiha[line=3]”@
-`“Please, just don’t come!@ If you come near me now, I know I’ll be no good.@ So don’t; I’m fine without you, Brother.@ I don’t need you[line=3]”@
+`“Please, just stay away!@ If you come near me now, I know I won’t be able to take it.@ So please, don’t.@ I’ll be all right without you, Brother[line=3]”@
 cl a,tshutter,800
-`With a slide.@
-`Akiha’s body slips from the staircase and folds to the floor.
+`A slow slide.@
+`Akiha slumps down from where she has been leaning against the stairs.
 \
 ld c,"tachi/koha_t02",lshutter,400
 `“Miss Akiha?”@
@@ -70,7 +68,7 @@ ld c,"tachi/his_t01",lshutter,800
 `“[line=3]Master Shiki”@
 `“Hisui, what just happened?@ Why would Akiha become like that?”
 \
-`“Yes.@ Miss Akiha sometimes suffers sudden difficulty breathing.@ Just as Master Shiki is prone to anemia, Miss Akiha too is a member of the Tohno family.”@
+`“Yes.@ Miss Akiha sometimes suffers sudden difficulty breathing.@ Just as you are prone to anemia, Miss Akiha too is a member of the Tohno family.”@
 `“Ah[line=4]”@
 br
 `[line=3]People of the Tohno family have such peculiarities.@
@@ -78,7 +76,7 @@ br
 `Akiha had indeed said that at lunch.
 \
 `“But……@Akiha always looked so healthy.”@
-`“Miss Akiha took the greatest care to keep it secret from Master Shiki.@ We too were ordered to say nothing to Master Shiki.”@
+`“Miss Akiha took the greatest care to keep it secret from you.@ We too were ordered to say nothing to you.”@
 `“[line=8]”@
 `I have no words.@
 `I can only stare blankly up the stairs where Akiha disappeared.
@@ -94,14 +92,14 @@ ld c,"tachi/his_t01",crossfade,400
 \
 ld c,"tachi/his_t17",crossfade,400
 `“Master Shiki, it is rare for Miss Akiha’s condition to become so severe.@ Proper medicine will restore her, so I do not believe there is cause for concern.@
-`Miss Akiha is more concerned for Master Shiki’s health than for herself, when she knows both the cause and the treatment of her own condition.”@
-`“[line=3]I know.@ Damn it, I’m a failure as a brother.@ I really knew nothing.”
+`Miss Akiha knows both the cause and the treatment of her own condition.@ She is more concerned for your health than for her own.”@
+`“[line=3]I know.@ Damn it, I’m a failure as a brother.@ It seems I really didn’t understand a thing.”
 \
 ld c,"tachi/his_t21b",crossfade,400
-`“You[line=3]know nothing?”@
+`“You don’t understand[line=3]anything?”@
 `Hisui lowers her head and murmurs.@
 `“Hisui—what’s wrong?@ Don’t tell me you’re ill too.”@
-`“[line=3]No.@ But can Master Shiki truly not remember that annex?”@
+`“[line=3]No.@ But can you truly not remember that annex?”@
 `“[line=5]What?”@
 br
 `Cannot remember—what?@
@@ -111,9 +109,9 @@ br
 \
 `“Hisui?”@
 ld c,"tachi/his_t01",crossfade,400
-`“The annex fell out of use immediately after Master Shiki was sent to the Arima family.@ Master Makihisa decided to demolish it, but Miss Akiha objected so fiercely that it remains standing even now.@
+`“The annex fell out of use immediately after you were sent to the Arima family.@ Master Makihisa decided to demolish it, but Miss Akiha objected so fiercely that it remains standing even now.@
 ld c,"tachi/his_t09",crossfade,400
-`[line=3]Therefore, if Master Shiki truly cares for Miss Akiha, please do not approach the annex.”@
+`[line=3]Therefore, if you truly care for Miss Akiha, please do not approach the annex.”@
 cl a,lshutter,400
 `With that, Hisui hurries from the room as though fleeing.
 \
@@ -122,7 +120,7 @@ bg #000000,bshutter,400
 bg "bg/bg_40d",crossfade,400
 `After ten, the lights throughout the mansion go dark.@
 `“…”@
-`My eyes are clear; I cannot sleep.@
+`I’m wide awake; I cannot sleep.@
 `Akiha.@
 `The annex Akiha wants kept secret.
 \

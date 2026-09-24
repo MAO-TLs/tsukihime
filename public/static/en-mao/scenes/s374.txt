@@ -1,24 +1,19 @@
 phase "bg/bg_45c",l,aki,11a,11
 bg "bg/bg_33c",lcartain,800
 play "*1"
-`Leaving Akiha in Kohaku’s care, I go downstairs.@
-`I can’t treat Akiha’s injuries myself.@
-`I want to help her somehow, even if it has to be in some other way.
+`I leave Akiha in Kohaku’s care and go downstairs.@
+`I can’t treat her wounds myself.@ I want to help her in some other way.
 \
 bg #000000,lshutter,400
 bg "bg/bg_41",lshutter,400
-`There might be something in Father’s room that could help her.@
-`He had been head of the Tohno family, after all.@
-`Surely he had left at least some record of how to deal with this Tohno blood of ours.
+`Maybe I’ll find something in Father’s room that can help Akiha.@ He was head of the Tohno family.@ Surely he kept some record of how to handle the Tohno blood.
 \
 bg #000000,tshutter,800
 !w1000
 bg "bg/bg_41",tshutter,800
-`“Damn[line=3]I suppose it was too much to hope for something this convenient.”@
-`I sigh and drop into the chair.@
-`Father’s library is enormous, and merely checking every volume takes ages.@
-`Worse, nearly all of them are academic texts, so material on the Tohno family itself is scarce.@
-`All I have found is something that looks like his diary.
+`“Damn it.@ Nothing’s going to turn up that easily, is it?”@
+`I sink into a chair.@ Father’s library is enormous; going through it book by book will take forever.@ Most of it is academic, with hardly anything about the family.@
+`All I’ve found is what looks like his diary.
 \
 `“Huh.@ This looks like something he began after I was sent to live with the Arimas.”@
 `I skim through the pages.@
@@ -29,13 +24,11 @@ br
 `“Let’s see, ‘On the cause of Akiha’s attacks’[line=3]could this be…?”@
 `I bend close and devour the entry.
 \
-`According to Father, the Tohno side of Akiha’s blood became dominant soon after I left.@
-`She needs more energy than an ordinary person merely to stay alive.@
-`If the energy her body needs is ten, food provides only six or seven; the constant shortfall places a terrible strain on her.
+`According to Father, Akiha’s Tohno blood became dominant soon after I was sent away.@
+`She needs more heat than other people to stay alive.@ Say she needs ten parts: food gives her only six or seven.@ Making up the difference takes a toll on her body.
 \
-`The question is why she requires so much energy.@
-`Father seems to have spent years trying to establish the cause.@
-`At last, in a much later entry, he writes it down.
+`But why does she need so much heat?@
+`Father seems to have spent years searching for the cause.@ At last, in a later entry, he writes it down.
 \
 `“Half a life……?”@
 br
@@ -47,18 +40,16 @@ br
 `To make up the difference, Akiha’s body tries to draw heat from the world around her.@
 `That is no human faculty, but something supernatural.@ The more heat she needs from outside herself, the more the Tohno side of her blood awakens at the expense of the human side.
 \
-`“…”@
-`What follows is little more than a record of Akiha’s growth.@
-`I read on for a while, only to discover that none of it helps.@
-`I fling the diary onto the desk.@
-`“[line=3]Hah.@ What good is a cause without a cure, you useless old bastard?”@
-`Or perhaps even Father failed to find one.@
-`“But if she is only using half her power, where did the other half go?”@
-`If Akiha could use all of her own power, she would not need to steal heat from anyone else.
+`“…………”@
+`The rest is a record of Akiha growing up.@ I read on, but it tells me nothing useful.@
+`I toss the diary onto the desk.@
+`“Knowing the cause doesn’t help if you didn’t find a cure, you useless old man.”@
+`Or perhaps even he couldn’t find one.@
+`“But if she’s using only half her power, where’s the other half?”@
+`If Akiha could use all her own power, she wouldn’t need to take heat from anyone.
 \
 `“[line=7]”@
-`There seems to be nothing
-`more to gain by staying here.@
+`There’s nothing more to learn here.@
 `I need to go outside and clear my head[line=3]
 \
 bg #000000,lcartain,800
@@ -83,17 +74,15 @@ br
 `I remember the days I lived in this tatami room and played with Akiha and SHIKI.
 \
 `“He called me Nanaya.”@
-`Nanaya.@ Could it be written with the characters for seven nights?@
-`It must be my real surname, but now it means very little.@
-`The child Shiki Nanaya was erased eight years ago.@ His records, his name, even his memories vanished with him.@
+`Nanaya.@ Written with the characters for seven nights, perhaps.@
+`It must be my real surname, but it hardly matters now.@ Shiki Nanaya was erased eight years ago.@ His records, his name, even his memories are gone.@
 br
 `I can’t even remember my parents’ faces.@
 `Nor do I want to remember a past that remote.
 \
-`“Oh, right.@ This knife was not a keepsake from Father; it was mine[line=3]”@
-`I draw the knife from my pocket.@
-`An antique blade with Nanaya carved into the hilt.@
-`In that sense, perhaps it truly is a keepsake from my father.
+`“Oh.@ This knife wasn’t a keepsake from Father.@ It was mine[line=3]”@
+`I take it from my pocket.@ Nanaya is carved into the hilt of the old knife.@
+`In that sense, I suppose it really was a keepsake from my father.
 \
 `Apparently Makihisa Tohno had possessed some ordinary human feeling after all.@
 `He must have needed to destroy every trace of Shiki Nanaya, yet he had kept this knife and passed it down to me.@
@@ -102,11 +91,9 @@ br
 `A drop of water strikes my palm.
 \
 `“[line=4]Huh?”@
-`I touch my cheek.@
-`Strange.@ I am neither sad nor happy.@
-`“Why am I crying[line=3]what is wrong with me?”@
-`There is no reason.@
-`The only sad thing, if anything, is that the tears refuse to stop.
+`I touch my cheek.@ I’m not sad.@ I’m not happy either.@
+`“Then why am I crying?”@
+`I have no answer.@ The tears won’t stop, and that, if anything, is sad.
 \
 bg #000000,bshutter,800
 playstop
@@ -120,10 +107,9 @@ bg "bg/bg_45c",rshutter,800
 `The thought weighs on me.@
 `I cannot imagine how many weeks it will take before Akiha is herself again.
 \
-`“[line=3]What I can do before then[line=3]”@
-`I do not even have to think.@
-`I have to find him somehow and finish him for good this time.@
-`He is not human anymore.@ …@Even if he is, and even if they punish me as a murderer, I cannot leave the vampire called SHIKI at large[line=3]
+`“[line=3]What can I do before then?”@
+`I know the answer.@ Find SHIKI and finish him this time.@
+`He isn’t human anymore.@ And even if he were, even if I were punished as a murderer, I couldn’t let him go free[line=3]
 \
 wave se_09
 `“……?”@
@@ -137,13 +123,10 @@ play "*8"
 `It is Akiha.
 \
 `“Akiha, what about your wound?”@
-`“Yes.@ The wound has already closed.”@
-`Closed…?@
-`Impossible; that wound cannot heal overnight, and Kohaku said it would take weeks.@
-`Recovering that quickly is beyond any human[line=3]
+`“It’s already closed.”@
+`Closed?@ That’s impossible.@ Kohaku said it would take weeks to heal.@ A wound like that couldn’t close overnight by any human means[line=3]
 `“[line=5]Ah.”@
-`Then I realize.@
-`I wish I had not.@
+`Then I see it.@ I wish I hadn’t.@
 `Akiha’s hair is still red.
 \
 ld c,"tachi/aki_t12c",crossfade,400
@@ -151,14 +134,14 @@ ld c,"tachi/aki_t12c",crossfade,400
 `Her hair shines red in the morning sun.@
 `[line=3]But I do not care about that.
 \
-`“[line=2]What are you talking about, Akiha?@ If the wound healed, that is good enough.@
-`You hated this Tohno blood, but if it can help you like this, then that is good[line=2]”@
-`“Please do not force yourself.@ I did not come here to make you suffer.@ I came because there is something I must tell you while I am still myself.”@
+`“What are you saying?@ If your wound has healed, that’s good, isn’t it?@
+`You hate the Tohno blood, but if it can help you like this, then I’m gla[line=3]”@
+`“You don’t have to force yourself.@ I didn’t come to trouble you.@ I came because I have something to tell you while I’m still myself.”@
 br
 `“Wh[line=3]”@
 `While I am still myself, that cannot[line=3]
 \
-`“Please listen, Brother.@ I have deceived you for a very long time.@ Nothing I do can atone for that, but I cannot simply disappear without at least telling you the truth[line=3]”@
+`“Listen, Brother.@ I’ve deceived you for a long time.@ Nothing I do can make up for it.@ But I can’t disappear without at least telling you the truth[line=3]”@
 br
 `Akiha’s eyes are so sorrowful they seem on the verge of tears.@
 `Faced with that look, there is no way I can stop her.
@@ -177,14 +160,14 @@ ld c,"tachi/aki_t01c",crossfade,400
 `I do not know why Father chose you.@ He introduced you to us as a new member of our family.”@
 `Her eyes narrow with pain as she claws at her chest with one hand and continues.
 \
-`“I was told that the Nanaya bloodline stood at the opposite extreme from ours.@
-`If mixed-bloods carrying nonhuman blood, like the Tohnos, and beings wholly outside humanity are called demons or apparitions, then there are people whose profession is to hunt them.@
-`You would not want leopards or lions loose in your school, would you?@ When we humans encounter something different from ourselves, something whose animal powers exceed our own, we try to drive it out.@
-`The reason is probably very simple.@ Demon hunters do not kill such creatures merely because they loathe what is different.@ Organizations devoted to demon hunting exist because the presence of those creatures within human society threatens human lives.”
+`“I was told the Nanaya bloodline stood opposite ours.@
+`The Tohnos carry nonhuman blood; other beings are wholly nonhuman.@ Call them demons or spirits if you like.@ Some families make it their work to hunt them.@
+`You wouldn’t want a leopard or a lion loose in your school, would you?@ When humans find a creature unlike themselves, one stronger than they are, they try to drive it away.@
+`The reason is simple.@ Demon hunters don’t hunt because they merely hate what’s different.@ They exist because such creatures living among us can put human lives at risk.”
 \
-`“[line=3]Among the families devoted to demon hunting, the Nanaya were exceptional: they used neither magecraft nor sacred arts, but hunted demons through their own natural abilities.@
-`The Tohnos became extraordinary by taking nonhuman blood into themselves; the Nanaya refined human blood until they made themselves extraordinary.@
-`They were enemies, yet in that sense the Tohno and Nanaya bloodlines stood back-to-back.”
+`“Among demon-hunting families, the Nanaya were unusual.@ They used no magecraft or sacred arts; they hunted with their own abilities.@
+`The Tohnos became extraordinary by taking nonhuman blood into themselves.@ The Nanaya, born of human blood alone, honed themselves into something extraordinary.@
+`Enemies though they were, in that way the two families stood back to back.”
 \
 `“So if you possess a special power, Brother, it comes not from Tohno blood but from the demon-hunting blood of the Nanaya.@
 `An unconscious command is engraved within you: destroy whatever is not human.@
@@ -206,12 +189,11 @@ ld c,"tachi/aki_t12c",crossfade,400
 `I can’t let Akiha say what comes next.@
 `Or perhaps I simply can’t bear to hear it from her lips.
 \
-`“That’s enough.@ You do not have to say the rest.@ Why I was adopted is something that ended long ago.@
-`That is why it does not matter.@ None of it has anything to do with either of us now.”@
+`“That’s enough.@ You don’t have to say what comes next.@ Why I was adopted is over and done with.@ It has nothing to do with either of us now.”@
 `“Brother, but[line=3]”@
-`“I do not care about some family called Nanaya.@ If you are the head of the Tohno family, then the only story you need to tell is the Tohno family’s.”@
+`“I don’t care about a family called Nanaya.@ You’re head of the Tohno family.@ Tell me about the Tohnos.”@
 `“[line=7]”@
-`Akiha lowers her head as though apologizing, then quietly nods.
+`Akiha lowers her head as if apologizing and nods.
 \
 ld c,"tachi/aki_t01c",crossfade,400
 `“Then I’ll return to our story.@
@@ -226,9 +208,9 @@ ld c,"tachi/aki_t01c",crossfade,400
 `SHIKI’s madness could be dealt with in secret, but the Tohno family could not allow its eldest son to vanish.@
 `The family holds a prominent place in society.@ We could hardly announce that its eldest son and heir had simply disappeared.”
 \
-`“That was when Father conceived his plan.@
-`You, whom SHIKI had nearly killed, would be treated as the real Shiki Tohno; SHIKI, who had suffered an Inversion and ceased to be human, would become the adopted child who died in an accident.”@
-`Biting her lip, Akiha speaks with enough venom to curse Makihisa Tohno in his grave.
+`“That’s when Father had his idea.@
+`He would treat you, the child SHIKI nearly killed, as the real Shiki Tohno.@ SHIKI, who had undergone Inversion and ceased to be human, would become the adopted boy who died in an accident.”@
+`Akiha bites her lip.@ She speaks with such force that I can almost hear her cursing Makihisa in his grave.
 \
 `[line=3]So that is the truth.@
 br
@@ -237,10 +219,9 @@ br
 `So that is the relationship between us.
 \
 ld c,"tachi/aki_t12c",crossfade,400
-`“I’m sorry.@ Brother[line=3]the child who bore the name Shiki no longer exists anywhere.@
-`He died eight years ago.@
-`Not a death of the body, but a death of existence.@ His records, his past, his home, even the memories of him: nothing remains.@
-`Eight years ago, when you took SHIKI Tohno’s place, Father disposed of everything.”
+`“I’m sorry.@ Brother[line=3]the child named Shiki Nanaya no longer exists.@
+`He died eight years ago.@ Not in body, but in the world.@ His records, his past, his home, even the memories of him are gone.@
+`When you took SHIKI Tohno’s place, Father destroyed it all.”
 \
 `“That is why you were sent to the Arima family.@
 `For appearances, the Tohno family’s eldest son had to remain alive.@ But since you were not related by blood, you could not be allowed to inherit.@
@@ -255,14 +236,13 @@ ld c,"tachi/aki_t12c",crossfade,400
 `Perhaps because she has concealed it for so long, her confession feels almost like an act of penance.
 \
 ld c,"tachi/aki_t01c",crossfade,400
-`“That is everything.@ Now you understand, Brother.@ You are not my brother.@
-`You are not[line=3]part of a tainted family like this.”@
-`On the verge of tears.@
-`Akiha speaks in a voice truly about to break.
+`“That’s everything.@ Now you understand, Brother.@ You’re not my brother.@
+`You don’t belong to this tainted family.”@
+`Her voice trembles on the edge of tears.
 \
-`“I see.@ I’m sorry, Akiha.@ I’m not even your brother, yet I’ve spent all these years acting like one and making your life difficult.”@
+`“I see.@ I’m sorry, Akiha.@ I’m not your brother, but I’ve acted like one all this time and caused you trouble.”@
 `“Brother…?”@
-`“But this is my home now.@ I may not be your brother, but couldn’t I still stay?@ I don’t want to leave you alone anymore.”@
+`“But this is my home now.@ Even if I’m not your brother, can’t I stay?@ I don’t want to leave you alone again.”@
 `“Ah[line=6]”@
 ld c,"tachi/aki_t24c",crossfade,400
 `Akiha covers her mouth and swallows whatever she is about to say.@
@@ -278,9 +258,9 @@ br
 `[line=3]I cannot believe it.@
 `Akiha[line=3]Akiha is weeping, tears spilling freely as her face crumples.
 \
-`“Brother[line=3]you are my only brother!@ Ever since she was little, Akiha has always looked to you!”@
-`“I’m glad to hear that, but you only feel that way because you didn’t know.@ I could never truly become your brother.”@
-`“I knew from the beginning!@ I knew you were adopted.@ I knew you were not my real brother.@ But I did not care, because from the first time you spoke my name, I[line=3]”@
+`“Brother[line=3]you’re the only brother I have!@ Ever since I was little, I’ve watched you.”@
+`“I’m glad, but that’s because you didn’t know.@ I couldn’t be your brother.”@
+`“I knew!@ I knew you were adopted.@ I knew we weren’t brother and sister by blood.@ None of that mattered.@ Ever since the first time you called my name, I[line=3]”@
 cl a,crossfade,400
 `A thud.@
 `Her face wet with tears, Akiha falls against my chest.@
@@ -291,9 +271,8 @@ cl a,crossfade,400
 `Her body is close enough that I need only close my arms around her[line=3]
 \
 `“You knew?”@
-`Since childhood?@
-`Even when we were that young, she had known I was not truly her brother?@
-`“Then why?@ Why did you not tell me, Akiha?@ I am not your brother.”@
+`Even as a child?@ She knew I wasn’t her brother?@
+`“Then why didn’t you tell me, Akiha?@ We aren’t related.”@
 br
 `A moment of silence.@
 `Akiha raises her face as though she has reached a decision.@
@@ -301,7 +280,7 @@ br
 !w1000
 `“Because I wanted to stay with you…”@!w1000
 \
-`“If we pretended to be brother and sister, then we could stay together.@ I am not human and far too different from you, so otherwise I could never remain by your side…!?”@
+`“If we pretended to be brother and sister, we could stay together.@ I’m not human.@ I’m too different from you to be at your side any other way…!”@
 br
 `Her voice shakes with frustration as she strikes my chest.@
 `“But[line=3]I thought that if we were siblings, we could still be together.@ Even if you hated me, even if you never saw me for what I was, I only wanted to stay with you forever…!”@
@@ -313,17 +292,16 @@ br
 `Because I was different, because I was not like anyone else, I was shut away on this estate, resigned to a life in which I would never know anyone.@ Then you shattered all of that.”@
 `Again and again, as though beating out everything she has held inside, Akiha pounds her fists against my chest.
 \
-`“If only you[line=3]if only you had never come, I could have gone on living as I was…!@
-`But you made me weak and turned me into a liar.@
-`I lied to you, and I lied to myself.@
-`I thought that if I could keep lying forever, keep pretending we were brother and sister, I would never need anything else[line=3]nothing at all[line=2]”@
+`“If only you’d never come, I could have gone on as I was…!@
+`You made me weak.@ You made me a liar.@ I lied to you and to myself.@
+`I thought if I could go on pretending we were brother and sister, I wouldn’t need anything else[line=3]nothing[line=3]”@
 br
 `[line=4]My chest hurts.@
 br
 `All of this, just to protect that one tiny lie.@ Has Akiha endured so much that she could cry like this over it?
 \
 `“Akiha[line=3]I…”@
-`“All this time, you’ve been the only brother I’ve ever had.@ I can neither accept anyone else as my brother nor love anyone else.@ I simply cannot, however hard I try…!”@
+`“You were always my only brother.@ I can’t accept anyone else as my brother.@ I can’t love anyone else.@ I simply can’t…!”@
 br
 `Another thud.@
 `Akiha strikes my chest harder than before, then falls silent.@
@@ -356,39 +334,33 @@ br
 `Her red hair will not return to its former color.@
 `That means Akiha, like SHIKI, has been claimed by the Tohno side of her blood.
 \
-`“No[line=3]that could still be temporary…!@ And even if it stays that way, you are still you.@ It does not matter.”@
-`“It is all right.@ This is my body; I know there is no returning from this.@
-`So my lie ends here.@ Leave a monster like me behind, Brother, and live as Shiki Nanaya.”@
+`“No[line=3]it could still be temporary!@ And even if it isn’t, you’re still Akiha.@ Nothing about that changes.”@
+`“I know my own body.@ I know it won’t change back.@
+`So my lie ends here.@ Leave a monster like me, Brother.@ Live as Shiki Nanaya.”@
 cl a,crossfade,400
 `Akiha lowers her head and retreats a single step.
 \
-`I do not know any Shiki Nanaya.@
-`That name means nothing to me now.@
-`Even if some attachment remains, there is nothing[line=3]nothing anywhere I could bear to lose more than Akiha.@
-`“[line=3]You complete idiot.”@
-`I catch her hand.@
-`“Ah[line=3]Brother.”@
-`Her voice is hesitant.@
-`Akiha, so proud and yet so lonely.@
-`I am caught.@
-`Come to think of it, she captured me long ago.
+`I know nothing of Shiki Nanaya.@ I have no longing for that name now.@ And even if I did, there’s nothing I couldn’t give up for Akiha.@
+`“You idiot.”@
+`I take her hand.@
+`“Ah[line=3]Brother…”@
+`Her voice is uncertain.@ Proud Akiha, lonely Akiha.@
+`She’s caught me.@ No[line=3]she caught me long ago.
 \
-`“Listen, Akiha.@ Whatever anyone says, I am your brother.@ No matter what happens, blood or no blood, I am your real brother.”@
+`“Listen, Akiha.@ Whatever anyone says, I’m your brother.@ No matter what happens, whether we share blood or not, I’m your brother.”@
 `“Thank you, Brother.@ But I…”@
-`“That is not all!@ Even if we were not siblings, I would stay beside you.@ Sister or not, Akiha, you are someone precious to me.@ I will not let anyone hurt you.”@
-`I pull her toward me and gather her into my arms.
+`“And even if we weren’t family, I’d stay with you.@ Sister or not, you’re a girl I care deeply about.@ I won’t let anyone hurt you.”@
+`I draw her into my arms.
 \
-`“Ah.”@
+`“Ah[line=3]”@
 `“I love you as my sister.”@
 `I hold her close.@
-`“But listen.@ As a woman, I love you even more.@ Does that alone mean[line=3]we cannot stay together?”@
+`“But I love you even more as a woman.@ Is that a reason I can’t stay by your side?”@
 `“[line=7]”@
-`Her breath catches.@
-`Then it stops.@
-`A heartbeat thuds between us.@
-`The warmth of our bodies slowly thaws our cold fingertips.@
-`[line=4]That was the final blow.@
-`Time stands frozen, and as naturally as though nothing else has ever been possible, our lips meet[line=3]
+`Her breath catches.@ Then stops.@
+`A heartbeat thuds between us.@ Our body heat warms our cold fingertips.@
+`That was all it took.@
+`Time seems to stop, and our lips meet as naturally as if they always would.
 \
 bg "event/aki_h01",lshutter,800
 `“Ah[line=5]”@
@@ -396,8 +368,8 @@ bg "event/aki_h01",lshutter,800
 `“Mm, ah[line=6]”@
 `Then her body yields into mine.
 \
-`The kiss never deepens beyond the simple joining of our lips.@
-`Even so, it empties my mind and sweeps away all sense of myself.
+`Our lips merely touch.@ The kiss goes no further than that.@
+`Even so, my thoughts vanish.
 \
 `Akiha’s lips are cool and soft.@
 `Our hesitant touch grows firmer, melting together until parting seems impossible.@
@@ -413,10 +385,9 @@ eroskip 94
 bg #000000,lshutter,800
 !w1500
 bg "bg/bg_45c",lshutter,800
-`After a long stillness, our lips part.@
-`Akiha remains against me, her face lowered.@
+`After a long, quiet moment, our lips part.@ Akiha keeps her head lowered and rests against me.@
 br
-`“I am happy.”@
+`“…@I’m happy.”@
 br
 `The words are scarcely more than a whisper.@
 `We have done nothing but kiss, yet Akiha’s eyes shine with such genuine happiness.
@@ -479,18 +450,18 @@ br
 `Her voice barely audible, she removes her shirt with faltering hands.
 \
 ld c,"tachi/aki_t22",lshutter,800
-`Standing in her underwear, Akiha turns her eyes away in abject embarrassment.@
-`I can’t understand why.@
-`She has asked me not to laugh, but her body is so beautiful I can only stare.
+`Standing in her underwear, Akiha turns her eyes away in utter embarrassment.@
+`I cannot understand why.@
+`She asked me not to laugh, but her body is so beautiful I can only stare.
 \
 `“There is nothing to be ashamed of.@ You are beautiful, Akiha.”@
 `I simply say what I feel.@
 `If anything, that makes her still more embarrassed; her whole body stiffens.@
 `“Akiha…?@ Do you not want to do this because we are brother and sister?”@
 `“No, it is not that; it is only that I…”@
-`Head bowed, covering her chest with both hands
-`“My breasts are small, and I am afraid you will be disappointed.”@
-`Red to the tips of her ears, Akiha forces out the confession.
+`With her head bowed and both hands covering her chest, she forces herself to continue.@
+`“…@My breasts are small, and I am afraid you will be disappointed.”@
+`Red to the tips of her ears, Akiha makes the confession.
 \
 `“[line=4]Ah.”@
 `That undoes me.@
@@ -518,7 +489,7 @@ ld c,"tachi/aki_t22",lshutter,800
 `“Ah[line=4]”@
 `Apparently the thought has never occurred to her, and Akiha gasps in alarm.
 \
-`“We have nothing to be ashamed of, but everyone thinks we are siblings.@ If Kohaku learns we have slept together, things will be awkward from then on.”@
+`“We have nothing to be ashamed of, but we are brother and sister.@ If Kohaku learns we have slept together, things will be awkward from then on.”@
 `“Then, um, what should we do, Brother?”@
 `Akiha looks genuinely distressed.@
 `Even so, it is clear that she wants to join her body with mine here and now more than she fears Kohaku finding out.
@@ -547,7 +518,8 @@ bg "event/aki_h02",crossfade,800
 `Akiha’s pale body is revealed.
 \
 `“Is this enough, Brother?”@
-`Still refusing to meet my eyes, Akiha lowers her hands.@ “[line=6]”@
+`Still refusing to meet my eyes, Akiha lowers her hands.@
+`“[line=6]”@
 `No words come to me.
 \
 `A pale body.@
@@ -568,7 +540,7 @@ br
 \
 `“[line=5]Ah.”@
 `A breath rasps from my throat.@
-`Pale skin, a slender neck, dark hair spilling over it.@ Even touched with red, none of its living luster has faded.
+`Pale skin, a slender neck, dark hair spilling over it.@ Though red glimmers through the black, none of its living luster has faded.
 \
 `Her long brows quiver faintly with embarrassment, and her closed eyelids tremble with every beat of her heart.@
 `Her cheeks are crimson; her lips press tightly together as though enduring the shame.@
@@ -591,7 +563,6 @@ bg "bg/bg_45c",lshutter,800
 `“?”@
 `I follow her gaze.@
 br
-`[line=3]Then.@
 `Akiha is staring at my body, as naked as hers.@
 `More precisely, at the part of me her body has brought erect.
 \
@@ -603,7 +574,7 @@ br
 `Beside her beautiful body, that rigid length of flesh must look grotesque.
 \
 `“Akiha, this is[line=3]well…”@
-`“Yes, I understand.@ I was startled because I have never seen a man’s sex before, but…”@
+`“Yes, I understand.@ I was startled because I have never seen a man’s genitals before, but…”@
 `Hiding her mouth behind one hand, Akiha peers at me with frank curiosity.@
 `“When I think this is yours, Brother, it somehow looks almost cute to me; that is strange, is it not?”@
 `She murmurs, nearly to herself.@
@@ -616,7 +587,7 @@ br
 `We embrace naked.@
 `My erection presses flat against her stomach.@
 `Arms against arms, chest against chest.@
-`My sex against the bare warmth of her belly.
+`My erection against the bare warmth of her belly.
 \
 `“Nnh, ah.”@
 `Akiha’s body jerks.@
@@ -628,14 +599,14 @@ br
 \
 `“Mm, yours is so hot, Brother.”@
 `This slight contact alone has left Akiha panting.@
-`Just as the position excites me, the sensation of my sex against her stomach seems to excite her.
+`Just as the position excites me, the sensation of me pressed against her stomach seems to excite her.
 \
 `“Akiha[line=3]I am going to make love to you now.”@
 `She nods.@
 `“Ah, but, Brother, this is my first time…”@
 `I do not really know what I should do.@
 `She mumbles the admission in mortified fragments.@
-`“[line=3]Idiot, I am hardly experienced myself.@ It will be all right.@ If you are in pain, I will be gentle, so leave the beginning to me.”@
+`“[line=3]Idiot, I am hardly experienced myself.@ It will be all right.@ If it hurts, I will be gentle, so leave the beginning to me.”@
 `Akiha whispers yes.
 \
 `[line=3]The heat of Akiha’s skin rises.@
@@ -647,7 +618,6 @@ bg #000000,lshutter,800
 `There is no force in it, scarcely even enough to call it foreplay.
 \
 `“[line=5]!”@
-`Then.@
 `That alone draws a breath from Akiha.@
 `“Akiha?”@
 `“Hah[line=3]ah, nn…!”@
@@ -668,9 +638,9 @@ bg "event/aki_h03",lshutter,400
 `Akiha’s back arches.@
 `I have only laid my palm across her small breast, yet she recoils as though trying to escape the touch.
 \
-`“I see.@ You really are small here, Akiha.”@
+`“I see.@ Your breasts really are small, Akiha.”@
 `“Ah…”@
-`“But there is still a curve, and it does have some spring.@ See how it pushes my fingers back when I press?”@
+`“But there is still a curve, and they do have some spring.@ See how they push my fingers back when I press?”@
 `I tighten my hand.@
 `I squeeze the slight rise of her breast.
 \
@@ -690,7 +660,7 @@ bg "event/aki_h03",lshutter,400
 `Akiha trembles from head to foot.@
 `I have caressed only one breast, yet sweat covers her burning body.@
 `“Hah[line=3]it is terribly hot in here.”@
-`I am not even fully aroused yet, but the room feels stifling.@
+`I am not nearly as worked up as she is, yet the room feels stifling.@
 `It must be the heat of Akiha’s excitement.
 \
 `“Brother, please stop touching me there.@ I hate how unfeminine they are.”@
@@ -705,7 +675,7 @@ bg "event/aki_h03",lshutter,400
 \
 `“Hah, ah, ah…!”@
 `Akiha’s breasts lack lush softness; beneath my fingers they have a delicate, half-firm resilience.@
-`As she feared, they are less voluptuous than finely formed, a slight and graceful femininity that sends a shiver through me.@
+`As she said, their firmness feels less womanly than girlish, with a youth and delicacy that sends a shiver through me.@
 `“Nn[line=3]Brother, enough[line=3]”@
 `“See, small or not, they are certainly sensitive.@ Even your nipple has gone this hard.”@
 `Still kneading her breast, I catch the pink tip between my fingers.
@@ -782,7 +752,7 @@ bg "bg/bg_45c",crossfade,400
 `It is your first time, and if we continue, I am afraid I really might break you[line=3]”@
 br
 `[line=3]My words end there.@
-`Akiha’s lips interrupt them by settling upon mine.
+`Akiha’s lips close over mine.
 \
 `“Brother.”@
 `“Aki[line=3]ha.”@
@@ -797,8 +767,7 @@ br
 `Her tear-bright eyes do not waver as she says it.
 \
 `“Akiha[line=4]”@
-`After she says all that.@
-`Hesitation is impossible.@
+`After hearing that, I can no longer hesitate.@
 br
 `I lower myself over her.@
 `“Ah[line=4]”@
@@ -841,7 +810,7 @@ br
 `“It is not dirty.@ You are warm here, Akiha, and you almost taste sweet.”@
 br
 `A wet sound.@
-`I gently draw the overflowing nectar into my mouth.
+`I gently draw the overflowing fluid into my mouth.
 \
 `“Ah, nn, ah[line=3]aaah[line=4]!”@
 `I part the soft folds and press my tongue inside.@
@@ -854,12 +823,12 @@ bg "event/aki_h10",crossfade,800
 `Akiha’s body arches.@
 `Each time, her red hair streams across the bedding, achingly sensual.
 \
-`Akiha’s pubic hair is a shade lighter than the hair on her head.@
-`Between that dark growth and her wet cleft, a small, swollen nub stands flushed red, almost as though waiting to be touched.
+`Akiha’s pubic hair is slightly paler than the hair on her head.@
+`Between that fine growth and her wet cleft, a small, swollen nub stands flushed red, almost as though waiting to be touched.
 \
 `“Mm.”@
 `I run my tongue over it.@
-`Often called a woman’s counterpart to the penis, it is more sensitive than any other part of her.@
+`Often called the female counterpart of the penis, it is more sensitive than any other part of her.@
 `“[line=8]”@
 `Akiha’s legs clamp harder around me.@
 `“Nn[line=5]ah, hah[line=3]nn.”@
@@ -912,7 +881,7 @@ br
 \
 `“Ngh[line=4]”@
 `Not yet.@ I cannot finish here, scarcely past the entrance.@
-`I clench hard and ease myself, little by little, deeper into Akiha.
+`I clench my anus and ease myself, little by little, deeper into Akiha.
 \
 `“Nn[line=3]it hurts, Brother.@ You are too big!”@
 `Akiha’s chest arches upward.@
@@ -984,16 +953,15 @@ br
 `Deeper—again, again, again…!@
 br
 `Akiha is so soft inside.@
-`She is so hot and tight that I can feel boiling semen ready to surge from the base at any moment.
+`She is so hot and tight that I can feel semen churning at the base, ready to surge at any moment.
 \
-`“Ah—ngh, aah, aaah…!”@
+`“Ah[line=3]ngh, aah, aaah…!”@
 `I hear Akiha’s voice.@
-`Only then do I notice.@
-`A single tear spills from her eye.@
+`Only then do I notice a single tear spilling from her eye.@
 `“Ghh…!”@
-`Even so, I cannot make myself stop.@ I ram into her harder than ever.@
-`And then—
-`“Ngh…@ Ah, haah, Brother—I—I can’t…!”@
+`Even so, my emotions refuse to stop.@ I ram into her harder than ever.@
+`And then[line=3]
+`“Ngh…@ Ah, haah, Brother[line=3]I, I cannot…!”@
 `Akiha’s back arches like a bow.@
 `Her vagina clamps down as though it means to crush my penis.
 \
@@ -1020,7 +988,7 @@ bg "bg/bg_45c",crossfade,800
 bg "event/aki_h06",lshutter,800
 `Perhaps they come from the pain of her first time.@
 `The tears still shine clearly on Akiha’s face.@
-`“Brother…@ You pulled out.”@
+`“Brother…@ You came outside.”@
 `Her voice is dazed and dreamlike.@
 `My semen is spattered over her body, but she shows no concern for it.@
 `She simply lies there, spent, upon the bedding.
@@ -1099,8 +1067,8 @@ eroskip 42
 bg #000000,crossfade,800
 bg "event/aki_h07",crossfade,800
 `“Nn…!?”@
-`I seize Akiha’s lips by force.@
-`Our third kiss is not an act of love.@
+`I force a kiss on Akiha.@
+`Our third kiss isn’t meant to show affection.@
 `It is rough, furious, meant only to silence her.
 \
 `“Akiha…!”@
@@ -1117,7 +1085,7 @@ bg "event/aki_h07",crossfade,800
 `As though she feels the same, Akiha swallows my saliva and lets her own flow into my mouth.@
 `One gulp.@
 `Since our bodies cannot melt together, we mingle our fluids instead.@
-`Akiha sucks hard on my lips with all the violence of her emotions.
+`Akiha sucks hard on my lips with the full force of all her feelings.
 \
 `“Hah…@ ngh…”@
 `My breath comes short.@
@@ -1128,16 +1096,16 @@ br
 \
 `“Nn—haah…”@
 `I pull away from Akiha’s lips.@
-`A gasp.@ Then Akiha draws one long, shuddering breath.@
+`Akiha draws a long breath.@
 `“Brother—what’s wrong?@ I hadn’t finished speaking yet…”@
 `“I don’t care.@ I’m angry.”@
 `I lift her upright.@
 `“Brother…?@ Angry at what?”@
-`“I’m angry at that miserable streak of yours, at my own weakness for not being able to laugh it off—at all sorts of things.@
+`“At that habit of yours of expecting the worst, at my own weakness for not being able to laugh it off—at all sorts of things.@
 `But mostly, I’m angry that I was giving this everything I had while you were thinking about dying.”
 \
 `“What…?”@
-`“You didn’t enjoy yourself at all, did you?@ That irritates me, so this time I’m going to make you feel incredible.”@
+`“You did not enjoy yourself at all, did you?@ That stings my pride, so this time I am going to make you feel incredible.”@
 `I bury my face against her defenseless chest.@
 `What little cleavage she has barely deserves the name.@
 `I press my lips into it and suck hard.
@@ -1148,8 +1116,8 @@ br
 `I stroke upward around her waist.@
 `Akiha is so sensitive that this alone makes her turn her face away.
 \
-`“Ah—Brother, are we doing it again?”@
-`“We are.@ You should be used to it now, so this time it’ll feel even better.@ I’ll take you so hard you won’t have room to think about anything morbid.”
+`“Ah[line=3]Brother, are we doing it again?”@
+`“We are.@ You should be used to it now, so this time it will feel even better.@ I will take you so hard you will not have room to think about anything foolish.”
 \
 `“Is…@ is that true, Brother?”@
 `“Yes.@ I’m angry, so I’m not holding back.”@
@@ -1222,7 +1190,7 @@ bg "event/aki_h08",crossfade,400
 `“What—ngh!?”@
 `I pull her hips against me.@
 `With one hand, I raise her leg higher.@
-`Her body arches, exposing her sex so I can thrust up into it more easily.
+`Her body arches, exposing herself so I can thrust up into her more easily.
 \
 `“Nn…@ aaaaaah…!”@
 `Even with me motionless inside her, the position itself seems enough to excite her, and Akiha clings to me fiercely.
@@ -1245,7 +1213,7 @@ br
 `—her heat answers me.@
 br
 `Slick, wet, deep.@
-`Akiha’s nectar spills out with every stroke.
+`Akiha’s fluid spills out with every stroke.
 \
 `“It hurts—it hurts, so why…?”@
 `Tight.@
@@ -1338,7 +1306,7 @@ bg "event/aki_h10",lshutter,800
 `“Nn…@ ghh!”@
 br
 `One final thrust.@
-`I gather every last scrap of strength and pierce through Akiha herself.
+`I gather every last scrap of strength and drive through Akiha herself.
 \
 `“Ah…@ ah, aaaaaah…!”@
 `Akiha arches beneath me.@
@@ -1395,15 +1363,15 @@ br
 \
 bg #000000,crossfade,800
 `Maybe it’s because I haven’t stopped moving since yesterday.@
-`Whatever the reason, sleep crashes over me.@
+`Whatever the reason, I’m desperately sleepy.@
 br
 `“Brother…?”@
 `I hear Akiha’s voice.@
 `But I no longer have the strength even to answer.
 \
 `“Are you going to sleep?@ Brother, can you hear me?”@
-`That’s why I can’t answer you.@
-`Sorry, Akiha, but can’t you let me sleep like this?
+`I can’t answer you.@
+`Sorry, Akiha, but could you just let me sleep?
 \
 `“I don’t mind…@ but may I sleep beside you?”@
 `Of course she can, but doesn’t she want to wash first?@
@@ -1428,8 +1396,8 @@ br
 br
 `Then this must be an impossible dream.
 \
-`“I don’t want to surrender my body to anyone but you—the one person I cherish.@
-`Please, whatever suffering may come, never forget that.”@
+`“I don’t want to entrust my body to anyone but you, the only person dear to me.@
+`Please—however painful it becomes—don’t ever forget that.”@
 br
 `A horrible dream.@
 `She doesn’t have to tell me; I could never forget.
@@ -1480,8 +1448,8 @@ ld c,"tachi/aki_t18c",crossfade,400
 `Ah…@ Akiha’s stare suddenly feels very cold.
 \
 ld c,"tachi/aki_t21c",crossfade,400
-`“So Hisui was right.@ No matter how many times I called, you don’t remember a single one.”@
-`“What[line=3]were you trying to wake me all this time?”@
+`“So Hisui was right.@ No matter how many times I called, you don’t remember any of it.”@
+`“What[line=3]you tried to wake me more than once?”@
 ld c,"tachi/aki_t03c",crossfade,400
 `“Yes, I made a racket beside your ear more times than I could possibly count, but naturally you remember none of it.”@
 `“Ah—no, sorry, but I don’t remember a thing.”
@@ -1513,8 +1481,8 @@ ld c,"tachi/aki_t24c",crossfade,400
 `“I…@ don’t dislike it, exactly.”@
 `“So you don’t like it either.@ Understood.@ I’ll refrain from now on.”@
 ld c,"tachi/aki_t16c",crossfade,400
-`“No…@ if anything, I might…@ like it…”@
-`Akiha averts her gaze and gives me that wonderfully entertaining answer.
+`“No…@ if anything, I might…@ like it…@ but…”@
+`Akiha looks away.@ I have to admit, I’m enjoying her answer.
 \
 `“Hmm.@ Every answer you give ends in ‘but,’ doesn’t it?”@
 ld c,"tachi/aki_t13c",crossfade,400
@@ -1530,9 +1498,9 @@ ld c,"tachi/aki_t12c",crossfade,400
 `“Brother, please get dressed first.@ The sun is going down, and we need to return to the main house.”@
 `“Why?@ This is part of the estate too.@ I want to spend the whole day with you.@ Don’t you?”@
 ld c,"tachi/aki_t13c",crossfade,400
-`“Of course I do!@ But…@ it hurts a little doing it here.@ I thought perhaps we could use a proper bed next time…”@
-`Akiha pouts and makes the clumsiest little demand.@
-`And somehow, her words strike me squarely in the heart.
+`“Of course I do!@ But…@ it hurts a little here.@ I thought perhaps we could use a proper bed next time…”@
+`Akiha pouts, making her awkward little demand.@
+`Somehow, it hits me square in the chest.
 \
 `“Agreed.@ To tell you the truth, while I was looking after you earlier, I found myself wishing I could sleep beside you in that wonderfully soft bed.”@
 ld c,"tachi/aki_t24c",crossfade,400
@@ -1553,8 +1521,8 @@ ld c,"tachi/aki_t16c",crossfade,400
 `“Well…@ Kohaku may have noticed.@ She’s usually rather awkward, but every so often her intuition is frighteningly sharp…”@
 `“Hrrm.”
 \
-`I don’t believe we did anything shameful, but the thought still makes me feel guilty.@
-`Kohaku would probably beam and cry, “Congratulations!”@ Yet I cannot begin to imagine what expression Hisui would make if she found out.@
+`I don’t think we’ve done anything to be ashamed of, but I still feel guilty.@
+`Kohaku would probably beam and say, “Congratulations!”@ But I can’t imagine what face Hisui would make if she found out.@
 br
 bg #000000,crossfade,400
 bg "bg/bg_54b",crossfade,400
@@ -1571,8 +1539,8 @@ br
 `I call to her.@
 `Akiha turns around.@
 ld c,"tachi/aki_t15c",lshutter,400
-`Her face.@
-`Before I can understand.@
+`That look on her face.@
+`Before I can make sense of it—
 playstop
 br
 br

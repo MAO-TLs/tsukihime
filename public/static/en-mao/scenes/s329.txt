@@ -62,7 +62,7 @@ cl a,lshutter,400
 `“Here, give it to me.@ You tear the wrapper open here, like this, then just bite into it.@ Don’t expect too much from the taste.@ It’s worlds apart from Kohaku’s cooking.”@
 ld c,"tachi/aki_t12a",crossfade,400
 `“Um[line=3]Brother, are you serious?”@
-`“I wouldn’t lie to you.@ Or is that it?@ After transferring here, are you going to tell me you’re too refined to eat anything from our school shop?@
+`“I wouldn’t lie to you.@ Or is that it?@ After transferring here, don’t tell me you can’t eat anything from our school shop.@
 `I’d hate to lose all respect for you, Akiha.”
 \
 ld c,"tachi/aki_t17a",crossfade,400
@@ -72,7 +72,7 @@ ld c,"tachi/aki_t12a",crossfade,400
 `“All right.@ Thank you, Brother.”@
 cl a,crossfade,400
 `With that, Akiha began nibbling at the curry bread.@
-`I doubt any girl in history had ever approached her first bite of one with such grave resolve.
+`I doubt any girl had ever been so nervous about taking a bite of curry bread.
 \
 bg #000000,tshutter,800
 bg "bg/bg_04",bshutter,800
@@ -80,16 +80,16 @@ bg "bg/bg_04",bshutter,800
 `Apparently his appearance didn’t bother her much.
 \
 ld l,"tachi/aki_t04a",crossfade,400
-`“I see.@ So you and my brother have been friends since middle school, Arihiko?”@
+`“I see.@ So you and my brother have been friends since middle school, Mr.@ Inui?”@
 ld r,"tachi/ari_t01",crossfade,400
 `“Yeah, coming up on five years now.@ He’s been a lot of work from the day we met, and after I kept looking after him, the poor guy grew attached.”@
-`“That account is seriously misleading.@ The accurate version is that you latched on to me and never let go.”@
+`“Arihiko, that’s misleading.@ To be precise, you started sponging off me.”@
 ld r,"tachi/ari_t02",crossfade,400
-`“Sure.@ Either way, we’re stuck with each other.”@
+`“Yeah.@ Some rotten friendship we’ve got, either way.”@
 `Arihiko laughed uproariously.
 \
-`“Right.@ The bond’s so rotten it’s turned to sludge and can’t be cut, so we’ve each been saddled with a real nuisance.”@
-`I return Arihiko’s grin with a sardonic one of my own.@
+`“So rotten it’s turned to sludge.@ No cutting ourselves loose now—we’re both stuck with a real nuisance.”@
+`I returned Arihiko’s grin with a sardonic one of my own.@
 ld l,"tachi/aki_t13a",crossfade,400
 `“…”@
 `For some reason, Akiha watches the two of us with a distinctly displeased expression.
@@ -99,7 +99,7 @@ ld r,"tachi/ari_t01",crossfade,400
 ld l,"tachi/aki_t04a",crossfade,400
 `“If it’s something I can answer.”@
 `“I’ve wondered about this for a while: Tohno’s chronically anemic, right?@ Was he born that way?”@
-`Arihiko’s great talent is asking difficult questions with the delicacy of a battering ram.
+`What’s amazing about Arihiko is how directly he asks questions like that—the ones most people would hesitate to ask.
 \
 ld l,"tachi/aki_t01a",crossfade,400
 `“Yes.@ I’m told Brother’s anemia is congenital, but traits of that kind appear throughout the Tohno family, so his condition is not unique.”@

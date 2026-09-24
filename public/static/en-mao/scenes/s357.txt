@@ -1,10 +1,10 @@
 play "*2"
 wavestop
 bg "bg/bg_06a",notrans,0
-`Going to apologize now might make far too much of it.@
-`Kohaku asked me to keep it secret, and knowing Akiha, if I faced her and apologized for everything, she might only yell at me.@
+`…@Still, going to apologize now might make far too much of it.@
+`Kohaku asked me to keep it secret, and knowing Akiha, if I faced her and said, “Sorry for everything,”@ she might only yell at me.@
 br
-`“Right.@ Maybe I should wait and see until lunch.”@
+`“…@Right.@ Maybe I should wait and see how things are at lunch.”@
 `Still vaguely restless, I remain in the classroom and prepare for the next lesson.
 \
 bg #000000,tcartain,800
@@ -12,15 +12,15 @@ bg #000000,tcartain,800
 play "*3"
 bg "bg/bg_06a",tcartain,400
 `Lunch break arrives.@
-`By unspoken agreement, if I go to the courtyard today, I will end up eating with Akiha again.@
-`I sigh.@
-`Today, the prospect weighs on me a little.@
-`I mean to apologize for this morning, but I have no idea how.@
+`By unspoken agreement, going to the courtyard today means eating with Akiha again.@
+`“…@Hah.”@
+`But today, the prospect weighs on me a little.@
+`I mean to apologize for this morning, but I have no idea what to say.@
 ld c,"tachi/ari_t01",lshutter,400
-`“Hey, Tohno.@ Come on, let us get to the courtyard; Akiha is waiting.”@
-`With a man like that around, I can hardly leave her there alone.@
-`“Sigh…”@
-`I let out a heavy breath and leave the classroom with Arihiko.
+`“Hey, Tohno.@ Come on, let’s get to the courtyard.@ Akiha’s waiting.”@
+`…@With a guy like that around, I can hardly leave her there alone.@
+`“……………@Hah.”@
+`I let out a heavy sigh and leave the classroom with Arihiko.
 \
 bg #000000,lshutter,800
 bg "bg/bg_04",lshutter,800
@@ -38,27 +38,27 @@ ld r,"tachi/ari_t01",crossfade,400
 \
 cl l,crossfade,400
 ld l,"tachi/aki_t04a",lshutter,800
-`“I’m sorry I’m late.@ Some girls in my class invited me to eat with them, and it took a while to decline.”@
+`“I’m sorry I’m late.@ Some girls in my class invited me to eat with them, and it took me a while to turn them down.”@
 ld r,"tachi/ari_t02",crossfade,400
-`“No problem, we only just arrived.@ Come sit here.”@
+`“Don’t worry about it.@ We only just got here ourselves.@ Come on, sit down.”@
 `Arihiko slaps the grass beside him.@
 ld l,"tachi/aki_t01a",crossfade,400
 `“Are we allowed to eat on the lawn?@ No one else is doing it.”@
-`“Sure, there is no rule against it.@ Akiha need not worry about every little thing.”@
+`“Sure, sure.@ There’s no school rule against it, so it’s fine.@ You don’t need to worry about every little thing, Akiha.”@
 `Arihiko slaps the grass again.
 \
 `“[line=3]Very well.@ Excuse me, then.”@
 `With a small bow, Akiha sits down next to me.@
 cl a,crossfade,400
 `“Urgh.”@
-`We have not settled what happened that morning, and having her sit so close makes me nervous.@
+`…@We still haven’t settled what happened this morning, and having her sit so close makes me nervous.@
 ld c,"tachi/aki_t01a",crossfade,400
 `“[line=3]What is it, Brother?@ You look pale; have you lost your appetite…?”@
 `Akiha studies my face with a quiet, searching gaze.
 \
-`“H[line=3]no, I do not feel sick.”@
-`I do not, but I feel a little awkward.@
-`Akiha does not seem particularly self-conscious about what happened that morning, but Kohaku’s words keep flashing through my mind and making me acutely aware of her.@
+`“H[line=3]no, I don’t feel sick.”@
+`…@I don’t.@ I just feel a little awkward.@
+`Akiha doesn’t seem especially conscious of what happened this morning, but Kohaku’s words keep flashing through my mind and making me acutely aware of her.@
 cl c,crossfade,400
 `“…………”@
 `In the end, I can think of nothing to say and lapse into silence.

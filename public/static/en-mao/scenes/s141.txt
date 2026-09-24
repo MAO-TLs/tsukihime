@@ -4,77 +4,71 @@ bg "bg/bg_29b",notrans,0
 play "*3"
 ld c,"tachi/ark_t08",crossfade,400
 br
-`[line=3]I would rather die than tell her that.@
+`[line=3]I would rather die than tell her.@
 br
-`“It has nothing to do with you, Arcueid.@ Just leave me alone.”@
-`I turn my face away and rebuff her.@
-`Arcueid refuses to give up, pestering me with an endless chorus of come on, come on.
+`“It’s none of your business, Arcueid.@ Leave me alone.”@
+`I turn away to shut her down, but she keeps following me around, pleading, “Come on, come on.”
 \
 `“Tell me, Shiki.@ You can at least tell me what kind of dream you had, can’t you?”@
 `She badgers me with the open curiosity of a child.@
 `No matter where I turn, she immediately darts into my line of sight and starts pleading again.
 \
 cl c,lshutter,800
-`“Please, just spare me.@ That dream was insane.@ Even now, something like that[line=3]”@
-`I still do not know why I had a dream like that.@
-`Arcueid says the dream reflected my desires, but I refuse to believe I could desire that.
+`“…@Please, give me a break.@ There was something wrong with that dream.@ Even now, I can’t[line=3]”@
+`I do not know why I dreamed it.@ Arcueid calls it a wish, but I do not want to believe it was mine.
 \
 ld c,"tachi/ark_t11",crossfade,400
-`“Oh, did it turn into a nightmare?@ When that girl takes a liking to her subject, she starts embellishing the dream however she pleases.@ I suppose it can’t be helped—she’s still only half-trained.”@
-`Arcueid mutters this to herself.
+`“Oh.@ Did it turn into a nightmare?@ That girl likes to add things of her own when she takes a fancy to someone.@ She’s only half trained, so I suppose I should have expected it.”@
+`Arcueid mutters to herself.
 \
-`“…@What do you mean, she embellishes it?”@ “She interprets the subject’s desires in her own peculiar way.@ The dream demon I sent you is still immature, so she must enjoy playing pranks.”@
+`“…@Add things?@ What do you mean?”@
+`“She interprets people’s wishes her own way.@ The dream demon I sent you is still young.@ She probably thought she was playing a joke.”@
 `“[line=4]I see.”@
-`Relief washes over me.@
-`Of course; something like that could never have been my own dream[line=3]not by choice.
+`…@Relief washes over me.@ Of course I would never have chosen a dream like that myself.
 \
-`I breathe a sigh of relief.@
-`That more or less proves my innocence, but[line=3]
-`“Arcueid, why did you send such a dangerous creature after me?@ Even harassment has its limits.@ That thing went far beyond them.”@
+`I let out a breath.@ That more or less clears my name, but[line=3]
+`“Arcueid, why would you send me someone so dangerous?@ That goes beyond a practical joke.”@
 ld c,"tachi/ark_t16",crossfade,400
-`“Hmph.@ I wasn’t harassing you.@
-`I sent you the dream demon as a reward for defeating Nrvnqsr.@ I’m grateful to you, so I thought it might make you happy!”
+`“Hmph.@ I wasn’t trying to harass you.@
+`I sent the dream demon to thank you for defeating Nrvnqsr.@ I’m grateful, Shiki.@ I thought you’d enjoy it!”
 \
-`“A reward[line=3]I mean, I am glad you appreciate what I did, but…”@
-`Even so, I would prefer not to receive that particular kind of reward.@
+`“A thank-you[line=3]I appreciate the thought, but…”@
+`I would rather turn down that kind of thank-you.@
 ld c,"tachi/ark_t04",crossfade,400
-`“What?@ Can’t you accept a person’s kindness, Shiki?”@
-`“Listen.@ You are not a person, Arcueid; you are a vampire.”@
+`“What?@ You can’t accept a person’s kindness, Shiki?”@
+`“…@You’re a vampire, Arcueid.@ Not a person.”@
 ld c,"tachi/ark_t14",crossfade,400
-`“Well, yes, but…”@
+`“…@Well…@ yes, but…”@
 `Arcueid’s shoulders droop.@
-`Arcueid makes no attempt to hide what she feels.
+`She wears every feeling openly.
 \
-`Delight, anger, remorse[line=3]her expression shifts with every feeling, and, well, I find it incredibly attractive.@
+`Her face changes with every feeling—joy, anger, remorse—and, well, I find that incredibly attractive.@
 br
-`…@For all that I called her a vampire to her face,
-`Arcueid is so human that I keep forgetting the truth myself.
+`…@For all my talk of her being a vampire, Arcueid is so human that I forget it myself.
 \
-`“…@Anyway, dream demon or whatever—why the hell did you do that?@ Are you still holding a grudge because I killed you?”
+`“…@Anyway, whatever a dream demon is, why did you send one to me?@ Are you still angry because I killed you?”
 \
 ld c,"tachi/ark_t16",crossfade,400
-`“Of course not.@ I sent it as a reward for defeating Nrvnqsr.@ I am grateful to you, Shiki, and I wanted to give you something you would enjoy.”@
-`“A reward[line=3]?@ I can do without that kind of reward; what goes through the minds of vampires, pulling a tasteless stunt like this?”@
-`I shrug in exasperation.@
-`For some reason, that only makes Arcueid glare at me more fiercely.@
+`“Of course not.@ It was a thank-you for helping me defeat Nrvnqsr.@ I’m grateful to you, Shiki.@ I thought you’d like it.”@
+`“A thank-you[line=3]?@ I’d rather do without that kind.@ What were you thinking, pulling a stunt like that?@ Are all vampires this tasteless?”@
+`I shrug.@ Arcueid only glares at me harder.@
 ld c,"tachi/ark_t06",crossfade,400
-`“You are so mean, Shiki.@ Fine, I am not human anyway—so there.”@
+`“You’re mean, Shiki.@ Fine.@ I’m not human anyway, so there.”@
 cl c,lshutter,400
-`She turns away in a huff and marches off.
+`She turns away with a huff and strides off.
 \
 playstop
 `“Hey, wait.@ Where are you going?”@
-`“None of your business, Shiki.@ Don’t follow me.”@
-`Apparently truly furious, Arcueid walks on without even looking back.
+`“That’s none of your business.@ Don’t follow me.”@
+`Arcueid walks on without looking back.@ She really is angry.
 \
-`“…”@
+`“…………”@
 `Where is she going?@
-`“…”@
-`Maybe I went too far.@
-`Whatever the result and however bizarre the method, Arcueid had meant it as a kind gesture, and belated guilt begins to gnaw at me for not appreciating the thought behind it.
+`“…………”@
+`Maybe I went too far.@ Whatever I thought of the result, she meant the gift kindly.@ Now I feel guilty for rejecting the feeling behind it.
 \
 `“[line=5]”@
-`Damn it, why is Arcueid so impossible to leave alone?@
+`Damn it.@ Why can’t I leave Arcueid alone?@
 br
 `“Oh, come on[line=3]I said wait!”
 \

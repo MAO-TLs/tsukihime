@@ -1,23 +1,23 @@
 play "*1"
 wavestop
 bg #000000,crossfade,400
-`I must have been far more exhausted than I knew, because the moment I relaxed, sleep came for me again.@
+`I must have been far more exhausted than I knew, because the moment I relaxed, drowsiness came over me.@
 playstop
 br
 !w2000
 wave se_01
-`When I listen, I can hear my heart with unnatural clarity.@
+`When I listen, I can hear my heartbeat clearly.@
 `Thud, thud, thud, thud.@
-`The noise reverberating through my body is so loud it drags me back from sleep into waking.
+`The noise reverberating through my body is so loud it drags me back out of my doze.
 \
 wave se_01
 `“Hot…”@
 `My throat is dry again.@
-`It is parched raw, and a haze spreads through my head.@
+`It is parched, and a haze spreads through my head.@
 br
 bg "bg/bg_40a",crossfade,400
 wave se_01
-`I force myself awake.@
+`I wake.@
 `My body is still sluggish.@ The fever has begun to return.@
 `Even so, surely I can manage the walk to the dining room for a drink of water.
 \
@@ -25,8 +25,7 @@ waveloop se_02
 bg #000000,lshutter,400
 bg "bg/bg_46a",lshutter,400
 `The corridor is deserted.@
-`Long ago.@
-`As quiet as the ruins in some film I saw long ago—so long ago I can no longer remember it, or perhaps simply have no need to.
+`Long ago[line=3]in a past I cannot remember, or perhaps have no need to[line=3]I saw a film with ruins this silent.
 \
 bg #000000,rshutter,800
 bg "bg/bg_36a",notrans,0
@@ -46,19 +45,19 @@ bg "bg/bg_44a",notrans,0
 `The annex shimmers in the fierce sunlight.@
 `It is as if this one place has become a desert—hot, white, blurring before my eyes.@
 br
-`A dull thud.@
-`From inside the annex.@
-`Someone…@
-`Is someone in there?
+`…@A dull thud.@
+`…@From inside the annex.@
+`…@Someone.@
+`…@Is someone in there?
 \
 bg #000000,bshutter,800
 bg "bg/bg_45b",crossfade,400
 `From the veranda, I ease the shoji open a crack and peer inside.@
 `Akiha and Kohaku are there.@
 `Something about them is wrong.@
-`Silk whispers as an obi comes undone.@
+`A soft rustle as a sash comes undone.@
 br
-`[line=5]What are they doing.@
+`[line=5]What are they…@
 br
 `Without a word, Kohaku parts her kimono and bares her breasts.
 \
@@ -74,7 +73,7 @@ br
 `Red drops fall from Kohaku’s chest, one after another.
 \
 `Akiha swallows.@
-`I already know[line=3]know perfectly well what she is drinking
+`I already know[line=3]know perfectly well what she is drinking.@
 br
 `Akiha is drinking Kohaku’s blood[line=4]
 \
@@ -86,12 +85,12 @@ wave se_01
 `Every vein, bone, muscle, and heartbeat in my body turns inside out.@
 `Even my heart falls silent.@
 `Clack, clack—like a machine changing its shape.@
-`Every cell in me begins a violent transformation.
+`Every cell in me is changing at tremendous speed.
 \
 monocro off
 bg "event/aki_h13",crossfade,400
 `[line=3]My body is still as a crystal-clear lake.@
-`Yet my mind remains a helpless scarecrow, and Shiki Tohno cannot move.@
+`Yet my mind remains a scarecrow, and Shiki Tohno cannot move.@
 `Akiha.@
 `I am left wondering whether Akiha is a blood-drinking demon too.
 \
@@ -109,7 +108,7 @@ bg "event/aki_h13",crossfade,400
 `So, Kohaku.@ I know perfectly well that deep down you hate SHIKI and me as well.”
 \
 `“Then why?@ Knowing that, why do you still drink my blood, Miss Akiha?”@
-`“Yes.@ Although you have every right to hate us, I love you.@ Whatever you do, I will forgive you.@
+`“Yes.@ I can’t blame you for resenting us, but I love you.@ Whatever you do, I will forgive you.@
 `Provided you never lay a hand on what I treasure.”@
 `Smiling, Akiha drags her tongue up Kohaku’s breast.
 \
@@ -143,7 +142,7 @@ br
 monocro off
 bg "event/aki_h13",crossfade,400
 `“Miss Akiha.@ Why does Master SHIKI crave so much blood?@ If he needs only enough to live, mine should be sufficient, as it is for you.”@
-`“Yes.@ If survival were all he wanted, your blood would be more than enough; a resonator’s blood is richer and more delicious than ordinary human blood.@
+`“Yes.@ If survival were all he wanted, your blood would be enough.@ You’re a resonator, so your blood is finer and more delicious than other people’s.@
 `But procreation and blood-drinking are different things.@
 `Quantity alone can never satisfy the thirst.@ Every human being tastes different.@ Once a creature grows accustomed to drinking blood, it keeps feeding in search of flavors unlike those it has already known.”
 \
@@ -228,9 +227,9 @@ br
 `Clickclickclickclick.
 \
 `Hair of blazing red.@
-`A scarlet cocoon spun from spider silk.@
+`A scarlet cocoon like spider silk.@
 `The lurid malevolence of poisonous-moth wings—a crimson mutation.@
-`So beautiful it becomes toxic.@
+`So beautiful it looks poisonous.@
 br
 `And so[line=3]an utterly alien emotion takes possession of me.
 \
@@ -248,7 +247,7 @@ br
 `“[line=3]Shut, up[line=4]”@
 `The maddening noise will not cease.@
 `Click-click.@
-`A bizarre sound, half insect cry, half writhing movement.@
+`A strange sound that could be a cry, or something writhing.@
 `It is coming from my spine.
 \
 br
@@ -262,8 +261,8 @@ br
 \
 `Insects.@
 `Black insects are swarming over my back.@
-`Kohaku once called me a blockhead—that must be why.@
-`The insects have mistaken my spine for a block of wood and gathered there in search of sap.
+`It’s because Kohaku called me a blockhead.@
+`The insects have mistaken my spine for a tree and gathered there in search of sap.
 \
 bg #ffffff,lshutter,400
 monocro #ff0000
@@ -281,7 +280,7 @@ br
 `Dozens dig in their claws, squealing as they swarm across my back.@
 `With every insect that enters[line=4]an indescribable impulse almost takes control.@
 `KILL HER.@
-`The command repeats inside my skull: kill Akiha Tohno and leave nothing behind.@
+`The command repeats inside my skull: kill Akiha Tohno, kill her completely.@
 br
 `Those insects could have only one name: murderous intent.
 \
@@ -297,12 +296,12 @@ playstop
 monocro off
 bg "bg/bg_40a",lcartain,800
 `“Haa, hah, ah, haaah[line=5]”@
-`I beat away the insects swarming at my neck and flee into my room.
+`I shake off the insects swarming at my neck and flee into my room.
 \
 `“[line=4]Ah[line=4]hah, ah[line=5]”@
 `I lean against the wall, fighting for each failing breath.@
 `I cannot control my own actions.@
-`How am I any different from the murderer called SHIKI?@
+`How am I any different from the killer called SHIKI?@
 `No.@
 `That does not truly matter.@
 `Why couldn’t I[line=3]understand her?
@@ -328,7 +327,7 @@ br
 `Makihisa showed no mercy to Kohaku, still only a child.@
 `His journal made that clear.@
 `To him, she was nothing but a tool.@
-`Like a child.@ He had simply taken his lust out on a little girl.
+`Like a child, he had simply taken his lust out on a little girl.
 \
 br
 `[line=3]The girl who could only watch us playing in the garden, day after day.@
@@ -350,7 +349,7 @@ br
 `Afterward.@
 `When her sister could no longer work, she assumed Hisui’s role—and smiled inside that performance.@
 br
-`[line=4]What a hideous farce.@
+`[line=4]A wretched clown.@
 br
 `Could she smile only inside a performance she knew perfectly well was false?
 \
@@ -400,9 +399,9 @@ play "*1"
 `“Miss Akiha, shouldn’t we call a doctor?”@
 `“It would be pointless.@ Brother is not ill.@ He cannot recover until the cause itself is removed.”
 \
-`akiha and hisui are talking.@
+`……@akiha and hisui are talking.@
 `this is shiki’s room.@
-`apparently he is asleep on the bed.
+`it seems i am asleep on the bed.
 \
 `I try to call out, akiha, and sit up, but my body refuses to obey.@
 `My body weighs as much as lead.@ Only my eyes and mouth move properly.@
@@ -412,16 +411,16 @@ play "*1"
 ld l,"tachi/aki_t03b",lshutter,400
 `“You failed him, Hisui.@ I told you to take care of Brother all day, did I not?@ If this is the result, I cannot entrust him to you.”@
 ld r,"tachi/his_t21b",lshutter,400
-`“I am sorry…”@
+`“I’m…@ sorry.”@
 ld l,"tachi/aki_t11b",crossfade,400
-`“If you wish to apologize, apologize to Brother.@ Hearing it from you only irritates me.”
+`“If you wish to apologize, apologize to Brother.@ An apology to me only irritates me.”
 \
 cl l,lshutter,400
-`I don’t understand what brought them to this.@
-`But I can at least tell that Hisui is being blamed because of me.
+`…@I don’t understand what brought the two of them to this.@
+`But I can at least tell Hisui is being scolded because of me.
 \
 ld r,"tachi/his_t05",crossfade,400
-`“…@Miss Akiha, when Master Shiki collapses, I cannot catch him in time.@ Would you please allow my sister and me to exchange duties?”@
+`“…@Miss Akiha, when Master Shiki collapses, I cannot immediately come to his aid.@ Would you please allow my sister and me to exchange duties?”@
 ld l,"tachi/aki_t03b",lshutter,400
 `“No.@ Kohaku will not be allowed near Brother for some time, so remember that, Hisui.@ If you must call her, go with her.@ Never leave Brother and Kohaku alone together.”
 \
@@ -439,7 +438,7 @@ cl a,lshutter,400
 ld c,"tachi/his_t04",lshutter,400
 `“…@Master Shiki, are you awake?”@
 `That surprises me.@
-`Akiha apparently failed to notice, but Hisui knew I was conscious.@
+`Akiha apparently failed to notice, but Hisui seems to have realized I was awake.@
 `“Yeah.@ I woke up a little while ago.@ Sorry—Akiha was angry with you because of me, wasn’t she?”
 \
 ld c,"tachi/his_t05",crossfade,400
@@ -465,7 +464,7 @@ br
 `[line=3]Hisui bows and departs.@
 `The instant I am alone, sleep rushes over me.@
 `“Ngh[line=4]”@
-`Something is seriously wrong with my body.@
+`There really does seem to be something wrong with my body.@
 `I fight to remain conscious, but I have no control over it at all.@
 `Glaring at the pattern on the ceiling, I fall helplessly, absurdly easily, into sleep[line=4]
 \
@@ -487,7 +486,7 @@ bg "event/his_e02b",crossfade,800
 `[line=3]Then why does it fill me with such helpless regret?@
 br
 `I knew nothing about that little girl.@
-`I saw only the woman she is now.@
+`I saw only the person she is now.@
 `To me, those two lives had never been connected.@
 `And yet.@
 `Why does a past I never once looked at feel as though it will tear my heart apart?
@@ -496,13 +495,13 @@ bg "bg/ima_02",crossfade,800
 `[line=3]Tell me.@ What kind of person has the most wretched life of all?@
 br
 `On a moonlit night.@
-`The murderer I happened to meet in the city asked me that question.@
+`The killer I happened to meet in the city asked me that question.@
 `It was one stray moment in a rambling, meaningless conversation.@
 br
 `What answer did I give him?
 \
 br
-`Misery is easy to recognize, while happiness is too difficult to understand.@
+`Sorrow catches the eye easily, but happiness is too hard to understand.@
 br
 `If you measure wretchedness by circumstances, there is always someone lower.@
 `If the worst fate means suffering unbearable grief and being forced into an intolerably painful life, then the answer would simply be never to have been born.@
@@ -511,14 +510,14 @@ br
 `The inability ever to be born seemed saddest of all.
 \
 bg #000000,tshutter,400
-`When I said that, the man who called himself a murderer laughed.@
-`He laughed until he threw back his head, then grandly pronounced me a good person.@ After that!w1000
+`When I said that, the man who called himself a killer laughed.@
+`He laughed until he threw back his head, then grandly pronounced me a good person.@ Then—!w1000
 br
 `[line=3]The truly wretched one?@
 `Isn’t it someone so wretched they don’t even realize it—someone who believes they’re happy?
 \
 `I remember nodding.@
-`Yes, that would be beyond saving.@
+`Yes, that would be hopeless.@
 `Such a person cannot even recognize her own sorrow.@
 `Even pity—the one thing she is entitled to—means nothing to her.@
 `Believing in the illusion of her own happiness, she lives a life that seems absurd to anyone watching.@
@@ -554,9 +553,9 @@ ld c,"tachi/his_t01",lshutter,800
 ld c,"tachi/his_t17",crossfade,400
 `“…@Master Shiki, may I ask you something?”@
 `“Hm?@ What?”@
-`“While Master Shiki lived with the Arima family, did he ever collapse as he did this time?”@
+`“While you lived with the Arima family, did you ever collapse as you did this time?”@
 `Hisui’s voice is faint.@
-`She seems afraid that returning to this mansion is what ruined my health.
+`She seems worried that my health has declined since I returned to this mansion.
 \
 `“You don’t have to blame yourself, Hisui.@ This happened a few times at the Arimas’ too.@ After I started middle school, it fell to about once a year, and it hasn’t happened at all since I entered high school.@
 `I knew I was probably due for another spell, so I was more or less prepared.”@
@@ -566,23 +565,23 @@ ld c,"tachi/his_t17",crossfade,400
 ld c,"tachi/his_t05",crossfade,400
 `“Master Shiki, I believe you are seriously ill.@
 `I knew you suffered from anemia, but no one told me you collapsed like this.@
-`Has Master Shiki never wondered whether there is something truly wrong with his body?”@
+`Have you never wondered whether there is something wrong with your body?”@
 `“Ha ha.@ My doctor often says my body makes no sense.@ Come to think of it, recovering so quickly after collapsing might mean I have extraordinary stamina.”@
 ld c,"tachi/his_t08",crossfade,400
 `“…”@
 `Ah.@ I laughed it off, and now Hisui is angry.
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki.@ A person with extraordinary stamina does not develop repeated fevers through the night.@ Does Master Shiki remember how many times his fever returned?”@
+`“Master Shiki.@ A person with extraordinary stamina does not develop repeated fevers through the night.@ Do you remember how many times your fever returned last night?”@
 `“What[line=3]happened to me?”@
-`“This happened last night.@ Soon after Master Shiki fell asleep, his temperature rose.@ He perspired so heavily that we had to wipe him down repeatedly and check on him every hour.”@
+`“This happened last night.@ Soon after you fell asleep, your temperature rose.@ You perspired so heavily that I had to wipe you down repeatedly and check on you every hour.”@
 br
 `[line=4]Even by my standards, that is impressive.@
 `Though after causing Hisui so much trouble, I’m beginning to feel ashamed enough to try taking better care of myself.
 \
 `“Wait, these aren’t the pajamas I wore yesterday.@ You couldn’t have changed me.@ Was it Kohaku?”@
 `“No, that was Miss Akiha.@ Last night, Miss Akiha and I took turns watching over you, Master Shiki.@
-`Toward morning, once Master Shiki’s condition had settled, Miss Akiha returned to her room.”@
+`Toward morning, once your condition had settled, Miss Akiha returned to her room.”@
 `“[line=5]Akiha did?”@
 `As I say her name, yesterday’s scene rises in my mind.
 \
@@ -595,7 +594,7 @@ br
 `“No[line=3]it’s nothing.@ So Akiha looked after me.”@
 ld c,"tachi/his_t03",crossfade,400
 `“Yes.@ She came to your room every hour to help nurse you, Master Shiki.@
-`I am unaccustomed to touching you, Master Shiki, so I was grateful Miss Akiha came.”@
+`I have difficulty touching you, so I was grateful Miss Akiha came.”@
 `“[line=7]”@
 `What an idiot I am.@
 `Akiha was that worried about me, and how could I have thought those things about her?
@@ -621,10 +620,10 @@ bg "bg/bg_40a",bshutter,800
 play "*3"
 `Noon passes, and the sun begins its descent.@
 `My condition remains unchanged—neither improving nor worsening.@
-`Trapped in a body too weak to use yet not weak enough to ignore, I stare out at the sky.@
+`Restless in a body that won’t quite do what I want, I stare out at the sky.@
 `“[line=7]”@
 `No matter how hard I try to empty my mind, only one person comes to mind.@
-`I should be worrying about the murderer SHIKI, yet I can think of nothing but Kohaku[line=3]
+`I need to do something about the killer SHIKI, yet I can think of nothing but Kohaku[line=3]
 \
 wave se_04
 `A hard knock strikes the door.@
@@ -678,7 +677,7 @@ cl c,lshutter,400
 ld c,"tachi/aki_t13b",lshutter,400
 `“…”@
 `Akiha frowns, then reluctantly sets both apple and knife on the floor.@
-`The plate and fork on her tray confirm that she really did mean to try it herself.
+`The plate and fork on her tray suggest that she really did mean to try something she wasn’t used to.
 \
 `“Pfft…”@
 `Whatever the result, her thoughtfulness makes me happy.@
@@ -691,7 +690,7 @@ cl c,lshutter,400
 `Now I remember.@
 `It was when I still lived here as an adopted child.@
 `I was secretly playing with Akiha behind Father’s back when a fever struck me without warning.@
-`They put me to bed in the annex, but Akiha slipped out of the mansion to nurse me.
+`I stayed in bed in the tatami room of the annex, but Akiha slipped out of the mansion to nurse me.
 \
 `“That takes me back.@ At first you only held my hand, but then you started pretending to be a nurse.@
 `By the end, you’d stolen a syringe from the mansion and were about to give me an injection with nothing in it.”@
@@ -708,14 +707,14 @@ ld c,"tachi/aki_t04b",crossfade,400
 \
 `“Speaking of doctors, when did Kohaku qualify as a pharmacist?@ She can’t be much older than us.@ Isn’t there some sort of age requirement?”@
 `“Father pulled a few strings.@
-`Kohaku’s and Hisui’s exact birth dates are unknown, so he altered Kohaku’s family register.@ He made her older on paper.”
+`Kohaku’s and Hisui’s exact birth dates are unknown, so I’m told he altered Kohaku’s family register to make her older on paper.”
 \
 `“[line=5]Ugh.”@
 `Rich people.@ Even their solutions are illegal.@
 `“But I believe Hisui is the same age as you.@ Since she and Kohaku are twins, Kohaku must naturally be your age as well.”@
 `“[line=5]You’re joking.”@
 `Kohaku and I are the same age?@
-`I had considered that she might be close, but for some reason she always seemed older.@
+`I had considered the possibility, but for some reason she always seemed older.@
 `She never seemed like an ‘older woman,’ exactly, but I still cannot believe she is my age.@
 playstop
 `Because if that is true, Kohaku was only eight or nine when Makihisa Tohno began[line=3]
@@ -737,7 +736,7 @@ ld c,"tachi/aki_t11b",crossfade,400
 `“[line=10]”@
 bg #9c0120,crossfade,400
 bg "bg/bg_40a",crossfade,400
-`Compared with her, I could endure any pain.@
+`Compared with hers, I can bear as much of this pain as I have to.@
 `I still want to see Kohaku.@
 `I do not know what I could say to her, but I have to see her and do something.@
 `I have not even fulfilled the promise we made eight years ago.@
@@ -769,7 +768,7 @@ cl c,lshutter,400
 \
 ld c,"tachi/aki_t01b",lshutter,400
 `“You’re generally quite healthy, aren’t you?@ Don’t you find it strange that you should suddenly collapse from anemia like this?”@
-`“Yeah…@ Every doctor I’ve seen has told me the same thing.@ So what?”@
+`“Yeah…@ The doctors have told me that often enough.@ So what?”@
 ld c,"tachi/aki_t04b",crossfade,400
 `“Naturally.@ Medicine cannot explain the cause of your anemia.@
 `Tell me, Brother.@ Wouldn’t you like to know why?”@
@@ -780,7 +779,7 @@ ld c,"tachi/aki_t04b",crossfade,400
 `This unstable body of mine.@
 `Akiha knows what caused it…?
 \
-`“You’re not joking—are you?”@
+`“You don’t seem to be joking.”@
 `“No.@ If you wish to know, I’ll tell you.@ This began with a crime committed by one of my own blood.@ You have every right to know.”@
 `There is something[line=3]dangerous in Akiha’s words.@
 `But after hearing all that, I cannot shake my head.
@@ -813,7 +812,7 @@ ld c,"tachi/aki_t04b",crossfade,400
 \
 ld c,"tachi/aki_t01b",crossfade,400
 `“Brother.@ If you must hate someone, hate SHIKI—and whoever let him out.@
-`Even if SHIKI remained alive, you would never have come to this if he had stayed quietly imprisoned.”@
+`Even if SHIKI remained alive, you would never have come to this if he had stayed quiet.”@
 `Akiha bites hard into her lip.@
 `Perhaps it is rage at SHIKI for stealing my life—whatever it is, she bites until blood wells there.
 \
@@ -834,11 +833,11 @@ br
 `Akiha clinging to me, desperately fighting back her tears.@
 `She had said it clearly then.@
 `Would she have to kill her own brother with her own hands?@
-`Had Akiha been crying because she could not confide in me[line=3]
+`Had Akiha been crying, unable even to confide in me[line=3]
 \
 `“You don’t have to.@ None of this is yours to answer for, Akiha.”@
 ld c,"tachi/aki_t23b",crossfade,400
-`“No—I am the head of the Tohno family.@ Any crime committed by a Tohno is mine to[line=3]”@
+`“No—I am the head of the Tohno family.@ If a Tohno commits a crime, I must[line=3]”@
 `“Idiot.@ Don’t look so miserable, Akiha—it’s all right.@ This has happened before.@ Whatever SHIKI may be doing, something this minor will clear up by tomorrow.@
 `So stop worrying.”
 \
@@ -918,7 +917,7 @@ cl c,lshutter,400
 `“Um, Kohaku.”@
 ld c,"tachi/koha_t03b",crossfade,400
 `“Um, first things first: dinner.”@
-`With a little “Here you are,”@ she offers me the tray
+`With a little “Here you are,”@ she offers me the tray.@
 `Kohaku wears a perfectly contented smile.@
 `How could I ever take that away from her?
 \
@@ -944,8 +943,8 @@ br
 `With the person I have wanted to see since yesterday at my side, I should have nothing to be sad about.
 \
 br
-`[line=3]Sorrow is easy to see,
-`but happiness is too difficult to understand.@
+`[line=3]Sorrow catches the eye easily,
+`but happiness is too hard to understand.@
 br
 `For example,
 `a girl confined to the mansion from early childhood.@
@@ -977,19 +976,19 @@ ld c,"tachi/koha_t02b",crossfade,400
 `I have plenty of practice with this sort of thing.”@
 `Kohaku wipes my arm with alcohol-soaked cotton.@
 `I feel as though I might lose my mind.@
-`Kohaku speaks Master Makihisa’s name as though it means nothing at all.@
+`Kohaku speaks Makihisa Tohno’s name as though it means nothing at all.@
 `Why must she perform so perfectly[line=3]?
 \
 `“Oh, come to think of it, you were always getting hurt as a child too, Shiki.@ You ignored Master Makihisa’s scolding and ran all over the garden.”@
-`She speaks with nostalgia.@
+`She sounds nostalgic.@
 `“[line=8]!”@
 `I cannot look directly at that smile.@
 `For one instant, it is not her usual smile.@
 `Not the bright smile she always wears, but a distant one, as though she were speaking of a dream.@
 `Even so, to protect the person she is now, I have to let myself be deceived.
 \
-`“Yes—that’s right.@
-`But Kohaku, you[line=4]looked happy too.”@
+`“Yes…@ that’s…@ right.@
+`But, Kohaku…@ you looked happy too.”@
 ld c,"tachi/koha_t15",crossfade,400
 `“Yes, Shiki, I ran all over the garden with you.@
 `Yes.@ It truly was fun, playing there until the sun went down.@
@@ -1021,7 +1020,7 @@ play "*7"
 `“Shiki…?@ Does it hurt, Shiki?”@
 `“No.@ It’s nothing.”@
 `Still holding her, I put what little strength I have into my fingertips.@
-`Even if I cannot embrace her tightly, I want to hold on to her like this, if only for a little while.
+`Even if I cannot embrace her tightly, I want to hold on to her like this as best I can.
 \
 `“Honestly.@ That won’t do, Shiki.@ You’re a boy, so even when it hurts, you have to bear it.”@
 `As she speaks, her hand passes through my hair.@
@@ -1045,7 +1044,7 @@ br
 br
 `“[line=9]”@
 `The hand stroking my hair stops.@
-`Kohaku goes utterly still, as if even her breathing has stopped.
+`Kohaku freezes.@ Even her breathing stops.
 \
 br
 br
@@ -1061,7 +1060,7 @@ playstop
 `“Ngh…!”@
 `Kohaku pulls away from me.@
 ld c,"tachi/koha_t03b",crossfade,400
-`“Oh dear.@ I’ve spilled the IV solution.”@
+`“Oh dear.@ The IV solution has spilled.”@
 `Her usual smile.
 \
 ld c,"tachi/koha_t02b",crossfade,400
@@ -1070,7 +1069,7 @@ ld c,"tachi/koha_t02b",crossfade,400
 cl c,lshutter,400
 `As though nothing has happened, Kohaku wheels the cart away.
 \
-`She leaves the room without so much as touching the door.@
+`She leaves the room without opening the door.@
 `“Ngh[line=4]”@
 `What am I doing?@
 `I broke my promise to Hisui and did something like that.@
@@ -1084,8 +1083,8 @@ br
 `Kohaku left the room without opening the door…?@
 br
 `“That doesn’t make sense.@ I’m sure Kohaku shut it.”@
-`Yet now it stood open.@
-`Which meant that while Kohaku and I were embracing, someone else had opened the door.
+`Yet now it stands open.@
+`Does that mean someone else had opened the door while Kohaku and I were embracing?
 \
 br
 `[line=3]I’ll come back after dinner, Brother.@
@@ -1113,7 +1112,7 @@ br
 \
 `The problems are piling up.@
 `Even so, I will not confuse what I can do with what I must do.@
-`The murderer terrorizing the city.@
+`The killer terrorizing the city.@
 `I must stop SHIKI, who is probably roaming again tonight.@
 `“It’s about the only thing I can do as her big brother.”@
 `I cannot make Akiha fight SHIKI, her brother by blood.@
@@ -1125,7 +1124,7 @@ bg "bg/bg_25b",lcartain,800
 `I wander the city blindly but find no sign of SHIKI.@
 `“Damn.@ Was I too optimistic?”@
 `Some part of me assumed that merely stepping into the city at night would bring us face-to-face.@
-`Though I have never actually met him, I felt certain that SHIKI and I would be drawn together like opposite poles of a magnet, whether either of us wished it or not[line=4]
+`Though I have never actually met him, I had a feeling that SHIKI and I would be drawn together like opposite poles of a magnet, whether either of us wished it or not[line=4]
 \
 `“Better to lie in wait somewhere than keep roaming without a plan.”@
 `An alley, perhaps.@
@@ -1139,7 +1138,7 @@ bg #000000,lshutter,400
 bg "bg/bg_31b",lshutter,400
 `[line=5]All right.@
 br
-`I hide in the shadows and hold my breath.@
+`I hide out of sight and hold my breath.@
 `The knife is already clenched in my hand, ready for an attack at any moment.
 \
 wave se_01
@@ -1181,19 +1180,19 @@ wave se_01
 `Thump!w1000
 wave se_01
 `Thump
-`Thum!w750
+`Thud!w750
 wave se_01
-`Thum!w750
+`Thud!w750
 wave se_01
-`Thum!w500
+`Thud!w500
 wave se_01
-`Thum!w500
+`Thud!w500
 wave se_01
-`Thum!w250
+`Thud!w250
 wave se_01
-`Thum!w250
+`Thud!w250
 wave se_01
-`Thum!w250
+`Thud!w250
 wave se_01
 br
 `[line=4]Before.@
@@ -1221,19 +1220,20 @@ br
 bg "bg/ima_14",lshutter,400
 `I charge straight at the enemy.@
 `The enemy turns toward the sudden attacker.@
-`They try to leap backward, but I am many times faster.@
+`They try to flee backward, but I am many times faster.@
 br
 `Without a moment’s hesitation, I swing the knife at the enemy’s throat[line=4]
 \
 playstop
 bg "bg/bg_31b",notrans,0
 ld c,"tachi/aki_t15b",lshutter,400
-`We both cry “!?”@
+`“!?”@
+`“!?”@
 br
-`[line=4]At the last possible instant, I twisted the blade’s path aside by a hair.@
+`[line=4]At the last possible instant, I twist the blade’s path aside by a hair.@
 cl c,lshutter,400
 `The knife slices through Akiha’s hair with a sharp hiss.@
-`We both release a great breath, then point at each other at exactly the same time.
+`We both let out a long breath, then point at each other at exactly the same time.
 \
 `“Brother, why are you here!?”@
 `“Akiha, why are you here!?”@
@@ -1248,7 +1248,7 @@ ld c,"tachi/aki_t03b",lshutter,400
 `“Akiha.@ What are you doing out at this hour?”@
 `“Isn’t it obvious?@ As head of the Tohno family, I’m searching for SHIKI.”@
 `“……”@
-`Without a trace of guilt, Akiha answers flatly.
+`Without a trace of embarrassment, Akiha answers firmly.
 \
 `“[line=3]Akiha.@ I told you I would deal with SHIKI.@ I don’t care what the family rules say—you don’t need to put yourself in danger like this.@ I thought you understood that.”@
 ld c,"tachi/aki_t05b",crossfade,400
@@ -1300,7 +1300,7 @@ ld c,"tachi/aki_t21b",lshutter,800
 cl c,lshutter,400
 `Still in a foul mood, Akiha turns her back on me.@
 br
-`[line=3]Her black hair streams past.@
+`[line=3]Her black hair flows.@
 bg #9c0120,crossfade,400
 bg "bg/bg_46c",crossfade,400
 `For no reason I can name.@
@@ -1311,10 +1311,10 @@ ld c,"tachi/aki_t01b",lshutter,400
 `“Yes?@ What is it, Brother?”@
 `“I can trust you, can’t I?”@
 `…?@
-`Not even knowing what I am asking her to trust, I say it anyway.@
+`I say it without even knowing what, exactly, I want to believe.@
 `Akiha stares at me in astonishment and
 ld c,"tachi/aki_t08b",crossfade,400
-`“There is nothing for you to worry about, Brother, so please get some rest.”@
+`“Yes.@ There is nothing for you to worry about, Brother, so please get some rest.”@
 `She says it with an open, cloudless smile.
 \
 cl c,lshutter,400
@@ -1343,7 +1343,7 @@ br
 br
 `My instincts ache for home.@ As a child—a very small child—I raced through these woods.@
 `Whenever we went outside, it was always midnight.@
-`My parents and their brothers and sisters disliked the eyes of people, and almost never went out by day.
+`My parents and their brothers and sisters were uncomfortable being seen, and almost never went out by day.
 \
 `So naturally, it was night that day too.@
 `I went into the garden alone and encountered a stranger in the black forest.@
@@ -1359,7 +1359,7 @@ br
 `Why, on a night this bitterly cold, could I hear the reed warbler?
 \
 `A field paved with mock strawberries.@
-`Within it, one eye redder than all the rest.@
+`Within it, a gaze redder than anything else.@
 `A stranger stands in the field.@
 `It has one eye.@
 `The eye glows red.@
@@ -1370,7 +1370,7 @@ br
 `A red more scarlet than red.@
 `Among the Nanaya, it is passed down by word of mouth as Crimson Vermilion.@
 `Kurenai Sekishu.@
-`Put simply, the name denotes an extremely ancient mixed-blood overcome by atavism.@
+`Put simply, the name denotes a mixed-blood who has reverted to a very ancient ancestral form.@
 `One whose reason as a private self is swallowed by the reason of the greater self, leaving them no longer sane.
 \
 `The murderous red eye is said to be the mark of one possessed.@
@@ -1390,7 +1390,7 @@ br
 bg #000000,tcartain,800
 `As I leave the field behind, I think about the red figure from before.@
 `Poor thing.@
-`The mirage flickering at its back must have possessed it, worn it down over time, and finally left it like that.@
+`The mirage flickering at its back must have possessed it.@ Perhaps the stranger had grown exhausted at some point and become like that.@
 `It looked strong, yet terribly fragile.@
 `Concluding that it would not live long, I continue deeper into the forest.
 \
@@ -1426,22 +1426,22 @@ bg "bg/bg_40a",crossfade,400
 `“Ah—ah, hot”@
 `My whole body is burning.@
 `“Damn—it’s worse than yesterday.”@
-`Yesterday my entire body was merely heavy.@ Today even moving one arm is agony.
+`Yesterday my entire body was merely heavy.@ Today even moving one arm is a struggle.
 \
-`“[line=4]Kh[line=4]”@
-`I try to lift one arm straight into the air.@
+`“[line=4]Ngh[line=4]”@
+`I try raising one arm straight into the air.@
 `…@
 `……@
 `………@
-`“[line=4]Hah—ah”@
+`“[line=4]Hah…@ ah.”@
 `At last, it rises.@
-`That alone takes every ounce of strength in my body and nearly a full minute.
+`That alone takes nearly a full minute and every bit of strength in my body.
 \
-`“What is happening to me?”@
+`“What’s happening to me?”@
 `I might as well be a corpse.@
-`Or a robot whose power has run out.@
-`Whatever the comparison, my body refuses to move.@
-`And yet my mind is perfectly clear, and I feel no pain at all.
+`Or a robot that has run out of power.@
+`Whatever the case, my body won’t move.@
+`Yet my mind is clear, and I feel no pain at all.
 \
 `“Kohaku[line=5]”@
 `I begin to call for her, then stop myself.@
@@ -1457,7 +1457,7 @@ bg "bg/bg_40a",crossfade,400
 `I can speak, but trying to shout makes me dizzy.@
 `Even raising my voice requires muscle; the strain feels as though blood is pooling inside my brain.@
 `“Hah[line=5]”@
-`I breathe out lightly.@
+`I let out a small breath.@
 `At this point, I can only wait like this for Hisui to come wake me.
 \
 bg #000000,tshutter,800
@@ -1522,16 +1522,16 @@ wave se_01
 `“Anything I feel like—in this condition, I want something easy to digest.”@
 ld c,"tachi/koha_t15",crossfade,400
 `“That’s the wonderful part, Shiki—you needn’t worry about such details.@
-`The doctor has given you permission to eat whatever you like.@ So tonight, Shiki, I can make you your favorite meal.”
+`The doctor has given you permission to eat whatever you like.@ So tonight, I can make you your favorite meal.”
 \
 cl c,crossfade,400
-`I liked most foods, but right now I cared less about flavor than nourishment.@
+`I like most foods, but right now I care less about flavor than nourishment.@
 br
 `“[line=3]Then make it something nourishing.@
-`I need to recover as much strength as I can, because tonight I have to stop SHIKI once and for all[line=3]”@
+`I need to recover as much strength as I can, because tonight I have to stop SHIKI[line=3]”@
 ld c,"tachi/koha_t03b",crossfade,400
 `“Stop Shiki?@ You mean yourself?”@
-`Kohaku tilts her head, puzzled.@
+`Kohaku tilts her head as though puzzled.@
 `“Ah[line=5]”@
 `Damn—what I was thinking slipped straight out of my mouth.
 \
@@ -1540,16 +1540,16 @@ ld c,"tachi/koha_t03b",crossfade,400
 \
 `“[line=3]I see.@ So you know too?”@
 `“Um.@ Know what?”@
-`“That I was adopted, and that Akiha has a murderous brother named SHIKI.”@
+`“That I was adopted, and that Akiha has a brother named SHIKI who is a murderer.”@
 ld c,"tachi/koha_t08",crossfade,400
-`Her smile froze.@
+`Her smile freezes.@
 ld c,"tachi/koha_t03b",crossfade,400
 `“I see.@ So you have found out, Shiki.”@
 `But only for an instant.@
 `Kohaku, performing the role of the Hisui I knew as a child, will not break over something so small.
 \
 `“But Master SHIKI has already passed away.@
-`You are the only eldest son of the Tohno family now, Shiki, so I think it would be best to forget the matter.”@
+`The place of eldest son in the Tohno family is yours alone now, Shiki, so I think it would be best to forget the matter.”@
 `Kohaku is smiling.@
 `The same smile as when she asked what I wanted for dinner.
 \
@@ -1618,7 +1618,7 @@ br
 `“Wait.@ It’s all right.@ You don’t have to tell me now.”@
 ld c,"tachi/koha_t08",crossfade,400
 `“[line=4]Shiki.@ The person once called SHIKI Tohno is already dead.@
-`Master SHIKI did become a blood-drinking fiend, and he was the murderer who terrorized the city.@
+`Master SHIKI did become a blood-drinking fiend, and he was the killer who terrorized the city.@
 `But that too has ended.@
 `Five days ago.@ None other than Miss Akiha passed judgment on Master SHIKI.”
 \
@@ -1626,7 +1626,7 @@ waveloop se_02
 br
 `[line=3]That dream.@
 br
-`The dream of the murderer being killed by Akiha.@
+`The dream of the killer being killed by Akiha.@
 `That was not something I had seen,
 `but the last sight SHIKI witnessed.
 \
@@ -1678,7 +1678,7 @@ ld c,"tachi/aki_t01b",crossfade,400
 `I take one deep breath and steady myself.@
 `Suppressing the pounding in my chest, I keep glaring at Akiha and open my mouth.@
 br
-`“[line=4]Akiha.@ What is going on?”@
+`“[line=4]Akiha.@ What…@ is going on?”@
 br
 ld c,"tachi/aki_t11b",crossfade,400
 `Akiha’s face stiffens.@
@@ -1729,12 +1729,12 @@ br
 `This body, even now preparing to KILL Akiha.
 \
 `“[line=3]You killed SHIKI five days ago.”@
-`Akiha nods.@
+`Akiha says yes and nods.@
 `Five days ago[line=3]the night Akiha collapsed.@
 `Crying as she clung to me, Akiha had desperately rejected something and wept.
 \
 `“Then the vampire incidents afterward were not SHIKI’s work.@ Were they yours?”@
-`Akiha nods.@
+`Akiha says yes and nods.@
 `The detached house in the forest.@
 `Akiha drinking Kohaku’s blood there.@
 `Already[line=2]SHIKI was gone, and Akiha was repeating acts like those of a vampire.@
@@ -1761,9 +1761,9 @@ br
 `Kohaku’s blood is necessary to maintain my body, but I have tasted it for years; I was tired of it.”
 \
 `“[line=3]Yes, you probably won’t understand even if I tell you, Brother, but the first time I drank blood other than Kohaku’s was extraordinary.@ It was so delicious I thought I might go mad then and there.”@
-`Akiha smiles with genuine happiness.@
+`Akiha seems truly delighted as she smiles.@
 `The wavering mirage.@
-`I first sensed danger in Akiha after the dream in which I—no, was that SHIKI?@ After the dream in which SHIKI was killed by Akiha.
+`I first sensed something dangerous about Akiha the day after that dream—the one in which I…@ no, that was SHIKI, wasn’t it?@ The one in which SHIKI was killed by Akiha.
 \
 `“[line=4]Akiha, you[line=4]”@
 `“Don’t look at me that way.@ I take only blood.@ I do not take lives as SHIKI did, so there is no reason to make such a fuss, Brother.”@
@@ -1774,10 +1774,10 @@ br
 `“[line=7]”@
 `I cannot breathe properly.@
 `Akiha is enjoying this.@
-`No matter how fiercely I confront her, to her it is nothing more than a way to relieve her boredom.@
+`Even my confronting her directly seems to be no more than a way to relieve her boredom.@
 br
 `[line=3]This is monstrous.@
-`She looks like a murderer who truly delights in her own madness[line=3]
+`She looks like a killer who truly delights in her own madness[line=3]
 \
 `“Don’t screw with me…!@ Why[line=3]why?@ What happened, Akiha?@ There’s something wrong with you…!!”@
 `I somehow tear myself free of Akiha’s gaze and close the distance by one step.@
@@ -1825,10 +1825,10 @@ br
 `Of course.@
 `With SHIKI gone, my life should have been mine alone and the anemia should have ended.
 \
-`“Heh.@ But here is the strange part, Brother.@ If anyone other than me had dealt with SHIKI, you could have returned to normal.”@
-`“I told you, didn’t I?@ I took everything from SHIKI.@ I have no ability to resonate with another person as Kohaku does.@ Nor can I give someone else what I have taken.”@
+`“Heh.@ But here is the strange part, Brother.@ If anyone other than me had dealt with SHIKI, you could have returned to normal.@
+`I told you, didn’t I?@ I took everything from SHIKI.@ I have no ability to resonate with another person as Kohaku does.@ Nor can I give someone else what I have taken.”@
 br
-`Akiha smiles with genuine amusement, though there is something self-deprecating in it.
+`Akiha smiles as though deeply amused, almost belittling herself.
 \
 `“Since killing SHIKI, I have been freed from the weight in my body.@ The attacks that came every night have stopped, and I feel wonderful.@
 `Surely I needn’t tell you why?@ In the end, through SHIKI, I took your life from you too.@
@@ -1838,7 +1838,7 @@ br
 `Now even that is gone.@ That is why your body will not move.@ I have to give you more strength than ever before.@
 `To do that, I needed to take in human blood and accumulate strength.”@
 br
-`She says it.@ Akiha steps away from the window stained red by sunset.
+`With that, Akiha steps away from the window stained red by sunset.
 \
 bg #000000,crossfade,400
 bg "bg/bg_36c",crossfade,400
@@ -1852,14 +1852,14 @@ ld c,"tachi/aki_t11b",lshutter,400
 \
 `But my body seems to think otherwise.@
 `Looking at Akiha now, I feel a spring winding tighter and tighter inside me, gathering every ounce of strength.@
-`Ready to uncoil at any moment.@ Ready to deal with what stands before me, so utterly unlike the person Akiha Tohno.
+`Ready to uncoil at any moment.@ Ready to deal with that thing called Akiha Tohno, so utterly removed from anything human.
 \
-`“No.@ Tohno and Nanaya have nothing to do with it.@ I only don’t want you[line=3]Akiha, I don’t want you drinking blood.@ I cannot let you do what SHIKI did.”@
+`“No.@ Tohno and Nanaya have nothing to do with it.@ I just don’t want you[line=3]Akiha, I don’t want you drinking blood.@ I cannot let you do what SHIKI did.”@
 `“Brother.@ I drink blood for you.@ Why can’t you understand that?@
 `That night too[line=3]I told you exactly how I felt, yet you said nothing.@
-`I told you I loved you—why do you keep looking at women other than me…!?”
+`I told you I loved you—why would you look at anyone but me…!?”
 \
-`“L[line=3]love, you meant as brother and sister…!@ Even if we share no blood, we are brother and sister!?@ What stupid thing are you saying………!”@
+`“You[line=3]when you said you loved me, you meant as brother and sister…!@ Blood or no blood, we’re still brother and sister!@ What kind of stupid nonsense is that………!”@
 `“It isn’t stupid…………!!@ Just because we are siblings[line=3]because I am your sister, am I forbidden to love you!?”@
 cl c,lshutter,400
 `Akiha’s voice rings through the room.
@@ -1869,7 +1869,7 @@ cl c,lshutter,400
 `“[line=7]Akiha.”@
 ld c,"tachi/aki_t23b",crossfade,400
 `“Brother.@ I don’t care if I cease to be human.@ If that lets you live, I don’t care what becomes of me.@
-`So[line=3]Brother, please look only at me.@ Akiha has waited for you all this time.@ Now that you have finally come home—don’t betray me.”
+`So[line=3]please look only at me.@ I’ve waited for you all this time.@ Now that you have finally come home—don’t betray me.”
 \
 cl c,crossfade,400
 `[line=3]Her fingers trembling, Akiha says it.@
@@ -1894,7 +1894,7 @@ cl c,lshutter,800
 `The hard click of footsteps.@
 `Akiha walks to the window.@
 `A sudden rush.@
-`The wind sends her long hair streaming behind her.
+`The wind sends her long hair streaming.
 \
 `“I see.@ But Brother…@you have no freedom to choose.”@
 br
@@ -1902,7 +1902,7 @@ br
 `In the next instant,
 quakey 1,500
 playstop
-`My body buckled, and I crashed abruptly to my knees.
+`My body buckles, and I crash abruptly to my knees.
 \
 waveloop se_02
 bg #9c0120,crossfade,400
@@ -1916,12 +1916,12 @@ bg "bg/bg_36c",crossfade,400
 `I can hear Akiha’s[line=3]stifled laughter.@
 `“A—Akiha[line=4]?”@
 `Somehow, I raise my eyes.@
-`There, framed by a peril that seems ready to collapse, are Akiha’s eyes, gleaming as though with pleasure.
+`Akiha’s eyes seem full of pleasure.@ She looks dangerously close to falling apart.
 \
 bg "event/aki_e07b",crossfade,800
 play "*4"
 `“I told you that I am the one keeping your body alive.@
-`Do you understand?@ A body that dies the instant I merely will it.@ That is the life called Shiki Tohno, Brother.”@
+`Do you understand?@ A body that will die if I so much as wish it.@ That is the life called Shiki Tohno, Brother.”@
 `Akiha says it into my ear, almost a whisper.
 \
 `“[line=5]kh[line=6]!”@
@@ -1952,7 +1952,7 @@ br
 `“Answer me.@ I have no intention of being gentle forever.”@
 br
 `You have to be joking.@
-`I will not obey a method that relies on brute force…!@
+`I won’t give in to force like this…!@
 br
 `“[line=4]Honestly.@ You’re terribly stubborn, Brother.”@
 `Akiha’s finger withdraws.@
@@ -1981,7 +1981,7 @@ ld c,"tachi/koha_t10",crossfade,400
 cl c,lshutter,400
 `“Shiki……!?@ Please, stay with me, Shiki……!”@
 `My consciousness really must be clouded.@
-`Kohaku.@ I cannot believe she is raising her voice like this.
+`Kohaku.@ I can’t…@ believe she is raising her voice…@ like this.
 \
 ld l,"tachi/koha_t13",lshutter,400
 `“Miss Akiha, what have you done to him?”@
@@ -2006,7 +2006,7 @@ cl c,crossfade,800
 bg #000000,crossfade,800
 !w2000
 bg "bg/bg_40c",crossfade,800
-`[line=4]Night fell.@
+`[line=4]Night falls.@
 br
 `The body of Shiki Tohno lies on the bed.
 \
@@ -2021,7 +2021,7 @@ br
 \
 `“[line=4], [line=6], [line=5]”@
 `My breathing threatens to stop.@
-`Even a fever near forty degrees Celsius has never been this bad.@
+`Even a fever near 104 degrees has never been this bad.@
 `My body will not move.@
 `Yet my heart alone has been running wild for some time.
 \
@@ -2059,7 +2059,7 @@ br
 `Did Akiha drink down SHIKI’s madness?@
 `If something drove SHIKI insane, perhaps Akiha unknowingly absorbed that same thing.@
 `If so.@
-`That thing, like Makihisa Tohno, is nothing but[line=4]
+`Like Makihisa Tohno, she is nothing but[line=4]
 \
 `Kill.@ Kill.@ Kill.@ Kill.@
 br
@@ -2071,7 +2071,7 @@ br
 `Kill.@ Kill.@ Kill.@ Kill.@
 br
 `“Hah[line=4]ah, hah, hah[line=6]”@
-`My throat hurts.@
+`My throat is tight.@
 `My body creaks.@
 `Do you understand, you thoughtless fool?@
 `In this body, I have no chance of opposing Akiha as she is now.@
@@ -2095,13 +2095,13 @@ wavestop
 !w6000
 `The sweat slicking my body begins to dry.@
 br
-`Skin that had burned hot enough to roast the flesh beneath it slowly turns cool.@
+`My skin, so hot it might have scorched, turns cool.@
 br
 `I feel a damp towel against my forehead.@
 br
 `Someone raises me a little and presses a glass to my lips.@
 `I swallow.@
-`The water is faintly cool, and the pleasure of it slipping down my throat is exquisite.@
+`The water is faintly cool.@ It feels wonderful slipping down my throat.@
 br
 `[line=6]……@
 br

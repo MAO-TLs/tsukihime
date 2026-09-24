@@ -55,7 +55,7 @@ play "*1"
 `When I came to, I was lying in my own room.@
 `I was in bed, and Akiha was sitting before me.@
 br
-`“Akiha?”@
+`“Aki…@ ha?”@
 ld c,"tachi/aki_t01b",crossfade,800
 `“Brother?@ You're awake?”@
 `Akiha released a breath of relief.@
@@ -65,14 +65,14 @@ ld c,"tachi/aki_t04b",crossfade,400
 `“[line=3]I see.@ Perhaps all the sleep I've missed lately caught up with me.@ Sorry.@ I've caused you trouble again.”
 \
 ld c,"tachi/aki_t01b",crossfade,400
-`“What are you saying, Brother?@ Brother's poor health is hardly Brother's fault.@ Brother is my brother, so of course I will nurse you.@ If anything is troublesome, it is hearing you call yourself a burden.”@
+`“What are you saying, Brother?@ Your poor health is hardly your fault.@ You’re my brother; of course I’ll look after you.@ If anything is troublesome, it is hearing you call yourself a burden.”@
 `“All right.@ Then I won't thank you.@ This is only natural between siblings.”@
 `“If you can say that much, you must be fine.”@
 `Akiha took my temperature.@
 `It was 37.@6 degrees—barely a degree above normal.
 \
 ld c,"tachi/aki_t16b",crossfade,400
-`“I'm not entirely satisfied, but your color is good, so I think you'll be safe on your own, Brother.@ I'll return to my room.”@
+`“I'm not entirely satisfied, but your color is good, so I think you'll be safe on your own, Brother.@ I’ll return to my room, but…”@
 `“Hm?@ But what is it, Akiha?”@
 ld c,"tachi/aki_t04b",crossfade,400
 `“Never mind me.@ Be sure to thank Hisui; she has been caring for you without a break ever since you collapsed, Brother.”@
@@ -118,8 +118,8 @@ br
 `Back when I had just been brought there, when I couldn’t grow used to the people around me and spent every day shut away alone.@
 br
 `I hated everything and didn't want to speak to anyone.@
-`I wanted to remain alone forever, sealed inside the cocoon of that happy childhood.@
-`Even knowing there was nothing beyond that cocoon, I wanted to stay inside forever.
+`I wanted to stay alone forever, sealed in the cocoon of those early, happy days.@
+`I knew it would lead nowhere, but I wanted to stay like that forever.
 \
 `Knock, knock.@
 `“[line=3]Who is it?”@
@@ -141,15 +141,15 @@ br
 br
 `“That’s not true.@ Everyone wants to like you, Shiki.”@
 br
-`I know.@ But I can't believe it.@ Because my father believed that too, and then[line=3]
+`I know.@ But I can't believe it.@ Because my father…@ that was how[line=3]
 \
 br
 br
 br
 br
 br
-`And then.@
-`My father was, just like that, torn to pieces.
+`That was how.@
+`That was how my father had been torn to pieces.
 \
 `“I see.@ Then of course you can’t trust anybody.”@
 br
@@ -161,7 +161,7 @@ br
 \
 `“That isn’t fun at all.@ Honestly, you’re hopeless.@ Fine, then—you can trust me, Shiki.”@
 br
-`What does that mean, I can trust you?@ That’s backwards—aren’t I supposed to be the one who says I might trust you?@
+`What does that mean, I can trust you?@ That’s backwards—aren’t I supposed to be the one who says I’ll trust you?@
 br
 `“That’s just how it is!@ Trust me, Shiki, and then come outside!”@
 br
@@ -219,12 +219,12 @@ cl c,lshutter,800
 \
 `“What was that about?@ Do I really look so pale?”@
 `My reflection in the window looked no different from usual.@
-`In any case, I needed to put on my uniform and head downstairs.
+`In any case, I needed to put on my uniform and head to the sitting room.
 \
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
 `Hisui was already in the sitting room when I arrived.@
-`Akiha had finished breakfast and was drinking tea, while Kohaku appeared to be in the kitchen.
+`Akiha had finished breakfast and was drinking tea, while Kohaku seemed to be in the kitchen.
 \
 ld c,"tachi/aki_t04a",lshutter,800
 `“Good morning, Brother.@ You seem to have recovered completely.”@
@@ -236,14 +236,14 @@ ld c,"tachi/aki_t04a",lshutter,800
 cl c,crossfade,400
 `“[line=4]I see.”@
 `Only then did I realize I still hadn't thanked Hisui.@
-`“Hisui.@ I know it's late, but thank you for yesterday.@ I'm sorry someone as unreliable as me keeps causing you trouble.”@
+`“Hisui.@ I know it's late, but thank you for yesterday.@ I’m sorry I cause you so much trouble, being the way I am.”@
 ld c,"tachi/his_t04",crossfade,400
 `“Master Shiki, I must apologize for failing to consider your health.”@
 `Hisui bowed deeply.@
 `“No, I’m the pathetic one here.@ You have nothing to apologize for.”
 \
 ld c,"tachi/his_t17",crossfade,400
-`“But safeguarding Master Shiki’s health is also part of my duty.@ I was the one who made such a proposal without considering Master Shiki’s condition.”@
+`“But protecting your health is part of my duty, Master Shiki.@ I made that suggestion without considering your condition.”@
 `“Urgh.”@
 `She presumably meant yesterday’s welcome party.@
 `Kohaku had suggested the whole thing, and Hisui had merely agreed.
@@ -272,7 +272,7 @@ ld c,"tachi/his_t04",crossfade,400
 `“Understood.@ Please take care, Master Shiki.”@
 `“Thanks.@ I’m off, Hisui.”@
 ld c,"tachi/his_t16",crossfade,400
-`I waved to Hisui as she bowed deeply, then ran down the hill.
+`I waved to Hisui as she bowed deeply, then set off running down the hill.
 \
 bg #000000,lcartain,800
 playstop

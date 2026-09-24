@@ -35,7 +35,7 @@ ld c,"tachi/cel_t05",crossfade,400
 `“What[line=3]?”@
 `Ciel’s face lights up.@
 `I’d gotten an inkling at lunch yesterday, but seeing her react this openly makes me happy too.@
-`“It’s repayment for yesterday, so will you eat with me?”@
+`“It’s to thank you for lunch yesterday.@ Shall we eat together?”@
 ld c,"tachi/cel_t04",crossfade,400
 `“Yes, please come in!@ I was just making tea!”@
 cl a,lshutter,400
@@ -58,7 +58,7 @@ ld c,"tachi/cel_t04",crossfade,400
 `I’ll eat in the classroom, so please relax.”@
 ld c,"tachi/cel_t09",crossfade,400
 `“Wait[line=3]you’re not giving me the bread?”@
-`Ciel murmured, looking genuinely heartbroken.
+`Ciel murmurs, looking utterly crestfallen.
 \
 `“But[line=3]you’re already full, aren’t you, Ciel?”@
 ld c,"tachi/cel_t12",crossfade,400
@@ -77,7 +77,7 @@ bg #000000,lshutter,800
 !w500
 bg "event/cel_e02a",lshutter,800
 `Ciel eats one bun and I eat two, after which we settle down to tea.@
-`Kneeling on the tatami, I sip in companionable silence with her.@
+`Kneeling on the tatami, I sip my tea with her at leisure.@
 `If this were anything but a school lunch break, it would be perfect—but life never works out so neatly.
 \
 `“How is your new home, Tohno?@ Something rather serious seemed to be happening there this morning.”@
@@ -97,14 +97,14 @@ br
 `“That’s true, but surely we’ll be safe if we stay indoors at night.@ Eight people have died now, haven’t they?@ With so many victims, the police must catch the killer soon.”@
 `“[line=3]Honestly.@ Tohno, you have no sense of danger at all.@ The news has been saying exactly that since the third victim, and the killer is still free!”
 \
-`“Mm—you are right.@ Those ridiculous ‘modern-day vampire’ captions made it feel like something that had nothing to do with me.@
-`I am sorry; that was careless.@ I live in this city too, so I should know better than to let my guard down.”@
+`“Mm, you’re right.@ With those ridiculous ‘modern-day vampire’ captions, it hardly feels like something happening here.@
+`Sorry.@ That was careless of me.@ I live here too.@ I ought to be more careful.”@
 `“Yes.@ As long as you understand.”@
 `Ciel smiles, satisfied.
 \
 `“But Ciel, why call the killer a vampire in the first place?”@
 `“The victims were drained of every drop of blood.@ Doesn’t that sound like a vampire?”@
-`“…@Does it?@ The usual story is that anyone bitten by a vampire becomes one too.@ They’ve found all the victims’ bodies, so there’s no need to drag vampires into it.”@
+`“…@Does it?@ The usual story is that anyone bitten by a vampire becomes one too.@ They’ve found the victims’ bodies, so there’s no need to drag vampires into it.”@
 `Ciel nods with amused interest.@
 `“Tohno, do you honestly believe vampires exist?”
 \

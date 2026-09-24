@@ -4,8 +4,8 @@ bg "bg/bg_23b",lcartain,800
 play "*8"
 `Akiha and I walk toward the mansion.@
 `“…”@
-`Honestly, it is complicated.@
-`Whenever I glance aside, Akiha is there, walking with her long hair streaming behind her.@
+`Honestly, I have mixed feelings.@
+`I glance at Akiha beside me, her long hair streaming.@
 `So long as she keeps quiet, she is all grace and refinement—the flawless young lady.
 \
 `“…”@
@@ -21,28 +21,25 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“Don’t give me that.@ Why did you transfer to my school?@ There’s nothing for you to gain by moving to a second-rate college-prep school like ours.”
 \
 ld c,"tachi/aki_t21",crossfade,400
-`“With all due respect, Brother.@ The school I attend is my own affair.@ I see no reason I owe you an explanation.”@
-`“Don’t be ridiculous.@ I’m your older brother.@ I can’t stand by and let you do something that’s bad for you.@
-`Frankly, transferring to my school can only hurt your prospects.@ Father isn’t here anymore, so the least I can do is look after you properly…!”
+`“Excuse me, Brother, but where I go to school is my choice.@ I don’t owe you an explanation.”@
+`“Don’t be ridiculous.@ I’m your older brother.@ I can’t stand by while you do something that will only hurt you.@ Transferring here will set you back.@ Now that Father’s gone, at least I have to look after you properly…!”
 \
 ld c,"tachi/aki_t16a",crossfade,400
-`“That’s not fair.@ You only talk like my protective older brother when it suits you.”@
-`“You’re the one who’s not playing fair.@ What were you thinking, transferring without telling me?@
-`Until I hear a proper reason, I refuse to approve of this!”@
+`“That’s unfair.@ You only talk like my older brother when it suits you.”@
+`“You’re the one being unfair.@ What were you thinking, transferring without telling me?@ I won’t accept it until you tell me why!”@
 ld c,"tachi/aki_t19",crossfade,400
 `“Ah[line=5]”@
-`“And if your reason is stupid, I’ll personally send you straight back to your old school.@ Come on, Akiha.@ Tell me why you transferred.”@
+`“If your reason is some nonsense, I’ll send you straight back to your old school.@ Go on, Akiha.@ Why did you transfer?”@
 cl c,crossfade,400
-`Akiha lowers her head and falls silent.@
-`After only a moment, she raises her face again, her posture proud and straight.
+`Akiha lowers her head and falls silent.@ After only a moment, she raises her face again, her posture firm and composed.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Is it not enough that I transferred because I was worried about you?”@
+`“Is being worried about you not reason enough, Brother?”@
 br
 `[line=5]What?@
 br
-`“W-wait.@ If you were worried about me, why[line=3]”@
-`Why transfer schools over something like that?
+`“W-wait.@ You’re worried about me, so why[line=3]”@
+`Why would you transfer schools over that?
 \
 ld c,"tachi/aki_t03a",crossfade,400
 `“Because your behavior lately has been impossible to overlook.@ I decided to supervise you personally, so you wouldn’t disgrace the Tohno name.”@
@@ -51,14 +48,14 @@ ld c,"tachi/aki_t03a",crossfade,400
 `Accused of bad behavior, I can only nod.@
 `My life has been a complete mess lately, and I have caused Akiha and the others no end of trouble.
 \
-`“B-but you didn’t have to transfer schools.@ What about all your friends there?”@
+`“B-but you didn’t have to transfer schools.@ What about your friends at the old one?”@
 ld c,"tachi/aki_t05a",crossfade,400
 `“You needn’t worry about that.@ If you feel the least bit sorry for me, start mending your ways today.”@
 `Akiha turns her face away in a huff.@
 br
 `Honestly, whatever I say, she has an answer waiting.
 \
-`“Fine—do whatever you want.@ But don’t come crying to me if you regret it later.”@
+`“Fine.@ Do whatever you want.@ But don’t blame me if you regret it later.”@
 ld c,"tachi/aki_t21",crossfade,400
 `“Fine.@ I never asked you to worry about me.”@
 `Akiha thrusts out her chest as though to say, Hmph, and sulks.@
@@ -72,7 +69,7 @@ play "*1"
 ld c,"tachi/aki_t01a",crossfade,400
 `“One question.@ How close are you to this Ciel, Brother?”@
 `The question comes completely out of nowhere.@
-`“We’re not especially close.@ She’s my upperclassman, and I’m her underclassman.@ I suppose she’s a friend I feel at ease talking to.”@
+`“We’re not especially close.@ She’s an upperclassman I know at school.@ I suppose she’s a friend I feel at ease talking to.”@
 cl a,crossfade,400
 `With a quiet acknowledgment, Akiha looks away and heads for the front door.
 \
@@ -83,8 +80,8 @@ bg "bg/bg_48b",lshutter,800
 `“Oh.”@
 ld c,"tachi/aki_t01a",crossfade,400
 `“Yes?@ Did you say something, Brother?”@
-`“Nothing important.@ Could I take a look inside that Japanese-style detached house you mentioned?”@
-`“[line=4]The detached house?”@
+`“Nothing important.@ Could I take a look inside that Japanese-style annex you mentioned?”@
+`“[line=4]The annex?”@
 `Akiha murmurs, knitting her brows.
 \
 ld c,"tachi/aki_t11a",crossfade,400

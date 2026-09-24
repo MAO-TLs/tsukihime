@@ -1,6 +1,6 @@
 phase "bg/bg_28b",r,ark,04a,4
 bg "bg/bg_15a",crossfade,800
-`Arcueid’s room was decorated in a way no self-respecting vampire’s room ought to be.@
+`Arcueid’s room is decorated in a way no self-respecting vampire’s room ought to be.@
 `The last time I was here, I was too consumed by Arcueid herself to notice the furnishings, but now it looks remarkably like an ordinary person’s room.@
 `“She even gets the newspaper.@ What is she?”@
 `Grumbling, I lay Arcueid on the bed.
@@ -18,7 +18,7 @@ bg "bg/bg_15a",crossfade,800
 `“[line=3]Huh.@ Guess I’m tired too.”@
 `Pathetic as it is, I cannot get back up.@
 `I spent all last night talking with Arcueid, and I have gone more than a day without a proper meal.@
-`Worse[line=3]even the glasses cannot stop the headache, and every nerve in my brain has long since given up on me.
+`Worse[line=3]even the glasses cannot stop the headache, and every nerve in my brain has been throwing in towel after towel.
 \
 `“Arcueid—is her wound all right?”@
 `The bleeding had stopped, and she can reassemble herself after being cut to pieces, so perhaps worrying is pointless.@
@@ -32,7 +32,7 @@ bg "bg/bg_15c",crossfade,800
 play "*9"
 br
 `“[line=3]The collision is believed to have occurred after the brake pedal on victim Yoichi Takada’s motorcycle malfunctioned, leaving him unable to brake as he descended a steep hill.@
-`Two people were injured, but fortunately there were no fatalities
+`Two people were injured, but fortunately there were no fatalities.”
 \
 br
 `I wake to an utterly unremarkable male voice, the sort one could hear anywhere.
@@ -63,7 +63,7 @@ br
 `[line=3]Naturally, neither my name nor Arcueid’s appears.
 \
 `“Large quantities of wild-animal hair were also recovered from inside the hotel.@ It is unclear whether whoever is responsible left it, but samples include hair from dogs, wolves, and even what may be a bear.@
-`Dozens of species have been identified, and—bizarrely—even what appears to be a shark’s bite mark[line=4]
+`Dozens of species have been identified, and—bizarrely—even what appears to be a shark’s bite mark[line=4]”@
 br
 `I snap off the television.
 \
@@ -125,7 +125,7 @@ ld c,"tachi/ark_t12",crossfade,400
 `“What?@ I saved you?”@
 `Arcueid’s eyes widen in surprise.@
 `Apparently she has no idea she did anything of the sort.@
-`“Yes, you saved me.@ So this is late, but thank you for shielding me.@ If you hadn’t pulled me away, I’d be number 104 by now.”
+`“Yes, you saved me.@ So this is late, but thank you for shielding me.@ If you hadn’t pulled me away, I’d have joined those 103 by now.”
 \
 ld c,"tachi/ark_t11",crossfade,400
 `“You don’t need to thank me[line=3]there’s no need to think about that.@ You only encountered Nrvnqsr because of me, so there’s no reason to be grateful.”@
@@ -155,7 +155,7 @@ br
 \
 `“Ah[line=3]”@
 ld c,"tachi/ark_t01a",crossfade,400
-`“What?@ Did you remember something you forgot?”@
+`“What?@ Did you leave something behind?”@
 `“Not exactly.@ I had never thought about it before, but why did I decide to kill you?”@
 ld c,"tachi/ark_t06",crossfade,400
 `Arcueid frowns at me.@
@@ -168,9 +168,9 @@ ld c,"tachi/ark_t03",crossfade,400
 `“[line=6]What?”@
 br
 `Wait.@
-`What did this woman just call me[line=3]?@
+`What the hell did she just say to me[line=3]?@
 br
-`“You certainly knew what you were doing when you attacked me.@ You rang the bell, shoved your hand into the doorway the instant I opened it, and forced your way inside before I could object.
+`“You were awfully practiced when you attacked me.@ You rang the bell, thrust your hand through the doorway the instant I opened it, and pushed your way in before I could protest.
 \
 ld c,"tachi/ark_t04",crossfade,400
 `“Before I could recover from the surprise, your first strike stopped every vital function; then you hacked me apart piece by piece[line=4]yes, the ambush was perfect.@
@@ -215,24 +215,24 @@ br
 `Arcueid clutches her ear with theatrical agony.@
 ld c,"tachi/ark_t16",crossfade,400
 `“That does it!@ What was that for, Shiki?”@
-`“I’m the one who should be angry!@ I knew there was something subtly insane about everything you kept asking me to do, but this was what you thought of me?”@
+`“I’m the one who should be angry!@ I thought the things you kept asking me to do were a little crazy, but this is what you thought of me?”@
 ld c,"tachi/ark_t11",crossfade,400
-`“What[line=3]?@ What do you mean, what I thought of you…?”
+`“Huh[line=3]?@ What do you mean by ‘that’…?”
 \
 `“You decided I was some deranged killer, and that’s why you told me to serve as a shield against monsters and stand guard over you!@
 `What an unbelievable misunderstanding.@ No wonder you seemed to have such a high opinion of me.@
-`Listen carefully: I am not a murderer or a homicidal maniac.@
+`Listen carefully: I am not a killer or a homicidal maniac.@
 `You were the first person[line=3]the first person I had ever killed.”@
 ld c,"tachi/ark_t12",crossfade,400
 `Arcueid stares with her mouth hanging open.@
 `Damn it—apparently that revelation is even more astonishing than I expected.
 \
-`“[line=3]You’re lying.@ You were that experienced, and it was your first time, Shiki?”@
+`“[line=3]No way.@ You were that experienced, and it was your first time, Shiki?”@
 `“It was.@ I may have these strange eyes, but I’ve lived a reasonably decent life.@ Not once have I ever wanted to use these ‘lines’ to kill someone.”
 \
 `“But[line=2]then why did you kill a complete stranger?”@
 `“I don’t know either.@
-`The moment I saw you in the street, I couldn’t stop thinking about you[line=2]and before I knew it, I had cut you to pieces[line=4]”@
+`The moment I saw you in town, I couldn’t get you out of my mind[line=2]and before I knew it, I had cut you to pieces[line=4]”@
 cl c,crossfade,400
 play "*8"
 br
@@ -241,29 +241,29 @@ br
 \
 `“[line=5]I see.”@
 br
-`Yes—that was the truth.@
+`Oh.@ Of course.@
 `I had no right to be angry with Arcueid.@
-`It did not matter that she was alive, or that she was not human.@
-`I had killed her with these hands.
+`It didn’t matter that she was alive, or that she wasn’t human.@
+`I had killed her with my own hands.
 \
 ld c,"tachi/ark_t06",crossfade,400
 `“Why have you suddenly gone quiet again?@ What did you mean by ‘I see,’ Shiki?”@
-`“I mean I have to say I’m sorry.”@
+`“…@I mean…@ I have to…@ say I’m sorry…”@
 br
-`How had I managed to forget[line=4]something so important simply because it suited me?
+`I[line=4]how could I have forgotten something so important just because it suited me?
 \
 cl c,crossfade,400
 `“[line=2]I’m sorry.@ I’m so sorry, Arcueid.@ Shiki Tohno killed you here.@ That was the first thing I should have apologized for[line=3]”@
-`I truly am sick in the head.@
-`Of course Arcueid mistook me for a murderer.@
+`What is wrong with me?@
+`Of course Arcueid mistook me for a killer.@
 `Even I cannot understand the impulse that seized me then.@
 `Which means, perhaps.@
 br
 `Shiki Tohno truly
-`might be a murderer[line=5].
+`might be a killer[line=5].
 \
 `“[line=3]I did kill you, and that is a fact.@ So[line=3]I have to accept both the crime and the punishment.@
-`You can’t let a killer like me live among everyone else.”@
+`You can’t let a murderer like me live among everyone else.”@
 br
 `[line=3]Realizing something so important only now is sheer cowardice.@
 `Whatever Arcueid may be[line=2]Shiki Tohno is still someone capable of killing without reason.
@@ -273,14 +273,14 @@ ld c,"tachi/ark_t01b",crossfade,400
 br
 `I nod without a word.@
 br
-`“So you didn’t enjoy it, did you?@ I see.@ Some murderers kill as naturally as they breathe, but ordinarily you seem sane enough.”@
+`“So you didn’t enjoy it, did you?@ I see.@ Some killers kill as naturally as they breathe, but ordinarily you seem sane enough.”@
 `“I suppose.@ I’d like to think so.”@
 `“No, you’re remarkably sane.@ And I’m the only person you’ve ever wanted to kill?”@
 `“Yes.@ I’ve never felt that way about anyone but you.”
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Oh, then there’s no problem.@ You’re not a murderer at all, Shiki.”@
-`Arcueid pronounces judgment with astonishing ease and more than a hint of carelessness.
+`“Oh, then there’s no problem.@ You’re not a killer at all, Shiki.”@
+`Arcueid says it so easily, almost carelessly.
 \
 `“And I don’t think you need to be punished.@
 `By chance, I was the one person you wanted to kill, and unfortunately, you happened to possess unsurpassable skill at killing.@
@@ -289,7 +289,7 @@ ld c,"tachi/ark_t01a",crossfade,400
 \
 `“I understand.@ But I still committed murder.@ Someone that dangerous can’t simply be left at large.”@
 ld c,"tachi/ark_t02",crossfade,400
-`“That is irrelevant.@ At present, only two people in the world have any right to condemn you: me, the victim, and you, the perpetrator.”@
+`“That doesn’t matter.@ Right now, only two people in the world have any right to condemn you: me, the victim, and you, the perpetrator.”@
 `“[line=3]Maybe so.@ But the fact that I killed you will never change.”@
 br
 `Exactly.@
@@ -303,8 +303,8 @@ br
 br
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Shiki.@ There really are people who cannot sell their souls to the devil, no matter how bitterly they hate the world.@
-`Honest people who can apologize even to a vampire, for instance.@
+`“Shiki.@ Some people truly cannot sell their souls to the devil, no matter how bitterly they hate the world.@
+`Someone honest enough to apologize even to a vampire, for instance.@
 ld c,"tachi/ark_t08",crossfade,400
 `So I know you’ll be all right.@ No matter what anyone says—even if you deny it yourself[line=3]you can still remain on that side of the world.”@
 `“Wh[line=5]”@
@@ -312,7 +312,7 @@ ld c,"tachi/ark_t08",crossfade,400
 `How can she[line=3]smile and say something like that to the person who killed her?
 \
 playstop
-`“Arcueid[line=3]”@
+`“Ar…@cueid[line=3]”@
 ld c,"tachi/ark_t01a",crossfade,400
 `“Besides, we have a much worse problem.@ Now that you’re awake, I wanted to talk about what we do next[line=2]”@
 `Before she can finish, Arcueid collapses to the floor.@
@@ -335,7 +335,7 @@ cl c,tcartain,400
 `She points to a small object lying on the wooden floor.
 \
 `It is brown.@
-`At first glance it might almost pass for a doughnut or a ring-shaped cake, but any second look reveals a roll of packing tape.
+`At first glance it might almost pass for a doughnut or a baumkuchen, but any second look reveals a roll of packing tape.
 \
 `“[line=3]Y-you idiot!@ Who binds a wound with packing tape?”@
 `“Honestly.@ Stop calling me an idiot over and over.@ You’re going to make me wonder whether I really am one.”@
@@ -351,8 +351,8 @@ cl c,tcartain,400
 \
 ld c,"tachi/ark_t06",crossfade,400
 `“……”@
-`Arcueid seals her lips.@
-`She appears to be sulking, but apparently she has granted me permission to inspect the wound.@
+`Arcueid keeps her mouth firmly shut.@
+`She seems to be sulking, but it looks as though she’ll let me see the wound.@
 ld c,"tachi/ark_t21",crossfade,400
 `I lift her clothes and bare her stomach.@
 `Packing tape is wound around her abdomen again and again.@
@@ -382,7 +382,7 @@ ld c,"tachi/ark_t21",crossfade,400
 `“Fine.@ My body is built much the same as yours, so it may help a little.”@
 `“Enough—give me the money.@ Lie there and keep quiet.@ But don’t fall asleep.@ Even if you lie down, stay awake.”@
 ld c,"tachi/ark_t14",crossfade,400
-`“Hmph—Shiki, that is a thoroughly unreasonable demand.”
+`“Hmph…@ That’s a ridiculous thing to ask, Shiki.”
 \
 `“Unreasonable or not, you’re doing it.@ I’ve heard that your body’s functions slow down while you sleep.@
 `If you sleep before a wound closes, your resistance must weaken and make the injury even worse.@
@@ -404,7 +404,7 @@ br
 bg "bg/bg_14a",lcartain,800
 `On my way out, something in the kitchen catches my eye.@
 `“[line=3]Food.”@
-`The table holds what might be called a meal; no, grub; no, provisions: some food-like substance.@
+`On the table is a meal—no, grub.@ No, rations.@ Something that vaguely resembles food.@
 br
 `So this is why Arcueid was in the kitchen.
 \
@@ -414,7 +414,7 @@ br
 br
 `“Damn it[line=3]what is wrong with her?”@
 `I am seething.@
-`So angry that I break into a run, determined to bring back something useful for first aid even one second sooner.
+`So angry that I break into a run, determined to bring back something useful for first aid as quickly as I can.
 \
 bg #000000,lcartain,800
 !w1000
@@ -433,7 +433,7 @@ br
 `The wound in Arcueid’s abdomen is not especially large.@ According to her, the surface at least has healed “reasonably well.”
 \
 `Even so, the crocodile’s fangs have left four black, hollow punctures, each about the size of a golf ball.@
-`With wounds this large, disinfectant may do more harm than good, but I have to consider a secondary infection—or whatever this is called—so I apply it anyway.@
+`With wounds this large, disinfectant may do more harm than good, but I have to consider a secondary disaster caused by germs—or whatever you call it—so I apply it anyway.@
 `Then I cover the wounds with gauze and carefully wind a bandage around her.
 \
 `“Ahahaha, stop, Shiki—you’re too good at this!”@
@@ -468,7 +468,7 @@ br
 playstop
 `“Arcueid.@ Can I ask about what happened at the hotel?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“I suppose.@ This really is the kind of conversation you and I are destined to have.”@
+`“I suppose.@ It always comes back to this with us, doesn’t it?”@
 `“Yes.@ There is only one thing I want to know.@ That man yesterday[line=3]you called him Nrvnqsr, but what exactly is he?@
 `I’m asking seriously, so please don’t tell me he’s a magician who pulls crocodiles out of his body.”
 \
@@ -511,15 +511,14 @@ ld c,"tachi/ark_t01b",crossfade,400
 `So all of Nrvnqsr’s familiars probably belong to species that still exist today.@
 `In that sense, we may have been lucky.”@
 br
-`I did not understand that last part, but apparently there may be thirty of those black dogs.
+`I didn’t understand that last part, but did that mean there might be as many as thirty of those black dogs?
 \
-`“No, wait.@ The black dogs weren’t the only things loose in the hotel.@ I think I saw lions and leopards too.”@
+`“No, wait.@ The black dogs weren’t the only things loose in the hotel.@ I think there were lions and leopards too.”@
 ld c,"tachi/ark_t02",crossfade,400
 `“I thought so.@ Controlling thirty animals of one species is possible, but governing different beasts together inside his body proves Nrvnqsr’s will truly is extraordinary.@
 ld c,"tachi/ark_t03",crossfade,400
-`Though if his will is that powerful, it is strange that his body consists only of wild animals.@
-`He should be capable of subjugating an exceptionally powerful Demonic Beast[line=4]”@
-`Arcueid falls silent, humming thoughtfully to herself.
+`…@Still, it’s strange that someone with that much willpower builds his body out of nothing but wild animals.@ He should be able to subdue a formidable Demonic Beast[line=4]”@
+`Arcueid murmurs “Hmm”@ and falls into thought.
 \
 ld c,"tachi/ark_t01a",crossfade,400
 `“Well, never mind.@ At least we know his arsenal consists of twenty or thirty familiars.@
@@ -562,11 +561,11 @@ br
 `If I stay here[line=3]if I remain involved with her, I will meet him again.@
 br
 `That man is dangerous.@
-`There is nothing sane about him.@
+`There is nothing normal about him.@
 `Even setting aside the animals inside his body, his eyes looked like a machine’s.@
 br
 `They held no emotion whatsoever.@
-`They were the eyes of a true killer, one who performs the task assigned to him as naturally as breathing.@
+`They were the eyes of a true killer, one who simply carries out a fixed task as if nothing could be more natural.@
 `Having nearly died at his hands once, I know in my bones that he is someone I must never confront again.
 \
 `“[line=5]”@

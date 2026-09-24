@@ -39,8 +39,8 @@ br
 `Shiki Tohno wanted to kill that woman[line=3]
 !w1300
 br
-`That must have been the whole of my will then.@
-`My thoughts had only been too thick and muddy for me to force that image into words.
+`That must have been all I wanted then.@
+`My mind was a thick, muddy mess, and I had simply avoided putting that image into words.
 \
 `“No[line=5]”@
 br
@@ -70,7 +70,7 @@ bg "bg/bg_28b",lcartain,1500
 `“Ghh[line=3]blegh[line=2]”@
 `Acid flooded up my throat.@
 `I dropped to my knees and vomited everything in my stomach.@
-`Food and bile—I sobbed and brought it all up.@
+`Food, stomach acid—I cried as I brought it all up.@
 br
 `“Hah, hah, hah, hah[line=3]”@
 br
@@ -92,19 +92,19 @@ br
 \
 `[line=3]What had I done?@
 br
-`I still didn’t know why
-`I had felt that way or
-`why I had truly gone through with killing her.
+`Why I had felt that way,
+`why I had actually killed her—
+`I still didn’t know.
 \
 bg #000000,crossfade,400
 monocro off
 bg "bg/bg_28b",crossfade,400
 `“Ghh.”@
 br
-`Bile leaked between my lips.@
-`My mouth, my chin, everything below it was sticky with the stuff.@
-`Scarlet threaded through it.@
-`My empty stomach kept convulsing anyway—perhaps the retching had torn my throat open.@
+`Stomach acid leaked between my lips.@
+`It coated my mouth, my chin, everything below it.@
+`There was scarlet mixed in it.@
+`My empty stomach kept heaving.@ Had I hurt my throat and made it bleed?@
 br
 `“It[line=3]hurts[line=4]”@
 br
@@ -126,7 +126,7 @@ br
 `[line=3]If I was dangerous enough to kill something so easily.@
 `Then I should have gouged out these eyes or lived where I would never meet another person.
 \
-`“[line=3]I’m sorry, Teach.”@
+`“[line=3]I’m sorry, Teacher.”@
 br
 `[line=3]I’m so, so sorry.@
 br
@@ -154,7 +154,7 @@ br
 `The very idea of restraint had never occurred to me.
 \
 `『I’ll kill that woman』
-`If I could accept that thought as naturally as breathing and then carry it out, there was nothing I could do to control myself.
+`If I could take that thought for granted and act on it, there was nothing I could do to control myself.
 \
 `Then the answer was simple.@
 `I had to be insane.@
@@ -195,7 +195,7 @@ ld c,"tachi/his_t01",crossfade,400
 `“…?”@
 br
 `Hisui is asking a strange question.@
-`There isn’t anything wrong with me[line=3]
+`How am I feeling?@ There isn’t anything wrong with me[line=3]
 \
 cl c,crossfade,400
 monocro #ff0000
@@ -214,21 +214,21 @@ bg "bg/bg_40c",crossfade,400
 ld c,"tachi/his_t08",crossfade,400
 `“You don’t remember, Master Shiki?”@ Hisui’s brow draws together almost imperceptibly.
 \
-`“The school called to say that Master Shiki had left early.@ When evening came and he still had not returned, my sister went looking for him and found him asleep in a park.”@
+`“The school called to say you had left early.@ When evening came and you still had not returned, my sister went looking for you.@ She says she found you resting in the park.”@
 `“[line=3]A park[line=3]the one nearby?”@
 ld c,"tachi/his_t01",crossfade,400
-`“Yes.@ My sister found Master Shiki resting on a bench there, and afterward Master Shiki walked back to the estate on his own.”
+`“Yes.@ My sister found you resting on a bench there.@ You then walked back to the estate yourself.”
 \
 `“That can’t be right.@ I don’t remember any of it.”@
-`“It is not so strange that Master Shiki’s memory should be unclear.@
-`Forgive me for saying so, but when my sister brought Master Shiki home, he seemed entirely dazed.”@
+`“It is hardly surprising that your memory is unclear, Master Shiki.@
+`Forgive me for saying so, but you seemed quite dazed when my sister brought you home.”@
 `“…”@
 br
 `I remember nothing.@
 `But there is no room to doubt Hisui’s account.
 \
 `“It’s already nine at night.@ I don’t remember a thing.”@
-`“Yes.@ When Master Shiki returned, the only thing he said was that he wanted to sleep.@ My sister offered to call a doctor, but Master Shiki told her this happened all the time.”@
+`“Yes.@ When you returned, you said you wanted to sleep.@ My sister tried to call a doctor, but you told her this happened all the time.”@
 `“[line=3]I see.@ Fainting from anemia is nothing unusual for me, but[line=3]”@
 `This time is different.@
 `I killed someone—wait.
@@ -238,7 +238,7 @@ br
 `“My clothes.@ My uniform—there was blood on it[line=3]?”@
 `It had been completely soaked.
 \
-`“Master Shiki’s uniform was dirty, so it is being washed.”@
+`“Your uniform was dirty, Master Shiki, so it is being washed.”@
 `“Washed[line=3]that blood-soaked thing!?”@
 ld c,"tachi/his_t08",crossfade,400
 `“It was certainly covered in mud, but there was nothing resembling blood.”@
@@ -263,24 +263,24 @@ br
 \
 bg #9c0120,crossfade,400
 bg "bg/bg_40c",crossfade,400
-`But what if that certainty was wrong?@
-`What if it was only a convenient dream?
+`But wasn’t that—
+`wasn’t that convenient belief the dream?
 \
-`“—!”@
+`“[line=4]!”@
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki.@ Are you still feeling unwell?”@
 `“[line=3]No.@ I’m all right.@ That had to be a dream; I have to believe that.”@
 br
-`[line=3]There is no possible way I can lie here and sleep.
+`[line=3]Otherwise, there is no way I can lie here and sleep.
 \
 `“If you feel well enough, Master Shiki, I can prepare supper.”@
 `“Supper.”@
 `Impossible.@ With the color and smell of that blood still trapped in my mind, I can’t eat a thing.
 \
-`“[line=3]No, thank you.@ I think I’ll sleep through the night.@ But Hisui.”@
+`“[line=3]No, thank you.@ I’ll just go back to sleep.@ But Hisui.”@
 `“Yes, Master Shiki?”@
 `“Apparently I came home this evening.@ What did Akiha say?”@
-`“Miss Akiha had not yet returned at that time.@ She came home about two hours ago, and my sister informed her of Master Shiki’s condition.”@
+`“Miss Akiha had not yet returned at that time.@ She came home about two hours ago, and my sister told her how you were.”@
 `Hisui is silent.@ Her look asks whether something is the matter.
 \
 `“It’s nothing.@ I’ve only been back two days and I’m already causing trouble, so I thought she must be fed up with me.”@
@@ -292,7 +292,7 @@ br
 `“Thank you.@ Oh—one more thing.”@
 `“Yes, Master Shiki?”@
 `“It’s raining outside.@ When did that start?”@
-`“Before Master Shiki returned.@ When my sister found Master Shiki, Master Shiki was already soaked.”
+`“Before you returned, Master Shiki.@ You were already wet from the rain when my sister found you.”
 \
 `“…”@
 `So I can’t remember even that.@
@@ -324,6 +324,6 @@ br
 bg #000000,crossfade,1500
 br
 `…@I seem to remember someone telling me as a child
-`never to tell a lie that cannot fool even me.
+`never to tell a lie I couldn’t believe myself.
 \
 !w3000

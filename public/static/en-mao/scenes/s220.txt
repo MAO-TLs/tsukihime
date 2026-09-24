@@ -2,8 +2,8 @@ monocro off
 play "*2"
 wavestop
 bg "bg/bg_33a",notrans,0
-`I will simply have to bluff my way through.@
-`There is no chance she would understand talk of inhuman beings like Arcueid and Nrvnqsr; I will have to lie as little as possible while telling her none of the truth.@
+`I’ll have to bluff my way through somehow.@
+`Akiha would never understand if I started talking about inhuman beings like Arcueid and Nrvnqsr.@ I’ll tell as few lies as possible—without telling her the truth.@
 br
 `“[line=3]All right, here goes.”@
 `I fill my lungs and open the sitting-room door.
@@ -17,11 +17,11 @@ ld c,"tachi/aki_t03a",lshutter,800
 `“We can dispense with the greetings, so sit there, please.@ I have something to discuss with you.”@
 `“[line=6]”@
 `Something in Akiha’s voice brooks no refusal.@
-`Meekly and obediently, I lower myself onto the sofa opposite her.
+`Quietly, obediently, I lower myself onto the sofa opposite her.
 \
-`“Brother.@ Shall we begin with an account of where you were the day before yesterday and yesterday?”@
-`“[line=5]Urgh”@
-`She phrases it as a courteous request, but make no mistake: this is a threat.@
+`“Brother.@ Would you tell me about yesterday and the day before?”@
+`“[line=5]Ugh.”@
+`She phrases it as a courteous request, but make no mistake: it is a threat.@
 `Unfortunately, her big brother cannot possibly tell his little sister any of that.
 \
 `“About that, Akiha…”@
@@ -69,7 +69,7 @@ ld c,"tachi/aki_t15a",crossfade,400
 `That is an astonishing reaction.@
 `“You’re impossible to understand.@ That wasn’t something to be shocked about.”@
 `“[line=9]”@
-`Akiha draws a long breath and lets her shoulders drop.
+`Akiha draws a long breath and shrugs.
 \
 ld c,"tachi/aki_t11a",crossfade,400
 `“It seems you have no intention of answering me seriously.”@
@@ -79,6 +79,6 @@ ld c,"tachi/aki_t21",crossfade,400
 \
 `“Really?@ I don’t remember myself very well as a child.”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“You’re better off not remembering.@ It seems I haven’t changed either.@ Perhaps I haven’t grown at all, interrogating you even though I know perfectly well how this will end.”
+`“You don’t need to remember.@ It seems I haven’t changed either.@ Perhaps I haven’t grown at all, interrogating you even though I know perfectly well how this will end.”
 \
 cl c,crossfade,400

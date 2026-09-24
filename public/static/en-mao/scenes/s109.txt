@@ -3,7 +3,7 @@ play "*2"
 wavestop
 bg "bg/bg_33a",notrans,0
 `“Yeah.@ That is probably best.”@
-`There is no point trying to explain inhuman beings like Arcueid and Nrvnqsr; if I cannot tell the truth, the least I can do is apologize honestly.@
+`She probably wouldn’t understand if I told her about inhuman beings like Arcueid and Nrvnqsr; if I cannot tell the truth, the least I can do is apologize honestly.@
 br
 `“[line=3]All right, here goes.”@
 `I fill my lungs and open the sitting-room door.
@@ -18,10 +18,10 @@ ld c,"tachi/aki_t01a",notrans,0
 cl c,notrans,0
 `“[line=6]”@
 `Something in Akiha’s voice brooks no refusal.@
-`Meek as a lamb, I lower myself onto the sofa opposite her.
+`Quietly, obediently, I lower myself onto the sofa opposite her.
 \
 ld c,"tachi/aki_t01a",crossfade,400
-`“Brother.@ Shall we begin with an account of where you were the day before yesterday and yesterday?”@
+`“Brother.@ Would you tell me about yesterday and the day before?”@
 `“[line=5]Ugh.”@
 `She phrases it as a courteous request, but make no mistake: it is a threat.@
 `Unfortunately, her big brother cannot possibly tell his little sister any of that.@
@@ -32,9 +32,8 @@ br
 cl c,notrans,0
 \
 `Clatter.@
-`Akiha’s teacup drops
-`onto the table.@
-`No—saying she deliberately slammed it down would be closer to the truth.
+`Akiha’s teacup drops onto the table.@
+`No—it would be more accurate to say she lets it fall deliberately.
 \
 ld l,"tachi/his_t01",crossfade,400
 `“Miss Akiha[line=3]”@
@@ -55,14 +54,14 @@ ld c,"tachi/aki_t03a",crossfade,400
 `Even so, I still cannot tell her.@
 `Partly for my own sake, but also because Akiha should never be burdened with any of this.
 \
-`“No.@ Ask as many times as you like; what I cannot tell you, I cannot tell you.@ I am sorry I made you worry for nothing, Akiha.@ But I cannot tell you.”@
+`“No.@ Ask as many times as you like; if I can’t tell you, I can’t tell you.@ I’m sorry I made you worry, Akiha.@ But I just can’t tell you.”@
 ld c,"tachi/aki_t02",crossfade,400
 `“[line=3]You feel sorry, and yet you still refuse to tell me, Brother?”@
 `“That’s right.@ I’m sorry I didn’t contact you, and I’m sorry I can’t explain.@ But I did nothing wrong during those two days.@ I don’t want to believe that what happened was a mistake.”@
 cl c,crossfade,400
 \
 `[line=3]Yes.@
-`Those two days meant little but killing and nearly being killed, yet they were[line=2]I want to believe they were right.@
+`Those two days meant little but killing and being killed, yet they were[line=2]I want to believe they were right.@
 br
 `Helping Arcueid was part of it, but more than anything[line=3]I do not regret killing that man-eating monster.@
 br

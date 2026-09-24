@@ -1,10 +1,10 @@
 playstop
 wavestop
 bg "bg/bg_40b",notrans,0
-`They had been looking after me since yesterday, so if I sat around doing nothing instead of at least helping Kohaku, I would have it coming.@
-`“She said she’d be cleaning the garden, didn’t she?”@
-`Even I could help sweep the garden.@
-`I steeled myself and headed outside.
+`They’d been looking after me since yesterday.@ I’d deserve what I got if I just sat around instead of helping Kohaku.@
+`“She was cleaning the garden, wasn’t she?”@
+`Even I could help with that.@
+`All right.@ Time to get to work.@ I headed for the garden.
 \
 bg #000000,lcartain,800
 bg "bg/bg_42b",lcartain,800
@@ -20,11 +20,11 @@ ld c,"tachi/koha_t06",lshutter,800
 `“You’re something else, Kohaku.@ I’d already be complaining if I had to clean a garden this big.”@
 `“Oh, no, it’s nothing admirable.@ This is my job; if I abandoned it, I’d have nothing to eat.@ So here I am, tending the garden through my tears.”@
 `She laughed, her smile utterly carefree.@
-`She really was an irrepressibly cheerful person.
+`She was…@ well, a cheerful person.
 \
 `“Besides, I’m allowed to use the back garden, so I have to keep an eye on it even when there’s no work to do.”@
 `“Use it…?@ For what?”@
-`“I grow flowers as a hobby I’ve had since childhood.@ I collect whatever catches my fancy, so it’s closer to a jungle than a flower bed now.”
+`“I’ve been growing flowers since I was a child.@ I collect whatever catches my fancy, so it’s closer to a jungle than a flower bed now.”
 \
 cl c,crossfade,400
 `Kohaku laughed brightly again.@
@@ -34,7 +34,7 @@ cl c,crossfade,400
 ld c,"tachi/koha_t01a",crossfade,400
 `“Oh, all sorts of things.@ Mostly morning glories and flowers like that.”@
 `“Morning glories?@ That suits you somehow.”@
-`“Does it?@ They don’t really suit the estate, so I find them a little depressing.”@
+`“Do they?@ I get a little down because they don’t seem to suit the estate.”@
 `“No, not the estate.@ I meant you.@ Morning glories have a simple, graceful beauty, don’t they?”
 \
 ld c,"tachi/koha_t18",crossfade,400
@@ -59,13 +59,13 @@ ld c,"tachi/koha_t06",crossfade,400
 `Somehow, Kohaku managed to look angry without losing her smile.@
 `Still[line=4]she wasn’t quite the person I’d imagined when we first met.
 \
-`“Kohaku.@ Could it be that you’re rather clumsy?”@
+`“…@Kohaku, are you a little clumsy?”@
 `I stopped short of asking whether she was a complete klutz.@
 `She gave an offended little hum.@
 `“Even you say that, Shiki!@ Hisui coldly tells me I move too slowly, and Miss Akiha torments me about not paying attention.@
 `It’s cruel to act as if I make mistakes because I want to.”@
-`“…@True—few people fail on purpose.”@
-`Unable to think of anything genuinely comforting, I offered that thoroughly useless observation.
+`“…@Right.@ Most people don’t mess things up on purpose.”@
+`I couldn’t think of anything comforting to say.@ That was the best I could manage.
 \
 `“Exactly!@ It’s the thought that matters, so I think people ought to overlook a mere ten or twenty mistakes!”@
 cl c,crossfade,400
@@ -79,7 +79,7 @@ ld c,"tachi/koha_t06",crossfade,400
 `Kohaku’s broom stopped dead.@
 ld c,"tachi/koha_t03",crossfade,400
 `“[line=4]No, that would never do.@ If you did such a thing, Master Shiki, I’d be scolded afterward.”@
-`“Scolded by whom[line=3]well, I suppose only one person would do that.”@
+`“Who would scold you[line=3]oh.@ There’s only one person it could be.”@
 `“Yes.”@
 `Kohaku nodded firmly.
 \
@@ -92,7 +92,7 @@ ld c,"tachi/koha_t01a",crossfade,400
 \
 ld c,"tachi/koha_t18",crossfade,400
 `“Ahaha, I suppose she will.@ Yes, so you really mustn’t help.”@
-`Kohaku said it with smiling finality.@
+`Kohaku was smiling, but her answer was firm.@
 `“Right.@ If helping means Akiha will take it out on you either way, I’d only be making trouble.@ Sorry—I should have thought before barging in.”@
 `“It wouldn’t be trouble at all.@ I was so happy when I realized you wanted to help me.”@
 `It hurt to see such an open smile when I could not help her after all.@
@@ -101,7 +101,7 @@ br
 `Kohaku looked up at me, plainly enjoying herself.
 \
 ld c,"tachi/koha_t01a",crossfade,400
-`“Shiki, do you truly want to help?”@
+`“Shiki, would you really help me?”@
 `“Of course—as long as it won’t get you in trouble, I’ll help as much as you like[line=3]”@
 `“Then let’s move elsewhere.@ Miss Akiha might see us here, but we can clean in secret around the back.”@
 `“The back[line=3]you mean the back garden?”@

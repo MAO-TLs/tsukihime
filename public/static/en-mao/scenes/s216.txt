@@ -2,11 +2,11 @@ playstop
 wavestop
 bg "bg/bg_34b",tcartain,800
 play "*1"
-`After dinner, I sat in the sitting room drinking tea.@
+`After dinner, we had tea in the sitting room.@
 `Akiha was opposite me, while Hisui waited by the wall.@
 `There was no television, and Akiha made no attempt at idle conversation.@
 br
-`[line=3]It was an almost excessively refined way to spend the evening.
+`[line=3]This was all a little too refined for me.
 \
 `“Shiki, could you come here a moment?”@
 `Kohaku’s lively voice rang from the foyer.@
@@ -38,7 +38,7 @@ ld c,"tachi/koha_t01a",crossfade,400
 `She was about my age and a little baby-faced.@ A pretty girl with long hair in twin braids…?
 \
 `“……”@
-`My heart lurched, and for a moment my vision went black.@
+`My heart lurched.@ For a moment, I thought everything went black.@
 `That description.@
 `Could it be anyone but Satsuki Yumizuka, the girl everyone said had run away from home[line=3]
 \
@@ -50,7 +50,7 @@ ld c,"tachi/koha_t01a",crossfade,400
 \
 `“Why would[line=6]Satsuki Yumizuka come looking for me………?”@
 `I didn’t understand.@
-`I didn’t understand, but all I had was a terrible feeling.@
+`I didn’t understand.@ I only knew I had a bad feeling.@
 `“How long ago was this?”@
 `“Let me see; it was before you finished dinner, so about ten minutes ago.”@
 `“[line=2]!@ Which way did she go?”@
@@ -76,9 +76,9 @@ bg "bg/bg_25b",lcartain,800
 br
 `“Hah, hah, hah…”@
 `I was gasping.@
-`The strain finally made me stop after running without rest.
+`I’d been running without a break.@ I couldn’t keep it up; I had to stop.
 \
-`“I—I knew she wouldn’t be that easy to find……”@
+`“…@I guess…@ it wouldn’t…@ be that easy…@ to find her…”@
 `Hah, hah.@
 `I steadied my ragged breathing and immediately started running again.
 \
@@ -94,7 +94,7 @@ br
 `[line=3]See you, then.@ Bye, Tohno.@
 br
 `It was an ordinary goodbye, the sort heard anywhere.@
-`The soft smile she wore had looked so genuinely happy.@
+`She had looked so happy, smiling that gentle smile.@
 `Someone who could smile like that wouldn’t run away from home.@
 br
 `[line=3]Help me if I’m ever in trouble, Tohno.@
@@ -104,7 +104,7 @@ br
 \
 bg "bg/bg_28b",lcartain,800
 `“Hah[line=3]hah[line=4]hah[line=3]”@
-`There was no one resembling Yumizuka in the park either.@
+`No sign of Yumizuka in the park, either.@
 `I could never have found someone without a single lead to begin with.@
 `I wasn’t going to find her, so I ought to return to the estate.@
 `“Damn it…”@
@@ -116,7 +116,7 @@ bg "bg/bg_25b",lcartain,800
 `It was already past nine.@
 `Perhaps because of the recent random street killings, there were remarkably few people out even though it was only nine.@
 br
-`[line=4]And then.@
+`[line=4]Then.@
 br
 `“Yumi[line=4]zuka”@
 `For an instant I doubted my eyes.@
@@ -127,14 +127,14 @@ bg #000000,notrans,0
 wait 100
 bg "bg/bg_25b",notrans,0
 `Yumizuka drifted unsteadily through the crowd.@
-`She was too far away to see clearly.@
-`I might have been mistaken, but I ran after her to catch up and call her back.@
+`She was too far away to see clearly; I might have been mistaken.@
+`Even so, I ran to catch her and call her back.@
 `“Wait, Yumizuka[line=3]!”@
-`I called out as I chased her.
+`I called as I chased her.
 \
 ld c,"tachi/stk_t10",lshutter,400
 `“[line=6]”@
-`Perhaps she heard me, because Yumizuka glanced back over her shoulder.@
+`Perhaps she heard me, because Yumizuka glanced over her shoulder.@
 wave se_01
 bg #000000,notrans,0
 wait 100
@@ -170,17 +170,18 @@ br
 `“[line=6]”@
 `Something was wrong.@
 `I knew that much, but I could not tell what.@
-`All I could do was chase Satsuki Yumizuka without the least idea how that would solve anything.
+`I had no idea what to do.@ All I could do was keep chasing Satsuki Yumizuka.
 \
 bg #000000,lshutter,800
 bg "bg/bg_26a",lcartain,800
 br
-`[line=4]And then.@
+`[line=4]Then.@
 br
-`Yumizuka’s back suddenly vanished.@
-`Until then, her back had remained in sight even though I could not catch up, but now it was nowhere to be seen.
+`Suddenly, Yumizuka disappeared.@
+`I’d been able to see her ahead of me all this time, even when I couldn’t catch up.@ Now there was no sign of her.
 \
-`“Damn it—what is going on…!”@ I stopped and steadied my breathing.@
+`“…@Damn it…@ what the hell is going on…!”@
+`I stopped and tried to catch my breath.@
 `My chest heaved as I panted.@
 `I had not noticed until now, but I seemed to have been running for a very long time.@
 `“What time is it…?”@

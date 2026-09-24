@@ -76,7 +76,7 @@ const ModalInfo = ({show, setShow}: ModalInfoProps) => {
 						</div>
 
 						<div>
-							This MAO-TLs edition is an independent retranslation and does not use the legacy mirror moon English script.
+							This MAO-TLs edition contains translation v2.0.0 by GPT-6 Astra. It is an independent retranslation and does not use the legacy mirror moon English script.
 						</div>
 
 						<div>

@@ -5,7 +5,7 @@ bg "bg/bg_06b",notrans,0
 `Not that she can’t get home by herself, but maybe I should check on her just in case.
 \
 bg "bg/bg_11b",lshutter,800
-`I walk down corridors already dark with night.@
+`I walk down corridors already dark.@
 `Akiha’s class was First-Year Class One, wasn’t it?@
 br
 bg #000000,lshutter,400
@@ -19,7 +19,7 @@ ld c,"tachi/aki_t01a",crossfade,400
 `“[line=7]”@
 `For a moment.@ Vertigo.@
 `The classroom is steeped in crimson evening light.@
-`A girl with faintly red, waist-length hair is packing her things to leave.@
+`A girl with long, faintly red hair is packing her things to leave.@
 br
 `She can only be Akiha.@
 `Yet somehow she looks like a stranger—a girl I have never seen before.
@@ -48,7 +48,7 @@ ld c,"tachi/aki_t09",crossfade,400
 bg #000000,lcartain,800
 bg "bg/bg_01b",lcartain,800
 `Akiha and I leave the school building.@
-`The moment we pass the entrance and reach the front gate, I see my upperclassman waving to me.@
+`The moment we pass the entrance and reach the front gate, I see Ciel waving to me.@
 ld c,"tachi/cel_t03",lshutter,800
 `“Ah, there you are at last, Tohno.”@
 `“Oh, hello.@ What are you doing standing around here in a daze?”@
@@ -56,7 +56,7 @@ ld c,"tachi/cel_t08",crossfade,400
 `“Honestly, I wasn’t standing around in a daze.@ I was waiting because I thought you’d come, Tohno[line=3]”@
 cl a,crossfade,400
 `Her eyes move to Akiha beside me.@
-`Apparently one glance is enough for her to deduce the remarkable fact that Akiha and I are going home together.
+`Apparently one glance tells her we’re going home together.
 \
 ld l,"tachi/cel_t03",crossfade,400
 `“Tohno, is this your sister?”@
@@ -81,7 +81,7 @@ ld r,"tachi/aki_t11a",crossfade,400
 cl a,crossfade,400
 `“You made it sound as if you were waiting for me—did something happen?”@
 ld c,"tachi/cel_t03",crossfade,400
-`“Yes, I wanted Tohno to come somewhere with me, but[line=3]”@
+`“Yes, I wanted you to come somewhere with me, but[line=3]”@
 ld c,"tachi/cel_t01a",crossfade,400
 `“[line=3]It’s too late now, so we’ll leave it for another time.@ Goodbye, Tohno.@ I’ll see you tomorrow too, Akiha.”@
 `With a brief farewell, Ciel walks away in the opposite direction.

@@ -14,12 +14,12 @@ br
 `Beneath it stood Arcueid, dressed all in white.
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“It’s been a while.@
-`Beautiful moon tonight, Shiki.”@ “[line=2]Arcueid…@ I thought you’d gone home.”@
+`“It’s been a while.@ Beautiful moon tonight, Shiki.”@
+`“[line=2]Arcueid…@ I thought you’d gone home.”@
 ld c,"tachi/ark_t05c",crossfade,400
 `“No.@ I still haven’t accomplished what I came here to do.@ I can hardly go home now, can I?”@
 br
-`[line=3]Without the slightest ceremony,
+`[line=3]Casually.@
 `Arcueid fixed her crimson eyes on me.
 \
 `“[line=5]!”@
@@ -236,15 +236,15 @@ ld c,"tachi/ark_t07",crossfade,400
 ld c,"tachi/ark_t01a",crossfade,400
 `“I see.@ Then I suppose I’ll have to use force.”@
 br
-`Her heel struck the ground with a hard click.@
+`A hard footstep clicked against the ground.@
 br
 `“You did kill me once, after all.@ I’ve been meaning to return the favor.”@
 cl c,lshutter,400
-`A white shape hurtled at me on a gale of displaced air.@
+`A white shadow rushed at me with a violent gust.@
 playstop
 br
-`[line=4]In that instant,
-`the fight had already begun.
+`[line=4]In that instant.@
+`The fight had already begun.
 \
 bg #000000,lshutter,400
 wave se_12
@@ -268,9 +268,9 @@ wave se_12
 \
 wave se_12
 `Krrrng!@
-`Another parry, and another.@
-`My body moved while my mind did nothing.@
-`My arms, my legs—this whole body—deflected Arcueid’s claws on its own, obeying a single command: I don’t want to die.
+`I parry again.@
+`My body moves.@ I might as well not be thinking at all.@
+`My limbs—my whole body—deflect Arcueid’s claws on their own, obeying one command: I don’t want to die.
 \
 `“Damn[line=5]”@
 `My mouth twisted in bitter amusement.@
@@ -282,9 +282,8 @@ wave se_12
 `I had known from the beginning[line=3]I could never defeat Arcueid.@
 `For one thing, I couldn’t see the lines, my only weapon.@
 br
-`I had no way to harm her.@
-`Arcueid had once told me that at night she became a form
-`of life from which every cause of death disappeared.
+`I have no way to hurt her.@
+`Arcueid once told me that at night she becomes a life with no cause of death.
 \
 `Clang!@
 `My knife was flung aside.@
@@ -361,16 +360,17 @@ br
 `“Then don’t hold back[line=3]let me go.@ Forget about me and hurry home so your daddy won’t worry.”@
 `“But the power was mine to begin with.@ Of course I would want it back.@ More importantly, I like you.”@
 br
-`Her weight ground harder
-`into my shoulders.
+`A grinding creak.@
+`The weight on both my shoulders grows heavier.
 \
 `“Rather than kill you and take Roa into myself, I want to take you in as you are, Shiki.”@
 br
-`I won’t kill you.@
-`Her red eyes pleaded the words.
+`So I won’t kill you.@
+`Her red eyes pleaded it.
 \
-`“I can hardly believe it, but I think I like you.@ So I’ll save you.@ I won’t drink your blood, and I’ll never do anything you hate.”@
-`So please obey me, her crimson eyes said.
+`“I can hardly believe it, but I think I like you.@
+`So I’ll save you.@ I won’t drink your blood, and I’ll never do anything you hate.”@
+`So do as I say, her red eyes told me.
 \
 `[line=3]She meant every word.@
 `But I could not obey.@
@@ -381,14 +381,14 @@ br
 `Her eyes met mine without wavering.@
 `Pinned beneath her, I stared into her face[line=3]earnestly, fiercely enough to burn out my brain.
 \
-`“—I don’t hate you, Arcueid.”@
+`“…@I don’t hate you, Arcueid.”@
 `“Really?”@
 `She asked, delighted.@
 br
 `…@My forehead burned.@
-`Through the sound of my brain boiling, I finally[line=3]
+`Amid the sound of my brain boiling, I saw it clearly[line=3]
 br
-`—saw one solitary “line,”@ one that would make her easy to kill.
+`one solitary “line,”@ one that would make her easy to kill.
 \
 `“But even so, I’m not becoming your puppet!”@
 `“[line=7]!”@
@@ -442,7 +442,7 @@ br
 br
 br
 br
-`“K i l l m e.”@
+`“K i l l…”@
 br
 \
 br
@@ -458,7 +458,7 @@ br
 br
 br
 br
-`“I’ l l d o i t f o r y o u.”@
+`“…@f o r y o u…”@
 br
 \
 br
@@ -474,18 +474,18 @@ br
 br
 br
 br
-`“K i l l m e.”@
+`“K i l l…”@
 br
 \
 br
 `Hah.@ Hah-hah, hah.@ Ah.@ Ahahaha, ha.@
 br
 `White, defiled with blood.@
-`Her face lifted.@
-`An eye appeared between strands of golden hair.@
-`Its pupil was a hollow darkness, black as a skull.@
+`Her face lifts.@
+`An eye shows between strands of golden hair.@
+`Its pupil is a deep, sunken darkness.@
 `Within it.@
-`A red light blazed so brilliantly it seemed capable of scorching me.
+`A red light blazes, bright enough to burn me.
 \
 br
 br
@@ -524,8 +524,8 @@ br
 `I couldn’t move.@
 `Arcueid’s voice, her form, her will[line=3]all of it poured irresistibly into my mind.@
 br
-`The will that was me was swept away.@ Dissolved.@ Flung helplessly about.@
-`The world spun round and round.@
+`The will that was me was swept away.@ Melted.@ Tossed about.@
+`The world spun and spun.@
 br
 `Amid the spinning, an image of her entered me.
 \
@@ -603,9 +603,9 @@ br
 `I opened the gate and slipped onto the grounds.
 \
 bg "bg/bg_02a",crossfade,800
-`“Hah…@ ah.”@
-`The moment I reached the athletic field, my knees gave way.@
-`I sank into the dirt and caught my falling body on both hands.@
+`“Haa……@ah.”@
+`The moment I reached the schoolyard, my knees gave way.@
+`I knelt in the dirt and caught my collapsing body on both hands.@
 wave se_01
 bg #9c0120,crossfade,400
 bg "bg/bg_02a",crossfade,400
@@ -617,10 +617,10 @@ bg "bg/bg_02a",crossfade,400
 `Roa, supposedly living inside me.@
 `…@And the white vampire princess laughing like a lunatic.
 \
-`“[line=4]Guh.”@
-`Bile surged up my throat, filling my mouth with bitterness.@
-`I had eaten nothing all day,
-`so there was nothing to vomit but sour stomach acid.
+`“[line=4]Ghh.”@
+`Stomach acid surged up my throat.@
+`Bitterness flooded my mouth.@
+`I hadn’t eaten all day, so there was nothing to vomit but sour stomach acid.
 \
 `“Hah[line=5]ah.”@
 `Still on my knees, I slammed my forehead into the ground.@
@@ -658,7 +658,7 @@ bg "event/cel_e06",crossfade,1500,bottom
 br
 `“[line=4]What?”@
 br
-`[line=3]But what I saw…
+`[line=3]The woman before me
 \
 bg "event/cel_e06",tscroll,1500,top
 br
@@ -732,10 +732,10 @@ br
 br
 `Still staring straight at me, she gave a tiny laugh.
 \
-`“Your trusting nature deserves to be declared a national treasure.@ Trusting people is admirable, but if you had stopped to think a little more calmly, you might have escaped.”@
+`“Your good nature is practically a national treasure.@ It’s fine to trust people, but if you’d stopped to think a little more clearly, you might have gotten away.”@
 `“What[line=3]?”@
 `“Did you never once wonder why I had infiltrated this school?@
-`I certainly wasn’t doing it because I enjoyed playing student.”
+`I wasn’t doing any of this because I wanted to.”
 \
 `“Ci[line=6]el?”@
 `“You know my purpose is to destroy the Serpent[line=3]Roa.@
@@ -749,7 +749,7 @@ br
 \
 `“—I explained this before, Tohno.@ Roa chooses his reincarnation host according to certain conditions.@
 `That means one need only find a family that satisfies them.@ Once those conditions are known, identifying his reincarnation vessel is easy.@
-`Whether a family had inherited an ancient supernatural bloodline was easy to discover.@ In this city, only one lineage could have served as Roa’s reincarnation host.@
+`Whether a family carries an ancient supernatural gift can be discovered with very little investigation.@ In this city, only one lineage qualified as a possible host for Roa.@
 `So[line=3]I knew who Roa was from the very beginning.”
 \
 `“[line=5]Wh…”@
@@ -782,7 +782,7 @@ br
 `Was this the real Ciel, and had all the kindness she had shown me until now been nothing but[line=4]
 \
 `“Roa’s memories must have flowed into you through SHIKI on several occasions.@
-`Roa is a vampire fashioned from that intangible thing we call a soul.@ To him, the two of you sharing a single life made an ideal dual existence.”
+`Roa is a vampire who refashioned the soul, something with no physical form.@ To him, the two of you sharing a single life made an ideal dual existence.”
 \
 `“So[line=3]even when SHIKI’s body was destroyed, Roa had no need to seek his next reincarnation host.@ In this age, he still had you as a refuge.”@
 `Cold.@
@@ -790,8 +790,8 @@ br
 \
 `“But that ends tonight.@ I had no time to prepare when it all happened so suddenly that night, but tonight is different.@
 `In a sense, I was fortunate.@ Had Arcueid destroyed Roa then and there, he would only have reincarnated again.”@
-`—I couldn’t.@ Believe it.@
-`That[line=3]none of that—
+`…@I couldn’t.@ Believe it.@
+`That[line=3]that[line=3]
 `“[line=4]It’s a lie.”
 \
 `“Go ahead.@ Deny it and keep playing dumb right where you are.@ It will make my work easier.@ Although[line=3]”@
@@ -816,7 +816,7 @@ br
 \
 `“Of course.@ I remained at the school after SHIKI disappeared because Roa had not vanished with him.@ Since Roa was still one of its students, staying here was the most practical choice.”@
 br
-`—There’s no way I would go home and leave you behind, Tohno.@
+`You don’t honestly think I’d go home and leave you behind, Tohno?@
 br
 `She had said that with a smile.@
 `But it had never been for my sake.@
@@ -851,8 +851,8 @@ bg "bg/bg_02a",crossfade,400
 \
 `I had merely believed that I loved her.@
 `That she loved me.@
-`What a joke.@
-`It had all been an illusion conjured by an act.@
+`…@What a joke.@
+`It had all been an illusion born of playacting.@
 br
 `[line=4]All of it.@
 `Nothing but a fairy tale built out of lies[line=2]
@@ -986,7 +986,7 @@ br
 br
 `Boom.@
 br
-`Rising from almost directly below, her bayonet drove with breathtaking accuracy through the flesh near my throat.
+`Her bayonet thrust up from almost directly below and pierced my throat with almost beautiful precision.
 \
 bg "bg/bg_02a",lshutter,400
 wave se_05
@@ -1273,7 +1273,7 @@ br
 br
 `…@I could no longer think clearly.@
 `My nerves had long since worn through and were beginning to burn out.@
-`Arcueid had attacked me, and I had cut her throat.@ I had somehow escaped, only to find Ciel waiting for me.
+`Arcueid had attacked me, and I had cut her head off.@ I had somehow escaped, only to find Ciel waiting for me.
 \
 `“Ha, haha, ha.”@
 `It was almost astonishing.@
@@ -1342,8 +1342,8 @@ br
 `her[line=4]
 `“If you don’t want Ciel to kill you—”@
 !w750
-`up[line=4] “then keep your mouth shut until this is over,
-`Roa.”@
+`up[line=4]
+`“Then keep your mouth shut until this is over, Roa.”@
 !w750
 `[line=5]
 \

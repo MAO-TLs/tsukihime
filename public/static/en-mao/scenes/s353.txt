@@ -4,7 +4,7 @@ bg #9c0120,notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
 play "*1"
-`“[line=4]What nonsense”@
+`“[line=4]What nonsense.”@
 `No, I am merely tired.@
 `I still have not shaken what happened with Yumizuka.@
 `I have not become a vampire.@ I should still be an ordinary human being.@
@@ -12,10 +12,10 @@ br
 bg "bg/ima_13b",notrans,0
 wait 100
 bg "bg/bg_40a",notrans,0
-`And yet another me roams the streets every night in search of blood.@
+`And yet I roam about every night in search of blood.@
 br
-`Then, perhaps.@
-`Without my even realizing it, I have already gone too far to return[line=4]
+`Then, could it be…?@
+`Could I be the only one who hasn’t noticed?@ Perhaps I’ve already gone past the point of no return[line=4]
 \
 wave se_04
 ld c,"tachi/his_t12",lshutter,400
@@ -27,13 +27,13 @@ ld c,"tachi/his_t16b",crossfade,400
 cl a,crossfade,400
 `She is the very opposite of the dream, so pure that looking at her eases the dread in my chest.
 \
-`“Do not worry, I only just woke up.@ Good morning, Hisui.@ Thank you for coming to wake me again today.”@
+`“No, don’t worry.@ I only just woke up.@ …@Um, good morning, Hisui.@ Thanks for coming to wake me again today.”@
 ld c,"tachi/his_t04",crossfade,400
 `“Good morning.”@
 `Hisui bows again, then approaches the bed.@
 ld c,"tachi/his_t01",crossfade,400
 `“I brought you something to drink.@ If you are feeling unwell, please have some.”@
-`Hisui had brought a drink on a silver tray.@ The tray even held what looked like medicine.
+`Hisui has brought a drink on a silver tray.@ There is even what looks like medicine on it.
 \
 `“…?@ What’s wrong, Hisui?@ You’ve never brought me medicine before.”@
 ld c,"tachi/his_t17",crossfade,400
@@ -45,38 +45,38 @@ ld c,"tachi/his_t04",crossfade,400
 \
 cl a,crossfade,400
 `I swallow the medicine with the water she offers.@
-`Whatever I think of the medicine, the water is a blessing.@
-`Just as Hisui said, my whole body feels feverish and my throat is parched.@
-`Plain water has never tasted so good.
+`Whatever the medicine might do, I am grateful for the water.@
+`It must be because my whole body feels feverish, just as Hisui said, and my throat is parched.@
+`It is only water, but it tastes wonderful.
 \
 ld c,"tachi/his_t01",crossfade,400
 `“If you feel well enough, please come to the dining room.@ If not, I ask that you remain home today.”@
 `“No, I’m going to school.@ If I started staying home over something like this, there’d be no end to it.”@
 ld c,"tachi/his_t17",crossfade,400
-`“But you are still very pale, Master Shiki.”@
-`“I said I am fine.@ Besides, school is closed tomorrow.@ If I can rest then, I can push myself today, can I not?”@
+`“…@But you still look pale, Master Shiki.”@
+`“I’m fine, really.@ Besides, we don’t have school tomorrow.@ I can rest then, so it won’t hurt to push myself today, will it?”@
 ld c,"tachi/his_t05",crossfade,400
-`“…”@
-`Hisui lowers her head, plainly wanting to say something.@
-`Do I really look that bad?
+`“……………”@
+`Hisui lowers her head as though she wants to say something.@
+`Do I really look that pale?
 \
 `“Hisui, tell me something.@ Was I really having that bad a nightmare?”@
 ld c,"tachi/his_t17",crossfade,400
 `“[line=3]Yes.@ I do not know when you returned, but you were sleeping as though exhausted.@
-`Each morning I enter to open Master Shiki’s curtains, and from the moment I arrived your breathing was labored.”@
-`I see.@ A dream like that would make anyone suffer—but wait.
+`I come into your room each morning to open the curtains.@ Even then, your breathing was labored and you seemed distressed.”@
+`…@I see.@ With a dream like that, of course I would be suffering…@no, wait a minute.
 \
 `“[line=3]Hisui.@ What did you just say?”@
 ld c,"tachi/his_t01",crossfade,400
-`“That Master Shiki appeared unwell from early this morning.”@
-`“Not that—the part before it!@ Where did I come back from?”@
-`“[line=3]I do not know.@ My sister only saw Master Shiki leaving the mansion during her rounds.”@
-`“Me, leaving?”@
-`“Yes.@ My sister and I make rounds of the mansion every three hours.@ She had the late-night round last night, and she saw Master Shiki leave the estate.”
+`“I said that you seemed to have been unwell since early this morning.”@
+`“Not that, before it!@ You said I came back—back from where!?”@
+`“[line=3]I do not know.@ My sister simply saw you going out while she was making her rounds of the mansion.”@
+`“I went out…?”@
+`“Yes.@ My sister and I are entrusted with making rounds every three hours.@ My sister was on duty late last night.@ She said she saw you leave the mansion then.”
 \
 `“Wha[line=3]”@
-`“Since Master Shiki returned by morning, my sister did not report it to Miss Akiha.@
-`My sister is lenient with Master Shiki, so she must mean to keep it secret.”@
+`“You seem to have returned by morning, so my sister has not told Miss Akiha.@
+`…@My sister has a soft spot for you, Master Shiki.@ I imagine she intends to keep it to herself.”@
 cl a,crossfade,400
 `“[line=7]”@
 `Wh[line=3]what does that mean?@
@@ -89,8 +89,8 @@ cl a,crossfade,400
 `Dreams vanish when one wakes, so why can I still remember every detail so clearly[line=3]
 \
 ld c,"tachi/his_t01",crossfade,400
-`“Master Shiki[line=3]?@ You still look unwell, so what would you like me to do?”@
-`“I am fine.@ Go on ahead, Hisui.@ I will be down in a minute.”@
+`“Master Shiki[line=3]?@ You still look pale.@ What would you like me to do?”@
+`“…@Oh, yes, I’m fine.@ I’m fine, so go on ahead, Hisui.@ …@Really, I’m fine.@ I’ll be there soon.”@
 ld c,"tachi/his_t16",crossfade,400
 `“Very well.@ I shall await you in the dining room.”@
 cl a,crossfade,400

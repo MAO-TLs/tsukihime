@@ -8,7 +8,7 @@ bg "bg/bg_40a",notrans,0
 bg #000000,lcartain,800
 bg "bg/bg_34a",lcartain,800
 ld c,"tachi/koha_t03",lshutter,800
-`“Good morning, Master Shiki.@ You’re up early today.”@
+`“Good morning, Shiki.@ You’re up early today.”@
 `Kohaku greets me with a smile the moment she sees me.@
 `“Morning, Kohaku.@ Is Akiha awake yet?”@
 `“Yes, she’ll be here shortly.@ You’ll be able to have breakfast together this morning.”@
@@ -33,7 +33,7 @@ ld c,"tachi/aki_t13a",crossfade,400
 `Last night must still be weighing heavily on her; she can’t seem to settle.
 \
 `Then,
-`“Master Shiki, Miss Akiha, breakfast is ready!”@
+`“Shiki, Miss Akiha, breakfast is ready!”@
 `Kohaku’s irrepressibly bright voice rings out.
 \
 `“Let’s eat for now.@ Come to think of it, this will be the first time we’ve had breakfast together.”@
@@ -49,13 +49,13 @@ bg #000000,tshutter,800
 bg "bg/bg_34a",bshutter,400
 `Breakfast over, I return to the sitting room.@
 `It is seven twenty.@ If we want an easy walk to school, we need to leave now.@
-`Already prepared, Akiha sits on the sofa watching the clock.@
+`Akiha sits on the sofa watching the clock, apparently ready to leave.@
 br
 `Then again, Akiha has always traveled to school by car.@ Perhaps she intends to do the same here.
 \
 `“Akiha.@ Just to make sure—you’re walking to school, aren’t you?”@
 ld c,"tachi/aki_t13a",crossfade,400
-`“Of course.@ Arriving at your school in a chauffeured car would be an appalling display.@ Even I understand that much.”@
+`“Of course.@ Arriving at your school by car would look like showing off.@ Even I understand that much.”@
 `I see.@ Then we’ll be leaving together.@
 `“We should get going.@ At this hour we can take our time.”
 \
@@ -73,19 +73,19 @@ bg #000000,lcartain,800
 play "*3"
 bg "bg/bg_01a",rcartain,800
 `Matching Akiha’s pace, I walk leisurely to school.@
-`We arrive at ten to eight.@ There is plenty of time before homeroom.@
+`We arrive just before 7:50.@ There is plenty of time before homeroom.@
 br
 `“Right on time.@ If we walked a little faster, we could leave at seven thirty and still[line=3]Akiha?”@
 ld c,"tachi/aki_t01a",crossfade,400
 `“…”@
-`Akiha stares at the school gate as though she has never seen anything like it.
+`Akiha stares at the school gate as though she is looking at something strange.
 \
 `“What is it?@ See something odd?”@
 ld c,"tachi/aki_t16a",crossfade,400
 `“Oh[line=3]no, nothing.@ Yesterday I arrived before the other students, so this is my first time seeing everyone come to school like this.”@
 cl c,crossfade,400
 br
-`I see.@ She attended boarding schools from childhood, so the sight of a crowd of students arriving for the day is unfamiliar to her.
+`I see.@ She attended boarding schools from childhood, so she seems unused to the sight of so many students arriving for the day.
 \
 `“Don’t be silly; why talk as if you’re an outsider?@ You’ve been a student here since yesterday.@ There’s no need to hang back.”@
 ld c,"tachi/aki_t12a",crossfade,400
@@ -100,18 +100,18 @@ cl c,crossfade,400
 `“…?”@
 `I do not really understand what she means.@
 `But standing frozen at the gate is drawing far too much attention.@
-`Every student who passes has been staring at Akiha, enough to make even me self-conscious.@
+`The students arriving have been staring at Akiha, enough to make even me self-conscious.@
 `“Come on—let’s get inside.”@
 `I take her hand and lead her through the gate.@
 bg "bg/bg_03a",lshutter,800
-`We head toward the entrance hall.@
+`We pass through the front gate and head for the entrance hall.@
 `This is where Akiha and I part ways: her classroom is on the fourth floor, mine on the third.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“Well, Brother, the first-year classrooms are upstairs.@ I suppose this is goodbye until after school.”@
 `“What are you talking about?@ Lunch comes first; I’ll wait in the courtyard, so don’t be late.”@
 ld c,"tachi/aki_t12a",crossfade,400
-`“Ah[line=5]yes; I’ll be there.”@
+`“Ah[line=5]yes; I’ll be waiting.”@
 cl c,lshutter,800
 br
 `Akiha gives an unexpectedly sweet little bow, then hurries into the entrance hall.

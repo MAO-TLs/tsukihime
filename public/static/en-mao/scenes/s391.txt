@@ -74,16 +74,16 @@ ld c,"tachi/his_t01",lshutter,400
 `“Good morning, Master Shiki.@ You’re already awake this morning.”@
 `“Yeah.@ Morning, Hisui.”@
 `The sliding stops.@
-`Her voice arrests the sickening illusion that the floor is slipping sideways beneath me.
+`Her voice stops the illusion that I’m sliding out of alignment with my own body.
 \
 !w2000
 ld c,"tachi/his_t04",crossfade,400
 `“Master Shiki?”@
 `“What[line=5]is it, Hisui?”@
-`“That is what I should be asking you.@ Are you unwell?@ You have not said a word since I came in.”@
+`“That is what I should be asking you.@ Are you unwell?@ You have been silent for some time.”@
 `“No, I was just admiring you.@ I know, I have to get to school.@ I’ll be in the sitting room in a minute, so could you go on ahead?”@
 ld c,"tachi/his_t07",crossfade,400
-`“Master Shiki.@ If you are feeling unwell, please do not overexert yourself.@ School is important, but not more important than Master Shiki’s health.”
+`“Master Shiki.@ If you are feeling unwell, please do not overexert yourself.@ School is important, but not more important than your health.”
 \
 `“Come on, Hisui.@ I’m not missing school.@ There’s nothing wrong with me, so don’t spoil me too much.”@
 ld c,"tachi/his_t01",crossfade,400
@@ -145,7 +145,7 @@ cl l,lshutter,800
 ld r,"tachi/aki_t01a",crossfade,400
 `“Brother?@ What’s wrong?@ You never go quiet without answering back; are you feeling ill?”@
 `“Honestly.@ What do you and Hisui think I am?@ I only just woke up and my throat is dry; there’s nothing wrong with me!”@
-`I shout without thinking, as though the force of my denial could drive out the nausea.
+`I shout without thinking, as though denying the nausea inside me.
 \
 ld r,"tachi/aki_t12a",crossfade,400
 `“I’m sorry, Brother.@ I suppose being fussed over at every turn cannot be pleasant.”@

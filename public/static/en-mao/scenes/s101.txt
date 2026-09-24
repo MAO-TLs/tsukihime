@@ -58,7 +58,7 @@ bg "bg/cmo_17",crossfade,400
 br
 `[line=4]That’s it.@
 `That has to be his weak point, the place where death comes easiest.@
-`It feels wrong that it’s a point rather than a line, but never mind[line=4]I drive my knife straight through it!
+`It feels wrong that it’s a point rather than a line, but never mind[line=4]I have to drive my knife through it!
 \
 `I plant my foot and lunge.@
 `The knife in my right hand flashes toward Nrvnqsr’s point.@
@@ -101,7 +101,7 @@ bg "bg/ima_14",crossfade,400
 `I slash through a line on its body.@
 `But it is only a line.
 \
-`Only the dog’s forelegs come off.@
+`Only two of the dog’s legs come off.@
 `Its charge doesn’t slow.@
 `“Guh[line=4]”@
 `With a sodden thud.@
@@ -133,12 +133,12 @@ br
 \
 bg "bg/bg_29c",crossfade,400
 ld c,"tachi/nero_t02a",crossfade,400
-`“A familiar of yours?@ A pity.@ Anything that enters my domain will be detected and destroyed by one of us, whether I notice the intruder or not.@ An ambush could never succeed against me.”@
+`“A familiar of yours?@ A pity.@ Anything that enters my domain will be detected and intercepted by one of us, whether I notice the intruder or not.@ An ambush could never succeed against me.”@
 cl c,crossfade,400
 ld c,"tachi/ark_t05c",crossfade,400
 `“So I see.@ You never once looked away from me, yet still you answered a threat from behind.@ I suppose that is the strength of a collective, Nrvnqsr Chaos.”@
 cl c,lshutter,800
-`Arcueid narrows her eyes almost imperceptibly, then walks unsteadily toward Nrvnqsr.
+`Arcueid narrows her eyes a fraction, then begins walking toward Nrvnqsr with an unhurried sway.
 \
 ld c,"tachi/nero_t01b",crossfade,400
 `“[line=3]Interesting.@ You have decayed so far that you cannot even call forth your Marble Phantasm, yet you would challenge me as you are?”@
@@ -159,14 +159,14 @@ br
 `Three beasts thunder toward Arcueid with the speed of bullets.
 \
 `They aren’t black dogs.@
-`They’re panthers—three of them, each larger than Nrvnqsr himself, their silhouettes vicious enough to belong to demons.
+`They’re leopards—three of them, each larger than Nrvnqsr himself, their silhouettes vicious enough to belong to demons.
 \
 `“[line=6]”@
 `Arcueid cannot move.@
-`The three panthers crack the brickwork underfoot merely by running across it.@
+`The three leopards crack the brickwork underfoot merely by running across it.@
 `They are many times faster than she is as she tries to escape.@
 br
-`[line=3]The three savage beasts tear into Arcueid.@
+`[line=3]The three savage beasts throw themselves onto Arcueid.@
 !w2000
 br
 `And just like that, it is over.
@@ -175,7 +175,7 @@ bg "bg/ima_12b",notrans,0
 wait 100
 bg "event/ark_e03",notrans,0
 `In a single instant.@
-`All three panthers are torn in half through the torso and sent tumbling across the ground.@
+`All three leopards are torn in half through the torso and sent tumbling across the ground.@
 br
 `“[line=3]What…?”@
 `Nrvnqsr’s voice rings out.@
@@ -185,9 +185,9 @@ br
 `“[line=4]!”@
 `Another beast bursts from Nrvnqsr’s body.@
 br
-`The instant the lion emerges, Arcueid seizes it by the face and rips it bodily out of him.@
+`The instant the lion emerges, Arcueid seizes its face and tears its head from its body.@
 br
-`A panther springs at her; her fist punches through its brow, killing it outright.@
+`A leopard springs at her; her fist punches through its brow, killing it outright.@
 br
 `She tears a tiger’s torso apart as though it were molded from clay.@
 `Everything that follows meets the same fate.
@@ -220,7 +220,7 @@ br
 `So much for Arcueid barely being able to move.@
 `The beasts Nrvnqsr sent from his body were anything but weak.@
 `A single lion or tiger could reduce a car to scrap in seconds.@
-`A grizzly is violence made flesh—strong enough to overturn a tank and mangle it.@
+`A grizzly is violence made flesh—it might even overturn a tank and reduce it to scrap.@
 `Yet every one of those monsters was helpless before Arcueid, and Nrvnqsr himself is already at death’s door.
 \
 `“Ha[line=7]”@
@@ -239,7 +239,7 @@ br
 br
 `“Haaah[line=4]haaah[line=4]haaah.”@
 `Why?@
-`Arcueid sounds as though she is suffering even more than Nrvnqsr, whose body has been torn in half.@
+`Arcueid’s breathing sounds even more labored than Nrvnqsr’s, though his body has been torn in half.@
 cl c,crossfade,800
 \
 play "*6"
@@ -249,8 +249,8 @@ ld c,"tachi/nero_t02d",crossfade,400
 cl c,crossfade,800
 `There is not a trace of distress in Nrvnqsr’s voice.@
 br
-`[line=4]Something is wrong.@
-`A horribly hopeless premonition comes over me.@
+`[line=4]Somehow.@
+`I have a terrible feeling that there is no hope.@
 br
 `“Haaah[line=4]haah.”@
 `Slowly mastering her breath, Arcueid continues toward Nrvnqsr.
@@ -321,14 +321,14 @@ br
 `And yes.@ A life reduced to that state has no meaning.@ Life-forms that might be called perpetual-motion machines already dwell in the deepest seas.@ In time, this body too will lose its intellect and degenerate into nothing more than a specimen.”
 \
 `“But is it not magnificent?@
-`Things with no predetermined form whirl within me.@ A miniature world: the primordial world itself.@
+`Things whose forms I cannot predict whirl within me.@ A miniature world: the primordial world itself.@
 `A chaotic realm where no one can foresee what living thing will arise.@
 `A darkness that shares the phylogenetic tree of every creature now upon this planet, yet still bears the possibility of dramatic change.@
 `I wish to know what waits at its end before the last of me disappears.”
 \
 `“Thus the Church gave me this name.@
 `[line=4]Nrvnqsr Chaos.@
-`A heretic armed with six hundred sixty-six beasts within his body—no longer a vampire at all, but merely a space filled with chaos.”@
+`A heretic who has trespassed upon the forbidden, armed with six hundred sixty-six beasts within his body—no longer a vampire at all, but merely a space filled with chaos.”@
 br
 `“[line=6]!”@
 `Arcueid’s voice is smothered.@
@@ -336,12 +336,12 @@ br
 `Now barely half her face is visible.@ The rest has vanished beneath it[line=4]
 \
 ld c,"tachi/nero_t02b",crossfade,400
-`“That concludes the lesson.@ Not even you can escape that cage.@ It is the Soil of Genesis, kneaded from the united substance of five hundred of my other selves.@
+`“That is all.@ Not even you can escape that cage.@ It is the Soil of Genesis, kneaded from the united substance of five hundred of my other selves.@
 `Even at the height of your power, you could not destroy it.@ [line=3]To do so would be to destroy an entire continent.”@
 br
 `Reduced to half a body, Nrvnqsr advances slowly toward Arcueid.
 \
-`“Since your advent, how many of my brethren have you buried, and how many of my forebears sought to destroy you only to have that doom visited upon themselves?@
+`“Since your advent, how many of my brethren have you buried, and how many of those who came before me sought to destroy you only to have that doom visited upon themselves?@
 `[line=4]But it ends here.@
 `Nrvnqsr Chaos has achieved what none before him could.”
 \
@@ -358,10 +358,10 @@ ld c,"tachi/nero_t02d",crossfade,400
 `“The Serpent was my sworn ally.@ My curiosity as to why you hunted him with such singular hatred remains unsatisfied[line=3]but it seems you can no longer speak.”@
 br
 `The black slime burbles as it binds every inch of Arcueid.@
-`What lies there is no longer the body of a woman named Arcueid; it is only a formless mound of mud.
+`What lies there is no longer the body of a woman named Arcueid.@ Only a shapeless mass of mud remains.
 \
-`“[line=3]Now you will become one of me, Arcueid Brunestud.@
-`Absorbing a consciousness as mighty as yours will be arduous, but once it is done, I shall stand at the summit of all vampiric species.@ A measure of pain will only sweeten the celebration of my birth.@
+`“[line=3]You shall become another life within me, Arcueid Brunestud.@
+`Absorbing a consciousness as mighty as yours will be arduous, but once it is done, I shall stand at the summit of all vampiric species.@ What is a little pain but a celebration of my birth?@
 `Then[line=3]even the accursed killers of the Burial Agency will inspire no fear.@ That mold-ridden Church and every soul connected to it shall be exterminated.”
 \
 cl c,crossfade,400
@@ -385,7 +385,7 @@ br
 `“Ghk[line=3]!”@
 `Fighting down the pain that lances through my skull, I slash with the knife.@
 wave se_12
-`Once its line is cut, the black liquid loses its power and becomes no more than ordinary water.
+`Once its line is cut, the black liquid becomes something like ordinary water.
 \
 waveloop se_02
 `“All right…!”@
@@ -399,7 +399,7 @@ br
 `Even Arcueid[line=3]for all her terrifying strength, failed to corner him.
 \
 `If someone like me challenges him, won’t I simply die on the spot?@
-`It took everything I had to kill one black dog; I wouldn’t last a second against anything stronger—a lion or a panther.
+`It took everything I had to kill one black dog; I wouldn’t last a second against anything stronger—a lion or a leopard.
 \
 `Besides.@
 `The hundreds of points of death I saw on his back.@
@@ -571,7 +571,7 @@ br
 \
 `“Let Arcueid go, monster.”@
 `“[line=5]”@
-`“I said let her go.@ I’m your opponent now.@ Fighting with half a body would hardly be fair, would it?”@
+`“I said let her go.@ I’m your opponent now.@ Half a body won’t be enough.”@
 `“[line=5]”@
 `Silence.@
 `The vampire in the black coat looks from Arcueid to me without a word.
@@ -603,7 +603,7 @@ bg #000000,crossfade,400
 `Even if each were insignificant alone, one human against nearly a hundred would be no more than a sugar cube beneath a swarm of ants.
 \
 `“What[line=3]”@
-`I drive my knife into the throat of the black dog lunging at my face.@
+`I drive my knife into the neck of the black dog rushing toward me.@
 wave se_06
 `Once I sever its death, the black dog dies on the spot.@
 br
@@ -612,7 +612,7 @@ wave se_10
 `Something scrapes against bone, tearing the flesh from my temple all the way down to the skull.
 \
 `“Tch[line=3]!”@
-`There is no time to suffer.@
+`There is no time to dwell on the pain.@
 `As the wings beat above me, black dogs close from both sides and sink their teeth into my arms and stomach.@
 bg "bg/ima_13",lshutter,400
 `“You bastards[line=3]!”@
@@ -620,7 +620,7 @@ wave se_07
 `Slash, slash.@
 `I pierce the deaths of two dogs within my sight.@
 `It isn’t nearly enough.@
-`For every beast I kill, ten more pick pieces from my body.
+`For every beast I kill, at least ten more pick pieces from my body.
 \
 bg #000000,crossfade,800
 wave se_01
@@ -629,7 +629,7 @@ wave se_01
 `I can’t see anything.@
 `Everything is black.@
 `There is nothing wrong with my eyes.@
-`The swarm of black beasts around me[line=3]has swallowed the world.
+`Everything around me is black[line=3]black with beasts.
 \
 `“[line=5]Aaaaaagh!”@
 `I can’t go on like this.@

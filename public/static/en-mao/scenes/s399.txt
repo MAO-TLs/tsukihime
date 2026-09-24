@@ -4,21 +4,21 @@ bg #000000,notrans,0
 `I cannot wake.@
 `I remain submerged in a dark dream, with no sign of ever waking.@
 br
-`[line=3]A chill went through me.@
-`There was no reason for it, no evidence at all.@
-`Yet I knew I would remain trapped in this dream forever.
+`[line=3]A chill runs through me.@
+`For no reason, with no real evidence.@
+`Yet I know I will never wake from this dream.
 \
 !w5000
 `“Master Shiki, it is time to wake.@ If you do not get up, you will be late for school.”@
 bg "bg/bg_40a",notrans,0
 play "*2"
 `“[line=9]What?”@
-`Hisui stood before me.@
-`I was in my own room, and the weather outside was almost absurdly beautiful.@
+`Hisui stands before me.@
+`I am in my own room, and the weather outside is almost absurdly beautiful.@
 `“Hi—sui?”@
 ld c,"tachi/his_t01",lshutter,400
 `“Good morning, Master Shiki.@ We are running later than usual today, so please come to the sitting room at once.”@
-`Hisui spoke in the same calm, even voice as always.
+`Hisui speaks in the same calm, even voice as always.
 \
 `“Hah[line=7]”@
 `With that, everything vanishes.@
@@ -31,17 +31,17 @@ ld c,"tachi/his_t01",lshutter,400
 `“No, that isn’t it.@ [line=3]Good morning, Hisui.@ I’m so glad you’re here.”@
 ld c,"tachi/his_t02",crossfade,400
 `“Oh[line=4]yes.@ Thank you, Master Shiki.”@
-`A faint blush touched Hisui’s cheeks as she bowed.@
+`A faint blush touches Hisui’s cheeks as she bows.@
 `“No, that isn’t it.@ I’m the one who should be thanking you[line=5]wait, it’s already seven thirty!@ Sorry, I’ll get up now; go ahead to the sitting room!”@
 `“Very well; I shall wait for you there.”@
 cl c,lshutter,400
-`As Hisui left, I changed out of my pajamas and into my school uniform.
+`As Hisui leaves, I change out of my pajamas and into my school uniform.
 \
 bg #000000,crossfade,800
 !w1000
 bg "bg/bg_32a",lcartain,800
-`I sprang out of bed, ate a little of the breakfast Kohaku had made, and reached the front door.@
-`The entire operation took less than ten minutes.@
+`I spring out of bed, eat a little of the breakfast Kohaku has made, and reach the front door.@
+`The whole thing takes less than ten minutes.@
 br
 `“I’m off.@ See you later, Hisui!”@
 ld c,"tachi/his_t01",lshutter,400
@@ -54,52 +54,52 @@ bg "bg/bg_03a",lshutter,400
 wave se_03
 !w2000
 `“Made it…”@
-`I paused to catch my breath.@
-`That only meant I had beaten the closing of the school gates; I still had to sprint all the way to my classroom.
+`I stop to catch my breath.@
+`I’ve only beaten the closing of the school gates, though.@ I still have to sprint all the way to my classroom.
 \
 bg "bg/bg_06a",lshutter,400
 `“Hah…”@
-`Our homeroom teacher had not arrived yet.@
-`I dropped into my seat and tried to bring my ragged breathing under control.@
-`The classroom was livelier than usual.@
-`Tomorrow was the school’s anniversary and therefore a holiday; perhaps everyone had already slipped into a Saturday mood.
+`Our homeroom teacher hasn’t arrived yet.@
+`I sit down and catch my breath after running all the way.@
+`The classroom is livelier than usual.@
+`Tomorrow is the school’s anniversary, so we have the day off.@ Maybe everyone already feels as though it’s Saturday.
 \
 bg #000000,crossfade,800
 playstop
 !w2000
 bg "bg/bg_06b",crossfade,400
-`Classes ended.@
-`I had no reason to remain at school, so I decided to return to the mansion.
+`Classes are over.@
+`There’s nothing I need to stay at school for, so I’ll head back to the mansion.
 \
 bg #000000,lcartain,800
 bg "bg/bg_23b",lcartain,800
-`“Last night’s dream.”@
-`I had certainly dreamed of killing someone here.@
-`I had done what I could to avoid dreaming again, but perhaps there was no escaping myself.@
-`“[line=5]Damn.”@
-`I grind my teeth.@
-`I am disgusted by my own fear.@
+`“Last night’s dream…”@
+`I certainly dreamed of killing someone here last night.@
+`I did what I could to avoid dreaming again, but perhaps there’s no escaping myself.@
+`“[line=5]Kh.”@
+`I clench my teeth.@
+`I’m disgusted at myself for losing my nerve.@
 `It was only a dream.@
-`Dreaming anything so grotesque was certainly abnormal, but for now, at least, I still believed myself sane.
+`There’s something wrong with having a dream like that, but for now, at least, I think I’m still sane.
 \
 bg "bg/bg_22b",lshutter,800
-`My father was his own man.@
-`I knew nothing about this Tohno blood.@
-`But while I could still call myself sane, I did not want to burden Akiha and the others.@
-`I would have to act as normally as possible, carry on as before, and somehow find a solution[line=3]
+`My father is my father.@
+`I don’t know what this Tohno blood is supposed to be.@
+`But while I still have my sanity, I don’t want to cause trouble for Akiha and the others.@
+`I’ll have to carry on as normally as I can and somehow find a solution[line=3]
 \
 bg #000000,lcartain,800
 bg "bg/bg_33b",lshutter,800
 play "*3"
 ld c,"tachi/his_t01",lshutter,400
 `“Welcome home, Master Shiki.”@
-`The moment I opened the front door, Hisui greeted me with a formal bow.@
+`As soon as I open the front door, Hisui greets me politely.@
 `“I’m back.@ I’m going straight to my room, so you can return to your work.”@
 `“Very well.@ I shall resume cleaning the sitting room; please call for me if you need anything.”@
 cl c,lshutter,400
 `“Hisui’s cleaning the sitting room…”@
-`Kohaku was nowhere in sight, but she was probably cleaning the back garden or out shopping.@
-`Akiha did not seem to be home yet either, so I decided to return to my room.
+`There’s no sign of Kohaku.@ She’s probably cleaning the back garden or out shopping.@
+`Akiha doesn’t seem to be home yet either, so I’ll go back to my room for now.
 \
 bg "bg/bg_40b",lshutter,800
 `I put down my bag and change into casual clothes.@

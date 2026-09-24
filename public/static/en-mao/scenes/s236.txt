@@ -4,7 +4,7 @@ bg #ffffff,crossfade,800
 br
 `[line=5]A voice.@
 br
-`“Please hold on.@ I’ll bring you something to drink at once.”@
+`“Please stay with me.@ I’ll bring you something to drink.”@
 br
 `[line=5]A presence receding into the distance.@
 br
@@ -76,7 +76,7 @@ cl c,lshutter,800
 `Hisui quietly withdrew.
 \
 `Honestly, I was a little touched.@
-`I had thought Hisui was simply an emotionless girl, but perhaps she was only bad at showing what she felt.@
+`I had thought Hisui was simply expressionless.@ Perhaps she was only bad at showing what she felt.@
 `Imagining her panicking merely because I was having a nightmare brought an involuntary smile to my face.@
 `At this rate, perhaps seeing Hisui smile wouldn’t be so difficult after all.
 \
@@ -106,7 +106,7 @@ wavestop
 \
 `Usually the scar hurt after I saw a traffic accident or the corpse of an animal.@
 `Images of blood and death must call up the accident from eight years ago.@
-`“Was it because of last night?”@
+`“So it’s because of last night…”@
 `A red alley.@
 `Yumizuka’s smile as she spoke to me there as casually as ever.
 \
@@ -133,7 +133,7 @@ ld c,"tachi/aki_t01a",lshutter,400
 `Still seated on the sofa, Akiha studied my face as she greeted me.@
 `“Morning, Akiha.”@
 `I answered and continued toward the dining room.@
-`There wasn’t enough time to sit and chat with her[line=3]and I had no room in me to talk to anyone anyway.
+`There was no time to sit and talk with Akiha[line=3]and I myself was in no state to talk to anyone.
 \
 `“Brother, I need to speak with you[line=3]do you have a moment?”@
 `“All right, but I’m short on time, so make it quick.”@
@@ -141,12 +141,12 @@ ld c,"tachi/aki_t01a",lshutter,400
 ld c,"tachi/aki_t02",crossfade,400
 `“Then I’ll ask you plainly, Brother—where did you go last night?”@
 `Akiha questioned me with an unwavering gaze.@
-`Kohaku had probably kept my secret, but there was no hiding an absence of nearly two hours from the mansion.
+`Kohaku had probably kept my secret, but perhaps there was no hiding the fact that I’d been away for nearly two hours.
 \
-`“Nowhere.@ I was only walking around town.@ I’m sorry I came home late, but it’s hardly a catastrophe.”@
+`“Nowhere special.@ I was only walking around town.@ I’m sorry I came home late, but it’s not such a big deal.”@
 `I didn’t want to lie to Akiha, so I made my answer as vague as possible.@
 ld c,"tachi/aki_t03a",crossfade,400
-`“Only walking around town?@ That is serious.@ You’re still a minor, Brother, so please don’t stay out in the city at night—especially when it has become so dangerous.”@
+`“Only walking around town?@ That is a big deal.@ You’re still a minor, Brother, so please don’t stay out in the city at night—especially when it has become so dangerous.”@
 wave se_01
 `“Ah[line=7]”
 \
@@ -158,9 +158,9 @@ cl c,lshutter,400
 `That description fit yesterday’s Yumizuka perfectly[line=4]
 \
 ld c,"tachi/aki_t12a",crossfade,400
-`“I shouldn’t have to remind you, but your health can’t bear this kind of strain, Brother.@
-`I can’t simply watch you come home looking as exhausted as you did last night.@
-`If something is troubling you, please tell me.@ I may not be much help, but if I’m enough…”@
+`“I shouldn’t have to tell you this, Brother, but you can’t push yourself so hard.@
+`When you come home looking so…@ so exhausted, as you did last night, I don’t know what to do.@
+`If something is troubling you, please tell me.@ I may not be much help, but if you’d be willing to talk to me…”@
 br
 `[line=3]I didn’t want to think it, but…@
 br
@@ -177,7 +177,7 @@ ld c,"tachi/aki_t02",crossfade,400
 `“You truly refuse to tell me what happened, Brother?”@
 `“Yes.@ It has nothing to do with you.”@
 `I could think of nothing but Yumizuka.@
-`Desperate to be alone, I gave her that cruel answer.
+`I wanted to be alone, and that was what I said.
 \
 ld c,"tachi/aki_t01a",crossfade,400
 `“[line=3]So you intend to do exactly as you please, regardless of anyone else, Brother?”@
@@ -189,13 +189,13 @@ cl c,lshutter,800
 ld c,"tachi/his_t01",lshutter,400
 `“Master Shiki.@ Are you certain that was wise?”@
 `“What do you mean?”@
-`“I believe Miss Akiha is deeply worried for Master Shiki.@ She is not someone who puts her feelings into words, so they may be difficult for Master Shiki to see[line=3]”@
-`“I know.@ But my head is too full right now.@ I know I’ve hurt her.”@
+`“I believe Miss Akiha is deeply worried about you, Master Shiki.@ She rarely puts her feelings into words, so it may be difficult for you to see[line=3]”@
+`“I know.@ But my head is too full right now.@ I feel bad about how I treated her.”@
 `“…”@
 cl c,lshutter,400
 `Hisui fell silent.@
 br
-`“Master Shiki—breakfast is ready!”@
+`“Shiki—breakfast is ready!”@
 `Kohaku called from the dining room.@
 `I rose and went in.
 \
@@ -234,7 +234,7 @@ bg #000000,lcartain,800
 bg "bg/bg_29a",lcartain,800
 bg #000000,lcartain,1500
 bg "bg/bg_23b",lcartain,1500
-`The sun went down.@
+`The sun was going down.@
 `Though I had run all over the city, I found no trace of Satsuki Yumizuka.@
 br
 `“Damn…”@
@@ -284,7 +284,7 @@ br
 `No one in this house was allowed out after eight, so I couldn’t leave now.@
 `“…”@
 `But that was only a rule.@
-`If I truly wanted to, nothing could keep me inside.
+`I could go out if I wanted to.
 \
 bg #ffffff,crossfade,400
 monocro #ffff00
@@ -302,7 +302,7 @@ br
 bg #ffffff,crossfade,400
 monocro off
 bg "bg/bg_40c",crossfade,400
-`What was I even thinking, asking something so absurd?@
+`What was I thinking?@ Even I knew how foolish I was being.@
 `I had no idea what had happened to Yumizuka.@
 `I had also been forced to face the fact that she was behind the vampire murders terrifying the city.@
 br
@@ -316,14 +316,14 @@ bg "bg/bg_40d",crossfade,800
 `Still unable to decide what I should do, I passed the night without sleep.@
 br
 wave se_04
-`“Master Shiki, are you still awake?”@
+`“…@Master Shiki, are you still awake…?”@
 `It was Hisui.@
 `What could she want at this hour?
 \
 bg "bg/bg_46c",lshutter,400
 `“I’m awake—what is it, Hisui?”@
 ld c,"tachi/his_t23",lshutter,800
-`“I hesitated because of the hour[line=3]but since you were awake, Master Shiki, I thought I should tell you.”@
+`“I hesitated because of the hour[line=3]but I thought I should tell you if you were still awake, Master Shiki.”@
 `“Tell me what?”@
 `“A telephone call came for you a short while ago, Master Shiki.@ The caller left a message saying they would be waiting in the park.”@
 `“A call at this hour?”@
@@ -361,9 +361,9 @@ br
 `“[line=3]The park.@ Why call me out at this hour[line=3]?”@
 br
 `The words brought an old, silly fable to mind.@
-`Vampires could only move at night.@
+`Vampires could only be active at night.@
 `If that were true, then Yumizuka hadn’t chosen to summon me at this hour.@
-`This was simply the only hour when she could.
+`She could only have called me out at a time like this.
 \
 `“Sorry, Hisui.@ I know this is stupid, but unless I do something this reckless, I’ll never be able to sleep.”@
 `Apologizing to the absent Hisui, I quietly left the mansion.
@@ -373,7 +373,7 @@ bg #000000,crossfade,800
 play "*1"
 bg "bg/bg_27b",lcartain,400
 `“Hah[line=3]hah[line=4]hah.”@
-`I stopped to cool down after running the whole way.@
+`I stopped to rest, hot from running the whole way.@
 `It was almost midnight.
 \
 `The park lay far from the main road.@
@@ -387,7 +387,7 @@ bg "bg/bg_27b",lcartain,400
 bg "bg/bg_28b",lcartain,800
 `The park was deserted.@
 `Not a sound disturbed the moonlight.@
-`For no reason I could name, it felt as if every trace of warmth had drained from my body.@
+`For no reason I could name, I felt my whole body grow colder.@
 br
 `“[line=7]!”@
 br
@@ -404,7 +404,7 @@ bg "bg/bg_28b",crossfade,400
 `More than anything, I wanted a blade in my hand[line=3]!
 \
 `“What[line=3]is this?”@
-`My teeth ground together.@
+`A tightening pain.@
 `A faint headache.@
 `My temperature falling.@
 `My reason cooling into ice.
@@ -413,7 +413,7 @@ wave se_01
 bg #000000,crossfade,400
 bg "bg/bg_28b",crossfade,400
 `Something was wrong.@
-`Something foul was churning through this park.@ It was all around me.@
+`It felt as if something foul was churning through this part of the park.@
 `“What am I afraid of now?”@
 `I shook off the headache and pressed deeper inside.
 \
@@ -437,18 +437,17 @@ ld c,"tachi/stk_t04",lshutter,800
 `Her voice alone stopped me in my tracks.
 \
 `“Wait, Shiki.@ I’m glad you came, but I can’t have you close to me right now.@ Please, don’t come any nearer.”@
-`Her breath came in tortured gasps.@
-`Her body trembling as if she might collapse at any moment, Yumizuka told me to stay back.
+`She spoke through labored breaths, trembling as though she might collapse at any moment.
 \
-`“Don’t be stupid; you look half dead—how am I supposed to leave you like this…?”@
+`“Don’t be stupid.@ You’re so pale—how am I supposed to leave you like this…?”@
 cl c,crossfade,400
 ld c,"tachi/stk_t03",crossfade,800
 `“No, I’m all right; you came, Shiki, so I’m feeling better already.”@
 `Forcing herself upright, Yumizuka smiled.
 \
-`“What happened to you, Yumizuka?@ Why haven’t you gone home?@ What was all that yesterday?@ Why were you doing something so[line=4]?”@
-`“Hm?@ Something so what?”@
-`“Something so[line=3]so horrible!”@
+`“What happened to you, Yumizuka?@ Why haven’t you gone home?@ What was all that yesterday?@ Why were you[line=4]”@
+`“Hm?@ Why was I what?”@
+`“Why were you[line=3]doing something like that…!”@
 ld c,"tachi/stk_t01",crossfade,400
 `“Yesterday was exactly what it looked like.@ I told you I killed those people, remember?”@
 `She answered without hesitation.@
@@ -483,11 +482,11 @@ ld c,"tachi/stk_t03",crossfade,400
 `Not what we had talked about—I didn’t even remember ever speaking to her.
 \
 ld c,"tachi/stk_t01",crossfade,400
-`“It’s all right, don’t look like that.@ You were always off with Arihiko back then, so you never seemed interested in anyone else in class.”@
-`“But I didn’t mind.@ Just knowing I was in the same classroom as you made me so happy.@ I dreamed of finally speaking to you properly and hearing you call me by name; looking back, I can’t help laughing at how much time I wasted.”@
+`“It’s all right, don’t look like that.@ You were always with Inui back then, so you never seemed interested in anyone else in class.”@
+`“But I didn’t mind.@ Just knowing I was in the same classroom as you made me so happy.@ I dreamed of finally speaking to you properly and hearing you call me ‘Yumizuka’; looking back, I can’t help laughing at how much time I wasted.”@
 br
-`She spoke with aching nostalgia.@
-`As though remembering something ancient.@ Something impossibly far away.
+`She spoke wistfully.@
+`A very long time ago.@ …@As though remembering something from a very, very distant past.
 \
 `“I watched you all that time.@ I knew you’d never notice, but I still kept watching.”@
 `“[line=6]”@

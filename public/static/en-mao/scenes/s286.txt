@@ -6,18 +6,18 @@ bg "bg/bg_33a",notrans,0
 br
 `“Right.@ It hasn’t even been a full day since last night, and I pushed myself too hard.”@
 ld l,"tachi/koha_t03",crossfade,400
-`“Then you’ll rest?@ Master Shiki, can you walk by yourself?”@
+`“Then you’ll rest?@ Shiki, can you walk by yourself?”@
 bg #9c0120,crossfade,400
 bg "bg/bg_33a",crossfade,400
 `“Ah[line=3]no.”@
 `It doesn’t seem possible.
 \
 ld l,"tachi/koha_t02",crossfade,400
-`“I thought not—oh, Hisui!@ Help Master Shiki back to his room.”@
+`“I thought not—oh, Hisui!@ Help Shiki back to his room.”@
 ld r,"tachi/his_t07",crossfade,400
 `“Eh[line=3]Kohaku, but[line=3]”@
 ld l,"tachi/koha_t04",crossfade,400
-`“Hisui, Master Shiki is ill!@ Would you abandon someone who needs help?”@
+`“Hisui, Shiki is ill!@ Would you abandon someone who needs help?”@
 `“Ah[line=4]”@
 `“I’ll allow it just for today.@ Take proper care of him and help him back to his room.”
 \
@@ -29,9 +29,9 @@ ld r,"tachi/his_t23",crossfade,400
 `“There are so many things in your medicine chest.@ Is this the fever medicine?”
 \
 ld l,"tachi/koha_t05",crossfade,400
-`“Ahaha, that’s for something rather different.@ Master Shiki is still perfectly lucid, so he doesn’t need a tranquilizer yet.”@
+`“Ahaha, that’s for something rather different.@ Shiki is still perfectly lucid, so he doesn’t need a tranquilizer yet.”@
 ld l,"tachi/koha_t02",crossfade,400
-`“Master Shiki’s fever seems to be caused by exhaustion, so I’ll prepare the medicine myself.@ Hisui, I’ll be right back, so take care of everything here.”@
+`“Shiki’s fever seems to be caused by exhaustion, so I’ll prepare the medicine myself.@ Hisui, I’ll be right back, so take care of everything here.”@
 cl l,lshutter,800
 `Kohaku hurries toward the mansion’s west wing[line=3]the wing where her room is.
 \

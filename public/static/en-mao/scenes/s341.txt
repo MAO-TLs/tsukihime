@@ -1,8 +1,8 @@
 play "*1"
 wavestop
 bg "bg/bg_40d",notrans,0
-`No—I would keep my promise to Akiha.@
-`She had told me not to go, so I could not break my word over idle curiosity.@
+`No—I’ll keep my promise to Akiha.@
+`She told me not to go.@ I can’t break my word over idle curiosity.@
 br
 `“Nn.”@
 `A gentle drowsiness seeps through my body.@
@@ -76,10 +76,10 @@ br
 br
 br
 br
-`[line=6]Everything burned.
+`[line=6]It was hot.
 \
-`Suddenly, a face appears in a pane of glass.@
-`Its bloodshot eyes look anything but sane.
+`Suddenly, I catch sight of a face reflected in a window.@
+`The eyes are bloodshot.@ It looks anything but sane.
 \
 wave se_01
 br
@@ -91,9 +91,9 @@ br
 br
 `[line=6]There was nothing but the heat.
 \
-`A victim, found.@
-`A chokehold from behind, and it is over.@
-`A woman I have never seen before seems to die just like that.
+`Prey has been found, it seems.@
+`A grip around her throat from behind, and it’s over.@
+`The woman is a stranger.@ She seems to die just like that.
 \
 wave se_01
 br
@@ -116,9 +116,9 @@ wait 100
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse must have been dragged somewhere, then bitten at the throat.@
-`Wet, sucking sounds.@
-`Blood is drunk from the neck, teeth shearing through flesh with it, slaking that terrible thirst.
+`Was the body taken inside, its throat bitten into?@
+`Wet, sucking sounds reach me.@
+`Blood is sucked from the throat, as though the flesh itself were being bitten away, slaking that thirst.
 \
 wave se_01
 br
@@ -130,9 +130,9 @@ br
 br
 `[line=3]I don’t understand.
 \
-`Panting.@
-`So much.@
-`Is the act truly that exciting?@
+`Ragged panting.@
+`It must be.@
+`It must be that exciting.@
 `Fingers plunge into the corpse’s chest.@
 `The sound of flesh pulping, the sound of bones breaking.@
 `The sound of a heart being torn out with bare hands.

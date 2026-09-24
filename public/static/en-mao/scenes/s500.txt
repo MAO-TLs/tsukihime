@@ -56,7 +56,7 @@ wave se_08
 wave se_08
 `No one at all.@
 br
-`But then.@
+`But then[line=3]
 `Something slick settles against my back.@
 `It is cold yet yielding, like the belly of a snake.
 \
@@ -69,8 +69,7 @@ bg #000000,notrans,0
 \
 `“What[line=4]?”@
 `A soft thud.@
-`The next instant.@
-`My chest is laid open.
+`The next instant, my chest is laid open.
 \
 bg "bg/ima_12b",lshutter,400
 `Blood flows.@
@@ -81,12 +80,11 @@ br
 `[line=4]I don’t understand.
 \
 bg #000000,crossfade,800
-`My consciousness fades.@
-`In that final instant.@
+`As my consciousness fades, in that final instant[line=3]
 br
 wavestop
 bg "bg/cmo_06",crossfade,800
-`an image from a distant summer day plays once more.
+`An image from a distant summer day plays once more.
 \
 bg #000000,crossfade,1500
 playstop

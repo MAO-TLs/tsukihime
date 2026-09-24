@@ -14,7 +14,7 @@ cl a,lshutter,800
 `Kohaku follows, presumably to see her to the front door.@
 `“Apply myself diligently, she says…”@
 `Perhaps eight years under Father’s discipline made her sound old-fashioned—or simply very proper.@
-`Well, I was going to school whether she told me to or not.
+`“Well, I’m going to school whether you tell me to or not.”
 \
 `I scratch my cheek.@
 `The expression Akiha wore as she left struck strangely deep, until all her scolding this morning ceased to matter.@
@@ -28,10 +28,10 @@ bg "bg/bg_33a",lcartain,800
 `Hisui is waiting there with my schoolbag.@
 ld c,"tachi/his_t01",crossfade,400
 `“Master Shiki, are you certain you have enough time?”@
-`“Sure.@ If I run, I can make school in under twenty minutes—even with a detour, I have plenty of time.”@
+`“Sure.@ I can get to school in under twenty minutes if I run.@ It’s seven-thirty now, right?@ I could even take a detour and still make it.”@
 `Apparently satisfied, Hisui gives one small nod.
 \
-`“Then I shall see you to the gate.”@
+`“Then I shall see you out.”@
 `“Oh—sure, thanks.”@
 `Having a servant assigned especially to me is still painfully embarrassing.
 \
@@ -54,7 +54,7 @@ ld c,"tachi/koha_t03",lshutter,400
 `It weighs very little.
 \
 `“[line=3]Kohaku, I’ve never seen this before.”@
-`“Yes.@ I’m told it was among Master Shiki’s father’s effects.@ Apparently his will instructed that it be left to you.”@
+`“I’m told it belonged to your late father, Master Shiki.@ Apparently he left instructions for you to have it.”@
 `“That man left something to me?”@
 `It doesn’t feel real.@
 `Why would the father who cast me out of this estate eight years ago leave me a keepsake?
@@ -101,14 +101,14 @@ ld l,"tachi/his_t01",notrans,0
 \
 `“You startled me, Hisui…@ That was mean; you didn’t have to sneak up behind me when I would’ve shown it to you if you asked.”@
 ld l,"tachi/his_t02",crossfade,400
-`“Ah—”@
+`“Ah[line=5]”@
 br
 `A faint blush instantly rises in Hisui’s cheeks.
 \
 `“M-my apologies.@ I couldn’t help myself—the dagger was so beautiful.”@
 `“Beautiful?@ I don’t know about that.@ It looks more battered than anything.”@
 ld l,"tachi/his_t01",crossfade,400
-`“[line=4]It is nothing of the kind.@ Its exquisite temper line marks it as an ancient blade with a distinguished history.”@
+`“[line=4]Not at all.@ It has a beautiful temper line.@ I believe it is an old blade of distinguished origin.”@
 `“Really?@ It still looks like junk to me…”
 \
 `Hisui insists so firmly that I begin to believe her.@
@@ -119,7 +119,7 @@ ld r,"tachi/koha_t02",notrans,0
 `“Maybe.@ Not many people bother naming their knives, though.”@
 `Whatever else it may be, the thing is clearly an antique.@
 `“Still, never turn down something free—that’s my creed.”@
-`I fold the blade away and slip the knife into my trouser pocket.
+`I retract the blade and slip the knife into my trouser pocket.
 \
 cl r,crossfade,400
 `“Master Shiki.@ Are you certain you have time…?”@
@@ -167,7 +167,7 @@ bg "bg/bg_23a",lcartain,800
 br
 `“Yumizuka—well, I couldn’t be that lucky.”@
 `I remember the smile of the classmate who parted from me here yesterday, saying her house was this way.@
-`The moment I think that Satsuki Yumizuka will be waiting in the classroom, my feet quicken almost of their own accord.
+`The moment I think of seeing Satsuki Yumizuka in the classroom, my steps seem to quicken.
 \
 bg #000000,lcartain,800
 bg "bg/bg_24a",lcartain,800
@@ -212,7 +212,7 @@ br
 ld c,"tachi/ari_t04",crossfade,400
 `“I’m worried in a different way, I suppose.@ Running away at a time like this takes either remarkable courage or remarkable stupidity.”@
 `“…?@ What do you mean, ‘a time like this’?”@
-`“I told you yesterday, Tohno.@ There’s been a rash of random murders in the city.@ I don’t know where she ran off to, but if she’s sleeping on the street and gets carved up by the killer, she’ll have no one to blame but herself.”@
+`“I told you yesterday, Tohno.@ There’s been a rash of random murders in the city.@ I don’t know where they’ve run off to, but if they’re sleeping rough and the killer cuts them down, they can hardly complain.”@
 `“No[line=4]surely it won’t come to that.”
 \
 `“Tohno, start watching the news.@ Eight people have died already—do you understand?@ Every victim was chosen at random.@ Stop imagining you’re somehow safe.@

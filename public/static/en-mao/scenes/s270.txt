@@ -10,7 +10,8 @@ bg "bg/bg_27b",notrans,0
 `“Oh, to hell with it—you still can’t go!@ Arcueid is in the park!@
 `You know how much she hates you, don’t you?@ I can’t just let the two of you meet like this!”@
 ld c,"tachi/cel_t01b",crossfade,400
-`“Oh?@ Are you worried about me?”@ “Of course I am!@ I don’t want to see you and Arcueid fighting, so please just turn around and go home!”
+`“Oh?@ Are you worried about me?”@
+`“Of course I am!@ I don’t want to see you and Arcueid fighting, so please just turn around and go home!”
 \
 `“[line=2]Haa.@ So it isn’t me you’re worried about but her, is it, Tohno?”@
 br
@@ -79,7 +80,8 @@ ld l,"tachi/ark_t05b",lshutter,400
 ld r,"tachi/cel_t07b",crossfade,400
 `“I have none.@ He is simply so reckless that I have been giving him some instruction.”
 \
-`“Is that so?@ Are you planning to steal someone else’s partner?”@ “That might not be a bad idea.@ You still owe me for how badly you hurt me last time.”@
+`“Is that so?@ Are you planning to steal someone else’s partner?”@
+`“That might not be a bad idea.@ You still owe me for how badly you hurt me last time.”@
 cl c,crossfade,400
 \
 `Ciel and Arcueid were one breath away from violence.@

@@ -1,11 +1,11 @@
 play "*1"
 wavestop
 bg "bg/bg_40d",notrans,0
-`[line=3]Wait—hold on.@
+`[line=3]Wait a second.@
 br
-`Hisui’s words bothered me, but I had already visited the annex earlier.@
-`I knew there was nothing there.@
-`Tonight, I would behave myself and sleep.
+`Hisui’s words trouble me, but I’ve already been to the annex tonight.@
+`I know there’s nothing there.@
+`I’ll be sensible and go to sleep.
 \
 bg #000000,crossfade,1500
 playstop
@@ -74,10 +74,10 @@ br
 br
 br
 br
-`[line=6]Everything burned.
+`[line=6]It was hot.
 \
-`Suddenly, a face appears in a pane of glass.@
-`Its bloodshot eyes look anything but sane.
+`Suddenly, I catch sight of a face reflected in a window.@
+`The eyes are bloodshot.@ It looks anything but sane.
 \
 wave se_01
 br
@@ -89,9 +89,9 @@ br
 br
 `[line=6]There was nothing but the heat.
 \
-`A victim, found.@
-`A chokehold from behind, and it is over.@
-`A woman I have never seen before seems to die just like that.
+`Prey has been found, it seems.@
+`A grip around her throat from behind, and it’s over.@
+`The woman is a stranger.@ She seems to die just like that.
 \
 wave se_01
 br
@@ -114,9 +114,9 @@ wait 100
 bg #000000,notrans,0
 wait 100
 bg "bg/bg_31b",notrans,0
-`The corpse must have been dragged somewhere, then bitten at the throat.@
-`Wet, sucking sounds.@
-`Blood is drunk from the neck, teeth shearing through flesh with it, slaking that terrible thirst.
+`Was the body taken inside, its throat bitten into?@
+`Wet, sucking sounds reach me.@
+`Blood is sucked from the throat, as though the flesh itself were being bitten away, slaking that thirst.
 \
 wave se_01
 br
@@ -128,9 +128,9 @@ br
 br
 `[line=3]I don’t understand.
 \
-`Panting.@
-`So much.@
-`Is the act truly that exciting?@
+`Ragged panting.@
+`It must be.@
+`It must be that exciting.@
 `Fingers plunge into the corpse’s chest.@
 `The sound of flesh pulping, the sound of bones breaking.@
 `The sound of a heart being torn out with bare hands.

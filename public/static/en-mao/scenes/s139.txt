@@ -5,84 +5,79 @@ bg "bg/bg_29b",lcartain,800
 ld c,"tachi/ark_t04",crossfade,400
 play "*1"
 `“So what did you want to talk about, Shiki?”@
-`“Vampires.@ You said it before.@ Those random killings everyone is talking about are the work of a vampire.”@
+`“The vampire killings.@ You told me the murderer everyone’s talking about was a vampire.”@
 `Arcueid nods.@
-`“Then did you hear this morning’s report?@ Apparently another victim was killed last night and drained of blood.”@
+`“Did you hear the news this morning?@ There was another victim last night.@ The killer drained the victim’s blood.”@
 ld c,"tachi/ark_t06",crossfade,400
 `“[line=5]”@
 `Arcueid’s eyes narrow.@
-`Something changes.@
-`The tension chills my spine.
+`The tension that comes over her sends a chill down my back.
 \
 ld c,"tachi/ark_t07",crossfade,400
-`“Hmm, and?”@
-`“What do you mean, ‘and’[line=3]you”@
-`I swallow.@
-`Arcueid’s gaze fixes squarely on me.@
-`It is as though[line=3]if I move even slightly, she will attack at once.
+`“Hmm.@ And?”@
+`“And…?@ Arcueid, you[line=3]”@
+`I swallow.@ Her gaze fixes on me.@ It feels as though she will attack the moment I move.
 \
-`“This[line=3]this makes no sense, Arcueid.@
-`Nrvnqsr is supposed to be dead.@ So why are vampire killings still happening?@ Do not tell me you are[line=3]”
+`“B-but that makes no sense.@
+`Nrvnqsr is dead.@ Why are the vampire killings still happening?@ Don’t tell me you’re the one[line=3]”
 \
 ld c,"tachi/ark_t03",crossfade,400
-`“Of course not.@ It was another member of a vampiric species.”@
-`The tension leaves her at once, and Arcueid answers with open exasperation.@
-`I am not convinced.
+`“Of course not.@ It was another vampire.”@
+`The tension leaves her at once.@ She sounds exasperated, but I am not satisfied.
 \
-`“What does that mean?@ Are you saying vampires will keep appearing one after another?”@
+`“What does that mean?@ Are vampires going to keep turning up one after another?”@
 ld c,"tachi/ark_t01b",crossfade,400
-`“Don’t be ridiculous.@ Those serial murders have been the work of a single member of a vampiric species from the beginning.@ No new member has arrived, and Nrvnqsr had nothing to do with the case at all.”@
+`“Don’t be silly.@ One vampire has been behind those murders from the beginning.@ No new one has turned up.@ Nrvnqsr had nothing to do with them.”@
 br
 `[line=4]What?@
-`Even Nrvnqsr had nothing to do with them?@
+`Even Nrvnqsr had nothing to do with it…?@
 br
 `“Wh[line=3]what do you mean?”@
-`“Exactly what I said.@ Honestly, Shiki, you are sharp in some ways and astonishingly dense in others.@ Listen.@ Nrvnqsr may have belonged to a vampiric species, but did you ever see him drink anyone’s blood?”
+`“What I said.@ …@Honestly, Shiki.@ You can be sharp and still miss the obvious.@ Nrvnqsr was a vampire, yes, but did you ever see him drink anyone’s blood?”
 \
 cl c,crossfade,400
-`“Drink blood, when he ate people whole, crunching them up from the head[line=3]oh”@
+`“Drink blood?@ He crunched people up, starting with their heads[line=3]oh.”@
 br
-`I see.@
-`How did I miss something so simple?@
-`The victims of these killings have all been found drained of blood.
+`…@I see.@
+`How did I miss it?@
+`The victims of the serial killings were found drained of blood.
 \
 `Nrvnqsr was different.@
-`He left no corpses.@ He did not merely drink blood—he devoured even flesh, erasing every trace.@
-`The people he ate at the hotel were treated as missing persons, not murder victims.@
+`He left no corpses.@ He consumed the flesh as well as the blood, erasing every trace.@
+`The people he ate at the hotel were reported missing, not murdered.@
 br
-`Then[line=3]his acts were plainly different from the killings taking place around the city.
+`Then[line=3]the murders in the city cannot have been his doing.
 \
-`“Wait.@ Then what are these murders?@ Who the hell has been doing them?”@
+`“Wait.@ Then who is committing these murders?@ Who’s doing that to people?”@
 ld c,"tachi/ark_t03",crossfade,400
-`“Like I said, another member of a vampiric species, one other than Nrvnqsr, is responsible; to be exact, I came to this city because that creature was here, and Nrvnqsr came because he was chasing me.@ That is the chain of events.”@
-`“[line=3]What?@ Then the enemy you were hunting was not Nrvnqsr?!”
+`“Like I said, another vampire.@ I came to this city because that vampire was here, and Nrvnqsr came chasing me.@ That’s how it all fits together.”@
+`“[line=3]What?@ Then Nrvnqsr wasn’t the one you were hunting!?”
 \
 ld c,"tachi/ark_t01a",crossfade,400
-`“Right.@ I never said Nrvnqsr was my target, did I?@
-`I was his target, but he was never mine; my only target was the vampire this city calls its serial murderer.”@
+`“No.@ I never said he was my target, did I?@
+`I was his target, but he wasn’t mine.@ The vampire behind this city’s serial killings is the one I came for.”@
 ld c,"tachi/ark_t11",crossfade,400
-`“…@Shiki, don’t tell me you made some incredibly basic mistake.”
+`“…@Shiki.@ Don’t tell me you got something that simple wrong.”
 \
 cl c,crossfade,400
 `“Wh[line=5]”@
-`I suck in a stunned breath.@
-`But[line=3]Arcueid is right.@
-`When she said she was here to kill a vampire, I jumped to the conclusion that she meant Nrvnqsr[line=4]
+`I gasp.@
+`But Arcueid is right.@ She said she had come to kill a vampire, and I jumped to the conclusion that she meant Nrvnqsr[line=4]
 br
-`“…@Then are you saying that fighting Nrvnqsr that night was completely pointless?!”
+`“…@Then you’re telling me we fought Nrvnqsr for nothing that night!?”
 \
 ld c,"tachi/ark_t01b",crossfade,400
-`“It wasn’t pointless.@ You fought him in my place, didn’t you?@ Though none of it would have happened if you hadn’t killed me first.”@
+`“Of course not.@ You fought him for me, didn’t you?@ Though if you hadn’t killed me in the first place, none of that would have happened.”@
 br
 `“[line=6]”@
-`The world tilts around me.
+`I feel dizzy.
 \
-`“So Nrvnqsr had nothing to do with the vampire murders, and another vampire has been terrorizing the city this entire month?”@
-`“Yes, exactly.@ But that is my problem to handle, so you need not worry about it.@ More importantly, Shiki”
+`“…@So Nrvnqsr had nothing to do with the killings, and another vampire has been terrorizing the city for the past month?”@
+`“Right.@ But that’s my problem, so you don’t need to worry.@ More importantly, Shiki[line=3]”
 \
 playstop
 cl c,crossfade,400
-`With a strangely delighted smile, Arcueid looks up at me as I stand there dumbfounded.@
+`Arcueid looks up at me with a strangely delighted smile while I stand there stunned.@
 br
 `“How was last night?@ Who showed up?”
 \
