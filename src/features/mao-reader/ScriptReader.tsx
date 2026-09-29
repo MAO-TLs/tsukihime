@@ -48,7 +48,7 @@ const normalizeSearchText = (value: string): string => value
 const compactSearchText = (value: string): string => value.replace(/\s+/gu, "")
 
 const searchable = (...values: Array<string | undefined>): string =>
-	normalizeSearchText(values.filter(Boolean).join("\n"))
+	normalizeSearchText(values.filter(Boolean).map(value => stripInlineWaitCommands(value!)).join("\n"))
 
 const matches = (query: string, ...values: Array<string | undefined>): boolean =>
 	!query || searchable(...values).includes(query) || compactSearchText(searchable(...values)).includes(compactSearchText(query))

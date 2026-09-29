@@ -29,6 +29,14 @@ test("reader display hides inline engine waits without changing surrounding pros
 	assert.equal(stripInlineWaitCommands("Thump!w250 Thump!w3000"), "Thump Thump")
 })
 
+test("reader display hides standalone color commands without eating prose", () => {
+	assert.equal(
+		stripInlineWaitCommands("#ff0000\nRed prose.\n#ffffff\nWhite prose.\n#0000FF"),
+		"Red prose.\nWhite prose.\n",
+	)
+	assert.equal(stripInlineWaitCommands("The literal color #ff0000 remains prose."), "The literal color #ff0000 remains prose.")
+})
+
 test("visually identical repeated evidence renders once without changing the source package", () => {
 	const visibleEvidence = {
 		...evidence,

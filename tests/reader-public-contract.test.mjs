@@ -288,7 +288,8 @@ test('reader hides inline waits at the display boundary and preserves source tim
 		fs.readFile(path.join(projectRoot, 'public/static/mao-audit/scripts/script-004.json'), 'utf8'),
 	])
 
-	assert.match(displayText, /text\.replace\(INLINE_WAIT_COMMAND, ""\)/)
+	assert.match(displayText, /replace\(INLINE_WAIT_COMMAND, ""\)/)
+	assert.match(displayText, /replace\(STANDALONE_COLOR_COMMAND, ""\)/)
 	assert.match(scriptReader, /stripInlineWaitCommands\(line\.maoEnglish\)/)
 	assert.match(highlightedText, /stripInlineWaitCommands\(text\.slice\(rangeStart, rangeEnd\)\)/)
 	assert.match(packagedScript, /そのまま――――!w1000/)
