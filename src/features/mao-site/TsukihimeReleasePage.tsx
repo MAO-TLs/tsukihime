@@ -50,7 +50,7 @@ export default function TsukihimeReleasePage() {
 						<div><span>Version</span><strong>v2.0.0</strong></div>
 						<div><span>Script coverage</span><strong>Full game</strong></div>
 						<div><span>Passages</span><strong>14,620</strong></div>
-						<div><span>Status</span><strong>Complete</strong></div>
+						<div><span>Status</span><strong>Released</strong></div>
 					</div>
 				</section>
 
