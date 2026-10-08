@@ -7,7 +7,7 @@ import { lazy, Suspense, useCallback, useEffect, useRef, useState } from "react"
 import Particles from "./Particles";
 import DisclaimerScreen from "app/screens/DisclaimerScreen";
 import { displayMode, screenForPathname, SCREEN } from "app/utils/display";
-import { appLocationString } from "app/utils/route-location";
+import { appLocationString, normalizeAppPathname } from "app/utils/route-location";
 import {MaoReaderShell} from "features/mao-reader";
 import type {MaoReaderLocation, ReaderPage} from "features/mao-reader/types";
 import TsukihimeReleasePage from "features/mao-site/TsukihimeReleasePage";
@@ -109,7 +109,9 @@ const MaoReaderRoute = ({page}: {page: ReaderPage}) => {
 
 const AnimatedRoutes = () => {
 	const [location] = useLocation()
-	const pathname = location.split('?')[0]
+	// Pages serves /script/ while reader URL updates use /script. These are
+	// the same route: changing the query must not remount the focused reader.
+	const pathname = normalizeAppPathname(location.split('?')[0], import.meta.env.BASE_URL)
 
 	// displayMode predates the public-site routes and drives the game singleton
 	// lifecycle. Keep it aligned with the actual router even when no game screen

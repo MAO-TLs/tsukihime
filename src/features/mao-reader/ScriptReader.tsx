@@ -22,6 +22,7 @@ import type {
 	SearchScope,
 } from "./types"
 import {useAsyncResource} from "./useAsyncResource"
+import {matchesSearchText, normalizeSearchText, prepareSearchText} from "./search-text"
 
 const GLOBAL_RESULT_BATCH = 100
 
@@ -38,20 +39,6 @@ interface ScriptReaderProps {
 	initialShowErrors?: boolean
 	onLocationChange?: (location: MaoReaderLocation) => void
 }
-
-const normalizeSearchText = (value: string): string => value
-	.normalize("NFKC")
-	.toLocaleLowerCase()
-	.replace(/\s+/gu, " ")
-	.trim()
-
-const compactSearchText = (value: string): string => value.replace(/\s+/gu, "")
-
-const searchable = (...values: Array<string | undefined>): string =>
-	normalizeSearchText(values.filter(Boolean).map(value => stripInlineWaitCommands(value!)).join("\n"))
-
-const matches = (query: string, ...values: Array<string | undefined>): boolean =>
-	!query || searchable(...values).includes(query) || compactSearchText(searchable(...values)).includes(compactSearchText(query))
 
 function scriptNeighbors(
 	manifest: MaoAuditManifest,
@@ -386,8 +373,13 @@ export default function ScriptReader({
 		setShowErrors(initialShowErrors)
 		setActiveErrorKey(undefined)
 		setActiveRef(initialRef)
-		setPendingRef(initialRef)
 	}, [initialFilterSectionId, initialLocationKey, initialQuery, initialRef, initialScope, initialScriptId, initialSectionId, initialShowErrors, initialShowMirrorMoon, manifest])
+
+	// URL updates echo the query back through the initial props on every
+	// keystroke. Only passage navigation should requeue scrolling and focus.
+	useEffect(() => {
+		setPendingRef(initialScope === "script" ? initialRef : undefined)
+	}, [initialRef, initialScope, initialScriptId, initialSectionId])
 
 	useEffect(() => {
 		setGlobalResultLimit(GLOBAL_RESULT_BATCH)
@@ -428,27 +420,31 @@ export default function ScriptReader({
 		scrollRoot.current?.closest(".mao-reader-shell")?.scrollTo({top: 0, behavior: "auto"})
 	}
 
-	const localLines = scriptResource.status === "ready"
-		? scriptResource.data.lines.filter(line => matches(
-			deferredQuery,
+	const localSearchIndex = useMemo(() => scriptResource.status === "ready"
+		? scriptResource.data.lines.map(line => ({line, text: prepareSearchText(
 			line.ref,
 			line.speakerEnglish,
 			line.speakerJapanese,
 			line.japanese,
 			line.maoEnglish,
 			showMirrorMoon ? line.mirrorMoon : undefined,
-		))
-		: []
-	const globalMatches = globalResource.status === "ready"
-		? globalResource.data.filter(entry => matches(
-			deferredQuery,
+		)}))
+		: [], [scriptResource, showMirrorMoon])
+	const globalSearchIndex = useMemo(() => globalResource.status === "ready"
+		? globalResource.data.map(entry => ({entry, text: prepareSearchText(
 			entry.ref,
 			entry.speaker,
 			entry.japanese,
 			entry.maoEnglish,
 			showMirrorMoon ? entry.mirrorMoon : undefined,
-		))
-		: []
+		)}))
+		: [], [globalResource, showMirrorMoon])
+	const localLines = useMemo(() => localSearchIndex
+		.filter(item => matchesSearchText(deferredQuery, item.text))
+		.map(item => item.line), [localSearchIndex, deferredQuery])
+	const globalMatches = useMemo(() => globalSearchIndex
+		.filter(item => matchesSearchText(deferredQuery, item.text))
+		.map(item => item.entry), [globalSearchIndex, deferredQuery])
 	const sectionCounts = useMemo(() => {
 		const counts = new Map<string, number>()
 		for (const entry of globalMatches)
