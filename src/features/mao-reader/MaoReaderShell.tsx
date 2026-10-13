@@ -183,7 +183,7 @@ export default function MaoReaderShell({
 			<header className="mao-reader-header reader-header">
 				<MaoSiteNav currentPage={page} />
 				<div className="mao-reader-intro reader-intro shell">
-					<p className="mao-reader-intro__eyebrow eyebrow">{page === "audit" ? "Source-only editorial audit" : `Script Version ${translationVersion}`}</p>
+					<p className="mao-reader-intro__eyebrow eyebrow">{page === "audit" ? "Source-only editorial audit" : `Script version ${translationVersion}`}</p>
 					<h1>{page === "audit" ? "mirror moon audit" : "Script browser"}</h1>
 					<p>{page === "audit"
 						? "Published findings are checked against the Japanese and its scene context. The dossiers collect recurring patterns, with explicit limits on each claim."
