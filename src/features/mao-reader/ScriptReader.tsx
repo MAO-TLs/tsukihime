@@ -582,7 +582,7 @@ export default function ScriptReader({
 									activeErrorKey={activeErrorKey}
 									dossiersByFinding={dossiersByFinding}
 									onToggleError={key => setActiveErrorKey(current => current === key ? undefined : key)}
-									onOpen={item => { setScope("script"); selectScript(item.scriptId, item.ref) }}
+									onOpen={item => { setQuery(""); setScope("script"); selectScript(item.scriptId, item.ref) }}
 								/>
 							))}</div>
 							{filteredGlobalMatches.length > globalResultLimit && <button className="concordance-more" type="button" onClick={() => setGlobalResultLimit(limit => limit + GLOBAL_RESULT_BATCH)}>Show next <span>{Math.min(GLOBAL_RESULT_BATCH, filteredGlobalMatches.length - globalResultLimit).toLocaleString()} passages</span></button>}

@@ -7,7 +7,7 @@ import { lazy, Suspense, useCallback, useEffect, useRef, useState } from "react"
 import Particles from "./Particles";
 import DisclaimerScreen from "app/screens/DisclaimerScreen";
 import { displayMode, screenForPathname, SCREEN } from "app/utils/display";
-import { appLocationString, normalizeAppPathname } from "app/utils/route-location";
+import { appLocationString, normalizeAppPathname, shouldPushReaderContext } from "app/utils/route-location";
 import {MaoReaderShell} from "features/mao-reader";
 import type {MaoReaderLocation, ReaderPage} from "features/mao-reader/types";
 import TsukihimeReleasePage from "features/mao-site/TsukihimeReleasePage";
@@ -87,7 +87,7 @@ const MaoReaderRoute = ({page}: {page: ReaderPage}) => {
 		if (lastReplacement.current === destination)
 			return
 		lastReplacement.current = destination
-		navigate(destination, {replace: true})
+		navigate(destination, {replace: !shouldPushReaderContext(current, destination)})
 	}, [navigate])
 
 	return (
