@@ -1,4 +1,5 @@
 import {stripInlineWaitCommands} from "./display-text"
+import {matchesReaderText} from "./reader-search.mjs"
 
 export const normalizeSearchText = (value: string): string => value
 	.normalize("NFKC")
@@ -20,5 +21,5 @@ export function prepareSearchText(...values: Array<string | undefined>): SearchT
 }
 
 export function matchesSearchText(query: string, text: SearchText): boolean {
-	return !query || text.spaced.includes(query) || text.compact.includes(compactSearchText(query))
+	return matchesReaderText(text.spaced, query)
 }
