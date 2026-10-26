@@ -13,6 +13,23 @@ import {parseScript} from "../tsukiweb-common/tools/convert-scripts/parsers/nscr
 
 const ROOT = new URL("..", import.meta.url).pathname
 
+test("lesson two's title joke works in English in game and reader", () => {
+    const punchline = "If you still need teaching, why are you running the class?"
+    const scene = fs.readFileSync(path.join(ROOT, "public/static/en-mao/scenes/s512.txt"), "utf8")
+    assert.ok(scene.includes("Teach Me, Ciel!"))
+    assert.ok(scene.includes(punchline))
+    assert.ok(scene.includes("Question rejected."))
+    assert.ok(fs.readFileSync(path.join(ROOT, "public/static/en-mao/fullscript_en-mao.txt"), "utf8").includes(punchline))
+    for (const file of ["scripts/script-058.json", "search-index.json"]) {
+        const data = JSON.parse(fs.readFileSync(path.join(ROOT, "public/static/mao-audit", file), "utf8"))
+        const row = (data.lines ?? data.entries).find(row => row.ref === "tsuki:mm-audit:13048")
+        assert.ok(row.maoEnglish.includes(punchline), file)
+        assert.ok(!row.maoEnglish.includes("You can read it as"), file)
+    }
+    const lang = JSON.parse(fs.readFileSync(path.join(ROOT, "public/static/en-mao/lang.json"), "utf8"))
+    assert.match(lang.config["auto-play-delay-text"], /text delay/)
+})
+
 test("MAO scene text contains only supported BBCode tags", () => {
 	const renderer = fs.readFileSync(path.join(ROOT, "tsukiweb-common/src/utils/Bbcode.tsx"), "utf8")
 	const dictionary = renderer.split("const defaultBBcodeDict:")[1].split("//#endregion")[0]
