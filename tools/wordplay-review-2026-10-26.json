@@ -1,0 +1,19 @@
+{
+  "scope": "Corpus-wide candidate search, targeted Japanese-English checks of wordplay mechanisms and recurring jokes, and English review of Teach Me, Ciel lessons. This is not a full consecutive reread or a claim that every possible pun has been identified.",
+  "baseline": "5cd156f306c021d04c0676892a93f226e8dbdbd7",
+  "sourceRowsPreserved": 14620,
+  "changedEnglishPassagesIncludingInitialHotfix": 7,
+  "affectedScenes": ["s089", "s209a", "s213", "s512", "s516"],
+  "unchangedReviewedMechanisms": [
+    "Ray Dio / radio: person-name mishearing and immediate rebuke survive.",
+    "Use / misuse: the repeated s303 and s325 exchanges retain the same recognition kernel.",
+    "Brace / grave: the mishearing and the narrator's incredulous response remain connected.",
+    "L'Arc-en-Ciel: the earlier functional band-name correction remains in place.",
+    "Kotatsu traditional-craft joke: overblown description and dry response survive.",
+    "Lesson five sunny vampire aside: the sunny disposition / sunlight collision works in English.",
+    "Lesson four's 'yet' response: Arcueid's premature denial and Ciel's inference remain linked."
+  ],
+  "settings": "Auto Mode text delay was already correct in local and live lang.json; regression assertion added, no settings mutation.",
+  "sourcePolicy": "Japanese, source references, comparator text, choices and control flow were not rewritten. Corrections are recorded separately from frozen historical translation exports in wordplay-corrections.json.",
+  "verification": "70 runtime/reader tests and production build passed; all 14620 Japanese values and source-reference mappings compared unchanged against baseline. Publication and live verification are performed after this record. No full gameplay playthrough claimed."
+}

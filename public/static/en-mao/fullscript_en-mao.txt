@@ -33907,7 +33907,7 @@ ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 `“Thanks. Sorry I’m always putting you through this, Arihiko.”
 ld c,":a;image\tachi\ari_t02.jpg",%type_crossfade_fst
 
-`“Forget it. Pay me back double once you make it big.”
+`“Forget it. Once you make it big, pay me back forward—with double interest.”
 
 ; すべて消去<左シャッター(速)>
 cl a,%type_lshutter_mid
@@ -34947,9 +34947,9 @@ ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
 ld c,":a;image\tachi\koha_t18.jpg",%type_crossfade_fst
 
-`“That isn’t quite right, Shiki. What I grow is chōsen-asagao—datura, not ordinary morning glory. It’s a rather dangerous flower.”
+`“That isn’t quite right, Shiki. What I grow is datura, not the morning glories you’re thinking of. It’s a rather dangerous flower.”
 `For some reason, Kohaku was giggling.
-`“Really? But if it’s called asagao, then it’s still a morning glory, isn’t it?”\
+`“Really? But you said morning glories. How dangerous can a flower be?”\
 
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
@@ -134119,7 +134119,7 @@ cl l,%type_lshutter_fst
 ld l,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 ld l,":a;image\tachi\ark_t31b.jpg",%type_lshutter_fst
 
-`“Hmph! I don’t want to hear that from Ciel!”
+`“Hmph! I don’t want a lecture from someone who still needs lessons!”
 br
 
 
@@ -134435,13 +134435,12 @@ br
 ; アルクェイド : 01～10 : 01_楽01（基本的楽）<左スクロール(中)>
 ld l,":a;image\tachi\ark_t30.jpg",%type_lshutter_fst
 
-`“Hey, Ciel. I can’t read these characters.”
+`“Hey, Ciel. What does ‘Blackout Moon’ mean?”
 br
 `―――Rejected.
 `Or so I’d like to say, but so many people have asked that I’ll answer.
-`Kura comes from kuramu, ‘to black out’; yami from yamu, ‘to fall ill’; and tsuki means ‘moon.’
-`Put the three together and you get Kurayamizuki.
-`It is a play on kurayami, ‘darkness.’ Add tsuki, ‘moon,’ and the result is a ‘darkness moon.’\
+`You can black out when you’re ill, or be left in the dark during a blackout.
+`So the title gives us a sick, dizzy moon and a dark moon at the same time.\
 
 br
 `“Huh, that’s weird.”
@@ -147684,11 +147683,11 @@ ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 `“Do I? My family was always strict, so I’m simply used to it. Anyway, wasn’t there something you wanted to talk about?”\
 ; 右<昼>=シエル:楽03（正面・少し照れている）<クロスフェード(速)>
 ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_fst
-`“Yes. I still hadn’t thanked you for this morning, so I thought I might look after you like this in return.”
+`“Yes. I still hadn’t thanked you for this morning, so I thought I might service you like this in return.”
 `With a gentle smile, she said something rather outrageous.\
 
-`“L-look after me—you’ve got that phrase wrong, Ciel.”
-`“Really? I thought giving someone every courtesy and making them welcome was what ‘looking after them’ meant.”
+`“S-service me? You’ve got that phrase wrong, Ciel.”
+`“Really? I thought giving someone every courtesy and making them welcome was what ‘servicing them’ meant.”
 `“―――Not quite. It isn’t entirely wrong, but it isn’t quite right either.”
 `“Hmm. Etiquette really is difficult, isn’t it? Perhaps this means I shouldn’t attempt things I’m not used to.”
 `Ciel laughed, a little embarrassed.\

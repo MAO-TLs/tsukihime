@@ -13,6 +13,33 @@ import {parseScript} from "../tsukiweb-common/tools/convert-scripts/parsers/nscr
 
 const ROOT = new URL("..", import.meta.url).pathname
 
+test("wordplay repairs agree across game, full script, reader and search", () => {
+    const fixes = JSON.parse(fs.readFileSync(path.join(ROOT, "tools/wordplay-corrections.json"), "utf8"))
+    const audit = path.join(ROOT, "public/static/mao-audit")
+    const search = JSON.parse(fs.readFileSync(path.join(audit, "search-index.json"), "utf8")).entries
+    const rows = fs.readdirSync(path.join(audit, "scripts")).flatMap(file =>
+        JSON.parse(fs.readFileSync(path.join(audit, "scripts", file), "utf8")).lines)
+    const full = fs.readFileSync(path.join(ROOT, "public/static/en-mao/fullscript_en-mao.txt"), "utf8")
+    for (const fix of fixes) {
+        const scene = fs.readFileSync(path.join(ROOT, "public/static/en-mao/scenes", fix.scene + ".txt"), "utf8")
+        const row = rows.find(r => r.ref === fix.ref)
+        assert.equal(row.maoEnglish, search.find(r => r.ref === fix.ref).maoEnglish)
+        assert.equal(row.maoEnglish, row.mao_english)
+        if (fix.changes) for (const [before, after] of fix.changes) {
+            for (const text of [scene, full, row.maoEnglish]) {
+                assert.ok(text.includes(after), fix.ref + ": missing replacement")
+                assert.ok(!text.includes(before), fix.ref + ": stale wording")
+            }
+        }
+        else {
+            assert.equal(row.maoEnglish, fix.readerAfter)
+            assert.ok(scene.includes(fix.gameAfter))
+            assert.ok(!scene.includes("Kurayamizuki"))
+            for (const line of fix.readerAfter.split("\n")) assert.ok(full.includes(line))
+        }
+    }
+})
+
 test("lesson two's title joke works in English in game and reader", () => {
     const punchline = "If you still need teaching, why are you running the class?"
     const scene = fs.readFileSync(path.join(ROOT, "public/static/en-mao/scenes/s512.txt"), "utf8")
