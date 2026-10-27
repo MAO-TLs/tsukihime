@@ -20,6 +20,7 @@ export default function TsukihimeReleasePage() {
 			<main>
 				<section className="tsuki-release-hero">
 					<img className="tsuki-release-backdrop" src={moonClouds} alt="" aria-hidden="true" />
+<img className="tsuki-release-backdrop hero-backdrop-soft" src={moonClouds} alt="" aria-hidden="true" />
 					<MaoSiteNav currentPage="release" />
 
 					<div className="tsuki-release-hero-grid mao-site-shell mao-template-shell">
