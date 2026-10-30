@@ -2,6 +2,7 @@ import {Link} from "wouter"
 import {SCREEN} from "app/utils/display"
 import "./mao-publication-template.css"
 import "./mao-site.scss"
+import "./wordmark.css"
 
 export type MaoSitePage = "release" | "play" | "script" | "audit" | "none"
 
