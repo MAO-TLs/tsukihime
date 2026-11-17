@@ -123,8 +123,9 @@ test("cached search preserves case, width, whitespace, and engine-command handli
 test("reader caches passage text separately from deferred-query filtering", async () => {
 	const reader = await fs.readFile(path.join(projectRoot, "src/features/mao-reader/ScriptReader.tsx"), "utf8")
 	assert.match(reader, /const globalSearchIndex = useMemo\([\s\S]*?\[globalResource, showMirrorMoon\]\)/)
-	assert.match(reader, /const globalMatches = useMemo\([\s\S]*?\[globalSearchIndex, deferredQuery\]\)/)
-	assert.match(reader, /const localLines = useMemo\([\s\S]*?\[localSearchIndex, deferredQuery\]\)/)
+	assert.match(reader, /const matchQuery = useMemo\(\(\) => compileSearch\(deferredQuery\), \[deferredQuery\]\)/)
+	assert.match(reader, /const globalMatches = useMemo\([\s\S]*?\[globalSearchIndex, matchQuery\]\)/)
+	assert.match(reader, /const localLines = useMemo\([\s\S]*?\[localSearchIndex, matchQuery\]\)/)
 })
 
 test("public pages stop all game media while game routes retain their intended audio", () => {

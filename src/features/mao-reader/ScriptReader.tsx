@@ -1,4 +1,6 @@
 import {
+	memo,
+	useCallback,
 	useDeferredValue,
 	useEffect,
 	useMemo,
@@ -22,7 +24,8 @@ import type {
 	SearchScope,
 } from "./types"
 import {useAsyncResource} from "./useAsyncResource"
-import {matchesSearchText, normalizeSearchText, prepareSearchText} from "./search-text"
+import {normalizeSearchText, prepareSearchText} from "./search-text"
+import {compileSearch} from "./prepared-search.mjs"
 
 const GLOBAL_RESULT_BATCH = 100
 
@@ -106,7 +109,7 @@ function LineError({error, lineRef, relatedDossiers = [], onClose}: {
 	)
 }
 
-function ScriptLine({
+const ScriptLine = memo(function ScriptLine({
 	line,
 	showMirrorMoon,
 	showErrors,
@@ -215,7 +218,7 @@ function ScriptLine({
 			)}
 		</article>
 	)
-}
+})
 
 function GlobalResult({
 	entry,
@@ -294,11 +297,13 @@ export default function ScriptReader({
 	const [showMirrorMoon, setShowMirrorMoon] = useState(initialShowMirrorMoon || initialShowErrors)
 	const [showErrors, setShowErrors] = useState(initialShowErrors)
 	const [activeErrorKey, setActiveErrorKey] = useState<string>()
+	const toggleError = useCallback((key: string) => setActiveErrorKey(current => current === key ? undefined : key), [])
 	const [pendingRef, setPendingRef] = useState(initialRef)
 	const [activeRef, setActiveRef] = useState(initialRef)
 	const [globalResultLimit, setGlobalResultLimit] = useState(GLOBAL_RESULT_BATCH)
 	const scrollRoot = useRef<HTMLDivElement>(null)
 	const deferredQuery = useDeferredValue(normalizeSearchText(query))
+	const matchQuery = useMemo(() => compileSearch(deferredQuery), [deferredQuery])
 	const initialLocationKey = JSON.stringify([
 		initialSectionId,
 		initialScriptId,
@@ -440,11 +445,11 @@ export default function ScriptReader({
 		)}))
 		: [], [globalResource, showMirrorMoon])
 	const localLines = useMemo(() => localSearchIndex
-		.filter(item => matchesSearchText(deferredQuery, item.text))
-		.map(item => item.line), [localSearchIndex, deferredQuery])
+		.filter(item => matchQuery(item.text))
+		.map(item => item.line), [localSearchIndex, matchQuery])
 	const globalMatches = useMemo(() => globalSearchIndex
-		.filter(item => matchesSearchText(deferredQuery, item.text))
-		.map(item => item.entry), [globalSearchIndex, deferredQuery])
+		.filter(item => matchQuery(item.text))
+		.map(item => item.entry), [globalSearchIndex, matchQuery])
 	const sectionCounts = useMemo(() => {
 		const counts = new Map<string, number>()
 		for (const entry of globalMatches)
@@ -607,8 +612,8 @@ export default function ScriptReader({
 							isTarget={activeRef === line.ref}
 							activeErrorKey={activeErrorKey}
 							dossiersByFinding={dossiersByFinding}
-							onTarget={ref => setActiveRef(ref)}
-							onToggleError={errorKey => setActiveErrorKey(current => current === errorKey ? undefined : errorKey)}
+							onTarget={setActiveRef}
+							onToggleError={toggleError}
 						/>
 					))}</div>}
 					{scriptResource.status === "ready" && !localLines.length && <p className="mao-empty">No passages in this script match the query.</p>}

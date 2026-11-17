@@ -4,6 +4,7 @@
  */
 import fs from 'fs';
 import { restoreCommandTails } from '../../../restore-command-tails.mjs';
+import { repairColorControls } from '../../../repair-color-controls.mjs';
 import path from 'path';
 import { fileURLToPath } from 'url'
 import { parseScript } from '@tsukiweb/common/tools/convert-scripts/parsers/nscriptr.ts';
@@ -477,7 +478,7 @@ async function processSingleScript(folder: string, filename: string,
 	}
 
 	let txt = fs.readFileSync(fullscriptPath, 'utf-8')
-	if (folder === 'en-mao') txt = restoreCommandTails(txt)
+	if (folder === 'en-mao') txt = repairColorControls(restoreCommandTails(txt))
 	let eroskip_pages = {}
 	let block_fixes = {}
 	let preprocess_module_path = path.join(process.cwd(), outputPathPrefix, folder, 'preprocess.js')
